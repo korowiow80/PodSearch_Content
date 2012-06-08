@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="refresh" content="5;  URL=http://www.thinprint.com">
+<title id="Title">HTTP Error 404 - This page is not available.</title>
+
+
+<style type="text/css">
+body{
+         height: 100%;
+         width: 100%;
+         color: #666666;
+         font-family: Verdana,Tahoma,Arial, sans-serif;
+         font-size: 11px;
+         font-weight: normal;
+         line-height: 130%;
+         margin: 0px;
+         padding: 0px;
+}
+
+#bodybox
+{
+	margin: auto;
+	width:1004px;
+	height:100%;
+	background: url(/error/bg_border_content.gif) repeat-y;
+}
+
+#header{
+         background: url(/error/bg_border_top.gif) no-repeat;
+         width: 100%;
+         height:50px;
+}
+
+#logo{
+         float: left;
+         margin-top: 15px;
+         margin-bottom: 15px;
+         margin-left: 15px;
+}
+
+#bottom  
+{
+    width: 100%; 
+    height: 40px; 
+    background: url(/error/bg_border_bottom.gif) no-repeat; 
+}
+
+#bottom div{
+	background-image:url(/error/footer_bg.gif); 
+	background-repeat:x-repeat;
+	padding-left:5px;
+	width:943px;
+	height:22px;
+	padding-top:4px;
+}
+
+#bottom a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#bottom a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#error_bannerbox{
+	height:130px;
+	width:984px;
+	margin-left: 10px;
+    margin-top: 0px;
+}
+
+#contentbox_left_error
+{
+	float:left;
+	width:500px;
+	margin:200px 30px 30px 0px;
+	padding-left:200px;	
+}
+
+h1{
+    font-size:18px;
+}
+
+
+
+
+h1{
+         font-size: 19px;
+         color: #ff9900;
+         line-height: 130%;
+         font-weight: normal;
+         padding-bottom: 2px;
+         margin-bottom: 15px;
+}
+
+a, a:hover
+{
+	color:#ff6600;	
+	text-decoration:none;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="bodybox">
+	<div id="header">
+		
+		<div id="topbox">
+			<div id="logo">
+			    <a href="http://www.thinprint.com"><img id="logo" src="/error/logo.gif" style="border-width: 0px;"></a>
+			</div>
+
+		</div>
+	    
+		<div id="default_bannerbox">
+	        
+	        <div id="error_bannerbox"><img src="/error/lettern_banner_984x130.jpg" border="0"></div>
+		
+		</div>
+	
+	</div>
+	
+
+    <div id="contentbox_left_error">
+	
+	    	 <div id="ContentPane">
+	    	    
+	    	    <h1><span id="ErrorTitle" resourcekey="ErrorTitle">HTTP Error 404<br>Sorry, this page is not available.</span></h1>
+	    	    
+                
+				You will be redirected to the ThinPrint homepage. If you are not automatically redirected, please click  <a href="http://www.thinprint.com">here</a>.
+				<br /><br />
+ 				Your ThinPrint team.
+
+	        </div>
+	
+	</div>
+	
+	<div id="bottom"><div style="float: left; margin-left: 15px;">&copy; 2009 ThinPrint AG</div></div>
+
+</div>
+
+</body>
+
+</html>

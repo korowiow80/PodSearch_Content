@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="dir="ltr" lang="de-DE""> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="dir="ltr" lang="de-DE""> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="dir="ltr" lang="de-DE""> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="de-DE">
+<!--<![endif]-->
+<head>
+<!-- Basic Page Needs
+  ================================================== -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Bastard Magazine</title>
+<!-- Embed Google Web Fonts Via API -->
+<script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Droid Serif', 'Droid Serif', 'Droid Sans', 'Droid Sans'] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+<!-- Embed Google Web Fonts Via API -->
+<link href="http://www.bastardmagazine.de/wp-content/themes/aware/css/light.css" rel="stylesheet" type="text/css" media="all" />
+<!--Skin -->
+<link href="http://www.bastardmagazine.de/wp-content/themes/aware/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--Site Layout -->
+<link rel="alternate" type="application/rss+xml" title="Bastard Magazine &raquo; Feed" href="http://www.bastardmagazine.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bastard Magazine &raquo; Kommentar Feed" href="http://www.bastardmagazine.de/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Bastard Magazine &raquo; Home Kommentar Feed" href="http://www.bastardmagazine.de/home/feed/" />
+<link rel='stylesheet' id='flick-css'  href='http://www.bastardmagazine.de/wp-content/plugins/mailchimp//css/flick/flick.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.bastardmagazine.de/?mcsf_action=main_css&#038;ver=3.3.2' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.bastardmagazine.de/wp-content/plugins/mailchimp/css/ie.css?ver=3.3.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='tfg_style-css'  href='http://www.bastardmagazine.de/wp-content/plugins/twitter-facebook-google-plusone-share/tfg_style.css?ver=3.3.2' type='text/css' media='all' />
+<!--[if IE 7]>
+<link rel='stylesheet' id='ie7-css'  href='http://www.bastardmagazine.de/wp-content/themes/aware/css/ie7.css?ver=ie7' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE 8]>
+<link rel='stylesheet' id='ie8-css'  href='http://www.bastardmagazine.de/wp-content/themes/aware/css/ie8.css?ver=ie8' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='skeleton-css'  href='http://www.bastardmagazine.de/wp-content/themes/aware/css/skeleton.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='http://www.bastardmagazine.de/wp-content/themes/aware/css/animate.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery-1.4.4.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/plugins/mailchimp/js/scrollTo.js?ver=1.2.9'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-includes/js/jquery/jquery.form.js?ver=2.73'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/www.bastardmagazine.de\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/plugins/mailchimp/js/mailchimp.js?ver=1.2.9'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/plugins/mailchimp//js/datepicker.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/modernizr-transitions.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery.scrollTo-min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/superfish.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery.easing.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery.prettyPhoto.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery.flexslider-min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery.wmuSlider.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/tabs.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/themes/aware/js/jquery.fitvids.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.bastardmagazine.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.bastardmagazine.de/wp-includes/wlwmanifest.xml" />
+<link rel='next' title='Blog' href='http://www.bastardmagazine.de/blog/' />
+<meta name="generator" content="WordPress 3.3.2" />
+<link rel='shortlink' href='http://wp.me/P2mTJ7-4' />
+<!-- All in One SEO Pack 1.6.14.3 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<meta name="description" content="we are bastards. we like monkeys, ponys, art, whisky &amp; porn." />
+<meta name="keywords" content="design,art,magazine,photography,bastard,bastards,monkeys,ponys,whisky,porn,pdf,ipad,bitches" />
+<link rel="canonical" href="http://www.bastardmagazine.de/" />
+<!-- /all in one seo pack -->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-28415829-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+		<script type="text/javascript">
+		jQuery(function($) {
+			$('.date-pick').datepicker({
+				autoFocusNextInput: true,
+				constrainInput: false,
+				changeMonth: true,
+				changeYear: true,
+				beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+				dateFormat: 'yy/mm/dd',
+			});
+			d = new Date();
+			$('.birthdate-pick').datepicker({
+				autoFocusNextInput: true,
+				constrainInput: false,
+				changeMonth: true,
+				changeYear: false,
+				minDate: new Date(d.getFullYear(), 1-1, 1),
+				maxDate: new Date(d.getFullYear(), 12-1, 31),
+				beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+				dateFormat: 'mm/dd',
+			});
+		});
+	</script>
+<!-- Facebook Like Thumbnail -->
+<link rel="image_src" href="http://www.bastardmagazine.de/wp-content/uploads/2011/12/submitnow.jpg" />
+<!-- End Facebook Like Thumbnail -->
+<link rel="shortcut icon" href="http://derbastard.com/magazine/wp-content/uploads/2012/02/favicon.png"/>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<!-- User-Defined Styles -->
+<link rel="stylesheet" href="http://www.bastardmagazine.de/index.php?ag_custom_var=css" type="text/css" />
+<!-- User-Defined Styles -->
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script type="text/javascript">
+if (typeof jQuery != 'undefined') {
+    jQuery(document).ready(function($) {
+        var filetypes = /\.(zip|exe|pdf|doc*|xls*|ppt*|mp3)$/i;
+        var baseHref = '';
+        if (jQuery('base').attr('href') != undefined)
+            baseHref = jQuery('base').attr('href');
+        jQuery('a').each(function() {
+            var href = jQuery(this).attr('href');
+            if (href && (href.match(/^https?\:/i)) && (!href.match(document.domain))) {
+                jQuery(this).click(function() {
+                    var extLink = href.replace(/^https?\:\/\//i, '');
+                    _gaq.push(['_trackEvent', 'External', 'Click', extLink]);
+                    if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                        setTimeout(function() { location.href = href; }, 200);
+                        return false;
+                    }
+                });
+            }
+            else if (href && href.match(/^mailto\:/i)) {
+                jQuery(this).click(function() {
+                    var mailLink = href.replace(/^mailto\:/i, '');
+                    _gaq.push(['_trackEvent', 'Email', 'Click', mailLink]);
+                });
+            }
+            else if (href && href.match(filetypes)) {
+                jQuery(this).click(function() {
+                    var extension = (/[.]/.exec(href)) ? /[^.]+$/.exec(href) : undefined;
+                    var filePath = href;
+                    _gaq.push(['_trackEvent', 'Download', 'Click-' + extension, filePath]);
+                    if (jQuery(this).attr('target') != undefined && jQuery(this).attr('target').toLowerCase() != '_blank') {
+                        setTimeout(function() { location.href = baseHref + href; }, 200);
+                        return false;
+                    }
+                });
+            }
+        });
+    });
+}
+</script>
+</head>
+<body class="home page page-id-4 page-template page-template-template-home-php layout-2cr unknown">
+<div class="sitecontainer">
+<noscript>
+<div class="alert">
+<p>Please enable javascript to view this site.</p>
+</div>
+</noscript>
+<!-- Preload Images
+	================================================== -->
+<div id="preloaded-images"> <img src="http://www.bastardmagazine.de/wp-content/themes/aware/images/downarrow.png" width="1" height="1" alt="Image" />
+<img src="http://www.bastardmagazine.de/wp-content/themes/aware/images/loading.gif" width="1" height="1" alt="Image" />
+<img src="http://www.bastardmagazine.de/wp-content/themes/aware/images/horizontal-loading.gif" width="1" height="1" alt="Image" />
+<img src="http://www.bastardmagazine.de/wp-content/themes/aware/images/loading-dark.gif" width="1" height="1" alt="Image" />
+<img src="http://www.bastardmagazine.de/wp-content/themes/aware/images/horizontal-loading-dark.gif" width="1" height="1" alt="Image" />
+</div>
+<!-- Primary Page Layout
+	================================================== -->
+<div id="top_panel">
+    <div id="top_panel_content" class="container clearfix">
+	<div class="topcontent">
+		<a href="http://www.bastardmagazine.de/wp-login.php">Anmelden</a>		<p><div class="one_third">
+<p>© Copyright Bastard Magazine | <a href="http://www.bastardmagazine.de/feed/" >RSS</a> | <a href="mailto:bastards@bastardmagazine.de">Email</a></p>
+<p></div> <div class="two_third column-last">
+<p style="text-align: right;"><a target="_blank" rel="nofollow" href="http://www.bastardmagazine.de/goto/http://twitter.com/bastard_mag" ><img src="http://www.designcirc.us/responsivetheme/wp-content/themes/aware/images/icons/twitter.png" style="display:inline" title="Top Panel" alt="twitter Top Panel" /></a><a target="_blank" rel="nofollow" href="http://www.bastardmagazine.de/goto/https://www.facebook.com/BastardMagazine" ><img src="http://www.designcirc.us/responsivetheme/wp-content/themes/aware/images/icons/facebook.png" style="display:inline" title="Top Panel" alt="facebook Top Panel" /></a></p>
+<p></div><div class="clear"></div></p>
+	</div>
+    </div>
+    <div id="top_panel_button">
+        <div id="toggle_button" class="uparrow"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="container clearfix navcontainer">
+    <div class="three columns fadeInDown animated logo">
+        <h1> <a href="http://www.bastardmagazine.de">
+                        <img src="http://derbastard.com/magazine/wp-content/uploads/2012/02/logo5.png" alt="Bastard Magazine" />
+                        </a> </h1>
+    </div>
+    <div class="thirteen columns fadeInDown animated">
+        <!--Start Navigation-->
+        <div class="nav">
+                        <ul id="menu-top-menu" class="sf-menu"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item menu-item-23"><a href="http://www.bastardmagazine.de/">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://www.bastardmagazine.de/blog/">Blog</a></li>
+<li id="menu-item-540" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-540"><a href="http://www.bastardmagazine.de/sort/issues/">The Magazine</a>
+<ul class="sub-menu">
+	<li id="menu-item-195" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-195"><a href="http://www.bastardmagazine.de/sort/issues/">Issues</a></li>
+	<li id="menu-item-197" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-197"><a href="http://www.bastardmagazine.de/sort/features/">Features</a></li>
+	<li id="menu-item-430" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-430"><a href="http://www.bastardmagazine.de/sort/illustration/">Illustration</a></li>
+	<li id="menu-item-431" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-431"><a href="http://www.bastardmagazine.de/sort/photography/">Photography</a></li>
+	<li id="menu-item-432" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-432"><a href="http://www.bastardmagazine.de/sort/design/">Design</a></li>
+	<li id="menu-item-198" class="menu-item menu-item-type-taxonomy menu-item-object-sort menu-item-198"><a href="http://www.bastardmagazine.de/sort/musik/">Music</a></li>
+</ul>
+</li>
+<li id="menu-item-222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222"><a href="http://www.bastardmagazine.de/about/">Information</a>
+<ul class="sub-menu">
+	<li id="menu-item-485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="http://www.bastardmagazine.de/about/">About</a></li>
+	<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319"><a href="http://www.bastardmagazine.de/history/">History</a></li>
+</ul>
+</li>
+<li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"><a href="http://www.bastardmagazine.de/contact/">Submit</a>
+<ul class="sub-menu">
+	<li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="http://www.bastardmagazine.de/contact/">Contact</a></li>
+	<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="http://www.bastardmagazine.de/submit-your-work/">Participate</a></li>
+</ul>
+</li>
+<li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="http://www.bastardmagazine.de/press/">Press</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="http://www.bastardmagazine.de/imprint/">Imprint</a></li>
+</ul>                    </div>
+        <select id="top_nav_menu" class="dropdownmenu" onchange="if(this.options[this.selectedIndex].value != &#39;&#39;){window.top.location.href=this.options[this.selectedIndex].value}"><option>Select a Page:</option><option value="http://www.bastardmagazine.de/">Home</option><option value="http://www.bastardmagazine.de/blog/">Blog</option><option value="http://www.bastardmagazine.de/sort/issues/">The Magazine</option><option value="http://www.bastardmagazine.de/sort/issues/">Issues</option><option value="http://www.bastardmagazine.de/sort/features/">Features</option><option value="http://www.bastardmagazine.de/sort/illustration/">Illustration</option><option value="http://www.bastardmagazine.de/sort/photography/">Photography</option><option value="http://www.bastardmagazine.de/sort/design/">Design</option><option value="http://www.bastardmagazine.de/sort/musik/">Music</option><option value="http://www.bastardmagazine.de/about/">Information</option><option value="http://www.bastardmagazine.de/about/">About</option><option value="http://www.bastardmagazine.de/history/">History</option><option value="http://www.bastardmagazine.de/contact/">Submit</option><option value="http://www.bastardmagazine.de/contact/">Contact</option><option value="http://www.bastardmagazine.de/submit-your-work/">Participate</option><option value="http://www.bastardmagazine.de/press/">Press</option><option value="http://www.bastardmagazine.de/imprint/">Imprint</option></select>        <!--End Navigation-->
+    </div>
+    <div class="clear"></div>
+    <div class="sixteen columns">
+        <div class="divider nomargin"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="top"> <a href="#"><img src="http://www.bastardmagazine.de/wp-content/themes/aware/images/scroll-top.png" alt="Scroll to Top"/></a>
+    <div class="clear"></div>
+    <div class="scroll">
+        <p>
+            To Top        </p>
+    </div>
+</div>
+<!-- Start Mainbody
+  ================================================== -->
+<div class="mainbody"><!-- Site Tagline
+================================================== -->
+<div class="container clearfix">
+ <div class="sixteen columns intro fadeInDown animated">
+        <h1 class="aligncenter">51% beautiful art. 49% awesome mindfuck.</h1>
+    </div>
+</div>
+<div class="container clearfix homecontent">
+    <div class="sixteen columns">
+        <p><a href="http://www.bastardmagazine.de/submit-your-work/" title="submit" ><img class="alignnone size-full wp-image-707" title="submitnow" src="http://www.bastardmagazine.de/wp-content/uploads/2011/12/submitnow.jpg" alt="submitnow Home" width="100%" /></a></p>
+<p><a href="http://www.bastardmagazine.de/portfolio/issue-1/" title="Issue #1" ><img class="alignnone size-full wp-image-573" src="http://www.bastardmagazine.de/wp-content/uploads/2011/12/home2.jpg" alt="home2 Home" width="100%" title="Home" /></a></p>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="container clearfix" id="loadingcontainer">
+	<div class="sixteen columns loadingcontainer">
+		<div class='ajaxloading'></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<!-- Load Container Post
+================================================== -->
+<div id="ajaxcontainer">
+    <div class="container clearfix" id="ajaxouter">
+        <div id="ajaxinner" data-url="http://www.bastardmagazine.de/wp-content/themes/aware/functions/ajax-open.php"></div>
+    </div>
+</div><!-- Primary Page Layout
+================================================== -->
+<div class="slideshowcontainer fadeInUp animated">
+    <!-- Filter Portfolio Items
+================================================== -->
+    <div class="container clearfix">
+        <div class="sixteen columns alpha">
+            <ul class="filter">
+                <li class="active"><a href="#">A selection of our participants</a></li>
+                <li class="segment-2"><a href="#" data-value="illustration" title="View all projects filed under Illustration">Illustration</a>
+</li>
+<li class="segment-2"><a href="#" data-value="issues" title="View all projects filed under Issues">Issues</a>
+</li>
+<li class="segment-2"><a href="#" data-value="music" title="View all projects filed under Music">Music</a>
+</li>
+<li class="segment-2"><a href="#" data-value="photography" title="View all projects filed under Photography">Photography</a>
+</li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- Filter Portfolio Items
+================================================== -->
+    <div class="container clearfix slideshow">
+    <div class="slideshowpreload"></div>
+                <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-10">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="10">Alvaro Sánchez</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/alvaro-sanchez/" data-url="10">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/01/alvaro_sanchez_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/alvaro-sanchez/" data-url="10">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/01/alvaro_sanchez_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/alvaro-sanchez/" data-url="10">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/01/alvaro_sanchez_3-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/alvaro-sanchez/" data-url="10">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/01/alvaro_sanchez_4-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                            </ul>
+            </div>
+            <div class="disable illustration "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-505">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="505">Umlala</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/umlala/" data-url="505">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/umlala_profile_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/umlala/" data-url="505">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/umlala_profile_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                    </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-508">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="508">French Films</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/french-films/" data-url="508">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/frenchfilms_profile_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/french-films/" data-url="508">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/frenchfilms_profile_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                    </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-482">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="482">Pablo Decoder</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/pablo-decoder/" data-url="482">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/pablo_profile_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                                        </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-460">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="460">Zoe.LeelA</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/zoe-leela/" data-url="460">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/zoe_01-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/zoe-leela/" data-url="460">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/zoe_03-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/zoe-leela/" data-url="460">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/zoe_04-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/zoe-leela/" data-url="460">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/zoe_02-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                            </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-394">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="394">Mihkel Uba</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/mihkel-uba/" data-url="394">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/mihkel_uba_profile-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/mihkel-uba/" data-url="394">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/mihkel_uba_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/mihkel-uba/" data-url="394">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/mihkel_uba_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/mihkel-uba/" data-url="394">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/mihkel_uba_3-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                            </ul>
+            </div>
+            <div class="disable photography "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-417">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="417">Walter Well</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/walter-well/" data-url="417">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/WalterWell_profile-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                                        </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-512">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="512">7 Dollar Taxi</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/7-dollar-taxi/" data-url="512">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/7dollartaxi_profile_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                                        </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-413">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="413">Binärpilot</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/binarpilot/" data-url="413">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/binaerpilot_profile-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                                        </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-499">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="499">Kami</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/kami/" data-url="499">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/kami_profile_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/kami/" data-url="499">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/kami_profile_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                    </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-424">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="424">Cassidy Limbach</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/cassidy-limbach/" data-url="424">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/limbach_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/cassidy-limbach/" data-url="424">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/limbach_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/cassidy-limbach/" data-url="424">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/limbach_3-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/cassidy-limbach/" data-url="424">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/limbach_4-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                            </ul>
+            </div>
+            <div class="disable illustration "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-409">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="409">The Freak Fandango Orchestra</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/the-freak-fandango-orchestra/" data-url="409">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/freakfadango_profile-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                                                        </ul>
+            </div>
+            <div class="disable music "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-43">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="43">George König</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/george-koenig/" data-url="43">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/george_koenig_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/george-koenig/" data-url="43">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/george_koenig_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/george-koenig/" data-url="43">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/george_koenig_3-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                </ul>
+            </div>
+            <div class="disable photography "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-18">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="18">Adrian Bauer</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/adrian-bauer/" data-url="18">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/adrian_bauer_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/adrian-bauer/" data-url="18">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/adrian_bauer_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/adrian-bauer/" data-url="18">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/adrian_bauer_3-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                </ul>
+            </div>
+            <div class="disable illustration "></div>
+        </div>
+                        <!-- Portfolio Item
+================================================== -->
+<div class="three columns nopadding portfolioitem" id="project-494">
+	            <div class="flexslider">
+                      			 <h4 class="thumbnailtitle" data-url="494">Eleanor Leonne Bennett</h4>
+                <ul class="slides">
+                                        <li><a href="http://www.bastardmagazine.de/portfolio/eleanor-leonne-bennett/" data-url="494">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/eleanor_profile_1-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/eleanor-leonne-bennett/" data-url="494">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/eleanore-profile_2-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                            <li><a href="http://www.bastardmagazine.de/portfolio/eleanor-leonne-bennett/" data-url="494">
+                        <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/eleanore_profile_3-301x251.png" alt="" class="scale-with-grid"/>
+                        </a></li>
+                                                                                                </ul>
+            </div>
+            <div class="disable photography "></div>
+        </div>
+                        <div class="clear"></div>
+    </div>
+</div>
+<!-- Load Container Post
+<div id="ajaxcontainer">
+    <div class="container clearfix" id="ajaxouter">
+        <div id="ajaxinner" data-url="'.get_template_directory_uri().'/functions/ajax-open.php"></div>
+    </div>
+</div> -->
+<!-- Home Content Area
+================================================== -->
+<div class="container clearfix homecontent">
+    <div class="four columns newspost">
+        <h4>we are bastards. </h4>
+        <p><strong>we like monkeys, ponys, art, whisky & porn.</strong>
+<br>
+<br>
+To get all the latest news about the magazine, check our Blog.</p>
+		        <p><a  class="button" href="http://www.bastardmagazine.de/blog/" alt="Blog Posts">Blog</a></p>
+    </div>
+        <div class="four columns widget news-widget-item">
+    	<div class="homeblogitem">
+        <div class="homeblogimage">
+                        <a title="Permanent Link to How do you convert a concert to JPG?" href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/">
+            <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/05/2012-05-24-21.19.44-420x246.jpg" class="scale-with-grid wp-post-image" alt="2012-05-24 21.19.44" title="2012-05-24 21.19.44" />            </a>
+                    </div>
+        <h4 class="posttitle"><a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/" rel="bookmark" title="Permanent Link to How do you convert a concert to JPG?">
+            How do you convert a concert to JPG?            </a></h4>
+            <h5><a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/">27th Mai 2012</a> by <a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/">Jochen</a></h5><!--Misc Info-->
+        <!--Blog Post Title-->
+        <!--Blog Excerpt-->
+        <p>So, the Bastard Magazine team went to cologne to join Umlala live in concert in a very tiny club called &#8220;Stereo Wonderland&#8221;. As the location was really small, there was very little audience, which gave the performance a really personal touch.</p>
+<p> <a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/"  class="more-link">Read more&#8230;</a></p>
+    </div>
+    </div>
+        <div class="four columns widget news-widget-item">
+    	<div class="homeblogitem">
+        <div class="homeblogimage">
+                        <a title="Permanent Link to Souldout release new track" href="http://www.bastardmagazine.de/sould-release-new-track/">
+            <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/05/souldout-420x246.jpg" class="scale-with-grid wp-post-image" alt="souldout" title="souldout" />            </a>
+                    </div>
+        <h4 class="posttitle"><a href="http://www.bastardmagazine.de/sould-release-new-track/" rel="bookmark" title="Permanent Link to Souldout release new track">
+            Souldout release new track            </a></h4>
+            <h5><a href="http://www.bastardmagazine.de/sould-release-new-track/">11th Mai 2012</a> by <a href="http://www.bastardmagazine.de/sould-release-new-track/">Jochen</a></h5><!--Misc Info-->
+        <!--Blog Post Title-->
+        <!--Blog Excerpt-->
+        <p>Sexy duo par excellence Soldout are back to business with Wazabi, an unstoppable electro hymn that confirms David and Charlotte are refreshingly unpredictable.</p>
+<p>With Wazabi, only available on digital platforms, Soldout brings Cabaret Voltaire, The Knife and Ryuichi Sakamoto together on the dance floor with a resolute contemporary sound.</p>
+<p> <a href="http://www.bastardmagazine.de/sould-release-new-track/"  class="more-link">Read more&#8230;</a></p>
+    </div>
+    </div>
+        <div class="four columns widget news-widget-item">
+    	<div class="homeblogitem">
+        <div class="homeblogimage">
+                        <a title="Permanent Link to Interview: Umlala" href="http://www.bastardmagazine.de/interview-umlala/">
+            <img src="http://www.bastardmagazine.de/wp-content/uploads/2012/05/CloseUp-Omri-Barel-420x246.jpg" class="scale-with-grid wp-post-image" alt="CloseUp Omri Barel" title="CloseUp Omri Barel" />            </a>
+                    </div>
+        <h4 class="posttitle"><a href="http://www.bastardmagazine.de/interview-umlala/" rel="bookmark" title="Permanent Link to Interview: Umlala">
+            Interview: Umlala            </a></h4>
+            <h5><a href="http://www.bastardmagazine.de/interview-umlala/">9th Mai 2012</a> by <a href="http://www.bastardmagazine.de/interview-umlala/">Jörn</a></h5><!--Misc Info-->
+        <!--Blog Post Title-->
+        <!--Blog Excerpt-->
+        <p>Maybe <a target="_blank" rel="nofollow" href="http://www.bastardmagazine.de/goto/http://umlala.bandcamp.com/"  target="_blank">UMLALA</a> is the first big indie rock band  from Israel. Their first album &#8220;Stand Go Show Shout&#8221;, which will be released on May 18th, is a mix of indie, meth, rock, hip-hop, classic and hype-rock with a little bit of naive, young freshness &#8211; but harder than expected.</p>
+<p> <a href="http://www.bastardmagazine.de/interview-umlala/"  class="more-link">Read more&#8230;</a></p>
+    </div>
+    </div>
+        <div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!-- Close Mainbody and start footer
+  ================================================== -->
+<div class="clear"></div>
+<div id="footer">
+    <div class="container clearfix">
+    	<div class="four columns"><div id="ag_twitter_widget-7" class="widget ag_twitter_widget">
+            <h4 class="widget-title">Latest tweets</h4>
+<div id="twitter_div">
+                <ul id="twitter_update_list">
+                    <li>&nbsp;</li>
+                </ul>
+</div>
+            <a href="http://www.twitter.com/bastard_mag" class="button small">Follow us.</a>
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/bastard_mag.json?callback=twitterCallback2&count=3"></script>
+</div></div>
+        <div class="four columns"><div id="recent-comments-5" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><a target="_blank" rel="nofollow" href="http://www.bastardmagazine.de/goto/http://www.kai-rauer.de"  rel='external nofollow' class='url'>Kai</a> bei <a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/#comment-124">How do you convert a concert to JPG?</a></li><li class="recentcomments"><a target="_blank" rel="nofollow" href="http://www.bastardmagazine.de/goto/http://yasemin104.blogspot.de"  rel='external nofollow' class='url'>Yasemin104</a> bei <a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/#comment-121">How do you convert a concert to JPG?</a></li><li class="recentcomments"><a target="_blank" rel="nofollow" href="http://www.bastardmagazine.de/goto/http://www.fotosbruder.de/blog"  rel='external nofollow' class='url'>Holger</a> bei <a href="http://www.bastardmagazine.de/how-do-you-convert-a-concert-to-jpg/#comment-118">How do you convert a concert to JPG?</a></li></ul></div> </div>
+        <div class="four columns"><div id="mailchimpsf_widget-2" class="widget widget_mailchimpsf_widget"><h3 class="widget-title">SUBSCRIBE TO OUR MAILING LIST</h3>
+<div id="mc_signup">
+	<form method="post" action="#mc_signup" id="mc_signup_form">
+		<input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html" />
+		<input type="hidden" name="mcsf_action" value="mc_submit_signup_form" />
+		<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="9ee5d4d6d3" />
+	<div class="mc_form_inside">
+		<div class="updated" id="mc_message">
+					</div><!-- /mc_message -->
+<div class="mc_merge_var">
+		<label for="mc_mv_EMAIL" class="mc_var_label">Email Address</label>
+	<input type="text" size="18" value="" name="mc_mv_EMAIL" id="mc_mv_EMAIL" class="mc_input"/>
+</div><!-- /mc_merge_var -->
+		<div class="mc_signup_submit">
+			<input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="subscribe" class="button" />
+		</div><!-- /mc_signup_submit -->
+	</div><!-- /mc_form_inside -->
+	</form><!-- /mc_signup_form -->
+</div><!-- /mc_signup_container -->
+	</div><div id="search-5" class="widget widget_search"><h3 class="widget-title">Search</h3><!--Searchbox-->
+        <form method="get" id="searchbox" action="http://www.bastardmagazine.de/">
+            <fieldset>
+                <input type="text" name="s" id="s" value="To search type and hit enter..." onfocus="if(this.value=='To search type and hit enter...')this.value='';" onblur="if(this.value=='')this.value='To search type and hit enter...';"/>
+            </fieldset>
+        </form>
+<!--Searchbox--></div></div>
+        <div class="four columns"><div id="ag_recentprojects_widget-5" class="widget ag_recentprojects_widget">
+            <h3>Recent Artists</h3>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/honningbarna/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/honningbarna_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="honningbarna_profile_1" title="honningbarna_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/7-dollar-taxi/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/7dollartaxi_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="7dollartaxi_profile_1" title="7dollartaxi_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/french-films/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/frenchfilms_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="frenchfilms_profile_1" title="frenchfilms_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/umlala/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/umlala_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="umlala_profile_1" title="umlala_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/nias/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/nias_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="nias_profile_1" title="nias_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/kami/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/kami_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="kami_profile_1" title="kami_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/eleanor-leonne-bennett/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/eleanor_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="eleanor_profile_1" title="eleanor_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/pablo-decoder/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/pablo_profile_2-56x56.png" class="scale-with-grid wp-post-image" alt="pablo_profile_2" title="pablo_profile_2" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/inborn/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/inborn_profil_1-56x56.png" class="scale-with-grid wp-post-image" alt="inborn_profil_1" title="inborn_profil_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/cindy-schmid/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/cindy_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="cindy_profile_1" title="cindy_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/joni-belaruski/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/joni_profile_1-56x56.png" class="scale-with-grid wp-post-image" alt="joni_profile_1" title="joni_profile_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/zoe-leela/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/zoe_01-56x56.png" class="scale-with-grid wp-post-image" alt="zoe_01" title="zoe_01" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/cassidy-limbach/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/limbach_1-56x56.png" class="scale-with-grid wp-post-image" alt="limbach_1" title="limbach_1" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/walter-well/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/WalterWell_profile-56x56.png" class="scale-with-grid wp-post-image" alt="WalterWell_profile" title="WalterWell_profile" /></a>
+</div>
+<div class="recent-project">
+        <a href="http://www.bastardmagazine.de/portfolio/binarpilot/" class="hover"><img src="http://www.bastardmagazine.de/wp-content/uploads/2012/02/binaerpilot_profile-56x56.png" class="scale-with-grid wp-post-image" alt="binaerpilot_profile" title="binaerpilot_profile" /></a>
+</div>
+<div class="clear"></div>
+</div></div>
+        <div class="clear"></div>
+	</div>
+    <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<!--Custom Javascript Calls-->
+<script type="text/javascript" src="http://www.bastardmagazine.de/index.php?ag_customjs_var=js"></script>
+<!-- Theme Hook -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-28415829-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?aa&#038;ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.bastardmagazine.de/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.3.2'></script>
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://apis.google.com/js/plusone.js?ver=3.3.2'></script>
+	<script src="http://stats.wordpress.com/e-201223.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:1.3',blog:'35010105',post:'4'});
+	var load_cmc = function(){linktracker_init(35010105,4,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+</div>
+<!-- Close Site Container
+  ================================================== -->
+</body>
+</html>

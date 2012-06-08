@@ -1,0 +1,44 @@
+<!--
+	top.location="http://www.radiopodcastlive.net/?fp=UaW3dN%2FTDI1aVfyQ79%2FL9VihQEarnSClE8m2oxsSQF%2BO%2FU91vywAm3lVXLBp7TtSGL1Bju7ZSdFvykUdwEERsg%3D%3D&prvtof=2z5p2FYYomXWjG9Kmg1JsSmWRmxNT80WLVaGaQL139A%3D&poru=sgFCeq%2Bcwjq87S0uk9cxAip0%2B9hf%2BCm3fBhwpYLHFBv4r1heug8CCSaTT6eYx9l4FhqAUnueT5xD0guRdMaHXOf6YXcgrq9r97zL76vUX9c%3D&cifr=1&";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://www.radiopodcastlive.net/?fp=UaW3dN%2FTDI1aVfyQ79%2FL9VihQEarnSClE8m2oxsSQF%2BO%2FU91vywAm3lVXLBp7TtSGL1Bju7ZSdFvykUdwEERsg%3D%3D&prvtof=fa54A5Un0S6KowpoJIMJ38tAwrhHCt%2B%2Bs%2BL%2B4hnbRMs%3D&poru=uZjIHryKtOMzm0HMxLNdeUNe%2FQAIcTCiAM3lN3MFakgeEkhSvAvzdvO5nKSqMTI64I5WOvwG3pUYCea3wRliwim%2BlZFDw8iZFdY5RFVeMBU%3D&cifr=1&";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://www.radiopodcastlive.net/?fp=UaW3dN%2FTDI1aVfyQ79%2FL9VihQEarnSClE8m2oxsSQF%2BO%2FU91vywAm3lVXLBp7TtSGL1Bju7ZSdFvykUdwEERsg%3D%3D&prvtof=Dm4EJmCVRzPgAs9MePZs00Ubt7FFl3gpnM%2FFuf9%2FzQ4%3D&poru=Uilwe6vAA6gr2tX8UDLx5w5tFjiNDTAQOQbOsPYE0fS0n3yX2CV5Ic0CcFYEwBZaFYaGljZlTad1ZJTr9TPohRPgvCcxuWCrd4t2fs%2FTny8%3D&">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://www.radiopodcastlive.net/?fp=UaW3dN%2FTDI1aVfyQ79%2FL9VihQEarnSClE8m2oxsSQF%2BO%2FU91vywAm3lVXLBp7TtSGL1Bju7ZSdFvykUdwEERsg%3D%3D&prvtof=No6%2F02iy3Rb3EjW58RV%2BepPk9YmXqocXcM814MCgOs0%3D&poru=Ih7YKxBpJugIkKDUrp4EYutrsBCIsPC%2FbsxkK6LSOJ36MxITu8zGUYjhTQ8UzkCI8z%2FWJDoihp%2FrCs8kn%2BO2tpHScNP72rdQX3RhxFRkA%2Bk%3D&">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->

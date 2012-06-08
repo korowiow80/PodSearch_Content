@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE>Redirecting to FeaturePlan</TITLE>
+</HEAD>
+	<BODY>
+		Redirecting to https...
+	</BODY>
+</HTML>
+
+<SCRIPT type=text/javascript>
+if (location.protocol != 'https:')
+{
+
+window.location = 'https://'+ location.host + location.pathname + location.search;
+}
+</SCRIPT> 

@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <!-- 
+        requestURL: http://www.pironet-ndh.com/error/notFound.html
+        currentRequestUrl: http://www.pironet-ndh.com/podcast/xml/podcast.xml
+        -->
+                                <title>CMS Pirobase® Smart View</title>
+        <base href="http://www.pironet-ndh.com/error/error/error.vm">
+        <script type="text/javascript">
+            function toggleDiv(divId) {
+            	var div = document.getElementById(divId);
+            	
+            	if (div.style.display == "none") {
+            		div.style.display = "block";
+            	} else {
+            		div.style.display = "none";
+            	}
+            }
+        </script>
+        <link rel="stylesheet" type="text/css" href="/svcommon/css/styles.css">
+    </head>
+        
+       <body class="bodyContent">
+        <div align="center" style="margin-top: 15px;">
+          <div class="errorLink link-datacenter">
+            <a href="http://www.pironet-ndh.com/itk">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a>
+          </div>
+          <div class="errorLink link-ag">
+            <a href="http://www.pironet-ndh.com">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </a>
+          </div>
+          
+            <img src="/svcommon/img/404-Page-kombi.jpg">
+        </div>
+    </body>
+</html>

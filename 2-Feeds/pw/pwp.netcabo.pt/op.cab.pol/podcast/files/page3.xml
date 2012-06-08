@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="google" value="notranslate" />
+<title>ZON Residencial</title>
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <!--<link rel="stylesheet" href="css/style.css">-->
+  <!--<link rel="stylesheet" href="css/grid.css"/>-->
+  <link rel="stylesheet" href="/404/css/style.css" type="text/css" media="screen" />
+  <link rel="icon" 
+      type="image/vnd.microsoft.icon"
+      href="/404/favicon.ico">
+  <!-- end CSS-->
+
+	<script language="javascript" type="text/javascript">  
+	function Delayer()  
+	{  
+	setTimeout('Redirection()', 2000);  
+	}  
+	function Redirection()  
+	{  
+	window.location="http://www.zon.pt/pages/HomePage.aspx";  
+	}  
+	</script>
+  
+</head>
+<body onload="Delayer();">
+
+	<div id="page" style="text-align:center;">
+		<div id="four-header">
+			<h1 class="visuallyhidden"><a href="#" title="Regressar à homepage da ZON">ZON</a></h1>
+            <!-- link back to homepage, SiteLogoImage gets replaced by the Site Icon, you can hard code this so that its not overridden by the Site Icon or even remove -->
+            	<div class="s4-notdlg">
+                <!-- NOTE: any time you see s4-notdlg, this element will be hidden from SharePoint dialog windows  -->
+                	<a href="http://www.zon.pt/Pages/HomePage.aspx" title="Regressar à homepage da ZON" >
+                		<span class="logo">
+                    		<img alt="Logótipo da ZON" src="/404/img/logo-cores.png">
+                    	</span>
+                    </a>
+                 </div><!-- /end .s4-notdlg -->
+		</div><!-- /end #four-header -->
+		
+		<div id="four-content">
+			<p class="subtitle">ERROR PAGE</p>
+			<p class="title">PÁGINA NÃO ENCONTRADA</p>
+			<div class="main-content">
+				<img src="/404/img/404.png" alt="Erro 404">
+			</div><!-- /end.main-content -->
+			
+			<div class="main-channels">
+				<ul>
+					<li><a href="http://www.zon.pt/tv/" title=""><img src="/404/img/tv.png" alt="Oferta Televisão"></a></li>
+					<li><a href="http://www.zon.pt/telefone/" title=""><img src="/404/img/phone.png" alt="Oferta Phone"></a></li>
+					<li><a href="http://www.zon.pt/net/" title=""><img src="/404/img/net.png" alt="Oferta Net"></a></li>
+					<li><a href="http://www.zon.pt/telemovel/" title=""><img src="/404/img/mobile.png" alt="Oferta Mobile"></a></li>
+				</ul>	
+			</div><!-- /end.main-channels -->
+			<div class="main-links">
+				<ul>
+					<li><a href="http://www.zon.pt" title="">casa</a> | </li>
+					<li><a href="http://www.zonempresas.pt" title="">empresas</a> | </li>
+					<li><a href="http://www.zonlusomundo.pt/" title="">cinemas</a></li>
+				</ul>	
+			</div><!-- /end.main-links1 -->
+			<div class="main-links">
+				<ul>
+					<li><a href="http://www.zonline.pt/" title="">ZON online</a> | </li>
+					<li><a href="https://www.myzon.pt/" title="">área de cliente</a> | </li>
+					<li><a href="http://www.zon.pt/institucional/" title="">investidores</a></li>
+				</ul>	
+			</div><!-- /end.main-links1 -->
+		
+		</div><!-- /end #four-content -->
+		
+	</div><!-- /end #page -->
+	
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try{
+	var pageTracker = _gat._getTracker("UA-350222-40");
+	pageTracker._trackPageview();
+	} catch(err) {}
+	</script>
+	
+</body>
+</html>

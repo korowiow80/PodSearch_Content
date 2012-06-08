@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Blogger Alliance | 404 Not Found</title>
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="y_key" content="35e3d54a9cc31f40" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  
+<link rel="index" href="http://blog.livedoor.com/" title="トップページ">
+<link rel="help"  href="http://help.blogpark.jp/" title="ヘルプページ">
+
+<link rel="stylesheet"
+      href="http://parts.blog.livedoor.jp/blog_portal/pc/css/blog_portal.css"
+      type="text/css"
+      class="pc">
+<link rel="stylesheet"
+      href="http://parts.blog.livedoor.jp/css/errors/not-found.css"
+      type="text/css"
+      class="pc">
+  
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/micro_template.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/jquery.jscrollpane.min.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/blog_portal/pc/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/blog_portal/pc/js/handlebars-1.0.0.beta.6.js"></script>
+
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/errors/not-found.js"></script>
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/errors/fill-search.js"></script>
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://parts.blog.livedoor.jp/blog_portal/pc/css/blog_portal_ie.css" type="text/css" class="pc">
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/blog_portal/pc/js/html5.js"></script>
+<![endif]-->
+
+
+</head>
+<body id="notFound" class="errors">
+
+<div id="globalContainer">
+
+<header id="globalHeader">
+<div class="inner">
+	<ul class="list livedoor">
+		<li class="logoLD"><a href="http://blog.livedoor.com/">livedoor Blog</a></li>
+		<li class="pc"><a href="http://blog.livedoor.jp/staff/">お知らせ</a></li>
+		<li class="pc"><a href="http://help.blogpark.jp/">ヘルプ</a></li>
+	</ul>
+	<ul class="list asp">
+		<li class="logoASP"><a href="http://blogger-alliance.com/">Blogger Alliance</a></li>
+		<li class="aspPortal pc"><a href="" class="url"><span class="name"/></a></li>
+		<li class="pc"><a href="http://blog.blogpark.jp/">お知らせ</a></li>
+	</ul>
+</div>
+</header>
+
+<div id="containerWrap">
+  <div id="topContainer">
+    <div class="topContainerInner">
+      <!-- 404 message -->
+      <div class="mainWrapper">
+        <div  id="message" class="main">
+          <div class="content">
+            <h1>404 Not Found</h1>
+            <p class="message blog">この記事は存在しないか、すでに削除されています。</p>
+            <p class="message noblog">指定したページまたはファイルは存在しません。</p>
+            <p class="subtxt noblog">ＵＲＬ、ファイル名にタイプミスがないかご確認ください。<br>
+            指定されたページは削除されたか、移動した可能性があります。</p>
+            
+            <ul>
+              <li class="back history">
+                <a href="">前のページに戻る</a>
+              </li>
+              <li class="back top">
+                <a href="/">トップに戻る</a>
+              </li>
+              <li class="back livedoor">
+                <a href="http://blog.livedoor.com/">ライブドアブログへ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- ARMS (SP1) -->
+        <div class="main arms lite" id="armssp1"></div>
+        
+        <div id="search" class="main">
+          <h2>さらに検索</h2>
+          <p class="subtxt">お探しの記事が見つからない時はlivedoor検索にお任せください。</p>
+          <form action="http://livedoor-search.naver.jp/"
+                method="get"
+                name="search-form"
+                class="searchForm"
+                id="search-form">
+            <input type="hidden" id="search-c" value="ld_blog_sb" name="c" />
+            <input type="hidden" value="livedoor" name="o_st" />
+            <input type="hidden" value="lbg_mor.err" name="sm" />
+            <input type="text" id="q" class="q" value="" name="q" />
+            <input type="submit" class="bt" value="検索" name="search_btn" />
+          </form>
+          <p class="powered">powered by NAVER</p>
+        </div>
+        <div id="recommend" class="main">
+          <h2>編集部おすすめブログ</h2>
+          <div id="topRecommend">
+            <ul class="list">
+            </ul>
+          </div>
+          <script type="text/html" id="recommendTmpl">
+            <li class="typeNews">
+              <div class="inner">
+                <a href="<%== item.url %>">
+                <div class="article">
+                  <img src="<%== item.first_image_url_210x150 %>"
+                       width="190" height="140"
+                       class="recommendImage"/>
+                  <span class="ttlBg"></span>
+                  <p class="ttl"><%== item.title %></p>
+                  <% if(isSmartphone){ %>
+                  <p class="blogttl"><%== item.blog.title %></p>
+                  <% } %>
+                </div>
+                </a>
+              </div>
+            </li>
+          </script>
+          <div class="more">
+            <a href="http://blog.livedoor.com/recommend/">もっと読む</a>
+          </div>
+        </div>
+        <!-- ARMS(PC) -->
+        <div class="main arms pc" id="armspc"></div>
+        <!-- ARMS(SP2) -->
+        <div class="main arms lite" id="armssp2"></div>
+      </div>
+      <div class="sideWrapper">
+        <!-- recent articles-->
+        <div id="recent" class="side">
+          <h2>新着記事</h2>
+          <div>
+            <ul class="list">
+            </ul>
+            <div>
+              <a class="top link" href="/">もっと読む</a>
+            </div>
+          </div>
+          <script type="text/html" id="recentArticlesTmpl">
+            <li>
+              <a href="<%== url %>">
+              <div class="thumb"><img src="<%== image %>" width="36" height="36"/></div>
+              <div class="text">
+                <% if (relative) { %>
+                <p class="relative <%== relative.styleClass %>"><%== relative.label %></p>
+                <% } %>
+                <p class="title"><%== title %></p>
+                <% if (!relative) { %>
+                <p class="date"><%== date %></p>
+                <% } %>
+              </div>
+              </a>
+            </li>
+          </script>
+        </div>
+        <!-- blog news -->
+        <div id="news" class="side">
+          <h2>ブログニュース</h2>
+          <div id="newsTab">
+            <ul class="tab">
+            </ul>
+          </div>
+          <div>
+            <ul class="list">
+            </ul>
+          </div>
+          <script type="text/html" id="newsTmpl">
+            <% if(image){ %>
+            <li class="img">
+              <a href="<%== url %>">
+              <div class="thumb"><img src="<%== image.url %>" height="58" width="96"/></div>
+              <div class="txt"><span><%== title %></span></div>
+              </a>
+            </li>
+            <% } else{ %>
+            <li>
+              <a href="<%== url %>"><%== title %></a>
+            </li>
+            <% } %>
+          </script>
+        </div>
+        <!-- ARMS (SP3)-->
+        <div class="arms side lite" id="armssp3"></div>
+      </div>
+    </div><!-- .inner -->
+  </div><!-- #topContainer -->
+</div><!-- #containerWrap -->
+
+<footer id="globalFooter">
+  <div class="inner livedoor pc">
+  	<ul class="list">
+    	<li><a href="http://www.livedoor.com/">livedoorトップ</a></li>
+    	<li><a href="http://recruit.livedoor.com/">採用情報</a></li>
+    	<li><a href="http://docs.livedoor.com/ad/">広告掲載</a></li>
+    	<li><a href="http://docs.livedoor.com/info/kiyaku.html">利用規約</a></li>
+    	<li><a href="http://docs.livedoor.com/info/privacy.html">プライバシーポリシー</a></li>
+  	</ul>
+  	<p class="copyright">&copy; NHN Japan Corp. All rights reserved.</p>
+  </div>
+  <div class="inner livedoor lite">
+    <ul class="list">
+      <li><a href="http://blog.blogpark.jp/">お知らせ</a></li>
+      <li><a href="http://blog.livedoor.jp/staff/">開発日誌</a></li>
+      <li><a href="http://twitter.com/livedoorblog">公式Twitter</a></li>      
+    </ul>
+
+    <ul>
+      <li><a href="http://docs.livedoor.com/info/kiyaku.html">利用規約</a></li>
+      <li><a href="http://docs.livedoor.com/info/privacy.html">プライバシー</a></li>
+      <li><a href="http://blog.livedoor.jp/staff-smartphone_help/lite/">ヘルプ</a></li>
+      <li><a href="http://docs.livedoor.com/info/privacy.html">ガイドライン</a></li>
+    </ul>
+    
+    <p class="copyright">&copy; NHN Japan Corp. All rights reserved.</p>
+    <ul>
+    	<li><a href="http://www.livedoor.com/">livedoor</a></li>
+    </ul>
+
+  </div>
+  <div class="inner asp">
+    <p>Powered by <a href="http://blogger-alliance.com/">Blogger Alliance</a></p>
+  </div>
+   
+  
+</footer>
+
+</div><!-- #globalContainer -->
+
+<script type="text/javascript" src="http://parts.blog.livedoor.jp/js/analytics.js"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1638469-11");
+pageTracker._initData();
+pageTracker._trackPageview();
+try {
+   var client = new LDUserAttrClient();
+   if ( (typeof client.attr.sex != 'undefined') &&
+        (typeof client.attr.age != 'undefined') ) {
+        pageTracker._setVar(client.attr.sex + '/' + client.attr.age);
+   }
+} catch(err) {}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Home - EarthNews Journal</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<meta name="keywords" content="Jerry Kay, Chris Kay, Media Interchange, Kay Productions, EarthNews Radio, EarthNews TV, Beyond Organic, Science in Action, Environmental News Network, Teen Environmental Media Network, Environmental Podcasts, The Estuary Report, San Francisco Estuary Partnership, Switzer Network News, Thank You Ocean, Marin G Channel, Your Wetlands, Botanical Buzz,  Monterey Bay Aquarium, Aquarium of the Air" />
+
+<meta name="description" content="EarthNews Journal is a gallery of environmental audio and video reports produced by Jerry Kay and Chris Kay." />
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,bold' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="ccgallery-html5-multimedia-gallery/Source/css/League-Gothic/stylesheet.css" />
+<link rel="stylesheet" href="ccgallery-html5-multimedia-gallery/Source/css/reset.css" />
+<link rel="stylesheet" href="ccgallery-html5-multimedia-gallery/Source/css/style.css" />
+<link rel="stylesheet" href="ccgallery-html5-multimedia-gallery/Source/mediaelement/mediaelementplayer.min.css" />
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="_enj.css" />
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+
+<div id="headertitle"><h1><a href="index.php" title="earthnews journal home">earthnews journal - environmental intelligence. journalistic excellence.</a></h1></div> <!-- headertitle -->
+
+</div> <!-- header -->
+
+<div id="clearboth;"></div>
+
+<div id="toplinks"><a href="index.php">HOME</a> <a href="about.php">ABOUT</a> <a href="who-we-are.php">WHO WE ARE</a> <a href="earthnews-fund.php">EARTHNEWS FUND</a> <a href="contact.php">CONTACT</a></div> <!-- headerlinks -->
+
+<div id="mainbody">
+<h2>Stories from a Small Planet</h2>
+
+<!-- begin multimedia gallery code -->
+
+<div id="ccgallery" data-autoplay="true" style="margin-left: -20px;">
+		<menu type="toolbar">
+			<div class="buttonset" id="displayButtons">				
+				<a class="navbuttons active" id="gocoverflow">Coverflow</a>
+				<a class="navbuttons" id="gothumbs">Thumbnails</a>
+			</div> 
+  		</menu>		
+		
+		<section class="displayStyle" id="coverflowGallery">
+			<div id="coverContainer"></div>
+			
+			<div id="scroll-wrap">
+				<a id="next"></a>
+				<div id="scrollbar-track">
+					<a href="#" class="ui-slider-handle"></a>
+				</div>
+				<a id="prev"></a>
+			</div>
+			
+			<div id="listWrapper">
+				<ol id="itemList"></ol>
+			</div>
+		</section>  <!-- end #coverflowGallery -->
+		
+		<section class="displayStyle" id="thumbGallery">
+			<ul></ul>
+		</section>  <!-- end #thumbGallery -->
+</div>  <!-- end #ccgallery -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>!window.jQuery && document.write('<script src="js/jquery-1.7.min.js"><\/script>')</script>
+<script src="ccgallery-html5-multimedia-gallery/Source/js/jquery.mousewheel.min.js"></script>
+<script src="ccgallery-html5-multimedia-gallery/Source/js/jquery-ui-1.8.16.slider.min.js"></script>
+<script src="ccgallery-html5-multimedia-gallery/Source/js/jquery.quicksand.min.js"></script>
+<script src="ccgallery-html5-multimedia-gallery/Source/mediaelement/mediaelement-and-player.min.js"></script>
+<script src="ccgallery-html5-multimedia-gallery/Source/js/innershiv.min.js"></script>
+<script src="ccgallery-html5-multimedia-gallery/Source/js/jquery.ccgallery.min.js"></script>
+
+<!-- end multimedia gallery code -->
+
+<h2>EarthNews Journal Series</h2>
+
+<div id="serieslogos">
+
+<a href="about.php#TER"><img src="images/the-estuary-report.png" alt="The Estuary Report" width="120" height="120" border="0"></a>
+<a href="about.php#SNN"><img src="images/switzer-network-news.png" alt="Switzer News Network" width="120" height="120"></a>
+<a href="about.php#TYO"><img src="images/thank-you-ocean.png" alt="Thank You Ocean" width="120" height="120"></a>
+<a href="about.php#AOA"><img src="images/monterey-bay-aquarium.png" alt="Monterey Bay Aquarium Aquarium of the Air" width="120" height="120"></a>
+<a href="about.php#YW"><img src="images/your-wetlands.png" alt="Your Wetlands" width="120" height="120"></a>
+<a href="about.php#BB"><img src="images/botanical-buzz.png" alt="Botanical Buzz" width="120" height="120"></a>
+
+
+<!-- <br />
+
+<a href="http://yourwetlands.org/podcast/" target="_blank"><img src="images/your-wetlands.png" alt="Your Wetlands" width="130" height="130"></a>
+<a href="http://www.montereybayaquarium.org/vi/vi_tips/walking_tour1.aspx" target="_blank"><img src="images/monterey-bay-aquarium-waliking-tours.png" alt="Monterey Bay Aquarium Walking Tours" width="130" height="130"></a> -->
+</div>
+
+</div> <!-- mainbody -->
+
+<div id="footer">
+
+<div id="footersocial">
+<img src="images/facebook.png" alt="facebook">
+<img src="images/twitter.png" alt="twitter">
+</div><!-- footersocial -->
+
+<div id="footerlinks"><a href="index.php">HOME</a> <a href="about.php">ABOUT</a> <a href="who-we-are.php">WHO WE ARE</a> <a href="earthnews-fund.php">EARTHNEWS FUND</a> <a href="contact.php">CONTACT</a></div> <!-- footerlinks -->
+
+</div> <!-- footer -->
+
+<div id="copyright">&copy; 2012 EarthNews Journal. All rights reserved.</div>
+
+<div id="brandingweb"><a href="http://ivarson.com/" target="_blank">Branding and Web Design: Jeff Ivarson/Ivarson Brand Vision</a> | <a href="http://aviandesign.net/" target="_blank">Web Developer:  Charles Fox / Avian Design</a></div>
+
+</div> <!-- wrapper -->
+</body>
+</html>

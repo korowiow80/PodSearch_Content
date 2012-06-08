@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+<meta charset="UTF-8" />
+<title>TCPLife.de | Mac OS X | iPhone | iPad | Windows | Ubuntu | Musik</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://tcplife.de/wp-content/themes/twentyten/style.css" />
+<link rel="pingback" href="http://tcplife.de/xmlrpc.php" />
+
+	<style type="text/css">
+		div#fancybox-close{right:-15px;top:-12px}
+		div#fancybox-content{border-color:#FFFFFF}
+		div#fancybox-title{background-color:#FFFFFF}
+		div#fancybox-outer{background-color:#FFFFFF}
+		div#fancybox-title-inside{color:#333333}
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="TCPLife.de &raquo; Feed" href="http://tcplife.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="TCPLife.de &raquo; Kommentar Feed" href="http://tcplife.de/comments/feed/" />
+<style type="text/css" media="screen">
+	/*<![CDATA[*/
+	form dl, dl.labels {
+		margin:0em;
+		font-size:100%;
+		margin-top:0.5em
+	}
+
+	form dt, dl.labels dt {
+		float:left;
+		width:7em;
+		margin-bottom:0.8em;
+		color:#555;
+		text-align:right;
+		font-weight:400;
+		position:relative /*IEWin hack*/
+	}
+
+	form dd, dl.labels dd {
+		margin-left:7.5em;
+		margin-bottom:0.8em;
+		font-size:100%;
+		font-style:normal;
+		text-align:left;
+		padding-left:0.5em
+	}
+	
+	form dd.submit, dl.labels dd.submit  {
+		margin-top:2em
+	}
+	
+	.error_msg {
+		font-weight:700;
+		color:#C33;
+	}
+	
+	.pxs_css_spamcheck {
+		display: none !important;
+	}
+	/*]]>*/
+</style>
+<link rel='stylesheet' id='fancybox-css'  href='http://tcplife.de/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://tcplife.de/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_greet_box_style-css'  href='http://tcplife.de/wp-content/plugins/wp-greet-box/css/style.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://tcplife.de/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://tcplife.de/wp-content/plugins/wp-greet-box/js/functions.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://tcplife.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://tcplife.de/wp-content/plugins/wp-greet-box/js/js-mode.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tcplife.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tcplife.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<link rel='shortlink' href='http://wp.me/e8PY' />
+
+<!-- Fancybox for WordPress v3.0.1 -->
+<script type="text/javascript">
+jQuery(function(){
+
+jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+	var arr = jQuery("a.fancybox");
+	jQuery.each(arr, function() {
+		var title = jQuery(this).children("img").attr("title");
+		jQuery(this).attr('title',title);
+	})
+}
+
+// Supported file extensions
+var thumbnails = jQuery("a:has(img)").filter( function() { return /(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+
+thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+
+jQuery("a.fancybox").fancybox({
+	'cyclic': false,
+	'autoScale': true,
+	'padding': 10,
+	'opacity': true,
+	'speedIn': 500,
+	'speedOut': 500,
+	'changeSpeed': 300,
+	'overlayShow': true,
+	'overlayOpacity': "0.3",
+	'overlayColor': "#666666",
+	'titleShow': false,
+	'titlePosition': 'inside',
+	'enableEscapeButton': true,
+	'showCloseButton': true,
+	'showNavArrows': true,
+	'hideOnOverlayClick': true,
+	'hideOnContentClick': false,
+	'width': 560,
+	'height': 340,
+	'transitionIn': "fade",
+	'transitionOut': "fade",
+	'centerOnScroll': true
+});
+		
+
+})
+</script>
+<!-- END Fancybox for WordPress -->
+</head>
+
+<body class="home blog">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<h1 id="site-title">
+					<span>
+						<a href="http://tcplife.de/" title="TCPLife.de" rel="home">TCPLife.de</a>
+					</span>
+				</h1>
+				<div id="site-description">Mac OS X | iPhone | iPad | Windows | Ubuntu | Musik</div>
+
+										<img src="http://tcplife.de/wp-content/themes/twentyten/images/headers/path.jpg" width="940" height="198" alt="" />
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu"><ul><li class="current_page_item"><a href="http://tcplife.de/" title="Home">Home</a></li><li class="page_item page-item-7"><a href="http://tcplife.de/autor/">Autor</a></li><li class="page_item page-item-370"><a href="http://tcplife.de/kontakt/">Kontakt</a></li><li class="page_item page-item-8"><a href="http://tcplife.de/impressum/">Impressum</a></li><li class="page_item page-item-9"><a href="http://tcplife.de/datenschutz/">Datenschutz</a></li></ul></div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+	<div id="nav-above" class="navigation">
+		<div class="nav-previous"><a href="http://tcplife.de/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		<div class="nav-next"></div>
+	</div><!-- #nav-above -->
+
+
+
+
+			<div id="post-2738" class="post-2738 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/08/08/weiter-gehts-in-der-cloud/" title="Permalink to Weiter geht´s in der Cloud!" rel="bookmark">Weiter geht´s in der Cloud!</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/08/08/weiter-gehts-in-der-cloud/" title="17:47" rel="bookmark"><span class="entry-date">8. August 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Lange überlegt. Nun einen Entschluss gefasst. Hier wird es <strong>keine</strong> weiteren Artikel mehr geben. Etwas neues musste her!</p>
+<p><a href="http://cloudlog.de"><img src="http://tcplife.de/wp-content/uploads/2010/08/cloudlog.jpg" alt="" title="cloudlog" width="528" height="124" class="alignnone size-full wp-image-2739" /></a></p>
+<p>Neuer Name. Neue Adresse. Alles neu. <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/wink.png' alt=';-)' class='wp-smiley' /> Würde mich freuen, den ein oder anderen Besucher von hier, auf der neuen Seite begrüßen zu dürfen. Zum Anfang, na klar noch relativ leer, aber das wird sich nach meinem Urlaub schlagartig ändern. Trust me! <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/wink.png' alt=';-)' class='wp-smiley' /> <br />
+Die Seite hier bleibt als Archiv erst einmal weiterhin online, den versprochenen Artikel, wie man Mac OS X auf seinen EEE PC 1005PE bekommt, gibt es auf der neuen Seite &#8211; nach dem Urlaub. Versprochen!</p>
+<p>Und verzeiht mir eventuell vorhandene Fehler auf der neuen Seite! <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/wink.png' alt=';-)' class='wp-smiley' /> </p>
+<div id="greet_block"><noscript><div class="greet_block wpgb_cornered"><div class="greet_text"><div class="greet_image"><a href="http://feeds2.feedburner.com/Bigtim"  rel="nofollow"><img src="http://dailytim.de/wp-content/plugins/wp-greet-box/images/rss_icon.png" alt="WP Greet Box icon"/></a></div>Hallo!
+Vielen Dank für deinen Besuch!
+Dieser Blog dient nur noch als Archiv! Neue Artikel findest du in Zukunft nur noch auf <a title="cloudlog.de" href="http://cloudlog.de">cloudlog.de</a></div></div><div style="clear:both"></div></noscript></div>							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/08/08/weiter-gehts-in-der-cloud/#comments" title="Kommentiere Weiter geht´s in der Cloud!">1 Comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2737" class="post-2737 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/07/16/sommerpause-oder-so/" title="Permalink to Sommerpause oder so." rel="bookmark">Sommerpause oder so.</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/07/16/sommerpause-oder-so/" title="20:23" rel="bookmark"><span class="entry-date">16. Juli 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Wie ihr seht tut sich hier nicht viel. Das liegt zum einen am warmen Wetter zum anderen daran, dass das hier nicht mehr das ist, was ich mir vorstelle.<br />
+Durch die Namensänderung wollte ich weg vom &#8220;Daily Soap&#8221; Namen und mehr rein ins technische. Soweit so gut, mittlerweile gefällt mir der Name nicht mehr.</p>
+<p>Dieses Blog hier soll nicht eins von den endlos vielen sein, die ständig irgendwelche Software für umme raushauen oder ähnliches. Klar möchte ich mich ab und an gerne bei meinen Lesern auf diese Art bedanken.<br />
+Ich möchte Lesern Tipps geben und auch zu Diskussionen anregen. Mir selbst fehlte der kritische Teil im Blog.</p>
+<p>Ich denke irgendwann im August tut sich hier wieder was. Mal sehen. Vielleicht wieder den Namen wechseln oder so. Solange könnt ihr aber gerne mal bei meiner kleinen Sammelstelle <a href="http://bigtim.eu">vorbeischauen</a>. Zumindest die, die elektronische Musik mögen&#8230; <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/wink.png' alt=';-)' class='wp-smiley' /> </p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/07/16/sommerpause-oder-so/#respond" title="Kommentiere Sommerpause oder so.">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2659" class="post-2659 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/07/04/ein-monat-ipad-kurzes-fazit-empfehlungen/" title="Permalink to Ein Monat iPad &#8211; Kurzes Fazit &amp; Empfehlungen" rel="bookmark">Ein Monat iPad &#8211; Kurzes Fazit &#038; Empfehlungen</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/07/04/ein-monat-ipad-kurzes-fazit-empfehlungen/" title="16:02" rel="bookmark"><span class="entry-date">4. Juli 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Am 08. Juni war es soweit. Mein neues Lieblingsspielzeug wurde geliefert. Durch Apples verschulden zwar ein wenig zu spät dafür bekomme allerdings von Apple ein Zubehörteil nach Wahl für umme.<br />
+Nach gut einem Monat möchte ich ein kleines Fazit ziehen und euch meine Lieblingsapps vorstellen.</p>
+<p>Ich muss zugeben, Apple hat es wieder einmal geschafft, dass ich auf die Propaganda reingefallen bin und es haben musste.<br />
+ <a href="http://tcplife.de/2010/07/04/ein-monat-ipad-kurzes-fazit-empfehlungen/#more-2659" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/07/04/ein-monat-ipad-kurzes-fazit-empfehlungen/#comments" title="Kommentiere Ein Monat iPad &#8211; Kurzes Fazit &amp; Empfehlungen">10 Comments</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2731" class="post-2731 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/27/video-ueberblick-ueber-bada-betriebssystem-von-samsung/" title="Permalink to [Video] Überblick über bada, Betriebssystem von Samsung" rel="bookmark">[Video] Überblick über bada, Betriebssystem von Samsung</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/27/video-ueberblick-ueber-bada-betriebssystem-von-samsung/" title="18:40" rel="bookmark"><span class="entry-date">27. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/fTtUxEDQHYk&#038;hl=de_DE&#038;fs=1&#038;"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/fTtUxEDQHYk&#038;hl=de_DE&#038;fs=1&#038;" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></p>
+<p>HD-Version sollte in Kürze auf YouTube verfügbar sein. iPhone optimierte Version müsste ebenfalls in kürze im Podcastfeed, bzw. iTunes auftauchen.</p>
+<p>In diesem kurzem Video möchte ich euch kurz durch bada führen. Bitte nicht irritiert sein vom Guten Morgen-Satz vom Anfang. <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/wink.png' alt=';-)' class='wp-smiley' /> Der Export dauerte leider viel länger als erwartet.<br />
+Wer weitere Fragen hat, kann diese gerne in den Kommentaren stellen. <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/happy.png' alt=':-)' class='wp-smiley' /> </p>
+<p><strong>Update:</strong> Video ist nun in besserer Qualität auf YouTube verfügbar, der Podcastfeed bzw. iTunes sollte nun auch die neue Folge haben.</p>
+<p><a href="http://podster.de/claim/1dR5de5G14du3dP2dY">Mein Podcast bei podster</a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/27/video-ueberblick-ueber-bada-betriebssystem-von-samsung/#comments" title="Kommentiere [Video] Überblick über bada, Betriebssystem von Samsung">4 Comments</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2720" class="post-2720 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/26/samsung-wave-erstes-smartphone-mit-bada/" title="Permalink to Samsung Wave &#8211; Erstes Smartphone mit bada" rel="bookmark">Samsung Wave &#8211; Erstes Smartphone mit bada</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/26/samsung-wave-erstes-smartphone-mit-bada/" title="17:53" rel="bookmark"><span class="entry-date">26. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Durch die Aktion &#8220;The Longest Mobile Wave&#8221; von Samsung bin ich einer von 500 Leuten die das Handy testen und mit etwas Arbeit behalten dürfen. Aus diesem Anlass möchte ich euch das Samsung Wave einmal vorstellen.</p>
+<p>Das Samsung Wave ist das erste Smatphone mit dem neuen Betriebssystem bada, welches Samsung selbst entwickelt hat. Die technischen Details hau ich euch jetzt nicht um die Nase. Die gibts bei <a href="http://s8500.samsungmobile.de/eigenschaften/technische_daten/">Samsung</a>.</p>
+<p>Fangen wir mal mit dem Gerät an. Außen Hui, innen Pfui könnte man sagen. </p>
+<p><a href="http://tcplife.de/wp-content/uploads/2010/06/samsung_wave_front.jpg"><img src="http://tcplife.de/wp-content/uploads/2010/06/samsung_wave_front-123x185.jpg" alt="" title="samsung_wave_front" width="123" height="185" class="alignnone size-medium wp-image-2724" /></a><br />
+ <a href="http://tcplife.de/2010/06/26/samsung-wave-erstes-smartphone-mit-bada/#more-2720" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/26/samsung-wave-erstes-smartphone-mit-bada/#respond" title="Kommentiere Samsung Wave &#8211; Erstes Smartphone mit bada">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2723" class="post-2723 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/26/javazone-trailer-java-4-ever/" title="Permalink to JavaZone Trailer: Java 4-ever" rel="bookmark">JavaZone Trailer: Java 4-ever</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/26/javazone-trailer-java-4-ever/" title="12:13" rel="bookmark"><span class="entry-date">26. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/X3YBLBvxEr8&amp;hl=de_DE&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/X3YBLBvxEr8&amp;hl=de_DE&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></p>
+<p>Auch wenn ich weder das eine noch das andere mag trotzdem genial gemacht. Können auch Leute ohne Programmierkenntnisse verstehen. <img src='http://tcplife.de/wp-content/plugins/smilies-themer/adiumicons/happy.png' alt=':)' class='wp-smiley' /> </p>
+<p>(<a href="http://stadt-bremerhaven.de/javazone-trailer-java-4-ever/">via</a>)</p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/26/javazone-trailer-java-4-ever/#respond" title="Kommentiere JavaZone Trailer: Java 4-ever">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2718" class="post-2718 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/25/tcplife-de-podcast-erinnerung-an-neue-feedadresse/" title="Permalink to TCPLife.de Podcast + Erinnerung an neue Feedadresse" rel="bookmark">TCPLife.de Podcast + Erinnerung an neue Feedadresse</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/25/tcplife-de-podcast-erinnerung-an-neue-feedadresse/" title="21:13" rel="bookmark"><span class="entry-date">25. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Der Podcast ist wieder zurück mit einigen kleineren Änderungen. Zu allererst hat sich die Feedadresse des Podcasts geändert. Diese lautet nun:</p>
+<p><a href="http://feeds.feedburner.com/tcplife_podcast">http://feeds.feedburner.com/tcplife_podcast</a><br />
+ <a href="http://tcplife.de/2010/06/25/tcplife-de-podcast-erinnerung-an-neue-feedadresse/#more-2718" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/25/tcplife-de-podcast-erinnerung-an-neue-feedadresse/#respond" title="Kommentiere TCPLife.de Podcast + Erinnerung an neue Feedadresse">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2717" class="post-2717 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/21/gewinner-der-letzten-verlosungen/" title="Permalink to Gewinner der letzten Verlosungen" rel="bookmark">Gewinner der letzten Verlosungen</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/21/gewinner-der-letzten-verlosungen/" title="22:14" rel="bookmark"><span class="entry-date">21. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Entschuldigt bitte die längere Wartezeit bezüglich der Auflösung der Gewinner der letzten Verlosungen. Im folgenden nun die Gewinner der einzelnen Lizenzen&#8230;</p>
+<p><strong>ESET NOD32 Antivirus</strong></p>
+<p>Die Feedreaderzahl betrug um 18:03, 140 Leser.<br />
+ <a href="http://tcplife.de/2010/06/21/gewinner-der-letzten-verlosungen/#more-2717" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/21/gewinner-der-letzten-verlosungen/#comments" title="Kommentiere Gewinner der letzten Verlosungen">6 Comments</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2710" class="post-2710 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/20/mikrofonverstaerkung-unter-windows-7-nutzen/" title="Permalink to Mikrofonverstärkung unter Windows 7 nutzen" rel="bookmark">Mikrofonverstärkung unter Windows 7 nutzen</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/20/mikrofonverstaerkung-unter-windows-7-nutzen/" title="19:28" rel="bookmark"><span class="entry-date">20. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Für den neuen Podcast und weitere Aufnahmen habe ich mir die Tage ein neues Mikrofon bestellt, welches einen 3,5mm Klinkenstecker nutzt (typischer Kopfhörerstecker eben).<br />
+Problem war nun, dass Stimme relativ leise war. Also ein wenig gegoogelt und auf die Mikrofonverstärkung aufmerksam geworden.</p>
+<p>Zu dieser kommt ihr, in dem ihr die Systemsteuerung öffnet.<br />
+<a href="http://tcplife.de/wp-content/uploads/2010/06/win_mic_1.jpg"><img src="http://tcplife.de/wp-content/uploads/2010/06/win_mic_1-250x140.jpg" alt="" title="win_mic_1" width="250" height="140" class="alignnone size-medium wp-image-2712" /></a><br />
+ <a href="http://tcplife.de/2010/06/20/mikrofonverstaerkung-unter-windows-7-nutzen/#more-2710" class="more-link">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/20/mikrofonverstaerkung-unter-windows-7-nutzen/#comments" title="Kommentiere Mikrofonverstärkung unter Windows 7 nutzen">1 Comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-2706" class="post-2706 post type-post status-publish format-standard hentry">
+			<h2 class="entry-title"><a href="http://tcplife.de/2010/06/18/dailytim-de-heisst-ab-jetzt-tcplife-de/" title="Permalink to DailyTim.de heißt ab jetzt TCPLife.de" rel="bookmark">DailyTim.de heißt ab jetzt TCPLife.de</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://tcplife.de/2010/06/18/dailytim-de-heisst-ab-jetzt-tcplife-de/" title="19:25" rel="bookmark"><span class="entry-date">18. Juni 2010</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://tcplife.de/author/tim/" title="View all posts by Tim">Tim</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>Lange hab ich mir Zeit gelassen. Nun ist vollbracht. DailyTim.de ist abgelöst durch TCPLife.de. Alleine schon aus dem Grund, da der neue Name wesentlich besser passt. Wer mit dem neuen Namen nicht wirklich etwas anfangen sollte kann ja mal Google <a href="http://www.google.de/search?hl=de&#038;source=hp&#038;q=TCP&#038;aq=f&#038;aqi=g10&#038;aql=&#038;oq=&#038;gs_rfai=">bemühen</a>.<br />
+Wie ihr seht wurden die Kategorien ein wenig ausgemistet und es gibt wieder ein mal ein neues Theme.</p>
+<p>Auch hat sich die Feed-Adresse geändert. Diese lautet nun:</p>
+<p><a href="http://feeds.feedburner.com/tcplife">http://feeds.feedburner.com/tcplife</a></p>
+<p>Die alte Adresse bleibt allerdings noch 1-2 Monate bestehen. Wer noch den alten Feed benutzt wird leider alle alten Artikel als neu markiert erhalten. Großes Sorry!</p>
+<p>Der Podcast kommt in den nächsten Tagen überarbeitet wieder. Dazu gibt es dann einen separaten Artikel.</p>
+<p>Sofern ihr Fehler findet gebt doch bitte in den Kommentaren bescheid.</p>
+							</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+												<span class="comments-link"><a href="http://tcplife.de/2010/06/18/dailytim-de-heisst-ab-jetzt-tcplife-de/#comments" title="Kommentiere DailyTim.de heißt ab jetzt TCPLife.de">21 Comments</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://tcplife.de/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+
+			<li id="search" class="widget-container widget_search">
+				<form role="search" method="get" id="searchform" action="http://tcplife.de/" >
+	<div><label class="screen-reader-text" for="s">Suche nach:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Suchen" />
+	</div>
+	</form>			</li>
+
+			<li id="archives" class="widget-container">
+				<h3 class="widget-title">Archives</h3>
+				<ul>
+						<li><a href='http://tcplife.de/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://tcplife.de/2010/07/' title='Juli 2010'>Juli 2010</a></li>
+	<li><a href='http://tcplife.de/2010/06/' title='Juni 2010'>Juni 2010</a></li>
+	<li><a href='http://tcplife.de/2010/05/' title='Mai 2010'>Mai 2010</a></li>
+	<li><a href='http://tcplife.de/2010/04/' title='April 2010'>April 2010</a></li>
+	<li><a href='http://tcplife.de/2010/03/' title='März 2010'>März 2010</a></li>
+	<li><a href='http://tcplife.de/2010/02/' title='Februar 2010'>Februar 2010</a></li>
+	<li><a href='http://tcplife.de/2010/01/' title='Januar 2010'>Januar 2010</a></li>
+	<li><a href='http://tcplife.de/2009/12/' title='Dezember 2009'>Dezember 2009</a></li>
+	<li><a href='http://tcplife.de/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://tcplife.de/2009/10/' title='Oktober 2009'>Oktober 2009</a></li>
+	<li><a href='http://tcplife.de/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://tcplife.de/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://tcplife.de/2009/07/' title='Juli 2009'>Juli 2009</a></li>
+	<li><a href='http://tcplife.de/2009/06/' title='Juni 2009'>Juni 2009</a></li>
+	<li><a href='http://tcplife.de/2009/05/' title='Mai 2009'>Mai 2009</a></li>
+	<li><a href='http://tcplife.de/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://tcplife.de/2009/03/' title='März 2009'>März 2009</a></li>
+	<li><a href='http://tcplife.de/2009/02/' title='Februar 2009'>Februar 2009</a></li>
+	<li><a href='http://tcplife.de/2009/01/' title='Januar 2009'>Januar 2009</a></li>
+	<li><a href='http://tcplife.de/2008/12/' title='Dezember 2008'>Dezember 2008</a></li>
+	<li><a href='http://tcplife.de/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://tcplife.de/2008/10/' title='Oktober 2008'>Oktober 2008</a></li>
+	<li><a href='http://tcplife.de/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://tcplife.de/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://tcplife.de/2008/07/' title='Juli 2008'>Juli 2008</a></li>
+	<li><a href='http://tcplife.de/2008/06/' title='Juni 2008'>Juni 2008</a></li>
+	<li><a href='http://tcplife.de/2008/05/' title='Mai 2008'>Mai 2008</a></li>
+	<li><a href='http://tcplife.de/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://tcplife.de/2008/03/' title='März 2008'>März 2008</a></li>
+				</ul>
+			</li>
+
+			<li id="meta" class="widget-container">
+				<h3 class="widget-title">Meta</h3>
+				<ul>
+										<li><a href="http://tcplife.de/wp-login.php">Anmelden</a></li>
+									</ul>
+			</li>
+
+					</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="http://tcplife.de/" title="TCPLife.de" rel="home">
+					TCPLife.de				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+	
+<!-- Smilies package, Adium For Wordpress, courtesy of 0xCAFE (http://www.0xCAFE.ca) -->
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201222.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'3370566',v:'ext',post:'0'});
+var load_cmc = function(){linktracker_init(3370566,0,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+</body>
+</html>

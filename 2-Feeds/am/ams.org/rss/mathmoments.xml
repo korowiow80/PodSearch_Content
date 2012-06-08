@@ -1,0 +1,548 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2791151-1']);
+  _gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+function amsTrackEvent (category, action, label) {
+	_gaq.push(['_trackEvent', category, action, label]);
+}
+
+function amsTrackPageview (page) {
+	_gaq.push(['_trackPageview', page]);
+}
+
+function amsAddTracking () {
+	var contentDiv = document.getElementById('amsContentDiv');
+	if (!contentDiv) return 0;
+	var aTags = contentDiv.getElementsByTagName('A');
+	for (i = 0; i < aTags.length; i++) {
+		var url = aTags[i].href;
+		url = url.replace(/.*ams.org/,'');
+		if (url.match(/\.htm(l)?$/i) || ! url.match(/\./) ) { 
+			continue;	
+		}
+		if (document.addEventListener) {
+			aTags[i].addEventListener('click', function () { amsTrackPageview(url) }, false);
+		}
+		else {
+			aTags[i].attachEvent('onclick', function () { amsTrackPageview(url) });
+		}
+	}
+}
+
+if (window.addEventListener)
+    window.addEventListener('load', amsAddTracking, false);
+else if (window.attachEvent)
+    window.attachEvent('onload', amsAddTracking);
+
+</script>
+
+
+<title>American Mathematical Society</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="ICBM" content="41.836808, -71.412672" />
+<meta name="DC.title" content="American Mathematical Society" />
+
+<script src="/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script type="text/javascript">if (top.location != location) { top.location.href = location.href; }</script>
+<script type="text/javascript">
+function toggleMenu(objID) {
+if (!document.getElementById) return;
+var ob = document.getElementById(objID).style;
+ob.display = (ob.display == 'block')?'none': 'block';
+}
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="AMS News" href="http://www.ams.org/cgi-bin/content/news_items.cgi?rss=1" /> 
+
+<link rel="stylesheet" type="text/css" href="/css/SpryMenuBarHorizontal.css"  />
+<link rel="stylesheet" type="text/css" href="/css/aFinalCss.css" />
+<link rel="stylesheet" type="text/css" href="/css/aFinalPrintCss.css" media="print" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" type="image/gif" href="/animated_favicon1.gif" />
+
+<link rel="stylesheet" type="text/css" href="/css/contentslider.css" />
+<script type="text/javascript" src="/js/contentslider.js"></script>  
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2791151-1']);
+  _gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+function amsTrackEvent (category, action, label) {
+	_gaq.push(['_trackEvent', category, action, label]);
+}
+
+function amsTrackPageview (page) {
+	_gaq.push(['_trackPageview', page]);
+}
+
+function amsAddTracking () {
+	var contentDiv = document.getElementById('amsContentDiv');
+	if (!contentDiv) return 0;
+	var aTags = contentDiv.getElementsByTagName('A');
+	for (i = 0; i < aTags.length; i++) {
+		var url = aTags[i].href;
+		url = url.replace(/.*ams.org/,'');
+		if (url.match(/\.htm(l)?$/i) || ! url.match(/\./) ) { 
+			continue;	
+		}
+		if (document.addEventListener) {
+			aTags[i].addEventListener('click', function () { amsTrackPageview(url) }, false);
+		}
+		else {
+			aTags[i].attachEvent('onclick', function () { amsTrackPageview(url) });
+		}
+	}
+}
+
+if (window.addEventListener)
+    window.addEventListener('load', amsAddTracking, false);
+else if (window.attachEvent)
+    window.attachEvent('onload', amsAddTracking);
+
+</script>
+
+
+</head>
+<body>
+<input type="hidden" id="ams_class_id" value="1" />
+<h1 id="printHeader">American Mathematical Society</h1>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="10" id="outerBlueTable">
+  <tr>
+    <td>
+      <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="297" rowspan="2" align="right">
+            <a href="/" onClick="_gaq.push(['_trackEvent','Header', 'Logo', location.pathname]);"><img src="/images/homepageimages/amsLogoTeal.gif" alt="American Mathematical Society" name="amsLogo" width="297" height="74" border="0" id="amsLogo" /></a>
+             </td>
+          <td align="right">
+            <div id="popLinks">
+	<a href="/mathscinet/" onclick="_gaq.push(['_trackEvent','PopLinks', 'mathscinet', location.pathname]);">MathSciNet &#0174;</a> |
+	<a href="/cml/" onclick="_gaq.push(['_trackEvent','PopLinks', 'cml', location.pathname]);">CML</a> |
+	<a href="/bookstore/" onclick="_gaq.push(['_trackEvent','PopLinks', 'bookstore', location.pathname]);">Bookstore</a> |
+	<a href="/publications/journals/" onclick="_gaq.push(['_trackEvent','PopLinks', 'journals', location.pathname]);">Journals</a> |
+	<a href="/profession/employment-services/employment-services" onclick="_gaq.push(['_trackEvent','PopLinks', 'employment', location.pathname]);">Employment Services</a> | 
+    <a href="/about-us/support-ams/forms/forms" onclick="_gaq.push(['_trackEvent','PopLinks', 'giving', location.pathname]);">Give to the AMS</a></div>
+
+          </td>
+        </tr>
+        <tr>
+          <td align="right" valign="middle">
+            <span id="commerce"><a href="/ams-web-account" onclick="_gaq.push(['_trackEvent','CommerceNav', 'Login', location.pathname]);">Login</a> &middot; 
+<a href="/about-us/contact/customers/custserv " onclick="_gaq.push(['_trackEvent','CommerceNav', 'Customer Service', location.pathname]);">Customer Services</a> &middot; 
+<a href="/amsshop/func%5ERevOrd," onclick="_gaq.push(['_trackEvent','CommerceNav', 'My Cart', location.pathname]);">My Cart</a> &middot; 
+<a href="/help-faq" onclick="_gaq.push(['_trackEvent','CommerceNav', 'FAQ', location.pathname]);">FAQ</a>
+</span>
+ &nbsp;<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load('search', '1');
+  google.setOnLoadCallback(function() {
+    google.search.CustomSearchControl.attachAutoCompletion(
+      '006070101833274801941:cyhu7o79tee',
+      document.getElementById('q'),
+      'cse-search-box');
+  });
+</script>
+<form action="/sitesearch" id="cse-search-box" class="searchBox">
+  
+    <input type="hidden" name="cx" value="006070101833274801941:cyhu7o79tee" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" id="q" autocomplete="off" size="20" maxlength="25" />
+    <input type="submit" name="sa" value="Go" id=searchButton />
+  
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+	  <table width="950" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td id="navTableRow">
+            
+
+<ul class="MenuBarHorizontal" id="nav">
+        		<li id="firstNav">
+                                <li><a class="MenuBarItemSubmenu" href="/publications/publications" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications', location.pathname]);">Publications</a>
+                <ul>
+                                        <li><a href="/publications/books/book-series" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Book Program', location.pathname]);">Book Program</a></li>
+                                        <li><a href="/bookstore" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Bookstore', location.pathname]);">Bookstore</a></li>
+                                        <li><a href="/journals" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Journals', location.pathname]);">Journals</a></li>
+                                        <li><a href="/publications/math-reviews/math-reviews" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Mathematical Reviews', location.pathname]);">Mathematical Reviews</a></li>
+                                        <li><a href="/notices" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Notices of the AMS', location.pathname]);">Notices of the AMS</a></li>
+                                        <li><a href="/bull" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Bulletin of the AMS', location.pathname]);">Bulletin of the AMS</a></li>
+                                        <li><a href="/publications/license/journals-license" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Licensing Information', location.pathname]);">Licensing Information</a></li>
+                                        <li><a href="/publications/authors/authors" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Publications - Author Resource Center', location.pathname]);">Author Resource Center</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/meetings/meetings" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings', location.pathname]);">Meetings</a>
+                <ul>
+                                        <li><a href="/meetings/national/national-index" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - National', location.pathname]);">National</a></li>
+                                        <li><a href="/meetings/international/international-index" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - International', location.pathname]);">International</a></li>
+                                        <li><a href="/meetings/sectional/sectional-index" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - Sectional', location.pathname]);">Sectional</a></li>
+                                        <li><a href="/meetings/short-courses/short-course-general" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - Short Courses', location.pathname]);">Short Courses</a></li>
+                                        <li><a href="/meetings/amsconf/amsconf" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - AMS Conferences', location.pathname]);">AMS Conferences</a></li>
+                                        <li><a href="/meetings/lectures/lectures" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - Special Lectures', location.pathname]);">Special Lectures</a></li>
+                                        <li><a href="/meetings/calendar/mathcal" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - Mathematics Calendar', location.pathname]);">Mathematics Calendar</a></li>
+                                        <li><a href="/meetings/in-cooperation-with/in-cooperation-with" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - In Cooperation with', location.pathname]);">In Cooperation with</a></li>
+                                        <li><a href="/meetings/abstracts/abstracts" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Meetings - Submitting Abstracts', location.pathname]);">Submitting Abstracts</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/profession/profession" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession', location.pathname]);">The Profession</a>
+                <ul>
+                                        <li><a href="/profession/data/emp-survey" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Data on the Profession', location.pathname]);">Data on the Profession</a></li>
+                                        <li><a href="/profession/leaders/leaders" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - For Department Leaders', location.pathname]);">For Department Leaders</a></li>
+                                        <li><a href="/profession/employment-services/employment-services" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Employment Services', location.pathname]);">Employment Services</a></li>
+                                        <li><a href="/profession/career-info/career-index" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Career Information', location.pathname]);">Career Information</a></li>
+                                        <li><a href="/profession/dirinst/dirinst-index.html" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Directory of Institutions', location.pathname]);">Directory of Institutions</a></li>
+                                        <li><a href="/profession/prizes-awards/prizes" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Prizes and Awards', location.pathname]);">Prizes and Awards</a></li>
+                                        <li><a href="/profession/ams-fellows/ams-fellows" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Fellows of the AMS', location.pathname]);">Fellows of the AMS</a></li>
+                                        <li><a href="/profession/profdir/profdir" onclick="_gaq.push(['_trackEvent','GlovalNav', 'The Profession - Professional Directory', location.pathname]);">Professional Directory</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/membership/membership" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Membership', location.pathname]);">Membership</a>
+                <ul>
+                                        <li><a href="/cml" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Membership - CML', location.pathname]);">CML</a></li>
+                                        <li><a href="/membership/individual/individual" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Membership - Individual', location.pathname]);">Individual</a></li>
+                                        <li><a href="/membership/institutional/institutional" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Membership - Institutional', location.pathname]);">Institutional</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/programs/programs" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs', location.pathname]);">Programs</a>
+                <ul>
+                                        <li><a href="/amsmtgs/mrc.html" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Mathematics Research Communities', location.pathname]);">Mathematics Research Communities</a></li>
+                                        <li><a href="/programs/travel-grants/travel-grants" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Travel Grants', location.pathname]);">Travel Grants</a></li>
+                                        <li><a href="/programs/ams-fellowships/ams-fellowships" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - AMS Fellowships', location.pathname]);">AMS Fellowships</a></li>
+                                        <li><a href="/programs/edu-support/edu-support" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Supporting Educational Initiatives', location.pathname]);">Supporting Educational Initiatives</a></li>
+                                        <li><a href="/programs/donations/donations" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Book and Journal Donation Program', location.pathname]);">Book and Journal Donation Program</a></li>
+                                        <li><a href="/programs/students/programsforstudents" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Programs for Students', location.pathname]);">Programs for Students</a></li>
+                                        <li><a href="/programs/diversity/diversity" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Increasing Diversity', location.pathname]);">Increasing Diversity</a></li>
+                                        <li><a href="/programs/funding/funding" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Programs - Other Sources of Funding', location.pathname]);">Other Sources of Funding</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/samplings/samplings" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings', location.pathname]);">Math Samplings</a>
+                <ul>
+                                        <li><a href="/samplings/mathmoments/mathmoments" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - Mathematical Moments', location.pathname]);">Mathematical Moments</a></li>
+                                        <li><a href="/samplings/math-awareness-month/mam" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - Mathematics Awareness Month', location.pathname]);">Mathematics Awareness Month</a></li>
+                                        <li><a href="/samplings/posters/posters" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - AMS Posters', location.pathname]);">AMS Posters</a></li>
+                                        <li><a href="/samplings/feature-column/fc-current.cgi" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - Feature Column', location.pathname]);">Feature Column</a></li>
+                                        <li><a href="/thismathmonth" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - This Mathematical Month', location.pathname]);">This Mathematical Month</a></li>
+                                        <li><a href="/mathimagery" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - Mathematical Imagery', location.pathname]);">Mathematical Imagery</a></li>
+                                        <li><a href="/samplings/math-sites/math-sites" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - More Websites to Explore', location.pathname]);">More Websites to Explore</a></li>
+                                        <li><a href="/samplings/math-history/math-history" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Math Samplings - Mathematics History: AMS Books and Resources', location.pathname]);">Mathematics History: AMS Books and Resources</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/policy/policy" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Policy and Advocacy', location.pathname]);">Policy and Advocacy</a>
+                <ul>
+                                        <li><a href="/policy/government/government" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Policy and Advocacy - Government Relations & Programs', location.pathname]);">Government Relations & Programs</a></li>
+                                        <li><a href="/policy/govnews/govnews" onclick="_gaq.push(['_trackEvent','GlovalNav', 'Policy and Advocacy - Policy & Advocacy News', location.pathname]);">Policy & Advocacy News</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li>
+                                <li><a class="MenuBarItemSubmenu" href="/news/inthenews" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News', location.pathname]);">In the News</a>
+                <ul>
+                                        <li><a href="/news/ams-news-releases/ams-news-releases" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - AMS News Releases', location.pathname]);">AMS News Releases</a></li>
+                                        <li><a href="/news/math-in-the-media/math-in-the-media" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - Math in the Media', location.pathname]);">Math in the Media</a></li>
+                                        <li><a href="/news/in-memory/in-memory" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - In Memory Of . . .', location.pathname]);">In Memory Of . . .</a></li>
+                                        <li><a href="/news/enews/member_news.pl" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - Headlines & Deadlines', location.pathname]);">Headlines & Deadlines</a></li>
+                                        <li><a href="/news/student-enews/news-for-students" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - Headlines & Deadlines for Students', location.pathname]);">Headlines & Deadlines for Students</a></li>
+                                        <li><a href="/news/media-info/info-for-journalists" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - Information for the Media', location.pathname]);">Information for the Media</a></li>
+                                        <li><a href="/news/discoveries/discoveries" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - Inside Science TV', location.pathname]);">Inside Science TV</a></li>
+                                        <li><a href="/news/contact/contact-pao" onclick="_gaq.push(['_trackEvent','GlovalNav', 'In the News - Contact the Public Awareness Office', location.pathname]);">Contact the Public Awareness Office</a></li>
+                
+                </ul>
+                </li>
+                
+			
+        		<li id="lastNav">
+                                <li><a class="MenuBarItemSubmenu" href="/about-us/about-us" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS', location.pathname]);">About the AMS</a>
+                <ul>
+                                        <li><a href="/about-us/governance/governance" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Society Governance', location.pathname]);">Society Governance</a></li>
+                                        <li><a href="/about-us/support-ams/support-ams" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Support the AMS', location.pathname]);">Support the AMS</a></li>
+                                        <li><a href="/about-us/ams-news/ams-news" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - AMS in the News', location.pathname]);">AMS in the News</a></li>
+                                        <li><a href="/about-us/executive-staff/exec-staff" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Executive Staff', location.pathname]);">Executive Staff</a></li>
+                                        <li><a href="/about-us/pao/pao" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Public Awareness Office', location.pathname]);">Public Awareness Office</a></li>
+                                        <li><a href="/about-us/ams-jobs/ams-jobs" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Jobs with AMS', location.pathname]);">Jobs with AMS</a></li>
+                                        <li><a href="/about-us/annual-reports/annual-reports" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Annual Reports', location.pathname]);">Annual Reports</a></li>
+                                        <li><a href="/about-us/books-about-ams/books-about-ams" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Books about the AMS', location.pathname]);">Books about the AMS</a></li>
+                                        <li><a href="/about-us/presidents/presidents" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - AMS Presidents: A Timeline', location.pathname]);">AMS Presidents: A Timeline</a></li>
+                                        <li><a href="/about-us/contact/reach" onclick="_gaq.push(['_trackEvent','GlovalNav', 'About the AMS - Contact Us', location.pathname]);">Contact Us</a></li>
+                
+                </ul>
+                </li>
+                
+			
+              </ul>
+
+          </td>
+        </tr>
+      </table>	
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+	  <table width="950" border="0" align="center" cellpadding="0" cellspacing="10" bgcolor="#FFFFFF">
+        <tr>
+          <td width="150" align="left" valign="top"> 
+	        <div id="leftColumn">
+	          <div id="secondaryNav">
+<h2 id="contextualNavHeader"><a href="" onclick="_gaq.push(['_trackEvent','ContextNav', '', location.pathname]);"> </a></h2>
+		
+		
+		
+</div>	
+
+
+	          <div id="personaBox">
+<div id="personaNavHeader">Information for</div>
+<div class="personas"> 
+<a href="/publications/authors/authors" onclick="_gaq.push(['_trackEvent','Persona', 'Authors', location.pathname]);">Authors</a>
+<a href="/profession/faculty" onclick="_gaq.push(['_trackEvent','Persona', 'Faculty', location.pathname]);">Faculty</a>
+<a href="/publications/librarian" onclick="_gaq.push(['_trackEvent','Persona', 'Librarian', location.pathname]);">Librarians</a>
+<a href="/news/media-info/info-for-journalists" onclick="_gaq.push(['_trackEvent','Persona', 'Media', location.pathname]);">Media</a>
+<a href="/publications/math-reviews/math-reviews" onclick="_gaq.push(['_trackEvent','Persona', 'MR Community', location.pathname]);">MR Community</a>
+<a href="/profession/research" onclick="_gaq.push(['_trackEvent', 'Persona', 'Researchers', location.pathname]);">Researchers</a>
+<a href="/profession/student" onclick="gaq.push(['_trackEvent','Persona', 'Students', location.pathname]);">Students</a>
+</div>
+</div>
+
+	          <div id="personaBox">
+<div id="personaNavHeader">Member Journals</div>	 
+<div class="personas">	
+<a href="/jourcgi/jrnl_toolbar_nav/bull_latest" onclick="_gaq.push(['_trackEvent','JournalNav', 'Bulletin', location.pathname]);">Bulletin</a>
+<a href="/notices" onclick="_gaq.push(['_trackEvent','JournalNav', 'Notices', location.pathname]);">Notices</a>
+
+</div>
+</div>
+<br />
+	          	
+	        </div>
+	      </td>
+          <td width="620" align="left" valign="top">
+	        <div id="centerCell">
+	          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left">            <div id="breadcrumb"><strong>You are here:</strong> 
+				<a href="/" onclick="_gaq.push(['_trackEvent','Breadcrumb', 'Home', location.pathname]);">Home</a>
+							</div>
+</td>
+                  <td width="200" align="right"><div id="shareThis">
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_favorites"></a>
+<a class="addthis_button_print"></a>
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=txmtxm" class="addthis_button_expanded"></a>
+</div>
+<script type="text/javascript">
+   document.write(unescape("%3Cscript src='" + document.location.protocol + "//s7.addthis.com/js/250/addthis_widget.js#username=txmtxm' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+   var addthis_config = {
+		data_ga_tracker: _gaq._getAsyncTracker('')
+   };
+</script>
+
+<script type="text/javascript">
+   document.write(unescape("%3Cscript src='" + document.location.protocol + "//s7.addthis.com/js/250/addthis_widget.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- AddThis Button END -->
+</div>
+</td>
+                </tr>
+              </table>
+              <div id="amsContentDiv">
+				
+<P class="pagetitle">This page was not found on the AMS website. Please search the site or consult the <a href="/sitemap/">sitemap</a>. </P>
+<P class="caption">Search for documents on the AMS website. The
+  search below does not identify documents found in<strong> </strong><a href="/mathscinet">MathSciNet</a>,<strong> </strong><a href="/journals">AMS  Journals</a>,<br> <a href="/bookstore">AMS
+  Bookstore</a>, or the <a href="/cml">Combined
+  Membership List</a>. Go directly to these services to search for information.
+</P><p>
+
+<!--
+<p><br />
+<!-- Google CSE Search Box Begins  -->
+<form action="http:///sitesearch/" id="searchbox_006070101833274801941:cyhu7o79tee" >
+  <input type="hidden" name="cx" value="006070101833274801941:cyhu7o79tee" />
+  <input type="hidden" name="cof" value="FORID:11" />
+
+<input type="text" name="q" size="25" />
+  <input type="submit" name="sa" value="Search" class="topSearchButton" id="go" />
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchbox_006070101833274801941%3Acyhu7o79tee"></script>
+<!-- Google CSE Search Box Ends -->
+
+<p><br />
+<p>
+-->
+
+<p>
+<style type="text/css">
+  #goog-wm { }
+  #goog-wm h3.closest-match { }
+  #goog-wm h3.closest-match a { }
+  #goog-wm h3.other-things { }
+  #goog-wm ul li { }
+  #goog-wm li.search-goog { display: block; }
+</style>
+<script type="text/javascript">
+  var GOOG_FIXURL_LANG = 'en';
+  var GOOG_FIXURL_SITE = 'http://www.ams.org/';
+</script>
+<script type="text/javascript" 
+    src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+
+<style type="text/css">
+  #goog-wm { }
+  #goog-wm h3.closest-match { }
+  #goog-wm h3.closest-match a { }
+  #goog-wm h3.other-things { }
+  #goog-wm ul li { }
+  #goog-wm li.search-goog { display: block; }
+</style>
+<script type="text/javascript">
+  var GOOG_FIXURL_LANG = 'en';
+  var GOOG_FIXURL_SITE = 'http://www.ams.org/';
+</script>
+<script type="text/javascript" 
+    src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+
+			  </div> 
+            </td>
+            <td width="150" align="left" valign="top"> 
+	          <div id="rightColumn">
+	            
+
+	            		<script src="/js/ajax.js" type="text/javascript"></script>
+		<script src="/content/js/news_calendar.js" type="text/javascript"></script>
+		<div id="ams_news_calendar"></div>
+
+	          </div>
+	        </td>
+          </tr>
+        </table>
+	  </td>
+    </tr>
+
+</table>
+</td>
+</tr>
+</table>
+<br />
+
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" id="footer">
+  <tr>
+    <td width="250" align="left" valign="top"><p>Comments: <a href="/cgi-bin/fmail/fmail.cgi?emailto=52616e646f6d4956d39de4e6d2aad1a38f8cb94dbc4da0693e459c60ec3a73f018ea44432c107e51&name=AMS Webmaster" onclick="_gaq.push(['_trackEvent','Footer', 'Email Webmaster', location.pathname]);">Email Webmaster</a></p></td>
+    <td width="300" align="center" valign="top"><p>
+    &copy; <a href="/about-us/copyright" onclick="_gaq.push(['_trackEvent','Footer', 'Copyright', location.pathname]);">Copyright</a> 
+      <script>
+	    var now = new Date();
+	    document.write(now.getFullYear());
+	  </script>, American Mathematical Society 
+      <br />
+	  <a href="/about-us/contact/reach" onclick="_gaq.push(['_trackEvent','Footer', 'ContactUs', location.pathname]);">Contact Us</a> &middot;
+	  <a href="/home/sitemap" onclick="_gaq.push(['_trackEvent','Footer', 'Sitemap', location.pathname]);">Sitemap</a> &middot; 
+	  <a href="/about-us/privacy" onclick="_gaq.push(['_trackEvent','Footer', 'Privacy', location.pathname]);">Privacy Statement</a>
+      
+      </p> 
+    </td>
+    <td width="250" align="right" valign="top">
+      <!-- Begin Google Translate -->
+<div id="google_translate_element" class="translateBox"></div>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en'
+  }, 'google_translate_element');
+}
+</script>
+<script type="text/javascript">
+     document.write(unescape("%3Cscript src='" + document.location.protocol + "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- End Google Translate -->
+
+
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center" valign="top"><img src="/images/ams-chiclets-teal-bkgrnd-nt.gif" alt="AMS Social" width="390" height="52" border="0" usemap="#socialIconsWhite" /></td>
+  </tr>
+</table>
+<br />
+
+
+<map name="socialIconsWhite" id="socialIconsWhite">
+  <area shape="rect" coords="4,3,40,49" href="/about-us/social" alt="AMS and Social Media" title="AMS and Social Media" />
+  <area shape="rect" coords="44,-2,83,46" href="http://www.linkedin.com/companies/american-mathematical-society?trk=fc_badge" target="_blank" alt="LinkedIn" title="LinkedIn" />
+  <area shape="rect" coords="88,-1,128,46" href="http://www.facebook.com/pages/American-Mathematical-Society/216331555216" target="_blank" alt="Facebook" title="Facebook" />
+  <area shape="rect" coords="131,2,172,47" href="http://itunes.apple.com/us/podcast/mathematical-moments-from/id269308392" target="_blank" alt="Podcasts" title="Podcasts" />
+  <area shape="rect" coords="175,3,213,46" href="http://twitter.com/amermathsoc" target="_blank" alt="Twitter" title="Twitter" />
+  <area shape="rect" coords="218,-3,258,47" href="http://www.youtube.com/amermathsoc" target="_blank" alt="YouTube" title="YouTube" />
+  <area shape="rect" coords="261,2,303,47" href="http://www.ams.org/about-us/rss" target="_blank" alt="RSS Feeds" title="RSS Feeds" />
+  <area shape="rect" coords="305,-1,343,48" href="http://www.ams.org/about-us/blogs" target="_blank" alt="Blogs" title="Blogs" />
+  <area shape="rect" coords="346,2,387,42" href="http://en.wikipedia.org/wiki/American_Mathematical_Society" target="_blank" alt="Wikipedia" title="Wikipedia" />
+</map>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("nav");
+</script>
+</body>
+</html>
+
+

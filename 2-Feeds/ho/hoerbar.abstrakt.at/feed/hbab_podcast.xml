@@ -1,0 +1,378 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Kim - Verein zur Foerderung von Popkultur</title>
+
+	<meta http-equiv="Pragma" content="No-cache" />
+	<meta http-equiv="Expires" content="-1" />
+	
+	<link rel="icon"          href="/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/design4/style.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="/swfobject.js"></script>
+	<script type="text/javascript" src="/util.js"></script>
+	<script type="text/javascript">
+		var p_web_root = '';
+	</script>
+	
+</head>
+<body onLoad="MM_preloadImages('/design4/img/on.gif');"> 
+
+<script type="text/javascript" src="/common/prototype.js"></script>
+<script type="text/javascript" src="/common/scriptaculous/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="/cart.js"></script>
+
+
+
+<script type="text/javascript">
+	var naar = location.href.substring(0);
+	if ((top != self.parent) || (top == self) || (!top.contentFrame))
+		//  Bust frames
+		top.location.replace("/index.cfm?contentURL=" + escape(naar));
+</script>
+
+
+
+
+
+<div id="sound">
+	<strong>You need to upgrade your Flash Player</strong>
+</div>
+<script type="text/javascript">
+	// <![CDATA[
+	var so = new SWFObject("/sound_controller.swf", "sotester2", "40", "13", "6", "#FFFFFF");
+	so.addParam("quality", "high");
+	so.addParam("wmode", "transparent");
+	so.addParam("bgcolor", "#FFFFFF");
+	so.write("sound");
+	// ]]>
+</script>
+<div id="schemes"><span style="color: black;">SCHEME</span>
+	<a href="/index.cfm?fuseaction=set_design&amp;design=1" rel="nofollow" onClick="setDesign( 1, this );return false;"><img src="/design4/img/1.gif" name="design1" width="10" height="10" border="0"></a>
+	<a href="/index.cfm?fuseaction=set_design&amp;design=2" rel="nofollow" onClick="setDesign( 2, this );return false;"><img src="/design4/img/2.gif" name="design2" width="10" height="10" border="0"></a>
+	<a href="/index.cfm?fuseaction=set_design&amp;design=3" rel="nofollow" onClick="setDesign( 3, this );return false;"><img src="/design4/img/3.gif" name="design3" width="10" height="10" border="0"></a>
+</div>
+
+
+
+
+<a href="/index.cfm" id="logo_design3"><img src="/img/trans.gif" height="45" width="202" alt="" border="0"/></a>
+
+
+<div id="main_menu">
+	<ul>
+		<li class="spacer"><img src="/design4/img/off.gif" name="b_kim" width="8" height="8" id="b_kim"> <a href="/kim/index.cfm"  onMouseOver="MM_swapImage('b_kim','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">KIM</a></li>
+		<li><img src="/design4/img/off.gif" name="b_preview" width="8" height="8" id="b_preview"> <a href="/events/index.cfm?fuseaction=preview"  onMouseOver="MM_swapImage('b_preview','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">PREVIEW</a></li>
+		<li class="spacer"><img src="/design4/img/off.gif" name="b_flashback" width="8" height="8" id="b_flashback"> <a href="/events/index.cfm?fuseaction=flashback"  onMouseOver="MM_swapImage('b_flashback','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">FLASHBACK</a></li>
+		<li><img src="/design4/img/off.gif" name="b_soa" width="8" height="8" id="b_soa">
+			<a href="/events/index.cfm?fuseaction=stage_spotting"  onMouseOver="MM_swapImage('b_soa','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">STAGE SPOTTING</a>
+		</li>
+		<li><img src="/design4/img/on.gif" name="b_hab" width="8" height="8" id="b_hab">
+			<a href="/events/index.cfm?fuseaction=dream_spotting" class="active" onMouseOver="MM_swapImage('b_hab','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">DREAM SPOTTING <img src="/img/podcast2.gif" border="0"></a>
+		</li>
+
+		<li class="spacer"><img src="/design4/img/off.gif" name="b_label" width="8" height="8" id="b_label">&nbsp;<a href="/label/index.cfm"  onMouseOver="MM_swapImage('b_label','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">LABEL + <b>SHOP</b></a></li>
+
+		<li><img src="/design4/img/off.gif" name="b_artists" width="8" height="8" id="b_artists"> <a href="/artists/index.cfm"  onMouseOver="MM_swapImage('b_artists','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">ARTISTS</a></li>
+		<li class="spacer"><img src="/design4/img/off.gif" name="b_design" width="8" height="8" id="b_design">&nbsp;<a href="/designgallery/index.cfm"  onMouseOver="MM_swapImage('b_design','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">DESIGN</a></li>
+		<li><img src="/design4/img/off.gif" name="b_links" width="8" height="8" id="b_links"> <a href="/links/index.cfm"  onMouseOver="MM_swapImage('b_links','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">LINKS</a></li>
+		<li><img src="/design4/img/off.gif" name="b_presse" width="8" height="8" id="b_presse"> <a href="/presse/index.cfm"  onMouseOver="MM_swapImage('b_presse','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">PRESSE</a></li>
+		<li><img src="/design4/img/off.gif" name="b_partner" width="8" height="8" id="b_partner"> <a href="/partner/index.cfm"  onMouseOver="MM_swapImage('b_partner','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">PARTNER</a></li>
+		<li class="spacer"><img src="/design4/img/off.gif" name="b_kontakt" width="8" height="8" id="b_kontakt"> <a href="/kontakt/index.cfm"  onMouseOver="MM_swapImage('b_kontakt','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">KONTAKT</a></li>
+		<li><img src="/design4/img/off.gif" name="b_reminder" width="8" height="8" id="b_reminder"> <a href="/kimreminder/subscribe/index.cfm"  onMouseOver="MM_swapImage('b_reminder','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">KIMreminder</a></li>
+		<li><img src="/design4/img/off.gif" name="suche" width="8" height="8" border="0" id="suche"> <a href="/suche/index.cfm"  onMouseOver="MM_swapImage('suche','','/design4/img/on.gif',1)" onMouseOut="MM_swapImgRestore()">Suche</a></li>
+	</ul>
+</div>
+
+
+
+
+
+		<div id="latest_news_background">
+			<img src="/design4/img/aktuelles.gif" width="170" height="18">
+			<div class="content">&nbsp;&nbsp;&nbsp;</div>
+		</div>
+		<div id="latest_news">
+
+				
+
+					<div class="latest_news_item">
+						<b>Anmeldung für junge MusikerInnen bei Stage Spotting</b><br><br>
+						<a href="/news/index.cfm?fuseaction=show_details&id=63" style="text-decoration: underline;">&raquo; weiterlesen</a><br>
+					</div>
+
+				
+		</div>
+
+
+
+
+<div id="cart_summary_background" style="display:none">
+	<img src="/design4/img/warenkorb.gif" width="170" height="18">
+	<div class="content">&nbsp;&nbsp;&nbsp;</div>
+</div>
+
+
+
+<div id="cart_summary_holder" style="display:none;">
+
+			
+		</div>
+
+
+
+
+
+<div id="design_creator">
+	DESIGN BY
+	<a href="mailto:martin.hoerl@kim-pop.org">MARTIN HOERL</a>
+</div>
+<div id="content_holder">
+
+<div id="submenu_hoerbar">
+	<a href="index.cfm?fuseaction=current"
+		onMouseOver="MM_swapImage('b_1','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		VORSCHAU
+		<img src="/design4/img/on.gif"
+			name="b_1" width="8" height="8" border="0" id="b_1"></a><br>
+
+<a href="index.cfm?fuseaction=archive&f_year=2010"
+		onMouseOver="MM_swapImage('b_6','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		archiv 2010
+		<img src="/design4/img/on.gif"
+			name="b_2" width="8" height="8" border="0" id="b_6"></a><br>
+			
+			
+<a href="index.cfm?fuseaction=archive&f_year=2009"
+		onMouseOver="MM_swapImage('b_5','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		archiv 2009
+		<img src="/design4/img/on.gif"
+			name="b_2" width="8" height="8" border="0" id="b_5"></a><br>
+			
+			
+			<a href="index.cfm?fuseaction=archive&f_year=2008"
+		onMouseOver="MM_swapImage('b_7','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		archiv 2008
+		<img src="/design4/img/on.gif"
+			name="b_2" width="8" height="8" border="0" id="b_7"></a><br>
+
+	<a href="index.cfm?fuseaction=archive&f_year=2007"
+		onMouseOver="MM_swapImage('b_2','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		archiv 2007
+		<img src="/design4/img/on.gif"
+			name="b_2" width="8" height="8" border="0" id="b_2"></a><br>
+
+	<a href="index.cfm?fuseaction=archive&f_year=2006"
+		onMouseOver="MM_swapImage('b_3','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		archiv 2006
+		<img src="/design4/img/on.gif"
+			name="b_3" width="8" height="8" border="0" id="b_3"></a><br>
+
+	<a href="index.cfm?fuseaction=archive&f_year=2005"
+		onMouseOver="MM_swapImage('b_4','','/design4/img/off.gif',1)"
+		onMouseOut="MM_swapImgRestore()">
+		archiv 2005
+		<img src="/design4/img/on.gif"
+			name="b_4" width="8" height="8" border="0" id="b_4"></a><br>
+</div>
+
+<div class="scrollArrows"><a href="#" onclick="return false;" onmouseover="moveUp();" onmouseout="stopUp();"
+		><img src="/design4/img/_up.gif" width="11" height="12" /></a><img src="/design4/img/_zwscroll.gif" width="11" height="12" alt=""/><a href="#" onclick="return false;" onmouseover="moveDown();" onmouseout="stopDown();"
+		><img src="/design4/img/_down.gif" width="11" height="12" /></a></div>
+
+
+<div id="scroll_content_holder" style="height:485px; width:346px;">
+
+
+
+
+
+	<span class="headline1">H&Ouml;RBAR ABSTRAKT</span><br>
+	die Sendung ohne Dogma<br><br>
+<a href="index.cfm?fuseaction=podcast">PODCAST <img src="/img/podcast.jpg" border="0"></a><br>
+<br>					<span style="color: #999999;">&lt;!-- der neue podcast enth&auml;t die j&uuml;ngsten 20 sendungen --&gt;</span>
+					<br><br>
+
+Es begann mit einem Fr&uuml;hst&uuml;ck ohne Ei zu dem Harald Wiltsche und ich
+eingeladen wurden. Wir stellten in der Sendung Sonntags Abstrakt vor, spielten
+unsere Lieblingsmusik, erz&auml;hlten ein bisschen dar&uuml;ber und noch w&auml;hrend
+wir im Studio sa&szlig;en begann das Telefon zu l&auml;uten. Der Wunsch nach einer
+&auml;hnlichen regelm&auml;&szlig;igen Sendung wurde von zahlreichen Zuh&ouml;rerInnen
+und MitarbeiterInnen ge&auml;u&szlig;ert und wir kamen dem nur allzu gerne nach.
+So entstand H&ouml;rbar Abstrakt.<br>
+Am 07.10.2005 war es soweit: Nach l&auml;ngerer Entwicklungsphase erwartet interessierte
+H&ouml;rerInnen auf der Frequenz von Radio Helsinki /Graz eine w&ouml;chentliche
+Elektroniksendung. Jeweils am Freitag zur besten (H&ouml;r-)Zeit gibt es einen
+zweist&uuml;ndigen Streifzug, eine Entdeckungsreise in die Welt der elektronischen
+Musik und in artverwandte Bereiche. Die Gestaltung und Moderation hat mit &uuml;berw&auml;ltigendem
+Engagement Dr. Nachtstrom &uuml;bernommen. In H&ouml;rbar Abstrakt pr&auml;sentiert
+er neues und ungeh&ouml;rtes, polarisierendes und wieder zu entdeckendes aus dem
+Spannungsfeld zwischen Elektronika, Post-Rock und bisher unentdeckten k&uuml;nstlerischen
+Regionen. <br>
+<br>
+<strong>Die 1. Stunde</strong><br>
+Die erste H&auml;lfte ist auf ein spezielles Thema aufgebaut, das aus nicht festgelegten
+Bereichen stammt. Literatur, Film, Musik, Bildende Kunst alles ist m&ouml;glich.
+<br>
+Dazu gibt es Interviews mit K&uuml;nstlerInnen und KuratorInnen zu aktuellen Projekten.
+Der musikalische Schwerpunkt liegt auf Neuerscheinung, der erg&auml;nzt wird durch
+Klassiker der Elektronik und selten Geh&ouml;rtes. <br>
+<br>
+<strong>Die 2. Stunde</strong><br>
+Die Konzerte im Rahmen von Sonntags Abstrakt sind sehr h&auml;ufig improvisierte
+St&uuml;cke, die in dieser Form nur einmal aufgef&uuml;hrt werden. Um diese fl&uuml;chtige
+Musik zu dokumentieren, schneiden wir die Auftritte mit und f&uuml;llen mit den
+Aufzeichnungen die 2. Stunde von H&ouml;rbar Abstrakt. Oder es gibt eine Stunde
+Rarit&auml;ten und Speziali&auml;ten - ungeschnitten nat&uuml;rlich. <br>
+Erfreulicher Weise &uuml;bertr&auml;gt Radio Helsinki sein Programm auch via Livestream
+im Internet. Das hat uns eine weit verzweigte H&ouml;rerInnen-Gemeinde bis nach
+Berlin und Programmempfehlungen auf diversen deutschen Webseiten eingebracht.<br>
+Auf Grund der h&auml;ufigen Nachfrage von H&ouml;rerInnen nach alten Sendungen,
+bieten wir diese unter hoerbar.abstrakt.at als mp3s zum Download an. Oder als
+wesentlich konfortabler in Form von podcasts, die kostenlos abonniert werden.<br>
+Gleichzeitig entsteht ein sehr umfangreiches Archiv &uuml;ber zeitgen&ouml;ssische
+und historische elektronische Musik.
+
+</div>
+
+
+<script type="text/javascript">
+/* special thanks to http://adomas.org/javascript-mouse-wheel/ */
+function moveUp() {
+    var div = document.getElementById("scroll_content_holder");
+    div.scrollTop = parseInt(div.scrollTop) - 5; // orig 2
+    mu = setTimeout("moveUp()", 25);
+}
+
+function moveDown() {
+    var div = document.getElementById("scroll_content_holder");
+    div.scrollTop = parseInt(div.scrollTop) + 5; // orig 2
+    md = setTimeout("moveDown()", 25);
+}
+
+function stopUp() {
+    clearTimeout(mu);
+}
+
+function stopDown() {
+    clearTimeout(md);
+}
+
+function handle(delta) {
+	if (delta < 0) {
+		moveDown();
+		stopDown();
+	} else {
+		moveUp();
+		stopUp()
+	}
+}
+
+/** Event handler for mouse wheel event.
+ */
+function wheel(event){
+        var delta = 0;
+        if (!event) /* For IE. */
+                event = window.event;
+        if (event.wheelDelta) { /* IE/Opera. */
+                delta = event.wheelDelta/120;
+                /** In Opera 9, delta differs in sign as compared to IE.
+                 */
+                if (window.opera)
+                        delta = -delta;
+        } else if (event.detail) { /** Mozilla case. */
+                /** In Mozilla, sign of delta is different than in IE.
+                 * Also, delta is multiple of 3.
+                 */
+                delta = -event.detail/3;
+        }
+        /** If delta is nonzero, handle it.
+         * Basically, delta is now positive if wheel was scrolled up,
+         * and negative, if wheel was scrolled down.
+         */
+        if (delta)
+                handle(delta);
+        /** Prevent default actions caused by mouse wheel.
+         * That might be ugly, but we handle scrolls somehow
+         * anyway, so don't bother here..
+         */
+        if (event.preventDefault)
+                event.preventDefault();
+	event.returnValue = false;
+}
+
+function initScroll( event ) {
+	/*
+	 *  We hide the content only if the browser has javascript enabled. If the browser does not
+	 * have js enabled he will see the whole content at once (the content will possible overlap other page elements)
+	 */
+	document.getElementById("scroll_content_holder").style.overflow = 'hidden';
+}
+
+/** Initialization code.
+ * If you use your own event management code, change it as required.
+ */
+if (window.addEventListener) {
+	/*  DOMMouseScroll for standard compliant browsers  */
+	document.getElementById("scroll_content_holder").addEventListener('DOMMouseScroll', wheel, false);
+	window.addEventListener("load", initScroll, false);
+} else {
+	/*  Non-standard compliat browsers (IE)  */
+	document.getElementById("scroll_content_holder").onmousewheel = document.onmousewheel = wheel;
+	window.attachEvent("onload", initScroll);
+}
+</script>
+
+
+<br><br><br><br><br>
+
+
+			<div class="item_hinweis" style="margin-top: 20px;">
+
+<span class="headline2">LIVE STREAM</span><br>
+<b>freitags von  20:30 bis 22:00<br>
+live auf radio helsinki, 92,6 MHz<br>
+<a href="http://helsinki.at" target="_bank">helsinki.at</a></b><br><br><br><br>
+
+
+</div>
+
+<div class="item_featured_hoerbar">
+<span class="headline2">N&Auml;CHSTE SENDUNG:</span><br/>
+				<div class="item_right">
+
+						
+							<img src="/_data/events/hoa0110.jpg" alt="HÖRBAR ABSTRAKT" class="smallimage2" width="84" height="60" alt="" /><br/>
+						
+
+
+					<span class="headline2">HÖRBAR ABSTRAKT</span><br/>
+					die sendung ohne dogma<br/>
+					<b>Freitag, 21.01.2011 </b>
+
+					
+						<br/>20:30 
+					<b>radio helsinki, 92,6 MHz + podcast</b><br/>
+					<div style="height: 5px;">&nbsp;</div>
+					<b>Retro again</b>
+<br>
+					<a href="/horbar/index.cfm?fuseaction=details&id=654"><img src="/design4/img/details.gif" border="0" style="margin-top: 5px;"></a>
+
+
+<br><br><span style="color: #999999;">&lt;!-- alle alten sendungen sind im archiv des jeweiligen jahres verf&uuml;gbar --&gt;</span>
+
+
+				</div>
+				<!--<a href="/horbar/index.cfm?fuseaction=current">&raquo;  weitere Termine</a>-->
+			</div>
+		</div>
+</body>
+</html>

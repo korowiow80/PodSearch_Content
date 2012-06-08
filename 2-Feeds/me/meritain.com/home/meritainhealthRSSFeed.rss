@@ -1,0 +1,272 @@
+
+<!DOCTYPE html SYSTEM "about:legacy-compat"><html class="no-js">
+<head>
+	
+	<meta charset="utf-8" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<title xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">Meritain Health Home Page - Meritain Health</title>
+	<meta name="description" content="" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<meta name="keywords" lang="en-us" content="  " xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+
+	
+	
+	
+	<meta name="copyright" content="Meritain Health" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+		
+
+	<meta http-equiv="imagetoolbar" content="no" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+
+	<meta http-equiv="Content-Style-Type" content="text/css" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<meta http-equiv="Content-Script-Type" content="text/javascript" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<meta http-equiv="Content-Language" content="en-us" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<link rel="apple-touch-icon" href="touch-icon-iphone.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+    
+	<link rel="stylesheet" type="text/css" href="/assets/css/screen.css?v=1" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<link rel="stylesheet" type="text/css" href="/assets/css/ui-lightness/jquery-ui-1.8.16.custom.css?v=2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/assets/css/screen-ie6.css?v=2"/><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/assets/css/screen-ie7.css?v=2"/><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/screen-ie8.css?v=2"/><![endif]-->
+	<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/screen-ie9.css?v=2"/><![endif]-->
+
+	<script type="text/javascript" src="/assets/js/libs/modernizr.custom.63478.js?v=2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs"></script>
+	<script src="/assets/js/libs/video.min.js?v=2" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs"></script>
+	<script xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">_V_.options.flash.swf="/assets/swf/video-js.swf";</script>	
+
+	
+	<link rel="alternate" title="Meritain Health RSS" type="application/rss+xml" href="/Home/MeritainHealthRSSFeed.rss" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	
+
+	
+		
+	
+	<meta name="description" content="" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<meta name="keywords" lang="en-us" content="  " xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+
+	
+	
+	
+	<meta name="copyright" content="Meritain Health" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+		
+
+	
+	<link rel="alternate" title="Meritain Health RSS" type="application/rss+xml" href="/Home/MeritainHealthRSSFeed.rss" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	
+
+	
+		
+	
+
+</head>
+<body>
+	
+	<div id="header" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+		<a href="/"><img id="logo" src="/assets/images/site/mhlogo.jpg" width="310" height="86" alt="Meritain Health, An Aetna Company"></a>
+		<div id="sitesearch">
+			
+	<form method="post" action="/home/search" id="SearchForm">
+		<p><label for="search">Search</label><input type="text" name="SearchKeywords" id="SearchKeywords" value=""></p>
+	</form>
+
+		</div>
+	</div>
+
+	
+<div id="navigation">                        
+	<ul>                                     
+		<li><a href="/Home"  class="active">Home</a><span>/</span></li> 
+		<li><a href="/ProductsAndServices" >Products and Services</a><span>/</span></li> 
+		<li><a href="/HealthAndWellness">Health and Wellness</a><span>/</span></li> 
+		<li><a href="/RegulatoryCompliance">Regulatory Compliance</a><span>/</span></li> 
+		<li><a href="/Resources">Resources</a><span>/</span></li> 
+		<li><a href="/AboutUs">About Us</a><span>/</span></li> 
+		<li><a href="/ContactUs">Contact Us</a><span>/</span></li> 
+		<li><a href="/Careers">Careers</a></li> 
+	</ul> 
+</div>
+
+	<div id="content">
+			<div id="preamble">
+				<div id="imagerotator">
+					<a href="#1"><img src="/assets/images/site/rotator/1.jpg" width="600" height="304"></a>
+					<a href="#2"><img src="/assets/images/site/rotator/2.jpg" width="600" height="304" style="display: none;"></a>
+					<a href="#3"><img src="/assets/images/site/rotator/3.jpg" width="600" height="304" style="display: none;"></a>
+					<a href="#4"><img src="/assets/images/site/rotator/4.jpg" width="600" height="304" style="display: none;"></a>
+				</div>
+				<div id="callout" style="display: none;">
+					<div id="featured">
+						<a href="/RegulatoryCompliance/PatientProtectionAndAffordableCareAct/HealthcareReform"><img src="/assets/images/site/featuredItem.gif" width="350" height="90" alt="Health Care Reform"></a>
+					</div>
+					<div id="login">
+						<div id="login" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:qcms="http://quantumcms.com/xslt"><div id="tabs" class="ui-tabs-hide"><ul><li><a href="#tabs-premember">Pre-Member</a></li><li><a href="#tabs-member">Member</a></li><li><a href="#tabs-employer">Employer</a></li><li><a href="#tabs-provider">Provider</a></li><li><a href="#tabs-producer">Producer</a></li></ul><div id="tabs-premember"><p>Are you interested in becoming a member? We invite you to visit <a href="https://www.mymeritain.com/">myMERITAIN.com</a> to login for access to your personalized decision support tools.</p></div><div id="tabs-member"><img src="/assets/images/site/myMeritainLogoLogin.gif" width="158" height="29" alt="My Meritain Logo"><p>As a Member, you will have access to a personalized myMERITAIN account. <a href="https://www.mymeritain.com/">Register for an account today to take advantage of myMERITAIN</a>!</p><p>Already registered?  To log in, visit <a href="https://www.mymeritain.com/">myMERITAIN.com</a>.</p></div><div id="tabs-employer"><form action="https://www.mymeritain.com/Home/Employers/Login" method="post" accept-charset="utf-8"><input type="hidden" name="__VIEWSTATE" value="dDw1MzgxO3Q8cDxsPG1pbnRQYWdlSWRlbnQ7PjtsPDQ8NTQwPjs+PjtsPGk8MD47PjtsPHQ8O2w8aTwwPjs+O2w8dDxwPHA8bDxOQUhQX0F1dGhlbnRpY2F0aW9uX0N1cnJlbnRTY3JlZW47PjtsPE5BSFBRQ01TQXBwcy5OQUhQLkNvbnRyb2xzLkF1dGhlbnRpY2F0aW9uK2VubVNjcmVlbnMsIE5BSFBRQ01TQXBwcywgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGw8TG9nSW4+Oz4+Oz47bDxpPDM+O2k8ND47PjtsPHQ8cDxwPGw8VmlzaWJsZTs+O2w8bzx0Pjs+Pjs+O2w8aTwwPjs+O2w8dDxwPGw8aW5uZXJodG1sO2NsYXNzO1Zpc2libGU7PjtsPFlvdSBhcmUgbm90IGN1cnJlbnRseSBsb2dnZWQgaW4uIFBsZWFzZSBlbnRlciB5b3VyIHVzZXJuYW1lIGFuZCBwYXNzd29yZCBiZWxvdy47XGU7bzx0Pjs+Pjs7Pjs+Pjt0PHA8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47Pjs7Pjs+Pjs+Pjs+Pjs+MhoIrDu41HCRqG3Ml7sitvurEkY="><p><span class="username">Username:</span><input type="text" name="Page_65:txtUsername" class="username"></p><p><span class="password">Password:</span><input type="password" name="Page_65:txtPassword" class="password"></p><input type="submit" value="Login" name="Page_65:cmdSubmit" class="submit" id="Page_65_cmdSubmit"><br style="clear:both;"><ul class="forgotlist"><li><a href="https://portal.meritain.com/EmployerForgotUsername.aspx">Forgot Username</a></li><li><a href="https://portal.meritain.com/EmployerForgotPassword.aspx">Retrieve Password</a></li></ul><ul class="addlinkslist"><li>Learn more about <a href="http://www.meritain.com/whymeritain" title="Why Meritain">Meritain Health</a>.</li><li>Reporting User? <a href="https://ice.nahp.com/rvhome.asp">Click Here to Login</a></li></ul></form></div><div id="tabs-provider"><form action="https://www.mymeritain.com/Home/ProviderPortal/Login" method="post" accept-charset="utf-8"><input type="hidden" name="__VIEWSTATE" value="dDw1MzgxO3Q8cDxsPG1pbnRQYWdlSWRlbnQ7PjtsPDQ8NTQwPjs+PjtsPGk8MD47PjtsPHQ8O2w8aTwwPjs+O2w8dDxwPHA8bDxOQUhQX0F1dGhlbnRpY2F0aW9uX0N1cnJlbnRTY3JlZW47PjtsPE5BSFBRQ01TQXBwcy5OQUhQLkNvbnRyb2xzLkF1dGhlbnRpY2F0aW9uK2VubVNjcmVlbnMsIE5BSFBRQ01TQXBwcywgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGw8TG9nSW4+Oz4+Oz47bDxpPDM+O2k8ND47PjtsPHQ8cDxwPGw8VmlzaWJsZTs+O2w8bzx0Pjs+Pjs+O2w8aTwwPjs+O2w8dDxwPGw8aW5uZXJodG1sO2NsYXNzO1Zpc2libGU7PjtsPFlvdSBhcmUgbm90IGN1cnJlbnRseSBsb2dnZWQgaW4uIFBsZWFzZSBlbnRlciB5b3VyIHVzZXJuYW1lIGFuZCBwYXNzd29yZCBiZWxvdy47XGU7bzx0Pjs+Pjs7Pjs+Pjt0PHA8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47Pjs7Pjs+Pjs+Pjs+Pjs+MhoIrDu41HCRqG3Ml7sitvurEkY="><p><span class="username">Username:</span><input type="text" name="Page_135:txtUsername" class="username"></p><p><span class="password">Password:</span><input type="password" name="Page_135:txtPassword" class="password"></p><input type="submit" value="Login" name="Page_135:cmdSubmit" class="submit"><br style="clear:both;"><ul class="forgotlist"><li><a href="https://portal.meritain.com/providerforgotusername.aspx">Forgot Username</a></li><li><a href="https://portal.meritain.com/providerforgotpassword.aspx">Retrieve Password</a></li></ul><ul class="addlinkslist"><li>Become a <a href="http://www.meritain.com/Home/BenefitSolutions/Networks/NAP">NAP Participating Provider</a></li><li>Create a new <a href="https://portal.meritain.com/providerregistration.aspx">Provider User Account</a></li></ul></form></div><div id="tabs-producer"><form action="https://portal.meritain.com/AgentLogin.aspx" method="post" accept-charset="utf-8"><input type="hidden" name="__VIEWSTATE" value="/wEPDwULLTE0MjQ0Mjk5OTYPZBYCZg9kFgICBQ9kFgYCAw8PFgQeDUVuYWJsZVRpbWVvdXRoHg1FbmFibGVXYXJuaW5naGRkAgkPPCsADQEADxYCHgtfIURhdGFCb3VuZGdkZAIND2QWAgIBD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCAgUPFCsAAg8WBB4IQ3NzQ2xhc3MFCSBub0JvcmRlch4EXyFTQgICZGRkZIos9OtEz0IbC6poriPxU7VlUElf"><p><span class="username">Username:</span><input type="text" name="Page_176:txtUsername" class="username" id="Page_176_txtUsername"></p><p><span class="password">Password:</span><input type="password" name="Page_176:txtPassword" class="password" id="Page_176_txtPassword"></p><input type="submit" value="Login" name="Page_176_cmdSubmit" class="submit" id="Page_176_cmdSubmit"><br style="clear:both;"><ul class="forgotlist"><li><a href="https://portal.meritain.com/AgentForgotUsername.aspx">Forgot Username</a></li><li><a href="https://portal.meritain.com/AgentForgotPassword.aspx">Retrieve Password</a></li><li><a href="https://portal.meritain.com/AgentRegistration.aspx">Register Today</a></li></ul><ul class="addlinkslist"><li>Find out how you can join us at the<br> Meritain Health <a href="http://www.meritain.com/Home/Resources/ProducerResources/TopHonorsConference">Top Honors Conference</a>.</li><li>For Reporting Services users, <a href="https://ice.nahp.com/rvhome.asp">click here to login</a>.</li></ul></form></div></div></div>
+					</div>
+				</div>
+			</div>
+			<div class="columnone">
+				<div id="healthandwellness" class="contentsection">
+					<h1>About Meritain Health</h1>
+					<hr>
+					<hr>
+					<p>Meritain Health, an independent subsidiary of Aetna, is one of the nation&rsquo;s largest administrators of health benefits. We offer the resources of a national carrier and the unmatched flexibility and service of an independent, local administrator. Our approach provides employers with cost-effective plan administration within a custom framework of variable networks, industry-leading products and services, and cost management strategies. To learn more about our products and services, <a href="/Home/ProductsAndServices">click here</a>.</p>
+				</div>
+				<div id="news" class="contentsection">
+					<h1>News</h1>
+					<hr>
+					<hr>
+					<ul>
+						
+							
+							<li>
+							<h2>
+		
+	
+	March
+		
+	22, 2012
+</h2><br>
+							Meritain Health has been awarded the Mt. Huntington Award by Anchorage Project Access for its outstanding generosity and service to the non-profit organization <a href="/Home/AboutUs/InTheNews/PressReleases/MeritainHealthRecognizedbyAnchorageProjectAccess">Read More...</a>
+							</li>
+						
+							
+							<li>
+							<h2>
+		
+	
+	March
+		
+	12, 2012
+</h2><br>
+							Meritain Health, one of the largest providers of self-funded health and wellness plans, today announced that it has again expanded its sales team. <a href="/Home/AboutUs/InTheNews/PressReleases/MeritainHealthsSalesTeamContinuestoGrow">Read More...</a>
+							</li>
+						
+							
+							<li>
+							<h2>
+		
+	
+	January
+		
+	10, 2012
+</h2><br>
+							Meritain Health, one of the largest providers of self-funded health and wellness plans, today announced that it has expanded its sales team to include 3 new members. <a href="/Home/AboutUs/InTheNews/PressReleases/MeritainHealthExpandsSalesTeam">Read More...</a>
+							</li>
+						
+							
+							<li>
+							<h2>
+		
+	
+	April
+		
+	28, 2011
+</h2><br>
+							Aetna (NYSE: AET) today announced that it has entered into an agreement to acquire Prodigy Health Group, the nation's largest independent third party administrator (TPA) of self-funded health care plans. <a href="/Home/AboutUs/InTheNews/PressReleases/AetnatoAcquireProdigyHealthGroup">Read More...</a>
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="columntwo">
+				<div id="video">
+					<h1>Featured Vidcasts</h1>
+					<hr>
+					<hr>
+					<div id="videocontent">
+						<div id="selffunding-wrapper" class="show largevideo">
+						  <video id="selffunding" class="video-js vjs-default-skin" controls="controls" preload="none" width="320" height="240" poster="/assets/images/site/videos/SelfFunding-large.jpg" data-setup="{ &quot;controls&quot;: true, &quot;autoplay&quot;: false, &quot;preload&quot;: &quot;none&quot; }">
+						  	
+						    <source src="/assets/videos/homepage/h264/SelfFunding.mp4" type="video/mp4"></source>
+						    
+						    <source src="/assets/videos/homepage/webm/SelfFunding.webm" type="video/webm"></source>
+						    
+						    <source src="/assets/videos/homepage/ogv/SelfFunding.ogv" type="video/ogg"></source>
+						  </video>
+							<div class="videoinfo">
+								<h2 class="videotitle">What is Self-Funding?</h2>
+								<p>Meritain Health's Senior Vice President of Sales, Dave Parker, describes not just what a self-funded healthcare benefits plan is and how it works, but what to look for in a best-fit health plan administrator.</p>
+							</div>
+						</div>
+						<div id="clientrelations-wrapper" class="hide largevideo">
+							<video id="clientrelations" class="video-js vjs-default-skin" controls="controls" preload="none" width="320" height="240" poster="/assets/images/site/videos/ClientRelations-large.jpg" data-setup="{ &quot;controls&quot;: true, &quot;autoplay&quot;: false, &quot;preload&quot;: &quot;none&quot; }">
+							    <source type="video/mp4" src="/assets/videos/homepage/h264/ClientRelations.mp4"></source>
+							    <source type="video/webm" src="/assets/videos/homepage/webm/ClientRelations.webm"></source>
+							    <source type="video/ogv" src="/assets/videos/homepage/ogv/ClientRelations.ogv"></source>
+							</video>
+							<div class="videoinfo">
+								<h2 class="videotitle">Client Relations: Not Just a Philosophy</h2>
+								<p>Regional President, Melissa Elwood, describes the unique role of the Meritain Health Client Relationship Management team in helping clients achieve annual and long-term goals.</p>
+							</div>
+						</div>
+						<div id="compliance-wrapper" class="hide largevideo">
+							<video id="compliance" class="video-js vjs-default-skin" controls="controls" preload="none" width="320 " height="240" poster="/assets/images/site/videos/Compliance-large.jpg" data-setup="{ &quot;controls&quot;: true, &quot;autoplay&quot;: false, &quot;preload&quot;: &quot;none&quot; }">
+							    <source src="/assets/videos/homepage/h264/Compliance.mp4" type="video/mp4"></source>
+							    <source src="/assets/videos/homepage/webm/Compliance.webm" type="video/webm"></source>
+							    <source src="/assets/videos/homepage/ogv/Compliance.ogv" type="video/ogv"></source>
+							</video>
+							<div class="videoinfo">
+								<h2 class="videotitle">The Role of Compliance</h2>
+								<p>As head of our legal team, Andrea Balogh, Executive Vice President and General Counsel, describes the client support provided by Meritain Health to understand healthcare reform and maintain a compliant health plan.</p>
+							</div>
+						</div>
+						<div id="operations-wrapper" class="hide largevideo">
+							<video id="operations" class="video-js vjs-default-skin" controls="controls" preload="none" width="320 " height="240" poster="/assets/images/site/videos/Operations-large.jpg" data-setup="{ &quot;controls&quot;: true, &quot;autoplay&quot;: false, &quot;preload&quot;: &quot;none&quot; }">
+							    <source src="/assets/videos/homepage/h264/Operations.mp4" type="video/mp4"></source>
+							    <source src="/assets/videos/homepage/webm/Operations.webm" type="video/webm"></source>
+							    <source src="/assets/videos/homepage/ogv/Operations.ogv" type="video/ogv"></source>
+							</video>
+							<div class="videoinfo">
+								<h2 class="videotitle">Operational Excellence</h2>
+							<p>National Operations, Lori Herzog, speaks about our healthcare services, highlighting what allows for our claims proficiency and service excellence.</p>
+							</div>
+						</div>
+						<ul>
+							<li><a href="#clientrelations"><img src="/assets/images/site/videos/ClientRelations.jpg" width="90" height="68" alt="Client Relations: Not Just a Philosophy" class="videothumb"></a>Dedicated Client<br> Services</li>
+							<li><a href="#compliance"><img src="/assets/images/site/videos/Compliance.jpg" width="90" height="68" alt="The Role of Compliance" class="videothumb"></a>Compliance <br>Support</li>
+							<li><a href="#operations"><img src="/assets/images/site/videos/Operations.jpg" width="90" height="68" alt="Operational Excellence" class="videothumb"></a>Operational<br> Excellence</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br style="clear: both;">
+<!-- Footer -->
+	
+
+
+<div id="footer" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs">
+	<hr>
+	<div id="footerwrapper">
+		<div id="footerleft">
+			<ul id="footernav">
+				<li><span id="copyright">&#169; 2012 Meritain Health</span> <a href="/Home">Home</a> <span>|</span></li>
+				<li><a href="/Home/SiteMap">Site Map</a> <span>|</span></li>
+				<li><a href="/Home/Resources/learnmore/whatisrss">What is RSS?</a> <span>|</span></li>
+				<li><a href="/MeritainHealthRSSFeed" class="rssicon">RSS News Links</a> <span>|</span></li>
+				<li><a href="/Home/Resources/MultimediaBroadcasts/Podcasts" class="rssicon">RSS Podcasts</a></li>
+			</ul>
+			<ul id="socialnetworking">
+				<li><a href="https://www.facebook.com/meritainhealth "><img src="/assets/images/site/icnfacebook.gif" width="24" height="24" alt="Meritain Health on Facebook"></a></li>
+				<li><a href="http://www.linkedin.com/company/meritain-health"><img src="/assets/images/site/icnlinkedin.gif" width="24" height="24" alt="Meritain Health on LinkedIn"></a></li>
+				<li><a href="http://twitter.com/meritainhealth"><img src="/assets/images/site/icntwitter.gif" width="24" height="24" alt="Meritain Health on Twitter"></a></li>
+				<li><a href="http://www.youtube.com/user/MeritainHealth"><img src="/assets/images/site/icnyoutube.gif" width="24" height="24" alt="Meritain Health on YouTube"></a></li>
+			</ul>
+		</div>
+		<div id="footerright">
+			<div id="asnonesense">
+				<p><img src="/assets/images/site/qcms.gif" width="100" height="22" alt="QCMS"></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="/assets/js/script.js" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:vbs="urn:schemas-sqlxml-org:vbs"></script>
+
+
+<!-- / Footer -->
+
+</body>
+</html>

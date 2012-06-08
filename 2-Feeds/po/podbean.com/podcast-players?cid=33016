@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<META name="verify-v1" content="c4/pDaOOoKLnTbQICD5KP1Hnsp4Bey33zHuFjZ5bxLM=" />
+<LINK REL="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
+
+<title>Podcast Players - The Feelgood show</title>
+<link href="/home/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/home/css/style_x.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/home/stylesheet/style.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/home/stylesheet/style_x.css" rel="stylesheet" type="text/css" media="screen">
+<link href="/home/new/newpage.css" rel="stylesheet" type="text/css" media="screen">
+
+<script type="text/JavaScript" src="/home/menu.js">
+</script>
+<script type="text/JavaScript" src="/js/pb_admin.js">
+</script>
+<script language="javascript" type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script> jQuery.noConflict(); </script>
+<script type="text/JavaScript" src="/js/prototype.js">
+</script>
+<script type="text/javascript">
+    function onLoad() { }
+</script>
+
+<script language="javascript" type="text/javascript">function isLogin() {return false;}</script>
+</head>
+<body class="grey" onload="onLoad();  ">
+<!-- s29 -->
+<div id="all">
+<div id="bg">
+	<div id="header">
+		<table width="938px" cellpadding=5 cellspacing=0>
+		<tr height="53px">
+		<td width="237px" align="left">
+		<div id="logo">
+		</div>
+		</td>
+		<td valign="bottom" align="left">
+		<div style="vertical-align:bottom; margin-bottom:5px;"> <h2 class="sitetag">
+		Podcast hosting, <br />Social subscribing</h2>
+		</div>
+		</td>
+		<td width="330px" align="right">
+		<div id="login">
+    <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="http://www.podbean.com/podcast_hosting_audio_video_blog_hosting"><strong>Sign Up</strong></a></span> 
+	 <span style="font-size:12px;padding-left:3px;">|</span>
+	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="http://www.podbean.com/podbean-help"><strong>Help</strong></a></span> 
+	  <span style="font-size:12px;padding-left:3px;">|</span>
+	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="https://www.podbean.com/login?redirect_to=http%3A%2F%2Fwww.podbean.com%2Fpodcast-players%3Fcid%3D33016" ><strong>Log In</strong></a></span> 
+ <div id="login1">
+ 	<form name="searchForm" id="searchForm" method="get" action="/search">
+ 		<input type="hidden" name="k" value="66a66b25446ff2f840cded3e5773c744">
+		<input type="text" name="v" maxlength="50" class="searchField" value="">
+		&nbsp;
+		<input type="submit" name="search" value="Search">
+	</form>
+ </div>
+ </div>
+ </td>
+ </tr>
+</table>	
+      
+	</div>
+	
+	<!-- tabs -->
+		<div class="rb_tabs">
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="/">Home</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcasts">Podcasts</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcast-directory-tag">Tags</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcast-directory-add-feed">Add a Podcast</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="https://www.podbean.com/pb-signup-publisher.php">Publish a podcast</a></div>
+		<div class="rb_tab_l off_l_b"></div><div class="rb_tab_r off_r_b"><a href="https://www.podbean.com/pb-signup-advertiser.php">Advertising</a></div>
+		</div>
+		<!-- /tabs -->
+		
+		
+		<div class="rb_body_bg"><!-- shadow bg -->
+			<div class="rb_body"><!-- margins for shadow -->
+				<div class="rb_content"><!-- white background -->
+					<div class="rb_subnav">
+					                    </div>
+
+
+				</div><!-- /rb_content -->
+			</div><!-- /rb_body -->
+		</div><!-- /rb_body_bg -->
+
+ <!-- cobr header -->
+
+<div id="content">
+<style>
+.updatedbox {
+    background: url("/wp-admin/images/notice.gif") no-repeat scroll 1em 50% #CFEBF7;
+    border: 1px solid #2580B2;
+    margin-top: 10px;
+    padding: 1em 0 1em 3em;
+}
+.msgItem {
+    margin: 10px 0;
+    padding: 3px 0;
+    text-align: left;
+    font-size:12px;
+}
+
+.close {
+    color: darkgray;
+    cursor: pointer;
+    float: right;
+    padding: 3px;
+    position: relative;
+    right: 10px;
+    top: -10px;
+}
+
+</style>
+<div id="ajaxmsg"></div>
+<!-- system message -->
+<!-- system message end -->
+
+<!-- private message -->
+<!-- private message end -->
+
+<table width="100%" border=0 cellspacing="0" cellpadding="0">
+<tr><td>
+<div id="browse">
+<br />
+
+<span class="greentitle14" style="float:left;">
+	Players for podcast channel "vitalisnews"
+</span>
+<div id="briefviewframeblank">
+<table width="100%" cellspacing="0" cellpadding="2">
+<tr><td width="100%" align="left" valign="top" colspan=2><hr width="100%" size=1 /></td></tr>
+<tr>
+<td width="100%" align="left" valign="top" colspan=2>
+<span class="blacktext10">Put this Podcast Player on your Web site</span>
+<p class="blacktext10nb">Copy the code next to your favorite player and paste it into the HTML for your own web sites, myspace, blogger etc.</p>
+</td>
+</tr>
+<tr>
+<td align="left">
+		<div>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="320" height="250" id="videoplayer320_white" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="movie" value="http://www.podbean.com/videoplayer/player/videoplayer320_white.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />
+	<param name="wmode" value="transparent" />
+	<embed src="http://www.podbean.com/videoplayer/player/videoplayer320_white.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" quality="high" bgcolor="#ffffff" width="320" height="250" name="videoplayer320_white" align="middle" allowScriptAccess="sameDomain" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </embed>
+	</object>
+	<br /><a style="font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; padding-left: 95px; color: #2DA274; text-decoration: none; border-bottom: none;" href="http://www.podbean.com">Podcast Powered By Podbean</a>
+	</div>	
+</td>
+<td align="left">
+<p class="blacktext10nb">Copy & Paste the following code to myspace, blog or your own web sites.</p>
+	<textarea cols="50" id="audio-blog-this-flash-html" name="show-flash-html" rows="5" wrap="virtual" onclick="javascript:this.select();" style="width:260px;overflow:hidden;">
+		<div>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="320" height="250" id="videoplayer320_white" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="movie" value="http://www.podbean.com/videoplayer/player/videoplayer320_white.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />
+	<param name="wmode" value="transparent" />
+	<embed src="http://www.podbean.com/videoplayer/player/videoplayer320_white.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" quality="high" bgcolor="#ffffff" width="320" height="250" name="videoplayer320_white" align="middle" allowScriptAccess="sameDomain" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </embed>
+	</object>
+	<br /><a style="font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; padding-left: 95px; color: #2DA274; text-decoration: none; border-bottom: none;" href="http://www.podbean.com">Podcast Powered By Podbean</a>
+	</div>	
+	</textarea>
+</td>	
+</tr>
+<tr>
+<td align="left">
+		<div>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="320" height="250" id="videoplayer320_black" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="movie" value="http://www.podbean.com/videoplayer/player/videoplayer320_black.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#000000" />
+	<param name="wmode" value="transparent" />
+	<embed src="http://www.podbean.com/videoplayer/player/videoplayer320_black.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" quality="high" bgcolor="#000000" width="320" height="250" name="videoplayer320_black" align="middle" allowScriptAccess="sameDomain" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </embed>
+	</object>
+	<br /><a style="font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; padding-left: 95px; color: #2DA274; text-decoration: none; border-bottom: none;" href="http://www.podbean.com">Podcast Powered By Podbean</a>
+	</div>	
+</td>
+<td align="left">
+<p class="blacktext10nb">Copy & Paste the following code to myspace, blog or your own web sites.</p>
+	<textarea cols="50" id="audio-blog-this-flash-html" name="show-flash-html" rows="5" wrap="virtual" onclick="javascript:this.select();" style="width:260px;overflow:hidden;">
+		<div>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="320" height="250" id="videoplayer320_black" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="movie" value="http://www.podbean.com/videoplayer/player/videoplayer320_black.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#000000" />
+	<param name="wmode" value="transparent" />
+	<embed src="http://www.podbean.com/videoplayer/player/videoplayer320_black.swf?playlist=http://www.podbean.com/podcast-audio-video-blog-playlist2/blogs2/33016/playlist/playlist_video.xml" quality="high" bgcolor="#000000" width="320" height="250" name="videoplayer320_black" align="middle" allowScriptAccess="sameDomain" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> </embed>
+	</object>
+	<br /><a style="font-family: arial, helvetica, sans-serif; font-size: 11px; font-weight: normal; padding-left: 95px; color: #2DA274; text-decoration: none; border-bottom: none;" href="http://www.podbean.com">Podcast Powered By Podbean</a>
+	</div>	
+	</textarea>
+</td>	
+</tr>
+<tr height=10></tr>
+<tr height=25></tr>
+
+<!--  begin join now box  -->
+<tr>
+<td align="left" valign="top" colspan=2>
+	<div class="combined-regbox clearfix">
+	<div class="combined-regbox-top" >
+
+	<p  class="blacktext10">
+	Start your own podcast is as easy as</p>
+
+     <table width="100%" border="0" cellspacing="0" cellpadding="8">
+     <tr><td align="left">
+     <font class="blacktext10">1.    <a class="defaultunderline" href="/start-podcast#upload-video-file" target="_blank">
+        Upload your video/audio file. </a></font>
+     </td></tr>
+     <tr><td align="left">
+    <font class="blacktext10"><strong>2.    <a class="defaultunderline" href="/start-podcast#publish-blog" target="_blank">
+        Compose and publish your post. </a></font>
+     </td></tr>
+     <tr><td align="left">
+       <font class="blacktext10"><strong>3. <a class="defaultunderline" href="/start-podcast#video-audio-blog" target="_blank">
+        It is done. Your podcast is live now. </a></font>
+     </td></tr>
+     <tr><td align="left">
+        <font style="font-size:12px;">
+        Set up your <strong>free</strong> account now! </font>
+     </td></tr>
+     <tr><td align="center">
+       <form action="/podcast_hosting_audio_video_blog_hosting" method=post>
+			<input type="hidden" name="service" value="Basic" />
+			<input type="hidden" name="fee" value="Free" />
+			<input type="hidden" name="page" value="start" />
+			<input type="hidden" name="src" value="embeded-player" />
+			<input type="image" src="/home/images/register_button.gif" alt="signup" border="0" name="submit" id="submit1" value="submitbasic"/>
+       </form>
+    </td></tr>
+    </table>   
+	</div><div class="combined-regbox-bottom"></div></div>
+	<!--  end join now box  -->
+<br /><br />
+<hr color="#ccc" size="1" width="100%" />
+<img src="/home/images/youmightlike.gif" width="175" height="18" border="0" alt="You might also like" />
+<br />
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr height=16></tr>
+<tr>
+<td width="80" align="center" valign="top"><a href="http://www.podbean.com/podcast-detail?pid=20689"><img src="http://s13.podbean.com/image-logo/0/20689_logo.jpg" height=60 width=60 border="0" /></a></td>
+<td align="left" valign="top"><font class="blacktext10"><a class="default" href="http://www.podbean.com/podcast-detail?pid=20689">tranquility du jour</a></font>
+<br /><h4>a guide to bringing tranquility to your every day</h4>
+</td>
+</tr>
+<tr height=15></tr>
+<tr height=16></tr>
+<tr>
+<td width="80" align="center" valign="top"><a href="http://www.podbean.com/podcast-detail?pid=18510"><img src="http://s13.podbean.com/image-logo/0/18510_logo.jpg" height=60 width=60 border="0" /></a></td>
+<td align="left" valign="top"><font class="blacktext10"><a class="default" href="http://www.podbean.com/podcast-detail?pid=18510">Savage Love Podcast</a></font>
+<br /><h4>Dan Savage, America's only advice columnist, answers your sex questions on the Internets. To record a question for Dan to be answered in a later podcast, call 2...</h4>
+</td>
+</tr>
+<tr height=15></tr>
+<tr height=16></tr>
+<tr>
+<td width="80" align="center" valign="top"><a href="http://www.podbean.com/podcast-detail?pid=17167"><img src="http://s13.podbean.com/image-logo/0/17167_logo.jpg" height=60 width=60 border="0" /></a></td>
+<td align="left" valign="top"><font class="blacktext10"><a class="default" href="http://www.podbean.com/podcast-detail?pid=17167">Low Blow</a></font>
+<br /><h4>Prostate cancer is a triple whammy for men, threatening incontinence, impotence and death. MSNBC.com writer Mike Stuckey chronicles his journey from diagnosis t...</h4>
+</td>
+</tr>
+<tr height=15></tr>
+</table></td>
+</tr>
+</table>
+</div>
+
+<div style="float: right; width: 300px; padding-top: 2px;">
+
+<script type="text/javascript">
+google_ad_client = "pub-5434740743733609";
+/* 300x250_image */
+google_ad_slot = "5832381138";
+google_ad_width = 300;
+google_ad_height = 250;
+
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<br /><div style="border: 1px solid rgb(153, 153, 153); padding: 5px; width:290px;">
+	<div style="border: 1px solid rgb(204, 204, 204); padding: 4px; background: #EBEDF3 none repeat scroll 0% 0%; text-align: center;">
+		<strong>Get the podcasts on your cellphone!</strong><br/>
+		Use <a href="http://news.podbean.com/2009/09/03/podbean-mobile-podcast-directory/">Podbean Mobile</a> Now!
+	</div>
+</div><br />
+
+<script type="text/javascript">
+google_ad_client = "pub-5434740743733609";
+/* 300x250_text */
+google_ad_slot = "4042407422";
+google_ad_width = 300;
+google_ad_height = 250;
+
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+
+
+</div>
+
+</div>
+</td></tr>
+</table>
+<br /><br /><br /><br />
+
+</div>
+</div>
+</div>
+	<div id="footer">
+		<div id="copyright">
+			<p class="small" style="color:#666">Copyright&copy;2006-2012		&nbsp;
+		<b>Podbean.com</b></p>
+		<ul class="site">
+			<li class="site"><a href="/podbean-privacy" title="Privacy Policy">Privacy Policy</a></li>
+			<li class="site">&nbsp;|&nbsp;</li>
+			<li class="site"><a href="/podbean-terms" title="Terms Of Use">Terms Of Use</a></li>
+		</ul>
+		</div>
+		<div id="subnav">
+		<ul class="site">
+			<li class="site"><h2><a href="/" title="about us">Home</a></h2></li>
+			<li class="site"><h2><a href="http://news.podbean.com" title="news">News</a></h2></li>
+			<li class="site"><h2><a href="/podcast_hosting_audio_video_blog_hosting_features_main" title="features">Features</a></h2></li>
+			<li class="site"><h2><a href="/podcast_hosting_audio_video_blog_hosting_features" title="pricing">Pricing</a></h2></li>
+			<li class="site"><h2><a href="http://www.podbean.com/business-podcast-solution" title="business solution">Business Solutions</a></h2></li>
+			<li class="site"><h2><a href="http://m.podbean.com" title="mobile">Mobile</a></h2></li>
+			<li class="site"><h2><a href="/contact" title="contact us">Contact us</a></h2></li>
+			<li class="site"><h2><a href="/podcast-blog-embeddable-mp3-flash-player" title="Free Podbean Player">Embeddable Player</a></h2></li>
+			<li class="site"><h2><a href="/podbean-banners" title="Podbean Banners">Link to us</a></h2></li>
+			<li class="site"><h2><a href="http://faq.podbean.com/podcast-faq-index/" title="faq">FAQ</a></h2></li>
+			<li class="site"><h2><a href="/podbean-user-guide/" title="User Guide">User Guide</a></h2></li>
+			<li class="site"><h2><a href="/podcast_resources" title="Podcast resources">Resources</a></h2></li>
+			
+		</ul>
+		</div>
+	</div>
+			<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-91lXzPDEtkPDc"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<a href="http://www.quantcast.com/p-91lXzPDEtkPDc" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-91lXzPDEtkPDc.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+		
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5072465-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>	
+</body>
+</html>

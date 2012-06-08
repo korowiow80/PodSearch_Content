@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/styles/rss/rss20.xsl" type="text/xsl" media="screen"?>
+<?xml-stylesheet href="/styles/rss/rss20.css" type="text/css" media="screen"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Wrel - Ruby on Rails Podcast</title>
+  <itunes:subtitle>Wrel</itunes:subtitle>
+  <itunes:summary>Themen rund um Webentwicklung im speziellen Ruby on Rails, Javascript und weitere.</itunes:summary>
+  <link>http://www.wrel.de</link>
+  <lastBuildDate>Thu, 07 Jun 2012 02:57:24 +0200</lastBuildDate>
+  <language>de</language>
+  <generator>www.podhost.de - Hosting your podcasts</generator>
+  <webMaster>Thomas Czernik</webMaster>
+  <managingEditor>Thomas Czernik</managingEditor>
+  <atom:link rel="self" type="application/rss+xml" title="Wrel - Ruby on Rails Podcast" href="http://wrel.podspot.de/rss" xmlns:atom="http://www.w3.org/2005/Atom" />
+  <itunes:owner>
+    <itunes:name>Tom</itunes:name>
+    <itunes:email>blog@webreload.de</itunes:email>
+  </itunes:owner>
+  <itunes:author>Thomas Czernik</itunes:author>
+  <itunes:category text="Technology">
+    <itunes:category text="Software How-To" />
+  </itunes:category>
+  <itunes:keywords>ruby on rails, ruby, javascript, wordpress, rails</itunes:keywords>
+  <itunes:explicit>no</itunes:explicit>
+  <ttl>20</ttl>
+  <item>
+    <title>.gitignore &#8211; und was kommt rein?</title>
+    <description>Ein neues Rails Projekt wurde angelegt und auch gleichzeitig dazu ein GIT-Repository initialisiert. Bevor es jetzt losgehen kann, noch schnell die .gitignore einstellen. Nur was kommt jetzt alles in die Datei rein?</description>
+    <author>Thomas Czernik</author>
+    <pubDate>Tue, 01 May 2012 11:35:54 +0200</pubDate>
+    <guid isPermaLink="false">0887c108fc676ed5e74e9c087b04c799</guid>
+    <link>http://wrel.podspot.de/files/gitignore.m4a</link>
+    <enclosure url="http://wrel.podspot.de/files/gitignore.m4a" length="2959982" type="audio/mpeg"/>
+  </item>
+  <item>
+    <title>Rails 3.2.3 veröffentlicht</title>
+    <description>Letzte Woche wurde Ruby on Rails in der Version 3.2.3 veröffentlicht. Neben einigen Bugfixes wurde auch einiges an der Sicherheit des Frameworks und dem Schutz vor unerlaubten Parametern bei mass assignment geändert.</description>
+    <author>Thomas Czernik</author>
+    <pubDate>Sun, 22 Apr 2012 15:35:04 +0200</pubDate>
+    <guid isPermaLink="false">12f293d6f0d74df3dae01dae269d11bb</guid>
+    <link>http://wrel.podspot.de/files/Memo.m4a</link>
+    <enclosure url="http://wrel.podspot.de/files/Memo.m4a" length="2875733" type="audio/mpeg"/>
+  </item>
+</channel>
+</rss>

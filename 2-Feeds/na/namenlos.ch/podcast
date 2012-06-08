@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+<meta charset="UTF-8" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<title>der namenlose Podcast</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.namenlos.ch/podcast/wp-content/themes/twentyten_modified/style.css" />
+<link rel="pingback" href="http://www.namenlos.ch/podcast/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Der namenlose Podcast &raquo; Feed" href="http://www.namenlos.ch/podcast/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Der namenlose Podcast &raquo; Kommentar Feed" href="http://www.namenlos.ch/podcast/comments/feed/" />
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-18402026-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+<link rel='stylesheet' id='wp-postratings-css'  href='http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.50' type='text/css' media='all' />
+<link rel='stylesheet' id='wpcirrus-cloudStyle-css'  href='http://www.namenlos.ch/podcast/wp-content/plugins/wp-cirrus/cirrusCloud.css?ver=0.6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://www.namenlos.ch/podcast/wp-content/plugins/podpress/podpress.css?ver=3.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://www.namenlos.ch/podcast/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "f1f1f1";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "aaaaaa";
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["rightbg"] = "888888";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "f4b527";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://www.namenlos.ch/podcast/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"f1f1f1", text:"333333", leftbg:"aaaaaa", lefticon:"333333", voltrack:"FFFFFF", volslider:"666666", rightbg:"888888", rightbghover:"999999", righticon:"333333", righticonhover:"FFFFFF", loader:"f4b527", track:"FFFFFF", border:"CCCCCC", tracker:"DDDDDD", skip:"666666", slider:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.namenlos.ch/podcast/";
+var podPressBackendURL = "http://www.namenlos.ch/podcast/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://www.namenlos.ch/podcast/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://www.namenlos.ch/podcast/wp-content/plugins/wp-cirrus/wp_cirrus_gwt/wp_cirrus_gwt.nocache.js?ver=0.6.5'></script>
+<script type='text/javascript' src='http://www.namenlos.ch/podcast/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://www.namenlos.ch/podcast/wp-content/plugins/podpress/js/podpress.js?ver=3.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.namenlos.ch/podcast/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.namenlos.ch/podcast/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Der namenlose Podcast' href='http://www.namenlos.ch/podcast/' />
+<meta name="generator" content="WordPress 3.1" />
+<link rel='shortlink' href='http://wp.me/8L8H' />
+
+<!-- All in One SEO Pack 1.6.13.2 by Michael Torbert of Semper Fi Web Design[139,269] -->
+<meta name="description" content="seit Oktober 2007 jeden zweiten Sonntag über alles, was den Rock&#039;n Roll nicht sterben lässt" />
+<meta name="keywords" content="basel, podcast, podcasting, switzerland, schweiz, bier, rock, rock\'n roll, music, bands, sound, agenda, konzert, technik, radio, sendung, ipod, itunes" />
+<link rel="canonical" href="http://www.namenlos.ch/podcast/" />
+<!-- /all in one seo pack -->
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://www.namenlos.ch/podcast/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "f1f1f1";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "aaaaaa";
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["rightbg"] = "888888";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "f4b527";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://www.namenlos.ch/podcast/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"f1f1f1", text:"333333", leftbg:"aaaaaa", lefticon:"333333", voltrack:"FFFFFF", volslider:"666666", rightbg:"888888", rightbghover:"999999", righticon:"333333", righticonhover:"FFFFFF", loader:"f4b527", track:"FFFFFF", border:"CCCCCC", tracker:"DDDDDD", skip:"666666", slider:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.namenlos.ch/podcast/";
+var podPressBackendURL = "http://www.namenlos.ch/podcast/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style></head>
+
+<body class="home blog">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead"><img src="http://namenlos.ch/podcast/logo_podcast_web.png">
+			
+								<h1 id="site-title">
+					<span>
+						<a href="http://www.namenlos.ch/podcast/" title="Der namenlose Podcast" rel="home">Der namenlose Podcast</a>
+					</span>
+
+				</h1>
+</div><!-- #masthead -->
+				<div id="site-description">
+<!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ --><script type="text/javascript" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-cumulus/swfobject.js"></script><div style="width:400px;display:inline-block" id="wpcumuluscontent6505726"><p><a href='http://www.namenlos.ch/podcast/tag/amsterdam/' class='tag-link-618' title='13 Themen' style='font-size: 14.814159292pt;'>Amsterdam</a>
+<a href='http://www.namenlos.ch/podcast/tag/apple/' class='tag-link-613' title='5 Themen' style='font-size: 10.2300884956pt;'>Apple</a>
+<a href='http://www.namenlos.ch/podcast/tag/basel/' class='tag-link-237' title='14 Themen' style='font-size: 15.185840708pt;'>Basel</a>
+<a href='http://www.namenlos.ch/podcast/tag/bier/' class='tag-link-248' title='9 Themen' style='font-size: 12.9557522124pt;'>Bier</a>
+<a href='http://www.namenlos.ch/podcast/tag/bierbrauen/' class='tag-link-43' title='4 Themen' style='font-size: 9.2389380531pt;'>Bierbrauen</a>
+<a href='http://www.namenlos.ch/podcast/tag/bob-dylan/' class='tag-link-44' title='6 Themen' style='font-size: 11.0973451327pt;'>Bob Dylan</a>
+<a href='http://www.namenlos.ch/podcast/tag/brasilien/' class='tag-link-157' title='4 Themen' style='font-size: 9.2389380531pt;'>Brasilien</a>
+<a href='http://www.namenlos.ch/podcast/tag/bscene/' class='tag-link-367' title='4 Themen' style='font-size: 9.2389380531pt;'>BScene</a>
+<a href='http://www.namenlos.ch/podcast/tag/buch/' class='tag-link-637' title='3 Themen' style='font-size: 8pt;'>Buch</a>
+<a href='http://www.namenlos.ch/podcast/tag/easyjet-trip/' class='tag-link-629' title='4 Themen' style='font-size: 9.2389380531pt;'>easyJet-Trip</a>
+<a href='http://www.namenlos.ch/podcast/tag/fussball/' class='tag-link-611' title='4 Themen' style='font-size: 9.2389380531pt;'>Fussball</a>
+<a href='http://www.namenlos.ch/podcast/tag/gadget/' class='tag-link-627' title='5 Themen' style='font-size: 10.2300884956pt;'>Gadget</a>
+<a href='http://www.namenlos.ch/podcast/tag/google/' class='tag-link-227' title='3 Themen' style='font-size: 8pt;'>google</a>
+<a href='http://www.namenlos.ch/podcast/tag/hamburg/' class='tag-link-670' title='4 Themen' style='font-size: 9.2389380531pt;'>Hamburg</a>
+<a href='http://www.namenlos.ch/podcast/tag/handy/' class='tag-link-631' title='4 Themen' style='font-size: 9.2389380531pt;'>Handy</a>
+<a href='http://www.namenlos.ch/podcast/tag/internet/' class='tag-link-147' title='3 Themen' style='font-size: 8pt;'>Internet</a>
+<a href='http://www.namenlos.ch/podcast/tag/journalismus/' class='tag-link-557' title='3 Themen' style='font-size: 8pt;'>Journalismus</a>
+<a href='http://www.namenlos.ch/podcast/tag/kaiser-chiefs/' class='tag-link-37' title='5 Themen' style='font-size: 10.2300884956pt;'>Kaiser Chiefs</a>
+<a href='http://www.namenlos.ch/podcast/tag/karin-portmann/' class='tag-link-454' title='5 Themen' style='font-size: 10.2300884956pt;'>Karin Portmann</a>
+<a href='http://www.namenlos.ch/podcast/tag/konzert/' class='tag-link-619' title='17 Themen' style='font-size: 16.1769911504pt;'>Konzert</a>
+<a href='http://www.namenlos.ch/podcast/tag/kultur/' class='tag-link-193' title='3 Themen' style='font-size: 8pt;'>Kultur</a>
+<a href='http://www.namenlos.ch/podcast/tag/microsoft/' class='tag-link-669' title='3 Themen' style='font-size: 8pt;'>Microsoft</a>
+<a href='http://www.namenlos.ch/podcast/tag/musik/' class='tag-link-5' title='53 Themen' style='font-size: 22pt;'>Musik</a>
+<a href='http://www.namenlos.ch/podcast/tag/musiker/' class='tag-link-447' title='41 Themen' style='font-size: 20.6371681416pt;'>Musiker</a>
+<a href='http://www.namenlos.ch/podcast/tag/nachhaltigkeit/' class='tag-link-604' title='8 Themen' style='font-size: 12.3362831858pt;'>Nachhaltigkeit</a>
+<a href='http://www.namenlos.ch/podcast/tag/nano/' class='tag-link-60' title='4 Themen' style='font-size: 9.2389380531pt;'>nano</a>
+<a href='http://www.namenlos.ch/podcast/tag/party/' class='tag-link-612' title='3 Themen' style='font-size: 8pt;'>Party</a>
+<a href='http://www.namenlos.ch/podcast/tag/podcast/' class='tag-link-632' title='7 Themen' style='font-size: 11.7168141593pt;'>Podcast</a>
+<a href='http://www.namenlos.ch/podcast/tag/radio/' class='tag-link-616' title='9 Themen' style='font-size: 12.9557522124pt;'>Radio</a>
+<a href='http://www.namenlos.ch/podcast/tag/reisetagebuch/' class='tag-link-152' title='6 Themen' style='font-size: 11.0973451327pt;'>Reisetagebuch</a>
+<a href='http://www.namenlos.ch/podcast/tag/rockgeschichte/' class='tag-link-52' title='3 Themen' style='font-size: 8pt;'>Rockgeschichte</a>
+<a href='http://www.namenlos.ch/podcast/tag/rubbellos/' class='tag-link-628' title='4 Themen' style='font-size: 9.2389380531pt;'>Rubbellos</a>
+<a href='http://www.namenlos.ch/podcast/tag/scheisse/' class='tag-link-566' title='3 Themen' style='font-size: 8pt;'>Scheisse</a>
+<a href='http://www.namenlos.ch/podcast/tag/sommer/' class='tag-link-620' title='3 Themen' style='font-size: 8pt;'>Sommer</a>
+<a href='http://www.namenlos.ch/podcast/tag/songs-uber/' class='tag-link-650' title='5 Themen' style='font-size: 10.2300884956pt;'>Songs über...</a>
+<a href='http://www.namenlos.ch/podcast/tag/songtext/' class='tag-link-609' title='10 Themen' style='font-size: 13.4513274336pt;'>Songtext</a>
+<a href='http://www.namenlos.ch/podcast/tag/sport/' class='tag-link-622' title='3 Themen' style='font-size: 8pt;'>Sport</a>
+<a href='http://www.namenlos.ch/podcast/tag/technik/' class='tag-link-41' title='40 Themen' style='font-size: 20.5132743363pt;'>Technik</a>
+<a href='http://www.namenlos.ch/podcast/tag/tv/' class='tag-link-608' title='3 Themen' style='font-size: 8pt;'>TV</a>
+<a href='http://www.namenlos.ch/podcast/tag/webtipps/' class='tag-link-614' title='23 Themen' style='font-size: 17.6637168142pt;'>Webtipps</a>
+<a href='http://www.namenlos.ch/podcast/tag/weihnachten/' class='tag-link-300' title='3 Themen' style='font-size: 8pt;'>weihnachten</a>
+<a href='http://www.namenlos.ch/podcast/tag/wettbewerb/' class='tag-link-486' title='5 Themen' style='font-size: 10.2300884956pt;'>Wettbewerb</a>
+<a href='http://www.namenlos.ch/podcast/tag/wetter/' class='tag-link-640' title='4 Themen' style='font-size: 9.2389380531pt;'>Wetter</a>
+<a href='http://www.namenlos.ch/podcast/tag/windows/' class='tag-link-580' title='4 Themen' style='font-size: 9.2389380531pt;'>Windows</a>
+<a href='http://www.namenlos.ch/podcast/tag/okonomie/' class='tag-link-615' title='16 Themen' style='font-size: 15.8053097345pt;'>Ökonomie</a></p><p>WP Cumulus Flash tag cloud by <a href="http://www.roytanck.com" rel="nofollow">Roy Tanck</a> requires <a href="http://www.macromedia.com/go/getflashplayer">Flash Player</a> 9 or better.</p></div><script type="text/javascript">var so8692468 = new SWFObject("http://www.namenlos.ch/podcast/wp-content/plugins/wp-cumulus/tagcloud.swf?r=7686629", "tagcloudflash", "400", "300", "9", "#ffffff");so8692468.addParam("allowScriptAccess", "always");so8692468.addVariable("tcolor", "0xaaaaaa");so8692468.addVariable("tcolor2", "0x888888");so8692468.addVariable("hicolor", "0xf4b527");so8692468.addVariable("tspeed", "100");so8692468.addVariable("distr", "true");so8692468.addVariable("mode", "tags");so8692468.addVariable("tagcloud", "%3Ctags%3E%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Famsterdam%2F%27+class%3D%27tag-link-618%27+title%3D%2713+Themen%27+style%3D%27font-size%3A+14.814159292pt%3B%27%3EAmsterdam%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fapple%2F%27+class%3D%27tag-link-613%27+title%3D%275+Themen%27+style%3D%27font-size%3A+10.2300884956pt%3B%27%3EApple%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbasel%2F%27+class%3D%27tag-link-237%27+title%3D%2714+Themen%27+style%3D%27font-size%3A+15.185840708pt%3B%27%3EBasel%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbier%2F%27+class%3D%27tag-link-248%27+title%3D%279+Themen%27+style%3D%27font-size%3A+12.9557522124pt%3B%27%3EBier%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbierbrauen%2F%27+class%3D%27tag-link-43%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EBierbrauen%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbob-dylan%2F%27+class%3D%27tag-link-44%27+title%3D%276+Themen%27+style%3D%27font-size%3A+11.0973451327pt%3B%27%3EBob+Dylan%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbrasilien%2F%27+class%3D%27tag-link-157%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EBrasilien%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbscene%2F%27+class%3D%27tag-link-367%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EBScene%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fbuch%2F%27+class%3D%27tag-link-637%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EBuch%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Feasyjet-trip%2F%27+class%3D%27tag-link-629%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EeasyJet-Trip%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Ffussball%2F%27+class%3D%27tag-link-611%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EFussball%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fgadget%2F%27+class%3D%27tag-link-627%27+title%3D%275+Themen%27+style%3D%27font-size%3A+10.2300884956pt%3B%27%3EGadget%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fgoogle%2F%27+class%3D%27tag-link-227%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3Egoogle%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fhamburg%2F%27+class%3D%27tag-link-670%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EHamburg%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fhandy%2F%27+class%3D%27tag-link-631%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EHandy%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Finternet%2F%27+class%3D%27tag-link-147%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EInternet%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fjournalismus%2F%27+class%3D%27tag-link-557%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EJournalismus%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fkaiser-chiefs%2F%27+class%3D%27tag-link-37%27+title%3D%275+Themen%27+style%3D%27font-size%3A+10.2300884956pt%3B%27%3EKaiser+Chiefs%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fkarin-portmann%2F%27+class%3D%27tag-link-454%27+title%3D%275+Themen%27+style%3D%27font-size%3A+10.2300884956pt%3B%27%3EKarin+Portmann%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fkonzert%2F%27+class%3D%27tag-link-619%27+title%3D%2717+Themen%27+style%3D%27font-size%3A+16.1769911504pt%3B%27%3EKonzert%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fkultur%2F%27+class%3D%27tag-link-193%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EKultur%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fmicrosoft%2F%27+class%3D%27tag-link-669%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EMicrosoft%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fmusik%2F%27+class%3D%27tag-link-5%27+title%3D%2753+Themen%27+style%3D%27font-size%3A+22pt%3B%27%3EMusik%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fmusiker%2F%27+class%3D%27tag-link-447%27+title%3D%2741+Themen%27+style%3D%27font-size%3A+20.6371681416pt%3B%27%3EMusiker%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fnachhaltigkeit%2F%27+class%3D%27tag-link-604%27+title%3D%278+Themen%27+style%3D%27font-size%3A+12.3362831858pt%3B%27%3ENachhaltigkeit%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fnano%2F%27+class%3D%27tag-link-60%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3Enano%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fparty%2F%27+class%3D%27tag-link-612%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EParty%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fpodcast%2F%27+class%3D%27tag-link-632%27+title%3D%277+Themen%27+style%3D%27font-size%3A+11.7168141593pt%3B%27%3EPodcast%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fradio%2F%27+class%3D%27tag-link-616%27+title%3D%279+Themen%27+style%3D%27font-size%3A+12.9557522124pt%3B%27%3ERadio%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Freisetagebuch%2F%27+class%3D%27tag-link-152%27+title%3D%276+Themen%27+style%3D%27font-size%3A+11.0973451327pt%3B%27%3EReisetagebuch%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Frockgeschichte%2F%27+class%3D%27tag-link-52%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3ERockgeschichte%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Frubbellos%2F%27+class%3D%27tag-link-628%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3ERubbellos%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fscheisse%2F%27+class%3D%27tag-link-566%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3EScheisse%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fsommer%2F%27+class%3D%27tag-link-620%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3ESommer%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fsongs-uber%2F%27+class%3D%27tag-link-650%27+title%3D%275+Themen%27+style%3D%27font-size%3A+10.2300884956pt%3B%27%3ESongs+%C3%BCber...%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fsongtext%2F%27+class%3D%27tag-link-609%27+title%3D%2710+Themen%27+style%3D%27font-size%3A+13.4513274336pt%3B%27%3ESongtext%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fsport%2F%27+class%3D%27tag-link-622%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3ESport%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Ftechnik%2F%27+class%3D%27tag-link-41%27+title%3D%2740+Themen%27+style%3D%27font-size%3A+20.5132743363pt%3B%27%3ETechnik%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Ftv%2F%27+class%3D%27tag-link-608%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3ETV%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fwebtipps%2F%27+class%3D%27tag-link-614%27+title%3D%2723+Themen%27+style%3D%27font-size%3A+17.6637168142pt%3B%27%3EWebtipps%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fweihnachten%2F%27+class%3D%27tag-link-300%27+title%3D%273+Themen%27+style%3D%27font-size%3A+8pt%3B%27%3Eweihnachten%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fwettbewerb%2F%27+class%3D%27tag-link-486%27+title%3D%275+Themen%27+style%3D%27font-size%3A+10.2300884956pt%3B%27%3EWettbewerb%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fwetter%2F%27+class%3D%27tag-link-640%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EWetter%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fwindows%2F%27+class%3D%27tag-link-580%27+title%3D%274+Themen%27+style%3D%27font-size%3A+9.2389380531pt%3B%27%3EWindows%3C%2Fa%3E%0A%3Ca+href%3D%27http%3A%2F%2Fwww.namenlos.ch%2Fpodcast%2Ftag%2Fokonomie%2F%27+class%3D%27tag-link-615%27+title%3D%2716+Themen%27+style%3D%27font-size%3A+15.8053097345pt%3B%27%3E%C3%96konomie%3C%2Fa%3E%3C%2Ftags%3E");so8692468.write("wpcumuluscontent6505726");</script>
+
+
+</div>
+
+				
+			
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Springe zum Inhalt">Springe zum Inhalt</a></div>
+								<div class="menu"><ul><li class="current_page_item"><a href="http://www.namenlos.ch/podcast/" title="Home">Home</a></li><li class="page_item page-item-35"><a href="http://www.namenlos.ch/podcast/themenliste/" title="exzellente Beiträge">exzellente Beiträge</a><ul class='children'><li class="page_item page-item-883"><a href="http://www.namenlos.ch/podcast/themenliste/musik/" title="Musik">Musik</a><ul class='children'><li class="page_item page-item-936"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/" title="Musiker &amp; Bands">Musiker &amp; Bands</a><ul class='children'><li class="page_item page-item-1417"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/adam-green/" title="Adam Green">Adam Green</a></li><li class="page_item page-item-1406"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/lee-everton/" title="Lee Everton">Lee Everton</a></li><li class="page_item page-item-1391"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/schwellheim/" title="Schwellheim">Schwellheim</a></li><li class="page_item page-item-1262"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/the-felice-brothers/" title="The Felice Brothers">The Felice Brothers</a></li><li class="page_item page-item-1358"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/the-kaiser-chiefs/" title="The Kaiser Chiefs">The Kaiser Chiefs</a></li><li class="page_item page-item-1424"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musik-uber/the-paperboys/" title="The Paperboys">The Paperboys</a></li></ul></li><li class="page_item page-item-940"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musikgeschichte/" title="Musikgeschichte">Musikgeschichte</a><ul class='children'><li class="page_item page-item-1400"><a href="http://www.namenlos.ch/podcast/themenliste/musik/musikgeschichte/die-nullerjahre-in-der-ch-singel-hitparade/" title="Die Hits der Nullerjahre">Die Hits der Nullerjahre</a></li></ul></li></ul></li><li class="page_item page-item-912"><a href="http://www.namenlos.ch/podcast/themenliste/gesellschaft/" title="Sache git&#8217;s!">Sache git&#8217;s!</a><ul class='children'><li class="page_item page-item-932"><a href="http://www.namenlos.ch/podcast/themenliste/gesellschaft/literatr/" title="em Basler sy Bier">em Basler sy Bier</a></li><li class="page_item page-item-1353"><a href="http://www.namenlos.ch/podcast/themenliste/gesellschaft/1353-2/" title="Wasserballast-Bahn">Wasserballast-Bahn</a></li></ul></li><li class="page_item page-item-892"><a href="http://www.namenlos.ch/podcast/themenliste/technik/" title="spannende Menschen">spannende Menschen</a><ul class='children'><li class="page_item page-item-1322"><a href="http://www.namenlos.ch/podcast/themenliste/technik/christian-kracht/" title="Christian Kracht">Christian Kracht</a></li></ul></li><li class="page_item page-item-1319"><a href="http://www.namenlos.ch/podcast/themenliste/wissenswert/" title="wissenswert">wissenswert</a><ul class='children'><li class="page_item page-item-1438"><a href="http://www.namenlos.ch/podcast/themenliste/wissenswert/android-und-die-android-schweiz-internetseite/" title="Android Schweiz">Android Schweiz</a></li><li class="page_item page-item-1347"><a href="http://www.namenlos.ch/podcast/themenliste/wissenswert/bristol-stuhlformen-skala/" title="Bristol-Stuhlformen-Skala">Bristol-Stuhlformen-Skala</a></li><li class="page_item page-item-1431"><a href="http://www.namenlos.ch/podcast/themenliste/wissenswert/geocaching/" title="Geocaching">Geocaching</a></li><li class="page_item page-item-1311"><a href="http://www.namenlos.ch/podcast/themenliste/wissenswert/wissenswert/" title="ab wann ist Nebel Nebel?">ab wann ist Nebel Nebel?</a></li></ul></li><li class="page_item page-item-1336"><a href="http://www.namenlos.ch/podcast/themenliste/veranstaltungen/" title="Veranstaltungen">Veranstaltungen</a><ul class='children'><li class="page_item page-item-1383"><a href="http://www.namenlos.ch/podcast/themenliste/veranstaltungen/basler-pop-preis/" title="Basler Pop-Preis">Basler Pop-Preis</a></li><li class="page_item page-item-1344"><a href="http://www.namenlos.ch/podcast/themenliste/veranstaltungen/bscene/" title="BScene">BScene</a></li><li class="page_item page-item-1375"><a href="http://www.namenlos.ch/podcast/themenliste/veranstaltungen/open-mic-im-parterre-basel/" title="Open Mic im Parterre Basel">Open Mic im Parterre Basel</a></li><li class="page_item page-item-1339"><a href="http://www.namenlos.ch/podcast/themenliste/veranstaltungen/st-paulopoly/" title="St. Paulopoly">St. Paulopoly</a></li></ul></li><li class="page_item page-item-1295"><a href="http://www.namenlos.ch/podcast/themenliste/vermischte-meldungen/" title="random shit">random shit</a><ul class='children'><li class="page_item page-item-1333"><a href="http://www.namenlos.ch/podcast/themenliste/vermischte-meldungen/am-partei-tag-von-die-partei/" title="am &#8220;Partei&#8221;-Tag">am &#8220;Partei&#8221;-Tag</a></li><li class="page_item page-item-1297"><a href="http://www.namenlos.ch/podcast/themenliste/vermischte-meldungen/thierry-gilgen-uber-nacht-beruhmt/" title="über Nacht berühmt!">über Nacht berühmt!</a></li></ul></li></ul></li><li class="page_item page-item-34"><a href="http://www.namenlos.ch/podcast/links/" title="Links">Links</a></li><li class="page_item page-item-91"><a href="http://www.namenlos.ch/podcast/medien/" title="Medien">Medien</a></li><li class="page_item page-item-603"><a href="http://www.namenlos.ch/podcast/wettbewerbe/" title="Wettbewerbe">Wettbewerbe</a></li><li class="page_item page-item-152"><a href="http://www.namenlos.ch/podcast/die-vier-podcaster/" title="Impressum">Impressum</a><ul class='children'><li class="page_item page-item-900"><a href="http://www.namenlos.ch/podcast/author/gabe/" title="Gabe">Gabe</a></li><li class="page_item page-item-897"><a href="http://www.namenlos.ch/podcast/author/mu/" title="Mu">Mu</a></li><li class="page_item page-item-903"><a href="http://www.namenlos.ch/podcast/author/admin/" title="Sam">Sam</a></li><li class="page_item page-item-907"><a href="http://www.namenlos.ch/podcast/author/thomy/" title="Thomy">Thomy</a></li></ul></li></ul></div>
+<div style="float:right;margin-right:6px;"><a href="http://www.facebook.com/share.php?u=http://namenlos.ch/podcast" style="display:inline;padding:0px 3px;"><img src="facebook_20.png" style="margin-top:6px;"></a><a href="http://twitter.com/share?url=http://namenlos.ch/podcast&text=der%20namenlose%20Podcast" style="display:inline;padding:0px 3px;"><img src="twitter-01_20.png" style="margin-top:6px;"></a><a href="http://www.namenlos.ch/podcast/?feed=podcast" style="display:inline;padding:0px 3px;"><img src="rss_20.png" style="margin-top:6px;"></a></div>
+
+</div><!-- #access -->
+		
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+	<div id="nav-above" class="navigation">
+		<div class="nav-previous"><a href="http://www.namenlos.ch/podcast/page/2/" ><span class="meta-nav">&larr;</span> Ältere Beiträge</a></div>
+		<div class="nav-next"></div>
+	</div><!-- #nav-above -->
+
+
+
+
+			<div id="post-1688" class="post-1688 post type-post status-publish format-standard hentry category-uncategorized">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/episode-89-verzogert-sich/" title="Permalink zu Episode 89 verzögert sich&#8230;" rel="bookmark">Episode 89 verzögert sich&#8230;</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/episode-89-verzogert-sich/" title="07:05" rel="bookmark"><span class="entry-date">11. April 2011</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/admin/" title="Zeige alle Beiträge von sam">sam</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/episode-89-verzogert-sich/#comments" title="Kommentiere Episode 89 verzögert sich&#8230;">3 Kommentare</a></span>
+				<div id="post-ratings-1688" class="post-ratings"><img id="rating_1688_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1688, 1, '1 Star');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1688_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1688, 2, '2 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1688_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1688, 3, '3 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1688_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1688, 4, '4 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1688_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1688, 5, '5 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (0)</div>
+<div id="post-ratings-1688-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p>wegen technischer Probleme im Umgang mit hochauflösenden Videodateien. Aber sie kommt, und sie wird groooooos! </p>
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1685" class="post-1685 post type-post status-publish format-standard hentry category-episoden">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/088-grosses-kino/" title="Permalink zu 088 &#8211; grosses Kino" rel="bookmark">088 &#8211; grosses Kino</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/088-grosses-kino/" title="16:14" rel="bookmark"><span class="entry-date">11. März 2011</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/admin/" title="Zeige alle Beiträge von sam">sam</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/088-grosses-kino/#respond" title="Kommentiere 088 &#8211; grosses Kino">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1685" class="post-ratings"><img id="rating_1685_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1685, 1, '1 Star');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1685_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1685, 2, '2 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1685_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1685, 3, '3 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1685_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1685, 4, '4 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1685_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1685, 5, '5 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (0)</div>
+<div id="post-ratings-1685-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace" id="podPressPlayerSpace_1"><!-- podPress --></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;YouTube <span id="podPressPlayerSpace_1_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_1" onclick="javascript:podPressPopupPlayer('1', 'qXLkwcKpkQQ.youtube', 480, 260, 'Der namenlose Podcast', '1685', 'YouTube', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.youtube.com/watch?v=qXLkwcKpkQQ" target="new">Direkter Link</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('1', 'qXLkwcKpkQQ.youtube', 480, 260, 'false', 'http://img.youtube.com/vi/qXLkwcKpkQQ/default.jpg', 'YouTube', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1677" class="post-1677 post type-post status-publish format-standard hentry category-episoden tag-handy tag-microsoft tag-musik tag-musiker tag-technik">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/087-nokia-microsoft-und-andere-abtretende-diktatoren/" title="Permalink zu 087: Nokia, Microsoft und andere abtretende Diktatoren" rel="bookmark">087: Nokia, Microsoft und andere abtretende Diktatoren</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/087-nokia-microsoft-und-andere-abtretende-diktatoren/" title="10:36" rel="bookmark"><span class="entry-date">21. Februar 2011</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/admin/" title="Zeige alle Beiträge von sam">sam</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/087-nokia-microsoft-und-andere-abtretende-diktatoren/#respond" title="Kommentiere 087: Nokia, Microsoft und andere abtretende Diktatoren">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1677" class="post-ratings"><img id="rating_1677_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1677, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1677_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1677, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1677_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1677, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1677_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1677, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1677_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1677, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (1)</div>
+<div id="post-ratings-1677-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><a rel="attachment wp-att-1678" href="http://www.namenlos.ch/podcast/087-nokia-microsoft-und-andere-abtretende-diktatoren/newyork/"><img class="alignleft size-thumbnail wp-image-1678" title="newyork" src="http://www.namenlos.ch/podcast/wp-content/uploads/newyork-150x150.jpg" alt="" width="150" height="150" /></a>Thomy lässt heute <a href="http://www.nashville.gov/">Nashville</a> links liegen und besingt <a href="http://booking.swiss.com/web/Angebote/von-Z%c3%bcrich-ZRH-nach-New-York-NYC.html?i=QwU">New-York</a> (ja, der Link ist absichtlich so gesetzt). Und Gabe berichtet über <a href="http://www.engadget.com/2011/02/15/the-engadget-interview-nokia-ceo-stephen-elop-talks-microsoft/">Mikrokia</a>. Mu&#8217;s Maul bleibt wegen Umzug geschlossen, dafür gibt&#8217;s nochmal was zum Kairoreisenden und ehemaligen Literaturliebhaber A. Kunz.</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_2"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_2_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_2" onclick="javascript:podPressPopupPlayer('2', 'http://www.namenlos.ch/podcast/podpress_trac/play/1677/0/e0861.mp3', 290, 24, 'Der namenlose Podcast', '1677', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1677/0/e0861.mp3" target="new">Download</a> (2429)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('2', 'http://www.namenlos.ch/podcast/podpress_trac/play/1677/0/e0861.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1645" class="post-1645 post type-post status-publish format-standard hentry category-episoden tag-geburtstag tag-kairo tag-kunsthandel tag-okonomie tag-wundertute">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/086-kunsthandler-werden-real/" title="Permalink zu 086 &#8211; Kunsthändler werden real" rel="bookmark">086 &#8211; Kunsthändler werden real</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/086-kunsthandler-werden-real/" title="20:18" rel="bookmark"><span class="entry-date">13. Februar 2011</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/gabe/" title="Zeige alle Beiträge von gabe">gabe</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/086-kunsthandler-werden-real/#respond" title="Kommentiere 086 &#8211; Kunsthändler werden real">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1645" class="post-ratings"><img id="rating_1645_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1645, 1, '1 Star');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1645_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1645, 2, '2 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1645_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1645, 3, '3 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1645_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1645, 4, '4 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1645_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1645, 5, '5 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (0)</div>
+<div id="post-ratings-1645-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><img class="alignleft size-thumbnail wp-image-1651" title="aKunz" src="http://www.namenlos.ch/podcast/wp-content/uploads/P1030425-1-150x150.jpg" alt="" width="150" height="150" />Thomy erklärt uns in seinem Beitrag auf <a href="http://www.wired.com/magazine/2011/01/ff_lottery/all/1">Wissenschaftliche Art und Weise</a> die Zusammenhänge zwischen Rubbeln, Geld und der Mafia. Sam und Mu trafen den bis anhin als imaginär geltenden Kunsthändler A. Kunz. Viel Spass</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_3"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_3_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_3" onclick="javascript:podPressPopupPlayer('3', 'http://www.namenlos.ch/podcast/podpress_trac/play/1645/0/e086.mp3', 290, 24, 'Der namenlose Podcast', '1645', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1645/0/e086.mp3" target="new">Download</a> (1337)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('3', 'http://www.namenlos.ch/podcast/podpress_trac/play/1645/0/e086.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1628" class="post-1628 post type-post status-publish format-standard hentry category-episoden tag-horspiel tag-musik tag-musiker tag-technik">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/085-do-passt-jo-ganz-boosel-iine/" title="Permalink zu 085 &#8211; Do passt jo ganz Boosel iine!" rel="bookmark">085 &#8211; Do passt jo ganz Boosel iine!</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/085-do-passt-jo-ganz-boosel-iine/" title="17:50" rel="bookmark"><span class="entry-date">23. Januar 2011</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/mu/" title="Zeige alle Beiträge von mu">mu</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/085-do-passt-jo-ganz-boosel-iine/#respond" title="Kommentiere 085 &#8211; Do passt jo ganz Boosel iine!">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1628" class="post-ratings"><img id="rating_1628_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1628, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1628_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1628, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1628_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1628, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1628_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1628, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1628_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1628, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (3)</div>
+<div id="post-ratings-1628-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><img class="alignleft size-thumbnail wp-image-1629" title="Kanone" src="http://www.namenlos.ch/podcast/wp-content/uploads/Kanone-150x150.jpg" alt="" width="150" height="150" />Gabe möchte trotz Klimaerwärmung noch lange Skifahren, Sam entdeckt ein  <a href="http://www.profvandusen.com/dld/index.htm" target="_blank">Hörspiel aus der Vergangenheit</a> das in der Zukunft spielt und Thomy hat  das Bedürfnis <a href="http://www.neildiamond.com/" target="_blank">Mu</a>si<a href="http://www.myspace.com/thetallestmanonearth" target="_blank">ker </a>vorzustellen die <a href="http://www.youtube.com/watch?v=xhqausifsY0" target="_blank">nicht zum Thema</a> &#8220;5 Songs über  Hämorrhoiden&#8221; passen. Mu moderiert und gibt seinen Senf dazu.</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_4"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_4_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_4" onclick="javascript:podPressPopupPlayer('4', 'http://www.namenlos.ch/podcast/podpress_trac/play/1628/0/e085.mp3', 290, 24, 'Der namenlose Podcast', '1628', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1628/0/e085.mp3" target="new">Download</a> (1659)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('4', 'http://www.namenlos.ch/podcast/podpress_trac/play/1628/0/e085.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1620" class="post-1620 post type-post status-publish format-standard hentry category-episoden">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/084-thunderbusters/" title="Permalink zu 084 &#8211; Thunderbusters" rel="bookmark">084 &#8211; Thunderbusters</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/084-thunderbusters/" title="21:13" rel="bookmark"><span class="entry-date">9. Januar 2011</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/thomy/" title="Zeige alle Beiträge von thomy">thomy</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/084-thunderbusters/#respond" title="Kommentiere 084 &#8211; Thunderbusters">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1620" class="post-ratings"><img id="rating_1620_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1620, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1620_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1620, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1620_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1620, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1620_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1620, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1620_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1620, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (1)</div>
+<div id="post-ratings-1620-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><a href="http://www.namenlos.ch/podcast/wp-content/uploads/ipod-vibrator-ohmibod-attachment1.jpg"><img class="alignleft size-thumbnail wp-image-1621" title="ipod-vibrator-ohmibod-attachment1" src="http://www.namenlos.ch/podcast/wp-content/uploads/ipod-vibrator-ohmibod-attachment1-150x150.jpg" alt="" width="150" height="150" /></a>Als Kontrastprogramm zum leise rieselnden Schnee von letzter Woche wird diese Episode mit heftigem Gitarrenlärm untermalt. Gabe berichtet uns von den neuesten Gadgettrends and der <a href="http://en.wikipedia.org/wiki/Consumer_Electronics_Show" target="_blank">CES</a>, Mu <a href="http://de.wikipedia.org/wiki/Met" target="_blank">trinkt wie ein Wikinger</a>, und Sam reist per Facebook in Ägypten umher (und wärmt damit <a href="http://www.namenlos.ch/podcast/009-von-wort-und-samenergussen/">eine ganz alte Idee</a> wieder auf). <a href="http://www.celebritysmackblog.com/wp-content/uploads/2008/08/ron-jeremy-1.jpg" target="_blank">Thomy</a> moderiert.</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_5"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_5_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_5" onclick="javascript:podPressPopupPlayer('5', 'http://www.namenlos.ch/podcast/podpress_trac/play/1620/0/e084.mp3', 290, 24, 'Der namenlose Podcast', '1620', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1620/0/e084.mp3" target="new">Download</a> (1000)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('5', 'http://www.namenlos.ch/podcast/podpress_trac/play/1620/0/e084.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1602" class="post-1602 post type-post status-publish format-standard hentry category-episoden tag-karin-portmann tag-musik tag-weihnachten">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/083-diesmal-leise-gabe-thomy-und-der-rieselnde-schnee/" title="Permalink zu 083 &#8211; Diesmal leise: Gabe, Thomy und der rieselnde Schnee" rel="bookmark">083 &#8211; Diesmal leise: Gabe, Thomy und der rieselnde Schnee</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/083-diesmal-leise-gabe-thomy-und-der-rieselnde-schnee/" title="18:08" rel="bookmark"><span class="entry-date">26. Dezember 2010</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/admin/" title="Zeige alle Beiträge von sam">sam</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/083-diesmal-leise-gabe-thomy-und-der-rieselnde-schnee/#respond" title="Kommentiere 083 &#8211; Diesmal leise: Gabe, Thomy und der rieselnde Schnee">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1602" class="post-ratings"><img id="rating_1602_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1602, 1, '1 Star');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1602_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1602, 2, '2 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1602_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1602, 3, '3 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1602_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1602, 4, '4 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1602_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1602, 5, '5 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (0)</div>
+<div id="post-ratings-1602-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><a rel="attachment wp-att-1603" href="http://www.namenlos.ch/podcast/083-diesmal-leise-gabe-thomy-und-der-rieselnde-schnee/p1030219/"><img class="alignleft size-thumbnail wp-image-1603" title="P1030219" src="http://www.namenlos.ch/podcast/wp-content/uploads/P1030219-150x150.jpg" alt="" width="150" height="150" /></a>Weihnachtsepisode mit viel <a href="http://www.myspace.com/karinportmann" target="_blank">Musik</a> und einem treuen <a href="http://www.myspace.com/karinportmann">Fan</a>.</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_6"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_6_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_6" onclick="javascript:podPressPopupPlayer('6', 'http://www.namenlos.ch/podcast/podpress_trac/play/1602/0/e083.mp3', 290, 24, 'Der namenlose Podcast', '1602', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1602/0/e083.mp3" target="new">Download</a> (1775)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('6', 'http://www.namenlos.ch/podcast/podpress_trac/play/1602/0/e083.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1590" class="post-1590 post type-post status-publish format-standard hentry category-episoden tag-european-podcast-award tag-musik tag-musiker tag-reisetagebuch tag-the-bianca-story">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/082-penetranti-huere-dracksau-du/" title="Permalink zu 082 &#8211; &#8220;Penetranti huere Dräcksau du!&#8221;" rel="bookmark">082 &#8211; &#8220;Penetranti huere Dräcksau du!&#8221;</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/082-penetranti-huere-dracksau-du/" title="22:51" rel="bookmark"><span class="entry-date">12. Dezember 2010</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/mu/" title="Zeige alle Beiträge von mu">mu</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/082-penetranti-huere-dracksau-du/#respond" title="Kommentiere 082 &#8211; &#8220;Penetranti huere Dräcksau du!&#8221;">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1590" class="post-ratings"><img id="rating_1590_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1590, 1, '1 Star');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1590_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1590, 2, '2 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1590_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1590, 3, '3 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1590_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1590, 4, '4 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1590_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1590, 5, '5 Stars');" onmouseout="ratings_off(0, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (0)</div>
+<div id="post-ratings-1590-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><a rel="attachment wp-att-1599" href="http://www.namenlos.ch/podcast/082-penetranti-huere-dracksau-du/epa_nat_winner_hoch/"><img class="size-thumbnail wp-image-1599 alignleft" title="EPA_nat_Winner_hoch" src="http://www.namenlos.ch/podcast/wp-content/uploads/EPA_nat_Winner_hoch-e1297238150135-150x150.png" alt="" width="150" height="150" /></a>Der namenlose Podcast gewinnt den <a href="http://www.european-podcast-award.eu/ch/start.html" target="_blank">European Podcast  Award</a> 2010 in der Kategorie &#8220;Non Profit&#8221;! Neben dieser erfolgreichen Ankündigung berichtet Sam aus Indonesien und Thomy bietet musikalische Leckerbissen. Gabe macht sich in dieser Episode rar. Deshalb kommt von Mu ein Interview mit Elia Rediger, Sänger von <a href="http://www.myspace.com/thereissomethinghappening" target="_blank">The bianca Story</a>, der Gewinnerband des <a href="http://www.rfv.ch/cms/front_content.php?client=1&amp;lang=1&amp;idcat=6&amp;idart=733" target="_blank">2. Basler Pop-Preis</a>es.</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_7"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_7_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_7" onclick="javascript:podPressPopupPlayer('7', 'http://www.namenlos.ch/podcast/podpress_trac/play/1590/0/e082.mp3', 290, 24, 'Der namenlose Podcast', '1590', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1590/0/e082.mp3" target="new">Download</a> (952)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('7', 'http://www.namenlos.ch/podcast/podpress_trac/play/1590/0/e082.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1574" class="post-1574 post type-post status-publish format-standard hentry category-episoden tag-basler-pop-preis tag-indonesien tag-musik tag-rauchen tag-tauchen">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/081-raucht-und-taucht/" title="Permalink zu 081 &#8211; Raucht und taucht!" rel="bookmark">081 &#8211; Raucht und taucht!</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/081-raucht-und-taucht/" title="23:08" rel="bookmark"><span class="entry-date">28. November 2010</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/gabe/" title="Zeige alle Beiträge von gabe">gabe</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/081-raucht-und-taucht/#comments" title="Kommentiere 081 &#8211; Raucht und taucht!">1 Kommentar</a></span>
+				<div id="post-ratings-1574" class="post-ratings"><img id="rating_1574_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1574, 1, '1 Star');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1574_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1574, 2, '2 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1574_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1574, 3, '3 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1574_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1574, 4, '4 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1574_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1574, 5, '5 Stars');" onmouseout="ratings_off(5, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (2)</div>
+<div id="post-ratings-1574-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><img class="size-full wp-image-1572 alignleft" title="crazyDiving" src="http://www.namenlos.ch/podcast/wp-content/uploads/crazyDiving.jpg" alt="" width="150" height="150" />Sam ist asozial und berichtet uns zurückgelassenen im Detail über seine <a href="http://www.sulawesi-info.de/bunaken.html" target="_blank" class="broken_link">indonesischen</a> <a href="http://www.padi.com/" target="_blank">Tauchgänge</a>, Thomy macht sich Sorgen um den Nachwuchs und hat eine <a href="http://www.rauchstopp-jetzt.ch/" target="_blank">Message für die Teenies</a> und Mu berichtet über den <a href="http://www.rfv.ch/cms/front_content.php?client=1&amp;lang=1&amp;idcat=6&amp;idart=733" target="_blank">Basler Pop-Preis 2010</a>. Gute Unterhaltung und viel Spass</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_8"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_8_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_8" onclick="javascript:podPressPopupPlayer('8', 'http://www.namenlos.ch/podcast/podpress_trac/play/1574/0/e081.mp3', 290, 24, 'Der namenlose Podcast', '1574', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1574/0/e081.mp3" target="new">Download</a> (1026)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('8', 'http://www.namenlos.ch/podcast/podpress_trac/play/1574/0/e081.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1557" class="post-1557 post type-post status-publish format-standard hentry category-episoden tag-android tag-basel tag-iphone tag-musik tag-musiker tag-windows">
+			<h2 class="entry-title"><a href="http://www.namenlos.ch/podcast/080-einmal-androidenburger-frisch-vom-grill/" title="Permalink zu 080 &#8211; Einmal Androidenburger, frisch vom Grill" rel="bookmark">080 &#8211; Einmal Androidenburger, frisch vom Grill</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.namenlos.ch/podcast/080-einmal-androidenburger-frisch-vom-grill/" title="23:17" rel="bookmark"><span class="entry-date">14. November 2010</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.namenlos.ch/podcast/author/thomy/" title="Zeige alle Beiträge von thomy">thomy</a></span> | 
+<span class="comments-link"><a href="http://www.namenlos.ch/podcast/080-einmal-androidenburger-frisch-vom-grill/#respond" title="Kommentiere 080 &#8211; Einmal Androidenburger, frisch vom Grill">Hinterlasse einen Kommentar</a></span>
+				<div id="post-ratings-1557" class="post-ratings"><img id="rating_1557_1" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="1 Star" title="1 Star" onmouseover="current_rating(1557, 1, '1 Star');" onmouseout="ratings_off(4, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1557_2" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="2 Stars" title="2 Stars" onmouseover="current_rating(1557, 2, '2 Stars');" onmouseout="ratings_off(4, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1557_3" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="3 Stars" title="3 Stars" onmouseover="current_rating(1557, 3, '3 Stars');" onmouseout="ratings_off(4, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1557_4" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_on.gif" alt="4 Stars" title="4 Stars" onmouseover="current_rating(1557, 4, '4 Stars');" onmouseout="ratings_off(4, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /><img id="rating_1557_5" src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/stars/rating_off.gif" alt="5 Stars" title="5 Stars" onmouseover="current_rating(1557, 5, '5 Stars');" onmouseout="ratings_off(4, 0, 0);" onclick="rate_post();" onkeypress="rate_post();" style="cursor: pointer; border: 0px;" /> (1)</div>
+<div id="post-ratings-1557-loading"  class="post-ratings-loading"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="post-ratings-image" />&nbsp;Loading ...</div>
+			</span></div><!-- .entry-meta -->
+
+				<div class="entry-content">
+				<p><a rel="attachment wp-att-1560" href="http://www.namenlos.ch/podcast/080-einmal-androidenburger-frisch-vom-grill/a6a594aa8cilling/"><img class="alignleft size-thumbnail wp-image-1560" title="Androidengrill" src="http://www.namenlos.ch/podcast/wp-content/uploads/a6a594aa8cilling-150x150.jpg" alt="" width="150" height="150" /></a>Heute verbessert Sam euer <a href="http://www.denkmal.org/" target="_blank">Ausgangsleben</a>, Mario euren <a href="http://www.gusmacgregormusic.com" target="_blank">Musikgeschmack</a> (reinhören kann man <a href="http://www.myspace.com/gusmacgregor" target="_blank">hier</a>) und Gabe eure <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=Gm0AkFUYpLQ" target="_blank">Handygrillkünste</a>. Ein Podcast mit Mehrwert also, moderiert von <a href="http://images.google.com/imgres?imgurl=http://movieopinion.files.wordpress.com/2008/08/absolut_hunk.jpg&amp;imgrefurl=http://movieopinion.wordpress.com/2008/08/08/sex-the-city/&amp;usg=__7GBA82L3ypJGuz65-v-jP-Vuq-g=&amp;h=1800&amp;w=1281&amp;sz=217&amp;hl=en&amp;start=0&amp;sig2=h_o-xL9qZA4BNB9jsCDCag&amp;zoom=1&amp;tbnid=a09JOOPaKJvoNM:&amp;tbnh=138&amp;tbnw=126&amp;ei=7U3gTO_4L9KEswa_rLzYCw&amp;prev=/images%3Fq%3Dhunk%26hl%3Den%26safe%3Doff%26biw%3D1280%26bih%3D737%26gbv%3D2%26tbs%3Disch:1&amp;itbs=1&amp;iact=hc&amp;vpx=137&amp;vpy=63&amp;dur=4596&amp;hovh=266&amp;hovw=189&amp;tx=109&amp;ty=95&amp;oei=7U3gTO_4L9KEswa_rLzYCw&amp;esq=1&amp;page=1&amp;ndsp=30&amp;ved=1t:429,r:0,s:0" target="_blank">Thomy</a>.</p>
+<!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player"><div id="podPressPlayerSpace_9"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"> &nbsp;Standard Podcast <span id="podPressPlayerSpace_9_PlayLink" style="display:none">Jetzt abspielen</span><a href="#podPressPlayerSpace_9" onclick="javascript:podPressPopupPlayer('9', 'http://www.namenlos.ch/podcast/podpress_trac/play/1557/0/e080.mp3', 290, 24, 'Der namenlose Podcast', '1557', 'Standard Podcast', 'der namenlose Podcast'); return false;">Play in Popup</a> | <a href="http://www.namenlos.ch/podcast/podpress_trac/web/1557/0/e080.mp3" target="new">Download</a> (944)</div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('9', 'http://www.namenlos.ch/podcast/podpress_trac/play/1557/0/e080.mp3', 290, 24, 'false', 'http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/vpreview_center.png', 'Standard Podcast', 'der namenlose Podcast');
+-->
+</script>
+<!-- End: podPress -->
+							</div><!-- .entry-content -->
+	
+			
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://www.namenlos.ch/podcast/page/2/" ><span class="meta-nav">&larr;</span> Ältere Beiträge</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="kb-countdown-1" class="widget-container widget_kbcountdown">Nächste Episode in <strong>0</strong> Tagen.<br /><img src="http://www.namenlos.ch/podcast/wp-content/plugins/kb-countdown-widget/kb_countdown/kb_countdown_bargraph.php?done=100&amp;height=10&amp;width=100&amp;border=1&amp;border_c=50,50,50&amp;bar=0,0,255&amp;bg=140,140,140" alt="100% done" height="10" width="100" /></li><li id="text-7" class="widget-container widget_text">			<div class="textwidget"><a href="http://www.european-podcast-award.eu/ch/start.html"><img src="http://www.namenlos.ch/podcast/wp-content/uploads/EPA_nat_Winner_hoch.png" border=0></a></div>
+		</li><li id="text-5" class="widget-container widget_text"><h3 class="widget-title">Podcast abonnieren</h3>			<div class="textwidget">Mittels eines Podcatchers wie <a href="http://www.apple.com/chde/itunes/download/" target=_blank>iTunes</a> können Podcasts abonniert werden. Neue Folgen werden danach automatisch heruntergeladen und bei Bedarf auf ein mobiles Gerät übertragen. Zum abonnieren in iTunes reicht ein Klick auf den oberen Button, für sämtliche anderen Programme auf den unteren Button rechtsklicken, "Link kopieren" wählen und im gewünschten RSS-Reader hinzufügen. 
+<ul class="podpress_feed_buttons_list"><li><a href="itpc://www.namenlos.ch/podcast/?feed=podcast" title="den Podcast Feed mit iTunes abonnieren"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/button_itunes.png" class="podpress_feed_buttons" alt="mit iTunes abonnieren" /></a></li><li><a href="http://www.namenlos.ch/podcast/?feed=podcast" title="den Podcast RSS Feed mit einem beliebigen Podcatcher abonnieren"><img src="http://www.namenlos.ch/podcast/wp-content/plugins/podpress/images/button_rss_podcast.png" class="podpress_feed_buttons" alt="den Podcast RSS Feed abonnieren" /></a></li></ul></div>
+		</li><li id="text-6" class="widget-container widget_text">			<div class="textwidget"><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2Fder-noch-namenlose-Podcast%2F86091885354&amp;width=200&amp;connections=10&amp;stream=false&amp;header=false&amp;height=290" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:290px;" allowTransparency="true"></iframe></div>
+		</li><li id="twitter-list-1" class="widget-container widget_twitter_list"><h3 class="widget-title"><a href="http://twitter.com/namenlos_ch" class="twitter_list_title_link">bei Twitter</a></h3><ul class="twitter"><li>No public Twitter messages.</li></ul></li><li id="advman-4" class="widget-container Advman_Widget"><h3 class="widget-title"></h3><script type="text/javascript"><!--
+google_ad_client = "pub-0452836655226597";
+/* 160x600, created 9/7/10 */
+google_ad_slot = "4959179128";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></li><li id="recent-comments-3" class="widget-container widget_recent_comments"><h3 class="widget-title">Letzte Kommentare</h3><ul id="recentcomments"><li class="recentcomments">Mondfahrer bei <a href="http://www.namenlos.ch/podcast/073-ein-haufen-scheisse/#comment-6673">073 &#8211; Ein Haufen Scheisse</a></li><li class="recentcomments">Nadine bei <a href="http://www.namenlos.ch/podcast/episode-89-verzogert-sich/#comment-6672">Episode 89 verzögert sich&#8230;</a></li><li class="recentcomments"><a href='http://www.bing.com/' rel='external nofollow' class='url'>Dolly</a> bei <a href="http://www.namenlos.ch/podcast/008-die-skihasen/#comment-6659">008 &#8211; Die Skihasen</a></li><li class="recentcomments">martin bei <a href="http://www.namenlos.ch/podcast/episode-89-verzogert-sich/#comment-6602">Episode 89 verzögert sich&#8230;</a></li><li class="recentcomments">martin bei <a href="http://www.namenlos.ch/podcast/episode-89-verzogert-sich/#comment-6582">Episode 89 verzögert sich&#8230;</a></li></ul></li><li id="search-3" class="widget-container widget_search"><form role="search" method="get" id="searchform" action="http://www.namenlos.ch/podcast/" >
+	<div><label class="screen-reader-text" for="s">Suche nach:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Suchen" />
+	</div>
+	</form></li><li id="linkcat-372" class="widget-container widget_links"><h3 class="widget-title">Blogroll</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://podchast.podspot.de/" title="Lara und Nils lost in Switzerland" target="_blank">podCHast</a></li>
+<li><a href="http://rockmusikschweiz.wordpress.com/" title="Blog für alle Rock Musik Fans, die in der Schweiz wohnen. Erfahrt wann die nächsten Rock Konzerte stattfinden. Lest die neusten Album Reviews." target="_blank">Rock Blog der Schweiz</a></li>
+
+	</ul>
+</li>
+<li id="text-4" class="widget-container widget_text">			<div class="textwidget"><center><a href="http://www.mx3.ch/artist/dernochnamenlosepodcast" target="_blank"><img src="http://asdfghjkl.ch/podcast/wp-content/uploads/2009/04/mx3.gif" width="80" height="15" alt="mx3" /></a> 
+<a href="http://www.facebook.com/pages/der-noch-namenlose-Podcast/86091885354" target="_blank"><img src="http://asdfghjkl.ch/podcast/wp-content/uploads/2009/03/facebook.gif" width="80" height="15" alt="facebook" /></a> 
+<a href="http://www.myspace.com/dernochnamenlosepodcast" target="_blank"><img src="http://asdfghjkl.ch/podcast/wp-content/uploads/2009/04/myspace.gif" width="80" height="15" alt="facebook" /></a> 
+<a href="http://www.steinis.ch/index.php/2007/03/10/aktion-dofollow/" target="_blank"><img src="http://www.steinis.ch/dofollow/df.gif" width="80" height="15" alt="dofollow" /></a> 
+<a href="http://www.blogverzeichnis.ch/" target="_blank" title="Schweizer Blog Verzeichnis"><img src="http://www.blogverzeichnis.ch/_counter/counter_stand.jpg?id_user=1365&farbe=0" alt="Schweizer Blog Verzeichnis" width="80" height="15" border="0"></a> 
+<a href="http://slug.ch" target="_blank"><img src="http://slug.ch/buttons/rect_01.gif" border="0" title="Slug.ch" /></a> 
+<a href="http://technorati.com/faves?sub=addfavbtn&amp;add=http://asdfghjkl.ch/podcast"><img src="http://static.technorati.com/pix/fave/btn-fave2.png" alt="Add to Technorati Favorites" /></a> 
+</center> </div>
+		</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/"
+						title="Semantic Personal Publishing Platform" rel="generator">
+					Proudly powered by WordPress.				</a>
+			</div>
+			Das Logo wurde erstellt von <a href="http://podcastlogo.lemotox.de/">Peter Marquardt</a> und unterliegt einer <a href="http://creativecommons.org/licenses/by-sa/2.0/de/deed.de">CC 2.0-Lizenz</a>.<!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {
+	plugin_url: "http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings",
+	ajax_url: "http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/wp-postratings.php",
+	text_wait: "Please rate only 1 post at a time.",
+	image: "stars",
+	image_ext: "gif",
+	max: "5",
+	show_loading: "1",
+	show_fading: "1",
+	custom: "0"
+};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.namenlos.ch/podcast/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.50'></script>
+		<!-- Advertising Manager v3.4.19 (1,039 seconds.) -->
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201223.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'2087831',v:'ext',post:'0'});
+var load_cmc = function(){linktracker_init(2087831,0,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<pre style="text-align:left;font-size:11px;"><strong style="color:#FF0000">Warning: odbc_connect(): SQL error: [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'podcastfm'., SQL state 28000 in SQLConnect</strong>
+
+<script language="javascript">function tree_dump(ubi) { branch_div = document.getElementById('branch_div'+ubi); if ( branch_div.style.display == 'block' ) branch_div.style.display='none'; else branch_div.style.display='block'; } </script>
+<strong>Call Stack:</strong>
+c:\php\includes\db_access_mssql.inc.php	56	
+
+c:\php\includes\db_access_mssql.inc.php	186	cdbaccessmssql->openconnection
+
+c:\php\includes\list.inc.php	83	cdbaccessmssql->getprimarykey(podcast_channels)
+
+c:\Inetpub\wwwroot\www.podcastfm.co.uk\podcast.rss	34	clist->clist(cdbaccessmssql, podcast_channels)
+
+<strong>Globals:</strong>
+<strong>_POST</strong> Array
+<a href="javascript:tree_dump(1);" style="text-decoration:none;">_GET</a> Array
+<div id='branch_div1' style="margin-left:10px;margin-bottom:4px;display:none;"><strong>id</strong> String 54
+</div><strong>_COOKIE</strong> Array
+<a href="javascript:tree_dump(2);" style="text-decoration:none;">_SERVER</a> Array
+<div id='branch_div2' style="margin-left:10px;margin-bottom:4px;display:none;"><strong>ALL_HTTP</strong> String HTTP_ACCEPT_ENCODING:gzip, deflate\nHTTP_HOST:www.podcastfm.co.uk\nHTTP_USER_AGENT:Python-httplib2/0.7.4 (gzip)\nHTTP_X_REWRITE_URL:/podcast.rss?id=54\n
+<strong>HTTPS</strong> String off
+<strong>SCRIPT_NAME</strong> String /podcast.rss
+<strong>HTTP_COOKIE</strong> String 
+<strong>AUTH_PASSWORD</strong> String 
+<strong>AUTH_TYPE</strong> String 
+<strong>AUTH_USER</strong> String 
+<strong>CONTENT_LENGTH</strong> String 0
+<strong>CONTENT_TYPE</strong> String 
+<strong>PATH_TRANSLATED</strong> String c:\Inetpub\wwwroot\www.podcastfm.co.uk
+<strong>QUERY_STRING</strong> String id=54
+<strong>REMOTE_ADDR</strong> String 77.188.236.104
+<strong>REMOTE_HOST</strong> String 77.188.236.104
+<strong>REMOTE_USER</strong> String 
+<strong>REQUEST_METHOD</strong> String GET
+<strong>SERVER_NAME</strong> String www.podcastfm.co.uk
+<strong>SERVER_PORT</strong> String 80
+<strong>SERVER_PROTOCOL</strong> String HTTP/1.1
+<strong>SERVER_SOFTWARE</strong> String Microsoft-IIS/6.0
+<strong>APPL_MD_PATH</strong> String /LM/w3svc/2127951859/root
+<strong>APPL_PHYSICAL_PATH</strong> String c:\Inetpub\wwwroot\www.podcastfm.co.uk\
+<strong>INSTANCE_ID</strong> String 2127951859
+<strong>INSTANCE_META_PATH</strong> String /LM/W3SVC/2127951859
+<strong>LOGON_USER</strong> String 
+<strong>REQUEST_URI</strong> String /podcast.rss?id=54
+<strong>URL</strong> String /podcast.rss?id=54
+<strong>SCRIPT_FILENAME</strong> String c:\Inetpub\wwwroot\www.podcastfm.co.uk\podcast.rss
+<strong>ORIG_PATH_INFO</strong> String /podcast.rss
+<strong>PATH_INFO</strong> String 
+<strong>ORIG_PATH_TRANSLATED</strong> String c:\Inetpub\wwwroot\www.podcastfm.co.uk\podcast.rss
+<strong>DOCUMENT_ROOT</strong> String c:\Inetpub\wwwroot\www.podcastfm.co.uk
+<strong>PHP_SELF</strong> String /podcast.rss
+<strong>HTTP_ACCEPT_ENCODING</strong> String gzip, deflate
+<strong>HTTP_HOST</strong> String www.podcastfm.co.uk
+<strong>HTTP_USER_AGENT</strong> String Python-httplib2/0.7.4 (gzip)
+<strong>HTTP_X_REWRITE_URL</strong> String /podcast.rss?id=54
+<a href="javascript:tree_dump(3);" style="text-decoration:none;">argv</a> Array
+<div id='branch_div3' style="margin-left:10px;margin-bottom:4px;display:none;"><strong>0</strong> String id=54
+</div></div><strong>_ENV</strong> Array
+<strong>_FILES</strong> Array
+<a href="javascript:tree_dump(4);" style="text-decoration:none;">_REQUEST</a> Array
+<div id='branch_div4' style="margin-left:10px;margin-bottom:4px;display:none;"><strong>id</strong> String 54
+</div><strong>DbAccess</strong> String cdbaccessmssql
+</pre>

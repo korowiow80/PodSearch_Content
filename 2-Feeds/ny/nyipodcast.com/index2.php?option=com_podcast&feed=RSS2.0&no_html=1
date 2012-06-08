@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="8; URL=http://blog.nyip.com">
+<title>NYIP Podcast has moved</title>
+<style type="text/css">
+#displayCounter{
+	font-size:16px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+body{ 
+	font-family:Tahoma, Geneva, sans-serif; 
+	font-size:14px;
+	text-align: center;
+	margin-top: 300px;
+}
+</style>
+<script type="text/javascript"
+    src="http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js">
+</script>
+<script type="text/javascript">
+        $(function() {
+            var cnt = 7;
+            var counter = setInterval(function() {
+                if (cnt > 0) {
+                    $('#displayCounter').html(cnt);
+                    cnt--;
+                }
+            }, 1000);
+        });
+</script>
+</head>
+<body>
+<h1>We Found a New Home!</h1>
+<p>NYIPodcast.com no longer exists. We moved our podcasts and content over to the NYIP Photo Blog. You'll be redirected there in <span id="displayCounter">8</span> seconds.</p>
+<p>If you are NOT redirected, you can view our site by clicking <A href="http://blog.nyip.com">HERE</A></p>
+</body>
+</html>

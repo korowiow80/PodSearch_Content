@@ -1,0 +1,460 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    
+      <title>iLike - GarageBand</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="http://s1.ilike.com/osd.xml" title="iLike.com" />
+
+
+  <meta name="title" content="iLike - GarageBand" />
+  <meta name="description" content="iLike is a leading social music service that provides the most popular music app across social networks.  With over 50 million users, iLike helps you share music recommendations, playlists, and get personalized concert alerts." />
+
+
+
+
+<link rel="shortcut icon" href="http://s2.ilike.com/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://s2.ilike.com/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="http://s1.ilike.com/ilike.css?v=3724" />
+
+<link rel="stylesheet" type="text/css" href="http://s1.ilike.com/stylesheets/fb_mfriend_sel.css?v=d89f" />
+
+<link rel="stylesheet" type="text/css" href="http://s3.ilike.com/stylesheets/challenge_mini.css?v=a22a" />
+
+
+
+<script src="http://s2.ilike.com/js/browser_sniff.js?v=1" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js" type="text/javascript"></script>
+<script src="http://s3.ilike.com/js/swfobject.js?v=1_4_4" type="text/javascript"></script>
+<script src="http://s2.ilike.com/js/application.js?v=5d72" type="text/javascript"></script>
+<script src="http://s1.ilike.com/js/util.js?v=b035" type="text/javascript"></script>
+<script src="http://s1.ilike.com/js/song.js?v=0393" type="text/javascript"></script>
+<script src="http://s1.ilike.com/js/tooltip.js?v=d07c" type="text/javascript"></script>
+
+<script src="http://s1.ilike.com/js/fb_mfriend_sel.js?v=0d10" type="text/javascript"></script>
+
+<script src="http://s3.ilike.com/js/challenge.js?v=94ce" type="text/javascript"></script>
+
+
+
+
+  </head>
+  <body>
+    <div id='login_overlay' style='display:none'></div>
+		<div id="fixed_width">
+		  <div id="homepage">
+		    <div class="logo_description" style="font-size:19px;color:#72746d;">In partnership with MySpace Music</div>
+		    <div id="banner" style="padding-top:10px;">
+		       
+<div class="topHdr">
+  <div class="searchBox">
+    
+<form name="s" id="artist_search_form" method="get" action="/artist/search">
+  <span class="input"><input id="artist_qp" name="artist_qp" type="text" class="search_dimmed_text" value="" /></span>
+  <input class="image" type="image" align="absbottom" style="vertical-align:bottom;" src="/images/magGlass_transparent.gif" title="Search" value="Search" />
+
+</form>
+
+  </div>
+  <a rel="nofollow" href="/" class="logo_link" title="iLike"></a>
+  <div class="topNav ">
+    &nbsp; 
+  </div>
+</div>
+  
+<div id="welcome" class="welcome" style="padding-bottom: 15px; margin-top: -5pxpx;">
+  <div style="float:right" class="helpfaq">
+    <span style="font-size:12px; color:#72746d;">
+      In partnership with <a href="http://music.myspace.com">Myspace Music</a>&nbsp;|
+    </span>
+    <span style="font-size:12px; color:#656b6f;">
+      <a rel="nofollow" href="http://faq.myspace.com/ilike">Help / FAQ</a>
+    </span>  
+  </div>
+  <div id="welcome_bar">
+    <div class="welcomeText" >
+      
+      
+        <span id="fbc_top_button" style="clear: none;" class="fbcloggedout">
+            <fb:login-button perms="publish_stream,offline_access,user_likes" size="small" id="fbc_login_button" >Connect</fb:login-button>
+        </span>
+      
+      <span id="signup_and_login_links" style="padding-left: 15px; word-spacing: 5px; color: #72746D;">
+        <a id="login_link_na" href="/account/login" style="cursor: pointer;">Login</a> | 
+        <a href="/create" style="cursor: pointer;">Signup</a>
+      </span>
+    </div>
+  
+        <div class="welcomeText" style="display: none;">
+
+
+      <a rel="nofollow" href="/account/login" id="login_link">Sign in</a>
+
+    </div>
+
+    <div id="login_dialog" style="display:none;">
+  
+  <div id="login_close" class="top_bar">
+    <a href="#" onclick="return false;"><img src="http://s2.ilike.com/images/purchase/close.gif" alt="Close" /></a>
+  </div>
+  
+  <div id="login_dialog_content" class="content">  
+    <div class="existing_users" id="existing_users" style="padding-top: 35px;">
+      <form action="https://www.ilike.com/account/authenticate" id="login_dialog_form" method="post">
+        <div style="float:right;margin:7px 5px 0 0;">
+          <img style="margin:0;border:0;" src="http://s0.ilike.com/images/purchase/secure.gif" alt="Your information is secure" />
+          <span style="color: #848A8D; font-size:12px;">Secure</span>
+        </div>
+        
+        <h2>Existing users:</h2>
+        <div id="login_dialog_error" style="display:none;color:red;font-weight:bold;"></div>
+        <dl class="login">
+          <dt>
+            <label for="login_email" class="account_labels">Email address: </label>
+          </dt>
+          <dd>
+            <input type="text" id="login_email" name="login_email" value="" class="input_text" />
+          </dd>
+
+          <dt>
+            <label for="login_password" class="account_labels">Password: </label>
+          </dt>
+          <dd>
+            <input type="password" id="login_password" name="login_password" class="input_text" />
+          </dd>
+
+          <dt></dt>
+          <dd>
+            <input id="login_button" type="submit" class="std_btn std_btn_small" value="Sign in" title="Sign in" name="Sign in" tabindex="0" onclick="" />
+
+          </dd>
+
+          <dt></dt>
+          <dd>
+            <input type='checkbox' name='remember_me' id='remember_me' checked='checked' />
+            <label for="remember_me">Remember me</label>
+          </dd>
+          <dt></dt>
+          <dd>
+            <a rel="nofollow" href="/account/forgot">Forgot your password?</a>
+          </dd>
+        </dl>
+      </form>
+    </div>
+
+    <div class="new_users">
+      <h2>New users:</h2>
+      <p style="padding-bottom:10px; line-height:1.3em; color:#656b6f;">Register for an account if you're new around here.</p>
+      <form action="/create" method="post">
+        <input id="login_create_profile" type="submit" class="std_btn std_btn_medium" value="Create account" title="Create account" name="Create account" tabindex="0" onclick="" />
+
+      </form>
+      <p style="padding-top:5px">
+        <a rel="nofollow" href="/create">Learn more</a>
+      </p>
+    </div>
+
+    
+    <div class="new_users">
+      <h2>Facebook users:</h2>
+      
+        <fb:login-button perms="publish_stream,offline_access,user_likes" >Login / Signup via Facebook</fb:login-button>
+      
+    </div>
+  
+
+    <div class="clear"></div>
+
+  </div>
+</div>
+<div class="clear"></div>
+
+<div id="ctmt_dialog" style="display:none;">
+</div>
+<div class="clear"></div>
+
+
+
+    <div class="clear"></div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+  <!--
+  var h = null;
+
+
+
+  if (!h && !is_FlashVersion.versionIsValid(new deconcept.PlayerVersion([9,0,115])))
+  {
+    h = "<h2>Flash 9.0.115 Required</h2>";
+    h += "Unfortunately, we do not support the version of Flash you are using. ";
+    h += "We suggest that you install Flash 9 or later which will let you listen to music on the site. ";
+    h += "To download the latest version, <a rel='nofollow' href='http://www.adobe.com/products/flashplayer'>click here</a>, ";
+    h += "or visit the <a rel='nofollow' href='http://www.ilike.com/faq/ilike/answers/6'>FAQ</a> for more details.";
+  }
+
+  if (h)
+  {
+    document.write("<div class='unsupported_browser '>" + h + "</div>");
+    document.cookie = "browser_sniff=1";
+  }
+
+  // -->
+</script>
+
+		    </div>      
+			  
+<style>
+	#gblanding{
+		margin: 50px 0;
+		width: 550px;
+		float: left;
+	}
+	#gblanding .gblogo{
+		background-image: url("images/gb_logo.gif");
+		background-repeat: no-repeat;
+		height: 32px;
+		padding-bottom: 10px;
+		float: left;
+		width: 300px;
+	}
+	#gblanding p {
+		margin-top: 10px;
+	}
+	#gblanding #actions{
+		float: left;
+		margin: 30px 0;
+	}
+	#gblanding #actions #separator {
+		float: left;
+		border-left: 1px solid rgb(125, 190, 238);
+		margin: 0px 10px;
+		width: 0px;
+		height: 27px;
+	}
+	#account_footer{
+		clear: both;
+	}
+	#gblanding .logolink {
+		background-image:url("images/logo_main.gif");
+		background-repeat:no-repeat;
+		display:block;
+		float:left;
+		height:32px;
+		width:96px;
+	}
+	#gblanding .logo {
+		height: 50px;
+	}
+	#gblanding .logo span {
+		float: left;
+		padding-top: 5px;
+		width: 25px;
+	}
+	#gblanding ul {
+		padding: 10px 0 0 40px;
+	}
+</style>
+<div id="gblanding" >
+	<div class="logo">
+		<div class="logolink"></div>
+		<span>+</span>
+		<div class="gblogo"></div>
+	</div>
+	<p>Garageband is now combined with iLike.</p>
+	<p>The iLike Artist Dashboard&trade; allows you to manage your presence on iLike, Facebook, and on the popular iLike Sidebar for iTunes. Music fans can add your music to their profiles, be alerted to concerts and new releases, and see what music and concerts their friends like. More than 200,000 leading artists are now using iLike to manage their online presence.</p>
+	<ul>
+		<li>Manage your page and reach multiple networks</li>
+		<li>Add videos, songs, and events… get more fans</li>
+		<li>Access a detailed analytics dashboard to track results</li>
+	</ul>
+	<div id="actions">
+		
+			<a id="signup" class="std_btn std_btn_medium" href="/account/artist_signup">Sign up for iLike</a>
+			<span id="separator">&nbsp</span>
+			<a id="login" class="std_btn std_btn_small" href="/account/login">Log in</a>
+		
+	</div>
+</div>
+		    <div id="account_footer">
+  &copy; 2011 iLike
+  <span class="sep">//</span> <a href="/about" title="About">About</a>
+  <span class="sep">//</span> <a href="http://faq.myspace.com/ilike" title="Help">Help</a>
+
+  <div id="footer_tm" style="line-height:1.4em; padding-top:10px;">
+    * iLike is a trademark of iLike.com and not affiliated with Apple Computer. Reproduction,
+    publication, or public exhibition of materials provided at this site is prohibited.
+  </div>
+</div>
+<div id="fb_connect_initial_dialog" style="display: none;" class="lightbox_dialog">
+  <div id="fb_connect_initial_close" class="top_bar">
+    <a style="cursor: pointer;" id="fb_connect_initial_close_link" onclick="FB.api({method: 'auth.revokeAuthorization'}, function(response) {}); return false;"><img src="http://s2.ilike.com/images/purchase/close.gif" alt="Close" /></a>
+  </div>
+  <div id="fb_connect_initial_content" class="content">
+    Loading...
+  </div>
+</div>
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '114486945280436', status: true, cookie: true, xfbml: true});
+    FB.Event.subscribe('auth.sessionChange', function(response) {
+      if (response.session) {
+        fb_connect_setup_if_new_user();
+        } else {
+        fbc_top_button_logout();
+      }
+    });
+    check_fbc_login();
+    FB.Event.subscribe('auth.logout', function(response) {
+      //we have been logged out, swap upper button if present
+      //with connect button
+      check_fbc_login();
+    });
+    //universal catcha-all for any el's named fbc_name
+    if($('fbc_name')) {
+      FB.api('/me', function(response) {
+        $('fbc_name').update(response.name);
+      });
+    }
+  };
+  (function() {
+    var e = document.createElement('script'); 
+    e.async = true;
+    e.src = document.location.protocol +
+    '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+  var fb_connect_setup = function() {
+      new Ajax.Request("/account/fbc_initial_setup", {onSuccess: function(t) { 
+          Event.stopObserving('login_overlay', 'mousedown');
+          }, onComplete: function(t) {
+          if($('fbc_name')) {
+            FB.api('/me', function(response) {
+              $('fbc_name').update(response.name);
+              $('hidden_fbc_name').setValue(response.name);
+              $('user_firstname').focus();
+            });
+          }
+      }});
+      fbcl = new iLike.LoginDialog('fb_connect_initial'); 
+      fbcl.onClickLogin(false);
+  }
+  var fb_connect_setup_if_new_user = function() {
+    new Ajax.Request("/account/fbc_needs_setup", 
+    {onSuccess: function(t) {
+        if(parseInt(t.responseText) == 1) {
+          fb_connect_setup();
+          } else {
+          check_fbc_login();
+        }
+    }});
+  }
+  var fbc_top_button_login = function(response) {
+     if($('fbc_top_button').hasClassName("fbcloggedout")) { 
+          $('fbc_top_button').update('<img src="http://graph.facebook.com/'+response.session.uid+'/picture?type=square" style="max-height: 25px; vertical-align: middle;" /> '+
+          '<a href="#" onclick="new Ajax.Request(\'/account/fbc_login\', {asynchronous:true, evalScripts:true}); return false;">Login with Facebook</a> or '+
+          ' <a href="/account/login?emaillogin=1">Login with Email</a>');
+          $('signup_and_login_links').style.display = 'none';
+          if($('boxed_fbc_login').style.display == '') {
+            $('boxed_fbc_login').style.display = 'none';
+          }
+        }
+    }
+    var fbc_top_button_logout = function() {
+      if(!$('fbc_top_button').hasClassName("fbcloggedout")) {
+        $('fbc_top_button').update("<fb:login-button perms='publish_stream,offline_access,user_likes' size='small' >Connect</fb:login-button>");
+        if($('signup_and_login_links')) {
+          $('signup_and_login_links').style.display = '';
+        }
+        $('fbc_top_button').addClassName("fbcloggedout");
+        FB.init({appId: '114486945280436', status: true, cookie: true, xfbml: true});
+      }
+  }
+  var check_fbc_login = function() {
+    if($('fbc_top_button')) {
+      FB.getLoginStatus(function(response) {
+        if (response.session) {
+          //ok we are on the home page and logged in, so lets
+          //hide the connect box and put their image there
+          fbc_top_button_login(response);
+          } else {
+          fbc_top_button_logout();
+        }
+      });
+    }
+  }
+</script>
+
+		  </div>
+		</div>
+	  <div id="purchase_dialog"     style="display:none;" >
+  <div class="top_bar">
+    <a href="#" id="purchase_close" onclick="return false;"><img src="http://s2.ilike.com/images/purchase/close.gif" alt="Close" /></a>
+  </div>
+  
+  <div class="content">
+          <div id="purchase_spinner">
+  <center>
+    <div style='padding-top:75px; padding-bottom:100px;'>
+      <img style="border:none;" src="http://s3.ilike.com/images/spinner_50x50.gif" width='50' height='50' />
+    </div>
+  </center>
+</div>
+
+      <div id="purchase_flow" style="display:none;"></div>
+      <div id="purchase_flow_error" style="display:none;">
+        Your purchase failed.  You have not been charged and the problem has been logged.  If the problem persists please try back later.
+      </div>
+      </div>
+</div>
+
+
+
+
+<object style="position:absolute; top:0; left:0;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,
+22,0" width="0" height="0" id="action_queue_processor" align="middle">
+  <param name="allowScriptAccess" value="always" />
+  <param name="movie" value="http://swfs.ilike.com/swfs/actionQueueProcessor.swf?v=9c4c" />
+  <param name="quality" value="high" />
+  <param name="bgcolor" value="#ffffff" />
+
+</object>
+
+
+
+
+
+<script type="text/javascript">
+  <!--
+  var g_data = {"ctmt_login_url":"/account/ctmt_login"};
+  var g_baseUrl = "/";
+  var g_facebookBaseUrl = "http://www.ilike.com/";
+  var g_baseKeywordImageUrl = 'http://c.ilike.com/conv_click.php?u=http%3A%2F%2Fs0.ilike.com%2Fimages%2Fpixel.gif&h=0072ac51ee3ddc6b3c8951c640ebb916&i=';
+  var g_swfBaseUrl = "http://swfs.ilike.com/swfs/";
+  var g_swfVersion = '9c4c';
+  // -->
+</script>
+<script type="text/javascript">
+  <!--
+  var g_urchinTrackerUrl = "GBLanding";
+  var g_urchinAvailable = true;
+  // -->
+</script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-238129-5";
+_utitle = 0;
+</script>
+<script type="text/javascript">
+<!--
+  urchinTracker(g_urchinTrackerUrl);
+// --></script>
+
+
+
+	
+	</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="/skin/vorlage/css/standard_screen.css?v=2" type="text/css" title="OvGU" media="screen" />
+<link rel="stylesheet" href="/skin/vorlage/css/mb/style.css?v=3" type="text/css" title="OvGU" media="screen" /><link rel="stylesheet" href="/skin/vorlage/css/lightbox.css" type="text/css" title="OvGU" media="screen" />
+<link rel="stylesheet" href="/skin/vorlage/css/standard_print.css" type="text/css" media="print" />
+<link rel="alternate stylesheet" href="/skin/vorlage/css/barrierefrei.css" title="Barrierefrei" type="text/css" media="screen" />
+<link rel="SHORTCUT ICON" href="/ifq_media/bilder/favicon.jpeg" />
+<script type="text/javascript" src="/skin/vorlage/js/prototype.js"></script>
+<script type="text/javascript" src="/skin/vorlage/js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="/skin/vorlage/js/lightbox.js"></script>
+<script type="text/javascript" src="/skin/vorlage/js/scripts.js"></script>
+<script type="text/javascript" src="/skin/vorlage/js/style_switch.js"></script>
+
+ <title>IFQInstitut für Fertigungstechnik und Qualitätssicherung</title>
+ <meta http-equiv="content-language" content="de" />
+ <meta name="description" lang="de" content="" />
+ <meta name="keywords" lang="de" content="" />
+ <meta name="date" content="2012-05-29 21:24:26" />
+ <meta name="robots" content="index" />
+
+</head>
+
+<body onload="init();">
+
+<div id="page">
+	
+<div id="header">
+ <a href="http://www.ovgu.de" target="_top" title="Zur Startseite der Otto-von-Guericke-Universität Magdeburg" class="no_link_zeichen"><img src="/skin/vorlage/pics/logos/logo_mb.png" border="0" alt="OvGU-Logo"/></a>
+ <a href="/IFQ.html" target="_top" title="Zur Startseite"><img src="/skin/vorlage/include/schriftzug.php?z1=INSTITUT FÜR&amp;z2=FERTIGUNGSTECHNIK UND&amp;z3=QUALITÄTSSICHERUNG" border="0" alt="Bezeichnung der Einrichtung"/></a> <a href="/IFQ.html" target="_top" title="Startseite" id="logo_einrichtung" class="no_link_zeichen"><img src="/index.php?id=48&suffix=png&width=130&height=68&nonactive=1&lang=de&site=ifq_media" border="0" alt="Logo der Einrichtung"/></a></div>
+	
+<h1 class="hidden">Otto-von-Guericke-Universität Magdeburg</h1>
+
+<div class="hidden" id="spring_navi">
+<em>Springen Sie direkt: </em>
+
+<a href="#b_primary_content" title="Zum Textanfang (Zugangstaste: 2)" accesskey="2">Zum Textanfang (Navigation &uuml;berspringen)</a>,&nbsp;
+<a href="#b_primary_navi_box" title="Zur Hauptnavigation (Zugangstaste: 3)" accesskey="3">Zur Hauptnavigation</a>,&nbsp;
+<a href="#b_primary_navi_box" title="Zur Themennavigation (Zugangstaste: 4)" accesskey="4">Zur Themennavigation</a>,&nbsp;
+<a href="#b_primary_navi_selectbox" title="Zur den Direktlinks (Zugangstaste: 5)" accesskey="5">Zur den Direktlinks</a>,&nbsp;
+<a href="#b_content_servicebox" title="Zur Fußnavigation (Zugangstaste: 6)" accesskey="6">Zur Fußnavigation</a>,&nbsp;
+<a href="#b_headservice" title="Zur Hilfsnavigation (Zugangstaste: 7)" accesskey="7">Zur Hilfsnavigation</a>,&nbsp;
+
+<a href="#b_breadcrumb_navi" title="Zur Krümelnavigation (Zugangstaste: 8)" accesskey="8">Zur Krümelnavigation</a>,&nbsp;
+<a href="#b_serach" title="Zur Suche (Zugangstaste: 9)" accesskey="9">Zur Suche</a>,&nbsp;
+<a href="#b_language" title="Zur Suche (Zugangstaste: 10)" accesskey="10">Zur Sprachauswahl</a>
+</div>
+
+<div id="head_servicebox">
+
+<h2 class="hidden">Hilfsnavigation</h2>
+<a class="hidden" name="b_headservice" id="b_headservice" title="Hilfsnavigation" class="no_link_zeichen"></a>
+<hr class="hidden" />
+
+<ul id="search_navi">
+	<li><span class="hidden">Darstellungen: </span><a href="javascript:setStyle('OvGU')" target="_top" title="OvGU" class="hidden">Standard</a><span class="hidden"> | </span><a href="javascript:setStyle('Barrierefrei')" target="_top" title="Barrierefrei" class="no_link_zeichen">Barrierefrei</a></li>
+	<li><a href="/Sitemap.html" target="_top" title="Sitemap" class="no_link_zeichen">Sitemap</a></li>
+	<li><a href="/Impressum.html" target="_top" title="Impressum" class="no_link_zeichen">Impressum</a></li>
+	<li><a href="/Kontakt.html" target="_top" title="Kontakt" class="line_delete" class="no_link_zeichen">Kontakt</a></li>
+</ul>
+
+<h2 class="hidden">Suche</h2>
+
+<a class="hidden" name="b_serach" id="b_serach" title="Suche" class="no_link_zeichen"></a>
+<hr class="hidden" />
+
+<form action="/Suche.html" method="get" name="search" id="search">
+	<fieldset class="search_fieldset">
+ 		<legend class="hidden">Webseite durchsuchen</legend>
+ 		<label for="search" class="hidden">Suche</label>
+ 		<input type="text" name="search_string" value="Suchwort eingeben" class="search_field" title="Bitte geben Sie hier Ihren Suchbegriff ein" onfocus="document.search.search_string.value =''" onblur="if (this.value == '') this.value='Suchwort eingeben'"/>
+		<input type="image" src="/skin/vorlage/pics/search_button.gif" alt="Absenden" class="search_button"/>
+		<input type="submit" name="submit" value="suchen" class="hidden"/>
+
+	</fieldset> 
+</form>
+
+<h2 class="hidden">Sprachauswahl</h2>
+<a class="hidden" name="b_language" id="b_language" title="Sprachauswahl" class="no_link_zeichen"></a>
+<hr class="hidden" />
+
+<div id="language_navi">
+
+
+ <ul>
+  <li><a href="/ifq/en/ifq.html" title="English" class="en" target="_top" class="no_link_zeichen"><span class="hidden">English</span></a></li>
+ </ul>
+</div>
+
+</div>
+
+
+
+<h2 class="hidden">Hauptnavigation</h2>
+<a class="hidden" name="b_primary_navi_box" id="b_primary_navi_box" title="Hauptnavigation" class="no_link_zeichen"></a>
+<hr class="hidden" />
+
+<div id="primary_navi_box">
+	<ul>
+                  
+  <li class="line_delete"><a href="http://www.fmb.ovgu.de" title="Fakultät" target="_top" class="primary_navi_box_a" class="no_link_zeichen">&larr; Fakultät</a></li>
+                                       	                  <li class=""><a href="/Institut.html" title="Institut" target="_top" class="primary_navi_box_a" class="no_link_zeichen">Institut</a></li>
+                                                              	                  <li class=""><a href="/Lehrst%C3%BChle.html" title="Lehrstühle" target="_top" class="primary_navi_box_a" class="no_link_zeichen">Lehrstühle</a></li>
+                                                              	                  <li class=""><a href="/Lehre.html" title="Lehre" target="_top" class="primary_navi_box_a" class="no_link_zeichen">Lehre</a></li>
+                                                              	                  <li class=""><a href="/Technik.html" title="Technik" target="_top" class="primary_navi_box_a" class="no_link_zeichen">Technik</a></li>
+                                                              	                  <li class=""><a href="/Auslandsarbeit.html" title="Auslandsarbeit" target="_top" class="primary_navi_box_a" class="no_link_zeichen">Auslandsarbeit</a></li>
+                           </ul>	<h2 class="hidden">Direktlinks</h2>
+	<a class="hidden" name="b_primary_navi_selectbox" id="b_primary_navi_selectbox" title="Direktlinks" class="no_link_zeichen"></a>
+	<hr class="hidden" />
+    
+    <div id="primary_navi_selectbox">
+		<ul>
+			<li><a href="#" target="_top" title="Direktlinks" class="direktlinks" class="no_link_zeichen">Direktlinks</a>
+				<ul>
+                                    
+   <li><a href="http://www.fmb.ovgu.de" target="_blank" title="Fakultät Maschinenbau" class="no_link_zeichen">Fakultät Maschinenbau</a></li>
+  <li><a href="http://www.ovgu.de" target="_blank" title="Universität Magdeburg" class="no_link_zeichen">Universität Magdeburg</a></li>
+  <li><a href="https://opac.uni-magdeburg.de/cgi-bin/wwwopc4menu" target="_blank" title="Universitätsbibliothek Online-Katalog" class="no_link_zeichen">Universitätsbibliothek Online-Katalog</a></li>
+  <li><a href="http://univis.ovgu.de" target="_blank" title="UNIVIS Datenbank" class="no_link_zeichen">UNIVIS Datenbank</a></li>
+  <li><a href="http://www.sin.ovgu.de" target="_blank" title="SiN-Portal" class="no_link_zeichen">SiN-Portal</a></li>
+  <li><a href="https://webmail.ovgu.de" target="_blank" title="WebMail" class="no_link_zeichen">WebMail</a></li>
+  <li><a href="http://www.verwaltungshandbuch.ovgu.de" target="_blank" title="Verwaltungshandbuch" class="no_link_zeichen">Verwaltungshandbuch</a></li>
+  <li><a href="http://www.ovgu.de/Formularpool-p-9420.html" target="_blank" title="Formularpool" class="no_link_zeichen">Formularpool</a></li>
+  <li><a href="http://www.adobe.com/software/flash/about/" target="_self" title="DV-Flashversionstest" class="no_link_zeichen">DV-Flashversionstest</a></li>
+  <li><a href="http://www.java.com/de/download/installed.jsp?detect=jre&try=1" target="_self" title="DV-Javaversionstest" class="no_link_zeichen">DV-Javaversionstest</a></li>
+
+				</ul>
+			</li>
+		</ul>	
+    </div>
+    
+    <div id="corner_top_left_navi">&nbsp;</div>
+    <div id="corner_top_right_navi">&nbsp;</div>
+    <div id="corner_bottom_left_navi">&nbsp;</div>
+    <div id="corner_bottom_right_navi">&nbsp;</div>
+</div>
+
+<div id="secondary_navi_box">
+	
+	<h2 class="hidden">Krümelnavigation</h2>
+
+	<a class="hidden" name="b_breadcrumb_navi" id="b_breadcrumb_navi" title="Krümelnavigation" class="no_link_zeichen"></a>
+	<hr class="hidden" />
+	
+	<div id="breadcrumb_navi">
+   		<ul>
+                 	<ul>
+	   <li><a href="/IFQ.html" target="_top" title="Startseite" class="no_link_zeichen">Home</a></li>
+		                	</ul>   		</ul>
+        
+        <div id="breadcrumb_end">
+			&nbsp;
+        </div>
+   	</div>
+                    <h2 class="hidden">Themennavigation</h2>
+	<a class="hidden" name="b_secondary_navi" id="b_secondary_navi" title="Themennavigation" class="no_link_zeichen"></a>
+	<hr class="hidden" />
+
+	<div id="secondary_navi">
+   		<ul>
+                   <li class=""><a href="/home/Aktuelles.html" target="_top" title="Aktuelles">Aktuelles</a></li>                    <li class=""><a href="/home/Mitarbeiter.html" target="_top" title="Mitarbeiter">Mitarbeiter</a></li>                    <li class=""><a href="/home/Lehrmaterial-p-170.html" target="_top" title="Lehrmaterial">Lehrmaterial</a></li>                    <li class=""><a href="/home/EDV+am+IFQ.html" target="_top" title="EDV am IFQ">EDV am IFQ</a></li>                                  <li class="line_delete"><a href="/anfahrt-path-2.html" target="_top" title="Anfahrtsbeschreibung" class="no_link_zeichen">Anfahrtsbeschreibung</a></li>        		</ul>
+   	</div>
+
+    <div id="corner_top_left_subnavi">&nbsp;</div>
+    <div id="corner_top_right_subnavi">&nbsp;</div>
+    <div id="corner_bottom_left_subnavi">&nbsp;</div>
+    <div id="corner_bottom_right_subnavi">&nbsp;</div>
+</div>
+
+<h2 class="hidden">Fußnavigation</h2>
+<a class="hidden" name="b_content_servicebox" id="b_content_servicebox" title="Fußnavigation" class="no_link_zeichen"></a>
+
+<hr class="hidden" />
+
+<div id="primary_content_three_columns">
+	
+	<div id="content_servicebox" class="content_servicebox_three">
+		<ul>
+			<li class="link_schuetzen"><a onclick="javascript:window.open(this.href,'Permalink','width=450,height=300,top=50,left=50,location=no,menubar=no,resizable=no,scrollbars=no,status=no,toolbar=no'); return false;" href="/IFQ-permalink-1.html" target="_top" title="Permanentlink dieser Seite anzeigen">Permalink</a></li>
+			<li class="link_schuetzen"><a href="http://app.readspeaker.com/proreader/proreader.php?cid=4717&amp;lang=de_de&amp;url=http://www.ovgu.de/code.htm?codeid=http%3A%2F%2Fwww.ifq.ovgu.de%2F-p-1" onclick='window.open(this.href, "prwin", "width=190, height=120, resizable=1, scrollbars=1, screenX=0, screenY=0, left=0, top=0"); return false;'>Vorlesen</a></li>
+                        
+                        			<li class="link_schuetzen"><a href="#" onclick="window.print(); return false;" target="_blank" title="Seite Drucken" class="line_delete">Drucken</a></li>
+
+	        <!--<li class="link_schuetzen"><a href="#" target="_top" title="PDF" class="line_delete">PDF</a></li>-->
+		</ul>
+         <div id="sozial_media_box_three">
+                                                                     </div>
+	</div>
+
+	<h2 class="hidden">Textanfang</h2>
+	<a class="hidden" name="b_primary_content" id="b_primary_content" title="Textanfang" class="no_link_zeichen"></a>
+	<hr class="hidden" />
+
+        
+<!-- RSPEAK_START -->
+ 
+<div class="headline">
+<h3>Institut für Fertigungstechnik und Qualitätssicherung</h3>
+</div>
+ 
+ <h3>Herzlich willkommen auf der Homepage des Instituts für Fertigungstechnik und Qualitätssicherung (IFQ)</h3>
+<p>Wir möchten Ihnen auf diesen Seiten unser Institut mit seinen unterschiedlichen Lehrstühlen und Arbeitsbereichen vorstellen. Die bereitgestellten Informationen sollen sowohl Studierenden als auch Besucherinnen und Besuchern aus Forschung und Industrie einen Einblick in unsere Aktivitäten bieten. Auch für Schülerinnen und Schüler mögen Sie einen Anreiz darstellen, sich in die Welt des Maschinenbaus und insbesondere in unser Fachgebiet der Produktionstechnik zu begeben.</p>
+<p>Ohne eine hochentwickelte Fertigungstechnik sind alle uns so vertrauten Produkte des täglichen Lebens nicht denkbar. Die nötige Wertschöpfung in einem Hochlohnland wie Deutschland ist nur erreichbar, wenn hochtechnologische Fertigungsverfahren kontinuierlich neu entwickelt bzw. ständig verbessert werden. Allein durch die Verfügbarkeit konkurrenzfähiger Fertigungstechnologie und der dazugehörigen apparativen und softwareseitigen Ausstattung kann es uns gelingen, unseren Lebensstandard zu halten, auszubauen und unter Berücksichtigung aller ökologischen und ökonomischen Randbedingungen nachhaltig abzusichern. Damit bleibt Produktion in Deutschland unverzichtbar, denn nur sie stellt Wertschöpfung und Arbeit für den Wohlstand der Menschen in ausreichendem Maß dar.</p>
+<p>Dieser Aufgabe stellen sich die Ingenieurinnen und Ingenieure der Fertigungstechnik in besonderem Maße. Dank der Vielfalt der Ur- und umformenden Verfahren, der trennenden sowie der generativen Verfahren, ergänzt durch eine funktionsgerechte Beschichtung können wir die Herausforderungen meistern. Neben den Verfahren dient die Fertigungsmesstechnik zur Feststellung von möglichen Abweichungen zu gestellten Anforderungen, zur Aufdeckung ihrer Ursachenketten und zur Einleitung von Abhilfemaßnahmen. Das Qualitätsmanagement erweitert diesen Anspruch noch in Form einer Ganzheitlichkeit, die sowohl den Prozess, wie auch den ihn betreibenden Menschen und seine betriebliche Einbindung in den Vordergrund stellt.</p>
+<p>Diesen Bereichen widmet sich das IFQ in der Forschung und Entwicklung sowie in der Lehre. Wir stehen damit seit vielen Jahren kompetent und verlässlich für externe Partner zur Verfügung und bieten unseren Studierenden praxisnahe und attraktive Arbeitsbedingungen mit exzellenten Qualifizierungsmöglichkeiten durch umfangreiche nationale und internationale Kontakte.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
+
+<!-- RSPEAK_STOP -->        <div id="letzte_aenderung">Letzte &Auml;nderung: 29.05.2012 - Ansprechpartner: <a onclick="javascript:fensteransp=window.open(this.href,'Ansprechpartner','width=550,height=520,top=50,left=50,location=no,menubar=no,resizable=no,scrollbars=no,status=no,toolbar=no'); fensteransp.focus(); return false;" href="/IFQ-ansprechpartner-1.html" target="_top" title="Ansprechpartner kontaktieren" id="ansprechpartner">Webmaster</a></div>
+    <div class="corner_top_left_content">&nbsp;</div>
+    <div class="corner_top_right_content">&nbsp;</div>
+    <div class="corner_bottom_left_content">&nbsp;</div>
+    <div class="corner_bottom_right_content">&nbsp;</div>
+</div>
+
+
+<div id="secondary_content_one_column">
+
+    <div class="secondary_content_ad_box"><img title="Prof. Dr.-Ing. habil. B. Karpuschewski" alt="Prof. Dr.-Ing. habil. B. Karpuschewski" src="/skin/vorlage/include/get_foto.php?hoehe=0&breite=230&url=%2Findex.php%3Fid=28%26width=190%26height=265%26nonactive=1%26lang=de%26site=ifq_media"><div class="corner_top_left_ad_box">&nbsp;</div>
+	    <div class="corner_top_right_ad_box">&nbsp;</div>
+	    <div class="corner_bottom_left_ad_box">&nbsp;</div>
+	    <div class="corner_bottom_right_ad_box">&nbsp;</div></div><p align="center">Prof. Dr.-Ing. habil. Prof. h.c. Bernhard Karpuschewski,</p><p align="center">Geschäftsführender Leiter IFQ</p>
+
+
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1743 @@
+<html>
+<head>
+<title>Vuon Tinh Nhan Radio - Cung lang nghe, cung cam nhan!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="VTN Radio, VTNRadio, Viet Gay Radio, Vuon Tinh Nhan, VuonTinhNhan, Gay, Viet Gay, Vietnamese Gay Community, Gay Forum, Radio, VTN Radio, VTNRadio, Movies, Music, Dien dan, Games, Ecard, Chat, Tho ca, truyen, truyen cuoi, truyen ngan, nghe thuat song, tap chi, giai tri, hinh, tin tuc, chat online">
+<meta name="description" content="Radio chuyen nghiep lon nhat cua Cong dong Nguoi dong tinh Viet Nam, phat hanh deu dan 3 ky trong thang vao cac ngay 1 10 va� 20, Vietnamese Gay Community Website Viet Gay chuyen nghiep va lon nhat the gioi - Radio - Movies - Forum - Make Friends - Chat Room - Music - Magazine - E-cards - Games - Mot Khu Vuon khong lo danh cho ban - Mot trang web bo ich, thong tin duoc cap nhat chuyen nghiep, nhanh chong va hap dan." />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+<link href="./templates/ModelSkin/style.css" rel="stylesheet" type="text/css">
+<link href="./templates/ModelSkin/vip_style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF6600;
+	font-weight: bold;
+	font-size: 14px;
+}
+.style2 {
+	color: #336600;
+	font: bold;
+}
+.style3 {color: #84C721}
+.style4 {
+	color: #993300;
+	font: bold;
+}
+.style5 {
+	color: #CC3300;
+	font-weight: bold;
+}
+.style6 {color: #84BE31}
+.style7 {color: #CC3300}
+.style8 {color: #CC0000}
+-->
+</style>
+
+<script language="javascript">
+function ShowHideURL(the_id){
+	if ( document.getElementById("DivURL_"+ the_id).style.display	== '' ){
+		document.getElementById("DivURL_"+ the_id).style.display	= 'none';
+		document.getElementById("ImgURL_"+ the_id).src				= './templates/ModelSkin/images/tree1.gif';
+	}
+	else{
+		document.getElementById("DivURL_"+ the_id).style.display	= '';
+		document.getElementById("ImgURL_"+ the_id).src				= './templates/ModelSkin/images/tree0.gif';
+	}
+	return false;
+}
+
+function changeRadio(radio_file, link_id){
+	var str_object	= '		<OBJECT id=winMediaPlayerID codeBase=http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715 width=450 height=310 type=application/x-oleobject standby="Loading Microsoft Windows Media Player components..." classid=CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6 name=winMediaPlayer >';
+	str_object		+= '		<PARAM NAME="URL" VALUE="'+ radio_file +'">';
+	str_object		+= '		<PARAM NAME="rate" VALUE="1">';
+	str_object		+= '		<PARAM NAME="balance" VALUE="0">';
+	str_object		+= '		<PARAM NAME="currentPosition" VALUE="0">';
+	str_object		+= '		<PARAM NAME="defaultFrame" VALUE="0">';
+	str_object		+= '		<PARAM NAME="playCount" VALUE="1">';
+	str_object		+= '		<PARAM NAME="CursorType" VALUE="-1">';
+	str_object		+= '		<PARAM NAME="autoStart" VALUE="1">';
+	str_object		+= '		<PARAM NAME="currentMarker" VALUE="0">';
+	str_object		+= '		<PARAM NAME="invokeURLs" VALUE="-1">';
+	str_object		+= '		<PARAM NAME="volume" VALUE="100">';
+	str_object		+= '		<PARAM NAME="mute" VALUE="0">';
+	str_object		+= '		<PARAM NAME="stretchToFit" VALUE="-1">';
+	str_object		+= '		<PARAM NAME="windowlessVideo" VALUE="0">';
+	str_object		+= '		<PARAM NAME="enabled" VALUE="1">';
+	str_object		+= '		<PARAM NAME="fullScreen" VALUE="0">';
+	str_object		+= '		<PARAM NAME="enableErrorDialogs" VALUE="0">';
+	str_object		+= '		<PARAM NAME="ShowStatusBar" VALUE="1">';
+	str_object		+= '			<embed type="application/x-mplayer2" id="winMediaPlayerID" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/" ';
+	str_object		+= '				src="'+ radio_file +'" ';
+	str_object		+= '				name=MediaPlayerTV ';
+	str_object		+= '				width="420"';
+	str_object		+= '				height="320"';
+	str_object		+= '				AutoSize="1" ';
+	str_object		+= '				AutoStart="1" ';
+	str_object		+= '				ClickToPlay="1" ';
+	str_object		+= '				DisplaySize="1" ';
+	str_object		+= '				EnableContextMenu="1" ';
+	str_object		+= '				EnableFullScreenControls="1" ';
+	str_object		+= '				EnableTracker="1" ';
+	str_object		+= '				Mute="0" ';
+	str_object		+= '				PlayCount="1" ';
+	str_object		+= '				ShowControls="1" ';
+	str_object		+= '				ShowAudioControls="1" ';
+	str_object		+= '				ShowDisplay="0" ';
+	str_object		+= '				ShowGotoBar="0" ';
+	str_object		+= '				ShowPositionControls="1" ';
+	str_object		+= '				ShowStatusBar="1" ';
+	str_object		+= '				ShowTracker="1">';
+	str_object		+= '			</embed>';
+	str_object		+= '	</OBJECT>';
+	document.getElementById('Div_RadioObject').innerHTML	= str_object;
+
+	var str_url		= document.getElementById('TD_URL').innerHTML;
+	str_url			= str_url.replace(/sSubTitleBold/g, 'sSubTitle');
+	document.getElementById('TD_URL').innerHTML		= str_url;
+	document.getElementById(link_id).className		= 'sSubTitleBold';
+}
+
+var flag_forum	= -1;
+var flag_blog	= -1;
+function show_code_forum(num, title, u_view){
+	if ( num == flag_forum ){
+		document.getElementById('Div_Forum').style.display	= 'none';
+		flag_forum	= -1;
+	}
+	else{
+		var
+		str_content	= '[CENTER]\n[url='+ u_view +'][IMG]http://radio.vuontinhnhan.net/images/VTNradio_dot_Net.jpg[/IMG][/url]\n';
+		str_content	+= '[url='+ u_view +'][B]VTN Radio Số 42: Ngôi nhà hồng[/B][/url]\n';
+		str_content	+= '[url='+ u_view +'][B]'+ title +'[/B][/url]\n[/CENTER]\n';
+		document.getElementById('Div_ForumTitle').innerHTML	= title;
+		document.getElementById('ForumCode').value			= str_content;
+		document.getElementById('Div_Forum').style.display	= '';
+		flag_forum	= num;
+	}
+
+	document.getElementById('Div_Blog').style.display	= 'none';
+	flag_blog	= -1;
+}
+
+function show_code_blog(num, title, file_path, u_view){
+	if ( num == flag_blog ){
+		document.getElementById('Div_Blog').style.display	= 'none';
+		flag_blog	= -1;
+	}
+	else{
+		var str_content	= '<CENTER><br><br><a href="'+ u_view +'" target="_blank"><img src="http://radio.vuontinhnhan.net/images/VTNradio_dot_Net.jpg" border="0" title="Nghe online tại VTNradio.Net"></a><br>';
+			str_content	+= '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="300" height="20" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" >';
+			str_content	+= '<param name="movie" value="http://radio.vuontinhnhan.net/mp3player.swf" />';
+			str_content	+= '<param name="flashvars" value="file='+ file_path +'&autostart=false" />';
+			str_content	+= '<embed src="http://radio.vuontinhnhan.net/mp3player.swf" width="300" height="20" flashvars="file='+ file_path +'&autostart=false" ';
+			str_content	+= 'type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object><br>';
+			str_content	+= '<a href="'+ u_view +'" target="_blank" style="FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 8pt; FONT-WEIGHT: bold; TEXT-DECORATION: none; line-height: 15pt;">VTN Radio Số 42: Ngôi nhà hồng<br>' + title +'</a><br><br></CENTER>';
+
+		document.getElementById('Div_BlogTitle').innerHTML	= title;
+		document.getElementById('BlogCode').value			= str_content;
+		document.getElementById('Div_Blog').style.display	= '';
+		flag_blog	= num;
+	}
+
+	document.getElementById('Div_Forum').style.display	= 'none';
+	flag_forum	= -1;
+}
+</script>
+
+<script language="JavaScript" src="ajax.js"></script>
+<SCRIPT language=Javascript src="viettyping.js"></SCRIPT>
+</head>
+
+<BODY BACKGROUND="./templates/ModelSkin//images/bg_light.gif" BORDER="0">
+<center>
+<table width="778" align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="778" valign="top" align="center" background="./templates/ModelSkin/images/bg_center_778.gif">
+
+<table width="768" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="768"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" valign="top">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="320" class="Menufooter" background="./templates/ModelSkin/images/logo_bg.jpg" height="65" align="center"><a class="SiteName" href="/">Radio.VuonTinhNhan.Net</a><br />Hiển thị tốt nhất với Internet Explorer, Firefox<br>VTN Radio Version 2.0</td>
+            <td width="448" background="./templates/ModelSkin/images/bg-menutop.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr align="left" valign="top">
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="13"><img src="./templates/ModelSkin/images/icon-topmenu.jpg" width="13" height="65"></td>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="32" class="topmenuBG"><a class="topmenubold" href="radio.php?cid=1"><strong>Radio Online</strong></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="13"><img src="./templates/ModelSkin/images/icon-topmenu.jpg" width="13" height="65"></td>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="32" class=""><a class="topmenu" href="radio.php?cid=7"><strong>Ý kiến</strong></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="13"><img src="./templates/ModelSkin/images/icon-topmenu.jpg" width="13" height="65"></td>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="32" class=""><a class="topmenu" href="radio.php?cid=6"><strong>Chuyên đề âm nhạc</strong></a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="13"><img src="./templates/ModelSkin/images/icon-topmenu.jpg" width="13" height="65"></td>
+                    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="32"><a href="about.php" class="topmenu">Giới thiệu</a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="13"><img src="./templates/ModelSkin/images/icon-topmenu.jpg" width="13" height="65"></td>
+                    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="32"><a href="weblink.php" class="topmenu">Liên kết</a></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td bgcolor="#424242" align="center" valign="top"><img src="images/radio_pic/radio42.jpg" border="0"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="768" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="220" align="left" valign="top" style="background-image: url(./templates/ModelSkin//images/friend_bg_random2.gif)"><table width="220" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td bgcolor="#FFFFFF" align="left" valign="top"><TABLE width="220" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+              <TR>
+                <TD>
+                  <table  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="220" align="left"><img src="./templates/ModelSkin/images/radio_02.jpg" width=220 height=33 alt=""></td>
+                    </tr>
+                </table></TD>
+              </TR>
+              <TR>
+                <TD><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="6" valign="bottom" background="./templates/ModelSkin/images/radio_08.jpg"></td>
+                      <td align="center" valign="top">
+
+							  <table width="97%"  border="0" cellspacing="0" cellpadding="2">
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(59)"><img id="ImgURL_59" name="ImgID_59" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(59)">Số 42: Ngôi nhà hồng</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_59" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitleBold" href="radio.php?cid=1&id=59&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=59&num=2&start=0">Ngôi nhà hồng </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=59&num=4&start=0">Bản tin VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=59&num=6&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=59&num=8&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=59&num=10&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(58)"><img id="ImgURL_58" name="ImgID_58" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(58)">Số 41: Thu trong Bạn, trong Tôi</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_58" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=58&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=58&num=2&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=58&num=4&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=58&num=6&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(57)"><img id="ImgURL_57" name="ImgID_57" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(57)">Số 40: Ngày khai trường</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_57" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=57&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=57&num=2&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=57&num=4&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=57&num=6&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(56)"><img id="ImgURL_56" name="ImgID_56" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(56)">Số 39: Nguyệt</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_56" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=56&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=56&num=2&start=0">Vấn đề hôm nay </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=56&num=4&start=0">Âm nhạc chuyên đề </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=56&num=6&start=0">Sân khấu cổ tích </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=56&num=8&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=56&num=10&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(55)"><img id="ImgURL_55" name="ImgID_55" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(55)">Số 38: Đơn giản, chỉ vì... ta yêu nhau!</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_55" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=55&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=55&num=2&start=0">Kịch &quot;Một mai em đi&quot; </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=55&num=4&start=0">Diễn đàn xanh </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=55&num=6&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(54)"><img id="ImgURL_54" name="ImgID_54" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(54)">Số 37: Vừng ơi! Mở ra</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_54" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=54&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=54&num=2&start=0">Bản tin VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=54&num=4&start=0">Sân khấu cổ tích (Phần 1) </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=54&num=6&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=54&num=8&start=0">Sân khấu cổ tích (Phần 2) </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=54&num=10&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(53)"><img id="ImgURL_53" name="ImgID_53" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(53)">Số 36: Nỗi nhớ và Em</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_53" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=53&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=53&num=2&start=0">Phút nhớ nhà </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=53&num=4&start=0">Chuyện tình tự kể </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=53&num=6&start=0">Chuyên mục 8T </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=53&num=8&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=53&num=10&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(52)"><img id="ImgURL_52" name="ImgID_52" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(52)">Số 35: Tháng bảy mưa ngâu</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_52" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=2&start=0">Phút nhớ nhà </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=4&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=6&start=0">Khám phá </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=8&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=10&start=0">Chuyện tình tự kể </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=52&num=12&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(51)"><img id="ImgURL_51" name="ImgID_51" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(51)">Số 34: Ngày xưa ơi...</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_51" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=2&start=0">Bản tin VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=4&start=0">Hình bóng quê nhà </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=6&start=0">Chuyên mục 8T </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=8&start=0">Chuyện tình tự kể </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=10&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=12&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=51&num=14&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(50)"><img id="ImgURL_50" name="ImgID_50" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(50)">Số 33: Mưa</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_50" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=2&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=4&start=0">Chuyện tình tự kể </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=6&start=0">Khám phá </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=8&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=10&start=0">Cảm nhận âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=12&start=0">Chuyên mục 8T </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=14&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=50&num=16&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(49)"><img id="ImgURL_49" name="ImgID_49" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(49)">Số 32: Tuổi đời mênh mông</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_49" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=2&start=0">Bản tin VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=4&start=0">Rong chơi mùa hạ </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=6&start=0">8T: Tâm tình từ trái tim tới trái tim </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=8&start=0">Chuyện tình tự kể </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=10&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=12&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=49&num=14&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(48)"><img id="ImgURL_48" name="ImgID_48" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(48)">Số 31: Hạ Về</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_48" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=2&start=0">Lang thang cùng VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=4&start=0">Rong chơi mùa hạ </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=6&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=8&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=10&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=48&num=12&start=0">VTN và Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(47)"><img id="ImgURL_47" name="ImgID_47" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(47)">Số 30: Sài Gòn * Cà phê</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_47" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=2&start=0">Bản tin VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=4&start=0">Văn hóa giải trí </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=6&start=0">Lang thang cùng VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=8&start=0">Ngược dòng thời gian </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=10&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=12&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=47&num=14&start=0">VTN &amp; Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(46)"><img id="ImgURL_46" name="ImgID_46" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(46)">Số 29: Hãy yêu nhau đi</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_46" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=2&start=0">Bản tin VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=4&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=6&start=0">Cảm nhận âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=8&start=0">Văn học VTN </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=10&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=46&num=12&start=0">VTN &amp; Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr height="30">
+		                              <td width="22" align="left" valign="top"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(45)"><img id="ImgURL_45" name="ImgID_45" src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></a></td>
+		                              <td align="left" valign="top" style="padding-top: 2px;"><a class="sTitle" href="#" onclick="javascript: return ShowHideURL(45)">Số 28: Sức sống tuổi trẻ</a></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr id="DivURL_45" style="display: none;">
+		                          <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=0&start=0">Giới thiệu </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=2&start=0">Chuyên đề âm nhạc </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=4&start=0">Chuyện tình tự kể </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=6&start=0">Khám phá </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=8&start=0">Phút nhớ nhà </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=10&start=0">Hài kịch: Xem bói </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=12&start=0">Thông điệp yêu thương </a></td>
+		                                </tr>
+		                                <tr>
+		                                  <td width="9" height="24" valign="top" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left" valign="top"><a class="sSubTitle" href="radio.php?cid=1&id=45&num=14&start=0">VTN &amp; Bạn </a></td>
+		                                </tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                      </table>
+							  <br><center><font class="pageNav"><strong>Trang:</strong> <b>1</b>, <a href="radio.php?cid=1&amp;start=15">2</a>, <a href="radio.php?cid=1&amp;start=30">3</a>&nbsp;&nbsp;<a href="radio.php?cid=1&amp;start=15"><img src="images/next.gif" border="0"></a>&nbsp;</font></center><br><br>
+
+
+			  <table width="96%" border="0" cellpadding="2" cellspacing="0" bgcolor="#DFEFBA"">
+			  <form name="SEARCHFORM" method="POST" action="radio.php?cid=1">
+              <tr>
+			  	<td height="50" valign="middle" align="left" class="comment"><strong>Tìm theo tên chủ đề:</strong><br>
+			  		<input class="myform" type="text" name="skeyword" value="" style="width: 130px;">
+					<input class="mybutton" type="submit" name="smSearch" value=" Tìm ">
+			  	</td>
+			  </tr>
+			  </form>
+            </tr>
+            </table><br>
+
+						  </td>
+                      <td width="6" valign="bottom" background="./templates/ModelSkin/images/radio_10.jpg"></td>
+                    </tr>
+                </table>
+				</TD>
+              </TR>
+              <TR>
+                <TD>
+                  <table  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><img src="./templates/ModelSkin/images/radio_23.jpg" width=220 height=6 alt=""></td>
+                    </tr>
+                </table></TD>
+              </TR>
+            </TABLE></td>
+          </tr>
+          <tr><td height="15"><img src="./templates/ModelSkin/images/space.gif" width="1" height="1"></td></tr>
+          <tr>
+            <td align="center" valign="top"><table width="100% border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+              <tr>
+                <td><table width="100%" border="0" cellpadding="10" cellspacing="0">
+				<tr bgcolor="#FFFFFF"><td class="comment" align="center">
+					<script language="javascript">
+						if (document.all){ // IE
+							document.write('<a href="javascript:history.go(0);" onClick="this.style.behavior=\'url(#default#homepage)\';this.setHomePage(\'http://radio.vuontinhnhan.net/\');"><img src="http://www.vuontinhnhan.net/images/CongVuonForum/VTN_Star.gif" border="0"><span style="font-family: Tahoma, Arial, Verdana; font-size: 9pt; font-weight: bold; color: #990000; text-decoration: none;"> Đặt VTN Radio làm trang chủ </span></a><br>');
+						}
+					</script>
+				</td></tr>
+				</table></td>
+              </tr>
+	          <tr><td height="15" style="background-image: url(./templates/ModelSkin//images/friend_bg_side.gif)"></td></tr>
+              <tr>
+                <td><a href="http://radio.vuontinhnhan.net/radio.php?cid=1&id=44&num=4&start=0"><img src="./templates/ModelSkin/images/_VTNR26_NSUT_ThanhLoc.jpg" width="218" height="236" border="0" title="Đối thoại Xuân cùng NSƯT Thành Lộc trên VTN Radio."></a></td>
+              </tr>
+	          <tr><td height="15" style="background-image: url(./templates/ModelSkin//images/friend_bg_side.gif)"></td></tr>
+              <tr>
+                <td><a href="http://www.vuontinhnhan.net/help.php?id=27" target="blank"><img src="./templates/ModelSkin/images/_TaiTro.jpg" width="218" height="306" border="0" title="Tài trợ Vườn Tình Nhân."></a></td>
+              </tr>
+	          <tr><td height="15" style="background-image: url(./templates/ModelSkin//images/friend_bg_side.gif)"></td></tr>
+              <tr>
+                <td><a href="http://www.vuontinhnhan.net/help.php?id=26" target="blank"><img src="./templates/ModelSkin/images/_QuangCao.jpg" width="218" height="319" border="0" title="Quảng cáo trên Vườn Tình Nhân."></a></td>
+              </tr>
+	          <tr><td height="15" style="background-image: url(./templates/ModelSkin//images/friend_bg_side.gif)"></td></tr>
+              <tr>
+                <td align="center"><img src="http://www.vuontinhnhan.net/images/CongVuonForum/ThongDiepYeuThuong_small.gif" border="0" title="Thông điệp yêu thương"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+
+	    <td width="8" align="left"><img src="./templates/ModelSkin//images/blank.gif" width=8 height=1></td>
+
+		<td width="540" align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+
+          <tr>
+            <td align="left" valign="top"><table width="539"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="539" height="40" align="center" background="./templates/ModelSkin/images/radio_12.jpg" class="new-music">Số 42: Ngôi nhà hồng</td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="9" valign="top" background="./templates/ModelSkin/images/radio_13.jpg">&nbsp;</td>
+                    <td align="center" background="./templates/ModelSkin/images/radio_14.jpg" class="mainText">
+						<table width="100%" cellspacing="0" cellpadding="5" border="0">
+						<tr height="335" valign="middle"><td align="center" id="Div_RadioObject">
+								<OBJECT id=winMediaPlayerID codeBase=http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715
+									width=450 height=310 type=application/x-oleobject standby="Loading Microsoft Windows Media Player components..."
+									classid=CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6 name=winMediaPlayer >
+									<PARAM NAME="URL" VALUE="radio.php?mode=asx&id=59&num=0">
+									<PARAM NAME="rate" VALUE="1">
+									<PARAM NAME="balance" VALUE="0">
+									<PARAM NAME="currentPosition" VALUE="0">
+									<PARAM NAME="defaultFrame" VALUE="0">
+									<PARAM NAME="playCount" VALUE="1">
+									<PARAM NAME="CursorType" VALUE="-1">
+									<PARAM NAME="autoStart" VALUE="1">
+									<PARAM NAME="currentMarker" VALUE="0">
+									<PARAM NAME="invokeURLs" VALUE="-1">
+									<PARAM NAME="volume" VALUE="100">
+									<PARAM NAME="mute" VALUE="0">
+									<PARAM NAME="stretchToFit" VALUE="-1">
+									<PARAM NAME="windowlessVideo" VALUE="0">
+									<PARAM NAME="enabled" VALUE="1">
+									<PARAM NAME="fullScreen" VALUE="0">
+									<PARAM NAME="enableErrorDialogs" VALUE="0">
+									<PARAM NAME="ShowStatusBar" VALUE="1">
+									<embed type="application/x-mplayer2" id="winMediaPlayerID" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/"
+										src="radio.php?mode=asx&id=59&num=0"
+										name=MediaPlayerTV
+										width="420"
+										height="320"
+										AutoSize="1"
+										AutoStart="1"
+										ClickToPlay="1"
+										DisplaySize="1"
+										EnableContextMenu="1"
+										EnableFullScreenControls="1"
+										EnableTracker="1"
+										Mute="0"
+										PlayCount="1"
+										ShowControls="1"
+										ShowAudioControls="1"
+										ShowDisplay="0"
+										ShowGotoBar="0"
+										ShowPositionControls="1"
+										ShowStatusBar="1"
+										ShowTracker="1">
+									</embed>
+								</OBJECT>
+						</td></tr>
+						</table>
+
+							  <table width="518" border="0" cellspacing="0" cellpadding="2" bgcolor="#FFFFFF">
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td width="22" align="left" valign="top"><img src="./templates/ModelSkin/images/tree1.gif" border="0" ALT="" hspace="0" vspace="0"></td>
+		                              <td align="left" valign="top" style="padding-top: 5px;" class="sTitle">Số 42: Ngôi nhà hồng</a></td>
+<!--
+									  <td align="right">
+									  		<a href="#" onclick="javascript: show_code_forum(1000, 'Số 42: Ngôi nhà hồng', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.jpg" border="0"></a>
+									  		<a href="#" onclick="javascript: show_code_blog(1000, 'Số 42: Ngôi nhà hồng', 'http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=0', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+									  </td>
+-->
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                        <tr>
+		                          <td align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		                            <tr>
+		                              <td id="TD_URL" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr><td colspan="3" bgcolor="#CECECE" height="1"></td></tr>
+		                                <tr height="28">
+		                                  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left"><a class="sSubTitleBold" href="#" onclick="javascript: changeRadio('http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=0', 'A_Radio_0'); return false;"><span id="A_Radio_0">Giới thiệu </span></a></td>
+										  <td align="right" style="padding-top: 2px;">
+										  		<a href="radio.php?mode=download&id=59&num=0" title="Download Giới thiệu " target="_blank"><img src="./templates/ModelSkin/images/icon_download.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_forum(0, 'Giới thiệu ', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=0'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_blog(0, 'Giới thiệu ', 'http://radio.vuontinhnhan.net/Radio_NoCopyingAllowed/Radio_Vol_39_01Sep07/VTNR39_P1_Intro.mp3', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=0'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+										  </td>
+		                                </tr>
+										<tr height="1">
+										  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"></td><td colspan="2" bgcolor="#CECECE"></td></tr>
+		                                <tr height="28">
+		                                  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left"><a class="sSubTitle" href="#" onclick="javascript: changeRadio('http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=2', 'A_Radio_2'); return false;"><span id="A_Radio_2">Ngôi nhà hồng </span></a></td>
+										  <td align="right" style="padding-top: 2px;">
+										  		<a href="radio.php?mode=download&id=59&num=2" title="Download Ngôi nhà hồng " target="_blank"><img src="./templates/ModelSkin/images/icon_download.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_forum(2, 'Ngôi nhà hồng ', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=2'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_blog(2, 'Ngôi nhà hồng ', 'http://radio.vuontinhnhan.net/Radio_NoCopyingAllowed/Radio_Vol_42_15Oct07/VTNR42_P1_Intro.mp3', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=2'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+										  </td>
+		                                </tr>
+										<tr height="1">
+										  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"></td><td colspan="2" bgcolor="#CECECE"></td></tr>
+		                                <tr height="28">
+		                                  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left"><a class="sSubTitle" href="#" onclick="javascript: changeRadio('http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=4', 'A_Radio_4'); return false;"><span id="A_Radio_4">Bản tin VTN </span></a></td>
+										  <td align="right" style="padding-top: 2px;">
+										  		<a href="radio.php?mode=download&id=59&num=4" title="Download Bản tin VTN " target="_blank"><img src="./templates/ModelSkin/images/icon_download.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_forum(4, 'Bản tin VTN ', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=4'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_blog(4, 'Bản tin VTN ', 'http://radio.vuontinhnhan.net/Radio_NoCopyingAllowed/Radio_Vol_42_15Oct07/VTNR42_P2_BanTinVTN.mp3', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=4'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+										  </td>
+		                                </tr>
+										<tr height="1">
+										  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"></td><td colspan="2" bgcolor="#CECECE"></td></tr>
+		                                <tr height="28">
+		                                  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left"><a class="sSubTitle" href="#" onclick="javascript: changeRadio('http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=6', 'A_Radio_6'); return false;"><span id="A_Radio_6">Văn học VTN </span></a></td>
+										  <td align="right" style="padding-top: 2px;">
+										  		<a href="radio.php?mode=download&id=59&num=6" title="Download Văn học VTN " target="_blank"><img src="./templates/ModelSkin/images/icon_download.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_forum(6, 'Văn học VTN ', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=6'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_blog(6, 'Văn học VTN ', 'http://radio.vuontinhnhan.net/Radio_NoCopyingAllowed/Radio_Vol_42_15Oct07/VTNR42_P3_VanHocVTN.mp3', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=6'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+										  </td>
+		                                </tr>
+										<tr height="1">
+										  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"></td><td colspan="2" bgcolor="#CECECE"></td></tr>
+		                                <tr height="28">
+		                                  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left"><a class="sSubTitle" href="#" onclick="javascript: changeRadio('http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=8', 'A_Radio_8'); return false;"><span id="A_Radio_8">Thông điệp yêu thương </span></a></td>
+										  <td align="right" style="padding-top: 2px;">
+										  		<a href="radio.php?mode=download&id=59&num=8" title="Download Thông điệp yêu thương " target="_blank"><img src="./templates/ModelSkin/images/icon_download.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_forum(8, 'Thông điệp yêu thương ', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=8'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_blog(8, 'Thông điệp yêu thương ', 'http://radio.vuontinhnhan.net/Radio_NoCopyingAllowed/Radio_Vol_42_15Oct07/VTNR42_P4_ThongDiepYeuThuong.mp3', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=8'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+										  </td>
+		                                </tr>
+										<tr height="1">
+										  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"></td><td colspan="2" bgcolor="#CECECE"></td></tr>
+		                                <tr height="28">
+		                                  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"><img src="./templates/ModelSkin/images/icon_menuleft.jpg" width="31" height="7" vspace="5"></td>
+		                                  <td align="left"><a class="sSubTitle" href="#" onclick="javascript: changeRadio('http://radio.vuontinhnhan.net/radio.php?mode=asx&id=59&num=10', 'A_Radio_10'); return false;"><span id="A_Radio_10">VTN và Bạn </span></a></td>
+										  <td align="right" style="padding-top: 2px;">
+										  		<a href="radio.php?mode=download&id=59&num=10" title="Download VTN và Bạn " target="_blank"><img src="./templates/ModelSkin/images/icon_download.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_forum(10, 'VTN và Bạn ', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=10'); return false;" title="Chèn vào diễn đàn" target="_blank"><img src="./templates/ModelSkin/images/icon_forum.gif" border="0"></a>
+										  		<a href="#" onclick="javascript: show_code_blog(10, 'VTN và Bạn ', 'http://radio.vuontinhnhan.net/Radio_NoCopyingAllowed/Radio_Vol_42_15Oct07/VTNR42_P5_VTNvaBan.mp3', 'http://radio.vuontinhnhan.net/radio.php?cid=1&id=59&num=10'); return false;" title="Chèn vào blog" target="_blank"><img src="./templates/ModelSkin/images/icon_blog.gif" border="0"></a>
+										  </td>
+		                                </tr>
+										<tr height="1">
+										  <td width="35" background="./templates/ModelSkin/images/line-leftmanu.jpg"></td><td colspan="2" bgcolor="#CECECE"></td></tr>
+		                              </table></td>
+		                            </tr>
+		                          </table></td>
+		                        </tr>
+		                      </table>
+
+							  <div id="Div_Blog" style="display: none; width: 518px;">
+							  <table width="518" border="0" cellspacing="0" cellpadding="1" bgcolor="#fbead9">
+							  <tr><td height="20" align="left" class="mainText"><br>&nbsp; <span style="font-family: Tahoma, Arial, Verdana; font-size: 9pt; font-weight: bold; color: #990000; text-decoration: none;">Copy và chèn đoạn code bên dưới vào blog của bạn</span> (Chọn chế độ "View HTML Source"):</td></tr>
+							  <tr><td>&nbsp;</td></tr>
+							  <tr><td align="left" class="mainText"><div id="Div_BlogTitle" style="padding-left: 20px; font-family: Tahoma, Arial, Verdana; font-size: 8pt; font-weight: bold; color: blue; text-decoration: none;">&nbsp;</div></td></tr>
+							  <tr><td align="center" class="mainText"><textarea name="BlogCode" id="BlogCode" cols="50" rows="4" style="width: 480px;"></textarea></td></tr>
+							  </table>
+							  <br>
+							  </div>
+
+							  <div id="Div_Forum" style="display: none; width: 518px;">
+							  <table width="518" border="0" cellspacing="0" cellpadding="1" bgcolor="#fbead9">
+							  <tr><td height="20" align="left" class="mainText"><br>&nbsp; <span style="font-family: Tahoma, Arial, Verdana; font-size: 9pt; font-weight: bold; color: #990000; text-decoration: none;">Copy và chèn đoạn code bên dưới vào forum:</span></td></tr>
+							  <tr><td>&nbsp;</td></tr>
+							  <tr><td align="left" class="mainText"><div id="Div_ForumTitle" style="padding-left: 20px; font-family: Tahoma, Arial, Verdana; font-size: 8pt; font-weight: bold; color: blue; text-decoration: none;">&nbsp;</div></td></tr>
+							  <tr><td align="center" class="mainText"><textarea name="ForumCode" id="ForumCode" cols="50" rows="4" style="width: 480px;"></textarea></td></tr>
+							  </table>
+							  <br>
+							  </div>
+					</td>
+                    <td width="8" valign="top" background="./templates/ModelSkin/images/radio_15.jpg">&nbsp;</td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><IMG SRC="./templates/ModelSkin/images/radio_16.jpg" WIDTH=539 HEIGHT=10 ALT=""></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td align="left" valign="top"><table width="539"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="center"><IMG SRC="./templates/ModelSkin/images/radio_19.jpg" WIDTH=538 HEIGHT=7 ALT=""></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="7" valign="top" background="./templates/ModelSkin/images/radio_20.jpg"></td>
+                      <td align="center" valign="top" background="./templates/ModelSkin/images/radio_21.jpg">
+						  <table width="97%"  border="0" cellpadding="3" cellspacing="0">
+	                        <tr>
+	                          <td align="left" valign="top" class="mainText">
+
+									<div align="center">&nbsp; ..:: <strong>Tổng điểm bình chọn: 8.8/10</strong> ::.. &nbsp;</div>
+									<br><div align="justify"><div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: rgb(153,0,0); LINE-HEIGHT: 25pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Những người thực hiện:</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(242,167,6); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Chủ nhiệm: Trường Giang</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(139,69,19); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Biên tập và dàn dựng: Minh Nhật, Thiên Văn, Anh Dy<br />
+		</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(0,100,0); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Chỉ đạo nghệ thuật: Thanh An, Huy Dũng, Việt Hoàng</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(47,79,79); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Phát thanh viên: Minh Nguyên, Duy Phúc, Long Tuấn</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(0,0,128); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">DJ: Kelvin Thanh</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(75,0,130); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Cùng đội ngũ kỹ thuật viên VTN Radio online thực hiện với sự hỗ trợ của phòng thu.</span></div><br />
+
+<hr size="1" />
+<br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Để nghe radio được liên tục không ngắt quãng, khuyến khích các bạn dùng đường truyền tốc độ cao (ADSL, Cable...). Nếu bạn dùng Dial up, vui lòng chờ trong giây lát để chương trình tải về, khi tải về xong, chương trình sẽ tự động phát.</span></div><br />
+
+<hr size="1" />
+<br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(128,0,128); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Chân thành có lẽ là gia vị tuyệt vời nhất của tình yêu và tình yêu chỉ có thể đơm hoa kết trái khi nó được vun trồng lên từ tận sâu thẳm đáy lòng. Tuy nhiên, đôi khi ta lại không dám hoặc không tiện nói lên cảm xúc của mình vì một lý do nào đó. Nếu bạn thật sự có những điều khó nói không biết chia sẻ cùng ai thì hãy đến với chúng tôi qua hộp thư thoại:</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(128,0,128); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">+ Gọi từ TPHCM: 802 1177<br />
+		+ Gọi từ các tỉnh khác: 08 802 1177<br />
+		+ Gọi từ nước ngoài: +848 802 1177</span></div><br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(255,165,0); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Ngoài ra, các bạn có thể gửi thông điệp yêu thương bằng Yahoo Voice Mail qua nick: 
+		<span style="FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: rgb(255,0,0); FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">VTNradio</span></span> <a href="ymsgr:sendIM?VTNRadio">
+		<img onmouseover="nereidFade(this,60,10,10)" title="Online Status" onmouseout="nereidFade(this,100,10,10)" src="http://opi.yahoo.com/online?u=VTNRadio&amp;m=g&amp;t=0" border="0" /> 
+		<img title="Gửi Thông Điệp Yêu Thương bằng Yahoo Messenger!" src="http://opi.yahoo.com/online?u=VTNRadio&amp;m=g&amp;t=3&amp;l=us" border="0" /></a></div><br />
+<br />
+
+
+<div>
+	<span style="FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: rgb(0,0,205); LINE-HEIGHT: 10pt; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; TEXT-DECORATION: none">Lưu ý, khi gọi vào hộp thư thoại, bạn nên giữ không gian yên lặng để cho chất lượng thu âm giọng nói của bạn được cao hơn và những Thông Điệp Yêu Thương của bạn được truyền tải rõ nét hơn.</span></div></div><br>
+
+							  </td>
+	                        </tr>
+	                      </table>
+					  </td>
+                      <td width="8" valign="top" background="./templates/ModelSkin/images/radio_22.jpg"></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><IMG SRC="./templates/ModelSkin/images/radio_25.jpg" WIDTH=530 HEIGHT=7 ALT=""></td>
+              </tr>
+            </table></td>
+          </tr>
+
+		  <tr><td align="left"><br><br><font class="comment_b">..:: Thính giả bình luận ::..</font><br><br></td></tr>
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Tôi chỉ tình cờ truy cập chương trình này nhưng tôi thật bất ngờ vì chương trình được đầu tư rất công phu nhưng không đơn điệu và phù hợp với suy nghĩ của giới trẻ hiện nay, những lời tâm sự của độc giả tâm sự cùng chương trình làm tôi cũng giật mình bởi sao giống với hoàn cảnh của tôi đến thế, dường như họ cũng đang sống với một cuộc đời giống tôi. Tôi xin chân thành cảm ơn chuong trình đã là nhịp cầu nối để những tâm hồn cô đơn như tôi có chỗ dừng chân. Xin kính chúc chương trình ngày càng có nhiều độc giả tìm đến và gắn bó lâu dài.<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 8/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 03/04/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Lê Thị Thương
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Thủ Đức -tp HCm
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Truyện hay quá, không chỉ ở giọng đọc truyền cảm mà nội dung cũng khá hấp dẫn. Có ai biết bài nhạc đầu chương trình (hòa tấu) là bài gì không, nghe quen lắm mà chẳng biết tên, giúp mình với, mình cũng hay làm chương trình này nọ cho cơ quan lắm, mong các bạn chỉ giúp mình!<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 10/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 08/03/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> tandjmixer1
+								
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Nhe Radio như làm cho tình yêu thương của lòng ta trỗi dậy và dâng trào cảm xúc. Như 1 điều gì đó đang gọi tình yêu trong tận đáy lòng. Hãy lắng nghe tiếng gọi của con tim khi nghe VTNRadio các bạn nhé!<br />
+<br />
+Hình như nghe giọng của Phát thanh viên này giống như WebMaser Khang Việt bên Bvn thì phải. Giọng ngọt ngào và dâng trào cảm xúc. Càng nói mình lại muốn càng khóc nhiều hơn. Hu hu...<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 10/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 02/03/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Khang Minh
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Khu Phố 3 Phường Hiệp Phú Quận 9 TPHCM
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Chương trình hay, và ý nghĩa lắm!<br />
+<br />
+Cảm ơn Vườn rất nhiều!<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 8/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 01/03/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Lê Quang
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Tp.HCM
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Cảm ơn Ban Biên tập rất nhiều. Không chỉ mỗi chủ đề &quot;ngôi nhà hồng&quot; cho mình cảm xúc mà tất cả các chủ đề khác điều hay, từ cách biên tập cho đến từng giọng đọc của phát thanh viên điều có sự cố gắng rất nhiều. Mỗi lần nghe là mỗi lần mình thấy xúc động. Sao lại có những điều hay đến thế!<br />
+<br />
+Sự công phu chỉnh chu trong từng tiếc mục đều rất tuyệt vời! Cám ơn và thân chúc tất cả Ban Biên tập lẫn các phát thanh viên, một năm mới AN KHANG - THỊNH VƯỢNG và VẠN SỰ NHƯ Ý!<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 10/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 11/02/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> nguyễn phúc
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Thành phố Huế
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Câu chuyện tình yêu 2 nơi sao giống câu chuyện của tui ghê... Không biết đến khi nào chúng tôi mới được sống cùng nhau?!<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 8/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 16/01/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Minh Khang
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> HCM
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Sao không có số tiếp theo vậy? Mình rất muốn nghe số tiếp theo. Mong lần sau cũng cuốn hút mọi người như vậy. Chúc chương trình sẽ mãi thành công!<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 7/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 08/01/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> vanhoang
+								
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">VTN có sự đầu tư rất công phu, thông điệp yêu thương nghe sao mà tâm trạng quá, nhất là bài &quot;còn thương rau đắng mọc sau hè&quot;. Hic hic, hồi nhỏ chuyên gia ngâm bài này mà lâu lắm rồi không nghen. Hôm nay nghe lại...<br />
+VTN có thể kéo dài thêm cho Radio được không? Thời lượng hơi hạn chế.<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 04/01/2008
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> bò đen
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> trong vỏ ốc
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Chương trình hay quá. Nghe mà tâm hồn như đồng cảm với chương trình. Chúc chương trình luôn có nhiều bài hay cho cộng đồng!<br />
+<br />
+Merry Christmas!<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 10/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 22/12/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Nam
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Huế
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Cũng như mọi người, tôi lần đầu tiên ghé thăm và cũng có cảm nhận như họ: Rất tốt.<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 25/11/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> vanoanh
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Bắc Ninh
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Bo rất thích chương trình này, và đặc biệt là giọng của anh Minh Nguyên. Thích ơi là thích, nhưng buồn là chưa bao giờ thấy anh Minh Nguyên ở ngoài.<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 25/11/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Bo
+								
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Chắc chả ai tìm được ngôi nhà hồng phải ko VTN, hay chúng ta đã tìm thấy rồi mà chúng ta không biết, câu chuyện này đơn giản nhưng thật ý nghĩa mà ít ai hiểu hết được. Giọng đọc của anh phát thanh viên hay quá!<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 23/11/2007
+								<img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"> viny
+								
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Đây là lần đầu tiên tui ghé thăm trang web. Tui thấy rất hài lòng về nội dung của trang web.Tui thích nghe nhạc trên web nè.<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 08/11/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> phạm thành duy
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Dai hoc cong nghiep thanh pho Ho Chi Minh
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Anh Phúc đọc truyện hay cực. Đoạn độc thoại nhật ký anh như nhập vai thật sự, thổn thức, nức nở...<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 29/10/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> chieuxua
+								
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Hix, lần đầu tiên nghe chương trình radio, bài &quot;Ngôi nhà hồng&quot; hay tuyệt, mà giọng đọc của phát thanh viên còn tuyệt hơn ^^.<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 9/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 20/10/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> phuongsolewa
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> tphcm
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#eaece8">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_1"><div align="justify">Nghe từ buổi đầu  thế mà giờ mới comment nè... tại hạ xin lỗi nha.<br />
+<br />
+Mùa Hallowen đến... ma hình như bị nhiều, sập cầu Cần Thơ, câu chuyện cũng bị chết vì nhân vật nè, người cũng chia tay nhiều nè, và... Ngôi nhà ấy ở cả 3 nơi mình ngụ thì  khó tìm thấy lắm và mất từ Adam và Êva rồi. <br />
+<br />
+Nhưng ở đây, nó tôn vinh lên một giá trị, là tinh thần của con người luôn mơ ước và luôn tìm một cuộc sống tốt đẹp để hoàn thiện mình hơn... muốn mình là chính mình, mọi người đều nhìn nhận và yêu thương mình như thở sơ khai của vũ trụ... hòa đồng một thế giới.<br />
+<br />
+Dù Nhà ma đi nữa, ở chương trình này mình rất thích và yêu mến phần thông điệp yêu thương... Một ai đó hiểu được mình là khó rồi, lại hiểu và cảm thông cho số phận mình nữa thì rất là quý. Đôi khi trong cuộc sống đời thường những người thân hay yêu mến của ta (gia đình, bạn bè) có đôi lúc họ nhận ra ta là ai trong cái lớp vỏ bọc nhưng họ không nói ra, họ để ta tự nhiên hơn với mọi người và có lẽ là tôn trọng ta nên họ luôn bảo vệ ta trước mọi việc nguy hại đến ta cả thân xác lẫn tinh thần. Mình thầm cám ơn họ vì có lẽ mình cũng trong hòan cảnh ấy...<br />
+<br />
+Mình thích nhạc chọn cho chương trình này, nó mênh mang, da diết, trữ tình gây nhiều cảm xúc hơn những chương trình khác. Người nghe dể cảm nhận hơn và với bản thân mình thích hơn... Nghe cái này đến 2 lần cơ.<br />
+<br />
+Cảm ơn mọi người và Ban biên tập nhiều.<br><br></div></td></tr>
+						<tr><td class="comment_info_1" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 8/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 17/10/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> Thông thiên
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Nhân gian...thiên đàng...địa ngục
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top"><table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#99CC00">
+              <tr>
+                <td align="left" valign="top" bgcolor="#ffffff">
+					<table width="100%" cellpadding="1" cellspacing="0" border="0" class="mainText">
+						<tr><td class="comment_2"><div align="justify">Chương trình có sự đầu tư công phu, rất ấn tượng. Thật sự chinh phục tôi. Còn câu chuyện &quot;Ngôi nhà màu hồng&quot; có ý nghĩa sâu xa và theo tôi có lẽ chỉ những ai thật sự quan tâm mới hiểu được thông điệp của nó.<br><br></div></td></tr>
+						<tr><td class="comment_info_2" align="right" bgcolor="#d0dbc8">
+								Điểm bình chọn: 7/10 &nbsp; 
+								<img src="./templates/ModelSkin/images/new.gif" title="Ngày đăng"> 16/10/2007
+								<a href="mailto:"><img src="./templates/ModelSkin/images/email.gif" border="0" title="Tên"></a> quả sung
+								 &nbsp; <img src="./templates/ModelSkin/images/home.gif" border="0" title="Nơi ở"> Trên cây sung
+						</td></tr>
+					</table>
+				</td>
+              </tr>
+            </table></td>
+          </tr>
+
+		  <tr><td>&nbsp;</td></tr>
+          <tr>
+            <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="538" height="405" align="center" valign="top" background="./templates/ModelSkin/images/radio_31.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center">
+						<br>
+						<table width="90%" cellspacing="0" cellpadding="1" border="0">
+						<tr><td class="comment_b" colspan="2" align="left"><img src="./templates/ModelSkin/images/icon-ykien.jpg" border="0" ALT=""> <span class="comment_b">Ý kiến của bạn:</span></td></tr>
+						<tr><td colspan="2" class="comment" align="left"><font class="date">Để đáp ứng nhu cầu giải trí đa dạng của tất cả các bạn, Vườn Tình Nhân luôn hoan nghênh sự cộng tác, nhận xét, góp ý của bạn để chương trình ngày một hoàn thiện hơn, cũng như động viên đội ngũ thực hiện tiếp tục phát triển chương trình.<br><br></font></td></tr>
+						</table>
+
+						<div id="DivErrorMsg" style="color: #ff0000; font-weight: bold;"></div>
+						<script language="JavaScript1.2" src="class/vietuni8.js" type='text/javascript'></script>
+						<table id="TblCommentForm" width="90%" cellspacing="0" cellpadding="1" border="0">
+						<form method="POST" action="radio.php?cid=1&id=59&start=0" onSubmit="javascript: return ajax_post_comment(this);">
+						<input type="hidden" name="mode" value="ajax_postcomment">
+						<input type="hidden" name="post_sid" value="">
+						<tr style="display: "><td colspan="2" class="comment" valign="top" align="center"><strong>Bạn đánh giá 42 &quot;Ngôi nhà hồng&quot; này bao nhiêu điểm? <font color="#FF0000">*</font></strong>&nbsp;</td></tr>
+						<tr style="display: " height="30" valign="top"><td colspan="2" class="comment" align="center"><input class="myform2" type="radio" name="vote_marks" value="1">1 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="2">2 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="3">3 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="4">4 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="5">5 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="6">6 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="7">7 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="8">8 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="9">9 &nbsp; <input class="myform2" type="radio" name="vote_marks" value="10">10 &nbsp; </td></tr>
+<!--						<tr style="display: "><td colspan="2">&nbsp;</td></tr> -->
+
+						<tr><td class="comment" align="left">Tên: <font color="#FF0000"><b>*</b></font> </td><td align="left"><input class="myform" onkeyup="initTyper(this);" type="text" name="name" value="" size="40"></td></tr>
+						<tr><td class="comment" align="left">Email: </td><td align="left"><input class="myform" type="text" name="email" value="" size="40"></td></tr>
+						<tr><td class="comment" align="left">Nơi ở: </td><td align="left"><input class="myform" type="text" name="location" value="" size="40"></td></tr>
+						<tr><td class="comment" valign="top" nowrap align="left">Nội dung: <font color="#FF0000"><b>*</b></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td align="left"><textarea class="myform" onkeyup="initTyper(this);" name="content" cols="56" rows="6"></textarea></td></tr>
+						<tr><td class="comment">&nbsp;</td><td class="comment" align="left">
+								<input class="myform2" type="radio" name="switcher" value="TELEX" onfocus="setTypingMode(1)">Telex
+								<input class="myform2" type="radio" name="switcher" value="VNI" onfocus="setTypingMode(2)" checked>VNI
+								<input class="myform2" type="radio" name="switcher" value="VIQR" onfocus="setTypingMode(3)">VIQR
+								<input class="myform2" type="radio" name="switcher" value="ALL" onfocus="setTypingMode(4)">Tùy ý (cả 3 kiểu)
+								<input class="myform2" type="radio" name="switcher" value="OFF" onfocus="setTypingMode(0)">Tắt bộ gõ
+						</td></tr>
+						<tr><td>&nbsp;</td><td class="comment" align="center">
+								<font color="#800000"><b>Vui lòng gõ tiếng Việt với đầy đủ dấu (mã Unicode). </b></font><br><br>
+								<input class="mybutton" type="submit" name="submit" value="     Gửi     "></td></tr>
+						</form>
+						</table>
+
+						<table width="90%" cellspacing="0" cellpadding="1" border="0">
+						<tr><td align="left" height="40" valign="bottom"><font class="mainText"><strong>Lưu ý:</strong> Ý kiến của bạn sẽ được đăng chậm nhất sau 72 giờ.<br>Ban Quản trị Vườn Tình Nhân giữ quyền xóa những bài viết không phù hợp.</font></td></tr>
+						</table>
+						</div>
+
+						<script language="javascript">
+							function ajax_post_comment(the_form){
+								var the_url			= the_form.action;
+								var post_vars		= ajaxGetFormVars(the_form, "", "");
+								ajaxPostURL(the_url, "_js_eval", post_vars);
+								return false;
+							}
+						</script>
+					</td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+
+
+		  <tr><td>&nbsp;</td></tr>
+          <tr>
+            <td align="left" valign="top"><table width="539"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="center"><IMG SRC="./templates/ModelSkin/images/radio_19.jpg" WIDTH=538 HEIGHT=7 ALT=""></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td width="7" valign="top" background="./templates/ModelSkin/images/radio_20.jpg"></td>
+                      <td align="center" valign="top" background="./templates/ModelSkin/images/radio_21.jpg">
+						<br>
+						<table width="90%" cellspacing="0" cellpadding="1" border="0">
+						<tr><td class="comment_b" colspan="2" align="left"><img src="./templates/ModelSkin/images/icon-ykien.jpg" border="0" ALT=""> <span class="comment_b">Gửi cho bạn bè:</span></td></tr>
+						</table>
+
+						<br>
+						<div id="DivErrorMsgTellfriend" style="color: #ff0000; font-weight: bold;"></div>
+						<table id="TblTellfriendForm" width="90%" cellspacing="0" cellpadding="1" border="0">
+						<form name="TELLFRIENDFORM" method="POST" action="radio.php?cid=1&id=59&start=0" onSubmit="javascript: return ajax_tellfriend(this);">
+						<input type="hidden" name="mode" value="ajax_tellfriend">
+						<input type="hidden" name="post_sid" value="">
+						<tr>
+							<td class="comment" align="left">Tên của bạn: <font color="#FF0000"><b>*</b></font></td>
+							<td class="comment" align="left">
+								<input class="myform" onkeyup="initTyper(this);" type="text" name="your_name" value="" size="20">
+								&nbsp; &nbsp; &nbsp; <font color="#FF0000"><b>*</b></font> Email: <input class="myform" onkeyup="initTyper(this);" type="text" name="your_email" value="" size="20">
+							</td>
+						</tr>
+						<tr>
+							<td class="comment" align="left">Tên bạn bè: <font color="#FF0000"><b>*</b></font></td>
+							<td class="comment" align="left">
+								<input class="myform" onkeyup="initTyper(this);" type="text" name="friend_name" value="" size="20">
+								&nbsp; &nbsp; &nbsp;  <font color="#FF0000"><b>*</b></font> Email: <input class="myform" onkeyup="initTyper(this);" type="text" name="friend_email" value="" size="20">
+							</td>
+						</tr>
+						<tr><td class="comment" valign="top" nowrap align="left">Lời nhắn: </td><td align="left"><textarea class="myform" onkeyup="initTyper(this);" name="message" cols="56" rows="6"></textarea></td></tr>
+						<tr><td height="30" colspan="2" class="comment" align="center"><input class="mybutton" type="submit" name="smSubmit2" value="     Gửi     "></td></tr>
+						</form>
+						</table>
+						</div>
+
+						<script language="javascript">
+							function ajax_tellfriend(the_form){
+								var the_url			= the_form.action;
+								var post_vars		= ajaxGetFormVars(the_form, "", "");
+								ajaxPostURL(the_url, "_js_eval", post_vars);
+								return false;
+							}
+
+							function show_tellfriend_form(){
+								document.getElementById('TblTellfriendForm').style.display		= '';
+								document.getElementById('DivErrorMsgTellfriend').innerHTML		= '';
+
+								var the_form	= document.TELLFRIENDFORM;
+								the_form.friend_name.value	= '';
+								the_form.friend_email.value	= '';
+							}
+						</script>
+
+					  </td>
+                      <td width="8" valign="top" background="./templates/ModelSkin/images/radio_22.jpg"></td>
+                    </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><IMG SRC="./templates/ModelSkin/images/radio_25.jpg" WIDTH=530 HEIGHT=7 ALT=""></td>
+              </tr>
+            </table></td>
+          </tr>
+
+          <tr>
+            <td align="left" valign="top">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="768"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="126" height="56" align="center" background="./templates/ModelSkin/images/radio_32a.jpg"><a class="SiteName" href="http://www.VTNRadio.Net">VTNRadio</a><br /><a class="Menufooter" href="http://www.VTNRadio.Com">.com</a> &nbsp;&nbsp; <a class="Menufooter" href="http://www.VTNRadio.Net">.net</a></td>
+		<td width="94"><img src="./templates/ModelSkin/images/radio_32b.jpg" width="94" height=56></td>
+        <td width="548" bgcolor="#636563"><table width="100%" border="0" cellpadding="2" cellspacing="0">
+          <tr>
+            <td align="center">
+				<table border="0" cellspacing="0" cellpadding="0" width="99%">
+					<tr><td align="center" class="Menufooter">
+						<a href="http://www.vuontinhnhan.net/help.php?id=41" class="Menufooter" target="blank"><b>Giới thiệu</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.vuontinhnhan.net/help.php?id=27" class="Menufooter" target="blank"><b>Tài trợ</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.vuontinhnhan.net/help.php?id=26" class="Menufooter" target="blank"><b>Quảng cáo</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.vuontinhnhan.net/forum/showthread.php?t=6515" class="Menufooter" target="blank"><b>Điều lệ</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.vuontinhnhan.net/forum/newthread.php?do=staff" class="Menufooter" target="blank"><b>Gia nhập VTN Staff</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.vuontinhnhan.net/forum/sendmessage.php" class="Menufooter" target="blank"><b>Liên lạc</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="http://www.vuontinhnhan.net/forum/forumdisplay.php?f=24" target="blank" class="Menufooter"><b>Trợ giúp</b></a></td></tr>
+					<tr><td align="center" class="Menufooter">
+						Bản quyền của VuonTinhNhan.Net, 2004 - 2010
+						<br>Mọi chi tiết xin vui lòng liên hệ <a href="mailto:radio@vuontinhnhan.net" class="Menufooter">radio@vuontinhnhan.net</a></td></tr>
+				</table>
+			</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+
+<script language="javascript">
+	//ShowHideURL(59);
+</script>
+
+</body>
+</html>

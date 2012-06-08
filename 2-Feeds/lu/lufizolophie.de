@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<title>Welcome to the Premium Registration Escrow Service</title>
+
+
+
+
+
+	<link href = "/sales/media/css/default.css" type = "text/css" rel = "stylesheet" />
+
+
+
+	<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css' />
+
+	<link href = "/sales/media/css/frontPage.css" type = "text/css" rel = "stylesheet"> 
+
+
+</head>
+<body>
+
+
+
+	<div id = "pushDown">
+	</div>
+
+	<div id = "centerContentWrapper">
+
+		<script language="Javascript">
+
+	function setPasswordBoxAsterisks() {
+		document.getElementById('showPasswordFieldText').style.display='none';
+		document.getElementById('showPasswordAsterisks').style.display='block';
+		document.getElementById('loginBoxPasswordField').focus();
+	}
+
+	function setPasswordBoxClearText() {
+		if(document.getElementById('loginBoxPasswordField').value=='') {
+			document.getElementById('showPasswordFieldText').style.display='block';
+			document.getElementById('showPasswordAsterisks').style.display='none';
+		}
+	}
+
+	function MM_findObj(n, d) { //v4.01
+		var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+			d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		if(!x && d.getElementById) x=d.getElementById(n); return x;
+	}
+
+	function MM_swapImage() { //v3.0
+		var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+			if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+	}
+
+</script>
+
+<div id = "menuBarBackground">
+
+	
+
+		<div id = "menuBarLoginBackground">
+
+			<table border = "0" width = "100%" height = "100%">
+			<tr>
+			<td width = "10">
+			<td width = "160">
+				
+					<form method = "POST" action = "/sales/login">
+				
+
+				<a href = "/">
+				<img src = "/sales/media/images/premiumLogo.png" />
+				</a>
+			<td width = "15">
+			<td width = "260">
+				<input type = "text" name = "username" style = "color:#888;background-color: #f0eeef;border: none;width: 230px;" value = "E-mail" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" />
+
+			<td width = "260">
+
+				
+
+				<span id="showPasswordFieldText" style = "margin-left: 6px;">
+					<input type = "text" name = "password" style = "color:#888;background: #f0eeef;border: none;width: 230px;" value = "Password" onFocus = "setPasswordBoxAsterisks()" />
+				</span>
+
+				<span id="showPasswordAsterisks" style="display:none;margin-left: 6px;">
+					<input type = "password" name = "password" id = "loginBoxPasswordField" style = "color:#888;background: #f0eeef;border: none;width: 230px;" value = "" onBlur = "setPasswordBoxClearText()" />
+				</span>
+
+			<td>
+				<input type="image" id = "loginButton" name = "loginButton" src="/sales/media/images/loginButtonUp.png"
+					onMouseDown 	= "MM_swapImage('loginButton', '', '/sales/media/images/loginButtonDown.png', 1)"
+					onMouseUp 	= "MM_swapImage('loginButton', '', '/sales/media/images/loginButtonUp.png', 1)"
+					alt="Submit button">
+
+
+			</table>
+			</form>
+
+
+		</div>
+
+	
+
+</div>
+
+
+		<div id = "frontPageBoxBackground">
+
+			<div class = "landingPageMainHeader">
+				<h1>lufizolophie.de is for sale</h1>
+
+				
+					<h2>Make an offer today</h2>
+				
+
+				<br />
+				<img src = "/sales/media/images/landingPage/mainImage.png" />
+
+			</div>
+
+			<div id = "peopleToTheRight">
+			</div>
+
+		</div id = "frontPageBoxBackground">
+
+		<div id = "twoColumnBoxWrapperTop">
+		</div>
+		<div id = "twoColumnBoxWrapper">
+
+			<div id = "leftTextBox">
+
+				<br />
+
+				<table border = "0" width = "400">
+					<tr>
+					<td width = "12">
+					<td valign = "top" width = "30">
+					<td>
+					<h1>Domain name for sale</h1>
+					<h2>Easy and secure negotiation process</h2>
+
+					<p>
+					You have reached this page because the current owner of the domain name lufizolophie.de has listed the domain name for sale. This sales service is provided by Premium Registrations Sweden AB and the domain name is owned by one of our clients. Create an account here if you want to make an offer for the domain name. The negotiation process is easy and secure.
+					</p>
+				</table>
+
+
+				<br />
+				<center>
+				<img src = "/sales/media/images/frontPage/line.png" />
+				</center>
+				<br />
+
+				<table border = "0" width = "400">
+					<tr>
+					<td width = "12">
+					<td valign = "top" width = "30">
+					<td>
+
+					<p>
+					Learn more about domain names and the escrow process <a href = "/sales/help">here</a>
+					</p>
+
+				</table>
+
+				<br />
+				<br />
+
+			</div>
+
+			<div id = "overviewCenterLine" style = "height: 150px;background-image:url(/sales/media/images/accountCreated/centerLine.png);">
+			</div>
+
+			<div id = "rightTextBox">
+
+				<br />
+
+				<table border = "0" width = "100%" height = "270">
+					<tr>
+					<td>
+						<center>
+
+						
+
+							
+								<a href = "/sales/newuser/bid/lufizolophie.de">
+							
+
+							<img src = "/sales/media/images/landingPage/makeOfferButtonUp.png"
+								id = "makeOfferButton" name = "makeOfferButton"
+								onMouseDown 	= "MM_swapImage('makeOfferButton', '', '/sales/media/images/landingPage/makeOfferButtonDown.png', 1)"
+								onMouseUp 	= "MM_swapImage('makeOfferButton', '', '/sales/media/images/landingPage/makeOfferButtonUp.png', 1)"
+								alt = "Make offer" />
+
+							</a>
+						
+
+						
+
+						
+
+
+						</center>
+				</table>
+			</div>
+
+		</div>
+
+		<div id = "twoColumnBoxWrapperFooter" onClick = "location.href='mailto:escrow@premiumregistrations.com';" style="cursor:pointer;">
+		</div>
+
+	</div id = "centerContentWrapper">
+
+
+
+</body>
+</html>
+
+

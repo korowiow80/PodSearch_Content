@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+  <link rel="stylesheet" href="layout.css" type="text/css" />
+
+  <style type="text/css">
+  html, body, td {
+    background-color:#242021;
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	margin: 0;
+	  padding: 0;
+  }
+
+  h1 {
+    padding: 0 0 8px 0;
+    margin: 0 3px 0 0 !important;
+	  color: #fff;
+	  font-size: 16px;
+	  font-weight: normal;
+  }
+  h1 a {
+	  color: #fff;
+	  text-decoration: none;
+  }
+  h1 a:visited {
+	  color: #fff;
+	  text-decoration: none;
+  }
+  h1 a:hover {
+	  color: #fff;
+	  text-decoration: none;
+  }
+  h1 a:active {
+	  color: #fff;
+	  text-decoration: none;
+  }
+
+  h2 {
+    padding: 0;
+    margin: 0 4px 0 0 !important;
+	  color: #fff !important;
+	  font-size: 12px !important;
+	  font-weight: normal;
+  }
+  h2 a {
+	  color: #fff !important;
+	  text-decoration: none;
+  }
+  h2 a:visited {
+	  color: #fff !important;
+	  text-decoration: none;
+  }
+  h2 a:hover {
+	  color: #fff !important;
+	  text-decoration: underline;
+  }
+  h3 {
+    padding: 0;
+    margin: 0;
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #D0B393;
+	  font-weight: normal;
+  }
+
+  #outerwrapper {
+	  /* because "min-width" is not supported by IE, these pages use a script from PVII */
+	  min-width: 960px;
+	  /* this is to "minimize" an IE bug related to background painting, but because it creates a gap below the footer, the same declaration is also added to #footer */
+	  width: 100%;
+	  /* faux-column technique, this is the left one */
+	  /* background:#fff url(left.gif) repeat-y left; */
+  }
+  #wrapper {
+	  /* faux-column technique, this is the right one */
+	  /*background:url(right.gif) repeat-y right; */
+  }
+
+  a:link {
+	  text-decoration: none;
+  }
+  a:visited {
+	  text-decoration: none;
+  }
+  a:hover {
+	  text-decoration: underline;
+  }
+  a:active {
+	  text-decoration: none;
+  }
+
+  #mainheader {
+	  /* this is to "give layout" to the element and fix some peek-a-boo bug in  IE (v6 sp2) */
+	  width:100%;
+	  /* the above declaration creates an horizontal scroll bar in IE, this is to get rid of it */
+	  margin: 0 -1px;
+	  padding: 0 0 0 0;
+  }
+
+  #mainnav {
+	  width: 160px;
+  }
+  #mainnav ul {
+		padding:0;
+		margin:0;
+		list-style-image:none;
+		list-style-type:none;
+		list-style-position:inside;
+  }
+  #mainnav li {
+		margin:1px 0;
+  }
+	#mainnav hr {
+		width:100px;
+		color:#999;
+		height:1px;
+		padding-top:5px;
+		margin-bottom:10px;
+		border-right:none;
+		border-top:none;
+		border-left:none;
+	}
+
+  #mainform {
+	  margin-top: 20px;
+  }
+
+  #mainfooter {
+	  /* see #outer_wrapper  */
+	  width:100%;
+	  /* this is to clear #container */
+	  clear:both;
+	  color: #666666;
+  }
+  #mainfooter a {
+	  color: #666666;
+  	text-decoration: underline;
+  }
+  #mainfooter a:visited {
+	  color: #666666;
+  	text-decoration: underline;
+  }
+  #mainfooter a:hover {
+	  color: #666666;
+  	text-decoration: underline;
+  }
+
+  .mainNavLink {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #D0B393;
+  }
+  a.mainNavLink:hover {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #D0B393;
+  }
+
+  .mainLink {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #999999;
+  }
+  a.mainLink:hover {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #e2e2e2;
+  }
+  .subLink {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #D0B393;
+  }
+  
+  .title1
+  {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #999999;
+  }
+  .title2
+  {
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #D0B393;
+  }
+
+	.textbox
+	{
+		background-color: #333;
+		color:#fff;
+		border: 1px #fff solid;
+	}  
+	</style>
+
+  <style type="text/css">
+  #letterMenu {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: none;
+  	margin-right: -4px;
+  }
+  #letterMenu td {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+	  width: 24px;
+	  text-align: center;
+	  height: 22px;
+  }
+  #letterMenu .spacer {
+    width: 2px;
+  }
+  #letterMenu a {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  #letterMenu a:visited {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  #letterMenu a:hover {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #e2e2e2;
+	  font-size: 14px;
+  	text-decoration: underline;
+  }
+
+  #subLetterMenu {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #fff;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  #subLetterMenu a {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #fff;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  #subLetterMenu a:visited {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #fff;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  #subLetterMenu a:hover {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #e2e2e2;
+	  font-size: 14px;
+  	text-decoration: underline;
+  }
+
+  .letterLink {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  a.letterLink {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  a.letterLink:visited {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: none;
+  }
+  a.letterLink:hover {
+  	font-family : Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: normal;
+	  color: #999999;
+	  font-size: 14px;
+  	text-decoration: underline;
+  }
+
+  .registerTableHolder
+  {
+    overflow: visible;
+  }
+  .registerTable
+  {
+    margin: -1px 0 0 -1px;
+    border: solid 1px #D0B393;
+    overflow: visible;
+  }
+  .registerTable tr
+  {
+    height: 88px;
+    row-height: 88px;
+  }
+  .registerTable td
+  {
+    border: none;
+    padding: 0 2px 0 2px;
+  }
+	</style>
+
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/funcs.js"></script>
+  <script type="text/javascript" src="js/minmax.js"></script>
+	
+  <title>isendyouthis</title>
+</head>
+
+<body>
+<div id="outerwrapper">
+<div id="wrapper">
+  <div id="mainheader">
+    <div style="padding: 8px 0 0 44px">
+      <a href="http://www.isendyouthis.com/" target="_top"><img src="images/isyt-logo-100.gif" alt="isendyouthis.com" height="67" width="100" border="0" /></a>
+    </div>
+  </div>
+
+  <div id="maincontent">
+    <div id="mainnav">
+      <div align="right" style="position:relative; padding-right: 20px; text-align: right;">
+			  <h1>artists</h1>
+
+        <div style="margin-top:10px;">        
+					<hr align="right" style="width:100px; color: #999; height:1px; padding-top:5px; margin-bottom:10px; border-right:none;" />
+					<ul>
+          <li><a class="mainNavLink" href="http://www.isendyouthis.com/slideshow.aspx" target="_top">art for sale</a></li>
+          <li><a class="mainNavLink" href="http://www.isendyouthis.com/exhibitions.aspx" target="_top">art exhibitions</a></li>
+          <li><a class="mainNavLink" href="http://www.isendyouthis.com/artists.aspx" target="_top">artists</a></li>
+          <li><a class="mainNavLink" href="http://www.isendyouthis.com/galleries.aspx" target="_top">art galleries</a></li>
+          <li><a class="mainNavLink" href="http://www.isendyouthis.com/" target="_top">home</a></li>
+          </ul>
+					<hr align="right" style="width:100px; color: #999; height:1px; padding-top:5px; margin-bottom:10px; border-right:none;" />
+        </div>
+			</div>
+    </div>
+
+    <div id="mainform">
+			<form method="post">
+				<div id="registerContainer" style="position:relative; margin-top:20px; height:600px; min-height:600px; width:620px; overflow:visible;">
+					<h2>An error has occured (500)</h2>
+					<p>We seem to be experiencing some technical difficulties right now.</p>
+					<p>the team has been notified and we'll investigate the problem. If it still looks like it's broken after a while please contact our support team at
+						<span style="display:inline;">sup</span><span style="display:none;">uhX</span><span style="display:inline;">p&#111;rt</span><span style="display:none;">hI</span><span style="display:inline;">&#64;ise</span><span style="display:none;">oe</span><span style="display:inline;">ndy&#111;</span><span style="display:none;">iwE</span><span style="display:inline;">ut</span><span style="display:inline;">his</span><span style="display:inline;">&#46;&#99;&#111;&#109;</span>.</p>
+			  </div>
+			</form>
+			<div style="height: 0; clear: both">&nbsp;</div>
+		</div>
+	</div>
+
+	<div style="height: 0; clear: both">&nbsp;</div>
+
+	<div id="mainfooter" align="center">
+   <p>&nbsp;</p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

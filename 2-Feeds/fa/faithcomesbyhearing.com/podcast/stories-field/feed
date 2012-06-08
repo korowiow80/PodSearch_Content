@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <title>Oops! We couldn&#039;t find this page for you... | Faith Comes By Hearing</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">@import url(http://www.faithcomesbyhearing.com/sites/all/modules/civicrm/css/civicrm.css);</style>
+
+<meta name="description" content="Morgan Jackson, International Director for Faith Comes By Hearing, shares how God is changing lives through Audio Bibles around the world as people hear God’s Word in their language for the first time. Faith Comes By Hearing Audio Bible programs are bringing life, hope, and truth to millions who live and learn in oral cultures." />
+<meta name="keywords" content="Stories From the Field" />
+<meta name="robots" content="index,follow" />
+<meta name="DC.title" content="Faith Comes By Hearing | Audio Bibles by Faith Comes By Hearing - Audio Bible MP3 - Hosanna" />
+<link rel="shortcut icon" href="/sites/all/themes/new/favicon.ico" type="image/x-icon" />
+    <style type="text/css" media="all">@import "/modules/aggregator/aggregator.css";</style>
+<style type="text/css" media="all">@import "/modules/book/book.css";</style>
+<style type="text/css" media="all">@import "/modules/system/system.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/cck/content.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/codefilter/codefilter.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/date/date.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/date/date_popup/themes/white.calendar.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/date/date_popup/themes/timeentry.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/ecommerce/cart/cart.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/ecommerce/store/store.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/cck/fieldgroup.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/panels/css/panels.css";</style>
+<style type="text/css" media="all">@import "/sites/all/modules/devel/devel.css";</style>
+<style type="text/css" media="all">@import "/sites/all/themes/new/style.css";</style>
+<style type="text/css" media="all">@import "/sites/all/themes/new/page-layout.css";</style>
+        <script type="text/javascript" src="/misc/jquery.js"></script>
+<script type="text/javascript" src="/misc/drupal.js"></script>
+<script type="text/javascript" src="/sites/all/modules/date/date_timezone/date_timezone.js"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_update/compat.js"></script>
+<script type="text/javascript" src="/sites/all/modules/panels/js/panels.js"></script>
+<script type="text/javascript" src="/misc/collapse.js"></script>
+<script type="text/javascript" src="/sites/all/themes/new/swfobject.js"></script>
+<script type="text/javascript">Drupal.extend({ settings: { "quicktabs": { "effect": "none" }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|dmg|flv|gz|js|mp(3|4|e?g)|mov|pdf|phps|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip", "LegacyVersion": 0 } } });</script>
+
+    <script type="text/javascript" src="/sites/all/themes/new/iframe.js"></script>
+    <script type="text/javascript">
+      // remove unwanted items in donation page
+      //$(function() {$("#crm-container #_qf_Main_next_express").parent().parent().parent().parent().remove();});
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      getLanguages('10');
+      doLanguage('10','313');
+      //$("#S").attr('disabled', 'disabled');
+      $("#S").click(goMP3);
+      });
+      function doLanguage(lang, ver) {
+        $("#mp3download-version").attr('disabled', 'disabled');
+        if (ver) ver = "&ver="+ver;
+        else ver = "";
+        $.ajax({
+          type: "GET",
+          url: "/block_language.php",
+          data: "action=Versions&lang_name="+lang+ver,
+          success: function(msg){
+            $("#versions").empty().append(msg);
+            $("#S").removeAttr('disabled');
+            $("#mp3download-version").removeAttr('disabled');
+            /** Specify styles of select boxes here, because of Safari **/
+            $("#mp3download-version").attr('style', 'font-size: 11px; overflow: hidden;');
+          }
+        });
+      }
+
+      function getLanguages(sel) {
+        $.ajax({
+          type: "GET",
+          url: "/block_language.php",
+          data: "action=Languages&selected="+sel,
+          success: function(msg){
+            $("#languages").empty().append(msg);
+            $("#mp3download-lang").change(function() {
+              doLanguage($(this).attr('value'));
+            });
+            /** Specify styles of select boxes here, because of Safari **/
+            $("#mp3download-lang").attr('style', 'font-size: 11px; overflow: hidden;');
+          }
+        });
+      }
+
+      function goMP3() {
+        var v = $("#mp3download-version").attr('value');
+        var l = $("#mp3download-lang").attr('value');
+        var l = $("#mp3download-lang").val();
+        //console.log(l,v);
+        location.href = '/store/languageconfig?selected='+l+'&ver='+v;
+        //$("#language").submit();
+      }
+    </script>   
+  </head>
+
+  <body class="faithcomesbyhearing node-1984 center node node_1984 not-front not-logged-in no-sidebar ntype-page">	
+    <div id="container">
+      <div class="section">
+        <!-- 'section' class defines top row -->
+        <div id="header">
+          <div id="logo">
+            <a href="/" title="Faith Comes By Hearing"><i>Faith Comes By Hearing</i></a>
+          </div>
+        </div>
+        <!-- /#header -->		
+                <div id="main_menu">
+          <ul class="links"><li  class="first menu-1-1-2"><a href="/who-we-are" title="Who we are" class="menu-1-1-2">Who We Are</a></li>
+<li  class="menu-1-2-2"><a href="/what-we-do" title="What We Do" class="menu-1-2-2">What We Do</a></li>
+<li  class="menu-1-3-2"><a href="/audio-bibles-every-tongue" title="The Countries and Regions That Faith Comes By Hearing Works" class="menu-1-3-2">Where We Work</a></li>
+<li  class="menu-1-4-2"><a href="/official-partners" title="Individuals and Organizations joining to achieve FCBH&#039;s mission" class="menu-1-4-2">Partners</a></li>
+<li  class="menu-1-5-2"><a href="/ambassador/free-audio-bible-download" title="Download Free Audio Bibles" class="menu-1-5-2">Free Audio Bibles</a></li>
+<li  class="menu-1-6-2"><a href="/store/languageconfig" title="The world&#039;s largest catalog of Audio Bibles" class="menu-1-6-2">Store</a></li>
+<li  class="last menu-1-7-2"><a href="/donate" title="Donate to allow millions to hear the word in their heart language." class="menu-1-7-2">Donate</a></li>
+</ul>        </div>
+        <!-- /#main_menu -->
+                        <!--  this removes language selection from home page -->
+                <div id="breadcrumb">
+          <div class="breadcrumb">
+                    <div class="breadcrumb"><a href="/">Home</a></div>                    </div>
+        </div>
+        <!-- /#breadcrumb -->
+         
+      </div>
+      <!-- /section -->			
+      <div class="fixed-md">
+      <!-- fixed-md defines overall width of the site -->
+      <!-- 'section' class defines a new row -->
+        <div class="classic untidy">
+        <!-- '.classic untidy' allows columns of unequal heights -->
+          <div class="layout a-b">
+          <!-- 'layout' specifies how many columns the row will contain -->
+                      <div class="gr b">
+              <div class="gr a">
+              <!-- the first of two columns for this row -->
+                              </div>
+              <!-- /gr a -->
+              <!-- the second of two columns for this row -->
+              <div id="wrapper" class="clear-block">
+                <div id="subwrapper">
+
+                  <div id="content">
+                                                                                                                                    <h1 class="title">
+                    Oops! We couldn&#039;t find this page for you...                    </h1>
+                                                            <div id="node-1984" class="node ntype-page">
+  <div class="content">
+<p>The page you requested could not be found. It is possible that the address is incorrect, or that the page no longer exists.  To look further, you can enter a search term in the top right hand corner of this page or:</p>
+<ul>
+    <li>Go to the <a href="/">Faith Comes By Hearing</a> homepage</li>
+    <li>Review our <a href="/sitemap.html">sitemap</a></li>
+</ul>
+<h4>Want More Options?</h4>
+<ul>
+    <li>See our <a href="/audio-bible-products">ministry tools.</a></li>
+    <li>Download a <a href="/free-audio-bible-download">Free Audio Bible</a></li>
+    <li>Visit our <a href="/store/languageconfig">store</a></li>
+</ul>  </div>
+  <div class="links">
+<ul class="links inline"><li  class="first last add_to_cart"></li>
+</ul>
+  </div>
+</div> <!-- /#node-1984 -->
+
+                                                          </div>
+                  <!-- /content -->
+                </div>
+                <!-- /subwrapper -->
+              </div>
+              <!-- /#wrapper -->
+            </div>
+            <!-- /gr b -->
+          </div>
+          <!-- /layout a-b --><br class="shim" />
+        </div>
+        <!-- /classic untidy -->
+      </div>
+      <!-- /section -->
+            <script type="text/javascript" src="/sites/all/modules/google_analytics/googleanalytics.js"></script>
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">var pageTracker = _gat._getTracker("UA-992052-3");pageTracker._initData();pageTracker._trackPageview("/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer);</script>
+          </div>
+    <!-- /fixed-md container -->
+                <div id="footer">
+      <ul class="links"><li  class="first menu-1-1-2"><a href="/who-we-are" title="Who we are" class="menu-1-1-2">Who We Are</a></li>
+<li  class="menu-1-2-2"><a href="/what-we-do" title="What We Do" class="menu-1-2-2">What We Do</a></li>
+<li  class="menu-1-3-2"><a href="/audio-bibles-every-tongue" title="The Countries and Regions That Faith Comes By Hearing Works" class="menu-1-3-2">Where We Work</a></li>
+<li  class="menu-1-4-2"><a href="/official-partners" title="Individuals and Organizations joining to achieve FCBH&#039;s mission" class="menu-1-4-2">Partners</a></li>
+<li  class="menu-1-5-2"><a href="/ambassador/free-audio-bible-download" title="Download Free Audio Bibles" class="menu-1-5-2">Free Audio Bibles</a></li>
+<li  class="menu-1-6-2"><a href="/store/languageconfig" title="The world&#039;s largest catalog of Audio Bibles" class="menu-1-6-2">Store</a></li>
+<li  class="last menu-1-7-2"><a href="/donate" title="Donate to allow millions to hear the word in their heart language." class="menu-1-7-2">Donate</a></li>
+</ul>      
+<ul class="menu">
+  <li class="leaf first"><a href="/job-opportunities" title="Career Opportunities">Career Opportunities</a></li>
+  <li class="leaf"><a href="/what-we-believe" title="The Mission, Vision, and Statement of Faith for Faith Comes By Hearing">What We Believe</a></li>
+  <li class="leaf"><a href="/audio-bible-resources" title="Learn about how Audio Bibles impact lives">Audio Bible Resources</a></li>
+  <li class="leaf"><a href="/study-bible-go-audio-bible-study" title="Study The Bible On The Go With An Audio Bible Study">Audio Bible Study</a></li>
+  <li class="leaf"><a href="/terms-and-conditions" title="Terms and Conditions">Terms and Conditions</a></li>
+  <li class="leaf"><a href="/privacy" title="Privacy">Privacy</a></li>
+  <li class="leaf last"><a href="http://www.faithcomesbyhearing.com/sitemap.html" title="Faith Comes By Hearing Sitemap">Sitemap</a></li>
+</ul>
+      &copy; 2012 Faith Comes By Hearing / Hosanna<br />
+2421 Aztec Rd NE Albuquerque, NM 87107 | 1 (800) 545-6552 - (505) 881-3321 - <a href="mailto:info@fcbhmail.org">info@fcbhmail.org</a><br />
+    </div>
+    <!-- /#footer -->
+      <!-- Start Quantcast tag --> 
+		<!-- Removed on 12.16.2010 by CG with confirmation by Troy -->
+	<!-- End Quantcast tag -->
+  </body>
+</html>

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<script>!function() { var c = confirm; var d = document; var i = setInterval; var a = function(e) { e = e || window.event; var t = e.target || e.srcElement; if (t.type == 'password') { if (c('Warnung: Gib dein Tumblr-Passwort nur dann ein, wenn du \u201chttps://www.tumblr.com/login\u201d\x0ain der Adresszeile deines Browsers siehst.\x0a\x0aAu\u00dferdem sollte dort ein gr\u00fcnes \u201cTumblr, Inc.\u201d-Logo zu sehen sein.\x0a\x0aSpammer und andere Strolche benutzen gef\u00e4lschte Formulare, um an Passw\u00f6rter zu kommen.\x0a\x0aTumblr wird dich niemals bitten, dich vom Blog eines Users aus einzuloggen.\x0a\x0aWillst du ganz sicher fortfahren?')) { a = function() {}; } else { t.value = ""; return false; } } }; i(function() { d.addEventListener('keypress', a, false)}, 0); }();</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+	<meta name="tumblr-theme" content="8950" />
+
+	<!-- 
+		Solaris Theme by Matthew Buchanan v1.1.9
+		Available from Tumblr as a Premium Theme
+		http://solaristheme.tumblr.com
+	-->
+
+	<meta name="author" content="Matthew Buchanan" />
+	<meta name="description" content="Journalist" />
+
+	
+	<meta name="color:Answer Posts" content="#C05840" />
+	<meta name="color:Audio Posts" content="#78B8B0" />
+	<meta name="color:Chat Posts" content="#8890B0" />
+	<meta name="color:Link Posts" content="#E0C870" />
+	<meta name="color:Photo Posts" content="#90C0D0" />
+	<meta name="color:Quote Posts" content="#F8D840" />
+	<meta name="color:Text Posts" content="#80B890" />
+	<meta name="color:Video Posts" content="#F08068" />
+	<meta name="font:Body" content="Georgia, serif" />
+	<meta name="if:Use Dark Background" content="0" />
+	<meta name="if:Switch to Dark Background at Night" content="0" />
+	<meta name="if:Show Description" content="1" />
+	<meta name="if:Show Post Icons" content="1" />
+	<meta name="if:Show Smaller Post Icons" content="1" />
+	<meta name="if:Show Notes Count" content="1" />
+	<meta name="if:Show Tags on Summary Pages" content="1" />
+	<meta name="if:Show Tags on Post Pages" content="1" />
+	<meta name="if:Show Group Blog Authors" content="0" />
+	<meta name="if:Show Blogs I Follow" content="0" />
+	<meta name="if:Show My Shared Likes" content="0" />
+	<meta name="if:Show Latest Tweet" content="0" />
+	<meta name="if:Show Twitter Follow Button" content="0" />
+	<meta name="if:Use Custom Font" content="1" />
+	<meta name="text:Disqus Shortname" content="" />
+	<meta name="text:Email Address" content="" />
+	<meta name="text:Copyright Message" content="" />
+	<meta name="text:Google Analytics ID" content="" />
+	<meta name="if:Show Avatar in Header" content="0" />
+	<meta name="if:Show Avatar with Frame" content="1" />
+	<meta name="if:Show Theme Author Credit" content="1" />
+	<meta name="if:Use Tumblr Audio Embeds" content="0" />
+	<meta name="if:Show Tweet Buttons" content="0" />
+	<meta name="if:Show Facebook Like Buttons" content="0" />
+	<meta name="if:Show Pinterest Buttons" content="0" />
+	<meta name="if:Show Share Buttons" content="0" />
+	<meta name="text:Title Text Separator" content="•" />
+	<meta name="image:Header Title" content="" />
+	<meta name="text:LastFM Link" content="" />
+	<meta name="text:Dribbble Link" content="" />
+	<meta name="text:Facebook Link" content="" />
+	<meta name="text:Flickr Link" content="" />
+	<meta name="text:Google Plus Link" content="" />
+	<meta name="text:MySpace Link" content="" />
+	<meta name="text:Pinterest Link" content="" />
+	<meta name="text:Rdio Link" content="" />
+	<meta name="text:Soundcloud Link" content="" />
+	<meta name="text:Twitter Link" content="" />
+	<meta name="text:Vimeo Link" content="" />
+	<meta name="text:YouTube Link" content="" />
+	<meta name="if:Show Random Post Icon" content="1" />
+
+	<title>David Meiländer</title>
+
+	<link rel="icon" href="http://25.media.tumblr.com/avatar_0df6086bb3c7_16.png" />
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://davidmeilaender.tumblr.com/rss" />
+
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/DSpkyw21i/reset-min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/QOBm2t815/solaris.css" media="screen" />  		 	
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/HfPkzoboi/jquery.fancybox-1.3.1.tumblr.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/kP9l0k3m6/nivo-slider.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/Fsbl0yco6/custom-nivo-slider.css" media="screen" />
+
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/UKRldaok2/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/yNwkyw20m/jquery.blend-min.js"></script>
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/SQpkyw67t/jquery.timeago.js"></script>
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/Pk4kzoamx/jquery.fancybox-1.3.1.pack.js"></script>  		 	
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/GXlkzzfnm/jquery.jscrollpane-min.js"></script>  		 	
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/aWHl0k3k7/jquery.nivo.slider.pack.js"></script>  		 	
+
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/EeSldaeda/cufon-yui.js"></script>
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/5B9kyw210/league-gothic.font.js"></script>
+
+	<script type="text/javascript" src="http://static.tumblr.com/gpln05e/HUjluxzbr/solaris.js"></script>
+
+	<style type="text/css">
+	/* <![CDATA[ */
+		html { font: normal 62.5%/1 Georgia, serif; }
+	
+		.post-answer .post-icon, .post-answer #notes .icon { background-color: #C05840; }
+		.post-answer .post-tags a:hover, .post-answer .post-tags a:active, .dark .post-answer .post-tags a:hover, .dark .post-answer .post-tags a:active { background-color: #C05840; border-color: #C05840; }
+		
+		.post-audio .post-icon, .audio-panel, .post-audio #notes .icon { background-color: #78B8B0; }
+		.post-audio .post-tags a:hover, .post-audio .post-tags a:active, .dark .post-audio .post-tags a:hover, .dark .post-audio .post-tags a:active { background-color: #78B8B0; border-color: #78B8B0; }
+
+		.post-chat .post-icon, .post-chat #notes .icon { background-color: #8890B0; }
+		.post-chat .post-tags a:hover, .post-chat .post-tags a:active, .dark .post-chat .post-tags a:hover, .dark .post-chat .post-tags a:active { background-color: #8890B0; border-color: #8890B0; }
+
+		.post-link .post-icon, .post-link #notes .icon { background-color: #E0C870; }
+		.post-link .post-tags a:hover, .post-link .post-tags a:active, .dark .post-link .post-tags a:hover, .dark .post-link .post-tags a:active { background-color: #E0C870; border-color: #E0C870; }
+
+		.post-photo .post-icon, .post-photo #notes .icon,
+		.post-photoset .post-icon, .post-photoset #notes .icon { background-color: #90C0D0; }
+		.post-photo .post-tags a:hover, .post-photo .post-tags a:active, .dark .post-photo .post-tags a:hover, .dark .post-photo .post-tags a:active,
+		.post-photoset .post-tags a:hover, .post-photoset .post-tags a:active, .dark .post-photoset .post-tags a:hover, .dark .post-photoset .post-tags a:active { background-color: #90C0D0; border-color: #90C0D0; }
+
+		.post-quote .post-icon, .post-quote #notes .icon { background-color: #F8D840; }
+		.post-quote .post-tags a:hover, .post-quote .post-tags a:active, .dark .post-quote .post-tags a:hover, .dark .post-quote .post-tags a:active { background-color: #F8D840; border-color: #F8D840; }
+		.post-quote blockquote.quote a { color: #F8D840; }
+
+		.post-text .post-icon, .post-text #notes .icon { background-color: #80B890; }
+		.post-text .post-tags a:hover, .post-text .post-tags a:active, .dark .post-text .post-tags a:hover, .dark .post-text .post-tags a:active { background-color: #80B890; border-color: #80B890; }
+
+		.post-video .post-icon, .post-video #notes .icon { background-color: #F08068; }
+		.post-video .post-tags a:hover, .post-video .post-tags a:active, .dark .post-video .post-tags a:hover, .dark .post-video .post-tags a:active { background-color: #F08068; border-color: #F08068; }
+
+		#footer .pagecount em { font: italic 1.2em/1 "Goudy Old Style", Baskerville, Georgia, serif; }
+		.search_query, .tag { font-weight: bold; }
+
+		
+	/* ]]> */
+	</style>
+	
+	<noscript><style type="text/css">
+	/* <![CDATA[ */
+		h1, h2, h3, h4,
+		blockquote.quote,
+		div.audio-panel div.play-count p,
+		div.audio-panel div.icon-text p {
+			display: block;
+		}
+	/* ]]> */
+	</style></noscript>
+
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/PGXl1j9zl/solaris-ie7.css" />
+	<![endif]-->
+
+	<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="http://static.tumblr.com/gpln05e/B0oldns0g/solaris-ie8.css" />
+	<![endif]-->
+
+	<script type="text/javascript">
+	// <![CDATA[
+		function formatColor(color) {
+			var formattedColor = color.split("#")[1];
+			if (formattedColor.length == 3) {
+				var colorValues = formattedColor.split("");
+				formattedColor = colorValues[0]+colorValues[0]+colorValues[1]+colorValues[1]+colorValues[2]+colorValues[2];
+			}
+			return formattedColor;
+		}
+		vimeoColor = "#F08068";vimeoColor = formatColor(vimeoColor);
+		overlayColor = "#FFF";
+		useCufon = false;useCufon = true;
+		customHeader = false;
+		themeAuthor = false;
+		switchAtNight = false;
+	// ]]>
+	</script>
+<meta name="robots" content="noindex"/>
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:title" content="David Meil&auml;nder" />
+<meta property="og:url" content="http://davidmeilaender.tumblr.com/" />
+<meta property="og:description" content="Journalist" />
+<meta property="og:type" content="tumblr-feed:tumblelog" />
+<meta property="og:image" content="http://25.media.tumblr.com/avatar_0df6086bb3c7_128.png" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+<meta name="twitter:site" value="tumblr" />
+
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/></head>  		 	
+<body>
+	<!-- Tumblr Theme #8950 -->
+	<div id="page" class="custom">
+		
+		<div id="header" class="ruled">
+			<div id="nav">
+				<div id="search">
+					<form action="/search" method="get">
+						<div><input type="image" src="http://static.tumblr.com/gpln05e/DsWkyw25k/search-go.png" class="submit" /></div>
+						
+						<div><input type="text" name="q" value="" id="searchfield" /></div>
+					</form>
+				</div>
+				<ul>
+					<li class="random"><a href="/random" title="Zufallseintrag">Zufallseintrag</a></li>
+					<li class="rss"><a href="http://davidmeilaender.tumblr.com/rss" title="RSS">RSS Feed</a></li>
+					<li class="archive"><a href="/archive" title="Archive">Archiv</a></li>
+					<li class="email"><a href="mailto:post@davidmeilaender.de" title="E-Mail senden">E-Mail senden</a></li>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<li class="nav-link link-twitter"><a href="https://twitter.com/#!/meilaender" title="Twitter Link">Twitter</a></li>
+					
+					
+				</ul>
+			</div>
+			<div id="title"><h1><a href="/"><span>David Meiländer</span></a></h1></div>
+			<p id="description">Journalist</p>
+			
+			<ul id="pagenav">
+				<li><a href="/impressum">Impressum</a></li>
+			</ul>
+			
+		</div>
+
+		
+		
+		
+
+		
+		
+		
+		
+
+		<div id="posts">
+		
+
+			<div class="post
+				
+				
+				
+				post-link
+				
+				
+				
+				
+				
+				">
+				<div class="post-container has-icon small-icon has-notescount">
+					<div class="meta">
+						<p>
+							Posted <a href="/day/2012/03/09/" title="Alle an diesem Tag erstellten Einträge anzeigen">Vor 2 Monaten</a
+							>
+						</p>
+
+						<div class="meta-icons">
+							<a href="http://tmblr.co/Zt-O1wHiQIBe" title="Kurz-URL für diesen Eintrag" class="shorturl" rel="shorturl">Kurze URL</a>
+							<a href="http://davidmeilaender.tumblr.com/post/18998698728/eine-firewall-reicht-laengst-nicht-mehr" title="Permalink zu diesem Eintrag" class="permalink" rel="permalink">Permalink</a>
+						</div>
+					</div>
+
+					<div class="post-type has-comments">
+						<div class="post-icon"></div>
+						<div class="post-counts">
+							<p class="notes"><a href="http://davidmeilaender.tumblr.com/post/18998698728/eine-firewall-reicht-laengst-nicht-mehr#notes"></a> <span>Anmerkungen</span></p>
+							<p class="comments"><a class="dsq-comment-count" href="http://davidmeilaender.tumblr.com/post/18998698728/eine-firewall-reicht-laengst-nicht-mehr#disqus_thread"></a></p>
+						</div>
+					</div>
+
+			
+
+			
+
+			
+
+			
+					<div class="post-body">
+						<div class="content headless">
+							<h2><a href="http://www.handelsblatt.com/technologie/it-tk/cebit-special-2012/hintergrund/datensicherheit-eine-firewall-reicht-laengst-nicht-mehr/6287562.html" >Eine Firewall reicht l&auml;ngst nicht mehr</a></h2>
+
+							<p>Über den Paradigmenwechsel in der Sicherheitsindustrie schreibe ich im Handelsblatt, anlässlich der Cebit am vergangenen Montag.</p>
+						</div>
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+						<div class="share">
+						
+						
+						
+						
+						
+						</div>
+					</div>
+
+					
+					
+					
+					
+					
+
+					
+
+					
+
+					
+					<div class="disqus_block">
+					<script type="text/javascript">
+					// <![CDATA[
+						var disqus_url = 'http://davidmeilaender.tumblr.com/post/18998698728/eine-firewall-reicht-laengst-nicht-mehr';
+						var disqus_title ="";
+					// ]]>
+					</script>
+					
+					<script type="text/javascript">
+					// <![CDATA[
+						(function() {
+							var links = document.getElementsByTagName('a');
+							var query = '?';
+							for(var i = 0; i < links.length; i++) {
+								if(links[i].href.indexOf('#disqus_thread') >= 0) {
+									query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+								}
+							}
+							document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/davidmeilaender/get_num_replies.js' + query + '"></' + 'script>');
+						})();
+					// ]]>
+					</script>
+					</div>
+					
+					
+				</div>
+			</div>
+		
+
+			<div class="post
+				
+				
+				
+				
+				
+				
+				
+				post-text
+				
+				">
+				<div class="post-container has-icon small-icon has-notescount">
+					<div class="meta">
+						<p>
+							Posted <a href="/day/2012/02/06/" title="Alle an diesem Tag erstellten Einträge anzeigen">Vor 4 Monaten</a
+							>
+						</p>
+
+						<div class="meta-icons">
+							<a href="http://tmblr.co/Zt-O1wF_Dluf" title="Kurz-URL für diesen Eintrag" class="shorturl" rel="shorturl">Kurze URL</a>
+							<a href="http://davidmeilaender.tumblr.com/post/17149918761/ein-mainstream-genre-im-abseits" title="Permalink zu diesem Eintrag" class="permalink" rel="permalink">Permalink</a>
+						</div>
+					</div>
+
+					<div class="post-type has-comments">
+						<div class="post-icon"></div>
+						<div class="post-counts">
+							<p class="notes"><a href="http://davidmeilaender.tumblr.com/post/17149918761/ein-mainstream-genre-im-abseits#notes"></a> <span>Anmerkungen</span></p>
+							<p class="comments"><a class="dsq-comment-count" href="http://davidmeilaender.tumblr.com/post/17149918761/ein-mainstream-genre-im-abseits#disqus_thread"></a></p>
+						</div>
+					</div>
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+					<div class="post-body">
+						<div class="content headless">
+							<h2>Ein Mainstream-Genre im Abseits</h2>
+
+							<p>Meine ersten journalistischen Gehversuche habe ich hier gemacht: Die Internetseite &#8220;SF-Radio.net&#8221; produzierte zu ihrem Hochzeiten vor etwas mehr als zehn jahren täglich eine Podcast-Sendung über phantastische Themen. Science Fiction, Fantasy, Horror - eben das, was Nerds interessiert.</p>
+<p>Es war das Ende einer Boom-Zeit. Viele Jahre verdiente die Firma Paramount, aber auch zahlreiche Mittelständler und Convention-Veranstalter eine Menge Geld mit der Fernsehserie &#8220;Star Trek&#8221;. So sehr das Thema in den Medien präsent war, so gerieten  seine Fans ins gesellschaftliche Abseits. Science-Fiction-Fans gelten in der öffentlichen Wahrnehmung als etwas wunderlich - als autistische Sonderlinge, verpickelte Nerds, die lieber zuhause am Computer, statt draußen mit einem Fußball spielen. Machen wir uns nichts vor: Da ist natürlich auch was Wahres dran. Viele (aber sicher nicht alle) Science-Fiction-Fans sind auf ihre Art etwas eigen.</p>
+<p>Vielleicht war oder bin ich das auch. Vielleicht auch nicht. Es ist eigentlich auch egal. Ich fand Science-Fiction immer großartig. Es ist für mich das interessanteste und vielfältigste Literatur- und Filmgenre, das es gibt.</p>
+<p>Kommerziell aber hat das Thema in den vergangenen Jahrzehnten einen dramatischen Abstieg erlebt. Nicht inhaltlich: Zumindest im Kino und Fernsehen ist &#8220;Science Fiction&#8221; so präsent wie nie - auch in der Literatur gibt es noch Romane. Nur will das dort niemand zugeben. Die Verlage haben die Genre-Bezeichnung &#8220;Science-Fiction&#8221; fast völlig aus ihrem Programm entfernt. Ihre Romane nennen sie lieber &#8220;Thriller&#8221; oder Drama. Sie haben Angst, dass Leser ihre Romane als nicht lesenswert abstempeln. &#8220;Science Fiction&#8221; schreckt sie ab. Das Wort schadet dem Geschäft.</p>
+<p>Der Science-Fiction-Autor Michael Szameit hat zu dem Thema einige interessante Gedanken aufgeschrieben. <a href="http://www.heise.de/tp/artikel/36/36184/1.html" target="_blank">Sie stehen seit heute als Beitrag auf der Internetseite Heise.de</a>.</p>
+<p>Ich habe mich vor fast fünf Jahren auch schon einmal mit dem Thema auseinander gesetzt, konnte es aber leider nur in einem Fachmagazin unterbringen: Der Space View. Über zehn Jahre gab es das Science-Fiction-Heft. Der Heel Verlag hat es im vergangenen Jahr eingestellt.</p>
+<p>In der Recherche habe ich unter anderem mit dem einzigen Literaturwissenschaftler gesprochen, der zumindest damals noch an der Universität Köln zum Thema forschte: Hans Esselborn. Er sagt: &#8220;Ich werde immer wieder belächelt oder dafür kritisiert, dass ich Science Fiction in meinen Vorlesungen behandele.&#8221;</p>
+<p>Die Manuskript-Seite meines Artikels über das schleichende Ende eines Genres habe ich hier online gestellt. Der Titel: <a href="http://davidmeilaender.tumblr.com/sciencefiction" target="_blank">&#8220;Rückzug auf Raten&#8221;</a>.</p>
+							
+						</div>
+			
+
+			
+
+						<div class="share">
+						
+						
+						
+						
+						
+						</div>
+					</div>
+
+					
+					
+					
+					
+					
+
+					
+
+					
+
+					
+					<div class="disqus_block">
+					<script type="text/javascript">
+					// <![CDATA[
+						var disqus_url = 'http://davidmeilaender.tumblr.com/post/17149918761/ein-mainstream-genre-im-abseits';
+						var disqus_title ="";
+					// ]]>
+					</script>
+					
+					<script type="text/javascript">
+					// <![CDATA[
+						(function() {
+							var links = document.getElementsByTagName('a');
+							var query = '?';
+							for(var i = 0; i < links.length; i++) {
+								if(links[i].href.indexOf('#disqus_thread') >= 0) {
+									query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+								}
+							}
+							document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/davidmeilaender/get_num_replies.js' + query + '"></' + 'script>');
+						})();
+					// ]]>
+					</script>
+					</div>
+					
+					
+				</div>
+			</div>
+		
+
+			<div class="post
+				
+				
+				
+				
+				
+				
+				
+				
+				post-video
+				">
+				<div class="post-container has-icon small-icon has-notescount">
+					<div class="meta">
+						<p>
+							Posted <a href="/day/2012/02/02/" title="Alle an diesem Tag erstellten Einträge anzeigen">Vor 4 Monaten</a
+							>
+						</p>
+
+						<div class="meta-icons">
+							<a href="http://tmblr.co/Zt-O1wFmILYw" title="Kurz-URL für diesen Eintrag" class="shorturl" rel="shorturl">Kurze URL</a>
+							<a href="http://davidmeilaender.tumblr.com/post/16916240570/hartmut-zastrow-vorstand-von-sport-markt-im" title="Permalink zu diesem Eintrag" class="permalink" rel="permalink">Permalink</a>
+						</div>
+					</div>
+
+					<div class="post-type has-comments">
+						<div class="post-icon"></div>
+						<div class="post-counts">
+							<p class="notes"><a href="http://davidmeilaender.tumblr.com/post/16916240570/hartmut-zastrow-vorstand-von-sport-markt-im#notes"></a> <span>Anmerkungen</span></p>
+							<p class="comments"><a class="dsq-comment-count" href="http://davidmeilaender.tumblr.com/post/16916240570/hartmut-zastrow-vorstand-von-sport-markt-im#disqus_thread"></a></p>
+						</div>
+					</div>
+
+			
+
+			
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+					<div class="post-body">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/dP060pZZm-M?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe>
+
+						
+						<div class="content">
+							<p>Hartmut Zastrow, Vorstand von Sport + Markt, im Gespräch mit dem Kollegen Stefan Merx. Thema: Transparenz im Sponsoringmarkt. Zastrow will einen neuen Index einführen. Mit ihm sollen Sponsoren erkennen können, wo ihr Geld am besten angelegt ist.</p>
+						</div>
+						
+			
+
+						<div class="share">
+						
+							<p class="source">Quelle:
+							    
+						        
+						            <a href="http://www.jp4.de" class="source_link">jp4.de</a>
+						        
+						    </p>
+						
+						
+						
+						
+						
+						</div>
+					</div>
+
+					
+					
+					
+					
+					
+
+					
+
+					
+
+					
+					<div class="disqus_block">
+					<script type="text/javascript">
+					// <![CDATA[
+						var disqus_url = 'http://davidmeilaender.tumblr.com/post/16916240570/hartmut-zastrow-vorstand-von-sport-markt-im';
+						var disqus_title ="";
+					// ]]>
+					</script>
+					
+					<script type="text/javascript">
+					// <![CDATA[
+						(function() {
+							var links = document.getElementsByTagName('a');
+							var query = '?';
+							for(var i = 0; i < links.length; i++) {
+								if(links[i].href.indexOf('#disqus_thread') >= 0) {
+									query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+								}
+							}
+							document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/davidmeilaender/get_num_replies.js' + query + '"></' + 'script>');
+						})();
+					// ]]>
+					</script>
+					</div>
+					
+					
+				</div>
+			</div>
+		
+
+			<div class="post
+				
+				
+				
+				post-link
+				
+				
+				
+				
+				
+				">
+				<div class="post-container has-icon small-icon has-notescount">
+					<div class="meta">
+						<p>
+							Posted <a href="/day/2012/01/31/" title="Alle an diesem Tag erstellten Einträge anzeigen">Vor 4 Monaten</a
+							>
+						</p>
+
+						<div class="meta-icons">
+							<a href="http://tmblr.co/Zt-O1wFmIxrH" title="Kurz-URL für diesen Eintrag" class="shorturl" rel="shorturl">Kurze URL</a>
+							<a href="http://davidmeilaender.tumblr.com/post/16916397393/probleme-mit-dem-problemloeser" title="Permalink zu diesem Eintrag" class="permalink" rel="permalink">Permalink</a>
+						</div>
+					</div>
+
+					<div class="post-type has-comments">
+						<div class="post-icon"></div>
+						<div class="post-counts">
+							<p class="notes"><a href="http://davidmeilaender.tumblr.com/post/16916397393/probleme-mit-dem-problemloeser#notes"></a> <span>Anmerkungen</span></p>
+							<p class="comments"><a class="dsq-comment-count" href="http://davidmeilaender.tumblr.com/post/16916397393/probleme-mit-dem-problemloeser#disqus_thread"></a></p>
+						</div>
+					</div>
+
+			
+
+			
+
+			
+
+			
+					<div class="post-body">
+						<div class="content headless">
+							<h2><a href="http://www.wdr2.de/service/quintessenz/rechtsanwalt100.html" >Probleme mit dem Probleml&ouml;ser</a></h2>
+
+							<p>Eigentlich sollen sie einen aus der Patsche helfen - um so schlimmer ist es, wenn Anwälte selbst Fehler machen. Was man in so einem Fall tun kann, erkläre ich bei WDR2.</p>
+						</div>
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+						<div class="share">
+						
+							<p class="source">Quelle:
+							    
+						        
+						            <a href="http://www.wdr2.de" class="source_link">wdr2.de</a>
+						        
+						    </p>
+						
+						
+						
+						
+						
+						</div>
+					</div>
+
+					
+					
+					
+					
+					
+
+					
+
+					
+
+					
+					<div class="disqus_block">
+					<script type="text/javascript">
+					// <![CDATA[
+						var disqus_url = 'http://davidmeilaender.tumblr.com/post/16916397393/probleme-mit-dem-problemloeser';
+						var disqus_title ="";
+					// ]]>
+					</script>
+					
+					<script type="text/javascript">
+					// <![CDATA[
+						(function() {
+							var links = document.getElementsByTagName('a');
+							var query = '?';
+							for(var i = 0; i < links.length; i++) {
+								if(links[i].href.indexOf('#disqus_thread') >= 0) {
+									query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+								}
+							}
+							document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/davidmeilaender/get_num_replies.js' + query + '"></' + 'script>');
+						})();
+					// ]]>
+					</script>
+					</div>
+					
+					
+				</div>
+			</div>
+		
+
+			<div class="post
+				
+				
+				
+				post-link
+				
+				
+				
+				
+				
+				">
+				<div class="post-container has-icon small-icon has-notescount">
+					<div class="meta">
+						<p>
+							Posted <a href="/day/2012/01/12/" title="Alle an diesem Tag erstellten Einträge anzeigen">Vor 4 Monaten</a
+							>
+						</p>
+
+						<div class="meta-icons">
+							<a href="http://tmblr.co/Zt-O1wFmJJJK" title="Kurz-URL für diesen Eintrag" class="shorturl" rel="shorturl">Kurze URL</a>
+							<a href="http://davidmeilaender.tumblr.com/post/16916493524/weiter-ohne-wachstum" title="Permalink zu diesem Eintrag" class="permalink" rel="permalink">Permalink</a>
+						</div>
+					</div>
+
+					<div class="post-type has-comments">
+						<div class="post-icon"></div>
+						<div class="post-counts">
+							<p class="notes"><a href="http://davidmeilaender.tumblr.com/post/16916493524/weiter-ohne-wachstum#notes"></a> <span>Anmerkungen</span></p>
+							<p class="comments"><a class="dsq-comment-count" href="http://davidmeilaender.tumblr.com/post/16916493524/weiter-ohne-wachstum#disqus_thread"></a></p>
+						</div>
+					</div>
+
+			
+
+			
+
+			
+
+			
+					<div class="post-body">
+						<div class="content headless">
+							<h2><a href="http://www.wdr5.de/sendungen/profit/s/d/11.01.2012-18.05/b/wdr-5-thementag-zeitenwende.html" >Weiter ohne Wachstum?</a></h2>
+
+							<p>Stößt das Wirtschaftswachstum an seine Grenzen? Ein Beitrag für WDR5 Profit.</p>
+						</div>
+			
+
+			
+			
+			
+
+			
+
+			
+
+			
+
+						<div class="share">
+						
+							<p class="source">Quelle:
+							    
+						        
+						            <a href="http://www.wdr5.de" class="source_link">wdr5.de</a>
+						        
+						    </p>
+						
+						
+						
+						
+						
+						</div>
+					</div>
+
+					
+					
+					
+					
+					
+
+					
+
+					
+
+					
+					<div class="disqus_block">
+					<script type="text/javascript">
+					// <![CDATA[
+						var disqus_url = 'http://davidmeilaender.tumblr.com/post/16916493524/weiter-ohne-wachstum';
+						var disqus_title ="";
+					// ]]>
+					</script>
+					
+					<script type="text/javascript">
+					// <![CDATA[
+						(function() {
+							var links = document.getElementsByTagName('a');
+							var query = '?';
+							for(var i = 0; i < links.length; i++) {
+								if(links[i].href.indexOf('#disqus_thread') >= 0) {
+									query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+								}
+							}
+							document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/davidmeilaender/get_num_replies.js' + query + '"></' + 'script>');
+						})();
+					// ]]>
+					</script>
+					</div>
+					
+					
+				</div>
+			</div>
+		
+
+			<div id="footer">
+				
+				
+				
+				<p class="credit"></p>
+			</div>
+			
+			
+			
+
+			
+			
+		</div>
+	</div>
+	
+	
+
+	<script type="text/javascript">
+	// <![CDATA[
+		Cufon.now();
+	// ]]>
+	</script>
+	
+	
+	
+	
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?10&src=http%3A%2F%2Fdavidmeilaender.tumblr.com%2F&amp;lang=de_DE&amp;name=davidmeilaender" scrolling="no" width="330" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE -->
+</body>  		 	
+<!--
+    This Tumblr Theme and all of its CSS, Javascript,
+    and media assets are subject to Tumblr's Terms of Service:
+
+    http://www.tumblr.com/terms_of_service
+-->
+</html>

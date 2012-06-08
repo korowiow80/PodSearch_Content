@@ -1,0 +1,589 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server"><!-- PageID 4087 - published by RedDot 9 - 9.0.0.27 - 32630 -->
+<!-- Foundation last modified : Friday, October 01, 2010 14:33 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="copyright" content="Copyright&copy; Kroll Ontrack Inc. All Rights Reserved." />
+<!--  These are conditional in cases like press releases that MAY supply these meta elements -->
+
+    <title>Data Recovery Podcasts</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    </asp:Literal>
+
+
+<link href="/styles/ko-styles.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/styles/util_styles.css" rel="stylesheet" type="text/css" media="all" />
+
+
+<script src="/scripts/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/scripts/jquery.hoverIntent.minified.js" type="text/javascript" charset="utf-8"></script>
+<!-- Shared script for common functions, this gets published using replication -->
+<script src="/scripts/shared.js" language="javascript" type="text/javascript"></script>
+<script src="/scripts/GAKroll2010.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript" src="/scripts/defaultenterbutton.js"></script>
+<script src="/scripts/MasterScript.js" language="javascript" type="text/javascript"></script>
+<!-- Script functions for LivePerson click to call functionality -->
+<script type="text/javascript" src="/scripts/mtagconfig.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+$(document).ready(function() { 
+ function megaHoverOver(){
+  $(this).find(".sub").stop().fadeTo('fast', 1).show();   
+  //Calculate width of all ul's
+  (function($) { 
+   jQuery.fn.calcSubWidth = function() {
+    rowWidth = 0;
+    //Calculate row
+    $(this).find("ul").each(function() {     
+     rowWidth += $(this).width(); 
+    }); 
+   };
+  })(jQuery);   
+  if ( $(this).find(".row").length > 0 ) { //If row exists...
+   var biggestRow = 0; 
+   //Calculate each row
+   $(this).find(".row").each(function() {          
+    $(this).calcSubWidth();
+    //Find biggest row
+    if(rowWidth > biggestRow) {
+     biggestRow = rowWidth;
+    }
+   });
+   //Set width
+   $(this).find(".sub").css({'width' :biggestRow});
+   $(this).find(".row:last").css({'margin':'0'});   
+  } else { //If row does not exist...   
+   $(this).calcSubWidth();
+   //Set Width
+   $(this).find(".sub").css({'width' : rowWidth});   
+  }
+ } 
+ function megaHoverOut(){ 
+   $(this).find(".sub").stop().fadeTo('fast', 0, function() {
+    $(this).hide(); 
+   });
+ }
+ var config = {    
+   sensitivity: 2, // number = sensitivity threshold (must be 1 or higher)    
+   interval: 100, // number = milliseconds for onMouseOver polling interval    
+   over: megaHoverOver, // function = onMouseOver callback (REQUIRED)    
+   timeout: 500, // number = milliseconds delay before onMouseOut    
+   out: megaHoverOut // function = onMouseOut callback (REQUIRED)    
+ };
+ $("ul#topnav li .sub").css({'opacity':'0'});
+ $("ul#topnav li").hoverIntent(config);
+});
+//]]>
+</script>
+<!--[if lt IE 7]>
+<script type="text/javascript">
+$(document).ready(function(){
+ $("ul.dropdown li").hover(function(){
+   $(this).addClass("hover");
+   $('> .dir',this).addClass("open");
+   $('ul:first',this).css('visibility', 'visible');
+   
+ },function(){
+   $(this).removeClass("hover");
+   $('.open',this).removeClass("open");
+   $('ul:first',this).css('visibility', 'hidden');
+ });
+});
+</script>
+<![endif]-->
+<!--[if lt IE 7]>
+<script src="/scripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="/scripts/jquery.dropdown.js" type="text/javascript" charset="utf-8"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="styles/style-IE6.css" media="Screen, projection">
+<![endif]-->
+</head>
+<body>
+
+<div align="center">
+  <div id="Container">
+    <div id="TopLogoArea">
+      <div id="TopLogo"><a href="/"><img src="/images/krollontrack_logo.jpg"></a></div>
+      <script type="text/javascript">
+        function fbs_click() {
+            window.open('http://www.facebook.com/pages/Altegrity/149878610195?ref=search&sid=100000160646909.2783123683..1');
+        }
+        function tw_click() {
+            window.open('http://twitter.com/Altegrity');
+        }
+      </script>
+      <div id="TopLogoRight">
+        <div id="TopRight-forms">        
+          <form action="/search/" id="top-search" method="post">
+            <select name="localeselector" id="localeselector" onchange="javascript:window.open('http://'+document.getElementById('localeselector').value,'_blank')"> 
+<option selected='selected' value='www.krollontrack.com'> United States (change) </option> 
+<option value='www.ontrackdatarecovery.com.au'> Australia</option> 
+<option value='www.ontrack.at'> Austria</option> 
+<option value='www.ontrackdatarecovery.be'> Belgium</option> 
+<option value='www.ontrackdatarecovery.ca'> Canada</option> 
+<option value='www.ibas.dk'> Denmark</option> 
+<option value='www.ibas.fi'> Finland</option> 
+<option value='www.ontrack.fr'> France</option> 
+<option value='www.krollontrack.de'> Germany</option> 
+<option value='www.ontrackdatarecovery.com.hk'> Hong Kong</option> 
+<option value='www.ontrackdatarecovery.ie'> Ireland</option> 
+<option value='www.ontrackdatarecovery.it'> Italy</option> 
+<option value='www.ontrack-japan.com'> Japan</option> 
+<option value='www.ontrackdatarecovery.nl'> Netherlands</option> 
+<option value='www.ibas.no'> Norway</option> 
+<option value='www.krollontrack.pl'> Poland - Data Recovery</option> 
+<option value='www.computerforensics.pl'> Poland - Legal Technologies</option> 
+<option value='www.krollontrack.pt'> Portugal</option> 
+<option value='www.ontrack.ru'> Russia</option> 
+<option value='www.ontrackdatarecovery.com.sg'> Singapore</option> 
+<option value='www.ontrackdatarecovery.es'> Spain</option> 
+<option value='www.ibas.se'> Sweden</option> 
+<option value='www.datenrettung.ch'> Switzerland</option> 
+<option value='www.ontrackdatarecovery.co.uk'> United Kingdom</option> 
+<option value='www.krollontrack.co.uk'> United Kingdom - Legal Technologies</option> 
+</select>
+            <input type="text" name="searchstring" id="searchstring" value="search" onkeypress="javascript:searchBoxEntered(event);" onclick="javascript:if(document.getElementById('searchstring').value == 'search'){ document.getElementById('searchstring').value = ''; }" />
+            <input type="submit" name="searchButton" id="searchButton" value="Search"  class="button" onClick="javascript:addQuery(this.form);" />
+          </form>
+        </div>
+        <div id="TopRight-linkarea">
+        <a href="/customer-login/">Customer Portal / Login</a>            
+        </div>
+        <!-- Start Utility Nav -->
+        <div id="TopRight-topnav">
+            <ul id="nav" class="dropdown dropdown-horizontal">
+                <li><a href="/">Home</a></li>
+                <li><a href="/company/" class="dir">Company</a>
+                    <ul>
+                        <li><a href="/company/overview/">Overview</a>                        </li>
+                        <li><a href="/company/history/">History</a>                        </li>
+                        <li><a href="/company/management-biographies/">Management Biographies</a>                        </li>
+                        <li><a href="/company/awards/">Awards</a>                        </li>
+                        <li><a href="/company/news-releases/">News Releases</a>                        </li>
+                        <li><a href="/company/customer-references/">Customer References</a>                        </li>
+                        <li><a href="/company/customer-programs/" class="dir nodrop">Customer Programs</a>
+                            <ul style="visibility:hidden;">
+<li>  <a href="/company/customer-programs/service-reseller-program/">Service Reseller Program</a></li>
+<li>  <a href="/company/customer-programs/corporate-support-program/">Corporate Support Program</a></li>
+                            </ul>                        </li>
+                        <li><a href="/company/contact-us/">Contact Us</a>                        </li>
+                        <li><a href="/company/careers/" class="dir nodrop">Careers</a>
+                            <ul style="visibility:hidden;">
+<li>  <a href="/company/careers/corporate-responsibility/">Corporate Responsibility</a></li>
+<li>  <a href="/company/careers/culture/">Our Culture</a></li>
+<li>  <a href="/company/careers/employment-faq/">Employment FAQ</a></li>
+<li>  <a href="/company/careers/growth-development/">Growth Development</a></li>
+<li>  <a href="/company/careers/lifestyle-and-benefits/">Lifestyle & Benefits</a></li>
+<li>  <a href="/company/careers/job-search/">Job Search</a></li>
+                            </ul>                        </li></ul></li>
+                <li><a href="/events/" class="dir">Events</a>
+                    <ul>
+                        <li><a href="/events/kroll-ontrack-courses/">Kroll Ontrack Courses</a>                        </li>
+                        <li><a href="/events/industry-conferences-and-tradeshows/">Conferences & Tradeshows</a>                        </li>
+                        <li><a href="/events/all-events/">All Events</a>                        </li>
+                        <li><a href="/events/course-materials/">Course Materials</a>                        </li></ul></li>
+                <li><a href="/resource-library/" class="dir">Resource Library</a>
+                    <ul>
+                        <li><a href="/resource-library/email-updates/">Email Subscription Center</a>                        </li>
+<li><a href="/blog/" target="_blank">Kroll Ontrack OnPoint</a></li>
+                        <li><a href="/resource-library/podcasts-and-webinars/">Podcasts & Webinars</a>                        </li>
+                        <li><a href="/resource-library/industry-news/">Industry News</a>                        </li>
+                        <li><a href="/resource-library/articles-and-papers/" class="dir nodrop">Articles & White Papers</a>
+                            <ul style="visibility:hidden;">
+<li>  <a href="/resource-library/white-papers/">White Papers</a></li>
+<li>  <a href="/resource-library/legal-articles/">Legal Articles</a></li>
+<li>  <a href="/resource-library/technical-articles/">Technical Articles</a></li>
+                            </ul>                        </li>
+                        <li><a href="/resource-library/case-law/">Case Law</a>                        </li>
+                        <li><a href="/resource-library/rules-and-statutes/">Rules & Statutes</a>                        </li>
+                        <li><a href="/resource-library/glossary/">Glossary</a>                        </li>
+                        <li><a href="/resource-library/free-downloads/">Free Downloads</a>                        </li>
+                        <li><a href="/resource-library/product-demos/">Product Demos</a>                        </li>
+<li><a href="http://store.krollontrack.com/" target="_blank">Online Shop</a></li>
+                        <li><a href="/resource-library/case-studies/">Case Studies</a>                        </li></ul></li>
+                <li><a href="/support/" class="dir">Support</a>
+                    <ul>
+                        <li><a href="/support/user-guide-and-manuals/">User Guides & Manuals</a>                        </li>
+                        <li><a href="/support/software-support/">Software Support</a>                        </li>
+                        <li><a href="/support/licensing-options/" class="dir nodrop">Licensing Options</a>
+                            <ul style="visibility:hidden;">
+<li>  <a href="/support/licensing-options/easyrecovery/">Ontrack EasyRecovery Licensing</a></li>
+<li>  <a href="/support/licensing-options/powercontrols/">Ontrack PowerControls Licensing</a></li>
+                            </ul>                        </li>
+                        <li><a href="/support/media-shipping-instructions/">Media Shipping Instructions</a>                        </li>
+                        <li><a href="/support/how-to-restore-my-recovered-files/" class="dir nodrop">How to Restore My Recovered Files</a>
+                            <ul style="visibility:hidden;">
+<li>  <a href="/support/how-to-restore-my-recovered-files/external-harddrive/">External Hard Drive </a></li>
+<li>  <a href="/support/how-to-restore-my-recovered-files/cd-dvd/">CD or DVD</a></li>
+<li>  <a href="/support/how-to-restore-my-recovered-files/cd-dvd-windows/">Windows</a></li>
+<li>  <a href="/support/how-to-restore-my-recovered-files/cd-dvd-dos/">DOS</a></li>
+<li>  <a href="/support/how-to-restore-my-recovered-files/cd-dvd-unix-tar/">UNIX Tar </a></li>
+<li>  <a href="/support/how-to-restore-my-recovered-files/cd-dvd-unix-cpio/">Unix CPIO</a></li>
+<li>  <a href="/support/how-to-restore-my-recovered-files/mac/">Mac</a></li>
+                            </ul>                        </li></ul></li></ul>
+        </div>
+        <!-- End Utility Nav --> 
+      </div>
+    </div>
+    <!-- Start RD List Top Nav -->
+    <!-- Begin of Top Navigation  -->
+<div class="TopNav">
+  <ul id="topnav">
+    <!-- Data Recovery -->
+        <li class="navfirst">
+          <a href="/data-recovery/" class="nav1">Data Recovery</a>
+            <div class="sub greendrop ">
+              <div class="row">
+                          <ul style="width:225px">
+                  <li><div class='navtitle'><a href='/data-recovery/data-recovery-services/'>Data Recovery Services</a></div></li>
+  <li><a href='/data-recovery/data-recovery-services/hard-drive-recovery/'>Hard Drive Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/laptop-recovery/'>Laptop Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/desktop-recovery/'>Desktop Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/server-recovery/'>Server Recovery & Network Storage Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/raid-recovery/'>RAID Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/virtualization-recovery/'>Virtualization Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/operating-system-recovery/'>Operating System Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/database-recovery/'>Database Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/tape-recovery/'>Tape Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/e-mail-recovery/'>E-mail Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/solid-state-drive-recovery/'>Solid State Drive Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/mobile-device-recovery/'>Mobile Device Recovery & Memory Card Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/photo-recovery/'>Digital Photo Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/flash-drive-recovery/'>Flash Drive Recovery</a></li>
+  <li><a href='/data-recovery/data-recovery-services/specialized-recovery-services/'>Specialized Recovery Services</a></li>
+</ul>
+    <ul style="width:225px">
+                  <li><div class='navtitle'><a href='/data-recovery/data-recovery-process/'>Data Recovery Process</a></div></li>
+  <li><a href='/data-recovery/data-recovery-process/data-recovery-methods/'>Data Recovery Methods</a></li>
+  <li><a href='/data-recovery/data-recovery-process/ontrack-online-information-center/'>Ontrack Online Information Center</a></li>
+                  <li><div class='navtitle'><a href='/data-recovery/recovery-software/'>File Recovery Software</a></div></li>
+                  <li><div class='navtitle'><a href='/data-recovery/e-mail-recovery-software/'>E-mail Recovery Software</a></div></li>
+                  <li><div class='navtitle'><a href='/data-recovery/content-management/'>Content Recovery Software</a></div></li>
+                  <li><div class='navtitle'><a href='/data-recovery/forensic-data-recovery/'>Forensic Data Recovery</a></div></li>
+                  <li><div class='navtitle'><a href='/data-recovery/myths/'>Data Recovery Myths</a></div></li>
+  <li><a href='/data-recovery/myths-consumer/'>Consumer Myths</a></li>
+  <li><a href='/data-recovery/myths-smb/'>Small Business Myths</a></li>
+  <li><a href='/data-recovery/myths-enterprise/'>Enterprise Myths</a></li>
+            </ul>
+                        <ul style="width: 225px !important" class="sub-fma">
+    <li style="width: 225px; background: url(http://www.krollontrack.com/images/snfma_odrgethelp.png) no-repeat right bottom; height: 104px">
+    <div style="padding-bottom: 0px; padding-left: 15px; padding-right: 0px; padding-top: 20px">
+    <p><strong>Get Help Now!</strong></p>
+    <p><span style="line-height: 1.5; color: #000000; font-size: 15pt"><strong><div class='ButtonPhone'><span style='font-weight:bold;'>800 872 2599</span><PPC INFO Value='QueryStringKey - ;  Cookie process message: Cookie was not written. - and cookie was not retrieved from client box.' /></div></strong></span><br />
+    <a  title="Free Online Quote" href="http://www.krollontrack.com/data-recovery-quote/">Free Online Quote</a></p>
+    </div>
+    </li>
+    <li>
+    <table border="0" cellspacing="0" cellpadding="0" width="220">
+        <tbody>
+            <tr>
+                <td width="100"><img width="92" height="95" alt=""  src="http://www.krollontrack.com/images/snfma_mythbusters.png" /></td>
+                <td>
+                <p><strong>Have You Heard<br />
+                The Rumors?<br />
+                </strong>Dispel the largest data recovery myths.</p>
+                <p><a  title="Find out here" href="http://www.krollontrack.com/data-recovery/myths/">Find out here &gt;</a></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </li>
+</ul>
+                    </div>
+                </div>
+             </li>
+    <!-- Information Management -->
+            <li class="nav3">
+                <a href="/information-management/" class="nav3">Information Management</a>
+                <div class="sub orangedrop">
+                    <div class="row">
+                          <ul style="width:225px">        
+                  <li><div class='navtitle'><a href='/information-management/consulting/'>Consulting </a></div></li>
+  <li><a href='/information-management/consulting/data-mapping/'>Data Mapping</a></li>
+  <li><a href='/information-management/consulting/records-retention-consulting/'>Records Retention Consulting</a></li>
+                  <li><div class='navtitle'><a href='/information-management/email-management-for-exchange/'>E-mail Management for Exchange</a></div></li>
+  <li><a href='/information-management/email-management-for-exchange/email-recovery/'>E-mail Recovery</a></li>
+  <li><a href='/information-management/email-management-for-exchange/email-search/'>E-mail Search</a></li>
+  <li><a href='/information-management/email-management-for-exchange/archive-restoration/'>Archive Restoration</a></li>
+  <li><a href='/information-management/email-management-for-exchange/migration-and-consolidation/'>Migration & Consolidation</a></li>
+  <li><a href='/information-management/email-management-for-exchange/storage-management/'>Storage Management</a></li>
+  <li><a href='/information-management/email-management-for-exchange/compliance-and-security/'>Compliance & Security</a></li>
+  <li><a href='/information-management/email-management-for-exchange/functionality-overview/'>Functionality Overview</a></li>
+  <li><a href='/information-management/email-management-for-exchange/add-on-features/'>Add-On Features</a></li>
+                  <li><div class='navtitle'><a href='/information-management/content-management-for-sharepoint/'>Content Management for SharePoint</a></div></li>
+  <li><a href='/information-management/content-management-for-sharepoint/content-search/'>Content Search</a></li>
+  <li><a href='/information-management/content-management-for-sharepoint/content-restoration/'>Content Restoration</a></li>
+</ul>
+    <ul style="width:225px">
+                  <li><div class='navtitle'><a href='/information-management/data-media-conversion-and-migration/'>Data Migration & Media Conversion</a></div></li>
+  <li><a href='/information-management/data-media-conversion-and-migration/data-migration/'>Data Migration</a></li>
+  <li><a href='/information-management/data-media-conversion-and-migration/media-conversion/'>Media Conversion</a></li>
+  <li><a href='/information-management/data-media-conversion-and-migration/tape-cataloging/'>Tape Cataloging</a></li>
+  <li><a href='/information-management/data-media-conversion-and-migration/tape-duplication/'>Tape Duplication</a></li>
+                  <li><div class='navtitle'><a href='/information-management/data-erasure-solutions/'>Data Erasure Solutions</a></div></li>
+  <li><a href='/information-management/data-erasure-solutions/erasure-software/'>Erasure Software</a></li>
+  <li><a href='/information-management/data-erasure-solutions/erasure-services/'>Erasure Services</a></li>
+  <li><a href='/information-management/data-erasure-solutions/erasure-hardware/'>Erasure Hardware</a></li>
+                  <li><div class='navtitle'><a href='/information-management/erasure-verification-services/'>Erasure Verification Services</a></div></li>
+                  <li><div class='navtitle'><a href='/information-management/hard-drive-management/'>Hard Drive Management</a></div></li>
+                  <li><div class='navtitle'><a href='/information-management/search-technologies/'>Search Technologies</a></div></li>
+            </ul>
+                        <ul style="width: 225px !important" class="sub-fma">
+    <li style="width: 225px; background: url(http://www.krollontrack.com/images/snfma_odrgethelp.png) no-repeat right bottom; height: 104px">
+    <div style="padding-bottom: 0px; padding-left: 15px; padding-right: 0px; padding-top: 20px">
+    <p><strong>Contact Us Today!</strong></p>
+    <p><span style="line-height: 1.5; color: #000000; font-size: 15pt"><strong><div class='ButtonPhone'><span style='font-weight:bold;'>800 645 3649</span><PPC INFO Value='QueryStringKey - ;  Cookie process message: Cookie was not written. - and cookie was not retrieved from client box.' /></div></strong></span><br />
+    <a  title="Free Online Quote" href="http://www.krollontrack.com/information-management/software-quote/">Free Online Quote</a></p>
+    </div>
+    </li>
+    <li>
+    <table border="0" cellspacing="0" cellpadding="0" width="220">
+        <tbody>
+            <tr>
+                <td width="70"><img width="56" height="102" alt=""  src="http://www.krollontrack.com/images/snfma_opcwhitepaper.png" /></td>
+                <td>
+                <p><strong>White Paper<br />
+                </strong>How to save time and money when recovering e-mail.</p>
+                <p><a  title="Download today" href="http://www.krollontrack.com/library/exchangewp_powercontrols2011.pdf">Download today &gt;</a></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </li>
+</ul>
+                    </div>
+                </div>
+             </li>
+    <!-- E-Discovery -->
+            <li class="nav5">
+                <a href="/e-discovery/" class="nav5">E-discovery</a>
+                <div class="sub navydrop" style="left: -48px">
+                    <div class="row">
+                          <ul style="width:225px">        
+                  <li><div class='navtitle'><a href='/e-discovery/e-discovery-management-consulting/'>E-discovery Consulting</a></div></li>
+  <li><a href='/e-discovery-services/case-management-technology/'>Case Management Technology</a></li>
+                  <li><div class='navtitle'><a href='/e-discovery/identification-preservation-and-collection/'>Identification Preservation & Collection</a></div></li>
+  <li><a href='/e-discovery/identification-preservation-and-collection/data-identification/'>Data Identification</a></li>
+  <li><a href='/e-discovery/identification-preservation-and-collection/preservation-and-legal-hold/'>Preservation & Legal Hold</a></li>
+  <li><a href='/e-discovery/identification-preservation-and-collection/global-data-collection/'>Global Data Collection</a></li>
+  <li><a href='/e-discovery/identification-preservation-and-collection/rule-26(f)-conference-preparation/'>Rule 26(f) Conference Preparation</a></li>
+  <li><a href='/e-discovery-services/expert-testimony/'>Expert Testimony</a></li>
+                  <li><div class='navtitle'><a href='/e-discovery/analysis-and-early-case-assessment/'>Analysis & Early Data Assessment</a></div></li>
+  <li><a href='/e-discovery/analysis-and-early-case-assessment/early-case-assessment-technology/'>Early Data Assessment Technology</a></li>
+  <li><a href='/e-discovery/analysis-and-early-case-assessment/early-case-assessment-consulting/'>Early Data Assessment Consulting</a></li>
+                  <li><div class='navtitle'><a href='/e-discovery/data-processing/'>Data Processing</a></div></li>
+  <li><a href='/e-discovery/data-processing/filtering-and-searching/'>Filtering & Searching</a></li>
+  <li><a href='/e-discovery/data-processing/audio-discovery/'>Audio Discovery</a></li>
+                  <li><div class='navtitle'><a href='/e-discovery/review-and-production/'>Review & Production</a></div></li>
+  <li><a href='/e-discovery/review-and-production/online-review-technology/'>Online Review Technology</a></li>
+  <li><a href='/e-discovery/review-and-production/intelligent-review-technology/'>Intelligent Review Technology</a></li>
+  <li><a href='/e-discovery/review-and-production/document-review-services/'>Managed Document Review Services</a></li>
+</ul>
+    <ul style="width:225px">
+                  <li><div class='special'><a href='/e-discovery-software/'>E-discovery Software</a></div></li>
+  <li><h2><a href='/e-discovery-software/e-discovery-processing/'>Cloud E-Discovery Processing</a></h2></li>
+  <li><a href='/e-discovery-software/why-verve/'>Why Verve?</a></li>
+  <li><h2><a href='/e-discovery-software/early-data-assessment/'>Cloud Early Data Assessment</a></h2></li>
+  <li><a href='/e-discovery-software/benefits-and-features-early-data-assessment/'>Cloud Early Data Assessment Benefits</a></li>
+  <li><h2><a href='/e-discovery-software/online-review/'>Cloud Online Review</a></h2></li>
+  <li><a href='/e-discovery-software/product-benefits-and-features-online-review/'>Cloud Online Review Benefits</a></li>
+  <li><h2><a href='/e-discovery-software/saas-advantage/'>Saas Advantage</a></h2></li>
+  <li><a href='/e-discovery-software/training-and-support-saas/'>Verve Training & Support</a></li>
+            </ul>
+                        <ul style="width: 225px !important" class="sub-fma">
+    <li style="width: 225px; background: url(http://www.krollontrack.com/images/snfma_ltgethelp.png) no-repeat right bottom; height: 104px">
+    <div style="padding-bottom: 0px; padding-left: 15px; padding-right: 0px; padding-top: 10px">
+    <p><strong>Contact a Legal<br />
+    Consultant Today!</strong></p>
+    <p><span style="line-height: 1.5; color: #000000; font-size: 15pt"><strong><div class='ButtonPhone'><span style='font-weight:bold;'>800 347 6105</span><PPC INFO Value='QueryStringKey - ;  Cookie process message: Cookie was not written. - and cookie was not retrieved from client box.' /></div></strong></span><br />
+    <a  title="Project Assistance Form" href="http://www.krollontrack.com/project-assistance/?project=discovery">Project Assistance</a></p>
+    </div>
+    </li>
+    <li>
+    <table border="0" cellspacing="0" cellpadding="0" width="220">
+        <tbody>
+            <tr>
+                <td width="70"><img width="56" height="102" alt=""  src="http://www.krollontrack.com/images/snfma_opcwhitepaper.png" /></td>
+                <td>
+                <p><strong>White Paper<br />
+                </strong>Intelligent Review Technology: Improving the Practice of Document Review in Legal Discovery</p>
+                <p><a  title="Download today" href="http://www.krollontrack.com/e-discovery/irt-whitepaper/">Download today &gt;</a></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    </li>
+    <li>
+    <table border="0" cellspacing="0" cellpadding="0" width="220">
+        <tbody>
+            <tr>
+                <td width="70"><img width="56" height="72" alt="Verve Demo"  src="http://www.krollontrack.com/images/snfma_vervedemo.png" /></td>
+                <td>
+                <p><strong>Verve Demo<br />
+                </strong>Learn more about Do-It-Yourself E-discovery!</p>
+                <p><a  title="Watch now" href="http://www.krollontrack.com/e-discovery-software/verve-product-demo/">Watch now &gt;</a></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </li>
+</ul>
+                    </div>
+                </div>
+             </li>
+    <!-- Software -->
+            <li class="blueright">
+                <a href="/software/" class="nav7">Products</a>
+                <div class="sub" style="left: -357px">
+                    <div class="row">
+                          <ul style="width:225px">        
+                  <li><div class='navtitle'><a href="/e-discovery/analysis-and-early-case-assessment/early-case-assessment-technology/" target="_self"> Ontrack® Advanceview™</a></div></li>
+                  <li><div class='navtitle'><a href="/data-recovery/recovery-software/" target="_self"> Ontrack® EasyRecovery™ </a></div></li>
+                  <li><div class='navtitle'><a href="/information-management/search-technologies/" target="_self"> Ontrack® Engenium® </a></div></li>
+                  <li><div class='navtitle'><a href="/information-management/data-erasure-solutions/" target="_self"> Ontrack® Eraser </a></div></li>
+                  <li><div class='navtitle'><a href="/e-discovery/review-and-production/online-review-technology/" target="_self"> Ontrack® Inview™ </a></div></li>
+                  <li><div class='navtitle'><a href="/data-recovery/data-recovery-process/ontrack-online-information-center/" target="_self"> Ontrack® Online </a></div></li>
+                  <li><div class='navtitle'><a href='/software/powercontrols/'>Ontrack® PowerControls™</a></div></li>
+            </ul>
+                        <ul style="width: 225px !important" class="sub-fma">
+    <li><img alt="" style="margin: 0px 5px 0px 0px; float: left" border="0"  src="http://www.krollontrack.com/images/img_software-111x120.png" /><br />
+    <em>SOFTWARE</em><br />
+    Many of our intuitive, scalable, efficient and cost-effective software products may be purchased online.<br />
+    <a  target="_blank" href="http://store.krollontrack.com/"><strong>Shop Online</strong> </a></li>
+    <li><hr />
+    <img alt="" style="margin: 0px 5px 0px 0px; float: left" border="0"  src="http://www.krollontrack.com/images/img_arrowdown_111x120.png" /><br />
+    <em>FREE DOWNLOADS</em><br />
+    Interested in seeing how our award-winning software can help you? Try our Free Trial Software Downloads.<br />
+    <a  href="http://www.krollontrack.com/resource-library/free-downloads/"><strong>Download</strong> </a></li>
+</ul>
+                    </div>
+                </div>
+             </li>
+</ul>
+</div>
+<!-- End of Top Navigation  -->
+    <!-- End RD List Top Nav --> 
+    <!-- BREADCRUMB -->
+    <div id="Path">
+                <div id="sp-actions">
+                    <!-- AddThis Button BEGIN -->
+                    <div class="addthis_toolbox addthis_default_style">
+                        <a class="addthis_button_facebook"></a>
+                        <a class="addthis_button_email"></a>
+                        <a class="addthis_button_favorites"></a>
+                        <a class="addthis_button_print"></a>
+                        <span class="addthis_separator">|</span>
+                        <a class="addthis_button_compact"></a>
+                    </div>
+                    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4cfea4ab5be88ba9"></script>
+                    <!-- AddThis Button END -->
+                </div>
+        
+     </div>
+<!-- END breadcrumb div -->
+            <rde-dm:query searchable="true">
+                <div id="ContentInside">
+<!-- Body last modified : Wednesday, March 02, 2011 12:04 -->
+
+<!--
+<rde-dm:import>
+<keywords mode="deleteall"></keywords>
+<keywords>
+    
+</keywords>
+</rde-dm:import>
+-->    
+    <!-- NONNAV PAGE -->
+    <!-- bodyonly  -->
+    <!-- show  -->
+        
+<div class="Full">
+        
+        
+                
+        <!--  MAIN BODY  --> 
+
+
+        <form name="aspnetForm" method="post" action="/resource-library/podcasts-and-webinars/data-recovery-podcasts/" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzEwMjA0MDY1D2QWAmYPZBYCZg9kFgJmD2QWAgIBD2QWAmYPFgIeBFRleHQFuw08c2VsZWN0IG5hbWU9ImxvY2FsZXNlbGVjdG9yIiBpZD0ibG9jYWxlc2VsZWN0b3IiIG9uY2hhbmdlPSJqYXZhc2NyaXB0OndpbmRvdy5vcGVuKCdodHRwOi8vJytkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbG9jYWxlc2VsZWN0b3InKS52YWx1ZSwnX2JsYW5rJykiPiANCjxvcHRpb24gc2VsZWN0ZWQ9J3NlbGVjdGVkJyB2YWx1ZT0nd3d3Lmtyb2xsb250cmFjay5jb20nPiBVbml0ZWQgU3RhdGVzIChjaGFuZ2UpIDwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5LmNvbS5hdSc+IEF1c3RyYWxpYTwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrLmF0Jz4gQXVzdHJpYTwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5LmJlJz4gQmVsZ2l1bTwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5LmNhJz4gQ2FuYWRhPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3LmliYXMuZGsnPiBEZW5tYXJrPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3LmliYXMuZmknPiBGaW5sYW5kPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3Lm9udHJhY2suZnInPiBGcmFuY2U8L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cua3JvbGxvbnRyYWNrLmRlJz4gR2VybWFueTwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5LmNvbS5oayc+IEhvbmcgS29uZzwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5LmllJz4gSXJlbGFuZDwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5Lml0Jz4gSXRhbHk8L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cub250cmFjay1qYXBhbi5jb20nPiBKYXBhbjwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5vbnRyYWNrZGF0YXJlY292ZXJ5Lm5sJz4gTmV0aGVybGFuZHM8L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cuaWJhcy5ubyc+IE5vcndheTwvb3B0aW9uPiANCjxvcHRpb24gdmFsdWU9J3d3dy5rcm9sbG9udHJhY2sucGwnPiBQb2xhbmQgLSBEYXRhIFJlY292ZXJ5PC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3LmNvbXB1dGVyZm9yZW5zaWNzLnBsJz4gUG9sYW5kIC0gTGVnYWwgVGVjaG5vbG9naWVzPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3Lmtyb2xsb250cmFjay5wdCc+IFBvcnR1Z2FsPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3Lm9udHJhY2sucnUnPiBSdXNzaWE8L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cub250cmFja2RhdGFyZWNvdmVyeS5jb20uc2cnPiBTaW5nYXBvcmU8L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cub250cmFja2RhdGFyZWNvdmVyeS5lcyc+IFNwYWluPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3LmliYXMuc2UnPiBTd2VkZW48L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cuZGF0ZW5yZXR0dW5nLmNoJz4gU3dpdHplcmxhbmQ8L29wdGlvbj4gDQo8b3B0aW9uIHZhbHVlPSd3d3cub250cmFja2RhdGFyZWNvdmVyeS5jby51ayc+IFVuaXRlZCBLaW5nZG9tPC9vcHRpb24+IA0KPG9wdGlvbiB2YWx1ZT0nd3d3Lmtyb2xsb250cmFjay5jby51ayc+IFVuaXRlZCBLaW5nZG9tIC0gTGVnYWwgVGVjaG5vbG9naWVzPC9vcHRpb24+IA0KPC9zZWxlY3Q+ZGQQlE/uWl3LSQGjr/9275MgVMHsYw==" />
+</div>
+
+             
+                  <!-- START SEARCHABLE SECTION -->
+                <h1><asp:Literal ID="litContentTitle" runat="server">Data Recovery Podcasts</h1>
+                
+                Ontrack Data Recovery podcasts discuss data recovery technology, the latest industry news, valuable data protection tips and a variety of other hot tech topics. 
+<SCRIPT type=text/javascript src="/podcasts/Scripts/AC_RunActiveContent.js"></SCRIPT>
+
+<SCRIPT type=text/javascript> 
+AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0','width','735','height','480','src','/podcasts/preview','quality','high','pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash','wmode','opaque','movie','/podcasts/preview' ); //end AC code
+</SCRIPT>
+                
+                
+                
+            <!-- END SEARCHABLE SECTION -->
+
+</form>
+        </form>
+     
+              <!--  END MAIN BODY  -->
+    </div> 
+     
+<!--
+    ******  ELEMENTS FOR GOOGLE SITEMAPT *******     
+    <Frequency>daily</Frequency>
+    <Priority>1.00</Priority>
+-->
+
+<br class="left" />
+</div>
+            </rde-dm:query>
+        
+                <div style="display:none">
+                    Data Recovery Podcasts
+                    
+                    
+                </div>
+
+        <DIV class=Footer>
+        
+    
+    
+    
+    <div id="Footer-rightbox">
+<div class="footer-rightinnerbox"><span>Follow us...</span> <br />
+<a  title="RSS" href="/rss/"><img alt=""  src="/images/icon_rss.gif" /></a><a  href="http://www.linkedin.com/company/krollontrack"><img alt=""  src="/images/icon_linkedin.gif" /></a><a  href="http://www.facebook.com/krollontrack/"><img alt=""  src="/images/icon_facebook.gif" /></a><a  href="http://twitter.com/krollontrack/"><img alt=""  src="/images/icon_twitter.gif" /></a></div>
+</div>
+<a  title="Contact Us" href="/company/contact-us/">Contact Us</a> <a  title="Careers" href="/company/careers/">Careers</a> <a  title="Legal Notices" href="/legal-notices/">Legal Notices</a> <a  title="Privacy Policy" href="/privacy/">Privacy Policy</a> <a  title="Web Site Terms of Use Agreement" href="/terms/">Terms of Use</a> <a  class="right" href="/site-map/">Site Map</a> <br />
+<div id="Footer-copyright">Copyright © 2012 Kroll Ontrack Inc. All Rights Reserved</div>
+<br class="both" /> 
+</DIV>  <!-- End Footer -->
+    </div> <!-- End container -->
+<!-- Begin Eloqua Tracking Code -->
+<script type="text/javascript" language="JavaScript" src="/scripts/elqNow/elqCfg.js"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/elqNow/elqImg.js"></script>
+<!-- End Eloqua Tracking Code -->
+<rde-dm:import>
+<keywords mode="deleteall"></keywords>
+<keywords></keywords>
+</rde-dm:import>
+</div>
+
+
+
+<script type="text/javascript" src="http://j.clickdensity.com/cr.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+  var clickdensity_keyElement = 'TopLogo';
+//]]>
+</script>
+
+</body>
+</html>
+

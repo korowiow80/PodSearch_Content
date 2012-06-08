@@ -1,0 +1,1045 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" >
+<head>
+	  <base href="http://www.moviefeature.de/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="podcast, movie, moviefeature, feature, film, kino, serie" />
+  <meta name="description" content="MovieFeature, das Podcast Magazin zu Filmen - Ob Kino oder Heinkino hier werdet Ihr �ber neue und alte Filme informiert. Erlebt p�nktlich zum Blockbusterstart die ersten Audiodialoge! Optimal f�r unterwegs mit Euren ipod. News gibt es auch in schriftlicher Form zum nachlesen." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>MovieFeature.de</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link rel="stylesheet" href="/plugins/system/rokbox/themes/light/rokbox-style.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/lib/gantry/css/gantry.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/lib/gantry/css/grid-12.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/lib/gantry/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/css/joomla.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/css/style5.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/css/demo-styles.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/css/typography.css" type="text/css" />
+  <link rel="stylesheet" href="/templates/rt_dominion_j15/css/fusionmenu.css" type="text/css" />
+  <style type="text/css">
+    <!--
+#rt-main-surround ul.menu li.active > a, #rt-main-surround ul.menu li.active > .separator, #rt-main-surround ul.menu li.active > .item, .rt-article-title span, #rt-main-surround h2.title span {color:#439BE6;}
+body a, #rt-main-surround ul.menu a:hover, #rt-main-surround ul.menu .separator:hover, #rt-main-surround ul.menu .item:hover, #rt-top .titlecolor h2.title span, #rt-main-surround h2.title span {color:#439BE6;}
+    -->
+  </style>
+  <script type="text/javascript" src="/components/com_jcomments/js/jcomments-v2.1.js?v=2"></script>
+  <script type="text/javascript" src="/components/com_jcomments/libraries/joomlatune/ajax.js"></script>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/system/rokbox/rokbox.js"></script>
+  <script type="text/javascript" src="/plugins/system/rokbox/themes/light/rokbox-config.js"></script>
+  <script type="text/javascript" src="/templates/rt_dominion_j15/lib/gantry/js/gantry-buildspans.js"></script>
+  <script type="text/javascript" src="/templates/rt_dominion_j15/lib/gantry/js/gantry-inputs.js"></script>
+  <script type="text/javascript" src="/templates/rt_dominion_j15/lib/gantry/js/gantry-totop.js"></script>
+  <script type="text/javascript" src="/modules/mod_roknavmenu/themes/fusion/js/fusion.js"></script>
+  <script type="text/javascript" src="/modules/mod_rokajaxsearch/js/rokajaxsearch.js"></script>
+  <script type="text/javascript">
+var rokboxPath = '/plugins/system/rokbox/';
+			window.addEvent('domready', function() {
+				var modules = ['rt-block'];
+				var header = ['h3','h2','h1'];
+				GantryBuildSpans(modules, header);
+			});
+		InputsExclusion.push('.content_vote')
+		        window.addEvent('load', function() {
+					new Fusion('ul.menutop', {
+						pill: 0,
+						effect: 'slide and fade',
+						opacity: 1,
+						hideDelay: 500,
+						centered: 0,
+						tweakInitial: {'x': -6, 'y': 0},
+        				tweakSubsequent: {'x': -4, 'y': -22},
+						menuFx: {duration: 200, transition: Fx.Transitions.Sine.easeOut},
+						pillFx: {duration: 400, transition: Fx.Transitions.Back.easeOut}
+					});
+	            });window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': 'Ergebnis',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'LARGE',
+					'safesearch': 'MODERATE',
+					'search': ' Suche...',
+					'readmore': 'Weiterlesen',
+					'noresults': ' kein Suchergebnis gefunden',
+					'advsearch': ' fortgeschrittene Suche',
+					'page': 'Seite',
+					'page_of': ' von',
+					'searchlink': 'http://www.moviefeature.de/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'http://www.moviefeature.de/index.php?option=com_search&amp;view=search',
+					'uribase': 'http://www.moviefeature.de/',
+					'limit': '10',
+					'perpage': '3',
+					'ordering': 'newest',
+					'phrase': 'any',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': ' alle Ergebnisse ansehen',
+					'estimated': ' estimated',
+					'showestimated': 0,
+					'showpagination': 0,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 1
+				});
+			});
+  </script>
+<script src="/10/templates/rt_dominion_j15/slide.js"  type="text/javascript"  /></script>
+<script src="/10/templates/rt_dominion_j15/mootools.js"  type="text/javascript"  /></script>
+</head>
+	<body  class="backgroundlevel-high bodylevel-high cssstyle-style5 font-family-helvetica font-size-is-default menu-type-fusionmenu col12 ">
+<div class="div_space"></div>
+<table class="table_ticker">
+<tr>
+<td width="176px"> 
+<div class="menu_ticker">
+<ul>
+<li><a href="/" target="_self" >Feature-Netzwerk</a>
+<ul>
+<li><a href="http://www.gamefeature.de" target="_self"><font color="#FF0000">G</font>ame<font color="#FF0000">F</font>eature</a></li>
+<li><a href="http://www.moviefeature.de" target="_self"><font color="#0099FF">M</font>ovie<font color="#0099FF">F</font>eature</a></li>
+<li><a href="http://www.horror-infos.com" target="_self"><font color="#00FF00">H</font>ook<font color="#00FF00">F</font>orror-Infos</a></li>
+</ul>
+</li>
+</ul></div>
+</td>
+<td width="100%">
+<div id="titles_holder" style="width:1100px; background-color:#666; height:30px; overflow:hidden;float:left; text-align:center; border:dashed thin; z-index:100">
+	<div  style="color:#ccc;float:left;line-height:29px; width:100px;text-align:center;">FeatureTicker :</div>
+			<div id="yj_nt2" class="title_slide" style="width:1000px;height:30px; overflow:hidden; float:left; text-align:center; z-index:100">
+               <div style="width:12150px;overflow: hidden;float: left;text-align:center">  
+               <div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/movie.png" /> : <a href="http://moviefeature.podspot.de/post/podcast-86-the-grey-unter-wolfen/">PodCast 86: The Grey - Unter Wölfen</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/game.png" /> : <a href="http://gamefeature.podspot.de/files/drakensangonline.mp3">Drakensang Online PC Test</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/movie.png" /> : <a href="http://moviefeature.podspot.de/post/podcast-89-men-in-black-3/">PodCast 89: Men in Black 3</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/movie.png" /> : <a href="http://moviefeature.podspot.de/post/podcast-88-dark-shadows/">PodCast 88: Dark Shadows</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/game.png" /> : <a href="http://gamefeature.podspot.de/files/pandorastower.mp3">Pandora´s Tower Wii Test</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/game.png" /> : <a href="http://gamefeature.podspot.de/files/proto2.mp3">Prototype 2 Xbox360 Test</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/movie.png" /> : <a href="http://moviefeature.podspot.de/post/podcast-87-marvels-the-avengers/">PodCast 87: Marvel's The Avengers</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/game.png" /> : <a href="http://gamefeature.podspot.de/files/mag134.mp3">GameFeature, das Magazin Level 134</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/movie.png" /> : <a href="http://moviefeature.podspot.de/post/podcast-85-die-frau-in-schwarz/">PodCast 85: Die Frau in Schwarz</a></div><div style="width:1000px;line-height:33px;text-indent:5px;height:33px;float:left;text-align:center;"><img src="http://www.gamefeature.de/GFXXL/images/game.png" /> : <a href="http://gamefeature.podspot.de/files/maxpayne3.mp3">Max Payne 3 PS3 Test</a></div> 
+
+</div>
+</div>
+
+<script type='text/javascript'>
+var  title_slider = new TitleTicker("yj_nt2",{type: "scroll", direction: "forward", auto: "loop", time: 10000, duration: 3000});
+var type_slider='scroll';
+$('titles_holder').addEvent('mouseenter', function(){title_slider.pause();});
+$('titles_holder').addEvent('mouseleave', function(){title_slider.run(type_slider);});
+</script>
+</div></td></tr></table>
+		<div id="rt-background"><div id="rt-background2"><div id="rt-background3">
+			<div class="rt-container">
+												<div id="rt-header">
+										<div id="rt-header-overlay">
+<div class="rt-grid-12 rt-alpha rt-omega">
+    			<div class="rt-block">
+    	    	<a href="http://www.moviefeature.de/" id="rt-logo"></a>
+    		</div>
+	    
+
+</div>
+
+						<div class="clear"></div>
+					</div>
+															<div id="rt-menu">
+						<div id="rt-menu-overlay">
+							<ul class="menutop level1" >
+				<li class="item1 root" >
+					<a class="orphan item bullet" href="http://www.moviefeature.de"  >
+				<span>
+			    				Hauptseite				   
+				</span>
+			</a>
+			
+			
+	</li>	
+					<li class="item164 parent root" >
+					<a class="daddy item bullet" href="/index.php/news"  >
+				<span>
+			    				NEWS				   
+				</span>
+			</a>
+			
+					<div class="fusion-submenu-wrapper level2">
+				<div class="drop-top"></div>
+				<ul class="level2">
+								
+							<li class="item166" >
+					<a class="orphan item bullet" href="/index.php/news/feature-netzwerk-news"  >
+				<span>
+			    				Feature-Netzwerk News				   
+				</span>
+			</a>
+			
+			
+	</li>	
+										</ul>
+			</div>
+			
+	</li>	
+					<li class="item177 root" >
+					<a class="orphan item bullet" href="/index.php/podcasts"  >
+				<span>
+			    				Podcasts				   
+				</span>
+			</a>
+			
+			
+	</li>	
+					<li class="item179 root" >
+					<a class="orphan item bullet" href="/index.php/spielekritiken"  >
+				<span>
+			    				Spielekritiken				   
+				</span>
+			</a>
+			
+			
+	</li>	
+					<li class="item176 root" >
+					<a class="orphan item bullet" href="http://community.movie-infos.net/board.php?boardid=389"  onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return false;">
+				<span>
+			    				Forum				   
+				</span>
+			</a>
+			
+			
+	</li>	
+					<li class="item54 parent root" >
+					<a class="daddy item bullet" href="http://www.gamefeature.de/FN/"  onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,');return false;">
+				<span>
+			    				Feature				   
+				</span>
+			</a>
+			
+					<div class="fusion-submenu-wrapper level2">
+				<div class="drop-top"></div>
+				<ul class="level2">
+								
+							<li class="item56" >
+					<a class="orphan item bullet" href="http://www.gamefeature.de" target="_blank" >
+				<span>
+			    				GameFeature				   
+				</span>
+			</a>
+			
+			
+	</li>	
+									
+							<li class="item55" >
+					<a class="orphan item bullet" href="http://www.bookfeature.de" target="_blank" >
+				<span>
+			    				BookFeature				   
+				</span>
+			</a>
+			
+			
+	</li>	
+										</ul>
+			</div>
+			
+	</li>	
+					<li class="item172 parent root" >
+					<span class="daddy item bullet nolink">
+			    <span>
+			        			    über uns			    			    </span>
+			</span>
+			
+					<div class="fusion-submenu-wrapper level2">
+				<div class="drop-top"></div>
+				<ul class="level2">
+								
+							<li class="item174" >
+					<a class="orphan item bullet" href="/index.php/ueber-uns/unsere-partner"  >
+				<span>
+			    				unsere Partner				   
+				</span>
+			</a>
+			
+			
+	</li>	
+									
+							<li class="item175" >
+					<a class="orphan item bullet" href="/index.php/ueber-uns/unser-team"  >
+				<span>
+			    				unser Team				   
+				</span>
+			</a>
+			
+			
+	</li>	
+										</ul>
+			</div>
+			
+	</li>	
+					<li class="item169 root" >
+					<a class="orphan item bullet" href="/index.php/impressum"  >
+				<span>
+			    				Impressum				   
+				</span>
+			</a>
+			
+			
+	</li>	
+		</ul>
+
+							<div class="clear"></div>
+						</div>
+					</div>
+									</div>
+								<div id="rt-header2"></div>
+								<div id="rt-main-surround">
+										<div class="rt-main-overlay">
+												<div id="rt-feature">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+                        <div class="rt-block">
+                				<div class="module-content">
+					<div class="module-content2">
+                		<form name="rokajaxsearch" id="rokajaxsearch" class="dark" action="http://www.moviefeature.de/" method="get">
+<div class="rokajaxsearch">
+	<div class="roksearch-wrapper">
+		<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Suche..." />
+	</div>
+	<input type="hidden" name="searchphrase" value="any"/>
+	<input type="hidden" name="limit" value="" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="Itemid" value="99999999" />
+	<input type="hidden" name="option" value="com_search" />
+
+	
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form>					</div>
+				</div>
+            </div>
+        	
+</div>
+							<div class="clear"></div>
+						</div>
+																																			              <div id="rt-main" class="mb9-sa3">
+                <div class="rt-grid-9 ">
+                                        <div class="rt-block">
+                                                <div id="rt-mainbody">
+                            
+<div class="rt-joomla ">
+	<div class="rt-blog">
+
+		
+		
+		<div class="rt-teaser-articles"><div class=" float-left width100"><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=654:podcast-89-men-in-black-3&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=654:podcast-89-men-in-black-3&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY1NC1wb2RjYXN0LTg5LW1lbi1pbi1ibGFjay0z" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 89: Men in Black 3									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p>
+	&nbsp;</p>
+<p>
+	Zehn Jahre sind vergangen, seitdem Kinog&auml;nger zuletzt miterleben durften, wie die Man in Black die Erde vor dem Abschaum des Universums besch&uuml;tzten. Seither gab es ohne Unterlass wilde Spekulationen &uuml;ber einen m&ouml;glichen dritten Film und seinen Inhalt. Nun ist es soweit und&nbsp;Barry Sonnenfeld f&uuml;hrte auch wieder Regie. Das Drehbuch stammt von Etan Cohen, basierend auf dem Malibu Comic von Lowell Cunningham. Walter F. Parkes und Laurie MacDonald fungieren als Produzenten, Steven Spielberg und G. Mac Brown sind Executive Producers.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/654-podcast-89-men-in-black-3" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Mai 24, 2012 - 20:21 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/654-podcast-89-men-in-black-3#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=653:podcast-88-dark-shadows&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=653:podcast-88-dark-shadows&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY1My1wb2RjYXN0LTg4LWRhcmstc2hhZG93cw%3D%3D" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 88: Dark Shadows									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p>
+	Tim Burton f&uuml;hrt Regie bei der Gruselkom&ouml;die &quot;Dark Shadows&quot;, basierend auf der klassischen Kultserie der 60er Jahre. Zur hochkar&auml;tigen Besetzung z&auml;hlen Johnny Depp, Michelle Pfeiffer und Helena Bonham Carter. Burton inszenierte &quot;Dark Shadows&quot; nach dem Drehbuch von Seth Grahame-Smith und der Story von John August und Grahame-Smith, die sich auf die von Dan Curtis konzipierte Fernsehserie beruft. Der Film entstand komplett in England, an Originalschaupl&auml;tzen und in den Pinewood Studios.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/653-podcast-88-dark-shadows" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Mai 10, 2012 - 20:15 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/653-podcast-88-dark-shadows#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=652:podcast-87-marvels-the-avengers&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=652:podcast-87-marvels-the-avengers&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY1Mi1wb2RjYXN0LTg3LW1hcnZlbHMtdGhlLWF2ZW5nZXJz" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 87: Marvel's The Avengers									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p>
+	Basierend auf der legend&auml;ren Comic-Serie &#39;The Avengers&#39; (&#39;Die R&auml;cher&#39;), die 1963 zum ersten Mal erschien, schlie&szlig;en sich in &quot;Marvel&#39;s The Avengers&quot; die Stars des Marvel-Universums zu bildgewaltiger, actiongeladener und zugleich extrem schlagfertiger Blockbuster-Unterhaltung zusammen. Unter der Regie von Joss Whedon (Erfinder und Regisseur der Serie &#39;Buffy&#39;), der auch das Drehbuch verfasste, werden sie nun endlich gemeinsam mit geballter Power die gro&szlig;e Leinwand erobern: Robert Downey Jr. alias Iron Man, Chris Hemsworth alias Thor, Scarlett Johansson alias Black Widow, Mark Ruffalo alias Hulk, Chris Evans alias Captain America, Jeremy Renner alias Hawkeye, Tom Hiddleston alias Loki, Samuel L. Jackson alias Nick Fury und Stellan Skarsg&aring;rd in der Rolle des Professor Erik Selvig.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/652-podcast-87-marvels-the-avengers" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Apr 25, 2012 - 21:01 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/652-podcast-87-marvels-the-avengers#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=651:podcast-86-the-grey-unter-woelfen&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=651:podcast-86-the-grey-unter-woelfen&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY1MS1wb2RjYXN0LTg2LXRoZS1ncmV5LXVudGVyLXdvZWxmZW4%3D" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 86: The Grey - Unter Wölfen									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p>
+	Ein packendes Abenteuer in einer Wildnis, die keine Gnade kennt: Regisseur Joe Carnahan (&quot;Das A-Team - Der Film&quot;, &quot;Smokin&#39; Aces&quot;) hat mit Alaska einen atemberaubenden Schauplatz f&uuml;r &quot;The Grey - Unter W&ouml;lfen&quot; ausgesucht. Liam Neeson (&quot;Kampf der Titanen&quot;, &quot;96 Hours&quot;) spielt in dem unerbittlich spannenden &Uuml;berlebensdrama eine der <i>&bdquo;drei wichtigsten und intensivsten Rollen meiner Karriere&ldquo;</i>, so Neeson selbst, einen Wildnis-Experten, der eine Gruppe &Uuml;berlebender nach einem Flugzeugabsturz in der Arktis vor W&ouml;lfen und anderen Gefahren der unbarmherzigen Natur retten will. Zu seinem Team z&auml;hlen Dermot Mulroney (&quot;J. Edgar&quot;) und Frank Grillo (&quot;Warrior&quot;).</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/651-podcast-86-the-grey-unter-woelfen" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Apr 14, 2012 - 19:59 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/651-podcast-86-the-grey-unter-woelfen#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=650:podcast-85-die-frau-in-schwarz&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=650:podcast-85-die-frau-in-schwarz&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY1MC1wb2RjYXN0LTg1LWRpZS1mcmF1LWluLXNjaHdhcno%3D" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 85: Die Frau in Schwarz									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p mce_style="text-align: justify;" style="text-align: justify;">
+	Basierend auf dem Bestseller &quot;Die Frau in Schwarz&quot; der britischen Autorin Susan Hill, hat Regisseur James Watkins, (&quot;Eden Lake&quot;) ein nervenaufreibendes, schauerromantisches Gruselkino geschaffen. Daniel Radcliffe spielt in dem Gruselfilm an der Seite von Ciar&aacute;n Hinds (&quot;Dame, K&ouml;nig, As, Spion&quot;, &quot;There Will Be Blood&quot;), Liz White (&quot;Vera Drake&quot;) und Janet McTeer (&quot;Albert Nobbs&quot;, &quot;Waking the Dead&quot;) die erste Kinorolle nach dem Abschluss der &quot;Harry Potter&quot;-Reihe, die ihn weltber&uuml;hmt gemacht hat.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/650-podcast-85-die-frau-in-schwarz" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Mär 28, 2012 - 20:09 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/650-podcast-85-die-frau-in-schwarz#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=649:podcast-84-die-tribute-von-panem-the-hunger-games&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=649:podcast-84-die-tribute-von-panem-the-hunger-games&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY0OS1wb2RjYXN0LTg0LWRpZS10cmlidXRlLXZvbi1wYW5lbS10aGUtaHVuZ2VyLWdhbWVz" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 84: Die Tribute von Panem - The Hunger Games									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p mce_style="text-align: justify;" style="text-align: justify;">
+	Willkommen in der harschen Realit&auml;t der 16-j&auml;hrigen Katniss Everdeen, die um ihr &Uuml;berleben k&auml;mpfen muss &ndash; allein mit Intelligenz und eisernem Willen. Und das in einer Welt, die zugleich hochmodern und apokalyptisch, schillernd, urspr&uuml;nglich und gef&auml;hrlich ist. Aus Katniss&rsquo; Perspektive erz&auml;hlt, entspinnt sich in &quot;Die Tribute von Panem - The Hunger Games&quot; die in der dunklen Zukunft angesiedelte Geschichte einer Bergarbeitertochter, die sich von einer kleinen Schachfigur in live &uuml;bertragenen Gladiatorenspielen zu einer wahren Heldin verwandelt und erkennt, dass sie um mehr k&auml;mpfen muss als ihr eigenes Leben und das ihrer Familie.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/649-podcast-84-die-tribute-von-panem-the-hunger-games" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Mär 18, 2012 - 14:50 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/649-podcast-84-die-tribute-von-panem-the-hunger-games#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=648:podcast-83-john-carter-zwischen-zwei-welten&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=648:podcast-83-john-carter-zwischen-zwei-welten&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY0OC1wb2RjYXN0LTgzLWpvaG4tY2FydGVyLXp3aXNjaGVuLXp3ZWktd2VsdGVu" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 83: John Carter - Zwischen Zwei Welten									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p>
+	Walt Disney Pictures pr&auml;sentiert mit &quot;John Carter - Zwischen Zwei Welten&quot; ein episches Fantasy-Spektakel, das auf Edgar Rice Burroughs&#39; Romanklassiker &#39;A Princess of Mars&#39; (&#39;Die Prinzessin vom Mars&#39;) basiert, mit dem Burroughs seinen Barsoom-Zyklus er&ouml;ffnete. 2012 wird Burroughs&#39; Protagonist John Carter 100 Jahre alt. Seit der Ver&ouml;ffentlichung der Reihe ist er der erste literarische Weltraumheld &uuml;berhaupt und hat mit seinen Abenteuern auf Barsoom Generationen von Lesern begeistert.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/648-podcast-83-john-carter-zwischen-zwei-welten" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Mär 10, 2012 - 21:40 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/648-podcast-83-john-carter-zwischen-zwei-welten#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=647:podcast-82-ghost-rider-spirit-of-vengeance&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=647:podcast-82-ghost-rider-spirit-of-vengeance&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY0Ny1wb2RjYXN0LTgyLWdob3N0LXJpZGVyLXNwaXJpdC1vZi12ZW5nZWFuY2U%3D" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 82: Ghost Rider - Spirit of Vengeance									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p style="text-align: justify;">
+	Nicolas Cage kehrt mit &quot;Ghost Rider: Spirit of Vengeance&quot; zur&uuml;ck auf die Leinwand, in einem neuen, d&uuml;steren Abenteuer des Ghost Riders. Inszeniert wurde der Film von Neveldine/Taylor, dem aus Mark Neveldine und Brian Taylor bestehenden Regie-Duo, das mit stylishen und ausgefallenen Kultfilmen wie &quot;Crank&quot; (2006) oder &quot;Gamer&quot; (2009) ihre Fangemeinde begeisterte. Im Kampf gegen den Teufel, gespielt von Ciar&aacute;n Hinds (&quot;The Rite - Das Ritual&quot;), steht Idris Elba (&quot;Thor&quot;) in der Rolle des M&ouml;nchs Moreau Nicolas Cage zur Seite. Die italienische Schauspielerin Violante Placido (&quot;The American&quot;) rundet zusammen mit dem jungen Schauspieler Fergus Riordan (&quot;I Want to Be a Soldier&quot;) den Cast ab.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/647-podcast-82-ghost-rider-spirit-of-vengeance" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Feb 22, 2012 - 21:28 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/647-podcast-82-ghost-rider-spirit-of-vengeance#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=646:podcast-81-gefaehrten&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=646:podcast-81-gefaehrten&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY0Ni1wb2RjYXN0LTgxLWdlZmFlaHJ0ZW4%3D" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 81: Gefährten									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p style="text-align: justify;">
+	Steven Spielberg&#39;s &quot;Gef&auml;hrten&quot; ist das Thema in unserem 81. PodCast. Oscar-Preistr&auml;ger Steven Spielberg pr&auml;sentiert mit &quot;Gef&auml;hrten&quot;, ein episches Abenteuer und eine Hommage an Klassiker der Filmgeschichte: Die mitrei&szlig;ende Geschichte eines Jungen und seines Pferdes erz&auml;hlt von wahrer Freundschaft, Loyalit&auml;t und gro&szlig;em Mut. Der Erste Weltkrieg wird allegorisch als Reise dieses Pferdes erz&auml;hlt - eine Odyssee aus Freud und Leid, bewegenden Emotionen und atemberaubender Spannung.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/646-podcast-81-gefaehrten" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Feb 17, 2012 - 21:12 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/646-podcast-81-gefaehrten#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div><div class="rt-article ">
+	<div class="module-full"><div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	<div class="rt-article-bg">
+	
+				<div class="rt-headline">
+						<div class="module-title"><div class="module-title2"><div class="module-title3">
+								<div class="rt-article-icons">
+					<a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=645:podcast-80-hugo-cabret&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon pdf"></span></a><a href="/index.php?view=article&amp;catid=45:podcasts&amp;id=645:podcast-80-hugo-cabret&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Drucken" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><span class="icon print"></span></a><a href="/index.php/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5tb3ZpZWZlYXR1cmUuZGUvaW5kZXgucGhwL3BvZGNhc3RzLzY0NS1wb2RjYXN0LTgwLWh1Z28tY2FicmV0" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><span class="icon email"></span></a>				</div>
+								<h1 class="rt-article-title">
+										PodCast 80: Hugo Cabret									</h1>
+			</div></div></div>
+									<div class="clear"></div>
+		</div>
+				<p class="rt-article-cat">
+							<span class="rt-section">
+									<a href="/index.php/component/content/section/6">								News									</a>														 - 							</span>
+										<span class="rt-category">
+									<a href="/index.php/podcasts">								Podcasts									</a>							</span>
+					</p>
+				<div class="rt-article-content">
+					
+						
+			
+			<p style="TEXT-ALIGN: justify">
+	Im 80. PodCast stellen wir Euch &quot;Hugo Cabret&quot; vor. Immer auf der Suche nach neuen Erz&auml;hlwegen hat Oscar-Preistr&auml;ger Martin Scorsese mit dieser Verfilmung nun sein Herzensst&uuml;ck realisiert und l&auml;dt zu einer spannenden Reise in eine magische Welt ein. Mit der Inszenierung des preisgekr&ouml;nten Kinderbuches &quot;Die Entdeckung des Hugo Cabret&quot; realisiert der Regisseur nicht nur seinen ersten 3D-Film, sondern verwirklicht seine pers&ouml;nliche Hommage an die Filmgeschichte.</p>
+
+						<p class="rt-readon-surround">
+				<a href="/index.php/podcasts/645-podcast-80-hugo-cabret" class="readon"><span>
+					Weiterlesen...</span>
+				</a>
+			</p>
+			
+					</div>
+		
+		
+		
+				<div class="rt-articleinfo"> 
+			<div class="rt-articleinfo2"> 	
+								<span class="rt-author">
+					Verfasser					<span>René</span>
+				</span>
+							
+								<span class="rt-date-posted">
+					<!--Posted on-->
+					<span>Feb 09, 2012 - 21:10 Uhr</span>
+				</span>
+				
+							</div>
+									<div class="rt-comment-block">
+				<a href="/index.php/podcasts/645-podcast-80-hugo-cabret#comments" class="rt-comment-badge">
+					<span class="rt-comment-count">0</span>
+				</a>
+				<span class="rt-comment-text">Kommentar(e)</span>
+			</div>
+								</div>
+				<div class="clear"></div>
+	</div>
+	</div></div></div></div></div></div></div></div></div></div>
+</div></div></div>
+		
+		
+	</div>
+</div>
+                        </div>
+                                            </div>
+                                    </div>
+                            <div class="rt-grid-3 ">
+                <div id="rt-sidebar-c">
+                            		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">Facebook</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	<p><iframe src="http://www.facebook.com/plugins/likebox.php?id=306777930882&amp;width=220&amp;connections=8&amp;stream=false&amp;header=true&amp;height=287" mce_src="http://www.facebook.com/plugins/likebox.php?id=306777930882&amp;width=220&amp;connections=8&amp;stream=false&amp;header=true&amp;height=287" style="border: medium none; overflow: hidden; width: 190px; height: 287px;" allowtransparency="false" frameborder="0" scrolling="no"></iframe></p>					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	        		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">Podcast</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	<ul class="menu"><li class="item178"><a href="/index.php/podcasts"><span>Podcast Archiv</span></a></li></ul>					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	        		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">RSS FEEDS</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	<p style="text-align: center;" mce_style="text-align: center;"><a target="_blank" mce_href="http://moviefeature.podspot.de/rss+all" href="http://moviefeature.podspot.de/rss+all"><img src="http://podfeature.de/10/images/icons/rss.jpg" mce_src="/images/icons/rss.jpg" width="40" height="40"></a><a target="_blank" mce_href="http://www.facebook.com/pages/MovieFeature/306777930882" href="http://www.facebook.com/pages/MovieFeature/306777930882"><img src="http://podfeature.de/10/images/icons/facebook.jpg" mce_src="/images/icons/facebook.jpg" width="40" height="40"></a><a target="_blank" mce_href="http://twitter.com/moviefeature/" href="http://twitter.com/moviefeature/"><img src="http://podfeature.de/10/images/icons/twitter.jpg" mce_src="/images/icons/twitter.jpg" width="40" height="40"></a><a target="_blank" mce_href="http://itunes.apple.com/at/podcast/moviefeature/id356439298" href="http://itunes.apple.com/at/podcast/moviefeature/id356439298"><img src="http://podfeature.de/10/images/icons/itunes.jpg" mce_src="/images/icons/itunes.jpg" width="40" height="40"></a><br mce_bogus="1"></p>					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	        		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">Unterstützung</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	<form style="text-align: center;" mce_style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" value="_s-xclick" type="hidden">
+<input name="hosted_button_id" value="JXDXRD47E2RUE" type="hidden">
+<input src="https://www.paypal.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" mce_src="https://www.paypal.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal." type="image" border="0">
+<img alt="" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" mce_src="https://www.paypal.com/de_DE/i/scr/pixel.gif" border="0" height="1" width="1">
+</form>					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	        		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">weitere News</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	
+<!-- START 'Display News by BK 1.6.6' -->
+
+<spanclass='contentpane '>
+</span><ul><li class=' '><span class=' '><a href='/index.php/podcasts/644-podcast-79-underworld-awakening' class=' ' >PodCast 79: Underworld Awakening</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/643-podcast-78-drive' class=' ' >PodCast 78: Drive</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/642-moviefeature-infopodcast-neustart-im-jahr-2012' class=' ' >MovieFeature InfoPodCast: Neustart im Jahr 2012</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/641-moviefeature-das-magazin-77' class=' ' >MovieFeature, das Magazin 77</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/640-moviefeature-das-magazin-76' class=' ' >MovieFeature, das Magazin 76</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/639-moviefeature-das-magazin-75' class=' ' >MovieFeature, das Magazin 75</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/638-moviefeature-das-magazin-74' class=' ' >MovieFeature, das Magazin 74</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/637-moviefeature-das-magazin-73' class=' ' >MovieFeature, das Magazin 73</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/636-moviefeature-das-magazin-72' class=' ' >MovieFeature, das Magazin 72</a></span><br/><span class="article_separator"> </span></li><li class=' '><span class=' '><a href='/index.php/podcasts/635-moviefeature-das-magazin-71' class=' ' >MovieFeature, das Magazin 71</a></span><br/><span class="article_separator"> </span></li></ul></td>
+
+<!-- END 'Display News by BK 1.6.6' -->
+					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	        		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">Partner</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	<p style="text-align: center;" mce_style="text-align: center;"><a target="_blank" mce_href="http://www.movie-infos.de" href="http://www.movie-infos.de"><img src="http://www.movie-infos.de/banner/banner.jpg" mce_src="http://www.movie-infos.de/banner/banner.jpg" height="66" width="155"></a><br mce_bogus="1"></p>					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	        		<div class="module-full">
+            <div class="rt-block">
+				<div class="module-surround"><div class="module-tm"><div class="module-l"><div class="module-r"><div class="module-bm"><div class="module-tl"><div class="module-tr"><div class="module-bl"><div class="module-br">
+	                					<div class="module-title"><div class="module-title2"><div class="module-title3">
+	                	<h2 class="title">Werbung</h2>
+					</div></div></div>
+	                					<div class="module-content">
+	                	<p style="text-align: center;" mce_style="text-align: center;"><iframe src="http://rcm-de.amazon.de/e/cm?t=gamef-21&amp;o=3&amp;p=29&amp;l=ur1&amp;category=dvd&amp;banner=1P09ZSR0C4Q6ZKTPBJG2&amp;f=ifr" mce_src="http://rcm-de.amazon.de/e/cm?t=gamef-21&amp;o=3&amp;p=29&amp;l=ur1&amp;category=dvd&amp;banner=1P09ZSR0C4Q6ZKTPBJG2&amp;f=ifr" border="0" marginwidth="0" style="border: medium none;" mce_style="border:none;" scrolling="no" frameborder="0" height="600" width="120"></iframe></p>					</div>
+				</div></div></div></div></div></div></div></div></div>
+            </div>
+		</div>
+        	
+                </div>
+            </div>
+
+                <div class="clear"></div>
+            </div>
+																	</div>
+															<div id="rt-bottom">
+						<div class="rt-main-overlay">
+							<div class="rt-grid-12 rt-alpha rt-omega">
+    		<a href="#" id="gantry-totop"><span>nach oben</span></a>
+		
+
+</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+														</div>
+								<div id="rt-copyright">
+					<div class="rt-grid-12 rt-alpha rt-omega">
+    		<div class="clear"></div>
+		
+			<div class="clear"></div>
+			<span class="copytext">Copyright 2009-2010 MovieFeature.de</span>
+		</div>
+		
+
+</div>
+					<div class="clear"></div>
+				</div>
+											</div>
+		</div></div></div>
+	</body>
+</html>

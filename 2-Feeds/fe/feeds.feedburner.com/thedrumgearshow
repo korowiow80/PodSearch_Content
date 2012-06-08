@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- IMPORTANT NOTE: This file is licensed only for use in providing the MobileMe service,
+     or any part thereof, and is subject to the MobileMe Terms and Conditions. You may not
+     port this file to another platform without Apple's written consent. -->
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>MobileMe</title>
+	<meta name="Description" content="Access and manage your email, contacts, calendar, photos, and files on the web at me.com.  Not a member? You can try MobileMe free for 60-days." />
+	  <link href="/my/sproutcore/en/wpw/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="/my/shared/en/1bat/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="/my/mail/en/1bk7/stylesheet.css" rel="stylesheet" type="text/css" />
+
+    <noscript>
+      <meta http-equiv="Refresh" content="0;url=http://www.me.com/enable_javascript/" />
+    </noscript>
+    
+    <script type="text/javascript" src="/my/global-config.js"></script>
+    <script type="text/javascript" src="/my/shared/en/1bat/bootstrap"></script>
+    <script type="text/javascript">
+      if (bootstrap.setup()) bootstrap.loginIfNeeded() ;
+    </script>
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+  
+  <body>
+
+<div id="wrapper" class="wrapper">      <div id="header" class="header" style="position: absolute;
+    	height: 41px;
+    	left: 0px;
+    	top: 0px;
+    	right: 0px;
+    	background-color: #3a4046;
+    	padding: 1px 0px 1px 0px;
+    	overflow: hidden ;
+    	text-align: center;
+    	background: /my/shared/en/1bat/images/sprites/controls.png repeat-x left -3696px;">
+          <div class="left">
+<div class="segments dock"><a href="http://www.me.com/mail/" title="Mail" class="sel sc-button-view button regular normal mail_button"><img class="app-icon-webmail sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a><a href="http://www.me.com/contacts/" title="Contacts" class=" sc-button-view button regular normal contacts_button"><img class="app-icon-contacts sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a><a href="http://www.me.com/calendar/" title="Calendar" id="calendar-icon" class=" sc-button-view button regular normal calendar_button"><img class="app-icon-calendar sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a><a href="http://www.me.com/gallery/" title="Gallery" class=" sc-button-view button regular normal photos_button"><img class="app-icon-photos sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a><a href="http://www.me.com/idisk/" title="iDisk" class=" sc-button-view button regular normal files_button"><img class="app-icon-files sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a><a href="https://secure.me.com/account/#findmyiphone" title="Find My iPhone" id="fmip-button" class="sc-button-view button regular normal findmyiphone_button"><img class="app-icon-findmyiphone sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a><a href="https://secure.me.com/account/" title="Account Settings" id="account-button" class="sc-button-view button regular normal account_button"><img class="app-icon-account sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a></div>
+        </div>
+
+<div class="toolbar_container"></div>
+
+<div class="right">
+<div class="search_wrapper" style="display: none;">    <div class="search-left"></div>
+    <input type="text" class="search_field" />
+    <div class="search-right"></div>
+    <a class="sc-button-view button regular normal search_clear_button"><img class="search_clear_button sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a>
+</div> 
+<a class="sc-button-view button regular normal help_button"><img class="app-icon-help sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a> 
+<a class="sc-button-view button regular normal logout_button"><img class="app-icon-logout sprite" src="/my/sproutcore/en/wpw/blank.gif" /></a></div>
+</div>
+
+<div id="mainContainer" class="main_container"><div class="main_container_loading loading">		<div id="fakesidebar" class="fake_sidebar">&nbsp;
+		</div>
+<div id="loading_container" class="loading_container">			<img class="loading_spinner" src="/my/sproutcore/en/wpw/blank.gif"/>
+			<span class="loading_spinner_text loading-text">
+				Loading Mail…
+				
+			</span>
+</div></div>
+
+</div></div>
+  <script type="text/javascript">
+  	bootstrap.setupCalendarIcon('/my/shared/en/1bat/images/dates/1.png') ;
+  </script>
+
+    <!-- Resources to be removed from DOM on page load -->
+    <div id="resources" style="display:none; visibility: hidden;">
+      <div id="unavailable_panel" class="dialog yellow_alert unavailable_panel" style="width: 489px;"><img src="/my/shared/en/1bat/images/panels/panel_grad_bg.png" class="panel_grad_bg" />
+<div class="panel_content">
+	<div class="alert_icon_content">
+	  <div class="alert_icon"></div>
+	     <h1 class="title sc-label-view id_1268898187"></h1>
+	     <p class="msg_line1 warningtext sc-label-view unavailable_message"></p>
+	</div>
+	<div class="footerseperator"></div>
+	<div class="buttons">
+	<a class="sc-button-view button capsule normal id_1268898188"><span class="button-inner"><span class="label">Submit</span></span></a>
+	</div>
+</div>
+</div><div id="error_panel" class="dialog error_panel" style="width: 489px;"><img src="/my/shared/en/1bat/images/panels/panel_grad_bg.png" class="panel_grad_bg" />
+<div class="panel_content">
+
+<div class="alert_icon_content">
+  <div class="alert_icon">
+  </div>
+ 
+	<h1 class="title sc-label-view id_1268898189"></h1>
+
+ 
+ 
+		<p class="msg_line1 warningtext sc-label-view id_1268898190"></p>
+
+ 
+
+	<p class="msg_line2 warninginfo sc-label-view id_1268898191"></p>
+ 
+</div>
+
+<div class="footerseperator"></div>
+<div class="buttons">
+	
+ <a class="leftBtn sc-button-view button capsule normal id_1268898192"><span class="button-inner"><span class="label">Check MobileMe Status&hellip;</span></span></a>
+ 
+ <a class="sc-button-view button capsule normal id_1268898193"><span class="button-inner"><span class="label">Reload</span></span></a>
+
+</div>
+</div>
+</div><div id="retry_progress_panel" class="dialog retry_progress_panel" style="width: 489px;"><img src="/my/shared/en/1bat/images/panels/panel_grad_bg.png" class= "panel_grad_bg" />
+
+<div class="panel_content">
+
+	<h1 class="title sc-label-view message_title"></h1>
+  <p class="warningtext">Please wait while we load your information.</p>
+ 
+  <div class="progress outer progress_bar" style="width: 100%"><div class="outer-head"></div>
+<div class="inner">
+<div class="inner-head"></div>
+<div class="inner-tail"></div>
+</div>
+<div class="outer-tail"></div>
+</div>
+
+</div>
+</div>    </div>
+
+    <!-- Include Site Javascript -->
+      <script type="text/javascript" src="/my/sproutcore/en/wpw/javascript.js"></script>
+  <script type="text/javascript" src="/my/shared/en/1bat/javascript.js"></script>
+  <script type="text/javascript" src="/my/mail/en/1bk7/javascript.js"></script>
+<script type="text/javascript">String.preferredLanguage = "en";</script>
+
+
+		  <script language='javascript'>
+		    window.buildNumbers = {};
+		    buildNumbers['currentApp'] = '1bk7';
+		    buildNumbers['sproutcore'] = 'wpw';
+		    buildNumbers['shared'] = '1bat';
+		  </script>
+
+    <script type="text/javascript">
+    appConfig = bootstrap.env['mail'];
+
+    
+    var extraParams = '';
+    if(window.location.hash)
+	{
+		extraParams = '&anchor='+window.location.hash.substring(1);
+	}
+    if(window.location.search.indexOf("flow=upgrade") != -1)
+	{
+		extraParams = extraParams + '&flow=upgrade';
+		var akeyIndex = window.location.search.indexOf("&aKey=");
+		if(akeyIndex != -1)
+		{
+			extraParams = extraParams+'&aKey='+window.location.search.substring(akeyIndex+6,akeyIndex+22);
+		}
+	}
+      window.stats={};var transport=null;var isc=(bootstrap.readCookie('isc-www.me.com')||bootstrap.readCookie('isc-secure.me.com')||bootstrap.readCookie('isc-apple.com')||'');function startUp(url,param){window.appReqTime=new Date().getTime();window.stats[url]={start:window.appReqTime};if(window.XMLHttpRequest){transport=new XMLHttpRequest();}else if(window.ActiveXObject){try{transport=new ActiveXObject("Msxml2.XMLHTTP");}catch(e){try{transport=new ActiveXObject("Microsoft.XMLHTTP");}catch(e){}}}if(!transport){return false;}transport.onreadystatechange=function(){if(transport.readyState==4){readServerResponse(transport);}};fullUrl=url+param;transport.open('GET',fullUrl,true);transport.setRequestHeader('X-Mobileme-Version','1.0');if(isc!=''){transport.setRequestHeader('X-Mobileme-Isc',isc);};transport.send(null);};var lang=appConfig.lang;url=appConfig.rootURL;var urlLang=window.location.pathname.toString().match(/\/.+\/(..)\/?$/);if(urlLang&&urlLang[1])lang=urlLang[1].toLowerCase();startUp(url,'?lang='+lang+extraParams);function readServerResponse(originalResponse){window.serverReqRecdTime=new Date().getTime();window.stats[url].end=window.serverReqRecdTime;window.serverResponse=originalResponse;if(typeof(Mac)!="undefined"&&Mac.dockController&&SC.page){bootstrap.ignoreAicCookie = false;Mac.dockController.handleAicCookie();}}
+      </script>
+
+
+		
+
+	
+	<!-- Render Page Views -->
+	<script type="text/javascript">
+SC.page = SC.Page.create({
+  unavailablePanel: SC.View.extend({
+    outlets: ["id1268898187","unavailableMessage","id1268898188"],
+    
+    id1268898187: SC.LabelView.extend({
+      valueBinding: "Mac.dockController.unavailableTitleText",
+      
+      localize: false,
+      escapeHTML: true
+    }).outletFor(".id_1268898187?"),
+    
+    unavailableMessage: SC.LabelView.extend({
+      valueBinding: "Mac.dockController.unavailableMessageText",
+      
+      localize: false,
+      escapeHTML: true
+    }).outletFor(".unavailable_message?"),
+    
+    id1268898188: SC.ButtonView.extend({
+      titleBinding: "Mac.dockController.unavailableButtonText",
+      
+      isDefault: true,
+      theme: "capsule",
+      action: "Mac.dockController.toggleUnavailable",
+      isEnabled: true
+    }).outletFor(".id_1268898188?"),
+    
+    isVisibleBinding: "Mac.dockController.isUnavailableVisible",
+    
+    paneType: "panel"
+  }).outletFor("#unavailable_panel") ,
+
+  errorPanel: SC.View.extend({
+    outlets: ["id1268898189","id1268898190","id1268898191","id1268898192","id1268898193"],
+    
+    id1268898189: SC.LabelView.extend({
+      valueBinding: "Mac.errorController.msgTitle",
+      
+      localize: true,
+      escapeHTML: true
+    }).outletFor(".id_1268898189?"),
+    
+    id1268898190: SC.LabelView.extend({
+      valueBinding: "Mac.errorController.msgLine1",
+      
+      localize: true,
+      escapeHTML: true
+    }).outletFor(".id_1268898190?"),
+    
+    id1268898191: SC.LabelView.extend({
+      valueBinding: "Mac.errorController.msgLine2",
+      
+      localize: true,
+      escapeHTML: true
+    }).outletFor(".id_1268898191?"),
+    
+    id1268898192: SC.ButtonView.extend({
+      isVisibleBinding: "Mac.errorController.showLeftButton",
+      isEnabledBinding: "Mac.errorController.showLeftButton",
+      isCancelBinding: "Mac.errorController.canCancel",
+      
+      theme: "capsule",
+      action: "Mac.errorController.onCommandExecute1",
+      isSelected: false,
+      isEnabled: true,
+      keyEquivalent: "escape"
+    }).outletFor(".id_1268898192?"),
+    
+    id1268898193: SC.ButtonView.extend({
+      isVisibleBinding: "Mac.errorController.showRightButton",
+      isDefaultBinding: "Mac.errorController.hasDefault",
+      
+      theme: "capsule",
+      action: "Mac.errorController.onCommandExecute3",
+      isSelected: false,
+      isEnabled: true
+    }).outletFor(".id_1268898193?"),
+    
+    paneType: "panel"
+  }).outletFor("#error_panel") ,
+
+  retryProgressPanel: SC.View.extend({
+    outlets: ["messageTitle","progressBar"],
+    
+    messageTitle: SC.LabelView.extend({
+      valueBinding: "Mac.retryController.messageTitle",
+      
+      localize: true,
+      escapeHTML: true
+    }).outletFor(".message_title?"),
+    
+    progressBar: SC.ProgressView.extend({
+      maximumBinding: "Mac.retryController.FINAL_RETRY_DELAY",
+      valueBinding: "Mac.retryController.currentTime",
+      
+      isEnabled: true,
+      isIndeterminate: false,
+      minimum: "0"
+    }).outletFor(".progress_bar?"),
+    
+    paneType: "panel"
+  }).outletFor("#retry_progress_panel") ,
+
+  wrapper: SC.View.extend({
+    outlets: ["dock","toolbarContainer","searchWrapper","helpButton","logoutButton","mainContainer"],
+    
+    dock: SC.SegmentedView.extend({
+      outlets: ["mailButton","contactsButton","calendarButton","photosButton","filesButton","findmyiphoneButton","accountButton"],
+      
+      mailButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.mailUrl",
+        
+        value: "mail"
+      }).outletFor(".mail_button?"),
+      
+      contactsButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.contactsUrl",
+        
+        value: "contacts"
+      }).outletFor(".contacts_button?"),
+      
+      calendarButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.calendarUrl",
+        
+        value: "calendar"
+      }).outletFor(".calendar_button?"),
+      
+      photosButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.galleryUrl",
+        
+        value: "gallery"
+      }).outletFor(".photos_button?"),
+      
+      filesButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.idiskUrl",
+        
+        value: "idisk"
+      }).outletFor(".files_button?"),
+      
+      findmyiphoneButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.findmyiphoneUrl",
+        
+        value: "findmyiphone"
+      }).outletFor(".findmyiphone_button?"),
+      
+      accountButton: Mac.LinkButtonView.extend({
+        hrefBinding: "Mac.dockController.accountUrl",
+        
+        value: "account"
+      }).outletFor(".account_button?"),
+      
+      isEnabledBinding: "Mac.dockController.isEnabled",
+      valueBinding: "Mac.dockController.selectedApplicationName"
+    }).outletFor(".dock?"),
+    
+    toolbarContainer: SC.ContainerView.extend({
+      
+    }).outletFor(".toolbar_container?"),
+    
+    searchWrapper: SC.View.extend({
+      outlets: ["searchField","searchClearButton"],
+      
+      searchField: Mac.SearchFieldView.extend({
+        valueBinding: "Mac.dockController.searchFieldValue",
+        
+        hint: "Search"
+      }).outletFor(".search_field?"),
+      
+      searchClearButton: SC.ButtonView.extend({
+        isVisibleBinding: "Mac.dockController.showSearchClearButton",
+        
+        action: "Mac.dockController.clearSearchField"
+      }).outletFor(".search_clear_button?"),
+      
+      isVisibleBinding: "Mac.dockController.isSearchEnabled"
+    }).outletFor(".search_wrapper?"),
+    
+    helpButton: SC.ButtonView.extend({
+      toolTipBinding: "Mac.dockController.helpTooltip",
+      
+      action: "Mac.dockController.help"
+    }).outletFor(".help_button?"),
+    
+    logoutButton: SC.ButtonView.extend({
+      toolTipBinding: "Mac.dockController.logoutTooltip",
+      
+      action: "Mac.dockController.logout"
+    }).outletFor(".logout_button?"),
+    
+    mainContainer: SC.ContainerView.extend({
+      outlets: ["loadingSkeleton"],
+      
+      loadingSkeleton: SC.View.extend({
+        outlets: ["loadingContainer"],
+        
+        loadingContainer: SC.View.extend({
+          
+        }).outletFor(".loading_container?")
+      }).outletFor(".loading?")
+    }).outletFor(".main_container?")
+  }).outletFor("#wrapper") 
+}); 
+</script>
+
+    <!-- Start SproutCore on Page Load -->
+    <script type="text/javascript">
+
+		if ( bootstrap.Browser.IE) {(function(){
+				try {
+					document.documentElement.doScroll("left");
+				} catch( error ) {
+					setTimeout( arguments.callee, 0 );
+					return;
+				}
+				SC.didLoad();
+			})();
+		}else if ( bootstrap.Browser.Opera ){
+				document.addEventListener( "DOMContentLoaded", function () {
+					for (var i = 0; i < document.styleSheets.length; i++)
+						if (document.styleSheets[i].disabled) {
+							setTimeout( arguments.callee, 0 );
+							return;
+						}
+					SC.didLoad();
+				}, false);
+		}else if( bootstrap.Browser.Firefox ){
+					if (document.addEventListener) {
+						document.addEventListener("DOMContentLoaded", SC.didLoad, false);
+					}
+			}else{
+				window.onload=SC.didLoad;
+			}
+			
+			</script>
+	
+</body>	
+</html>

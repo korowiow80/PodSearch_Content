@@ -1,0 +1,73 @@
+<html>
+<head>
+<style type="text/css">
+a:link, a:visited {
+  color: #000099;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 13px;
+  color:#333;
+}
+
+div#ctr {
+  margin: 0 auto 0 auto;
+  width:550px;
+  padding:0;
+}
+
+div#detail {
+  margin-top: 1em;
+  padding:6px;
+  border:1px dotted blue;
+}
+
+h1 {
+  font-size:23px;
+}
+
+h2 {
+  font-size:18px;
+  margin-bottom:0;
+}
+
+h3 {
+  color:#666;
+  margin-bottom:0;
+}
+
+
+li {
+margin-bottom:1em;
+}
+
+img {
+border:0;
+}
+
+
+</style>
+</head>
+<body>
+<div id="ctr"><a href="http://www.feedburner.com"><img src="http://www.feedburner.com/fb/images/v2logo_white.gif"/></a>
+<h1>Bang! Kapowww! Krakkk!</h1>
+<h2>(FeedBurner encountered an error while trying to bring you this feed and is now keeping its head down. Details follow.)</h2>
+<div id="detail">
+<p><strong>Feed Address:</strong> <script type="text/javascript">document.write(location.protocol + "//" + encodeURI(location.host + location.pathname))</script></p>
+<p><strong>HTTP Error Code:</strong> 502</p>
+<p><strong>Detail:</strong> There was a problem retrieving the feed: www.activatorpodcast.net</p>
+</div>
+<h3>What can I do about this?</h3>
+<ul>  
+  <li>The issue you encountered may be temporary. If it persists after you reload this page, please try your request again later. You may also want to contact the original feed publisher or post a message about the issue in the <a href="http://groups.google.com/group/feedburner" target="_blank">FeedBurner Help Group</a>.</li>
+</ul>
+
+</div>
+</body>
+</html>

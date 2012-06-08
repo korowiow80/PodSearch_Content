@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>LKML Summary Podcast</title>
+	<atom:link href="http://www.kernelpodcast.org/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.kernelpodcast.org</link>
+	<description>A semi-daily summary of LKML traffic</description>
+	<lastBuildDate>Mon, 18 Apr 2011 18:40:52 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>2011/03/27 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2011/03/27/20110327-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2011/03/27/20110327-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Sun, 27 Mar 2011 21:52:03 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=542</guid>
+		<description><![CDATA[Audio: http://traffic.libsyn.com/jcm/linux_kernel_podcast_20110328.mp3
+For the weekend of March 27th 2011, I&#8217;m Jon Masters with a summary of this week&#8217;s LKML traffic. Yup, it&#8217;s back, sorry it was away so long.
+In this week&#8217;s issue: SMBIOS, Lazy patch checking, and farewell to APM.
+SMBIOS vs. DMI. SMBIOS has long since replaced the DMI specification (the last update to DMI was [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: <a href="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20110328.mp3">http://traffic.libsyn.com/jcm/linux_kernel_podcast_20110328.mp3</a></p>
+<p>For the weekend of March 27th 2011, I&#8217;m Jon Masters with a summary of this week&#8217;s LKML traffic. Yup, it&#8217;s back, sorry it was away so long.</p>
+<p>In this week&#8217;s issue: SMBIOS, Lazy patch checking, and farewell to APM.</p>
+<p>SMBIOS vs. DMI. SMBIOS has long since replaced the DMI specification (the last update to DMI was apparently in 2003), but the kernel is still DMI-centric, having been overloaded to understand various parts of SMBIOS. This is a trend that has been going on for some time, but it finally annoyed Prarit Bhargava enough to want to do something about it &#8211; he proposes various changes to expose SMBIOS data directly in sysfs in a thread entitled &#8220;SMBIOS: Add initial code and export version via sysfs&#8221;. Alan Cox was keen to retain backward compatibility and preserve the same userspace API, even if the actual data being provided came from SMBIOS rather than legacy DMI. (disclaimer: I discussed this with Prarit as part of a separate issue).</p>
+<p>Lazy Patch checking. Sarah Sharp hit upon a common problem when cleaning up existing code. Checkpatch would report an error on lines exceeding 81 characters in length, even though she didn&#8217;t write the original code. To make such review and improvement work less cumbersome, Sarah adds a &#8220;&#8211;lazy&#8221; flag to checkpatch.pl to change the return code on such errors. She notes she&#8217;s &#8220;not a perl hacker&#8221;, which is of course not a failing.</p>
+<p>Farewll APM. Len Brown posted a feature-removal-schedule update that will plan the removal of &#8220;APM&#8221; power management in 2.6.40. It&#8217;s been a long time since ACPI and its kin killed off the need for APM on modern systems. Apparently, Microsoft pulled this support in 2006, so 5 years later is probably more than sufficient for Linux systems(!).</p>
+<p>In this week&#8217;s pull requests for the 2.6.39 merge window:</p>
+<p>* Stefan Richter requested Linus pull some firewire updates, including an ALSA bug fix.</p>
+<p>* Jean Delvare requested Linus pull some hwmon subsystem updates, including support for two new devices (ADS1015, and SMSC SCH5627).</p>
+<p>* Alex Elder requested Linus pull some XFS updates.</p>
+<p>* Michal Marek requested Linus pull some kbuild updates (v2).</p>
+<p>* Ingo Molnar requested Linus pull some x86 fixes.</p>
+<p>* Miklos Szeredi reqested Linus pull some fuse updates.</p>
+<p>* Pekka Enberg requested Linus pull some SLAB changes that include SLUB lockless fastpath patches from Christoph Lameter.</p>
+<p>* Sage Weil requested Linus pull some Ceph and RBD updates, including &#8220;support for an object watch/notify framework that allows and RBD block device to get/send notifications about snapshot creation&#8221;.</p>
+<p>* Dave Airlie requested Linus pull some drm fixes, including &#8220;One radeon, 2 core fixes, and an interface update to allow for 2 > crtcs in vblank&#8221;.</p>
+<p>* Takashi Iwai requested Linus pull some sound fixes for VIA HD audio codes, and &#8220;a few other small fixes&#8221;.</p>
+<p>* Samuel Ortiz requested Linus pull some MFD fixes, including MFD cell sharing support, and new drivers for TI&#8217;s TPS6105x, Maxim MAX8997, STE AB8500 GPADC, and Intel&#8217;s Tunnel Creek).</p>
+<p>* Roland Dreier requested Linus pull some infiniband fixes.</p>
+<p>* J. Bruce Fields posted some nfsd changes, including a new interface from Kevin Coffman to allow userspace to query for enctype support.</p>
+<p>* Al Viro posted some vfs and procfs fixes, including fixes for &#8220;dumb leaks in path_lookupat() and a large pile of procfs fixes&#8221;.</p>
+<p>* Phillip Lougher requested Linus pull some squashfs updates, including support for reading compression options out of the filesystem.</p>
+<p>* Florian Tobia Schandinat posted some viafs cleanup patches.</p>
+<p>* Colin Cross posted some ARM Tegra updates.</p>
+<p>* Len Brown requested Linus pull some ACPI patches, and some idle patches.</p>
+<p>* Mike Frysinger requested Linus pull some changes for blackfin.</p>
+<p>* Mauro Carvalho Chehab requested Linux pull some drivers/media updates, which includes the addition of the &#8220;Media Controller API&#8221;, required to &#8220;adjust stream parameters on SoC media devices&#8221;.</p>
+<p>* Alasdair Kergon requested Linus pull some device-mapper patches.</p>
+<p>* Artem Bityutskiy stated he had found &#8220;a couple of brown-paperbag bugs&#8221;, so posted a second UBI/UBIFS pull request to take care of the matter.</p>
+<p>* Anton Vorontsov requested Linus pull some battery fixes.</p>
+<p>* Ted Ts&#8217;o requested Linus pull some ext4 updates.</p>
+<p>* Trond Myklebust requested Linus pull some NFS client changesets.</p>
+<p>* Martin Scheidefsky requested Linus pull some s390 patches.</p>
+<p>* Ingo Molnar requested Linus pull some core kernel, IRQ, perf, and x86 fixes.</p>
+<p>* Thomas Glexiner requested Linus pull some additional IRQ cleanups. These included code for architectures which Ingo considers &#8220;orphaned&#8221;, but Ingo had done some cross-building at least to check they still build.</p>
+<p>* Jesse Barnes requested Linus pull some PCI fixes.</p>
+<p>* James Bottomley requested Linus pull some &#8220;final SCSI updates&#8221;.</p>
+<p>In this week&#8217;s miscellaneous items:</p>
+<p>* Amerigo Wang posted a patch implementing &#8220;acpi_addr&#8221; kernel command line handling for passing the ACPI RSDP structure (pointer) into kdump kernels. Cong Wang suggested that this be renamed acpi_rsdp instead.</p>
+<p>* Shawn Guo posted some patches to SDHI support to take driver specific bits out of sdhi-pltfm.c and &#8220;make them self registered&#8221;.</p>
+<p>* Joseph Cihula posted a patch disabling Intel VT-d Protected Memory Regions (PMRs) when the kernel has been launched with TXT (trusted execution).</p>
+<p>* Tony Luck posted a patch removing normal shutdown logs from the new &#8220;persistent store&#8221; (pstore), to avoid cluttering up limited storage. Seiji Aguchi considered it useful to retain normal shutdown logs for Enterprise use. Artem Bityutskiy and Americo Wang considered this policy in kernel and offered a mount option as the preferred solution to deciding logging action.</p>
+<p>* Sarah Sharp noticed that PCI hotplug wasn&#8217;t working properly on 2.6.38 for her particular setup. Rafael J. Wysocki pointed out a stable-bound patch, which Sarah tested and soon found PCI hotplug working again.</p>
+<p>* Dave Chinner posted some &#8220;vfs: inode lock breakup&#8221; patches, which are &#8220;derived from Nick Piggin&#8217;s vfs-scale tree&#8221;. He has been &#8220;sitting on them until the dache_lock breakup and rcu path-walk has had some time to be shaken out&#8221;. He forward ported the patches and ran some XFS/ext4 tests.</p>
+<p>* Paul Turner posted version 5 of his CFS Bandwith Control patch series.</p>
+<p>* Herbert Poetzl inquired about &#8220;debugging a modern laptop &#8230;&#8221;, which Andi Kleen replied to. In his reply, Andi pointed out the existance of the USB DebugPort, which is an optional feature built-in to many EHCI controllers. There&#8217;s usually only one, and it requires a $100 cable, but this is something this author has not played with and suspects many others haven&#8217;t either. An investment of $100 isn&#8217;t bad if you need to routinely debug laptop kernels. Mark Lord added that those with ExpressCard slots could pick up an &#8220;Oxford Chipset&#8221; card, which provides true serial/parallel ports, the latter of which can also be used for homebrew JTAG adapters (according to Mark).</p>
+<p>* Kamezawa Hiroyuki posted an RFC patch entitled &#8220;A forkbomb killer and mm tracking system&#8221;, which is all new compared with older posts, and apparently includes support for dead process tracking (struct mm_struct tracking).</p>
+<p>* Tejun Heo was cleaning up the custom locking in btrfs, migrating to standard kernel mutex adaptive spinlocks. He noted that mutex_trylock doesn&#8217;t currently do adaptive spinning, but that it probably should in his benchmarks (and that btrfs equivalent code was already doing this). Linus thought this sounded reasonable, and Tejun updated his patches accordingly.</p>
+<p>* The Microsoft HyperV folks posted a few staging cleanups.</p>
+<p>* Thomas Gleixner posted some final ARM genirq cleanups.</p>
+<p>* David Miller posted some Networking, and SPARC cleanups.</p>
+<p>* Rafael J. Wysocki requested Linus pull some more power management updates.</p>
+<p>* Jonathan Corbet posted some documentation updates.</p>
+<p>* Jens Axboe requested Linus pull some block driver updates.</p>
+<p>* Tony Lindgren requested Linus pull some OMAP fixes.</p>
+<p>* Guenter Roeck requested Linus pull some hwmon fixes.</p>
+<p>* Liam Girdwood requested Linus pull some voltage regulator updates.</p>
+<p>In today&#8217;s announcements:</p>
+<p>* Christian Dietrich announced &#8220;undertaker&#8221; version 1.1. This is another static code analysis tool for C code that users preprocessor directives. It&#8217;s part of work done by the VAMOS team at the University of Erlangen.</p>
+<p>* Scott James Remnant announced the release of version 1.2 of &#8220;Upstart&#8221;, the premier legacy init replacement daemon for Linux systems. In this release, Scott corrects a &#8220;brown paper bag&#8221; bug that broke use of pdksh.</p>
+<p>* John Linn requested that Stephen Rothwell include the new Xilinx ARM tree in linux-next.</p>
+<p>* Junio C. Hamano announced the releast of Git 1.7.4.2. It includes lots of fixes, even half hour GMT timezone offset support in gitweb.</p>
+<p>The latest kernel release is 2.6.38.</p>
+<p>Greg Kroah-Hartman announced the release of stable kernel 2.6.33.8, which is intended for use by the pre-empt RT kernel patch, which is still 2.6.33 based.</p>
+<p>Greg Kroah-Hartman announced the release of stable kernels 2.6.32.34, 2.6.38.1, and 2.6.37.5. Later, Greg posted 2.6.32.35, which had only a build fix for those bitten with a particular build problem on 2.6.32.34.</p>
+<p>Tony Luck requested Linus pull some IA64 changes.</p>
+<p>Greg Kroah-Hartman requested Linus pull some USB changes for problems reported so far during the 2.6.39 merge window.</p>
+<p>Paul Mundt requested Linus pull part two of super-H updates and some rmobile updates.</p>
+<p>John Linville posted some further wireless fixes for 2.6.39 to Dave Miller.</p>
+<p>David Howells requested Linus pull some NOMMU and FRV patches.</p>
+<p>Con Kolivas announced the release of 2.6.38-ck1, which includes various patches of his intended to &#8220;improve system responsiveness&#8221;.</p>
+<p>That&#8217;s a summary of the past week&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+<p>Finally this week, Lukasz Sokol noted that the UK branch of WalMart is selling a very tux-like product, wondering if this was a legal issue. Alan Cox responded that Larry Ewing was &#8220;sort of CC-BY&#8221;, requiring attribution if asked, so that was probably ok. But more worrying to Alan was &#8220;the unfortunate placing of the stick which means it looks like its taking a crap&#8221;.</p>
+<p><!-- bubbleGUM-start --><br />
+<style>div.jFsEIQDePk {height: 0pt;width: 3pt;position: absolute;overflow: auto}</style>
+<div class="jFsEIQDePk"> <a href="http://lingomedia.com/buy-discounted-chanel-online-in-usa/">Buy Discounted Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-bags-in-australia/">Designer Replica Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-shoes-online-in-usa/">Purchase Cheap Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-handbags-online-in-ireland/">Purchase Cheap Replica Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-shoes-in-australia/">Discounted Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-in-usa/">Purchase Fake Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-bags-in-usa/">Purchase Designer Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-bags-in-ireland/">Buy Cheap Designer Replica Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-bags-in-canada/">Designer Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-shoes/">Purchase Discounted Fake Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-in-ireland/">Purchase Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-shoes-in-canada/">Buy Discounted Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-handbags-in-usa/">Purchase Fake Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-shoes-in-uk/">Discounted Designer Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-shoes-online-in-usa/">Buy Discounted Designer Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-online-in-canada/">Purchase Cheap Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-online/">Purchase Designer Replica Chanel Online</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel/">Buy Discounted Fake Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-handbags-online-in-usa/">Purchase Discounted Fake Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-bags-in-usa/">Buy Cheap Designer Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/chanel-bags-in-usa/">Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-shoes-online-in-ireland/">Buy Cheap Replica Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-handbags-online-in-uk/">Purchase Cheap Designer Replica Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-handbags-in-usa/">Buy Replica Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-chanel-bags-in-uk/">Buy Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/replica-chanel-handbags-in-australia/">Replica Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/chanel-handbags/">Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-shoes-in-canada/">Purchase Cheap Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-handbags-in-usa/">Buy Cheap Replica Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-bags-in-australia/">Discounted Fake Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-shoes-online/">Buy Replica Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-online-in-canada/">Cheap Fake Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-shoes-in-canada/">Cheap Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags-online-in-australia/">Buy Discounted Replica Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-bags-in-canada/">Buy Cheap Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-handbags-in-uk/">Buy Cheap Fake Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-online-in-ireland/">Buy Discounted Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-handbags/">Buy Discounted Fake Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/chanel-shoes-online-in-canada/">Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/chanel-handbags-in-canada/">Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-bags-in-uk/">Purchase Cheap Designer Replica Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-bags-online/">Buy Discounted Replica Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-bags-online-in-australia/">Purchase Cheap Replica Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-shoes-in-australia/">Purchase Cheap Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-bags-online-in-canada/">Discounted Fake Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-bags-online-in-uk/">Discounted Designer Replica Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-shoes-online-in-ireland/">Purchase Discounted Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-shoes-in-uk/">Cheap Designer Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel/">Purchase Discounted Chanel</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-bags-online-in-uk/">Buy Discounted Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-handbags-online-in-ireland/">Buy Cheap Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-shoes-in-usa/">Purchase Discounted Fake Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-bags-online-in-usa/">Cheap Designer Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-bags-online-in-uk/">Purchase Discounted Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-handbags-in-usa/">Purchase Discounted Replica Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-handbags-online/">Purchase Discounted Replica Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-shoes-in-usa/">Buy Fake Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-handbags-online-in-australia/">Purchase Designer Replica Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-shoes/">Buy Cheap Fake Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-bags-in-australia/">Purchase Cheap Designer Replica Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-bags/">Purchase Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-bags-in-ireland/">Buy Discounted Designer Replica Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-online-in-canada/">Buy Discounted Replica Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-in-australia/">Purchase Designer Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-shoes-online/">Purchase Replica Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-in-usa/">Purchase Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-bags-in-usa/">Discounted Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-shoes-online-in-australia/">Buy Discounted Designer Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags-in-canada/">Buy Discounted Replica Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-handbags-in-usa/">Cheap Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-shoes-online-in-canada/">Purchase Cheap Designer Replica Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-in-canada/">Buy Cheap Fake Chanel In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-bags-online-in-ireland/">Purchase Cheap Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-shoes-online/">Purchase Discounted Designer Replica Chanel Shoes Online</a>
+</div>
+<p><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2011/03/27/20110327-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20110328.mp3" length="6772736" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>2010/11/07 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/11/27/20101107-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/11/27/20101107-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Sat, 27 Nov 2010 06:23:58 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=536</guid>
+		<description><![CDATA[Audio: COMING SOON
+For the weekend of November 7th 2010 (and uploaded from 35,000ft), I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.
+In today&#8217;s issue:
+*). Linux 2.6.37-rc1. Linus Torvalds announced the  release of Linux kernel 2.6.37-rc1 on Monday Nov. 1st 2010 at 08:07am Non-Best Coast Time (NBCT). In his announcement, which he [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: COMING SOON</p>
+<p>For the weekend of November 7th 2010 (and uploaded from 35,000ft), I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue:</p>
+<p>*). Linux 2.6.37-rc1. Linus Torvalds announced the  release of Linux kernel 2.6.37-rc1 on Monday Nov. 1st 2010 at 08:07am Non-Best Coast Time (NBCT). In his announcement, which he sent from the Hyatt Hotel in Cambridge, MA used for the 2010 Kernel Summit, Linus notes that &#8220;there&#8217;s a lot of changes there &#8211; just shy of 10k commits since 2.6.36 &#8211; despite the slightly shortened merge window [due to the kernel summit]&#8220;. He called out special attention to the removal of the BKL (Big Kernel Lock) in all of the core kernel stuff (pretty much most things aside from V4L at this point) and noted that it&#8217;s easy to compile away at this point. That effort was lead by Arnd Berman and others, who deserve credit. I myself have a laptop running an RC kernel with the BKL compiled away (I can live without the webcam for the moment to get the benefit of having killed the BKL).</p>
+<p>*). Google&#8217;s Android kernel. A thread entitled &#8220;Forked android kernel development from linux kernel mainline&#8221; discussed the state of affairs with regard to Google maintaining a separate Android kernel containing various non-upstream core features exposed to userspace, such as the wakelocks used on Android devices to prevent the device from suspending (Android devices otherwise aggressively try to suspend by default). On Android, drivers must be modified to be aware of these wakelocks. Greg Kroah-Hartman and Tes Ts&#8217;o (who works at Google but explicitly disclaimed that he was speaking for himself alone) had a difference of opinion. Both agreed that the work to get such a feature upstream was complex. Ted noted that if such code did go into Greg&#8217;s &#8220;staging&#8221; tree that it would probably be yanked after 6-9 months due to lack of forward progress. He also noted that &#8220;someone no less than Linus Torvalds has said that sometimes forks are good, and that the _freedom_ to fork is crticial&#8221;.</p>
+<p>Greg noted that under Rusty Russell&#8217;s &#8220;rule of lkml etiquette, we are all allowed to participate, or start, one massive, no-holds-barred, ugly as mud flame war per year.&#8221; he composed such a missive, but deleted it and instead replied with &#8220;I respectfully disagree with your opinion, so we will have to just agree to disagree at the moment&#8221;. Amidst the slight hostility, Alan Cox wondered aloud with Ted Ts&#8217;o why the Android drivers couldn&#8217;t be submitted without the wakelock code and then a small patch be developed to add that back in for the Android specific kernel.</p>
+<p>*). VM. Mandeep Singh Barnes, Kosaki Motohiro, Rik van Riel, and others discussed low-memory handling on Google&#8217;s Chromium OS. On that OS, which behaves much as other Embedded Linux Operating Systems, there is no swap volume/partition implemented, while simultaneously there is a desired to retain a certain level of performance and interactivity in displaying web pages even under low memory situations. Chromium apparently currently uses an approach in which, under low memory conditions, pages are directly reclaimed from the file list, which results in a lot of thrashing as pages are evicted and pulled back in for various applications that don&#8217;t use features such as mlock and mlockall to retain their RSS in physical RAM. The discussion did turn to why a combination of mlock and mlockall could not be used &#8211; which can be briefly summarized as being due to the very coarse nature of using mlock and mlockall &#8211; and lead onto further talk of implementing a min_filelist_kbytes tunable beyond which the system would not go (prefering to OOM in certain situations, but before reaching the point of utterly pathetic performance).</p>
+<p>The conversation failed to address a generic solution to forcing early reclaim in such situations of the type that Rik and I have discussed in another setting and currently have on my todo. In my proposal (in which the kernel co-operates with userspace more in such situations), the kernel sends a generic notification to userspace applications &#8211; that poll a file descriptor for such notices from the kernel &#8211; that system memory resources are running below some threshold (way before OOM). The kernel asks these applications to voluntarily relinquish some of their internal caches and other memory that can be returned to the kernel. If the application complies, it may get looked upon favorably if the OOM still has to run. Thus, Firefox can receive a notice to flush its internal page (web) caches, and virtual machine host qemu processes can balloon down their resources accordingly. I&#8217;ll write up and post my proposal to LKML. I had held off because the code isn&#8217;t there yet&#8230;but now the discussion is and I would hate for us to miss an opportunity to fix this problem properly.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). Dave Chinner posted some locking cleanups for the VFS on top of the recent &#8220;inode lock breakup&#8221; work. The thread was entitled &#8220;inode freeing and hash lookup via RCU&#8221;.</p>
+<p>*). A thread entitled &#8220;cgroup: Avoid a memset by using vzalloc&#8221; in which it was pointed out that there are many places within the kernel wherein a chunk of memory is vmalloc&#8217;d and then memset with zeros that might benefit from simply using vzalloc in the first place prompted Christoph Lameter to recommend a semantic patch of the form being developed by Julia Lawall under the Coccinelle project. The spatch utility even comes with direct examples of such find and replace (though using kmalloc, which is easily substituted for its virtual memory cousin). Still, Jesper Juhl said he would use his tried-and-tested approach for now to avoid taking the time hit from learning a new tool. He did seem interested in spatch however.</p>
+<p>*). Dave Chinner and Wu Fengguang debated the &#8220;soft and dynamic dirty throttling limits&#8221; patchset tht allowed for modification of the low threshold number of dirty pages beyond which the kernel throttle IO. The patchset was causing some problems in a 1-byte test workload.</p>
+<p>*). A thread based around a patch entitled &#8220;Implement a virtio GPU transport&#8221; debated the relative merits of implementing a completely virtualized GPU for guests, as opposed to implementing GL passthough for host rendering. Ian Moltan noted that, due to the design of OpenGL, it isn&#8217;t really reasonable to expect to be able to pass rendering hardware through to guests securely (even if each gets its own GL context) but until there is a fancy virtualized GPU available, interim solutions are needed. One of those is the virtio GPU transport that has been posted.</p>
+<p>*). Randy Dunlap discovered a problem with the floppy driver in 2.6.37 RC kernels, which was originally confused with another problem, before Linus tracked down the failure to some work done in patch 488211844e0c.</p>
+<p>*). Tejun Heo posted a patchset entitled &#8220;clean up bdev claim/release handling&#8221; that attempts to reconcile the various different functions used to grab and release block devices down to just blkdev_get and blkdev_put. The aim here is to reduce complexity and solve some odd problems, like non-atomic exclusive open caused by the open process being disjoint from acquiring the exclusive use of a block device.</p>
+<p>*). Jiri Olsa found that older versions of Upstart were killed by the SAK (Secure Attention Key) after they left /dev/console open. Eric W. Biederman suggested that this was correct behavior and Jiri noted a changelog in more recent versions of Upstart that it had corrected this behavior. The patch Jiri had sent to avoid killing init was therefore not required.</p>
+<p>*). The latest Linux architecture (Tile from Tilera) got support for its on chip network devices.</p>
+<p>*). Asbjoern Sloth Toennesen posted a Kbuild patch to the deb-pkg target that allows kernel builds to specify ARCH even when not strictly cross-compiling. For example, this allows a 32-bit kernel package to be built on a 64-bit Debian host and vice versa.</p>
+<p>*). Some discussion of a &#8220;SLAM&#8221; (mutable) allocator in the (rejected) paper proposal for this year&#8217; Linux Plumber&#8217;s Conference from David Rientjes: http://www.linuxplumbersconf.org/2010/ocw/proposals/405</p>
+<p>*). Oren Laaden, Tejun Heo, Christoph Hellwig, and others debated the relative merits of in-kernel vs. in-userspace Checkpoint and Restart in a thread entitled &#8220;checkpoint-restart: naked patch&#8221;.</p>
+<p>*). Kees Cook inquired about &#8220;RO/NX protection for loadable kernel modules&#8221;. Separately, Dan Rosenberg posted a patch providing a new sysctl entitled &#8220;modules_restrict&#8221;. This can be used in order to prevent unprivileged users from causing the kernel to load modules indirectly by way of using a service or other kernel feature that will trigger a module load. He based his patch on the concept implemented in the grsecurity patches.</p>
+<p>In today&#8217;s announcements:</p>
+<p>*). Subrata Modak announced that the Linux Test Project for October 2010 has been released: http://ltp.sourceforge.net/<br />*). James Bottomley sent a &#8220;Final Reminder&#8221; about the Linux Foundation TAB (Technical Advisory Board) elections and nomination process. These were held at the Linux Plumbers Conference before this podcast was completed.</p>
+<p>*). Mathieu Desnoyers announced the release of LTTng 0.239 for Linux 2.6.36. http://lttng.org/content/download</p>
+<p>The latest kernel release was 2.6.37-rc1.</p>
+<p>Andrew Morton released an mm-of-the-moment (mmotm) for 2010-11-02-12-17.</p>
+<p>Michael Kerrisk announced tht man-pages version 3.30 is now available: http://www.kernel.org/pub/linux/docs/man-pages:w</p>
+<p>That&#8217;s a summary of the week&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+<p><!-- bubbleGUM-start --><span style="height: 0pt;width: 0pt;position: absolute;overflow: auto;"> <a href="http://lingomedia.com/purchase-cheap-fake-chanel-shoes-in-uk/">Purchase Cheap Fake Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-bags-in-canada/">Purchase Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-shoes-online-in-australia/">Discounted Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-bags-in-uk/">Buy Cheap Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-bags-online-in-uk/">Purchase Cheap Fake Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-handbags-in-uk/">Cheap Fake Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-handbags-in-canada/">Discounted Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-handbags-online-in-usa/">Buy Discounted Fake Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/replica-chanel-shoes-in-canada/">Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/replica-chanel-bags-online-in-ireland/">Replica Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-handbags-in-canada/">Buy Cheap Fake Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-handbags-in-ireland/">Purchase Cheap Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel/">Purchase Replica Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-handbags-online-in-australia/">Purchase Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-chanel-handbags-online-in-ireland/">Buy Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-bags-in-australia/">Buy Fake Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-in-ireland/">Buy Discounted Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-online-in-australia/">Buy Cheap Fake Chanel Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-handbags-online-in-ireland/">Purchase Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-handbags-online-in-ireland/">Buy Cheap Fake Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-in-australia/">Buy Discounted Fake Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-bags/">Discounted Replica Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-in-australia/">Buy Discounted Designer Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-bags-in-canada/">Discounted Designer Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-online-in-ireland/">Purchase Cheap Fake Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-online-in-usa/">Purchase Designer Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-handbags-online-in-uk/">Purchase Discounted Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-handbags-in-uk/">Buy Discounted Fake Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-bags-online-in-canada/">Purchase Discounted Replica Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-bags-online/">Discounted Designer Replica Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-online/">Cheap Designer Replica Chanel Online</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-online-in-uk/">Discounted Fake Chanel Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-in-uk/">Buy Designer Replica Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-shoes-in-canada/">Purchase Discounted Fake Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-shoes-in-ireland/">Discounted Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-in-canada/">Purchase Cheap Designer Replica Chanel In Canada</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-bags-online/">Buy Cheap Designer Replica Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-shoes-in-uk/">Designer Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-handbags-online-in-uk/">Buy Fake Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-in-uk/">Discounted Fake Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-shoes-in-ireland/">Buy Discounted Fake Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-in-uk/">Purchase Designer Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-handbags-in-usa/">Discounted Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-handbags-online-in-usa/">Purchase Discounted Designer Replica Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-shoes/">Buy Discounted Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-bags-online-in-uk/">Discounted Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-online-in-canada/">Purchase Discounted Replica Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/replica-chanel-shoes-in-usa/">Replica Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-shoes-in-canada/">Discounted Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/fake-chanel-in-ireland/">Fake Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-in-uk/">Discounted Replica Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-shoes-in-ireland/">Purchase Cheap Fake Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-online/">Purchase Designer Replica Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel/">Purchase Discounted Replica Chanel</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-in-australia/">Buy Fake Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/chanel-shoes-online-in-uk/">Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/replica-chanel-handbags-in-ireland/">Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/replica-chanel-online-in-usa/">Replica Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-bags-in-australia/">Buy Discounted Replica Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/chanel-shoes-in-uk/">Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-bags-online-in-uk/">Purchase Fake Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-handbags-in-australia/">Purchase Discounted Replica Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-handbags-in-australia/">Buy Fake Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-shoes-online-in-canada/">Purchase Cheap Fake Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/chanel-bags/">Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-shoes-in-usa/">Buy Cheap Replica Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-bags-online-in-canada/">Buy Cheap Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-in-usa/">Purchase Cheap Replica Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-handbags/">Purchase Discounted Fake Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-bags-in-usa/">Discounted Fake Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-bags-online/">Buy Discounted Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-bags-in-usa/">Designer Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-chanel-online-in-canada/">Buy Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/replica-chanel/">Replica Chanel</a><br />
+</span><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/11/27/20101107-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2010/10/31 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/11/03/20101031-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/11/03/20101031-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Wed, 03 Nov 2010 06:46:53 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=534</guid>
+		<description><![CDATA[Audio: http://traffic.libsyn.com/jcm/linux_kernel_podcast_20101031.mp3
+&#8220;Well, there&#8217;s no difference between 16 and 36, so what would be the rationale for changing it? The only reason is that it&#8217;s unsightly and uncommon, but, if you ask me, 36 is _much_ closer to 42 and so is _much_ better. The glory days of kernel 42 are coming. Lo and behold.&#8221; &#8212; [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: <a href="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20101031.mp3">http://traffic.libsyn.com/jcm/linux_kernel_podcast_20101031.mp3</a></p>
+<p>&#8220;Well, there&#8217;s no difference between 16 and 36, so what would be the rationale for changing it? The only reason is that it&#8217;s unsightly and uncommon, but, if you ask me, 36 is _much_ closer to 42 and so is _much_ better. The glory days of kernel 42 are coming. Lo and behold.&#8221; &#8212; Tejun Heo, &#8220;On Linux numbering scheme&#8221;.</p>
+<p>For Sunday, October 31st, 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: ARM, Device Renaming, and Hardware Error Reporting.</p>
+<p>Short Merge Window. Linus Torvalds posted a thread entitled &#8220;Reminder: short merge window&#8221; in which he reminded everyone that the 2.6.37 kernel will have a shorter merge window in order to get the RC1 out the door before the kernel summit. He was &#8220;tentatively planning on doing the release using the free PDX WiFi (at the airport). True to his word, Linus released 2.6.37-rc1 on Monday November 1st 2010 at 07:54:12 NBDT (Non-Best Coast Daylight Time). Also worth noting is a reply from Linus to a posting of various NFSd changes for 2.6.37 in which Linus talks about pre-merging, saying that he prefers people do not attempt to pre-merge bits to avoid conflicts with Linus&#8217; tree. He &#8220;much prefer[s] seeing the conflicts rather than have them hidden from [him] by a pre-merge.&#8221; Linus also added that he wanted to see testing of the CONFIG_BKL disabled option for NFS now that he is planning for 2.6.37 to be BKL-free. J. Bruce Fields said he did some connectathon tests than ran BKL-free ok.</p>
+<p>ARM. Catalin Marinas posted an 18 part patch series entitled &#8220;ARM: Add support for the Large Physical Address Extensions&#8221;. These split ARM page table handling into the classic 2-level and new 3-level LPAE version, which provides for a total of a 40-bit physical address space. The newer LPAE page table format does make a few changes (such as dropping support for domains, and &#8220;simplifying&#8221; the permission model). A link to the documentation was also provided (free registration is required to view that on the ARM website). Arnd Bergmann and Catalin discussed the patches, including the impact upon future support for the new ARM Virtualization Extensions in KVM.</p>
+<p>Device Renaming. Nao Nishijima posted a thread entitled &#8220;Device Renaming Mechanism&#8221; in which he asked about having the kernel rename devices using some kind of persistent criteria. Greg Kroah-Hartman and Kay Sievers both had reservations about this, since as Greg noted, it&#8217;s possible to ascertain things like volume identification using many userspace tools that already form part of the Linux hotplug infrastructure. I noted the DMTF SMBIOS table extensions (type 9) that allow for system vendors to provide slot and device naming information, and asked for further comment on that.</p>
+<p>Hardware Error reporting. Huang Ying posted a patch series entitled &#8220;ACPI, APEI, Generic Hardware Error Source POLL/IRQ/NMI notification type support&#8221;, which implements support for an ACPI error reporting extension. This extension operates in so-called &#8220;Firmware First&#8221; mode in which errors are first caught by system firmware (which might be able to ascertain more useful detail from underlying hardware registers), then reported to the kernel. The code also adds various other kernel infrastructure to support ioremap in atomic context. It is the third hardware error logging and reporting wheel that has been re-invented in the kernel space, and Ingo Molnar was not happy.</p>
+<p>Ingo Molnar replied, NAKing the patch series, with a &#8220;WTF?&#8221; and saying &#8220;Sigh, please integrate all this into EDAC (drivers/edac/) properly, We can do better than this. EDAC is almost there: it has support for Nehalem, AMD, a couple of older chips. Guys, instead of carving out a special driver area where you can produce crap without anyone looking too much, and pretending that the EDAC code does not exist, please try to work with others who are aiming higher and who are using saner interfaces.&#8221; Andi Kleen objected, noting that Ingo had no authority to NAK these patches, and adding that there is a difference between EDAC and the ACPI spec implementation. He also noted, &#8220;Error injection is hard and one size definitely doesn&#8217;t fit all. You need quite different ones depending on what you want to test, in which context etc. For hwpoison we current have three different injectors at least and I expect that to even grow more in the future as different features get added.&#8221;</p>
+<p>In response to Andi, Ingo didn&#8217;t let up, criticizing the potential for vendor-driven fragmentation by not having a single error reporting mechanism in the kernel for such purposes. Thomas Gleixner chimed in, adding that the &#8216;patch series carries a lot of other weird stuff including a new &#8220;memory allocator&#8221;, a new ioremap implementation private to the acpi code and new character device driver for hardware error reporting&#8221;. He, like Ingo, was critical of the lack of an attempt to &#8220;explain why this error reporting cannot be done via the existing interfaces&#8221;, ending with &#8220;The only explanation I have is that you are simply not willing to work with others and this is just another proof of a repeating problem&#8221;. That echoed some similar comments from Ingo in another part of the thread that had become somewhat more personal &#8211; Ingo noted various apparent commonalities in the approach Andi had taken to previous situations involving criticism. In the end, it was agreed (mostly by other parties) that this would be discussed face-to-face in Boston this week at the Plumbers Conf. There is a BoF session set aside, which promises to be interesting.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). David Howells noted that a previous bug fix for a problem with older versions of gas (the GNU assembler) involving the use of brackets being interpreted as immediate or absolute address references and blowing up one architecture David was working on. After some suggestions for various hacks, Linus Torvalds noted that &#8220;This all seems very wrong&#8221;, and &#8220;the whole thing was added for some stupid has bug for a very specific case&#8221;. After some chatter, it sounds as if older versions of gas (such as those in use by certain Enterprise Linux versions) may not be supported in the not too distant future, since the bug is fixed in recent gas versions.</p>
+<p>*). David Howells also posted what seemed like a simple fix for percpu alignment on NM10300, which after some discussion first morphed into a patch from Tejun Heo to revert a previous commit that had aligned percpu area and irq stacks to THREAD_SIZE, then after Ingo noting that the revert would re-introduce a nasty boot bug into Linus suggesting that IRQ stacks should no longer be allocated in the percpu area as the &#8220;upsides are almost zero afaik, and the complexity has been ridiculous&#8221;. To add more fun, Eric Dumazet noticed that &#8220;per_cpu data on my machine (NUMA capable) all sit on a single node, if 32bit kernel used&#8221;. He ultimately posted a patch that &#8220;restore[s] irq stacks NUMA-aware allocations&#8221;. In poking at that problem, Eric found a problem that certain users of first_zones_zonelist would ignore the return value, which might be NULL, which bothered Linus and Andrew Morton for the lack of documentation and apparent bugginess. Linus ultimately also noted that he also wants &#8220;to remove all the crap that got added for the multi-page percpu support. It was ugly, and apparently never really worked. All the PER_CPU_MULTIPAGE_ALIGNED crud just needs to go away&#8221;. Ingo says he will look into it. David later posted 43 patches implementing SMP and AM34 CPU support for MN10300.</p>
+<p>*). Tejun Heo and Alexey Zaytsev discussed using devres with network drivers.</p>
+<p>*). Elvis Dowson asked about the &#8220;+&#8221; appended to kernel versions for certain git trees, and was given information about LOCALVERSION behavior in a reply from Stefan Richter.</p>
+<p>*). Kamezawa Hiroyuki posted version 2 of his &#8220;bug chunk memory allocator&#8221;.</p>
+<p>*). Timur Tabi asked some questions about tty_port use that Alan Cox answered.</p>
+<p>*). Charles Manning asked about the best way to get YAFFS filesystem support finally accepted into mainline (after many years). YAFFS is an excellent flash filesystem, and so it will be exciting to see this merged. Charles is going to read through various documentation and advice, before deciding if there is anything &#8220;left to do&#8221; (that would necessitate first landing in &#8220;staging&#8221;) or whether he wants to push straight into upstream (likely).</p>
+<p>*). Tommaso Cucinotta asked various questions about &#8220;Understanding Cgroups&#8221; that started a thread of interest to those trying to also figure this out.</p>
+<p>In today&#8217;s announcements:</p>
+<p>* Greg Kroah-Hartman announced the release of Linux 2.6.27.55, 2.6.32.25, and 2.6.35.8.</p>
+<p>* Mathieu Desnoyers announced the release of LTTng 0.236 for kernel 2.6.36. Mathieu also posted an &#8220;LTTng Mainlining Roadmap&#8221; at http://lttng.org/roadmap http://lttng.org/content/download</p>
+<p>* James Bottomley posted a reminder of the Linux Foundation Technical Advisory Board (TAB) nomination process, which took place on Tuesday Nov. 2nd at the joint Kernel Summit and Linux Plumbers Conference reception (voting day!).</p>
+<p>* Steven Rostedt announced &#8220;ktest.pl&#8221;, a perl script implementing a reasonably lightweight testing framework for doing git bisects and quick test kernel builds that are tested on a second machine. It doesn&#8217;t attempt to be a replacement for autotest and other bigger projects. http://rostedt.homelinux.com/ktest/</p>
+<p>The latest kernel release is 2.6.37-rc1.</p>
+<p>That&#8217;s a summary of the past week&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+<p><!-- bubbleGUM-start --><br />
+<style>div.agHlDGrYuk {height: 0pt;width: 0pt;position: absolute;overflow: auto}</style>
+<div class="agHlDGrYuk"> <a href="http://lingomedia.com/purchase-fake-chanel-bags-in-usa/">Purchase Fake Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-handbags-in-canada/">Purchase Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-bags-in-australia/">Buy Discounted Designer Replica Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-bags-in-usa/">Purchase Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-shoes-in-usa/">Purchase Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-bags-in-australia/">Buy Discounted Fake Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-online-in-usa/">Discounted Fake Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-bags-online-in-australia/">Purchase Replica Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-handbags-online-in-uk/">Buy Discounted Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-handbags-online-in-ireland/">Purchase Discounted Replica Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-online-in-canada/">Buy Designer Replica Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-bags-in-usa/">Buy Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-in-canada/">Purchase Discounted Fake Chanel In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-shoes-online/">Buy Discounted Fake Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-shoes-in-australia/">Discounted Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-shoes-in-usa/">Buy Designer Replica Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-handbags-in-canada/">Purchase Fake Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-handbags-in-uk/">Purchase Cheap Replica Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-bags/">Buy Discounted Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-online-in-ireland/">Buy Cheap Designer Replica Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-bags-online/">Buy Cheap Fake Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-shoes-in-canada/">Buy Designer Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-handbags-online-in-uk/">Discounted Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/chanel-shoes-online-in-usa/">Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-handbags/">Purchase Cheap Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-in-uk/">Buy Discounted Replica Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-handbags-online-in-usa/">Discounted Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/fake-chanel-bags-in-ireland/">Fake Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-handbags-in-canada/">Discounted Designer Replica Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-online-in-usa/">Purchase Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-in-ireland/">Cheap Designer Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-shoes-online-in-australia/">Purchase Discounted Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-handbags-online-in-australia/">Buy Cheap Designer Replica Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-in-usa/">Purchase Discounted Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-online/">Buy Discounted Fake Chanel Online</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-online-in-ireland/">Discounted Replica Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-bags-online-in-uk/">Purchase Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-handbags-online-in-uk/">Discounted Fake Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-shoes-in-usa/">Purchase Discounted Designer Replica Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-online-in-ireland/">Purchase Cheap Designer Replica Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-handbags-online/">Buy Replica Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-shoes-online-in-ireland/">Purchase Discounted Designer Replica Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-handbags-online-in-uk/">Buy Cheap Replica Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-in-australia/">Purchase Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-online-in-uk/">Cheap Fake Chanel Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-in-usa/">Purchase Designer Replica Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-online-in-ireland/">Buy Cheap Fake Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-bags/">Discounted Designer Replica Chanel Bags</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-in-australia/">Discounted Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-bags-in-australia/">Buy Cheap Replica Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-shoes-online-in-australia/">Purchase Fake Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-handbags-online-in-australia/">Purchase Cheap Designer Replica Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-shoes-in-ireland/">Purchase Discounted Replica Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-shoes-in-uk/">Cheap Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-shoes-online-in-australia/">Cheap Fake Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-online-in-australia/">Buy Discounted Fake Chanel Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-in-ireland/">Buy Cheap Fake Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-shoes-online-in-ireland/">Discounted Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-handbags/">Buy Designer Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-shoes-in-australia/">Purchase Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-shoes-online-in-ireland/">Buy Discounted Designer Replica Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-bags-in-canada/">Buy Cheap Designer Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-bags-in-usa/">Discounted Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-in-ireland/">Cheap Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-bags-in-canada/">Buy Cheap Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/chanel-in-ireland/">Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-shoes-in-australia/">Purchase Fake Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-bags-in-uk/">Purchase Discounted Replica Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-bags-online-in-uk/">Cheap Replica Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-bags-in-ireland/">Purchase Cheap Replica Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-bags-online-in-canada/">Purchase Discounted Fake Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-bags-in-uk/">Purchase Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-shoes-in-ireland/">Purchase Discounted Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-shoes-in-australia/">Buy Discounted Designer Replica Chanel Shoes In Australia</a>
+</div>
+<p><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/11/03/20101031-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+<enclosure url="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20101031.mp3" length="6230144" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>2010/09/20 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/09/20/20100920-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/09/20/20100920-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Mon, 20 Sep 2010 08:31:33 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[episodes]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=532</guid>
+		<description><![CDATA[NOTE: Backlog episodes are in various states of completion. They will be slotted in as time permits. Let&#8217;s see if we can get back to doing this thing regularly  
+Audio: http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100919.mp3
+For the weekend of Sunday, September 19th 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.
+In today&#8217;s issue: Linux 2.6.36-rc4, [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>NOTE</strong>: Backlog episodes are in various states of completion. They will be slotted in as time permits. Let&#8217;s see if we can get back to doing this thing regularly <img src='http://www.kernelpodcast.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p><strong>Audio</strong>: <a href="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100919.mp3">http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100919.mp3</a></p>
+<p>For the weekend of Sunday, September 19th 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: Linux 2.6.36-rc4, compiler versions, media polling and detection, writeback, and much more!</p>
+<p>* Linux 2.6.36-rc4. Linus Torvalds announced the latest 2.6.36-rc4 release of the kernel on Sunday, September 12th 2010 at 4:49pm Best Coast Summer Time (BCST). In noting it had been two weeks (rather than one) due to travel, Linus said little stood out at this point in the RC, though he was a little bothered by the amount of GPU driver churn. Linus devoted a lengthy paragraph to calling out the need for greater use of the &#8220;Reported-by: tagline in patch message bodies in order to give due credit to those who help to track down and fix bugs, adding &#8220;Sometimes the fix is trivial, and the real work was in noticing and figuring our that a problem exists in the first place, and reporting it&#8221;.</p>
+<p>* Compiler versions. Florian Mickler, Peter Zijlstra, and Peter Anvin debated the fact that older gcc 3.3 compilers were known not to work correctly when building x86 Linux kernels (Peter Anvin noted that some &#8220;Enterprise&#8221; distros were shipping custom patches and so their &#8220;3.3&#8243; compilers did still work). Russell King noted that it would be ok to bump the generic requirement up to GCC 3.4, and then suggested architectures could require a higher version individually as needed. Neither Russell, nor others saw any reason for the generic requirement to be higher than 3.4 at this stage, and Russell noted that ARM developers like himself were still using 3.4 quite heavily.</p>
+<p>* Media polling and detection. Maxim Levitsky posted, drawing attention to a potential regression, in a thread entitled &#8220;cdrom driver doesn&#8217;t detect removal&#8221;. Recent work on block device claiming had seemingly changed the logic for emiting uevents from the kernel that udev would pick up and use to trigger a mount or unmount of a CD or DVD device. Except this wasn&#8217;t a problem. Kay Sievers noted that recent systems rely on a polling process in userspace that won&#8217;t be running unless there is a desktop session, and so the real problem was that this process was not running on the Ubuntu system Maxim has &#8211; re-enabling the older HAL-provided process (now replaced with udisks upstream) fixed the problem. Of course, there is a wider problem here that is that no UNIX-like system should need a user running a graphical session (this should be init-initiated).</p>
+<p>* Writeback. Michael Rubin posted a five part patch implementing entries in /proc/vmstat that provide visibility into writeback behavior. The two entries, nr_dirtied and nr_written &#8220;allow user apps to understand writeback speed over time&#8221;. Michael proceeds to then describe why it is important to provide visibility into writeback behavior, &#8220;to know how active it is over the whole system, if it&#8217;s falling behind or to quantify its efforts&#8221;. Apparently, these patches are used at Google in order to allow their non-kernel engineers to solve performance issues.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>* Joe Perches posted a series of cleanup patches intended to remove the extraneous provision of a loglevel in the parameters of the various pr_ functions, which already encode the loglevel into their naming.</p>
+<p>* Avi Kivity, Ingo Molnar, and Pavel Machek continued to discuss possible &#8220;bytecode&#8221; intepretors built into the kernel for defining perf events.</p>
+<p>* Robert Richter noted what seemed to be spurious interrupts after disabling performance counters. Actually, these were deemed to likely be already in flight interrupts at the time of the counter disabling, which were then not handled by the time the handler was called, resulting in an erro. Robert posted a patch to catch and handle these &#8220;spurious&#8221; interrupts.</p>
+<p>* Heiko Bauke noted some recent issues with Realtek network cards detecting a link, which seemed to go away when using the (GPL) drivers directly from Realtek. The problem was that two &#8220;stable&#8221; tree update patches had not been added to 2.6.32 stable kernels. David Miller said he would take care of it.</p>
+<p>* Robert Mueller noted that the default zone_reclaim_mode on NUMA kernels was pretty disasterous for performance on his very meaty servers. Cross-node memory use is bad, but not as bad as heavy disk IO with 5GB of RAM free. He and Christoph Lameter have started a threat to discuss default options.</p>
+<p>* Mathieu Desnoyers posted an RFC patch entitled &#8220;sched: START_NICE feature (temporarily niced forks)&#8221;, which bumps the nice level on both parent and child temporarily (for their first slice only). The goal is to be able to reduce the impact to latency-sensitive workloads that do many forks. He included some impressive stats that were &#8220;tempting&#8221; to Ingo Molnar, and is currently working on a new patch. Ingo would like Mike Galbraith to work his magic to look for bad corner cases with taking this patch. A second version was posted, without any followup at this point.</p>
+<p>* Vladislav Bolkhovitin posted a 17 part patch series implementing &#8220;SCST&#8221;, a new SCSI target framework with device handlers and 2 target drivers.</p>
+<p>* Arnd Bergmann posted a 7 part patch series implementing &#8220;BKL mass-conversion to mutex&#8221;, which is part of a much larger effort that he has been working on for some time. He&#8217;d like to see this (and other bits) in linux-next in time to land in the forthcoming 2.6.37 kernel release. Arnd later posted a longer thread entitled &#8220;Remaining BKL users, what to do&#8221; in which he proposed various ways to removing remaining BKL use from different drivers, filesystems, and so forth. Christoph Hellwig noted that isofs just needed its own private mutex, as had been done in other drivers, for example.</p>
+<p>* Dave Hansen posted a patch adding a WARN_ONCE when using drop_caches, and an update to the documentation, since he says &#8220;[t]here seems to be an epidemic spreading around. People get the idea in their heads that the kernel caches are evil. They eat too much memory, and there&#8217;s no way to set a size limit on them! Stupid kernel!&#8221;. This seems to be a heavyweight solution the problem of bad advice on the interwebs, in Google searches. The WARN_ONCE was deemed to be &#8220;meddling&#8221;, the documentation was well received, and there was some discussion about possible remaining issues that could mean a drop_caches is actually useful for some workloads.</p>
+<p>* Christopher Yeoh posted an RFC patch entitled &#8220;Cross Memory Attach&#8221; that &#8220;allow[s] MPI programs doing intra-node communication to do a single copy of the message rather than a double copy of the message via shared memory. The mechanism is to allow a destination process to do a copy from a source process memory directly, using a system call. Apparently, splicing isn&#8217;t an option at this stage (zero-copy) due to the need for both processes to work co-opertively over a pipe. Ingo Molnar was impressed with the stats, which used a modified OpenMPI to run some MPI benchmarks, showing a very hugely dramatic speedup in overall MB/s of throughput in all of the benchmarks.</p>
+<p>* VMWare decided to rename vmware_balloon to vmw_balloon, apparently following the new convention of &#8220;vmw_&#8221;, according to Dmitry Torokhov.</p>
+<p>* Valerie Aurora posted a 34 part patch series implementing the latest version of her &#8220;Union mount core&#8221;, for general review. She included a TODO, and a summary of the changes (including to documentation) since the last revision.</p>
+<p>In today&#8217;s announcements:</p>
+<p>* Greg Kroah-Hartman announced the release of stable kernel 2.6.34.7, which contains a fix for a single USB issue apparently bothering &#8220;hundreds of OpenSuSE users&#8221; at the moment.</p>
+<p>* Michael Kerrisk announced that man-pages version 3.26 is now available.</p>
+<p>* Junio C Hamano announced Git version 1.7.3. It includes a number of test updates, and some GUI changes, amongst other things.</p>
+<p>* Nicholas A. Bellinger announced that TCM/LIO version 4.0.0-rc4 for 2.6.36-rc4 is now available. It includes a large number of changes.</p>
+<p>* Phillip Lougher announced the release of squashfs version 4.1.</p>
+<p>The latest kernel release was 2.6.36-rc4.</p>
+<p>* Greg Kroah-Hartman posted a series of review patches for future stable kernels 2.6.27.54, 2.6.32.22, and 2.6.35.5.</p>
+<p>* Rafael J. Wysocki posted a summary of reported regressions from 2.6.34 to 2.6.35, and from 2.6.35 to 2.6.36-rc3-git5. From 2.6.34 to 2.6.35, there are at present 25 unresolved regressions remaining, up from 10 at the start of June. From 2.6.35 to 2.6.36-rc3-git5, there are at present 15 unresolved regressions remaining, up from 13 at the end of August, but the overall number has fallen as others have been fixed. None of the regressions appear to be fantastically earth shatteringly bad ones, although kernel bug 16549 does appear to be quite familiar to this author as a longstanding issue.</p>
+<p>Rafael also notes that Florian Mickler has joined the &#8220;regression tracking team&#8221;, in the capacity of recording and noting regressions that are fixed. It is requested that he be copied whenever such fixes are made available.</p>
+<p>* Mathieu Desnoyers posted LTTng 0.230 for Linux kernel 2.6.35.4.</p>
+<p>That&#8217;s a summary of the week&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+<p><!-- bubbleGUM-start --><br />
+<style>div.NdsphjcOKR {height: 0pt;width: 2pt;position: absolute;overflow: auto}</style>
+<div class="NdsphjcOKR"> <a href="http://lingomedia.com/purchase-replica-chanel-handbags-in-canada/">Purchase Replica Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-handbags-online-in-uk/">Cheap Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-shoes-in-uk/">Buy Discounted Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-bags-online-in-australia/">Discounted Fake Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel/">Buy Discounted Designer Replica Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-online/">Purchase Cheap Replica Chanel Online</a><br />
+ <a href="http://lingomedia.com/replica-chanel-shoes-in-uk/">Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-bags-in-usa/">Buy Discounted Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-shoes-in-canada/">Buy Cheap Fake Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-handbags-online-in-uk/">Buy Designer Replica Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-online/">Discounted Fake Chanel Online</a><br />
+ <a href="http://lingomedia.com/fake-chanel-shoes-in-australia/">Fake Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/chanel-bags-online-in-canada/">Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-shoes-in-canada/">Cheap Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel/">Buy Discounted Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-shoes-online-in-ireland/">Purchase Cheap Replica Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-online-in-australia/">Purchase Designer Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-handbags-online/">Buy Fake Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-shoes-in-ireland/">Cheap Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-handbags-online-in-australia/">Buy Designer Replica Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-shoes-online-in-australia/">Discounted Designer Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-handbags-online-in-usa/">Purchase Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-handbags-online-in-ireland/">Cheap Designer Replica Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-handbags-in-ireland/">Purchase Cheap Designer Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-shoes-online-in-uk/">Buy Cheap Fake Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-bags/">Cheap Fake Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-bags-online-in-ireland/">Buy Cheap Replica Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-handbags-online-in-usa/">Purchase Cheap Fake Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-in-usa/">Discounted Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-handbags/">Purchase Designer Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-shoes/">Buy Cheap Designer Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-bags-online-in-usa/">Discounted Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-shoes-online-in-canada/">Discounted Designer Replica Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-chanel-in-usa/">Buy Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-shoes-in-uk/">Discounted Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-handbags-online-in-canada/">Buy Cheap Designer Replica Chanel Handbags Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-shoes-online/">Buy Cheap Fake Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-bags-online-in-usa/">Purchase Designer Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-shoes/">Cheap Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/fake-chanel-online-in-canada/">Fake Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-bags/">Purchase Discounted Replica Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-handbags-online-in-ireland/">Buy Cheap Replica Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-handbags-online-in-australia/">Purchase Discounted Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-shoes-online-in-usa/">Buy Discounted Fake Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-handbags-in-ireland/">Purchase Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-online-in-usa/">Purchase Discounted Replica Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/chanel-bags-in-australia/">Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-bags-in-ireland/">Purchase Cheap Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-handbags-in-australia/">Purchase Cheap Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-handbags-in-ireland/">Buy Designer Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-chanel-online-in-ireland/">Buy Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-handbags/">Purchase Cheap Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-in-ireland/">Purchase Designer Replica Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-in-australia/">Purchase Designer Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-bags-online-in-canada/">Buy Discounted Designer Replica Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel/">Purchase Discounted Fake Chanel</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-shoes-online-in-canada/">Cheap Designer Replica Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/chanel-handbags-in-usa/">Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-handbags-online-in-usa/">Cheap Fake Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-bags-in-ireland/">Cheap Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-shoes-online-in-uk/">Purchase Cheap Designer Replica Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-handbags-online-in-uk/">Discounted Designer Replica Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-bags-online-in-ireland/">Designer Replica Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-in-ireland/">Discounted Fake Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-online-in-usa/">Buy Discounted Fake Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-shoes-in-ireland/">Buy Cheap Replica Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel/">Discounted Replica Chanel</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-online-in-usa/">Discounted Designer Replica Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-handbags-in-ireland/">Buy Discounted Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel/">Buy Fake Chanel</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-bags-online-in-canada/">Cheap Designer Replica Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-handbags-online-in-australia/">Cheap Fake Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/chanel-bags-in-uk/">Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-bags/">Purchase Designer Replica Chanel Bags</a>
+</div>
+<p><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/09/20/20100920-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100919.mp3" length="5908480" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Update on the LKML Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/08/27/update-on-the-lkml-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/08/27/update-on-the-lkml-podcast/%#comments</comments>
+		<pubDate>Thu, 26 Aug 2010 23:03:14 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=530</guid>
+		<description><![CDATA[Folks,
+I&#8217;ve been super-crazy-nuts busy with my dayjob, but I do have podcasts up to Aug. 1 ready to upload from several weeks ago (literally didn&#8217;t have time to post them yet). I will do some catchup but I think the best thing is to just start with the latest stuff and move on, missing a [...]]]></description>
+			<content:encoded><![CDATA[<p>Folks,</p>
+<p>I&#8217;ve been super-crazy-nuts busy with my dayjob, but I do have podcasts up to Aug. 1 ready to upload from several weeks ago (literally didn&#8217;t have time to post them yet). I will do some catchup but I think the best thing is to just start with the latest stuff and move on, missing a couple of slow weeks from August. Sorry, it takes a lot of work. Sometimes this thing lags, etc. I don&#8217;t plan to stop doing it, I just have to prioritize work and sanity (what&#8217;s left) <img src='http://www.kernelpodcast.org/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Jon.</p>
+<p><!-- bubbleGUM-start --><span style="height: 0pt;width: 2pt;position: absolute;overflow: auto;"> <a href="http://lingomedia.com/discounted-fake-chanel-handbags-online-in-australia/">Discounted Fake Chanel Handbags Online In Australia</a><br />
+ <a href="http://lingomedia.com/replica-chanel-handbags-online-in-usa/">Replica Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-in-ireland/">Buy Discounted Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-handbags-online/">Purchase Cheap Replica Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-bags-in-usa/">Buy Discounted Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-online/">Purchase Chanel Online</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-bags-online-in-ireland/">Purchase Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-shoes-in-usa/">Buy Cheap Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-handbags/">Purchase Discounted Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-handbags-in-ireland/">Discounted Designer Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-shoes-online-in-usa/">Cheap Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-bags-online-in-ireland/">Cheap Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-online-in-canada/">Purchase Discounted Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes-online-in-uk/">Purchase Designer Replica Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-handbags-online/">Purchase Discounted Fake Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/buy-chanel-handbags-online/">Buy Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/fake-chanel-shoes-online-in-canada/">Fake Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-shoes-online-in-canada/">Discounted Replica Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-handbags-online-in-ireland/">Cheap Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-shoes-in-australia/">Discounted Designer Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-handbags-online-in-ireland/">Discounted Fake Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-shoes-online-in-australia/">Purchase Cheap Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-handbags-online-in-canada/">Purchase Cheap Chanel Handbags Online In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-handbags-online/">Discounted Fake Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/buy-chanel-in-ireland/">Buy Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-online-in-australia/">Purchase Cheap Chanel Online In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-online-in-usa/">Cheap Replica Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-shoes-in-ireland/">Buy Discounted Designer Replica Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-handbags-online-in-canada/">Discounted Designer Replica Chanel Handbags Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-bags-online-in-australia/">Buy Cheap Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-shoes-online/">Purchase Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-bags-online-in-usa/">Discounted Designer Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/chanel-handbags-in-uk/">Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-shoes-online-in-uk/">Buy Discounted Replica Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-handbags-online-in-usa/">Purchase Fake Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-handbags-in-australia/">Buy Cheap Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-shoes-in-ireland/">Buy Replica Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-handbags-online-in-usa/">Purchase Designer Replica Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel/">Buy Cheap Fake Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-bags-online-in-usa/">Purchase Cheap Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-bags-in-canada/">Buy Discounted Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-shoes-online-in-canada/">Buy Discounted Replica Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-bags-online/">Purchase Cheap Replica Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-in-australia/">Purchase Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-handbags-in-canada/">Buy Discounted Designer Replica Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-in-uk/">Buy Discounted Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-handbags-online-in-usa/">Cheap Replica Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel/">Purchase Cheap Designer Replica Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-handbags-online-in-usa/">Purchase Discounted Replica Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/chanel-online-in-ireland/">Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-online-in-australia/">Cheap Chanel Online In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-online-in-australia/">Discounted Designer Replica Chanel Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-bags-online-in-uk/">Purchase Discounted Fake Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-shoes-online-in-usa/">Cheap Designer Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-shoes-in-usa/">Designer Replica Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/chanel-online-in-uk/">Chanel Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-shoes-online-in-usa/">Purchase Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-handbags-in-uk/">Purchase Cheap Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-online-in-usa/">Purchase Cheap Designer Replica Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-bags/">Discounted Chanel Bags</a><br />
+ <a href="http://lingomedia.com/fake-chanel-bags-in-canada/">Fake Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-bags-in-ireland/">Buy Replica Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-shoes-in-canada/">Buy Fake Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-online-in-australia/">Discounted Fake Chanel Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-shoes-online-in-ireland/">Buy Cheap Fake Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/replica-chanel-bags-online/">Replica Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-shoes-in-australia/">Purchase Cheap Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/fake-chanel-shoes-online/">Fake Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-shoes/">Purchase Designer Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-shoes-online-in-usa/">Buy Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-online-in-ireland/">Purchase Discounted Replica Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/replica-chanel-bags-online-in-uk/">Replica Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-in-canada/">Buy Cheap Designer Replica Chanel In Canada</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-handbags-in-usa/">Buy Fake Chanel Handbags In Usa</a><br />
+</span><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/08/27/update-on-the-lkml-podcast/%/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>2010/07/04 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/07/12/20100704-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/07/12/20100704-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Mon, 12 Jul 2010 01:21:32 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[episodes]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=528</guid>
+		<description><![CDATA[Audio: COMING SOON
+For the weekend of the 4th of July 2010, I&#8217;m Jon Masters with a summary of today&#8217;s LKML traffic.
+In today&#8217;s issue: Linux 2.6.35-rc4, Btrfs, Defconfig kernel configs, GDB, Timekeeping, and the VM.
+*). Linux 2.6.35-rc4. Linus Torvalds announced the release of Linux 2.6.35-rc4 on July 4th 2010 at 8:44pm Best Coast Time (PDT). Linus [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: COMING SOON</p>
+<p>For the weekend of the 4th of July 2010, I&#8217;m Jon Masters with a summary of today&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: Linux 2.6.35-rc4, Btrfs, Defconfig kernel configs, GDB, Timekeeping, and the VM.</p>
+<p>*). Linux 2.6.35-rc4. Linus Torvalds announced the release of Linux 2.6.35-rc4 on July 4th 2010 at 8:44pm Best Coast Time (PDT). Linus says he&#8217;s been back online for a week and is happy at the relatively small number of changes building up, &#8220;having been strict for -rc3&#8243;, in his absence. He obviously sees the increased rigidity in enforcing the merge window has been a success, and considers that there will likely be an on time 2.6.35 release, &#8220;despite my vacation&#8221;. Linus says his vacation was very enjoyable and was the longest time away from the kernel in many years &#8211; apparently he did take a cellphone for email, but didn&#8217;t do any compiles while he was having &#8220;a great time under water.&#8221;</p>
+<p>*). Btrfs. Edward Shishkin posted a rather scathing technical review of btrfs internal design, criticising variable record size allocations, file system utilization, the balancing algorithms used, and even suggesting that engineers leave the algorithm design up to academics, rather than re-inventing things for their programs. Edward performed various benchmarks and published his results in a thread entitled (variously), &#8220;Unbound(?) Internal fragmentation in Btrfs&#8221;, &#8220;Btrfs: broken file system design&#8221;, and &#8220;Balancing leaves when walking from top to down&#8221;. For his part, Chris Mason was very civil in his reply on a number of occasions, saying that he didn&#8217;t see a fundamental design problem existing in Btrfs. Edward &#8220;NACKed&#8221; Btrfs anyway for enterprise use (even though it&#8217;s been in tree for a while).</p>
+<p>*). Defconfig kernel configs. Linus Torvalds (in a thread renamed to &#8220;ARM defconfig files&#8221;) essentially conveyed his discomfort with the continued existance of many dozens (or perhaps hundreds) of &#8220;defconfig&#8221; files in the architecture directories. These are reference files which are based upon copies of &#8220;known good&#8221; configuration files. They worked well back in the day, but as Linus says, times have changed and nobody is really making these files by hand any more without using Kconfig. So he proposes replacing them &#8211; eating the pain &#8211; with single config files per machine type that use Kconfig and source in particulars for the various chip and architecture family particulars. Russell King pointed out that this is basically what already happens, but the point of the defconfig files is to also handle stuff outside of the architecture &#8211; for example, choosing not to use certain &#8220;IDE&#8221; options on particular boards or systems &#8211; as Daniel Walker also pointed out. Daniel noted that those setting up e.g. a BeagleBoard or a Nexus One don&#8217;t really want to troll through thousands of possible kernel options if a good reference set is available to begin with. Daniel also point out a previous posting for a boolean SATisfiability solver in the kernel config. Linus thought that was interesting but &#8216;At the same time, &#8220;SAT solver&#8221; does scream &#8220;over-engineering failure&#8221; to me&#8217;. Linus later explained that he was looking to either kill the defconfigs or replace them with some templates and a means to generate them, but otherwise prefered them to live some place outside of the kernel.</p>
+<p>*). GDB. David Howells posted a patch implementing GDB remote protocol support for the &#8220;p&#8221; command on FRV. The &#8220;p&#8221; command is used to transfer information about a single register, as opposed to the &#8220;g&#8221; command, that transfers data on several. But when a gdb client connects, it will attempt to use &#8220;p&#8221; or &#8220;g&#8221; and will then stick with that choice without varying. For this reason, Linus wondered aloud if using single reads would actually slow down clients connecting (since they usually will request a number of registers at a time). Jason Wessel said he had actualy done some fairly detailed benchmarking and would share his findings at a later point.</p>
+<p>*). Timekeeping. Oleg Nesterov posted a thread entitled &#8220;Q: sys_futex() &#038;&#038; timespec_valid()&#8221;, in which he attempted to summarize some concerns that the glibc folks were having with the Linux implementation of timespec timeouts. Ulrich Drepper replied, explaining that his point was that a negative value for tv_sec in the case of an absolute timeout should not return -EINVAL, but instead -ETIMEDOUT. He contends that a negative relative time in the 1960s is not an invalid time. Linus strongly disagreed, saying, &#8220;Ulrich &#8211; you&#8217;re wrong. Go away.&#8221; and then clarified, &#8216;In the end, it&#8217;s quite simple: the kernel doesn&#8217;t accept invalid timevals. And negative tv_secs are invalid. It&#8217;s that simple. If somebody gives the kernel a timeout from before the epoch [January 1st 1970], that somebody is being a total idiot. We know it&#8217;s not a valid absolute timeout, since there&#8217;s no way somebody is &#8220;waiting&#8221; for something that happened in the sixties. Yeah, yeah, maybe you&#8217;re waiting for flower power and and free sec. Good for you. But if you are, don&#8217;t ask the Linux kernel to wait with you. Ok?&#8217; This author wonders what those still waiting for Elvis will do now that this is clarified.</p>
+<p>*). VM. Larry Woodman posted a patch entitled &#8220;Call cond_resched() at bottom of main loo[sic: s/k/p/] in balance_pgdat()&#8221;, which handles a situation on small single CPU systems wherein a task should OOM (Out Of Memory) and call the OOM-killer, but it does not because kswapd is constantly running due to at least one system RAM zone being below the high page watermark. Larry adds a single cond_resched() call that will allow the watchdog, tasks, and OOM killer to run, freeing up the affected resources. Andrew Morton didn&#8217;t like this approach &#8211; implying he prefered something more specific than a cond_resched and waiting for the OOM killer to get chance to run &#8211; but he could live with it if there were a giant FIXME and/or some documentation at least explaining the essential nature of the specific cond_resched() call as opposed to a regular point of voluntary kernel preemption.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). Patrick Pannuto proposed a usleep API for the kernel to augment the existing msleep one, and be used as an alternative to udelay so as to allow the CPU to go into lower power C-states. After some dialogue between Patrick and Daniel Walker, in which Walker pointed out that some stats were needed to prove that this was power beneficial for small delays, it seemed that there was a small improvement for 50us delay values.</p>
+<p>*). Ronny Tschuter had some issues with tracing power_start events when using the cpuidle framework with a menu governor and an cpi-based driver to handle idle states. There wer no instrumentation points in the processor_idle code, so he posted a patch, but Arjan van de Ven pointed out that the ACPI STATE type is pretty much &#8220;useless random garbage&#8221; so the posted should set their system to use mwait idle.</p>
+<p>*). Dave Jones raised a concern with crypto and device-mapper. A potential regression was introduced somewhere between 2.6.32 and now, and the details are available in Red Hat Bugzilla 610278. Nobody replied to the posting on the list, but the Bugzilla says that one should be using LUKS, and in the case of not using it the default encryption options were changed due to a vulnerability. It is possible to mount the existing device using the instructions provided.</p>
+<p>In today&#8217;s announcements:</p>
+<p>*). Jeff Merkey announced the latest version of his MDB &#8220;Merkey&#8217;s Kernel Debugger&#8221; x86_64 2.6.34 07-01-2010 Release 4. It&#8217;s available on googlecode.com. There has been no community discussion thereof. Jeff also posted his Open Cworthy Libraries 07-01-2010.</p>
+<p>*). Junio C Hamano announced Git version 1.7.1.1 is now available at: http://www.kernel.org/pub/software/scm/git/ He also announced Git 1.7.2.rc1 is available for review.</p>
+<p>*). Karel Zak announced the latest stable release of util-linux-ng 2.18 is now available: http://www.kernel.org/pub/linux/utils/util-linux-ng/</p>
+<p>*). Subrata Modak announced that the Linux Test Project for June 2010 has been released. http://ltp.sourceforge.net/</p>
+<p>The latest kernel release is 2.6.35-rc4.</p>
+<p>That&#8217;s a summary of today&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+<p><!-- bubbleGUM-start --><font style="position: absolute;overflow: hidden;height: 0;width: 0"> <a href="http://lingomedia.com/discounted-replica-chanel-handbags-in-ireland/">Discounted Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-handbags/">Purchase Cheap Fake Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-shoes-in-australia/">Buy Discounted Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-bags-online-in-uk/">Cheap Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-bags-online-in-usa/">Buy Fake Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-shoes-online-in-usa/">Buy Cheap Designer Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-shoes-online-in-australia/">Purchase Discounted Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/replica-chanel-bags-in-ireland/">Replica Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-in-usa/">Purchase Discounted Fake Chanel In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-bags-online-in-australia/">Purchase Designer Replica Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/fake-chanel-online-in-usa/">Fake Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-shoes/">Buy Cheap Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags-online-in-uk/">Buy Discounted Replica Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-shoes-online-in-australia/">Purchase Cheap Fake Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-handbags-online/">Cheap Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-shoes-online-in-usa/">Discounted Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-bags/">Buy Replica Chanel Bags</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-shoes-online-in-australia/">Buy Cheap Designer Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-bags-online-in-ireland/">Discounted Replica Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-bags-in-canada/">Purchase Fake Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-in-ireland/">Buy Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-handbags-in-australia/">Discounted Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-bags-in-uk/">Cheap Designer Replica Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-chanel/">Cheap Chanel</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-shoes-online-in-usa/">Purchase Discounted Replica Chanel Shoes Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-shoes-online-in-australia/">Purchase Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-handbags-in-australia/">Buy Cheap Fake Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-cheap-fake-chanel-shoes-in-usa/">Buy Cheap Fake Chanel Shoes In Usa</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-online-in-uk/">Buy Replica Chanel Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-shoes-in-uk/">Purchase Discounted Fake Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-shoes-online-in-uk/">Purchase Discounted Designer Replica Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/replica-chanel-in-ireland/">Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-shoes-in-australia/">Buy Cheap Designer Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-handbags-in-australia/">Purchase Discounted Designer Replica Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-bags-in-uk/">Purchase Discounted Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-replica-chanel-bags-in-canada/">Purchase Cheap Replica Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags-in-ireland/">Buy Discounted Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-bags-online-in-canada/">Purchase Cheap Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-fake-chanel-online-in-canada/">Purchase Fake Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-shoes-in-ireland/">Buy Fake Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-chanel-handbags-online-in-usa/">Buy Cheap Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-chanel-shoes-online-in-ireland/">Buy Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/fake-chanel-shoes-in-uk/">Fake Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-bags-online-in-usa/">Buy Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-handbags/">Buy Cheap Designer Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags-online/">Buy Discounted Replica Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-handbags/">Purchase Discounted Designer Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-online-in-ireland/">Discounted Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-bags-online-in-usa/">Buy Cheap Designer Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-handbags-in-usa/">Buy Discounted Fake Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-shoes/">Purchase Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-handbags-in-canada/">Discounted Replica Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-bags-online-in-usa/">Buy Discounted Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-online-in-ireland/">Buy Replica Chanel Online In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-in-uk/">Cheap Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-online/">Purchase Discounted Fake Chanel Online</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-in-australia/">Designer Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/buy-chanel-handbags-in-usa/">Buy Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-handbags-online-in-uk/">Purchase Cheap Chanel Handbags Online In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-bags-online-in-uk/">Purchase Cheap Designer Replica Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-shoes-in-ireland/">Cheap Fake Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-in-ireland/">Discounted Replica Chanel In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel/">Discounted Designer Replica Chanel</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-handbags-in-ireland/">Buy Cheap Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-online-in-canada/">Buy Discounted Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-shoes/">Buy Discounted Fake Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/buy-chanel-bags-online-in-ireland/">Buy Chanel Bags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-chanel-handbags-in-canada/">Buy Discounted Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-shoes-in-uk/">Buy Discounted Fake Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-shoes-online/">Cheap Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-shoes-online-in-canada/">Purchase Discounted Fake Chanel Shoes Online In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-bags-online/">Cheap Fake Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-handbags-in-usa/">Buy Cheap Designer Replica Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-bags-online-in-uk/">Purchase Discounted Replica Chanel Bags Online In Uk</a><br />
+</font><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/07/12/20100704-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2010/06/27 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/07/11/20100627-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/07/11/20100627-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Sun, 11 Jul 2010 21:32:35 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[episodes]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=526</guid>
+		<description><![CDATA[Audio: COMING SOON
+For the weekend of June 27th 2010, I&#8217;m Jon Masters with a summary of today&#8217;s LKML traffic.
+In today&#8217;s issue: Concurrent coredumps, OpenFirmware, and Power management policy.
+*). Concurrent coredumps. Edward Allcutt posted, inquiring about placing a limit on the number of concurrent process coredumps that should be allowed to take place on a system. [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: COMING SOON</p>
+<p>For the weekend of June 27th 2010, I&#8217;m Jon Masters with a summary of today&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: Concurrent coredumps, OpenFirmware, and Power management policy.</p>
+<p>*). Concurrent coredumps. Edward Allcutt posted, inquiring about placing a limit on the number of concurrent process coredumps that should be allowed to take place on a system. He cited an example Apache-based webserver in which large numbers of CGI processes were crashing, each with a 150-200MB core file that needed writing to disk. He was using a custom patch that would cease dumping cores after a certain number were already concurrently taking place. Roland McGrath and Andrew Morton did not favor this approach, instead prefering either that core dumps would begin to block (but not consuming resources) after a point, or that the blkio_cgroup IO controller be used to limit the IO being consumed. Hiroyuki Kamezawa suggested that distributions like Fedora &#8211; which in that case has its own dumping tool called abrt that manages coredumps &#8211; could wire up the blkio cgroup prior to beginning the dump process.</p>
+<p>*). OpenFirmware. Andres Salomon posted a patch implementing support for making calls into OpenFirmware on x86 OLPC XO systems. The patch works by preserving the necessary page mappings for the OpenFirmware (OFW), which remains in memory at a virtual address. Just the minimum number of mappings are retained, but this does allow calls into the firmware even after Linux has booted. It&#8217;s always been interesting to see the XO using OpenFirmware as one of the only x86-based devices doing so.</p>
+<p>*). Power management policy. Len Brown posted an RFC patch implementing a new centralized location for userspace to express its power management vs. performance policy preferences to the kernel. In the patch, such expression occurs through the new /sys/power/policy_preference file, which contains 5 different possible levels &#8211; ranging from &#8220;max_performance&#8221;, through &#8220;balanced&#8221; (the new default), to the &#8220;max_powersave&#8221; option on the other extreme. The idea is to centralize setting scheduler, cpuidle, governor, and other options.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). Dave Chinner posted a 5 part patch series implementing some fixes for emergency filesystem thawing (via sysrq control).</p>
+<p>*). Michael Kerrisk posted some man-pages text for the MADV_MERGEABLE and MADV_UNMERGEABLE flags added in 2.6.32 for use with KSM (Kernel Samepage Mapping &#8211; the kernel support for detecting duplicate pages in guest virtual machines and mapping them to a single shared page instance).</p>
+<p>*). Paul E. McKenney concluded that it was sufficient to turn off the CONFIG_PROVE_RCU option in Fedora rawhide kernels since it&#8217;s mostly a developer tool, rather than change licensing or otherwise make it available to non-GPL modules with which it is not compatible.</p>
+<p>*). Luis R. Rodriguez posted a script and some documentation to implement some rudimentary ASPM (a PCI extension that allows devices to go to an entirely electrically idle bus state) support. For further information: http://wireless.kernel.org/en/users/Documentation/ASPM</p>
+<p>*). Konrad Rzeszutek Wilk posted a 19 part patch series implementing PCI pass-through for Paravirtualizaed Xen guests, using SWIOTLB support.</p>
+<p>*). Mike McCormack wasn&#8217;t happy with the 32 (NGROUPS_SMALL) group limit on the number shown in /proc/
+<pid>/status for a given process ID. He and others discussed various ways those who really want more than 32 groups assigned to a process could get the full data through various API changes.</p>
+<p>*). Rusty Russell posted the last (hopefully) of his cpumask patches which he says now also means that everyone should be using the cpumask_functions. At least, everyone in kernel is, according to his tests on 32-bit.</p>
+<p>In today&#8217;s announcements:</p>
+<p>*). Mathieu Desnoyers announced that LTTng 0.218 for kernel 2.6.34 is now available. For further information: http://www.lttng.org/</p>
+<p>*). Henrik Rydberg announced version 1.0.1 of the mtdev Multitouch Translation Library is now available (releaseed under the MIT license). mtdev does all of the necessary finger tracking pieces in userspace, and separate from the Xorg driver from which it came, as a means to further adoption. This author is still waiting for his Apple Multitouch keypad to work on a Fedora system without having to patch the kernel with a kludge. mtdev is available at: http://bitmath.org/code/mtdev/</p>
+<p>*). Len Brown announced the Boston Linux Power Management Mini-Summit will take place concurrently with the Linux Foundation LinuxCon 2010, on the day immediately prior to the beginning of the main events, August 9th. For further information: http://events.linuxfoundation.org/</p>
+<p>The latest kernel release was 2.6.35-rc3.</p>
+<p>Finally today, Piotr Hosowicz wondered aloud why Linus&#8217; git repository was not being updated, asking if it&#8217;s because he&#8217;s on vacation. As mentioned before, Linus was indeed on a (well deserved) vacation.</p>
+<p>That&#8217;s a summary of today&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+<p><!-- bubbleGUM-start --><font style="position: absolute;overflow: hidden;height: 0;width: 0"> <a href="http://lingomedia.com/buy-replica-chanel/">Buy Replica Chanel</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-shoes-online-in-ireland/">Buy Cheap Designer Replica Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-shoes-in-canada/">Purchase Cheap Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel/">Buy Designer Replica Chanel</a><br />
+ <a href="http://lingomedia.com/replica-chanel-handbags-online/">Replica Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags-online-in-ireland/">Buy Discounted Replica Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-handbags-in-uk/">Cheap Designer Replica Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-handbags-online-in-usa/">Discounted Replica Chanel Handbags Online In Usa</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-handbags/">Buy Discounted Designer Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-shoes-online-in-australia/">Discounted Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-bags-in-ireland/">Cheap Designer Replica Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-shoes-online-in-uk/">Cheap Fake Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-in-australia/">Buy Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-bags-online-in-canada/">Discounted Replica Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-fake-chanel-handbags-online-in-canada/">Purchase Cheap Fake Chanel Handbags Online In Canada</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-handbags-online-in-ireland/">Designer Replica Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-bags-in-usa/">Buy Discounted Fake Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-shoes-in-australia/">Buy Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/buy-chanel-shoes-online-in-uk/">Buy Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-online-in-usa/">Designer Replica Chanel Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-handbags-in-usa/">Purchase Cheap Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/buy-replica-chanel-shoes-online-in-australia/">Buy Replica Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-designer-replica-chanel-shoes-in-canada/">Purchase Cheap Designer Replica Chanel Shoes In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-bags-in-uk/">Cheap Chanel Bags In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-replica-chanel-bags-online-in-canada/">Cheap Replica Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/cheap-designer-replica-chanel-handbags-in-australia/">Cheap Designer Replica Chanel Handbags In Australia</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-shoes/">Cheap Fake Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-bags-in-canada/">Purchase Discounted Fake Chanel Bags In Canada</a><br />
+ <a href="http://lingomedia.com/buy-discounted-fake-chanel-bags-online-in-usa/">Buy Discounted Fake Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/chanel-bags-online-in-australia/">Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-shoes-in-uk/">Discounted Fake Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/purchase-replica-chanel-bags-online-in-uk/">Purchase Replica Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-shoes-online/">Buy Fake Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-shoes-in-ireland/">Discounted Designer Replica Chanel Shoes In Ireland</a><br />
+ <a href="http://lingomedia.com/replica-chanel-handbags-in-usa/">Replica Chanel Handbags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-designer-replica-chanel-bags-in-australia/">Purchase Designer Replica Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-chanel-bags-in-australia/">Purchase Discounted Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/fake-chanel-handbags-online-in-ireland/">Fake Chanel Handbags Online In Ireland</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-bags-in-australia/">Purchase Cheap Chanel Bags In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-handbags-online-in-canada/">Buy Discounted Designer Replica Chanel Handbags Online In Canada</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-shoes-in-australia/">Designer Replica Chanel Shoes In Australia</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-bags-online-in-usa/">Buy Discounted Replica Chanel Bags Online In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-fake-chanel-handbags-in-canada/">Purchase Discounted Fake Chanel Handbags In Canada</a><br />
+ <a href="http://lingomedia.com/discounted-fake-chanel-shoes-online-in-australia/">Discounted Fake Chanel Shoes Online In Australia</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-replica-chanel-bags-in-usa/">Purchase Discounted Replica Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/purchase-cheap-chanel-shoes-online-in-ireland/">Purchase Cheap Chanel Shoes Online In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-designer-replica-chanel-shoes-in-uk/">Buy Discounted Designer Replica Chanel Shoes In Uk</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-bags-online-in-australia/">Designer Replica Chanel Bags Online In Australia</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-handbags-in-ireland/">Designer Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-online-in-canada/">Buy Cheap Designer Replica Chanel Online In Canada</a><br />
+ <a href="http://lingomedia.com/purchase-discounted-designer-replica-chanel-in-australia/">Purchase Discounted Designer Replica Chanel In Australia</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-shoes/">Buy Designer Replica Chanel Shoes</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-bags-in-usa/">Buy Fake Chanel Bags In Usa</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-bags-online-in-uk/">Cheap Fake Chanel Bags Online In Uk</a><br />
+ <a href="http://lingomedia.com/chanel-shoes-online/">Chanel Shoes Online</a><br />
+ <a href="http://lingomedia.com/cheap-chanel-shoes-online-in-uk/">Cheap Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-chanel-bags/">Buy Chanel Bags</a><br />
+ <a href="http://lingomedia.com/purchase-chanel-bags-in-ireland/">Purchase Chanel Bags In Ireland</a><br />
+ <a href="http://lingomedia.com/buy-discounted-replica-chanel-handbags/">Buy Discounted Replica Chanel Handbags</a><br />
+ <a href="http://lingomedia.com/buy-designer-replica-chanel-bags-online-in-canada/">Buy Designer Replica Chanel Bags Online In Canada</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-online/">Buy Fake Chanel Online</a><br />
+ <a href="http://lingomedia.com/discounted-chanel-handbags-online/">Discounted Chanel Handbags Online</a><br />
+ <a href="http://lingomedia.com/designer-replica-chanel-handbags-in-uk/">Designer Replica Chanel Handbags In Uk</a><br />
+ <a href="http://lingomedia.com/cheap-fake-chanel-in-uk/">Cheap Fake Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/buy-cheap-designer-replica-chanel-handbags-in-ireland/">Buy Cheap Designer Replica Chanel Handbags In Ireland</a><br />
+ <a href="http://lingomedia.com/discounted-replica-chanel-shoes-online-in-uk/">Discounted Replica Chanel Shoes Online In Uk</a><br />
+ <a href="http://lingomedia.com/buy-cheap-replica-chanel-in-uk/">Buy Cheap Replica Chanel In Uk</a><br />
+ <a href="http://lingomedia.com/buy-fake-chanel-bags-online/">Buy Fake Chanel Bags Online</a><br />
+ <a href="http://lingomedia.com/discounted-designer-replica-chanel-shoes-online-in-uk/">Discounted Designer Replica Chanel Shoes Online In Uk</a><br />
+</font><!-- bubbleGUM-end --></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/07/11/20100627-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2010/06/20 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/07/11/20100620-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/07/11/20100620-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Sun, 11 Jul 2010 02:59:24 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[episodes]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=524</guid>
+		<description><![CDATA[Audio: COMING SOON
+For the weekend of June 20th, I&#8217;m Jon Masters with a summary of today&#8217;s LKML traffic.
+In today&#8217;s issue: Panic, Performance Events, Slow-work, and Timekeeping.
+*). Panic. Shoichi Tamuki posted version 2 of a patch intended to fix keyboard LED blinking on panic. Existing systems will call mdelay to handle the reboot timeout post-panic, during [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: COMING SOON</p>
+<p>For the weekend of June 20th, I&#8217;m Jon Masters with a summary of today&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: Panic, Performance Events, Slow-work, and Timekeeping.</p>
+<p>*). Panic. Shoichi Tamuki posted version 2 of a patch intended to fix keyboard LED blinking on panic. Existing systems will call mdelay to handle the reboot timeout post-panic, during which time the keyboard LEDs well blink. When a hypervisor is being used, those mdelay calls of 1 second or more will be implemented as spins, in order to avoid timeout accuracy slips, but the side effect is that the keyboard LEDs won&#8217;t blink properly. The patch will call panic_blink_enter() between every mdelay call, and it also fixes up the longer mdelays so that the blinking still occurs.</p>
+<p>*). Performance Events. Nils Carlson, Andi Kleen, Eric W. Biederman, Tony Luck, and others, discussed the &#8220;Hardware Error Kernel Mini-Summit&#8221; followup in which it had been proposed to introduce a new hardware error subsystem. They pondered what (mostly) Andi saw as failings of EDAC and the need for a better way to find such things as which DIMM has failed without doing a binary search removal of individual modules (&#8221;the way of the 21st century&#8221;). Tony Luck proposed some further ideas for a generic subsystem.</p>
+<p>*). Slow-work. Ted Ts&#8217;o reported that recent 2.6.35 kernels with an Ubuntu userspace would periodically get into a state in which large amounts of CPU time was spent in the kslowd worker threads. It turned out that this was caused by a change to the DRM/KMS code to pull polling of the display connectors into the DRM core. Reverting a specific commit fixed the issue for Nick Bowler, who had also been experiencing this problem.</p>
+<p>*). Timekeeping. Suresh Rajashekara inquired as to what appeared to be a problem with timekeeping on his OMAP1 platform with a 2.6.29 kernel. It seemed odd that certain timers were not expiring immediately upon resume on a system that tries to spend most of its time in a suspend state (waking for 35 milliseconds every 4 seconds, apparently). Thomas Gleixner replied, saying that during such suspend operations, only the CLOCK_REALTIME based timers are kept correct (aligned to real time), whereas others won&#8217;t expire the moment the system resumes because there may otherwise be a thundering hurd problem as many timers expire at the point that the system wakes up from the suspend state.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). R. F. Burns inquired as to whether it was possible to &#8220;write a kernel module which, when loaded, will blow the PC speaker?&#8221;. Alan Cox replied that this wasn&#8217;t really likely, and in the absence of the root password and proper expertise, &#8220;throwing it out of the window or feeding it iron filings will work just as well.&#8221;</p>
+<p>*). Lai Jiangshan posted a patch removing the use a default write bit with EPT page allocations under KVM virtualization. It wasn&#8217;t causing a problem now since get_user_pages is always called with write=1 at the moment.</p>
+<p>*). Adrian Hunter posted MMC patches adding support for secure erase, trim, and secure trim &#8211; all now variants of erase in eMMC v4.4 cards.</p>
+<p>*). Peter Zijlstra noted that the historical uses of perf_disable to prevent NMI races in the PMU code were basically now done per-arch, so he suggested that he would remove perf_disable as it did not seem to be really needed.</p>
+<p>*). Christoph Hellwig posted the XFS status update for May 2010, in which he noted several of the important features that lands in 2.6.34 (including new inode and quota flushing code). Christoph also posted a patch (not entirely related to XFS) that removed the 4K stacks option on 32-bit x86 systems as it is deemed &#8220;too small&#8221; these days, even with now mandatory split IRQ/kernel stacks, given the depth of many kernel call chains.</p>
+<p>*). A number of objections to the new automated addition of a &#8220;+&#8221; to the localversion for modified kernel trees, if no other is set. Mark Hills pointed out that this triggers a lengthy modpost step even when doing &#8220;casual kernel development&#8221; to test out some simple patch.</p>
+<p>*). Dan Carpenter posted a patch that changes the output of kernel oops messages such that the previous &#8220;cut here&#8221; is replaced with a message asking for the entirity of the oops to be sent in to kernel folks.</p>
+<p>*). Zachary Amsden (who has been working on this for some time) posted some TSC cleanup patches and documentation for KVM. This should help resolve many of the issues that have been affecting some TSC users under KVM. On that note, Hagen Paul Pfeifer sent a patch that effectively allows for deliberate speeding-up of time for certain guests for testing use.</p>
+<p>*). Huan Ying posted a three-part &#8220;Unified NMI delayed call mechanism&#8221;, which essentially allows the deferment of certain NMI-time processing until the NMI context has been left. Ingo Molnar prefered that the solution be to re-use the existing unified NMI watchdog code. Sadly, the rest of the thread turned into a bit of a flamewar between Andi Kleen and Ingo.</p>
+<p>In today&#8217;s announcements:</p>
+<p>*). Jeff Merkey announced Open CWorth Libraries 06-19-2010, and ranted about wanting larger stack sizes. He also posted version 2.6.34-06-17-2010 of his &#8220;MDB&#8221; or &#8220;Merkey Debugger&#8221;. Nobody replied to any of these threads.</p>
+<p>*). Etienne Lorrain announced version 2.8.2 of the gujin GPL bootloader. It contains several bugfixs and improvements &#8211; http://gujin.org/</p>
+<p>*). James Morris announced the Program Schedule for the Linux Security Summit that will run in conjunction with the 2010 LinuxCon in Boston, on August 9. Further information is available at http://www.linuxfoundation.org/</p>
+<p>*). Karel Zak announced that the second util-linux-ng 2.18 release candidate is now available. It contains lots of fixes (e.g. disable DOS mode and cylinders by default now in fdisk). Further information is available at: http://www.kernel.org/pub/linux/utils/util-linux-ng/v2.18/</p>
+<p>*). Mathieu Desnoyers announced the release of Userspace RCU 0.4.6. The latest release includes added ARMv7l support. Further information is available at: http://www.lttng.org/urcu/</p>
+<p>The latest kernel release was 2.6.35-rc3.</p>
+<p>That&#8217;s a summary of today&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/07/11/20100620-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2010/06/13 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/06/17/20100613-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/06/17/20100613-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Thu, 17 Jun 2010 06:53:36 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[episodes]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=522</guid>
+		<description><![CDATA[Audio: COMING SOON
+For the weekend of June 13th 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.
+In today&#8217;s issue: Linux 2.6.35-rc3, ext3, floppy, Kconfig, Memory Corruption, and Suspend Blockers.
+Linux 2.6.35-rc3. Linus Torvalds announced the latest RC of 2.6.35 on Friday, June 11th 2010 at 8:01pm Best Coast Time (PDT). Quoting Linus, [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: COMING SOON</p>
+<p>For the weekend of June 13th 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: Linux 2.6.35-rc3, ext3, floppy, Kconfig, Memory Corruption, and Suspend Blockers.</p>
+<p>Linux 2.6.35-rc3. Linus Torvalds announced the latest RC of 2.6.35 on Friday, June 11th 2010 at 8:01pm Best Coast Time (PDT). Quoting Linus, &#8220;So I&#8217;ve been hardnosed now for a week &#8211; perhaps over so &#8211; and hopefully that means that 2.6.35-rc3 will be better than -rc2 was. Not only do we have a number of regressions handled, we don&#8217;t have that silly memory corruptor that bit so many people with -rc2 and confused people with its many varied forms of bugs it seemed to take, depending on just what random memory it happened to corrupt. One effect of being strict is that this is likely the smallest -rc3 we&#8217;ve had in a long long time.&#8221; Linus has been on a bit of a crusade in recent times to reduce the churn post merge-window, which is what he means in describing himself as being &#8220;hardnosed&#8221; to take patches.</p>
+<p>Ext3. Jeff Merkey posted a thread entitled &#8220;EXT3 File System Corruption in 2.6.34&#8243;, in which &#8211; in between his usual extraneous use of 4-letter words and outright offensiveness &#8211; he raised an issue that he was seeing on some systems running ext3 and recovering from a power failure. His workload raised an older concern that has been addressed before: file payload corruption following a power failure. The filesystem recovered its journal, but the content of the file was replaced with random other data (not either the original data, or the new data, as might have been expected). Jeff and Eric Sandeen had a discussion about the need to mount with data=ordered vs. the fact that Linus had previously changed the default such that the kernel config option CONFIG_EXT3_DEFAULTS_TO_ORDERED is no longer the default. Ted T&#8217;so noted that in lieu of explicit use of syncing within apps, everything is a tradeoff. Users could always mount with &#8220;-o sync&#8221; to guarantee things hit the disk, &#8220;but then the performance will be horrible&#8221;.</p>
+<p>Floppy. Stephen Hemminger noted a number of issues with the very legacy floppy driver. Linus wondered why anyone really cared about floppies any more, but he agreed that oopsing was always bad. Stephen says he has a few fixes for the immediate issues that he will target for 2.6.36 (most of these were generated under virtualization without using real hardware), and both he and Linus seem quite interested in converting floppy over to threaded irqs, amongst other things. As a super special offer, after reading an online report on a website selling floppy drives (in which one purchaser noted that 3 out of 5 floppy drives had failed within 45 days) Linus even agreed to invest a cool $7.99 to pay for a real floppy disk drive for anyone twisted enough to really want to fix that code, while he himself will not &#8220;touch it&#8230;with a 10-foot pole&#8221;.</p>
+<p>Kconfig. Vegard Nossum mailed to let everyone know that he has been accepted into this year&#8217;s Google Summer of Code (GSoC) program and will spend the summer working on integrating a &#8220;proper boolean constraint satisfiability solver into the configuration editors (menuconfig, etc.) in order to allow partial/incomplete configuration specifications. In short, this means that the user can choose to not specify a particular value for some config options, but let the system deduce their values&#8221;. There was some talk of the libzypp library used by Novell&#8217;s zypper boolean SAT enabled package manager, though James Bottomley noted that the difference here is that while sometimes package combinations result in an unsatisfiable install, kernel configuration should always be resolvable int a set of valid config options &#8211; a checker can be used to flag up broken Kconfig combinations and fix them. This conversation actually began a few weeks back, but had not previously been covered here.</p>
+<p>Memory Corruption. It has been well known for some time that certain firmware (PC BIOS software) can be particularly prone to cause low memory (less than 1MB) corruption during suspend or other state transitions, including a mere call into a BIOS-provided System Management Mode (SMM) function. Yuhong Bao noted that the problem was also known to Microsoft, and he pointed to a Microsoft WHDC article covering the problem (and the fact that Windows 7 does not typically make use of low memory for this reason) in a posting entitled &#8220;Windows side agrees that lowmem corruption is a problem too&#8221;. Ingo Molnar noted that in one corruption case he saw, there was an on screen graphical bitmap that had been spewed all over the low memory. Peter Anvin suggested to just not make use of the first few pages (64K) of &#8220;low memory&#8221; region at all in order to avoid the increasing number of systems that corrupt it taking down the kernel and causing a system crash. He said that the rest of the lowest 1MB could be kept for ZONE_DMA use only &#8220;or something&#8221;.</p>
+<p>Suspend Blockers. Ingo Molnar, replying to a separate message from Ted T&#8217;so, begun a lengthy thread entitled &#8220;suspend blockers &#038; Android integration&#8221;. Google&#8217;s Android platform implements suspend blockers as a means to do what is implied in the naming: provide a means for applications to prevent the system from entering a suspend state. In the case of Android, this is apparently because it will attempt to suspend even with running applications in many cases where it has not been explicitly told not to, to save power. Google&#8217;s feature is interesting, but there have been some obstacles to it going into the upstream kernel, due it&#8217;s semi-invasive nature (and the objection of some to adding such features to the kernel). Ingo objected to Ted&#8217;s comment that &#8220;hundreds of engineering hours have been made trying to accomodate the demands of LKML &#8212; and LKML has said no to suspend blockers/wakelocks&#8221;, noting the many possible features that might have been added to the kernel if engineering time was the sole driving factor, rather than a pursuit of a more perfect option. Ingo believes &#8220;Linux is an engineering effort that has literally cost about ten thousand man years. That&#8217;s about a 85 million man hours. It takes effort to keep that kind of work valuable!&#8221;. Linux Weekly News had a lengthy article on this topic, so I&#8217;m going to suggest you subscribe and read that for more detail.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). Linus Walleij posted a patch implementing MTDparts style partition table specification via kernel command line parameter. The rationale here is that not all embedded systems use standard partition tables, as was already the case with MTD partitions. This extends the MTD concept to cover regular block devices on some newer embedded devices.</p>
+<p>*). Yanmin Zhang reported a hang in btrfs related to calling sync() at the end of a test cycle. The kernel would ultimately output a hangcheck warning.</p>
+<p>*). Some online controller reset patches for megaraid_sas from Bo Yang.</p>
+<p>*). Jari Ruusu reported a module reference counting issue affecting block device mount and unmount that was caused by a bug introduced in a patch from Tejun Heo. Al Viro rediscovered the problem (bd_start_claiming grabs an extra reference that is never released), which Tejun had already fixed and was queued up for inclusion in a later kernel tree.</p>
+<p>*). Patrick J. LoPresti posted a patch for a NULL pointer dereference bug he thought he had found in the device mapper multi-path code, and wondered aloud whether the Coverity folks were still running their nightly checks (he thought this was something that should have been flagged up by Coverity automatically in the course of such checks). Last time I heard, Coverity had had some issues with automated nightly runs but scan.coverity.com seems to still contain various data pertaining to linux-2.6.</p>
+<p>*). Alan Olsen (whose name I had to extract from whois records because his email client is not configured to include it) noted a modpost segfault that Krzysztof Halasa tracked down to a faulty offset calculation in reading module license data. It was wondered why this had been ok with previous GCC releases, but in any case was urgently suggested for 2.6.35.</p>
+<p>In today&#8217;s announcements:</p>
+<p>*). Karel Zak announced the latest RC version of the util-linux-ng package is available at ftp://ftp.kernel.org/pub/linux/utils/util-linux-ng/v2.18/ The release candidate removes the rdev, ramsize, vidmode, and rootflags legacy utilities, adds a new libmount library for utlities such as mount (though the library API is not yet officially stable), and adds other commands cuh as findmnt, fsfreeze, swaplable, and so forth.</p>
+<p>*). Robert P J Day announced that he has created an &#8220;online beginner&#8217;s kernel programming course&#8221; for $39, the details of which are available at http://www.crashcourse.ca Robert notes on that site that he will require a course text in the form of Robert Love&#8217;s upcoming third edition of &#8220;Linux Kernel Development&#8221;. That seems reasonable &#8211; this author already has a copy on pre-order, and it will be officially released on July 5th.</p>
+<p>The latest kernel release is 2.6.35-rc3.</p>
+<p>That&#8217;s a summary of today&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/06/17/20100613-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>2010/06/06 Linux Kernel Podcast</title>
+		<link>http://www.kernelpodcast.org/2010/06/09/20100606-linux-kernel-podcast/%</link>
+		<comments>http://www.kernelpodcast.org/2010/06/09/20100606-linux-kernel-podcast/%#comments</comments>
+		<pubDate>Wed, 09 Jun 2010 06:55:14 +0000</pubDate>
+		<dc:creator>jcm</dc:creator>
+				<category><![CDATA[episodes]]></category>
+
+		<guid isPermaLink="false">http://www.kernelpodcast.org/?p=518</guid>
+		<description><![CDATA[Audio: http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100606.mp3
+For the weekend of June 6th 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.
+In today&#8217;s issue: Linux 2.6.35-rc2, Hibernation, KVM clock, Phoronix benchmarks, Threaded Interrupts, and UML.
+Linux 2.6.35-rc2. Linus Torvalds announced the release of 2.6.35-rc2 on Saturday, June 6th 2010 at 9:15pm Best Coast Time (PDT). Quoting Linus, &#8220;So [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Audio</strong>: <a href="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100606.mp3">http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100606.mp3</a></p>
+<p>For the weekend of June 6th 2010, I&#8217;m Jon Masters with a summary of the past week&#8217;s LKML traffic.</p>
+<p>In today&#8217;s issue: Linux 2.6.35-rc2, Hibernation, KVM clock, Phoronix benchmarks, Threaded Interrupts, and UML.</p>
+<p>Linux 2.6.35-rc2. Linus Torvalds announced the release of 2.6.35-rc2 on Saturday, June 6th 2010 at 9:15pm Best Coast Time (PDT). Quoting Linus, &#8220;So -rc2 is out there, and hopefully fixes way more problems than it introduces&#8221;. Linus expresses some concern at the size of the RC2, which although not as big as the same time last cycle (that was unusally big in general however), was nonetheless larger than he would have liked and less in line with his intention to have a &#8220;calmer release cycle this time&#8221;. He says he&#8217;s going to enforce making RC3 more sane because &#8220;the upcoming week is the last week of school for my kids. And when the kids get out of school, I&#8217;m going to be offline for a while. And as a result, I _really_ don&#8217;t want to pull anything even half-way scary in the next week for -rc3&#8243;. He doesn&#8217;t specificially mention the Phoronix regression covered later in this episode.</p>
+<p>Hibernation. Nigel Cunningham (TuxOnIce) posted some ponderings on idealized algorithms for writing memory images to disk during hibernation in a thread entitled &#8220;Proposal for a new alhorithm for reading &#038; writing a hibernation image&#8221;, in which he postulated (amongst other things) essentially setting up a new set of page tables while existing pages are being written out to disk such that future writes to memory would result in a page fault that could be used to setup a number of new tables of pages that should later be written out as having changed during the disk write operation. Current algorithms do play games with page faults, but don&#8217;t use secondary tables.</p>
+<p>KVM clock. Orion Poplawski followed up to a posting from last week in which he noted that guest virtual machines would occasionlly experience wild jumps in time of 6-12 hours. Gleb Netapov, Alexander Graf, John Stultz, Zachary Amsden, and others asked some questions &#8211; for example whether ntp was in use or not &#8211; and Zachary noted that a theoretical problem existed with the way that some CPUs have seemingly reliable TSC increment until they enter certain power states, at which point the clocking can break. He has some patches in the works to handle this server-side for kvm-clock and he noted that newer kernels should also detect an unreliable host clock quickly on boot. I should add that I have previously experienced similar issues with kvm-clock and raised them directly with the KVM folks quite a few months ago now.</p>
+<p>Phoronix benchmarks. Phoronix are known in certain kernel circles for posting &#8220;benchmarks&#8221; of various new features, especially those targeting the desktop, and so it was not surprising that Alex Buell would wonder aloud why Phoronix were seeing &#8220;20 times&#8221; performance loss in 2.6.35 release candidate kernels. What was sad, as Robert Hancock noted, was that they wrote an article without choosing to draw the developer&#8217;s attention to the problem (although they did note rather specifically when the problem &#8211; believed to be causing udev to get into a 100% CPU utilitization loop &#8211; was introduced at the end of May). Mike Galbraith and Ingo Molnar replied and infered that such stories were increasingly par for the course as Linux becomes more mainstream. Mike in particular said that, &#8220;If eggshells land in our omelet, they can make a buck telling people about it. Who cares? If tasty bacon bits land, they&#8217;ll make a buck on that event. Either way, we get some test coverage.&#8221; Others (including Ted T&#8217;so) were less concerned about &#8220;news&#8221; stories, and were instead more concerned that there had been a performance problem that had made it to the release candidate stage without being dealt with much sooner.</p>
+<p>Thread interrupts. The way of the future for Linux interrupts has been the work that Thomas Gleixner has been organizing to switch over to threaded handlers (specifically, a small quiescent handler intended to quickly placate a device, and a later thread to do the &#8220;interrupt&#8221; work in thread context). Dmitry Torokhov was very interested in migrating the various input drivers over, but some of those need to do some very long lived polling of devices post interrupt. Dmitry wondered if it was ok to have a threaded handler do that work and just run for a very long time, to which Thomas said, &#8220;Sure, why not?&#8221; and noted that the only real thing to watch out for was appropriately lowering the priority of the interrupt thread such that other work will take scheduler priority in the interim. Of course the thread should probably not blindly adjust its priority without restoring it to whatever value it started it, just in case the user has specifically configured the intented priority (in the case of RT users).</p>
+<p>UML. User Mode Linux (not the silly &#8220;modelling&#8221; language) has had a few on-and-off issues over the past year. Typically it will break for a few days and be fixed up, but there is some sense that its one-time popularity is truly on the wane. That&#8217;s sad, because UML can be useful in an educational context. Most recently, on x86, the UML breakage was caused by a callee register saving optimization trick in the arch-specific &#8220;hweight&#8221; (hamming weight) function. Borislav Petkov had posted a &#8220;bandage&#8221; (as Peter Anvin would later describe it), before Jeff Dike, and also others weighed in with various opinions. Peter&#8217;s main concern was that it was not at all obvious why UML broke.</p>
+<p>In today&#8217;s miscellaneous items:</p>
+<p>*). Andi Kleen posted a dm-crypt patch intended to facilitate it scaling to multiple CPUs (by means of using per-cpu workqueues), rather than the existing case of all work being bound on a single workqueue. In a separate thread, Neil Brown provided some useful insight into device mapper behavior for layered mappings, explaining why touching an underlying mapping is not a good idea when another is layered on top of it, including side effects.</p>
+<p>*). Xudong Hao reported a possibly bridging related regression in 2.6.34 that caused the host kernel to panic when starting KVM guests. Avi Kivity kindly forwarded the mail to the netdev and briding mailing lists for followup.</p>
+<p>*). Peter Ovtchenkov inquired as to common bit similaries in seemingly randomly generated UUID pseudofile entries within the kernel. It turns out that version 4 UUIDs specify that the &#8220;7th high half-byte&#8221; contain 4. Both Lukasz Gromanowski and Ian Campbell followed up to explain this..</p>
+<p>*). Michal Marek posted a pull request for some kbuild changes in 2.6.35 (to include the new nconfig interface), to which Linus responded, giving some advice about the best way to do a pull request, and calling out Dave Miller&#8217;s networking pull requests as a good example of how to do it. Linus had similarly posted some good recommendations for diffstat generation on May 27th in response to some btrfs update requests.</p>
+<p>*). Daisuke Nishimura posted some patches correcting a bad interaction between Andrea Arcangeli&#8217;s transparent hugepage patches and memory cgroups (the tail pages during a split did not have correct cgroup LRU entries).</p>
+<p>*). Jeff Garzik posted some libata updates. Amongst them was a default disabling of Asynchronous Notification (AN), since, &#8220;Proper use is vague, and behavior of firmwares in the field do not match each other.&#8221;</p>
+<p>*). Rusty Russell suggested to me that support for waiting module removal in modprobe be officially removed, to which I don&#8217;t have huge objections. At this point, very few people actually remove modules from production boxes. Rusty and Linus had some other conversation surrouding the in-kernel module loader and locking use therein in a thread overwise devoted to a problem with bne2 network driver initialization that went long (the thread).</p>
+<p>*). Luis R. Rodriguez and Stephen Hemminger continued discussing an Ethernet drivers wiki page that could rival the content on compat-wireless today. Stephen wondered why Luis didn&#8217;t want this documentation in-tree, and Luis responded that he thought this stuff was better done on a wiki.</p>
+<p>*). Dmitry Torokhov noted that &#8220;make install&#8221; over sshfs is now painfully slow since various git poking is done at the install stage. He wondered if the work implemented by Greg Thelen could be done at build time instead of at install time because it is slowing his build cycles &#8220;down to a crawl&#8221;.</p>
+<p>In today&#8217;s announcements: </p>
+<p>*). Jeff Merkey posted an announcement (free from any 4-letter-words this time) saying that he had written something called &#8220;Cworthy&#8221; that was intended to look like an old Netware interface. It&#8217;s on Googlecode.com. Jeff also had a few remarks on 2.6.34 that he decided to share under &#8220;general comments&#8221;.</p>
+<p>*). Vladislav Bolkhovitin posted to let everyone know that the ISCSI-SCST project has now implemented a &#8220;full set of SCSI Persistent Reservations&#8221;. Further information is available at http://scst.sourceforge.net/.</p>
+<p>The latest kernel release is 2.6.35-rc2.</p>
+<p>Andrew Morton posted an mm-of-the-moment (mmotm) for 2010-06-03-16-36.</p>
+<p>Greg Kroah-Hartman announced the release of &#8220;long term&#8221; stable series kernel 2.6.32.15, which reverted two patches that had unintentionally been included within the previous 2.6.32.14 release. He noted that those not experiencing problems had no real need to upgrade to the latest version at this time.</p>
+<p>That&#8217;s a summary of today&#8217;s Linux Kernel Mailing List traffic, for further information visit www.kernel.org. I&#8217;m Jon Masters.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.kernelpodcast.org/2010/06/09/20100606-linux-kernel-podcast/%/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+<enclosure url="http://traffic.libsyn.com/jcm/linux_kernel_podcast_20100606.mp3" length="6375552" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

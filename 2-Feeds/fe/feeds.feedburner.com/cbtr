@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>cbtr.net tech dump</title>
+	
+	<link>http://www.cbtr.net</link>
+	<description />
+	<lastBuildDate>Thu, 19 Apr 2012 15:56:57 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.2.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/cbtr" /><feedburner:info uri="cbtr" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>C#: Could not load file or assembly</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/0QBg-swQedk/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/19/csharp-could-not-load-file-or-assembly/#comments</comments>
+		<pubDate>Thu, 19 Apr 2012 15:56:57 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1091</guid>
+		<description><![CDATA[As you may know, I&#8217;ve recently tweaked someone&#8217;s C# code to make it work the way I want.  That post can be found here.  I am pleased to say that it work perfectly on my laptop but when I loaded it on &#8230; <a href="http://cbtr.net/red8rain/2012/04/19/csharp-could-not-load-file-or-assembly/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/19/csharp-could-not-load-file-or-assembly/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>As you may know, I&#8217;ve recently tweaked someone&#8217;s C# code to make it work the way I want.  That post can be found <a title="SSIS: Export more than 255 columns from SQL table to Excel" href="http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/" >here</a>.  I am pleased to say that it work perfectly on my laptop but when I loaded it on the server to be executed, I got the error:</p>
+<blockquote><p>Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly &#8216;Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c&#8217; or one of its dependencies. The system cannot find the file specified.</p></blockquote>
+<p><span id="more-1091"></span></p>
+<p>Once again, I took to the web, looking for the answer.  I found links and articles, read them, tried them and still didn&#8217;t work.  Last night, I was talking to a ex co-worker at Microsoft who is a seasoned C# developer and I brought up the question.  He, of course, was in bed and I was pretty much talking to myself via MSN Live Messenger.</p>
+<p>But this morning he responded to my question:</p>
+<blockquote><p>RD says (8:10 AM): look at your references in your project, and make sure all of them are set to copy local. Then when you deploy, deploy all the dlls with your exe.</p></blockquote>
+<p>you can find this by expanding &#8216;References&#8217; &#8211;&gt; click on the reference and go to its property.  There look for, Copy Local.  By default, this is set to False.  Change it to True.  Setting the references to True will tell Visual Studio to extract the DLL from where-ever the hell it is stored (actually, you can tell where it is stored) to the bin\debug or bin\release folder when the project is compiled.  All you have to do afterward is copy the freshly minted .exec, .dlls, and .config (if one is used) to any Windows machine and it will work.</p>
+<p>Thanks RD.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/19/csharp-could-not-load-file-or-assembly/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/19/csharp-could-not-load-file-or-assembly/</feedburner:origLink></item>
+		<item>
+		<title>SSIS: Data import lesson learnt</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/C3wuIHyOeyE/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/18/ssis-data-import-lesson-learnt/#comments</comments>
+		<pubDate>Wed, 18 Apr 2012 18:29:32 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1089</guid>
+		<description><![CDATA[Yesterday, I was trying to import a flat file into a sql table.  The table has varchars and ints.  I had to use a data conversion tool to convert to string and 4byte unassigned so it the data type would &#8230; <a href="http://cbtr.net/red8rain/2012/04/18/ssis-data-import-lesson-learnt/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/18/ssis-data-import-lesson-learnt/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Yesterday, I was trying to import a flat file into a sql table.  The table has varchars and ints.  I had to use a data conversion tool to convert to string and 4byte unassigned so it the data type would convert correctly.  Except, SSIS was being a big douche and didn&#8217;t want to be nice.  I kept getting errors about the data type coversion for client_id is invalid and blah blah blah.</p>
+<p><span id="more-1089"></span></p>
+<p>I asked a coworker who has more experience than I do when it comes to SSIS pkgs and he suggested that I create a staging table with the columns being varchar.  Once the data is in there, I could create a view/sproc to import from the staging table to the actual table with converts/casts in place.  This step has made life a bit easier for me because I was trying to figure out why the hell SSIS 4-bytes unsigned/signed integer won&#8217;t get go into SQL&#8217;s int column nicely!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/18/ssis-data-import-lesson-learnt/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/18/ssis-data-import-lesson-learnt/</feedburner:origLink></item>
+		<item>
+		<title>SSIS: Export more than 255 columns from SQL table to Excel</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/M0Bz18MVWKY/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/#comments</comments>
+		<pubDate>Tue, 17 Apr 2012 21:50:37 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1082</guid>
+		<description><![CDATA[A few weeks ago, I was looking to export more than 255 columns from a table in SQL to Excel using SSIS.  I thought this task was going to a piece of cake because in SSIS, within the dataflow task, you get an &#8230; <a href="http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>A few weeks ago, I was looking to export more than 255 columns from a table in SQL to Excel using SSIS.  I thought this task was going to a piece of cake because in SSIS, within the dataflow task, you get an Excel Destination task and this will take care of all my woes!  But alas, it didn&#8217;t and I have spent the past 2.5 weeks, not all 8hrs a day, looking for a solution.</p>
+<p><span id="more-1082"></span></p>
+<p>The setup: A table has over 255 columns and I&#8217;m using office 2010.</p>
+<p>I went all over the place looking for a solution.  I went to Microsoft&#8217;s social msdn site and asked for help (<a href="http://tinyurl.com/cmvshmm" >here</a> and <a href="http://tinyurl.com/7s6na88" >here</a>).  Some attempted to help but none was able to provide a solution.  I even went on to ask on #ssis on twitter and no one responded, which really sucked ass.  I asked my coworkers here to see if they have any idea.  They suggested the use of Office 2010 Access Database Engine.  This was suppose to be the end all be all to my problem but it wasn&#8217;t.</p>
+<p>No matter how I configured the connection manager for the Office 2010 Access Database Engine, The destination column is never more than 255 columns.  I have tried it on four different computers thinking that I might be missing something.  So I gave up for a few days.</p>
+<p>My machine here at work has cozyRoc SSIS+ software installed so I used the Excel Plus task and it work <em><strong>SOOOO FLAWLESSLY</strong></em>.  I didn&#8217;t even need to have a data conversion transformation task setup!  The export was faster than I was able to blink; however, I didn&#8217;t want to rely on a 3rd party application.  There <strong>HAS</strong> to be a way to get this information without a 3rd party app.</p>
+<p>After f-ing around on this a few more days, I was going to relent and use cozyRoc&#8217;s Excel Plus task but I refused to give up and wanted one more go.  I recall that I can use Csharp with the Script Task so I tried that.  I looked online and there was a lot of sites that talked about importing from Excel to SQL, which is the opposite of what I want.</p>
+<p>After some looking and switching between Bing and Google and keywords, I found a few Csharp code that would work because a lot of them had an interface.  I don&#8217;t care about the interface and wanted a console app.  The one I ended up using was from this <a href="http://tinyurl.com/739knvt" >site</a>.  I was able to take that bit of code, fix up some of the problems with it and made it into an executable.</p>
+<p>If you were to take the code from that site and stick in into the Script Task, you will need to upgrade the project to .net 3.5 because by default, SSIS creates Csharp project as .net 2.0.  In addition, because the Csharp code take one argument, your Script Task will fail because you can&#8217;t past arguments into SSIS.  You will get an error that read something like this:</p>
+<blockquote><p>Error loading &#8216;Package.dtsx&#8217; : The package failed to load due to error 0xC0010014 &#8220;One or more error occurred. There should be more specific errors preceding this one that explains the details of the errors. This message is used as a return value from functions that encounter errors.&#8221;. This occurs when CPackage::LoadFromXML fails.</p></blockquote>
+<p>That&#8217;s why I adjusted the original code and remove stuff that didn&#8217;t work or were unused or unnecessary.  See attachment below for my version, which include the source code, executeable, and config file.  The config file will prevent you from having to recompile everytime you want to change the sql syntax, server, or filename. You&#8217;re welcome.</p>
+<p>Ah yes, you might need Visual Studio 2010 or NotePad++ to look at the solution.</p>
+<a class="downloadlink dlimg" href="http://cbtr.net/red8rain/downloads/Export_To_Excel.zip" title="Version v1.0 downloaded 0 times" ><img src="http://www.cbtr.net/rand/arrow.gif" alt="Download Export To Excel Version v1.0" /></a>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/</feedburner:origLink></item>
+		<item>
+		<title>SSIS: Export more than 255 columns from SQL table to Excel</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/M0Bz18MVWKY/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/#comments</comments>
+		<pubDate>Tue, 17 Apr 2012 21:50:37 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1082</guid>
+		<description><![CDATA[A few weeks ago, I was looking to export more than 255 columns from a table in SQL to Excel using SSIS.  I thought this task was going to a piece of cake because in SSIS, within the dataflow task, you get an &#8230; <a href="http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>A few weeks ago, I was looking to export more than 255 columns from a table in SQL to Excel using SSIS.  I thought this task was going to a piece of cake because in SSIS, within the dataflow task, you get an Excel Destination task and this will take care of all my woes!  But alas, it didn&#8217;t and I have spent the past 2.5 weeks, not all 8hrs a day, looking for a solution.</p>
+<p><span id="more-1082"></span></p>
+<p>The setup: A table has over 255 columns and I&#8217;m using office 2010.</p>
+<p>I went all over the place looking for a solution.  I went to Microsoft&#8217;s social msdn site and asked for help (<a href="http://tinyurl.com/cmvshmm" >here</a> and <a href="http://tinyurl.com/7s6na88" >here</a>).  Some attempted to help but none was able to provide a solution.  I even went on to ask on #ssis on twitter and no one responded, which really sucked ass.  I asked my coworkers here to see if they have any idea.  They suggested the use of Office 2010 Access Database Engine.  This was suppose to be the end all be all to my problem but it wasn&#8217;t.</p>
+<p>No matter how I configured the connection manager for the Office 2010 Access Database Engine, The destination column is never more than 255 columns.  I have tried it on four different computers thinking that I might be missing something.  So I gave up for a few days.</p>
+<p>My machine here at work has cozyRoc SSIS+ software installed so I used the Excel Plus task and it work <em><strong>SOOOO FLAWLESSLY</strong></em>.  I didn&#8217;t even need to have a data conversion transformation task setup!  The export was faster than I was able to blink; however, I didn&#8217;t want to rely on a 3rd party application.  There <strong>HAS</strong> to be a way to get this information without a 3rd party app.</p>
+<p>After f-ing around on this a few more days, I was going to relent and use cozyRoc&#8217;s Excel Plus task but I refused to give up and wanted one more go.  I recall that I can use Csharp with the Script Task so I tried that.  I looked online and there was a lot of sites that talked about importing from Excel to SQL, which is the opposite of what I want.</p>
+<p>After some looking and switching between Bing and Google and keywords, I found a few Csharp code that would work because a lot of them had an interface.  I don&#8217;t care about the interface and wanted a console app.  The one I ended up using was from this <a href="http://tinyurl.com/739knvt" >site</a>.  I was able to take that bit of code, fix up some of the problems with it and made it into an executable.</p>
+<p>If you were to take the code from that site and stick in into the Script Task, you will need to upgrade the project to .net 3.5 because by default, SSIS creates Csharp project as .net 2.0.  In addition, because the Csharp code take one argument, your Script Task will fail because you can&#8217;t past arguments into SSIS.  You will get an error that read something like this:</p>
+<blockquote><p>Error loading &#8216;Package.dtsx&#8217; : The package failed to load due to error 0xC0010014 &#8220;One or more error occurred. There should be more specific errors preceding this one that explains the details of the errors. This message is used as a return value from functions that encounter errors.&#8221;. This occurs when CPackage::LoadFromXML fails.</p></blockquote>
+<p>That&#8217;s why I adjusted the original code and remove stuff that didn&#8217;t work or were unused or unnecessary.  See attachment below for my version, which include the source code, executeable, and config file.  The config file will prevent you from having to recompile everytime you want to change the sql syntax, server, or filename. You&#8217;re welcome.</p>
+<p>Ah yes, you might need Visual Studio 2010 or NotePad++ to look at the solution.</p>
+<a class="downloadlink dlimg" href="http://cbtr.net/red8rain/downloads/Export_To_Excel.zip" title="Version v1.0 downloaded 0 times" ><img src="http://www.cbtr.net/rand/arrow.gif" alt="Download Export To Excel Version v1.0" /></a>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/17/ssis-export-more-than-255-columns-from-sql-table-to-excel/</feedburner:origLink></item>
+		<item>
+		<title>SQL: Working with daylight savings</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/SuKuQ_pB14g/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/06/working-with-daylight-savings/#comments</comments>
+		<pubDate>Fri, 06 Apr 2012 22:17:52 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1078</guid>
+		<description><![CDATA[There are a lot of scripts out there that deals with daylight savings. I never really had to deal with it because I&#8217;ve always just use UTC/GMT and now that I&#8217;m in Arizona, daylight savings &#8230; ha &#8230; what&#8217;s that &#8230; <a href="http://cbtr.net/red8rain/2012/04/06/working-with-daylight-savings/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/06/working-with-daylight-savings/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>There are a lot of scripts out there that deals with daylight savings. I never really had to deal with it because I&#8217;ve always just use UTC/GMT and now that I&#8217;m in Arizona, daylight savings &#8230; ha &#8230; what&#8217;s that all about?! Unforunately, I have to deal with it recently in a project I&#8217;m working on.  The hours we get from the source is in PST and the client, they want it converted to eastern time.  As I said, there are many scripts out there that does the trick and some requires lookup table, converting from UTC to localtime, to offset, to ms.</p>
+<p>They are a bit confusing to me so I dug and dug and found the following solution:</p>
+<p><span id="more-1078"></span></p>
+<p>These scripts was written by Tara Duggan.  I love it because I don&#8217;t have to use any type of lookup tables, offsets, or converting things back to UTC.  It allows me to convert from one timezone to another with ease.  When I first saw it, I groan thinking it was going to be another complicated BS that I have to read thru to understand, but it wasn&#8217;t.  She (I&#8217;m guessing she is a she and not a he unless Tara happens to be a unisex name) originally posted these functions to the sqlteam.com&#8217;s forum, which is now closed. </p>
+<p>In case, sqlteam.com decided to hid the forum any deeper, I ripped it from there and posted on here because I know I won&#8217;t be going anywhere for a while.  Click the download arrow below to download her easy to use script.</p>
+<a class="downloadlink dlimg" href="http://cbtr.net/red8rain/downloads/Daylight_Savings.zip" title=" downloaded 0 times" ><img src="http://www.cbtr.net/rand/arrow.gif" alt="Download SQL: Daylight Savings " /></a>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/06/working-with-daylight-savings/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/06/working-with-daylight-savings/</feedburner:origLink></item>
+		<item>
+		<title>adding timestamp to a filename base on some criteria</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/W4GpTT1qoUE/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/#comments</comments>
+		<pubDate>Mon, 02 Apr 2012 22:47:18 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1068</guid>
+		<description><![CDATA[This morning, I focused on coming up with something for a client. For the files that we generate, they wanted the timestamp to be either rounded up or down.  If it is less than 15 minutes, round down to the nearest hour; &#8230; <a href="http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>This morning, I focused on coming up with something for a client. For the files that we generate, they wanted the timestamp to be either rounded up or down.  If it is less than 15 minutes, round down to the nearest hour; else round up to the nearest hour.</p>
+<p>So the logic I can up with is as followed:</p>
+<p><span id="more-1068"></span></p>
+<pre class="brush:sql">declare @a datetime
+
+select @a = dateadd(ms, dbo.fn_GetOffSet(4, getutcdate()), getutcdate())
+
+select filestamp =
+case
+when DATEPART(hh, @a) between 01 and 09 and DATEPART(mi, @a) &lt; 15
+     then convert(varchar(8), @a, 112) + '0' + convert(varchar(8),DATEPART(HH, @a)) + '00'
+when DATEPART(hh, @a) &lt; 09 and DATEPART(mi, @a) &gt; 15
+     then convert(varchar(8), @a, 112) + '0' + convert(varchar(8),DATEPART(HH, @a) + 1) + '00'
+when DATEPART(hh, @a) &lt; 23 and DATEPART(mi, @a) &gt; 15
+     then convert(varchar(8), @a, 112) + convert(varchar(8),DATEPART(HH, @a) + 1) + '00'
+when DATEPART(hh, @a) &lt; 23 and DATEPART(mi, @a) &lt; 15
+     then convert(varchar(8), @a, 112) + convert(varchar(8),DATEPART(HH, @a)) + '00'
+when DATEPART(hh, @a) = 23 and DATEPART(mi, @a) &gt; 15
+     then convert(varchar(8), DATEADD(Day, +1, @a)) + '0000'
+else 'na; something messed up'
+end</pre>
+<p>Because I&#8217;m rounding up an hour, I had to address when the clock changes from 2300 to 0000, which mean, I need to add an extra day. So now I basically take this bit of code, stick it into the SSIS package I&#8217;m working on, pass the value to SSIS&#8217; global variable so I can use it in the expression.</p>
+<p>I hope you aren&#8217;t confused in that last portion <img src='http://cbtr.net/red8rain/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />  .</p>
+<p>*Update*</p>
+<p>Well, I put the script through the steps and SSIS failed telling me that I can&#8217;t take the output from the query above and store it as a String. After playing around with different data type in SSIS for a bit and getting annoyed, I finally relent and stuck the above into a function:</p>
+<pre class="brush:sql">create function fn_FileCreatedTime
+(@a datetime)
+
+returns varchar(20)
+as
+begin
+ declare @results varchar(20)
+
+select @results =
+ case
+ when DATEPART(hh, @a) between 01 and 09 and DATEPART(mi, @a) &lt; 15
+      then convert(varchar(8), @a, 112) + '0' + convert(varchar(8),DATEPART(HH, @a)) + '00'
+ when DATEPART(hh, @a) &lt; 09 and DATEPART(mi, @a) &gt; 15
+      then convert(varchar(8), @a, 112) + '0' + convert(varchar(8),DATEPART(HH, @a) + 1) + '00'
+ when DATEPART(hh, @a) &lt; 23 and DATEPART(mi, @a) &gt; 15
+      then convert(varchar(8), @a, 112) + convert(varchar(8),DATEPART(HH, @a) + 1) + '00'
+ when DATEPART(hh, @a) &lt; 23 and DATEPART(mi, @a) &lt; 15
+      then convert(varchar(8), @a, 112) + convert(varchar(8),DATEPART(HH, @a)) + '00'
+ when DATEPART(hh, @a) = 23 and DATEPART(mi, @a) &gt; 15
+      then convert(varchar(8), DATEADD(Day, +1, @a)) + '0000'
+ else 'na; something messed up'
+ end
+ return @results
+end</pre>
+<p>Then I ran the following query to get the output and convert it to varchar(20)</p>
+<pre class="brush:sql">select convert(varchar(20),dbo.fn_FileCreatedTime(dateadd(ms, dbo.fn_GetTimeZoneOffset(4, getutcdate()), getutcdate())))</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/</feedburner:origLink></item>
+		<item>
+		<title>adding timestamp to a filename base on some criteria</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/W4GpTT1qoUE/</link>
+		<comments>http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/#comments</comments>
+		<pubDate>Mon, 02 Apr 2012 22:47:18 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1068</guid>
+		<description><![CDATA[This morning, I focused on coming up with something for a client. For the files that we generate, they wanted the timestamp to be either rounded up or down.  If it is less than 15 minutes, round down to the nearest hour; &#8230; <a href="http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>This morning, I focused on coming up with something for a client. For the files that we generate, they wanted the timestamp to be either rounded up or down.  If it is less than 15 minutes, round down to the nearest hour; else round up to the nearest hour.</p>
+<p>So the logic I can up with is as followed:</p>
+<pre class="brush:sql">declare @a datetime
+
+select @a = dateadd(ms, dbo.fn_GetOffSet(4, getutcdate()), getutcdate())
+
+select filestamp =
+case
+when DATEPART(hh, @a) between 01 and 09 and DATEPART(mi, @a) &lt; 15
+     then convert(varchar(8), @a, 112) + '0' + convert(varchar(max),DATEPART(HH, @a)) + '00'
+when DATEPART(hh, @a) &lt; 09 and DATEPART(mi, @a) &gt; 15
+     then convert(varchar(8), @a, 112) + '0' + convert(varchar(max),DATEPART(HH, @a) + 1) + '00'
+when DATEPART(hh, @a) &lt; 23 and DATEPART(mi, @a) &gt; 15
+     then convert(varchar(8), @a, 112) + convert(varchar(max),DATEPART(HH, @a) + 1) + '00'
+when DATEPART(hh, @a) = 23 and DATEPART(mi, @a) &gt; 15
+     then convert(varchar(8), DATEADD(Day, +1, @a)) + '0000'
+else 'na; something messed up'
+end</pre>
+<p>Because I&#8217;m rounding up an hour, I had to address when the clock changes from 2300 to 0000, which mean, I need to add an extra day. So now I basically take this bit of code, stick it into the SSIS package I&#8217;m working on, pass the value to SSIS&#8217; global variable so I can use it in the expression.</p>
+<p>I hope you aren&#8217;t confused in that last portion <img src='http://cbtr.net/red8rain/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />  .</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/04/02/adding-timestamp-to-a-filename-base-on-some-criteria/</feedburner:origLink></item>
+		<item>
+		<title>SSIS: adding a dynamic date to filename</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/oQHHPl4WxHg/</link>
+		<comments>http://cbtr.net/red8rain/2012/03/31/ssis-adding-a-dynamic-date-to-filename/#comments</comments>
+		<pubDate>Sun, 01 Apr 2012 06:32:18 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1064</guid>
+		<description><![CDATA[This past week, I worked a lot with SSIS, more often that I&#8217;m used too and I foresee working on it a lot more in the future.  It is actually a pretty cool application.  I don&#8217;t know why I shyed &#8230; <a href="http://cbtr.net/red8rain/2012/03/31/ssis-adding-a-dynamic-date-to-filename/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/03/31/ssis-adding-a-dynamic-date-to-filename/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>This past week, I worked a lot with SSIS, more often that I&#8217;m used too and I foresee working on it a lot more in the future.  It is actually a pretty cool application.  I don&#8217;t know why I shyed away from it before.</p>
+<p>So this past week, I had a bunch of files that were being created via SSIS and one of the requirements were that the file names had to have a specific timestamp as its suffix followed by a .xml extension.</p>
+<p>In SSIS, I created a variable and gave it the file name. In the filename connection manager, I gave it an expression.  The expression look as followed:</p>
+<p><span id="more-1064"></span></p>
+<p>@[User::UsrFileName]<br />
++ (DT_STR,4,1252) DatePart(&#8220;yyyy&#8221;,getdate()) + Right(&#8220;0&#8243;<br />
++ (DT_STR,4,1252) DatePart(&#8220;m&#8221;,getdate()),2) + Right(&#8220;0&#8243;<br />
++ (DT_STR,4,1252) DatePart(&#8220;d&#8221;,getdate()),2) + &#8220;.xml&#8221;</p>
+<p>Some files needed hours and minutes, to get that result, I added:</p>
+<p>@[User::UsrFileName]<br />
++ (DT_STR,4,1252) DatePart(&#8220;yyyy&#8221;,getdate())<br />
++ Right(&#8220;0&#8243; + (DT_STR,4,1252) DatePart(&#8220;m&#8221;,getdate()),2)<br />
++ Right(&#8220;0&#8243; + (DT_STR,4,1252) DatePart(&#8220;d&#8221;,getdate()),2)<br />
+<strong>+ Right(&#8220;0&#8243; + (DT_STR,4,1252) DatePart(&#8220;hh&#8221;,getdate()),2)</strong><br />
+<strong>+ Right(&#8220;0&#8243; + (DT_STR,4,1252) DatePart(&#8220;mi&#8221;,getdate()),2)</strong><br />
++ &#8220;.xml&#8221;</p>
+<p>Now I didn&#8217;t figure this out myself, well the hh and mi, I got because it is SQL. Nope, I got it from another site.  I&#8217;m posting the code here for safe keeping as the owner of that blog has not updated it since 2007.  I don&#8217;t think he/she know it still exists.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/03/31/ssis-adding-a-dynamic-date-to-filename/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/03/31/ssis-adding-a-dynamic-date-to-filename/</feedburner:origLink></item>
+		<item>
+		<title>Networking equipment</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/5jCSd8_1eUM/</link>
+		<comments>http://cbtr.net/red8rain/2012/03/24/networking-equipment/#comments</comments>
+		<pubDate>Sat, 24 Mar 2012 20:34:24 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1060</guid>
+		<description><![CDATA[Yesterday, I was talking to co-workers about network cables and such.  I wanted to know if there was a place where I can get some cat5e or cat6 cables for cheap.  I also wanted to know the difference between the &#8230; <a href="http://cbtr.net/red8rain/2012/03/24/networking-equipment/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/03/24/networking-equipment/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Yesterday, I was talking to co-workers about network cables and such.  I wanted to know if there was a place where I can get some cat5e or cat6 cables for cheap.  I also wanted to know the difference between the 5e and 6 because I have fiber optic running straight into my house and right now, the switch between my router and the fiber is only a 10/100.</p>
+<p>I was told that the best place to get inexpensive but good quality cables and 1gb switches was at <a href="http://www.monoprice.com" >monoprice.com</a>.  I have never heard of them until yesterday but my co-worker swore it was a good place.  I went to check it out and man, some of the stuff there are dirty cheap.  Cat5e and Cat6 cables for &lt; $2 for a 6 footer.  Their 1GB switch is only $25 for an 8 porter.  I was sold <img src='http://cbtr.net/red8rain/wp-includes/images/smilies/icon_biggrin.gif' alt=':-D' class='wp-smiley' />  .</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/03/24/networking-equipment/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/03/24/networking-equipment/</feedburner:origLink></item>
+		<item>
+		<title>Networking equipment</title>
+		<link>http://feedproxy.google.com/~r/cbtr/~3/5jCSd8_1eUM/</link>
+		<comments>http://cbtr.net/red8rain/2012/03/24/networking-equipment/#comments</comments>
+		<pubDate>Sat, 24 Mar 2012 20:34:24 +0000</pubDate>
+		<dc:creator>Mr.ML</dc:creator>
+				<category><![CDATA[All Things]]></category>
+
+		<guid isPermaLink="false">http://cbtr.net/red8rain/?p=1060</guid>
+		<description><![CDATA[Yesterday, I was talking to co-workers about network cables and such.  I wanted to know if there was a place where I can get some cat5e or cat6 cables for cheap.  I also wanted to know the difference between the &#8230; <a href="http://cbtr.net/red8rain/2012/03/24/networking-equipment/">Continue reading <span>&#8594;</span></a> <a href="http://cbtr.net/red8rain/2012/03/24/networking-equipment/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Yesterday, I was talking to co-workers about network cables and such.  I wanted to know if there was a place where I can get some cat5e or cat6 cables for cheap.  I also wanted to know the difference between the 5e and 6 because I have fiber optic running straight into my house and right now, the switch between my router and the fiber is only a 10/100.</p>
+<p>I was told that the best place to get inexpensive but good quality cables and 1gb switches was at <a href="http://www.monoprice.com" >monoprice.com</a>.  I have never heard of them until yesterday but my co-worker swore it was a good place.  I went to check it out and man, some of the stuff there are dirty cheap.  Cat5e and Cat6 cables for &lt; $2 for a 6 footer.  Their 1GB switch is only $25 for an 8 porter.  I was sold <img src='http://cbtr.net/red8rain/wp-includes/images/smilies/icon_biggrin.gif' alt=':-D' class='wp-smiley' />  .</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cbtr.net/red8rain/2012/03/24/networking-equipment/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cbtr.net/red8rain/2012/03/24/networking-equipment/</feedburner:origLink></item>
+	</channel>
+</rss>

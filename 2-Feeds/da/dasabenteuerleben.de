@@ -1,0 +1,710 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="de-DE" lang="de-DE" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	Created 2011 by INCOWEB.de
+	Contact: info@incoweb.de
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2011 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.dasabenteuerleben.de/" />
+<link rel="shortcut icon" href="http://www.dasabenteuerleben.de/fileadmin/template/favicon.ico" />
+<link rel="icon" href="http://www.dasabenteuerleben.de/fileadmin/template/favicon.ico" />
+
+<meta name="generator" content="TYPO3 4.5 CMS" />
+<meta name="keywords" content="Schlüsselwörter" />
+<meta name="description" content="Beschreibung" />
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_e2ecbe762e.css?1322815986" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/res/css/powermail_frontend_fancy.css?1298022387" media="all" />
+
+
+
+<script src="typo3temp/javascript_93077bb238.js?1298023555" type="text/javascript"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+ 
+<link rel="stylesheet" href="fileadmin/template/css/style.css" /> 
+<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/tiptip.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/jquery.tinysort.min.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/jquery.tagcloud.min.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/tcloud.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/incoscripts.js"></script>
+<script src="http://www.google.com/jsapi"></script>
+<script>google.load("swfobject", "2.2");</script>
+<script language="JavaScript1.2">
+<!--
+
+//Open offsite links in new window option- By Jessica Hammer
+//Heavily modified by Dynamic Drive
+//Visit&nbsp;<a href="http://www.dynamicdrive.com" target="_blank">www.dynamicdrive.com</a> for this script
+
+//1)Enter domains to be EXCLUDED from opening in new window:
+var excludedomains=["www.dasabenteuerleben.de", "dasabenteuerleben.de"]
+
+//2)Automatically open offsite links in new window? (1=yes, 0 will render a checkbox for manual selection)
+var auto=1
+
+var excludedomains=excludedomains.join("|")
+rexcludedomains=new RegExp(excludedomains, "i")
+
+if (!auto)
+document.write('<form name="targetmain"><input type="checkbox" name="targetnew" checked onClick="dynamiclink()">Open off-site links in new window</form>')
+
+function dynamiclink(){
+
+if (auto||(!auto&&document.targetmain.targetnew.checked)){
+for (i=0; i<=(document.links.length-1); i++) {
+if (document.links[i].hostname.search(rexcludedomains)==-1&&document.links[i].href.indexOf("http:")!=-1)
+document.links[i].target="_blank"
+}
+}
+else
+for (i=0; i<=(document.links.length-1); i++) {
+if (document.links[i].hostname.indexOf(mydomain)==-1)
+document.links[i].target=""
+}
+}
+
+if (auto)
+window.onload=dynamiclink
+
+// -->
+</script><link rel="alternate" type="application/rss+xml" href="http://dasabenteuerleben.de/rss/" title="Abenteuer Leben RSS Feed"><script type="text/javascript" src="http://apis.google.com/js/plusone.js"> 
+{lang: 'de'}
+</script>
+</head>
+<body>
+ 
+<div class="container_16" id="wrap"><!--###wrap### begin -->
+<div class="grid_16" id="navigation"><div id="logo"><!--###logo### begin --><a href="http://www.dasabenteuerleben.de/"><img src="http://shop.dasabenteuerleben.de/skin/frontend/default/media/images/dal_logo.png" alt="Logo" width="30" height="30" /></a><!--###logo### end --></div><ul id="theNav"><li class="level-0"><a href="home.html" onfocus="blurLink(this);"  >Home</a></li><li class="level-0"><a href="kanaele/uebersicht-kanaele.html" onfocus="blurLink(this);"  >Kanäle</a></li><li class="level-0"><a href="autoren/alle-autoren.html" onfocus="blurLink(this);"  >Autoren</a></li><li class="level-0"><a href="http://shop.dasabenteuerleben.de/" onfocus="blurLink(this);"  >Shop</a></li><li class="level-0"><a href="ueber-uns.html" onfocus="blurLink(this);"  >Über uns</a></li></ul><div id="mainsearch">
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		
+		<form name="tx_dalartikel_search" id="tx_dalartikel_search" action="suche/suchergebnisse.html" method="post">
+		<input id="suchbox" onclick="this.value=''" value="Gesamte Seite durchsuchen..." type="text" name="tx_dalartikel_pi1[search]" />
+		<input id="suchbutton" type="submit" name="tx_dalartikel_pi1[submit]" value="suchen" />
+		<input type="hidden" name="tx_dalartikel_pi1[postsearch]" value="1" />
+		</form>
+		<div><small><a href="suche.html">Erweiterte Suche</a></small></div>
+
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	</div></div>
+<div class="grid_16" id="header"><!--###header### begin --><!-- --><!--###header### end --></div>
+<div class="grid_11" id="maincontent">
+	<!--  CONTENT ELEMENT, uid:67/html [begin] -->
+		<div id="c67" class="csc-default" >
+		<!--  Raw HTML content: [begin] -->
+			<!-- BEGIN PARTNER PROGRAM - DO NOT CHANGE THE PARAMETERS OF THE HYPERLINK -->
+<a href="http://partners.webmasterplan.com/click.asp?ref=593338&site=5474&type=b2&bnb=2" target="_blank">
+<img src="http://banners.webmasterplan.com/view.asp?ref=593338&site=5474&b=2" border="0" alt="Buchzusammenfassungen online bestellen" width="468" height="60" /></a><br />
+<!-- END PARTNER PROGRAM -->
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:67/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:31/list [begin] -->
+		<div id="c31" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		<div class="bigBoxTop"><h1>Letzte Artikel:</h1></div>
+<div class="lastArticleElement add2">
+<h4>AF025 - Internet und neue Medien - Alles ganz nett oder doof - Teil 1</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 02.06.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<br /><img src="typo3temp/pics/820c3dff77.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Eine Sendung auf Anregung von Euch: Wir nähern uns dem Thema Medienkompetenz.
+
+Im Gespräch: Constantin Gonzalez (u.a. Podcaster des HELDENfunk) und Christian Heinrich zu spannenden Fragen wie:
+- Was verspreche ich mir von der Nutzung eines Mediums?
+- Wie definiert man Medienkompetenz?
+- Welche Strategien sind sinnvoll bei der Mediennutzung?
+
+... und natürlich etwas ZDF: Zahlen, Daten, Fakten
+
+Dies ist der 1. Teil mit einem leichten Schwerpunkt rund ums Fernsehen... <a href="die-letzten-artikel/detailseite-artikel/af025-internet-und-neue-medien-alles-ganz-nett-oder-doof-teil-1-468.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>Talkshow Abenteuer Stimme - 2.Teil</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/stimme.html">Abenteuer Stimme</a> am 01.06.2012 von <a href="autoren/detailseite-autoren/eva-loschky.html">Eva Loschky</a></span>
+<br /><img src="typo3temp/pics/d2daa0f50b.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Deutschlands Stimmexpertin Eva Loschky im Interview zum Thema Stimme.. <a href="die-letzten-artikel/detailseite-artikel/talkshow-abenteuer-stimme-2-teil-465.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>Willkommen zum Abenteuer Leadership!</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/leadership.html">Abenteuer Leadership</a> am 01.06.2012 von <a href="autoren/detailseite-autoren/ronald-hanisch.html">Ronald Hanisch</a></span>
+<br /><img src="typo3temp/pics/88c5636ec4.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">WILLKOMMEN zum Interview mit Ronald Hanisch vom neuen Abenteuer LEADERSHIP. Heute im Gespräch mit Stefan Gössler vom Abenteuer Rhetorik. Viel Spaß!.. <a href="die-letzten-artikel/detailseite-artikel/willkommen-zum-abenteuer-leadership-466.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>DALS_01_Ein Steuermann, der alles kann? </h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/leadership.html">Abenteuer Leadership</a> am 01.06.2012 von <a href="autoren/detailseite-autoren/ronald-hanisch.html">Ronald Hanisch</a></span>
+<br /><img src="typo3temp/pics/88c5636ec4.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Was bedeutet Leadership eigentlich? Wer aller ist Führungskraft? Gibt es eine besondere Charaktereigenschaft von Top-Führungskräften?.. <a href="die-letzten-artikel/detailseite-artikel/dals_01_ein-steuermann-der-alles-kann-467.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>Das Abenteuer Netzwerken - 002 - Regelmäßigkeit, Zuverlässigkeit, Professionalität</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/netzwerken.html">Abenteuer Netzwerken</a> am 24.05.2012 von <a href="autoren/detailseite-autoren/stefan-goessler.html">Stefan Gössler</a></span>
+<br /><img src="typo3temp/pics/ce37b52dfb.jpeg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Wozu sind Netzwerkabende eigentlich da? Sind sie mehr als nur eine Plauderrunde? Ja! Denn sie dienen dazu, unsere potenziellen Partner kennenzulernen. Stefan Gössler erklärt, wie Sie mit solchen Veranstaltungen Ihren Erfolg und Umsatz erhöhen! .. <a href="die-letzten-artikel/detailseite-artikel/das-abenteuer-netzwerken-002-regelmaessigkeit-zuverlaessigkeit-professionalitaet-461.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>AST 030  Talkshow zum Thema „Stimme –unterschätztes Phänomen?</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/stimme.html">Abenteuer Stimme</a> am 24.05.2012 von <a href="autoren/detailseite-autoren/eva-loschky.html">Eva Loschky</a></span>
+<br /><img src="typo3temp/pics/d2daa0f50b.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Mitschnitt einer Livesendung zum Thema Stimme.. <a href="die-letzten-artikel/detailseite-artikel/ast-030-talkshow-zum-thema-stimme-unterschaetztes-phaenomen-462.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>DAUS07- So werden Ihre emails gelesen!</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/ueberzeugende-sprache.html">Abenteuer überzeugende Sprache</a> am 21.05.2012 von <a href="autoren/detailseite-autoren/barbara-blagusz.html">Barbara Blagusz</a></span>
+<br /><img src="typo3temp/pics/1b363352dc.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Heute geht es darum, wie Sie Menschen dazu bekommen Ihre emails zu lesen und die Inhalte zu behalten!.. <a href="die-letzten-artikel/detailseite-artikel/daus07-so-werden-ihre-emails-gelesen-460.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>DAL-Magazin01 - Drei Empfehlungen</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/leben-magazin.html">Abenteuer Leben-Magazin</a> am 14.05.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<br /><img src="typo3temp/pics/c8db3f8723.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Als Autor und Abonnent von Das Abenteuer Leben habe ich heute 3 Empfehlungen für Euch. Es geht dabei um gute Stories und gemeinsame Erlebnisse. 
+
+Viel Spass wünscht Euch
+
+Christian Heinrich.. <a href="die-letzten-artikel/detailseite-artikel/dal-magazin01-drei-empfehlungen-456.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>AVA07 – Interview mit Christine Kugler</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/verantwortung.html">Abenteuer Verantwortung</a> am 14.05.2012 von <a href="autoren/detailseite-autoren/stefanie-voss.html">Stefanie Voss</a></span>
+<br /><img src="typo3temp/pics/b2357e3f61.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">Verantwortung heisst – sprachlich gesehen nichts anderes als „Rede und Antwort stehen“. Und genau das machen wir meistens mit gesprochener Sprache. Heute unterhalte ich mich mit der Sprechexpertin Christine Kugler aus Berlin über das Sprechen, über Stimme, über Sprechprobleme und warum es sich lohnt, Sprechen immer wieder zu üben, obwohl man es doch eigentlich schon kann ...  „Das Abenteuer Verantwortung“ von und mit Stefanie Voss – heute als Interview... <a href="die-letzten-artikel/detailseite-artikel/ava07-interview-mit-christine-kugler-457.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+
+<div class="lastArticleElement add2">
+<h4>AF024 - Hilfe - Mein Kind ist nicht "normal"</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 14.05.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<br /><img src="typo3temp/pics/820c3dff77.jpg" width="80" height="80" border="0" alt="" /><p class="lastArticleTeaser">"Mathematisch sichere Prognosen gibt es im Menschenleben überhaupt nicht."
+
+Warum versuchen wir dann, die Eigenschaften von Menschen in einer prägnanten Zahl zusammenzufassen?
+
+In Das Abenteuer Familie 23 ging es um die Liebe zu unseren Kindern - diesmal um bedingungslose Liebe.
+
+Was bedeutet "bedingungslos" oder "vorbehaltlos"?
+
+Wie lassen wir es unsere Lieblinge spüren, dass wir sie bedingungslos Lieben?.. <a href="die-letzten-artikel/detailseite-artikel/af024-hilfe-mein-kind-ist-nicht-normal-453.html">weiterlesen &raquo;</a></p>
+<br />
+<div style="clear: both;"></div>
+<p class="articleRuler">&nbsp;</p>
+</div>
+<div class="bigBoxFoot"></div>
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:31/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:42/list [begin] -->
+		<div id="c42" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		<div class="bigBoxTop"><h1>Tagcloud</h1></div><div class="bigBoxWrap"><ul id="tagcloud">
+	<li value="250"><a href="home/tag-cloud-ergebnisse/audio.html">*Audio</a></li>
+
+	<li value="28"><a href="home/tag-cloud-ergebnisse/buchtipp.html">*Buchtipp</a></li>
+
+	<li value="17"><a href="home/tag-cloud-ergebnisse/download.html">*Download</a></li>
+
+	<li value="13"><a href="home/tag-cloud-ergebnisse/seminar.html">*Seminar</a></li>
+
+	<li value="18"><a href="home/tag-cloud-ergebnisse/video.html">*Video</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/aktivitaet.html">Aktivität</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/anerkennung.html">Anerkennung</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/anti-stress.html">Anti-Stress</a></li>
+
+	<li value="8"><a href="home/tag-cloud-ergebnisse/antrieb.html">Antrieb</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/antriebe.html">Antriebe</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/arbeitsplatz.html">Arbeitsplatz</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/argumentieren.html">Argumentieren</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/atem.html">Atem</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/auftreten.html">Auftreten</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/beliefs.html">Beliefs</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/beziehung.html">Beziehung</a></li>
+
+	<li value="8"><a href="home/tag-cloud-ergebnisse/change-management.html">Change Management</a></li>
+
+	<li value="23"><a href="home/tag-cloud-ergebnisse/coaching.html">Coaching</a></li>
+
+	<li value="15"><a href="home/tag-cloud-ergebnisse/dauerhaft.html">dauerhaft</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/ehe.html">Ehe</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/einstellung.html">Einstellung</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/emotionen.html">Emotionen</a></li>
+
+	<li value="11"><a href="home/tag-cloud-ergebnisse/entscheidung.html">Entscheidung</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/erfahrungen.html">Erfahrungen</a></li>
+
+	<li value="16"><a href="home/tag-cloud-ergebnisse/erfolg.html">Erfolg</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/extrinsische-intrinsische-motivation.html">Extrinsische/Intrinsische Motivation</a></li>
+
+	<li value="21"><a href="home/tag-cloud-ergebnisse/familie.html">Familie</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/farbanalyse.html">Farbanalyse</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/farbberatung.html">Farbberatung</a></li>
+
+	<li value="10"><a href="home/tag-cloud-ergebnisse/farbe.html">Farbe</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/farbsymbolik.html">Farbsymbolik</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/farbtyp.html">Farbtyp</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/farbwirkung.html">Farbwirkung</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/filter.html">Filter</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/fragen.html">Fragen</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/fragetechniken.html">Fragetechniken</a></li>
+
+	<li value="10"><a href="home/tag-cloud-ergebnisse/frauen.html">Frauen</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/fuehren.html">Führen</a></li>
+
+	<li value="11"><a href="home/tag-cloud-ergebnisse/fuehrung.html">Führung</a></li>
+
+	<li value="13"><a href="home/tag-cloud-ergebnisse/fuehrungskraefte.html">Führungskräfte</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/gedankenmuster.html">Gedankenmuster</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/geschichten.html">Geschichten</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/gespraeche.html">Gespräche</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/glaubenssaetze.html">Glaubenssätze</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/glaubwuerdigkeit.html">Glaubwürdigkeit</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/harmonie.html">Harmonie</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/highlights.html">Highlights</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/identitaet.html">Identität</a></li>
+
+	<li value="20"><a href="home/tag-cloud-ergebnisse/interview.html">Interview</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/intuition.html">Intuition</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/kaltakquise.html">Kaltakquise</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/karriere.html">Karriere</a></li>
+
+	<li value="27"><a href="home/tag-cloud-ergebnisse/kommunikation.html">Kommunikation</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/kompetenzen.html">Kompetenzen</a></li>
+
+	<li value="8"><a href="home/tag-cloud-ergebnisse/konflikt.html">Konflikt</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/konstruktivismus.html">Konstruktivismus</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/kooperation.html">Kooperation</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/kreativitaet.html">Kreativität</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/kundengewinnung.html">Kundengewinnung</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/koerperlich.html">Körperlich</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/lampenfieber.html">Lampenfieber</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/leben.html">Leben</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/lebensfuehrung.html">Lebensführung</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/leidenschaft.html">Leidenschaft</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/macht.html">Macht</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/manipulation.html">Manipulation</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/mediation.html">Mediation</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/menschenrecht.html">Menschenrecht</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/metaphern.html">Metaphern</a></li>
+
+	<li value="20"><a href="home/tag-cloud-ergebnisse/motivation.html">Motivation</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/motive.html">Motive</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/neuausrichtung.html">Neuausrichtung</a></li>
+
+	<li value="32"><a href="home/tag-cloud-ergebnisse/nlp.html">NLP</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/optimieren.html">Optimieren</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/optimismus.html">Optimismus</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/organisationsentwicklung.html">Organisationsentwicklung</a></li>
+
+	<li value="12"><a href="home/tag-cloud-ergebnisse/partnerschaft.html">Partnerschaft</a></li>
+
+	<li value="27"><a href="home/tag-cloud-ergebnisse/persoenlichkeit.html">Persönlichkeit</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/pflichten.html">Pflichten</a></li>
+
+	<li value="16"><a href="home/tag-cloud-ergebnisse/pm.html">PM</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/positiv-denken.html">Positiv-Denken</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/prinzipien.html">Prinzipien</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/prioritaet.html">Priorität</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/proaktiv.html">proaktiv</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/problemloesung.html">Problemlösung</a></li>
+
+	<li value="23"><a href="home/tag-cloud-ergebnisse/projekt.html">Projekt</a></li>
+
+	<li value="24"><a href="home/tag-cloud-ergebnisse/projektmanagement.html">Projektmanagement</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/prozessverbesserung.html">Prozessverbesserung</a></li>
+
+	<li value="10"><a href="home/tag-cloud-ergebnisse/praesentation.html">Präsentation</a></li>
+
+	<li value="13"><a href="home/tag-cloud-ergebnisse/praesentieren.html">Präsentieren</a></li>
+
+	<li value="7"><a href="home/tag-cloud-ergebnisse/psychologische-wirkung.html">Psychologische Wirkung</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/realitaet.html">Realität</a></li>
+
+	<li value="8"><a href="home/tag-cloud-ergebnisse/rede.html">Rede</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/respekt.html">Respekt</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/ressourcen.html">Ressourcen</a></li>
+
+	<li value="18"><a href="home/tag-cloud-ergebnisse/rhetorik.html">Rhetorik</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/ritual.html">Ritual</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/schreiben.html">Schreiben</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/schwaechen.html">Schwächen</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/selbstbestimmung.html">Selbstbestimmung</a></li>
+
+	<li value="23"><a href="home/tag-cloud-ergebnisse/selbstmanagement.html">Selbstmanagement</a></li>
+
+	<li value="17"><a href="home/tag-cloud-ergebnisse/selbstmotivation.html">Selbstmotivation</a></li>
+
+	<li value="10"><a href="home/tag-cloud-ergebnisse/selbstvertrauen.html">Selbstvertrauen</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/sexualitaet.html">Sexualität</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/sicherheit.html">Sicherheit</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/sommercamp.html">SommerCamp</a></li>
+
+	<li value="11"><a href="home/tag-cloud-ergebnisse/sprache.html">Sprache</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/sprichwort.html">Sprichwort</a></li>
+
+	<li value="29"><a href="home/tag-cloud-ergebnisse/stimme.html">Stimme</a></li>
+
+	<li value="23"><a href="home/tag-cloud-ergebnisse/stimmtraining.html">Stimmtraining</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/storytelling.html">Storytelling</a></li>
+
+	<li value="11"><a href="home/tag-cloud-ergebnisse/stress.html">Stress</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/stressmanagement.html">Stressmanagement</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/team.html">Team</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/transaktionsanalyse.html">Transaktionsanalyse</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/uno.html">UNO</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/unternehmensnachfolge.html">Unternehmensnachfolge</a></li>
+
+	<li value="8"><a href="home/tag-cloud-ergebnisse/verantwortung.html">Verantwortung</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/verfuehren.html">Verführen</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/verhandeln.html">Verhandeln</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/verhandlung.html">Verhandlung</a></li>
+
+	<li value="23"><a href="home/tag-cloud-ergebnisse/verkauf.html">Verkauf</a></li>
+
+	<li value="14"><a href="home/tag-cloud-ergebnisse/verkaufen.html">Verkaufen</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/verkaufstechniken.html">Verkaufstechniken</a></li>
+
+	<li value="10"><a href="home/tag-cloud-ergebnisse/vertrieb.html">Vertrieb</a></li>
+
+	<li value="11"><a href="home/tag-cloud-ergebnisse/veraenderung.html">Veränderung</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/vision.html">Vision</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/vorgesetzte.html">Vorgesetzte</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/vortrag.html">Vortrag</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/wachstum.html">Wachstum</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/wandel.html">Wandel</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/werte.html">Werte</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/wertschaetzung.html">Wertschätzung</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/wirkung.html">Wirkung</a></li>
+
+	<li value="6"><a href="home/tag-cloud-ergebnisse/work-life-balance.html">Work-Life-Balance</a></li>
+
+	<li value="5"><a href="home/tag-cloud-ergebnisse/uebergang-zu-neuem.html">Übergang zu Neuem</a></li>
+
+	<li value="9"><a href="home/tag-cloud-ergebnisse/ueberzeugen.html">Überzeugen</a></li>
+
+	<li value="4"><a href="home/tag-cloud-ergebnisse/zeit.html">Zeit</a></li>
+
+	<li value="8"><a href="home/tag-cloud-ergebnisse/zeitmanagement.html">Zeitmanagement</a></li>
+
+	<li value="23"><a href="home/tag-cloud-ergebnisse/ziele.html">Ziele</a></li>
+
+	<li value="3"><a href="home/tag-cloud-ergebnisse/zuhoeren.html">Zuhören</a></li>
+</ul></div><div class="bigBoxFoot"></div>
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:42/list [end] -->
+		</div>
+<div class="grid_5" id="rightside">
+	<!--  CONTENT ELEMENT, uid:36/list [begin] -->
+		<div id="c36" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+<div class="smallBoxTop"><h1>Letzten News:</h1></div>
+	<div class="smallBoxWrap theLatestNews">
+	
+			<div class="news-latest-item">
+				<span class="news-latest-date">24.05.12 18:18</span>
+				<h2><a href="home/news-liste/neu-das-abenteuer-leadership-von-und-mit-ronald-hanisch.html" title="Neu: Das Abenteuer Leadership von und mit Ronald Hanisch">Neu: Das Abenteuer Leadership von und mit Ronald Hanisch</a></h2>
+			</div>
+		
+			<div class="news-latest-item">
+				<span class="news-latest-date">23.04.12 22:44</span>
+				<h2><a href="home/news-liste/neu-das-abenteuer-netzwerken-von-und-mit-stefan-goessler.html" title="Neu: Das Abenteuer Netzwerken von und mit Stefan Gössler">Neu: Das Abenteuer Netzwerken von und mit Stefan Gössler</a></h2>
+			</div>
+		
+			<div class="news-latest-item">
+				<span class="news-latest-date">16.02.12 19:21</span>
+				<h2><a href="home/news-liste/new-the-adventure-future.html" title="New: The Adventure Future">New: The Adventure Future</a></h2>
+			</div>
+		
+			<div class="news-latest-item">
+				<span class="news-latest-date">19.01.12 13:48</span>
+				<h2><a href="home/news-liste/neu-an-bord-dr-alexa-mohl-mit-das-abenteuer-metaphern.html" title="Neu an Bord: Dr. Alexa Mohl mit &quot;Das Abenteuer Metaphern&quot;">Neu an Bord: Dr. Alexa Mohl mit "Das Abenteuer Metaphern"</a></h2>
+			</div>
+		
+<a class="sideMoreButton" href="http://ind35.srv14.incoweb.de/typo3/index.php?id=46">alle..</a>
+</div>
+<div class="smallBoxFoot"></div>
+
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:36/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:48/html [begin] -->
+		<div id="c48" class="csc-default" >
+		<!--  Raw HTML content: [begin] -->
+			<div class="smallBoxTop"><h1>Social Media</h1></div><div class="smallBoxWrap">
+<br/> <g:plusone size="medium"></g:plusone><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal"  data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><div id="fb-root"></div><br />
+<iframe src="http://www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+</div><div class="smallBoxFoot"></div> 
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:48/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:32/list [begin] -->
+		<div id="c32" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		<div class="smallBoxTop"><h1>Artikel des Monats</h1></div>
+<div class="artikelFeatureWrap">
+<h2>ASTR01 - Heute schon geschüttelt?</h2>
+in <a href="kanaele/stressmanagement.html">Abenteuer Stressmanagement</a><br />
+am 01.11.2011 von <a href="autoren/detailseite-autoren/jutta-kuemmerling.html">Jutta Kümmerling</a>
+<p class="artikelFeatureText">In diesem ersten Podcast beschäftigen wir uns erst mal mit dem „Großen Ganzen“</p>
+<a class="sideMoreButton" href="die-letzten-artikel/detailseite-artikel/astr01-heute-schon-geschuettelt-158.html">mehr...</a>
+</div>
+<div class="smallBoxFoot"></div>
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:32/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:30/list [begin] -->
+		<div id="c30" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		<div class="smallBoxTop"><h1>Autor des Monats</h1></div>
+<div class="redakteurFeatureWrap">
+<h2>Christian Heinrich</h2>
+Ist aktiv in:
+<ul class="sideTheList">
+
+		<li><a href="kanaele/familie.html">Abenteuer Familie</a></li>
+		
+		<li><a href="kanaele/leben-magazin.html">Abenteuer Leben-Magazin</a></li>
+		
+</ul>
+<div class="redakteurFeatureText"><img src="typo3temp/pics/b03f9f30a0.jpg" width="85" height="85" border="0" alt="Christian Heinrich" title="Christian Heinrich" /> <p class="bodytext">... Jahrgang 1972 ursprünglich im Süden Deutschlands geboren zog zunächst mit seinen Eltern quer durch Deutschland, dann selbst und ständig, heiratet in den USA und lebt heute mit seiner Familie im Norden Italiens.<br /><br />Christian studierte Betriebswirtschaft und war jahrelang nebenberuflich als selbständiger Fitnesstrainer tätig, bevor er sich voll auf Job und Familie konzentrierte. Seine Familie spricht mehr als 3 Sprachen, hat 2 Kinder aus 2 Ländern und verfolgt ein gemeinsames Ziel. Zum gemeinsamen Glück gehören dabei Sport, Musik, Reisen sowie die ständige Neugier auf Neues, neue Länder und Kulturen.</p>
+<h2>Kontaktdaten</h2>
+<p class="bodytext">Christian Heinrich<br />E-Mail: <a href="mailto:christian.heinrich@dasabenteuerleben.de" title="christian.heinrich@dasabenteuerleben.de" class="mail" >christian.heinrich@dasabenteuerleben.de</a></p></div>
+<a class="sideMoreButton" href="autoren/detailseite-autoren/christian-heinrich.html">mehr...</a>
+</div>
+<div class="smallBoxFoot"></div>
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:30/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:45/html [begin] -->
+		<div id="c45" class="csc-default" >
+		<!--  Raw HTML content: [begin] -->
+				<div class="smallBoxTop"><h1>RSS Feed</h1></div>
+	<div class="smallBoxWrap">
+	<a class="multilinks" href="http://www.dasabenteuerleben.de/index.php?id=32&type=50"><img src="http://www.dasabenteuerleben.de/fileadmin/template/images/icons/rss.png" alt="RSS Kanal Feed" />Feed abonnieren<br /><span class="multiScnd">Abenteuer Leben RSS Feed</span></a>
+	</div>
+	<div class="smallBoxFoot"></div>
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:45/html [end] -->
+		</div>
+<div class="grid_16" id="footerWrap"><a href="home.html" onfocus="blurLink(this);"  >Home</a><a href="autoren/alle-autoren.html" onfocus="blurLink(this);"  >Autoren</a><a href="kanaele/uebersicht-kanaele.html" onfocus="blurLink(this);"  >Kanäle</a><a href="ueber-uns.html" onfocus="blurLink(this);"  >Über uns</a><a href="kontakt.html" onfocus="blurLink(this);"  >Kontakt</a><a href="impressum.html" onfocus="blurLink(this);"  >Impressum</a>&copy; 2011 Das Abenteuer Leben</div>
+<div class="clear"><!--###clear### begin --><!-- --><!--###clear### end --></div>
+<!--###wrap### end --></div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3730199-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>My Dr. Kevin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="includes/FlexiCSSMenus/flexi_css_menus_touch_devices.js"></script>
+<link href="includes/FlexiCSSMenus/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]><link href="includes/FlexiCSSMenus/CSSMenu_CSSMenu1_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="includes/FlexiCSSMenus/CSSMenu_CSSMenu2.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]><link href="includes/FlexiCSSMenus/CSSMenu_CSSMenu2_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<!--Google Analytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32099711-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/index1a.jpg" width="1000" height="430" alt=""></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+       
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" class="bg1"><table border="0" cellspacing="10" cellpadding="0">
+   <tr>
+      <tr>
+      <td colspan="4" width="100%">
+      <!-- ############### #### Navigation Bar #### ############### -->
+
+<!-- Link to styles used for our Navigation Bar -->
+<link href="SimpleNavBarStyles.css" rel="stylesheet" type="text/css">
+
+<!-- Link to a file with couple simple JavaScript functions used for our Navigation Bar -->
+<script src="SimpleNavBarScripts.js" language="JavaScript" type="text/javascript"></script>
+
+
+<!-- main nav bar titles -->
+<!-- Note how the the closing angle bracket of each </a> tag runs up against the next <a> tag,
+      to avoid leaving a gap between each menu title and the next one. -->
+      
+<!-- REPLACE each "placeholder.html" URL below with the specific page you want the user
+      to go to when the given menu title is clicked. For example, the first link below
+      is for the "Home" menu title, so you'd probably replace the first URL with index.html. -->
+
+<div class="mynavbar" align="center">
+<div align="center">
+<a href="http://www.managingthegift.com" target="_new" class="navbartitle" id="t1" 
+      onMouseOver="ShowItem('products_submenu');"
+      onMouseOut="HideItem('products_submenu');"
+    >Managing The Gift</a
+><a href="http://www.kevinrossemery.com" target="_new" class="navbartitle" id="t2" 
+      onMouseOver="ShowItem('services_submenu');"
+      onMouseOut="HideItem('services_submenu');"
+    >Synergetic Catalyst</a
+><a href="http://www.mtgbizconsulting.com" target="_new" class="navbartitle" id="t3"
+ 	  
+    >Business Consulting</a
+><a class="navbartitle" id="t4" 
+      onMouseOut="HideItem('aboutus_submenu');" 
+      onMouseOver="ShowItem('aboutus_submenu');"
+    >Web of Light</a
+><a class="navbartitle" id="t5"
+      onMouseOut="HideItem('contact_submenu');" 
+      onMouseOver="ShowItem('contact_submenu', 't5');"
+    >Wei Chi</a>
+</div>
+
+<!-- REPLACE each "placeholder.html" URL below with the specific page you want 
+      the user to go to when the given submenu item is clicked.  -->
+
+<!-- Products sub-menu, shown as needed  -->
+<div class="submenu" id="products_submenu" 
+    onMouseOver="ShowItem('products_submenu');" 
+    onMouseOut="HideItem('products_submenu');">
+  <div class="submenubox">
+    <ul>
+      <li><a href="http://www.managingthegift.com" target="_new" class="submenlink">Everything ADD/HD</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Services sub-menu, shown as needed  -->
+<div class="submenu" id="services_submenu" 
+    onMouseOver="ShowItem('services_submenu');" 
+    onMouseOut="HideItem('services_submenu');">
+  <div class="submenubox">
+    <ul>
+      <li><a href="http://www.kevinrossemery.com" target="_new" class="submenlink">One-On-One Counseling</a></li>
+    </ul>
+    </div>
+  </div>
+
+
+<!-- Fun Stuff sub-menu, shown as needed  -->
+<div class="submenu" id="funstuff_submenu" 
+    onMouseOver="ShowItem('funstuff_submenu');" 
+    onMouseOut="HideItem('funstuff_submenu');">
+  <div class="submenubox">
+    <ul>
+      <li><a href="placeholder.html" class="submenlink">Toys We Designed</a></li>
+      <li><a href="placeholder.html" class="submenlink">Press Ravings</a></li>
+      <li><a href="placeholder.html" class="submenlink">Our Blog</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- About Us sub-menu, shown as needed  -->
+<div class="submenu" id="aboutus_submenu" 
+    onMouseOver="ShowItem('aboutus_submenu');" 
+    onMouseOut="HideItem('aboutus_submenu');">
+  <div class="submenubox">
+    <ul>
+      <li><a>Coming Soon!</a></li>
+     </ul>
+  </div>
+</div>
+
+<!-- CONTACTS & DIRECTIONS sub-menu, shown as needed  -->
+<div class="submenu" id="contact_submenu" 
+    onMouseOver="ShowItem('contact_submenu');" 
+    onMouseOut="HideItem('contact_submenu');">
+  <div class="submenubox">
+    <ul>
+      <li><a href="http://www.weichicenters.com" target="_new" class="submenlink">Wei Chi Healing Centers</a></li>
+       <li><a  class="submenlink">Wei Chi University - Coming Soon</a></li>
+   </ul>
+  </div>
+</div><!-- end of sub-meus -->
+
+</div>
+
+<!-- ################## end of Navigation Bar ################### -->
+      </td>
+      </tr>
+        <td width="650" valign="top"><table width="100%" border="0" cellspacing="10" cellpadding="0">
+          <tr>
+            <td colspan="2"><h2>&nbsp;</h2></td>
+          </tr>
+          <tr>
+            <td bgcolor="#C35C00" colspan="2"><img src="images/spacer.gif" width="1" height="1"></td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+          	<td rowspan="2" valign="top"><img src="images/0106cut.png" width="166" height="238" alt=""></td>
+            <td bordercolor="#000000" class="centerquote"><strong>“Empowerment: the power to be uniquely who you are, <br>without apology.” <br><br>~Dr. Kevin</strong>
+			</td>
+            <tr>
+            <td class="centertext"><br>
+We each come into this life as our own unique special gift to the world.  Often because of what we have seen, been told and experienced, we stopped recognizing ourselves as the wonderful, special and exceptional person that we truly are.  
+<br><br>My goal in all the work I do is to help individuals and businesses discover and reclaim that inimitable being, their empowered self, and then to assist them on their journey to greatness. 
+<br><br>
+Namaste
+            </strong></td></tr>
+        </table></td>
+       
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" class="bg2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" class="bg2">&nbsp;</td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td background="images/index_25.gif">
+      <table width="94%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="47%">&nbsp;</td>
+          <td width="53%" align="right">&copy; 2011 MTG, Inc. All rights reserved</td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

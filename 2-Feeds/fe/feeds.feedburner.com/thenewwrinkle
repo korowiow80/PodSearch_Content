@@ -1,0 +1,184 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>WordPress &rsaquo; Installation</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<style media="screen" type="text/css">
+		html { background: #f1f1f1; }
+
+		body {
+			background: #fff;
+			color: #333;
+			font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+			margin: 2em auto 0 auto;
+			width: 700px;
+			padding: 1em 2em;
+			-moz-border-radius: 12px;
+			-khtml-border-radius: 12px;
+			-webkit-border-radius: 12px;
+			border-radius: 12px;
+		}
+
+		a { color: #2583ad; text-decoration: none; }
+
+		a:hover { color: #d54e21; }
+
+
+		h1 {
+			font-size: 18px;
+			margin-bottom: 0;
+		}
+
+		h2 { font-size: 16px; }
+
+		p, li {
+			padding-bottom: 2px;
+			font-size: 13px;
+			line-height: 18px;
+		}
+
+		code {
+			font-size: 13px;
+		}
+
+		ul, ol { padding: 5px 5px 5px 22px; }
+
+		#logo { margin: 6px 0 14px 0px; border-bottom: none;}
+
+		.step {
+			margin: 20px 0 15px;
+		}
+
+		.step input {
+			font-size: 18px;
+		}
+
+		a.button {
+			font-size: 18px;
+		}
+
+		.step, th { text-align: left; padding: 0; }
+
+		.submit input, .button, .button-secondary {
+			font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+			padding: 5px 7px 7px;
+			border: 1px solid #a3a3a3;
+			margin-left: 0;
+			-moz-border-radius: 3px;
+			-khtml-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			border-radius: 3px;
+			color: #246;
+			background: #e5e5e5;
+		}
+
+		.button-secondary {
+			background: #cee1ef;
+		}
+
+		.submit input:hover, .button:hover, .button-secondary:hover {
+			color: #d54e21;
+			border-color: #535353;
+		}
+
+		.form-table {
+			border-collapse: collapse;
+			margin-top: 1em;
+			width: 100%;
+		}
+
+		.form-table td {
+			margin-bottom: 9px;
+			padding: 10px;
+			border-bottom: 8px solid #fff;
+			font-size: 12px;
+		}
+
+		.form-table th {
+			font-size: 13px;
+			text-align: left;
+			padding: 16px 10px 10px 10px;
+			border-bottom: 8px solid #fff;
+			width: 110px;
+			vertical-align: top;
+		}
+
+		.form-table tr {
+			background: #eaf3fa;
+		}
+
+		.form-table code {
+			line-height: 18px;
+			font-size: 18px;
+		}
+
+		.form-table p {
+			margin: 4px 0 0 0;
+			font-size: 11px;
+		}
+
+		.form-table input {
+			line-height: 20px;
+			font-size: 15px;
+			padding: 2px;
+			margin-bottom:3px;
+		}
+
+		h1 {
+			border-bottom: 1px solid #dadada;
+			clear: both;
+			color: #666666;
+			font: 24px Georgia, "Times New Roman", Times, serif;
+			margin: 5px 0 0 -4px;
+			padding: 0;
+			padding-bottom: 7px;
+		}
+
+		#error-page {
+			margin-top: 50px;
+		}
+
+		#error-page p {
+			font-size: 14px;
+			line-height: 16px;
+			margin: 25px 0 20px;
+		}
+
+		#error-page code {
+			font-size: 15px;
+		}
+		</style>
+	</head>
+	<body>
+		<h1 id="logo"><img src="wp-includes/images/wordpress-mu.png" alt="WordPress &micro;" /></h1>
+			<h2>Installing WordPress &micro;</h2>
+	<p><strong>Welcome to WordPress &micro;.</strong> I will help you install this software by asking you a few questions and asking that you change the permissions on a few directories so I can create configuration files and make a directory to store all your uploaded files.</p>
+	<p>If you have installed the single-blog version of WordPress before, please note that the WordPress &micro; installer is different and trying to create the configuration file wp-config.php youself may result in a broken site. It's much easier to use this installer to get the job done.</p>
+	
+	<h2>What do I need?</h2>
+	<ul>
+		<li>Access to your server to change directory permissions. This can be done through ssh or ftp for example.</li>
+		<li>A valid email where your password and administrative emails will be sent.</li>
+		<li>An empty MySQL database.Tables are prefixed with <code>wp_</code> which may conflict with an existing WordPress install.</li>
+		<li> Wildcard dns records if you're going to use the virtual host functionality. Check the <a href='http://trac.mu.wordpress.org/browser/trunk/README.txt'>README</a> for further details.</li>
+	</ul>
+			<h2>Warning!</h2>
+		<div style='border: 1px solid #ccc'>
+			<p style='font-weight: bold; padding-left: 10px'>One or more of the directories must be made writeable by the webserver. You will be reminded to reset the permissions at the end of the install.<br />
+				Please <code>chmod 777 <q>directory-name</q></code> or <code>chown</code> that directory to the user the web server runs as (usually nobody, apache, or www-data)<br />
+				Refresh this page when you're done!<br /></p>
+		</div>
+		<p>Quick fix:<br /> <code>chmod&nbsp;777&nbsp;/home/thenewwr/www/wp-content/&nbsp;</code>
+		</p>
+		</div>
+				<h2>Warning! .htaccess already exists.</h2>
+		<div style='border: 1px solid #ccc'>
+			<p style='font-weight: bold; padding-left: 10px'>A file with the name '.htaccess' already exists in this directory and I cannot write to it. Please ftp to the server and delete this file from this directory!<br />Offending file: /home/thenewwr/www/.htaccess</p>
+		</div>
+		<br /><br />
+<div style="text-align:center;">
+	<a href="http://mu.wordpress.org/">WordPress &micro;</a> | <a href="http://mu.wordpress.org/forums/">Support Forums</a>
+</div>
+</body>
+</html>

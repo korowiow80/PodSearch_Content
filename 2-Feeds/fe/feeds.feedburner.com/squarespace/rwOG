@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+  <style>
+    body { text-align: center; }
+    .icon { padding-top: 80px; padding-bottom: 20px;}
+    .notice { 
+      font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', sans-serif; 
+      font-weight: 300; 
+      letter-spacing: 0.4px;
+      line-height: 22px;
+      text-align: center;
+      margin: 0 auto;
+      width: 560px;
+   }
+  .notice .title {
+     font-size: 24px;
+     color: #888;
+   }
+  .notice .subtitle {
+     font-size: 16px;
+     padding-top: 12px; 
+     color: #aaa;
+   }
+   a { 
+     color: #3f5d78; 
+     text-decoration: none; 
+   }
+
+   a strong {
+     color: #3f5d78; 
+   }
+
+   a:hover { 
+     color: #52779a;  
+   }
+
+   a:hover strong {
+     color: #52779a;  
+   }
+   
+   strong { color: #777;  }
+   
+  </style>
+ 
+  <title>Please Stand By</title>
+
+<body>
+  
+  <div class="icon"><img src="/maintenanceLogo.png"/></div>
+  <div class="notice">
+      
+    <div class="title">Scheduled Maintenance</div>
+    <div class="subtitle">This service is currently unavailable for <strong>scheduled maintenance</strong>.  We will return no later than <strong>9AM EST</strong> following this maintenance window.
+    </div>
+    
+  </div>      
+  
+</body>
+</html>

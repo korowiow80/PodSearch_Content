@@ -1,0 +1,1269 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+
+
+
+<script language="JavaScript">
+   var g_HttpRelativeWebRoot = "/wcmprod/";
+   var SSContributor = false;
+   var SSForceContributor = false;
+   var SSHideContributorUI = false;
+   var ssUrlPrefix   = "";
+</script>
+<script id="SSContributorScript" nodeId="9" websiteId="cit.com" layoutType="jsp" language="javascript" type="text/javascript" src="/wcmprod/websites/cit.com/contributor.js"></script>
+<script id="SSNavigationFunctionsScript" language="javascript" type="text/javascript" src="/wcmprod/websites/cit.com/sitenavigationfunctions.js"></script>
+<script id="SSNavigationScript" language="javascript" type="text/javascript" src="/wcmprod/websites/cit.com/sitenavigation.js"></script>
+<script language="JavaScript">
+   var g_navNode_Path = new Array();
+      g_navNode_Path[0] = '9';
+   var g_ssSourceNodeId = "9";
+   var g_ssSourceSiteId = "cit.com";
+   var g_strLanguageId = "en";
+</script>
+<script type="text/javascript" src="/wcmprod/resources/sitestudio/ssajax/ssajax.js"></script>
+
+
+
+  <script id="ssInfo" type="text/xml" warning="DO NOT MODIFY!">
+  <ssinfo>
+    <fragmentinstance id="fragment2" fragmentid="CIT-Hdr-Nav" library="server:SS-FRAGMENT-CIT-HDR-NAV"><![CDATA[]]></fragmentinstance>
+
+    <fragmentinstance id="fragment3" fragmentid="CIT-Lang-Select" library="server:SS-FRAGMENT-CIT-LANG-SELECT"></fragmentinstance>
+
+    <fragmentinstance id="fragment4" fragmentid="CIT-Simple-Search" library="server:SS-FRAGMENT-CIT-SIMPLE-SEARCH"><![CDATA[]]></fragmentinstance>
+
+    <fragmentinstance id="fragment6" fragmentid="CIT-Copyright" library="server:SS-FRAGMENT-CIT-COPYRIGHT"></fragmentinstance>
+
+    <fragmentinstance id="fragment9" fragmentid="CIT-Link-to-RSS-Feed" library="server:S1001149"><![CDATA[]]></fragmentinstance>
+
+    <fragmentinstance id="fragment10" fragmentid="CIT-diligent" library="server:SS-FRAGMENT-CIT-DILIGENT"></fragmentinstance>
+
+    <fragmentinstance id="fragment11" fragmentid="CITHeaderLogo" library="server:SS-FRAGMENT-CIT-HEADER-LOGO"></fragmentinstance>
+
+    <fragmentinstance id="fragment13" fragmentid="CIT-Link-to-RSS-Feed" library="server:S1001149"><![CDATA[]]></fragmentinstance>
+
+    <fragmentinstance id="fragment14" fragmentid="CIT-Omniture-Tracking-Scripts" library="server:SS-FRAGMENT-CIT-OMNITURE-TRACK"></fragmentinstance>
+
+    <fragmentinstance id="fragment15" fragmentid="CIT-Link-to-RSS-Feed" library="server:S1001149"><![CDATA[]]></fragmentinstance>
+
+    <fragmentinstance id="fragment17" fragmentid="CIT_PageTitle" library="server:CIT_PAGE_TITLE"></fragmentinstance>
+
+    <fragmentinstance id="fragment18" fragmentid="CIT-Std-Hdr-Scripts" library="server:SS-FRAGMENT-CIT-STD-HDR-SCRIP"><![CDATA[]]></fragmentinstance>
+
+    <fragmentinstance id="fragment20" fragmentid="SS-FRAGMENT-CIT-EXTRA-SCRIPT" library="server:SS-FRAGMENT-CIT-EXTRA-SCRIPT"></fragmentinstance>
+
+    <fragmentinstance id="fragment21" fragmentid="SS-FRAGMENT-CIT-TRACKING-SCRIPT" library="server:SS-FRAGMENT-CIT-TRACKING-SCRIP"></fragmentinstance>
+
+    <fragmentinstance id="fragment22" fragmentid="CIT-Media-Math" library="server:SS-FRAGMENT-CIT-MEDIA-MATH"></fragmentinstance>
+
+    <fragmentinstance id="fragment24" fragmentid="CIT-Google-Analytics" library="server:SS-FRAGMENT-CIT-GOOGLE-ANALYTI"></fragmentinstance>
+
+    <fragmentinstance id="fragment25" fragmentid="CIT_SearchForce_Tracking_Code" library="server:SS-FRAGMENT-CIT-SEARCHFORCE"></fragmentinstance>
+
+    <region id="region6" name="RSSRemoteFeed" flags="1111111100" metadata="" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region6_element1" name="Focus-Title" label="Focus-Title" type="1" flags="1111100000000000011000000000000000000000000001100001000000000000">
+        <![CDATA[]]>
+
+        <description>Enter a title for the focus area</description>
+
+        <classes><class>header3</class><class>subbullets</class><class>boldLink</class></classes>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <element id="region6_element3" name="rss" label="" type="2" flags="1100000000000000111000111110000000000000000000110000000000000000" fragmentid="DisplayRemoteRss" library="server:DISPLAYRSSFEED">
+        <![CDATA[
+			
+      <element  id="0" name="Title" label="Title" type="1" flags="1111111111111111111111000001111000000000000011110011000000000000">
+          
+        <description >Enter your title</description>
+      </element>
+      <element  id="1" name="RSSFeed" label="RSSFeed" type="6" flags="1111100000000000000000000000000000000000000011000000000000000000">
+          
+        <description >The Url for the Remote RSS</description>
+      </element>
+      <element  id="2" name="RSSFeedXSL" label="RSSFeedXSL" type="6" flags="1111100000000000000000000000000000000000000011000000000000000000">
+          
+        <description >Allow user to enter the url for the xsl style sheet to be used to transform the feed. (Optional)</description>
+      </element>
+      <element  id="3" name="Numbertodisplay" label="Number of items to display from the feed" type="6" flags="1111100000000000000000000000000000000000000011000000000000000000">
+          
+        <description >Allow user to enter the number of items from the feed to display. This is optional and if blank will result in all items being displayed</description>
+      </element>
+		]]>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <element id="region6_element2" name="Focus-Abstract" label="Focus-Abstract" type="1" flags="1111111111111111011011000000000000000000000010000001000000000000">
+        <![CDATA[]]>
+
+        <description>Enter the content for the focus area</description>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[dDocType <Matches> `RSS-Feed-Region` ]]></choosemanagedquerytext><defaultmetadata><![CDATA[dDocType%3DRSSFeedRegion%26dDocTitle%3Drss+feed+region+type%26dSecurityGroup%3DContent%26xHidden%3DFALSE%26xInhibitUpdate%3DFALSE%26xForceFolderSecurity%3DFALSE%26xReadOnly%3DFALSE%26xTrashDeleteLoc%3D0%26xIdcLanguage%3D0]]></defaultmetadata></switchregioncontent>
+    </region>
+
+    <region id="region8" name="Focus-Area" flags="1111111100" metadata="" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region8_element1" name="Focus-Title" label="Focus-Title" type="1" flags="1111100000000000011000000000000000000000000001100001000000000000">
+        <![CDATA[]]>
+
+        <description>Enter a title for the focus area</description>
+
+        <classes><class>header3</class><class>boldLink</class></classes>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <element id="region8_element2" name="Focus-Abstract" label="Focus-Abstract" type="1" flags="1111111111111111111011000000000000000000000011000001000000000000">
+        <![CDATA[]]>
+
+        <description>Enter the content for the focus area</description>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[dDocType <Matches> `Focus-Area` <AND> dSecurityGroup <Matches> `Content`]]></choosemanagedquerytext><defaultmetadata><![CDATA[dDocType%3DFocusArea%26dDocTitle%3DFOCUS+AREA+TYPE%26dSecurityGroup%3DContent%26xHidden%3DFALSE%26xInhibitUpdate%3DFALSE%26xForceFolderSecurity%3DFALSE%26xReadOnly%3DFALSE%26xTrashDeleteLoc%3D0%26xIdcLanguage%3D0]]></defaultmetadata></switchregioncontent>
+    </region>
+
+    <region id="region9" name="Focus-Area" flags="1111111100" metadata="" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region9_element1" name="Focus-Title" label="Focus-Title" type="1" flags="1111100000000000011000000000000000000000000001100001000000000000">
+        <![CDATA[]]>
+
+        <description>Enter a title for the focus area</description>
+
+        <classes><class>header3</class><class>boldLink</class></classes>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <element id="region9_element2" name="Focus-Abstract" label="Focus-Abstract" type="1" flags="1111111111111111111011000000000000000000000011000001000000000000">
+        <![CDATA[]]>
+
+        <description>Enter the content for the focus area</description>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[dDocTypE <Matches> `Focus-Area` <AND> dSecurityGroup <Matches> `Content`]]></choosemanagedquerytext><defaultmetadata><![CDATA[dDocType%3DFocusArea%26dDocTitle%3DFOCUS+AREA+TYPE%26dSecurityGroup%3DContent%26xHidden%3DFALSE%26xInhibitUpdate%3DFALSE%26xForceFolderSecurity%3DFALSE%26xReadOnly%3DFALSE%26xTrashDeleteLoc%3D0%26xIdcLanguage%3D0]]></defaultmetadata></switchregioncontent>
+    </region>
+
+    <region id="region10" name="Disclaimer" flags="1111110100" metadata="xTrashDeleteName%3AisHidden%3Dtrue%26xHidden%3AisHidden%3Dtrue%26xReadOnly%3AisHidden%3Dtrue%26xInhibitUpdate%3AisHidden%3Dtrue%26xForceFolderSecurity%3AisHidden%3Dtrue%26xTrashDeleter%3AisHidden%3Dtrue%26xTrashDeleteDate%3AisHidden%3Dtrue%26xTrashDeleteLoc%3AisHidden%3Dtrue%26xWebsiteObjectType%3AisHidden%3Dtrue%26xTemplateType%3AisHidden%3Dtrue%26xWebsites%3AisHidden%3Dtrue%26xDontShowInListsForWebsites%3AisHidden%3Dtrue%26xWebsiteSection%3AisHidden%3Dtrue%26xIdcLanguage%3AisHidden%3Dtrue%26xPackagedConversions%3AisHidden%3Dtrue%26xVideoRenditions%3AisHidden%3Dtrue%26xProfileTrigger%3AisHidden%3Dtrue%26xOperatingSegment%3AisHidden%3Dtrue%26xMemberships%3AisHidden%3Dtrue%26xPageTitle%3AisHidden%3Dtrue%26xPublications%3AisHidden%3Dtrue%26xPublicationDate%3AisHidden%3Dtrue%26xFirstName%3AisHidden%3Dtrue%26xLastName%3AisHidden%3Dtrue%26xJobTitle%3AisHidden%3Dtrue%26xRegion%3AisHidden%3Dtrue%26xProducts%3AisHidden%3Dtrue%26xIndustry%3AisHidden%3Dtrue%26xBusinessPhase%3AisHidden%3Dtrue%26xKeywords%3AisHidden%3Dtrue%26xDescription%3AisHidden%3Dtrue%26xEventDate%3AisHidden%3Dtrue%26xEventSpeaker%3AisHidden%3Dtrue" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region10_element1" name="txtDisclaimer" label="Disclaimer" type="6" flags="1111100000000000000000000000000000000000000011000000000000000000">
+        <![CDATA[]]>
+
+        <description>Enter the disclaimer for this page or select an existing one</description>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[dDocType <Matches> `Disclaimer`]]></choosemanagedquerytext><defaultmetadata><![CDATA[dDocType%3DDisclaimer%26dDocTitle%3DDisclaimer%26dSecurityGroup%3DContent%26xHidden%3DFALSE%26xReadOnly%3DFALSE%26xInhibitUpdate%3DFALSE%26xForceFolderSecurity%3DFALSE%26xTrashDeleteLoc%3D0%26xIdcLanguage%3D0]]></defaultmetadata></switchregioncontent>
+    </region>
+
+    <region id="region11" name="PageBanner" flags="1111111100" metadata="xTrashDeleteName%3AisHidden%3Dtrue%26xHidden%3AisHidden%3Dtrue%26xReadOnly%3AisHidden%3Dtrue%26xInhibitUpdate%3AisHidden%3Dtrue%26xForceFolderSecurity%3AisHidden%3Dtrue%26xTrashDeleter%3AisHidden%3Dtrue%26xTrashDeleteDate%3AisHidden%3Dtrue%26xCollectionID%3AisHidden%3Dtrue%26xTrashDeleteLoc%3AisHidden%3Dtrue%26xWebsiteObjectType%3AisHidden%3Dtrue%26xTemplateType%3AisHidden%3Dtrue%26xWebsites%3AisHidden%3Dtrue%26xDontShowInListsForWebsites%3AisHidden%3Dtrue%26xWebsiteSection%3AisHidden%3Dtrue%26xIdcLanguage%3AisHidden%3Dtrue%26xPackagedConversions%3AisHidden%3Dtrue%26xVideoRenditions%3AisHidden%3Dtrue%26xProfileTrigger%3AisHidden%3Dtrue%26xOperatingSegment%3AisHidden%3Dtrue%26xMemberships%3AisHidden%3Dtrue%26xPageTitle%3AisHidden%3Dtrue%26xPublications%3AisHidden%3Dtrue%26xPublicationDate%3AisHidden%3Dtrue%26xFirstName%3AisHidden%3Dtrue%26xLastName%3AisHidden%3Dtrue%26xJobTitle%3AisHidden%3Dtrue%26xRegion%3AisHidden%3Dtrue%26xProducts%3AisHidden%3Dtrue%26xIndustry%3AisHidden%3Dtrue%26xBusinessPhase%3AisHidden%3Dtrue%26xKeywords%3AisHidden%3Dtrue%26xDescription%3AisHidden%3Dtrue%26xEventDate%3AisHidden%3Dtrue%26xEventSpeaker%3AisHidden%3Dtrue" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region11_element1" name="Banner" label="Banner" type="2" flags="1100000000000000111000111110000000000000000000110000000000000000" fragmentid="Srini_Banner" library="server:SRINI_FRAGMENTS">
+        <![CDATA[
+			
+      <element  id="0" name="Image" label="Image" type="5" flags="1100000000000000111000000000000000000000000001110000000000000000">
+          
+        <description >The image element allows contributor to add images.</description>
+        <objectproperties  docname="S1003121">
+
+        </objectproperties>
+      </element>
+		]]>
+
+        <description>Banner</description>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[dDocType <Matches> `Page-Banner`]]></choosemanagedquerytext><defaultmetadata><![CDATA[dDocType%3DPage-Banner%26dDocTitle%3DPage+Banner%26dSecurityGroup%3DContent%26xHidden%3DFALSE%26xReadOnly%3DFALSE%26xInhibitUpdate%3DFALSE%26xForceFolderSecurity%3DFALSE%26xTrashDeleteLoc%3D0%26xIdcLanguage%3D0]]></defaultmetadata></switchregioncontent>
+    </region>
+
+    <region id="region12" name="region12" flags="1111111100" metadata="" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region12_element1" name="footer" label="" type="2" flags="1100000000000000111000111110000000000000000000110000000000000000" fragmentid="CIT_Footer" library="server:CIT_FOOTER_NEW">
+        <![CDATA[
+			
+      <element  id="0" name="FooterLink" label="Footer Link" type="1" flags="1111111111111111111111000001111000000000000011110011000000000000">
+          
+        <description >Enter Footer Link and link it</description>
+      </element>
+		]]>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[dDoctype <Matches> `Footers` <OR> dSecurityType <Matches> `Content`]]></choosemanagedquerytext><defaultmetadata><![CDATA[dDocType%3DFooters%26dDocTitle%3Dfooter%26dSecurityGroup%3DContent%26xReadOnly%3DFALSE%26xForceFolderSecurity%3DFALSE%26xTrashDeleteLoc%3D0%26xHidden%3DFALSE%26xInhibitUpdate%3DFALSE%26xOrder%3D0]]></defaultmetadata></switchregioncontent>
+    </region>
+
+    <region id="region13" name="region13" flags="1111111100" metadata="" dccommand="ssIncInlineDynamicConversion(SS_DATAFILE)">
+      <![CDATA[]]>
+
+      <element id="region13_element1" name="LeftNav" label="Left Navigation" type="2" flags="1100000000000000111000111110000000000000000000110000000000000000" fragmentid="CIT-Banner-Rotate-Nav" library="server:SS-FRAGMENT-CIT-BANNER-NAV">
+        <![CDATA[
+			
+      <element  id="0" name="LeftNav" label="Left Navigation" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+		]]>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <element id="region13_element2" name="IntroArea" label="Intro Area" type="2" flags="1100000000000000111000111110000000000000000000110000000000000000" fragmentid="CIT-Banner-Rotate-Inro" library="server:SS-FRAGMENT-CIT-BANNER-INRO">
+        <![CDATA[
+			
+      <element  id="0" name="SubTitle" label="Sub Title" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="1" name="Title" label="Title" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="2" name="Abstract" label="Abstract" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="3" name="Button-Title" label="Button Title" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="4" name="ButtonImage" label="Button Image" type="5" flags="1100000000000000111000000000000000000000000000110000000000000000">
+          
+      </element>
+      <element  id="5" name="Bg-Image" label="Background Image" type="5" flags="1100000000000000111000000000000000000000000000110000000000000000">
+          
+      </element>
+      <element  id="6" name="Text-Color" label="Text Color" type="6" flags="1111100000000000000000000000000000000000000010000000000000000000">
+          
+        <description >Text Color for sub areas</description>
+      </element>
+		]]>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <element id="region13_element3" name="SubAreas" label="Sub Areas" type="2" flags="1100000000000000111000111110000000000000000000110000000000000000" fragmentid="CIT-Banner-Rotate-Detial" library="server:SS-FRAGMENT-CIT-BANNER-DETIAL">
+        <![CDATA[
+			
+      <element  id="0" name="SubTitle" label="Sub Title" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="1" name="Title" label="Title" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="2" name="Left-Abstract" label="Left Abstract" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="3" name="Right-Abstract" label="Right Abstract" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="4" name="Button-Title" label="Button Title" type="1" flags="1111111111111111111111000001111000000000000010110011000000000000">
+          
+      </element>
+      <element  id="5" name="ButtonImage" label="Button Image" type="5" flags="1100000000000000111000000000000000000000000000110000000000000000">
+          
+      </element>
+      <element  id="6" name="Bg-Image" label="Background Image" type="5" flags="1100000000000000111000000000000000000000000000110000000000000000">
+          
+      </element>
+      <element  id="7" name="Text-Color" label="Text Color" type="6" flags="1111100000000000000000000000000000000000000010000000000000000000">
+          
+        <description >Text color for sub areas</description>
+      </element>
+		]]>
+
+        <classes><class>squareBullets</class><class>normalList</class></classes>
+
+        <linktoregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></linktoregioncontent>
+      </element>
+
+      <switchregioncontent createnewxml="true" createnewnative="false" choosemanaged="true" chooselocal="false" choosenone="false"><choosemanagedquerytext corecontentonly="FALSE"><![CDATA[xWebsiteObjectType <Matches> `Data File` <OR> xWebsiteObjectType <Matches> `Native Document`]]></choosemanagedquerytext></switchregioncontent>
+    </region>
+  </ssinfo>
+  </script>
+  
+  <meta content="DEjYXkCSgySyVnAUVkmoBQ9qHYXY9yTHWzjA6IZ7jwQ" name="google-site-verification" />
+  <meta content="Z52YAJKyM4fpmZz+4FbNyT2Wk8ihfOpLTWzjRZ8CDyI=" name="verify-v1" />
+  <meta content="J8pZsUcRHeIOYLl8JIMPOSs+X89xlvFdXHJNyMhEVQs=" name="verify-v1" />
+  <link media="all" href="/wcmprod/groups/assets/documents/web-assets/main1.css" type="text/css" rel="stylesheet" />
+  <link media="all" href="/wcmprod/groups/assets/documents/web-assets/home.css" type="text/css" rel="stylesheet" />
+  
+   	<link media="print" href="/wcmprod/groups/assets/documents/ss-projects/print1.css" type="text/css" rel="stylesheet" />
+   
+  <script src="/wcmprod/groups/assets/@wcm/documents/web-assets/cookie.js" type="text/javascript">
+  </script>
+  <meta content="MSHTML 6.00.6000.17102" name="GENERATOR" />
+<!--SS_BEGIN_SNIPPET(fragment2,1)-->
+ 
+  <script src="/wcmprod/fragments/CIT-Hdr-Nav/javascript.js" type="text/javascript">
+  </script><!--SS_END_SNIPPET(fragment2,1)-->
+
+<!--SS_BEGIN_SNIPPET(fragment3,1)-->
+  <script src='/wcmprod/fragments/cit-lang-select/language.js' type="text/javascript">
+  </script><!--SS_END_SNIPPET(fragment3,1)-->
+
+<!--SS_BEGIN_SNIPPET(fragment4,1)-->
+  <script src='/wcmprod/fragments/cit-simple-search/Search.js' type="text/javascript">
+  </script><!--SS_END_SNIPPET(fragment4,1)-->
+
+<!--SS_BEGIN_SNIPPET(fragment6,1)--><!--SS_END_SNIPPET(fragment6,1)-->
+
+<!--SS_BEGIN_SNIPPET(fragment10,head)-->
+  <script src='/wcmprod/fragments/cit-diligent/CIT_Diligent.js' type="text/javascript">
+  </script><!--SS_END_SNIPPET(fragment10,head)-->
+
+<!--SS_BEGIN_SNIPPET(fragment11,head)--><!--SS_END_SNIPPET(fragment11,head)-->
+
+<!--SS_BEGIN_SNIPPET(region11_element1,Head)--><!--SS_END_SNIPPET(region11_element1,Head)-->
+
+  <link href="/wcmprod/groups/assets/documents/web-assets/favIcon.ico" type="images/x-icon" rel="shortcut icon" />
+<!--SS_BEGIN_SNIPPET(fragment13,head)--><!--SS_END_SNIPPET(fragment13,head)-->
+
+<!--SS_BEGIN_SNIPPET(fragment14,head)--><!--SS_END_SNIPPET(fragment14,head)-->
+
+<!--SS_BEGIN_SNIPPET(region12_element1,head)--><!--SS_END_SNIPPET(region12_element1,head)-->
+
+<!--SS_BEGIN_SNIPPET(fragment15,head)--><!--SS_END_SNIPPET(fragment15,head)-->
+
+<!--SS_BEGIN_SNIPPET(fragment17,head)-->				<title>CIT | Middle Market Business-Commercial Loans, Financial Services</title>
+<script type="text/javascript">
+var title = "CIT | Middle Market Business-Commercial Loans, Financial Services";  
+</script>
+
+<link rel="canonical" href='http://www.cit.com/index.htm'/>
+<link rel="apple-touch-icon" href='/wcmprod/groups/assets/@wcm/@cit/documents/web-assets/touch-favicon.png'> 
+<meta name="ROBOTS" content="INDEX,FOLLOW"/>
+
+			<!--SS_END_SNIPPET(fragment17,head)-->
+
+<!--SS_BEGIN_SNIPPET(fragment18,head)-->
+
+<meta name="keywords" content="">
+<meta name="Description" content="CIT Group provides business loans for middle market business, financial services-solutions, financing solutions worldwide.  Small business lending, loans.">
+
+  <script type="text/javascript">
+  var description = "CIT Group provides business loans for middle market business, financial services-solutions, financing solutions worldwide.  Small business lending, loans.";  
+  </script>
+
+
+			<!--SS_END_SNIPPET(fragment18,head)-->
+
+  <script src="/wcmprod/groups/assets/@wcm/documents/web-assets/cit-js-home-util.js" type="text/javascript">
+  </script>
+  <script src="http://code.jquery.com/jquery-1.5.2.min.js" type="text/javascript">
+  </script>
+  <script src="/wcmprod/groups/assets/@wcm/@cit/documents/web-assets/js-banner-funtions.js" type="text/javascript">
+  </script>
+  <script src="/wcmprod/groups/assets/@wcm/@cit/documents/web-assets/js-banner-cycle.js" type="text/javascript">
+  </script>
+  <link href="/wcmprod/groups/assets/@wcm/@cit/documents/web-assets/js-banner-hero.css" type="text/css" rel="stylesheet" />
+<!--SS_BEGIN_SNIPPET(region13_element1,head)--><!--SS_END_SNIPPET(region13_element1,head)-->
+
+<!--SS_BEGIN_SNIPPET(region13_element2,head)--><!--SS_END_SNIPPET(region13_element2,head)-->
+
+<!--SS_BEGIN_SNIPPET(region13_element3,head)--><!--SS_END_SNIPPET(region13_element3,head)-->
+
+<!--SS_BEGIN_SNIPPET(fragment25,head)--><!--SS_END_SNIPPET(fragment25,head)-->
+</head>
+
+<body>
+<!--SS_BEGIN_SNIPPET(fragment25,body)--><!-- Begin SearchForce tracking code for landing page (4.1) -->
+<div id="sf_fl_content"></div>
+<script type="text/javascript" language="Javascript" src="//sftrack.searchforce.net/SFConversionTracking/CTCommon.js"></script>
+<script type="text/javascript" language="Javascript">
+SFCookie.include();
+var jcexpire="365";
+var jAccountID="35584";
+trackSEO('SEO');
+var jURLData = "" + window.location.hash + window.location.search;
+jURLData = jURLData.substring(jURLData.indexOf('?') + 1);
+if((jURLData && jURLData != null && jURLData != "null" && jURLData.length > 0) || jtrackOrganic == true)
+ImageJSLandingProcess();
+</script>
+<!-- End SearchForce tracking code --> <!--SS_END_SNIPPET(fragment25,body)-->  
+<!--SS_BEGIN_SNIPPET(fragment21,BODY)--><script type="text/javascript">
+var ebRand = Math.random()+'';ebRand = ebRand * 1000000;document.write('<scr'+'ipt src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=106989&amp;rnd=' + ebRand + '"></scr' + 'ipt>');
+</script>
+<noscript>
+<img width="1" height="1" style="border:0" src="HTTP://bs.serving-sys.com/BurstingPipe/ActivityServer.bs?cn=as&amp;ActivityID=106989&amp;ns=1"/>
+</noscript>
+			<!--SS_END_SNIPPET(fragment21,BODY)-->
+
+  <div id="wrapper">
+    <div id="logo">
+      
+<!--SS_BEGIN_SNIPPET(fragment11,body)-->
+
+
+
+
+   <!-- Refer to the style guide "logo" which has the image embeded in it-->
+   
+<a title="CIT Home" href="/index.htm">
+<img border="0" src="/wcmprod/groups/assets/@wcm/@cit/documents/images/cit_logo.gif">
+</a>
+   
+<!--SS_END_SNIPPET(fragment11,body)-->
+
+    </div> 
+
+    <div id="header">
+      
+<!--SS_BEGIN_SNIPPET(fragment2,2)-->
+
+
+<UL id=navigation>
+<LI class=first>
+<a class="selected" href="/index.htm">Home</a>
+</LI>
+<LI class="">
+<a class="" href="/about-cit/index.htm">About CIT</a>
+<UL>
+<li>
+<a  href="/about-cit/our-businesses/index.htm">Our Businesses</a>
+</li>
+<li>
+<a  href="/about-cit/our-history/index.htm">Our History</a>
+</li>
+<li>
+<a  href="/about-cit/corporate-governance/index.htm">Corporate Governance</a>
+</li>
+<li>
+<a  href="/about-cit/thought-leadership/index.htm">Thought Leadership</a>
+</li>
+<li>
+<a  href="/about-cit/corporate-citizenship/index.htm">Corporate Citizenship</a>
+</li>
+</UL>
+</LI>
+<LI class="">
+<a class="" href="/products-and-services/index.htm">Products and Services</a>
+<UL>
+<li>
+<a  href="/products-and-services/corporate-finance/index.htm">Corporate Finance</a>
+</li>
+<li>
+<a  href="/products-and-services/trade-finance/index.htm">Trade Finance</a>
+</li>
+<li>
+<a  href="/products-and-services/transportation-finance/index.htm">Transportation Finance</a>
+</li>
+<li>
+<a  href="/products-and-services/vendor-finance/index.htm">Vendor Finance</a>
+</li>
+<li>
+<a  href="/products-and-services/insurance-services/index.htm">Insurance Services</a>
+</li>
+<li>
+<a  href="/products-and-services/cit-bank/index.htm">CIT Bank</a>
+</li>
+<li>
+<a  href="/products-and-services/solutions-a-z/index.htm">Solutions A-Z</a>
+</li>
+</UL>
+</LI>
+<LI class="">
+<a class="" href="/cit-worldwide/index.htm">CIT Worldwide</a>
+<UL>
+<li>
+<a  href="/cit-worldwide/asia/index.htm">Asia</a>
+</li>
+<li>
+<a  href="/cit-worldwide/canada/index.htm">Canada</a>
+</li>
+<li>
+<a  href="/cit-worldwide/europe/index.htm">Europe</a>
+</li>
+<li>
+<a  href="/cit-worldwide/latin-america/index.htm">Latin America</a>
+</li>
+<li>
+<a  href="/cit-worldwide/united-states/index.htm">United States</a>
+</li>
+<li>
+<a  href="/cit-worldwide/worldwide-locations/index.htm">Worldwide Locations</a>
+</li>
+</UL>
+</LI>
+<LI class="">
+<a class="" href="/careers/index.htm">Careers</a>
+<UL>
+<li>
+<a  href="/careers/our-commitment-to-diversity/index.htm">Our Commitment to Diversity</a>
+</li>
+<li>
+<a  href="/careers/our-focus/index.htm">Our Focus</a>
+</li>
+<li>
+<a  href="/careers/our-values/index.htm">Our Values</a>
+</li>
+<li>
+<a  href="/careers/us/index.htm">Careers US</a>
+</li>
+<li>
+<a  href="/careers/canada/index.htm">Careers Canada</a>
+</li>
+<li>
+<a  href="/careers/search-our-jobs/index.htm">Search Our Jobs</a>
+</li>
+</UL>
+</LI>
+<LI class="">
+<a class="" href="/investor-relations/index.htm">Investor Relations</a>
+<UL>
+<li>
+<a  href="/investor-relations/presentations/index.htm">Presentations & Events</a>
+</li>
+<li>
+<a  href="/investor-relations/AnnualReports/index.htm">Annual Reports</a>
+</li>
+<li>
+<a  href="/investor-relations/QuarterlyReports/index.htm">Quarterly Reports</a>
+</li>
+<li>
+<a  href="/investor-relations/press-releases/index.htm">Press Releases</a>
+</li>
+<li>
+<a  href="/investor-relations/SECFilings/index.htm">SEC Filings</a>
+</li>
+<li>
+<a  href="/investor-relations/analysts/index.htm">Analyst Coverage</a>
+</li>
+<li>
+<a  href="/investor-relations/StockQuotesCharts/index.htm">Stock Information</a>
+</li>
+<li>
+<a  href="/investor-relations/FixedIncome/index.htm">Fixed Income</a>
+</li>
+<li>
+<a  href="/investor-relations/material-request/index.htm">Material Request</a>
+</li>
+<li>
+<a  href="/investor-relations/investor-contacts/index.htm">Investor Contacts</a>
+</li>
+</UL>
+</LI>
+<LI class="">
+<a class="" href="/media-room/index.htm">Media Room</a>
+<UL>
+<li>
+<a  href="/media-room/media-contacts/index.htm">Media Contacts</a>
+</li>
+<li>
+<a  href="/media-room/press-releases/index.htm">Press Releases</a>
+</li>
+<li>
+<a  href="/media-room/executive-sourcebook/index.htm">Executive Sourcebook</a>
+</li>
+<li>
+<a  href="/media-room/fact-sheets/index.htm">Fact Sheets</a>
+</li>
+<li>
+<a  href="/media-room/executive-spotlight/index.htm">CIT Executive Spotlight</a>
+</li>
+<li>
+<a  href="/media-room/cit-outlook-series/index.htm">CIT Outlook Series</a>
+</li>
+<li>
+<a  href="/media-room/podcasts/index.htm">Executive Insights Series</a>
+</li>
+<li>
+<a  href="/media-room/speakers-bureau/index.htm">CIT Executive Speakers Series</a>
+</li>
+<li>
+<a  href="/media-room/advertising/index.htm">Advertising</a>
+</li>
+<li>
+<a  href="/media-room/news-alerts/index.htm">News Alerts</a>
+</li>
+</UL>
+</LI>
+<LI class="">
+<a class="" href="/contact-us/index.htm">Contact Us</a>
+</LI>
+</Ul>
+	<!--SS_END_SNIPPET(fragment2,2)-->
+ 
+      <div id="search">
+        <!--### CIT Language Selector Fragment Goes Here ###-->
+<!--SS_BEGIN_SNIPPET(fragment3,2)-->﻿<!-- Modified By: Santosh Madalli
+     Modified Date: August 17,2010
+     Module: Language selection. 
+     This fragment allows the user to select the language that they want from a drop down. 
+     Modification : On IE the drop down was displaying the item above the selected one after page reloaded. This issue      is fixed in this modification	
+-->
+
+
+
+
+
+
+
+
+
+
+<form name ="langform" id="langform" >
+	<label for="language" id="langlabel" class="langLabel">Language</label>
+	<select id ="languageID" name="language" onchange = "getLink('cit.com')">
+		<option value ="english" selected= "selected">English</option>
+		<option value ="spanish">Español</option> 
+		<option value ="portuguese">Português</option>
+		<option value ="german">Deutsch</option>
+		<option value ="french">Français</option>
+		<option value ="chinese">中文</option>
+	</select>
+
+
+<script language="JavaScript">
+	var langURL = window.location.href;
+	var langCode = langURL.substring(7,9);
+
+	if(langCode == "es")
+	{
+		document.langform.languageID.options[1].selected = true;
+	}
+
+	else if(langCode == "pt")
+	{
+		document.langform.languageID.options[2].selected = true;
+	}
+	else if(langCode == "de")
+	{
+		document.langform.languageID.options[3].selected = true;
+	}	
+	else if(langCode == "fr")
+	{
+		document.langform.languageID.options[4].selected = true;
+	}
+	else if(langCode == "zs")
+	{
+		document.langform.languageID.options[5].selected = true;
+	}
+	else 
+	{
+		document.langform.languageID.options[0].selected = true;
+	}
+</script>
+
+</form>
+
+
+ <!--SS_END_SNIPPET(fragment3,2)-->
+ <!--### CIT Simple Search Fragment Goes Here ###-->
+<!--SS_BEGIN_SNIPPET(fragment4,2)-->
+
+
+	<form action="/searchpage/index.htm" id="cse-search-box">
+
+  <div>
+    <input type="hidden" name="cx" value="016501390503017480934:ocxzvxyma7s" />
+   
+<input type=hidden name=cof value="FORID:11"> 
+    <input type="hidden" name="ie" value="UTF-8" />
+	<label for="frmsearch">Search</label>
+    <input   type="text" name="q" maxlength="100" value="" id ="ucTopNav_txtSearch">
+ <input type="image" name="ucTopNav:Image1" id="ucTopNav_Image1" onClick="submit" src="/wcmprod/fragments/cit-simple-search/submit-arrow-orange.gif" alt="Submit" title="Submit" class="frmsearchbtn" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en&sitesearch=true"></script>
+
+
+<!--SS_END_SNIPPET(fragment4,2)-->
+
+      </div>
+    </div>
+<!--SS_BEGIN_OPENREGIONMARKER(region13)--><!--SS_END_OPENREGIONMARKER(region13)-->
+
+    <div id="hero">
+      
+<!--SS_BEGIN_SNIPPET(region13_element1,body)--><!-- Create By: Swathi Kalahastri
+     Create Date:July 28,2011
+     Module:Rotating Banner for mobile compatable Home Page. This fragment will provide contributors to edit Content for Left Navigation in the rotatng banner.   
+-->
+
+
+
+<dl id="nav"><!--begin nav -->
+
+<dd>
+
+
+		<a id="pause_button" href="javascript:void(0);">Corporate Finance</a>
+	
+</dd> 			
+
+<dd>
+
+
+		
+		<a href="/products-and-services/trade-finance/index.htm">Trade Finance</a>
+	
+</dd> 			
+
+<dd>
+
+
+		<a id="pause_button" href="javascript:void(0);">Transportation Finance</a>
+	
+</dd> 			
+
+<dd>
+
+
+		
+		<a href="/products-and-services/vendor-finance/index.htm">Vendor Finance</a>
+	
+</dd> 			
+
+<dd>
+
+
+		
+		<a href="/products-and-services/cit-bank/small-business-lending/index.htm">Small Business<br>Lending</a>
+	
+</dd> 			
+
+<dd class="last">
+
+
+		
+		<a href="/products-and-services/cit-bank/index.htm">CIT Bank</a>
+	
+</dd> 			
+
+</dl><!--end nav --><!--SS_END_SNIPPET(region13_element1,body)-->
+ 
+<!--SS_BEGIN_SNIPPET(region13_element2,body)--><!-- Create By: Swathi Kalahastri
+     Create Date:July 28,2011
+     Module: Rotating Banner for mobile compatable Home Page. This fragment will provide contributors to edit Content in the intro area of the banner.    
+-->
+  
+
+
+
+<div id="gallery"> 
+ 
+      
+	<div id="promo" style="background: url('/wcmprod/groups/content/@wcm/@cit/documents/images/s4009685.jpg') no-repeat scroll 100% ;">		
+	<div class="block" >
+		<h5 ></h5>
+		<h4 > </h4>
+		<h3 ></h3>
+			 
+		 	            		<style type="text/css">
+         					#hero a.custButton1:link, #hero a.custButton1:visited {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 0 no-repeat;
+	 					}
+						#hero a.custButton1:hover, #hero a.custButton1:active {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 -38px no-repeat;
+	 					}
+          					</style>	
+		 	            		
+		 	            	<a href="/products-and-services/index.htm" class="button custButton1">LEARN MORE</a>
+	       					 
+	 </div> <!-- end block -->
+  	 </div><!-- end promo -->
+
+      
+	<div id="promo" style="background: url('/wcmprod/groups/content/@wcm/@cit/documents/images/s4009934.jpg') no-repeat scroll 100% ;">		
+	<div class="block" >
+		<h5 style=color:0268AA>Executive Spotlight Series</h5>
+		<h4 style=color:0268AA> 2012 U.S. Commercial Real Estate <br>
+Financing Outlook</h4>
+		<h3 style=color:0268AA><br>
+Matt Galligan, Group Head, CIT Real Estate Finance</h3>
+			 
+		 	            		<style type="text/css">
+         					#hero a.custButton2:link, #hero a.custButton2:visited {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 0 no-repeat;
+	 					}
+						#hero a.custButton2:hover, #hero a.custButton2:active {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 -38px no-repeat;
+	 					}
+          					</style>	
+		 	            		
+		 	            	<a href="/media-room/executive-spotlight/matthew-galligan/index.htm" class="button custButton2">LEARN MORE</a>
+	       					 
+	 </div> <!-- end block -->
+  	 </div><!-- end promo -->
+
+      
+	<div id="promo" style="background: url('/wcmprod/groups/content/@wcm/@cit/documents/images/s4009761.jpg') no-repeat scroll 100% ;">		
+	<div class="block" >
+		<h5 style=color:0268AA></h5>
+		<h4 style=color:0268AA> </h4>
+		<h3 style=color:0268AA></h3>
+			 
+		 	            		<style type="text/css">
+         					#hero a.custButton3:link, #hero a.custButton3:visited {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 0 no-repeat;
+	 					}
+						#hero a.custButton3:hover, #hero a.custButton3:active {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 -38px no-repeat;
+	 					}
+          					</style>	
+		 	            		
+		 	            	<a href="https://www.bankoncit.com/why-cit-bank.htm" target="_blank" class="button custButton3">LEARN MORE</a>
+	       					 
+	 </div> <!-- end block -->
+  	 </div><!-- end promo -->
+
+      
+	<div id="promo" style="background: url('/wcmprod/groups/content/@wcm/@cit/documents/images/s4009818.jpg') no-repeat scroll 100% ;">		
+	<div class="block" >
+		<h5 style=color:0268AA>Executive Insights Series</h5>
+		<h4 style=color:0268AA> Online Banking Ripe For Growth</h4>
+		<h3 style=color:0268AA>Ray Quinlan, Executive Vice President, Banking, CIT Group Inc.</h3>
+			 
+		 	            		<style type="text/css">
+         					#hero a.custButton4:link, #hero a.custButton4:visited {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 0 no-repeat;
+	 					}
+						#hero a.custButton4:hover, #hero a.custButton4:active {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 -38px no-repeat;
+	 					}
+          					</style>	
+		 	            		
+		 	            	<a href="/about-cit/thought-leadership/podcasts/raymond-quinlan/index.htm" class="button custButton4">WATCH VIDEO</a>
+	       					 
+	 </div> <!-- end block -->
+  	 </div><!-- end promo -->
+
+</div> 
+
+<ul id="slide_nav">
+</ul>
+<!--SS_END_SNIPPET(region13_element2,body)-->
+ 
+<!--SS_BEGIN_SNIPPET(region13_element3,body)--><!-- Create By: Swathi Kalahastri
+     Create Date:July 29th 2011
+     Module: Rotating Rotating banner for mobile compatable Home Page. This fragment will provide contributors to edit Content sub areas in the banner.    
+-->
+
+
+
+
+	
+
+      		
+      		
+	
+	<style type="text/css">	
+	  #hero #corporate {
+		background: url('/wcmprod/groups/content/@wcm/@cit/documents/images/s4009707.jpg') no-repeat scroll 100% 0 #005696;
+		}
+	  #hero #corporate .services ul li a:link, #hero #corporate .services ul li a:visited {
+	   	color: 0268AA;
+	   	}
+	  #hero #corporate .services ul li a:hover, #hero #corporate .services ul li a:active {
+	  	color: #f7941c;
+	  	}
+        </style>	
+
+ <div class="area" id="corporate">  
+
+ 
+         <div class="block">
+        <h3 style=color:0268AA>Growmentum <font size="2">[groh-men-tuhm]</font>
+</h3>
+        <h4  style=color:0268AA>Learn more about our Corporate Finance expertise in these areas:</h4>
+         <div class="services">
+         	 
+         
+         <ul><li class="normalList"><a href="http://www.cit.com/products-and-services/corporate-finance/capital-equipment-finance/index.htm">Capital Equipment</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/communications-media-entertainment/index.htm">Communications</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/energy/index.htm">Energy</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/communications-media-entertainment/index.htm">Entertainment</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/communications-media-entertainment/index.htm">Gaming</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/healthcare/index.htm">Healthcare</li></a></ul>
+         
+           
+         
+         <ul class="list"><li class="normalList"><a href="/products-and-services/corporate-finance/commercial-and-industrial/index.htm">Industrials</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/communications-media-entertainment/index.htm">Information Services and Technology</li></a><li class="normalList">
+
+<a href="http://www.cit.com/products-and-services/corporate-finance/real-estate-finance/index.htm">Real Estate Finance</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/commercial-and-industrial/index.htm">Restaurants</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/commercial-and-industrial/index.htm">Retail</li></a><li class="normalList">
+
+<a href="/products-and-services/corporate-finance/communications-media-entertainment/index.htm">Sports</li></a></ul>
+         </div><!--end services -->
+          
+         
+         
+          
+	 		 	              	<style type="text/css">
+         					#hero a.button1:link, #hero a.button1:visited {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 0 no-repeat;
+	 					}
+						#hero a.button1:hover, #hero a.button1:active {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 -38px no-repeat;
+	 					}
+          					</style>	
+	 		 	            	<a href="/products-and-services/corporate-finance/index.htm" class="button button1">LEARN MORE</a>
+	 	       					 
+         <a href="javascript:void(0);" class="close"></a>
+         </div><!--end block -->
+         </div><!--end corporate -->
+         
+       
+   
+      		
+      		
+	
+<style type="text/css">	
+ #hero #transportation {
+ 	background: url('/wcmprod/groups/content/@wcm/@cit/documents/images/s4009707.jpg') no-repeat scroll 100% 0 #005696;
+ 	}
+ #hero #transportation .services ul li a:link, #hero #transportation .services ul li a:visited {
+ 	color: 0268AA;
+	}
+ #hero #transportation .services ul li a:hover, #hero #transportation .services ul li a:active {
+ 	color: #f7941c;
+ 	}
+ </style>
+ <div class="area" id="transportation"> 
+ 
+ 
+         <div class="block">
+        <h3 style=color:0268AA>Nonstopportunity <font size="2">[non-stop-er-too-ni-tee]</font>
+</h3>
+        <h4  style=color:0268AA>Learn more about our Transportation Finance expertise in these areas:</h4>
+         <div class="services">
+         	 
+         
+         <ul><li class="normalList"><a href="/products-and-services/transportation-finance/aircraft-leasing-financing/index.htm">Aerospace</li></a><li class="squareBullets" style=color:0268AA>
+
+<a href="/products-and-services/transportation-finance/aircraft-leasing-financing/business-aircraft/index.htm">Business Aircraft</li></a><li class="squareBullets" style=color:0268AA>
+
+<a href="/products-and-services/transportation-finance/aircraft-leasing-financing/commercial-airlines/index.htm">Commercial Airlines</li></a></ul>
+         
+           
+         
+         <ul class="list"><li class="normalList"><a href="/products-and-services/transportation-finance/leveraged-finance-transportation/index.htm">Leveraged Finance</li></a><li class="normalList">
+
+<a href="/products-and-services/transportation-finance/rail/index.htm">Rail</li></a></ul>
+         </div><!--end services -->
+          
+         
+         
+          
+	 		 	              	<style type="text/css">
+         					#hero a.button2:link, #hero a.button2:visited {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 0 no-repeat;
+	 					}
+						#hero a.button2:hover, #hero a.button2:active {
+	 					background: url(/wcmprod/groups/content/@wcm/@cit/documents/images/s4009643.png) 0 -38px no-repeat;
+	 					}
+          					</style>	
+	 		 	            	<a href="/products-and-services/transportation-finance/index.htm" class="button button2">LEARN MORE</a>
+	 	       					 
+         <a href="javascript:void(0);" class="close"></a>
+         </div><!--end block -->
+         </div><!--end corporate -->
+         
+       
+   
+  <!--SS_END_SNIPPET(region13_element3,body)-->
+ 
+<!--SS_BEGIN_CLOSEREGIONMARKER(region13)--><!--SS_END_CLOSEREGIONMARKER(region13)-->
+
+    </div><!--end hero -->
+
+    <div id="contentcol1">
+      <!--### CIT BreadCrumb Fragment Goes Here ###--><!--### CIT CONTENT REGION WITH LIST Goes Here ###-->
+<!--SS_BEGIN_OPENREGIONMARKER(region8)--><!--SS_END_OPENREGIONMARKER(region8)-->
+<!--SS_BEGIN_ELEMENT(region8_element1)--><a href="/about-cit/index.htm"><font class="header3">About CIT</font></a>
+<!--SS_END_ELEMENT(region8_element1)-->
+
+      <p><!--SS_BEGIN_ELEMENT(region8_element2)--><p>For&nbsp;over 100 years,&nbsp;CIT has provided&nbsp;lending, leasing &amp; advisory services to small and middle market&nbsp;businesses.</p>
+<p>
+<a href="/about-cit/thought-leadership/cit-outlook-series/index.htm">CIT Outlook&nbsp;Series</a>&nbsp;|&nbsp;<a href="/about-cit/thought-leadership/podcasts/index.htm">Executive Insight Series</a>&nbsp;|<a href="/media-room/executive-spotlight/index.htm">Executive Spotlights</a>&nbsp;| <a href="/about-cit/thought-leadership/case-studies/index.htm">Case Studies</a> | <a href="/about-cit/corporate-citizenship/index.htm">Corporate Citizenship</a> | <a href="/about-cit/corporate-governance/index.htm">Corporate Governance</a>&nbsp;</p>
+<p>
+<a href="/media-room/advertising/index.htm">View Recent CIT Advertising</a>
+<br>
+<br>
+<strong>Follow Us</strong><span style="FONT-FAMILY: 'Calibri','sans-serif'; COLOR: #1f497d; FONT-SIZE: 11pt; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-hansi-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-themecolor: dark2; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><font face="Verdana" size="3">&nbsp;</font><a href="http://www.linkedin.com/company/cit" target="_blank"><font color="#000000" face="Verdana" size="3"><img border="0" src="/wcmprod/groups/content/@wcm/@cit/documents/images/s4008767.png"></font></a>&nbsp;<a href="http://www.facebook.com/CITGroup" target="_blank"><img border="0" src="/wcmprod/groups/content/@wcm/@cit/documents/images/s4008768.png"></a>&nbsp;<a href="http://twitter.com/#!/citgroup" target="_blank"><img border="0" src="/wcmprod/groups/content/@wcm/@cit/documents/images/s4008769.png"></a>&nbsp;<a href="http://www.flickr.com/photos/cit_group" target="_blank"></a>
+<br>
+<br>
+</span>
+</p>
+<!--SS_END_ELEMENT(region8_element2)--> 
+<!--SS_BEGIN_CLOSEREGIONMARKER(region8)--><!--SS_END_CLOSEREGIONMARKER(region8)-->
+</p>
+    </div>
+
+    <div id="contentcol2">
+      
+<!--SS_BEGIN_OPENREGIONMARKER(region9)--><!--SS_END_OPENREGIONMARKER(region9)-->
+<!--SS_BEGIN_ELEMENT(region9_element1)--><a href="/products-and-services/index.htm"><font class="header3">Our Businesses</font></a>
+<!--SS_END_ELEMENT(region9_element1)-->
+
+      <p><!--SS_BEGIN_ELEMENT(region9_element2)--><p>
+<a href="/products-and-services/corporate-finance/index.htm">Corporate&nbsp;Finance</a>&nbsp;|<a href="/products-and-services/cit-bank/small-business-lending/index.htm">Small Business Lending</a>&nbsp;|<a href="/products-and-services/trade-finance/index.htm">Trade Finance</a> | <a href="/products-and-services/transportation-finance/index.htm">Transportation Finance</a> |<a href="/products-and-services/vendor-finance/index.htm">Vendor Finance</a>&nbsp;| <a href="/cit-worldwide/index.htm">Worldwide</a>&nbsp;<br>
+<br>
+<strong>CIT Features:</strong>
+<br>
+<br>
+<strong>CIT Executive Spotlight Series:</strong> Matt Galligan, Group Head, CIT Real Estate Finance, discusses the <a href="/media-room/executive-spotlight/matthew-galligan/index.htm">2012 U.S. Commercial Real Estate Financing Outlook.<br>
+<br>
+</a><font color="#666666"><strong>CIT Executive Insights Series:</strong> Ray Quinlan, Executive Vice President, Banking, CIT Group Inc. discusses how</font>
+			<a href="http://www.cit.com/about-cit/thought-leadership/podcasts/raymond-quinlan/index.htm">online banking is ripe for growth</a><font color="#666666">.<br>
+</font>
+<br>
+<strong>CIT Bank Savings:</strong>&nbsp;Open a CIT Savings Account. Deposit more. Save more. <a href="/products-and-services/cit-bank/online-savings-account/index.htm">Start Saving</a>.<br>
+</p>
+<!--SS_END_ELEMENT(region9_element2)--> 
+<!--SS_BEGIN_CLOSEREGIONMARKER(region9)--><!--SS_END_CLOSEREGIONMARKER(region9)-->
+</p>
+    </div>
+
+    <div id="contentcol3">
+      <p>
+<!--SS_BEGIN_OPENREGIONMARKER(region6)--><!--SS_END_OPENREGIONMARKER(region6)-->
+ <!--SS_BEGIN_ELEMENT(region6_element1)--><a href="/media-room/index.htm"><font class="header3">Media Room</font></a>
+<!--SS_END_ELEMENT(region6_element1)--> 
+<!--SS_BEGIN_SNIPPET(region6_element3,snip1)-->	
+		<a href=""><h4></h4></a>
+		<ul id="news">
+					 <!--pubDate is row entries in RSS_ENTRIES-->
+					Jun 05, 2012	<br>
+					<li><a href="http://news.cit.com/portal/site/cit/index.jsp?ndmViewId=news_view&ndmConfigId=1007742&newsId=20120605005165&newsLang=en">CIT Appoints Jonathan A. Lucas President of CIT Trade Finance</a></li><br><!-- title is row entry in RSS_ENTIES-->
+				 		<br>
+							 <!--pubDate is row entries in RSS_ENTRIES-->
+					Jun 05, 2012	<br>
+					<li><a href="http://news.cit.com/portal/site/cit/index.jsp?ndmViewId=news_view&ndmConfigId=1007742&newsId=20120605005113&newsLang=en">CIT Announces John F. Daly to Retire as President of CIT Trade Finance</a></li><br><!-- title is row entry in RSS_ENTIES-->
+																																										
+		</ul>
+			<!--SS_END_SNIPPET(region6_element3,snip1)-->
+</p>
+
+      <p>&nbsp; 
+<!--SS_BEGIN_SNIPPET(fragment15,body)-->
+
+
+<ul >
+<li style="border-right: none" >
+<a href="http://feed.businesswire.com/bwapps/syndication/rss/cit/?rss=G1QFDERJXkJeF11VXw==" target="_blank"><img style="border: none;" src="/wcmprod/groups/assets/documents/ss-projects/cit-rss-icon.gif" align="absmiddle" /></a><a href="http://feed.businesswire.com/bwapps/syndication/rss/cit/?rss=G1QFDERJXkJeF11VXw==" target="_blank">RSS Feed</a>
+</li>
+</ul>
+
+
+
+<!--SS_END_SNIPPET(fragment15,body)-->
+ <!--SS_BEGIN_ELEMENT(region6_element2)--><br>
+<br>
+<br>
+<!--SS_END_ELEMENT(region6_element2)--> 
+<!--SS_BEGIN_CLOSEREGIONMARKER(region6)--><!--SS_END_CLOSEREGIONMARKER(region6)-->
+</p>
+    </div>
+
+    <div class="clearL">
+      <!--### Diligent Fragment Goes Here ###-->
+
+      <div id="diligent">
+        
+<!--SS_BEGIN_SNIPPET(fragment10,body)-->
+
+
+
+
+
+<A href="javascript:Win('https://go.boardbooks.com/cit','loginwin','900','500','0','0','0','1','1')">
+<IMG  height=22 alt=diligentlogo.gif 
+            src="/wcmprod/fragments/cit-diligent/diligentlogo.gif" 
+            width=19 border=0>
+ </A>
+
+<!--SS_END_SNIPPET(fragment10,body)-->
+
+      </div><!--### Disclaimer region Goes Here ###-->
+
+      <div id="disclaimer" style="PADDING-TOP: 0px">
+        
+<!--SS_BEGIN_OPENREGIONMARKER(region10)--><!--SS_END_OPENREGIONMARKER(region10)-->
+<!--SS_BEGIN_ELEMENT(region10_element1)--><!--SS_END_ELEMENT(region10_element1)-->
+<!--SS_BEGIN_CLOSEREGIONMARKER(region10)--><!--SS_END_CLOSEREGIONMARKER(region10)-->
+
+      </div>
+<!--### Updated for Tracking Code ###-->
+ 
+
+
+      <div id="footer">
+        <div id="copyright">
+          <!--### CIT Copyright Fragment Goes Here ###-->
+<!--SS_BEGIN_SNIPPET(fragment6,2)-->
+
+
+
+<div id="copyright">&copy;2012 CIT Group Inc. All rights reserved.</div>
+<!--SS_END_SNIPPET(fragment6,2)-->
+
+        </div><!--### CIT Footer Navigation Fragment Goes Here ###-->
+<!--SS_BEGIN_OPENREGIONMARKER(region12)--><!--SS_END_OPENREGIONMARKER(region12)-->
+
+<!--SS_BEGIN_SNIPPET(region12_element1,body)-->
+
+
+
+
+ <UL id="footernavigation">
+
+
+		
+					<li><a href="/utility/terms-of-use/index.htm">Terms of Use</a>
+</li>
+		
+
+
+		
+					<li><a href="/utility/privacy-policy/index.htm">Privacy Policy</a>
+</li>
+		
+
+
+		
+					<li><a href="/utility/business-continuity/index.htm">Business Continuity</a>
+</li>
+		
+
+
+		
+					<li><a href="/utility/site-map/index.htm">Site Map</a>
+</li>
+		
+
+
+		
+					<li><a href="/products-and-services/solutions-a-z/index.htm">Solutions A-Z</a>
+</li>
+		
+
+
+		
+					<li><a href="/contact-us/index.htm">Contact Us</a>
+</li>
+		
+
+
+		
+					<li class =last><a href="/utility/fraud-warning/index.htm">Fraud Warning</a>
+</li>
+		
+</ul><!--SS_END_SNIPPET(region12_element1,body)-->
+ 
+<!--SS_BEGIN_CLOSEREGIONMARKER(region12)--><!--SS_END_CLOSEREGIONMARKER(region12)-->
+ 
+<!--SS_BEGIN_SNIPPET(fragment14,body)--> 
+
+
+
+
+
+
+
+
+<!-- SiteCatalyst code version: H.22.1.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="/wcmprod/groups/assets/@wcm/@cit/documents/web-assets/s_code.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.pageName="Home"
+s.channel="Home"
+s.prop1="Home"
+s.prop2="Home"
+s.prop3="Home"
+s.hier1="Home"
+
+if(document.langform==null)
+{
+	s.prop11=""	
+}
+else{
+	if(document.langform.language.options!=null)
+	{
+		s.prop11=document.langform.language.options[document.langform.language.selectedIndex].text
+	}
+}
+s.eVar18="not registered, not logged in"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.22.1. -->
+
+ <!--SS_END_SNIPPET(fragment14,body)-->
+ &nbsp; 
+<!--SS_BEGIN_SNIPPET(fragment22,body)-->			<!--SS_END_SNIPPET(fragment22,body)-->
+
+      </div>
+    </div>
+<!--SS_BEGIN_SNIPPET(fragment17,Body)-->
+				
+				
+			<!--SS_END_SNIPPET(fragment17,Body)-->
+
+<!--SS_BEGIN_SNIPPET(fragment18,body)-->
+				 <!--Care should be taken when inserting this fragment ; you should open the source view and-->
+ <!-- put your cursor right after the body tag and then click this fragment from the toolbox-->
+  
+				
+			<!--SS_END_SNIPPET(fragment18,body)-->
+
+<!--SS_BEGIN_SNIPPET(fragment20,body)-->				 <!-- defines the value to put inside javascript's src-->
+<!-- defines the value to put inside iframe's src , incase if the javascript is not supported in the clients browser-->
+
+<!-- second set of variables follows -->
+			<!--SS_END_SNIPPET(fragment20,body)-->
+
+<!--SS_BEGIN_SNIPPET(fragment24,Body)-->
+
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8170919-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!--SS_END_SNIPPET(fragment24,Body)-->
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="SHORTCUT ICON" href="http://www.blubrry.com/themes/blubrry2/favicon.ico" />
+
+<link href="/plugins/common/common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/webplayer/player.css" />
+<script type="text/javascript" src="/webplayer/player.js"></script> 
+<script type="text/javascript">
+<!--
+jQuery(document).ready(function(){
+jQuery('.rvplayer').rvplayer({text_play: 'Play',text_pause: 'Pause',text_mute: 'Mute',text_unmute: 'Unmute',log_to: '#log',video_swf: '/webplayer/player_flv_js.swf',audio_swf: '/webplayer/player_mp3_js.swf'});
+});
+// -->
+</script>
+<link href="/plugins/share/share.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/plugins/subscribe_and_share/subscribe_and_share.css" type="text/css" media="screen" />
+<style type="text/css">
+#populartags {
+}
+#populartags p {
+ margin-left: 12px;
+ margin-right: 5px;
+}
+#populartags a {
+}
+</style>
+<script type="text/javascript" src="/js/jquery/thickbox-compressed.js"></script>
+<link rel="stylesheet" href="/js/jquery/thickbox.css" type="text/css" media="screen" />
+<link href="/plugins/player/player.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery/popup.js"></script>
+<script type="text/javascript" src="/plugins/player/player.js"></script>
+<script type="text/javascript" language="JavaScript">
+
+jQuery(document).ready(function($) {
+	if( jQuery('.nowplaying_share').position() == null )
+		return;
+		
+	var share_position = jQuery('.nowplaying_share').position().top;
+	var mycast_position = 0;
+	if( jQuery('.nowplaying_mycast').length > 0 )
+		mycast_position = jQuery('.nowplaying_mycast').position().top;
+	var button_count = jQuery('.link_button').length;
+	
+	//alert(share_position + ' : ' + mycast_position);
+	
+	jQuery('.nowplaying_share').popup( { popup_item: '.nowplaying_share_popup', onclick: true, onhover: false, offsetRelative: true, offsetLeft: 40, offsetTop: (share_position+35), delay: 900, callback: function(data) {
+			SetShareOptions( data.href, data.title );
+		}
+	});
+	jQuery('.nowplaying_mycast').popup( { popup_item: '.nowplaying_mycast_popup', onclick: true, onhover: false, offsetRelative: true, offsetLeft: 40, offsetTop: (mycast_position+(button_count*20)+35 ), delay: 900, callback: function(data) {
+			SetMyCastOptions( data.href );
+		}
+	});
+	
+});
+
+</script>
+		<link href="/plugins/star_rating/star_rating.css" rel="stylesheet" type="text/css" />
+		<link href="http://www.blubrry.com/themes/blubrry2/css/star_rating.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="/plugins/star_rating/star_rating.js"></script>
+	<link href="/plugins/showspage/showspage.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="javascript" src="/js/common.js"></script>
+<link rel="alternate" type="application/rss+xml" title="Between Parents and Teens" href="http://teenagerhelp.wordpress.com/feed" /><link href="http://www.blubrry.com/themes/blubrry2/css/normalpage.css" rel="stylesheet" type="text/css" />
+<link href="http://www.blubrry.com/themes/blubrry2/css/main.css" rel="stylesheet" type="text/css" />
+<title>Between Parents and Teens - Blubrry</title>
+<script type="text/javascript" language="JavaScript" src="http://www.blubrry.com/js/common.js"></script>
+<script type="text/javascript" language="javascript" src="http://www.blubrry.com/js/rollovers.js"></script>
+<script type="text/javascript" language="javascript" src="http://www.blubrry.com/themes/blubrry2/js/common.js"></script>
+<meta name="viewport" content="width=1050" />
+</head>
+<body  onload="OnPageLoad()">
+<div id="container">
+<div id="headercontainer">
+	<div id="header">
+		<a href="/" title="Blubrry"><img src="http://www.blubrry.com/themes/blubrry2/images/BannerLogo.png" alt="Blubrry" class="logo" /></a>
+		<div id="slogan">Power your podcast!</div>
+		<div id="subnav">
+			<span class="subnavmsg">Welcome Guest </span>
+			<span class="subnavlinks"><a title="MyCast" href="http://www.blubrry.com/mycast.php" >mycast</a> | <a title="Blubrry Store" href="https://secure.blubrry.com" >blubrry store</a> | <a title="Create Your Account" href="http://www.blubrry.com/createaccount.php" >Create Account</a> | <a title="Sign In" href="http://www.blubrry.com/signin.php?Ret=keyword.php" >Sign In</a></span>
+		</div>
+		<div id="searchbox">
+			
+			<form action="http://www.blubrry.com/search.php" id="cse-search-box">
+				<div>
+					<input type="hidden" name="cx" value="partner-pub-5215271722102984:bawqf9gvy5s" />
+					<input type="hidden" name="cof" value="FORID:9" />
+					<input type="hidden" name="ie" value="UTF-8" />
+					<input type="text" name="q" size="30" />
+					<input type="submit" name="sa" value="Search" id="search_button" />
+				</div>
+			</form>
+			<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+					</div>
+		
+		<div id="breadcrumbs">
+			<a href="http://www.blubrry.com/" title="Home">Home</a> &gt; <a href="/teenagerhelp/" title="Between Parents and Teens">Between Parents and Teens</a> 		</div>
+			</div>
+</div><!-- end header container -->
+	<div id="content">	<div id="contentcontainer">
+		<div id="leftcol">
+<div id="showcontainer">
+	<div id="showheader">
+		<h1><a href="http://www.blubrry.com/teenagerhelp/" title="Between Parents and Teens">Between Parents and Teens</a></h1>
+		
+<div id="mediacontent">		<div class="nowplaying">
+			<div class="nowplayingheader">
+				<h3>Bully Awareness</h3>
+			</div>
+			<div class="rvplayer" id="rvg_player_1" style="width:535px; height:330px;">
+	<div class="rvplayer-window" style="height:300px;">
+		<img src="http://www.blubrry.com/themes/blubrry2/images/default.png" class="rvplayer-poster" style="max-width: 535px; max-height: 300px; " alt="Play" />
+	</div>
+	<div class="rvplayer-board">
+		<div class="rvplayer-controls" style="margin-top: 0px;">
+			<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Play" class="rvplayer-play"><span>Play</span></a>
+					</div>
+	</div>
+</div>
+			<div class="nowplayingtools">
+				<div class="nowplaying_download"><a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download" class="link_button"><span>Download</span></a></div>
+				
+				<div class="nowplaying_share"><a href="http://www.blubrry.com/teenagerhelp/1284191/bully-awareness/" title="Bully Awareness" class="link_button" onclick="return false;"><span>Share!</span></a>
+					<div class="nowplaying_share_popup"><h2>Share this Podcast</h2></div>
+				</div>
+				
+								
+								<div class="nowplaying_more"><a href="http://www.blubrry.com/teenagerhelp/1284191/bully-awareness/" title="More" class="link_button"><span>More</span></a></div>
+								
+								<div class="nowplaying_mycast"><a href="http://www.blubrry.com/teenagerhelp/1284191/bully-awareness/" title="MyCast" class="link_button" onclick="return false;"><span>MyCast</span></a>
+					<div class="nowplaying_mycast_popup"><h2>MyCast</h2><p>MyCast Subscription</p></div>
+				</div>
+								
+			</div>
+		</div>
+</div>		<div id="programinfo">
+			<a href="http://www.blubrry.com/teenagerhelp/" title="Between Parents and Teens"><img src="http://www.blubrry.com/themes/blubrry2/images/sm/default.png" alt="Between Parents and Teens" /></a>
+						<h3>Michael Geddes</h3>
+									<p>Fredericksburg, VA</p>
+						<p><strong>Description:</strong> A podcast and blog dedicated to parents who need help with their teens during the challanging years</p>
+			
+						<div class="programlinks">
+				<a href="http://teenagerhelp.wordpress.com" title="Visit Podcast Home Page" target="_blank">Visit Podcast Home Page</a>
+			</div>
+					</div>
+	</div>
+	<div id="showcontent">
+					<div style="position:relative;">
+			<h3>Most Recent Post</h3>
+				<div class="navarchivetop" style="position: absolute; top: 0; right: 0;"><a href="http://www.blubrry.com/teenagerhelp/archive/" title="Browse Archive">Browse Archive</a> &raquo;</div>
+			</div>
+			<div class="entry mainentry">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Blog Post / Episode Notes">
+			<tr>
+				<td align="left" valign="top" width="400"><h2><a href="http://www.blubrry.com/teenagerhelp/1284191/bully-awareness/" title="Bully Awareness">Bully Awareness</a></h2></td>
+				<td align="right" valign="top" width="70">
+									<a href="http://www.blubrry.com/teenagerhelp/1284191/bully-awareness/?autoplay=1" title="Play"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_play.gif" alt="Play" /></a>
+										<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download media"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_download.gif" alt="Download media" /></a>
+													</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" valign="top"><div class="entrydata"><p>Last week I was invited to attend a school assembly.  Busting the Bullies was the focus of the event. In a humorous way the presenters explained the problem and drove home the point that there are ways to respond to the bullies in school ( fighting is not an option).</p>
+<p>First they defined what bullying is; When one student (or a group) puts down another person consistently in order to get a laugh from friends, make him/herself feel better at the expense of another, or to somehow  feel better about their own lives by making another feel bad. Bullies often choose a child who is more of a loner or somehow different.  According to Steven Covey, one can only be at the effect of another if they hand over their power to the bully. We can only feel bad if we choose to feel bad. But most kids don&#8217;t know about Steven Covey.Covey explains there is a fraction of a second of time between the thought leading to action in which we can pause and choose our response. They didn&#8217;t talk about this during the assembly, but you can certainly explain this and reexplain this as needed at home.</p>
+<p>The presenters urged students to:</p>
+<ul>
+<li>Stand together and stick up for anyone who is being singled out and made fun of.</li>
+<li>Say &#8220;Stop, I don&#8217;t like this!&#8221;</li>
+<li>Build up their own circles of friends</li>
+<li>Build their own self esteem</li>
+</ul>
+<p>Bullying is not only an in person event. Social media,texting and cell phones all lend the bullies an opportunity to hurt. Protect your child. Have conversations about this and be aware of what is going on in their lives. Watch for changed attitudes and behaviors that might be a sign that something is going on. Teens tend to think that they can take care of things on their own. They also think that by letting their parents in on it, things might get worse for them. Bullying is serious stuff, but if your child is either the bully or being bullied it is an opportunity for some good life lessons. The kind that will make us better and more human, human beings.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/teenagerhelp.wordpress.com/423/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/teenagerhelp.wordpress.com/423/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gofacebook/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/facebook/teenagerhelp.wordpress.com/423/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gotwitter/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/twitter/teenagerhelp.wordpress.com/423/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/teenagerhelp.wordpress.com/423/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/teenagerhelp.wordpress.com/423/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/teenagerhelp.wordpress.com/423/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/teenagerhelp.wordpress.com/423/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=teenagerhelp.wordpress.com&amp;blog=16848728&amp;post=423&amp;subd=teenagerhelp&amp;ref=&amp;feed=1" width="1" height="1" /></div></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right" valign="top">
+				<div class="entrylinks">
+				<span class="postdate">Released January 29, 2012</span>
+				        <a href="http://teenagerhelp.wordpress.com/2012/01/29/schools-bust-bullies/" title="Original Post">Original Post</a> &raquo;				<a href="http://www.blubrry.com/teenagerhelp/1284191/bully-awareness/#comments" title="comments">Comments</a> &raquo;</div></td>
+			</tr>
+		</table>
+		
+			</div>
+						<h3>Last 5 Posts</h3>
+						<div class="entry">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Blog Post / Episode Notes">
+			<tr>
+				<td align="left" valign="top" width="400"><h2><a href="http://www.blubrry.com/teenagerhelp/1218000/your-teen-is-smarter-than-you-think/" title="Your Teen is Smarter Than You Think">Your Teen is Smarter Than You Think</a></h2></td>
+				<td align="right" valign="top" width="70">
+									<a href="http://www.blubrry.com/teenagerhelp/1218000/your-teen-is-smarter-than-you-think/?autoplay=1" title="Play"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_play.gif" alt="Play" /></a>
+										<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download media"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_download.gif" alt="Download media" /></a>
+													</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" valign="top"><div class="entrydata">So many teens feel like they are not smart because they compare their performance with classmates only on the academic or sports playing field. Unfortunately, teens only see themselves in relationship to others around them and base their self esteem and the plans for their future  on what they thin...</div></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right" valign="top">
+				<div class="entrylinks">
+				<span class="postdate">Released November 19, 2011</span>
+								<a href="http://www.blubrry.com/teenagerhelp/1218000/your-teen-is-smarter-than-you-think/" title="Read More">More</a> &raquo;				<a href="http://www.blubrry.com/teenagerhelp/1218000/your-teen-is-smarter-than-you-think/#comments" title="comments">Comments</a> &raquo;</div></td>
+			</tr>
+		</table>
+				</div>
+						<div class="entry">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Blog Post / Episode Notes">
+			<tr>
+				<td align="left" valign="top" width="400"><h2><a href="http://www.blubrry.com/teenagerhelp/1176044/powerful-questions/" title="Powerful Questions">Powerful Questions</a></h2></td>
+				<td align="right" valign="top" width="70">
+									<a href="http://www.blubrry.com/teenagerhelp/1176044/powerful-questions/?autoplay=1" title="Play"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_play.gif" alt="Play" /></a>
+										<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download media"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_download.gif" alt="Download media" /></a>
+													</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" valign="top"><div class="entrydata">One of the things my mother did that really bothered me when I was a kid was asking closed, negative questions.  It was a  habit she got from her family;  I can remember overhearing phone conversations  with her sisters.  Here&#8217;s an example on the kind of questions I&#8217;m talking about&...</div></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right" valign="top">
+				<div class="entrylinks">
+				<span class="postdate">Released October 09, 2011</span>
+								<a href="http://www.blubrry.com/teenagerhelp/1176044/powerful-questions/" title="Read More">More</a> &raquo;				<a href="http://www.blubrry.com/teenagerhelp/1176044/powerful-questions/#comments" title="comments">Comments</a> &raquo;</div></td>
+			</tr>
+		</table>
+				</div>
+						<div class="entry">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Blog Post / Episode Notes">
+			<tr>
+				<td align="left" valign="top" width="400"><h2><a href="http://www.blubrry.com/teenagerhelp/1172279/raising-a-new-generation/" title="Raising a New Generation">Raising a New Generation</a></h2></td>
+				<td align="right" valign="top" width="70">
+									<a href="http://www.blubrry.com/teenagerhelp/1172279/raising-a-new-generation/?autoplay=1" title="Play"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_play.gif" alt="Play" /></a>
+										<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download media"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_download.gif" alt="Download media" /></a>
+													</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" valign="top"><div class="entrydata">Teenagers are different today from kids 20 years ago. The parenting skills and tactics our parents used raising us worked at that time, but technology has undeniably changed the world effecting everything, including teenagers. Since the 80&#8242;s a new list of predominant teen behaviors was develop...</div></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right" valign="top">
+				<div class="entrylinks">
+				<span class="postdate">Released October 05, 2011</span>
+								<a href="http://www.blubrry.com/teenagerhelp/1172279/raising-a-new-generation/" title="Read More">More</a> &raquo;				<a href="http://www.blubrry.com/teenagerhelp/1172279/raising-a-new-generation/#comments" title="comments">Comments</a> &raquo;</div></td>
+			</tr>
+		</table>
+				</div>
+						<div class="entry">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Blog Post / Episode Notes">
+			<tr>
+				<td align="left" valign="top" width="400"><h2><a href="http://www.blubrry.com/teenagerhelp/1164001/parenting-a-teen/" title="Parenting a Teen">Parenting a Teen</a></h2></td>
+				<td align="right" valign="top" width="70">
+									<a href="http://www.blubrry.com/teenagerhelp/1164001/parenting-a-teen/?autoplay=1" title="Play"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_play.gif" alt="Play" /></a>
+										<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download media"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_download.gif" alt="Download media" /></a>
+													</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" valign="top"><div class="entrydata">Nobody said parenting a teen was going to be easy.  Dealing with emotional changes, miscommunication, ups and downs and peer pressure puts parents at a loss to figure out how to do the right thing. It may not always seem like it but here&#8217;s a list of the top things teens want from their parent...</div></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right" valign="top">
+				<div class="entrylinks">
+				<span class="postdate">Released September 26, 2011</span>
+								<a href="http://www.blubrry.com/teenagerhelp/1164001/parenting-a-teen/" title="Read More">More</a> &raquo;				<a href="http://www.blubrry.com/teenagerhelp/1164001/parenting-a-teen/#comments" title="comments">Comments</a> &raquo;</div></td>
+			</tr>
+		</table>
+				</div>
+						<div class="entry">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Blog Post / Episode Notes">
+			<tr>
+				<td align="left" valign="top" width="400"><h2><a href="http://www.blubrry.com/teenagerhelp/1161590/talking-to-your-teen/" title="Talking To Your Teen">Talking To Your Teen</a></h2></td>
+				<td align="right" valign="top" width="70">
+									<a href="http://www.blubrry.com/teenagerhelp/1161590/talking-to-your-teen/?autoplay=1" title="Play"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_play.gif" alt="Play" /></a>
+										<a href="http://1.gravatar.com/avatar/f6616cd48ac049664d0b232965f0efc9?s=96&d=identicon&r=G" title="Download media"><img src="http://www.blubrry.com/themes/blubrry2/images/showspage_download.gif" alt="Download media" /></a>
+													</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left" valign="top"><div class="entrydata">Do you feel like you&#8217;re hitting a brick wall when you&#8217;re trying to talk to your teenage child? Do you feel like you can talk till you&#8217;re &#8221; blue in the face&#8221; and never succeed in getting through to them? You&#8217;re not alone. I love the quote by an unknown author remem...</div></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right" valign="top">
+				<div class="entrylinks">
+				<span class="postdate">Released September 23, 2011</span>
+								<a href="http://www.blubrry.com/teenagerhelp/1161590/talking-to-your-teen/" title="Read More">More</a> &raquo;				<a href="http://www.blubrry.com/teenagerhelp/1161590/talking-to-your-teen/#comments" title="comments">Comments</a> &raquo;</div></td>
+			</tr>
+		</table>
+				</div>
+					<div class="navarchive">
+			<a href="http://www.blubrry.com/teenagerhelp/archive/" title="Browse Archive">Browse Archive</a> &raquo;
+		</div>
+				<div id="post-comments">
+<a name="comments"></a><h3>Guest Book</h3>
+<div class="comment-new"><a href="#" onclick="LeaveComment(this,false);return false;">Leave a Comment</a></div>		
+		</div>
+      		</div>
+		<div class="clearer"></div>
+	</div>
+		</div>
+		<div id="rightcol">
+<!-- AdSpeed.com Serving Code 7.9.5 for [Ad] tpn-gd-300 300x250 -->
+<script type="text/javascript">var a=new Date();d=document;n=navigator;s=screen;var q='&tz='+a.getTimezoneOffset()/60 +'&ck='+(n.cookieEnabled?'Y':'N') +'&jv='+(n.javaEnabled()?'Y':'N') +'&scr='+s.width+'x'+s.height+'x'+s.colorDepth +'&z='+Math.random() +'&ref='+escape(d.referrer.substr(0,255)) +'&uri='+escape(d.URL.substr(0,255));document.write('<ifr'+'ame width="300" height="250" src="http://g.adspeed.net/ad.php?do=html&aid=119450&wd=300&ht=250&target=_top'+q+'" frameborder="0" scrolling="no" allowtransparency="true" hspace="0" vspace="0"></ifr'+'ame>');</script>
+<noscript><iframe width="300" height="250" src="http://g.adspeed.net/ad.php?do=html&aid=119450&wd=300&ht=250&target=_top" frameborder="0" scrolling="no" allowtransparency="true" hspace="0" vspace="0"><a href="http://g.adspeed.net/ad.php?do=clk&aid=119450&wd=300&ht=250&pair=as" target="_top"><img style="border:0px;" src="http://g.adspeed.net/ad.php?do=img&aid=119450&wd=300&ht=250&pair=as" width="300" height="250"/></a></iframe>
+</noscript><!-- AdSpeed.com End --><br><br>
+	<div id="subscribe">
+		<h2>Subscribe &amp; Follow</h2>
+		<ul>
+			<li>
+				<a href="http://teenagerhelp.wordpress.com/feed" title="RSS Feed"><img src="http://www.blubrry.com/images/feed_16x16.png" alt="RSS Feed" /></a>
+				<a href="http://teenagerhelp.wordpress.com/feed" title="RSS Feed">RSS Feed</a></li>
+						
+				
+						<li>
+				<a href="itpc://teenagerhelp.wordpress.com/feed" title="Add to iTunes"><img src="http://www.blubrry.com/images/itunes.png" alt="Add to iTunes" /></a>
+				<a href="itpc://teenagerhelp.wordpress.com/feed" title="Add to iTunes">Add to iTunes</a></li>
+						
+			<li>
+				<a href="zune://subscribe/?Between%20Parents%20and%20Teens=http://teenagerhelp.wordpress.com/feed" title="Add to Zune"><img src="http://www.blubrry.com/images/zune.png" alt="Add to Zune" /></a>
+				<a href="zune://subscribe/?Between%20Parents%20and%20Teens=http://teenagerhelp.wordpress.com/feed" title="Add to Zune">Add to Zune</a></li>			
+			<li>
+				<a href="http://fusion.google.com/add?feedurl=http%3A%2F%2Fteenagerhelp.wordpress.com%2Ffeed" title="Add to Google"><img src="http://www.blubrry.com/images/google.png" alt="Add to Google" /></a>
+				<a href="http://fusion.google.com/add?feedurl=http%3A%2F%2Fteenagerhelp.wordpress.com%2Ffeed" title="Add to Google">Add to Google</a>
+			</li>	
+								</ul>
+	</div>
+		<div id="star_rating">
+			<div class="left">
+				<h2>Average Rating</h2>
+				<div class="star_holder star_holder_left">
+					<div style="display: none;" id="program_id">11194</div>
+					<div style="display: none;" id="account_id"></div>
+					<div class="star rating_background" id="average_rating" ></div>
+					<div class="star star5">
+						<img alt="5 stars" src="http://www.blubrry.com/themes/blubrry2/images/star_rating.png" />
+					</div>
+					<div class="star star4">
+						<img alt="4 stars" src="http://www.blubrry.com/themes/blubrry2/images/star_rating.png" />
+					</div>
+					<div class="star star3">
+						<img alt="3 stars" src="http://www.blubrry.com/themes/blubrry2/images/star_rating.png" />
+					</div>
+					<div class="star star2">
+						<img alt="2 stars" src="http://www.blubrry.com/themes/blubrry2/images/star_rating.png" />
+					</div>
+					<div class="star star1">
+						<img alt="1 star" src="http://www.blubrry.com/themes/blubrry2/images/star_rating.png" />
+					</div>
+				</div>
+				<span class="num_ratings"></span>
+			</div>
+						<div class="clearer"></div>
+		</div>
+		
+			<div id="categories">
+		<div id="categoryheader">
+			<h2>Categories</h2>
+		</div>
+		<ul>
+			<li><a href="http://www.blubrry.com/programs/?CatID=33" title="Arts">Arts</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=19" title="Business">Business</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=26" title="Comedy">Comedy</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=27" title="Culture">Culture</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=12" title="Education">Education</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=18" title="Entertainment">Entertainment</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=29" title="Gaming">Gaming</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=35" title="General">General</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=21" title="International">International</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=20" title="Lifestyle&nbsp;&amp;&nbsp;GLBT">Lifestyle&nbsp;&amp;&nbsp;GLBT</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=31" title="Music">Music</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=32" title="Religion">Religion</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=7" title="Sports">Sports</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=25" title="Technology">Technology</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=15" title="Travel">Travel</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=36" title="Health&nbsp;&amp;&nbsp;Science">Health&nbsp;&amp;&nbsp;Science</a></li>
+			<li><a href="http://www.blubrry.com/programs/?CatID=37" title="News&nbsp;&amp;&nbsp;Politics">News&nbsp;&amp;&nbsp;Politics</a></li>
+			<li><a href="http://www.blubrry.com/programs/" title="Show All">Show All</a></li>
+		</ul>
+<div class="clearer"><img src="http://www.blubrry.com/images/shim.gif" alt="" width="1" height="1" /></div>	</div>
+<a target="_new" href="http://www.shareasale.com/r.cfm?b=286886&u=638370&m=13821&urllink=&afftrack="><img src="http://www.shareasale.com/image/13821/EarlyBird300x250.gif"  alt="Register Now for BlogWorldExpo 2012 in New York City, June 5-7!" border="0"></a> <br /><br />
+
+<script type="text/javascript" src="http://g.adspeed.net/ad.php?do=js&amp;zid=36819&amp;wd=-1&amp;ht=-1&amp;target=_top"></script>
+	 </div>
+	 <div class="clearer"></div>
+	</div>
+	</div><!-- end content -->
+<div id="footercontainer">
+	<div id="footer">
+		<ul>
+			<li class="sep">
+				<ul>
+					<li><h4>Networks</h4></li>
+					<li><a href="http://www.techpodcasts.com" title="Tech Podcasts">Tech Podcasts</a></li>
+					<li><a href="http://www.podcasternews.com/">Podcaster News</a></li>
+					<li><a href="http://www.promednetwork.com">Pro Med Network</a></li>
+					<li><a href="http://www.travelcastnetwork.com/">TravelCast Network</a></li>
+				</ul>
+			</li>
+			<li class="sep">
+				<ul>
+					<li><h4>Community</h4></li>
+					<li><a href="http://twitter.com/blubrry">Twitter</a></li>
+					<li><a href="http://www.facebook.com/blubrry">Facebook</a></li>
+					<li><a href="http://blog.blubrry.com">Blog</a></li>
+					<li><a href="http://www.powerpresspodcast.com/">PowerPress Podcast</a></li>
+				</ul>
+			</li>
+			<li class="sep">
+				<ul>
+					<li><h4>Support</h4></li>
+					<li><a href="http://help.blubrry.com">Help</a></li>
+					<li><a href="http://forum.blubrry.com">Forum</a></li>
+					<li><a href="http://www.podcastfaq.com">FAQ</a></li>
+				</ul>
+			</li>
+			<li class="sep">
+				<ul>
+					<li><h4>Company</h4></li>
+					<li><a href="/about/">About</a></li>
+					<li><a href="/contact.php">Contact</a></li>
+					<li><a href="/terms/">Terms of Service</a></li>
+					<li><a href="/privacy/">Privacy Policy</a></li>
+				</ul>
+			</li>
+			<li class="sep">
+				<ul>
+					<li><h4>Podcasts</h4></li>
+					<li><a href="/mycast.php">MyCast&reg;</a></li>
+					<li><a href="/programs/">Browse All</a></li>
+					<li><a href="/what_is_a_podcast/">What is it?</a></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><h4>Podcast Tools</h4></li>
+					<li><a href="http://www.blubrry.com/benefits/">Power Your Show</a></li>
+					<li><a href="http://www.blubrry.com/powerpress/">PowerPress</a></li>
+					<li><a href="http://www.blubrry.com/podcast_statistics/">Media Stats</a></li>
+					<li><a href="https://secure.blubrry.com/podcast-publishing-premium-with-hosting/">Media Hosting</a></li>
+					<li><a href="http://www.blubrry.com/earnmoney/">Make Money</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="clearer"></div>
+		
+		
+		
+	</div><!-- end footer -->
+</div><!-- end footercontainer -->
+<p id="copyright">
+	&copy; 2012 <a title="RawVoice.com" href="http://www.rawvoice.com">RawVoice</a>, Inc.
+</p>
+</div><!-- end container  -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-53149-4");
+pageTracker._trackPageview();
+var pageTracker2 = _gat._getTracker("UA-3490580-10");
+pageTracker2._trackPageview();
+</script>
+<!-- Start Quantcast tag -->
+<script type="text/javascript"
+src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qacct="p-c25UtI488Exdo";quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-c25UtI488Exdo"
+target="_blank"><img
+src="http://pixel.quantserve.com/pixel/p-c25UtI488Exdo.gif"
+style="display: none;" border="0" height="1" width="1"
+alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+<!-- Google Code for Blubrry Site Tracking Conversion Page -->
+<script language="JavaScript" type="text/javascript">
+<!--
+var google_conversion_id = 1048189013;
+var google_conversion_language = "en_US";
+var google_conversion_format = "1";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "zH_ACN3qVBDVsOjzAw";
+//-->
+</script>
+<script language="JavaScript" type="text/javascript"
+src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<img height="1" width="1" border="0"
+src="http://www.googleadservices.com/pagead/conversion/1048189013/?label=zH_ACN3qVBDVsOjzAw&amp;script=0"/>
+</noscript>
+<!-- End Google Code for Blubrry Site Tracking Conversion Page -->
+</body>
+</html>

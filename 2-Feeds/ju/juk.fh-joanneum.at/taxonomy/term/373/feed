@@ -1,0 +1,58 @@
+<br />
+<b>Warning</b>:  Table &#039;juk.cache&#039; doesn&#039;t exist
+query: SELECT data, created, headers, expire FROM cache WHERE cid = &#039;variables&#039; in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.variable&#039; doesn&#039;t exist
+query: SELECT * FROM variable in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.cache&#039; doesn&#039;t exist
+query: LOCK TABLES cache WRITE in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.cache&#039; doesn&#039;t exist
+query: UPDATE cache SET data = &#039;N;&#039;, created = 1339030778, expire = 0, headers = &#039;&#039; WHERE cid = &#039;variables&#039; in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.cache_page&#039; doesn&#039;t exist
+query: SELECT data, created, headers, expire FROM cache_page WHERE cid = &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039; in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc:172) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/bootstrap.inc</b> on line <b>488</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc:172) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/bootstrap.inc</b> on line <b>489</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc:172) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/bootstrap.inc</b> on line <b>490</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc:172) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/bootstrap.inc</b> on line <b>491</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.url_alias&#039; doesn&#039;t exist
+query: SELECT COUNT(pid) FROM url_alias in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.system&#039; doesn&#039;t exist
+query: SELECT * FROM system WHERE type = &#039;theme&#039; in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Cannot modify header information - headers already sent by (output started at /home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc:172)&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/common.inc&lt;/em&gt; on line &lt;em&gt;141&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.system&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: SELECT name, filename, throttle, bootstrap FROM system WHERE type = &amp;amp;#039;module&amp;amp;#039; AND status = 1 ORDER BY weight ASC, filename ASC&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc&lt;/em&gt; on line &lt;em&gt;172&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.cache_menu&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: SELECT data, created, headers, expire FROM cache_menu WHERE cid = &amp;amp;#039;0:en&amp;amp;#039;&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc&lt;/em&gt; on line &lt;em&gt;172&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.cache_menu&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: LOCK TABLES cache_menu WRITE&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc&lt;/em&gt; on line &lt;em&gt;172&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.cache_menu&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: UPDATE cache_menu SET data = &amp;amp;#039;a:4:{s:10:\\&amp;amp;quot;path index\\&amp;amp;quot;;a:0:{}s:5:\\&amp;amp;quot;items\\&amp;amp;quot;;a:2:{i:0;a:5:{s:4:\\&amp;amp;quot;path\\&amp;amp;quot;;s:0:\\&amp;amp;quot;\\&amp;amp;quot;;s:5:\\&amp;amp;quot;title\\&amp;amp;quot;;s:0:\\&amp;amp;quot;\\&amp;amp;quot;;s:4:\\&amp;amp;quot;type\\&amp;amp;quot;;i:1;s:3:\\&amp;amp;quot;pid\\&amp;amp;quot;;i:1;s:8:\\&amp;amp;quot;children\\&amp;amp;quot;;a:1:{i:0;i:1;}}i:1;a:6:{s:3:\\&amp;amp;quot;pid\\&amp;amp;quot;;i:0;s:4:\\&amp;amp;quot;path\\&amp;amp;quot;;s:0:\\&amp;amp;quot;\\&amp;amp;quot;;s:5:\\&amp;amp;quot;title\\&amp;amp;quot;;s:10:\\&amp;amp;quot;Navigation\\&amp;amp;quot;;s:6:\\&amp;amp;quot;weight\\&amp;amp;quot;;i:-50;s:6:\\& in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Cannot modify header information - headers already sent by (output started at /home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc:172)&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/common.inc&lt;/em&gt; on line &lt;em&gt;141&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.watchdog&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &amp;amp;#039;page not found&amp;amp;#039;, &amp;amp;#039;taxonomy/term/373/feed&amp;amp;#039;, 1, &amp;amp;#039;&amp;amp;#039;, &amp;amp;#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&amp;amp;#039;, &amp;amp;#039;&amp;amp;#039;, &amp;amp;#039;77.188.236.104&amp;amp;#039;, 1339030778)&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc&lt;/em&gt; on line &lt;em&gt;172&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Fatal error</b>:  Call to undefined function block_list() in <b>/home/hosted/juk.fh-joanneum.at/www/includes/theme.inc</b> on line <b>1013</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.sessions&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: SELECT sid FROM sessions WHERE sid = &amp;amp;#039;0800457679cb752b3dc8a12784853e9a&amp;amp;#039;&lt;/em&gt; in &lt;em&gt;/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc&lt;/em&gt; on line &lt;em&gt;172&lt;/em&gt;.&#039;, 2, &#039;&#039;, &#039;http://juk.fh-joanneum.at/taxonomy/term/373/feed&#039;, &#039;&#039;, &#039;77.188.236.104&#039;, 1339030778) in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />
+<br />
+<b>Warning</b>:  Table &#039;juk.watchdog&#039; doesn&#039;t exist
+query: INSERT INTO watchdog (uid, type, message, severity, link, location, referer, hostname, timestamp) VALUES (0, &#039;php&#039;, &#039;&lt;em&gt;Table &amp;amp;#039;juk.sessions&amp;amp;#039; doesn&amp;amp;#039;t exist\nquery: INSERT INTO sessions (sid, uid, cache, hostname, session, timestamp) VALUES (&amp;amp;#039;0800457679cb752b3dc8a12784853e9a&amp;amp;#039;, 0, 0, &amp;amp;#039;77.188.236.104&amp;amp;#039;, &amp;amp;#039;tirwO9pQXTWKod-GyxSafaLsktXltpOh7Lz3L-w2o3ACQgo8ZVEuchiIxcRDNVgn-zAJ_DHQdZIUTu8DJy37C9D5qY7vBpuMg7firyfMNCWv000jeHmRrNREqhmOKhrAwvyKboBba-fxkINFDW2m77y9oPu5Tx0RWatf89McdepVnV8SVSRXb92Lzjnkb5gpnx2ezQvWDCBZ55NFJpUDamr7312W_Z4OKEYhdLMC5cZmbZo-pn40RL-5bPv-imosxX2EtUm7J3Hi1HXBXHPahUIVnR_ATRR6lxn6ko1qqxVA7PhSx_XgWiaLh2IBBokL5nGkwefoq6sMTEEabTQHmDZrDQWd-L7rQXWN_HZ2psx64L78cCTNID1kUSMVWYZYpmpP3_CerFs8P2RtJboSDaT9K8bpTNfrnvTnhkZ9gUrrfU53Q3ddZ7jRMggfvQuJHtbs2J2fmBlE9pqv9-Gu_DXg1xH-FR1A31EukgmSuOCuXCl1hYmGK1jlc3trKbIIIFWgplR7WzZbQvz4xUqhhGPtE6QA in <b>/home/hosted/juk.fh-joanneum.at/www/includes/database.mysql.inc</b> on line <b>172</b><br />

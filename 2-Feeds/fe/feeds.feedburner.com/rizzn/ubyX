@@ -1,0 +1,779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Where is Webjay?</title>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://l.yimg.com/d/lib/common/css/grids_2.1.2.css">
+<link rel="stylesheet" type="text/css" href="/l/utils/y/css/yahoo_browse_2008-min.css"/>
+<link rel="stylesheet" type="text/css" href="/l/utils/y/css/yahoo_musichlp_2008.css"/>
+
+<link rel="stylesheet" type="text/css" href="http://a.l.yimg.com/a/lib/s4/miniassist_200907011715.css">
+<style>
+/* search assist overrides */
+#helpsat {
+    width: 320px;
+    _width: 320px;
+   padding: 3px;
+    margin-top: -1px;
+    *margin-top: -2px;
+}
+</style>
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.7.0/build/yahoo-dom-event/yahoo-dom-event.js&2.7.0/build/connection/connection-min.js&2.7.0/build/datasource/datasource-min.js&2.7.0/build/autocomplete/autocomplete-min.js&2.7.0/build/container/container-min.js&2.7.0/build/menu/menu-min.js&2.7.0/build/get/get-min.js"></script> 
+<script>
+YAHOO.namespace("yhelp");
+var yhelpCallback = {};
+var yhelpCrumb = "";
+var yhelpPostData = "";
+var yhelpRequestUrl = "";
+var yhelpRequest = "";
+</script><script charset="utf-8" type="text/javascript" src="http://yui.yahooapis.com/2.7.0/build/get/get-min.js"></script>
+<link rel="stylesheet" type="text/css" href="/ushare/css/ygsh.css" />
+<script charset="utf-8" type="text/javascript" src="/ushare/js/ygsh.js">
+</script>
+</head>
+<body>
+<div id="doc2">
+		<div id="hd"><!-- spaceId: 2015829645 -->      <style type="text/css">
+      .yzq_x { position:absolute; }
+      </style><!-- SpaceID=0 robot -->
+</div>
+		<div id="bd" class="wrapper">
+				<!-- Begin Top Nav -->
+				<div id="nav" class="nav">
+					<div class="bd">
+					<ul class="firt-of-type">						<li class="tb">
+							<span class="hometb">
+								<a href="/l/us/yahoo/music/">&nbsp;&nbsp;</a>
+							</span>
+						</li>						<li id="helptopicsnav" class="tb selected">
+							<span class="selecteddown">
+								<a href="#">Music Help Topics</a>
+							</span>
+						</li>
+	
+	<script>
+YAHOO.util.Event.onContentReady("nav", function () {
+	var oMenuBar = new YAHOO.widget.MenuBar("nav",{
+		autosubmenudisplay: true,
+		hidedelay: 750,
+		lazyload: true }
+	);	var aSubmenuData = [
+	{
+		id: "hlpmenu",
+		itemdata:[
+			{ text: "Getting Started",url: "/l/us/yahoo/music/music/",classname: "mi" },{ text: "LAUNCHcast",url: "/l/us/yahoo/music/launchcast/",classname: "mi" },{ text: "Music Videos",url: "/l/us/yahoo/music/videos/",classname: "mi" },{ text: "Yahoo! Music Jukebox",url: "/l/us/yahoo/music/jukebox/",classname: "mi" },{ text: "Rhapsody Migration",url: "/l/us/yahoo/music/rhapsodymigration/",classname: "mi" },{ text: "FoxyPlayer",url: "/l/us/yahoo/music/webplayer/",classname: "mi" },{ text: "Yahoo! Music Community",url: "/l/us/yahoo/music/community/",classname: "mi" },{ text: "Managing Your Updates",url: "/l/us/yahoo/profiles/updates",classname: "mi" }
+		]
+	}];
+	oMenuBar.subscribe("beforeRender", function(){
+		if(this.getRoot() == this){
+			this.getItem(1).cfg.setProperty("submenu", aSubmenuData[0]);
+		}
+	});
+
+	oMenuBar.subscribe("beforeShow", function(){
+		if(document.getElementById('helptopicsnav').offsetWidth > 150){
+			el = YAHOO.util.Dom.getFirstChild(YAHOO.util.Dom.getFirstChild(document.getElementById('hlpmenu')));
+			el.style.width = document.getElementById('helptopicsnav').offsetWidth + "px"; 
+		}
+	});	oMenuBar.render();
+});
+</script>						<li class="tb">
+							<a href="community_index.html">Community</a>
+						</li>						<li class="tb">
+							<a href="/l/us/yahoo/music/forms_index.html">Contact Us</a>
+						</li>
+						<li id="goback" class="gobcktab">
+							<span class="gobckrt">
+								<div class="gbicn"></div>
+								<span class="gblnk">
+									<a href="http://music.yahoo.com">Go Back to </a>
+								</span><!-- class="gblnk" -->
+							</span><!-- class="gobckrt" -->
+						</li>
+
+					</ul>
+					</div><!-- class="bd" -->
+				</div> <!-- id="nav" class="nav" -->
+				<!-- End Top Nav -->				<!-- Begin Search Bar -->
+				
+				<div id="hlpsrch">
+					
+					 
+					<form name="question_form" id="question_form" method="GET" action="vsp.html">
+						<div role="application">
+							<input type="text" size="50" id="query" name="query" value=""  autocomplete="off" />
+							<input type="submit" id="search" class="srchbtn" name="Ask" value="Search Help"/>
+							<div id="helpsat"></div>
+<script type="text/javascript" src="http://a.l.yimg.com/a/lib/s4/miniassist_200907011715.js"></script>
+<script type="text/javascript">
+
+//(function () {
+//var sa = new YAHOO.Search.MiniAssist('query', 'helpsat');
+//sa.setConfigValue('spaceid', '2015829645');
+//sa.gossip.setConfigValue('pubid', 105);
+//})();
+
+</script>
+
+						</div>
+						<input type="hidden" name="lang" value="us"/>
+						<input type="hidden" name="prop" value="music"/>						<input type="hidden" name="lsp" value="music"/>						<input type="hidden" name="sp" value="music"/>						<input type="hidden" name=".p" value="yahoo"/>
+					</form>
+				
+				</div><!-- helpsrch -->
+				
+				<!-- End Search Bar -->				<!-- Main content area begins -->
+				<div class="yui-t6">
+						<div id="yui-main">
+								<!-- left column begins -->
+								<div class="yui-b">
+<!-- Begin breadcrumb -->
+<div class="hlpbc">
+<a href="http://music.yahoo.com" >Yahoo! Music</a>
+&gt; <a href="/l/us/yahoo/music/" > Help</a>
+&gt; <a href="index.html" >About Yahoo! Music</a>
+</div> <!-- class="hlpbc" -->
+<!-- End breadcrumb -->
+										<!-- header begins -->
+										<div class="hlphdr"> Where is Webjay?</div>
+										<!-- header ends -->
+<!-- No timestamp found (timestamp is 0) -->
+	<div class="selecttextsize yhelpcontainer">
+		Text Size: 
+		<span id="fss" class="fss fsactive" onclick="adjustArcticleFontSize('fss');">A</span>
+		<span id="fsm" class="fsm" onclick="adjustArcticleFontSize('fsm');">A</span>
+		<span id="fsl" class="fsl" onclick="adjustArcticleFontSize('fsl');">A</span>
+	</div>
+	<div style="clear:both";></div>										<!--My Help Overlay-->
+										<div id="overlay1" class="savemyhlp-overlay" >
+											<div class="tp"></div>
+											<div class="bd">
+												<div class="knob"></div>
+												<div class="savemyhlp">
+													<h1>Save to My Help</h1>
+													<p>Save this article to My Help for easy reference.  You can visit the article at any time from any computer.</p>
+													<button  class="savemyhlp-btnsav" id="myhelpbuttonsave">Save</button>
+													<button class="savemyhlp-btncanc" id="myhelpbuttoncancel1">Cancel</button>
+												</div>
+											</div>
+											<div class="bm"></div>
+										</div>
+										<!--End My Help Overlay-->
+										<!--My Help Overlay replace-->
+										<div id="overlay2" class="savemyhlp-overlay" >
+											<div class="tp"></div>
+											<div class="bd">
+												<div class="knob"></div>
+												<div class="savemyhlp">
+													<h1>Replace an article</h1>
+													<p>You have reached the maximum number of saved articles.  Your oldest saved article will be replaced with the new one.</p>
+													<button class="savemyhlp-btnsav" id="myhelpbuttonreplace">Replace</button>
+													<button class="savemyhlp-btncanc" id="myhelpbuttoncancel2">Cancel</button>
+												</div>
+											</div>
+											<div class="bm"></div>
+										</div>
+										<!--End My Help Overlay-->
+<!-- Begin Answer -->
+<div id='articleBody' class="article">
+<p/>As you've undoubtedly discovered, Webjay is now closed.  Thanks for participating -- we enjoyed having you around!  You can still access your playlists, you just can't modify them or create new ones. To access your playlists, you can either browse to your user page, which is probably at a URL like &quot;http://webjay.org/by/your_user_name&quot; or you can use our <a href="http://webjay.org/search" class="bb-url">search feature</a> to find your stuff.
+<p/>Before you run off, we'd like to tell you about some of the great things you can get with Yahoo! Music. To start, Yahoo! Music brings you video playlists, which you can create using the largest music video library on the web. 
+<p/>Plus, there's a lot more, and we hope you'll check it out:
+<ul class="bb-list">
+<li><a href="http://music.yahoo.com/read/" class="bb-url" target="_blank">Music news</a>, <a href="http://music.yahoo.com/premieres" class="bb-url" target="_blank">exclusive videos</a>, <a href="http://music.yahoo.com/" class="bb-url" target="_blank">concerts, artist interviews, and more</a></li>
+<li>The only place to get <a href="http://music.yahoo.com/lyrics" class="bb-url" target="_blank">legal and accurate song lyrics</a></li>
+<li>Free <a href="http://music.yahoo.com/launchcast" class="bb-url" target="_blank">LAUNCHcast radio</a> where you can create your own customized station, or get 120+ premium stations with LAUNCHcast Plus</li>
+</ul>
+<p/>Thanks again for being a part of Webjay. We hope you'll continue now that we're Yahoo! Music, and become part of the largest music community on the web.
+</div><!-- class="article" -->
+<!-- End Answer -->
+<!-- Begin Try It Now Button -->
+<div class="trynowwrapper"><a href="http://music.yahoo.com" class="trynwbtn gbck" ><strong><strong><strong>Go Back to </strong></strong></strong></a>
+</div><!-- class="trynowwrapper" -->
+<!-- End Try It Now Button -->
+<!-- Begin Sharing Links -->
+<div id="yhlpsharing">
+<div class="ygsh">
+	<div class="imgbtn">
+		<div class="btn-sep">
+			<div class="btn-left"></div>
+			<div class="btn-mid">
+				<a style='background:transparent url(http://l.yimg.com/a/i/us/help/brws08/sprite_norp_3.png) no-repeat scroll -36px -542px' href='https://login.yahoo.com/config/login?.src=help&.intl=us&.done=http%3A%2F%2Fhelp.yahoo.com%2Fl%2Fus%2Fyahoo%2Fmusic%2Fmusic%2Faboutmusic%2Fwebjay.html%3Fopen%3Dsaved' id='savetomyhelp'><span class="btntxt">Save to My Help</span></a>
+			</div>
+			<div class="btn-right"></div>
+		</div>
+	</div>
+</div><div class="ygsh">
+	<div class="imgbtn">
+		<div class="btn-sep">
+			<div class="btn-left"></div>
+			<div class="btn-mid">
+				<a style='background:transparent url(http://l.yimg.com/a/i/us/help/brws08/sprite_norp_3.png) no-repeat scroll -36px -557px' href='#' target="_blank"><span class="btntxt">Display in new window</span></a>
+			</div>
+			<div class="btn-right"></div>
+		</div>
+	</div>
+</div><script type='text/javascript' charset='utf-8'>(function(){var setUp = function(){YAHOO.one.ush.ShareWidget.getString = function(key){var yaladataset={"YGSH_BOOKMARKS":"Yahoo! Bookmarks","YGSH_BOOKMARKS_HREF":"http:\/\/bookmarks.yahoo.com\/toolbar\/savebm","YGSH_BOOKMARKS_TITLE":"Bookmark this story","YGSH_BOOKMARKS_URL":"http:\/\/bookmarks.yahoo.com\/toolbar\/savebm?u=","YGSH_CANCEL":"Cancel","YGSH_CAPTCHA":"Type the code shown:","YGSH_CAPTCHA_ERROR":"Code entered invalid. Enter the code shown.","YGSH_CAPTCHA_REQUIRED":"Enter the code shown.","YGSH_CHARS_LIMIT":"You have reached the character limit.","YGSH_CHARS_REMAIN":"Characters Remaining","YGSH_COPY_SELF":"copy yourself","YGSH_DELICIOUS":"Delicious","YGSH_DELICIOUS_HREF":"http:\/\/del.icio.us\/post","YGSH_DELICIOUS_TITLE":"Add to your del.icio.us","YGSH_DELICIOUS_URL":"http:\/\/del.icio.us\/post?v=4&noui&jump=close&url=","YGSH_DIGG":"Digg","YGSH_DIGG_HREF":"http:\/\/digg.com\/submit","YGSH_DIGG_TITLE":"Digg this story","YGSH_DIGG_URL":"http:\/\/digg.com\/submit?url=","YGSH_EMAIL":"Email","YGSH_EMAIL_COMMAS":"separate email addresses with commas","YGSH_EMAIL_ERROR":"Re-enter email address(es).","YGSH_EMAIL_FORMAT":"Please enter an email address as: xxx@xx.xxx","YGSH_EMAIL_REQUIRED":"Enter email address(es).","YGSH_ENTER_YIM_CONTACT":"enter your contact's Yahoo! Messenger ID","YGSH_FACEBOOK":"Facebook","YGSH_FACEBOOK_HREF":"http:\/\/www.facebook.com\/share.php?u=","YGSH_FACEBOOK_TITLE":"Share this story","YGSH_FACEBOOK_URL":"http:\/\/www.facebook.com\/share.php?u=","YGSH_FAILED_PREREQS":"failed loading prerequisites","YGSH_FROM":"From:","YGSH_FROM_ERROR":"Re-enter your email address (e.g. yourname@example.com).","YGSH_FROM_REQUIRED":"Enter your email address.","YGSH_GOOGLE":"Google Bookmarks","YGSH_GOOGLE_HREF":"http:\/\/www.google.com\/bookmarks\/mark?op=edit","YGSH_GOOGLE_TITLE":"Bookmark this story","YGSH_GOOGLE_URL":"http:\/\/www.google.com\/bookmarks\/mark?op=edit&bkmk=","YGSH_IM_REQUIRED":"Enter your contact's Yahoo! Messenger ID.","YGSH_LEGAL":"This information is not collected for marketing purposes.","YGSH_MESSAGE":"Optional Message:","YGSH_PRINT":"Print","YGSH_REQUIRED_FIELD":"This field is required.","YGSH_REQUIRED_FIELDS":"These fields are required.","YGSH_REVIEW_FIELDS":"Please view the highlighted fields below.","YGSH_SEND":"Send","YGSH_SENDBY":"Send by:","YGSH_SEND_PAGE":"Send this page","YGSH_SHARE":"Share","YGSH_SHARE_PAGE":"Share this page","YGSH_SMS":"Text Messaging(SMS)","YGSH_STUMBLEUPON":"Stumble Upon","YGSH_STUMBLEUPON_HREF":"http:\/\/www.stumbleupon.com\/submit","YGSH_STUMBLEUPON_TITLE":"Send this story","YGSH_STUMBLEUPON_URL":"http:\/\/www.stumbleupon.com\/submit?url=","YGSH_TO":"To:","YGSH_WAIT":"Please wait","YGSH_YIM":"Yahoo! Instant Messenger"};return yaladataset[key];};YAHOO.one.ush.ShareWidget.ygshINTL="en-US";YAHOO.one.ush.ShareWidget.ygshPrintUrl="http://help.yahoo.com/l/us/yahoo/music/music/aboutmusic/webjay.html?printer=1";};if ("undefined" !== typeof YAHOO && "undefined" !== typeof YAHOO.one && "undefined" !== typeof YAHOO.one.ush.ShareWidget) {setUp();} else {setTimeout(arguments.callee, 500);}})();</script><div class="yui-skin-sam">
+    <div class="ygsh">
+        <div id="ygsh-showw1" class="ygsh-sharing-mod">
+            <div class="imgbtn" id="ygsh-us-btn-w1">                <div id="ygsh-send-w1" class="btn-sep">
+                    <div class="btn-left"></div>
+                    <div class="btn-mid"><a href='mailto:?subject=Yahoo! fin&body=http://help.yahoo.com/l/us/yahoo/music/music/aboutmusic/webjay.html' id="ygsh-send-btn-w1" class="btn-icon-send sprite"><span class="btntxt">Send</span></a></div>
+                    <div class="btn-right"></div>
+                </div>                <div id="ygsh-print-w1" class="btn-sep">
+                    <div class="btn-left"></div>
+                    <div class="btn-mid"><a href='' id="ygsh-print-btn-w1" class="btn-icon-print sprite"><span class="btntxt">Print</span></a></div>
+                    <div class="btn-right"></div>
+                </div>            </div>
+            <div id="ygsh-wrapper1" class="ygsh-panel-c">
+                <div id="ygsh-panel2" class="hide">
+                    <div class="hd" id="ygsh-tabtitle">Share this page</div>
+                    <div class="bd">
+                        <div class="shr"><ul><li><div class="sprite" style="background-position:-0px -1882px;background-repeat:no-repeat;" /><a ref="http://del.icio.us/post" title="Add to your del.icio.us" onClick='YAHOO.one.ush.ShareWidget.shareULT("http://del.icio.us/post?v=4&noui&jump=close&url="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title) + "","Delicious");return false;' href="http://del.icio.us/post?v=4&noui&jump=close&url=">Delicious</a></li><li><div class="sprite" style="background-position:-0px -1492px;background-repeat:no-repeat;" /><a ref="http://bookmarks.yahoo.com/toolbar/savebm" title="Bookmark this story" onClick='YAHOO.one.ush.ShareWidget.shareULT("http://bookmarks.yahoo.com/toolbar/savebm?u="+encodeURIComponent(location.href)+"&t="+encodeURIComponent(document.title) + "","Yahoo! Bookmarks");return false;' href="http://bookmarks.yahoo.com/toolbar/savebm?u=">Yahoo! Bookmarks</a></li><li><div class="sprite" style="background-position:-0px -1816px;background-repeat:no-repeat;" /><a ref="http://www.google.com/bookmarks/mark?op=edit" title="Bookmark this story" onClick='YAHOO.one.ush.ShareWidget.shareULT("http://www.google.com/bookmarks/mark?op=edit&bkmk="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title) + "","Google Bookmarks");return false;' href="http://www.google.com/bookmarks/mark?op=edit&bkmk=">Google Bookmarks</a></li><li><div class="sprite" style="background-position:-0px -1619px;background-repeat:no-repeat;" /><a ref="http://digg.com/submit" title="Digg this story" onClick='YAHOO.one.ush.ShareWidget.shareULT("http://digg.com/submit?url="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title) + "","Digg");return false;' href="http://digg.com/submit?url=">Digg</a></li><li><div class="sprite" style="background-position:-0px -1684px;background-repeat:no-repeat;" /><a ref="http://www.stumbleupon.com/submit" title="Send this story" onClick='YAHOO.one.ush.ShareWidget.shareULT("http://www.stumbleupon.com/submit?url="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title) + "","Stumble Upon");return false;' href="http://www.stumbleupon.com/submit?url=">Stumble Upon</a></li><li><div class="sprite" style="background-position:-0px -2012px;background-repeat:no-repeat;" /><a ref="http://www.facebook.com/share.php?u=" title="Share this story" onClick='YAHOO.one.ush.ShareWidget.shareULT("http://www.facebook.com/share.php?u="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title) + "","Facebook");return false;' href="http://www.facebook.com/share.php?u=">Facebook</a></li></ul></div>
+                    </div>
+                </div>
+            </div>
+            <div class="yui-skin-sam">
+                <div id="ygsh-wrapper2-w1" class="ygsh-panel-c"></div>
+            </div>
+        </div>
+
+    </div>
+</div><script type="text/javascript">(function(){if (document.getElementById("ygsh-showw1") && "undefined" !== typeof YAHOO && "undefined" !== typeof YAHOO.one) {YAHOO.one.ush.widgets.ush_w1 = new YAHOO.one.ush.ShareWidget("w1");}else{setTimeout(arguments.callee, 500);}})();</script></div><!-- id="yhlpsharing" -->
+<!-- End Sharing Links -->
+<!-- Begin Feedback Module -->
+<div id="yhlpfdbck" class="yhlp-rc">
+	<h2>Was this information helpful?&nbsp;&nbsp;
+<span class="yhlp-rc-y yhlp-rc-active yhlp-gl-palette1" id="thumbsup">&nbsp;</span> <span class="yhlp-rc-n yhlp-rc-active yhlp-gl-palette1" id="thumbsdown">&nbsp;</span></h2>
+	<div class="confirm" style="display:none;" id="yesThankYou">Thank you!</div>
+	<div id="module2" style="display: none;">
+		<div id="feedbackArea2" class="yhlpcontainer">
+			<div class="confirm">Thank you!&nbsp;&nbsp;Your rating was submitted.</div>			<div id="feedbackexp2" class="survey">
+				<ul>
+					<li class="qstn">Would you have contacted a Yahoo! customer care agent if this didn’t answer your question?</li>
+					<li><input name="yhelpYesFeedbackSurvey" type="radio" class="radio" id="yhelpYesFeedbackSurveyYesResponse" value="1" /> Yes &nbsp; <input name="yhelpYesFeedbackSurvey" type="radio" class="radio" id="yhelpYesFeedbackSurveyNoResponse" value="1" /> No</li>
+				</ul>
+			</div>		</div>
+	</div><!-- id="module2" -->	<div id="module1" style="display: none;">
+		<div id="feedbackConfirm" style="display:none;" class="confirm">Thank you for your feedback.</div><!-- class="confirm" -->		<!--Begin Expanded State-->
+			<div id="feedbackArea" class="fdbck exp">
+			<div class="confirm1">Thank you!&nbsp;&nbsp;Your rating was submitted.</div>
+			<div id="helpfeedbackexp" style="display:block">
+			<h2>Please tell us why you didn’t find this helpful.</h2>
+			<form>
+				<ul>
+					<li><input name="yhelpFeedbackSurvey" type="radio" class="radio" id="yhelpFeedbackSurvey1" value="1" />I tried the solution and it didn’t work</li>
+<li><input name="yhelpFeedbackSurvey" type="radio" class="radio" id="yhelpFeedbackSurvey2" value="2" />It didn’t answer my question</li>
+<li><input name="yhelpFeedbackSurvey" type="radio" class="radio" id="yhelpFeedbackSurvey3" value="3" />It wasn’t detailed enough</li>
+<li><input name="yhelpFeedbackSurvey" type="radio" class="radio" id="yhelpFeedbackSurvey4" value="4" />It doesn’t apply to my question</li>
+<li><input name="yhelpFeedbackSurvey" type="radio" class="radio" id="yhelpFeedbackSurvey5" value="5" />It was hard to understand</li>
+<li><input name="yhelpFeedbackSurvey" type="radio" class="radio" id="yhelpFeedbackSurvey6" value="6" />The feature I want is not yet available or it goes against Yahoo! policy</li>
+
+					<div id="feedback_form">
+						<textarea id=".feedback" class="field" style="color:#ff6666">The information you provide will be used to make this information more helpful in the future. We will not respond directly to your comments.</textarea>
+						<div class="btm">
+							<input name=".submit" id="saveBtn" class="submt" value="Send Feedback" title="Send Feedback" type="button" border="0"/>
+						</div><!-- class="btm" -->
+					</div><!-- id="feedback_form" -->
+				</ul>
+			</form>
+			</div><!-- id="helpfeedbackexp" -->
+			</div><!-- class="fdbck exp" -->
+		<!--End Expanded State-->		<!--Begin More Help Options-->
+		<div class="morehlp"><h2>Still need help?</h2>
+
+<div class="contactbtnwrapper">
+	<a href="/l/us/yahoo/music/forms_index.html" class="cntctbtn">
+		<strong><strong><strong>Contact Customer Care</strong></strong></strong></a>
+</div><!-- class="contactbtnwrapper" -->
+
+		</div><!-- class="morehlp" -->
+		<!--End More Help Options-->
+	</div><!-- id="module1" -->
+</div><!-- id="yhlpfdbck" class="yhlp-rc" -->
+<!-- End Feedback Module -->								</div>
+						</div>
+						<!-- left column ends -->
+						<!-- right column begins -->
+						<div class="yui-b">
+<div class="mangupdates manguprt"><a href="/l/us/yahoo/profiles/updates/">Learn how to manage your updates</a></div>	
+	<!-- Begin My Help -->
+	<div id="myhlp" class="myshdw Box floating"> 
+		<span class="x1"><span class="x1a"></span></span>
+<span class="x2"><span class="x2a"></span></span>
+		<div class="myacct signedin floating">
+			<h2>My Help</h2>
+			<span class="forgot"><a href="https://edit.yahoo.com/forgot?new=1&.src=help&partner=&.intl=us&pkg=&stepid=&.pd=help_ver&c=&.ab=&.last=&.done=http%3A%2F%2Fhelp.yahoo.com%2Fl%2Fus%2Fyahoo%2Fmusic%2Fmusic%2Faboutmusic%2Fwebjay.html">Forgot your ID or password?</a></span>
+			<h3><a href="https://login.yahoo.com/config/login?.src=help&.intl=us&.done=http%3A%2F%2Fhelp.yahoo.com%2Fl%2Fus%2Fyahoo%2Fmusic%2Fmusic%2Faboutmusic%2Fwebjay.html">Sign In</a></h3>
+			<span class="small">Sign in to see your account information saved articles and more.</span> 
+		</div><!-- class="myacct signedin floating" -->
+		<span class="mystored sub floating">
+			<ol>
+				<li>
+					<p class="head" id="click2flip_searches"><span id="flip_searches" class="collaps">Recent Searches</span></p>
+					<div id="recent_searches" class="recent"  style="display:none;" >
+						<div id="recent_searches_listing">
+							No recent searches
+						</div>
+						<p id="recent_searches_clear" class="clear"  style='display:none;' ><a id="clear_recent_searches" href="#">Clear all</a></p>
+					</div><!-- class="recent" -->
+				</li>
+				<li>
+					<p class="head" id="click2flip_articles"><span class="expnd" id="flip_articles">Saved Articles</span></p>
+					<div id="recent_articles" class="recent" >
+<p>Sign in to see your account information saved articles and more.</p>
+					</div><!-- class="recent" -->
+				</li>
+			</ol>
+		</span><!-- class="mystored sub floating" -->
+	</div><!-- id="myhlp" class="myshdw Box floating" -->
+	<!-- End My Help -->
+<script>
+	var yhelpSetMyhelpStateCallback = {};
+
+	function yhelp_set_myhelp_state(part, state){
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpPostData = yhelpPostData + "&state=" + encodeURIComponent(state); 
+		yhelpPostData = yhelpPostData + "&part=" + encodeURIComponent(part); 
+		yhelpRequestUrl = "/js/setmyhelpstate.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpSetMyhelpStateCallback, yhelpPostData);
+	}
+
+
+	function flip_searches(){
+		var el_flip_searches = document.getElementById('flip_searches');
+		var el_recent_searches = document.getElementById('recent_searches');
+		if(el_flip_searches.className == "expnd"){
+			el_recent_searches.style.display = 'none';
+			el_flip_searches.className = 'collaps';
+			yhelp_set_myhelp_state("search", "0");
+		}else{
+			el_recent_searches.style.display = 'block';
+			el_flip_searches.className = "expnd";
+			yhelp_set_myhelp_state("search", "1");
+		}
+	}
+	function flip_articles(){
+		var el_flip_articles = document.getElementById('flip_articles');
+		var el_recent_articles = document.getElementById('recent_articles');
+		if(el_flip_articles.className == "expnd"){
+			el_recent_articles.style.display= 'none';
+			el_flip_articles.className = 'collaps';
+			yhelp_set_myhelp_state("articles", "0");
+		}else{
+			el_recent_articles.style.display= 'block';
+			el_flip_articles.className = "expnd";
+			yhelp_set_myhelp_state("articles", "1");
+		}
+	}
+	var yhelpClearSaveSuccess = function(o) {
+		document.getElementById('recent_articles_listing').innerHTML = "No saved articles.";
+		document.getElementById('recent_articles_clear').style.display="none";
+		document.getElementById('recent_articles').style.display="none";
+		document.getElementById('flip_articles').className = "collaps";
+	}
+
+	var yhelpClearSaveCallback = { success:yhelpClearSaveSuccess };
+
+	function yhelp_clear_saved(){
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpRequestUrl = "/js/clearsavedarticles.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpClearSaveCallback, yhelpPostData);
+	}
+
+	var yhelpClearSearchesSuccess = function(o) {
+		document.getElementById('recent_searches_listing').innerHTML = "No recent searches";
+		document.getElementById('recent_searches_clear').style.display="none";
+		document.getElementById('recent_searches').style.display="none";
+		document.getElementById('flip_searches').className = "collaps";
+	}
+
+	var yhelpClearSearchesCallback = { success:yhelpClearSearchesSuccess };
+
+	function yhelp_clear_searches(){
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpRequestUrl = "/js/clearrecentsearches.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpClearSearchesCallback, yhelpPostData);
+	}
+
+	YAHOO.util.Event.addListener("click2flip_searches", "click", flip_searches);
+	YAHOO.util.Event.addListener("click2flip_articles", "click", flip_articles);
+	if(document.getElementById('clear_recent_searches'))
+	{
+		YAHOO.util.Event.addListener("clear_recent_searches", "click", yhelp_clear_searches);
+	}
+	if(document.getElementById('clear_recent_articles'))
+	{
+		YAHOO.util.Event.addListener("clear_recent_articles", "click", yhelp_clear_saved);
+	}
+</script>	<!-- Begin Content Block -->
+	<div class="contntblck rt">
+		<h3>Top Questions</h3>
+		<ul class="bb-list">
+<li><a href="http://help.yahoo.com/l/us/yahoo/music/music/downloads/launch-13.html" class="bb-url">Which media players are needed for  Yahoo! Music downloads?</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/music/music/downloads/launch-12.html" class="bb-url">I'm having problems with my Windows Media Player.</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/music/music/aboutmusic/music_badge.html" class="bb-url">Get a Yahoo! Music Answers Badge for Your Site</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/music/music/joining/launch-22.html" class="bb-url">How do I subscribe/unsubscribe from the  Yahoo! Music newsletter?</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/music/music/downloads/launch-14.html" class="bb-url">After I have downloaded a song, how do I listen to it?</a></li>
+</ul>
+	</div>
+	<!-- End Content Block -->
+	<!-- Begin Content Block -->
+	<div class="contntblck rt">
+		<h3>Still Need Help?</h3>
+		
+<div class="contactbtnwrapper">
+	<a href="/l/us/yahoo/music/forms_index.html" class="cntctbtn">
+		<strong><strong><strong>Contact Customer Care</strong></strong></strong></a>
+</div><!-- class="contactbtnwrapper" -->
+	</div>
+	<!-- End Content Block -->
+	<!-- Begin Content Block -->
+	<div class="contntblck rt">
+		<h3>More Help Links</h3>
+		<ul class="bb-list">
+<li><a href="http://help.yahoo.com/l/us/yahoo/edit/" class="bb-url">Sign-in and Registration Help</a></li>
+<li><a href="http://help.yahoo.com/help/us/ymc/index.html" class="bb-url">Marketing Preferences Help</a></li>
+<li><a href="http://help.yahoo.com/l/us/yahoo/security/" class="bb-url">Account Security</a></li>
+<li><a href="http://privacy.yahoo.com/privacy/us/" class="bb-url">Privacy Policy</a></li>
+<li><a href="http://us.rd.yahoo.com/evt=38224/*http://promo.yahoo.com/homepage/" class="bb-url">Make Yahoo! Your Home Page</a></li> 
+<li><a href="http://help.yahoo.com/fast/help/us/music/cgi_feedback" class="bb-url">Contact Customer Care</a></li>
+</ul>
+	</div>
+	<!-- End Content Block -->
+						</div>
+						<!-- right column ends -->
+				</div>
+				<!-- Main content area ends -->
+		</div>
+				<!-- Begin Search Bar -->
+				
+				<div id="hlpsrch">
+					
+					 
+					<form name="question_form1" id="question_form1" method="GET" action="vsp.html">
+						<div role="application">
+							<input type="text" size="50" id="query1" name="query" value=""  autocomplete="off" />
+							<input type="submit" id="search" class="srchbtn" name="Ask" value="Search Help"/>
+							
+						</div>
+						<input type="hidden" name="lang" value="us"/>
+						<input type="hidden" name="prop" value="music"/>						<input type="hidden" name="lsp" value="music"/>						<input type="hidden" name="sp" value="music"/>						<input type="hidden" name=".p" value="yahoo"/>
+					</form>
+				
+				</div><!-- helpsrch -->
+				
+				<!-- End Search Bar --></div>
+<div id="ft">
+<!-- SpaceID=0 robot -->
+</div>
+</body>
+	<script type="text/javascript">
+	var usingRadioButtons = false;
+	var yhelpPathId="/l/us/yahoo/music/music/aboutmusic/webjay.html";
+	var yhelpVersionId = 249520;
+	var yhelpFeedbackDefaultMessage = "The information you provide will be used to make this information more helpful in the future. We will not respond directly to your comments.";
+
+	function adjustArcticleFontSize(scale)
+	{
+		if(scale == 'fss') {
+			document.getElementById('articleBody').style.fontSize = '88%';
+			document.getElementById('fss').className = "fss fsactive";
+			document.getElementById('fsm').className = "fsm";
+			document.getElementById('fsl').className = "fsl";
+		}
+		if(scale == 'fsm') {
+			document.getElementById('articleBody').style.fontSize = '113%';
+			document.getElementById('fss').className = "fss";
+			document.getElementById('fsm').className = "fsm fsactive";
+			document.getElementById('fsl').className = "fsl";
+		}
+		if(scale == 'fsl') {
+			document.getElementById('articleBody').style.fontSize = '138%';
+			document.getElementById('fss').className = "fss";
+			document.getElementById('fsm').className = "fsm";
+			document.getElementById('fsl').className = "fsl fsactive";
+		}
+	}
+	function yhelpClearPreset()
+	{
+			var e = document.getElementById(".feedback");
+			if(e.value == "" || e.value.replace(/\s/g, "") == yhelpFeedbackDefaultMessage.replace(/\s/g, ""))
+			{
+				e.value = "";
+				e.style.color = "#404040";
+			}
+	}	
+	function yhelpRecordVote(vote)
+	{
+		yhelpRequestUrl = "/js/recordclick.html";
+		yhelpPostData = "crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpPostData += "&vid=" + encodeURIComponent(yhelpVersionId);
+		yhelpPostData += "&path=" + encodeURIComponent(yhelpPathId);
+		yhelpPostData += "&vote=" + encodeURIComponent(vote);
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpCallback, yhelpPostData);
+	}
+
+	function yhelpRemoveVoting()
+	{
+		YAHOO.util.Event.removeListener("thumbsup", "click", yhelpThumbsUp);
+		YAHOO.util.Event.removeListener("thumbsdown", "click", yhelpThumbsDown);
+	}
+	function yhelpThumbsUp(){
+		if(!usingRadioButtons){
+			document.getElementById('thumbsup').style.backgroundPosition = "right -379px";
+		}
+		document.getElementById('module2').style.display = 'block';
+		yhelpRemoveVoting();
+		yhelpRecordVote("yes");
+}
+  	function yhelpThumbsDown(){
+		document.getElementById('module1').style.display = 'block';
+		if(!usingRadioButtons){
+			document.getElementById('thumbsdown').style.backgroundPosition = "right -466px";
+		}
+		yhelpRemoveVoting();
+		yhelpRecordVote("no");
+	}
+	function yhelpRecordFeedback(e)
+	{
+		document.getElementById('feedbackConfirm').style.display = 'block';
+		document.getElementById('feedbackArea').style.display = 'none';
+		var feedback = "";
+		var surveyResponse = "";
+		if(document.getElementById('.feedback'))
+		{
+			feedback = document.getElementById('.feedback').value;
+			if( document.getElementById('.feedback').value.replace(/\s/g, "") == yhelpFeedbackDefaultMessage.replace(/\s/g, ""))
+			{
+				feedback = "";
+			}
+		}
+		if(document.getElementById('yhelpFeedbackSurvey1').checked)
+		{
+			surveyResponse = 1;
+		}
+		if(document.getElementById('yhelpFeedbackSurvey2').checked)
+		{
+			surveyResponse = 2;
+		}
+		if(document.getElementById('yhelpFeedbackSurvey3').checked)
+		{
+			surveyResponse = 3;
+		}
+		if(document.getElementById('yhelpFeedbackSurvey4').checked)
+		{
+			surveyResponse = 4;
+		}
+		if(document.getElementById('yhelpFeedbackSurvey5').checked)
+		{
+			surveyResponse = 5;
+		}
+		if(document.getElementById('yhelpFeedbackSurvey6').checked)
+		{
+			surveyResponse = 6;
+		}
+		yhelpPostData = "feedback=" + encodeURIComponent(feedback);
+		yhelpPostData += "&surveyResponse=" + encodeURIComponent(surveyResponse);
+		yhelpPostData += "&crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpPostData += "&vid=" + encodeURIComponent(yhelpVersionId);
+		yhelpPostData += "&path=" + encodeURIComponent(yhelpPathId);
+
+		yhelpRequestUrl = "/js/recordclick.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpCallback, yhelpPostData);
+
+	}
+	function yhelpRecordYesFeedback(e)
+	{
+		document.getElementById('yesThankYou').style.display = 'block';
+		document.getElementById('feedbackArea2').style.display = 'none';
+		var feedback = "";
+		var surveyResponse = "";
+		if(document.getElementById('yhelpYesFeedbackSurveyYesResponse').checked)
+		{
+			surveyResponse = "yes_ans_1_yes";
+		}
+		if(document.getElementById('yhelpYesFeedbackSurveyNoResponse').checked)
+		{
+			surveyResponse = "yes_ans_1_no";
+		}
+		yhelpPostData = "feedback=" + encodeURIComponent(feedback);
+		yhelpPostData += "&surveyResponse=" + encodeURIComponent(surveyResponse);
+		yhelpPostData += "&crumb=" + encodeURIComponent(yhelpCrumb);
+		yhelpPostData += "&vid=" + encodeURIComponent(yhelpVersionId);
+		yhelpPostData += "&path=" + encodeURIComponent(yhelpPathId);
+
+		yhelpRequestUrl = "/js/recordclick.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpCallback, yhelpPostData);
+
+	}
+
+	function init() {
+		YAHOO.yhelp.overlay1 = new YAHOO.widget.Overlay("overlay1", { context:["myhlp","tr","tl"], visible:false, width:"375px" } );
+		YAHOO.yhelp.overlay1.render();
+
+		YAHOO.yhelp.overlay2 = new YAHOO.widget.Overlay("overlay2", { context:["myhlp","tr","tl"], visible:false, width:"375px" } );
+		YAHOO.yhelp.overlay2.render();
+		
+		YAHOO.util.Event.addListener("myhelpbuttoncancel1", "click", YAHOO.yhelp.overlay1.hide, YAHOO.yhelp.overlay1, true);
+		YAHOO.util.Event.addListener("myhelpbuttoncancel2", "click", YAHOO.yhelp.overlay2.hide, YAHOO.yhelp.overlay2, true);
+		YAHOO.util.Event.addListener("myhelpbuttonsave", "click", yhelpSaveArticle, YAHOO.yhelp.overlay1, true);
+		YAHOO.util.Event.addListener("myhelpbuttonreplace", "click", yhelpSaveArticle, YAHOO.yhelp.overlay2, true);
+		YAHOO.util.Event.addListener("thumbsup", "click", yhelpThumbsUp);
+		YAHOO.util.Event.addListener("thumbsdown", "click", yhelpThumbsDown);
+		YAHOO.util.Event.addListener("saveBtn", "click", yhelpRecordFeedback);
+		YAHOO.util.Event.addListener("yhelpYesFeedbackSurveyYesResponse", "click", yhelpRecordYesFeedback);
+		YAHOO.util.Event.addListener("yhelpYesFeedbackSurveyNoResponse", "click", yhelpRecordYesFeedback);
+		YAHOO.util.Event.addListener(".feedback", "click", yhelpClearPreset);
+		YAHOO.util.Event.addListener(".feedback", "focus", yhelpClearPreset);
+	}
+	function yhelpSaveArticle(e,o)
+	{
+		var yhelpSaveToMyHelpBeacon = "";
+		o.hide();
+		yhelpPostData = "yhelpurl=/l/us/yahoo/music/music/aboutmusic/webjay.html&crumb=" + encodeURIComponent(yhelpCrumb) + "&yhelptext=Where+is+Webjay%3F";
+		yhelpRequestUrl = "/js/savearticle.html";
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('POST', yhelpRequestUrl, yhelpSaveCallback, yhelpPostData);
+		yhelpRequest = YAHOO.util.Connect.asyncRequest('GET', yhelpSaveToMyHelpBeacon, yhelpSaveBeaconCallback);
+	}
+	YAHOO.util.Event.addListener(window, "load", init);
+	var yhelpSaveSuccess = function(o) {
+		document.getElementById('recent_articles_listing').innerHTML = o.responseText;
+		document.getElementById('recent_articles_clear').style.display="block";
+		document.getElementById('recent_articles').style.display="block";
+		document.getElementById('flip_articles').className = "expnd";
+	}
+	var yhelpSaveCallback = { success:yhelpSaveSuccess };
+	var yhelpSaveBeaconCallback = {};
+</script><script>var prop='help';</script><script>var spaceid='2015829645';</script><script>var ydod='0';</script></html>
+<!-- START FEATURE CUE Help/us/en/95/ %space% -->
+<script type="text/javascript">YAHOO.namespace("fcue");var YUIMinBuild=733;if(!YAHOO.env.getVersion("yahoo")||YAHOO.env.getVersion("yahoo").build<YUIMinBuild){YAHOO.lang.merge=function(){var F={},H=arguments;for(var G=0,E=H.length;G<E;G=G+1){YAHOO.lang.augmentObject(F,H[G],true)}return F};YAHOO.lang.later=function(O,L,N,J,R){O=O||0;L=L||{};var K=N,P=J,Q,M;if(YAHOO.lang.isString(N)){K=L[N]}if(!K){throw new TypeError("method undefined")}if(!YAHOO.lang.isArray(P)){P=[J]}Q=function(){K.apply(L,P)};M=(R)?setInterval(Q,O):setTimeout(Q,O);return{interval:R,cancel:function(){if(this.interval){clearInterval(M)}else{clearTimeout(M)}}}}};</script>
+<!--[if IE 6]><script type="text/javascript">YAHOO.fcue.IE6=true;</script><![endif]-->
+<!--[if IE 7]><script type="text/javascript">YAHOO.fcue.IE7=true;</script><![endif]-->
+<script type="text/javascript" src="http://yui.yahooapis.com/2.5.1/build/get/get-min.js" ></script> 
+<script type="text/javascript">
+// ///
+// YAHOO.widget.DateMath 
+// http://developer.yahoo.com/yui/docs/YAHOO.widget.DateMath.html 
+// This is a great utility for doing date math in JavaScript.
+// Reproduced here so we don't have to include the entire humongous YUI Calendar widget, 
+// which is where this comes from
+// we're only using YAHOO.widget.DateMath.add(), YAHOO.widget.DateMath.after() and their supporting functions
+// ///
+YAHOO.fcue.load = function() { 
+	var YUIMinBuild = 733; // 2.5.2
+	var YUICurrentVersion = "2.5.2";
+	var YUIBasePath = "http://yui.yahooapis.com/" + YUICurrentVersion + "/build/";
+	var fcueBasePath = "http://d.yimg.com/fx/fc/cues/Help/us/en/95/";
+	var fcueJSPath = "http://d.yimg.com/fx/fc/cues/Help/us/en/95/fcue.js";
+	var fcueCSSPath = "http://d.yimg.com/fx/fc/cues/Help/us/en/95/fcue.css";
+	var userStateViewMax = 1;
+	YAHOO.fcue.userStateCampaignEndDate = new Date(2009,9,2);
+
+	var successHandler = function() { 
+		var now = new Date();
+		function saveStateAndInitCues(fcueData) { 
+			var moreYUILibs = ['dom','event'];
+			var moreLibURLs = [];
+			for(var i=0;i<moreYUILibs.length;i++) {
+				if(!YAHOO.env.getVersion(YUILibs[i])) {
+					moreLibURLs.push(YUIBasePath + moreYUILibs[i] + "/" + moreYUILibs[i] + "-min.js");
+				}
+			}
+		
+			var getSuccessHandler = function(o) {
+				YAHOO.fcue.preloadFcueImages(0);
+
+				var leaving = true;
+				YAHOO.fcue.checkURL = function (href,fcueData) {
+					leaving = (((href.indexOf("://") > -1) || (href.indexOf("help.") > -1)) && (href.indexOf(window.location.host) == -1));
+					return leaving;
+				}
+	
+				YAHOO.fcue.showCue = function (o) {
+					YAHOO.fcue.preloadFcueImages(1);
+					YAHOO.fcue.setTheCookie(fcueData);
+				}
+
+				YAHOO.fcue.setTheCookie = function (o) {
+					var fcueDataString = YAHOO.lang.JSON.stringify(o); 
+                        		YAHOO.util.Cookie.set('fcue',fcueDataString, {
+                                		expires: new Date(2009,9,2),
+                                		path: "/"
+                        		}); 
+				}
+			
+				var e = document.getElementsByTagName('a');
+				var curURL = window.location.href;
+				var prop = curURL.split('/');
+				if(curURL.indexOf('?terms=') != -1) {
+					var keywords = curURL.substring(curURL.indexOf('?')+7, curURL.length);
+					keywords = keywords.replace('#','');
+				} else {
+					var keywords = '';
+				}
+				var surveyURL = 'http://survey.confirmit.com/wix3/p705105329.aspx?parameter1='+prop[6]+'&parameter2='+curURL;
+				if(keywords != '')
+					surveyURL += '&parameter3='+keywords;
+                                for(var i=0;i<e.length;i++) {
+					if (YAHOO.fcue.checkURL(e[i].href)) {
+						YAHOO.util.Event.addListener(e[i], 'click', function(e) {
+							var originalURL = this.href;
+							YAHOO.util.Event.preventDefault(e);
+							YAHOO.fcue.showCue(true);
+							YAHOO.util.Event.addListener("fcuebtn2", 'click', function() {
+								location.href = originalURL;
+							});
+							YAHOO.util.Event.addListener("fcuebtn1", 'click', function() {
+								window.open(surveyURL);
+								location.href = originalURL; 
+							});
+						});
+					}
+				}	
+			};	
+		moreLibURLs.push(fcueJSPath); 
+		YAHOO.util.Get.css(fcueCSSPath);
+		YAHOO.util.Get.script(moreLibURLs, {onSuccess: getSuccessHandler, data: fcueData});
+	}
+
+	var fcueDataString =YAHOO.util.Cookie.get('fcue');
+	if(fcueDataString) {
+		var fcueData = YAHOO.lang.JSON.parse(fcueDataString);
+	} if(!fcueData) { var fcueData = {};
+		fcueData.viewCount = 1;
+		saveStateAndInitCues(fcueData);
+	} else {
+		var view=true;
+		if(fcueData.viewCount==userStateViewMax) {
+			view=false;
+		}
+		if(view) {
+			fcueData.viewCount = 1;
+				saveStateAndInitCues(fcueData);
+			} 
+		}
+	}
+	var YUILibs = ['json','cookie'];
+	var libURLs = [];
+	for(var i=0;i<YUILibs.length;i++) {
+		if(!YAHOO.env.getVersion(YUILibs[i])) {
+			if(YUILibs[i]=="cookie") { 
+				var beta="-beta";
+			} else {
+				var beta="";
+			}
+			libURLs.push(YUIBasePath + YUILibs[i] + "/" + YUILibs[i] + beta + "-min.js"); 
+		}
+	}
+	if(libURLs.length==0) {
+                successHandler();
+        } else {
+                YAHOO.util.Get.script(libURLs, {onSuccess: successHandler});
+        }
+}();
+</script>
+<!-- END FEATURE CUE Help/us/en/95/ %space% -->
+
+<!-- w1.help.re1.yahoo.com compressed/chunked Wed Aug 26 13:59:24 PDT 2009 -->

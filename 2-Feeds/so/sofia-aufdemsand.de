@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<!--
+
+	This website is powered by Contao Open Source CMS :: Licensed under GNU/LGPL
+	Copyright ©2005-2012 by Leo Feyer :: Extensions are copyright of their respective owners
+	Visit the project website at http://www.contao.org for more information
+
+//-->
+<title>Startseite - Deutsch</title>
+<base href="http://www.sofia-aufdemsand.de/www.textredaktion-duesseldorf.de/">
+<meta name="robots" content="index,follow">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="system/contao.css" media="screen">
+<link rel="stylesheet" href="plugins/mediabox/1.3.4/css/mediaboxAdvBlack21.css" media="screen">
+<link rel="stylesheet" href="plugins/slimbox/css/slimbox.css" media="screen">
+<link rel="stylesheet" href="system/scripts/105f8bc3b141.css" media="all">
+<script src="system/scripts/6bb6ab418aaa.js"></script>
+<!--[if lt IE 9]><script src="plugins/html5shim/html5-1.6.2.js"></script><![endif]-->
+</head>
+<body id="top" class="unknown other">
+
+<!--[if lte IE 6]>
+<div style="background:#ffc;padding:12px;border-bottom:1px solid #e4790f;font-size:14px;color:#000;text-align:center;"><strong>Achtung!</strong> Sie verwenden einen <a href="http://ie6countdown.com" style="font-size:14px;color:#e4790f;">veralteten Browser</a> und <strong>können nicht alle Funktionen dieser Webseite nutzen</strong>.</div>
+<![endif]-->
+<div class="container">
+  <div class="logo"><a href="index.php/startseite.html"><img src="./tl_files/textagentur/img/logo.png" width="850" height="181" /></a> <br />
+  </div>
+  <div class="left">
+    <div class="navi">
+       
+<div id="navi">
+
+<!-- indexer::stop -->
+<nav class="mod_navigation block">
+
+<a href="#skipNavigation1" class="invisible">Navigation überspringen</a>
+
+<ul class="level_1">
+<li class="submenu sibling first"><a href="index.php/journalismus.html" title="Journalismus" class="submenu sibling first">Journalismus</a>
+<ul class="level_2">
+<li class="first"><a href="index.php/reise.html" title="Reise" class="first">Reise</a></li>
+<li><a href="index.php/kultur.html" title="Kultur">Kultur</a></li>
+<li class="last"><a href="index.php/gesundheit.html" title="Gesundheit" class="last">Gesundheit</a></li>
+</ul>
+</li>
+<li class="sibling"><a href="index.php/pr-texte.html" title="PR-Texte" class="sibling">PR-Texte</a></li>
+<li class="sibling"><a href="index.php/korrektoratlektorat.html" title="Korrektorat/Lektorat" class="sibling">Korrektorat/Lektorat</a></li>
+<li class="submenu sibling"><a href="index.php/buecherghostwriting.html" title="Bücher/Ghostwriting" class="submenu sibling">Bücher</a>
+<ul class="level_2">
+<li class="first"><a href="index.php/co-autor-projekte.html" title="Co-Autor-Projekte" class="first">Co-Autor-Projekte</a></li>
+<li class="last"><a href="index.php/literarischetexte.html" title="Literarische Texte" class="last">Literarische Texte</a></li>
+</ul>
+</li>
+<li class="sibling"><a href="index.php/vita.html" title="Vita" class="sibling">Vita</a></li>
+<li class="sibling"><a href="index.php/kooperationspartner.html" title="Kooperationspartner" class="sibling">Kooperationspartner</a></li>
+<li class="sibling last"><a href="index.php/impressumkontakt.html" title="Impressum/Kontakt" class="sibling last">Impressum/Kontakt</a></li>
+</ul>
+
+<a id="skipNavigation1" class="invisible">&nbsp;</a>
+
+</nav>
+<!-- indexer::continue -->
+
+</div>
+ 
+    </div>
+  </div>
+  <div class="right">
+    <div class="main">
+      
+<article class="mod_article block" id="startseite">
+
+<section class="ce_text block">
+
+<h1>Sie brauchen Texte?</h1>
+
+<p>Ich schreibe. Artikel, PR-Texte, Bücher. Bisherige Auftrageber waren u.a. Rheinische Post, Süddeutsche Zeitung, taz, Zeit Online, derstandard.at, Spiegel Online, U_mag, Random House, Vgs Egmont. Über die Menüleiste erhalten Sie weitere Informationen sowie Links zu Arbeitsproben.</p>
+</section>
+
+</article>
+ 
+    </div>
+  </div>
+</div>
+
+<script>
+window.addEvent('domready', function() {
+  new Accordion($$('div.toggler'), $$('div.accordion'), {
+    opacity: false,
+    alwaysHide: true,
+    onActive: function(toggler, elem) {
+      elem.setProperty('aria-hidden', 'false');
+      toggler.addClass('active');
+      toggler.getNext('div').setStyle('visibility', 'visible').fade('in');
+      toggler.setProperty('aria-expanded', 'true');
+      return false;
+    },
+    onBackground: function(toggler, elem) {
+      elem.setProperty('aria-hidden', 'true');
+      toggler.removeClass('active');
+      toggler.getNext('div').fade('out').setStyle('visibility', 'hidden');
+      toggler.setProperty('aria-expanded', 'false');
+      return false;
+    }
+  });
+  $$('div.toggler').each(function(elem) {
+    elem.setProperty('role', 'tab');
+    elem.setProperty('tabindex', 0);
+    elem.addEvents({
+      'keypress': function(event) {
+        if (event.code == 13) {
+          this.fireEvent('click');
+        }
+      },
+      'focus': function() {
+        this.addClass('hover');
+      },
+      'blur': function() {
+        this.removeClass('hover');
+      },
+      'mouseenter': function() {
+        this.addClass('hover');
+      },
+      'mouseleave': function() {
+        this.removeClass('hover');
+      }
+    });
+  });
+  $$('div.ce_accordion').each(function(elem) {
+    elem.setProperty('role', 'tablist');
+  });
+  $$('div.accordion').each(function(elem) {
+    elem.setProperty('role', 'tabpanel');
+  });
+});
+</script>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<script src="plugins/mediabox/1.3.4/js/mediabox.js"></script>
+<script>
+Mediabox.scanPage = function() {
+  var links = $$('a').filter(function(el) {
+    return el.rel && el.rel.test(/^lightbox/i);
+  });
+  $$(links).mediabox({/* Put custom options here */}, null, function(el) {
+    var rel0 = this.rel.replace(/[[]|]/gi,' ');
+    var relsize = rel0.split(' ');
+    return (this == el) || ((this.rel.length > 8) && el.rel.match(relsize[1]));
+  });
+};
+window.addEvent('domready', Mediabox.scanPage);
+</script>
+
+<script src="plugins/slimbox/js/slimbox.js"></script>
+<script>
+Slimbox.scanPage = function() {
+  $$(document.links).filter(function(el) {
+    return el.rel && el.rel.test(/^lightbox/i);
+  }).slimbox({}, null, function(el) {
+    return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));
+  });
+};
+window.addEvent('domready', Slimbox.scanPage);
+</script>
+</body>
+</html>

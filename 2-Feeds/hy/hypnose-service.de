@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="Hypnose Hilfe Forum" />
+	<meta name="keywords" content="Hypnose Hilfe Forum, Hypnose, Seminar, Hypnoseminar, Hypnoseseminar, Hypnotherapie, Forum, Trance" />
+	<script language="JavaScript" type="text/javascript" src="http://www.hypnose-service.de/forum/Themes/default/script.js?rc2"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.hypnose-service.de/forum/Themes/mercury";
+		var smf_images_url = "http://www.hypnose-service.de/forum/Themes/mercury/images";
+		var smf_scripturl = "http://www.hypnose-service.de/forum/index.php";
+	// ]]></script>
+	<title>Hypnose Hilfe Forum</title>
+	<link rel="stylesheet" type="text/css" href="http://www.hypnose-service.de/forum/Themes/mercury/style.css?rc2" />
+	<link rel="stylesheet" type="text/css" href="http://www.hypnose-service.de/forum/Themes/default/print.css?rc2" media="print" />
+	<tr>
+	  <td width="100%"><div style="text-align: center">
+          <a href="http://www.hypnose-service.de/forum/index.php?action=forum"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/logo.gif" border="0" alt="Hypnose Hilfe Forum" /></a>
+          </td>
+	</div></tr>
+	<link rel="help" href="http://www.hypnose-service.de/forum/index.php?action=help" target="_blank" />
+	<link rel="search" href="http://www.hypnose-service.de/forum/index.php?action=search" />
+	<link rel="contents" href="http://www.hypnose-service.de/forum/index.php" />
+	<link rel="stylesheet" type="text/css" href="http://www.hypnose-service.de/forum/Themes/default/tp-style.css?fin11" />
+	<link rel="stylesheet" type="text/css" href="http://www.hypnose-service.de/forum/Themes/mercury/tp-style.css?fin11" />
+	<script type="text/javascript" src="http://www.hypnose-service.de/forum/tp-files/tp-plugins/javascript/mootools.js"></script>
+	<script type="text/javascript">
+	//the map object
+	var map = null;
+
+	//set page event handlers for onload and unload
+	if (window.attachEvent) {
+		window.attachEvent("onload", Page_Load);
+		window.attachEvent("onunload", Page_Unload); 
+	} else {
+		window.addEventListener("DOMContentLoaded", Page_Load, false);
+		window.addEventListener("unload", Page_Unload, false);
+	}
+
+	//load map    
+	function Page_Load() {
+		//add your map loading code here
+		
+	}  
+
+	//Clean up all objects
+	function Page_Unload() {
+		if (map!=null) {
+			map.Dispose();
+			map = null;
+		}
+	}
+	</script>
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+</head>
+<body>
+        <div id="headerarea" style="padding: 12px 20px 4px 20px;"> <table id="upshrinkHeader" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="position: relative;">
+                        <tr>
+                                <td valign="top" style="padding-top: 10px;">
+                                         <div class="tborder" style="position: relative; ">
+                                                <table width="100%" cellpadding="7" cellspacing="1" border="0" ><tr class="windowbg2"><td width="100%" valign="top"  style="font-family: verdana, arial, sans-serif;"><span class="smalltext">
+                                                        Willkommen im <b>Hypnose Hilfe Forum</b>! <br /><br />    <a href="http://www.hypnose-service.de/forum/index.php?action=login">Einloggen</a> oder <a href="http://www.hypnose-service.de/forum/index.php?action=register">registrieren?</a><br />Hast du deine <a href="http://www.hypnose-service.de/forum/index.php?action=activate">Aktivierungs E-Mail</a> &#252;bersehen?<br />
+                                                        07. Jun 2012, 03:03 Uhr<br />
+
+							<script language="JavaScript" type="text/javascript" src="http://www.hypnose-service.de/forum/Themes/default/sha1.js"></script>
+
+							<form action="http://www.hypnose-service.de/forum/index.php?action=login2" method="post" style="margin: 3px 1ex 1px 0;" onsubmit="hashLoginPassword(this, 'b7ae3024465665f46a54b24b37704981');">
+								<div style="text-align: right;">
+									<input type="text" name="user" size="10" /> <input type="password" name="passwrd" size="10" />
+									<select name="cookielength">
+										<option value="60">1 Stunde</option>
+										<option value="1440">1 Tag</option>
+										<option value="10080">1 Woche</option>
+										<option value="302400">1 Monat</option>
+										<option value="-1" selected="selected">Immer</option>
+									</select>
+									<input type="submit" value="Einloggen" /><br />
+									Einloggen mit Benutzername, Passwort und Sitzungsl&#228;nge
+									<input type="hidden" name="hash_passwrd" value="" />
+								</div>
+							</form> </span>
+                                                </td>
+                                                 <td valign="top" class="windowbg2">
+                                        <div style="padding-top: 0px; width: 150px;"><span class="smalltext"><b>Statistik</b></span>
+                                                <div style="height: 35px; " class="smalltext">
+                                                        <br /><b>15233</b> Beitr&#228;ge <br />  <b>1352</b> Themen <b><br />724</b> Mitglieder<br /><br />
+                                                        Neuestes Mitglied: <b> <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=883">knierutscher</a></b>
+                                                </div>
+                                        </div></td>
+                                                </tr><tr><td class="titlebg" colspan="4">
+                                        <div style="padding: 0px 0px 5px 30px;">
+                                        <form action="http://www.hypnose-service.de/forum/index.php?action=search2" method="post" style="margin: 0; margin-top: 5px;" class="smalltext">
+                                                <b>Suche: </b><input class="smalltext" type="text" name="search" value="" />&nbsp;
+                                                <input class="smalltext" type="submit" name="submit" value="Suche"  />&nbsp;
+                                                <a href="http://www.hypnose-service.de/forum/index.php?action=search;advanced">Erweiterte Suche</a>
+                                                <input type="hidden" name="advanced" value="0" />
+                                        </form></div>
+                                    </td></tr></table>
+                                </td>
+                        </tr>
+                </table>
+
+		<a href="javascript:void(0);" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="http://www.hypnose-service.de/forum/Themes/mercury/images/upshrink.gif" alt="*" title="Ein- oder Ausklappen der Kopfzeile" style="margin: 2px 2ex 2px 0;" border="0" /></a>
+				<a href="http://www.hypnose-service.de/forum/index.php"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/german/home.gif" alt="&#220;bersicht" style="margin: 2px 0;" border="0" /></a> 
+				<a href="http://www.hypnose-service.de/forum/index.php?action=forum"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/german/to_forum.gif" alt=" Zum Forum " style="margin: 2px 0;" border="0" /></a> 
+				<a href="http://www.hypnose-service.de/forum/index.php?action=help"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/german/help.gif" alt="Hilfe" style="margin: 2px 0;" border="0" /></a> 
+				<a href="http://www.hypnose-service.de/forum/index.php?action=search"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/german/search.gif" alt="Suche" style="margin: 2px 0;" border="0" /></a> 
+				<a href="http://www.hypnose-service.de/forum/index.php?action=login"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/german/login.gif" alt="Einloggen" style="margin: 2px 0;" border="0" /></a> 
+				<a href="http://www.hypnose-service.de/forum/index.php?action=register"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/german/register.gif" alt="Registrieren" style="margin: 2px 0;" border="0" /></a>
+	</div>
+	<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+		<td id="bodyarea" style="padding: 1ex 20px 2ex 20px;">
+	<table cellpadding="4" cellspacing="0" width="100%">
+		<tr>
+			<td width="160" style="padding: 4px; padding-top: 4px;padding-right: 1ex;" valign="top">
+				<div id="tpleftbarHeader" style="padding-top: 5px; width: 160px;">
+					<div class="tp_leftpanel">
+	<div style="margin-bottom: 4px;" class="tp_leftblock_noframe">
+		<div class="" style="padding:0px; " id="block10"><div style="overflow: auto;"><div align="center"><a href="http://www.heilschlaf-hypnose.de" target="_blank"><img src="http://www.hypnose-service.de/forum/_uploads/gfhh-logo.jpg" alt="" border="0" /></a><br /><br /><a href="http://www.hypnose-als-beruf.de" target="_blank"><img src="http://www.hypnose-service.de/forum/_uploads/hab.png" alt="" border="0" /></a><br /><br /></div></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tp_leftblock_noframe">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_leftblock_title"><span class="header">Mehr zum Forum</span>
+		</h3>
+		<div class="" style="padding:0px; " id="block41"><div style="overflow: auto;">
+	<ul class="tp_catmenu">
+		<li>&nbsp;&nbsp;
+			<a name="spacer36">&nbsp;</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=17">Individuelle Titel</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=18">Intervisionsforum</a></li>
+		<li>&nbsp;&nbsp;
+			<a name="spacer37">&nbsp;</a></li>
+	</ul></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tp_leftblock_noframe">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_leftblock_title"><span class="header">Mehr zur Hypnose</span>
+		</h3>
+		<div class="" style="padding:0px; " id="block18"><div style="overflow: auto;">
+	<ul class="tp_catmenu">
+		<li>&nbsp;&nbsp;
+			<a name="spacer16">&nbsp;</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Hypnose-FAQs">Hypnose-FAQs</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Berufsgruppen_in_der_therapeutischen_Hypnose">Berufsgruppen</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Hypnose_Recht">Hypnose & Recht</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Blitzhypnose">Blitzhypnose</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Fehler_bei_der_Selbsthypnose">Selbsthypnose</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://alpha.hypnose-service.de">Alpha-Wellen</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/podcast/Hypnose-Blog.mp3">Audio-Blog</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Seminartipps">Seminartipps</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=21">Das Unbewusste</a></li>
+		<li>&nbsp;&nbsp;
+			<a name="spacer17">&nbsp;</a></li>
+	</ul></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tp_leftblock_noframe">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_leftblock_title"><span class="header">Hypnosetherapie</span>
+		</h3>
+		<div class="" style="padding:0px; " id="block37"><div style="overflow: auto;">
+	<ul class="tp_catmenu">
+		<li>&nbsp;&nbsp;
+			<a name="spacer24">&nbsp;</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Voraussetzungen">Voraussetzungen</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=19">Was passiert da?</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?page=Kosten">Therapiekosten</a></li>
+		<li>&nbsp;&nbsp;
+			<img src="http://www.hypnose-service.de/forum/tp-images/icons/TPdivider2.gif" alt="" />&nbsp;
+			<a href="http://www.hypnose-service.de/forum/index.php?topic=1363.0">Therapeutensuche</a></li>
+		<li>&nbsp;&nbsp;
+			<a name="spacer25">&nbsp;</a></li>
+	</ul></div>
+		</div>
+	</div></div>
+			<script language="Javascript" type="text/javascript"><!--
+				function toggle( targetId )
+				{
+					var state = 0;
+					var blockname = "block" + targetId;
+					var blockimage = "blockcollapse" + targetId;
+
+					if ( document.getElementById ) {
+						target = document.getElementById( blockname );
+						if ( target.style.display == "none" ) {
+							target.style.display = "";
+							state = 1;
+						}
+						else {
+							target.style.display = "none";
+							state = 0;
+						}
+
+						document.getElementById( blockimage ).src = "http://www.hypnose-service.de/forum/Themes/default/images/tinyportal" + (state ? "/TPcollapse.gif" : "/TPexpand.gif");
+						var tempImage = new Image();
+						tempImage.src = "http://www.hypnose-service.de/forum/index.php?action=tpmod;upshrink=" + targetId + ";state=" + state + ";" + (new Date().getTime());
+
+					}
+				}
+			--></script>		
+				</div>
+			</td>		
+			<td width="100%" align="left" valign="top" style="padding-top: 10px; padding-bottom: 10px;">
+	<div id="frontbarHeader"><div class="tp_frontpanel">
+	<div style="margin-bottom: 4px;" class="tborder tp_frontblock_frame">
+		<div class="windowbg tp_frontblock_body" style="padding:4px; " id="block12"><div style="overflow: auto;"><br /><div align="center"><b><span style="font-size: 14pt; line-height: 1.3em;"><span style="font-family: Helvetica;">Willkommen in der Welt der Hypnose!</span></span></b></div><br /><br />Hier findest du alles über Hypnose: <br /><br /><p><ul><li>das <strong>Hypnose Hilfe Forum</strong>, ein Fachforum mit kompetenten und freundlichen Diskussionen, mit Kontakten zu Interessierten, Hypnotiseuren, Heilpraktikern, Therapeuten und Ärzten;<br /><br /></li><li>zahlreiche Informationen zu grundlegenden Fragen rund um die Hypnose - von Einsteiger FAQ's über Abhandlungen über 'Hypnose und Recht' bis zu Informationen zur therapeutischen Hypnose und Blitzhypnose;<br /><br /></li><li>Zusatzangebote wie HypnoSequenz®, die Audio-Datenbank mit gesprochenen Suggestionen, Links zu Seminaren und Workshops bis zur <strong>Gesellschaft für Heilschlaf-Hypnose</strong>;<br /><br /></li><li>u.v.m.</li></ul><p style="text-align: center;">Ich wünsche euch viel Spaß und einen interessanten Gedankenaustausch auf diesen Seiten! <br />Euer Admin Lutz<br /><br /></p></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tborder tp_frontblock_frame">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_frontblock_title">Hypnose-Podcast
+		</h3>
+		<div class="windowbg tp_frontblock_body" style="padding:4px; " id="block16"><div style="overflow: auto;"><div align="center"><img src="http://www.hypnose-service.de/forum/Themes/mercury/images/box.gif" alt="" border="0" /></div><p style="align: 'center'"><span style="font-size: 12px;"><div align="center">Hier hört ihr einen Podcast (Audioblog) zum Thema "Einführung in die therapeutische Hypnose". Diese gut 15 Min. lange "Sendung" kann zur eigenen oder auch Klienten-Information genutzt werden. Der Download ist für alle möglich und natürlich kostenlos - einfach auf das Symbol klicken! Viel Spaß damit!</div> </span></p><br /><div style="text-align: center"><a href="http://www.hypnose-service.de/podcast/hypnose.rss" target="_blank"><img style="border: 0px;" title="Podcast &#039;Therapeutische Hypnose&#039;" src="http://www.hypnose-service.de/forum/_uploads/Feed-icon_svg.JPG" alt="Podcast Therapeutische Hypnose" width="28" height="27" /></a></div><br /><div style="text-align: center"><br />Für ältere Browser: <a style="font-size: 12px;" href="http://www.hypnose-service.de/podcast/Hypnose-Blog.mp3">>HIER<</a> klicken</div><br /></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tborder tp_frontblock_frame">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_frontblock_title">Hypnose in Bergheim bei Köln
+		</h3>
+		<div class="windowbg tp_frontblock_body" style="padding:4px; " id="block42"><div style="overflow: auto;"><div align="center"><a href="http://www.hypnose-bergheim.de" target="_blank"><img src="http://www.hypnose-service.de/forum/_uploads/hb6.gif" alt="" border="0" /></a><br /><br />Das gesamte Spektrum der lebensberatenden Hilfe mit Hypnose biete ich in meiner Praxis <a href="http://www.hypnose-bergheim.de" target="_blank"><b>Hypnose Bergheim</b></a> an, ergänzt um weitere interessante Leistungen wie Coaching, Mentaltraining mit EEG-Biofeedback oder Gehirnwellenmusik, Wellness-Hypnose und auch Hypnose-Seminare.<br />Für eine Hilfestellung in Fällen, die ich mangels Heilberechtigung mit einer konventionellen Hypnosetherapie nicht behandeln darf, steht mir ergänzend die Heilschlaf-Hypnose zur Verfügung. <br />Abgerundet wird das Angebot durch stets kostenlose Informationsgespräche.<br /><br />Ihr/Euer Admin<br />Lutz</div></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tborder tp_frontblock_frame">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_frontblock_title">HypnoSequenz
+		</h3>
+		<div class="windowbg tp_frontblock_body" style="padding:4px; " id="block23"><div style="overflow: auto;"><p align="center"><img style="border: 0px;" title=" Hypnose-Sprachfiles zum kostenlosen Download" src="http://www.hypnose-service.de/forum/Themes/mercury/images/logo2.gif" alt=" Sprachfiles zum kostenlosen Download" width="200" height="60" /><br /><span style="font-size: 12px">Suche dir aus unserer ständig wachsenden Datenbank <strong>gesprochener</strong>&nbsp;hypnotischer Suggestionen diejenigen aus, die du für deine persönliche Hypnosesitzung benötigst,&nbsp;und stelle sie in deiner gewünschten Reihenfolge zusammen - schon hast du eine individuelle Hypnosesitzung für dich oder deine Klienten - und das absolut kostenlos!<br /><br />Du findest hier verschiedenste&nbsp;Elemente für Einleitung,&nbsp;Wirksuggestionen bis zur Ausleitung - und sogar etwas&nbsp;Musik gibts gratis dazu!<br />Der kostenlose Zugang zu HypnoSequenz setzt deine Mitgliedschaft hier im Forum und lediglich&nbsp;<strong>10 verfasste Beiträge</strong> voraus. <br /><br />Viel Spaß beim Erstellen DEINER individuellen Hypnosesitzung! </span></p></div>
+		</div>
+	</div></div>
+			<script language="Javascript" type="text/javascript"><!--
+				function toggle( targetId )
+				{
+					var state = 0;
+					var blockname = "block" + targetId;
+					var blockimage = "blockcollapse" + targetId;
+
+					if ( document.getElementById ) {
+						target = document.getElementById( blockname );
+						if ( target.style.display == "none" ) {
+							target.style.display = "";
+							state = 1;
+						}
+						else {
+							target.style.display = "none";
+							state = 0;
+						}
+
+						document.getElementById( blockimage ).src = "http://www.hypnose-service.de/forum/Themes/default/images/tinyportal" + (state ? "/TPcollapse.gif" : "/TPexpand.gif");
+						var tempImage = new Image();
+						tempImage.src = "http://www.hypnose-service.de/forum/index.php?action=tpmod;upshrink=" + targetId + ";state=" + state + ";" + (new Date().getTime());
+
+					}
+				}
+			--></script></div>
+				<div id="tplowerbarHeader"><div class="tp_lowerpanel">
+	<div style="margin-bottom: 4px;" class="tborder tp_lowerblock_frame">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_lowerblock_title">Letzte Themen
+		</h3>
+		<div class="windowbg tp_lowerblock_body" style="padding:4px; " id="block38"><div style="overflow: auto;">
+	<ul class="tp_recentblock" style="">
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1606.msg15322;topicseen#new">fehlende Erinnerungen von...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=18">Susanne</a>	[04. Jun 2012, 16:38 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1605.msg15319;topicseen#new">Mehrere Hypnose CDs ... u...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=68">mipooh</a>	[29. Mai 2012, 08:25 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1604.msg15318;topicseen#new">Hab ein problem und überl...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=751">Hypnotikum</a>	[28. Mai 2012, 10:33 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1603.msg15313;topicseen#new">Sicherheit</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=755">Katharina</a>	[22. Mai 2012, 19:30 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1524.msg15312;topicseen#new">Gesellschaft für Heilschl...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=1">Lutz</a>	[22. Mai 2012, 00:46 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1602.msg15289;topicseen#new">15.04.2012 - TerraX: &quot;Rät...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=751">Hypnotikum</a>	[20. Apr 2012, 19:16 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1601.msg15287;topicseen#new">Hypnose und Hirntumoren, ...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=755">Katharina</a>	[16. Apr 2012, 13:43 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1600.msg15284;topicseen#new">4. Naturheilkundetag-Harz...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=602">gatabysi</a>	[30. Mär 2012, 08:39 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1599.msg15283;topicseen#new">Binaural Beats und Schuma...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=1">Lutz</a>	[29. Mär 2012, 15:44 Uhr]
+		</li>
+		<li style="overflow: auto;"><a href="http://www.hypnose-service.de/forum/index.php?topic=1597.msg15265;topicseen#new">Hypnose möglich bei unbew...</a> von <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=856">moni23</a>	[16. Mär 2012, 19:12 Uhr]
+		</li>
+	</ul></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tborder tp_lowerblock_frame">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_lowerblock_title"><span class="header">Meist gelesene Foren-Beiträge:</span>
+		</h3>
+		<div class="windowbg tp_lowerblock_body" style="padding:4px; " id="block1"><div style="overflow: auto;">
+	<div style="padding: 5px;" class="smalltext">
+		<table class="ssi_table">
+			<tr>
+				<th align="left"></th>
+				<th align="left">Aufrufe</th>
+				<th align="left">Antworten</th>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=1063.0">Übergewicht und anderes, oder andersrum?</a>
+				</td>
+				<td align="right">24766</td>
+				<td align="right">83</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=139.0">Über Profis und Laien</a>
+				</td>
+				<td align="right">14750</td>
+				<td align="right">49</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=742.0">Schwere Krankheiten und Hypnose [später auch: HPG]</a>
+				</td>
+				<td align="right">14275</td>
+				<td align="right">64</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=144.0">'Gehirnwellenmusik'</a>
+				</td>
+				<td align="right">14210</td>
+				<td align="right">27</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=240.0">Installation ideomotorischer Signale [und später: Trancetiefe]</a>
+				</td>
+				<td align="right">13552</td>
+				<td align="right">37</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=632.0">Spinnenangst</a>
+				</td>
+				<td align="right">12909</td>
+				<td align="right">32</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=641.0">&quot;Wegnicken&quot; der Klienten</a>
+				</td>
+				<td align="right">12780</td>
+				<td align="right">34</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=177.0">1 Kilo pro Woche</a>
+				</td>
+				<td align="right">12732</td>
+				<td align="right">27</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=636.0">Atmung bewusst wahrnehmen!</a>
+				</td>
+				<td align="right">12422</td>
+				<td align="right">50</td>
+			</tr>
+			<tr>
+				<td align="left">
+					<a href="http://www.hypnose-service.de/forum/index.php?topic=564.0">Eigenes Board: Gehirnwellenmusik</a>
+				</td>
+				<td align="right">12157</td>
+				<td align="right">8</td>
+			</tr>
+		</table>
+    </div></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tborder tp_lowerblock_frame">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_lowerblock_title">Impressum
+		</h3>
+		<div class="windowbg tp_lowerblock_body" style="padding:4px; " id="block22"><div style="overflow: auto;"><div align="center"><span style="font-size: 8pt; line-height: 1.3em;">Angaben gem. &nbsp;§ 5 TMG und § 55 Abs. 2 RStV:<br />Lutz Wolters * Carl-Bosch-Str. 21 * 50126 Bergheim<br />Email: Lutz [at] hypnose-service.de * Tel.: 02271/992403</span></div></div>
+		</div>
+	</div></div>
+			<script language="Javascript" type="text/javascript"><!--
+				function toggle( targetId )
+				{
+					var state = 0;
+					var blockname = "block" + targetId;
+					var blockimage = "blockcollapse" + targetId;
+
+					if ( document.getElementById ) {
+						target = document.getElementById( blockname );
+						if ( target.style.display == "none" ) {
+							target.style.display = "";
+							state = 1;
+						}
+						else {
+							target.style.display = "none";
+							state = 0;
+						}
+
+						document.getElementById( blockimage ).src = "http://www.hypnose-service.de/forum/Themes/default/images/tinyportal" + (state ? "/TPcollapse.gif" : "/TPexpand.gif");
+						var tempImage = new Image();
+						tempImage.src = "http://www.hypnose-service.de/forum/index.php?action=tpmod;upshrink=" + targetId + ";state=" + state + ";" + (new Date().getTime());
+
+					}
+				}
+			--></script></div>
+			</td>
+			<td width="160" style="padding: 4px; padding-top: 4px;padding-left: 1ex;" valign="top">
+				<div id="tprightbarHeader" style="padding-top: 5px; width: 160px;">
+					<div class="tp_rightpanel">
+	<div style="margin-bottom: 4px;" class="tp_rightblock_noframe">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_rightblock_title"><a class="subject"  href="http://www.hypnose-service.de/forum/index.php?action=login">Einloggen/Userinfo</a>
+		</h3>
+		<div class="" style="padding:0px; " id="block14"><div style="overflow: auto;">
+	<div class="tp_userblock">
+		<div>Willkommen im <b>Hypnose Hilfe Forum</b>! <br /><br />    <a href="http://www.hypnose-service.de/forum/index.php?action=login">Einloggen</a> oder <a href="http://www.hypnose-service.de/forum/index.php?action=register">registrieren?</a><br />Hast du deine <a href="http://www.hypnose-service.de/forum/index.php?action=activate">Aktivierungs E-Mail</a> &#252;bersehen?</div>
+		<div class="smalltext">07. Jun 2012, 03:03 Uhr</div>
+		<form style="margin-top: 5px;" action="http://www.hypnose-service.de/forum/index.php?action=login2" method="post" >
+			<input type="text" name="user" size="10" /> <input type="password" name="passwrd" size="10" /><br />
+			<select name="cookielength">
+				<option value="60">1 Stunde</option>
+				<option value="1440">1 Tag</option>
+				<option value="10080">1 Woche</option>
+				<option value="302400">1 Monat</option>
+				<option value="-1" selected="selected">Immer</option>
+			</select>
+			<input type="submit" value="Einloggen" />
+		</form>
+		<span class="smalltext">Einloggen mit Benutzername, Passwort und Sitzungsl&#228;nge</span>
+		<br />
+	</div></div>
+		</div>
+	</div>
+	<div style="margin-bottom: 4px;" class="tp_rightblock_noframe">
+		<h3 style="margin: 0; font-size: 1em; padding: 5px;" class="catbg3 tp_rightblock_title"><a class="subject"  href="http://www.hypnose-service.de/forum/index.php?action=stats">Statistik</a>
+		</h3>
+		<div class="" style="padding:0px; " id="block5"><div style="overflow: auto;">
+	<div class="tp_statsblock">
+		<h5 class="mlist"><a href="http://www.hypnose-service.de/forum/index.php?action=mlist">Mitglieder</a></h5>
+		<ul>
+			<li>Mitglieder: 724</li>
+			<li>Neu: <a href="http://www.hypnose-service.de/forum/index.php?action=profile;u=883"><strong>knierutscher</strong></a></li>
+		</ul>
+		<h5 class="stats"><a href="http://www.hypnose-service.de/forum/index.php?action=stats">Statistiken</a></h5>
+		<ul>
+			<li>Beitr&#228;ge: 15233</li>
+			<li>Themen: 1352</li>
+			<li>Heute online: 9</li>
+			<li>Max. online: 267</li>
+			<li>(26. Dez 2010, 05:33 Uhr)</li>
+		</ul>
+		<h5 class="online"><a href="http://www.hypnose-service.de/forum/index.php?action=who">online</a></h5>
+		<div>Mitglieder: 0<br />
+			G&auml;ste: 6<br />
+			Gesamt: 6<br />
+			<div style="max-height: 23em; overflow: auto;">
+			</div></div>
+	</div></div>
+		</div>
+	</div></div>
+			<script language="Javascript" type="text/javascript"><!--
+				function toggle( targetId )
+				{
+					var state = 0;
+					var blockname = "block" + targetId;
+					var blockimage = "blockcollapse" + targetId;
+
+					if ( document.getElementById ) {
+						target = document.getElementById( blockname );
+						if ( target.style.display == "none" ) {
+							target.style.display = "";
+							state = 1;
+						}
+						else {
+							target.style.display = "none";
+							state = 0;
+						}
+
+						document.getElementById( blockimage ).src = "http://www.hypnose-service.de/forum/Themes/default/images/tinyportal" + (state ? "/TPcollapse.gif" : "/TPexpand.gif");
+						var tempImage = new Image();
+						tempImage.src = "http://www.hypnose-service.de/forum/index.php?action=tpmod;upshrink=" + targetId + ";state=" + state + ";" + (new Date().getTime());
+
+					}
+				}
+			--></script>		
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div class="smalltext" style="text-align: center; padding: 3px;">TinyPortal v1.0 beta 4 &copy; <a href="http://www.tinyportal.net" target="_blank">Bloc</a> </div></td>
+	</tr></table>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+                <table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+                        <tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="http://www.hypnose-service.de/forum/Themes/mercury/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" border="0" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="http://www.hypnose-service.de/forum/Themes/mercury/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" border="0" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.6</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF © 2006, Simple Machines LLC</a>
+		</span>
+                                        <br /><span class="smalltext"><b>Mercury</b> design by Bloc.<br /><br /><span>
+										
+<!-- 4stats Tracker Code // begin -->
+<script type="text/javascript" src="http://4stats.de/de/counter?id=4086&amp;cntr=hide"></script>
+<noscript><a href="http://www.4stats.de/" target="_blank"><img src="http://4stats.de/de/stats?id=4086&amp;cntr=hide" border="0" alt="4stats Webseiten Statistik + Counter" /></a></noscript>
+<!-- 4stats Tracker Code // end -->
+                                </td>
+                                <td width="28%" valign="middle" align="left">
+                                        <a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="http://www.hypnose-service.de/forum/Themes/mercury/images/valid-xhtml10.gif" alt="Pr&#252;fe XHTML 1.0" width="54" height="20" style="margin: 5px 16px;" border="0" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+                                        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="http://www.hypnose-service.de/forum/Themes/mercury/images/valid-css.gif" alt="Pr&#252;fe CSS" width="54" height="20" style="margin: 5px 16px;" border="0" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+                                </td>
+                        </tr>
+                </table>
+                </div>
+        </body>
+</html>

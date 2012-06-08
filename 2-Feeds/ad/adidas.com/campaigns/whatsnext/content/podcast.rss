@@ -1,0 +1,2281 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" class="csstransforms">
+<head>
+
+
+
+<title>Die offizielle adidas Website | adidas.de</title>
+
+
+
+
+<link href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/css/global_generated.css" type="text/css" rel="stylesheet" />
+<!-- TODO remove next link after UI styling -->
+<link href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/css/local.css" type="text/css" rel="stylesheet" />
+<!--[if IE 9]><link href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/css/ie9.css" type="text/css" rel="stylesheet" /><![endif]-->
+<!--[if IE 8]><link href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/css/ie8.css" type="text/css" rel="stylesheet" /><![endif]-->
+<!--[if IE 7]><link href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/css/ie7.css" type="text/css" rel="stylesheet" /><![endif]-->
+
+
+<link rel="icon" href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/images/favicon.ico" type="image/x-icon">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="robots" content="noodp, noydir, index, follow, archive">
+
+
+<meta property="fb:app_id" content="152806838148462" />
+
+
+<meta name="addthis_id" content="xa-4f26de4c125e5408" />
+
+<meta name="description" content="Willkommen bei adidas.de! Die Website für adidas Schuhe, Bekleidung und die neuesten Kollektionen von Originals, Running, Fußball, Tennis, und vieles mehr."/>
+<meta name="keywords" content="adidas, adidas.de, adidas originals, Schuhe, Running, Fußball, Tennis"/>
+
+
+
+
+
+
+
+
+
+<script src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/js/global_generated.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript" src="http://adidas.ugc.bazaarvoice.com/static/8037dw-de_de/bvapi.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script class="cm" type="text/javascript">//<![CDATA[
+try{
+CoreMetricsProvider.SetClientId.apply(CoreMetricsProvider,["90297227;90320940;90297136",true,"metrics.adidas.com",true]);
+cmSetupOther.apply(window,[{"cm_TrackImpressions":""}]);
+cmSetupOther.apply(window,[{"cm_currencyCode":"EUR"}]);
+var adidas = new Adidas(true);
+app.resources["cmDebug"] = false;
+adidasGlobal.category = "DE";
+
+}catch(e){console.log(e)}
+//]]>
+</script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"><!--
+app.minicart.url = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Cart-MiniAddProduct";
+app.URLs.getProductUrl = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Product-Show";
+app.URLs.getVariants = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Product-GetVariants";
+app.URLs.getAvailability = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Product-GetAvailability";
+app.URLs.loadingSmallImg = "http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/images/loading-small.gif";
+app.URLs.formatMoney = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Product-FormatPrices";
+app.URLs.removeImg = "http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/images/icon_remove.gif";
+app.URLs.getProductTileList = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Product-GetTiles";
+//--></script>
+
+<script type="text/javascript"><!--
+//constants
+app.constants.AVAIL_STATUS_IN_STOCK="IN_STOCK";
+app.constants.AVAIL_STATUS_PREORDER="PREORDER";
+app.constants.AVAIL_STATUS_BACKORDER="BACKORDER";
+app.constants.AVAIL_STATUS_NOT_AVAILABLE="NOT_AVAILABLE";
+//resources
+app.resources["MISSINGVAL"]="Bitte gib {0} ein";
+app.resources["SERVER_ERROR"]="Die Serververbindung ist fehlgeschlagen!";
+app.resources["MISSING_LIB"]="undefinierte Suche";
+app.resources["BAD_RESPONSE"]="Falsche Antwort, Fehler aufgetreten";
+app.resources["INVALID_PHONE"]="Bitte gib eine gültige Telefonnummer ein.";
+app.resources["REMOVE"]="Entfernen";
+app.resources["QTY"]="Menge";
+app.resources["SEARCH_TEXT"]="Suchen";
+// product availability messages
+app.resources["IN_STOCK"]="Auf Lager";
+app.resources["QTY_IN_STOCK"]="{0}Artikel auf Lager";
+app.resources["PREORDER"]="Vorbestellung";
+app.resources["QTY_PREORDER"]="{0} Artikel (ist) sind zum Vorbestellen verfügbar.";
+app.resources["REMAIN_PREORDER"]="Die verbleibenden Artikel sind zum Vorbestellen verfügbar.";
+app.resources["BACKORDER"]="Nachbestellung";
+app.resources["QTY_BACKORDER"]="{0} Artikel nachbestellen";
+app.resources["REMAIN_BACKORDER"]="Die verbleibenden Artikel sind zum Nachbestellen verfügbar.";
+app.resources["NOT_AVAILABLE"]="Dieser Artikel ist momentan nicht erhältlich.";
+app.resources["REMAIN_NOT_AVAILABLE"]="Die verbleibenden Artikel sind momentan nicht erhältlich. Bitte passe die Menge an.";
+app.resources["IN_STOCK_DATE"]="Sind erwartungsgemäß am {0} wieder auf Lager.";
+app.resources["NON_SELECTED"]="Nicht ausgewählt";
+app.resources["MISSING_VAL"]="Auswählen{0}";
+app.resources["SIZECHART_TITLE"]="Größentabelle";
+app.resources["SEND_TO_FRIEND"]="An einen Freund senden";
+// bonus products messages
+app.resources["BONUS_PRODUCTS"]="Bonusartikel";
+app.resources["SELECT_BONUS_PRODUCT"]="Auswählen";
+app.resources["BONUS_PRODUCT_MAX"]="Die maximale Anzahl an Bonusartikeln wurde ausgewählt. Bitte entferne einen Bonusartikel, damit du weitere hinzufügen kannst.";
+app.resources['QUICKVIEW_TITLE']="Schnellansicht";
+app.resources['ADD_TO_CART_BUTTON_TITLE']="In die Einkaufstasche";
+//--></script>
+
+<link rel="stylesheet" href="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/shared/carrousel/mastheadSlider/css/adi-onesite-mastheads.css">
+<script type="text/javascript" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/shared/carrousel/mastheadSlider/adi-onesite-mastheads.js"></script>
+
+
+
+<script type="text/javascript" src="/on/demandware.static/Sites-Site/-/-/internal/jscript/dwac-12.1.5.js"></script>
+
+
+<link rel="canonical" href="http://www.adidas.de">
+</head>
+<body>
+
+<noscript>
+<div class="disabledcontainer">
+<div class="disabledmessage">Die Javascript-Funktion deines Browsers ist ausgeschaltet. Bitte stelle sie wieder an, damit du alle Möglichkeiten dieser Seite nutzen kannst.</div>
+</div>
+</noscript>
+<div class="disabledcontainer" style="display:none" id="cookiesdisabled">
+<div class="disabledmessage">Deine Browser-Einstellung lässt momentan keine Cookies zu. Bitte ändere sie bzw. überprüfe, ob ein anderes Programm die Cookies blockiert.</div>
+</div>
+<script type="text/javascript"><!--
+if(!app.util.cookiesEnabled()) {
+jQuery("#cookiesdisabled").show();
+}
+//--></script>
+<div id="container" class="pt_storefront test">
+
+
+
+<div id="header">
+<div class="wrapper">
+<a class="logo" href="http://www.adidas.de" alt="Home" title="Home">adidas</a>
+
+<a class="country_selector showpopup" href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Page-Include?cid=country-selector" onClick="return false" _dialogTitle="Bitte w&auml;hle ein Land aus"><span class="de_DE">de_DE</span></a>
+
+
+
+<script type="text/javascript"><!--
+var searchSuggestURL = "/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-GetSuggestions";
+jQuery(document).ready(function() {
+app.searchsuggest.init("SimpleSearchForm", "searchinput", "Suchen", "suggestions", searchSuggestURL);
+});
+//--></script>
+<div class="sitesearch">
+<form action="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show" method="get" id="SimpleSearchForm" class="simplesearch">
+<fieldset>
+
+<input class="simplesearchinput textinput" id="searchinput" type="text" name="q" value="Suchen"/>
+<button class="btn_simplesearch" type="submit" value="Suchen" name="simplesearch">Suchen</button>
+</fieldset>
+</form>
+</div>
+
+<ul class="headercustomerinfo">
+<li class="signup"><a class="signup_and_save" href="https://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Newsletter-Subscribe" title="Anmelden &amp; Sparen">Anmelden &amp; Sparen</a></li>
+
+<li class="login"><a class="userlogin" title="Einloggen" href="https://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Account-Show">Einloggen</a></li>
+
+</ul>
+<div id="minicart" class="minicart">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Report any requested source code -->
+
+
+<!-- Report the active source code -->
+
+
+
+
+<div class="minicartcheckout">Zur Kasse<span>0 Artikel</span></div>
+<div class="minicarttotal"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="categorymenu">
+<ul class="topcat_list left">
+<li class="topcat_list_item">
+<a class="shop" href="http://www.adidas.de/shop" title="Shop">Shop</a>
+</li>
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/manner/men,de_DE,sc.html"><span class="topcat_spacer">Männer</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p><a title="Neu eingetroffen" class="category_shop_banner" href="http://www.adidas.de/manner/men,de_DE,sc.html?grid=true&amp;srule=newest-to-oldest&amp;start=0&amp;sz=24">
+ <img width="169" height="284" alt="" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites/de_DE/v1338944674361/shop-promo-169-284-DE.jpg" /> <span>
+Neu eingetroffen</span> </a></p>
+
+
+</div> 
+	</div>
+<div class="navigation-main-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<ul>
+    <li class="headline"><a href="http://www.adidas.de/manner/men,de_DE,sc.html?grid=true">Produkte</a></li>
+    <li><a href="http://www.adidas.de/schuhe-manner/men-Shoes,de_DE,sc.html">Schuhe</a></li>
+    <li><a href="http://www.adidas.de/manner-kleidung/men-Clothing,de_DE,sc.html">Kleidung</a></li>
+    <li><a href="http://www.adidas.de/manner-zubehoer/men-Accessories,de_DE,sc.html">Accessoires</a></li>
+    <li><a class="show_all" href="http://www.adidas.de/manner/men,de_DE,sc.html?grid=true">Alle M&auml;nnerartikel</a> </li>
+    <li>&nbsp;</li>
+	<li>&nbsp;</li>
+    <li class="promo"><a title="" href="http://www.adidas.de/manner/men,de_DE,sc.html?grid=true&amp;srule=newest-to-oldest&amp;start=0&amp;sz=24">Neu eingetroffen</a></li>
+	<li class="promo"><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sale&amp;prefv1=Sale&amp;start=0&amp;sz=24" title="">Outlet</a></li>
+</ul>
+<ul>
+    <li class="headline sports"><a title="" href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=Performance">Sport</a></li>
+  <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Basketball" title="">Basketball</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Fu%c3%9fball&amp;grid=true">Fußball</a></li>
+      <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Golf" title="">Golf</a></li>
+      <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Outdoor" title="">Outdoor</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Rugby" title="">Rugby</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Running" title="">Running</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Schwimmen" title="">Schwimmen</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Tennis" title="">Tennis</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=sport&amp;prefv1=Training" title="">Training</a></li>
+	
+	<li><a title="" href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=Performance" class="show_all">Alle Sportartikel</a></li>
+	</ul>
+<ul>
+    <li class="headline originals"><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=Originals" title="">Originals</a></li>
+    <li><a href="http://www.adidas.de/schuhe-manner/men-Shoes,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Schuhe</a></li>
+    <li><a href="http://www.adidas.de/manner-kleidung/men-Clothing,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Kleidung</a></li>
+    <li><a href="http://www.adidas.de/manner-zubehoer/men-Accessories,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Accessoires</a></li>
+    <li><a class="show_all" href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=Originals" title="">Alle Originalsartikel</a></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+     <li class="headline style"><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=adidas%20SLVR%7cadidas%20NEO%20Label%7cPorsche%20Design%20Sport" title="">Style</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=adidas%20SLVR" title="">SLVR</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=Porsche%20Design%20Sport" title="">Porsche Design Sport</a></li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=adidas%20NEO%20Label" title="">adidas NEO Label</a></li>
+</ul>
+
+
+</div> 
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p class="freeshipping"><span></span>Alle Bestellungen über 150€ sind versandkostenfrei</p>
+
+
+</div> 
+	</div>
+</div>
+</li>
+
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/damen/women,de_DE,sc.html"><span class="topcat_spacer">Frauen</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p><a title="Neu eingetroffen" class="category_shop_banner" href="http://www.adidas.de/damen/women,de_DE,sc.html?grid=true&amp;srule=newest-to-oldest&amp;start=0&amp;sz=24">
+ <img width="169" height="284" alt="" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites/de_DE/v1338944674361/shop-promo-169-284-DE.jpg" /> <span>
+Neu eingetroffen</span> </a></p>
+
+
+</div> 
+	</div>
+<div class="navigation-main-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<ul>
+    <li class="headline"><a href="http://www.adidas.de/damen/women,de_DE,sc.html?grid=true">Produkte</a></li>
+    <li><a href="http://www.adidas.de/schuhe-damen/women-Shoes,de_DE,sc.html">Schuhe</a></li>
+    <li><a href="http://www.adidas.de/kleidung-damen/women-Clothing,de_DE,sc.html">Kleidung</a></li>
+    <li><a href="http://www.adidas.de/damen-zubehoer/women-Accessories,de_DE,sc.html">Accessoires</a></li>
+    <li><a class="show_all" href="http://www.adidas.de/damen/women,de_DE,sc.html?grid=true">Alle Frauenartikel</a></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+    <li class="promo"><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?grid=true&amp;srule=newest-to-oldest&amp;start=0&amp;sz=24">Neu eingetroffen</a></li>
+    <li class="promo"><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sale&amp;prefv1=Sale&amp;start=0&amp;sz=24" title="">Outlet</a></li>
+</ul>
+<ul>
+    <li class="headline sports"><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=Performance">Sport</a></li>
+    <li><a href="http://www.adidas.de/adidas-by-Stella-McCartney/adidas%20by%20Stella%20McCartney,de_DE,sc.html">adidas by Stella McCartney</a></li>
+    <li><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Fu%c3%9fball">Fu&szlig;ball</a></li>
+    <li><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Golf" title="">Golf</a></li>
+    <li><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Outdoor">Outdoor</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Running">Running</a></li>
+    <li><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Swimming" title="">Schwimmen</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Tennis">Tennis</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=sport&amp;prefv1=Training">Training</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=Performance" class="show_all">Alle Sportartikel</a></li>
+</ul>
+<ul>
+    <li class="headline originals"><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Originals</a></li>
+    <li><a href="http://www.adidas.de/schuhe-damen/women-Shoes,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Schuhe</a></li>
+    <li><a href="http://www.adidas.de/kleidung-damen/women-Clothing,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Kleidung</a></li>
+    <li><a href="http://www.adidas.de/damen-zubehoer/women-Accessories,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Accessoires</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=Originals" class="show_all">Alle Originalsartikel</a></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+    <li class="headline style"><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=adidas%20SLVR%7cadidas%20NEO%20Label" title="">Style</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=adidas%20SLVR">SLVR</a></li>
+    <li><a title="" href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=adidas%20NEO%20Label">adidas NEO Label</a></li>
+</ul>
+
+
+</div> 
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p class="freeshipping"><span></span>Alle Bestellungen über 150€ sind versandkostenfrei</p>
+
+
+</div> 
+	</div>
+</div>
+</li>
+
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/kinder/kids,de_DE,sc.html"><span class="topcat_spacer">Kinder</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p><a title="Neu eingetroffen" class="category_shop_banner" href="http://www.adidas.de/kinder/kids,de_DE,sc.html?grid=true&amp;srule=newest-to-oldest&amp;start=0&amp;sz=24">
+ <img width="169" height="284" alt="" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites/de_DE/v1338944674361/shop-promo-169-284-DE.jpg" /> <span>
+Neu eingetroffen</span> </a></p>
+
+
+</div> 
+	</div>
+<div class="navigation-main-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<ul>
+		<li class="headline"><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Jungen" title="">Jungen</a></li>
+		<li><a href="http://www.adidas.de/kinder-schuhe/kids-Shoes,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Jungen" title="">Schuhe</a></li>
+		<li><a href="http://www.adidas.de/kinder-kleidung/kids-Clothing,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Jungen" title="">Kleidung</a></li>
+		<li><a href="http://www.adidas.de/kinder-zubehoer/kids-Accessories,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Jungen" title="">Accessoires</a></li>
+		<li><a class="show_all" href="http://www.adidas.de/kinder/kids,de_DE,sc.html?grid=true" title="">Alle Kinderartikel</a></li>
+		<li>&nbsp;</li>
+		<li>&nbsp;</li>
+		<li class="promo"><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html?grid=true&amp;srule=newest-to-oldest&amp;start=0&amp;sz=24" title="">Neu eingetroffen     </a></li>
+		<li class="promo"><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html?prefn1=sale&amp;prefv1=Sale&amp;start=0&amp;sz=24" title="">Outlet</a></li>
+		<!--li class="promo"><a title="" href="/" _fcksavedurl="/">Local Promo</a></li--> 
+	</ul>
+    <ul>
+        <li class="headline"><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html?prefn1=genderSub&amp;prefv1=M%c3%a4dchen" title="">M&auml;dchen</a></li>
+        <li><a href="http://www.adidas.de/kinder-schuhe/kids-Shoes,de_DE,sc.html?prefn1=genderSub&amp;prefv1=M%c3%a4dchen" title="">Schuhe</a></li>
+        <li><a href="http://www.adidas.de/kinder-kleidung/kids-Clothing,de_DE,sc.html?prefn1=genderSub&amp;prefv1=M%c3%a4dchen" title="">Kleidung</a></li>
+        <li><a href="http://www.adidas.de/kinder-zubehoer/kids-Accessories,de_DE,sc.html?prefn1=genderSub&amp;prefv1=M%c3%a4dchen" title="">Accessoires</a></li>
+        <li>&nbsp;</li>
+        <li class="headline"><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Babys" title="">Babys und Kleinkinder</a></li>
+        <li><a href="http://www.adidas.de/kinder-schuhe/kids-Shoes,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Babys" title="">Schuhe</a></li>
+        <li><a href="http://www.adidas.de/kinder-kleidung/kids-Clothing,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Babys" title="">Kleidung</a></li>
+        <li><a href="http://www.adidas.de/kinder-zubehoer/kids-Accessories,de_DE,sc.html?prefn1=genderSub&amp;prefv1=Babys" title="">Accessoires</a></li>
+    </ul>
+
+
+</div> 
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p class="freeshipping"><span></span>Schnelle Lieferung</p>
+
+
+</div> 
+	</div>
+</div>
+</li>
+
+
+
+
+
+<li class="topcat_list_item">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<a class="topcat_link" href="http://shop.miadidas.de/miadidas" target="_blank"><span class="topcat_spacer">mi Adidas</span></a>
+
+
+</div> 
+	</li>
+</ul>
+<ul class="topcat_list right">
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/fussball/Football,de_DE,sc.html"><span class="topcat_spacer">Fußball</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+	</div>
+<div class="navigation-main-slot short">
+	 
+
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+	</div>
+</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/laufen/Running,de_DE,sc.html"><span class="topcat_spacer">Running</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+	</div>
+<div class="navigation-main-slot short">
+	 
+
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+	</div>
+</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/basketball/Basketball,de_DE,sc.html"><span class="topcat_spacer">Basketball</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+	</div>
+<div class="navigation-main-slot short">
+	 
+
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+	</div>
+</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link" href="http://www.adidas.de/originals/Originals,de_DE,sc.html"><span class="topcat_spacer">Originals</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+	</div>
+<div class="navigation-main-slot short">
+	 
+
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+	</div>
+</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="topcat_list_item">
+<a class="topcat_link"><span class="topcat_spacer">Mehr</span></a>
+<div class="subcategorymenu">
+<div class="navigation-right-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p><a title="Neu eingetroffen" class="category_shop_banner" href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show?pmin=0&amp;pmax=999&amp;srule=newest-to-oldest">
+ <img width="169" height="284" alt="" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites/de_DE/v1338944674361/shop-promo-169-284-DE.jpg" /> <span>
+Neu eingetroffen</span> </a></p>
+
+
+</div> 
+	</div>
+<div class="navigation-main-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<ul>
+    <li class="headline sports"><a title="" href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show?prefn1=division&amp;prefv1=Performance">Sport</a></li>
+    <li><a href="http://www.adidas.de/adidas-by-Stella-McCartney/adidas%20by%20Stella%20McCartney,de_DE,sc.html">adidas by Stella McCartney</a></li>
+    <li><a href="http://www.adidas.de/golf/Golf,de_DE,sc.html">Golf</a></li>
+    <li><a href="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html">miCoach</a></li>
+    <li><a href="http://www.adidas.de/outdoor/Outdoor,de_DE,sc.html">Outdoor</a></li>
+    <li><a href="http://www.adidas.de/schwimmen/Swimming,de_DE,sc.html">Schwimmen</a></li>
+    <li><a href="http://www.adidas.de/specialist-sports/Specialist%20Sports,de_DE,sc.html">Specialist Sports</a></li>
+     <li><a href="http://www.adidas.de/Rugby/Rugby,de_DE,sc.html">Rugby</a></li>
+    <li><a href="http://www.adidas.de/tennis/Tennis,de_DE,sc.html">Tennis</a></li>
+    <li><a href="http://www.adidas.de/training/Training,de_DE,sc.html">Training</a></li>
+</ul>
+<ul>
+    <li class="headline originals"><a title="" href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show?prefn1=division&amp;prefv1=Originals">Originals</a></li>
+    <li><a target="_blank" href="http://www.adidas.com/campaigns/adidasskateboarding/content/index.asp?strcountry_adidascom=de">Skateboarding</a></li>
+    <li>&nbsp;</li>
+    <li class="headline style"><a title="">Style</a></li>
+    <li><a href="http://www.adidas.de/neo/adidas%20Neo,de_DE,sc.html">adidas NEO Label</a></li>
+    <li><a href="http://www.adidas.de/adidas-SLVR/adidas%20SLVR,de_DE,sc.html">adidas SLVR</a></li>
+    <li><a href="http://www.adidas.de/porsche-design-sport/Porsche%20Design%20Sport,de_DE,sc.html">Porsche Design Sport</a></li>
+    <li><a target="_blank" href="http://www.y-3store.com">Y-3</a></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+</ul>
+<ul>
+    <li class="headline"><a title="">Andere:</a></li>
+    <li><a target="_blank" href="http://www.adidas.com/bodycare/de">K&ouml;rperpflege</a></li>
+    <li><a target="_blank" href="http://www.adidas.com/de/eyewear">Brillen</a></li>
+    <li><a target="_blank" href="http://www.adidas.com/de/watches">Uhren</a></li>
+<li><a target="_blank" href="http://discover.adidas.de/storefinder">Storesuche</a></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+</ul>
+
+
+</div> 
+	</div>
+<div class="navigation-bottom-slot">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<p class="freeshipping"><span></span>Alle Bestellungen über 150€ sind versandkostenfrei</p>
+
+
+</div> 
+	</div>
+</div>
+</li>
+
+
+<li class="topcat_list_item"> 
+   <a class="topcat_link" href="http://discover.adidas.de/goallin" title="Go All In"><span class="topcat_spacer">Go All In</span></a> 
+</li>
+
+<li class="topcat_list_item micoach"><div class="micoach_header_slot">
+	 
+
+	</div></li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+<div class="home-page-slot-hero hp-slot-1">
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="orbit-loader"></div>
+
+
+<div class="carousel-wrapper">
+
+
+
+
+<div class="slide"><!-- dwMarker="content" dwContentID="bdbrMiaagZ9jAaaac1PYsXhzD2" -->
+
+<a class="global_layer_cta" href="http://www.adidas.de/fussball/Football,de_DE,sc.html?prefn1=collection&amp;prefv1=UEFA%20EURO%202012" title="http://www.adidas.de/fussball/Football,de_DE,sc.html?prefn1=collection&amp;prefv1=UEFA%20EURO%202012">&nbsp;</a>
+
+
+<h2 class="font-adineue">Zeig dein K&ouml;nnen</h2>
+
+
+
+<img class="foreground_image" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/football/adidas-hp-deEURO.jpg" alt="EURO 2012&trade;" />
+
+
+</div>
+<div class="slide_link_wrapper">
+
+<a href="http://www.adidas.de/fussball/Football,de_DE,sc.html?prefn1=collection&amp;prefv1=UEFA%20EURO%202012" title="Zur EURO 2012 Kollektion">Zur EURO 2012 Kollektion</a>
+
+
+
+
+</div>
+
+
+
+
+<div class="slide"><!-- dwMarker="content" dwContentID="bcIKkiaagZ60kaaac05Oh8Ct0A" -->
+
+<a class="global_layer_cta" href="/de/goallin/news/2012/04/running-news-obc" title="/de/goallin/news/2012/04/running-news-obc">&nbsp;</a>
+
+
+<h2 class="font-adineue">adidas is all in</h2>
+
+
+
+<img class="foreground_image" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/03/Homepage_RunningOBC_160%23187_37-3172.jpg" alt="null" />
+
+
+</div>
+<div class="slide_link_wrapper">
+
+<a href="/de/goallin/news/2012/04/running-news-obc" title="Sieh dir den Spot an">Sieh dir den Spot an</a>
+
+
+<a href="http://discover.adidas.de/goallin/" title="Go all in now">Go all in now</a>
+
+
+
+</div>
+
+
+
+
+<div class="slide"><!-- dwMarker="content" dwContentID="bcC1AiaagZGNsaaac0rDgHy4Rr" -->
+
+<a class="global_layer_cta" href="http://www.adidas.de/M%C3%A4nner-cc-freshride-m/TD894,de_DE,pd.html" title="http://www.adidas.de/M%C3%A4nner-cc-freshride-m/TD894,de_DE,pd.html">&nbsp;</a>
+
+
+<h2 class="font-adineue">Run cool</h2>
+
+
+
+<img class="foreground_image" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/04/HP_MH_Climacool_Beckham_1600x1067_37-3597.jpg" alt="null" />
+
+
+</div>
+<div class="slide_link_wrapper">
+
+<a href="http://www.adidas.de/M%C3%A4nner-cc-freshride-m/TD894,de_DE,pd.html" title="Weitere Infos">Weitere Infos</a>
+
+
+<a href="http://www.adidas.de/laufen/Running,de_DE,sc.html?q=climacool" title="Jetzt kaufen">Jetzt kaufen</a>
+
+
+
+</div>
+
+
+
+
+<div class="slide"><!-- dwMarker="content" dwContentID="bcdhgiaagZNEcaaac0Nt3X7UJa" -->
+
+<a class="global_layer_cta" href="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html?q=speed%20cell" title="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html?q=speed%20cell">&nbsp;</a>
+
+
+<h2 class="font-adineue">Fu&szlig;ball wird jetzt smart</h2>
+
+
+
+<img class="foreground_image" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/03/HP_masthead_1_F50_37-733.jpg" alt="null" />
+
+
+</div>
+<div class="slide_link_wrapper">
+
+<a href="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html?q=speed%20cell" title="Beweise, dass du am schnellsten bist&nbsp;">Beweise, dass du am schnellsten bist&nbsp;</a>
+
+
+<a href="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html?q=f50" title="Jetzt kaufen">Jetzt kaufen</a>
+
+
+
+</div>
+
+
+
+
+<div class="slide"><!-- dwMarker="content" dwContentID="bc6MkiaagZAxcaaac0k1lX7UJa" -->
+
+<a class="global_layer_cta" href="http://www.adidas.com/campaigns/stella/ss12/content/default.asp?strCountry_adidascom=de" title="http://www.adidas.com/campaigns/stella/ss12/content/default.asp?strCountry_adidascom=de">&nbsp;</a>
+
+
+
+
+<img class="foreground_image" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/03/HP_masthead_StellaSurf_37-824.jpg" alt="null" />
+
+
+</div>
+<div class="slide_link_wrapper">
+
+<a href="http://www.adidas.com/campaigns/stella/ss12/content/default.asp?strCountry_adidascom=de" title="entdecke adidas by Stella McCartney">entdecke adidas by Stella McCartney</a>
+
+
+<a href="http://www.adidas.de/adidas-by-Stella-McCartney/adidas%20by%20Stella%20McCartney,de_DE,sc.html?grid=true" title="Jetzt kaufen">Jetzt kaufen</a>
+
+
+
+</div>
+
+<div class="all_adidas"><a>All Adidas</a></div>
+</div>
+
+ 
+	</div>
+<script type="text/javascript"><!--
+jQuery(".hp-slot-1").height(document.documentElement.clientHeight);
+//--></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"><!--
+jQuery(document).ready(function() {		
+	var axel = Math.random() + "";
+	var a = axel * 10000000000000;
+	jQuery("body").append('<iframe src="http://fls.doubleclick.net/activityi;src=3468464;type=landing;cat=home;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+});
+//--></script>
+<noscript>
+	<iframe src="http://fls.doubleclick.net/activityi;src=3468464;type=landing;cat=home;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<div id="main" class="homepage">
+<div id="hp-slot-2">
+	 
+
+
+	
+
+
+
+<h2>Im Fokus</h2>
+<div class="features_social_networking">
+<p>Sei der erste deiner Freunde, dem adidas gef&auml;llt</p>
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+</div>
+<div class="features_slot rendering_slot">
+<div class="features_wrapper">
+
+
+
+<div class="block border-color-shop-red"><!-- dwMarker="content" dwContentID="bc2KAiaagZMSMaaac0UHVX7UJa" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/03/HP_small_feature_3_SuperNovaGlide4_37-635.jpg" alt="supernova glide 4" />
+
+<div class="rollover">
+<div class="rollover_content">
+<div class="bg"></div>
+
+<div class="link_wrapper"><a href="http://www.adidas.de/laufen/Running,de_DE,sc.html?prefn1=sportSub&amp;prefv1=Supernova&amp;q=glide%204" title="Jetzt kaufen">Jetzt kaufen</a></div>
+
+
+
+<p>Running</p>
+
+</div>
+</div>
+<div class="info">
+
+<p>supernova glide 4</p>
+
+
+<a class="color-shop-red" href="http://www.adidas.de/laufen/Running,de_DE,sc.html?prefn1=sportSub&amp;prefv1=Supernova&amp;q=glide%204" title="Jetzt kaufen">Jetzt kaufen</a>
+
+
+</div>
+</div>
+
+
+
+
+<div class="block border-color-shop-red"><!-- dwMarker="content" dwContentID="bcCRciaagZ4Jwaaac051MHy5L6" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/04/Predator_Feature_1Dribble_230x230_37-4457.jpg" alt="Predator&nbsp;Lethal Zones." />
+
+<div class="rollover">
+<div class="rollover_content">
+<div class="bg"></div>
+
+<div class="link_wrapper"><a href="/football" title="Weitere Infos">Weitere Infos</a></div>
+
+
+<div class="link_wrapper"><a href="/on/demandware.store/Sites-adidas-DE-Site/de_DE/Newsletter-Subscribe?campaign_id=predator&amp;source=PDPpredator&amp;nid=101" title="Jetzt anmelden">Jetzt anmelden</a></div>
+
+
+<p>Football</p>
+
+</div>
+</div>
+<div class="info">
+
+<p>Predator&nbsp;Lethal Zones.</p>
+
+
+<a class="color-black" href="/football" title="Weitere Infos">Weitere Infos</a>
+
+
+<a class="color-shop-red" href="/on/demandware.store/Sites-adidas-DE-Site/de_DE/Newsletter-Subscribe?campaign_id=predator&amp;source=PDPpredator&amp;nid=101" title="Jetzt anmelden">Jetzt anmelden</a>
+
+</div>
+</div>
+
+
+
+
+<div class="block border-color-shop-red"><!-- dwMarker="content" dwContentID="bcACYiaagZ0EEaaac0pXtX7UDc" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/hp/adidas-online-shop.jpg" alt="Kaufe aus unserer riesen Auswahl an adidas Produkten online!" />
+
+<div class="rollover">
+<div class="rollover_content">
+<div class="bg"></div>
+
+<div class="link_wrapper"><a href="http://www.adidas.de/manner/men,de_DE,sc.html" title="F&uuml;r M&auml;nner">F&uuml;r M&auml;nner</a></div>
+
+
+<div class="link_wrapper"><a href="http://www.adidas.de/damen/women,de_DE,sc.html" title="F&uuml;r Frauen">F&uuml;r Frauen</a></div>
+
+
+<p>Shop</p>
+
+</div>
+</div>
+<div class="info">
+
+<p>Kaufe aus unserer riesen Auswahl an adidas Produkten online!</p>
+
+
+<a class="color-shop-red" href="http://www.adidas.de/manner/men,de_DE,sc.html" title="F&uuml;r M&auml;nner">F&uuml;r M&auml;nner</a>
+
+
+<a class="color-shop-red" href="http://www.adidas.de/damen/women,de_DE,sc.html" title="F&uuml;r Frauen">F&uuml;r Frauen</a>
+
+</div>
+</div>
+
+
+
+
+<div class="block border-color-shop-red"><!-- dwMarker="content" dwContentID="bcliMiaagZOfMaaac01HZX7UJa" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/03/HP_large_feature_4_MessiSpeedCell_37-637.jpg" alt="Dein miCoach" />
+
+<div class="rollover">
+<div class="rollover_content">
+<div class="bg"></div>
+
+<div class="link_wrapper"><a href="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html?q=speed%20cell" title="Jetzt kaufen">Jetzt kaufen</a></div>
+
+
+
+<p>micoach</p>
+
+</div>
+</div>
+<div class="info">
+
+<p>Dein miCoach</p>
+
+
+<a class="color-shop-red" href="http://www.adidas.de/MiCoach/micoach,de_DE,sc.html?q=speed%20cell" title="Jetzt kaufen">Jetzt kaufen</a>
+
+
+</div>
+</div>
+
+
+
+
+<div class="block border-color-shop-red"><!-- dwMarker="content" dwContentID="bcAoEiaagZyrwaaac0dJFX7UJa" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/brand/images/2012/03/HP_large_feature_StellaYoga_37-698.jpg" alt="adidas by Stella McCartney" />
+
+<div class="rollover">
+<div class="rollover_content">
+<div class="bg"></div>
+
+<div class="link_wrapper"><a href="http://www.adidas.de/adidas-by-Stella-McCartney/adidas%20by%20Stella%20McCartney,de_DE,sc.html" title="Jetzt kaufen">Jetzt kaufen</a></div>
+
+
+<div class="link_wrapper"><a href="/catalogue/categories-stella" title="Entdecken">Entdecken</a></div>
+
+
+<p>adidas by Stella McCartney</p>
+
+</div>
+</div>
+<div class="info">
+
+<p>adidas by Stella McCartney</p>
+
+
+<a class="color-shop-red" href="http://www.adidas.de/adidas-by-Stella-McCartney/adidas%20by%20Stella%20McCartney,de_DE,sc.html" title="Jetzt kaufen">Jetzt kaufen</a>
+
+
+<a class="color-black" href="/catalogue/categories-stella" title="Entdecken">Entdecken</a>
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+ 
+	</div>
+<div id="hp-slot-3">
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Neu bei adidas</h2>
+<div class="brandshop rendering_slot left">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="brandspromoasset tiledivision-originals"><!-- dwMarker="content" dwContentID="bdRbMiaagZgVcaaac0rNhX7USd" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/hp/cartridges/Cartridge1_ObyO.jpg" alt="all originals" />
+
+
+<div class="division_logo"></div>
+
+
+<p class="text-shadow color-blue border-color-blue"><span class="font-adineue">all originals</span></p>
+
+
+<div><a class="text-shadow" href="http://www.adidas.de/originals/Originals,de_DE,sc.html" title="entdecken">entdecken</a></div>
+
+
+<div><a class="text-shadow" href="http://www.adidas.de/originals/Originals,de_DE,sc.html?grid=true" title="jetzt kaufen">jetzt kaufen</a></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="producttile tiledivision-originals size-hplarge stars_large"><!-- dwMarker="product" dwContentID="cd4WsiaagZBD6aaacZegZ0RbNz" -->
+<div class="division_logo"></div>
+
+
+
+
+
+
+
+
+<div class="image">
+<a class="productimage" href="http://www.adidas.de/M%C3%A4nner-Jeremy-Scott-Instinct-Hi/DA903,de_DE,pd.html?dwvar_DA903_color=White%20%2f%20Black" title="M&auml;nner Jeremy Scott Instinct Hi"><img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-products/de_DE/v1338944674361/large/V24529_F_Photography_Standard.jpg" alt="M&auml;nner Jeremy Scott Instinct Hi, , large" title="M&auml;nner Jeremy Scott Instinct Hi, " /></a>
+
+</div>
+<a class="name" href="http://www.adidas.de/M%C3%A4nner-Jeremy-Scott-Instinct-Hi/DA903,de_DE,pd.html?dwvar_DA903_color=White%20%2f%20Black" title="M&auml;nner Jeremy Scott Instinct Hi">Männer Jeremy Scott Instinct Hi</a>
+
+
+<div class="star_rating _8"></div>
+
+<div class="producttile_wrapper">
+
+<div class="price">
+
+
+<div class="salesprice">179.95 €</div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="producttile tiledivision-originals size-hplarge stars_large"><!-- dwMarker="product" dwContentID="cf5c6iaagZYpsaaadZzLx0RbNz" -->
+<div class="division_logo"></div>
+
+
+
+
+
+
+
+
+<div class="image">
+<a class="productimage" href="http://www.adidas.de/M%C3%A4nner-Jeremy-Scott-Gorilla/DA873,de_DE,pd.html?dwvar_DA873_color=Black" title="M&auml;nner Jeremy Scott Gorilla"><img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-products/de_DE/v1338944674361/large/V24424_F_z.jpg" alt="M&auml;nner Jeremy Scott Gorilla, , large" title="M&auml;nner Jeremy Scott Gorilla, " /></a>
+
+</div>
+<a class="name" href="http://www.adidas.de/M%C3%A4nner-Jeremy-Scott-Gorilla/DA873,de_DE,pd.html?dwvar_DA873_color=Black" title="M&auml;nner Jeremy Scott Gorilla">Männer Jeremy Scott Gorilla</a>
+
+
+<div class="star_rating _empty"></div>
+
+<div class="producttile_wrapper">
+
+<div class="price">
+
+
+<div class="salesprice">154.95 €</div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+</div>
+ 
+	</div>
+<div id="hp-slot-4">
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="brandshop rendering_slot right">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="brandspromoasset tiledivision-sport"><!-- dwMarker="content" dwContentID="bdTXAiaagZyKIaaac0b3lX7USd" -->
+
+<img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-DE-Library/de_DE/v1338944674361/hp/cartridges/Cartridge2_Football_F50.jpg" alt="F50 adiZero" />
+
+
+<div class="division_logo"></div>
+
+
+<p class="text-shadow color-white border-color-white"><span class="font-adineue">F50 adiZero</span></p>
+
+
+<div><a class="text-shadow color-white" href="http://www.adidas.de/fussballschuhe/Football-Shoes,de_DE,sc.html?q=f50%20adizero" title="entdecken">entdecken</a></div>
+
+
+<div><a class="text-shadow color-white" href="http://www.adidas.de/fussballschuhe/Football-Shoes,de_DE,sc.html?q=f50%20adizero" title="jetzt kaufen">jetzt kaufen</a></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="producttile tiledivision-performance size-hplarge stars_large"><!-- dwMarker="product" dwContentID="bcW5IiaagZfd2aaacYe83IAJyC" -->
+<div class="division_logo"></div>
+
+
+
+
+
+
+
+
+<div class="image">
+<a class="productimage" href="http://www.adidas.de/M%C3%A4nner-F50-adizero-TRX-FG/QP712,de_DE,pd.html?dwvar_QP712_color=Black%20%2f%20Warning%20%2f%20Electricity" title="M&auml;nner F50 adizero TRX FG"><img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-products/de_DE/v1338944674361/large/G45574_F_B2CCat.jpg" alt="M&auml;nner F50 adizero TRX FG, , large" title="M&auml;nner F50 adizero TRX FG, " /></a>
+
+</div>
+<a class="name" href="http://www.adidas.de/M%C3%A4nner-F50-adizero-TRX-FG/QP712,de_DE,pd.html?dwvar_QP712_color=Black%20%2f%20Warning%20%2f%20Electricity" title="M&auml;nner F50 adizero TRX FG">Männer F50 adizero TRX FG</a>
+
+
+<div class="star_rating _10"></div>
+
+<div class="producttile_wrapper">
+
+<div class="price">
+
+
+<div class="salesprice">219.95 €</div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="producttile tiledivision-performance size-hplarge stars_large"><!-- dwMarker="product" dwContentID="bcQfIiaagZghYaaacYX2ZIAJyF" -->
+<div class="division_logo"></div>
+
+
+
+
+
+
+
+
+<div class="image">
+<a class="productimage" href="http://www.adidas.de/M%C3%A4nner-F50-adizero-X-TRX-SG/DA217,de_DE,pd.html?dwvar_DA217_color=Black%20%2f%20Warning%20%2f%20Electricity" title="M&auml;nner F50 adizero X-TRX SG"><img src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/Sites-adidas-products/de_DE/v1338944674361/large/V23967_F_B2CCat.jpg" alt="M&auml;nner F50 adizero X-TRX SG, , large" title="M&auml;nner F50 adizero X-TRX SG, " /></a>
+
+</div>
+<a class="name" href="http://www.adidas.de/M%C3%A4nner-F50-adizero-X-TRX-SG/DA217,de_DE,pd.html?dwvar_DA217_color=Black%20%2f%20Warning%20%2f%20Electricity" title="M&auml;nner F50 adizero X-TRX SG">Männer F50 adizero X-TRX SG</a>
+
+
+<div class="star_rating _empty"></div>
+
+<div class="producttile_wrapper">
+
+<div class="price">
+
+
+<div class="salesprice">219.95 €</div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+</div>
+ 
+	</div>
+</div>
+
+
+<div id="footer">
+<div class="footer-top">
+	 
+
+
+	
+
+
+
+<ul>
+    <li class="shipping">Bestellungen ab €150 versandkostenfrei</li>
+    <li class="customer-service">Kundendienst: <span style="color: rgb(255, 0, 0); ">00800 &ndash; 37 87 47 37</span><span style="color: rgb(255, 0, 0); ">(gebührenfrei)</span></li>
+    <li class="return">Kostenlose Rücknahme</li>
+</ul>
+
+ 
+	</div>
+<div class="footer-newsletter">
+<script>
+function submitNewsletter(){
+document.location.href = "https://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Newsletter-Subscribe?email=" + jQuery("input[name=dwfrm_profile_customer_footeremail]").val();
+return false;
+}
+</script>
+<form id="footer-email-send-form" onSubmit="submitNewsletter(); return false;" method="post">
+<fieldset>
+<div class="formfield">
+
+
+ 	
+ 	
+
+	
+
+		
+			
+			
+			
+			<label for="dwfrm_profile_customer_footeremail" class="">Bitte gib deine E-Mail-Adresse ein, um Neuigkeiten und Sonderangebote zu erhalten</label>
+			
+		
+		
+		
+		
+		
+
+		
+			
+			<div class="value">
+				
+				
+				
+				 	
+				 	<input class="textinput" id="dwfrm_profile_customer_footeremail" type="text" name="dwfrm_profile_customer_footeremail" value=""  maxlength="50"/>
+				<!-- display text area input field -->
+				
+				
+					<span class="hidden json">{label:"Bitte gib deine E-Mail-Adresse ein, um Neuigkeiten und Sonderangebote zu erhalten"}</span><!-- this MUST be immediately after the input/field tag. Hiden data to be attached to the input field (app.hiddenData in app.js -->
+				
+				
+				
+			</div>
+		
+
+	
+	
+</div>
+<div class="formactions">
+<button class="" type="submit" id="footernewslettersubmitbutton" name="footer-dwfrm_profile_subscribe" value="Submit"><span>Anmelden</span></button>
+</div>
+</fieldset>
+</form>
+</div>
+<div class="footer-copy">
+	 
+
+
+	
+
+<div class="htmlslotcontainer">
+
+
+<div class="content-wrapper">
+<div>
+<ul>
+    <li>
+    <h5>SHOP</h5>
+    </li>
+    <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html">M&auml;nner</a></li>
+    <li><a href="http://www.adidas.de/damen/women,de_DE,sc.html">Frauen</a></li>
+    <li><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html">Kinder</a></li>
+    <li>&nbsp;</li>
+    <li>&nbsp;</li>
+    <li><a href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show?pmin=0&amp;pmax=999&amp;srule=newest-to-oldest">Neu eingetroffen</a></li>
+    <li><a href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show?pmin=0&amp;pmax=999&amp;prefn1=sale&amp;prefv1=Sale">Outlet</a></li>
+</ul>
+<ul>
+    <li>
+    <h5>SPORT</h5>
+    </li>
+ <li><a title="" href="http://www.adidas.de/basketball/Basketball,de_DE,sc.html">Basketball</a></li>
+    <li><a href="http://www.adidas.de/fussball/Football,de_DE,sc.html?grid=true">Fu&szlig;ball</a></li>
+    <li><a title="" href="http://www.adidas.de/golf/Golf,de_DE,sc.html">Golf</a></li>
+    <li><a title="" href="http://www.adidas.de/outdoor/Outdoor,de_DE,sc.html">Outdoor</a></li>
+    <li><a href="http://www.adidas.de/Rugby/Rugby,de_DE,sc.html" title="">Rugby</a></li>
+    <li><a title="" href="http://www.adidas.de/laufen/Running,de_DE,sc.html">Running</a></li>
+    <li><a href="http://www.adidas.de/schwimmen/Swimming,de_DE,sc.html" title="">Schwimmen</a></li>
+    <li><a title="" href="http://www.adidas.de/tennis/Tennis,de_DE,sc.html">Tennis</a></li>
+    <li><a title="" href="http://www.adidas.de/training/Training,de_DE,sc.html">Training</a></li>
+    <li><a title="" href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/Search-Show?pmin=0&amp;pmax=999&amp;srule=prefn1&amp;division=prefv1">Alle Sportartikel</a></li>
+
+</ul>
+<ul>
+    <li>
+    <h5>ORIGINALS</h5>
+    </li>
+     <li><a href="http://www.adidas.de/manner/men,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">M&auml;nner</a></li>
+    <li><a href="http://www.adidas.de/damen/women,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Frauen</a></li>
+    <li><a href="http://www.adidas.de/kinder/kids,de_DE,sc.html?prefn1=division&amp;prefv1=Originals">Kinder</a></li>    
+ <li><a href="http://www.adidas.de/originals/Originals,de_DE,sc.html?grid=true" title="Alle Originals producten">All Originals products</a></li> 
+
+    <li>
+    <h5>STYLE</h5>
+    </li>
+    <li><a href="http://www.adidas.de/neo/adidas%20Neo,de_DE,sc.html">adidas NEO Label</a></li>
+    <li><a href="http://www.adidas.de/adidas-SLVR/adidas%20SLVR,de_DE,sc.html">adidas SLVR</a></li>
+    <li><a href="http://www.adidas.de/porsche-design-sport/Porsche%20Design%20Sport,de_DE,sc.html">Porsche Design Sport</a></li>
+    <li><a href="http://www.y-3.com">Y-3</a></li>
+</ul>
+<ul>
+    <li>
+    <h5>Support</h5>
+    </li>
+<li><a href="http://discover.adidas.de/storefinder">Storesuche</a></li>    
+<li><a href="http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/CustomerService-Show">Kundendienst</a></li>
+  <li><a href="https://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/CustomerService-ContactUs">Kontakt Online Shop</a></li>
+<li><a href="http://www.adidas.de/adidas-Produkte/help-topics-adidas_products,de_DE,pg.html">adidas Produkte</a></li>
+    <li><a href="http://www.adidas.de/Bestellung/help-topics-ordering,de_DE,pg.html">Bestellung</a></li>
+    <li><a href="http://www.adidas.de/Bezahlung/help-topics-payment,de_DE,pg.html">Bezahlung</a></li>
+    <li><a href="http://www.adidas.de/Lieferung/help-topics-shipping,de_DE,pg.html">Lieferung</a></li>
+    <li><a href="http://www.adidas.de/R%C3%BCcksendung/help-topics-returning,de_DE,pg.html">R&uuml;cksendung</a></li>
+    <li><a href="http://www.adidas.de/Verwendung-der-Seite/help-topics-using_our_site,de_DE,pg.html">Verwendung der Seite</a></li>
+    <li><a href="http://www.adidas.de/Datenschutz-und-Sicherheit/help-topics-privacy_and_security,de_DE,pg.html">Datenschutz und Sicherheit</a></li>
+    <li><a href="http://www.adidas.de/Allgemeine-Gesch%C3%A4ftsbedingungen/help-topics-terms_and_conditions,de_DE,pg.html">Allgemeine Gesch&auml;ftsbedingungen</a></li>
+    <li><a href="http://www.adidas.de/Site-Map/help-topics-sitemap,de_DE,pg.html">Site Map</a></li>
+<li><a href="http://www.adidas.com/campaigns/adidas_shop/content/giftcard/index.asp?strCountry_adidascom=de&strLanguage_adidascom=de" target="_blank">Geschenkkarte</a></li>
+</ul>
+<ul>
+    <li>
+    <h5>Über adidas</h5>
+    </li>
+    <li><a href="http://www.adidas.com/de/shared/aboutadidas.asp">Info</a></li>
+    <li><a href="http://www.adidas.com/careers">Stellenangebote</a></li>
+    <li><a href="http://news.adidas.com/">Presse</a></li>
+    <li><a href="http://www.adidas.com/de/performance/partners.asp">Partner</a></li>
+    <li><a href="http://www.adidas-group.com/">Das Unternehmen</a></li>
+</ul>
+</div>
+</div>
+<div class="copy-wrapper">
+<ol class="copy">
+    <li><a href="http://www.adidas.de/Rechtliche-Hinweise/help-topics-legal,de_DE,pg.html">Rechtliche Hinweise</a></li>
+    <li><a href="http://www.adidas.de/Datenschutz/help-topics-privacypolicy,de_DE,pg.html">Datenschutzrichtlinie</a></li>
+    <li><a href="http://www.adidas.de/Impressum/help-topics-imprint,de_DE,pg.html">Impressum</a></li>
+    <li>
+    <p>&copy; 2012 adidas Group</p>
+    </li>
+</ol>
+</div>
+
+
+</div> 
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script class="cm" type="text/javascript">//<![CDATA[
+try{
+adidas.Analytics.tagPageView.apply(adidas.Analytics,["HOME","HOME",null,null,"-_--_--_--_--_--_--_--_--_--_--_--_-060612-_-Anonymous-_--_--_--_--_--_-"]);
+
+}catch(e){console.log(e)}
+//]]>
+</script>
+
+
+
+
+</div>
+<!-- Demandware Analytics code 1.0 --><script type="text/javascript" src="http://demandware.edgesuite.net/aagl_prd/on/demandware.static/Sites-adidas-DE-Site/-/de_DE/v1338944674361/internal/jscript/dwanalytics.js"></script><script type="text/javascript">//<!--
+/* <![CDATA[ */
+try{
+  var trackingUrl = "http://www.adidas.de/on/demandware.store/Sites-adidas-DE-Site/de_DE/__Analytics-Tracking";
+  var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+  if (typeof dw.ac == "undefined") { 
+     dwAnalytics.trackPageView();
+  } else {        
+     dw.ac.setDWAnalytics(dwAnalytics);
+  } 
+}catch(err) {};
+/* ]]> */
+// -->
+</script></body>
+</html>

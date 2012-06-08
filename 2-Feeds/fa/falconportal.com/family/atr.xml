@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Description" content="Falconportal 404 page" />
+<meta http-equiv="Title" content="Falconportal 404 page" />
+<title> falconportal.com 404 Page </title>
+</head>
+
+<body>
+
+
+<script language="JavaScript1.2">
+<!--
+
+/*
+Typing Scroller
+Submitted by bengaliboy00@hotmail.com (hp: http://www.angelfire.com/nt/bengaliboy/)
+With modifications by Dynamicdrive.com
+For full source code, usage terms, and 100s more scripts, visit http://dynamicdrive.com
+*/
+
+//Secify scroller contents
+var line=new Array()
+line[1]="Trouble at the website"
+line[2]="Oh no. What sort of trouble?"
+line[3]="Onofheebpages have gone ouoskew on the trettle."
+line[4]="Pardon?"
+line[5]="One oftheebpages haveon out of skew on the trettle."
+line[6]="I don't understand what you're saying."
+line[7]="One of the webpages.. have gone out of skew.. on the trettle."
+line[8]="Well what on earth does that mean? "
+line[9]="I don't know."
+line[10]="Mr.Wentworth just told me to come in here and say that there was trouble with the website. That's all."
+line[11]="I didn't expect a kind of 404 Inquisition."
+line[12]="NoooooooooooooooooBody expects the 404 Inquisition!"
+line[13]="Our chief weapon is suprise. Surprise and Fear, Fear and Surprise."
+line[14]="Our two weapons are fear and surprise....and ruthless efficiency."
+line[15]="Our three weapons are..." 
+line[16]="...fear and surprise and ruthless efficiency an and almost fanatically devotion to the pope."
+line[17]="Our Four. ....No. "
+line[18]=""
+line[19]="Amongst our weapons ... amongst our weaponary, are such elements as fear, sup.... I'll come in again."
+line[20]=""
+line[21]="I didn't expect a kind of 404 Inquisition."
+line[22]="NoooooooooooooooooBody expects the 404 Inquisition!"
+line[23]="Amongst our weaponary are such diverse elements as"
+line[24]="fear, surprise, ruthless efficiency an and almost fanatically devotion to the pope"
+line[25]="and nice red uniforms. Oh darn"
+line[26]="I can't say it you'll have to say it"
+line[27]="What?!?"
+line[28]="You'll have to say the bit about our chief weapons are."
+line[29]="Well I couldn't do that."
+line[30]=""
+line[31]="I didn't expect a kind of 404 Inquisition."
+line[32]="Uh uh uh Nobody ummm"
+line[33]="Expects"
+line[34]="Expects. Nobody expects the um spanish ummmm "
+line[35]="Inquisition"
+line[36]="I know I know"
+line[37]="Nobody expects the spanish inquisition in fact those who do expec"
+line[38]="are chief weapons are"
+line[39]="are chief weapons are ummmm ummmm um surprise"
+line[40]="That's it. stop stop stop that. Stop that. Stop."
+line[41]="Our Chief weapon is suprise, blub blub blub blah."
+line[42]="Cardinal, read the charges. "
+line[43]=""
+line[44]=""
+ 
+
+
+//Specify font size for scoller
+var ts_fontsize="14px"
+
+//--Don't edit below this line
+
+var longestmessage=1
+for (i=2;i<line.length;i++){
+if (line[i].length>line[longestmessage].length)
+longestmessage=i
+}
+
+//Auto set scroller width
+var tscroller_width=line[longestmessage].length
+
+lines=line.length-1 //--Number of lines
+
+//if IE 4+ or NS6
+if (document.all||document.getElementById){
+document.write('<form name="bannerform">')
+document.write('<input type="text" name="banner" size="'+tscroller_width+'"')
+document.write('  style="background-color: '+document.bgColor+'; color: '+document.body.text+'; font-family: verdana; font-size: '+ts_fontsize+'; border: medium none" onfocus="blur()">')
+document.write('</form>')
+}
+
+temp=""
+nextchar=-1;
+nextline=1;
+cursor="\\"
+function animate(){
+if (temp==line[nextline] & temp.length==line[nextline].length & nextline!=lines){
+nextline++;
+nextchar=-1;
+document.bannerform.banner.value=temp;
+temp="";
+setTimeout("nextstep()",2000)}
+else if (nextline==lines & temp==line[nextline] & temp.length==line[nextline].length){
+nextline=1;
+nextchar=-1;
+document.bannerform.banner.value=temp;
+temp="";
+setTimeout("nextstep()",2000)}
+else{
+nextstep()}}
+
+function nextstep(){
+
+if (cursor=="\\"){
+cursor="|"}
+else if (cursor=="|"){
+cursor="/"}
+else if (cursor=="/"){
+cursor="-"}
+else if (cursor=="-"){
+cursor="\\"}
+
+
+nextchar++;
+temp+=line[nextline].charAt(nextchar);
+document.bannerform.banner.value=temp+cursor
+setTimeout("animate()",40)}
+
+//if IE 4+ or NS6
+if (document.all||document.getElementById)
+window.onload=animate
+// -->
+</script>
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center><h4>How about I just give you a link back to the home page before they get to the comfy chair part? </br><a href="http://falconportal.com/family/family_index.php">Click to return home</a></h4></center>
+
+</body>
+</html>

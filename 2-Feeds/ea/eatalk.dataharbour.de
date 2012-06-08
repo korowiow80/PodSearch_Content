@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+	<title>datenhafen</title>
+	<meta name="author" content="balu">
+	
+	<style type="text/css">
+	
+	body {
+		background-color: #E9E9E9;
+		color: #333;
+		font-family:"Lucida handwriting", "Snell Roundhand", "Helvetica Neue",Arial,Helvetica,sans-serif;
+		font-size: 16px;
+	}
+
+	.data {
+		display: inline-block;
+		/*margin: 10em auto 0 auto;*/
+		text-decoration: none;
+		color: #333;
+		padding: 13px 13px 26px 13px;
+		width: 200px;
+		/*border: 1px solid #BFBFBF;*/
+		border: none;
+		background-color: white;
+		z-index: 2;
+		font-size: 0.8em;
+		margin: 30px;
+		/*-webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		-moz-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
+		box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);*/
+		
+		/*-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+		box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);*/
+
+		-moz-box-shadow: 0 0 25px 5px #888;
+		-webkit-box-shadow: 0 0 25px 5px#888;
+		box-shadow: 0 0 25px 5px #888;
+		
+
+		/*-webkit-transform: rotate(10deg);
+		-moz-transform: rotate(10deg);
+		transform: rotate(10deg);
+		-webkit-transition: all 0.5s ease-in;*/
+    		
+		/*-webkit-transition: background-color .4s ease-in;
+    		-moz-transition: background-color .4s ease-in;
+    		-o-transition: background-color .4s ease-in;
+    		transition: background-color .4s ease-in;*/
+		
+		-webkit-transition: all .4s ease-in;
+    		-moz-transition: all .4s ease-in;
+    		-o-transition: all .4s ease-in;
+    		transition: all .4s ease-in;
+		
+	}
+	.data:hover,
+	.data:focus,
+	.data:active {
+		z-index: 999;
+		/*border-color: #6A6A6A;*/
+		/*-webkit-box-shadow: 5px 15px 20px rgba(0,0, 0, 0.4);
+		-moz-box-shadow: 5px 15px 20px rgba(0,0, 0, 0.4);
+		box-shadow: 5px 15px 20px rgba(0,0, 0, 0.4);*/
+		-moz-box-shadow: 7px 7px 15px 5px #888;
+		-webkit-box-shadow: 7px 7px 15px 5px#888;
+		box-shadow: 7px 7px 15px 5px #888;
+
+		-webkit-transform: rotate(0deg) scale(1.05);
+		-moz-transform: rotate(0deg) scale(1.05);
+		transform: rotate(0deg) scale(1.05);
+		border:none;
+	}
+	.data img {
+		margin: 0 0 15px;
+	}
+	
+	a img {
+		border: none;
+		display: block;
+	}
+	
+	#content {
+		width: 600px;
+		height:200px;
+		margin: 10em auto 0;
+	}
+	</style>
+	
+</head>
+<body>
+<div id="content" >
+	
+	<div class="data">
+		<a href="http://www.ohnekontur.de" class="medium"><img src="img/ohnekontur.de.jpg" alt="">ohnekontur.de</a>
+	</div>
+	
+	<div class="data">
+		<a href="http://www.dataharbour.de" class="medium"><img src="img/dataharbour.de.jpg" alt="">dataharbour.de</a>
+	</div>
+	<br />
+	<div class="data">
+        <a href="http://apunkt.me" class="medium">
+        <img src="img/apunkt.me.jpg" alt="">
+        A.</a>
+    </div>
+ <!--   <div class="data">
+		<a href="http://eatalk.dataharbour.de" class="medium"><img src="img/eatalk.dataharbour.de.jpg" alt="">eatalk.dataharbour.de</a>
+	</div>
+    -->
+</div>
+
+</body>
+</html>
+

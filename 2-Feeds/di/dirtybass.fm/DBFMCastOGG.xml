@@ -1,0 +1,836 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<HTML>	
+	<HEAD>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="author" content="Boris Filipov" />
+		<meta name="description" content="Dirtybass.fm is a community of djs offering the best selections of drum & bass, dubstep, breakbeat and techno." />
+		<meta name="robots" content="all" />
+        <meta name="keywords" content="dirty bass, dirtybass, bass fm, bassfm, darkstep radio, dirty radio, dirty beats, dirty mp3, dirty songs, dirty tunes, drum and bass radio, darkstep online, dnb radio, drum & bass radio" />
+
+        <!---
+
+        <META Http-Equiv="Cache-Control" Content="no-cache">
+        <META Http-Equiv="Pragma" Content="no-cache">
+        <META Http-Equiv="Expires" Content="0"> 
+        -->
+		<title>dirtybass.fm</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/text.css" />
+		<link rel="stylesheet" type="text/css" href="/static/css/960.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/static/css/dbfm.css" />
+        <link href='http://fonts.googleapis.com/css?family=Creepster|Norican|Leckerli+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>l
+		<SCRIPT TYPE="text/javascript" src="/static/js/jquery-1.4.2.js">
+		</SCRIPT>
+		<script type="text/javascript" src="/static/js/jquery.corner.js"></script>
+        <script type="text/javascript" src="https://raw.github.com/ai/visibility.js/master/lib/visibility.min.js"></script>
+		<SCRIPT TYPE="text/javascript" src="/static/js/dbfm.js">
+		</SCRIPT>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-29326766-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+	</HEAD>
+	<BODY>
+		<div class="container_16">
+		
+			<DIV id="toolbar" class="grid_6">
+				<ul id="dropdownlist">
+					<li>
+						<a href="/">dbfm</a>
+						<ul>
+							<li><a href="/">home</a></li>
+							<li><a href="/schedule/">schedule</a></li>
+							<li><a href="/about/">about</a></li>
+							<li><a href="/contact/">contact</a></li>
+                             <li><a href="http://dirtybass.fm/apply_for_a_dj_slot/">be a dj</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">listen</a>
+						<ul>
+                            <li><a href="http://dirtybass.fm:1337/dirtybass.ogg.ogg.m3u">ogg &nbsp;(128 kbps, best quality)</a></li>
+							<li><a href="http://dirtybass.fm:1337/dirtybass.aac.m3u">aac+ (32 kbps, best for mobile)</a></li>
+                            <li><a href="http://dirtybass.fm:8000/listen.pls">mp3  &nbsp;(192 kbps)</a></li>	
+						</ul>
+					</li>
+					<li>
+						<a href="/djs/">djs</a>
+						
+						<ul>
+							
+							<li>
+								<a href="/djs/#Qx">Qx</a>
+							</li>
+							
+							<li>
+								<a href="/djs/#Gizzmo">Gizzmo</a>
+							</li>
+							
+							<li>
+								<a href="/djs/#NeuralNET">NeuralNET</a>
+							</li>
+							
+							<li>
+								<a href="/djs/#Shooey">Shooey</a>
+							</li>
+							
+							<li>
+								<a href="/djs/#borfd">borfd</a>
+							</li>
+							
+						</ul>
+					</li>
+					<li>
+					       <a href="#">downloads</a>
+					       <ul>
+						       <li><a href="/podcasts/">podcasts</a></li>
+						       <!--<li><a target="_blank" href="http://mixcloud.com/dirtybassfm">sets (mixcloud)</a></li>
+						       <li><a href="#">tracks (soundcloud)</a></li>-->
+					       </ul>
+				       </li>
+				       <li>
+					       <a href="#">irc</a>
+					       <ul>
+						       <li><a href="irc://irc.ViSiON-iRC.net/dirtybass.fm">connect</a></li>
+						       <li><a href="http://www.mibbit.com/chat/?server=irc.vision-irc.net&amp;channel=%23dirtybass.fm">connect using java client</a></li>
+						       <li><a href="http://dirtybass.fm/dbfmirc.html">stats</a></li>
+					       </ul>
+				       </li>
+                      
+
+				</ul>
+			</DIV>
+		
+
+			<div id="next_show" class="grid_10">
+                <span class="next_show">now playing: </span>
+                
+                
+                <span class="next_show_name">(dbfm archives) NeuralNET - The Darkside 23-09-11</span>
+                <br />
+				<span class="next_show">next live show: </span>
+				<span class="next_show_name">borfd - Future Beats </span>
+                <span class="next_show">on</span> 
+                <span class="next_show_day">Thursday </span>
+                <span class="next_show">at</span>
+                <span class="next_show_time">19:00</span>
+                <span class="next_show_timezone">(GMT+0)</span>
+                <span class="full_date" style="display: none">2012-06-07T19:00:00.984470</span>
+			</div>
+			<div class="clear"></div>
+	
+		</div>
+		<div class="container_16 header">	
+			<div id="header" class="grid_10">
+                <img src="/static/img/DBFM-dirty-500.png" alt="dirtybass.fm logo" />
+			    <!--<h1>dirtybass.fm</h1>-->
+				<!--<img src="/static/img/DBFM-dirty-bgblack.gif"
+				alt="dbfm logo" />-->
+			</div>
+
+            <div id="big_listen" class="grid_6">
+               <div id="big_listen_link"><a href="#">tune in</a></div>
+            </div>
+			<div class="clear"></div>
+		</div>
+		<div class="container_16 content">
+				
+			 <div id="news" class="grid_10">
+				<h2>News</h2>
+				 
+                    <h4>free track: spl / kano / dynamic - battleground</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>something darker to prepare you for the friday night darkside show :D</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F48200860&amp;auto_play=false&amp;show_artwork=true&amp;color=ff7700"></iframe></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-06-01 18:37:44
+					</div>
+				
+                    <h4>pezzner&#39;s decibel mix</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p><img alt="xlr8r pezzner&apos;s decibel mix" src="http://images.xlr8r.com/files/podcasts/thumbnails/pezznerpodcast-1.jpeg" /></p>
+<p><a href="http://www.xlr8r.com/podcast/2011/09/pezzners-decibel-mix">download mp3</a></p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-05-16 19:04:47
+					</div>
+				
+                    <h4>&amp;nbsp;</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p><img alt="removed jingles" src="http://i.imgur.com/LLRoD.jpg" /></p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-05-16 18:43:38
+					</div>
+				
+                    <h4>gembas - trust in bass</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><div><object width="360" height="360"><param name="movie" value="http://www.mixcloud.com/media/swf/player/mixcloudLoader.swf?feed=http%3A%2F%2Fwww.mixcloud.com%2Fgembas%2Fgembas-live-dirtybassfm-deep-techstep-neurofunk%2F&embed_uuid=8c34dd3b-993c-4bbc-bf0f-2885dc3073bf&stylecolor=cc3300&embed_type=widget_standard"></param><param name="allowFullScreen" value="true"></param><param name="wmode" value="opaque"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.mixcloud.com/media/swf/player/mixcloudLoader.swf?feed=http%3A%2F%2Fwww.mixcloud.com%2Fgembas%2Fgembas-live-dirtybassfm-deep-techstep-neurofunk%2F&embed_uuid=8c34dd3b-993c-4bbc-bf0f-2885dc3073bf&stylecolor=cc3300&embed_type=widget_standard" type="application/x-shockwave-flash" wmode="opaque" allowscriptaccess="always" allowfullscreen="true" width="360" height="360"></embed></object><div style="clear:both; height:3px;"></div><p style="display:block; font-size:12px; font-family:Helvetica, Arial, sans-serif; margin:0; padding: 3px 4px; color:#cc3300;"><a href="http://www.mixcloud.com/gembas/gembas-live-dirtybassfm-deep-techstep-neurofunk/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=resource_link" target="_blank" style="color:#cc3300; font-weight:bold;">Gembas - Live @ Dirtybass.fm (Deep, Techstep, Neurofunk)</a><span> by </span><a href="http://www.mixcloud.com/gembas/?utm_source=widget&amp;utm_medium=web&amp;utm_campaign=base_links&amp;utm_term=profile_link" target="_blank" style="color:#cc3300; font-weight:bold;">Gembas</a><span> on </span><a href="http://www.mixcloud.com/?utm_source=widget&utm_medium=web&utm_campaign=base_links&utm_term=homepage_link" target="_blank" style="color:#cc3300; font-weight:bold;"> Mixcloud</a></p><div style="clear:both; height:3px;"></div></div></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-05-11 22:03:58
+					</div>
+				
+                    <h4>fade - free tracks</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F23031025&amp;auto_play=false&amp;show_artwork=true&amp;color=ff7700"></iframe><iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F17850866&show_artwork=true"></iframe></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-05-11 21:40:15
+					</div>
+				
+                    <h4>Help if you can</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>I am planning to go watch the F1 this year (Race Day 2nd September). I am on a budget of nearly nothing, does anyone live near the circuit and has spare floor space I could use or know any cheap ways of me getting from England to there. </p>
+<p>Drop into IRC if you can help.</p>
+<p>Thanks</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2012-05-02 11:50:20
+					</div>
+				
+                    <h4>Rambling nosense</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Hi Everyone,</p>
+<p>Long time no post, so I thought I would make sure everyone thinks we are still going!</p>
+<p>There was a cracking Sunday set yesterday, thanks to Mr Neuralnet.</p>
+<p>Listen and get yourself to IRC</p>
+<p>NOW </p>
+<p>Please :)</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2012-04-23 15:57:48
+					</div>
+				
+                    <h4>downtime</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>We have been experiencing some downtime for the last couple of hours. Although we are working hard on it we can not promise all services will be stable, for now you can connect to the AAC+ and OGG streams. We will update you once we get everything up and running again..</p>
+<p>EDIT: Shoutcast back up o/</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-04-20 11:04:19
+					</div>
+				
+                    <h4>Kyle interviews the Freestylers</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Kyle caught up with the Freestylers when they visited Perth as part of their Australian tour. Check out <a href="http://www.teknoscape.com.au/features/labeling-the-freestylers-2/">Kyles article</a> on <a href="http://www.teknoscape.com.au">technoscape.com.au</a>. Nice work Kyler!</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by NeuralNET on 2012-03-20 14:53:58
+					</div>
+				
+                    <h4>free track(s) by the sect</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Is it your birthday?</p>
+<p>Oh yes! Two more free tracks from soundcloud coming your way, this time from <a href="http://soundcloud.com/the_sect">The Sect</a>, tracks for download are <a href="http://soundcloud.com/the_sect/the-sect-demons-free-download/download">Demons</a> and <a href="http://soundcloud.com/the_sect/the-sect-deep-freeze/download">Deep Freeze</a>. Thanks guys!</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1674205&show_artwork=true"></iframe></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by NeuralNET on 2012-03-10 18:32:45
+					</div>
+				
+                    <h4>free track(s) by maztek</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>They just keep coming!</p>
+<p>Yet another fine addition to your collection.. This is starting to become a habit!
+This track is called 'Rock the Disco' from the Spanish mentalist <a href="http://soundcloud.com/maztek">MAZTEK</a>.. <a href="http://soundcloud.com/maztek/maztek-rock-da-disco-free/download">You can download it here.</a>. There's also <a href="http://soundcloud.com/maztek/maztek-breakdown-scripture001-forthcoming/download">Breakdown</a> and <a href="http://soundcloud.com/maztek/jack-lomo-sexy-mary-maztek/download">Jack Lomo - Sexy Mary - Maztek remix</a> for free download too. </p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F33576946&show_artwork=true"></iframe></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by NeuralNET on 2012-03-10 18:12:39
+					</div>
+				
+                    <h4>free track: kernel</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>We have another free track for your listening pleasure! This time it's from the giants <a href="http://soundcloud.com/loxy_">Loxy</a> and <a href="http://soundcloud.com/resoundsound">Resound</a> and it's called "Kernel". <a href="https://www.yousendit.com/transfer.php?action=batch_download&amp;send_id=1389329748&amp;email=da25a7debf9a3c0d5b170337c867b173">You can download it here.</a> As a bonus, you can get the <a href="https://www.yousendit.com/download/M3BuS3haTlFlM1RMbjhUQw">Logic project</a> to mess around with and see how the track was made. </p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F38876433&amp;auto_play=false&amp;show_artwork=true&amp;color=cc3300"></iframe></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-03-10 15:16:29
+					</div>
+				
+                    <h4>free track: the tube vip</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>The guys from <a href="http://soundcloud.com/spectrasoul">Spectrasoul</a> are giving away a free VIP of their <a href="http://soundcloud.com/shogunaudio">Shogun Audio</a> release "The Tube", <a href="https://idisk.mac.com/badger15//Public/Spectrasoul-TheTubeVIP.zip">get it from here</a> while you can!</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F39094006&amp;auto_play=false&amp;show_artwork=true&amp;color=cc3300"></iframe></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-03-08 14:44:30
+					</div>
+				
+                    <h4>Be a dbfm dj</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>It's been a while and there has been much whipping of our team of Website Devs (He enjoys it really, but that's a matter between him the dungeon and the police).</p>
+<p>If you are not put off by all this and still want to join the Asylum then try out our new page!!</p>
+<p><a href="http://dirtybass.fm/apply_for_a_dj_slot/">DJ Application Form</a></p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2012-03-05 17:21:22
+					</div>
+				
+                    <h4>integrated dbfm player</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Hi guys, just rolling out the new update. You may have noticed the new tune in button.. it is an integrated audio player which lets you listen to dbfm directly from your browser! Give it a try whenever you don't feel like opening <a href="http://www.videolan.org/vlc/">VLC</a> or <a href="http://www.winamp.com/">winamp</a> :-) It uses a different encoding depending on your browser. You can listen with your favorite player by using the links on top.</p>
+<table>
+  <caption>Codec support in modern desktop browsers</caption>
+  <thead>
+    <tr>
+      <th>Browser</th>
+      <th>AAC+</th>
+      <th>Ogg Vorbis</th>
+      <th>MP3</th>
+      <th>WAV</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr>
+    <td>FireFox 3.6+</td>
+      <td> </td>
+      <td>&#x2717;</td>
+      <td></td>
+      <td>&#x2717;</td>
+    </tr>
+    <tr>
+      <td>Safari 5+</td>
+<td>&#x2717; </td>
+      <td></td>
+      <td>&#x2717;</td>
+      <td>&#x2717;</td>
+    </tr>
+    <tr>
+      <td>Chrome 6</td>
+      <td> </td>
+
+<td>&#x2717;</td>
+      <td>&#x2717;</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Opera 10.5+</td>
+      <td> </td>
+
+<td>&#x2717;</td>
+      <td></td>
+      <td>&#x2717;</td>
+    </tr> 
+    <tr>
+      <td>Internet Explorer 9 (beta)</td>
+      <td> </td>
+
+<td></td>
+      <td>&#x2717;</td>
+      <td>&#x2717;</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We currently support <a href="http://en.wikipedia.org/wiki/High-Efficiency_Advanced_Audio_Coding">AAC</a> for <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://en.wikipedia.org/wiki/Ogg">OGG</a> for <a href="http://www.google.co.uk/chrome">Chrome</a>, <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a> &amp; co. </p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-02-27 16:40:28
+					</div>
+				
+                    <h4>AAC+ stream is up and running again!</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p><img alt="aacplus" src="http://vlietstad.com/images/aac+.jpg" /> For all you guys (and gals) listening to dbfm on your mobile, the AAC+ stream is perfect for you! It is only 32kbps and sounds just like the 192kbps MP3 stream,  <a href="http://dirtybass.fm:1337/dirtybass.aac.m3u">check out the aac+ drum &amp; bass stream!</a> Also don't forget you can <a href="http://dirtybass.fm/shampoo/">request sets at the radio web interface!</a></p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2012-01-17 21:03:17
+					</div>
+				
+                    <h4>Regarding radio instability.</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Sorry guys, we have had a lot of problems with our streaming software because of broken dependencies and buggy third-party libraries but we upgraded to a stable version and updated our configurations files so hopefully the radio should be running smoothly from now (and play all different kinds of fat beats).</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2011-12-12 11:07:30
+					</div>
+				
+                    <h4>We&#39;ve just seen a bloke on a tractor driving round...</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>.... telling everyone the world is about to end…. It was Farmer Geddon.</p>
+<p>So Sorry :)</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-10-19 15:00:28
+					</div>
+				
+                    <h4>Listening to DBFM</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Being able to choon into DBFM via my fillings is an advantage, for those of you that take better care of your teeth this is important information...(ish)...</p>
+<p>Choosing your media player. One word Winamp!</p>
+<p>I recently set about a random download frenzy at work (bit bored) to download the best sounding media player for my nice new headphones. Turns out Winamp (after loading the headset preset equalizer setting) won by a looooong way.</p>
+<p>If your not listening to DBFM via winamp then you could be missing out on a better sound. Give it a whirl, tis free</p>
+<p>BTW If you disagree, hassle me on IRC and give me something else to try.</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-10-12 08:43:01
+					</div>
+				
+                    <h4>Tuesday</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Its not often that I post on a Tuesday (actually its not often I post at all). You may have noticed a bit of IRC trouble yesterday, apparently the Access-IRC had a bit of a bad break up with one of its servers, causing net splits.</p>
+<p>All is back to normal (normal?!?!) now, so swing by and idle like the rest of us (I really know how to sell this don't I?)</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-09-06 09:05:47
+					</div>
+				
+                    <h4>FRIDAYS</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>I have noticed a pattern....</p>
+<p>Friday seems one of the most popular days, I can only assume this is because it crops up on such a regular basis. Wells its here again! Woot I hear you say, yes Woot indeed, for we have a pretty stunning selection of DJ's for you ears to caress.</p>
+<p>Starting with 1900 GMT (ish) is Shooey</p>
+<p>Then prepare for the deep bass that is Neuralnet, he will hold your hand and guide your through the darkness and then leave you there all scared, BUT your ears will love you for it!</p>
+<p>As ever drag yourselves to IRC and join the fun/idleness</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-08-26 11:46:51
+					</div>
+				
+                    <h4>Phreaky Phones</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Not exactly music related, but I listen to DBFM on my phone a lot, I use a HTC HD2 (Leo) it came with Windows Mobile 6.5. I now have it running Android Gingerbread.</p>
+<p>The app i use is Tune In, it has DBFM listed and if you signal is a big shit (Welcome to everywhere i go it seems) then you can press "Options" and choose the 32k AAC stream.</p>
+<p>Anyway here is a little tribute my phone, its nearly geriatric in smart phone terms, but still one of the most developed  phones around.</p>
+<p>Have a read if you have not filled your "Nerd/Geek" quota for the day.</p>
+<p>http://www.xda-developers.com/android/a-tribute-to-the-htc-hd2-part-one/</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-08-26 11:42:13
+					</div>
+				
+                    <h4>Me post you long time</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Ok, someone is going to have to show me how you upload images etc to this page...</p>
+<p>AnyhoooooOOoo</p>
+<p>Long time no post, sorry about that, been busy with evil plans (coming soon).</p>
+<p>Looks like Apple stole the IPAD idea from 2001 space odyssey, well kinda, Samsung are using the film as a patent defence though! Kinda cool no?</p>
+<p>http://www.engadget.com/2011/08/23/samsung-cites-2001-a-space-odyssey-in-apple-case/</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-08-25 08:55:31
+					</div>
+				
+                    <h4>DBFM Competition!!!</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>That's right folks DBFM is running an amazing, once in a life time chance to win....</p>
+<p>FREE OP's for life in our IRC Channel to anyone that goes there and gives me a Google+ Invite </p>
+<p>Nidoh :)</p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by Nidoh on 2011-07-06 18:55:19
+					</div>
+				
+                    <h4>Request app is online!</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Hey guys check our <em>experimental</em> request interface! Please report any bugs so we can take care of them!</p>
+<p><a href="http://dirtybass.fm/shampoo/">Shampoo</a></p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2011-07-01 16:29:52
+					</div>
+				
+                    <h4>Dirty beats radio online!</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p>Hello dear dbfm listeners, I would just like to say that we have all services up and running: </p>
+<ul>
+<li>streams:
+ <a href="http://dirtybass.fm:8000/listen.pls">mp3</a>
+ <a href="http://dirtybass.fm:1337/dirtybass.ogg.ogg.m3u">ogg</a>
+ <a href="http://dirtybass.fm:1337/dirtybass.aac.m3u">aac+</a></li>
+<li><a href="irc://irc.ViSiON-iRC.net/dirtybass.fm">irc</a></li>
+<li>request server (join the chatroom to learn how to request a show you like from the archive)</li>
+</ul>
+<p>We have been surprised to see a spike in listener count recently and we would love to hear what brought you to dirtybass.fm in the shoutbox, the best in jungle and drum &amp; bass! :)</p>
+<p>As always here is a little tune from my <a href="http://soundcloud.com/borfd/favorites">soundcloud favorites</a>, an absolute smasher by one of those most innovative dnb producers today:
+<object height="81" width="100%"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F16617298&amp;show_comments=true&amp;auto_play=false&amp;color=cc3300"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F16617298&amp;show_comments=true&amp;auto_play=false&amp;color=cc3300" type="application/x-shockwave-flash" width="100%"></embed> </object>   <span><a href="http://soundcloud.com/noisia/noisia-phace-program">Noisia &amp; Phace - Program</a> by <a href="http://soundcloud.com/noisia">NOISIA</a></span></p>
+<p><img alt="ingredients recipe book" src="http://www.dnbsource.com/media/images/product_11365.jpg" />
+<br />
+Also check out some tracks from the <em>amazing</em> first Ingredients Records LP:</p>
+<p>I will certainly be playing a couple of those on my <a href="http://dirtybass.fm/podcasts/future-beats/">future beats show</a> tomorrow at about 18:00 GMT time, so be sure to tune in. If you miss it you can always check out the podcasts section for more 174bpm goodness.</p>
+<p><object height="360" width="100%"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F698343&amp;show_comments=false&amp;auto_play=false&amp;show_playcount=false&amp;show_artwork=false&amp;color=cc3300"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="360" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F698343&amp;show_comments=false&amp;auto_play=false&amp;show_playcount=false&amp;show_artwork=false&amp;color=cc3300" type="application/x-shockwave-flash" width="100%"></embed> </object>   <span><a href="http://soundcloud.com/ingredients/sets/recipe-book-lp">Recipe Book LP</a> by <a href="http://soundcloud.com/ingredients">Ingredients:</a></span></p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2011-06-08 16:22:46
+					</div>
+				
+                    <h4>random update</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p><object height="81" width="100%"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F16324092"></param> <param name="allowscriptaccess" value="always"></param> <embed allowscriptaccess="always" height="81" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F16324092" type="application/x-shockwave-flash" width="100%"></embed> </object>  <span><a href="http://soundcloud.com/ramrecords/basher-scripture-feat-xtrah">Basher - Scripture (feat Xtrah &amp; Tactical Thinking) - Digital LP Track Only</a> by <a href="http://soundcloud.com/ramrecords">RAM Records</a></span> </p></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2011-06-02 00:42:49
+					</div>
+				
+                    <h4>New server.</h4>
+                        <div class="news_item_expanded">
+				
+				
+						<div class="news_item_content"><p><img alt="FU rage face" src="http://2.bp.blogspot.com/-1MowcCpgfDs/TbaL2akYQrI/AAAAAAAAAKI/SJZ2OAXBy9g/s320/Fu%2Bface.jpg" title="rage face" /></p>
+<p>We did it again! We managed to break pretty much every piece of software our server ran so we trashed it and got a new one. The old ran an outdated operating system, now we have a shiny new Linux installation with the latest and greatest software.
+<br /></p>
+<p>The good news is we have two new streams for your listening pleasure:</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/High-Efficiency_Advanced_Audio_Coding">AAC+</a> only 32kbps! You can listen to dirtybass.fm even if you are on a dial-up connection hehe! Runs very smooth on Android and iOS devices using Tune In. <a href="http://dirtybass.fm:1337/dirtybass.aac.m3u">Try the AAC+ stream!</a></li>
+<li><a href="http://www.vorbis.com/">OGG</a> This is a <a href="http://en.wikipedia.org/wiki/Variable_bitrate">VBR</a> stream which is approximately 110kbps and is of <em>better</em> quality than the MP3 stream, so listen to this one if your player can handle it. Support open source software! <a href="http://dirtybass.fm:1337/dirtybass.ogg.ogg.m3u">Try the Vorbis stream!</a></li>
+</ul></div>
+			
+                                </div>
+
+					<div class="news_item_info">
+						posted by borfd on 2011-05-20 22:19:39
+					</div>
+				
+
+                        </div>
+
+
+            <div id="tweet" class="grid_6">
+                <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+			<div id="audio" class="grid_6">
+				<h4>Recent Audio</h4>
+				
+				
+				<div id="rai11" class="recent_audio_item">
+					<span>borfd - <q>future beats</q> 2011: a dnb retrospective</span>
+					<div id="audio_overlay_11" class="audio_overlay"> 
+						<p><a href="http://soundcloud.com/influenza-ltd/dirrrty-b-they-dont-know">Dirrrty B - They Don't Know [IM:LTD]</a>  <br />
+<a href="http://soundcloud.com/metalheadz/s-p-y-xenomorph-metalheadz">S.P.Y - Xenomorph [METALHEADZ]</a>  <br />
+<a href="http://soundcloud.com/djfriction/friction-k-tee-set-it-off-icicle-remix">Friction, Ktee - Set it Off (Icicle remix) [SHOGUN]</a>  <br />
+<a href="http://soundcloud.com/dabs/cern-dabs-insight-final">Cern &amp; Dabs - Insight [DISPATCH]</a>  <br />
+<a href="http://soundcloud.com/ulterior-motive-uk/ulterior-motive-2098-clip">Ulterior Motive - 2098 [SUBTITLES]</a>    <br />
+<a href="http://soundcloud.com/nymfo/insignificant-thoughts">Nymfo - Insignificant Thoughts [INNERACTIVE]</a>      <br />
+<a href="http://soundcloud.com/buriedaudio/june-miller-mindmapper-quartz-controlled-clip">June Miller, Mindmapper - Quartz Controlled [BURIED]</a>      <br />
+<a href="http://soundcloud.com/anttc1/spinline-hydro-blindfolded-dispatch-transit-one-album-clip">Spinline &amp; Hydro - Blindfolded [DISPATCH]</a>  <br />
+<a href="http://www.youtube.com/watch?v=LUVNqMh3gqA">Phobia - Clean Break [INGREDIENTS]</a>  <br />
+<a href="http://soundcloud.com/mutednb/mute-mako-lost-sector-recipe-016b">Mute &amp; Mako - Lost Sector [INGREDIENTS]</a>  <br />
+<a href="http://soundcloud.com/hybrisdnb/hybris-lair-revolution">Hybris - Lair [REVOLUTION]</a>  <br />
+<a href="http://www.youtube.com/watch?v=gDcsLzizPqI">Dub Phizix - Domepiece [INGREDIENTS]</a>  <br />
+<a href="http://soundcloud.com/raiden/05-raiden-trellick-b-ton-arm">Raiden - Trellick [OFFKEY]</a>  <br />
+<a href="http://soundcloud.com/dabs/cern-dabs-leverage-dispatch-dis-038">Cern &amp; Dabs - Leverage [DISPATCH]</a>     <br />
+<a href="http://soundcloud.com/enei/enei-z-grab-vip-free-320">ENEI - Z GRAB VIP [MED SCHOOL]</a>  <br />
+<a href="http://soundcloud.com/mcsystem/system-peach-fuzz-snippet-from-mary-anne-hobbs-bbc-radio-1-14th-jan-2010">System - Peach Fuzz [EXIT]</a>  <br />
+<a href="http://soundcloud.com/anttc1/keza-monkey-business-dispatch-transit-one-album-clip/">Keza - Monkey Business [DISPATCH]</a>  <br />
+<a href="http://soundcloud.com/inneractive-music/anile-exclusion-zone">Anile - Exclusion Zone [INNERACTIVE]</a>  <br />
+<a href="http://soundcloud.com/dabs/cern-dabs-oh-the-horror-dispatch-043a">Cern and Dabs - oh the horror! [DISPATCH]</a>  <br />
+<a href="http://www.chemical-records.co.uk/sc/servlet/Info?Track=TRIM014">Zero Method - All Right [TRUST IN MUSIC]</a>  <br />
+<a href="http://soundcloud.com/safirebba/dabs-safire-back-forth-dispatch-recordings">Dabs and Safire - Back &amp; Forth [DISPATCH]</a>  <br />
+<a href="http://soundcloud.com/proximityrecordings/prox007-bazil-reverse-the-curse">Bazil - Reverse The Curse [PROXIMITY]</a>  <br />
+<a href="http://soundcloud.com/octane-dlr/od-feat-gusto-red-mist-dispatch-transit-one">Octane &amp; DLR &amp; Subterra - Red Mist (ft. Gusto) [DISPATCH]</a>  <br />
+<a href="http://soundcloud.com/djebk/ebk-mud">EBK - Mud [DISPATCH]</a>  <br />
+<a href="http://soundcloud.com/spinline/made-guy">Spinline - Made Guy [DISPATCH]</a>  <br />
+<a href="http://soundcloud.com/blackout-music/hybris-bossa-nouveau">Hybris - Bossa Nouveau [BLACKOUT]</a>  <br />
+<a href="http://soundcloud.com/rockwell/rockwell-my-war-clip">Rockwell - My War [SHOGUN]</a>  <br />
+<a href="http://soundcloud.com/fall-out/zero-method-them-mnml-ep">Zero Method - Them [FALLOUT]</a>  <br />
+<a href="http://soundcloud.com/skeptical/skeptical-sphere-ingredients">Skeptical - Sphere [INGREDIENTS]</a>  <br />
+</p> 
+						<!--<a target="_blank" href="/static/podcasts/episodes/files/2011-12-15_9h56m14_01h02m53.mp3">download 224kbps audio/mpeg</a> -->
+                        <a href="/podcasts/future-beats/2011-retrospective/">read more</a>
+					</div>
+				</div>
+				
+				<div id="rai9" class="recent_audio_item">
+					<span>borfd - <q>future beats</q> july 8th</span>
+					<div id="audio_overlay_9" class="audio_overlay"> 
+						<h3>future darkness</h3>
+<ul>
+<li>future signal - replicant [IMLTD022]</li>
+<li>lethal - astral slide (subliminal &amp; alxr remix) [SSNDMP3011]</li>
+<li>alix perez - menacing ways [SHA037]</li>
+<li>nranges &amp; uberman - moth [DBUK002]</li>
+<li>foreign concept &amp; dbr uk - radiation [NZ015X]</li>
+<li>anile &amp; dakosa - replicant [DSM018]</li>
+<li>lost sequence &amp; codeshaper - spice market [DMND002]</li>
+<li>ink &amp; btk - dr umbougu [HWARELP05]</li>
+<li>nymfo - double dutch [SUICIDE057D]</li>
+<li>serum - souped up [COLAB20]</li>
+<li>serum - push it [COLAB20]</li>
+<li>octane &amp; dlr - back in the grind [DIS039]</li>
+<li>ant tc1 - mode destruction [DISLPLTD001]</li>
+<li>ulterior motive - tesla [SUBTITLESUK008]</li>
+<li>misanthrop - sidereal [NSGNL007]</li>
+<li>ryme ryme &amp; optical - twisted [VRS006]</li>
+<li>code 3 - what you sayin? [CRIT055]</li>
+<li>ulterior motive - featherweight vip [SUBUKLTD001]</li>
+<li>seba &amp; physics - the music [SECOPS016]</li>
+</ul>
+<p>SUPPORT THE ARTISTS!</p>
+<p><img alt="qr code" src="http://qrcode.kaywa.com/img.php?s=8&amp;d=http%3A%2F%2Fdirtybass.fm%2Fpodcasts%2Ffuture-beats%2Fjuly-8th%2F" /></p> 
+						<!--<a target="_blank" href="/static/podcasts/episodes/files/borfd_-_future_beats_july_7th.mp3">download 256kbps audio/mpeg</a> -->
+                        <a href="/podcasts/future-beats/july-8th/">read more</a>
+					</div>
+				</div>
+				
+				<div id="rai7" class="recent_audio_item">
+					<span>borfd - <q>future beats</q> may 16</span>
+					<div id="audio_overlay_7" class="audio_overlay"> 
+						<ul>
+<li>Misanthrop - Sidereal</li>
+<li>Cern - Love Of Fear</li>
+<li>Zero T &amp; Bailey - Robots (Ulterior Motive Remix)</li>
+<li>S.P.Y - Favela</li>
+<li>Spinline &amp; Hydro - Blindfolded</li>
+<li>Nymfo - 8 Band</li>
+<li>Telemetrik - Cosmos</li>
+<li>Trei - Day Away</li>
+<li>Break - Time After Time</li>
+<li>Vicious Circle &amp; Jubei - Cloak &amp; Dagger</li>
+<li>Sato - Barn</li>
+<li>Meth - Sleaze</li>
+<li>S.P.Y and Kasra - Surface</li>
+<li>Enei - Z Grab [VIP]</li>
+<li>Icicle - I Feel U</li>
+<li>Icicle - Breathing Again (feat. Proxima)</li>
+<li>Kryptic Minds - One Of Us</li>
+</ul>
+<p>Open the *.cue file for automatic splitting!</p> 
+						<!--<a target="_blank" href="/static/podcasts/episodes/files/borfd_-_future_beats_16.05.11.rar">download kbps </a> -->
+                        <a href="/podcasts/future-beats/may-16/">read more</a>
+					</div>
+				</div>
+				
+				<div id="rai6" class="recent_audio_item">
+					<span>borfd - <q>future beats</q> may 26</span>
+					<div id="audio_overlay_6" class="audio_overlay"> 
+						<p>Episode of "future beats" from may 26. Featuring SpectraSoul, Marcus Intalex, Shy FX, DLR, Future Signal, Icicle, Enei, Ulterior Motive, Break, Jubei, Basher, Nymfo and many more! Open the .cue file with your favorite player to get the tracklisting!</p> 
+						<!--<a target="_blank" href="/static/podcasts/episodes/files/future_beats_may26.rar">download kbps video/mp4</a> -->
+                        <a href="/podcasts/future-beats/may-26/">read more</a>
+					</div>
+				</div>
+				
+			</div>
+			<div id="shoutbox" class="grid_6">
+				<h4>Shoutbox</h4>
+				<div id="chat_messages_container">
+					<div id="chat_messages"></div>
+				</div>
+				<div id="form_wrapper" class="grid_6">
+					
+<form id="shout_form" method="post" action="/chat/send/">
+	<div id="errors">
+		<ul>
+		
+
+		
+		
+		</ul>
+	</div>
+	<div class="field_wrapper">
+		<textarea id="id_user" rows="10" cols="40" name="user">username</textarea>	
+		<textarea id="id_content" rows="10" cols="40" name="content">type in your shout here</textarea>
+	</div>
+	<div class="field_wrapper">
+        <img src="/captcha/image/4777d11afc41309fa9328684793450df672e7772/" alt="captcha" class="captcha" /> <input type="hidden" name="captcha_0" value="4777d11afc41309fa9328684793450df672e7772" id="id_captcha_0" /> <input type="text" name="captcha_1" id="id_captcha_1" />
+		<input class="shout_submit shout_input" type="submit" name="submit" value="shout!" />	
+	</div>
+
+</form>
+
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="container_16 footer">
+			<div class="grid_2">
+
+						<ul>
+							<li><a href="/">home</a></li>
+							<li><a href="/schedule/">schedule</a></li>
+							<li><a href="/about/">about</a></li>
+							<li><a href="/contact/">contact</a></li>
+						</ul>	
+						<ul>
+							<li><a
+							href="/podcasts/">podcasts</a></li>
+						</ul>
+			</div>
+			<div class="grid_2">	
+				<ul>
+				
+					<li>
+						<a href="/djs/#Qx">Qx</a>
+					</li>	
+				
+					<li>
+						<a href="/djs/#Gizzmo">Gizzmo</a>
+					</li>	
+				
+					<li>
+						<a href="/djs/#NeuralNET">NeuralNET</a>
+					</li>	
+				
+					<li>
+						<a href="/djs/#Shooey">Shooey</a>
+					</li>	
+				
+					<li>
+						<a href="/djs/#borfd">borfd</a>
+					</li>	
+				
+				</ul>
+			</div>
+			<div class="grid_4">
+				<ul>
+		
+                    <li><a href="http://dirtybass.fm:1337/dirtybass.ogg.ogg.m3u">ogg (128 kbps)</a></li>
+                    <li><a href="http://dirtybass.fm:1337/dirtybass.aac.m3u">aac+ (32 kbps)</a></li>
+                    <li><a href="http://dirtybass.fm:8000/listen.pls">mp3 (192 kbps)</a></li>	
+	
+				</ul>
+
+			       <ul>
+				       <li><a
+				       href="irc://irc.ViSiON-iRC.net/dirtybass.fm">connect
+				       to irc</a></li>
+				       <li><a
+				       href="http://www.mibbit.com/chat/?server=irc.vision-irc.net&amp;channel=%23dirtybass.fm">java
+				       irc client</a></li>
+				       <li><a href="http://dirtybass.fm/dbfmirc.html">stats</a></li>
+			       </ul>
+			</div>
+		
+			<div class="grid_8">
+				<p>
+				we'd love to talk to you in our irc channel. 
+                </p>
+                <p>
+                please mail suggestions and bug
+				reports to <br />"nazz AT dirtybass fm".
+				</p>
+                 <span class="version"> </span>
+			</div>
+		</div>
+</HTML>

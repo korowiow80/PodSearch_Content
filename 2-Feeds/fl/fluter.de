@@ -1,0 +1,1319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>fluter.de </title>
+<!--fluter2010/index.tpl / http://www.fluter.de/de/112/-->
+<link rel="canonical" href="http://www.fluter.de" /><link rel="SHORTCUT ICON" href="/templates/fluter2010/css/may/img/favicon.ico" type="image/x-icon">
+<link rel="alternate" 
+      type="application/rss+xml" 
+      title="RSS" 
+      href="http://www.fluter.de/de/?tpl=907" />
+<META NAME="DESCRIPTION" CONTENT="fluter - Das Jugendmagazin der Bundeszentrale für politische Bildung - als Heft und online">
+<META NAME="KEYWORDS" CONTENT="Gesellschaft, Politik, Kultur, Film, Musik, Lesen, Erfahrungen, Video">
+<meta name="author" content="Bundeszentrale f&uuml;r politische Bildung">
+<META name="REVISIT-AFTER" content="1 day"> 
+<META HTTP-EQUIV="CONTENT-LANGUAGE" content="de">
+<META HTTP-EQUIV="CONTENT-TYPE" content="text/html; charset=utf-8">
+<META name="ROBOTS" content="all"> 
+
+
+<link rel="stylesheet" href="/templates/fluter2010/css/may/main.css" />
+<link rel="stylesheet" href="/templates/fluter2010/css/may/phorum.css" />
+<link rel="stylesheet" href="/templates/fluter2010/css/may/micz.css" />
+<script type="text/javascript" src="/templates/fluter2010/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/templates/fluter2010/js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="/templates/fluter2010/js/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="/templates/fluter2010/js/jquery.usermode.js"></script>
+<script type="text/javascript" src="/templates/fluter2010/js/ui.checkbox.js"></script>
+<script type="text/javascript" src="/templates/fluter2010/js/tooltip.js"></script>
+<!-- slide show editorial front page -->
+<script type="text/javascript" src="/templates/fluter2010/js/jquery.innerfade.js"></script>
+
+<script type="text/javascript">
+// editorial slideshow front page
+$(document).ready(
+        function(){
+            $('#news').innerfade({
+                animationtype: 'slide',
+                speed: 750,
+                timeout: 2000,
+                type: 'random',
+                containerheight: '1em'
+            });
+            
+            $('ul#portfolio').innerfade({
+                speed: 1000,
+                timeout: 5000,
+                type: 'sequence',
+                containerheight: '220px'
+            });
+            
+            $('.fade').innerfade({
+                speed: 1000,
+                timeout: 6000,
+                type: 'random_start',
+                containerheight: '1.5em'
+            });
+            
+            $('.adi').innerfade({
+                speed: 'slow',
+                timeout: 5000,
+                type: 'random',
+                containerheight: '150px'
+            });
+
+    });
+
+// carousel sections and front page
+$(document).ready(function() {
+  $('#carouselList7').jcarousel({
+    scroll: 6,
+    visible: 7
+  });
+});
+$(document).ready(function() {
+  $('#carouselList6').jcarousel({
+    scroll: 6,
+    visible: 6
+  });
+});
+$(document).ready(function() {
+    // Carousel
+    $('ul.archiveSlider').jcarousel({
+        scroll: 1,
+        visible: 1
+    });
+});
+</script>
+<script type="text/javascript">
+$(function(){
+  $('input[type=radio]').checkBox();
+});
+
+// display / hide e.g. login
+var anzeige = 0;
+function faq(faqthema)
+{
+    if (document.getElementById(faqthema)) {
+        if (anzeige == 0) {
+            document.getElementById(faqthema).style.visibility="visible";
+            anzeige = 1;
+        }
+        else {
+            document.getElementById(faqthema).style.visibility="hidden";
+            anzeige = 0;
+        }
+    }
+}
+function faq_hidden(faqthema)
+{
+    document.getElementById(faqthema).style.visibility="hidden";
+    anzeige = 0;
+}
+// popup help
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function popup_lemmata(guid){
+    win=open("http://www.bpb.de/popup/popup_lemmata.html?guid="+guid,"Lemmata","width=470,height=500,resizable=yes,scrollbars=yes,dependent=no");
+    win.focus();
+}
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+                           
+    // IE fix for submenu
+    if ($.browser.msie) {
+        $("ul.mainNavigation li").hover(
+            function () {$(this).children('ul').show();},
+            function () {$(this).children('ul').hide();}
+        );
+    }
+});
+</script>
+
+<!--[if lte IE 6]>
+<style type="text/css">@import url(/templates/fluter2010/css/may/ie6.css);</style>
+<script type="text/javascript" src="/templates/fluter2010/js/iepngfix_tilebg.js"></script>
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17335366-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript" src="/templates/fluter2010/js/socialshareprivacy/jquery.socialshareprivacy.js"></script>
+<script type="text/javascript">
+  jQuery(document).ready(function($){
+    if($('#socialshareprivacy').length > 0){
+      $('#socialshareprivacy').socialSharePrivacy({
+        css_path: '/templates/fluter2010/js/socialshareprivacy/socialshareprivacy/socialshareprivacy.css',
+        services : {
+          facebook: {
+            dummy_img: '/templates/fluter2010/js/socialshareprivacy/socialshareprivacy/images/dummy_facebook.png',
+            action: 'like'
+          },
+          twitter : {
+            dummy_img: '/templates/fluter2010/js/socialshareprivacy/socialshareprivacy/images/dummy_twitter.png'
+          },
+          gplus: {
+            dummy_img: '/templates/fluter2010/js/socialshareprivacy/socialshareprivacy/images/dummy_gplus.png'
+          }
+        }
+      }); 
+    }
+  });
+</script>
+
+<meta property="og:url" content="http://www.fluter.de/de/112/" />
+  <meta property="og:title" content="fluter.de " />
+  <meta property="og:description" content="fluter - Das Jugendmagazin der Bundeszentrale für politische Bildung - als Heft und online" />
+  <meta property="og:image" content="http://www.fluter.de/de/112/?tpl=5865" />
+
+
+<!-- tpl> tpl/header_index.tpl -->
+
+</head>
+<body>
+
+  <div class="container_12">
+<!-- <tpl tpl/header_logologinsearch.tpl -->
+<div id="header" class="grid_12">
+
+
+
+
+            <h1>
+                              
+                <a href="http://www.fluter.de/de/112/" class="logo">FLUTER </a>
+                          </h1>
+
+            <div id="loginHolder">
+            
+              <ul>
+<!-- <tpl tpl/com_header_logologinsearch.tpl -->
+  <li>
+    <span id="loginform" >
+      <form name="loginform" action="/" method="post">
+        <input type="hidden" name="login" value="Login">
+        
+        &nbsp;
+        <label>Name:</label><input type="text" name="LoginUName" value="" />
+        <label>Kennwort:</label><input type="password" name="LoginPassword" value="" />
+        <!-- <input type="checkbox" name="keep_login" value="1" style="vertical-align: bottom">  -->
+        <input type="submit" name="login" value="Login" class='SUBMIT_black'>
+           
+              </form>
+    </span>
+    <a href="#" onclick="faq('loginform');">LOGIN</a>
+  </li>
+<!-- a href="http://www.fluter.de/de/112/100/?from=http%3A%2F%2Fwww.fluter.de%2Fde%2F112%2F" class="modules_headline">Ich m&ouml;chte mich registrieren</a /-->
+
+<!-- tpl> tpl/com_header_logologinsearch.tpl -->
+
+
+
+
+<li><a href="http://info.fluter.de/de/info/40/2299/">&Uuml;BER FLUTER</a></li>
+
+
+<li><a href="http://info.fluter.de/de/info/impressum/2243/">IMPRESSUM</a></li>
+<!--                     <li><a href="#">KONTAKT</a></li> -->
+<!--                     <li><a href="#">NEWSLETTER</a></li> -->
+
+
+
+
+                        <li><a href="http://www.fluter.de/de/112/heft/">FLUTER-HEFT</a></li>
+<!--                     <li><a href="#">LINKS</a></li> -->
+                </ul>
+
+                <a href="http://www.facebook.com/fluter.de" class="fbLink" target="_blank">Follow us on facebook</a>
+                <a href="http://twitter.com/flutermag" class="tweetLink" target="_blank">Follow us on Twitter</a>
+                <a href="http://www.fluter.de/de/?tpl=907" class="rssLink">RSS</a>
+                
+<form name="search_articles" action="/de/112/heft/" method="post" class='FORM_suche'>
+<input type="hidden" name="tpl" value="906" />
+    <input type="text" name="f_search_keywords" maxlength="255" size="10" value="" id="keywords_header" />
+<input type="submit" name="f_search_articles" value="Suche"  value='Suche' class='SUBMIT_black' />
+</form>
+        <form method=get name="ms_wis_search" action="http://www.bpb.de/wissen/H75VXG,,.html" class="FORM_lexikon" target="bpb_lexikon" onSubmit="window.open('', 'bpb_lexikon', 'width=800,height=400,status=yes,resizable=yes,scrollbars=yes')">
+            <input type=hidden name=wis_search_action value="search">
+            <input type=hidden name="wis_pocketpolitik" value="4">
+            <input type=hidden name="wis_pocketeuropa" value="64">
+            <input type=hidden name="wis_schubertklein" value="1">
+            <input type=hidden name="wis_andersenwoyke" value="2">
+            <input type=hidden name="wis_wirtschaft" value="8">
+            <input type=hidden name="wis_islam" value="16">
+            <input type=hidden name="wis_fischer" value="32">
+            <input type="text"  value='' name="wis_search_alltext">
+            <input type="submit" name="suche" value="Lexikon" class='SUBMIT_black'>
+<!--                     <input type="button" class="searchButton"/> -->
+        </form>
+</div><!--id="header" class="grid_12"-->
+<!-- tpl> tpl/header_logologinsearch.tpl --><div class="clear"></div>
+<!-- <tpl tpl/nav_index.tpl -->
+<ul class="mainNavigation">
+
+
+<!-- THEMA -->
+
+
+
+
+
+
+
+
+
+<li class="redLink "><a href="http://www.fluter.de/de/112/thema/" class="redLink">Thema</a>
+                  <ul>
+
+
+<li><a href="http://www.fluter.de/de/112/thema/">Ausbildung 2.0</a></li>
+<li><a href="http://www.fluter.de/de/111/thema/">Kunst</a></li>
+<li><a href="http://www.fluter.de/de/110/thema/">Frankreich</a></li>
+<li><a href="http://www.fluter.de/de/109/thema/">Nazis</a></li>
+<li><a href="http://www.fluter.de/de/idole/thema/">Idole</a></li>
+<li><a href="http://www.fluter.de/de/waehrung/thema/">Euro, Dollar, Yen</a></li>
+<li><a href="http://www.fluter.de/de/geld/thema/">Geld</a></li>
+<li><a href="http://www.fluter.de/de/krisen/thema/">Krisen</a></li>
+<li><a href="http://www.fluter.de/de/niederlande/thema/">Nachbar Niederlande</a></li>
+<li><a href="http://www.fluter.de/de/protestieren/thema/">Protest im Netz</a></li>
+<li><a href="http://www.fluter.de/de/freundfeind/thema/">Freund & Feind</a></li>
+
+
+
+
+<li><a href="http://www.fluter.de/de/112/editor/">Themen-Archiv (1-112)</a></li>
+<!--                         <li><a href="#">FOKUS-ARCHIV</a></li> -->
+                    </ul>
+</li>
+
+<!-- FOKUS -->
+
+
+<li class="grayLink "><a href="http://www.fluter.de/de/112/aktuell/" class="grayLink">Fokus</a>
+<ul>
+<li><a href="http://www.fluter.de/de/111/aktuell/10431/">Die AUFmacher</a></li>
+<li><a href="http://www.fluter.de/de/111/aktuell/10432/">Kriegsähnliche Zustände</a></li>
+<li><a href="http://www.fluter.de/de/109/aktuell/10216/">Es bleibt die Ungewissheit</a></li>
+<li><a href="http://www.fluter.de/de/idole/aktuell/10202/">Russland soll frei sein</a></li>
+<li><a href="http://www.fluter.de/de/waehrung/aktuell/10107/">Stromsparen als Volkssport?</a></li>
+<li><a href="http://www.fluter.de/de/waehrung/aktuell/10088/">Wie grün ist die Wolke?</a></li>
+<li><a href="http://www.fluter.de/de/krisen/aktuell/9854/">Mit Bildern gegen das Virus</a></li>
+<li><a href="http://www.fluter.de/de/protestieren/aktuell/9730/">Berauschter Grenzverkehr</a></li>
+<li><a href="http://www.fluter.de/de/protestieren/aktuell/9703/">"Wir sind alle Sünder"</a></li>
+<li><a href="http://www.fluter.de/de/protestieren/aktuell/9675/">"Al Qaida ist gescheitert"</a></li>
+<li><a href="http://www.fluter.de/de/freundfeind/aktuell/9474/">Alles am Anfang</a></li>
+<li><a href="http://www.fluter.de/de/freundfeind/aktuell/9475/">Do-it-yourself auf acht Rollen</a></li>
+</ul>
+</li>
+
+<!-- FILM -->
+
+
+
+
+<li class="blueLink "><a href="http://film.fluter.de/de/476/" class="blueLink">Film</a>
+                  <ul>
+<li><a href="http://film.fluter.de/de/476/kino/">Neu im Kino</a></li>
+<li><a href="http://film.fluter.de/de/476/heimkino/">Heimkino</a></li>
+<li><a href="http://film.fluter.de/de/476/film/">Hintergrund</a></li>
+<li><a href="http://film.fluter.de/de/476/film/?tpl=1245">A-Z FILM</a></li>
+<!--                         <li><a href="#">UMFRAGE</a></li> -->
+<!--                         <li><a href="#">A-Z FILM</a></li> -->
+                    </ul>
+</li>
+
+<!-- Lesen -->
+
+
+
+
+<li class="yellowLink "><a href="http://www.fluter.de/de/112/lesen/" class="yellowLink">Lesen</a>
+                  <ul>
+<li><a href="http://www.fluter.de/de/112/literatur/">Aktuell</a></li>
+<li><a href="http://www.fluter.de/de/112/buecher/">Neu im Laden</a></li>
+<li><a href="http://www.fluter.de/de/112/lesetipp/">Lesetipp</a></li>
+                    </ul>
+                </li>
+
+<!-- MUSIK -->
+
+
+<li class="tirkizLink "><a href="http://www.fluter.de/de/112/musik/" class="tirkizLink">Musik</a>
+                    <ul>
+<li><a href="http://www.fluter.de/de/112/schulband/">Schulband</a></li>
+<li><a href="http://www.fluter.de/de/112/songtext/">Songtext</a></li>
+                    </ul>
+</li>
+
+<!-- ERFAHRUNGEN -->
+
+
+<li class="pinkLink "><a href="http://www.fluter.de/de/112/erfahrungen/" class="pinkLink">Erfahrungen</a>
+<ul>
+<li><a href="http://www.fluter.de/de/111/erfahrungen/10433/">"Das ist ein geiles Gefühl"</a></li>
+<li><a href="http://www.fluter.de/de/111/erfahrungen/10416/">Die Welt ist Kunst</a></li>
+<li><a href="http://www.fluter.de/de/111/erfahrungen/10397/">Es geht auch einfacher</a></li>
+<li><a href="http://www.fluter.de/de/110/erfahrungen/10322/">"Gleichberechtigung sollte selbstverständlich sein"</a></li>
+<li><a href="http://www.fluter.de/de/110/erfahrungen/10320/">"Willige Opfer der deutsch-französischen Freundschaft"</a></li>
+<li><a href="http://www.fluter.de/de/109/erfahrungen/10291/">Auf Sendung im Slum</a></li>
+<li><a href="http://www.fluter.de/de/109/erfahrungen/10233/">Sie sprechen ja fantastisch Deutsch!</a></li>
+<li><a href="http://www.fluter.de/de/idole/erfahrungen/10186/">Timo fühlt sich todkrank</a></li>
+<li><a href="http://www.fluter.de/de/idole/erfahrungen/10159/">Ab in den Osten!</a></li>
+<li><a href="http://www.fluter.de/de/waehrung/erfahrungen/10122/">Ich habe nie das Gefühl, parteiisch zu sein</a></li>
+<li><a href="http://www.fluter.de/de/waehrung/erfahrungen/10104/">Kleine Patienten, große Sorgen</a></li>
+<li><a href="http://www.fluter.de/de/geld/erfahrungen/10073/">Studiengebühren? Jein!</a></li>
+</ul>
+</li>
+<!-- DOSSIERS -->
+<style>
+
+/* Dossier hiding */
+li.topic88,
+li.topic85,
+li.topic81,
+li.topic86,
+li.topic84,
+li.topic93
+ { display: none!important; }
+</style>
+<li class="purpleLink"><a href="#" class="purpleLink">Dossiers</a>
+                  <ul>
+
+
+<li><a href="http://www.fluter.de/de/112/berufe/">Berufe</a></li>
+
+
+<li class="topic79"><a href="/de/112/?tpid=79&amp;tpl=1671" class="topic79">
+Deutschland
+</a></li>
+<li class="topic58"><a href="/de/112/?tpid=58&amp;tpl=1671" class="topic58">
+Ausbildung
+</a></li>
+<li class="topic81"><a href="/de/112/?tpid=81&amp;tpl=1671" class="topic81">
+Fußball
+</a></li>
+<li class="topic82"><a href="/de/112/?tpid=82&amp;tpl=1671" class="topic82">
+Israel und Palästina
+</a></li>
+<li class="topic83"><a href="/de/112/?tpid=83&amp;tpl=1671" class="topic83">
+Migration
+</a></li>
+<li class="topic86"><a href="/de/112/?tpid=86&amp;tpl=1671" class="topic86">
+Energie
+</a></li>
+<li class="topic85"><a href="/de/112/?tpid=85&amp;tpl=1671" class="topic85">
+Klima
+</a></li>
+<li class="topic84"><a href="/de/112/?tpid=84&amp;tpl=1671" class="topic84">
+Terror
+</a></li>
+<li class="topic87"><a href="/de/112/?tpid=87&amp;tpl=1671" class="topic87">
+USA
+</a></li>
+<li class="topic88"><a href="/de/112/?tpid=88&amp;tpl=1671" class="topic88">
+Reality TV
+</a></li>
+<li class="topic91"><a href="/de/112/?tpid=91&amp;tpl=1671" class="topic91">
+Deutschland und Europa
+</a></li>
+<li class="topic92"><a href="/de/112/?tpid=92&amp;tpl=1671" class="topic92">
+Islam
+</a></li>
+<li class="topic93"><a href="/de/112/?tpid=93&amp;tpl=1671" class="topic93">
+Berlin08
+</a></li>
+<li class="topic95"><a href="/de/112/?tpid=95&amp;tpl=1671" class="topic95">
+Auslandserfahrungen
+</a></li>
+<li class="topic96"><a href="/de/112/?tpid=96&amp;tpl=1671" class="topic96">
+Umwelt
+</a></li>
+<li class="topic98"><a href="/de/112/?tpid=98&amp;tpl=1671" class="topic98">
+Wirtschaft
+</a></li>
+<li class="topic99"><a href="/de/112/?tpid=99&amp;tpl=1671" class="topic99">
+Arbeit
+</a></li>
+<li class="topic100"><a href="/de/112/?tpid=100&amp;tpl=1671" class="topic100">
+Studium
+</a></li>
+<li class="topic101"><a href="/de/112/?tpid=101&amp;tpl=1671" class="topic101">
+Engagement
+</a></li>
+                    </ul>
+                </li><!-- MEDIATHEK -->
+<li class="greenLink"><a href="#" class="greenLink">Mediathek</a>
+                  <ul>
+
+
+                      <li><a href="http://www.fluter.de/de/112/tv/">Video</a></li>
+
+
+                        <li><a href="http://www.fluter.de/de/112/foto/">Foto</a></li>
+
+
+
+                        <li><a href="http://www.fluter.de/de/112/podcasts/">Audio</a></li>
+<!--                         <li><a href="#">Flash</a></li> -->
+                    </ul>
+                </li>
+<!-- MITMACHEN -->
+<li class="orangeLink"><a href="#" class="orangeLink">Mitmachen</a>
+                  <ul>
+<!-- <tpl tpl/com_nav_index_mitmachen.tpl -->
+
+
+
+
+<!--                         <li><a href="http://www.fluter.de/de/112/mitmachen/">MITMACHEN</a></li> -->
+
+                        <li><a href="http://www.fluter.de/de/112/forum/list.php?f=1">Foren</a></li>
+
+                        <li><a href="http://www.fluter.de/de/112/blogs/">Blogs</a></li>
+
+                        <li><a href="http://www.fluter.de/de/112/deinblog/">Dein Blog</a></li>
+                        
+                        <li><a href="http://www.fluter.de/de/112/umfrage/">Umfrage</a></li>
+
+
+
+
+
+  <li><a href="http://info.fluter.de/de/quiz/">Quiz</a></li>
+
+
+
+
+
+    <li><a href="http://www.fluter.de/de/111/aktionen/10478/">Aktion</a></li>
+
+<!--                         <li><a href="http://www.fluter.de/de/112/test/">Quiz</a></li> -->
+
+<!--                         <li><a href="http://www.fluter.de/de/112/kalender/">Termine</a></li> -->
+
+<!--                         <li><a href="http://www.fluter.de/de/112/180/">Deine Erfahrung</a></li> -->
+
+                        <li>    <li><a href="http://www.fluter.de/de/112/100//?from=http%3A%2F%2Fwww.fluter.de%2F">Registrieren</a></li>
+</li>
+
+<li><a href="http://www.fluter.de/de/112/newsletter/">Newsletter</a></li>
+
+<!-- tpl> tpl/com_nav_index_mitmachen.tpl -->                    </ul>
+                </li>
+</ul>
+<!-- tpl> tpl/nav_index.tpl --></div><!-- id="header"-->
+
+  <!--<tpl tpl/index_frontpage.tpl -->
+        <!-- Full Width End -->
+        <div class="clear"></div>
+        <div id="leftColumn" class="grid_8">  
+          <ul class="articleList">
+          
+                            
+<!-- show blog post first -->
+  
+  <li class="level-1 orange">
+    <div class="infoImage">
+      <div class="innerInfoImage">
+          <a href="http://www.fluter.de/de/112/blogs/?IdBlog=0"><img src="http://www.fluter.de/templates/fluter2010/css/may/img/blog430_©complize_photocase.com.jpg" class="img430x269"></a><!-- <tpl tpl/check_media.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media.tpl -->          <span class="badgeHolder">
+                         7.06.<br />
+            2012
+          </span>
+      </div>
+    </div>
+    
+    <div class="infoText">
+      <h3>fluter-Blogs</h3>
+      <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl -->      <h2><a href="http://www.fluter.de/de/112/blogs/?IdBlog=0">Was bewegt euch?</a></h2>
+      <p>In den fluter-Blogs findest du aktuelle Beitr&auml;ge anderer Leser und Leserinnen. 
+Wenn du was zu sagen hast, kannst du auch selber auf fluter schreiben. 
+Registriere dich jetzt und mach mit! </p>
+    </div>
+    
+    <a href="http://www.fluter.de/de/112/blogs/?IdBlog=0" class="moreLink">&raquo;</a>
+  </li>
+
+    
+
+                    
+    <li class="level-2 red">
+      <div class="infoImage">
+        <div class="innerInfoImage">
+                                               <a href="http://www.fluter.de/de/112/thema/10436/"><!-- <tpl tpl/img/img310x194.tpl -->
+     
+      <img src="/get_img?NrImage=72&amp;NrArticle=10436" class="img310x194">
+    <!-- tpl> tpl/img/img310x194.tpl --></a><!-- <tpl tpl/check_media.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media.tpl -->                                
+                  </div>
+      </div>
+     
+      <div class="infoText">
+        <h3>Thema</h3>
+        <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl -->        <h2><a href="http://www.fluter.de/de/112/thema/10436/">"Ich habe nicht das Gefühl, dass das Lesen in Gefahr ist"</a></h2>
+        <p>Auf volkslesen.tv findet man kurze Videos von Menschen, die aus ihren Lieblingsb&uuml;chern vorlesen.</p>
+      </div>
+     
+      <a href="http://www.fluter.de/de/112/thema/10436/" class="moreLink">&raquo;</a>
+    </li>  	       
+    
+
+                    
+    <li class="level-2 red">
+      <div class="infoImage">
+        <div class="innerInfoImage">
+                                               <a href="http://www.fluter.de/de/112/thema/10471/"><!-- <tpl tpl/img/img310x194.tpl -->
+     
+      <img src="/get_img?NrImage=72&amp;NrArticle=10471" class="img310x194">
+    <!-- tpl> tpl/img/img310x194.tpl --></a><!-- <tpl tpl/check_media.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media.tpl -->                                
+                  </div>
+      </div>
+     
+      <div class="infoText">
+        <h3>Thema</h3>
+        <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl -->        <h2><a href="http://www.fluter.de/de/112/thema/10471/">Der lange Atem</a></h2>
+        <p>Erfolg kommt von innen. Wirklich?&nbsp;Philipp Weber hat f&uuml;r euch einmal versucht herauszufinden, wie viel Motivation und Durchhalteverm&ouml;gen ihr braucht, um erfolgreich zu sein.</p>
+      </div>
+     
+      <a href="http://www.fluter.de/de/112/thema/10471/" class="moreLink">&raquo;</a>
+    </li>  	       
+    
+
+             </ul>        
+        </div>
+        <div id="rightColumn" class="grid_4">
+<!-- <tpl tpl/index_topright.tpl --> 
+<ul class="sidebar">
+  
+  
+  
+  
+  
+    
+    
+    <li class="red">
+      <div class="infoImageThema">
+        <span class="badgeHolder">
+          
+          
+          
+          
+          
+          THEMA<br>
+          Ausbildung 2.0
+        </span>
+        
+        
+        
+        
+        
+        
+        <ul id="portfolio">
+                      <li><a href="http://www.fluter.de/de/112/thema/"><img src="/get_img?NrImage=1&amp;NrArticle=10477" class="img280x175"></a></li>            <li><a href="http://www.fluter.de/de/112/thema/"><img src="/get_img?NrImage=2&amp;NrArticle=10477" class="img280x175"></a></li>            <li><a href="http://www.fluter.de/de/112/thema/"><img src="/get_img?NrImage=3&amp;NrArticle=10477" class="img280x175"></a></li>                                                                  </ul> 
+      </div>
+      
+      
+      
+      
+      
+      <h4 class="sidebarHeading">Willkommen auf fluter.de</h4>
+      <p>
+      Hier kannst du deinen eigenen Blog er&ouml;ffnen und uns im Mai        deine Meinung zu unserem Monatsthema "Kunst" sagen.
+      
+      <ul class="arrowList">
+        
+        
+        
+        <li><a href="http://www.fluter.de/de/112/deinblog/">Dein Blog</a></li>
+      </ul>
+    </li>
+    
+  <li>
+    <div class="infoImage rightImage">
+      
+      
+      
+            <a href="http://www.fluter.de/de/109/heft/10252/"><img src="/get_img?NrImage=80&amp;NrArticle=10252"></a>
+    </div>
+    
+    <div class="span-124">
+      <h4>fluter-Heft</h4>
+      
+      <ul class="arrowList">
+        <li><a href="http://www.fluter.de/de/109/heft/10252/">Inhalt</a></li>
+                <li><a href="http://fluter.fsd.de/" target="_blank">Abonnieren</a></li>
+        
+        
+        
+        <li><a href="http://www.fluter.de/de/112/heft/">Heft-Archiv</a></li>
+        <li><a href="/de/112/forum/list.php?f=19">FEEDBACK</a></li>
+      </ul>
+    </div>
+    
+    <div class="clear"></div>
+  </li>
+
+  <li>
+    <span class="badgeLogo"> </span>
+    <h4>Aktuell auf www.bpb.de</h4>
+    <ul class="arrowList">
+      <!-- <tpl tpl/bpblinks.tpl -->
+
+<li><a href="http://www.bpb.de/gesellschaft/kultur/kulturelle-bildung/135133/erzaehlen-und-literatur" target="blank">Dossier kulturelle Bildung: <br> Erzählen und Literatur</a></li>
+<li><a href="http://www.bpb.de/politik/hintergrund-aktuell/137230/jahresbericht-amnesty-international" target="blank">Gebildet über Menschenrechte - Der  aktuelle Jahresbericht von Amnesty International</a></li>
+<li><a href="http://www.eurotopics.net/de/home/presseschau/aktuell.html" target="blank">euro|topics Presseschau</a></li>
+
+<!-- <tpl tpl/bpblinks.tpl -->    </ul>
+  </li>
+</ul>
+<!-- tpl> tpl/index_topright.tpl -->        </div>
+        <!-- Two Columns End -->
+        <div class="clear"></div>
+<!--NEU IM KINO-->
+<!--<tpl tpl/index_carousel_neuimkino.tpl -->
+
+
+
+
+        <div id="carouselHolder" class="grid_12 blue">
+           <ul id="carouselList7" class="jcarousel-skin-tango">
+<li>
+<img src="/get_img?NrImage=54&amp;NrArticle=10456" alt="Neu im Kino" title="" class="imgsquare110">
+
+<span class="badgeHolder">NEU IM KINO</span></li>
+
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10463/" class="tooltip" title="Ehre">
+<img src="/get_img?NrImage=54&amp;NrArticle=10463" alt="Ehre" title="">
+</a>
+<span class="tooltip" id="film10463" style="visibility: hidden;"><strong>Ehre</strong><br>
+Ein falsches Wort genügt</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10453/" class="tooltip" title="Wie zwischen Himmel und Erde">
+<img src="/get_img?NrImage=54&amp;NrArticle=10453" alt="Wie zwischen Himmel und Erde" title="">
+</a>
+<span class="tooltip" id="film10453" style="visibility: hidden;"><strong>Wie zwischen Himmel und Erde</strong><br>
+Kitsch as Kitsch can</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10462/" class="tooltip" title="Im Garten der Klänge">
+<img src="/get_img?NrImage=54&amp;NrArticle=10462" alt="Im Garten der Klänge" title="">
+</a>
+<span class="tooltip" id="film10462" style="visibility: hidden;"><strong>Im Garten der Klänge</strong><br>
+Die hörbare Welt</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10465/" class="tooltip" title="Buck - Der wahre Pferdeflüsterer">
+<img src="/get_img?NrImage=54&amp;NrArticle=10465" alt="Buck - Der wahre Pferdeflüsterer" title="">
+</a>
+<span class="tooltip" id="film10465" style="visibility: hidden;"><strong>Buck - Der wahre Pferdeflüsterer</strong><br>
+Mit Zuckerbrot und ohne Peitsche</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10457/" class="tooltip" title="Parabeton – Pier Luigi Nervi und römischer Beton">
+<img src="/get_img?NrImage=54&amp;NrArticle=10457" alt="Parabeton – Pier Luigi Nervi und römischer Beton" title="">
+</a>
+<span class="tooltip" id="film10457" style="visibility: hidden;"><strong>Parabeton – Pier Luigi Nervi und römischer Beton</strong><br>
+Eintauchen in Räume</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10454/" class="tooltip" title="Tabu - Es ist die Seele ein Fremdes auf Erden">
+<img src="/get_img?NrImage=54&amp;NrArticle=10454" alt="Tabu - Es ist die Seele ein Fremdes auf Erden" title="">
+</a>
+<span class="tooltip" id="film10454" style="visibility: hidden;"><strong>Tabu - Es ist die Seele ein Fremdes auf Erden</strong><br>
+Verbotene Liebe</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10456/" class="tooltip" title="Safe - Todsicher">
+<img src="/get_img?NrImage=54&amp;NrArticle=10456" alt="Safe - Todsicher" title="">
+</a>
+<span class="tooltip" id="film10456" style="visibility: hidden;"><strong>Safe - Todsicher</strong><br>
+Mit Knarre und Herz</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10461/" class="tooltip" title="Leb wohl, meine Königin!">
+<img src="/get_img?NrImage=54&amp;NrArticle=10461" alt="Leb wohl, meine Königin!" title="">
+</a>
+<span class="tooltip" id="film10461" style="visibility: hidden;"><strong>Leb wohl, meine Königin!</strong><br>
+Die Vorleserin</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10458/" class="tooltip" title="Meine Freiheit, deine Freiheit">
+<img src="/get_img?NrImage=54&amp;NrArticle=10458" alt="Meine Freiheit, deine Freiheit" title="">
+</a>
+<span class="tooltip" id="film10458" style="visibility: hidden;"><strong>Meine Freiheit, deine Freiheit</strong><br>
+Zwei Frauen am Rande</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10464/" class="tooltip" title="Bulb Fiction">
+<img src="/get_img?NrImage=54&amp;NrArticle=10464" alt="Bulb Fiction" title="">
+</a>
+<span class="tooltip" id="film10464" style="visibility: hidden;"><strong>Bulb Fiction</strong><br>
+Es werde Licht!</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10460/" class="tooltip" title="LOL ">
+<img src="/get_img?NrImage=54&amp;NrArticle=10460" alt="LOL " title="">
+</a>
+<span class="tooltip" id="film10460" style="visibility: hidden;"><strong>LOL </strong><br>
+Dieselbe Story, anderes Land</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10459/" class="tooltip" title="Mark Lombardi - Kunst und Konspiration">
+<img src="/get_img?NrImage=54&amp;NrArticle=10459" alt="Mark Lombardi - Kunst und Konspiration" title="">
+</a>
+<span class="tooltip" id="film10459" style="visibility: hidden;"><strong>Mark Lombardi - Kunst und Konspiration</strong><br>
+Der Weg des Geldes</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/476/kino/10455/" class="tooltip" title="Snow White & the Huntsman">
+<img src="/get_img?NrImage=54&amp;NrArticle=10455" alt="Snow White & the Huntsman" title="">
+</a>
+<span class="tooltip" id="film10455" style="visibility: hidden;"><strong>Snow White & the Huntsman</strong><br>
+Das Mädchen und die Männer</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10444/" class="tooltip" title="Ein ruhiges Leben">
+<img src="/get_img?NrImage=54&amp;NrArticle=10444" alt="Ein ruhiges Leben" title="">
+</a>
+<span class="tooltip" id="film10444" style="visibility: hidden;"><strong>Ein ruhiges Leben</strong><br>
+Man spricht deutsch</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10441/" class="tooltip" title="Janosch - Komm, wir finden einen Schatz!">
+<img src="/get_img?NrImage=54&amp;NrArticle=10441" alt="Janosch - Komm, wir finden einen Schatz!" title="">
+</a>
+<span class="tooltip" id="film10441" style="visibility: hidden;"><strong>Janosch - Komm, wir finden einen Schatz!</strong><br>
+Entschleunigung pur</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10443/" class="tooltip" title="Glanz & Gloria">
+<img src="/get_img?NrImage=54&amp;NrArticle=10443" alt="Glanz & Gloria" title="">
+</a>
+<span class="tooltip" id="film10443" style="visibility: hidden;"><strong>Glanz & Gloria</strong><br>
+Aus Liebe zur Musik</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10439/" class="tooltip" title="MEŞ - Lauf!">
+<img src="/get_img?NrImage=54&amp;NrArticle=10439" alt="MEŞ - Lauf!" title="">
+</a>
+<span class="tooltip" id="film10439" style="visibility: hidden;"><strong>MEŞ - Lauf!</strong><br>
+Die Unterdrückten</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10442/" class="tooltip" title="I Want To Run ">
+<img src="/get_img?NrImage=54&amp;NrArticle=10442" alt="I Want To Run " title="">
+</a>
+<span class="tooltip" id="film10442" style="visibility: hidden;"><strong>I Want To Run </strong><br>
+Runner's High</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10446/" class="tooltip" title="Act of Valor">
+<img src="/get_img?NrImage=54&amp;NrArticle=10446" alt="Act of Valor" title="">
+</a>
+<span class="tooltip" id="film10446" style="visibility: hidden;"><strong>Act of Valor</strong><br>
+Ganze Kerle</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10440/" class="tooltip" title="Men in Black 3">
+<img src="/get_img?NrImage=54&amp;NrArticle=10440" alt="Men in Black 3" title="">
+</a>
+<span class="tooltip" id="film10440" style="visibility: hidden;"><strong>Men in Black 3</strong><br>
+Im Sommer der Liebe</span>
+</li>
+
+ 
+<li><a href="http://film.fluter.de/de/475/kino/10445/" class="tooltip" title="Archipelago">
+<img src="/get_img?NrImage=54&amp;NrArticle=10445" alt="Archipelago" title="">
+</a>
+<span class="tooltip" id="film10445" style="visibility: hidden;"><strong>Archipelago</strong><br>
+Emotionale Festungen</span>
+</li>
+            </ul>
+        </div>
+        <!-- Carousel End -->
+<!--tpl> tpl/index_carousel_neuimkino.tpl -->
+  <div class="grid_4"><!--column left-->
+<ul class="articleList">
+	          
+     
+      
+     
+    
+                           
+      
+        <li class="level-4  level-4-pink pink"> 
+          <div class="infoImage"> 
+            <div class="innerInfoImage"> 
+               
+              <a href="http://www.fluter.de/de/111/erfahrungen/10433/"><!-- <tpl tpl/img/img150x94.tpl -->
+   
+    <img src="/get_img?NrImage=74&amp;NrArticle=10433&amp;ImageRatio=35%25" class="img150x94-430x269scale35">
+    <!-- tpl> tpl/img/img150x94.tpl --></a><!-- <tpl tpl/check_media_small.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media_small --> 
+            </div> 
+          </div> 
+          <div class="infoText"> 
+            <h3>Erfahrungen</h3> 
+            <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl --> 
+             <h2><a href="http://www.fluter.de/de/111/erfahrungen/10433/">"Das ist ein geiles Gefühl"</a></h2> 
+          </div> 
+          <a href="http://www.fluter.de/de/111/erfahrungen/10433/" class="moreLink">&raquo;</a> 
+        </li> 
+     
+      
+     
+      
+     
+    
+                           
+      
+        <li class="level-4  level-4-blue blue"> 
+          <div class="infoImage"> 
+            <div class="innerInfoImage"> 
+               
+              <a href="http://film.fluter.de/de/476/film/10452/"><!-- <tpl tpl/img/img150x94.tpl -->
+   
+    <img src="/get_img?NrImage=74&amp;NrArticle=10452&amp;ImageRatio=35%25" class="img150x94-430x269scale35">
+    <!-- tpl> tpl/img/img150x94.tpl --></a><!-- <tpl tpl/check_media_small.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media_small --> 
+            </div> 
+          </div> 
+          <div class="infoText"> 
+            <h3>Film</h3> 
+            <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl --> 
+             <h2><a href="http://film.fluter.de/de/476/film/10452/">Wird ohne Energiesparlampen die Welt besser?</a></h2> 
+          </div> 
+          <a href="http://film.fluter.de/de/476/film/10452/" class="moreLink">&raquo;</a> 
+        </li> 
+     
+  <!--UMFRAGE-->
+<!-- <tpl tpl/com_umfrage_frontpage.tpl -->
+<li class="level-5 orange UmfrageStartseite">
+<div class="infoText">
+    <h3>UMFRAGE</h3>
+
+
+
+
+
+   
+    <form name="476" action="/#poll" method="post">
+      
+      <hr noshade><br>
+      <div class="grid_6 alpha UmfrageTitel orange" >
+        <h2>Wie kommst du zu deiner Dosis Bildung?</h2>
+      </div>
+      <div class="grid_6 omega UmfrageAnsicht orange" >
+        <table>
+                       <tr valign="top">
+               <td align="left" valign="middle" width="22"><input type="radio" name="pollres[answer][476]" value="1"></td>
+               <td align="left" valign="middle" width="">Ich betreibe E-Learning (Online-Kurse oder -Dossiers, Vorlesungen per Live-Stream etc.).</td>
+              </tr>
+                        <tr valign="top">
+               <td align="left" valign="middle" width="22"><input type="radio" name="pollres[answer][476]" value="2"></td>
+               <td align="left" valign="middle" width="">Wissenssendungen im TV erweitern meinen Horizont. </td>
+              </tr>
+                        <tr valign="top">
+               <td align="left" valign="middle" width="22"><input type="radio" name="pollres[answer][476]" value="3"></td>
+               <td align="left" valign="middle" width="">Bibliotheken und Museen haben immernoch am meisten Stil.</td>
+              </tr>
+                        <tr valign="top">
+               <td align="left" valign="middle" width="22"><input type="radio" name="pollres[answer][476]" value="4"></td>
+               <td align="left" valign="middle" width="">Als Autodidakt nutze ich natürlich alles, was mich irgendwie schlauer macht.</td>
+              </tr>
+                        <tr valign="top">
+               <td align="left" valign="middle" width="22"><input type="radio" name="pollres[answer][476]" value="5"></td>
+               <td align="left" valign="middle" width="">Nach Schule oder Uni raucht mir schon genug der Kopf. Das reicht dann auch!</td>
+              </tr>
+                    <tr>
+            <td colspan=2>
+              <input type="submit" value="Abstimmen">
+              <br><a href="http://www.fluter.de/?pollid=476&amp;poll[showResult]=1#poll" class="ergebnis">Ergebnis</a>
+            </td>       
+          </tr>
+        </table>
+      </div>
+    </form>  
+    <div class="clear"></div>
+      
+    
+
+</div>
+</li>
+<!-- tpl> tpl/com_umfrage_frontpage.tpl --></ul>
+    </div><!--column left-->
+        <div class="grid_4"><!--column middle-->
+<ul class="articleList">
+          
+     
+
+                           
+      
+        <li class="level-4  level-4-red red"> 
+          <div class="infoImage"> 
+            <div class="innerInfoImage"> 
+               
+              <a href="http://www.fluter.de/de/111/thema/10466/"><!-- <tpl tpl/img/img150x94.tpl -->
+   
+    <img src="/get_img?NrImage=74&amp;NrArticle=10466&amp;ImageRatio=35%25" class="img150x94-430x269scale35">
+    <!-- tpl> tpl/img/img150x94.tpl --></a><!-- <tpl tpl/check_media_small.tpl -->
+<!-- KEYWORDS: #video_flash# --><span class="videoSmall"></span><span class="videoSmall"></span>
+<!-- tpl> tpl/check_media_small --> 
+            </div> 
+          </div> 
+          <div class="infoText"> 
+            <h3>Thema</h3> 
+            <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl --> 
+             <h2><a href="http://www.fluter.de/de/111/thema/10466/">Die Kurven der Künstler</a></h2> 
+          </div> 
+          <a href="http://www.fluter.de/de/111/thema/10466/" class="moreLink">&raquo;</a> 
+        </li> 
+          
+          
+     
+
+                           
+      
+        <li class="level-4  level-4-yellow yellow"> 
+          <div class="infoImage"> 
+            <div class="innerInfoImage"> 
+               
+              <a href="http://www.fluter.de/de/111/buecher/10467/"><!-- <tpl tpl/img/img150x94.tpl -->
+   
+    <img src="/get_img?NrImage=74&amp;NrArticle=10467&amp;ImageRatio=35%25" class="img150x94-430x269scale35">
+    <!-- tpl> tpl/img/img150x94.tpl --></a><!-- <tpl tpl/check_media_small.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media_small --> 
+            </div> 
+          </div> 
+          <div class="infoText"> 
+            <h3>Neues Buch</h3> 
+            <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl --> 
+             <h2><a href="http://www.fluter.de/de/111/buecher/10467/">Simon Schwartz: Packeis</a></h2> 
+          </div> 
+          <a href="http://www.fluter.de/de/111/buecher/10467/" class="moreLink">&raquo;</a> 
+        </li> 
+          
+          
+     
+
+                           
+      
+        <li class="level-4  level-4-blue blue"> 
+          <div class="infoImage"> 
+            <div class="innerInfoImage"> 
+               
+              <a href="http://film.fluter.de/de/476/kino/10455/"><!-- <tpl tpl/img/img150x94.tpl -->
+   
+    <img src="/get_img?NrImage=74&amp;NrArticle=10455&amp;ImageRatio=35%25" class="img150x94-430x269scale35">
+    <!-- tpl> tpl/img/img150x94.tpl --></a><!-- <tpl tpl/check_media_small.tpl -->
+<!-- KEYWORDS: #filmderwoche# -->
+<!-- tpl> tpl/check_media_small --> 
+            </div> 
+          </div> 
+          <div class="infoText"> 
+            <h3>Neu im Kino</h3> 
+            <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl --> 
+             <h2><a href="http://film.fluter.de/de/476/kino/10455/">Snow White & the Huntsman</a></h2> 
+          </div> 
+          <a href="http://film.fluter.de/de/476/kino/10455/" class="moreLink">&raquo;</a> 
+        </li> 
+          
+          
+     
+
+                           
+      
+        <li class="level-4  level-4-red red"> 
+          <div class="infoImage"> 
+            <div class="innerInfoImage"> 
+               
+              <a href="http://www.fluter.de/de/111/thema/10368/"><!-- <tpl tpl/img/img150x94.tpl -->
+   
+    <img src="/get_img?NrImage=74&amp;NrArticle=10368&amp;ImageRatio=35%25" class="img150x94-430x269scale35">
+    <!-- tpl> tpl/img/img150x94.tpl --></a><!-- <tpl tpl/check_media_small.tpl -->
+<!-- KEYWORDS: ## -->
+<!-- tpl> tpl/check_media_small --> 
+            </div> 
+          </div> 
+          <div class="infoText"> 
+            <h3>Thema</h3> 
+            <!-- <tpl tpl/edit_article.tpl -->
+<!-- tpl> tpl/edit_article.tpl --> 
+             <h2><a href="http://www.fluter.de/de/111/thema/10368/">Ihr hört noch von uns</a></h2> 
+          </div> 
+          <a href="http://www.fluter.de/de/111/thema/10368/" class="moreLink">&raquo;</a> 
+        </li> 
+      </ul>
+    </div><!--column middle-->
+        <div class="grid_4"><!--column right-->
+        
+          <ul class="sidebar">
+                <li>
+                    <h4>fluter Tipps</h4>
+                    <ul class="arrowList">
+<!-- <tpl tpl/kooplinks.tpl -->
+<li><a href="http://www.gamechangerio.org/" target="blank">Nachhaltigkeit spielend erlernen mit Game Change Rio!</a></li>
+<li><a href="http://www.goethe.de/ins/cz/prj/jug/leb/de9413814.htm" target="blank">Erasmus für alle?</a></li>
+
+<!-- <tpl tpl/kooplinks.tpl -->
+
+
+                    </ul>
+
+                </li>
+
+
+
+
+
+                <li class="orange overflowFix noBorderBottom">
+                   <div class="infoImage orange rightImage">
+                        <span class="badgeHolder">
+                            AKTION
+                        </span><!-- <tpl tpl/img/img150x94.tpl -->
+  <!-- tpl> tpl/img/img150x94.tpl -->                    </div>
+                    <div class="span-124">
+                        <h4>XOOOOX-Bücher für euch!</h4>
+                        <a href="http://www.fluter.de/de/111/aktionen/10478/"><img src="/get_img?NrImage=71&amp;NrArticle=10478" class="img280x175"></a> 
+                        <p>Unsere aktuelle Verlosung</p>
+
+                        <ul class="arrowList addTopMargin">
+                            <li><a href="http://www.fluter.de/de/111/aktionen/10478/">Mitmachen</a></li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+              
+<!--UMFRAGE-->
+            </ul>
+         
+        </div><!--column right-->
+<!-- tpl> tpl/index_frontpage.tpl -->
+    
+	
+	
+   <!-- <tpl tpl/footer.tpl -->
+
+<!-- IVW pixel 4060 aktion -->
+
+<!-- SZM VERSION="1.5" -->
+<!-- Dieses Online-Angebot unterliegt nicht der IVW-Kontrolle! -->
+<script type="text/javascript">
+<!--
+var IVW="http://fluter.ivwbox.de/cgi-bin/ivw/CP/4060;nocomment";
+document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"szmtag\" />");
+//-->
+</script>
+<noscript>
+<img src="http://fluter.ivwbox.de/cgi-bin/ivw/CP/4060;nocomment" width="1" height="1" alt="szmtag" />
+</noscript>
+<!-- /SZM -->
+<div class="container_12 bottomMeny">
+  <div class="grid_2">
+<!-- THEMA / FOKUS -->
+
+
+
+
+    <h4><a href="http://www.fluter.de/de/112/thema/">Thema</a></h4>
+                    <ul class="bottomLinks">
+                        <li><a href="http://www.fluter.de/de/112/thema/">Ausbildung 2.0</a></li>
+                        <li><a href="http://www.fluter.de/de/111/thema/">Kunst</a></li>
+                        <li><a href="http://www.fluter.de/de/110/thema/">Frankreich</a></li>
+                        <li><a href="http://www.fluter.de/de/109/thema/">Nazis</a></li>
+                        <li><a href="http://www.fluter.de/de/idole/thema/">Idole</a></li>
+
+
+<li><a href="http://www.fluter.de/de/112/editor/">Themen-Archiv (1-112)</a></li>
+
+                    </ul>
+    </div>
+    <div class="grid_2">
+<!-- FILM -->
+
+
+
+
+<h4><a href="http://film.fluter.de/de/476/">Film</a></h4>
+                    <ul class="bottomLinks">
+<li><a href="http://film.fluter.de/de/476/kino/">Neu im Kino</a></li>
+<li><a href="http://film.fluter.de/de/476/heimkino/">Heimkino</a></li>
+<li><a href="http://film.fluter.de/de/476/film/">Hintergrund</a></li>
+<!--                         <li><a href="#">UMFRAGE</a></li> -->
+<!--                         <li><a href="#">A-Z FILM</a></li> -->
+                    </ul>
+    </div>
+    <div class="grid_2">
+<!-- Lesen -->
+
+
+
+
+    <h4><a href="http://www.fluter.de/de/112/lesen/">Lesen</a></h4>
+    <ul class="bottomLinks">
+<li><a href="http://www.fluter.de/de/112/literatur/">Aktuell</a></li>
+<li><a href="http://www.fluter.de/de/112/buecher/">Neu im Laden</a></li>
+<li><a href="http://www.fluter.de/de/112/lesetipp/">Lesetipp</a></li>
+    </ul>
+    </div>
+    <div class="grid_2">
+  <h4>Mediathek</h4>
+    <ul>
+
+
+                        <li><a href="http://www.fluter.de/de/112/tv/">Video</a></li>
+
+
+                        <li><a href="http://www.fluter.de/de/112/foto/">Foto</a></li>
+
+
+
+                        <li><a href="http://www.fluter.de/de/112/podcasts/">Audio</a></li>
+  </ul>
+    </div>
+    <div class="grid_2">
+  <h4>Mitmachen</h4>
+    <ul>
+<!-- <tpl tpl/com_nav_index_mitmachen.tpl -->
+
+
+
+
+<!--                         <li><a href="http://www.fluter.de/de/112/mitmachen/">MITMACHEN</a></li> -->
+
+                        <li><a href="http://www.fluter.de/de/112/forum/list.php?f=1">Foren</a></li>
+
+                        <li><a href="http://www.fluter.de/de/112/blogs/">Blogs</a></li>
+
+                        <li><a href="http://www.fluter.de/de/112/deinblog/">Dein Blog</a></li>
+                        
+                        <li><a href="http://www.fluter.de/de/112/umfrage/">Umfrage</a></li>
+
+
+
+
+
+  <li><a href="http://info.fluter.de/de/quiz/">Quiz</a></li>
+
+
+
+
+
+    <li><a href="http://www.fluter.de/de/111/aktionen/10478/">Aktion</a></li>
+
+<!--                         <li><a href="http://www.fluter.de/de/112/test/">Quiz</a></li> -->
+
+<!--                         <li><a href="http://www.fluter.de/de/112/kalender/">Termine</a></li> -->
+
+<!--                         <li><a href="http://www.fluter.de/de/112/180/">Deine Erfahrung</a></li> -->
+
+                        <li>    <li><a href="http://www.fluter.de/de/112/100//?from=http%3A%2F%2Fwww.fluter.de%2F">Registrieren</a></li>
+</li>
+
+<li><a href="http://www.fluter.de/de/112/newsletter/">Newsletter</a></li>
+
+<!-- tpl> tpl/com_nav_index_mitmachen.tpl -->  </ul>
+    </div>
+    <div class="grid_2">
+<!-- LÄNDER / AKTUELL -->
+
+
+<h4><a href="http://www.fluter.de/de/112/aktuell/">Fokus</a></h4>
+
+<!-- ERFAHRUNGEN -->
+
+
+<h4><a href="http://www.fluter.de/de/112/erfahrungen/">Erfahrungen</a></h4>
+<!-- MUSIK -->
+
+
+<h4><a href="http://www.fluter.de/de/112/musik/">Musik</a></h4>
+<!--         <h4>DOSSSIERS </h4> -->
+    </div>
+</div>
+                 
+<div class="container_12 footerLinks">
+
+    <ul class="container_12">
+
+
+
+
+
+<li><a href="http://www.fluter.de/de/112/" id='col_schwarz'>STARTSEITE</a></li>
+
+
+
+
+<li><a href="http://info.fluter.de/de/info/impressum/2243/">IMPRESSUM / KONTAKT</a></li>
+
+
+<li><a href="http://info.fluter.de/de/info/40/2299/">&Uuml;BER FLUTER</a></li>
+<li><a href="http://fluter.fsd.de/">HEFTABO </a></li>
+
+
+
+<li><a href="http://www.fluter.de/de/112/newsletter/">NEWSLETTER</a></li>
+
+
+
+<li><a href="http://info.fluter.de/de/info/20/2610/" ">LINKS</a></li>
+</ul>
+    <p>&copy;2001-2012 fluter.de / Bundeszentrale für politische Bildung  </p>
+<p><br>
+<a href="http://newscoop.sourcefabric.org"><img src="http://www.sourcefabric.org/promo/button/newscoop-white-88x31.png" height="31" width="88" align="Center" border="0"></a>
+</p>
+</div>
+<!-- tpl> tpl/footer.tpl -->    </div><!-- Three Columns End -->
+</body>
+</html>
+

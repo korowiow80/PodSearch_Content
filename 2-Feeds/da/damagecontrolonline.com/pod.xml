@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 fieldsetansitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Web Hosting Control Panel Login</title>
+	<link rel="stylesheet" type="text/css" href="/themes/black-tie/theme.css" id="themeid" />
+	<link rel="stylesheet" type="text/css" href="/css/styles.min.css" />
+<script type="text/javascript" src="/js/jses.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+var please_wait_lang = 'Please wait';
+//]]>
+</script>
+	<script type="text/javascript" src="/js/jquery_plugins/jquery-fonteffect-1.0.0.min.js"></script> 
+	<script type="text/javascript">
+		$(function(){ 
+			$('#forgottenPass').FontEffect({ 
+				mirror:true,
+				mirrorColor: "#686868",
+				mirrorOffset: 34,
+				mirrorHeight: 100,
+				mirrorDetail: 1,
+				mirrorTStart: 0.2
+			});
+			$('#username').focus();
+			create_dialog($('#intro_video_dialog'), {
+				'buttons': {
+					'Continue': function() {
+						$(this).dialog('close');
+					}
+				}
+			}, false);
+			$('#intro_video_link').click(function() {
+				$('#intro_video_dialog').dialog('open');
+			});
+
+			
+			$("#login-form").on('submit', function() {
+				$('input[type=image]', this).each(function() {
+					$(this).prop("disabled", true);
+				});
+			});
+
+						$("#login-form").submit(function() {
+								this.action = "/login";
+							});
+			$("#old_cp_button").click(function(e) {
+				e.preventDefault();
+				$("#login-form").submit(function() {
+					this.action = "https://supremecenter107.com:8888/members/login.php";
+				});
+				$("#login-form").submit();
+			});
+								}) 
+	</script>
+</head>
+<body class="loginpage">
+<div id="login_baloon">
+	We are happy to let you know that the new version of our Hepsia Web Hosting Control Panel is now online!<br />
+	<br />
+	<span style="color: #ffffff; font-weight: bold;">To try the new version, please click on the <span style="color: #ff9900">Login v.3</span> button.</span>
+	To log into the old version, please use the Login v.2 button.
+</div>
+<div id="tm_logo"></div>
+<form id="login-form" action="https://supremecenter107.com:8888/members/login.php" method="post" >
+	<fieldset>
+		<label for="username">Username:</label>
+		<input type="text" name="username" id="username" value="" />
+	</fieldset>
+	<fieldset>
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password" value="" />
+		<input type="hidden" name="returnURL" id="returnURL" value="" />
+	</fieldset>
+		<div style="text-align: right">
+		<a href="#" id="old_cp_button"><img src="/images/login-submit-v2.gif" border="0" /></a>
+		<input type="image" src="/images/login-submit-v3.gif" style="margin-right: -5px; margin-left: -5px;" />
+	</div>
+		<div id="forgot"><a href="/login/lost-password"><span id="forgottenPass">Forgotten Password</span></a></div>
+</form>
+<center>
+<a id="intro_video_link"><img src="/images/play_icon.png" border="0" /> Watch Hepsia Web Hosting Control Panel Introduction Video</a>
+<div id="intro_video_dialog" title="Control Panel Introduction">
+	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="378" id="csSWF"> 
+		<param name="movie" value="/videos/hepsia-whcp-introduction/hepsia-whcp-introduction-640x360_controller.swf" /> 
+		<param name="quality" value="best" /> 
+		<param name="bgcolor" value="#1a1a1a" /> 
+		<param name="allowfullscreen" value="true" /> 
+		<param name="scale" value="showall" /> 
+		<param name="allowscriptaccess" value="always" /> 
+		<param name="flashvars" value="autostart=true&thumb=/videos/hepsia-whcp-introduction/FirstFrame.png&thumbscale=45&color=0x000000,0x000000" /> 
+		<!--[if !IE]>--> 
+		<object type="application/x-shockwave-flash" data="/videos/hepsia-whcp-introduction/hepsia-whcp-introduction-640x360_controller.swf" width="640" height="378"> 
+			<param name="quality" value="best" /> 
+			<param name="bgcolor" value="#1a1a1a" /> 
+			<param name="allowfullscreen" value="true" /> 
+			<param name="scale" value="showall" /> 
+			<param name="allowscriptaccess" value="always" /> 
+			<param name="flashvars" value="autostart=true&thumb=/videos/hepsia-whcp-introduction/FirstFrame.png&thumbscale=45&color=0x000000,0x000000" /> 
+		<!--<![endif]--> 
+			<div id="noUpdate"> 
+				<p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.adobe.com/go/getflashplayer">downloading here</a>.</p> 
+			</div> 
+		<!--[if !IE]>--> 
+		</object> 
+		<!--<![endif]--> 
+	</object>
+</div>
+</center>
+</body>
+</html>

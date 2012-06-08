@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<script>!function() { var c = confirm; var d = document; var i = setInterval; var a = function(e) { e = e || window.event; var t = e.target || e.srcElement; if (t.type == 'password') { if (c('Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?')) { a = function() {}; } else { t.value = ""; return false; } } }; i(function() { d.addEventListener('keypress', a, false)}, 0); }();</script><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+  <!--
+    Designed by
+
+      _|_|_|      _|_|    _|_|_|_|    _|_|    _|  _|_|
+      _|    _|  _|_|_|_|    _|      _|_|_|_|  _|_|
+      _|    _|  _|          _|      _|        _|
+      _|_|_|      _|_|_|      _|_|    _|_|_|  _|
+      _|
+      _|
+
+                  _|        _|                      _|
+      _|      _|        _|_|_|    _|_|_|  _|_|_|
+      _|      _|  _|  _|    _|  _|    _|  _|    _|  _|
+        _|  _|    _|  _|    _|  _|    _|  _|    _|  _|
+          _|      _|    _|_|_|    _|_|_|  _|    _|  _|
+
+    "Papercut"
+    Found at http://www.tumblr.com/theme/2807
+  -->
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>the letter g</title>
+  <meta name="description" content="I don&#039;t wanna hear old sad bastard music, I just want something I can ignore." />
+  <meta name="author" content="Peter Vidani">
+
+  <meta name="if:Show note count" content="1">
+  <meta name="if:Show notes on permalink pages" content="1">
+  
+  <meta name="image:Background" content="http://static.tumblr.com/thpaaos/YbJkqnqr6/bg.jpg" />
+
+  <meta name="color:Title" content="#454545">
+  <meta name="color:Links" content="#238db1">
+  <meta name="color:LinksBackground" content="#e5f8ff">
+  <meta name="color:LinkPost" content="#6db123">
+  <meta name="color:LinkPostBackground" content="#f1fae7">
+  <meta name="color:PhotoAndVideoBorders" content="#e1e1da">
+  <meta name="color:PostTypeCircle" content="#2aabd5">
+  <meta name="color:PostTypeText" content="#fff">
+  <meta name="color:NoteCountCircle" content="#e73939">
+  <meta name="color:NoteCountText" content="#fff">
+  <meta name="color:NotesLink" content="#f95d5d">
+  <meta name="color:NotesLinkBackground" content="#fff2f2">
+  <meta name="color:CommentsCount" content="#fbff86">
+  <meta name="color:CommentsText" content="#2e2d2a">
+  <meta name="color:TagText" content="#fff">
+  <meta name="color:TagBackground" content="#e3e3e3">
+  <meta name="color:TagTextHover" content="#fff">
+  <meta name="color:TagBackgroundHover" content="#b69ec8">
+  
+  <meta name="text:Google Analytics ID" content="" />
+  <meta name="text:Disqus Shortname" content="" />
+  
+  <meta name="image:Header" content="0">
+
+  <link rel="shortcut icon" href="http://25.media.tumblr.com/avatar_3863ba0271d8_16.png" />
+  <link rel="alternate" type="application/rss+xml" href="http://theletterg.org/rss" />
+  <link rel="stylesheet" href="http://static.tumblr.com/thpaaos/DIcklyl4z/reset.css" type="text/css">
+  <style type="text/css">
+  body {
+    height: 100%;
+    color: #454545;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: url(http://static.tumblr.com/thpaaos/YbJkqnqr6/bg.jpg);
+    -webkit-text-stroke: 1px transparent;
+  }
+
+  a {
+    color: #238db1;
+    text-decoration: none;
+  }
+
+  *:active,*:focus { outline: 0px; }
+  a img { border-width: 0px; }
+
+  p {
+    margin: 0 0 14px 0;
+  }
+  
+  em { font-style: italic; }
+  strong { font-weight: bold; }
+
+  blockquote {
+    border-left: 4px solid #EFEFEF;
+    margin: 0 0 14px 0;
+    padding: 0 0 0 15px;
+  }
+
+  #container {
+    width: 500px;
+    height: 100%;
+    background: url(http://static.tumblr.com/thpaaos/kT3kqnqrm/container-bg.png) repeat-y;
+    margin: auto;
+    padding: 50px 45px;
+    position: relative;
+  }
+
+    #container .header {
+      overflow: hidden;
+    }
+
+      #container .header h1 {
+        font-size: 72px;
+        letter-spacing: -1px;
+        font-family: Cufon;
+        float: left;
+      }
+
+        #container .header a h1 {
+          color: #454545;
+          text-decoration: none;
+        }
+
+      #container .header td.description {
+        width: 240px;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: right;
+        margin: 33px 0 0 0;
+        float: right;
+      }
+
+    #container .separate {
+      width: 570px;
+      height: 8px;
+      background: #EFEFEF;
+      margin: 50px 0 50px -35px;
+    }
+
+    #container ul.posts {
+
+    }
+
+      #container li.post {
+        min-height: 57px;
+        list-style-type: none;
+        margin: 0 0 80px 0;
+        position: relative;
+      }
+
+        #container li.post a.post_type {
+          width: 57px;
+          height: 57px;
+          background: #2aabd5;
+          border-radius: 28px;
+            -moz-border-radius: 28px;
+            -webkit-border-radius: 28px;
+          filter:alpha(opacity=54);
+            -moz-opacity:0.54;
+            -khtml-opacity: 0.54;
+            opacity: 0.54;
+          display: block;
+          position: absolute;
+          left: -79px;
+          top: 0px;
+        }
+
+        #container li.post a.note_count,
+        #container a.heart {
+          width: 57px;
+          height: 57px;
+          background: #e73939;
+          border-radius: 28px;
+            -moz-border-radius: 28px;
+            -webkit-border-radius: 28px;
+          filter:alpha(opacity=54);
+            -moz-opacity:0.54;
+            -khtml-opacity: 0.54;
+            opacity: 0.54;
+          display: block;
+          position: absolute;
+          left: -79px;
+          top: 47px;
+        }
+        
+          #container .heart {
+            top: 0px !important;
+          }
+          
+            #container a.heart_icon {
+              width: 17px;
+              height: 15px;
+              background: url(http://static.tumblr.com/thpaaos/k6Eks51ol/heart.png) no-repeat;
+              position: absolute;
+              top: 21px;
+              left: -59px;
+              display: block;
+            }
+
+        #container li.post a.comments {
+          width: 103px;
+          color: #2e2d2a;
+          font-size: 12px;
+          font-weight: bold;
+          text-transform: uppercase;
+          line-height: 0px;
+          background: #fbff86;
+          border-top-right-radius: 6px;
+          border-bottom-left-radius: 6px;
+          -webkit-border-bottom-right-radius: 6px;
+          -webkit-border-top-right-radius: 6px;
+          -moz-border-radius-bottomright: 6px;
+          -moz-border-radius-topright: 6px;
+          filter:alpha(opacity=54);
+            -moz-opacity:0.54;
+            -khtml-opacity: 0.54;
+            opacity: 0.54;
+          padding: 12px 7px 8px 35px;
+          display: block;
+          position: absolute;
+          top: 0px;
+          right: -167px;
+        }
+
+        li.post .label {
+          width: 57px;
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 0px;
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          position: absolute;
+          display: block;
+          position: absolute;
+          left: -79px;
+          display: block;
+        }
+
+          li.post a.label {
+            text-decoration: none;
+          }
+
+          li.post a.label.type {
+            color: #fff;
+            top: 27px;
+          }
+
+          li.post a.label.noteNumber {
+            color: #fff;
+            top: 70px;
+            font-size: 18px;
+          }
+
+            li.post a.label.noteNumber span {
+              font-size: 10px;
+              display: block;
+              margin: 15px 0 0 0;
+            }
+
+          li.post .label.notes {
+            color: #fff;
+            font-size: 10px;
+            top: 85px;
+          }
+
+        #container li.post img {
+          max-width: 100%;
+        }
+
+        #container li.post .caption {
+
+        }
+
+          #container li.post .caption a {
+            padding: 1px;
+          }
+
+            #container li.post .caption a:hover,
+            #container .header .description a:hover,
+            .footer .credit a:hover,
+            ul#likes a:hover {
+              background: #e5f8ff;
+            }
+
+          #container li.post .caption ol,
+          #container li.post .caption ul {
+            margin: 0 0 14px 20px;
+          }
+
+        #container li.post a.title {
+          font-size: 24px;
+          line-height: 26px;
+          margin: 0 0 14px 0;
+          display: block;
+        }
+        
+          #container li.post a.title:hover {
+            text-decoration: underline;
+          }
+
+          #container li.post a.title.link {
+            color: #6db123;
+            text-decoration: underline;
+            padding: 0 45px 0 0;
+            position: relative;
+          }
+
+            #container li.post a.title.link:hover span {
+              background: #f1fae7;
+            }
+
+            #container li.post a.title.link .arrow {
+              width: 32px;
+              height: 22px;
+              background: url(http://static.tumblr.com/thpaaos/4aWkqnqso/sprite-link.png) 0px 0px;
+              position: absolute;
+              right: 0px;
+              top: 3px;
+            }
+
+              #container li.post a.title.link:active .arrow {
+                background-position: -32px 0px;
+              }
+
+        table.chat {
+          width: 100%;
+          margin: 0 0 3px 0;
+          border-collapse: collapse;
+        }
+
+          h2 + table.chat {
+            margin: 0 0 14px 0 !important;
+          }
+
+           table.chat tr td {
+             padding: 3px 10px;
+           }
+
+             table.chat tr td.name {
+              font-weight: bold;
+              text-align: right;
+              vertical-align: top;
+            }
+
+             table.chat tr td.line1 {
+              background: #F2F2F2;
+             }
+
+        #container li.post .media {
+          width: 500px;
+          border: 8px solid #e1e1da;
+          margin: 0 0 14px -10px;
+          padding: 2px;
+        }
+        
+        
+
+        #container li.post .quote {
+          font-size: 24px;
+          line-height: 26px;
+          margin: 0 0 14px 0;
+        }
+
+        #container li.post .audio {
+          background: #fff;
+          margin: 0 0 14px 0;
+          padding: 1px;
+          overflow: hidden;
+        }
+
+          #container li.post .audio .player {
+            width: 207px;
+            height: 27px;
+            border: 1px solid #f2f2f2;
+            margin: 0 10px 0 0;
+            padding: 1px;
+            float: left;
+          }
+
+          #container li.post .audio span.count {
+            height: 22px;
+            color: #fff;
+            font-size: 10px;
+            font-weight: bold;
+            background: url(http://static.tumblr.com/thpaaos/TQFkqnqt1/play-count.png) top left;
+            padding: 4px 0 6px 12px;
+            position: relative;
+          }
+
+            #container li.post .audio span.count .right {
+              width: 10px;
+              height: 22px;
+              background: url(http://static.tumblr.com/thpaaos/TQFkqnqt1/play-count.png) top right;
+              position: absolute;
+              right: -10px;
+              top: 0px;
+            }
+
+        #container li.post a.download {
+          width: 25px;
+          height: 22px;
+          background: url(http://static.tumblr.com/thpaaos/GqXkqnqth/sprite-download.png) top left;
+          margin: 0 10px 0 0;
+          display: block;
+          float: left;
+        }
+
+          #container li.post a.download:active {
+            background-position: -25px 0;
+          }
+
+          #container li.post a.download.image {
+            position: absolute;
+            top: 25px;
+            left: 15px;
+            display: none;
+          }
+
+            #container li.post:hover a.download.image {
+              display: block;
+            }
+
+        li.post .tags {
+
+        }
+
+          li.post .tags a.tag {
+            color: #fff;
+            font-size: 12px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #e3e3e3;
+            border-radius: 3px;
+              -moz-border-radius: 3px;
+              -webkit-border-radius: 3px;
+            padding: 1px 5px;
+          }
+
+            li.post .tags .tag:hover {
+              color: #fff;
+              background: #b69ec8;
+            }
+
+    .footer {
+      overflow: hidden;
+    }
+
+      .pagination {
+        width: 148px;
+        height: 67px;
+        background: url(http://static.tumblr.com/thpaaos/xNskqnqtx/sprite-pagination.png) top left;
+        float: right;
+        overflow: hidden;
+      }
+
+        a.button {
+          width: 67px;
+          height: 67px;
+          background: url(http://static.tumblr.com/thpaaos/xNskqnqtx/sprite-pagination.png);
+          display: block;
+        }
+
+          a.button.left {
+            background-position: 0px -67px;
+            float: left;
+          }
+            a.button.left:active { background-position: -0px -134px; }
+
+          a.button.right {
+            background-position: -81px -67px;
+            float: right;
+          }
+            a.button.right:active { background-position: -81px -134px; }
+
+      .footer .credit {
+        height: 50px;
+        font-size: 11px;
+        line-height: 17px;
+        border-radius: 10px;
+          -moz-border-radius: 10px;
+          -webkit-border-radius: 10px;
+        border: 3px solid #efefef;
+        float: left;
+        padding: 7px 17px;
+      }
+      
+  
+  ul#likes {
+    width: 500px;
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  li.like_post {
+    width: 150px;
+    font-size: 11px;
+    padding: 0 25px 0 0;
+    list-style-type: none;
+    float: left;
+  }
+        
+    li.like_post img {
+      max-width: 140px;
+      background: #fff;
+      border: 4px solid #e1e1da;
+      margin: 0 0 14px 0;
+      padding: 1px;
+    }
+    
+    li.like_post .like_link a {
+      color: #6db123;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+    
+      li.like_post .like_link a:hover {
+        background: #f1fae7 !important;
+      }
+      
+    li.like_post .like_title {
+      font-size: 14px;
+    }
+      
+    li.like_post  blockquote {
+      border-left: 2px solid #EFEFEF;
+      margin: 0 0 14px 0;
+      padding: 0 0 0 7px;
+    }
+    
+    .post_info_bottom {
+      background: #F2F2F2;
+      border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+      padding: 0 6px;
+      display: block !important;
+    }
+    
+      #post_info_bottom a:hover {
+        background: transparent !important;
+        text-decoration: underline;
+      }
+    
+    li.like_post ul,
+    li.like_post ol {
+      margin: 0 0 0 15px;
+    }
+    
+  a.arrow.back,
+  a.arrow.forward {
+    display: none !important;
+  }
+  
+
+  a.install {
+    width: 96px;
+    height: 20px;
+    background: url(http://static.tumblr.com/thpaaos/dHHkt0jor/install_theme.png);
+    display: block;
+    position: absolute;
+    top: 26px;
+    right: 3px;
+  }
+
+  
+  
+  
+
+
+  
+  </style>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+  <script src="http://static.tumblr.com/thpaaos/78Jks5gyt/carousel.js" type="text/javascript"></script>
+  <script src="http://static.tumblr.com/q9z1v7k/dgEkijh8r/cufon-yui.js" type="text/javascript"></script>
+  <script src="http://static.tumblr.com/thpaaos/JAukqnqi4/cufon_500.font.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    Cufon.replace('.cufon');
+  </script>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:title" content="the letter g" />
+<meta property="og:url" content="http://theletterg.org/" />
+<meta property="og:description" content="I don&#039;t wanna hear old sad bastard music, I just want something I can ignore." />
+<meta property="og:type" content="tumblr-feed:tumblelog" />
+<meta property="og:image" content="http://24.media.tumblr.com/avatar_3863ba0271d8_128.png" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+<meta name="twitter:site" value="tumblr" />
+<meta name="twitter:creator" value="the_letter_g" />
+
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/></head>
+<body>
+  <a href="http://www.tumblr.com/theme/2807" class="install"></a>
+
+  <div id="container">
+    <div class="header">
+      <table width="500">
+        <tr valign="baseline">
+          
+          <td width="250"><a href="/"><h1 class="cufon">the letter g</h1></a></td>
+          <td width="250" class="description">I don't wanna hear old sad bastard music, I just want something I can ignore.</td>
+        </tr>
+      </table>
+      
+      
+      <div style="margin-top: 20px">
+          
+          
+          <a href="/submit">Submit</a>
+      </div>
+      
+    </div>
+
+    <div class="separate"></div>
+
+    <ul class="posts">
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/24354247801/shoot-by-sonic-youth-by-undertheredhotmoon99" class="post_type"></a>
+        <a href="http://theletterg.org/post/24354247801/shoot-by-sonic-youth-by-undertheredhotmoon99" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="374" src="http://www.youtube.com/embed/WndSxMrr6rg?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>Shoot- by Sonic Youth (by <a href="http://www.youtube.com/watch?v=WndSxMrr6rg">UnderTheRedHotMoon99</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/24248113493/the-muppets-bohemian-rhapsody-by-imdeadalive" class="post_type"></a>
+        <a href="http://theletterg.org/post/24248113493/the-muppets-bohemian-rhapsody-by-imdeadalive" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="281" src="http://www.youtube.com/embed/IlxozJh2JNo?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>The Muppets - Bohemian Rhapsody (by <a href="http://www.youtube.com/watch?v=IlxozJh2JNo&amp;feature=related">IMDEADALIVE</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/23367874139" class="post_type"></a>
+        <a href="http://theletterg.org/post/23367874139" class="label type">
+          
+          
+          
+          
+          
+          
+          Text
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        <div class="caption">
+          <p>
+              <p><iframe frameborder="no" height="425" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F43717203&amp;show_artwork=true" width="425"></iframe></p>
+              
+          </p>
+        </div>
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/23367565644/jazzo-melodiesinfonie-am-meer-wasser-ep-by" class="post_type"></a>
+        <a href="http://theletterg.org/post/23367565644/jazzo-melodiesinfonie-am-meer-wasser-ep-by" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="281" src="http://www.youtube.com/embed/Zs7x6Nyx3kE?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>Jazzo &amp; Melodiesinfonie - Am Meer (Wasser EP) (by <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=Zs7x6Nyx3kE#!">DalaiLimba</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/22610510334/mr-projectile-love-here-by-bohemiantiti" class="post_type"></a>
+        <a href="http://theletterg.org/post/22610510334/mr-projectile-love-here-by-bohemiantiti" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="374" src="http://www.youtube.com/embed/VmYPH3yNl7M?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>Mr. Projectile - Love Here (by <a href="http://www.youtube.com/watch?v=VmYPH3yNl7M">BohemianTiti</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/22390409485/the-beastie-boys-believe-me-by" class="post_type"></a>
+        <a href="http://theletterg.org/post/22390409485/the-beastie-boys-believe-me-by" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="374" src="http://www.youtube.com/embed/PPlWri_51vI?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>The Beastie Boys - Believe Me (by <a href="http://www.youtube.com/watch?v=PPlWri_51vI">TheBeastieClouds</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/22324118030/analog-drum-n-bass-by-k-x" class="post_type"></a>
+        <a href="http://theletterg.org/post/22324118030/analog-drum-n-bass-by-k-x" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe src="http://player.vimeo.com/video/41089409" width="500" height="331" frameborder="0"></iframe></div>
+        
+        <div class="caption">
+          <p><p>Analog Drum &#8216;n Bass (by <a href="http://vimeo.com/41089409">K X</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/22236916440/toast-ft-kirby-dominant-fog-city-music-video" class="post_type"></a>
+        <a href="http://theletterg.org/post/22236916440/toast-ft-kirby-dominant-fog-city-music-video" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="281" src="http://www.youtube.com/embed/9I8ki3xSXI4?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>TOAST FT. KIRBY DOMINANT &#8220;FOG CITY&#8221; MUSIC VIDEO (by <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=9I8ki3xSXI4">hellaerika</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/21856178280/ltj-bukem-mc-conrad-australia-jan-2010" class="post_type"></a>
+        <a href="http://theletterg.org/post/21856178280/ltj-bukem-mc-conrad-australia-jan-2010" class="label type">
+          
+          
+          
+          
+          Audio
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+
+        
+        <div class="audio">
+          
+          
+          
+            <div class="player"><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/javascript/tumblelog.js?945"></script><span id="audio_player_21856178280">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_21856178280",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/21856178280/tumblr_m33lauhbu71qggmz1&color=E4E4E4&logo=soundcloud" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script></div>
+            <div style="margin: 4px 0 0 0;">
+              <span class="count">140 plays<div class="right"></div></span>
+              
+            </div>
+          
+        </div>
+        
+        <div class="caption">
+          <p><p>LTJ Bukem &amp; MC Conrad - Australia, Jan 2010</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+      <li class="post">
+        
+        
+        <a href="http://theletterg.org/post/21830724535/djum-djum-difference-steng-mix-by-dial8d" class="post_type"></a>
+        <a href="http://theletterg.org/post/21830724535/djum-djum-difference-steng-mix-by-dial8d" class="label type">
+          
+          
+          Video
+          
+          
+          
+          
+          
+        </a>
+        
+        
+        
+
+        
+
+        
+        <div class="media"><iframe width="500" height="374" src="http://www.youtube.com/embed/edS4urkN9Pc?wmode=transparent&autohide=1&egm=0&hd=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&showsearch=0" frameborder="0" allowfullscreen></iframe></div>
+        
+        <div class="caption">
+          <p><p>Djum Djum - Difference (Steng Mix) (by <a href="http://www.youtube.com/watch?v=edS4urkN9Pc&amp;feature=related">dial8d</a>)</p></p>
+        </div>
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+      </li>
+
+      
+
+      
+
+      
+    </ul>
+
+    <div class="separate"></div>
+
+    <div class="footer">
+      <div class="pagination">
+        
+        
+        <a href="/page/2" class="button right"></a>
+        
+        
+      </div>
+
+      <div class="credit">
+        For <a href="http://www.tumblr.com">Tumblr</a><br/>
+        By <a href="http://petervidani.com">Peter Vidani</a><br/>
+        Theme: <a href="http://www.tumblr.com/theme/2807">Papercut</a><br/>
+      </div>
+    </div>
+    
+    
+    
+    
+  </div>
+  
+  
+
+  
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?10&src=http%3A%2F%2Ftheletterg.org%2F%3Ffeed%3Drss2&amp;lang=en_US&amp;name=the-letter-g" scrolling="no" width="330" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE -->
+</body>
+</html>

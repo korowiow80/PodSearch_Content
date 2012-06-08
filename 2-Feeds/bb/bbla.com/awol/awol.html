@@ -1,0 +1,2560 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>AWOL - Authors WithOut Limits</title>
+
+  <style type="text/css">
+
+/* 
+Blogger Template Style
+Name:     TicTac
+Author:   Dan Cederholm
+URL:      www.simplebits.com
+Date:     1 March 2004
+*/
+
+/* ---( page defaults )--- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  font-size: small;
+  text-align: center;
+  color: #333;
+  background: #e0e0e0;
+  }
+
+blockquote {
+  margin: 0 0 0 30px;
+  padding: 10px 0 0 20px;
+  font-size: 88%;
+  line-height: 1.5em;
+  color: #666;
+  background: url(http://www.blogblog.com/tictac/quotes.gif) no-repeat top left;
+  }
+
+blockquote p {
+  margin-top: 0;
+  }
+
+abbr, acronym {
+  cursor: help;
+  font-style: normal;
+  border-bottom: 1px dotted;
+  }
+
+code {
+  color: #f63;
+  }
+
+hr {
+  display: none;
+  }
+
+img {
+  border: none;
+  }
+
+/* unordered list style */
+
+ul {
+  list-style: none;
+  margin: 0 0 20px 30px;
+  padding: 0;
+  }
+
+li {
+  list-style: none;
+  padding-left: 14px;
+  margin-bottom: 3px;
+  background: url(http://www.blogblog.com/tictac/tictac_orange.gif) no-repeat 0 6px;
+  }
+
+/* links */
+
+a:link {
+  color: #69c;
+  }
+
+a:visited {
+  color: #666699;
+  }
+
+a:hover {
+  color: #693;
+  }
+
+a:active {
+  color: #cc3333;
+  text-decoration: none;
+  }
+
+/* ---( layout structure )---*/
+
+#wrap {
+  width: 847px;
+  margin: 0 auto;
+  text-align: left;
+  background: url(http://www.blogblog.com/tictac/tile.gif) repeat-y;
+  }
+
+#content {
+  margin-left: 62px; /* to avoid the BMH */
+  }
+
+#main-content {
+  float: left;
+  width: 460px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  line-height: 1.5em;
+  }
+
+#sidebar {
+  margin: 0 41px 0 547px;
+  padding: 20px 0 0 0;
+  font-size: 85%;
+  line-height: 1.4em;
+  color: #999;
+  background: url(http://www.blogblog.com/tictac/sidebar_bg.gif) no-repeat 0 0;
+  }
+
+
+/* ---( header and site name )--- */
+
+#blog-header {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", "Trebuchet MS";
+  background: #e0e0e0 url(http://www.blogblog.com/tictac/top_div.gif) no-repeat top left;
+  }
+
+#blog-header h1 {
+  margin: 0;
+  padding: 45px 60px 50px 160px;
+  font-size: 200%;
+  color: #fff;
+  text-shadow: #81A75B 2px 2px 2px;
+  background: url(http://www.blogblog.com/tictac/top_h1.gif) no-repeat bottom left;
+  }
+
+#blog-header h1 a {
+  text-decoration: none;
+  color: #fff;
+  }
+
+#blog-header h1 a:hover {
+  color: #eee;
+  }
+
+/* ---( main column )--- */
+
+h2.date-header {
+  margin-top: 0;
+  padding-left: 14px;
+  font-size: 90%;
+  color: #f93;
+  background: url(http://www.blogblog.com/tictac/date_icon.gif) no-repeat 0 50%;
+  }
+
+h3.post-title {
+  margin-top: 0;
+  font-family: "Lucida Grande", "Trebuchet MS";
+  font-size: 130%;
+  letter-spacing: -1px;
+  color: #f63;
+  }
+
+.post {
+  margin: 0 0 1.5em 0;
+  padding: 0 0 1.5em 14px;
+  border-bottom: 1px solid #ddd;
+  }
+
+.post-footer {
+  margin: 0;
+  padding: 0 0 0 14px;
+  font-size: 88%;
+  color: #999;
+  background: url(http://www.blogblog.com/tictac/tictac_grey.gif) no-repeat 0 8px;
+  }
+
+.post img {
+  padding: 6px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  }
+
+/* comment styles */
+
+#comments {
+  padding-top: 10px;
+  font-size: 85%;
+  line-height: 1.5em;
+  color: #666;
+  background: #eee url(http://www.blogblog.com/tictac/comments_curve.gif) no-repeat top left;
+  }
+
+#comments h4 {
+  margin: 20px 0 15px 0;
+  padding: 8px 0 0 40px;
+  font-family: "Lucida Grande", "Trebuchet MS";
+  font-size: 130%;
+  color: #666;
+  background: url(http://www.blogblog.com/tictac/bubbles.gif) no-repeat 10px 0;
+  height: 29px !important; /* for most browsers */
+  height /**/:37px; /* for IE5/Win */
+  }
+  
+#comments ul {
+  margin-left: 0;
+  }
+
+#comments li {
+  background: none;
+  padding-left: 0;
+  }
+  
+.comment-body {
+  padding: 0 10px 0 25px;
+  background: url(http://www.blogblog.com/tictac/tictac_orange.gif) no-repeat 10px 5px;
+  }
+
+.comment-body p {
+  margin-bottom: 0;
+  }
+
+.comment-data {
+  margin: 4px 0 0 0;
+  padding: 0 10px 1em 60px;
+  color: #999;
+  border-bottom: 1px solid #ddd;
+  background: url(http://www.blogblog.com/tictac/comment_arrow.gif) no-repeat 44px 2px;
+  }
+
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+/* ---( sidebar )--- */
+
+h2.sidebar-title {
+  margin: 0 0 0 0;
+  padding: 25px 0 0 50px;
+  font-family: "Lucida Grande", "Trebuchet MS";
+  font-size: 130%;
+  color: #666;
+  height: 32px;
+  background: url(http://www.blogblog.com/tictac/sidebar_icon.gif) no-repeat 20px 15px;
+  height: 32px !important; /* for most browsers */
+  height /**/:57px; /* for IE5/Win */
+  }
+
+#sidebar ul, #sidebar p {
+  margin: 0;
+  padding: 5px 20px 1em 20px;
+  border-bottom: 1px solid #ddd;
+  }
+
+#sidebar li {
+  background: url(http://www.blogblog.com/tictac/tictac_green.gif) no-repeat 0 5px;
+  }
+
+/* profile block */
+
+.profile-datablock {
+  margin: 0;
+  padding: 5px 20px 0 20px;
+  }
+
+.profile-datablock dd {
+  margin: 0;
+  padding: 0;
+  }
+
+.profile-img img {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  background: #fff;
+  }
+
+#sidebar p.profile-link {
+  padding-left: 36px;
+  background: url(http://www.blogblog.com/tictac/profile.gif) no-repeat 20px 4px;
+  }
+
+p#powered-by, #sidebar p.profile-textblock {
+  margin-top: 1em;
+  border: none;
+  }
+
+/* ---( footer )--- */
+
+.clear { /* to fix IE6 padding-top issue */
+  clear: both;
+  height: 0;
+  }
+
+#footer {
+  margin: 0;
+  padding: 0 0 9px 0;
+  font-size: 85%;
+  color: #ddd;
+  background: url(http://www.blogblog.com/tictac/bottom_sill.gif) no-repeat bottom left;
+  }
+
+#footer p {
+  margin: 0;
+  padding: 20px 320px 20px 95px;
+  background: url(http://www.blogblog.com/tictac/bottom_sash.gif) no-repeat top left;
+  }
+
+
+  </style>
+
+
+<link rel="openid.server" href="http://www.blogger.com/openid-server.g" />
+</head>
+
+<body>
+
+  <script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){b=b;var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k); })();</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="generator" content="Blogger" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.blogger.com/favicon.ico"/>
+<link rel="alternate" type="application/atom+xml" title="AWOL - Authors WithOut Limits - Atom" href="http://www.bbla.com/awol/rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="AWOL - Authors WithOut Limits - RSS" href="http://www.bbla.com/awol/rss.xml" />
+<link rel="service.post" type="application/atom+xml" title="AWOL - Authors WithOut Limits - Atom" href="http://www.blogger.com/feeds/13391119/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=13391119" />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/static/v1/v-css/50269083-blog_controls.css"/> <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=13391119&zx=85000441-5247-4525-bcf6-a962a5df0dbf"/>
+
+<div id="wrap"> <!-- #wrap - for centering -->
+
+<!-- Blog Header -->
+<div id="blog-header">
+  <h1>
+    
+	AWOL - Authors WithOut Limits
+	
+  </h1>
+</div>
+
+
+<div id="content"> <!-- #content wrapper -->
+
+<!-- Begin #main-content -->
+<div id="main-content">
+
+
+
+    
+  <h2 class="date-header">Wednesday, April 14, 2010</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="8980560203552956022"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 56: The Barbara Kozera Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_62-Barbara_Kozera.mp3">Click here to download show (910 kb)</a><br />(to save right-click and press 'save target as')<br /><br />Barbara Kozera reads  'The Tree' and 'How a Rainbow is Formed.'  For over 26 years, Barbara Bauer has provided the best literary representation to new and established authors across the country and around the world.<div style="clear:both; padding-bottom:0.25em"></div><p class="blogger-labels">Labels: <a rel='tag' href="http://www.bbla.com/awol/labels/barbara%20kozera.html">barbara kozera</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/encore.html">encore</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/rainbow.html">rainbow</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/the%20tree.html">the tree</a></p></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2010/04/episode-56-barbara-kozera-encore-show.html" title="permanent link">1:18 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=8980560203552956022" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, January 06, 2010</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="1314310985124662147"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 55: The Steve Nagy Sports Celebrity Tribute
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_59-Steve_Nagy3.mp3">Click here to download show (2.16 mb)</a><br />(to save right-click and press 'save target as')<br /><br />Steve Nagy dedicates this program to a ton of sports figures and celebrities who have endorsed his sports books including Johnny Rodz, Craig Laughlin, Chris Shearn, Armond Cecere, Art Dorrington, Jerry Recco, Bobby Thomson, Ted Kubiak and many, many more!  The Barbara Bauer Literary Agency celebrates is 26th Anniversary in 2010.  Happy New Year!<div style="clear:both; padding-bottom:0.25em"></div><p class="blogger-labels">Labels: <a rel='tag' href="http://www.bbla.com/awol/labels/awol.html">awol</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/barbara%20bauer.html">barbara bauer</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/bbla.html">bbla</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/steve%20nagy.html">steve nagy</a></p></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2010/01/episode-55-steve-nagy-sports-celebrity.html" title="permanent link">7:58 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=1314310985124662147" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, November 03, 2009</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="1775835667020596579"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 54: The Sheryl Robinson Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_60-Sheryl_Robinson.mp3">Click here to download show (1.07 mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Under God's Anointing"  Ms. Robinson introduces her faith-based autobiography.  BBLA, Inc., celebrates our 25th Anniversary in 2009 with entertaining podcasts by outstanding authors for discriminating audiences.<div style="clear:both; padding-bottom:0.25em"></div><p class="blogger-labels">Labels: <a rel='tag' href="http://www.bbla.com/awol/labels/awol.html">awol</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/bbla.html">bbla</a>, <a rel='tag' href="http://www.bbla.com/awol/labels/sheryl%20robinson.html">sheryl robinson</a></p></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2009/11/episode-54-sheryl-robinson-show.html" title="permanent link">1:42 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=1775835667020596579" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, September 02, 2009</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="2603229830902675571"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 53: The Marc Nonnenkamp Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><span class="Apple-style-span"  style="font-family:'Times New Roman';"><div style="border-width: 0px; margin: 0px; padding: 3px; width: auto; font-family: Georgia,serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 100%; line-height: normal; font-size-adjust: none; font-stretch: normal; text-align: left;"><a href="http://www.bbla.com/awol/AWOL_58-Marc_Nonnenkamp.mp3">Click here to download show (1.03 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'Volkswagen, the People's Car' by Marc Nonnenkamp. Author Marc Nonnenkamp tells of his new book which gives a comprehensive and concise history of the Volkswagen Company and their secret for thriving in spite of a bad economy</div></span><div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2009/09/episode-53-marc-nonnenkamp-show.html" title="permanent link">2:09 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=2603229830902675571" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, June 07, 2009</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="5116028649780214444"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 52: The Beverly Lowman Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_56-Beverly_Lowman.mp3">Click here to download show (1.06 mb)</a><br />(to save right-click and press 'save target as')<br /><br />"You Can't Treat People Any Kind of Way"  Beverly Lowman performs her original song from her collection of faith-based poetry and prose.  She is represented by the Barbara Bauer Literary Agency of Matawan, NJ.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2009/06/episode-52-beverly-lowman-show.html" title="permanent link">8:32 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=5116028649780214444" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, April 08, 2009</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="8841935910761241934"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 51: The Robert Bostian Encore Presentation
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_55-Robert_Bostian_Encore.mp3">Click here to download show (1.67 mb)</a><br />(to save right-click and press 'save target as')<br /><br />Robert Bostian's literary agent, Dr. Barbara Bauer, presents "Tales of the Supernatural" forthcoming from 8th Crow Books, 10/31/2009.  The Barbara Bauer Literary Agency celebrates its 25th Silver Anniversary in publishing (1984-2009).<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2009/04/episode-51-robert-bostian-encore.html" title="permanent link">2:39 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=8841935910761241934" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, January 19, 2009</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="2314732234771854856"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 50: The Stan Hughes Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_54-Stan_Hughes_Encore.mp3">Click here to download show (5.04 mb)</a><br />(to save right-click and press 'save target as')<br /><br />The Stan Hughes BBS Radio Podcast with Preston Dennett "Totems and Spirit Animals."  In these turbulent economic times, it is comforting to know that Barbara Bauer Literary Agency's clients are earning thousands of dollars in extra royalty income.  Our distinguished clientele range from seniors and boomers to twenty-somethings.   Check out our web site for both adult and juvenile titles placed with respected companies.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2009/01/episode-50-stan-hughes-encore-show.html" title="permanent link">1:23 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=2314732234771854856" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, November 10, 2008</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="4087629996701223835"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 49: Staying Alive with Charles Teitell
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_53-Charles_Teitell_3.mp3">Click here to download show (508 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'And all that Jive!'  by Charles Teitell,  author of 'Experience Gastronomique.' The Barbara Bauer Literary Agency, Inc., is the home of the world's best living authors.  Mr. Teitell is hosted by the world's smartest literary agent, Dr. Barbara Bauer, Ph.D., who earned her doctorate in modern British and American literature from St. John's University, Jamaica, NY, in 1979.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2008/11/episode-49-staying-alive-with-charles.html" title="permanent link">10:11 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=4087629996701223835" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, September 06, 2008</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="807915774529734837"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 48: The Olusegun Adewusi Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_52-Olusegun_Adewusi.mp3">Click here to download show (860 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'How to Make Your Dreams Become Reality'  Authors earn thousands of dollars in royalty income at The Barbara Bauer Literary Agency, Inc., of Matawan, NJ.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2008/09/episode-48-olusegun-adewusi-show.html" title="permanent link">8:57 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=807915774529734837" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, July 30, 2008</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="1198258872002973189"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 47: The Vesta-Nadine Severs Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_50-Vesta_Severs.mp3">Click here to download show (1 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'Cannons and Courtship' Civil War letters between a man and woman turn into more than friendship. A true story.  Literary Agents:  Barbara Bauer Literary Agency, Inc., Query first with SASE.  No unsolicited manuscripts.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2008/07/episode-47-vesta-nadine-severs-encore.html" title="permanent link">5:48 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=1198258872002973189" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, June 03, 2008</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="7540822329214718897"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 46: The Doctor Sherri Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_47-Sherri_Alpert-Crohn.mp3">Click here to download show (820 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'Cassandra Gets Her Smile Back' by Dr. Sherri Alpert-Crohn, DDS   Hosted by The Barbara Bauer Literary Agency and Dr. Barbara Bauer, Ph.D. This endearing new book about a young girl's visit to the dentist has been endorsed by many dentists and health practitioners, as well as by clergy and educators.  With a special recommendation from THE AMERICAN DENTAL ASSOCIATION, Chicago, Illinois.  Forthcoming in 2010 from NEW HORIZON PRESS, Far Hills, New Jersey, Dr. Joan Dunphy, Ph.D., Publisher.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2008/06/episode-46-doctor-sherri-show.html" title="permanent link">5:55 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=7540822329214718897" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, February 11, 2008</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="6284620090077381945"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 45: The Richard Cohen Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_46-Richard_Cohen.mp3">Click here to download show (717 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'Battue'  Author Richard Cohen, M.D., discusses his new medical thriller which is being represented by the Barbara Bauer Literary Agency, Inc., Matawan, NJ.  The agency has sold many novels, as well as nonfiction for children and adults, to commercial publishers.  Enjoy!<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2008/02/episode-45-richard-cohen-show.html" title="permanent link">2:13 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=6284620090077381945" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, January 22, 2008</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="5513412769524233537"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 44: The Barbara Kozera Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_45-Barbara_Kozera.mp3">Click here to download show (612 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'What to Believe'  Barbara Kozera entertains with an amusing story about a computer table.  The Barbara Bauer Literary Agency, Inc., of Matawan, New Jersey, sponsors the program.  Bestsellers include Father Orsini (as seen on Regis Philbin and Kelly Ripa), Dr. Carl Pickhardt, child-rearing expert, and many published novels and artists for children and adults as reviewed in Booklist, Library Journal and Publishers Weekly.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2008/01/episode-44-barbara-kozera-show.html" title="permanent link">6:41 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=5513412769524233537" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Friday, December 07, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="9018598576680684950"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 43: The Terry Collins Christmas Podcast
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_51-Terry_Collins.mp3">Click here to download show (710 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'The Ant' by Terry Collins.  This inspirational and uplifting story is just in time for the holidays.  Hosted by The Barbara Bauer Literary Agency, Inc.,  of Matawan, NJ.  The agency has an extensive track record of sales to advance and royalty-paying publishers, has launched many new and unpublished authors, and leads the vanguard in quality and excellence.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/12/episode-43-terry-collins-christmas.html" title="permanent link">2:51 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=9018598576680684950" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, November 06, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="8475410130786621522"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 42: The Stan Hughes Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_49-Stan_Hughes.mp3">Click here to download show (1.66 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'The Chronicles of the Phyllis Redoubtable'  Presented by the Barbara Bauer Literary Agency, Inc., of Matawan, New Jersey.  The agency has an impressive track record.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/11/episode-42-stan-hughes-show.html" title="permanent link">3:02 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=8475410130786621522" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, October 09, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="8878036946527494235"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 41: The Mary Waters Success Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_43-Mary_Waters3.mp3">Click here to download show (1.08 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'Steps to Success.'  Hosted by Dr. Barbara Bauer, a literary agent with an extensive track record, based in Matawan, New Jersey.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/10/episode-41-mary-waters-success-show.html" title="permanent link">4:50 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=8878036946527494235" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, September 04, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="1997627854219837691"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 40: The Steve Nagy Notre Dame Special
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_44-Steve_Nagy3.mp3">Click here to download show (1.13 mb)</a><br />(to save right-click and press 'save target as')<br /><br />The Steve Nagy Notre Dame Special, with Steve Nagy and friends.  Hosted by Dr. Barbara Bauer of the Barbara Bauer Literary Agency, Inc., in Matawan, New Jersey.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/09/episode-40-steve-nagy-notre-dame.html" title="permanent link">7:13 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=1997627854219837691" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, June 26, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="3159898135826867747"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 39: The Sandra White Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_39-Sandra_White.mp3">Click here to download show (1.14 mb)</a><br />(to save right-click and press 'save target as')<br /><br />Noted Missouri author Sandra White presents 'The Album.'  Produced and hosted by her literary agents, Dr. Barbara Bauer and the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/06/episode-39-sandra-white-show.html" title="permanent link">6:19 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=3159898135826867747" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, June 03, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="9211432581931011071"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 38: The Charles Teitell Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_41-Charles_Teitell_enc.mp3">Click here to download show (492 kb)</a><br />(to save right-click and press 'save target as')<br /><br />Veteran author Charles Teitell's  literary agent, Dr. Barbara Bauer, Ph.D., hosts his new episode called 'No Wonder We're Friends.'<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/06/episode-38-charles-teitell-encore-show.html" title="permanent link">7:19 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=9211432581931011071" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, April 29, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="639934722636542264"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 37: The Shawn Williams Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_40-Shawn_Williams.mp3">Click here to download show (487 kb)</a><br />(to save right-click and press 'save target as')<br /><br />Manhunter:  A Screenplay.  Sponsored by The Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/04/episode-37-shawn-williams-show.html" title="permanent link">5:53 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=639934722636542264" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, March 31, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="6411655536169564070"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Maggie Stevens Easter Special
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_Special-Maggie_Stevens.mp3">Click here to download show (712 kb)</a><br />(to save right-click and press 'save target as')<br /><br />Special Presentation: The Maggie Stevens Tyler the Texas Turkey Easter Special. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/03/maggie-stevens-easter-special.html" title="permanent link">11:03 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=6411655536169564070" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Thursday, March 29, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="8945891375226874881"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 36: The April Touchette Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_38-April_Touchette.mp3">Click here to download show (476 kb)</a><br />(to save right-click and press 'save target as')<br /><br />'The Gift of Love'  Touchette discusses and reads her work.  Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/03/episode-36-april-touchette-show.html" title="permanent link">6:56 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=8945891375226874881" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Thursday, March 01, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="7932774579171726466"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 35: The B.I. Flight Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_35-BI_Flight.mp3">Click here to download show (1.41 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'The Lonely Winds'  Hosted by Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/03/episode-35-bi-flight-show.html" title="permanent link">6:24 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=7932774579171726466" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, January 08, 2007</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="116830446557553370"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 34: The Robert Swiatek Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_34-Robert_Swiatek.mp3">Click here to download show (2.19 mb)</a><br />(to save right-click and press 'save target as')<br /><br />Author Bob Swiatek talks with Pete Anderson on the popular book program Crossroads in Buffalo, New York. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2007/01/episode-34-robert-swiatek-show.html" title="permanent link">5:00 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=116830446557553370" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, December 03, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="116517499433349240"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 33: The Petra Buchner Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_33-Petra_Buchner.mp3">Click here to download show (1.31 mb)</a><br />(to save right-click and press 'save target as')<br /><br />A young, up-and-coming photographer and fashion model from Munich, Germany, tells about her new novel 'Black Skin, White Skin.' Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/12/episode-33-petra-buchner-show.html" title="permanent link">11:42 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=116517499433349240" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, November 01, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="116243123533696247"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 32: The Maggie Stevens Thanksgiving Day Special
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_36-Maggie_Stevens.mp3">Click here to download show (625 kb)</a><br />(to save right-click and press 'save target as')<br /><br />The Maggie Stevens Thanksgiving Day Special. With music by Maggie Stevens. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/11/episode-32-maggie-stevens-thanksgiving.html" title="permanent link">5:31 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=116243123533696247" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, October 09, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="116043818504910860"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 31: The Emmanuel Young Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_31-Emmanuel_Young.mp3">Click here to download show (909 kb)</a><br />(to save right-click and press 'save target as')<br /><br />The Psalms of a Warrior's Heart. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/10/episode-31-emmanuel-young-show.html" title="permanent link">4:55 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=116043818504910860" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, September 09, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115781624662081009"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 AWOL Special Presentation
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_Special.mp3">Click here to download show (4.20 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'The Crisis in Publishing' Hosted by Barbara Bauer, Ph.D. with special guests Thomas Wahl, David Hiatt and Joshua Dinnerman.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/09/awol-special-presentation.html" title="permanent link">8:37 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=115781624662081009" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, September 06, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115759244524661114"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 30: The Robert Bostian Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_30-Robert_Bostian.mp3">Click here to download show (1.65 mb)</a><br />(to save right-click and press 'save target as')<br /><br />'Just a Chance.' Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/09/episode-30-robert-bostian-show.html" title="permanent link">6:26 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=115759244524661114" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, August 13, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115552507183411298"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 29: The Renee Carstens Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_29-Renee_Carstens.mp3">Click here to download show (2.59 mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Summer Camp" Hosted by the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/08/episode-29-renee-carstens-show.html" title="permanent link">8:10 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=115552507183411298" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, July 31, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115439643522000589"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 28: The Vesta-Nadine Severs Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_28-Vesta_Severs.mp3">Click here to download show (931 kb)</a><br />(to save right-click and press 'save target as')<br /><br />"Ship Wrecker at Midnight" Hosted by the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/07/episode-28-vesta-nadine-severs-show.html" title="permanent link">6:40 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=115439643522000589" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, July 11, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115266811933638912"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 27: The Maureen Wells Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_27-Maureen_Wells.mp3">Click here to download show (900 kb)</a><br />(to save right-click and press 'save target as')<br /><br />Inspirational and uplifting words from a talented New Zealand author. Hosted by the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/07/episode-27-maureen-wells-show.html" title="permanent link">6:33 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=115266811933638912" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, June 14, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="115033513561564503"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 26: The Burburbur and Chachacha Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_26-Scott_Hagenbuch.mp3">Click here to download show (658 kb)</a><br />(to save right-click and press 'save target as')<br /><br />"The Adventures of Burburbur and Chachacha" by Scott Hagenbuch.  Hosted by the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/06/episode-26-burburbur-and-chachacha.html" title="permanent link">6:30 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=115033513561564503" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, May 14, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="114766091618760611"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 25: The Joe Blount Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_25-Joe_Blount.mp3">Click here to download show (2.5mb)</a><br />(to save right-click and press 'save target as')<br /><br />"How to Keep Food from Going to Waist."  Hosted by the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/05/episode-25-joe-blount-show.html" title="permanent link">7:40 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=114766091618760611" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, April 29, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="114635272633109433"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 24: The John Arlington Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_24-John_Arlington.mp3">Click here to download show (1.71mb)</a><br />(to save right-click and press 'save target as')<br /><br />A poetry reading in Brazilian Portuguese with musical accompaniment. 1. Alvarada 2. Flor de Caen. Hosted by the Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/04/episode-24-john-arlington-show.html" title="permanent link">4:16 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=114635272633109433" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, February 11, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113967096596061246"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 23: The Charles Teitell Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_23-Charles_Teitell.mp3">Click here to download show (610kb)</a><br />(to save right-click and press 'save target as')<br /><br />“Staying Alive”  Hosted by Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/02/episode-23-charles-teitell-show.html" title="permanent link">7:15 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113967096596061246" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, January 29, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113858926270955535"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 22: The Gary Mitchell Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_22-Gary_Mitchell.mp3">Click here to download show (1.52mb)</a><br />(to save right-click and press 'save target as')<br /><br />"The Fellowship of the Round Table:  The Legend of Arthur."  Hosted by Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/01/episode-22-gary-mitchell-encore-show.html" title="permanent link">6:43 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113858926270955535" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, January 10, 2006</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113693736950509006"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 21: The Janet Keske Martinez Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_21-Janet_Keske_Martinez.mp3">Click here to download show (1.08mb)</a><br />(to save right-click and press 'save target as')<br /><br />Recorded at Brandywine Creek, Indiana.  Hosted by Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2006/01/episode-21-janet-keske-martinez-show.html" title="permanent link">3:54 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113693736950509006" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, December 28, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113581929916811055"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 20: The Charles LoBaito Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_20-Charles_LoBaito.mp3">Click here to download show (932kb)</a><br />(to save right-click and press 'save target as')<br /><br />"Perception in Motion" Written and performed by Charles LoBaito. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/12/episode-20-charles-lobaito-show.html" title="permanent link">5:19 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113581929916811055" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, December 10, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113423302579108414"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 19: The Terry Collins Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_18-Terry_Collins.mp3">Click here to download show (2.82mb)</a><br />(to save right-click and press 'save target as')<br /><br />Terry Collins returns with new stories.  Easy listening.   Hosted by The Barbara Bauer Literary Agency, Inc.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/12/episode-19-terry-collins-encore-show.html" title="permanent link">8:42 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113423302579108414" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, November 15, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113210111067272934"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 18: The Maggie Stevens Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_19-Maggie_Stevens.mp3">Click here to download show (1.02mb)</a><br />(to save right-click and press 'save target as')<br /><br />Maggie Stevens is interviewed by Leon Hunt on KMVL-AM radio in Madisonville, Texas, about her children's book series "Tyler the Texas Turkey." Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/11/episode-18-maggie-stevens-show.html" title="permanent link">4:27 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113210111067272934" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, November 06, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113132682578440825"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 17: The Stevie Miller Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_17-Stevie_Miller.mp3">Click here to download show (1.17mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Stevie Miller's Tales" Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/11/episode-17-stevie-miller-show.html" title="permanent link">5:24 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113132682578440825" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, October 23, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="113012276392649343"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 16: The Mary Waters Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_16-Mary_Waters.mp3">Click here to download show (1.1mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Quilting and Electronic Art:  Easy Business for Women with Little or No Money"  Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/10/episode-16-mary-waters-encore-show.html" title="permanent link">7:57 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=113012276392649343" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Wednesday, September 28, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112792187645838725"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 15: The Julie Yahnke Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_15-Julie_Yahnke.mp3">Click here to download show (968kb)</a><br />(to save right-click and press 'save target as')<br /><br />"A Poet's Prayer," children's stories and more! Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/09/episode-15-julie-yahnke-show.html" title="permanent link">8:35 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112792187645838725" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, September 19, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112711492863628934"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 14: The Steve Nagy Encore Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_14-Steve_Nagy.mp3">Click here to download show (2.59mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Lunacy of a Sports Fan" A return engagement with author Steve Nagy and friends. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/09/episode-14-steve-nagy-encore-show.html" title="permanent link">12:26 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112711492863628934" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, September 04, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112585540194612612"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 13: The Susan Ellen Rochester Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_13-Susan_Rochester.mp3">Click here to download show (511kb)</a><br />(to save right-click and press 'save target as')<br /><br />"The Crumbgrabbers Series" Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/09/episode-13-susan-ellen-rochester-show.html" title="permanent link">10:34 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112585540194612612" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Friday, August 19, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112446481018793960"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 12: The Steven Mamchak Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_12-Steven_Mamchak.mp3">Click here to download show (1.2mb)</a><br />(to save right-click and press 'save target as')<br /><br />"The Rock Township Series:  Sticks and Stones"  Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/08/episode-12-steven-mamchak-show.html" title="permanent link">8:17 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112446481018793960" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, August 08, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112350953871162075"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episodoe 11: The Miller Fogg Whitham Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_11-Miller_Fogg_Whitham.mp3">Click here to download show (1.6mb)</a><br />(to save right-click and press 'save target as')<br /><br />The author talks about his works "My Friend Don," "George's Wonderful Journey" and "We Love Your Clouds." Hosted by Barbara Bauer, Ph.D.<br /><br /><a href="http://odeo.com/claim/feed/55a0fd7e611e033a" >My Odeo Channel</a> (odeo/55a0fd7e611e033a)<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/08/episodoe-11-miller-fogg-whitham-show.html" title="permanent link">6:56 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112350953871162075" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, July 24, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112222030629080982"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 10: The Steve Nagy Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_10-Steve_Nagy.mp3">Click here to download show (2.1mb)</a><br />(to save right-click and press 'save target as')<br /><br />Steve is interviewed about his new book "Lunacy of a Sports Fan." Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/07/episode-10-steve-nagy-show.html" title="permanent link">8:48 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112222030629080982" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Friday, July 08, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112087466173390980"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 9: The Larry Erlich Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_9-Larry_Erlich.mp3">Click here to download show (1.7mb)</a><br />(to save right-click and press 'save target as')<br /><br />Larry engages us with his new book "Little Dickie Devil." Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/07/episode-9-larry-erlich-show.html" title="permanent link">7:02 PM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112087466173390980" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Saturday, July 02, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="112032003233557046"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 8: The Mary Waters Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_8-Mary_Waters.mp3">Click here to download show (1.7mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Easy Business for Women with Little or No Money" Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/07/episode-8-mary-waters-show.html" title="permanent link">8:56 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=112032003233557046" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Thursday, June 23, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="111954837892404338"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 7: The Alex Sanders Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_7-Alex_Sanders.mp3">Click here to download show (2.6mb)</a><br />(to save right-click and press 'save target as')<br /><br />"Last Man Standing: An original screenplay" Music produced by Alex Sanders. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/06/episode-7-alex-sanders-show.html" title="permanent link">10:38 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=111954837892404338" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="111954826926670463"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 6: The Gary Mitchell Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_6-Gary_Mitchell.mp3">Click here to download show (4.3mb)</a><br />(to save right-click and press 'save target as')<br /><br />Gary Mitchell entertains us with his unique British humor, and a rundown of his novels and screenplays. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/06/episode-6-gary-mitchell-show.html" title="permanent link">10:36 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=111954826926670463" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Thursday, June 16, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="111893949502063553"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 5: The Gerald Blundell Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_5-Gerald_Blundell.mp3">Click here to download show (20.7mb)</a><br />(to save right-click and press 'save target as')<br /><br />Author Gerald Blundell talks about his life living with handicaps and describes his fiction. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/06/episode-5-gerald-blundell-show.html" title="permanent link">9:29 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=111893949502063553" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, June 07, 2005</h2>
+  
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="111816714392861917"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 4: The Terry Collins Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_4-Terry_Collins_Poems.mp3">Click here to download show (11.9mb)</a><br />(to save right-click and press 'save target as')<br /><br />Terry reads his poems. Easy listening. Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/06/episode-4-terry-collins-show.html" title="permanent link">10:58 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=111816714392861917" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="111816700749812938"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 3: The Vivienne Harmer Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_3-Vivienne_Harmer.mp3">Click here to download show (4.4mb)</a><br />(to save right-click and press 'save target as')<br /><br />Vivienne Harmer gives a preview of her new book "Care Free: A Guide for Caregivers." Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/06/episode-3-vivienne-harmer-show.html" title="permanent link">10:55 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=111816700749812938" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+    
+  
+     
+  <!-- Begin .post -->
+  <div class="post"><a name="111816373533267336"></a>
+     
+    
+    <h3 class="post-title">
+	 
+	 Episode 2: The Elatan Show
+	 
+    </h3>
+    
+     
+    <div class="post-body">
+    
+      <p><div style="clear:both;"></div><a href="http://www.bbla.com/awol/AWOL_2-Elatan-Babies_Can.mp3">Click here to download show (4.57mb)</a><br />(to save right-click and press 'save target as')<br /><br />Elatan 's new children's picture book "Babies Can Be a Lot of Trouble" is read by two talented performers, a husband and wife team called Elatan. With original music by Elatan..  Hosted by Barbara Bauer, Ph.D.<div style="clear:both; padding-bottom:0.25em"></div></p>
+    
+    </div>
+    
+    <p class="post-footer">posted at 
+      <a href="http://www.bbla.com/awol/2005/06/episode-2-elatan-show.html" title="permanent link">9:39 AM</a> 
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=13391119&postID=111816373533267336" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif" height="13" width="18"/></a></span></p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+   <!-- Begin #comments -->
+ 
+  <!-- End #comments -->
+
+
+
+  <hr />
+</div><!-- End #main-content -->
+</div><!-- End #content -->
+
+
+
+<!-- Begin #sidebar -->
+<div id="sidebar">
+
+  <h2 class="sidebar-title">Links</h2>
+    <ul>
+    	<li><a href="http://www.bbla.com">Barbara Bauer Literary Agency, Inc.</a></li>
+    	<li><a href="http://en.wikipedia.org/wiki/Podcast">What is a </a><i><a href="http://en.wikipedia.org/wiki/Podcast">podcast?</a></i></li>
+    	<li><a href="http://www.bbla.com/howtosub.htm" target="_blank"><b>HOW TO
+          SUBSCRIBE</b></a></li>
+  </ul>
+  </MainOrArchivePage>
+  
+  <h2 class="sidebar-title">Previous</h2>
+  
+  <ul id="recently">
+    
+        <li><a href="http://www.bbla.com/awol/2010/04/episode-56-barbara-kozera-encore-show.html">Episode 56: The Barbara Kozera Encore Show</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2010/01/episode-55-steve-nagy-sports-celebrity.html">Episode 55: The Steve Nagy Sports Celebrity Tribut...</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2009/11/episode-54-sheryl-robinson-show.html">Episode 54: The Sheryl Robinson Show</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2009/09/episode-53-marc-nonnenkamp-show.html">Episode 53: The Marc Nonnenkamp Show</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2009/06/episode-52-beverly-lowman-show.html">Episode 52: The Beverly Lowman Show</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2009/04/episode-51-robert-bostian-encore.html">Episode 51: The Robert Bostian Encore Presentation...</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2009/01/episode-50-stan-hughes-encore-show.html">Episode 50: The Stan Hughes Encore Show</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2008/11/episode-49-staying-alive-with-charles.html">Episode 49: Staying Alive with Charles Teitell</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2008/09/episode-48-olusegun-adewusi-show.html">Episode 48: The Olusegun Adewusi Show</a></li>
+     
+        <li><a href="http://www.bbla.com/awol/2008/07/episode-47-vesta-nadine-severs-encore.html">Episode 47: The Vesta-Nadine Severs Encore Show</a></li>
+     
+  </ul>
+  
+  
+  <h2 class="sidebar-title">Archives</h2>
+  
+  <ul class="archive-list">
+   	  
+    	<li><a href="http://www.bbla.com/awol/2005_06_01_archive.html">June 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2005_07_01_archive.html">July 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2005_08_01_archive.html">August 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2005_09_01_archive.html">September 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2005_10_01_archive.html">October 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2005_11_01_archive.html">November 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2005_12_01_archive.html">December 2005</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_01_01_archive.html">January 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_02_01_archive.html">February 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_04_01_archive.html">April 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_05_01_archive.html">May 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_06_01_archive.html">June 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_07_01_archive.html">July 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_08_01_archive.html">August 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_09_01_archive.html">September 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_10_01_archive.html">October 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_11_01_archive.html">November 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2006_12_01_archive.html">December 2006</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_01_01_archive.html">January 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_03_01_archive.html">March 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_04_01_archive.html">April 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_06_01_archive.html">June 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_09_01_archive.html">September 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_10_01_archive.html">October 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_11_01_archive.html">November 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2007_12_01_archive.html">December 2007</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2008_01_01_archive.html">January 2008</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2008_02_01_archive.html">February 2008</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2008_06_01_archive.html">June 2008</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2008_07_01_archive.html">July 2008</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2008_09_01_archive.html">September 2008</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2008_11_01_archive.html">November 2008</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2009_01_01_archive.html">January 2009</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2009_04_01_archive.html">April 2009</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2009_06_01_archive.html">June 2009</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2009_09_01_archive.html">September 2009</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2009_11_01_archive.html">November 2009</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2010_01_01_archive.html">January 2010</a></li>
+	  
+    	<li><a href="http://www.bbla.com/awol/2010_04_01_archive.html">April 2010</a></li>
+	  
+      
+  </ul>
+  
+  
+  <!--<h2 class="sidebar-title">New</h2>
+  
+  <p>This is a paragraph of text in the sidebar.</p>
+  -->
+  
+  <p id="powered-by">&nbsp;<a href="http://feeds.feedburner.com/AuthorsWithoutLimits" title="Subscribe to my feed"><img src="http://www.feedburner.com/fb/images/pub/feedchklt.gif" alt="" style="border:0" width="49" height="14"/></a></p>
+
+
+</div>
+<!-- End #sidebar -->
+
+<div class="clear">&nbsp;</div>
+
+<div id="footer">
+   <p><!-- If you'd like, you could place footer information here. -->&nbsp;</p>
+</div>
+
+</div> <!-- end #wrap -->
+
+<!-- c(~) -->
+<script type="text/javascript" src="http://www.blogger.com/static/v1/common/js/3515087413-csitaillib.js"></script>
+<script>if (typeof(window.attachCsiOnload) != 'undefined' && window.attachCsiOnload != null) { window.attachCsiOnload('ext_blogspot'); }</script></body>
+</html>

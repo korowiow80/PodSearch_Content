@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="cba-de-DE">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Cultural Broadcasting Archive</title>
+
+<meta name="title" content="Cultural Broadcasting Archive" />
+<meta name="description" content="" />
+
+<link rel="stylesheet" href="http://cba.fro.at/wp-content/themes/cba/style.css" type="text/css" media="screen" />
+<link rel="pingback" href="http://cba.fro.at/xmlrpc.php" />
+
+<link rel="stylesheet" href="http://cba.fro.at/wp-content/plugins/i-love-social-bookmarking/includes/style.css" type="text/css" media="screen" /><style type="text/css">div.ilsb-parent , div.ilsb-child {background-color:#FFFFFF;}div.ilsb-parent a {font-size:11px;}div.ilsb-child {border-bottom:2px solid #884098}div.ilsb-child span {display:block;}</style><script type='text/javascript' src='http://cba.fro.at/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://cba.fro.at/wp-content/plugins/i-love-social-bookmarking/includes/ilsb.js?ver=0.3'></script>
+<script type='text/javascript' src='http://cba.fro.at/wp-content/plugins/wp-report-error/js/report_errors_script.js?ver=3.3.1'></script>
+
+<script type='text/javascript' src='http://cba.fro.at/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+	<script type="text/javascript">
+	// ajax_login_widget settings
+	var alw_timeout = 0;
+	var alw_redirectOnLogin = 'http://cba.fro.at/wp-admin/';
+
+	// constants
+	var alw_base_uri = 'http://cba.fro.at';
+	var alw_success = '1';
+	var alw_failure = '0';
+
+	</script>
+	<script type="text/javascript" src="http://cba.fro.at/wp-content/plugins/ajax-login-widget/ajax_login_widget.js"></script>
+    
+    <!-- Fancy Gallery (WordPress Plugin by Dennis Hoppe) Components -->
+    <script type="text/javascript" src="http://cba.fro.at/wp-content/plugins/fancy-gallery/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="http://cba.fro.at/wp-content/plugins/fancy-gallery/jquery.mousewheel-3.0.2.pack.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="http://cba.fro.at/wp-content/plugins/fancy-gallery/fancybox/jquery.fancybox-1.3.1.css" />
+    <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="http://cba.fro.at/wp-content/plugins/fancy-gallery/fancybox/jquery.fancybox-1.3.1.css-png-fix.php" />
+    <![endif]-->
+    <script type="text/javascript" src="http://cba.fro.at/wp-content/plugins/fancy-gallery/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+    
+    <script type="text/javascript" src="http://cba.fro.at/wp-content/plugins/fancy-gallery/fancy-js.php"></script>    
+    <!-- End of Fancy Gallery Components -->
+    
+    <!-- Wordpress Report Page Errors --><link rel="stylesheet" href="http://cba.fro.at/wp-content/plugins/wp-report-error/report_page_errors.css" type="text/css" /><!-- Wordpress Report Page Errors -->
+<!--<script type='text/javascript' src='http://cba.fro.at/wp-content/themes/cba/swfobject.js'></script>-->
+<script type='text/javascript' src='http://cba.fro.at/wp-content/themes/cba/javascript.js'></script>
+<script type='text/javascript' src='http://cba.fro.at/wp-content/themes/cba/jwplayer.js'></script>
+</head>
+<body >
+
+<div id="header" style="height:110px;">
+	<div id="headerlogo">
+		<a href="http://cba.fro.at/"><img src="http://cba.fro.at/wp-content/themes/cba/images/cba_logo.gif" alt="Cultural Broadcasting Archive" title="Cultural Broadcasting Archive" border="0" width="119" height="70" /></a>
+	</div>
+
+	<div id="headerlogin">
+  <div id="adminarea">
+
+<a href="javascript:alw_showLogin();" title="Login">Login</a> &middot; <a href="http://cba.fro.at/help">Hilfe</a> &middot; <a href="http://cba.fro.at/info">Info</a>
+
+<div id="alw_login" style="display:none;">
+    <form onsubmit="return false;" id="alw_loginForm" name="alw_loginForm" action="#" method="post">
+        <table>
+        <tr>
+            <td>User:</td>
+            <td><input onkeypress="return alw_loginOnEnter(event);" type="text" name="log" size="20" style="height:16px;" class="alwinput" /></td>
+        </tr>
+        <tr>
+            <td>Passwort:</td>
+            <td><input onkeypress="return alw_loginOnEnter(event);" type="password" name="pwd" size="20" style="height:16px;" class="alwinput" /></td>
+        </tr>
+        </table>
+
+        <p id="alw_loginMessage">&nbsp;</p>
+
+            <span id="alw_loading_login">
+               <img src="http://cba.fro.at/wp-content/themes/cba/images/icon_loading.gif" alt="Loading" width="16" height="16" align="bottom"/>
+               Logging in ...
+            </span>
+
+
+        <p id="alw_login_p">
+            <a href="javascript:alw_showLostPassword();">Lost password?</a> |
+            <label style="vertical-align:middle;"><input onkeypress="return alw_loginOnEnter(event);" type="checkbox" name="rememberme" value="forever" style="margin-right:5px;" /> Remember me!</label>
+            <input type="button" name="submit" value="Anmelden" onclick="alw_login();" class="alw_login_button" />
+        </p>
+    </form>
+<div class="cba_hide_login"><a href="javascript:alw_hideLogin();"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_close.gif" alt="Close" width="15" height="15" border="0" /></a></div>
+</div>
+
+<div id="alw_register" style="display:none">
+<div>
+    <form onsubmit="return false;" id="alw_registerForm" action="#" method="post">
+        <table>
+        <tr>
+            <td>User:</td>
+            <td><input onkeypress="return alw_registerOnEnter(event);" type="text" name="user_login" size="20" style="height:18px;"/></td>
+        </tr>
+        <tr>
+            <td>E-Mail:</td>
+            <td><input onkeypress="return alw_registerOnEnter(event);" type="text" name="user_email" size="20"  style="height:18px;"/></td>
+        </tr>
+        </table>
+        <p>
+            <span id="alw_registerMessage">A password will be mailed to you.<br/></span>
+            <a href="javascript:alw_showLogin();">Back to Login?</a>
+             | <a href="javascript:alw_showLostPassword();">Forgot password?</a><br/>
+            <input type="button" name="submit" value="Registrieren &raquo;" onclick="alw_register();"/>
+            <span id="alw_loading_register" style="display:none; height:22px; width:22px; vertical-align:bottom;">
+               <img src="http://cba.fro.at/wp-content/themes/cba/images/icon_loading.gif" width="16" height="16" border="0" alt="Loading" align="bottom" />
+               Registering ...
+            </span>
+        </p>
+    </form>
+</div>
+<div class="cba_hide_login"><a href="javascript:alw_hideLogin();"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_close.gif" alt="Close" width="15" height="15" border="0" /></a></div>
+</div>
+
+<div id="alw_lostPassword" style="display:none">
+<div>
+    <form onsubmit="return false;" id="alw_lostPasswordForm" action="#" method="post">
+        <table>
+        <tr>
+            <td>User:</td>
+            <td><input onkeypress="return alw_retrievePasswordOnEnter(event);" type="text" name="user_login" size="20" style="height:18px;"/></td>
+        </tr>
+        <tr>
+            <td>E-Mail:</td>
+            <td><input onkeypress="return alw_retrievePasswordOnEnter(event);" type="text" name="user_email" size="20" style="height:18px;"/></td>
+        </tr>
+        </table>
+        <p>
+            <span id="alw_lostPasswordMessage">A new password will be sent to your e-mail address.<br/></span>
+            <input type="button" name="submit" value="Retrieve &raquo;" onclick="alw_retrievePassword();"  class="alw_login_button"/>
+            <a href="javascript:alw_showLogin();">Or back to Login?</a><br/>
+            <span id="alw_loading_lost" style="display:none; height:22px; width:22px; vertical-align:bottom;">
+               <img src="http://cba.fro.at/wp-content/themes/cba/images/icon_loading.gif" width="16" height="16" border="0" align="bottom" alt="Loading"/>
+               Looking up your credentials ...
+            </span>
+        </p>
+    </form>
+</div>
+<div class="cba_hide_login"><a href="javascript:alw_hideLogin();"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_close.gif" alt="Close" width="15" height="15" border="0"/></a></div>
+</div>
+
+</div>
+		<form method="get" id="searchform" name="searchform" action="http://cba.fro.at/">
+<label class="hidden" for="s">Suche nach:</label>
+<input type="text" size="16" value="" name="s" id="s" /><button type="submit" id="searchsubmit" title="Suchen"></button>
+</form>
+	</div>
+	
+	<div id="headermiddle">
+		<ul>
+			<li ><a href="http://cba.fro.at/recent"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_s_actuality.gif" width="13" height="10" border="0" alt="nach Aktualit&auml;t" title="nach Aktualit&auml;t" /> Aktualit&auml;t</a></li>
+			<li ><a href="http://cba.fro.at/categories"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_s_topic.gif" width="15" height="15" border="0" alt="nach Themen" title="nach Themen"  /> Themen</a></li>
+			<li ><a href="http://cba.fro.at/tags"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_s_tag.gif" width="15" height="15" border="0" alt="nach Tags" title="nach Tags"  /> Tags</a></li>
+			<li ><a href="http://cba.fro.at/stations"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_s_station.gif" width="14" height="15" border="0" alt="nach Stationen" title="nach Stationen"  /> Stationen</a></li>
+			<li ><a href="http://cba.fro.at/languages"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_s_language.gif" width="16" height="13" border="0" alt="nach Sprache" title="nach Sprache"  /> Sprache</a></li>
+			<!--<li ><a href="http://cba.fro.at/date/calendar"><img src="http://cba.fro.at/wp-content/themes/cba/images/icon_s_calendar.gif" width="16" height="15" border="0" alt="nach Kalender" title="nach nach Kalender"  /> Kalender</a></li>-->
+		</ul>
+	</div>
+
+	<div id="headerbottom" style="height:30px;text-align:center;"><a href="http://cba.fro.at/opensource" style="display:block;"><img title="CBA goes open Source" src="http://fro.at/cba/images/header_opensource.gif" alt="CBA goes Open Source" style="margin-top:3px;"/></a></div>
+	
+</div>
+
+<div id="page">
+
+  <div id="container" class="single">
+
+  	<div class="content404">
+      <h2 class="notfound">We are sorry, this site can not be found.</h2>
+
+      <form action="index.php" id="search404">
+      Search for media: <input type="text" size="30" id="search404" name="s" /> <button type="submit" id="searchsubmit404"> </button>
+      </form>
+      
+<span class="container_cat_list s1 nonation tgesellschaft"><a title="Alle unter gesellschaft abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/gesellschaft">Gesellschaft</a></span> &middot; <span class="container_cat_list s1 nonation tkultur"><a title="Alle unter kultur abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/kultur">Kultur</a></span> &middot; <span class="container_cat_list s1 nonation tmedien"><a title="Alle unter medien abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/medien">Medien</a></span> &middot; <span class="container_cat_list s1 nonation tpolitik"><a title="Alle unter politik abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/politik">Politik</a></span> &middot; <span class="container_cat_list s1 nonation tunterhaltung"><a title="Alle unter unterhaltung abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/unterhaltung">Unterhaltung</a></span> &middot; <span class="container_cat_list s1 nonation twirtschaft"><a title="Alle unter wirtschaft abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/wirtschaft">Wirtschaft</a></span> &middot; <span class="container_cat_list s1 nonation twissenschaft"><a title="Alle unter wissenschaft abgelegten Beitr&auml;ge ansehen" href="http://cba.fro.at/category/wissenschaft">Wissenschaft</a></span> &middot; 
+    <div class="clear">&nbsp;</div>
+    <div class="clear">&nbsp;</div>
+    <div class="clear">&nbsp;</div>
+    <div class="clear">&nbsp;</div>
+    
+    Or try some random tags...
+    
+    <div class="clear">&nbsp;</div>
+    <div class="clear">&nbsp;</div>
+
+    
+<!-- Generated by Simple Tags 2.2 - http://wordpress.org/extend/plugins/simple-tags -->
+	<div class="st-tag-cloud">
+	<a href="http://cba.fro.at/tag/partyherz" id="tag-link-19456" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Partyherz</a>
+<a href="http://cba.fro.at/tag/freies-radio-potsdam" id="tag-link-26637" class="st-tags t1" title="3 topics" rel="tag" style="font-size:10pt; color:#363636;">Freies Radio Potsdam</a>
+<a href="http://cba.fro.at/tag/soziale-ausgrenzung" id="tag-link-13264" class="st-tags t3" title="7 topics" rel="tag" style="font-size:10pt; color:#363636;">soziale Ausgrenzung</a>
+<a href="http://cba.fro.at/tag/cafe-bizarre" id="tag-link-1441" class="st-tags t2" title="4 topics" rel="tag" style="font-size:10pt; color:#363636;">Café Bizarre</a>
+<a href="http://cba.fro.at/tag/auckland" id="tag-link-10369" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Auckland</a>
+<a href="http://cba.fro.at/tag/brachner" id="tag-link-24332" class="st-tags t10" title="24 topics" rel="tag" style="font-size:10pt; color:#363636;">Brachner</a>
+<a href="http://cba.fro.at/tag/bodymodification" id="tag-link-22773" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Bodymodification</a>
+<a href="http://cba.fro.at/tag/arbeitnehmertag" id="tag-link-9760" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">arbeitnehmertag</a>
+<a href="http://cba.fro.at/tag/plastic-carpet" id="tag-link-19145" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">plastic carpet</a>
+<a href="http://cba.fro.at/tag/honeyboy-edwards" id="tag-link-24414" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Honeyboy Edwards</a>
+<a href="http://cba.fro.at/tag/hundekacke" id="tag-link-8588" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Hundekacke</a>
+<a href="http://cba.fro.at/tag/mobilitat-blindheit-literatur" id="tag-link-20263" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Mobilität Blindheit Literatur</a>
+<a href="http://cba.fro.at/tag/julia-jentsch" id="tag-link-2215" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Julia Jentsch</a>
+<a href="http://cba.fro.at/tag/rostock-lichtenhagen" id="tag-link-22113" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Rostock-Lichtenhagen</a>
+<a href="http://cba.fro.at/tag/freakonomics" id="tag-link-25807" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Freakonomics</a>
+<a href="http://cba.fro.at/tag/paoweb" id="tag-link-23161" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Paoweb</a>
+<a href="http://cba.fro.at/tag/halle-a-d-saale" id="tag-link-19302" class="st-tags t1" title="2 topics" rel="tag" style="font-size:10pt; color:#363636;">Halle a.d. Saale</a>
+<a href="http://cba.fro.at/tag/asylkoordination" id="tag-link-3286" class="st-tags t2" title="5 topics" rel="tag" style="font-size:10pt; color:#363636;">asylkoordination</a>
+<a href="http://cba.fro.at/tag/lieratur" id="tag-link-18908" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">lieratur</a>
+<a href="http://cba.fro.at/tag/galileo-galilei" id="tag-link-5419" class="st-tags t1" title="1 topics" rel="tag" style="font-size:10pt; color:#363636;">Galileo Galilei</a></div>
+
+
+    </div>
+  </div>
+
+<style type="text/css" media="all">#avatar_footer { display: none; } /* Change this in Users > Avatars. */ </style><div id="avatar_footer">Avatars by <a href="http://www.sterling-adventures.co.uk/blog/">Sterling Adventures</a></div><!--  <div id="footer_map">
+  <a href="http://cba.fro.at/stations">Stationen</a> &raquo; <a href="http://cba.fro.at/series">Sendereihen</a> &raquo; <a href="http://cba.fro.at/recent">Beitr&auml;ge</a> &middot; <a href="http://cba.fro.at/categories">Themen</a> &middot; <a href="http://cba.fro.at/tags">Tags</a> &middot; <a href="http://cba.fro.at/faq">FAQ</a> &middot; <a href="http://cba.fro.at/info">Mehr zum CBA</a> &middot; <a href="http://cba.fro.at/team">Team</a>
+  </div>-->
+  <div id="footer">
+	  <p>CBA - Cultural Broadcasting Archive &middot; 2000 - 2012</p>  </div>
+</div>
+</body>
+</html>

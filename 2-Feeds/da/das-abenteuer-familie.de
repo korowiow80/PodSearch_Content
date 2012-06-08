@@ -1,0 +1,274 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="de-DE" lang="de-DE" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	Created 2011 by INCOWEB.de
+	Contact: info@incoweb.de
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2011 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.dasabenteuerleben.de/" />
+<link rel="shortcut icon" href="http://www.dasabenteuerleben.de/fileadmin/template/favicon.ico" />
+<link rel="icon" href="http://www.dasabenteuerleben.de/fileadmin/template/favicon.ico" />
+
+<meta name="generator" content="TYPO3 4.5 CMS" />
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_e2ecbe762e.css?1322815986" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/res/css/powermail_frontend_fancy.css?1298022387" media="all" />
+
+
+
+<script src="typo3temp/javascript_93077bb238.js?1298023555" type="text/javascript"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+ 
+<link rel="stylesheet" href="fileadmin/template/css/style.css" /> 
+<script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script> 
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/tiptip.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/jquery.tinysort.min.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/jquery.tagcloud.min.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/tcloud.js"></script>
+<script type="text/javascript" language="javascript" src="fileadmin/template/js/incoscripts.js"></script>
+<script src="http://www.google.com/jsapi"></script>
+<script>google.load("swfobject", "2.2");</script>
+<script language="JavaScript1.2">
+<!--
+
+//Open offsite links in new window option- By Jessica Hammer
+//Heavily modified by Dynamic Drive
+//Visit&nbsp;<a href="http://www.dynamicdrive.com" target="_blank">www.dynamicdrive.com</a> for this script
+
+//1)Enter domains to be EXCLUDED from opening in new window:
+var excludedomains=["www.dasabenteuerleben.de", "dasabenteuerleben.de"]
+
+//2)Automatically open offsite links in new window? (1=yes, 0 will render a checkbox for manual selection)
+var auto=1
+
+var excludedomains=excludedomains.join("|")
+rexcludedomains=new RegExp(excludedomains, "i")
+
+if (!auto)
+document.write('<form name="targetmain"><input type="checkbox" name="targetnew" checked onClick="dynamiclink()">Open off-site links in new window</form>')
+
+function dynamiclink(){
+
+if (auto||(!auto&&document.targetmain.targetnew.checked)){
+for (i=0; i<=(document.links.length-1); i++) {
+if (document.links[i].hostname.search(rexcludedomains)==-1&&document.links[i].href.indexOf("http:")!=-1)
+document.links[i].target="_blank"
+}
+}
+else
+for (i=0; i<=(document.links.length-1); i++) {
+if (document.links[i].hostname.indexOf(mydomain)==-1)
+document.links[i].target=""
+}
+}
+
+if (auto)
+window.onload=dynamiclink
+
+// -->
+</script><link rel="alternate" type="application/rss+xml" href="http://dasabenteuerleben.de/rss/" title="Abenteuer Leben RSS Feed"><script type="text/javascript" src="http://apis.google.com/js/plusone.js"> 
+{lang: 'de'}
+</script>
+</head>
+<body>
+ 
+<div class="container_16 layout1col" id="wrap"><!--###wrap### begin -->
+<div class="grid_16" id="navigation"><div id="logo"><!--###logo### begin --><a href="http://www.dasabenteuerleben.de/"><img src="http://shop.dasabenteuerleben.de/skin/frontend/default/media/images/dal_logo.png" alt="Logo" width="30" height="30" /></a><!--###logo### end --></div><ul id="theNav"><li class="level-0"><a href="home.html" onfocus="blurLink(this);"  >Home</a></li><li class="level-0"><a href="kanaele/uebersicht-kanaele.html" onfocus="blurLink(this);"  >Kanäle</a></li><li class="level-0"><a href="autoren/alle-autoren.html" onfocus="blurLink(this);"  >Autoren</a></li><li class="level-0"><a href="http://shop.dasabenteuerleben.de/" onfocus="blurLink(this);"  >Shop</a></li><li class="level-0"><a href="ueber-uns.html" onfocus="blurLink(this);"  >Über uns</a></li></ul><div id="mainsearch">
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		
+		<form name="tx_dalartikel_search" id="tx_dalartikel_search" action="suche/suchergebnisse.html" method="post">
+		<input id="suchbox" onclick="this.value=''" value="Gesamte Seite durchsuchen..." type="text" name="tx_dalartikel_pi1[search]" />
+		<input id="suchbutton" type="submit" name="tx_dalartikel_pi1[submit]" value="suchen" />
+		<input type="hidden" name="tx_dalartikel_pi1[postsearch]" value="1" />
+		</form>
+		<div><small><a href="suche.html">Erweiterte Suche</a></small></div>
+
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	</div></div>
+<div class="grid_16" id="header"><!--###header### begin --><!-- --><!--###header### end --></div>
+<div class="grid_16" id="maincontent">
+	<!--  CONTENT ELEMENT, uid:6/list [begin] -->
+		<div id="c6" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "dalartikel", plugin "tx_dalartikel_pi1"
+
+	-->
+	<div class="tx-dalartikel-pi1">
+		
+	
+<div class="grid_11 alpha articleDetailsLeft">
+	<div class="bigBoxTop"><h1>Abenteuer Familie</h1></div>
+	<div class="bigBoxWrap"><p class="bodytext">Das neue Abenteuer Familie ist ab/seit dem 15. Januar 2011 auf Sendung&nbsp;<br /><br />Your Family is not negotiable – Deine Familie ist nicht verhandelbar. Ebenso wenig, wie frau ein bisschen schwanger sein kann. Familie ist weder eine „one-man-show“ noch eine einmalige Angelegenheit, sondern eine täglich neue Herausforderung, egal ob Zweier-Team oder mit mehreren Abenteurern. Hier geht es genau um diese vielen kleinen Herausforderungen, vom Zahnpasta-Drama bis zur Zukunftsvision, von der Partnerschaft zur Familienaussage, Sorgen, Ängste, Nöte, dem Reisefahrplan über Medienkonsum bis hin zu Sex. Und ja, so soll dieser Podcast sein, wie guter Sex: Alles kann, nichts muss – Es ist vielmehr ein Angebot, sich das (an) zu nehmen, was zu Ihnen selbst passt, um mit Spaß und Freude Ihre eigene Familie proaktiv und erfolgreich zu gestalten. Denn Ihre Familie ist einzigartig – wie jede andere auch.<br />Egal ob es um Tipps und Tricks, Techniken oder Tools, Theorien oder Lebenserfahrungen handelt, es soll stets konkret und anwendbar sein.</p></div>
+	<div class="bigBoxFoot"></div>
+	<div class="bigBoxTop"><h1>Artikel dieses Kanals</h1></div>
+	
+<div class="lastArticleElement">
+<h4>AF025 - Internet und neue Medien - Alles ganz nett oder doof - Teil 1</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 02.06.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<p class="lastArticleTeaser">Eine Sendung auf Anregung von Euch: Wir nähern uns dem Thema Medienkompetenz.
+
+Im Gespräch: Constantin Gonzalez (u.a. Podcaster des HELDENfunk) und Christian Heinrich zu spannenden Fragen wie:
+- Was verspreche ich mir von der Nutzung eines Mediums?
+- Wie definiert man Medienkompetenz?
+- Welche Strategien sind sinnvoll bei der Mediennutzung?
+
+... und natürlich etwas ZDF: Zahlen, Daten, Fakten
+
+Dies ist der 1. Teil mit einem leichten Schwerpunkt rund ums Fernsehen... <a href="die-letzten-artikel/detailseite-artikel/af025-internet-und-neue-medien-alles-ganz-nett-oder-doof-teil-1-468.html">weiterlesen &raquo;</a></p>
+</div>
+
+
+<div class="lastArticleElement">
+<h4>AF024 - Hilfe - Mein Kind ist nicht "normal"</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 14.05.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<p class="lastArticleTeaser">"Mathematisch sichere Prognosen gibt es im Menschenleben überhaupt nicht."
+
+Warum versuchen wir dann, die Eigenschaften von Menschen in einer prägnanten Zahl zusammenzufassen?
+
+In Das Abenteuer Familie 23 ging es um die Liebe zu unseren Kindern - diesmal um bedingungslose Liebe.
+
+Was bedeutet "bedingungslos" oder "vorbehaltlos"?
+
+Wie lassen wir es unsere Lieblinge spüren, dass wir sie bedingungslos Lieben?.. <a href="die-letzten-artikel/detailseite-artikel/af024-hilfe-mein-kind-ist-nicht-normal-453.html">weiterlesen &raquo;</a></p>
+</div>
+
+
+<div class="lastArticleElement">
+<h4>AF023 - Bis zum Mond ...</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 28.04.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<p class="lastArticleTeaser">"Bis zum Mond und wieder zurück", lautet es in einer netten Geschichte für Groß und Klein zum Thema Liebe.
+
+Wie sehr lieben wir unsere Kinder?
+
+Wie zeigen wir unsere Liebe zu Ihnen?
+
+Anlass für diese und andere Fragen gaben mir Eure Zuschriften sowie ein Photo aus dem Internet und ein Artikel über Lieblingskinder im "Stern"... <a href="die-letzten-artikel/detailseite-artikel/af023-bis-zum-mond-433.html">weiterlesen &raquo;</a></p>
+</div>
+
+
+<div class="lastArticleElement">
+<h4>AF022 - Am Gelde hängt's, zum Gelde drängt's</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 15.04.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<p class="lastArticleTeaser">Mal ehrlich: Gab's bei Euch dieses Jahr Ostereier oder Geldscheine? 
+
+Wie gehen wir mit den Wünschen unserer Kinder um? 
+
+Bei den Kleinen Wünschen wie dem Lolli oder Ü-Ei im Supermarkt kann man schnell einmal nachgeben, um Diskussionen zu vermeiden, oder weil das "Nein" hier vielleicht eher ein verhandelbares "Jein" ist und der Seelenfrieden im Moment wichtiger ist. Doch was wenn die Wünsche zur Spielkonsole, einer Designerjeans oder einem Motorrad mutieren?
+
+Wird dann auch schnell und unreflektiert nachgegeben und gekauft?
+
+Wie vermittelt man den Wert von Geld? Wie ein "Nein", wenn Wünsche nicht ins Budget passen?
+.. <a href="die-letzten-artikel/detailseite-artikel/af022-am-gelde-haengts-zum-gelde-draengts-420.html">weiterlesen &raquo;</a></p>
+</div>
+
+
+<div class="lastArticleElement">
+<h4>AF021 - Rechte Rechte Rechte - Was ist mit den Pflichten?</h4>
+<span class="lastArticleAddInfo">In <a href="kanaele/familie.html">Abenteuer Familie</a> am 24.03.2012 von <a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span>
+<p class="lastArticleTeaser">Verträgt sich UNICEF mit dem wöchentlichen Müllrausbringen?
+Ist Tischdecken bereits Kinderarbeit?
+Haben Kinder ein Recht auf Cola und Gummibärchen?
+Wie halten wir es mir Rechten und Pflichten?
+Antworten und spannende Einblicke in dieser Sendung. .. <a href="die-letzten-artikel/detailseite-artikel/af021-rechte-rechte-rechte-was-ist-mit-den-pflichten-401.html">weiterlesen &raquo;</a></p>
+</div>
+
+
+	<div class="bigBoxFoot"></div>
+</div>
+
+<div class="grid_5 omega articleDetailsRight">
+	<div class="smallBoxTop"><h1>Alles zu diesem Kanal</h1></div>
+	<div class="smallBoxWrap">
+	<b>Hörprobe</b>
+	<object id="podcastfile" type="application/x-shockwave-flash" data="http://ind35.srv14.incoweb.de/typo3/fileadmin/template/daltemplate/player.swf" id="" height="30" width="260">
+<param name="movie" value="http://ind35.srv14.incoweb.de/typo3/fileadmin/template/daltemplate/player.swf" >
+<param name="FlashVars" value="playerID=1&amp;slider=0xFF8A01&amp;soundFile=http://ind35.srv14.incoweb.de/typo3/fileadmin/kanalmp3/">
+<param name="quality" value="high">
+<param name="menu" value="false">
+<param name="wmode" value="transparent">
+</object>
+	<a class="multilinks" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=415102943"><img src="http://ind35.srv14.incoweb.de/typo3/fileadmin/template/images/icons/itunes.png" alt="itunes" />Podcast in iTunes abonnieren<br /><span class="multiScnd"></span></a>
+	<a class="multilinks" href="http://feeds.feedburner.com/DasAbenteuerFamilie"><img src="http://ind35.srv14.incoweb.de/typo3/fileadmin/template/images/icons/rss.png" alt="RSS Kanal Feed" />Diesen Kanal-Feed abonnieren<br /><span class="multiScnd"></span></a>
+	<a class="multilinks"><img src="http://ind35.srv14.incoweb.de/typo3/fileadmin/template/images/icons/phone.png" alt="RSS Kanal Feed" />Per Telefon anhören<br /><span class="multiScnd"></span></a>
+	</div>
+	<div class="smallBoxFoot"></div>
+
+	
+	<div class="smallBoxTop"><h1>Erfahre mehr über den Autor</h1></div>
+	<div class="smallBoxWrap mehrautor">
+	<a href="autoren/detailseite-autoren/christian-heinrich.html"><img src="typo3temp/pics/9be49d58e5.jpg" width="80" height="80" border="0" alt="Christian Heinrich" title="Christian Heinrich" /></a> <span class="mehrautoralt"><a href="autoren/detailseite-autoren/christian-heinrich.html">Christian Heinrich</a></span></div>
+	<div class="smallBoxFoot"></div>
+	
+	</div>
+
+	<div class="bigBoxFoot"></div>
+	<div>
+<div class="clear"></div>
+<div class="pageBrowser">
+	
+	
+	<a class="active">1</a><a href="kanaele/familie.html?tx_dalartikel_pi1%5Bp%5D=2">2</a><a href="kanaele/familie.html?tx_dalartikel_pi1%5Bp%5D=3">3</a>
+	<a href="kanaele/familie.html?tx_dalartikel_pi1%5Bp%5D=2">&rsaquo;</a>
+	<a href="kanaele/familie.html?tx_dalartikel_pi1%5Bp%5D=5">&raquo;</a>
+	<div class="clear"></div>
+</div>
+</div>
+
+	</div>
+	
+	<!-- END: Content of extension "dalartikel", plugin "tx_dalartikel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:6/list [end] -->
+		</div>
+<div class="grid_16" id="footerWrap"><a href="home.html" onfocus="blurLink(this);"  >Home</a><a href="autoren/alle-autoren.html" onfocus="blurLink(this);"  >Autoren</a><a href="kanaele/uebersicht-kanaele.html" onfocus="blurLink(this);"  >Kanäle</a><a href="ueber-uns.html" onfocus="blurLink(this);"  >Über uns</a><a href="kontakt.html" onfocus="blurLink(this);"  >Kontakt</a><a href="impressum.html" onfocus="blurLink(this);"  >Impressum</a>&copy; 2011 Das Abenteuer Leben</div>
+<div class="clear"><!--###clear### begin --><!-- --><!--###clear### end --></div>
+<!--###wrap### end --></div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3730199-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+</body>
+</html>

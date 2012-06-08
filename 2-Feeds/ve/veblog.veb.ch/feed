@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+
+
+
+<title>Anmeldung</title>
+<meta name="generator" content="TYPO3 4.6 CMS" />
+
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/fouc.css?1319203965" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_0b931104c7.css?1334560612" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_54cfe8a0d1.css?1334560612" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_fad97d0aa7.css?1319368156" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/styles.css?1338970470" media="all" />
+
+
+
+<script src="fileadmin/templates/scripts/jquery.js?1319203980" type="text/javascript"></script>
+<script src="fileadmin/templates/scripts/flyout.js?1319203980" type="text/javascript"></script>
+<script src="fileadmin/templates/scripts/suggest.js?1319203980" type="text/javascript"></script>
+<script src="fileadmin/templates/scripts/jquery.optionTree.js?1319203980" type="text/javascript"></script>
+<script src="typo3temp/javascript_ebd9c81938.js?1334558960" type="text/javascript"></script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+
+</head>
+<body>
+
+
+<a name="a-top"></a>
+
+<div id="wrapper">
+  
+  
+  <!-- **************************************************************************
+     Logo & Bereich
+  ************************************************************************** //-->  
+  <div id="logo" role="banner" style="display: none;">
+    <img class="logo" src="fileadmin/templates/media/logo.gif" alt="Kanton Zürich" />
+    <div>
+      <p class="home"><a href="#">Startseite Kanton Zürich</a></p>
+      <p class="identity">
+        Kanton Zürich<br />
+
+        Sicherheitsdirektion<br />
+        <strong>Amt für Militär und Zivilschutz</strong> <a href="http://www.amz.zh.ch" class="home">Startseite</a>
+      </p>
+    </div>    
+  </div><!-- / Logo & Bereich (#logo) -->
+  
+  <hr />      
+  
+  
+  <!-- **************************************************************************
+     Seiten-Navigation
+  ************************************************************************** //-->
+  <h1 class="hidden">Navigation</h1>
+
+  <div id="nav-page" role="navigation" style="display: none;">
+    <h2 class="hidden">Sprunglink:</h2>
+    <ul class="hidden">
+      <li><a accesskey="1" href="#a-content">[Alt + 1] Zum Inhalt</a></li>
+      <li><a accesskey="2" href="#a-search">[Alt + 2] Zur Suche</a></li>
+      <li><a accesskey="3" href="#a-nav-main">[Alt + 3] Zur Bereichsauswahl</a></li>
+      <li><a accesskey="4" href="#a-nav-lang">[Alt + 4] Zur Sprachauswahl</a></li>
+      <li><a accesskey="5" href="#a-nav-meta">[Alt + 5] Zur Hilfsnavigation</a></li>
+    </ul>
+  </div><!-- / Seiten-Navigation -->  
+  
+  <hr />
+  
+  
+  <!-- **************************************************************************
+     Hilfsnavigation
+  ************************************************************************** //-->
+  <a name="a-nav-meta"></a>    
+  <div id="nav-meta" role="navigation" class="hidden">
+    <h2 class="hidden">Hilfsnavigation</h2>
+    <ul class="hidden">
+
+      <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/service/nav/service/kontakt.html">Kontakt</a></li>
+      <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/service/nav/service/medien.html">Medien</a></li>
+      <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/service/nav/service/jobs.html">Jobs</a></li>
+            <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/service/nav/service/gis_karten.html">GIS / Karten</a></li>
+            <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/service/nav/service/dienste.html">Dienste</a></li>
+    </ul>
+  </div><!-- / Hilfsnavigation (#nav-meta) -->
+  
+  
+  <!-- **************************************************************************
+     Sprachwahl
+  ************************************************************************** //-->
+  <a name="a-nav-lang"></a>    
+  <div id="nav-lang" style="display: none;">
+    <h2 class="hidden">Sprachwahl</h2>
+
+    <ul>
+      <li class="active"><a href="#">Deutsch</a> <span class="hidden">(Ausgewählt)</span></li>
+
+      <li><a href="#" lang="en">English</a></li>
+      <li><a href="#">International</a></li>
+    </ul>
+  </div><!-- / Sprachwahl (#nav-lang) -->  
+  
+  
+  <!-- **************************************************************************
+     Site-Suche
+  ************************************************************************** //-->
+  <a name="a-search"></a>    
+  <div id="search" role="search" style="display: none;">
+    <h2 class="hidden">Suche</h2>    
+    <form enctype="multipart/form-data" method="get" action="#">
+    <label for="header-form-search-keywords" class="hidden">nach Stichworten</label>
+    <input id="header-form-search-keywords" type="text" class="text" name="keywords" /><input type="submit" class="submit" name="submit" value="Suchen" />
+    </form>
+  </div><!-- / Site-Suche (#search) -->
+  
+  
+  <!-- **************************************************************************
+     Flyout-Navigation
+  ************************************************************************** //-->
+  <div id="flyout" role="navigation" style="display: none;">
+    <ul>
+      <li class="fly-first-tab-two-lines"><a href="#"><span>Der Kanton Zürich nach Organisation</span></a></li>
+      <li><a href="#"><span>Themen A-Z</span></a></li>
+      <li><a href="#"><span>Formulare &amp; Merkblätter</span></a></li>
+
+    </ul>
+  </div><!-- / Flyout-Navigation (#flyout) -->
+  
+  
+  <!-- **************************************************************************
+     Hauptconainer Inhaltsbereich
+  ************************************************************************** //-->
+  <div id="main-area" style="margin: 0 !important;">
+  
+    
+    <!-- **************************************************************************
+       Hauptrubriken
+    ************************************************************************** //-->
+    <a name="a-nav-main"></a>      
+    <div id="nav-main" role="navigation" style="display: none;">
+      <h2 class="hidden">Hauptrubriken</h2>
+      <ul>
+
+        <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/aktuell.html"><span>Aktuell</span></a></li>
+        <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/ueber_uns.html"><span>Über uns</span></a></li>
+        <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/militaer.html"><span>Militär</span></a></li>
+        <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/zivilschutz.html"><span>Zivilschutz</span></a></li>
+        <li><a href="http://www.amz.zh.ch/internet/sicherheitsdirektion/amz/de/wehrpflichtersatz.html"><span>Wehrpflichtersatz</span></a></li>
+      </ul>
+<br class="clear-full" />    
+    </div><!-- / Hauptrubriken (#nav-main) -->
+    <div class="clear"></div>    
+    
+    
+    <!-- **************************************************************************
+       Linke Spalte: Bereichs-Navigation
+    ************************************************************************** //-->
+    <a name="a-nav-sub"></a>    
+    <h2 class="hidden">Unterrubriken</h2>
+    <div id="nav-sub" role="navigation" style="display: none;">
+
+      <ul>
+        <li class="active"><a href="#">Veranstaltungen</a></li>
+      </ul>      
+    </div><!-- / Linke Spalte: Bereichs-Navigation (#left-column) -->
+    
+    <hr />
+    
+    
+    <!-- **************************************************************************
+       Haupt-Content-Bereich
+    ************************************************************************** //-->    
+    <div id="content-column" role="main">
+	<!--  CONTENT ELEMENT, uid:1/list [begin] -->
+		<div id="c1" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			
+    <div class="stepper">
+        <ul>
+            <li class="start active">Login-Code eingeben</li>
+            <li class="after-active">Daten bestätigen</li>
+            <li class="">Zusammenfassung</li>
+        </ul>
+    </div>
+    <h2>Login-Code eingeben</h2>
+    <form method="post" name="check" action="index.php?id=4&amp;tx_daylightamz_pi1%5Baction%5D=check&amp;tx_daylightamz_pi1%5Bcontroller%5D=Registration&amp;cHash=ea76892b040b5ec15f101d9d565681f5">
+<div style="display: none">
+<input type="hidden" name="tx_daylightamz_pi1[__referrer][extensionName]" value="DaylightAmz" />
+<input type="hidden" name="tx_daylightamz_pi1[__referrer][controllerName]" value="Registration" />
+<input type="hidden" name="tx_daylightamz_pi1[__referrer][actionName]" value="index" />
+<input type="hidden" name="tx_daylightamz_pi1[__hmac]" value="a:3:{s:5:&quot;check&quot;;a:1:{s:4:&quot;code&quot;;i:1;}s:6:&quot;action&quot;;i:1;s:10:&quot;controller&quot;;i:1;}a27a316f1ae2c20de956bcd4c2aa172573cb6d11" />
+</div>
+
+        
+        <div class="row">
+            <label>Login-Code *:</label>
+            <input type="text" name="tx_daylightamz_pi1[check][code]" />
+            <p class="indent info">Bitte geben Sie den Login-Code ein, welchen Sie im Einladungsschreiben erhalten haben</p>
+        </div>
+        <input class="big-submit" type="submit" name="" value="Weiter" />
+    </form>
+    <p>
+        Bei Fragen oder Problemen, wenden Sie sich bitte an:
+        <br /><br />
+        Conny Meili, Sekretariat Militärverwaltung Kanton Zürich<br />
+        Mail: conny.meili@amz.zh.ch<br />
+        Tel: 043 259 70 56<br />
+
+    </p>
+
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:1/list [end] -->
+		</div><!-- / Haupt-Content-Bereich (#content-column) -->
+    <div class="clear"></div>
+
+  </div><!-- / Haupt-Bereich (#main-area) -->
+  <hr />
+
+</div><!-- / Wrapper (#wrapper) -->    
+    
+  
+<!-- **************************************************************************
+   Fusszeile
+************************************************************************** //-->
+<div id="footer" role="complementary" class="hidden">
+  <h1 class="hidden">Informationen über diesen Internetauftritt</h1>
+  <ul>
+    <li class="copyright">&copy; 2011 Kanton Zürich</li>
+    <li><a href="http://www.zh.ch/internet/de/service/nav/footer/nutzungsregelungen.html">Nutzungsregeln</a></li>
+
+    <li><a href="http://www.zh.ch/internet/de/service/nav/footer/impressum.html">Impressum</a></li>
+  </ul>
+  <div class="clear"></div>
+</div><!-- / Fusszeile (#footer) -->
+
+
+
+
+</body>
+</html>

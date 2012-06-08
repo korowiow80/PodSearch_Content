@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head data-layout-view="simple">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Once Just</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Once Just is a 3 piece reggae/rock band, they have worked with such artists as DOA, ill Scarlett, maestro fresh wes, marianas trench etc." />
+    <meta name="keywords" content="Once, Just, oncejust, reggae, calgary, punk, joey, shithead, keithley, rock" />
+<meta name="title" content="Once Just" />
+<link rel="image_src" href="http://api.ning.com/icons/appatar/2194160?default=2194160&amp;width=90&amp;height=90" />
+<script type="text/javascript">
+    (function(){
+        if (!window.ning) { return; }
+
+        var age, gender, rand, obfuscated, combined;
+
+        obfuscated = document.cookie.match(/xgdi=([^;]+)/);
+        if (obfuscated) {
+            var offset = 100000;
+            obfuscated = parseInt(obfuscated[1]);
+            rand = obfuscated / offset;
+            combined = (obfuscated % offset) ^ rand;
+            age = combined % 1000;
+            gender = (combined / 1000) & 3;
+            gender = (gender == 1 ? 'm' : gender == 2 ? 'f' : 0);
+            ning.viewer = {"age":age,"gender":gender};
+        }
+    })();
+
+if (window.location.hash.indexOf('#!/') == 0) {
+    window.location.replace(window.location.hash.substr(2));
+}
+window.xg = {};
+xg.addOnRequire = function(f) { xg.addOnRequire.functions.push(f); };
+xg.addOnRequire.functions = [];
+xg.addOnFacebookLoad = function (f) { xg.addOnFacebookLoad.functions.push(f); };
+xg.addOnFacebookLoad.functions = [];
+xg._loader = {
+    p: 0,
+    loading: function(set) { this.p++; },
+    onLoad: function(set) {
+        this.p--;
+        if (this.p == 0 && typeof(xg._loader.onDone) == 'function') {
+            xg._loader.onDone();
+        }
+    }
+};
+xg._loader.loading('xnloader');
+if (window.bzplcm) {
+    window.bzplcm._profileCount = 0;
+    window.bzplcm._profileSend = function() { if (window.bzplcm._profileCount++ == 1) window.bzplcm.send(); };
+}
+xg._loader.onDone = function() {
+        if(window.bzplcm)window.bzplcm.start('ni');
+        xg.shared.util.parseWidgets();    var addOnRequireFunctions = xg.addOnRequire.functions;
+    xg.addOnRequire = function(f) { f(); };
+    try {
+        if (addOnRequireFunctions) { dojo.lang.forEach(addOnRequireFunctions, function(onRequire) { onRequire.apply(); }); }
+    } catch (e) {
+        if(window.bzplcm)window.bzplcm.ts('nx').send();
+        throw e;
+    }
+    if(window.bzplcm) { window.bzplcm.stop('ni'); window.bzplcm._profileSend(); }
+};
+window.xn = { track: { event: function() {}, pageView: function() {}, registerCompletedFlow: function() {}, registerError: function() {}, timer: function() { return { lapTime: function() {} }; } } };    </script>
+<script>
+(function () {
+var cookies = document.cookie.split(';');
+var re = /^\s*xn_visitor=([^\s]*)/;
+var vc = '';
+for (i in cookies) {
+    if (!cookies.hasOwnProperty(i)) {
+        continue
+    }
+    var match = re.exec(cookies[i]);
+    if (match) {
+        vc = match[1];
+        break;
+    }
+}
+var image = new Image();
+var user = vc + ',,oncejust';
+image.src = 'http://www22.glam.com/cTagsImgCmd.act?gname=ning_user&gvalue=' + user + '&gtid=5000059145&gcmd=setc&gexpires=604800&ord=' + Math.random()*1E16;
+})();
+</script>
+<script src="http://www35.glam.com/gad/glamadapt_jsapi.act?afid=183770529"></script>
+<script>
+GlamCreateSlot("183770529", "728x90", "Ning_Top_Leaderboard");
+GlamSetSlotData("Ning_Top_Leaderboard", "ningid=2194160");
+GlamCreateSlot("183770529", "300x250", "Ning_Top_Right");
+GlamSetSlotData("Ning_Top_Right", "ningid=2194160");
+GlamTrack("183770529");
+</script>
+<script type="text/javascript">
+    var ning_gaq = ning_gaq || [];
+    ning_gaq.push(['_ning_ga._setAccount', 'UA-2270114-6']); 
+    ning_gaq.push(['_ning_ga._setNamespace', 'ning']);
+               ning_gaq.push(['_ning_ga._setCustomVar', 1,'member_type',   'anonymous', 3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 2,'subdomain',     'oncejust.ning.com' ,3]); 
+       ning_gaq.push(['_ning_ga._setCustomVar', 3,'category',      'unknown' ,3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 4,'product_type',  'free' ,3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 5,'member_segment','150-999' ,3]);
+    ning_gaq.push(['_ning_ga._trackPageview']);
+    ning_gaq.push(['_ning_ga._trackPageLoadTime']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = "http://static.ning.com/socialnetworkmain/widgets/index/js/google-analytics/ga.js?v=201202272216";
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6770185" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6770185&cv=2.0&cj=1" />
+</noscript>
+
+<style type="text/css" media="screen,projection">
+#xg_navigation ul div.xg_subtab ul li a {
+    color:#CCCCCC;
+    background:#060606;
+}
+#xg_navigation ul div.xg_subtab ul li a:hover {
+    color:#FFFFFF;
+    background:#2C2C2C;
+}
+</style>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/common.min.css?xn_version=3141505107);
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/component.min.css?xn_version=3120881273);
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/paidaccess.css?v=201202272216&xn_version=201202272216);
+
+</style>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/oncejust/instances/css/theme_1330389432.css?xn_version=201202272216);
+
+</style>
+
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://static.ning.com/socialnetworkmain/widgets/index/css/common-ie6.min.css?v=201202272216" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://static.ning.com/socialnetworkmain/widgets/index/css/common-ie7.css?v=201202272216" />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://oncejust.ning.com/profiles/blog/rsd" />
+
+    </head>
+    <body>
+            <div id="xn_bar">&#160;</div>
+<a style="display:none" class="button" href="#" dojoType="frameBusting" _isAdminOrNC="" _appUrl="http://oncejust.ning.com/main/authorization/signIn?target=http%3A%2F%2Foncejust.ning.com%2F%3Fz%3D1"></a>
+<div id="xj_msg" style="display:none;"></div>
+
+
+
+        <div id="xg" class="xg_theme account external-auth xg_widget_main xg_widget_main_authorization xg_widget_main_authorization_signIn" data-layout-pack="classic">
+            <div id="xg_head"> </div>
+            <div id="xg_body">
+                
+                <div class="xg_column xg_span-20 xj_classic_canvas">
+                    <div class="xg_module xg_lightborder signin-module">
+    <form action="http://oncejust.ning.com/main/authorization/doSignIn?target=http%3A%2F%2Foncejust.ning.com%2F%3Fz%3D1" method="post" class="xg_module_body xg_lightborder" novalidate="novalidate">
+        <input type="hidden" name="xg_token" value="" />		        
+                                                <h2>Sign In to Once Just</h2>
+            <p class="xg_lightborder">Membership is by invitation only. If you have an invitation, click the  link in the email to join.</p>
+                <div class="signin-left xg_lightborder">
+            <div class="dy-error-msg" style="display: none">
+               <p></p>
+               <p><a target="_blank" href="http://oncejust.ning.com/main/authorization/problemsSigningIn?noBack=1">I still can't sign in.</a></p>
+            </div>
+            <div class="dy-error-msg" style="display:none" id="cookie_check">
+                <p>Cookies may not be enabled in your browser.  You will need to enable them in order to continue.</p>
+            </div>
+            <fieldset class="dy-form-1 account clear" id="signin">
+                <dl>
+                    <dt><label for="signin_email">Email Address</label></dt>
+                    <dd><input type="email" name="emailAddress" value="" id="signin_email" class="dy-input-text dy-input-medium" size="20"/></dd>
+                </dl>
+                <dl>
+                    <dt><label for="signin_password">Password</label></dt>
+                    <dd><input type="password" name="password" value="" id="signin_password" class="dy-input-text dy-input-normal" size="20" /></dd>
+                </dl>
+                <dl>
+                        <dd><input type="submit" class="button" value="Sign In" /></dd>
+                    <dd id="helplinks" class="clear">
+                        <a href="http://oncejust.ning.com/main/authorization/requestPasswordReset?previousUrl=http%3A%2F%2Foncejust.ning.com%2Fmain%2Fauthorization%2FsignIn%3Ftarget%3Dhttp%253A%252F%252Foncejust.ning.com%252F%253Fz%253D1">Forgot your password?</a><br />
+                    </dd>
+                </dl>
+            </fieldset>
+        </div>
+        <div class="signin-right xg_lightborder">
+            <div class="signin-about">
+        <h3>About Once Just</h3>
+        <img class="appatar" src="http://api.ning.com/icons/appatar/2194160?default=2194160&amp;width=72&amp;height=72" alt="Thumbnail" />
+           <p>Once Just is a 3 piece reggae/rock band, they have worked with such artists as DOA, ill Scarlett, maestro fresh wes, marianas trench etc.</p>
+    </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    document.getElementById('signin_email').focus();
+    document.getElementById('signin_email').select();
+    if (document.cookie.indexOf('xg_cookie_check') < 0) {
+        document.getElementById('cookie_check').style.display = 'block';
+    }
+</script>
+
+                </div>
+            </div>
+        </div>
+        <div id="xj_baz17246" class="xg_theme"></div>
+<div id="xg_overlay" style="display:none;">
+<!--[if lte IE 6.5]><iframe></iframe><![endif]-->
+</div>
+<!--googleoff: all--><noscript>
+	<style type="text/css" media="screen">
+        #xg { position:relative;top:120px; }
+        #xn_bar { top:120px; }
+	</style>
+	<div class="errordesc noscript">
+		<div>
+            <h3><strong>Hello, you need to enable JavaScript to use Once Just.</strong></h3>
+            <p>Please check your browser settings or contact your system administrator.</p>
+			<img src="/xn_resources/widgets/index/gfx/jstrk_off.gif" alt="" height="1" width="1" />
+		</div>
+	</div>
+</noscript><!--googleon: all-->
+<script>
+xg.xnTrackHost = "coll.ning.com";
+xg.global = {}
+if(window.bzplcm)window.bzplcm.listen('load', function() { window.bzplcm.ts('hr').send() });
+if (top != self) { top.location.replace('http://oncejust.ning.com/main/authorization/signIn?target=http%3A%2F%2Foncejust.ning.com%2F%3Fz%3D1'); }
+</script>
+
+
+    </body>
+</html>

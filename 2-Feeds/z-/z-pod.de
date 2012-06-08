@@ -1,0 +1,1084 @@
+            <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+        <title>Z! - Zeitgeist, Entwicklung, Technik - der Technik Podcast</title>
+            <script type="text/javascript" src="/templates/jquery.js"></script>
+    <script type="text/javascript">
+    jQuery.noConflict();
+    </script>
+<meta name="verify-v1" content="DhZCk66bZATWXQlziy/+WI328FihWWjbDIjV6XTvJx0=" />
+
+<script type="text/javascript">
+<!--
+// Dunstan Orchard
+// http://1976design.com/blog/archive/2003/11/10/updates/
+//
+// Altered from original idea by Simon Willison at:
+// http://simon.incutio.com/archive/2002/12/20/blockquoteCitations
+
+function extractBlockquoteInfo()
+	{
+	quotes = document.getElementsByTagName('blockquote');
+	for (i = 0; i < quotes.length; i++)
+		{
+		cite = quotes[i].getAttribute('cite');
+		title = quotes[i].getAttribute('title');
+		if ((cite) && (cite != ''))
+			{
+			if ( (cite.match('http://', 'i')) || (cite.match('ftp://', 'i')) || (cite.match('person://', 'i')) )
+				{
+				newlink = document.createElement('a');
+				newlink.setAttribute('href', cite);
+				newlink.setAttribute('title', ('Go to ' + cite));
+				title = quotes[i].getAttribute('title');
+				if ((title) && (title != ''))
+					{
+					newlink.appendChild(document.createTextNode(title));
+					}
+				else
+					{
+					newlink.appendChild(document.createTextNode('Quelle'));
+					}
+				newdiv = document.createElement('div');
+				newdiv.className = 'source';
+				newdiv.appendChild(document.createTextNode('\u2014 '));
+				newdiv.appendChild(newlink);
+				quotes[i].appendChild(newdiv);
+				}
+			else
+				{
+				newdiv = document.createElement('div');
+				newdiv.className = 'source';
+				newdiv.appendChild(document.createTextNode('\u2014 ' + cite));
+				quotes[i].appendChild(newdiv);
+				}
+			}
+		
+		else if ((title) && (title != ''))
+			{
+			newdiv = document.createElement('div');
+			newdiv.className = 'source';
+			newdiv.appendChild(document.createTextNode('\u2014 ' + title));
+			quotes[i].appendChild(newdiv);
+			}
+		}
+	}
+
+window.onload = function(e) {
+extractBlockquoteInfo();
+}
+-->
+</script>
+
+<style type="text/css">
+<!--
+blockquote div.source {
+	color: #555;
+	margin-top: 1em;
+	text-align: right;
+}
+-->
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-314181-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+</script><link rel="pingback" href="http://z-pod.de/serendipity_xmlrpc.php" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://z-pod.de/serendipity_xmlrpc.php?xsd=true" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Powered-By" content="Serendipity v.1.6" />
+        <link rel="alternate"  type="application/rss+xml" title="Z! - Zeitgeist, Entwicklung, Technik - der Technik Podcast RSS feed" href="http://z-pod.de/feeds/index.rss2" />
+        <link rel="alternate"  type="application/x.atom+xml"  title="Z! - Zeitgeist, Entwicklung, Technik - der Technik Podcast Atom feed"  href="http://z-pod.de/feeds/atom.xml" />
+                <!-- uncomment the line below if your site uses a favicon -->
+        <!--   <link rel="shortcut icon" href="http://z-pod.de/favicon.ico" /> -->
+        <!-- base styles needed for bulletproof -->
+        <link rel="stylesheet" type="text/css" href="/templates/bulletproof/base.css" />
+        <!-- style.css -->
+        <link rel="stylesheet" type="text/css" href="http://z-pod.de/serendipity.css" />
+        <!--[if IE 5]>
+            <link rel="stylesheet" type="text/css" href="/templates/bulletproof/ie5.css" />
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel="stylesheet" type="text/css" href="/templates/bulletproof/ie6.css" />
+        <![endif]-->
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="/templates/bulletproof/ie7.css" />
+        <![endif]-->
+        <!-- additional colorset stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/templates/bulletproof/zpod_style.css" />
+                        <!-- print media stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/templates/bulletproof/print.css" media="print" />
+        <!-- additional user stylesheet: this can be used to override selected styles -->
+            </head>
+
+    <body>
+
+
+    <!-- #skiplinks: these are links used to navigate quickly in text-based browsers -->
+    <!--             they are of little use in modern graphical browsers, so the are -->
+    <!--             hidden using CSS                                                -->
+    <div id="skiplinks">
+        <ul>
+            <li lang="en"><a href="#sitenav">Skip to site navigation</a></li>            <li lang="en"><a href="#content">Skip to blog entries</a></li>
+            <li lang="en"><a href="http://z-pod.de/archives">Skip to archive page</a></li>
+            <li lang="en"><a href="#serendipityLeftSideBar">Skip to left sidebar</a></li>            <li lang="en"><a href="#serendipityRightSideBar">Skip to right sidebar</a></li>        </ul>
+    </div>
+
+    <!-- #wrapper: this wrapper div holds the actual blog content; it can be used to -->
+    <!--           give the blog a width in px or % plus an additional max-width in  -->
+    <!--           order to limit the width in high resolutions to limit the length  -->
+    <!--           of a line                                                         -->
+    <div id="wrapper">
+        <div id="wrapper_top"></div>
+
+        
+        <!-- #serendipity_banner: this is the header area. it holds the blog title and   -->
+        <!--                      description headlines                                  -->
+        <div id="serendipity_banner">
+            <h1><span class="invisible"><a class="homelink1" href="http://z-pod.de/">Z! - Zeitgeist, Entwicklung, Technik - der Technik Podcast</a></span></h1>
+            <h2><span class="invisible"><a class="homelink2" href="http://z-pod.de/"></a></span></h2>
+        </div>
+        <div id="serendipity_below_banner"></div>
+
+                    <!-- #sitenav: this holds a list of navigational links which can be customized   -->
+            <!--           in the theme configurator                                         -->
+            <div id="sitenav" class="snbelow">
+                <ul>
+                                            <li class="currentpage navlink_first"><a href="/" title="Weblog">Weblog</a></li>
+                                            <li class=""><a href="/index.php?serendipity[category]=1;2:3" title="Podcast">Podcast</a></li>
+                                            <li class=" navlink_last"><a href="/pages/impressum.html" title="Kontakt">Kontakt</a></li>
+                                    </ul>
+                <!-- quicksearch option in the navigational link menu bar only when navbar is    -->
+                <!-- above or below the banner                                                   -->
+                                    <form id="searchform" action="/index.php" method="get">
+                        <input type="hidden" name="serendipity[action]" value="search" />
+                        <input alt="Suche" type="text" id="serendipityQuickSearchTermField" name="serendipity[searchTerm]" value="Suche..." onfocus="if(this.value=='Suche...')value=''" onblur="if(this.value=='')value='Suche...';" />
+                        <div id="LSResult" style="display: none;"><div id="LSShadow"></div></div>
+                    </form>
+                    
+                            </div>
+        
+        <!-- this is the actual content of the blog, entries column plus one or two      -->
+        <!-- sidebars, depending on how users configure their sidebar plugins            -->
+
+                    <!-- case 1: 3 columns, sidebar-content-sidebar -->
+            <div id="serendipityLeftSideBar" class="threeside layout3sbs_left">
+                                         <div class="serendipitySideBarItem container_serendipity_html_nugget_plugin">
+                     <h3 class="serendipitySideBarTitle serendipity_html_nugget_plugin">Z!-Podcast kostenlos abonnieren</h3>
+                  <div class="serendipitySideBarContent"><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=122013798&s=143443"><img height="50" width="140"  style="border:0" alt="Mit iTunes abonnieren" src="http://z-pod.de/uploads/iTunes_abonnieren.png" vspace=3 /></a><br />
+<a href="http://feeds.feedburner.com/z-pod" title="Z! - Zeitgeist, Entwicklung, Technik abonnieren" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="border:0; margin-left:8px;"/> RSS Feed (MP3)</a><br /></div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_html_nugget_plugin">
+                     <h3 class="serendipitySideBarTitle serendipity_html_nugget_plugin">Z!-News kostenlos abonnieren</h3>
+                  <div class="serendipitySideBarContent"><a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=207998710"><img height="50" width="140"  style="border:0" alt="Mit iTunes abonnieren" src="http://z-pod.de/uploads/iTunes_abonnieren.png" vspace=3 /></a><br />
+<a href="http://feeds.feedburner.com/z-news" title="Z! - News abonnieren" rel="alternate" type="application/rss+xml"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="border:0; margin-left:8px;"/> RSS Feed (MP3)</a><br /></div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_plugin_staticpage">
+                     <h3 class="serendipitySideBarTitle serendipity_plugin_staticpage">Inhalte</h3>
+                  <div class="serendipitySideBarContent"><a href="/index.php">Startseite</a><br /><a href="/pages/sendungsarchiv.html" title="Sendungsarchiv" style="padding-left: 0px;">Sendungsarchiv</a><br />
+<a href="/pages/impressum.html" title="Impressum" style="padding-left: 0px;">Impressum</a><br />
+<a href="/pages/datenschutz.html" title="Datenschutz" style="padding-left: 0px;">Datenschutz</a><br />
+</div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_categories_plugin">
+                     <h3 class="serendipitySideBarTitle serendipity_categories_plugin">Kategorien</h3>
+                  <div class="serendipitySideBarContent"><ul id="serendipity_categories_list" style="list-style: none; margin: 0px; padding: 0px"><li class="category_depth0 category_5" style="display: block;"><a href="/categories/5-Artikel,-Neues" title="" style="padding-left: 0px">Artikel, Neues</a></li>
+<li class="category_depth0 category_1" style="display: block;"><a href="/categories/1-Podcast" title="" style="padding-left: 0px">Podcast</a></li>
+<li class="category_depth0 category_4" style="display: block;"><a href="/categories/4-Tests-Rezensionen" title="" style="padding-left: 0px">Tests / Rezensionen</a></li>
+<li class="category_depth0 category_2" style="display: block;"><a href="/categories/2-Z!-Intern" title="Z! Intern" style="padding-left: 0px">Z! Intern</a></li>
+<li class="category_depth0 category_3" style="display: block;"><a href="/categories/3-Z!-News" title="" style="padding-left: 0px">Z! News</a></li>
+</ul><div class="category_link_all"><br /><a href="/index.php?frontpage" title="Alle Kategorien">Alle Kategorien</a></div></div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_html_nugget_plugin">
+                     <h3 class="serendipitySideBarTitle serendipity_html_nugget_plugin">Kontakt</h3>
+                  <div class="serendipitySideBarContent"><a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;dialog&#064;z-pod.de">dialog<b>AT</b>z-pod<b>PUNKT</b>de</a></div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_html_nugget_plugin">
+                     <h3 class="serendipitySideBarTitle serendipity_html_nugget_plugin">Was ist Z! eigentlich?</h3>
+                  <div class="serendipitySideBarContent">Z! ist ein Audiokommentar (<a href="http://de.wikipedia.org/wiki/Podcast">Podcast</a>) zu technischen, wissenschaftlichen und zeitgen&ouml;ssischen Themen. Kritisch, aktuell und alle 14 Tage neu.</div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+               </div>
+            <div id="content" class="threemain layout3sbs_content hfeed">
+                <!-- CONTENT START -->
+   <div class="serendipity_content_message"></div>
+
+<!-- ENTRIES START -->
+
+
+<div class="hentry serendipity_Entry_Date serendipity_Sticky_Entry">
+                        <h3 class="serendipity_date">Dauerhafte Einträge</h3>
+            
+            <h4 class="entry-title serendipity_title"><a href="/archives/56-Z!-Audio-Player.html" rel="bookmark">Z! - Audio Player</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <!-- START WIMPY PLAYER CODE -->
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="361" height="137" id="wimpy4888">
+<param name="allowScriptAccess" value="always" />
+<param name="movie" value="http://z-pod.de/uploads/wimpy/wimpy.swf" />
+<param name="loop" value="false" />
+<param name="menu" value="false" />
+<param name="quality" value="high" />
+<param name="scale" value="noscale" />
+<param name="salign" value="lt" />
+<param name="bgcolor" value="000000" />
+<param name="flashvars" value="wimpyReg=NyUzQSU3Q2NBU281ciU4MGlscG52WlYlMjclN0NhJTI3JTdEME4lM0FUJTdD&wimpyApp=http://z-pod.de/uploads/wimpy/podcast_proxy.php&wimpySkin=http://z-pod.de/uploads/wimpy/skin.xml&forceXMLplaylist=yes&getMyid3info=yes&bufferAudio=10" />
+<embed src="http://z-pod.de/uploads/wimpy/wimpy.swf" flashvars="wimpyReg=NyUzQSU3Q2NBU281ciU4MGlscG52WlYlMjclN0NhJTI3JTdEME4lM0FUJTdD&wimpyApp=http://z-pod.de/uploads/wimpy/podcast_proxy.php&wimpySkin=http://z-pod.de/uploads/wimpy/skin.xml&forceXMLplaylist=yes&getMyid3info=yes&bufferAudio=10" loop="false" menu="false" quality="high" width="361" height="137" scale="noscale" salign="lt" name="wimpy4888" align="center" bgcolor="000000" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+<!-- END WIMPY PLAYER CODE -->
+                           </div>
+
+            
+                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_56.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=56"
+                 dc:title="Z! - Audio Player"
+                 dc:identifier="http://z-pod.de/archives/56-Z!-Audio-Player.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2011-10-06T11:07:00CEST">Donnerstag,  6. Oktober 2011</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/344-Die-Entwicklung-von-Webprojekten.html" rel="bookmark">Die Entwicklung von Webprojekten</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p>Projekte für das Internet sind sehr vielfältig. Es gibt die verschiedensten Ideen, Ziele und Zielgruppen, Produkte, die über das Internet verkauft oder Inhalte, die einem möglichst großen Publikum präsentiert werden sollen. Moderne <a href="http://t3n.de/tag/contentmanagement">Content-Management-Systeme (CMS)</a> wie zum Beispiel <a href="http://t3n.de/news/typo3-46-vorschau-erwartet-euch-neuerungen-328753/">TYPO3</a> bieten auch Nicht-Programmierern und Nicht-Webdesignern die Möglichkeit, schnell und ohne viele Vorkenntnisse ansprechende Websites zu produzieren. Auch ein Redaktionssystem ist mit einem CMS schnell verwirklicht: Die Redakteure brauchen sich dann nur noch um den Text zu kümmern, den sie ohne großen Aufwand mit ein paar Klicks in die Website integrieren können.</p>
+
+<p>Aber sehr schnell stößt man mit selbst erstellten Webprojekten auf Grenzen. Das merkt man spätestens dann, wenn die Besucherzahlen nicht mehr steigen oder eine gewünschte Conversion-Rate (wie zum Beispiel der Verkauf eines Produkts oder eine Anmeldung) auf niedrigem Niveau stagniert. Professionelle Optimierungen erfordern oft direkte Änderungen an dem mit einem CMS nur mittelbar erstellten HTML-Quelltext - denn nur dieser wird von den Suchmaschinen erfasst, was wiederum Auswirkungen auf das Ranking hat. Wer nicht bloß eine kaum auffindbare Visitenkarte für das Internet haben will, sollte sich an eine <a href="http://www.hdnet.de/typo3-agentur.html">TYPO3 Agentur</a> wenden.</p>
+
+<p>Eine TYPO3 Agentur kennt die Besonderheiten eines CMS aufgrund der ständigen Befassung mit Neuerungen der Software und systematischen Auswertung praktischer Erfahrungen. Eine TYPO3 Agentur optimiert nicht nur die Handhabung des Redaktionssystems und das Suchmaschinenranking, sondern weiß auch die Aktivitäten der User zu analysieren und in die gewünschte Richtung zu lenken. Eine umfassende projektbegleitende Beratung ist dabei eine Selbstverständlichkeit, denn sie ist Voraussetzung für den Erfolg eines jeden Webprojekts.</p>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/344-Die-Entwicklung-von-Webprojekten.html">11:07</a>
+                        
+                                                                                                                                                                | <a href="/archives/344-Die-Entwicklung-von-Webprojekten.html#comments">Noch keine Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_344.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=344"
+                 dc:title="Die Entwicklung von Webprojekten"
+                 dc:identifier="http://z-pod.de/archives/344-Die-Entwicklung-von-Webprojekten.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2011-02-02T16:34:36CET">Mittwoch,  2. Februar 2011</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/343-Kostenlos-Musik-aus-den-Charts-aufzeichnen-Audials-One-8-im-Test.html" rel="bookmark">Kostenlos Musik aus den Charts aufzeichnen - Audials One 8 im Test</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <strong>Chart-Musik legal und kostenlos als MP3 – gibt es so etwas überhaupt?</strong>
+
+<p>Wer hört nicht gerne Musik und freut sich wenn er etwas neues entdeckt? Allerdings kann es eine Unmenge an Geld kosten jedes Lied das einem gefällt gleich zu kaufen.  Hier kommt Audials One in der Version 8 ins Spiel. Mit Audials One ist es problemlos möglich automatisiert, legal und kostenlos Musik von Internetradios aufzunehmen. Lösungen zum aufnehmen gibt es reichlich, Audials One ist hier allerdings besonders hervorzuheben. Die Software bietet nämlich ein Rundum-Sorglos-Paket. Das Programm macht es einem von Beginn an sehr einfach, gleich zu Beginn wählt man ein gewünschtes Musik-Genre aus und schon startet Audials One damit aus tausenden Webradios die passenden Sender auszuwählen und Musik aus dem gewählten Genre aufzuzeichnen.</p>
+
+<p>Wir hatten ja bereits eine frühere Version von Audials im Test, die neue Version <strong>Audials One 8 ist aber nochmals deutlich verbessert</strong> und <strong>auf <a href="http://www.technisiert.de/home-entertainment/musik-aus-den-charts-als-mp3-schnell-legal-und-kostenlos-audials-one-8-im-test-57.html" title="Audials One 8 im Test">technisiert.de im Test</a></strong>.</p>
+
+<p><strong>Außerdem verlost technisiert.de 3 Lizenzen von Audials One 8 im Wert von 59,90 EUR an alle die dem <a href="http://twitter.com/#!/technisiert">technisiert-Twitter-Account</a> folgen und folgende Nachricht twittert &#8220;<a href="http://twitter.com/home?status=Musik aus den Charts als MP3 - schnell, legal und kostenlos - Audials One 8 im Test: http://bit.ly/eP6PVa @technisiert" target="_blank">Musik aus den Charts als MP3 - schnell, legal und kostenlos - Audials One 8 im Test: http://bit.ly/eP6PVa @technisiert</a>&#8221;.</strong></p>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/343-Kostenlos-Musik-aus-den-Charts-aufzeichnen-Audials-One-8-im-Test.html">16:34</a>
+                        
+                                                                                                                                                                | <a href="/archives/343-Kostenlos-Musik-aus-den-Charts-aufzeichnen-Audials-One-8-im-Test.html#comments">Noch keine Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_343.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=343"
+                 dc:title="Kostenlos Musik aus den Charts aufzeichnen - Audials One 8 im Test"
+                 dc:identifier="http://z-pod.de/archives/343-Kostenlos-Musik-aus-den-Charts-aufzeichnen-Audials-One-8-im-Test.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-07-26T08:22:35CEST">Montag, 26. Juli 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/342-Status-des-Z!-Podcast.html" rel="bookmark">Status des Z!-Podcast</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p>Hi,<br />ich wollte euch jetzt nicht noch l&auml;nger im unklaren &uuml;ber den Podcast lassen. Bisher hatte ich keine Gelegenheit mit Matthias zu sprechen von daher wollte ich noch abwarten, aber ich denke es ist zumindest schon mal hilfreich wenn ihr meine Position kennt.</p>
+<p>Ich f&uuml;r meinen Teil habe mich aber entschieden unter den jetzigen Bedingungen das Projekt erstmal ruhen zu lassen. Ich sage ganz bewusst ruhen, da ich unter anderen Rahmenbedingungen das Projekt durchaus fortf&uuml;hren w&uuml;rde. Diese Rahmenbedingungen sind zur Zeit allerdings nicht gegeben.</p>
+<p>Es gibt in der gesamten deutschen Podcast-Szene praktisch keine nennenswerte Anzahl an Projekten die finanziell tragf&auml;hig sind. Ich &nbsp;habe das Projekt jetzt ca. 4 Jahre mit Matthias gef&uuml;hrt und es hat sich keine dauerhaft tragf&auml;hige L&ouml;sung gefunden. Weder Spenden noch Werbung sind eine L&ouml;sung und insbesondere der Werbemarkt ist mehr als entt&auml;uschend und nimmt sich des Themas Podcast sehr schlecht an, da hier nur Masse z&auml;hlt und Podcasts eben nur sehr gezielt kleinere Gruppen ansprechen. Von daher werde ich was meine Seite angeht die Sache erstmal ruhen lassen bis sich etwas neues auf dem Markt ergibt. Bei &uuml;ber 3600 Downloads pro Folge ist das nat&uuml;rlich auch f&uuml;r mich sehr frustrierend und bedauerlich da ich 4 Jahre, viel Kraft und auch M&uuml;he investiert habe, allerdings ist es eben f&uuml;r mich nicht machbar das Projekt einfach als Hobby nebenbei laufen zu lassen.</p>
+<p>Ich w&uuml;nsche euch alles Gute und hoffe das wir in Zukunft wieder einen Podcast produzieren k&ouml;nnen.</p>
+<p><em>Timon</em></p>
+<p>Hi Leute,<br/>auch ich m&ouml;chte mich hier noch mal zum Status des Podcast &auml;u&szlig;ern. Z! hat nicht nur euch, sondern auch Timon und mich &uuml;ber Jahre begleitet. Besonders in den Anfangsjahren, in denen wir eine Folge pro Woche rausgehauen haben, war es f&uuml;r mich pers&ouml;nlich ein sehr interessantes Experiment. Egal wie widrig die Umst&auml;nde waren, sp&auml;testens am Montag-Abend sollte die neue Folge online sein.</p>
+<p>Man kann sich also vorstellen, dass es auch mir sehr schwer f&auml;llt, den Z!-Podcast ruhen zu lassen. Ich habe Z! nie durch die Finanz-Brille gesehen. Aber wenn irgendwann Arbeits- und Privatleben so viel Zeit verschlingen, dass der Podcast zur Last wird, dann muss man sich entscheiden. Es ist ja auch so, dass die Qualit&auml;t der Sendung darunter leidet, wenn die Moderatoren eigentlich keine Zeit mehr f&uuml;r die Produktion haben.</p>
+<p>Mit <i>Ruhen lassen</i> meine ich &uuml;brigens genau das. In irgendeiner Form werdet ihr sicher wieder von Timon und mir h&ouml;ren. Und sei es zun&auml;chst nur als Gast in einer anderen Sendung. Ich bleibe ausserdem weiterhin in der Ubuntu-Community aktiv (auf ubuntuusers.de und im IRC) und werde auf meinem <a href="http://blog.yumdap.net">Blog</a> posten, was ich gerade so treibe.</p>
+<p>Ich danke allen H&ouml;rern, dass sie so lange dabei waren und an Kritik nie gespart haben. Wir h&ouml;ren uns!</p>
+<p><em>Matthias</em></p>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/342-Status-des-Z!-Podcast.html">08:22</a>
+                        
+                                                                                                                                                                | <a href="/archives/342-Status-des-Z!-Podcast.html#comments">42 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_342.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=342"
+                 dc:title="Status des Z!-Podcast"
+                 dc:identifier="http://z-pod.de/archives/342-Status-des-Z!-Podcast.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-05-06T01:25:31CEST">Donnerstag,  6. Mai 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/341-Indie-Games-Bundle.html" rel="bookmark">Indie Games Bundle</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <a class="serendipity_image_link"  href='/uploads/aktuelles/humble_bundle.png'><!-- s9ymdb:203 --><img class="serendipity_image_left" width="150" height="54"  src="/uploads/aktuelles/humble_bundle.serendipityThumb.png"  alt="" /></a>
+<p>Unter dem Namen <a href="http://www.wolfire.com/humble">The Humble Indie Bundle</a> gibt es ein sehr nettes Paket mit f&uuml;nf Indie-Spielen. Mit im Paket sind das viel gelobte <a href="http://2dboy.com/games.php">World of Goo</a>, das Unterwasser-Abenteuer <a href="http://www.bit-blot.com/aquaria/">Aquaria</a>, der Plattformer <a href="http://www.crypticsea.com/gish/">Gish</a> (etwas &auml;lter, aber immer noch gut), das Action-Game <a href="http://www.wolfire.com/lugaru">Lugaru HD</a> und das 3D-Horror-Adventure <a href="http://www.penumbragame.com/">Penumbra Overture</a>.</p>
+<p>Der Clou an der ganzen Sache ist, dass man den Preis f&uuml;r das Bundle selbst bestimmen kann. Die Spiele sind alle DRM-frei und laufen unter Windows, Mac und Linux. Und als w&auml;re das nicht schon genug, wird die H&auml;lfte des Gewinns auch noch den gemeinn&uuml;tzigen Organisationen Childs Play und EFF gespendet.</p>
+<p>Auf der <a href="http://www.wolfire.com/humble">Angebots-Seite</a> gibt es auch ein h&uuml;bsches Video, welches die Spiele zeigt und die Aktion erkl&auml;rt. Ich pers&ouml;nlich kann zumindest World of Goo und Gish uneingeschr&auml;nkt empfehlen. Die anderen drei habe ich noch nicht getestet. Aquaria und Penumbra haben aber beide sehr gute Kritiken geerntet.</p>
+<p>Wenn dies an Indie-Spielen noch nicht reicht und ihr es zudem gern ruhiger m&ouml;gt, dann kann ich zus&auml;tzlich noch <a href="http://www.hemispheregames.com/osmos/">Osmos</a> empfehlen. Sehr entspannend zu spielen und keineswegs langweilig (und ebenfalls f&uuml;r alle Plattformen verf&uuml;gbar).</p>
+                                                        <span class="continue_reading"><a href="/archives/341-Indie-Games-Bundle.html#extended" title='"Indie Games Bundle" vollständig lesen'>"Indie Games Bundle" vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/341-Indie-Games-Bundle.html">01:25</a>
+                        
+                                                                                                                                                                | <a href="/archives/341-Indie-Games-Bundle.html#comments">Noch keine Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_341.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=341"
+                 dc:title="Indie Games Bundle"
+                 dc:identifier="http://z-pod.de/archives/341-Indie-Games-Bundle.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-05-05T12:13:00CEST">Mittwoch,  5. Mai 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/340-Z!-Episode-155-Talk-mit-Alex.html" rel="bookmark">Z! - Episode 155: Talk mit Alex</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderator:</strong> Matthias Niess<br />
+<strong>Gast:</strong> <a href="http://netzprinzip.de">Alex Sczakiel</a></p>
+<p><strong>Themen:</strong></p>
+<ul>
+  <li>Twitter Ads + Tweete Kauf</li>
+  <li>Facebook Open Graph</li>
+  <li>HTC Droid Incredible</li>
+  <li>LHC - Teilchenbeschleuniger am CERN</li>
+  <li>Ubuntu 10.04</li>
+  <li>Opera Mini f&uuml;r iPhone und iPod</li>
+  <li>US-Geheimdienstler folgen Wikileaks-Mitarbeitern</li>
+  <li>Australier entwickeln ein k&uuml;nstliches Auge</li>
+  <li>Video-Editing-Software Lightworks k&uuml;nftig Open Source</li>
+  <li>Verluste durch Filesharing sind stark &uuml;bertrieben</li>
+  <li>Chrome bringt Flash automatisch mit</li>
+  <li>MakeMKV - DVD und Blu-ray extrahieren</li>
+  <li>Internet-TV-Player Miro 3.0 ver&ouml;ffentlicht</li>
+  <li>Century Gothic spart Tinte beim drucken</li>
+  <li>1Password f&uuml;r Windows</li>
+</ul>
+                                                        <span class="continue_reading"><a href="/archives/340-Z!-Episode-155-Talk-mit-Alex.html#extended" title='"Z! - Episode 155: Talk mit Alex" vollständig lesen'>"Z! - Episode 155: Talk mit Alex" vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/340-Z!-Episode-155-Talk-mit-Alex.html">12:13</a>
+                        
+                                                                                                                                                                | <a href="/archives/340-Z!-Episode-155-Talk-mit-Alex.html#comments">20 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_340.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=340"
+                 dc:title="Z! - Episode 155: Talk mit Alex"
+                 dc:identifier="http://z-pod.de/archives/340-Z!-Episode-155-Talk-mit-Alex.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-04-08T23:09:00CEST">Donnerstag,  8. April 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/339-Die-Breakpoint-2010-Die-Demoszene-praesentiert-ihre-digitale-Kunst.html" rel="bookmark">Die Breakpoint 2010 - Die Demoszene präsentiert ihre digitale Kunst</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderator:</strong> Timon Royer<br />
+<strong>Gast:</strong> Lars Sobiraj</p> 
+<p>Die Breakpoint (BP) ist das gr&ouml;&szlig;te Treffen der Demoszene  in Deutschland und findet j&auml;hrlich &uuml;ber Ostern in Bingen am Rhein statt. Im Mittelpunkt der Veranstaltung stehen die Wettbewerbe zur K&uuml;rung der besten Demo in verschiedenen Kategorien.</p>
+<p>Als Gast haben wir Lars Sobiraj der bei der letzten Breakpoint live mit dabei war und mit seiner Gruppe auch eine eigene Demo pr&auml;sentiert hat.</p>
+                                                        <span class="continue_reading"><a href="/archives/339-Die-Breakpoint-2010-Die-Demoszene-praesentiert-ihre-digitale-Kunst.html#extended" title='"Die Breakpoint 2010 - Die Demoszene..." vollständig lesen'>"Die Breakpoint 2010 - Die Demoszene..." vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/339-Die-Breakpoint-2010-Die-Demoszene-praesentiert-ihre-digitale-Kunst.html">23:09</a>
+                        
+                                                                                                                                                                | <a href="/archives/339-Die-Breakpoint-2010-Die-Demoszene-praesentiert-ihre-digitale-Kunst.html#comments">1 Kommentar</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_339.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=339"
+                 dc:title="Die Breakpoint 2010 - Die Demoszene präsentiert ihre digitale Kunst"
+                 dc:identifier="http://z-pod.de/archives/339-Die-Breakpoint-2010-Die-Demoszene-praesentiert-ihre-digitale-Kunst.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-04-06T19:23:00CEST">Dienstag,  6. April 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/338-Getting-Things-Done-Teil-01.html" rel="bookmark">Getting Things Done - Teil 01</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderator:</strong> Timon Royer<br />
+<strong>Gast:</strong> Oliver Gassner</p> 
+<p>Wer kennt das nicht? Eigentlich wollte man es ja schon l&auml;ngst erledigt haben, aber irgendwie hat man es immer noch nicht geschafft. Aufgeschoben ist nicht aufgehoben und so kommt es das man dann die Sachen auf den letzten Dr&uuml;cker mit viel Stress erledigt. Das es auch anders gehen kann und man an seinen Aufgaben sogar wieder Freude finden kann weil man die Kontrolle zur&uuml;ckerh&auml;lt, dass m&ouml;chte dieser Podcast unter anderem vermitteln.</p>
+
+<p>Als Gast haben wir Oliver Gassner eingeladen. Oliver Gassner ist von Hause aus Geisteswissenschaftler (Konstanz & St. Olaf College, 2 Staatsexamina und M.A.), was beim Verstehen und Kommunizieren immer mal hilft. Er schreibt, workshoppt, bloggt, konzipiert, projektiert und ber&auml;t im Umfeld von Social Media mit Schwerpunkt Weblogs und zu den Themen Networking (XING) und Selbstmanagement (GTD u.a.).</p>
+
+<p>Dies ist der erste Podcast einer mehrteiligen Serie zum Thema Getting Things Done. In der ersten Episode gehen wir darauf ein was Getting Things Done ausmacht, was es ist und es gibt bereits in dieser Episode praktische Tipps, mit denen ihr sofort produktiver arbeiten werdet.</p>
+                                                        <span class="continue_reading"><a href="/archives/338-Getting-Things-Done-Teil-01.html#extended" title='"Getting Things Done - Teil 01" vollständig lesen'>"Getting Things Done - Teil 01" vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/338-Getting-Things-Done-Teil-01.html">19:23</a>
+                        
+                                                                                                                                                                | <a href="/archives/338-Getting-Things-Done-Teil-01.html#comments">19 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_338.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=338"
+                 dc:title="Getting Things Done - Teil 01"
+                 dc:identifier="http://z-pod.de/archives/338-Getting-Things-Done-Teil-01.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-03-17T11:50:00CET">Mittwoch, 17. März 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/337-Z!-Episode-154-Es-hat-sich-ausgespeichert,-erstmal.html" rel="bookmark">Z! - Episode 154: Es hat sich ausgespeichert, erstmal</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderatoren:</strong> Matthias Niess und Timon Royer</p>
+<p><strong>Themen:</strong></p>
+<ul>
+  <li>Was ist mit der CeBIT los?</li>
+  <li>Bundesverfassungsgericht legt H&uuml;rde f&uuml;r k&uuml;nftige Vorratsdatenspeicherung hoch</li>
+  <li>Ubisoft blamiert sich mit Online-Kopierschutz</li>
+  <li>Warum DRM nicht funktioniert</li>
+  <li>Digg verabschiedet sich von MySQL</li>
+  <li>Microsofts Browserwahl f&uuml;r Deutschland bereits aktiv</li>
+  <li>Opera 10.50 f&uuml;r Windows ist da</li>
+  <li>Googles Webbrowser Chrome verzichtet auf eindeutige ID</li>
+  <li>Googles Remail wird Open Source</li>
+  <li>Der Smartphone-Bot, der mit dem App-Update kam</li>
+  <li>Windows-Tool soll Update-Plagerei &uuml;berfl&uuml;ssig machen</li>
+  <li>Datenrettung f&uuml;r 30 Euro</li>
+  <li>Neue 3D-Darstellungsform - Unlimited Detail</li>
+  <li>Tool f&uuml;r Windows - Wireless Keyview - bekannte WLAN-Keys auslesen</li>
+  <li>Buchtipp: Die Physik des Unm&ouml;glichen: Beamer, Phaser, Zeitmaschinen</li>
+</ul>
+                                                        <span class="continue_reading"><a href="/archives/337-Z!-Episode-154-Es-hat-sich-ausgespeichert,-erstmal.html#extended" title='"Z! - Episode 154: Es hat sich ausgespeichert,..." vollständig lesen'>"Z! - Episode 154: Es hat sich ausgespeichert,..." vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/337-Z!-Episode-154-Es-hat-sich-ausgespeichert,-erstmal.html">11:50</a>
+                        
+                                                                                                                                                                | <a href="/archives/337-Z!-Episode-154-Es-hat-sich-ausgespeichert,-erstmal.html#comments">16 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_337.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=337"
+                 dc:title="Z! - Episode 154: Es hat sich ausgespeichert, erstmal"
+                 dc:identifier="http://z-pod.de/archives/337-Z!-Episode-154-Es-hat-sich-ausgespeichert,-erstmal.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-02-28T23:22:00CET">Sonntag, 28. Februar 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/336-Z!-Episode-153-Innovative-Karten-von-Microsoft.html" rel="bookmark">Z! - Episode 153: Innovative Karten von Microsoft</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderatoren:</strong> Matthias Niess und Timon Royer</p>
+<p><strong>Themen:</strong></p>
+<ul>
+  <li>Innenminister lobt Datenbrief des CCC</li>
+  <li>Microsoft Deutschland f&uuml;r Verl&auml;ngerung der Cebit</li>
+  <li>Please Rob Me - Twittern f&uuml;r Einbrecher</li>
+  <li>Palm Pre ist das erfolgreichste Smartphone bei O2</li>
+  <li>WebOS 1.4 ist da, Need for Speed und Sims 3 gratis</li>
+  <li>EA sieht keine Notwendigkeit f&uuml;r neue Spielkonsolen</li>
+  <li>Rabiater Kopierschutz von Ubisoft</li>
+  <li>Flyfire: Fliegende Pixel formen Bilder im freien Raum</li>
+  <li>Gericht: Keine Rechtsverletzung bei Fotos von fremden Geb&auml;uden</li>
+  <li>Innovative Karten von Microsoft</li>
+  <li>Experten warnen vor Gefahren f&uuml;r GPS</li>
+  <li>Microsoft: Browserwahl f&uuml;r Windows ab 17. M&auml;rz 2010</li>
+  <li>Windows Phone 7 ist nicht kompatibel mit Windows Mobile</li>
+  <li>First Else - das besondere Daumen-Smartphone</li>
+  <li>Wie Techinsights und iSupply arbeiten</li>
+  <li>Neue Ideen und Konzepte f&uuml;r GNOME 3</li>
+  <li>Ubuntu One Music Store FAQ</li>
+  <li>Cortado 0.5.2 bringt Ogg Theora in alle Browser</li>
+  <li>PaperC bietet O&#8217;Reilly-B&uuml;cher kostenlos an</li>
+  <li>ISS verwandelt sich in Tie-Fighter</li>
+  <li>Kabelwust h&uuml;bsch dekoriert</li>
+  <li>Command & Conquer kostenlos</li>
+</ul>
+
+                                                        <span class="continue_reading"><a href="/archives/336-Z!-Episode-153-Innovative-Karten-von-Microsoft.html#extended" title='"Z! - Episode 153: Innovative Karten von Microsoft" vollständig lesen'>"Z! - Episode 153: Innovative Karten von Microsoft" vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/336-Z!-Episode-153-Innovative-Karten-von-Microsoft.html">23:22</a>
+                        
+                                                                                                                                                                | <a href="/archives/336-Z!-Episode-153-Innovative-Karten-von-Microsoft.html#comments">10 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_336.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=336"
+                 dc:title="Z! - Episode 153: Innovative Karten von Microsoft"
+                 dc:identifier="http://z-pod.de/archives/336-Z!-Episode-153-Innovative-Karten-von-Microsoft.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-02-15T17:28:43CET">Montag, 15. Februar 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/335-Z!-Episode-152-Digitale-Fingerabdruecke.html" rel="bookmark">Z! - Episode 152: Digitale Fingerabdrücke</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderatoren:</strong> Matthias Niess und Timon Royer</p>
+<p><strong>Themen:</strong></p>
+<ul>
+  <li>iPhone - Schlafphasenwecker</li>
+  <li>eBay f&uuml;hrt h&auml;rtere Regeln f&uuml;r Verk&auml;ufer ein</li>
+  <li>Buzz - Google macht Twitter und Facebook Konkurrenz</li>
+  <li>HTML5 Video Tag - Wer soll die Lizenzen zahlen</li>
+  <li>Was Facebook &uuml;ber Nicht-Mitglieder wei&szlig;</li>
+  <li>IT-Forscher enttarnen Internetsurfer</li>
+  <li>Panopticlick - Digitaler Fingerabdruck durch Browser</li>
+  <li>Gericht: E-Mail-Abmahnungen sind zul&auml;ssig</li>
+  <li>Gericht bremst Abmahnindustrie</li>
+  <li>Antiker Leinenpanzer sch&uuml;tzt so gut wie Kevlar</li>
+  <li>Symbian ist frei</li>
+  <li>Ex-Microsoft-Manager nennt Konzern innovationsfeindlich</li>
+  <li>Ausverkauft: Microsofts Linux-Gesch&auml;ft brummt</li>
+  <li>Opera 10.5 Beta: The Fastest Browser on Earth</li>
+  <li>Opera will aufs iPhone</li>
+  <li>Account l&ouml;schen leichtgemacht</li>
+  <li>USB &uuml;ber IP-Netzwerk nutzen</li>
+  <li>Openoffice.org 3.2 ist fertig</li>
+  <li>Bodega - der &#8220;iTunes-Store&#8221; f&uuml;r Mac-Anwendungen</li>
+</ul>
+                                                        <span class="continue_reading"><a href="/archives/335-Z!-Episode-152-Digitale-Fingerabdruecke.html#extended" title='"Z! - Episode 152: Digitale Fingerabdrücke" vollständig lesen'>"Z! - Episode 152: Digitale Fingerabdrücke" vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/335-Z!-Episode-152-Digitale-Fingerabdruecke.html">17:28</a>
+                        
+                                                                                                                                                                | <a href="/archives/335-Z!-Episode-152-Digitale-Fingerabdruecke.html#comments">6 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_335.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=335"
+                 dc:title="Z! - Episode 152: Digitale Fingerabdrücke"
+                 dc:identifier="http://z-pod.de/archives/335-Z!-Episode-152-Digitale-Fingerabdruecke.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+<div class="hentry serendipity_Entry_Date">
+            <h3 class="serendipity_date"><abbr class="published" title="2010-02-01T22:34:00CET">Montag,  1. Februar 2010</abbr></h3>
+    
+            <h4 class="entry-title serendipity_title"><a href="/archives/334-Z!-Episode-151-Gedanken-lesende-Maschinen,-iPads-sind-am-Ende.html" rel="bookmark">Z! - Episode 151: Gedanken lesende Maschinen, iPads sind am Ende</a></h4>
+
+        <div class="serendipity_entry serendipity_entry_author_Z-Pod-Team ">
+
+                            
+                            
+                            <span class="serendipity_entryIcon">
+                                                                               </span>
+              
+            <div class="entry-content serendipity_entry_body">
+                <p><strong>Moderatoren:</strong> Matthias Niess und Timon Royer</p>
+<p><strong>Themen:</strong></p>
+<ul>
+  <li>Elliptische Kurven als Alternative zu Primzahlen f&uuml;r Verschl&uuml;sselung</li>
+  <li>Nokia macht seine Navi-L&ouml;sung kostenfrei</li>
+  <li>Opera Mini mit neuem Bedienkonzept</li>
+  <li>Es ist Zeit, dem Internet Explorer abzuschw&ouml;ren</li>
+  <li>BSI-Warnung treibt Downloadzahlen bei Opera hoch</li>
+  <li>Google erh&ouml;ht den Druck auf alte Web-Browser</li>
+  <li>Bruce Schneier - U.S. enables Chinese hacking of Google</li>
+  <li>Webbrowser Firefox 3.6 ist offiziell freigegeben</li>
+  <li>Videoportal Vimeo experimentiert ebenfalls mit HTML-5-Player</li>
+  <li>Webvideo: Mozilla wehrt sich</li>
+  <li>BumpTop hits the Mac, covers your OS X desktop with piles just like your real desktop</li>
+  <li>Einstieg in Git als Versionskontrollsystem</li>
+  <li>EMP Kanone stoppt Auto</li>
+  <li>Gedanken lesende Maschine</li>
+  <li>Die Schufa, ein neues Gesetz und die Schlie&szlig;ung von Gesch&auml;ftsstellen</li>
+  <li>Projektil-Kanone f&uuml;r Transporte in den Weltraum</li>
+  <li>Augmented Reality - Stein, Schere, Papier</li>
+  <li>Apple Werbung - Die komplette Werbekampagne von 2006 bis 2009</li>
+  <li>Intel Rock Star Werbung</li>
+</ul>
+                                                        <span class="continue_reading"><a href="/archives/334-Z!-Episode-151-Gedanken-lesende-Maschinen,-iPads-sind-am-Ende.html#extended" title='"Z! - Episode 151: Gedanken lesende Maschinen,..." vollständig lesen'>"Z! - Episode 151: Gedanken lesende Maschinen,..." vollständig lesen &#187;</a></span>
+                           </div>
+
+            
+                                                <div class='serendipity_entryFooter belowentry'>
+                                                    Geschrieben von <address class="author"><a href="http://z-pod.de/authors/1-Z-Pod-Team">Z-Pod Team</a></address>
+                        
+                        
+                                                                                    um
+                                                            <a href="/archives/334-Z!-Episode-151-Gedanken-lesende-Maschinen,-iPads-sind-am-Ende.html">22:34</a>
+                        
+                                                                                                                                                                | <a href="/archives/334-Z!-Episode-151-Gedanken-lesende-Maschinen,-iPads-sind-am-Ende.html#comments">28 Kommentare</a>
+                                                                                                                        
+                        
+                        
+                        
+
+                        
+                    </div>
+                
+                                    </div>
+
+        <!--
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <rdf:Description
+                 rdf:about="http://z-pod.de/feeds/ei_334.rdf"
+                 trackback:ping="http://z-pod.de/comment.php?type=trackback&amp;entry_id=334"
+                 dc:title="Z! - Episode 151: Gedanken lesende Maschinen, iPads sind am Ende"
+                 dc:identifier="http://z-pod.de/archives/334-Z!-Episode-151-Gedanken-lesende-Maschinen,-iPads-sind-am-Ende.html" />
+        </rdf:RDF>
+        -->
+        
+
+        
+        
+        
+    </div>
+
+
+<div class='serendipity_pageFooter' style="text-align: center">
+    
+            (Seite 1 von 27, insgesamt 324 Einträge)
+    
+                         <a title="nächste Seite" href="http://z-pod.de/archives/P2.html">nächste Seite &#187;</a>
+            
+    
+    
+</div>
+<!-- ENTRIES END -->
+
+<!-- CONTENT END -->
+            </div>
+            <div id="serendipityRightSideBar" class="threeside layout3sbs_right">
+                                         <div class="serendipitySideBarItem container_serendipity_plugin_spaceref">
+                     <h3 class="serendipitySideBarTitle serendipity_plugin_spaceref">Interessante Angebote</h3>
+                  <div class="serendipitySideBarContent">
+
+	<a href="http://www.onlinekosten.de/dsl/">DSL Anbieter</a><br />
+	<a href="http://www.top-dsl.com/">DSL Angebote im Vergleich</a><br />
+
+</div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_plugin_twitter">
+                     <h3 class="serendipitySideBarTitle serendipity_plugin_twitter"><a href="http://twitter.com/zpod">Twitter</a></h3>
+                  <div class="serendipitySideBarContent"><img src="http://z-pod.de/index.php?/plugin/cacheplugintwitter_twitter.com_zpod_50_300" width="1" height="1" alt="" class="twitter_plugin_cache_png" /><ul id="twitter_update_list"><li class="twitter_update_odd"><span> Die alten Folgen sind erstmal bis zu <a href="http://bit.ly/ciYDw9" class="twitter_update_link">http://bit.ly/ciYDw9</a> wieder downloadbar, der Rest folgt noch</span><a class="twitter_update_time" href="http://twitter.com/zpod/statuses/29069399984">1 year ago</a></li><li class="twitter_update_even"><span> T: Hatte grad einen Anruf bzgl der alten Folgen, die sind noch da, ich muss allerdings manuell die Links umstellen, mach ich gerade.</span><a class="twitter_update_time" href="http://twitter.com/zpod/statuses/28791073063">1 year ago</a></li><li class="twitter_update_odd"><span> iTunes 10: Bei Ping scheinen Podcasts keine Rolle zu spielen! #itunes #fail</span><a class="twitter_update_time" href="http://twitter.com/zpod/statuses/22866610228">1 year ago</a></li></ul><p id="twitter_follow_me"><a href="http://twitter.com/zpod" class="twitter_follow_me">Follow me</a></p>
+</div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+            <div class="serendipitySideBarItem container_serendipity_html_nugget_plugin">
+                     <h3 class="serendipitySideBarTitle serendipity_html_nugget_plugin">Partnerseiten</h3>
+                  <div class="serendipitySideBarContent"><a href="http://timon-royer.com/de/webdesign/" title="Timon Royer Grafikstudio – Grafik- und Webdesign"><img src="http://z-pod.de/uploads/timon-royer-grafikstudio.png" width="185" height="48" style="border:0; margin:0 0 10px 0;" alt="Timon Royer Grafikstudio – Grafik- und Webdesign" /></a><br />
+<a href="http://www.florida-insider.com/" title="Florida Insider - das deutsche Florida Online-Magazin für Urlauber und Investoren"><img src="http://z-pod.de/uploads/florida-insider.gif" width="160" height="74" style="border:0" alt="Florida Insider - das Florida Online-Magazin für Urlauber und Investoren" /></a></div>
+         <div class="serendipitySideBarFooter"></div>
+      </div>
+               </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- #footer: the page footer can be used for additional information             -->
+        <div id="footer">
+            
+            <!-- ************************************************************** -->
+            <!-- The image and link below must remain if you use this template  -->
+            <!-- or create your own template based on the bulletproof framework -->
+            <!-- ************************************************************** -->
+
+            <div id="serendipity_bulletproof_button"><a href="http://s9y-bulletproof.com" title="Based on the s9y Bulletproof template framework"><img src="/templates/bulletproof/img/bulletproof_button.png" alt="Based on the s9y Bulletproof template framework" width="100" height="28" /></a></div>
+
+            <!-- ************************************************************** -->
+            <!-- Feel free to insert your own "Template by" name and link below -->
+            <!-- if you create a custom template based on bulletproof.          -->
+            <!-- ************************************************************** -->
+
+            <div id="serendipity_credit_line">Powered by <a href="http://www.s9y.org">s9y</a> &ndash; Template by <a href="http://s9y-bulletproof.com">Bulletproof development team</a>.<br /></div>
+            
+                        <!-- option to display navigation links in the footer                            -->
+                            <div id="footer_sitenav">
+                    <ul>
+                                                    <li class="currentpage"><a href="/" title="Weblog">Weblog</a></li>
+                                                    <li><a href="/index.php?serendipity[category]=1;2:3" title="Podcast">Podcast</a></li>
+                                                    <li><a href="/pages/impressum.html" title="Kontakt">Kontakt</a></li>
+                                            </ul>
+                </div>
+                    </div>
+        <div id="wrapper_footer"></div>
+    </div>
+
+
+
+<!--PLUGIN API-->
+    </body>
+    </html>

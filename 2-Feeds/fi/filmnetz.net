@@ -1,0 +1,63 @@
+
+<html>
+<head>
+<script language="javascript">
+<!--
+var upSeconds=;
+function doUptime() {
+  var uptimeString = "Server Uptime: ";
+  var secs = parseInt(upSeconds % 60);
+  var mins = parseInt(upSeconds / 60 % 60);
+  var hours = parseInt(upSeconds / 3600 % 24);
+  var days = parseInt(upSeconds / 86400);
+  if (days > 0) {
+    uptimeString += days;
+    uptimeString += ((days == 1) ? " day" : " days");
+  }
+  if (hours > 0) {
+    uptimeString += ((days > 0) ? ", " : "") + hours;
+    uptimeString += ((hours == 1) ? " hour" : " hours");
+  }
+  if (mins > 0) {
+    uptimeString += ((days > 0 || hours > 0) ? ", " : "") + mins;
+    uptimeString += ((mins == 1) ? " minute" : " minutes");
+  }
+  if (secs > 0) {
+    uptimeString += ((days > 0 || hours > 0 || mins > 0) ? ", " : "") + secs;
+    uptimeString += ((secs == 1) ? " second" : " seconds");
+  }
+  var span_el = document.getElementById("uptime");
+  var replaceWith = document.createTextNode(uptimeString);
+  span_el.replaceChild(replaceWith, span_el.childNodes[0]);
+  upSeconds++;
+  setTimeout("doUptime()",1000);
+}
+// -->
+</script>
+<title>Tervetuloa</title>
+</head>
+<body onLoad="doUptime();">
+
+<h1>It works!</h1>
+<p>This is the default web page for this server.</p>
+<p>The web server software is running but no content has been added, yet.</p>
+<br />
+<!-- Uses the DIV tag, but SPAN can be used as well -->
+
+<!-- <br /> -->
+
+<div id="uptime" style="font-weight:bold;">Server Uptime: </div>
+<br />
+<img src='http://img.uptimeprj.com/jussisi2/24aceb59e381c5dbca96bdad246899ce.png' alt='Uptime' title='Tugs Uptime Project' border='0' />
+<br />
+<br />
+<a href='http://ipv6-test.com/validate.php?url=referer'><img src='http://ipv6-test.com/button-ipv6-big.png' alt='ipv6 ready' title='ipv6 ready' border='0' /></a>
+<br />
+<br />
+<img src='kuvat/button-l.png' alt='Linux' title='Powered by Debian' border='0' />
+
+</body>
+</html>
+
+
+

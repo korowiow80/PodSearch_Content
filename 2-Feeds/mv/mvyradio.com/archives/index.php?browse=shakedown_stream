@@ -1,0 +1,596 @@
+<!-- Welcome to the source code. Please wipe your feet before you come in. -->
+<html>
+<head>
+<title>mvyradio Archives</title> 
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" /> 
+<meta name="description" content="Martha's Vineyard's mvyradio is one of the leading adult progressive rock internet radio stations in the world."> 
+<meta name="keywords" content="MV, MVY, Martha's Vineyard, Vinyard, island, isle, Oak Bluffs, Oaks Bluff, Vineyard Haven, Tisbury, West Tisbury, Edgartown, Edgarton, Aquinnah, Gay Head, Chilmark, Chappy, Nantucket, Cape Cod, Falmouth, Provincetown, P-Town, Bourne, Hot Tin Roof, Atlantic Connection, Aimee Mann, Ani Difranco, Carly Simon, Coldplay, James Taylor, Lucinda Williams, R.E.M., U2, summer, bikini, beach, surf, fishing derby, chili contest, vacation, holiday, resort, inn, wmvy, mvradio, 92.7, online, radio, live, digital, audio, webcast, stream, streaming, radio, broadcast, album, AAA, Triple A, live, adult, airwaves, listen, on air, station, alternative, progressive, rock, blues,  internet radio, Local Music Cafe, Local MusiCafe, free, mp3, Jaws, Singer songwriter, folk, classic rock, eclectic, alternative rock"> 
+<meta name="copyright" content="HTML code and all content is copyright mvyradio.com llc"> 
+<meta name="robots" content="index,follow"> 
+<meta name="revisit-after" content="30"> 
+<link rel="shortcut icon" href="http://www.mvyradio.com/includes/newburg.ico"> 
+<link href="http://www.mvyradio.com/includes/style.css" type="text/css" rel=stylesheet> 
+<link href="http://www.mvyradio.com/includes/menu.css" type="text/css" rel=stylesheet>
+<script language="JavaScript" src="http://www.mvyradio.com/includes/scripts_2.js"></script> 
+
+<script language="JavaScript">
+<!-- Begin Rotator
+function initImgRotation() {
+  var rotator1 = new rotateImgObj('img1',18000);
+  rotator1.addImages("sq_JUST4GUYS3.jpg","sq_equest-d.jpg","2012sq-aow-theshins.jpg","sq_listenermap3.jpg","sq_musiclog1.jpg","sq_thedead2.jpg"); 
+  rotator1.addActions("http://mvyradio.com/music_info/program_schedule.php?from_rotations=1#just","mailto:equest@mvyradio.com?subject=equest","http://mvyradio.com/features/album_of_the_week/","http://mvyradio.com/map","http://mvyradio.com/music_info/playlists.php","http://mvyradio.com/music_info/program_schedule.php#shakedown");
+  rotator1.rotate();
+  
+  var rotator2 = new rotateImgObj('img2', 17000);
+  rotator2.addImages("mybackpages_2012_1.png","bentaylorcruise2012-vert1.jpg","../../../vp_nocache2.php");
+  rotator2.addActions("http://www.mvyradio.com/jocks/barnes.php","https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=4777","http://3447.voxcdn.com/927/play.php?queryWhere=id&queryValue=1527|1528|1529|1530");
+  rotator2.rotate();
+  
+  rotateImgObj.start();  
+}
+
+// for example function call onclick 
+// This function demonstrates how to obtain some of the information available about the image clicked on 
+function doMsg() { 
+  var obj = rotateImgObjs[1]; // refers to 2nd rotateImgObj (i.e., rotator2)
+  var msg = "You clicked on " + obj.imgObj.src;
+  msg += ". It's height is " + obj.imgObj.imgs[obj.ctr].height + " pixels.";
+  alert(msg);
+}
+
+function doMe() { 
+  var obj = rotateImgObjs[1]; // refers to 2nd rotateImgObj (i.e., rotator2)
+  var msg = "You clicked on " + obj.imgObj.src;
+  msg += ". It's height is " + obj.imgObj.imgs[obj.ctr].height + " pixels.";
+  alert(msg);
+}
+
+rotateImgObj.imagesPath = "http://www.mvyradio.com/internal/rotations/internal/";
+rotateImgObj.tgt = "_blank"; 
+
+// no need to edit code below 
+/////////////////////////////////////////////////////////////////////
+rotateImgObjs = []; // holds all rotating image objects defined
+// constructor 
+function rotateImgObj(nm,s) {
+  this.speed=s; this.ctr=0; this.timer=0;  
+  this.imgObj = document.images[nm]; // get reference to the image object
+  this.index = rotateImgObjs.length; rotateImgObjs[this.index] = this;
+  this.animString = "rotateImgObjs[" + this.index + "]";
+}
+
+rotateImgObj.prototype = {
+  addImages: function() { // preloads images
+    this.imgObj.imgs = [];
+    for (var i=0; i<arguments.length; i++) {
+      this.imgObj.imgs[i] = new Image();
+      this.imgObj.imgs[i].src = rotateImgObj.imagesPath + arguments[i];
+    }
+  },
+  
+  addActions: function() {
+    this.actions = [];
+    for (var i=0; i<arguments.length; i++) { this.actions[i] = arguments[i]; }
+  },
+  
+  rotate: function() {
+    if (this.ctr < this.imgObj.imgs.length-1) this.ctr++;
+    else this.ctr = 0;
+    this.imgObj.src = this.imgObj.imgs[this.ctr].src;
+  }
+}
+
+// sets up rotation for all defined rotateImgObjs
+rotateImgObj.start = function() {
+  for (var i=0; i<rotateImgObjs.length; i++) 
+    rotateImgObjs[i].timer = setInterval(rotateImgObjs[i].animString + ".rotate()", rotateImgObjs[i].speed);                     
+}
+
+/* original state
+// called onclick of images
+rotateImgObj.doClick = function(n) {
+	if ( document.images && rotateImgObjs[n] ) {
+    var obj = rotateImgObjs[n]; // shorten reference 
+    if ( obj.actions && obj.actions[obj.ctr] ) {
+  		if ( typeof obj.actions[obj.ctr] == "string" ) {
+        if ( rotateImgObj.tgt == "_blank" ) {
+          // open in separate window (add features here if you want, i.e., chrome, size, position, ...)
+          var win = window.open(obj.actions[obj.ctr], "subwin");
+          if ( win && !win.closed ) win.focus();
+        } else window.location = obj.actions[obj.ctr];
+      } else obj.actions[obj.ctr]();
+    } 
+    return false;
+	} else return true;
+}
+*/
+
+// called onclick of images
+rotateImgObj.doClick = function(n) {
+
+	if ( document.images && rotateImgObjs[n] ) {
+    var obj = rotateImgObjs[n]; // shorten reference 
+    if ( obj.actions && obj.actions[obj.ctr] ) {
+  	   if ( typeof obj.actions[obj.ctr] == "string" ) {
+          if ( ( rotateImgObj.tgt == "_blank" && obj.imgObj.src == "http://www.mvyradio.com/vp_nocache.php" ) || ( rotateImgObj.tgt == "_blank" && obj.imgObj.src == "http://www.mvyradio.com/vp_nocache2.php" ) )
+		  { // && obj.imgObj.src == "void" // kill
+             // open in separate window (add features here if you want, i.e., chrome, size, position, ...)
+             var win = window.open(obj.actions[obj.ctr], 'player','width=426,height=335','resizable=0');
+             if ( win && !win.closed ) win.focus();
+             } else window.location = obj.actions[obj.ctr];
+          } else obj.actions[obj.ctr]();
+       } 
+       return false;
+	} else return true;
+	
+}
+
+
+
+// for stopping/starting onmouseover/out
+rotateImgObj.pause = function(n) {	
+
+  if (rotateImgObjs[n]) clearInterval(rotateImgObjs[n].timer); 
+}
+
+rotateImgObj.resume = function(n) {
+  if ( rotateImgObjs[n] ) {
+    var obj = rotateImgObjs[n]; // shorten reference 
+    obj.rotate(); // rotate now and resume repeated calls
+    obj.timer = setInterval( obj.animString + ".rotate()", obj.speed );
+  }
+}
+ 
+// End Rotator-->
+</script> 
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-223273-1";
+urchinTracker();
+</script>
+<script language="JavaScript"> 
+<!-- 
+function open_window(url){
+newWin = open(url,'player','width=426,height=335','resizable=0')
+newWin.focus()
+}
+// --> 
+</script>
+<style type=text/css>
+div.menuBar,
+div.menuBar a.menuButton2,
+div.menu,
+div.menu a.menuItem {
+    text-decoration:none;
+    font-family:verdana,arial,sans-serif,Arial,Helvetica,sans-serif; 
+    font-weight:normal;
+    font-size:11px;
+    cursor:default;
+    color:white;
+    background-color:#008A95;
+    border-color:#000033;
+}
+
+div.jocks_menu a.jocks_menuItem2 {
+    text-decoration:none;
+    font-family:verdana,arial,sans-serif,Arial,Helvetica,sans-serif; 
+    font-weight:bold;
+    font-size:12px;
+    cursor:default;
+    color:#008A95
+    background-color:white;
+    border-color:#cccccc;
+}
+
+div.menuBar a.menuButton2 {
+    border-style:solid;
+    border-width:1px 1px 1px 1px;
+    text-align:center;
+    text-decoration:none;
+    padding:3px 0px 3px 0px;
+    position:relative;
+    display:block;
+    float:left;
+    z-index:100;
+}
+
+div.menuBar a.menuButton2:hover {
+    background-color:white;
+    color:#000033;
+}
+
+div.jocks_menu a.jocks_menuItem2 {
+    display:block;
+    text-align:left;
+    text-decoration:none;
+    padding:3px 9px 3px 9px;
+    border-color:#666666;
+    border-style:solid;
+    border-width:0px 1px 1px 1px;
+    whitespace:nowrap;
+}
+
+div.jocks_menu a.jocks_menuItem2:hover,
+div.jocks_menu a.jocks_menuItem2Highlight{
+    background-color:#008A95;
+    color:#ffffff;
+}
+
+div.jocks_menu a.jocks_menuItem2 div.jocks_menuItem2Text {
+    white-space:nowrap;
+}
+
+div.jocks_menu a.jocks_menuItem2  { 	
+    text-decoration:none;
+    font-family:verdana,arial,sans-serif,Arial,Helvetica,sans-serif; 
+    font-weight:bold;
+    font-size:12px;
+    cursor:default;
+    color:#008A95;
+    background-color:white;
+    border-color:#666666;
+}
+</style> 
+<script type="text/javascript"> 
+function ifill(iframe,page) { 
+eval("parent."+iframe+".location='"+page+"'"); 
+} 
+</script> 
+<script language="JavaScript">
+<!--
+function hideemail(name, domain, display) {
+displayed=(typeof(display)=="undefined") ? name+"@"+domain : display
+document.write('<a class=2 href=mailto:' + name + '@' + domain + '>' + displayed +
+'</a>');
+}
+// -->
+</script>
+</head>
+<body onload=initImgRotation();>
+<!-- menu code after body tag -->
+<span id='xawmMenuPathImg-menu' style='position:absolute;top:-50px'><img name='awmMenuPathImg-menu' id='awmMenuPathImg-menu' src='http://www.mvyradio.com/awmdata/awmmenupath.gif' alt=''></span><script type='text/javascript'>var MenuLinkedBy='AllWebMenus [4]', awmBN='620'; awmAltUrl='';</script><script src='http://www.mvyradio.com/awmdata/menu.js' language='JavaScript1.2' type='text/javascript'></script><script type='text/javascript'>awmBuildMenu();</script>
+<!-- ******** end menu code ******** --><TABLE WIDTH="760" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER"><TR><TD><!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e2ad03b15cae4b4"></script>
+<!-- AddThis Button END --></TD></TR></TABLE><TABLE WIDTH="760" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="center" BGCOLOR="#FFFFFF"> 
+<TR> <TD WIDTH="120"><A 
+      ONMOUSEOVER=rotateImgObj.pause(0) ONFOCUS=this.blur() 
+      ONCLICK="return rotateImgObj.doClick(0)" ONMOUSEOUT=rotateImgObj.resume(0) 
+      HREF="http://www.mvyradio.com/noscript.html"><IMG 
+      HEIGHT=120 ALT="" SRC="http://www.mvyradio.com/images/upper_rotation1.jpg" WIDTH=120 BORDER=0 NAME=img1></A></TD>
+    <TD BACKGROUND="../images/archives-replays.jpg"> 
+      <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="5"><TR><TD WIDTH="70%"></TD><TD WIDTH="30%"> 
+            <DIV CLASS=jocks_menu ID=jocks_menu3 STYLE="VISIBILITY: visible;border-width: 1px 1px 1px 1px;border-color:#666666;"> 
+              <A HREF="http://www.mvyradio.com/archives/index.php#show" STYLE="border-width:1px;" CLASS=jocks_menuItem2> 
+              <SPAN STYLE="WIDTH: 100%;" CLASS=jocks_menuItemText> <IMG SRC="http://www.mvyradio.com/images/playbutton.gif" WIDTH="22" HEIGHT="12" BORDER="0"> 
+              Browse by Show</SPAN></A> <A HREF="http://www.mvyradio.com/archives/index.php#A" STYLE="" CLASS=jocks_menuItem2> 
+              <SPAN STYLE="WIDTH: 100%;" CLASS=jocks_menuItemText> <IMG SRC="http://www.mvyradio.com/images/playbutton.gif" WIDTH="22" HEIGHT="12" BORDER="0"> 
+              Browse by Artist</SPAN></A> <A HREF="http://www.mvyradio.com/downloads/podcasts.php" STYLE="" CLASS=jocks_menuItem2> 
+              <SPAN STYLE="WIDTH: 100%;" CLASS=jocks_menuItemText> <IMG SRC="http://www.mvyradio.com/images/playbutton.gif" WIDTH="22" HEIGHT="12" BORDER="0"> 
+              Podcasts</SPAN></A> </DIV>
+          </TD></TR></TABLE>
+    </TD>
+  </TR></TABLE><TABLE WIDTH="760" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="CENTER" BGCOLOR="#008A95" HEIGHT="32"><TR><TD WIDTH="120"><TABLE WIDTH="120" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="32"> 
+<FORM ACTION="http://www.mvyradio.com/search/index.php" METHOD="get"> <TR><TD WIDTH="60" ALIGN="RIGHT"> 
+<INPUT STYLE="font-family:verdana,arial,sans-serif;font-size:9px;" TYPE="text" NAME="query" VALUE="" SIZE="8" MAXLENGTH="255"></TD><TD WIDTH="60" VALIGN="MIDDLE" ALIGN="CENTER"> 
+<INPUT TYPE="image" NAME="Image11" BORDER="0" SRC="http://www.mvyradio.com/images/search1.jpg" WIDTH="52" HEIGHT="25" ONMOUSEOUT="mvy_swapImgRestore()" ONMOUSEOVER="mvy_swapImage('Image11','','http://www.mvyradio.com/images/search2.jpg',1)"></TD></TR></FORM></TABLE></TD><TD WIDTH="640" ALIGN="LEFT" VALIGN="TOP"> 
+<style type="text/css">.awmAnchor {position:relative;z-index:0}</style><span id='awmAnchor-menu' class='awmAnchor'>&nbsp;</span> </TD></TR></TABLE><TABLE WIDTH="760" BORDER="0" ALIGN="center" CELLPADDING="0" CELLSPACING="0"> 
+<TR> <TD ALIGN="CENTER"> <DIV> <TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0"> 
+<TR> <TD CLASS="adspace1" WIDTH="120" VALIGN="TOP"><A HREF="http://www.mvyradio.com/station/directory.php"><IMG SRC="http://www.mvyradio.com/images/email.jpg" WIDTH="120" HEIGHT="15" BORDER="0"></A><a href="http://www.mvyradio.com/station/ways_to_listen.php"><img border="0" src="http://www.mvyradio.com/images/tower.png" height="600" width="120"></a></TD><TD VALIGN="top" WIDTH="630" CLASS="menuItem"><TABLE WIDTH="300" BORDER="0" CELLSPACING="0" CELLPADDING="0" BGCOLOR="#FFFFFF"><TR><TD WIDTH="474" VALIGN="TOP"><TABLE STYLE="" WIDTH="474" BORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD> 
+<div style="height:610px; width:474px; overflow:auto; border:0px solid silver; padding:0px;"> 
+
+<html>
+<head>
+<title>mvyradio Replays</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table style="font-family:verdana,arial,sans-serif;font-size:12px;padding-left:6px;padding-right:6px;padding-top:6px;" width="422" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <p><span style="font-family:verdana,arial,sans-serif;font-size:12px;"><b>Welcome 
+        to mvyradio's Replays Directory</b><a name="top"></a><br>
+        </span></p>
+      <p>This show is available as a podcast! Click <a href="http://www.mvyradio.com/downloads/podcasts.php" target="_top">here</a>. 
+<script language="JavaScript"> 
+<!-- 
+function open_window(url){
+newWin = open(url,'player','width=426,height=335','resizable=0')
+newWin.focus()
+}
+// --> 
+</script>       
+		
+Or check out the <a href="#" onClick="javascript:open_window('http://3447.voxcdn.com/965/play.php?p=sds');">Podcast Player</a>!<br>
+        <br>
+For Grateful Dead Fans everywhere, Jer Bear brings you Shakedown Stream, each Tuesday at 5pm ET. Every episode of Shakedown Stream starts with an hour of Dead music, history and news, followed by an archival Dead show, played in its entirety. To hear the show's original airing, at 5pm every Tuesday go to the main page of mvyradio.com, and click on the link for Shakedown Stream. And if you miss it, you'll find old shows archived here.      </p>
+      <p><b>Shows by date:</b><br>
+        <br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.06.05.mp3">June 05, 2012</a> - Grateful Dead @ Jacksonville, FL (4/8/78)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.05.29.mp3">May 29, 2012</a> - Grateful Dead @ Cap Center, '74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.05.22.mp3">May 22, 2012</a> - Grateful Dead @ Roanoke, VA, '74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.05.15.mp3">May 15, 2012</a> - Grateful Dead @ Chicago, IL, '74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.05.08.mp3">May 08, 2012</a> - Grateful Dead @ Selland Arena, '74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.05.01.mp3">May 01, 2012</a> - Grateful Dead @ Alexandra Palace, '74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.04.24.mp3">April 24, 2012</a> - Grateful Dead @ Help on the Way > (9/11/83)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.04.17.mp3">April 17, 2012</a> - Grateful Dead @ Slipknot > 3/25/83<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.04.10.mp3">April 10, 2012</a> - Grateful Dead @ Franklin's Tower 4.26.83<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.04.03.mp3">April 03, 2012</a> - Grateful Dead @ Hampton Roads (4/9/83)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.03.27.mp3">March 27, 2012</a> - Grateful Dead @ Phil & Phriends (4/16/99)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.03.20.mp3">March 20, 2012</a> - Grateful Dead @ Box of Phil (6/22/86)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.03.13.mp3">March 13, 2012</a> - Grateful Dead @ Terrapin Phil (3/15/90)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.03.06.mp3">March 06, 2012</a> - Grateful Dead @ Phil & Phriends (4/15/99)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.02.28.mp3">February 28, 2012</a> - Grateful Dead @ 1st Terrapin Station<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.02.21.mp3">February 21, 2012</a> - Grateful Dead @ 1st Lazy>Supplication<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.02.14.mp3">February 14, 2012</a> - Grateful Dead @ 1st Music Never Stopped<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.02.07.mp3">February 07, 2012</a> - Grateful Dead @ 1st Slipknot<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.01.31.mp3">January 31, 2012</a> - Grateful Dead @ Dead Sandwiches #4<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.01.24.mp3">January 24, 2012</a> - Grateful Dead @ Dead Sandwiches #3<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.01.17.mp3">January 17, 2012</a> - Grateful Dead @ Dead Sandwiches #2<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.01.10.mp3">January 10, 2012</a> - Grateful Dead @ Dead Sandwiches #1<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2012.01.03.mp3">January 03, 2012</a> - Grateful Dead @ The Milky Way (10/16/81)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.12.27.mp3">December 27, 2011</a> - Grateful Dead @ JerBear's Chicago 2/28/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.12.20.mp3">December 20, 2011</a> - Grateful Dead @ JerBear's Chicago 2/27/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.12.13.mp3">December 13, 2011</a> - Grateful Dead @ JerBear's Chicago 2/26/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.12.06.mp3">December 06, 2011</a> - Grateful Dead @ Passaic, NJ 6/18/76<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.11.29.mp3">November 29, 2011</a> - Grateful Dead @ Paris, France (5/4/72)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.11.22.mp3">November 22, 2011</a> - Grateful Dead @ "Dick's Gift" LOM<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.11.15.mp3">November 15, 2011</a> - Grateful Dead @ Furthur, NH - 11/03/11<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.11.08.mp3">November 08, 2011</a> - Grateful Dead @ Portland, ME (5/11/80)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.11.01.mp3">November 01, 2011</a> - Grateful Dead @ Winterland, 12/27/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.10.25.mp3">October 25, 2011</a> - Grateful Dead @ Univ of CA 1984<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.10.18.mp3">October 18, 2011</a> - Grateful Dead @ Greek Theatre 1984<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.10.11.mp3">October 11, 2011</a> - Grateful Dead @ Berkeley - 1984<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.10.04.mp3">October 04, 2011</a> - Grateful Dead @ Providence, 1984<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.09.27.mp3">September 27, 2011</a> - Grateful Dead @ 1971 - D<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.09.20.mp3">September 20, 2011</a> - Grateful Dead @ 1971 - E<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.09.13.mp3">September 13, 2011</a> - Grateful Dead @ 1971 - A<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.09.06.mp3">September 06, 2011</a> - Grateful Dead @ 1971 - D<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.08.30.mp3">August 30, 2011</a> - Grateful Dead @ (4/2/73) - Eyes<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.08.23.mp3">August 23, 2011</a> - Grateful Dead @ (3/22/73) of the<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.08.16.mp3">August 16, 2011</a> - Grateful Dead @ (2/26/73) - World<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.08.09.mp3">August 09, 2011</a> - Grateful Dead @ "Pure Jerry" - pt2<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.08.02.mp3">August 02, 2011</a> - Grateful Dead @ "Pure Jerry" - pt1<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.07.26.mp3">July 26, 2011</a> - Grateful Dead @ Worcester, MA (4/7/88)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.07.19.mp3">July 19, 2011</a> - Grateful Dead @ Oakland, CA (12/28/82)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.07.12.mp3">July 12, 2011</a> - Grateful Dead @ Columbus, OH (4/19/78)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.07.05.mp3">July 05, 2011</a> - Grateful Dead, SummerSpecial, 7/5/2011<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.06.28.mp3">June 28, 2011</a> - Grateful Dead @ Columbus, OH (9/30/76)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.06.21.mp3">June 21, 2011</a> - Grateful Dead @ Boston Bruins! (6/9/76)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.06.14.mp3">June 14, 2011</a> - Grateful Dead @ Mt View, CA (6/15/90)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.06.07.mp3">June 07, 2011</a> - Grateful Dead, Monterey, CA (7/29/88)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.05.31.mp3">May 31, 2011</a> - Grateful Dead @ Orpheum Theatre, SF (7/12/76)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.05.24.mp3">May 24, 2011</a> - Grateful Dead @ Happy Dylan's 70th (7/24/87)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.05.17.mp3">May 17, 2011</a> - Grateful Dead @ Euphoria Ballroom (7/14/70)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.05.10.mp3">May 10, 2011</a> - Grateful Dead @ E. Rutherford, NJ (9/2/78)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.05.03.mp3">May 03, 2011</a> - Grateful Dead @ New Haven, CT (5/5/77)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.04.26.mp3">April 26, 2011</a> - Grateful Dead @ China>Rider (12/12/70)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.04.19.mp3">April 19, 2011</a> - Grateful Dead @ China>Rider (1/3/70)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.04.12.mp3">April 12, 2011</a> - Grateful Dead @ China>Rider (12/12/69)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.04.05.mp3">April 05, 2011</a> - Grateful Dead@ China>Rider (7/5/69)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.03.29.mp3">March 29, 2011</a> - Grateful Dead @ March 1988 - P<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.03.22.mp3">March 22, 2011</a> - Grateful Dead @ March 1988 - E<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.03.15.mp3">March 15, 2011</a> - Grateful Dead @ March 1988 - A<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.03.08.mp3">March 08, 2011</a> - Grateful Dead @ March 1988 - C<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.03.01.mp3">March 01, 2011</a> - Grateful Dead @ March 1988 - E<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.02.22.mp3">February 22, 2011</a> - Grateful Dead @ Kansas, Sandstone, 6/24/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.02.15.mp3">February 15, 2011</a> - Grateful Dead @ Kansas, Wichita, 11/17/72<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.02.08.mp3">February 08, 2011</a> - Grateful Dead @ Kansas City, MO, 8/3/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.02.01.mp3">February 01, 2011</a> - Grateful Dead @ Kansas City, KS, 12/10/79<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.01.25.mp3">January 25, 2011</a> - Grateful Dead @ Bakersfield, CA 1/14/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.01.18.mp3">January 18, 2011</a> - Grateful Dead @ Wash. DC, 7/12/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.01.12.mp3">January 12, 2011</a> - Grateful Dead @ Veneta, OR, 8/28/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2011.01.04.mp3">January 04, 2011</a> - Grateful Dead @ "The Raven" 4/19/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.12.28.mp3">December 28, 2010</a> - Grateful Dead @ Jer Bears Choice pt4<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.12.21.mp3">December 21, 2010</a> - Grateful Dead @ JerBear's Choice pt3.<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.12.14.mp3">December 14, 2010</a> - Grateful Dead @ JerBear's Choice pt2.<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.12.07.mp3">December 07, 2010</a> - Grateful Dead @ Jer Bear's Choice pt1<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.11.30.mp3">November 30, 2010</a> - Grateful Dead @ Capitol Theatre, 11/24/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.11.23.mp3">November 23, 2010</a> - Grateful Dead @ El Paso, TX, 11/23/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.11.16.mp3">November 16, 2010</a> - Grateful Dead @ Chicago, IL, 4/13/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.11.09.mp3">November 09, 2010</a> - Grateful Dead @ Bezerkeley, CA, 6/14/85<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.11.02.mp3">November 02, 2010</a> - Grateful Dead @ San Diego, CA, 11/14/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.10.26.mp3">October 26, 2010</a> - Grateful Dead @ Playin Missoula, MT, 5/14/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.10.19.mp3">October 19, 2010</a> - Grateful Dead @ Playin' Glens Falls (4/14/82)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.10.12.mp3">October 12, 2010</a> - Grateful Dead @ Playin The Palladium, 5/4/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.10.05.mp3">October 05, 2010</a> - Grateful Dead @ Playin' - 11/6/79<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.09.28.mp3">September 28, 2010</a> - Grateful Dead @ MSG, NYC, 9/20/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.09.21.mp3">September 21, 2010</a> - Grateful Dead @ MSG, NYC, 9/18/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.09.14.mp3">September 14, 2010</a> - Grateful Dead @ MSG, NYC, 9/15/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.09.07.mp3">September 07, 2010</a> - Grateful Dead @ MSG, NYC, 9/14/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.08.31.mp3">August 31, 2010</a> - Grateful Dead @ Dark Star, 10/25/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.08.24.mp3">August 24, 2010</a> - Grateful Dead @ Dark Star - 7/26/72<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.08.17.mp3">August 17, 2010</a> - Grateful Dead @ Berkeley, CA, 8/21/72 (Dark Star)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.08.10.mp3">August 10, 2010</a> - Grateful Dead @ Days Between part 2<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.08.03.mp3">August 03, 2010</a> - Grateful Dead @ Days Between - part 1<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.07.27.mp3">July 27, 2010</a> - Grateful Dead @ Durham, NC, 4/12/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.07.20.mp3">July 20, 2010</a> - Grateful Dead @ Raleigh, NC, 7/10/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.07.13.mp3">July 13, 2010</a> - Grateful Dead @ Greensboro, NC, 4/30/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.07.06.mp3">July 06, 2010</a> - Grateful Dead @ Charlotte, NC, 10/22/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.06.29.mp3">June 29, 2010</a> - Grateful Dead @ Alpine Valley, 7/18/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.06.22.mp3">June 22, 2010</a> - Grateful Dead @ Inglewood, CA, 12/09/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.06.15.mp3">June 15, 2010</a> - Grateful Dead @ Rainbow Theatre, UK, 3/20/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.06.08.mp3">June 08, 2010</a> - Grateful Dead @ Boston, MA, 6/9/76<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.06.01.mp3">June 01, 2010</a> - Grateful Dead @ The Centrum, 4/7/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.05.25.mp3">May 25, 2010</a> - Grateful Dead @ Santa Barbara, CA, 5/25/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.05.18.mp3">May 18, 2010</a> - Grateful Dead @ Avalon Ballroom, SF, 10/12/68<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.05.11.mp3">May 11, 2010</a> - Grateful Dead @ Rotterdam, NL, 5/11/72<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.05.04.mp3">May 04, 2010</a> - Grateful Dead @ San Diego, CA, 11/24/79<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.04.27.mp3">April 27, 2010</a> - Grateful Dead @ Palladium, NY, 4/30/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.04.20.mp3">April 20, 2010</a> - Grateful Dead @ Providence, RI, 4/20/83<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.04.13.mp3">April 13, 2010</a> - Grateful Dead @ Road Trips Vol. 2<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.04.06.mp3">April 06, 2010</a> - Grateful Dead, Furthur @ Chicago, IL 3/3/2010<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.03.30.mp3">March 30, 2010</a> - Grateful Dead @ Passaic, NJ, 6/17/76<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.03.23.mp3">March 23, 2010</a> - Grateful Dead @ Winterland Arena, 3/20/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.03.16.mp3">March 16, 2010</a> - Grateful Dead @ The Strand Lyceum, 5/23/72<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.03.09.mp3">March 09, 2010</a> - Grateful Dead @ Tinley Park, 7/23/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.03.02.mp3">March 02, 2010</a> - Grateful Dead @ Tinley Park, 7/21/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.02.23.mp3">February 23, 2010</a> - Grateful Dead at Dallas, TX, 10/21/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.02.16.mp3">February 16, 2010</a> - Grateful Dead @ Austin, TX, 7/4/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.02.09.mp3">February 09, 2010</a> - Grateful Dead @ Houston, TX, 10/14/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.02.02.mp3">February 02, 2010</a> - Grateful Dead @ "Dead Scraps," 9/19/70<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.01.26.mp3">January 26, 2010</a> - Grateful Dead @ Cornell, 5/7/80.<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.01.19.mp3">January 19, 2010</a> - Grateful Dead @ UC Santa Barbara, 6/4/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.01.12.mp3">January 12, 2010</a> - Grateful Dead @ William & Mary, 9/11/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2010.01.05.mp3">January 05, 2010</a> - Grateful Dead @ Univ of Alabama, 5/17/77.<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.12.29.mp3">December 29, 2009</a> - Grateful Dead @ M.I.T. 5/6/70<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.12.22.mp3">December 22, 2009</a> - Grateful Dead @ Princeton, 4/17/71<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.12.15.mp3">December 15, 2009</a> - Grateful Dead @ The Human Be-In, 1/14/67 + Toni Brown Interview pt.2<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.12.08.mp3">December 08, 2009</a> - Grateful Dead @ New Orleans, LA, 2/1/70 + Toni Brown interview pt.1<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.12.01.mp3">December 01, 2009</a> - Grateful Dead @ Earthquake Relief Benefit, 12/6/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.11.24.mp3">November 24, 2009</a> - Grateful Dead @ Cleveland, OH, 11/20/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.11.17.mp3">November 17, 2009</a> - Grateful Dead @ Kansas City, MO, 8/3/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.11.16.mp3">November 16, 2009</a> - Grateful Dead, JerBear's 1st Shakedown Stream for mvyradio, 12.10.2007<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.11.10.mp3">November 10, 2009</a> - Grateful Dead @ Detroit, MI, 11/1/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.11.03.mp3">November 03, 2009</a> - Grateful Dead @ Polo Field, SF, 11/3/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.10.27.mp3">October 27, 2009</a> - Grateful Dead @ Philly Spectrum, 10/20/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.10.20.mp3">October 20, 2009</a> - Grateful Dead @ Philly Spectrum, 4/26/83<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.10.13.mp3">October 13, 2009</a> - Grateful Dead @ Philly Spectrum, 3/24/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.10.06.mp3">October 06, 2009</a> - Grateful Dead @ Philly Spectrum, 5/4/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.09.29.mp3">September 29, 2009</a> - Grateful Dead @ Frankfurt, Germany 10/22/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.09.22.mp3">September 22, 2009</a> - Grateful Dead @ Paris, France - 9/20/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.09.15.mp3">September 15, 2009</a> - Grateful Dead @ Cairo, Egypt - 9/16/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.09.08.mp3">September 08, 2009</a> - Grateful Dead @ Hamilton, Ontario (3/21/90)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.09.01.mp3">September 01, 2009</a> - Grateful Dead @ Rainbow Theater in London, October 4, 1981<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.08.25.mp3">August 25, 2009</a> - Grateful Dead @ Gaelic Park, NYC<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.08.18.mp3">August 18, 2009</a> - Grateful Dead @ The Greek Theatre, 8/18/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.08.11.mp3">August 11, 2009</a> - Grateful Dead @ Oxford, ME, 7/2/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.08.04.mp3">August 04, 2009</a> - Grateful Dead @ Jerry Garcia Tribute<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.07.28.mp3">July 28, 2009</a> - Grateful Dead @ Watkins Glen, NY, 7/28/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.07.21.mp3">July 21, 2009</a> - Grateful Dead @ Ventura, CA, 7/21/84<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.07.14.mp3">July 14, 2009</a> - Grateful Dead @ Augusta, ME & Mark Karan interview (pt2)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.07.09.mp3">July 09, 2009</a> - Grateful Dead @ Atlanta, GA & Mark Karan Interview (pt.1)<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.06.30.mp3">June 30, 2009</a> - Grateful Dead @ Springfield, MA, 6/30/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.06.23.mp3">June 23, 2009</a> - Grateful Dead @ MSG, NYCity, 9/19/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.06.16.mp3">June 16, 2009</a> - Grateful Dead @ Giants Stadium, 6/17/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.06.09.mp3">June 09, 2009</a> - Grateful Dead @ Wash, DC, 6/9/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.06.02.mp3">June 02, 2009</a> - Grateful Dead @ Lake Placid, NY, 10/17/83<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.05.26.mp3">May 26, 2009</a> - Grateful  Dead @ Baltimore, MD, 5/26/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.05.19.mp3">May 19, 2009</a> - The DEAD @ Worcester, MA, 4/19/09<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.05.11.mp3">May 11, 2009</a> - Grateful Dead @ St. Paul, MN, 5/11/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.05.05.mp3">May 05, 2009</a> - Grateful Dead @  L.A., CA Dec. 30th, 1978<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.04.28.mp3">April 28, 2009</a> - Grateful Dead @  Las Vegas, NV, 4/28/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.04.21.mp3">April 21, 2009</a> - Grateful Dead @ Berkeley Community Theatre, Berkeley, CA, 4/21/86<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.04.14.mp3">April 14, 2009</a> - Grateful Dead @ Blacksburg, VA, 4/14/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.04.07.mp3">April 07, 2009</a> - Grateful Dead @ Boston, MA, 4/7/71 and Phil, PA, 4/7/85<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.03.31.mp3">March 31, 2009</a> - Jerry Garcia Band@ Wiltern Theatre, LA, 11/26/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.03.24.mp3">March 24, 2009</a> - Boris Garcia pt2 Interview and Jam Session and Grateful Dead @ Eugene, OR, 1/22/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.03.17.mp3">March 17, 2009</a> - Grateful Dead @ Port Chester, NY, 2/18/71<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.03.10.mp3">March 10, 2009</a> - Boris Garcia pt 1 Interview and Jam Session and Grateful Dead @ Greek Theatre, Berkeley, CA, 6/15/85<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.03.03.mp3">March 03, 2009</a> - Grateful Dead @ Red Rocks, Morrison, CO, 7/7/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.02.24.mp3">February 24, 2009</a> - Grateful Dead @ Univ of Nevada, Reno, NV, 5/12/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.02.17.mp3">February 17, 2009</a> - Grateful Dead @ Boston Garden, MA, 10/1/94<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.02.10.mp3">February 10, 2009</a> - Grateful Dead @ Cape Cod Coliseum, Yarmouth, MA, 10/27/79<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.02.03.mp3">February 03, 2009</a> - Grateful Dead @ Mountainview, CA, 8/16/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.01.27.mp3">January 27, 2009</a> - Grateful Dead @ Louisville, KY, 6/18/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.01.20.mp3">January 20, 2009</a> - Grateful Dead @ Betty Nelson's Organic Raspberry Farm, Sultan, WA,9/2/68 + Michael Falzarano Interview<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.01.13.mp3">January 13, 2009</a> - Grateful Dead @ Hartford, CT, 4/18/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2009.01.06.mp3">January 06, 2009</a> - Grateful Dead @ Binghampton, NY, 11/6/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.12.30.mp3">December 30, 2008</a> - Grateful Dead @ Winterland Arena, SF, 12/31/72 NYE shows<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.12.23.mp3">December 23, 2008</a> - Grateful Dead @ Oakland Aud., Oakland, CA, 12/31/90 NYE shows<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.12.16.mp3">December 16, 2008</a> - Grateful Dead @ Oakland Aud., Oakland, CA, 12/31/81 NYE shows<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.12.09.mp3">December 09, 2008</a> - Grateful Dead @ Winterland Arena, SF, 12/31/71 NYE Shows<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.12.02.mp3">December 02, 2008</a> - Grateful Dead @ Winterland Arena, SF, 12/31/77 NYE shows<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.11.25.mp3">November 25, 2008</a> - Grateful Dead @ Telluride, CO, 8/15/87<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.11.18.mp3">November 18, 2008</a> - Grateful Dead @ Denver, CO, 11/20/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.11.11.mp3">November 11, 2008</a> - Grateful Dead @ Fillmore East, NYCity, NY, 11/16/70<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.11.04.mp3">November 04, 2008</a> - Grateful Dead @ Phillie Spectrum, Phil, PA, 11/5/79<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.10.28.mp3">October 28, 2008</a> - Grateful Dead @ *Merl Saunders Tribute & 10/28/85, Atlanta, GA<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.10.21.mp3">October 21, 2008</a> - Grateful Dead @ Winterland Arena, SF, 10/21/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.10.14.mp3">October 14, 2008</a> - Grateful Dead @ Meadowlands Arena, NJ, 10/14/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.10.07.mp3">October 07, 2008</a> - Grateful Dead @ Winterland Arena, SF, 12/27/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.09.30.mp3">September 30, 2008</a> - Grateful Dead @ Warfield Theatre, SF, 9/29/80<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.09.23.mp3">September 23, 2008</a> - Grateful Dead @ NYCity, NY, 9/20/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.09.16.mp3">September 16, 2008</a> - Grateful Dead @ Dijon, France, 9/18/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.09.09.mp3">September 09, 2008</a> - Grateful Dead @ Providence, RI, 9/4/80<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.09.02.mp3">September 02, 2008</a> - Grateful Dead @ Boise, ID, 9/2/83<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.08.26.mp3">August 26, 2008</a> - Grateful Dead @ Shoreline Ampitheatre, CA, 8/17/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.08.19.mp3">August 19, 2008</a> - Grateful Dead @ Bethlehem, PA, 9/25/81<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.08.12.mp3">August 12, 2008</a> - Grateful Dead @ *Jerry Celebration !!<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.08.05.mp3">August 05, 2008</a> - Grateful Dead @ London, England, 10/30/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.07.29.mp3">July 29, 2008</a> - Grateful Dead @ Vancouver, Canada, 7/29/66<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.07.22.mp3">July 22, 2008</a> - Grateful Dead @ Paris, France, 10/28/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.07.15.mp3">July 15, 2008</a> - Grateful Dead @ San Francisco, CA, 10/22/67<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.07.08.mp3">July 08, 2008</a> - Grateful Dead @ Hartford, CT, 4/3/86<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.07.01.mp3">July 01, 2008</a> - Grateful Dead @ The Warlocks, 11/3/65 and Deer Creek, 7/2/95<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.06.24.mp3">June 24, 2008</a> - Grateful Dead @ Cincinnati, OH, 6/24/85<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.06.17.mp3">June 17, 2008</a> - Grateful Dead @ Landover, MD, 3/18/93<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.06.10.mp3">June 10, 2008</a> - Grateful Dead @ Golden Gate Park, SF, 9/28/75<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.06.03.mp3">June 03, 2008</a> - Grateful Dead @ Fillmore West, SF, 11/19/66<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.05.27.mp3">May 27, 2008</a> - Grateful Dead @ Albany, NY, 6/12/92<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.05.20.mp3">May 20, 2008</a> - Grateful Dead @ Eugene, OR, 5/7/84<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.05.13.mp3">May 13, 2008</a> - Grateful Dead @ Avalon Ballroom, SF, 10/12/68<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.05.06.mp3">May 06, 2008</a> - Grateful Dead @ Greek Theatre, 5/21/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.04.29.mp3">April 29, 2008</a> - Grateful Dead @ Fillmore East, NYC, 4/29/71<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.04.22.mp3">April 22, 2008</a> - Grateful Dead @ Uptown, NY, 12/4/79<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.04.15.mp3">April 15, 2008</a> - Grateful Dead @ MSG, NYC, 9/18/87<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.04.08.mp3">April 08, 2008</a> - Grateful Dead @ London England, 4/8/72<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.04.01.mp3">April 01, 2008</a> - Grateful Dead @ Passaic, NJ, 4/1/80<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.03.25.mp3">March 25, 2008</a> - Grateful Dead @ Roadtrips-Fall '77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.03.18.mp3">March 18, 2008</a> - Grateful Dead @ Phillie Spectrum, 9/12/88<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.03.11.mp3">March 11, 2008</a> - Grateful Dead @ Chicago, IL, 1/30/78<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.03.04.mp3">March 04, 2008</a> - Grateful Dead @ MSG, NYC, 9/20/82<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.02.26.mp3">February 26, 2008</a> - Grateful Dead @ Stonybrook, NY, 10/31/70<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.02.19.mp3">February 19, 2008</a> - Grateful Dead @ London, England, 10/30/90<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.02.12.mp3">February 12, 2008</a> - Grateful Dead @ Cleveland, OH, 12/6/73<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.02.05.mp3">February 05, 2008</a> - Grateful Dead @ Orpheum Theatre, SF, 7/17/76<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.01.29.mp3">January 29, 2008</a> - Grateful Dead @ Boston Tea Party, 12/31/69<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.01.22.mp3">January 22, 2008</a> - Grateful Dead @ Rosemont, IL, 4/11/89<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.01.15.mp3">January 15, 2008</a> - Grateful Dead @ Miami, FL, 6/23/74<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2008.01.08.mp3">January 08, 2008</a> - Grateful Dead @ Boston Garden, 9/26/91<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2007.12.18.mp3">December 18, 2007</a> - Grateful Dead @ Norman, OK, 10/11/77<br>
+<a class=2 href="http://3447.voxcdn.com/965/shakedown_stream/mvyradio_ShakedownStream_2007.12.11.mp3">December 11, 2007</a> - Grateful Dead @ Providence, RI, 5/13/81<br>
+ 
+
+      </p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+</div> </TD></TR></TABLE></TD><TD WIDTH="156" VALIGN="TOP"><TABLE WIDTH="166" BORDER="0" CELLSPACING="0" CELLPADDING="0"><TR>
+                        <TD WIDTH="166" bgcolor="#669999"><img src="../banners2/trans.gif" width="166" height="3"></TD>
+                      </TR><TR>
+                        <TD STYLE="font-family:verdana,arial,sans-serif;font-size:12px;" BGCOLOR="#b2cfd3"><img src="../images/podcasts2008.jpg" width="166" height="282" usemap="#Map" border="0" href="index.php?browse=shakedown_stream"></TD>
+                      </TR><TR><TD WIDTH="166" HEIGHT="282" VALIGN="TOP" ALIGN="CENTER"> <!-- Images not all same size for this set td width and height set to accommodate largest image so no reflow --> 
+<!-- Another image for rotation. Notice width and height attributes left out here. --> 
+<A ONMOUSEOVER=rotateImgObj.pause(1) ONFOCUS=this.blur() 
+      ONCLICK="return rotateImgObj.doClick(1)" ONMOUSEOUT=rotateImgObj.resume(1) 
+      HREF="http://www.mvyradio.com/noscript..html"><IMG 
+      SRC="http://www.mvyradio.com/images/rotation1.jpg" BORDER=0 NAME=img2 WIDTH="166" HEIGHT="282"></A></TD></TR></TABLE></TD></TR></TABLE></TD></TR> 
+</TABLE><TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="0"><TR><TD CLASS="adspace2" ALIGN="CENTER" VALIGN="MIDDLE" HEIGHT="100">
+<TABLE WIDTH="760" BORDER="0" CELLSPACING="0" CELLPADDING="0" HEIGHT="125">
+  <TR> 
+    <TD CLASS="adspace2" ALIGN="CENTER" VALIGN="MIDDLE" HEIGHT="100"> 
+      <a href='http://www.mvyradio.com/phpadsnew/adclick.php?bannerid=267&amp;zoneid=33&amp;source=&amp;dest=http%3A%2F%2Fwww.friendsofmvyradio.org' target='_blank'><img src='http://www.mvyradio.com/images/bottomfrontpage0509.jpg' width='760' height='125' alt='' title='' border='0'></a><div id="beacon_267" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src='http://www.mvyradio.com/phpadsnew/adlog.php?bannerid=267&amp;clientid=61&amp;zoneid=33&amp;source=&amp;block=0&amp;capping=0&amp;cb=fe0671b93fa690d7e68cfe4f01438ae7' width='0' height='0' alt='' style='width: 0px; height: 0px;'></div>
+
+    </TD>
+  </TR>
+</TABLE>
+<IMG SRC="http://www.mvyradio.com/images/footer07.jpg" WIDTH="760" HEIGHT="40"></TD></TR></TABLE><DIV STYLE="padding-top:5px;"></DIV></DIV></TD></TR> </TABLE> 
+<map name="Map"> 
+  <area shape="rect" coords="2,257,163,274" href="index.php?browse=sunday_jazz"> 
+  <area shape="rect" coords="3,130,163,146" href="index.php?browse=shakedown_stream">
+  <area shape="rect" coords="2,220,162,236" href="index.php?browse=hot_seat">
+  <area shape="rect" coords="4,186,162,200" href="index.php?browse=my_back_pages">
+  <area shape="rect" coords="3,148,163,164" href="index.php?browse=just_four_guys">
+  <area shape="rect" coords="2,166,163,183" href="index.php?browse=uncharted">
+  <area shape="rect" coords="3,238,163,254" href="index.php?browse=bluesat8">
+  <area shape="rect" coords="2,202,162,218" href="index.php?browse=local_musicafe">
+  <area shape="rect" coords="4,293,167,321" href="index.php?browse=hot_seat">
+  <area shape="rect" coords="22,304,26,305" href="#">
+  <area shape="rect" coords="42,310,59,312" href="#">
+</map>
+</body>
+</html>

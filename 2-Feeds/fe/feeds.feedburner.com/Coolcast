@@ -1,0 +1,44 @@
+<!--
+	top.location="http://coolcast.podlot.net/?fp=iuNzy81d1Oj9uIih7esFH3gqB3aHnC4YZqU79WiZ%2BB%2FhHON0v1Q9VbDUBmn7rC38khQ1cfd3cMDFmKCiNqidJw%3D%3D&prvtof=CM23dNLM5vdxChVPXbtbV1xxCk5kyH0deuf%2FbG0qCEQ%3D&poru=pM77BEMXkHZJM6FgNejWkv7uiipZID%2Fh8HnOOni8CPPCWh9goFhlpp7qIVeB2%2BYa&cifr=1&";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://coolcast.podlot.net/?fp=iuNzy81d1Oj9uIih7esFH3gqB3aHnC4YZqU79WiZ%2BB%2FhHON0v1Q9VbDUBmn7rC38khQ1cfd3cMDFmKCiNqidJw%3D%3D&prvtof=NIbg9OAzEZEq%2Bz8lKwWy0TjP944S5RtgVTEzl9xj65Q%3D&poru=FXQahWtMzfV4AA%2BAjgRqP%2BuSE02%2F7xoivdEIDPBA0z5FpwVHCF6pKePCTU021FpC&cifr=1&";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://coolcast.podlot.net/?fp=iuNzy81d1Oj9uIih7esFH3gqB3aHnC4YZqU79WiZ%2BB%2FhHON0v1Q9VbDUBmn7rC38khQ1cfd3cMDFmKCiNqidJw%3D%3D&prvtof=uKlBkyoTInz6JelplKOl%2BcyWAD9baD6UjYOXn%2FJK9KA%3D&poru=1uFuia3mp7gGdKZzSqozJJTfqXgYS%2BIfUka2uHYcDMWdJ2j2LWoWvXWvyU6hVi9Q&">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://coolcast.podlot.net/?fp=iuNzy81d1Oj9uIih7esFH3gqB3aHnC4YZqU79WiZ%2BB%2FhHON0v1Q9VbDUBmn7rC38khQ1cfd3cMDFmKCiNqidJw%3D%3D&prvtof=AVA2FRGzz8sIa%2FTmtQZtuGTa3%2BCZhojv3Y90MHvGJ6U%3D&poru=HGpjprC4ZRyOUfkRVdMm6ohM0Xw8%2BAmDfv%2BXmvLGJfovRMyCilMWHh59h%2BcgxY0B&">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->

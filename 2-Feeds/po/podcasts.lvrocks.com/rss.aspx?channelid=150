@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>Error 500</title><style type="text/css">body {font-family:"Verdana","DejaVu Sans",sans-serif;font-weight:normal;font-size: .7em;color:black;background-color: white}
+p {font-family:"Verdana","DejaVu Sans",sans-serif;font-weight:normal;color:black;margin-top: -5px}
+b {font-family:"Verdana","DejaVu Sans",sans-serif;font-weight:bold;color:black;margin-top: -5px}
+h1 { font-family:"Verdana","DejaVu Sans",sans-serif;font-weight:normal;font-size:18pt;color:red }
+h2 { font-family:"Verdana","DejaVu Sans",sans-serif;font-weight:normal;font-size:14pt;color:maroon }
+pre,code {font-family:"Lucida Console","DejaVu Sans Mono",monospace;font-size: 0.9em,white-space: pre-line}
+div.bodyText {font-family: "Verdana","DejaVu Sans",sans-serif}
+table.sampleCode {width: 100%; background-color: #ffffcc; }
+.errorText {color: red; font-weight: bold}
+.marker {font-weight: bold; color: black;text-decoration: none;}
+.version {color: gray;}
+.error {margin-bottom: 10px;}
+.expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }</style></head><body><h1>Server Error in '/' Application</h1><hr style="color: silver"/><h2><em>Unable to convert MySQL date/time value to System.DateTime</em></h2>
+<p><strong>Description: </strong>HTTP 500. Error processing request.</p>
+<p><strong>Stack Trace: </strong></p><table summary="Stack Trace" class="sampleCode">
+<tr><td><pre>MySql.Data.Types.MySqlConversionException: Unable to convert MySQL date/time value to System.DateTime
+  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in &lt;filename unknown&gt;:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32&amp; counter) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet) [0x00000] in &lt;filename unknown&gt;:0 
+  at APC_Func.BuildDataSet (System.String SQLQuery) [0x00000] in &lt;filename unknown&gt;:0 
+  at APC_Func.generaterss (System.String channelid) [0x00000] in &lt;filename unknown&gt;:0 
+  at rss.Page_Load (System.Object sender, System.EventArgs e) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Web.UI.Control.OnLoad (System.EventArgs e) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Web.UI.Control.LoadRecursive () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Web.UI.Page.ProcessLoad () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Web.UI.Page.ProcessPostData () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Web.UI.Page.InternalProcessRequest () [0x00000] in &lt;filename unknown&gt;:0 
+  at System.Web.UI.Page.ProcessRequest (System.Web.HttpContext context) [0x00000] in &lt;filename unknown&gt;:0 </pre></td></tr>
+</table>
+<hr style="color: silver"/><strong>Version information: </strong> Mono Runtime Version: <tt>2.6.7 (tarball Tue Apr 12 19:58:46 CDT 2011)</tt>; ASP.NET Version: <tt>2.0.50727.1433</tt></body></html>
+
+<!--
+[System.Web.HttpUnhandledException]: Exception of type 'System.Web.HttpUnhandledException' was thrown.
+  at System.Web.UI.Page.ProcessException (System.Exception e) [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Page.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+  at System.Web.HttpApplication+<Pipeline>c__Iterator2.MoveNext () [0x00000] in <filename unknown>:0 
+  at System.Web.HttpApplication.Tick () [0x00000] in <filename unknown>:0 
+[MySql.Data.Types.MySqlConversionException]: Unable to convert MySQL date/time value to System.DateTime
+  at MySql.Data.Types.MySqlDateTime.GetDateTime () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValue (Int32 i) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlDataReader.GetValues (System.Object[] values) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DataAdapter.FillTable (System.Data.DataTable dataTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords, System.Int32& counter) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DataAdapter.FillInternal (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DataAdapter.Fill (System.Data.DataSet dataSet, System.String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet, Int32 startRecord, Int32 maxRecords, System.String srcTable, IDbCommand command, CommandBehavior behavior) [0x00000] in <filename unknown>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataSet dataSet) [0x00000] in <filename unknown>:0 
+  at APC_Func.BuildDataSet (System.String SQLQuery) [0x00000] in <filename unknown>:0 
+  at APC_Func.generaterss (System.String channelid) [0x00000] in <filename unknown>:0 
+  at rss.Page_Load (System.Object sender, System.EventArgs e) [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Control.OnLoad (System.EventArgs e) [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Control.LoadRecursive () [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Page.ProcessLoad () [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Page.ProcessPostData () [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Page.InternalProcessRequest () [0x00000] in <filename unknown>:0 
+  at System.Web.UI.Page.ProcessRequest (System.Web.HttpContext context) [0x00000] in <filename unknown>:0 
+-->

@@ -1,0 +1,494 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//DE"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+
+<head>
+    <title>BOINCcast</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="/userdata/ruby.css" rel="stylesheet" media="screen" type="text/css" />
+    <link rel="alternate" type="application/rss+xml" title="Podcast-Feed" href="http://boinccast.podspot.de/rss" />
+    <meta http-equiv="content-language" content="de" />
+    <meta name="generator" content="podster.de + Loudblog" />
+    <meta name="description" content="Hier versuche ich euch die Distributed Computing Plattform "BOINC" zu erläutern und näher zu bringen. Ich werde euch jeden Samstag in 5 Minuten etwas zu den Themen BOINC, Seti@Home, Einstein@home, usw. erzählen. Das wird aber kein technisches oder wissenschaftliches Kauderwelsch sondern sollte für jedermann leicht verständlich sein." />
+    <script type="text/javascript" src="/userdata/js/nifty.js"></script>
+    <script type="text/javascript" src="/userdata/js/snippets.js"></script>
+    <script type="text/javascript">
+    window.onload=function(){
+    if(!NiftyCheck())
+           return;
+       Rounded("div.nifty","#E8E1DB","#FAF9F7");
+       Rounded("div.headline","#E8E1DB","#99CCFF");
+       RoundedTop("div.topdiv","#E8E1DB","#3399FF");
+        }
+    </script>
+</head>
+
+<body>
+<div id="container" class="topdiv">
+<!--Header-->
+<div id="top1">
+<img src="/userdata/gif/logo-small.gif" class="alignleft"/><img src="/userdata/gif/logo-small.gif" class="alignright"/><h1><a href="/" title="BOINCcast">BOINCcast</a>
+</h1>
+<p>Der erste deutschsprachige Podcast<br>zum Thema Distributed Computing!   </p>
+<form name="countdownform"><input type="text" style="width: 30; float: none; border: none; background: none; color: #FF0000; font-size: 1.5em; text-align: center;" name="countdowninput"></form>
+</div>
+<!--ENDE Header-->
+
+<!--TeamBanner-->
+<div id="TeamDiv">
+Teambanner:
+<!--<a href="http://www.boinc-halle-saale.de" target="_blank"><img src="/userdata/banner/Teambanner-weiss.gif" class="centered"></a>
+<a href="http://www.boinc-team.de" target="_blank"><img src="/userdata/banner/team-heidelberg.png" class="centered"></a>-->
+<a href="http://www.ersterkontakt.eu" target="_blank"><img src="/userdata/banner/ersterkontakt.gif" class="centered"></a>
+</div>
+<!--ENDE TeamBanner-->
+
+<!--Hauptnavigation-->
+<!--<div id="mainNavi">-->
+<!--<ul>-->
+<!--<li class="current"><a href="/userdata/#" title="Start">Start</a></li>
+<li><a href="/userdata/#" title="Info">Info</a></li>
+<li><a href="/userdata/#" title="Imprint">Imprint</a></li>-->
+<!--</ul>-->
+<!--</div>-->
+<!--ENDE Hauptnavigation-->
+
+<!--Sidebar B (linke Seite)-->
+<div id="sidebar-b">
+<div id="sideBIn">
+<div class="bHead">Abonnieren</div>
+<div class="sideBText">
+<p><a href="http://boinccast.podspot.de/rss" title="Link zum Podcast-Feed"><img src="/userdata/gif/rss-boinccast.png" alt="RSS BOINCcast (RSS-Feed)" /></a></p>
+<!--<p><a href="http://boinccast.podspot.de/rss+all" title="Link zum Podcast-Feed"><img src="/userdata/gif/rss.png" class="rss" alt="RSS" /> Alle Episoden</a></p>-->
+<p><a href="http://boinccast.podspot.de/rss+usm" title="Link zum Podcast-Feed"><img src="/userdata/gif/usm-oneclick.png" alt="USM BOINCcast (One-Click)" /></a></p>
+<p><a href="/comments/rss" title="RSS Feed für Kommentare"><img src="/userdata/gif/rss-kommentar.png" alt="RSS alle Kommentare (RSS-Feed)" /></a></p>
+</div>
+
+<div class="bHead">Seite durchsuchen</div>
+<div class="sideBText">
+  <form method="GET" action="/">
+     <input name="s" value="" />
+  </form>
+</div>
+
+<div class="bHead">Community</div>
+<div class="sideBText">
+  <p><a href="http://www.frappr.com/boinccast" target="_blank"><img class="centered" src="/userdata/gif/frappr.gif" border="0" alt="Und wo kommst Du her?" title="Und wo kommst du her?"></a></p>
+  <p><a href="http://www.podhost.de" target="_blank"><img class="centered" src="/userdata/gif/podhost.png" border="0" alt="Powered by Podhost.de" title="Powered by Podhost.de"></a></p>
+</div>
+
+<div class="bHead">Neue Beitr&auml;ge</div>
+<div class="sideAPostings">
+<ul>
+<li><a href="http://boinccast.podspot.de/post/boinccast-36-projekt-yoyohome/" title="Link zum Beitrag">BOINCcast # 36 - Projekt: yoyo@home</a></li>
+
+<li><a href="http://boinccast.podspot.de/post/boinc-workshop08-tag-3/" title="Link zum Beitrag">BOINC Workshop08 - Tag 3</a></li>
+
+<li><a href="http://boinccast.podspot.de/post/boinc-workshop08-tag-2/" title="Link zum Beitrag">BOINC Workshop08 - Tag 2</a></li>
+
+<li><a href="http://boinccast.podspot.de/post/boinc-workshop-08-tag-1/" title="Link zum Beitrag">BOINC Workshop08 - Tag 1</a></li>
+
+<li><a href="http://boinccast.podspot.de/post/boinccast-is-back-info-workshop-2008/" title="Link zum Beitrag">BOINCcast is back - Info Workshop 2008</a></li>
+</ul>
+</div>
+
+
+<div class="bHead">Neue Kommentare</div>
+<div class="sideAPostings">
+<ul>
+        <li><a href="http://boinccast.podspot.de/post/boinccast-3-einsteinhome/#comment598232"
+           title="Link zu diesem Kommentar">Torsten Haussels (BOINCcast #3 - Einstein@home)</a></li><li><a href="http://boinccast.podspot.de/post/boinccast-3-einsteinhome/#comment594267"
+           title="Link zu diesem Kommentar">florian rieger (BOINCcast #3 - Einstein@home)</a></li><li><a href="http://boinccast.podspot.de/post/boinccast-6-lhchome/#comment593240"
+           title="Link zu diesem Kommentar">Anonym (BOINCcast #6 - LHC@home)</a></li><li><a href="http://boinccast.podspot.de/post/boinccast-is-back-info-workshop-2008/#comment582173"
+           title="Link zu diesem Kommentar"> (BOINCcast is back - Info Workshop 2008)</a></li><li><a href="http://boinccast.podspot.de/post/boinccast-33-boinc-als-soziales-netzwerk/#comment579385"
+           title="Link zu diesem Kommentar">Miko (BOINCcast #33 - BOINC als soziales Netzwerk?)</a></li>
+        </ul>
+</div>
+
+
+<div class="bHead">Copyright</div>
+<div class="sideBText impressum">
+<p>
+<!--Creative Commons License-->
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.png" class="centered"/></a><!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <Work rdf:about="">
+            <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/de/" />
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/Sound" />
+        </Work>
+        <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/de/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+<!--Ende Creative Commons License-->
+</p>
+<p>
+<!-- Begin WebReflow Integration V1.2.4 -->
+<script src="http://pcschmiede.pc.funpic.de/webreflow/application_data/configs/vc_include.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+vc_go(null,null,null,null);
+//--></script>
+<noscript><a href="http://www.webreflow.com/de" target="_blank"><img class="alignright" name="WebReflow" border="0" alt="WebReflow - einfach intelligent analysieren" src="http://pcschmiede.pc.funpic.de/webreflow/counter.php?co=2&ja=2&re=&pn=&pu=&wi=&cd=&js=0&al=&it=0"></a></noscript>
+<!-- End WebReflow Integration V1.2.4 -->
+</p>
+</div>
+<div class="bHead">&nbsp;</div>
+</div>
+</div>
+
+<!--Mittlere Spalte mit den Artikeln-->
+<div id="content">
+<div id="text">
+
+<!--Artikel Anfang****************-->
+<div class="headline">
+        <h3><a href="http://boinccast.podspot.de/post/boinccast-36-projekt-yoyohome/" title="Link zum Beitrag">BOINCcast # 36 - Projekt: yoyo@home</a></h3>
+    </div>
+
+    <div class="nifty">
+        <div class="niftyIN">
+            <h4>boinccast || 21.07.09, 17:30:43&nbsp;||
+            <a href="http://boinccast.podspot.de/post/boinccast-36-projekt-yoyohome/#comments"
+                    title="Link to comments">Kommentare (0)</a></h4>
+
+        <div class="cat">
+              <!--<ul>
+              Blog
+              </ul>-->
+            </div>
+
+            <div class="linie">&nbsp;</div>
+            <div class="linie">&nbsp;</div>
+
+            <!--Message****************-->
+            <div class="message">
+                <p>Das Projekt: <a href="http://www.rechenkraft.net/yoyo/">yoyo@home</a><br />Erklärungen: <a href="http://www.rechenkraft.net/wiki/index.php?title=Yoyo%40Home">der Unterprojekte</a>, <a href="http://de.wikipedia.org/wiki/Golomb-Lineal">des Golomb-Lineals</a><br />Der Verein: <a href="http://www.rechenkraft.net/">Rechenkraft.net e.V.</a></p>
+            </div>
+
+            <!--Anfang Links****************-->
+            <!--<div class="links">
+            <dl>
+            
+            </dl>
+            </div>-->
+
+            <!--ANFANG Pods*******************-->
+        <div class="pods">
+
+              <!--Flash Player**************-->
+              <div class="flPlayer">
+                <p class="flash"><object type="application/x-shockwave-flash" data="/userdata/emff.swf?src=http://boinccast.podspot.de/files/boinccast-Folge36-yoyohome.mp3" width="95" height="44">
+<param name="movie" value="/userdata/emff.swf?src=http://boinccast.podspot.de/files/boinccast-Folge36-yoyohome.mp3" />
+</object></p>
+
+              </div>
+
+              <!--Download File************-->
+              <div class="download">
+                <a href="http://boinccast.podspot.de/files/boinccast-Folge36-yoyohome.mp3"
+           title="boinccast-Folge36-yoyohome.mp3">Datei herunterladen</a><br />
+                (6,8 MB | MP3)</div>
+                <span class="noFloat none">&nbsp;</span>
+              </div>
+
+            
+    <!--ENDE PODS********-->
+      </div>
+    </div>
+
+    <div class="headline">
+        <h3><a href="http://boinccast.podspot.de/post/boinc-workshop08-tag-3/" title="Link zum Beitrag">BOINC Workshop08 - Tag 3</a></h3>
+    </div>
+
+    <div class="nifty">
+        <div class="niftyIN">
+            <h4>boinccast || 13.09.08, 14:45:33&nbsp;||
+            <a href="http://boinccast.podspot.de/post/boinc-workshop08-tag-3/#comments"
+                    title="Link to comments">Kommentare (0)</a></h4>
+
+        <div class="cat">
+              <!--<ul>
+              Blog
+              </ul>-->
+            </div>
+
+            <div class="linie">&nbsp;</div>
+            <div class="linie">&nbsp;</div>
+
+            <!--Message****************-->
+            <div class="message">
+                <p>Ich bin wieder erfolgreich in Deutschland angekommen und freue mich schon auf den Workshop im nächsten Jahr (in Barcelona, Spanien). Eine Zusammenfassung folgt in den nächsten Tagen.<br /><br /><a href="http://qcn.stanford.edu/" target="_blank">Quake Catcher Network</a></p>
+            </div>
+
+            <!--Anfang Links****************-->
+            <!--<div class="links">
+            <dl>
+            
+            </dl>
+            </div>-->
+
+            <!--ANFANG Pods*******************-->
+        <div class="pods">
+
+              <!--Flash Player**************-->
+              <div class="flPlayer">
+                <p class="flash"><object type="application/x-shockwave-flash" data="/userdata/emff.swf?src=http://boinccast.podspot.de/files/BOINCcast_080912.mp3" width="95" height="44">
+<param name="movie" value="/userdata/emff.swf?src=http://boinccast.podspot.de/files/BOINCcast_080912.mp3" />
+</object></p>
+
+              </div>
+
+              <!--Download File************-->
+              <div class="download">
+                <a href="http://boinccast.podspot.de/files/BOINCcast_080912.mp3"
+           title="BOINCcast_080912.mp3">Datei herunterladen</a><br />
+                (2,1 MB | MP3)</div>
+                <span class="noFloat none">&nbsp;</span>
+              </div>
+
+            
+    <!--ENDE PODS********-->
+      </div>
+    </div>
+
+    <div class="headline">
+        <h3><a href="http://boinccast.podspot.de/post/boinc-workshop08-tag-2/" title="Link zum Beitrag">BOINC Workshop08 - Tag 2</a></h3>
+    </div>
+
+    <div class="nifty">
+        <div class="niftyIN">
+            <h4>boinccast || 13.09.08, 08:00:00&nbsp;||
+            <a href="http://boinccast.podspot.de/post/boinc-workshop08-tag-2/#comments"
+                    title="Link to comments">Kommentare (0)</a></h4>
+
+        <div class="cat">
+              <!--<ul>
+              Blog
+              </ul>-->
+            </div>
+
+            <div class="linie">&nbsp;</div>
+            <div class="linie">&nbsp;</div>
+
+            <!--Message****************-->
+            <div class="message">
+                <p>Die Zusammenfassung des zweiten Tages.<br /><br /><a href="http://blog.os-tools.net/?p=50&language=en" target="_blank">Blogbeitrag</a> (Englisch)<br /><a href="http://boinc.berkeley.edu/trac/wiki/WorkShop08#agenda" target="_blank">Webcast der Vorträge</a> (Englisch)</p>
+            </div>
+
+            <!--Anfang Links****************-->
+            <!--<div class="links">
+            <dl>
+            
+            </dl>
+            </div>-->
+
+            <!--ANFANG Pods*******************-->
+        <div class="pods">
+
+              <!--Flash Player**************-->
+              <div class="flPlayer">
+                <p class="flash"><object type="application/x-shockwave-flash" data="/userdata/emff.swf?src=http://boinccast.podspot.de/files/BOINCcast_080911.mp3" width="95" height="44">
+<param name="movie" value="/userdata/emff.swf?src=http://boinccast.podspot.de/files/BOINCcast_080911.mp3" />
+</object></p>
+
+              </div>
+
+              <!--Download File************-->
+              <div class="download">
+                <a href="http://boinccast.podspot.de/files/BOINCcast_080911.mp3"
+           title="BOINCcast_080911.mp3">Datei herunterladen</a><br />
+                (3,6 MB | MP3)</div>
+                <span class="noFloat none">&nbsp;</span>
+              </div>
+
+            
+    <!--ENDE PODS********-->
+      </div>
+    </div>
+
+    <div class="headline">
+        <h3><a href="http://boinccast.podspot.de/post/boinc-workshop-08-tag-1/" title="Link zum Beitrag">BOINC Workshop08 - Tag 1</a></h3>
+    </div>
+
+    <div class="nifty">
+        <div class="niftyIN">
+            <h4>boinccast || 12.09.08, 09:25:11&nbsp;||
+            <a href="http://boinccast.podspot.de/post/boinc-workshop-08-tag-1/#comments"
+                    title="Link to comments">Kommentare (0)</a></h4>
+
+        <div class="cat">
+              <!--<ul>
+              Blog
+              </ul>-->
+            </div>
+
+            <div class="linie">&nbsp;</div>
+            <div class="linie">&nbsp;</div>
+
+            <!--Message****************-->
+            <div class="message">
+                <p>Etwas verspätet der Podcast vom ersten Tag des Workshops. Die schlechte Qualität bitte ich zu entschuldigen, mein Mikrofon hat den Flug anscheinend nicht überstanden. Vielleicht ist es aber auch mein Laptop der hier Probleme macht. Bilder und eine Zusammenfassung folgen am Ende des Workshops.</p>
+            </div>
+
+            <!--Anfang Links****************-->
+            <!--<div class="links">
+            <dl>
+            
+            </dl>
+            </div>-->
+
+            <!--ANFANG Pods*******************-->
+        <div class="pods">
+
+              <!--Flash Player**************-->
+              <div class="flPlayer">
+                <p class="flash"><object type="application/x-shockwave-flash" data="/userdata/emff.swf?src=http://boinccast.podspot.de/files/BOINCcast_080910.mp3" width="95" height="44">
+<param name="movie" value="/userdata/emff.swf?src=http://boinccast.podspot.de/files/BOINCcast_080910.mp3" />
+</object></p>
+
+              </div>
+
+              <!--Download File************-->
+              <div class="download">
+                <a href="http://boinccast.podspot.de/files/BOINCcast_080910.mp3"
+           title="BOINCcast_080910.mp3">Datei herunterladen</a><br />
+                (0,6 MB | MP3)</div>
+                <span class="noFloat none">&nbsp;</span>
+              </div>
+
+            
+    <!--ENDE PODS********-->
+      </div>
+    </div>
+
+    <div class="headline">
+        <h3><a href="http://boinccast.podspot.de/post/boinccast-is-back-info-workshop-2008/" title="Link zum Beitrag">BOINCcast is back - Info Workshop 2008</a></h3>
+    </div>
+
+    <div class="nifty">
+        <div class="niftyIN">
+            <h4>boinccast || 09.09.08, 22:10:25&nbsp;||
+            <a href="http://boinccast.podspot.de/post/boinccast-is-back-info-workshop-2008/#comments"
+                    title="Link to comments">Kommentare (1)</a></h4>
+
+        <div class="cat">
+              <!--<ul>
+              Blog
+              </ul>-->
+            </div>
+
+            <div class="linie">&nbsp;</div>
+            <div class="linie">&nbsp;</div>
+
+            <!--Message****************-->
+            <div class="message">
+                <p>Ich bin schon so gut wie auf dem Weg zum diesjährigen BOINC Workshop.</p>
+            </div>
+
+            <!--Anfang Links****************-->
+            <!--<div class="links">
+            <dl>
+            
+            </dl>
+            </div>-->
+
+            <!--ANFANG Pods*******************-->
+        <div class="pods">
+
+              <!--Flash Player**************-->
+              <div class="flPlayer">
+                <p class="flash"><object type="application/x-shockwave-flash" data="/userdata/emff.swf?src=http://boinccast.podspot.de/files/Workshop08-Info.mp3" width="95" height="44">
+<param name="movie" value="/userdata/emff.swf?src=http://boinccast.podspot.de/files/Workshop08-Info.mp3" />
+</object></p>
+
+              </div>
+
+              <!--Download File************-->
+              <div class="download">
+                <a href="http://boinccast.podspot.de/files/Workshop08-Info.mp3"
+           title="Workshop08-Info.mp3">Datei herunterladen</a><br />
+                (0,8 MB | MP3)</div>
+                <span class="noFloat none">&nbsp;</span>
+              </div>
+
+            
+    <!--ENDE PODS********-->
+      </div>
+    </div>
+
+<!--ENDE ERSTER Artikel********-->
+<div id="prevnext">
+<p>
+&nbsp;&nbsp;&nbsp;
+<a href="/?page=2" title="n&auml;chste Seite">&nbsp;N&auml;chste Seite &gt;&gt;&nbsp;</a>
+</p>
+</div>
+</div>
+</div>
+<!--ENDE Mittlere Spalte*********-->
+
+<!--Sidebar A (rechte Seite)-->
+
+<div id="sidebar-a">
+<div id="sideAIn">
+<div class="aHead">&Uuml;ber BOINCcast</div>
+<div class="sideAText">
+Hier versuche ich euch die Distributed Computing Plattform "BOINC" zu erläutern und näher zu bringen. Ich werde euch jeden Samstag in 5 Minuten etwas zu den Themen BOINC, Seti@Home, Einstein@home, usw. erzählen. Das wird aber kein technisches oder wissenschaftliches Kauderwelsch sondern sollte für jedermann leicht verständlich sein.<br /><br />
+<a href="http://boinccast.podspot.de/post/impressum/">Impressum</a><br />
+<a href="http://www.disclaimer.de/disclaimer.htm?farbe=FFFFFF/000000/000000/000000" target="_blank">Haftungsausschluss</a><br />
+<a href="mailto:boinccast@gmx.de">Kontakt zum Autor</a><br />
+<a href="http://www.podster.de/view/1699" target="_blank">Bewertungen bei podster.de</a>
+</div>
+
+<div class="aHead">Links zum Thema</div>
+<div class="sideAText">
+<ul>
+  <li><a href="http://boinc.berkeley.edu" target="_blank">BOINC Webseite</a></li>
+  <li><a href="http://www.boinc.de" target="_blank">BOINC.de</a></li>
+  <li><a href="http://faq.boinc.de" target="_blank">deutsches BOINC-Wiki</a></li>
+  <li><a href="http://pcschmiede.pc.funpic.de/boinc/" target="_blank">Google Earth Placemarks</a></li>
+  <li><a href="http://www.naic.edu/" target="_blank">Arecibo Observatorium</a></li>
+  <li><a href="http://www.br-online.de/alpha/centauri/" target="_blank">Alpha Centauri</a></li>
+  <li><a href="http://www.climateprediction.net/versions/DE/science/cl-intro.php" target="_blank">Klimatologie</a></li>
+  <li><a href="http://www.rechenkraft.net/wiki/index.php?title=Hauptseite" target="_blank">Rechenkraft.net</a></li>
+  <li><a href="http://www.altes-beckhaus.com/wiki/" target="_blank">Crunching Family Wiki</a></li>
+  <li><a href="http://www.altes-beckhaus.com/blog/" target="_blank">Miko's BOINC Blog</a></li>
+</ul></div>
+
+<div class="aHead">BOINC Projekte</div>
+<div class="sideAText">
+<ul>
+  <li><a href="http://setiathome.berkeley.edu/" target="_blank">SETI@home</a></li>
+  <li><a href="http://einstein.phys.uwm.edu/" target="_blank">Einstein@home</a></li>
+  <li><a href="http://qah.uni-muenster.de/" target="_blank">QMC@home</a></li>
+  <li><a href="http://www.ufluids.net/" target="_blank">&#181;Fluids@home</a></li>
+  <li><a href="http://lhcathome.cern.ch/" target="_blank">LHC@home</a></li>
+  <li><a href="http://boinc.bio.wzw.tum.de/boincsimap/" target="_blank">SIMAP</a></li>
+  <li><a href="http://www.climateprediction.net/" target="_blank">CPDN</a></li>
+  <li><a href="http://stardustathome.ssl.berkeley.edu/" target="_blank">Stardust@home</a></li>
+  <li><a href="http://boinc.bakerlab.org/rosetta/" target="_blank">Rosetta@home</a></li>
+  <li><a href="http://spin.fh-bielefeld.de/" target="_blank">Spinhenge@home</a></li>
+  <li><a href="http://www.chess960athome.org/" target="_blank">Chess960@home</a></li>
+  <li><a href="http://www.abcathome.com/" target="_blank">ABC@home</a></li>
+<!--
+<li><a href="/userdata/" target="_blank"></a></li>
+-->
+</ul></div>
+
+<div class="aHead">BOINC Teams</div>
+<div class="sideAText">
+<ul>
+  <li><a href="http://www.ersterkontakt.eu" target="_blank">Erster Kontakt</a></li>
+  <li><a href="http://www.boinc-halle-saale.de" target="_blank">BOINC@Halle/Saale</a></li>
+  <li><a href="http://www.crunching-family.at" target="_blank">Crunching Family</a></li>
+  <li><a href="http://boinc-team.de" target="_blank">BOINC@Heidelberg</a></li>
+  <li><a href="http://www.seti-deutschland.de/" target="_blank">SETI-Deutschland</a></li>
+  <li><a href="http://www.seti-leipzig.de/" target="_blank">SETI-Leipzig</a></li>
+</ul></div>
+<div class="aHead">&nbsp;</div>
+</div>
+</div>
+<!--ENDE Sidebar A (rechte Seite)  -->
+
+<!--FOOTER ******-->
+<div id="footer">&nbsp;</div>
+</div>
+</body>
+</html>

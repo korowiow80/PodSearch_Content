@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>uploaded.to</title>
+	<base href="http://uploaded.to/" />
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="revisit-after" content="1 days" />
+	<meta name="description" content="the easiest way to backup and share your files with everyone." />
+	<meta name="keywords" content="uploaded, ul, uploaded.to, ul.to, upload, download, free, premium, one click hoster, och, sharehoster" />
+	<meta name="author" content="uploaded.to" />
+	<meta name="owner" content="uploaded.to" />
+	<meta name="RATING" content="General">
+	<meta name="language" http-equiv="content-language" content="en" />
+	<meta property="fb:page_id" content="217881528283333" />
+	<link rel="stylesheet" href="img/layout.css?xcache=3219" />
+	<!--[if !IE]><!--><link rel="stylesheet" href="img/noIE.css" /><!--<![endif]-->	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<script type="text/javascript" src="js2/protoculous.js"></script>
+	<script type="text/javascript" src="js2/yahoo-dom-event.js"></script> 
+	<script type="text/javascript" src="js2/element-min.js"></script>
+	<script type="text/javascript" src="js2/uploader-min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/guest.js"></script>		</head>
+
+<body>
+
+<script type="text/javascript">
+	if(parent.frames.length > 0)
+		top.location.href = self.location;
+</script>
+
+<div id="head">
+	<div class="center">
+		<a href="" id="logo"><img src="img/uploaded.png" /></a>
+		<div class="navi">
+						<ul class="user">
+				<li><span id="nlogin" class="link">Login</span></li> &middot;
+				<li><a href="register" id="nregister">Register</a></li>
+			</ul>
+			<ul>
+				<li><a href="affiliate">Affiliate program</a></li> &middot;
+				<li><a href="help">Support</a></li> &middot;
+				<li><a href="news">News</a></li>
+			</ul>
+						<form action="http://uploaded.to" style="display:none;" id="guestvars">
+				<input type="text"		name="id" id="guestid" style="display:none;" value="" />
+				<input type="password"	name="pw" id="guestpw" style="display:none;" value="" />
+			</form>
+									<div id="nupload"></div>
+		</div>
+	</div>
+	
+	<noscript style="position:absolute;top:80px;width:100%;font-weight:bold;" class="cR aC">
+		<span style="margin-left:150px;">You have to enable JavaScript to use uploaded.to!</span>
+	</noscript>
+</div>
+<div class="hshadow"></div>
+
+<div class="bga">
+	<div id="content">
+
+
+
+<div class="center aC">
+	<h1>Page not found<br /><small class="cL">Error: 404</small></h1>
+				<p>Please check the URL for typing errors, respectively <a href="about">contact</a> us in case of a technical failure.</p>
+	<div class="border" style="margin:50px 0 25px"></div></div>
+
+<div id="register" class="center">
+		<div id="prem" class="aC">
+				<h1 class="title"><span class="hide">Uploaded PREMIUM</span></h1>
+		<table class="aL">
+			<tr>
+				<td style="width:50%"><div class="check"></div> <b>Fullspeed</b> at <b>download</b></td>
+				<td><div class="check"></div> <b>Unlimited storability</b> of <b>uploaded files</b></td>
+			</tr>
+			<tr>
+				<th><div class="border left"></div></th>
+				<th><div class="border"></div></th>
+			</tr>
+			<tr>
+				<td><div class="check"></div> <b>Parallel downloads</b> without restrictions</td>
+				<td style="width:50%"><div class="check"></div> <b>Manage</b> your <b>uploaded files at the file manager</b></td>
+			</tr>
+			<tr>
+				<th><div class="border left"></div></th>
+				<th><div class="border"></div></th>
+			</tr>
+			<tr>
+				<td><div class="check"></div> <b>Direct</b>, ad-free <b>downloads without waiting time</b></td>
+				<td><div class="check"></div> &hellip;incl. the <b>complete</b> range of functions plus <b>earning options</b>  of the Free Account model</td>
+			</tr>
+		</table>
+		
+        <style>
+            .purchase { margin:-3px 0 -1px; padding-left:10px; height:26px; line-height:26px; font-size:15px; background:#96b400; background:rgba(150, 180, 0, .7);
+                color:#fff; text-shadow:0 -1px 0px rgba(50, 100, 0, .5); cursor:pointer; border-radius:15px 0 0px 15px; letter-spacing:0;
+                box-shadow:0 0 1px rgba(185,200,0,.8), -1px 0 3px rgba(0,0,0,.2) inset; text-transform:uppsercase; fonts-weight:bold
+            }
+            .purchase:hover { background:#fff; color:#96b400; color:rgba(150, 180, 0, .7); text-shadow:none }
+        </style>
+		<div id="models" class="box">
+			<table>
+				<thead>
+					<tr>
+						<td style="width:170px">Premium duration</td>
+						<td><small>incl.</small> points</td>
+						<td><small>onetime</small> fee</td>
+                        <td style="width:120px">Discount</td>
+                        <td style="width:60px"></td>
+						<td style="width:200px"></td>
+					</tr>
+					<tr>
+						<th colspan="6" class="blind"><div class="border"></div></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="row" title="PRM-M1">
+						<td class="name">
+                            <big style="line-height:26px"><b>1 month</b></big>
+                            <div class="cprod" style="display:none;position:absolute;left:137px;width:105px;height:28px;margin-top:-24px;padding-right:0px;background:url(img/e/couponinfo.png) right top;text-transform:uppercase;font-size:12px;color:#fff;line-height:28px;text-shadow:0 1px 0 #9f9f25;">PRM-D2</div>
+                        </td>
+						<td>4.000</td>
+						<td class="price" title="9.99"><big><b><span class="cR">9.99 &euro;</span></b></big></td>
+						<td></td>
+                        <td></td>
+                        <td><div class="purchase">PURCHASE NOW!</div></td>
+					</tr>
+									<tr>
+						<th colspan="6" class="blind"><div class="border"></div></th>
+					</tr>
+									<tr class="row" title="PRM-M3">
+						<td class="name">
+                            <big style="line-height:26px"><b>3 months</b></big>
+                            <div class="cprod" style="display:none;position:absolute;left:137px;width:105px;height:28px;margin-top:-24px;padding-right:0px;background:url(img/e/couponinfo.png) right top;text-transform:uppercase;font-size:12px;color:#fff;line-height:28px;text-shadow:0 1px 0 #9f9f25;">PRM-D2</div>
+                        </td>
+						<td>5.000</td>
+						<td class="price" title="24.99"><big><b><span>24.99 &euro;</span></b></big></td>
+						<td><big><b>17%</b></big> &nbsp;</td>
+                        <td></td>
+                        <td><div class="purchase">PURCHASE NOW!</div></td>
+					</tr>
+									<tr>
+						<th colspan="6" class="blind"><div class="border"></div></th>
+					</tr>
+									<tr class="row" title="PRM-M6">
+						<td class="name">
+                            <big style="line-height:26px"><b>6 months</b></big>
+                            <div class="cprod" style="display:none;position:absolute;left:137px;width:105px;height:28px;margin-top:-24px;padding-right:0px;background:url(img/e/couponinfo.png) right top;text-transform:uppercase;font-size:12px;color:#fff;line-height:28px;text-shadow:0 1px 0 #9f9f25;">PRM-M1</div>
+                        </td>
+						<td>6.000</td>
+						<td class="price" title="39.99"><big><b><span>39.99 &euro;</span></b></big></td>
+						<td><big><b>33%</b></big> &nbsp;</td>
+                        <td></td>
+                        <td><div class="purchase">PURCHASE NOW!</div></td>
+					</tr>
+									<tr>
+						<th colspan="6" class="blind"><div class="border"></div></th>
+					</tr>
+									<tr class="row" title="PRM-Y1">
+						<td class="name">
+                            <big style="line-height:26px"><b>1 year</b></big>
+                            <div class="cprod" style="display:none;position:absolute;left:137px;width:105px;height:28px;margin-top:-24px;padding-right:0px;background:url(img/e/couponinfo.png) right top;text-transform:uppercase;font-size:12px;color:#fff;line-height:28px;text-shadow:0 1px 0 #9f9f25;">PRM-M3</div>
+                        </td>
+						<td>9.000</td>
+						<td class="price" title="69.99"><big><b><span>69.99 &euro;</span></b></big></td>
+						<td><big><b>42%</b></big> &nbsp;</td>
+                        <td></td>
+                        <td><div class="purchase">PURCHASE NOW!</div></td>
+					</tr>
+									<tr>
+						<th colspan="6" class="blind"><div class="border"></div></th>
+					</tr>
+									<tr class="row" title="PRM-LT">
+						<td class="name">
+                            <big style="line-height:26px"><b>Lifetime</b></big>
+                            <div class="cprod" style="display:none;position:absolute;left:137px;width:105px;height:28px;margin-top:-24px;padding-right:0px;background:url(img/e/couponinfo.png) right top;text-transform:uppercase;font-size:12px;color:#fff;line-height:28px;text-shadow:0 1px 0 #9f9f25;">PRM-M3</div>
+                        </td>
+						<td>&minus;</td>
+						<td class="price" title="249.99"><big><b><span class="cG">249.99 &euro;</span></b></big></td>
+						<td></td>
+                        <td></td>
+                        <td><div class="purchase">PURCHASE NOW!</div></td>
+					</tr>
+								</tbody>
+			</table>
+			<div class="aC" style="display:none;">&raquo; <small  class="a">back to overview</small></div>
+			<div class="border" style="margin:-19px 0 17px"></div>
+			<style type="text/css">
+				.activeOnHover {
+					-moz-transition: all .7s ease-out;
+				}
+				#models .activeOnHover { opacity:.8; color:#393939 }
+				#models:hover .activeOnHover { opacity:1; }
+				#models .pay.rsl a { width:70px; height:23px; margin-right:15px; background-position:0 -201px }
+				.pay a { background:url("../img/e/register.png?cache=123") repeat scroll -65px -41px transparent }
+
+			</style>
+			<div style="position:absolute;left:146px;bottom:194px;background:url(img/e/couponinfo.png) -146px 0;width:30px;height:192px;"></div>
+			<div class="aL" style="position:relative;height:185px">
+				<div id="couponinfo" style="position:absolute;z-index:100;top:0;left:0;background:url(img/e/couponinfo.png) 0 -200px;width:100%;height:235px;">
+					<h2 style="position:absolute;top:12px;font-size:15px;left:245px;line-height:21px">
+						<span class="activeOnHover">You'll not only gift yourself, but also receive a complimentary <br />
+						<span style="padding-left:30px">coupon-code from us for a <span class="marker">further Premium account</span>, </span><br />
+						<span style="padding-left:60px">in order to give your friends a pleasure.</span></span>
+					</h2>
+					<span style="position:absolute;top:104px;left:330px;text-transform:uppercase;text-shadow:1px 0 0 #778f05;font-size:10px;color:#fff">
+						+ + + &nbsp;Coupon codes are valid for 14 days and can be activated by every Free Account user&nbsp; + + +</span>
+					<h1 style="position:absolute;top:145px;font-size:17px;right:42px">
+						<span class="activeOnHover">Including Coupon code: &nbsp; &#x2713;&nbsp;<span style='font-weight:bold'>give away uploaded Premium now!</span></span></h1>
+				</div>
+			</div>
+			<img src="img/e/shadow.png" class="shadow" alt="" />
+		</div>	
+
+		<div id="mPayment" style="display:none;margin:35px 0 50px">
+			<h2 style="font-size:18px;">other payment methods:</h2>
+
+			<div class="box" style="min-width:140px;min-height:60px;width:99%;margin:12px 16px 0 0;padding-left:6px;">
+				<div style="float:left;height:20px;width:6px;"></div>
+				<img src="img/e/shadow.png" class="shadow" style="height:13px;bottom:-13px" />
+			</div>
+		</div>
+
+		<div class="box" style="min-height:60px;width:185px;margin:25px 16px 0 0;padding-left:6px;float:right;z-index:2">
+			<h2 style="float:right;margin:18px 10px 0 0;color:#aaa">&raquo; <a href="coupon">Redeem Coupon</a></h2>
+			<img src="img/e/shadow.png" class="shadow" style="height:13px;bottom:-13px" />
+		</div>
+		
+		<h2 onclick="top.location.href='reseller'" style="cursor:pointer;margin:30px auto 30px;line-height:30px;opacity:.9" onmouseover="$(this).setOpacity(1)" onmouseout="$(this).setOpacity(.8)" class="cD aC">
+			You can also obtain our products from our <b>certified resellers</b>.<br />
+			<small style="font-size:13px">uploaded.to resellers may offer you additional payment methods, discounted rates and a worldwide availability.</small>
+		</h2>			
+	</div>
+		<div id="free" style="margin-top:0px;padding-top:0px;">
+		<h1 class="title"><span class="hide">Uploaded FREE</span></h1>
+		<table>
+			<tr>
+				<td style="width:50%"><div class="check"></div> Earn <b>60% of the sale</b> per advertised Premium account</td>
+				<td><div class="check"></div> Collect <b>points</b> in order to upgrade your account</td>
+			</tr>
+			<tr>
+				<th><div class="border left"></div></th>
+				<th><div class="border"></div></th>
+			</tr>
+            <tr>
+                <td><div class="check"></div> Earn <b>30% of rebills</b> of your advertised Premium accounts</td>
+                <td style="width:50%"><div class="check"></div> <b>Manage</b> your <b>uploaded files at the file manager</b></td>
+            </tr>
+		</table>
+
+		<div id="regfree" class="inputbig">
+			<form method="post" action="io/register/free">
+				<div class="help"><div class="text"></div></div>
+				<input type="text" name="mail" class="plain" />
+				<button type="submit" class="big">register</button>
+			</form>
+			<small>The registration and usage of the uploaded Free account is always complimentary.<br />
+				After entering your eMail addres and receipt of your registration you'll simultaneously receive your personal access data from us.</small>
+		</div>
+	</div></div>
+
+<script type="text/javascript" src="js2/tt.js"></script>
+<script type="text/javascript">
+	new Ajax.Request('js/order.js?caching=123456');
+	new Ajax.Request('js/register2.js?xcache=1346456');
+</script>
+
+<script type="text/javascript">
+		var o404ad = {"active":0,"active404":0,"typ":2,"url":"http://mobinubi.com/","cookietime":1,"attr":"width=1024,height=600,scrollbars=yes"};
+	var country = '';
+	
+	if(o404ad.active404 && o404ad.url) {
+		if(!document.cookie.include('ulDlAd1')) {
+			switch(o404ad.typ){
+				case 1:
+				case 2:
+					createPop(o404ad);
+				break;
+				case 3:
+					if(country == 'de-de' || country == 'de'){
+						var _abdDetectedFnc = function(){ };
+						var _abdNotDetectedFnc = 'uLayer';
+						var _abdParam = o404ad;
+						
+						function uLayer(){
+							new Ajax.Request('js/ulayer.js');
+						}
+						
+						new Ajax.Request('js2/adblock_detector.js');
+					}
+				break;
+				default:
+					alert(o404ad);
+				break;
+			}
+			document.cookie = 'ulDlAd1=seen; expires='+new Date(new Date().getTime() + (o404ad.cookietime*60*60*1000)).toGMTString()+';path=/;';
+		}
+	}
+	
+	function createPop(obj) {
+		document.getElementsByTagName('html')[0].onclick = function(){
+			document.getElementsByTagName('html')[0].onclick=function(){};
+			var win = window.open(obj.url, 'PopUp', obj.attr);
+			if(obj.typ==2) {
+				win.blur();
+				window.setTimeout(function(){window.self.focus();}, 100);
+			}
+			window.onclick = function(){};
+			return true;
+		}
+	}
+</script>
+	</div>
+
+	<div id="foot"><div>
+		<div class="center">
+					<a href="register">Register</a>&middot;
+					<a href="news">News</a> &middot;
+			<a href="affiliate">Affiliate program</a>&middot;
+			<a href="reseller">Reseller</a> &middot;
+			<a href="legal">TOS</a> &middot;
+			<a href="reportabuse">DMCA</a> &middot;
+						<a href="help">Support</a> &middot;
+			<a href="about">About uploaded</a>
+
+			<div class="right aR">
+				<b>Language:</b> <span class="a" id="language">English</span>
+				<a title="Twitter @uploaded_to" href="http://twitter.com/uploaded_to" target="_blank" class="twitter icon"></a>			</div>
+			<div class="footlogo"></div>
+		</div>
+	</div></div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-519277-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!-- 2012-06-07 03:12:25 / 0.00800013542175 --> </body></html>

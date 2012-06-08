@@ -1,0 +1,44 @@
+<!--
+	top.location="http://podbharti.com/?fp=Y2qs68xf13apnYwEJX%2Febb1xIgLS%2BWcsrWAw%2BlJyceG21Gul6wvq5V65T%2FdJsRvydc5DWYVPClXw%2Fp0xN%2FKN%2FQ%3D%3D&prvtof=m53ltUjBrmDNAiaS5%2BSv8qIHj1Ap2XnWsUp%2BChHpkWI%3D&poru=%2FkHeoN108%2FCnkxgx6Xqj5WJEOEOs0ZS%2Bp9%2Bi%2B3gRVcfp6aWjIUg54Cxs5mRnIqsCpE0C%2FfIwweaNqY6CJMi3kg%3D%3D&cifr=1&feed=rss2";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://podbharti.com/?fp=Y2qs68xf13apnYwEJX%2Febb1xIgLS%2BWcsrWAw%2BlJyceG21Gul6wvq5V65T%2FdJsRvydc5DWYVPClXw%2Fp0xN%2FKN%2FQ%3D%3D&prvtof=qeSotTj4cn9IcaY5TUIeHFlYUMLZIO71W%2BPD%2BiQ2B%2FM%3D&poru=h5gD%2FftlGEYdVZe7hpSU84xIVXIPK6WOf7wICvi7eB6C%2BZYm1yfYU3vcH%2FBRIe2NtwhQP5P7nifZp45EzZt0cw%3D%3D&cifr=1&feed=rss2";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://podbharti.com/?fp=Y2qs68xf13apnYwEJX%2Febb1xIgLS%2BWcsrWAw%2BlJyceG21Gul6wvq5V65T%2FdJsRvydc5DWYVPClXw%2Fp0xN%2FKN%2FQ%3D%3D&prvtof=5yNN2YQn6QOJk4TpOmxjJ6pBYxH89xpyNSb7ZPjZOWo%3D&poru=cTGsMobHic%2BPkF0PR%2BtoDvYIHuqxaZB4yC65rOnZAj1H9%2F6LhbsrCLGpsXZR1hYNeMy%2Fz9Qb94fZV3pO%2F2AQTA%3D%3D&feed=rss2">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://podbharti.com/?fp=Y2qs68xf13apnYwEJX%2Febb1xIgLS%2BWcsrWAw%2BlJyceG21Gul6wvq5V65T%2FdJsRvydc5DWYVPClXw%2Fp0xN%2FKN%2FQ%3D%3D&prvtof=YfYaBgMqDzerSRlhC8KfnduieTw%2FHlGDuBlpanmfwB4%3D&poru=%2B2%2BNRYZq96zkz8HhRS1cWmanilSMu%2B44dJGqpu6SIJeeQ7vWl9ucSBW8ULWElqKbVtG355W1s%2FI2LIOU3ViKXg%3D%3D&feed=rss2">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->

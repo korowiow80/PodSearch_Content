@@ -1,0 +1,17 @@
+<blockquote><b>SQL/DB Error --</b> [<font color="000077"><ol><b>Error establishing a database connection!</b><li>Are you sure you have the correct user/password?<li>Are you sure that you have typed the correct hostname?<li>Are you sure that the database server is running?</ol></font>]</blockquote><blockquote><b>SQL/DB Error --</b> [<font color="000077"><ol><b>Error selecting database <u>bollywoo_chaska_beta</u>!</b><li>Are you sure it exists?<li>Are you sure there is a valid database connection?</ol></font>]</blockquote><br />
+<b>Warning</b>:  mysql_query(): supplied argument is not a valid MySQL-Link resource in <b>/home/bollywoo/public_html/classes/mysql.class.php</b> on line <b>55</b><br />
+<blockquote><b>SQL/DB Error --</b> [<font color="000077">Access denied for user 'bollywoo_beta'@'localhost' (using password: YES)</font>]</blockquote><br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /home/bollywoo/public_html/classes/mysql.class.php:39) in <b>/home/bollywoo/public_html/external.php</b> on line <b>68</b><br />
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="0.91">
+<channel>
+<title>News feed</title>
+<link>http://www.bollywoodchaska.com/external.php</link>
+<description>Bollywood Chaska News RSS</description>
+<language>en-us</language><pubDate>Thu, 07 Jun 2012 07:08:05 +0530</pubDate><image>
+<title>News feed</title>
+<url>http://www.bollywoodchaska.com//images/logo.gif</url>
+<link>http://www.bollywoodchaska.com/external.php</link>
+</image>
+</channel>
+</rss>

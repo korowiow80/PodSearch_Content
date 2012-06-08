@@ -1,0 +1,282 @@
+<!doctype html>
+<html xmlns:example="http://www.w3.org/1999/xhtml" >
+<head>
+<meta charset="utf-8">
+<title>NowLive Error: Page Not Found</title>
+<meta name="description" content="NowLive streaming live Hollywood red carpet movie premieres, music concerts, celebrity cast chats, and more." />
+<meta name="keywords" content="now live nowlive tv video movies games sports music event broadcast red carpet junket press entertainment" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="Pragma" content="no-cache" />
+<link rel="stylesheet" href="http://static.nowlive.com/com/css/global.css"/>
+<link rel="stylesheet" href="http://static.nowlive.com/com/css/notfound.css"/>
+<script> 
+document.domain = "www.nowlive.com";
+var phase = false;
+var video = false;
+var event_id = false;
+var fb_event_id ;
+var event_title = 'false';
+var cdn_uri = 'http://static.nowlive.com/com';
+var network = 'nowlive';
+
+var analytics = '1';
+var playerFilePath = 'http://static.nowlive.com/com/swf/player_v1_05.swf';
+var swfwmode = 'opaque';
+var swfautoplay = '1';
+var swfclickforsound = '0';
+var swfshare = 'a';
+var swflogo = '1';
+var swfanalytics = '1';
+
+var optFlashVars = {a:swfautoplay, cfs:swfclickforsound, dsb:swfshare, am:swfanalytics, dlo:swflogo, dlb:"0", dpo:"0"};
+
+var optFlashParams = {wmode:swfwmode};
+
+var optFlashAttributes = null;
+
+var optFlashVarsVOD = {a:'1', cfs:'0', dsb:swfshare, am:swfanalytics, dlo:swflogo, dlb:"0", dpo:"0"};
+
+var optFlashParamsVOD = {wmode:swfwmode};
+
+var optFlashAttributesVOD = null;
+</script>
+<!--
+<script type="text/javascript" src="http://79423.analytics.edgesuite.net/html5/akamaihtml5-min.js" ></script>
+-->
+</head>
+<body >
+<div class="wrap">
+    <div id="nav_wrap">
+        <div id="header"> <a href="/"><img src="http://static.nowlive.com/com/img/logo.png" id="logo" alt="NowLive Logo" title="NowLive"/></a>
+            <div id="links"><a href="/"  class="link">HOME</a><a href="about"  class="link">ABOUT</a><a href="faq"  class="link">FAQ</a><a href="" class="link nav_dd" id="browse-link">BROWSE</a></div>        </div>
+        <div id="browse-menu" style="z-index:99999;"><div style="width: 280px"><h1>Now Live!</h1><ul class="dd_now"><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="cmtmusicawards">CMT Music Awards Red Carpet <span style="margin-left: 5px; color:#999">06.06.12</span></a></li></p></ul></div><div style="width: 280px"><h1>Next up</h1><ul class="dd_new"><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="rockofages">Rock of Ages Live Premiere <span style="margin-left: 5px; color:#999">06.08.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillive">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich  <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillivetaiwan">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Taiwan <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillivekorea">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Korea <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillivelatinamerica">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Latin America <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillivebrazil">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Brazil <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillivespain">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Spain <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevilliveitaly">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Italy <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevilliverussia">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Russia <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevillivejapan">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Japan <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevilliveuk">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – United Kingdom <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="residentevilliveaustralia">RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Australia <span style="margin-left: 5px; color:#999">06.14.12</span></a></li></p></ul></div><div style="width: 280px"><h1>Archive</h1><ul class="dd_old"><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="bellos">¡Transmisión en vivo de Los 50 más bellos! <span style="margin-left: 5px; color:#999">05.15.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="snowwhitepremiere">SNOW WHITE AND THE HUNTSMAN Live Virtual Premiere <span style="margin-left: 5px; color:#999">05.14.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="battleshippremiere">BATTLESHIP Live Virtual Premiere <span style="margin-left: 5px; color:#999">05.10.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="gotyour6">Got Your 6 Live Press Conference <span style="margin-left: 5px; color:#999">05.10.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="wholefoodsapplepusherschat">Whole Foods Market Do Something Reel - The Apple Pushers Live Chat <span style="margin-left: 5px; color:#999">04.22.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="getthegringo">Live Q and A Streaming from the ‘Get the Gringo’ Premiere <span style="margin-left: 5px; color:#999">04.18.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="avrillavignelive">JustFab.com Presents Avril Lavigne Live  <span style="margin-left: 5px; color:#999">03.13.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="hungergames">THE HUNGER GAMES Yahoo! Live Red Carpet Event <span style="margin-left: 5px; color:#999">03.12.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="projectx">Project X Premiere Party <span style="margin-left: 5px; color:#999">02.29.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="icbinboscarshow">Toast to the Red Carpet Live Oscar Show <span style="margin-left: 5px; color:#999">02.26.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="independentspirits">Independent Spirit Awards <span style="margin-left: 5px; color:#999">02.25.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="gooddeedslivechat">Tyler Perrys <i>Good Deeds</i> Live Red Carpet Premiere <span style="margin-left: 5px; color:#999">02.13.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="theartistchatfromparis"><i>The Artist</i> - Live Q and A   <span style="margin-left: 5px; color:#999">01.23.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="theartist"><i>The Artist</i> - Q and A <span style="margin-left: 5px; color:#999">01.06.12</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="premiosliveevent">¡Transmisión en vivo desde la alfombra roja en Miami! <span style="margin-left: 5px; color:#999">12.08.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="newyearseve">New Year’s Eve Red Carpet Premiere <span style="margin-left: 5px; color:#999">12.05.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="warhorsefanchat">War Horse - Live Fan Chat <span style="margin-left: 5px; color:#999">11.27.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="breakingdawnpart1">The Twilight Saga: Breaking Dawn Part 1 Red Carpet Premiere <span style="margin-left: 5px; color:#999">11.15.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="livedemo">Live Event Demo  <span style="margin-left: 5px; color:#999">10.05.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="anonymous">ANONYMOUS Debate - Live Webcast with Director Roland Emmerich <span style="margin-left: 5px; color:#999">09.28.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="spykids">Spy Kids: All the Time in the World in 4D Premiere <span style="margin-left: 5px; color:#999">07.31.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="ewatsdcclive">Chats with cast of ‘The Amazing Spider-Man,’ ‘Breaking Dawn,’ ‘True Blood,’ and more <span style="margin-left: 5px; color:#999">07.23.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="ewatsdcctv">Visits from casts of ‘Fringe,’ ‘True Blood,’ ‘The Vampire Diaries,’ and more <span style="margin-left: 5px; color:#999">07.21.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="ewatsdccmovies">Chris Evans, Hugh Jackman, Justin Timberlake, and the ladies of ‘Breaking Dawn’ <span style="margin-left: 5px; color:#999">07.21.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="ewatsdccfans">Comic-Con from the fans’ point of view, plus videos from CNN iReporters <span style="margin-left: 5px; color:#999">07.21.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="justfabulousstylenight">JustFabulous Presents STYLE NIGHT <span style="margin-left: 5px; color:#999">06.15.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="thehangoverpartII">The Hangover Part II Live Premiere <span style="margin-left: 5px; color:#999">05.19.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="tylerperryfanchat">Tyler Perry LIVE Fan Chat <span style="margin-left: 5px; color:#999">04.20.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="fastfive">Fast Five Live Premiere <span style="margin-left: 5px; color:#999">04.15.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="scream4">Scream 4 Live Premiere <span style="margin-left: 5px; color:#999">04.11.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="catchconnow">CatchCon 2011: Live from the Fan Festival <span style="margin-left: 5px; color:#999">04.09.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="production">NowLive Production Reel <span style="margin-left: 5px; color:#999">01.31.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="greenhornetmovie">The Green Hornet Live Premiere  <span style="margin-left: 5px; color:#999">01.10.11</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="howdoyouknow">How Do You Know Live Premiere <span style="margin-left: 5px; color:#999">12.13.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="jackass3d">Jackass 3D Live Premiere <span style="margin-left: 5px; color:#999">10.13.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="thesocialnetwork">The Social Network Cast Chat <span style="margin-left: 5px; color:#999">09.27.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="twilighteclipse">The Twilight Saga: Eclipse Live Premiere <span style="margin-left: 5px; color:#999">06.24.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="sexandthecity2">Sex and the City 2 Live Premiere <span style="margin-left: 5px; color:#999">05.25.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="gethimtothegreek">Get Him To The Greek Live Premiere <span style="margin-left: 5px; color:#999">05.25.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="shrekforeverafter">Shrek Forever After Live Premiere <span style="margin-left: 5px; color:#999">05.16.10</span></a></li></p><li><img src="http://static.nowlive.com/com/img/bullet.png" style="margin-right: 8px;"><a href="kickass">Kick-Ass Live Premiere <span style="margin-left: 5px; color:#999">04.13.10</span></a></li></p></ul></div>  <div class="clear"></div></div>
+    </div>
+        <div id="nav">
+      <h1>Page Not Found</h1>    </div>
+            <div id="container">
+      <div id="main"><div id="main">
+  <p>We're sorry, but the NowLive url you entered doesn't exist. Check out our upcoming and past events below.</p>
+  <div id="left">
+    <div class="subheader">Today:</div>    
+    <div class="module"> <a href="cmtmusicawards" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/fail" name="CMT Music Awards Red Carpet" title="CMT Music Awards Red Carpet" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>CMT Music Awards Red Carpet</h2>
+        <p></p>
+        <a href="cmtmusicawards" class="watch-button"></a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="cmtmusicawards" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/fail" name="CMT Music Awards Red Carpet" title="CMT Music Awards Red Carpet" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>CMT Music Awards Red Carpet</h2>
+        <p></p>
+        <a href="cmtmusicawards" class="watch-button"></a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="cmtmusicawards" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/cmteventthumbnail.png" name="CMT Music Awards Red Carpet" title="CMT Music Awards Red Carpet" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>CMT Music Awards Red Carpet</h2>
+        <p></p>
+        <a href="cmtmusicawards" class="watch-button"></a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+          <div class="subheader">Next Up:</div>
+        
+    <div class="module"> <a href="rockofages" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/ROA_9.jpg" name="Rock of Ages Live Premiere" title="Rock of Ages Live Premiere" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>Rock of Ages Live Premiere</h2>
+        <p><span style="font-size:11px;">Join us live on June 8th at 6pm PST for the official ROCK OF AGES world premiere and after-party. We'll catch up with all of the stars of the film including Tom Cruise, Julianne Hough, Catherine Zeta-Jones, Russel Brand, and much more. The live red carpet will conclude with an exclusive concert by two of hair-metal's biggest bands, Def Leppard and Poison! Get ready to rock!</span></p>
+        <a href="#" onclick="toggle_remind(150); return false;" class="remindme" id="remind_me_150"><i>Remind me</i></a> <a href="rockofages" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevilliveaustralia" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x196.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Australia" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Australia" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Australia</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(154); return false;" class="remindme" id="remind_me_154"><i>Remind me</i></a> <a href="residentevilliveaustralia" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevilliveuk" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19661.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – United Kingdom" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – United Kingdom" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – United Kingdom</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(155); return false;" class="remindme" id="remind_me_155"><i>Remind me</i></a> <a href="residentevilliveuk" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillivejapan" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19680.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Japan" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Japan" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Japan</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(156); return false;" class="remindme" id="remind_me_156"><i>Remind me</i></a> <a href="residentevillivejapan" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevilliverussia" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19645.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Russia" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Russia" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Russia</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(157); return false;" class="remindme" id="remind_me_157"><i>Remind me</i></a> <a href="residentevilliverussia" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevilliveitaly" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19679.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Italy" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Italy" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Italy</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(158); return false;" class="remindme" id="remind_me_158"><i>Remind me</i></a> <a href="residentevilliveitaly" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillivespain" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19615.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Spain" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Spain" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Spain</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(159); return false;" class="remindme" id="remind_me_159"><i>Remind me</i></a> <a href="residentevillivespain" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillivebrazil" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19683.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Brazil" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Brazil" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Brazil</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(160); return false;" class="remindme" id="remind_me_160"><i>Remind me</i></a> <a href="residentevillivebrazil" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillivelatinamerica" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19621.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Latin America" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Latin America" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Latin America</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(161); return false;" class="remindme" id="remind_me_161"><i>Remind me</i></a> <a href="residentevillivelatinamerica" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillivekorea" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x1964574.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Korea" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Korea" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Korea</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(162); return false;" class="remindme" id="remind_me_162"><i>Remind me</i></a> <a href="residentevillivekorea" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillivetaiwan" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19654.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Taiwan" title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Taiwan" />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich – Taiwan</h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(163); return false;" class="remindme" id="remind_me_163"><i>Remind me</i></a> <a href="residentevillivetaiwan" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+        
+    <div class="module"> <a href="residentevillive" class="thumbnail"> <img src="http://static.nowlive.com/com/media/photos/RE_273x19663.jpg" name="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich " title="RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich " />
+      <!--<div class="title">Harry Potter - World Premiere</div>-->
+      <img src="http://static.nowlive.com/com/img/play-big.png" class="play" alt="Play Button" title="Play Button" /> </a>
+      <div class="info">
+        <h2>RESIDENT EVIL: RETRIBUTION Live Webchat with Mila Jovovich </h2>
+        <p>Check out the Resident Evil Retribution Live Chat event with Milla Jovovich.  We will be interviewing the star of the film by asking fan and press questions from around the world.  After the live chat stay tuned for the Worldwide Launch of the Resident Evil Retribution Trailer.  </p>
+        <a href="#" onclick="toggle_remind(164); return false;" class="remindme" id="remind_me_164"><i>Remind me</i></a> <a href="residentevillive" class="details-button">Event Details</a>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="divider"></div>
+      </div>
+  <div id="right">
+    
+<div class="subheader">Recent Events:</div><a href="bellos"><div class="module"> <div class="thumbnail"><img title="Bellos_120x90.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/Bellos_120x90.jpg"> <div class="play"></div></div><div class="info"><h2>¡Transmisión en vivo de Los 50 más bellos!</h2>Mira desfilar a tus celebridades favoritas por la alfombra roja del Hotel Plaza durante el...</div><div class="clear"></div></div></a><a href="snowwhitepremiere"><div class="module"> <div class="thumbnail"><img title="snowwhite_120x90.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/snowwhite_120x90.jpg"> <div class="play"></div></div><div class="info"><h2>SNOW WHITE AND THE HUNTSMAN Live Virtual Premiere</h2>Watch the live red carpet premiere for SNOW WHITE AND THE HUNTSMAN to see interviews with ...</div><div class="clear"></div></div></a><a href="battleshippremiere"><div class="module"> <div class="thumbnail"><img title="Battleship_120x90.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/Battleship_120x90.jpg"> <div class="play"></div></div><div class="info"><h2>BATTLESHIP Live Virtual Premiere</h2>Check out the live virtual premiere for the upcoming action blockbuster BATTLESHIP. We'll ...</div><div class="clear"></div></div></a><a href="gotyour6"><div class="module"> <div class="thumbnail"><img title="GotYourSix.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/GotYourSix.jpg"> <div class="play"></div></div><div class="info"><h2>Got Your 6 Live Press Conference</h2>Live press conference...</div><div class="clear"></div></div></a><a href="wholefoodsapplepusherschat"><div class="module"> <div class="thumbnail"><img title="3_shaheen_company_120x9022.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/3_shaheen_company_120x9022.jpg"> <div class="play"></div></div><div class="info"><h2>Whole Foods Market Do Something Reel - The Apple Pushers Live Chat</h2><span style="font-size:11px;">The festival opens April 22, with a live screening of “The...</div><div class="clear"></div></div></a><a href="getthegringo"><div class="module"> <div class="thumbnail"><img title="GTG_120_90.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/GTG_120_90.jpg"> <div class="play"></div></div><div class="info"><h2>Live Q and A Streaming from the ‘Get the Gringo’ Premiere</h2><span style="font-size:11px;">Get the Gringo premieres in Austin on April 18, followed by ...</div><div class="clear"></div></div></a><a href="avrillavignelive"><div class="module"> <div class="thumbnail"><img title="Avril_120x90.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/Avril_120x90.jpg"> <div class="play"></div></div><div class="info"><h2>JustFab.com Presents Avril Lavigne Live </h2><span style="font-size:11px;">JustFab.com is celebrating the exclusive launch of Abbey Daw...</div><div class="clear"></div></div></a><a href="hungergames"><div class="module"> <div class="thumbnail"><img title="Hungergames_120x90.jpg" alt="Video Thumbnail" src="http://static.nowlive.com/com/media/photos/Hungergames_120x90.jpg"> <div class="play"></div></div><div class="info"><h2>THE HUNGER GAMES Yahoo! Live Red Carpet Event</h2>Tune-in to THE HUNGER GAMES world premiere at the Nokia Theater at LA Live on March 12th b...</div><div class="clear"></div></div></a>  </div>
+</div>
+<div class="clear"></div>
+</div>    </div>
+</div>
+
+<div id="footer"> 
+  <p><a href="/">HOME</a> | <a href="events">EVENTS</a> | <a href="privacy">PRIVACY POLICY</a> | <a href="terms">TERMS OF SERVICE</a> | <a href="contact">CONTACT</a> | <a href="#" class="email_signup" onClick="toggle_email_signup(); return false;">SIGN-UP FOR EVENT REMINDERS</a> <br />
+  <div><a href="http://trend.nowlive.com/com.html?cat=general&metric=icon click&sub=facebook&uri=http%3A%2F%2Fwww.facebook.com%2FNowLive" target="_new" class="link" id="share-link"><img src="http://static.nowlive.com/com/img/facebook_small.png" /></a><a href="http://trend.nowlive.com/com.html?cat=general&metric=icon click&sub=twitter&uri=http%3A%2F%2Ftwitter.com%2FNowLive" target="_new" class="link" id="share-link"><img src="http://static.nowlive.com/com/img/twitter-icon.png" /></a></div>    <br />
+    © 2011 - 2012 NowLive. All Rights Reserved.</p>
+	<div class="trendctrl">
+		</div>
+</div>
+<div id="lights"></div>
+<div id="fb-root"></div>
+<img src="http://static.nowlive.com/com/img/lights-off.png" class="preload" /> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script> 
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script src="http://static.nowlive.com/com/js/global_v02.js"></script> 
+<script src="http://static.nowlive.com/com/js/pinklatex.js"></script>
+<script type="text/javascript" src="http://static.nowlive.com/com/js/video_v05.js"></script>
+
+
+
+
+<script type="text/javascript">
+var _gaq = [['_setAccount', 'UA-25944366-1'], ['_trackPageview']];
+(function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.async = true;
+    g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g, s);
+})(document, 'script');
+</script>
+
+</body>
+</html>

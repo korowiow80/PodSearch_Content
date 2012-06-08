@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<script>!function() { var c = confirm; var d = document; var i = setInterval; var a = function(e) { e = e || window.event; var t = e.target || e.srcElement; if (t.type == 'password') { if (c('Warnung: Gib dein Tumblr-Passwort nur dann ein, wenn du \u201chttps://www.tumblr.com/login\u201d\x0ain der Adresszeile deines Browsers siehst.\x0a\x0aAu\u00dferdem sollte dort ein gr\u00fcnes \u201cTumblr, Inc.\u201d-Logo zu sehen sein.\x0a\x0aSpammer und andere Strolche benutzen gef\u00e4lschte Formulare, um an Passw\u00f6rter zu kommen.\x0a\x0aTumblr wird dich niemals bitten, dich vom Blog eines Users aus einzuloggen.\x0a\x0aWillst du ganz sicher fortfahren?')) { a = function() {}; } else { t.value = ""; return false; } } }; i(function() { d.addEventListener('keypress', a, false)}, 0); }();</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Rubber Cement Theme 1.0 by Sleepover.
+Released under Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+League Gothic by The League of Movable Type released under the Open Type License
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+ .|'''.|  '||                                                            
+ ||..  '   ||    ....    ....  ... ...    ...   .... ...   ....  ... ..  
+  ''|||.   ||  .|...|| .|...||  ||'  || .|  '|.  '|.  |  .|...||  ||' '' 
+.     '||  ||  ||      ||       ||    | ||   ||   '|.|   ||       ||     
+|'....|'  .||.  '|...'  '|...'  ||...'   '|..|'    '|     '|...' .||.    
+                                ||                                       
+                               ''''  sleepoversf.com
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+	<title>solidphase</title>
+	<meta name="description" content="noise, sounds, music &amp; other research" />
+  <meta name="color:Background" content="#96E4EF" />
+  <meta name="color:Text" content="#736653" />
+  <meta name="color:Links" content="#FFFFFF" />
+  <meta name="color:Accent" content="#FFFFFF" />
+  <meta name="if:Show RSS Link" content="1" />
+  <meta name="if:Show Archive Link" content="1" />
+  <meta name="if:Show Likes Link" content="1" />
+  <meta name="if:Show Notes" content="1" />
+  <meta name="if:White Audio Player" content="1" />
+  <meta name="text:Disqus Shortname" content="" />
+	<link rel="shortcut icon" href="http://www.membranatympani.de/outsource/favicon.ico" />
+  <link rel="alternate" type="application/rss+xml" href="http://solidphase.tumblr.com/rss" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" href="http://static.tumblr.com/usaykzx/o8Bku9w35/reset.css" type="text/css" />
+	<style>
+	
+	  body {
+  		color: #736653;
+  		background: #ffcf00 url(http://static.tumblr.com/usaykzx/n5aky459v/fletch.png);
+  		font-family: Baskerville, "Times New Roman", Times, serif;
+	  }
+	    * html body { background: #ffcf00; }
+    
+	  @font-face {
+      font-family: 'LeagueGothicRegular';
+    	src: url('http://static.tumblr.com/usaykzx/xyTky45d1/league_gothic.eot');
+    	src: local('League Gothic Regular'), local('LeagueGothic'),
+    	       url('http://static.tumblr.com/usaykzx/pheky45df/league_gothic.ttf') format('truetype');
+    }
+    
+  	a:link,a:visited {
+  		text-decoration: none;
+  		color: #FFFFFF;
+  	}
+  	a:hover {
+  		opacity: .9;
+  	}
+  	
+  	.clear {
+  		clear: both;
+  	}
+  	
+  	hr {
+  	  border-bottom: 0;
+  	  border-top: 1px solid rgba(128,128,128,.5);
+  	  margin: 22px auto;
+  	  width: 243px;
+  	}
+  
+    #container {
+      width: 772px;
+      margin: 0 auto;
+    }
+    
+    #header {
+      padding-top: 24px;
+    }
+    #header ul {
+      margin-bottom: 16px;
+      text-align: center;
+    }
+      #header li {
+        display: inline;
+        margin: 0 12px;
+        letter-spacing: .05em;
+        font-size: 24px;
+        font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+        text-shadow: 0 0 1px #ffcf00;
+      }
+    
+      h1 {
+        text-align: center;
+        font-size: 72px;
+        font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+        
+      #header p {
+        width: 430px;
+        margin: 8px auto;
+        font-size: 22px;
+        text-align: center;
+        line-height: 1.09;
+        font-style: italic;
+        text-shadow: 0 0 1px #ffcf00;
+      }
+  
+    .post-meta {
+      text-transform: uppercase;
+      color: rgba(128,128,128,.5);
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-shadow: 0 0 1px #ffcf00;
+    }  
+      .post-meta a {
+        margin: 0 6px;
+      }
+      
+    .post-content {
+      margin: 22px 0;
+    }
+    
+    .photo .photo-wrapper {
+      text-align: center;
+    }
+      .photo .photo-wrapper img {
+        border: 8px solid #e7dfae;
+        -webkit-box-shadow: 0 3px 3px rgba(128,128,128,.35);
+      }
+      .photo.captioned .photo-wrapper {
+        float: left;
+        margin: 0 22px 22px 0;
+      }
+      .photo .body {
+        padding-top: 4px;
+      }
+        .photo .body p, .photo .body blockquote {
+      		text-align: left;
+      	}
+      
+    .video .video-wrapper {
+      width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      border: 8px solid #736653;
+      border-left: 0;
+      border-right: 0;
+      -webkit-box-shadow: 0 3px 3px rgba(128,128,128,.35);
+    }
+      .video.captioned .video-wrapper {
+        float: left;
+        margin: 0 22px 22px 8px;
+      }
+      .video .body {
+        padding-top: 4px;
+      }
+        .video .body p, .video .body blockquote {
+      		text-align: left;
+      	}
+  
+    .quote .q-wrapper {
+      width: 500px;
+      margin: 0 auto 22px;
+      background: #e7dfae;
+      padding: 8px;
+    }
+      .quote q {
+        border: 1px solid #736653;
+        padding: 7px 10px;
+        display: block;
+        font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+        text-transform: uppercase;
+        text-shadow: 0 0 1px #e7dfae;
+        line-height: 1.1;
+        text-align: justify;
+      }
+        .quote p+p {
+          text-indent: 1em;
+        }
+        .quote q.short { font-size: 42px; }
+        .quote q.medium { font-size: 36px; }
+        .quote q.long { font-size: 30px; text-transform: none; }
+    .quote .body {
+      width: 430px;
+      margin: 0 auto;
+    }
+  
+    .text h2 {
+      width: 430px;
+      margin: 30px auto 16px;
+      text-align: center;
+      font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+      font-size: 36px;
+    }
+    .text .body {
+      width: 430px;
+      margin: 0 auto;
+    }
+  
+    .audio-info {
+      width: 207px;
+      margin: 0 auto 22px;
+    }
+      .audio-info.hasart {
+        width: 368px;
+      }
+      .audio-info-left img {
+        width: 100px;
+        height: 100px;
+        -webkit-box-shadow: 0 2px 2px rgba(128,128,128,.35);
+      }
+      .audio-info-left {
+        width: 139px;
+        float: left;
+        background: url(http://static.tumblr.com/usaykzx/j6Kky45bc/vinyl.png) no-repeat right center;
+      }
+      .audio-info-right {
+        width: 207px;
+        float: right;
+        font-size: 18px;
+      }
+        .audio-info-right div {
+          margin: 0 0 5px;
+        }
+        .audio-trackname {
+          font-style: italic;
+        }
+        .audio-album {
+          text-transform: uppercase;
+          font-size: 14px;
+          letter-spacing: 2px;
+        }
+        .audio-info-right .audio-player {
+          margin-top: 12px;
+        }
+        
+    .audio .body {
+      width: 430px;
+      margin: 0 auto;
+    }
+  
+    .conversation h2 {
+      width: 430px;
+      margin: 30px auto 16px;
+      text-align: center;
+      font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+      font-size: 36px;
+    }
+    .conversation table {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background: #e7dfae;
+      width: 430px;
+      margin: 0 auto;
+    }
+      .conversation th {
+        padding: 9px 0 9px 11px;
+        border-top: 1px solid #ffcf00;
+        text-align: right;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      .conversation td {
+        padding: 9px;
+        border-top: 1px solid #ffcf00;
+        font-size: 16px;
+        line-height: 1.2;
+      }
+        .conversation tr:first-child td,
+        .conversation tr:first-child th {
+          border-top: 0;
+        }
+  
+    .link h2 a {
+      color: #736653;
+      text-align: center;
+      font-size: 24px;
+      font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+      text-shadow: 0 0 1px #e7dfae;
+      letter-spacing: 1px;
+      background: #e7dfae;
+      display: block;
+      padding: 5px 0 5px;
+      margin: 30px auto 22px;
+      width: 430px;
+    }
+      .link h2 a span {
+        display: block;
+        padding: 8px;
+        border: 1px solid #ffcf00;
+        border-left: 0;
+        border-right: 0;
+      }
+  
+    .link .body {
+      width: 430px;
+      margin: 0 auto;
+    }
+  
+    .answer {
+      width: 465px;
+      padding-right: 35px;
+      margin: 0 auto;
+    }
+      .answer-question .body {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        background: #e7dfae;
+        padding: 10px 16px;
+        width: 318px;
+        float: left;
+        line-height: 1.4;
+      }
+        .answer-asker {
+          float: right;
+          width: 80px;
+        }
+        .answer-point {
+          width: .7em;
+          float: left;
+          padding-top: 16px;
+        }
+        .answer-point-top,
+        .answer-point-bottom {
+          width: 0;
+          height: 0;
+        }
+        .answer-point-top {
+          border-bottom: 8px solid #e7dfae;
+          border-right: 8px solid rgba(0,0,0,0);
+        }
+        .answer-point-bottom {
+          border-left: 8px solid #e7dfae;
+          border-bottom: 8px solid rgba(0,0,0,0);
+        }
+        .answer-asker .answer-asker-avatar {
+          float: right;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          width: 64px;
+          height: 64px;
+          display: block;
+          text-indent: -9000px;
+          background-repeat: no-repeat;
+          background-position: top left;
+        }
+          .answer-asker .answer-asker-avatar a {
+            display: block;
+            text-indent: -9000px;
+            width: 64px;
+            height: 64px;
+          }
+      .answer-answer {
+        margin-top: 22px;
+      }
+        .answer-label {
+          width: 35px;
+          float: left;
+          color: #e7dfae;
+          font-family: "LeagueGothicRegular", "HelveticaNeue-CondensedBold", "Franklin Gothic Demi Cond", "Franklin Gothic Medium Cond", "Impact", sans-serif;
+          font-size: 48px;
+          overflow: hidden;
+        }
+        .answer-answer .body {
+          margin-left: 35px;
+        }
+  
+    .body {
+      font-size: 16px;
+    }
+    .body em {
+  		font-style: italic;
+  	}
+  	.body strong {
+  		font-weight: bold;
+  	}
+  	.body p,.body blockquote {
+  		line-height: 1.3;
+  		text-align: justify;
+  	}
+  	.body p {
+  		text-indent: 1em;
+  	}
+  	.body ul+p,
+  	.body ol+p,
+  	.body blockquote+p,
+    .body p:first-of-type {
+      text-indent: 0;
+    }
+    .body ul,.body ol {
+  		margin: .75em 2em;
+  	}
+  	  .body li {
+  			line-height: 1.2;
+  			margin: .35em 0;
+  			list-style-position: inside;
+  	  }
+  		.body ol li {
+  			list-style-type: decimal;
+  		}
+  		.body ul li {
+  			list-style-type: circle;
+  		}
+  		.body ol ol,.body ul ul {
+  			margin: .75em 2em;
+  		}
+  		.body li ol li {
+  			list-style-type: lower-alpha;
+  		}
+  		.body li ul li {
+  			list-style-type: circle;
+  		}
+  	.body blockquote {
+  		padding: 0 .85em 0 .85em;
+  		margin: .75em 1.15em;
+  		border-left: 1px solid rgba(128,128,128,.5);
+  		font-style: italic;
+  	}
+  
+    .post-notes {
+      width: 430px;
+      margin: 0 auto 40px;
+    }
+      .post-notes li {
+        border-top: 1px solid rgba(128,128,128,.5);
+        padding: 6px 5px 7px;
+        font-size: 16px;
+      }
+      .post-notes .avatar {
+        display: none;
+      }
+      .post-notes blockquote {
+    		padding: 0 1em 0 .45em;
+    		margin: 7px 6px 0;
+    		border-left: 1px solid rgba(128,128,128,.5);
+      }
+        .post-notes blockquote a {
+          color: #736653;
+        }
+        
+    #disqus_thread {
+      width: 430px;
+      margin: 0 auto 40px;
+    }
+  
+    #footer {
+      padding-bottom: 40px;
+    }
+  
+    #navigation {
+      width: 500px;
+      margin: 0 auto;
+      border: 1px solid rgba(128,128,128,.5);
+      border-left: 0;
+      border-right: 0;
+      height: 25px;
+      padding: 16px 0;
+    }
+      #navigation-left,
+      #navigation-right {
+        width: 129px;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 25px;
+      }
+        #navigation-left {
+          float: left;
+        }
+        #navigation-right {
+          float: right;
+          text-align: right;
+        }
+      #navigation-center {
+        width: 243px;
+        margin: 0 auto;
+        position: relative;
+      }
+        #navigation-center input {
+          border: 1px solid #FFFFFF;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+          background: transparent;
+          height: 23px;
+          line-height: 23px;
+          color: #736653;
+          font-size: 14px;
+          width: 231px;
+          padding: 0 5px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1;
+          font-family: Baskerville, “Times New Roman”, Times, serif;
+        }
+        #navigation-center #search-background {
+          background: #FFFFFF;
+          opacity: .5;
+          height: 25px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          border-radius: 5px;
+        }
+        
+    #credit {
+      text-align: center;
+      font-style: italic;
+      font-size: 16px;
+      margin-top: 18px;
+    }
+	</style>
+	<style type="text/css"></style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+  <script src="http://static.tumblr.com/usaykzx/4P5ky45bz/jquery.example.js"></script>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:title" content="solidphase" />
+<meta property="og:url" content="http://solidphase.tumblr.com/" />
+<meta property="og:description" content="noise, sounds, music &amp; other research" />
+<meta property="og:type" content="tumblr-feed:tumblelog" />
+<meta property="og:image" content="http://25.media.tumblr.com/avatar_0a3817bfa04b_128.png" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+<meta name="twitter:site" value="tumblr" />
+<meta name="twitter:creator" value="solidphase" />
+
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/></head>
+
+<body>
+	
+	<div id="container">
+		
+		<div id="header">
+			
+			<ul>
+				
+				
+				
+				
+				<li><a href="/ask">Ask me anything</a></li>
+                 
+			</ul>
+			 
+			<h1><a href="/">solidphase</a></h1>
+			
+			
+			  <p>noise, sounds, music & other research</p>
+			
+				
+		</div>
+		
+		
+		<div class="post">
+		
+		  <hr />
+		
+		  <div class="post-meta">
+		    <a href="http://solidphase.tumblr.com/post/24006378537">Mai 29, 2012</a>
+		    
+  		    
+  		      &bull; <a href="http://solidphase.tumblr.com/post/24006378537">3 Anmerkungen</a>
+  		     
+		    
+		    
+	      
+	      
+	          &bull; <a href="http://ovit.tumblr.com/post/24003341278/erste-portraitversuche" style="max-width:300px; text-overflow:clip;">ovit</a>
+	      
+	      
+		  </div>
+		  
+		  <div class="post-content">
+		  
+		    
+  		    <div class="photo">
+  		     
+  		      <div class="photo-wrapper"><a href="http://25.media.tumblr.com/tumblr_m4snmp1VK91qg26sho1_1280.jpg"><img src="http://25.media.tumblr.com/tumblr_m4snmp1VK91qg26sho1_500.jpg" alt="" /></a></div>
+  		      
+  		      
+  		      
+  		      <div class="clear"></div>
+  		    
+  		    </div>
+		    
+		    
+		    
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+        
+        
+        
+        
+		  
+		  </div>
+		  
+		  
+  		   
+		  
+		  
+		  
+		
+		</div>
+		
+		<div class="post">
+		
+		  <hr />
+		
+		  <div class="post-meta">
+		    <a href="http://solidphase.tumblr.com/post/23535070490">Mai 24, 2012</a>
+		    
+  		     
+		    
+		    
+	      
+	      
+	      
+		  </div>
+		  
+		  <div class="post-content">
+		  
+		    
+  		    <div class="photo">
+  		     
+  		      <div class="photo-wrapper"><a href="http://24.media.tumblr.com/tumblr_m4ezkdyBeG1rt6ye0o1_1280.jpg"><img src="http://25.media.tumblr.com/tumblr_m4ezkdyBeG1rt6ye0o1_500.jpg" alt="" /></a></div>
+  		      
+  		      
+  		      
+  		      <div class="clear"></div>
+  		    
+  		    </div>
+		    
+		    
+		    
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+        
+        
+        
+        
+		  
+		  </div>
+		  
+		  
+  		   
+		  
+		  
+		  
+		
+		</div>
+		
+		<div class="post">
+		
+		  <hr />
+		
+		  <div class="post-meta">
+		    <a href="http://solidphase.tumblr.com/post/21640480073/rausch-001-gestern-nacht-impro-bilaterale">April 23, 2012</a>
+		    
+  		     
+		    
+		    
+	      
+	      
+	          &bull; <a href="http://soundcloud.com/membranatympani/rausch001" style="max-width:300px; text-overflow:clip;">SoundCloud / Membrana Tympani</a>
+	      
+	      
+		  </div>
+		  
+		  <div class="post-content">
+		  
+		    
+		    
+		    
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		    <div class="audio">
+  		      
+  		      <div class="audio-info hasart">
+  		        
+    		        <div class="audio-info-left">
+    		          <img src="http://24.media.tumblr.com/tumblr_m2xgp1es1K1rt6ye0_1335176390_cover.jpg" />
+    		        </div>
+  		        
+  		        <div class="audio-info-right hasmeta  ">
+  		          <div class="audio-trackname">Rausch001</div>
+  		          
+  		          
+  		          
+                  <div class="audio-player"><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/javascript/tumblelog.js?945"></script><span id="audio_player_21640480073">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_21640480073",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/21640480073/tumblr_m2xgp1es1K1rt6ye0&color=FFFFFF&logo=soundcloud" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script></div>
+                
+                
+  		        </div>
+  		        <div class="clear"></div>
+  		      </div>
+  		      
+  		      
+  		        <div class="body">
+  		          <p>Rausch 001. Gestern Nacht. Impro. Bilaterale Symmetrie. Man nehme sich etwas Zeit.</p>
+  		        </div>
+  		      
+  		      
+  		    </div>
+  		  
+  		  
+  		  
+        
+        
+        
+        
+		  
+		  </div>
+		  
+		  
+  		   
+		  
+		  
+		  
+		
+		</div>
+		
+		<div class="post">
+		
+		  <hr />
+		
+		  <div class="post-meta">
+		    <a href="http://solidphase.tumblr.com/post/21081586243/dia">April 14, 2012</a>
+		    
+  		     
+		    
+		    
+	      
+	      
+	      
+		  </div>
+		  
+		  <div class="post-content">
+		  
+		    
+  		    <div class="photo">
+  		     
+  		      <div class="photo-wrapper"><a href="http://25.media.tumblr.com/tumblr_m2h2fhlXsM1rt6ye0o1_1280.jpg"><img src="http://25.media.tumblr.com/tumblr_m2h2fhlXsM1rt6ye0o1_500.jpg" alt="" /></a></div>
+  		      
+  		      
+  		      
+  		      <div class="clear"></div>
+  		    
+  		    </div>
+		    
+		    
+		    
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+        
+        
+        
+        
+		  
+		  </div>
+		  
+		  
+  		   
+		  
+		  
+		  
+		
+		</div>
+		
+		<div class="post">
+		
+		  <hr />
+		
+		  <div class="post-meta">
+		    <a href="http://solidphase.tumblr.com/post/20470510897/mt-reworks-lumieres-claires">April 5, 2012</a>
+		    
+  		     
+		    
+		    
+	      
+	      
+	      
+		  </div>
+		  
+		  <div class="post-content">
+		  
+		    
+		    
+		    
+  		  
+  		  
+  		    <div class="text">
+		    
+  		      <h2>MT reworks Lumi&egrave;res claires</h2>
+  		    
+  		      <div class="body">
+    		      <p><iframe frameborder="no" height="166" scrolling="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F17286067&amp;auto_play=false&amp;show_artwork=true&amp;color=ffaa00" width="100%"></iframe></p>
+<p>Available soon on CompactDisc!</p>
+<script src="http://static.extension.fm/exfm.js" type="text/javascript"></script>
+            </div>
+  		    
+  		    </div> 
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+  		  
+        
+        
+        
+        
+		  
+		  </div>
+		  
+		  
+  		   
+		  
+		  
+		  
+		
+		</div>
+		
+		
+		<div id="footer">
+		  
+		  <div id="navigation">
+		    
+		    
+		    
+		    <!--<div id="navigation-center">
+		      <form action="/search" method="get">
+            <input type="text" name="q" class="prefill" title="Suchen"/>
+          </form>
+		      <div id="search-background"></div>
+		    </div>-->
+		  </div>
+		  
+		  <!--<div id="credit">
+		    <span>Designed by <a href="http://sleepoversf.tumblr.com/">Sleepover</a></span>
+		  </div>-->
+		
+		</div>
+
+	</div>
+	
+	<script type="text/javascript">
+  $(window).load(function() {
+    $('.prefill').example(function() {
+     return $(this).attr('title'); 
+    });
+  });
+  </script>
+  
+  
+	
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?10&src=http%3A%2F%2Fsolidphase.tumblr.com%2F&amp;lang=de_DE&amp;name=solidphase" scrolling="no" width="330" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE -->
+</body>
+
+</html>

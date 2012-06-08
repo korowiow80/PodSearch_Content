@@ -1,0 +1,742 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>404 | Pfizer: the world's largest research-based pharmaceutical company</title>
+
+<link rel="stylesheet" type="text/css" href="/include/css/style.css">
+<link rel="stylesheet" type="text/css" href="/include/css/ui.css">
+<link rel="stylesheet" type="text/css" href="/include/css/jquery.autocomplete.css">
+<!-- START Pfizer Survey -->
+<link rel="stylesheet" href="/include/css/thickbox.css" type="text/css" media="screen">
+<!-- START Pfizer Survey -->
+<link rel="stylesheet" type="text/css" title="ajax-tabs"  href="/include/css/pf_style_tabs.css">
+<link rel="alternate stylesheet" type="text/css" media="screen" title="small-text" href="/include/css/pf_style_sm.css">
+<link rel="alternate stylesheet" type="text/css" media="screen" title="medium-text" href="/include/css/pf_style_med.css">
+<link rel="alternate stylesheet" type="text/css" media="screen" title="large-text" href="/include/css/pf_style_lg.css">
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" media="all" href="/include/css/ie6.css">
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" media="all" href="/include/css/ie7.css">
+<![endif]-->
+
+<script type="text/javascript" src="/include/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/include/js/ui_002.js"></script>
+<script type="text/javascript" src="/include/js/ui.js"></script>
+<script type="text/javascript" src="/include/js/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="/include/js/localdata.js"></script>
+<script type="text/javascript" src="/include/js/product_finder.js" ></script>
+<script type="text/javascript" src="/include/js/latest_news.js"></script>
+<script type="text/javascript" src="/include/js/css_switch.js"></script>
+<script type="text/javascript" src="/include/js/suggestprod.js"></script>
+<script type="text/javascript" src="/include/js/togglePFinder.js"></script>
+<script type="text/javascript" src="/include/js/tab_rss_content.js"></script>
+<script type="text/javascript" src="/include/js/health_care_pro.js"></script>
+<!-- START Pfizer Survey -->
+<script type="text/javascript" src="/include/js/thickbox.js"></script>
+<script type="text/javascript" src="/include/js/pfsurvey.js"></script>
+<!-- END Pfizer Survey -->
+<script type="text/javascript">
+	$(function() {
+		//$('#hometabs > ul').tabs({ fx: { opacity: 'toggle' } }).tabs('rotate', 0);
+		$('#maintabs > ul').tabs().tabs('rotate', 0);
+	});
+</script>
+<!--  for new dropdown nav IE 6 only  --> 
+<!--[if IE 6]>
+<script type="text/javascript" src="/include/js/v3_dropdown.js"></script>
+<![endif]-->
+
+<script language="javascript" type="text/javascript">
+
+		var providedPath = window.location.pathname; // get the url that was clicked or typed	
+
+		var oldPath=new Array(); // build list of old label paths
+		oldPath[0]="/files/products/uspi_aricept.pdf";
+		oldPath[1]="/files/products/uspi_zithromax.pdf";
+		oldPath[2]="/files/products/uspi_zithromax600mg.pdf";
+		oldPath[3]="/files/products/uspi_zithromaxIV.pdf";
+		oldPath[4]="/files/products/uspi_zinecard.pdf";
+		oldPath[5]="/files/products/uspi_synarel.pdf";
+		oldPath[6]="/files/products/uspi_accuretic.pdf";
+		oldPath[7]="/files/products/uspi_pristiq.pdf";
+		oldPath[8]="/files/products/uspi_zoloft.pdf";
+		oldPath[9]="/files/products/mg_zoloft.pdf";
+		
+		oldPath[10]="/files/products/uspi_accupril.pdf"; // 1
+		oldPath[11]="/files/products/uspi_aldactone.pdf"; // 2
+		oldPath[12]="/files/products/uspi_antivert.pdf";
+		oldPath[13]="/files/products/ppi_aricept.pdf";
+		oldPath[14]="/files/products/uspi_aldactazide.pdf";
+		oldPath[15]="/files/products/uspi_depo_provera_contraceptive.pdf";
+		oldPath[16]="/files/products/uspi_azulfidine.pdf";
+		oldPath[17]="/files/products/uspi_arthrotec.pdf";
+		oldPath[18]="/files/products/uspi_azulfidine_en.pdf";
+		oldPath[19]="/files/products/uspi_aromasin.pdf";
+		
+		oldPath[20]="/files/products/uspi_atgam.pdf";
+		oldPath[21]="/files/products/uspi_bacitracin.pdf";
+		oldPath[22]="/files/products/uspi_caduet.pdf";
+		oldPath[23]="/files/products/ppi_caduet.pdf";
+		oldPath[24]="/files/products/uspi_camptosar.pdf";
+		oldPath[25]="/files/products/uspi_calan_sr.pdf";
+		oldPath[26]="/files/products/uspi_cardura_xl.pdf";
+		oldPath[27]="/files/products/uspi_cardura.pdf";
+		oldPath[28]="/files/products/ppi_cardura.pdf";
+		oldPath[29]="/files/products/ppi_aromasin.pdf";
+		
+		oldPath[30]="/files/products/uspi_calan.pdf";
+		oldPath[31]="/files/products/uspi_prevnar13.pdf";
+		oldPath[32]="/files/products/uspi_toviaz.pdf";
+		oldPath[33]="/files/products/uspi_procardia.pdf";
+		oldPath[34]="/files/products/uspi_procardia_xl.pdf";
+		oldPath[35]="/files/products/uspi_xanax_xr.pdf";
+		oldPath[36]="/files/products/uspi_doxorubicin.pdf";
+		oldPath[37]="/files/products/uspi_dilantin_infatabs.pdf";
+		oldPath[38]="/files/products/uspi_dilantin_capsules.pdf";
+		oldPath[39]="/files/products/uspi_dilantin.pdf";
+		
+		oldPath[40]="/files/products/uspi_xanax.pdf";
+		oldPath[41]="/files/products/uspi_depo_subq_provera.pdf";
+		oldPath[42]="/files/products/uspi_depo_medrol.pdf";
+		oldPath[43]="/files/products/uspi_depo_medrol_multi_dose.pdf";
+		oldPath[44]="/files/products/uspi_daypro.pdf";
+		oldPath[45]="/files/products/uspi_cleocin_vaginal.pdf";
+		oldPath[46]="/files/products/mg_chantix.pdf";
+		oldPath[47]="/files/products/uspi_cyklokapron.pdf";
+		oldPath[48]="/files/products/uspi_celontin.pdf";
+		oldPath[49]="/files/products/mg_celontin.pdf";
+		
+		oldPath[50]="/files/products/uspi_chantix.pdf";
+		oldPath[51]="/files/products/uspi_covera.pdf";
+		oldPath[52]="/files/products/uspi_cytotec.pdf";
+		oldPath[53]="/files/products/uspi_dilantin125.pdf";
+		oldPath[54]="/files/products/uspi_lyrica.pdf";
+		oldPath[55]="/files/products/uspi_tygacil.pdf";
+		oldPath[56]="/files/products/uspi_norvasc.pdf";
+		oldPath[57]="/files/products/ppi_norvasc.pdf";
+		oldPath[58]="/files/products/ppi_detrol.pdf";
+		oldPath[59]="/files/products/uspi_didrex.pdf";
+		
+		oldPath[60]="/files/products/uspi_eraxis.pdf";
+		oldPath[61]="/files/products/uspi_estring.pdf";
+		oldPath[62]="/files/products/ppi_estring.pdf";
+		oldPath[63]="/files/products/uspi_flagyl.pdf";
+		oldPath[64]="/files/products/uspi_feldene.pdf";
+		oldPath[65]="/files/products/uspi_flagyl_er.pdf";
+		oldPath[66]="/files/products/uspi_flagyl_375.pdf";
+		oldPath[67]="/files/products/uspi_gelfoam_sponge.pdf";
+		oldPath[68]="/files/products/uspi_gelfoam_powder.pdf";
+		oldPath[69]="/files/products/uspi_diflucan.pdf";
+		
+		oldPath[70]="/files/products/ppi_diflucan.pdf";
+		oldPath[71]="/files/products/uspi_genotropin.pdf";
+		oldPath[72]="/files/products/usi_genotropin_miniquick.pdf";
+		oldPath[73]="/files/products/uspi_glucotrol.pdf";
+		oldPath[74]="/files/products/uspi_glucotrol_xl.pdf";
+		oldPath[75]="/files/products/uspi_glyset.pdf";
+		oldPath[76]="/files/products/usi_genotropin_pen5.pdf";
+		oldPath[77]="/files/products/usi_genotropin_pen12.pdf";
+		oldPath[78]="/files/products/uspi_geodon.pdf";
+		oldPath[79]="/files/products/ppi_glucotrol_xl.pdf";
+		
+		oldPath[80]="/files/products/uspi_halcion.pdf";
+		oldPath[81]="/files/products/mg_halcion.pdf";
+		oldPath[82]="/files/products/uspi_lipitor.pdf";
+		oldPath[83]="/files/products/ppi_lipitor.pdf";
+		oldPath[84]="/files/products/uspi_cleocin_t.pdf";
+		oldPath[85]="/files/products/uspi_colestid.pdf";
+		oldPath[86]="/files/products/uspi_caverject_powder.pdf";
+		oldPath[87]="/files/products/uspi_depo_estradiol.pdf";
+		oldPath[88]="/files/products/usi_genotropin_mixer.pdf";
+		oldPath[89]="/files/products/uspi_glynase.pdf";
+		
+		oldPath[90]="/files/products/uspi_hemabate.pdf";
+		oldPath[91]="/files/products/uspi_lincocin.pdf";
+		oldPath[92]="/files/products/uspi_inspra.pdf";
+		oldPath[93]="/files/products/uspi_medrol.pdf";
+		oldPath[94]="/files/products/ppi_ogen_tablets.pdf";
+		oldPath[95]="/files/products/uspi_prostin_pediatric.pdf";
+		oldPath[96]="/files/products/uspi_provera.pdf";
+		oldPath[97]="/files/products/ppi_provera.pdf";
+		oldPath[98]="/files/products/uspi_sutent.pdf";
+		oldPath[99]="/files/products/mg_sutent.pdf";
+		
+		oldPath[100]="/files/products/mg_zarontin_capsules.pdf";
+		oldPath[101]="/files/products/uspi_zarontin_capsules.pdf";
+		oldPath[102]="/files/products/uspi_vibramycin_vibra-tabs.pdf";
+		oldPath[103]="/files/products/uspi_protonixIV.pdf";
+		oldPath[104]="/files/products/uspi_xalatan.pdf";
+		oldPath[105]="/files/products/uspi_unasyn.pdf";
+		oldPath[106]="/files/products/uspi_vfend.pdf";
+		oldPath[107]="/files/products/uspi_depo_testosterone.pdf";
+		oldPath[108]="/files/products/uspi_relpax.pdf";
+		oldPath[109]="/files/products/uspi_tikosyn.pdf";
+		
+		oldPath[110]="/files/products/ppi_chantix.pdf";
+		oldPath[111]="/files/products/ppi_relpax.pdf";
+		oldPath[112]="/files/products/uspi_zmax.pdf";
+		oldPath[113]="/files/products/mg_arthrotec.pdf";
+		oldPath[114]="/files/products/uspi_nitrostat.pdf";
+		oldPath[115]="/files/products/ppi_zithromax.pdf";
+		oldPath[116]="/files/products/uspi_vancomycin.pdf";
+		oldPath[117]="/files/products/uspi_zarontin_oralsolution.pdf";
+		oldPath[118]="/files/products/uspi_vancomycin_bulk.pdf";
+		oldPath[119]="/files/products/uspi_neurontin.pdf";
+		
+		oldPath[120]="/files/products/mg_neurontin.pdf";
+		oldPath[121]="/files/products/uspi_levoxyl.pdf";
+		oldPath[122]="/files/products/uspi_flumazenil.pdf";
+		oldPath[123]="/files/products/uspi_pamidronate.pdf";
+		oldPath[124]="/files/products/uspi_rifampin.pdf";
+		oldPath[125]="/files/products/uspi_skelaxin.pdf";
+		oldPath[126]="/files/products/uspi_thrombinjmi.pdf";
+		oldPath[127]="/files/products/uspi_embeda_cii.pdf";	
+		oldPath[128]="/files/products/uspi_avinza_cii.pdf";
+		oldPath[129]="/files/products/uspi_bicillin_cr_900300.pdf";
+		
+		oldPath[130]="/files/products/uspi_bicillin_la.pdf";
+		oldPath[131]="/files/products/uspi_bicillin_cr.pdf";
+		oldPath[132]="/files/products/uspi_cortisporin_cream.pdf";
+		oldPath[133]="/files/products/uspi_cortisporin_ointment.pdf";
+		oldPath[134]="/files/products/uspi_cytomel.pdf";
+		oldPath[135]="/files/products/uspi_viroptic.pdf";
+		oldPath[136]="/files/products/uspi_silvadene.pdf";
+		oldPath[137]="/files/products/uspi_tapazole.pdf";
+		oldPath[138]="/files/products/uspi_neosporin_gu.pdf";
+		oldPath[139]="/files/products/uspi_neosporin_ophthalmic.pdf";
+		
+		oldPath[140]="/files/products/uspi_cortisporin_otic.pdf";
+		oldPath[141]="/files/products/uspi_corgard.pdf";
+		oldPath[142]="/files/products/uspi_sonata_civ.pdf";
+		oldPath[143]="/files/products/uspi_thalitone.pdf";
+		oldPath[144]="/files/products/uspi_septra.pdf";
+		oldPath[145]="/files/products/uspi_tussigan_cii.pdf";
+		oldPath[146]="/files/products/uspi_corzide.pdf";
+		oldPath[147]="/files/products/uspi_tigan_capsules.pdf";
+		oldPath[148]="/files/products/uspi_menest.pdf";
+		oldPath[149]="/files/products/uspi_altace.pdf";
+		
+		oldPath[150]="/files/products/uspi_oxecta.pdf";
+		oldPath[151]="/files/products/uspi_penicillin_gprocaine.pdf";
+		oldPath[152]="/files/products/uspi_synercid_iv.pdf";
+		oldPath[153]="/files/products/uspi_xalatan_multi.pdf";
+		oldPath[154]="/files/products/uspi_detrol.pdf";
+		oldPath[155]="/files/products/uspi_detrol_la.pdf";
+		oldPath[156]="/files/products/mg_lyrica.pdf";
+		oldPath[157]="/files/products/uspi_ellence.pdf";
+		oldPath[158]="/files/products/uspi_solumedrol_preservative.pdf";
+		oldPath[159]="/files/products/uspi_rgene.pdf";
+		
+		oldPath[160]="/files/products/uspi_zosyn_vials.pdf";
+		oldPath[161]="/files/products/uspi_zosyn_frozenbags.pdf";
+		oldPath[162]="/files/products/uspi_zyvox.pdf";
+		oldPath[163]="/files/products/uspi_cerebyx.pdf";
+		oldPath[164]="/files/products/uspi_inlyta.pdf";
+		oldPath[165]="/files/products/uspi_gelfoam_sponge_dental.pdf";
+		oldPath[166]="/files/products/uspi_gelfilm.pdf";
+		oldPath[167]="/files/products/uspi_gelfoam_sponge_gelatin.pdf";
+		oldPath[168]="/files/products/uspi_celebrex.pdf";
+		oldPath[169]="/files/products/mg_celebrex.pdf";
+		
+		oldPath[170]="/files/products/uspi_solucortef_powder.pdf";
+		oldPath[171]="/files/products/uspi_corvert.pdf";
+		oldPath[172]="/files/products/uspi_solucortef.pdf";
+		oldPath[173]="/files/products/uspi_elelyso.pdf";
+		oldPath[174]="/files/products/uspi_flector_patch.pdf";
+		oldPath[175]="/files/products/ppi_zmax.pdf";
+
+		var newPath=new Array(); //build list of new label paths
+		newPath[0]="http://labeling.pfizer.com/ShowLabeling.aspx?id=510";
+		newPath[1]="http://labeling.pfizer.com/ShowLabeling.aspx?id=511";
+		newPath[2]="http://labeling.pfizer.com/ShowLabeling.aspx?id=512";
+		newPath[3]="http://labeling.pfizer.com/ShowLabeling.aspx?id=513";
+		newPath[4]="http://labeling.pfizer.com/ShowLabeling.aspx?id=514";
+		newPath[5]="http://labeling.pfizer.com/ShowLabeling.aspx?id=515";
+		newPath[6]="http://labeling.pfizer.com/ShowLabeling.aspx?id=516";
+		newPath[7]="http://labeling.pfizer.com/ShowLabeling.aspx?id=497";
+		newPath[8]="http://labeling.pfizer.com/ShowLabeling.aspx?id=517";
+		newPath[9]="http://labeling.pfizer.com/ShowLabeling.aspx?id=517";
+		
+		newPath[10]="http://labeling.pfizer.com/ShowLabeling.aspx?id=518";
+		newPath[11]="http://labeling.pfizer.com/ShowLabeling.aspx?id=520";
+		newPath[12]="http://labeling.pfizer.com/ShowLabeling.aspx?id=521";
+		newPath[13]="http://labeling.pfizer.com/ShowLabeling.aspx?id=510";
+		newPath[14]="http://labeling.pfizer.com/ShowLabeling.aspx?id=519";
+		newPath[15]="http://labeling.pfizer.com/ShowLabeling.aspx?id=522";
+		newPath[16]="http://labeling.pfizer.com/ShowLabeling.aspx?id=524";
+		newPath[17]="http://labeling.pfizer.com/ShowLabeling.aspx?id=526";
+		newPath[18]="http://labeling.pfizer.com/ShowLabeling.aspx?id=527";
+		newPath[19]="http://labeling.pfizer.com/ShowLabeling.aspx?id=523";
+		
+		newPath[20]="http://labeling.pfizer.com/ShowLabeling.aspx?id=525";
+		newPath[21]="http://labeling.pfizer.com/ShowLabeling.aspx?id=529";
+		newPath[22]="http://labeling.pfizer.com/ShowLabeling.aspx?id=531";
+		newPath[23]="http://labeling.pfizer.com/ShowLabeling.aspx?id=532";
+		newPath[24]="http://labeling.pfizer.com/ShowLabeling.aspx?id=533";
+		newPath[25]="http://labeling.pfizer.com/ShowLabeling.aspx?id=534";
+		newPath[26]="http://labeling.pfizer.com/ShowLabeling.aspx?id=535";
+		newPath[27]="http://labeling.pfizer.com/ShowLabeling.aspx?id=538";
+		newPath[28]="http://labeling.pfizer.com/ShowLabeling.aspx?id=536";
+		newPath[29]="http://labeling.pfizer.com/ShowLabeling.aspx?id=537";
+		
+		newPath[30]="http://labeling.pfizer.com/ShowLabeling.aspx?id=539";
+		newPath[31]="http://labeling.pfizer.com/ShowLabeling.aspx?id=501";
+		newPath[32]="http://labeling.pfizer.com/ShowLabeling.aspx?id=540";
+		newPath[33]="http://labeling.pfizer.com/ShowLabeling.aspx?id=541";
+		newPath[34]="http://labeling.pfizer.com/ShowLabeling.aspx?id=542";
+		newPath[35]="http://labeling.pfizer.com/ShowLabeling.aspx?id=543";
+		newPath[36]="http://labeling.pfizer.com/ShowLabeling.aspx?id=530";
+		newPath[37]="http://labeling.pfizer.com/ShowLabeling.aspx?id=544";
+		newPath[38]="http://labeling.pfizer.com/ShowLabeling.aspx?id=545";
+		newPath[39]="http://labeling.pfizer.com/ShowLabeling.aspx?id=546";
+		
+		newPath[40]="http://labeling.pfizer.com/ShowLabeling.aspx?id=547";
+		newPath[41]="http://labeling.pfizer.com/ShowLabeling.aspx?id=549";
+		newPath[42]="http://labeling.pfizer.com/ShowLabeling.aspx?id=550";
+		newPath[43]="http://labeling.pfizer.com/ShowLabeling.aspx?id=551";
+		newPath[44]="http://labeling.pfizer.com/ShowLabeling.aspx?id=552";
+		newPath[45]="http://labeling.pfizer.com/ShowLabeling.aspx?id=553";
+		newPath[46]="http://labeling.pfizer.com/ShowLabeling.aspx?id=557";
+		newPath[47]="http://labeling.pfizer.com/ShowLabeling.aspx?id=556";
+		newPath[48]="http://labeling.pfizer.com/ShowLabeling.aspx?id=555";
+		newPath[49]="http://labeling.pfizer.com/ShowLabeling.aspx?id=555";
+		
+		newPath[50]="http://labeling.pfizer.com/ShowLabeling.aspx?id=557";
+		newPath[51]="http://labeling.pfizer.com/ShowLabeling.aspx?id=558";
+		newPath[52]="http://labeling.pfizer.com/ShowLabeling.aspx?id=559";
+		newPath[53]="http://labeling.pfizer.com/ShowLabeling.aspx?id=560";
+		newPath[54]="http://labeling.pfizer.com/ShowLabeling.aspx?id=561";
+		newPath[55]="http://labeling.pfizer.com/ShowLabeling.aspx?id=491";
+		newPath[56]="http://labeling.pfizer.com/ShowLabeling.aspx?id=562";
+		newPath[57]="http://labeling.pfizer.com/ShowLabeling.aspx?id=563";
+		newPath[58]="http://labeling.pfizer.com/ShowLabeling.aspx?id=564";
+		newPath[59]="http://labeling.pfizer.com/ShowLabeling.aspx?id=565";
+		
+		newPath[60]="http://labeling.pfizer.com/ShowLabeling.aspx?id=566";
+		newPath[61]="http://labeling.pfizer.com/ShowLabeling.aspx?id=567";
+		newPath[62]="http://labeling.pfizer.com/ShowLabeling.aspx?id=568";
+		newPath[63]="http://labeling.pfizer.com/ShowLabeling.aspx?id=570";
+		newPath[64]="http://labeling.pfizer.com/ShowLabeling.aspx?id=569";
+		newPath[65]="http://labeling.pfizer.com/ShowLabeling.aspx?id=572";
+		newPath[66]="http://labeling.pfizer.com/ShowLabeling.aspx?id=571";
+		newPath[67]="http://labeling.pfizer.com/ShowLabeling.aspx?id=573";
+		newPath[68]="http://labeling.pfizer.com/ShowLabeling.aspx?id=574";
+		newPath[69]="http://labeling.pfizer.com/ShowLabeling.aspx?id=575";
+		
+		newPath[70]="http://labeling.pfizer.com/ShowLabeling.aspx?id=576";
+		newPath[71]="http://labeling.pfizer.com/ShowLabeling.aspx?id=577";
+		newPath[72]="http://labeling.pfizer.com/ShowLabeling.aspx?id=578";
+		newPath[73]="http://labeling.pfizer.com/ShowLabeling.aspx?id=579";
+		newPath[74]="http://labeling.pfizer.com/ShowLabeling.aspx?id=585";
+		newPath[75]="http://labeling.pfizer.com/ShowLabeling.aspx?id=581";
+		newPath[76]="http://labeling.pfizer.com/ShowLabeling.aspx?id=582";
+		newPath[77]="http://labeling.pfizer.com/ShowLabeling.aspx?id=583";
+		newPath[78]="http://labeling.pfizer.com/ShowLabeling.aspx?id=584";
+		newPath[79]="http://labeling.pfizer.com/ShowLabeling.aspx?id=580";
+		
+		newPath[80]="http://labeling.pfizer.com/ShowLabeling.aspx?id=586";
+		newPath[81]="http://labeling.pfizer.com/ShowLabeling.aspx?id=586";
+		newPath[82]="http://labeling.pfizer.com/ShowLabeling.aspx?id=587";
+		newPath[83]="http://labeling.pfizer.com/ShowLabeling.aspx?id=588";
+		newPath[84]="http://labeling.pfizer.com/ShowLabeling.aspx?id=591";
+		newPath[85]="http://labeling.pfizer.com/ShowLabeling.aspx?id=592";
+		newPath[86]="http://labeling.pfizer.com/ShowLabeling.aspx?id=589";
+		newPath[87]="http://labeling.pfizer.com/ShowLabeling.aspx?id=595";
+		newPath[88]="http://labeling.pfizer.com/ShowLabeling.aspx?id=596";
+		newPath[89]="http://labeling.pfizer.com/ShowLabeling.aspx?id=597";
+		
+		newPath[90]="http://labeling.pfizer.com/ShowLabeling.aspx?id=598";
+		newPath[91]="http://labeling.pfizer.com/ShowLabeling.aspx?id=600";
+		newPath[92]="http://labeling.pfizer.com/ShowLabeling.aspx?id=599";
+		newPath[93]="http://labeling.pfizer.com/ShowLabeling.aspx?id=601";
+		newPath[94]="http://labeling.pfizer.com/ShowLabeling.aspx?id=602";
+		newPath[95]="http://labeling.pfizer.com/ShowLabeling.aspx?id=604";
+		newPath[96]="http://labeling.pfizer.com/ShowLabeling.aspx?id=605";
+		newPath[97]="http://labeling.pfizer.com/ShowLabeling.aspx?id=606";
+		newPath[98]="http://labeling.pfizer.com/ShowLabeling.aspx?id=607";
+		newPath[99]="http://labeling.pfizer.com/ShowLabeling.aspx?id=607";
+		
+		newPath[100]="http://labeling.pfizer.com/ShowLabeling.aspx?id=609";
+		newPath[101]="http://labeling.pfizer.com/ShowLabeling.aspx?id=609";
+		newPath[102]="http://labeling.pfizer.com/ShowLabeling.aspx?id=611";
+		newPath[103]="http://labeling.pfizer.com/ShowLabeling.aspx?id=469";
+		newPath[104]="http://labeling.pfizer.com/ShowLabeling.aspx?id=613";
+		newPath[105]="http://labeling.pfizer.com/ShowLabeling.aspx?id=617";
+		newPath[106]="http://labeling.pfizer.com/ShowLabeling.aspx?id=618";
+		newPath[107]="http://labeling.pfizer.com/ShowLabeling.aspx?id=548";
+		newPath[108]="http://labeling.pfizer.com/ShowLabeling.aspx?id=621";
+		newPath[109]="http://labeling.pfizer.com/ShowLabeling.aspx?id=639";
+		
+		newPath[110]="http://labeling.pfizer.com/ShowLabeling.aspx?id=557";
+		newPath[111]="http://labeling.pfizer.com/ShowLabeling.aspx?id=664";
+		newPath[112]="http://labeling.pfizer.com/ShowLabeling.aspx?id=650";
+		newPath[113]="http://labeling.pfizer.com/ShowLabeling.aspx?id=526";
+		newPath[114]="http://labeling.pfizer.com/ShowLabeling.aspx?id=663";
+		newPath[115]="http://labeling.pfizer.com/ShowLabeling.aspx?id=656";
+		newPath[116]="http://labeling.pfizer.com/ShowLabeling.aspx?id=661";
+		newPath[117]="http://labeling.pfizer.com/ShowLabeling.aspx?id=610";
+		newPath[118]="http://labeling.pfizer.com/ShowLabeling.aspx?id=662";
+		newPath[119]="http://labeling.pfizer.com/ShowLabeling.aspx?id=630";
+		
+		newPath[120]="http://labeling.pfizer.com/ShowLabeling.aspx?id=630";
+		newPath[121]="http://labeling.pfizer.com/ShowLabeling.aspx?id=688";
+		newPath[122]="http://labeling.pfizer.com/ShowLabeling.aspx?id=684";
+		newPath[123]="http://labeling.pfizer.com/ShowLabeling.aspx?id=687";
+		newPath[124]="http://labeling.pfizer.com/ShowLabeling.aspx?id=686";
+		newPath[125]="http://labeling.pfizer.com/ShowLabeling.aspx?id=689";
+		newPath[126]="http://labeling.pfizer.com/ShowLabeling.aspx?id=695";
+		newPath[127]="http://labeling.pfizer.com/ShowLabeling.aspx?id=694";
+		newPath[128]="http://labeling.pfizer.com/ShowLabeling.aspx?id=693";
+		newPath[129]="http://labeling.pfizer.com/ShowLabeling.aspx?id=692";
+		
+		newPath[130]="http://labeling.pfizer.com/ShowLabeling.aspx?id=691";
+		newPath[131]="http://labeling.pfizer.com/ShowLabeling.aspx?id=690";
+		newPath[132]="http://labeling.pfizer.com/ShowLabeling.aspx?id=698";
+		newPath[133]="http://labeling.pfizer.com/ShowLabeling.aspx?id=699";
+		newPath[134]="http://labeling.pfizer.com/ShowLabeling.aspx?id=703";
+		newPath[135]="http://labeling.pfizer.com/ShowLabeling.aspx?id=700";
+		newPath[136]="http://labeling.pfizer.com/ShowLabeling.aspx?id=701";
+		newPath[137]="http://labeling.pfizer.com/ShowLabeling.aspx?id=702";
+		newPath[138]="http://labeling.pfizer.com/ShowLabeling.aspx?id=705";
+		newPath[139]="http://labeling.pfizer.com/ShowLabeling.aspx?id=704";
+		
+		newPath[140]="http://labeling.pfizer.com/ShowLabeling.aspx?id=707";
+		newPath[141]="http://labeling.pfizer.com/ShowLabeling.aspx?id=708";
+		newPath[142]="http://labeling.pfizer.com/ShowLabeling.aspx?id=710";
+		newPath[143]="http://labeling.pfizer.com/ShowLabeling.aspx?id=711";
+		newPath[144]="http://labeling.pfizer.com/ShowLabeling.aspx?id=706";
+		newPath[145]="http://labeling.pfizer.com/ShowLabeling.aspx?id=709";
+		newPath[146]="http://labeling.pfizer.com/ShowLabeling.aspx?id=713";
+		newPath[147]="http://labeling.pfizer.com/ShowLabeling.aspx?id=714";
+		newPath[148]="http://labeling.pfizer.com/ShowLabeling.aspx?id=715";
+		newPath[149]="http://labeling.pfizer.com/ShowLabeling.aspx?id=716";
+		
+		newPath[150]="http://labeling.pfizer.com/ShowLabeling.aspx?id=620";
+		newPath[151]="http://labeling.pfizer.com/ShowLabeling.aspx?id=718";
+		newPath[152]="http://labeling.pfizer.com/ShowLabeling.aspx?id=712";
+		newPath[153]="http://labeling.pfizer.com/ShowLabeling.aspx?id=654";
+		newPath[154]="http://labeling.pfizer.com/ShowLabeling.aspx?id=719";
+		newPath[155]="http://labeling.pfizer.com/ShowLabeling.aspx?id=616";
+		newPath[156]="http://labeling.pfizer.com/ShowLabeling.aspx?id=561";
+		newPath[157]="http://labeling.pfizer.com/ShowLabeling.aspx?id=657";
+		newPath[158]="http://labeling.pfizer.com/ShowLabeling.aspx?id=648";
+		newPath[159]="http://labeling.pfizer.com/ShowLabeling.aspx?id=642";
+		
+		newPath[160]="http://labeling.pfizer.com/ShowLabeling.aspx?id=762";
+		newPath[161]="http://labeling.pfizer.com/ShowLabeling.aspx?id=763";
+		newPath[162]="http://labeling.pfizer.com/ShowLabeling.aspx?id=649";
+		newPath[163]="http://labeling.pfizer.com/ShowLabeling.aspx?id=749";
+		newPath[164]="http://labeling.pfizer.com/ShowLabeling.aspx?id=759";
+		newPath[165]="http://labeling.pfizer.com/ShowLabeling.aspx?id=781";
+		newPath[166]="http://labeling.pfizer.com/ShowLabeling.aspx?id=782";
+		newPath[167]="http://labeling.pfizer.com/ShowLabeling.aspx?id=624";
+		newPath[168]="http://labeling.pfizer.com/ShowLabeling.aspx?id=793";
+		newPath[169]="http://labeling.pfizer.com/ShowLabeling.aspx?id=793";
+		
+		newPath[170]="http://labeling.pfizer.com/ShowLabeling.aspx?id=640";
+		newPath[171]="http://labeling.pfizer.com/showlabeling.aspx?id=673";
+		newPath[172]="http://labeling.pfizer.com/showlabeling.aspx?id=641";
+		newPath[173]="http://labeling.pfizer.com/showlabeling.aspx?id=798";
+		newPath[174]="http://labeling.pfizer.com/showlabeling.aspx?id=829";
+		newPath[175]="http://labeling.pfizer.com/ShowLabeling.aspx?id=650";
+		
+		for (i=0; i < oldPath.length; i++) 
+		{
+			switch (providedPath)
+			{
+				case oldPath[i]:
+					window.location.replace(newPath[i]);
+					document.title="Pfizer";
+					break;	
+				default:
+					break;	
+			}
+		}
+</script>
+</head>
+<body>
+
+<!-- start omniture -->
+<!-- [waa.area.open OmCodeStart]-->
+<!-- SiteCatalyst code version: H.17. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
+
+<!-- Timeparting EST -->
+
+<script language="JavaScript">
+var currYear = "2009";
+</script>
+
+<script language="JavaScript" src="/include/js/s_code.js"></script>
+
+<!-- [waa.area.close OmCodeStart]-->
+
+
+<!-- end omniture -->
+
+<div id="bkgcontainer">
+<div id="maincontainer">
+
+<div id="searchnav">
+
+<div id="head-health"> 
+<a href="javascript:void(0);" id="health-link">Health Care Professionals</a>
+
+<div class="healhcare-header" style="display:none">
+<ul>
+	<li><a href="http://pfizerpro.com/">Access PfizerPro.com</a></li>
+	<li><a href="http://wyethhcp.com/">Access WyethHCP.com</a></li>
+</ul>
+<img src="/img/pfizer_pro_logo_dropdown.gif" alt="Pfizer for Professionals" width="141" height="29" id="pfizer-pro-logo" />
+<img src="/img/wyth_logo_dropdown.gif" alt="Wyeth" width="60" height="22" id="wyeth-hcp-logo" /></div>
+<!--  Close  class = healhcare-dropdown  --> 
+</div><!--  Close  id = head-health  -->
+
+<a href="http://www.pfizercareers.com" id="head-careers">Careers</a>
+<a href="/contact/" id="head-contact">Contact Us</a>
+
+<script type="text/javascript" language="javascript">
+function GoogleSearch()
+{
+	var searchString = document.getElementById('cse-search-box').qtemp.value;
+	//searchString = searchString.replace('&','%26');
+	
+	if (searchString == "") {
+		return false;
+	} else {
+		var replaceq = searchString.split(' ').join('+');
+		document.getElementById('cse-search-box').q.value = replaceq;
+	}
+}
+</script>
+
+<form action="/general/search_results.jsp" id="cse-search-box" onsubmit="return GoogleSearch();"> 
+<div id="site-search">
+<input type="hidden" name="cx" value="012390703595722449228:rtvx5nj8aua" />
+<input type="hidden" name="cof" value="FORID:9" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="hidden" name="q" class="searchinput" size="15" />
+<input type="text" name="qtemp" class="searchinput" size="15" onFocus="javascript:this.value='';" onBlur="javascript:if (this.value=='') this.value='Search Pfizer.com';" value="Search Pfizer.com" />
+</div> <!-- Close id="site-search" --> 
+<input type="image" src="/img/btn_search.jpg" name="sa" value="Search" onclick="return GoogleSearch();" id="submit-search" />
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
+</div>
+<!-- Close id="searchnav" --> 
+<div id="main-nav"> 
+
+<ul>
+<li><a href="/home/" title="Pfizer.com Home Page" id="menu-home">Home</a></li>
+
+<li><a href="/about/" title="About Pfizer" id="menu-about">About Pfizer</a>
+<ul class="about-drop">
+<li><a href="/about/leadership_and_structure/leadership_structure.jsp">Leadership &amp; Structure</a></li>
+<li><a href="/about/corporate_governance/corporate_governance.jsp">Corporate Governance</a></li>
+<li><a href="/about/corporate_compliance/corporate_compliance.jsp">Corporate Compliance</a></li>
+<li><a href="/about/history/history.jsp">History</a></li>
+<li><a href="/about/accolades/accolades.jsp">Accolades</a></li>
+<li><a href="/about/diversity/diversity.jsp">Diversity</a></li>
+</ul>
+</li>
+
+<li><a href="/research/" title="Research &amp; Development" id="menu-research">Research &amp; Development at Pfizer</a>
+	<ul class="research-drop">
+	<li><a href="/research/product_pipeline/product_pipeline.jsp">Product Pipeline</a></li>
+	<li><a href="/research/rd_works/how_rd_works.jsp">How R&amp;D Works</a></li>    
+	<li><a href="/research/research_clinical_trials/conducting_research_clinical_trials.jsp">Conducting Research &amp; Clinical Trials</a></li>
+	<li><a href="/research/pmc/post_marketing_commitments.jsp">Post Marketing Commitments</a></li>
+	<li><a href="/research/partnering/partnering_with_pfizer.jsp">Partnering with Pfizer</a></li>
+	<li><a href="/research/investigator/investigator_initiated_research.jsp">Investigator-Initiated Research</a></li>
+	</ul>        
+</li>
+
+<li><a href="/health/" title="Health &amp; Wellness" id="menu-health">Health &amp; Wellness</a>
+<ul class="health-drop">
+<li><a href="/health/medicine_safety/medicine_safety.jsp">Medicine Safety</a></li>
+<li><a href="/health/patient_resources/">Patient Resources</a></li>
+<li><a href="/health/financial_assistance_programs/patient_assistance_programs.jsp">Patient Assistance Programs</a></li>
+<li><a href="/health/senior_health/">Senior Health</a></li>
+</ul>
+</li>
+
+<li><a href="/responsibility/" title="Responsibility" id="menu-responsibility">Responsibility</a>
+	<ul class="responsibility-drop">
+	<li><a href="/responsibility/global_health/global_health.jsp">Global Health Programs</a></li>
+	<li><a href="/responsibility/grants_contributions/grants_and_contributions.jsp">Grants &amp; Contributions</a></li>
+	<li><a href="/responsibility/working_with_hcp/working_with_hcp.jsp">Working with Health Care Professionals</a></li>
+	<li><a href="/responsibility/protecting_environment/protecting_the_environment.jsp">Protecting the Environment</a></li>
+	<li><a href="/responsibility/workplace_responsibility/workplace_responsibility.jsp">Workplace Responsibility</a></li>
+	</ul>
+</li>
+
+<li><a href="/products/" title="Pfizer Products" id="menu-products">Pfizer Pharmaceutical Products</a>
+<ul class="products-drop">
+<li><a href="/products/rx/prescription.jsp">Product Finder</a></li>
+<li><a href="/products/animal_health/animal_health.jsp">Animal Health</a></li>
+<li><a href="/products/counterfeit_and_importation/counterfeit_importation.jsp">Counterfeit &amp; Importation</a></li>
+<li><a href="/products/hcp/healthcare.jsp">Health Care Professionals</a></li>
+</ul>
+</li>
+
+<li><a href="/investors/" title="Pfizer Investors" id="menu-investors">Investors</a>
+<ul class="investors-drop">
+<li><a href="/investors/shareholder_services/king_transaction.jsp">Information for King Shareholders</a></li>
+<li><a href="/investors/shareholder_services/shareholder_services.jsp">Shareholder Services</a></li>
+<li><a href="/investors/financial_reports/financial_reports.jsp">Financial Reports</a></li>
+<li><a href="/investors/sec_filings/sec_filings.jsp">SEC Filings</a></li>
+<li><a href="/investors/ceo_cfo_certifications/ceo_cfo_certifications.jsp">CEO/CFO Certifications</a></li>
+<li><a href="/investors/presentations/presentations.jsp">Presentations</a></li>
+</ul>
+</li>
+
+<li><a href="/news/" title="Pfizer&#8217;s News &amp; Media Center" id="menu-news">News &amp; Media</a>
+	<ul class="news-drop">
+	<li><a href="/news/press_releases/pfizer_press_releases.jsp">Press Releases</a></li>
+	<li><a href="/news/featured_stories/featured_stories.jsp">Featured Stories</a></li>
+	<li><a href="/news/video_gallery.jsp">Video Gallery</a></li>
+    <li><a href="/news/info_for_journalists/information_journalists.jsp">Frequently Requested Info</a></li>
+	<li><a href="/news/press_kits/press_kits.jsp">Press Kits</a></li>
+    <li><a href="http://pfizer.mediaseed.tv/">Download Multimedia</a></li>
+	<li><a href="/news/social_media/social_media.jsp">Social Media</a></li>	
+	<li><a href="/news/contact/contact_pfizer.jsp">Contact Pfizer Media Relations</a></li>
+	</ul>
+</li>
+</ul>
+</div> 
+<!-- Close id="main-nav" --> 
+<div id="header">
+<script>var id = "global";</script>
+<script language="javascript" src="/include/js/headers.js"></script>
+</div>
+
+
+
+
+
+
+
+<div id="contentcontainer">
+<div id="breadcrumbnav">
+<!-- breadcrumbnav contents -->
+</div>
+<div id="text_search_container">
+<!-- product finder container begins -->
+<div class="prod_finder_container">
+<div id="textsizetool"><span class="textsize">Text Size</span><span class="textsizesm"><a href="javascript:chooseStyle('small-text', 30)" class="textsizesm">A</a></span><span class="textsizemed"><a href="javascript:chooseStyle('medium-text', 30)" class="textsizemed" >A</a></span><span class="textsizelg"><a href="javascript:chooseStyle('large-text', 30)" class="textsizelg">A</a></span></div>
+<div id="product_finder">
+<a href="#" id="contentlink" rel="prod_finder"><span id="prod_finder_btn" class="off" onclick="togglePFinder('prod_finder_btn');">Product Finder</span></a>
+</div>
+</div>
+<!-- product finder container ends -->
+</div>
+<!-- new contents begin -->
+<div id="intcontentcenter_fullwidth">
+
+
+
+	<h1>Error: Page not found on <span class="orangetextstrong">Pfizer.com</span></h1>
+	
+	<p><strong>We're sorry.</strong> The page you requested did not load properly or is currently unavailable.</p>
+	<p>This may be the result of our recent site redesign.</p>
+	<p>Our main site sections are listed below. Or, view the full Pfizer.com sitemap. <a href="/general/sitemap.jsp">View Sitemap</a></p>
+	
+	<ul class="arrowlist">
+			<li><a href="/about/index.jsp">About Pfizer</a></li>
+			<li><a href="/research/index.jsp">Research & Development</a></li>
+			<li><a href="/health/index.jsp">Health & Wellness</a></li>
+			<li><a href="/responsibility/index.jsp">Responsibility</a></li>
+			<li><a href="/products/index.jsp">Products</a></li>
+			<li><a href="/investors/index.jsp">Investors</a></li>
+			<li><a href="/news/index.jsp">News & Media</a></li>
+			<li><a href="http://www.pfizercareers.com">Careers</a></li>
+			<li><a href="/b2b/index.jsp">Business to Business</a></li>
+	</ul>		
+<br><br><br>
+
+
+
+
+</div>
+<!-- new contents end -->
+<br clear="all"><!-- NS6 and IE5 fix to stretch container -->
+<!-- product finder tool begins -->
+<form name="PFsearchform" action="/general/jump_product.jsp">
+<div id="prod_finder">
+<div class="prod_finder_content">
+<img src="/img/prod_find_hdr.gif" alt="Pfizer Product Quick Search" width="150" height="11" border="0" style="margin-bottom:7px;"><br>
+<input id="suggestprod" name="Input" type="text" value="Enter a product keyword(s)" onfocus="if(this.value=='Enter a product keyword(s)')this.value=''; changeBorder();" onblur="if(this.value=='')this.value='Enter a product keyword(s)'; changeBorderBack();" class="searchfield" /><input id="prod_find_go" type="image" src="/img/btn_go_find.gif" alt="Go" width="54" height="28" border="0" onClick="document.PFsearchform.submit();" />
+<ul class="arrowlist">
+<li><a href="/products/rx/prescription.jsp?search=products">Browse all products</a></li>
+<li><a href="/products/rx/prescription.jsp?search=conditions">Browse by diseases/conditions</a></li>
+</ul>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+dropdowncontent.init("contentlink", "left-bottom", 300, "click")
+</script>
+<!-- product finder tool ends -->
+</div><!--END *FULLWIDTH* INTCONTENTCONTAINER-->
+
+
+
+<!-- START FOOTER INCLUDE -->
+
+<div id="new-footer">
+
+<img src="/img/pfizer_logo_footer.jpg" alt="Pfizer, the World&#8217;s Largest Pharmaceutical Company" width="51" height="31" id="footer-logo" />
+
+<ul>
+<li class="col-one"><a href="/contact/">Contact Us</a></li>
+<li class="col-two"><a href="/investors/">Investors</a></li>
+<li class="col-three"><a href="/general/sitemap.jsp">Sitemap</a></li>
+<li class="col-one"><a href="http://www.pfizercareers.com">Careers</a></li>
+<li class="col-two"><a href="/b2b/index.jsp">Business to Business</a></li>
+<li class="col-three"><a href="/general/terms.jsp">Terms of Use</a></li>
+<li class="oneten"><a href="/general/global_sites.jsp">Global Network</a></li>
+<li class="oneeightfour">
+<div id="footer-healthcare"><a href="javascript:void(0);" id="hcp-link">Health Care Professionals</a>
+<div class="healhcare-footer"  style="display:none">
+<ul class="link-list">
+	<li><a href="http://pfizerpro.com/">Access PfizerPro.com</a></li>
+	<li><a href="http://wyethhcp.com/">Access WyethHCP.com</a></li>
+</ul>
+<img src="/img/pfizer_pro_logo_dropdown.gif" alt="Pfizer for Professionals" width="141" height="29" id="pfizer-pro-logo" />
+<img src="/img/wyth_logo_dropdown.gif" alt="Wyeth" width="60" height="22" id="wyeth-hcp-logo" /></div><!--  Close  class = healhcare-dropdown  --> 
+</div><!--  Close  id = footer-healthcare  --> </li>
+<li class="col-three"><a href="/general/privacy.jsp">Privacy Policy</a></li>
+</ul>
+
+
+
+<p class="copyright">Copyright &copy; 2002&#8211;2009 Pfizer Inc. All rights reserved. This information is intended only for residents of the United States. The product information provided in this site is intended only for residents of the United States. The products discussed herein may have different product labeling in different countries. Pfizer Inc is a pharmaceutical company committed to helping people improve their health by discovering and developing medicines.</p>
+
+<img src="/img/trust_e.gif" alt="TRUSTe Certified Privacy" width="146" height="41" id="truste-logo" /></div>
+
+
+
+
+
+<!-- END FOOTER INCLUDE -->
+
+
+
+</div><!--END MAINCONTAINER-->
+</div><!--END BKGCONTAINER-->
+<div id="endbkgcontainer"></div>
+
+
+<!-- start omniture -->
+<!-- [waa.area.open OmCodeEnd]-->
+<!-- /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/ -->
+
+<script language="JavaScript">var s_code=s.t();if(s_code)document.write(s_code)</script>
+
+<!-- End SiteCatalyst code version: H.17. -->
+
+<!-- [waa.area.close OmCodeEnd]-->
+<!-- end omniture -->
+
+</body>
+</html>

@@ -1,0 +1,411 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>visionworxpro.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="http://static.ndoverdrive.net/css/style_marquee2a.css">
+<link rel='stylesheet' type='text/css' href='http://static.ndoverdrive.net/css/_marquee2/style_marquee2a_rs_ad_img.css'>
+<script language="JavaScript"><!--
+var google_categories;
+var track='ZHAtbmFtZWRyaXZlMDZfeG1sfGNhLWRwLW5hbWVkcml2ZTA3X3htbA==';
+var str_md5='b2244c13952fce5454bd4ecbb065d081';
+var q='';
+var domain='visionworxpro.com';
+var cfg='';
+var q_src='';
+var afsmode='1';
+var lander='2';
+var template='marquee2';
+var url_redirect='';
+var big_cfg_string='dmlzaW9ud29yeHByby5jb218fHx8Tk9URk9VTkR8YjIyNDRjMTM5NTJmY2U1NDU0YmQ0ZWNiYjA2NWQwODF8ZGV8bWFycXVlZTI7MjsyMDAwMDA7MjswOzs7O3xjYS1kcC1uYW1lZHJpdmUwN194bWwsZHAtbmFtZWRyaXZlMDZfeG1sfDcwMDk5fHw=';
+var testmode='0';
+var related='2';
+var portal_opts='0';
+var adult='0';
+var category='200000';
+var google_req='1';
+var seedkeys='';
+var img_srv='http://static.ndoverdrive.net';
+var index='/';
+var query_forceadult='';var sq='';
+var tk='';
+var bad_token='';
+var token = '';
+var search_token = '';
+var portal_token = '';
+var google_rs = new Array();
+var portal_keywords = new Array(15);
+var subcats = new Array(4);
+var mainads		= '';
+var popularCategories	= '';
+var related_txt_top 	= '';
+var related_txt		= '';
+var related_txt_right	= '';
+var related_txt_bottom	= '';
+var google_num_ads	= '';
+var afs_google_ads = '';
+var afd_google_ads = '';
+var afd_feedback_url = '';
+var afs_feedback_url = '';
+var google_afd_request = {s: 'visionworxpro.com', hl: 'de', num_radlinks: '21',domain_name: 'visionworxpro.com',client: 'ca-dp-namedrive07_xml'};
+for (i = 0;i < 16; i++) {
+	google_rs[i]=new Array('term','source');
+}
+
+for (i = 0;i <= 24; i++) {
+	portal_keywords[i] = new Array({'term':' '},'subcategories'); 
+	portal_keywords[i].subcategories = new Array();
+	for (j = 0;j <= 6; j++) {
+		portal_keywords[i].subcategories[j] = new Array('term'); 
+	}
+}
+function contact_owner(domain) {
+	var width =500;
+	var height=400;
+	var URL = 'http://www.ndoverdrive.com/domain_contact.php?domain=' + domain;
+	win = window.open(URL, '_contact_owner', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=' + width + ',height=' + height);
+	if (win) {
+		win.focus();
+	}
+}
+--></script>
+<script type="text/javascript" src="http://static.ndoverdrive.net/js/js_include.js"></script><script language="JavaScript"><!--
+
+function write_related (google_rs) {
+	if (!google_rs) {
+		return;
+	}
+	var google_num_links = google_rs.length;
+
+	if (google_num_links > 15) {
+		google_num_links = 16;
+	}
+
+	var key_src = '';
+	
+	var halfway = parseInt(google_num_links / 2 - 0.5,10);
+
+	if (google_rs[0] && google_rs[0].source) {
+		key_src = google_rs[0].source;
+	} else {
+		key_src = "GO";
+	}
+
+	related_txt_top		= '<span class="white">Related Searches:&nbsp;</span>';
+	related_txt		= '<li class="rs_left_top"><span id="rs1-title">Related Searches</span></li>';
+	related_txt_right 	= '<li class="rs_left_top"><span id="rs2-title">Related Searches</span></li>';
+	
+	for(i = 0; i < google_num_links; i++){
+
+		if (google_rs[i] && google_rs[i].term != undefined) {
+			if (google_rs[i].source) {
+				key_src = google_rs[i].source;
+			} else {
+				key_src = "GO";
+			}
+
+			if (i < 4) {
+				related_txt_top += '<a href="/?' + query_forceadult + '&q_src=RS_T_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" class="white hover_blue" target="_top">' + google_rs[i].term + '</a>&nbsp;&nbsp;';
+			}
+
+			if (lander == 1){
+				if (i == (google_num_links - 1)) {
+					related_txt += '<li class="rs_left_bottom" style="font-size:12px;font-weight:bold;text-align:left"><a href="/?' + query_forceadult + '&q_src=RS_L_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" target="_top">' + google_rs[i].term + '</a></li>';
+				} else {
+					related_txt += '<li class="rs_left_middle" style="font-size:12px;font-weight:bold;text-align:left"><a href="/?' + query_forceadult + '&q_src=RS_L_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" target="_top">' + google_rs[i].term + '</a></li>';
+				}
+			}
+
+			if (lander == 2){ 
+				// alert(google_num_links);
+				if (i > halfway) {
+					if (i == (google_num_links - 1)) {
+						related_txt_right += '<li nowrap class="rs_right_bottom"><a style="font-size:12px;font-weight:bold" href="/?' + query_forceadult + '&q_src=RS_R_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" target="_top">' + google_rs[i].term + '</a></li>';
+					} else {
+						related_txt_right += '<li nowrap class="rs_right_middle"><a style="font-size:12px;font-weight:bold" href="/?' + query_forceadult + '&q_src=RS_R_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" target="_top">' + google_rs[i].term + '</a></li>';
+					}
+				} else {
+					if (i == halfway) {
+						related_txt += '<li nowrap class="rs_left_bottom"><a style="font-size:12px;font-weight:bold" href="/?' + query_forceadult + '&q_src=RS_L_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" target="_top">' + google_rs[i].term + '</a></li>';
+					} else {
+						related_txt += '<li nowrap class="rs_left_middle"><a style="font-size:12px;font-weight:bold" href="/?' + query_forceadult + '&q_src=RS_L_0_' + key_src + '&q=' + encodeURIComponent(google_rs[i].term) + '&tk=' + token + '" target="_top">' + google_rs[i].term + '</a></li>';
+					}
+				}
+			}
+		}
+	}
+}
+
+var RSpopularCategories = '';
+
+function write_portal (portal_keywords) {
+
+	if (!portal_keywords) {
+		return;
+	}
+	for (i = 0; i < 7; i++) {
+		if (portal_keywords[i] && portal_keywords[i].term != undefined) {
+			if (portal_keywords[i].token && portal_keywords[i].token && portal_keywords[i].token != undefined) {
+				portal_token = portal_keywords[i].token;
+			}
+
+			RSpopularCategories += '<div class=cat><a class="popular_category" href="/?' + query_forceadult + '&q_src=PRT&q=' + encodeURIComponent(portal_keywords[i].term) + '&tk=' + portal_token + '">' + portal_keywords[i].term + '</a><br/></div><br>';
+		}
+	}
+
+	if (!google_categories) {
+		return;
+	}
+
+	portal_keywords = google_categories;
+	popularCategories = '<table width=600 border=0 cellpadding=0 cellspacing=0><tr>';
+	var k =0;
+	for (i = 0; i < portal_keywords.length; i++) {
+
+		if (portal_keywords[i] && portal_keywords[i].term != undefined) {
+			if (portal_keywords[i].token && portal_keywords[i].token && portal_keywords[i].token != undefined) {
+				portal_token = portal_keywords[i].token;
+			}
+			popularCategories += '<td align=left>';
+			popularCategories += '<a class="cat" style="font-size:12px;font-weight:bold" href="/?' + query_forceadult + '&q_src=PRT&q=' + encodeURIComponent(portal_keywords[i].term) + '&tk=' + portal_token + '">' + portal_keywords[i].term + '</a><br>';
+			
+			if (portal_keywords[i].subcategories)  {
+				var google_subcategories = portal_keywords[i].subcategories;
+				popularCategories += '<ul>';
+		
+				for (var j = 0; j < google_subcategories.length; j++) {
+					if (google_subcategories[j].term) {
+						popularCategories += '<li><a class="cat" style="font-size:11px;font-weight:normal" href="/?' + query_forceadult + '&q_src=PRT&q=' + encodeURIComponent(google_subcategories[j].term) + '&tk=' + portal_token + '">' + google_subcategories[j].term + '</a>';
+
+				}
+				}
+				popularCategories += '</ul></td>';
+				k++;
+				if (k == 3) {
+					popularCategories += '</tr><tr>';
+					k = 0;
+				}
+			}
+		}
+	}
+	popularCategories += '</tr></table>';	
+
+}
+
+function write_ads (google_ads) {
+	google_num_ads = google_ads.length;
+         
+	for(i = 0; i < google_num_ads; i++){
+		mainads +='<div id="t1" style="padding-bottom:5px;min-width:300px;"><ul>';
+		mainads +='<table border="0" cellspacing="1" cellpadding="0">';
+		mainads +='<tr><td rowspan="100%" valign="top" style="width:35px; padding-top:5px;"><img src="' + img_srv + '/img/_marquee2/ads-arr-mq2.gif" width="24" height="24" alt=""></td></tr>';
+
+		//mainads +='<tr><td><a class="ad_headline nodecoration hover_red" href="' + index + '?&p=' + i + '&q=' + encodeURIComponent(q) + '&q_src=' + encodeURIComponent(q_src) + '&track=' + encodeURIComponent(track) + '" target="_blank">' + google_ads[i].line1 + '</a></td></tr>';
+		
+		mainads +='<tr><td><a onClick="log_click(\'&q=' + encodeURIComponent(q) + '&q_src=' + encodeURIComponent(q_src) + '&track=' + encodeURIComponent(track) + '\');" class="ad_headline nodecoration hover_red" href="' + google_ads[i].url + '" target="_blank">' + google_ads[i].line1 + '</a></td></tr>';
+		
+		mainads +='<tr><td class="ad_line">' + google_ads[i].line2 + '</td></tr>';
+
+		if (google_ads[i].seller_ratings) {
+
+			advertiser_info = google_ads[i].seller_ratings.advertiser_info;
+			rating 		= google_ads[i].seller_ratings.rating;
+			review_count	= google_ads[i].seller_ratings.review_count;
+			source_url 	= google_ads[i].seller_ratings.source_url;
+
+			mainads += '<tr><td class="ad_line">' + advertiser_info + ' ';
+			mainads += '<img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0><img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0><img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0>';
+						
+			if (rating == "4") {
+				mainads += '<img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0><img src="' + img_srv + '/img/stars_zero.png" width=9 height=9 border=0>';
+			}
+			if (rating == "4.5") {
+				mainads += '<img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0><img src="' + img_srv + '/img/stars_half.png" width=9 height=9 border=0>';
+			}
+			if (rating == "5") {
+				mainads += '<img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0><img src="' + img_srv + '/img/stars_one.png" width=9 height=9 border=0>';
+			}
+			mainads += ' (<a class="site_link" href="' + source_url + '" target="_ratings">' + review_count + '</a>)</td></tr>';
+		}
+		
+		mainads +='<tr><td><a id="a1" class="ad_link hover_red" onClick="log_click(\'&q=' + encodeURIComponent(q) + '&q_src=' + encodeURIComponent(q_src) + '&track=' + encodeURIComponent(track) + '\');"  href="' + google_ads[i].url + '" target="_blank">' + google_ads[i].visible_url + '</a></td></tr>';
+		
+		if (google_ads[i].sitelinks) {
+			mainads +='<tr><td style="padding-top:10px; padding-left:15px">';
+			mainads +='<table border=0 cellpadding=0 cellspacing=0><tr>';
+			var k = 0;
+			for(j = 0; j < google_ads[i].sitelinks.length; j++){
+
+				sitelink_url	= google_ads[i].sitelinks[j].url;
+				sitelink_text	= google_ads[i].sitelinks[j].link_text;
+
+				mainads += '<td style="padding-right:16px"><a class="site_link hover_red" onClick="log_click(\'&s=' + j + '&q=' + encodeURIComponent(q) + '&q_src=' + encodeURIComponent(q_src) + '&track=' + encodeURIComponent(track) + '\');" href="' + sitelink_url + '" target="_blank">' + sitelink_text + '</a></td>';
+				
+				k++;
+				if (k == 2) {
+					mainads += '</tr><tr>';
+					k = 0;
+
+				}
+			}
+			mainads += '</tr></table>';
+			mainads += '</td></tr>';
+		}
+		mainads +='</table>';
+		mainads +='</ul></div>';
+	}
+}
+
+function write_searches (google_ads) {
+   
+	mainads += '<br><div style="font-size:8pt; color:#666;font-weight:bold;margin-top: -10px;position:relative; z-index:30;padding-bottom:10px;">Web Searches</div><br><br>';
+
+	for(i = 1; i < google_num_ads; i++){
+		mainads +='<div id="t1" style="padding-bottom: 5px;min-width:300px;"><ul>';
+		mainads +='<table border="0" cellspacing="2" cellpadding="0">';
+		mainads +='<tr><td rowspan="4" valign="top" style="width:35px; padding-top:5px;"><img src="' + img_srv + '/img/_marquee2/ads-arr-mq2.gif" width="24" height="24" alt=""></td></tr>';
+		mainads +='<tr><td><a class="ad_headline nodecoration hover_red" href="' + urls[i] + '" target="_blank" onClick="log_click(\'&q_src=DMZ&q=' + encodeURIComponent(q) + '&url=' + encodeURIComponent(urls[i]) + '\');">' + titles[i] + '</a></td></tr>';
+		mainads +='<tr><td class="ad_line">' + desc[i] + '</td></tr>';
+		mainads +='<tr><td><a id="a1" class="ad_link hover_red" href="' + urls[i] + '" onClick="log_click(\'&q_src=DMZ&q=' + encodeURIComponent(q) + '&url=' + encodeURIComponent(urls[i]) + '\');" target="_blank">' + visible_urls[i] + '</a></td></tr>';
+		mainads +='</table></ul></div>';
+	}
+}
+-->
+</script>
+</head>
+<body>
+<script language="JavaScript" src="http://pagead2.googlesyndication.com/apps/domainpark/show_afd_ads.js"></script>
+<center>
+<div id="main">
+<div id="layer1">&nbsp;</div>
+<div id="layer2">
+<table align="left" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td id='head1' style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/cn_title_tiled.png);background-repeat:no-repeat;'><div style='width:16px;height:74px;">&nbsp;</div></td>
+<td id='head2' style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/title_tiled.png);background-repeat:repeat-x;vertical-align:top;width:360px;">
+<div style="font-size: 17pt;white-space:nowrap;background-image:url('http://static.ndoverdrive.net/img/_marquee2/icons/cat_sm_0.jpg');background-repeat:no-repeat;width:100%;height:74px;padding-left:70px;padding-right:4px;"><span class='h1' style="font-size: 70%;">Welcome to </span><br>
+<span class='h1_domain' style="font-size: 100%;">visionworxpro.com</span>
+</div>
+</td>
+<td style="background: url('http://static.ndoverdrive.net/img/_marquee2/user_search_tiled.png') repeat-x;" ><div id="head5" style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/title_right.png);background-repeat:no-repeat; width:17px;height:74px;"></div></td>
+<td valign="top">
+
+<table align="left" cellspacing="0" cellpadding="0" border='0'>
+<tr>
+<td align="left" valign="top" style="max-width:370px"><div id="head3" style="background: url('http://static.ndoverdrive.net/img/_marquee2/user_search_tiled.png') repeat-x; padding-left:10px;padding-right:5px; max-width:370px;overflow:hidden;height:50px;">
+<p id="head3_contain" style="max-height:40px; overflow:hidden; margin-top:10px;max-width:370px;">
+<script language="JavaScript">
+document.write(related_txt_top);
+</script>
+</p>
+</div></td>
+<td><img id="head4" src="http://static.ndoverdrive.net/img/_marquee2/user_search_right.png" width="18" height="50" alt=""></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div id="layer3">
+<form action="/index.php" name="search" method="GET" style="padding:0px;margin:0px;" onSubmit="search_token_trigger('search_token_field')">
+<input type="hidden" name="adult" value="0">
+<input type="hidden" name="q_src" value="SB">
+<input type="hidden" name="tk" id="search_token_field" value="">
+<table border="0" cellspacing="0" cellpadding="0"  align="center">
+<tr>
+<td id="search_l" style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/search_left.png);background-repeat:no-repeat"><div style='width:15px;height:41px;'>&nbsp;</div></td>
+<td id="search_m1" valign="middle" style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/search_middle.png);background-repeat-x;height:41px;">
+<input type="text" name="q" maxlength="120" value="" class="input_park_page" style="width: 200px;"></td>
+<td id="search_m2" align="left" style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/search_middle.png);background-repeat-x;padding-left:10px;height:41px;"><input type="image" src="http://static.ndoverdrive.net/img/btn_search_en.gif" width="60" height="18" border="0"></td>
+<td id="search_r" style="background-image:url(http://static.ndoverdrive.net/img/_marquee2/search_right.png);background-repeat:no-repeat"><div style='width:18px;height:41px;'>&nbsp;</div></td>
+</tr>
+</table>
+</form>
+</div>
+
+<div id="layer4">
+<img src="http://static.ndoverdrive.net/img/_marquee2/headers/hd_200000_0.jpg" width="982" height="191"></div>
+<div style="padding-top:4px;">
+<table width="100%" align="center" cellspacing="0" cellpadding="0" border='0'>
+<tr><td align="left">&nbsp;</td><td align="right">&nbsp;</td></tr>
+</table>
+</div>
+
+<div id="ads1">
+<table cellpadding='0' cellspacing='0' width='980' style='margin-top:0px' border=0>
+<tr>
+<script language="JavaScript">
+if (lander == 1) {
+	if (related != 0) {
+		document.write('<td style="vertical-align:top;width:250px;"><ul id="rs1">' + related_txt + '</ul></td>');
+	}
+
+	document.write('<td style="vertical-align:top;width:700px">');
+	document.write('<table cellpadding="0" cellspacing="0" border=0 width=100%>');
+	document.write('<tr><td class="c_top_left">&nbsp;</td><td class="c_top_middle">&nbsp;</td><td class="c_top_right">&nbsp;</td></tr>');
+	if (afsmode == 1 && q != '') {
+		document.write('<tr><td class="c_middle_left">&nbsp;</td><td id="ads1-title" style="text-align:left;padding-bottom:15px">Ads</td><td class="c_middle_right">&nbsp;</td></tr><tr><td class="c_middle_left">&nbsp;</td><td>');
+	} else {
+		document.write('<tr><td class="c_middle_left">&nbsp;</td><td id="ads1-title" style="text-align:left;padding-bottom:15px"><a href="#" onclick="window.open(afd_feedback_url)"><u>Ads</u></a></td><td class="c_middle_right">&nbsp;</td></tr><tr><td class="c_middle_left">&nbsp;</td><td>');
+	}
+	document.write(mainads);
+	document.write('<td class="c_middle_right">&nbsp;</td></tr><tr><td class="c_bottom_left">&nbsp;</td><td class="c_bottom_middle">&nbsp;</td><td class="c_bottom_right">&nbsp;</td></tr>');
+	document.write('</table></td>');
+}
+
+if (lander == 2) {
+
+	document.write('<td valign=top align=center height=360><ul id="rs1">' + related_txt + '</ul></td>');
+
+	document.write('<td valign=top height=360>');
+
+	document.write('<table cellpadding="0" cellspacing="0" border="0" width=100% height=100%>');
+	document.write('<tr><td class="c_top_left">&nbsp;</td><td class="c_top_middle">&nbsp;</td><td class="c_top_right">&nbsp;</td></tr>');
+	// document.write('<tr><td class="c_middle_left">&nbsp;</td><td id="ads1-title" style="text-align:center;padding-bottom:15px">Popular Categories</td><td class="c_middle_right">&nbsp;</td></tr>');
+	document.write('<tr><td class="c_middle_left">&nbsp;</td><td>');
+	document.write(RSpopularCategories);
+	document.write('</td><td class="c_middle_right">&nbsp;</td></tr>');
+	document.write('<tr><td class="c_bottom_left">&nbsp;</td><td class="c_bottom_middle">&nbsp;</td><td class="c_bottom_right">&nbsp;</td></tr>');
+	document.write('</table></td>');
+
+	document.write('<td valign=top align=center height=360><ul id="rs2">' + related_txt_right + '</ul></td>');
+
+	document.write('</tr></table>');
+	if (adult != 1) {
+		document.write('<br><br><br><center><table cellpadding="0" cellspacing="0" border="0" width=640>');
+		document.write('<tr><td class="c_top_left">&nbsp;</td><td class="c_top_middle">&nbsp;</td><td class="c_top_right">&nbsp;</td></tr>');
+		document.write('<tr><td class="c_middle_left">&nbsp;</td><td id="ads1-title" style="text-align:center;padding-bottom:15px">Popular Categories</td><td class="c_middle_right">&nbsp;</td></tr>');
+		document.write('<tr><td class="c_middle_left">&nbsp;</td><td valign=top align=center><center><br>');
+
+		document.write(popularCategories);
+
+		document.write('</td><td class="c_middle_right">&nbsp;</td></tr>');
+		document.write('<tr><td class="c_bottom_left">&nbsp;</td><td class="c_bottom_middle">&nbsp;</td><td class="c_bottom_right">&nbsp;</td></tr>');
+		document.write('</table></td>');
+	}
+	
+}
+</script>
+</tr>
+</table>
+</div>
+<br><br>
+<div align="center"></div><br>
+</div>
+</center>
+
+<br>
+<center>
+
+<div id='iamfooter' align='center' style="text-align:center">
+<!-- time: 1339031212.5623 seconds -->
+<br>
+<a onclick="window.open('/privacy.html', 'PPW', 'toolbar=no, location=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=600, height=400, screenX=100, screenY=50')"><u>Privacy Policy</u></a>
+</div>
+
+<br>
+
+</body>
+</html>

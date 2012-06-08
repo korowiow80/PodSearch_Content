@@ -1,0 +1,211 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=EUC-JP">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<META HTTP-EQUIV="Content-Script-Type" CONTENT="text/javascript">
+<link rel="stylesheet" href="/images/_style.css" type="text/css">
+<META NAME="DESCRIPTION" CONTENT="CORESERVER.JPは、PHP+MySQLの快適性を重視した有料レンタルサーバーです。">
+<META NAME="KEYWORDS" CONTENT="サーバー,ドメイン,登録,メール,ネームサーバー,サーバー">
+<TITLE>404 File Not Found - CORESERVER.JP:コアサーバー</TITLE>
+<script language="javascript"><!--
+function ConfirmMsg(msg){
+	var flg = confirm(msg);
+    return flg;
+}
+function ChageBgcolor(o,color) {
+	o.style.backgroundColor = color;
+}
+
+function loading() {
+	if(document.all){
+		SUB.style.visibility = "hidden";
+		MAIN.style.visibility = "visible";
+		return 0;
+	}
+}
+
+function OnMENU1() {
+	if(document.all["MENU1"].style.display == 'none') document.all["MENU1"].style.display = "block";
+	else  document.all["MENU1"].style.display = "none";
+}
+function DelayOnMENU1() {
+	setTimeout("OnMENU1()",2000);
+}
+function OffMENU1() {
+	document.all["MENU1"].style.display = "none";
+}
+function DelayOffMENU1() {
+	setTimeout("DelayOffMENU1()",2000);
+}
+
+lt = new Array(2);
+lt[0] = new Date().getTime();
+
+self.name="MAIN";
+//--></script>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" text="#808080" link="#003399" vlink="#003399" alink="#808080" TOPMARGIN=0 LEFTMARGIN=0 MARGINHEIGHT=0 MARGINWIDTH=0>		
+<TABLE width="734" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD><IMG src="/images/title.gif" alt border="0" usemap="#Map" width="734" height="94"></TD>
+	</TR>
+</TABLE>
+
+<TABLE width="734" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD width="23"><IMG src="/images/index03.jpg" alt width="23" height="34"></TD>
+		<TD width="688" background="/images/index05.jpg">
+			<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+				<TR align="center">
+					<TD><A href="/index.php" class="link01">ホーム</A></TD>
+					<TD><IMG src="/images/index06.jpg" alt width="12" height="34"></TD>
+					<TD><A href="/agreement.php" class="link01">規約</A></TD>
+					<TD><IMG src="/images/index06.jpg" alt width="12" height="34"></TD>					<TD><A href="/signup.php" class="link01">サーバー登録</A></TD>
+					<TD><IMG src="/images/index06.jpg" alt width="12" height="34"></TD>
+					<TD><A href="https://www.value-domain.com/coresv.php" class="link01" onclick="return ConfirmMsg('VALUE-DOMAINへジャンプします。宜しければOKを押してください。')">ログイン</A></TD>
+					<TD><IMG src="/images/index06.jpg" alt width="12" height="34"></TD>
+					<TD><A href="https://www.value-domain.com/regdom.php" class="link01" onclick="return ConfirmMsg('VALUE-DOMAINへジャンプします。宜しければOKを押してください。')">ドメイン登録</A></TD>
+					<TD><IMG src="/images/index06.jpg" alt width="12" height="34"></TD>
+					<TD><A href="/help/" class="link01">サーバーヘルプ</A></TD>
+					<TD><IMG src="/images/index06.jpg" alt width="12" height="34"></TD>
+					<TD><A href="https://www.value-domain.com/support.php?mode=coresv" class="link01" onclick="return ConfirmMsg('VALUE-DOMAINへジャンプします。宜しければOKを押してください。')">サポート</A></TD>
+				</TR>
+			</TABLE>
+		</TD>
+		<TD width="23"><IMG src="/images/index04.jpg" alt width="23" height="34"></TD>
+	</TR>
+</TABLE>
+		
+<TABLE width="734" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD width="17" background="/images/index07.jpg"><IMG src="/images/spacer.gif" alt width="17" height="1"></TD>
+		<TD width="700" bgcolor="#FFFFFF">
+<TABLE WIDTH="470" BORDER="0" CELLSPACING="2" CELLPADDING="2" ALIGN="center">
+<TR>
+<TD COLSPAN="2">
+	<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+		<TR>
+			<TD width="22"><IMG src="/images/index10.jpg" alt width="22" height="37"></TD>
+			<TD background="/images/index12.jpg" ALIGN="LEFT" VALIGN="MIDDLE"><SPAN class="table_header1_message">エラーが発生いたしました</SPAN></TD>
+			<TD width="5"><IMG src="/images/index11.jpg" alt width="5" height="37"></TD>
+		</TR>
+	</TABLE>
+</TD>
+</TR>
+
+<TR><TD COLSPAN="2" VALIGN="middle">
+考えられる原因<BR>
+<LI>ファイルが見つからない。 
+<LI>URL、リンクが間違っている。 
+<LI>アカウントが削除されている。 
+		</TD></TR>
+</TABLE>
+<BR>		
+		</TD>
+		<TD width="17" background="/images/index08.jpg"><IMG src="/images/spacer.gif" alt width="17" height="1"></TD>
+	</TR>
+</TABLE>
+
+<TABLE width="734" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD width="17" background="/images/index07.jpg"><IMG src="/images/spacer.gif" alt width="17" height="1"></TD>
+		<TD width="700" bgcolor="#FFFFFF">
+			<TABLE width="700" border="0" cellspacing="0" cellpadding="0">
+				<TR>
+					<TD width="22"><IMG src="/images/index10.jpg" alt width="22" height="37"></TD>
+					<TD background="/images/index12.jpg"><SPAN class="text01">このページについて</SPAN></TD>
+					<TD width="5"><IMG src="/images/index11.jpg" alt width="5" height="37"></TD>
+				</TR>
+			</TABLE>
+			<TABLE width="100%" border="0" cellspacing="0" cellpadding="0">
+				<TR>
+					<TD>&nbsp;</TD>
+					<TD>このページでは、エラー内容を表示しています。原因をご覧いただき、サイト内容をご確認ください。					</TD>
+				</TR>
+			</TABLE>
+		</TD>
+		<TD width="17" background="/images/index08.jpg"><IMG src="/images/spacer.gif" alt width="17" height="1"></TD>
+	</TR>
+</TABLE>
+
+<TABLE width="734" border="0" align="center" cellpadding="0" cellspacing="0">
+	<TR>
+		<TD width="23"><IMG src="/images/index23.jpg" alt width="23" height="65"></TD>
+		<TD width="688" align="center" background="/images/index25.jpg">
+			<A HREF="https://www.value-domain.com/aboutus.php"><SPAN class="text03">Copyright (c) 2007-2011 DigiRock, Inc. All rights reserved.</SPAN></A><BR>
+		</TD>
+		<TD width="23"><IMG src="/images/index24.jpg" alt width="23" height="65"></TD>
+	</TR>
+</TABLE><MAP name="Map">
+<AREA href="./" shape="rect" coords="32, 28, 462, 82">
+<AREA href="https://www.value-domain.com/coresv.php" shape="rect" coords="494, 49, 547, 65">
+<AREA href="http://sb.xrea.com/" shape="rect" coords="562, 49, 622, 65">
+<AREA href="https://www.value-domain.com/support.php?mode=coresv" shape="rect" coords="634, 49, 702, 65">
+</MAP>
+<A NAME="BOTTOM"></A>
+<SCRIPT LANGUAGE="JAVASCRIPT"><!--
+lt[1] = new Date().getTime();
+ltime = (lt[1]-lt[0])/1000;
+document.write('<DIV ALIGN=CENTER><FONT COLOR="#CCCCCC" SIZE="1" FACE="Tahoma"  CLASS="pt7">Load Time:' + ltime + ' sec.</FONT></DIV>');
+//-->
+</SCRIPT>		
+<DIV id="MENU1" style="position:absolute;z-index:1;left:2px;top:2px;display:none">
+<TABLE BORDER="1" STYLE="border-collapse: collapse" CELLSPACING="0" CELLPADDING="3" ALIGN="center" BORDERCOLOR="#6699CC">
+	<TR BGCOLOR="#6699CC">
+		<TD BGCOLOR="#6699CC" NOWRAP>
+			<FONT SIZE="-1" COLOR="#FFFFFF">▼簡易メニュー</FONT> - <A HREF='/login.php'><FONT SIZE="-1" COLOR="#FFFFFF">ログイン</FONT></A>
+		</TD>
+		<TD ALIGN="RIGHT">
+			<A HREF="javascript:OffMENU1()"><FONT SIZE="-1" COLOR="#FFFFFF">×</FONT></A>
+		</TD>
+	</TR>
+	<TR BGCOLOR="#FFFFFF">
+		<TD BGCOLOR="#FFFFFF" NOWRAP COLSPAN="2">
+			<FONT SIZE=-1>
+			■<A HREF='/'>新規ドメインの取得</A> <A HREF='?action=regdomlist1'>一括登録</A><BR>
+			■<A HREF='/'>取得ドメイン一覧</A><BR>
+			┣<A HREF='/'>WHOIS登録情報の変更</A><BR>
+			┣<A HREF='/'>DNSレコード/URL転送の変更</A><BR>
+			┣<A HREF='/'>ネームサーバーの変更</A><BR>
+			┣<A HREF='/'>メール転送設定の変更</A><BR>
+			┣<A HREF='/'>有効期限確認/更新・延長</A> <A HREF='/?u=&mode=expire'>日付順</A><BR>
+			┣<A HREF='/'>ダイナミックDNS情報</A><BR>
+			┣<A HREF='/'>ドメインロックの変更</A><BR>
+			┗<A HREF='/'>異なるユーザーへ移動させる</A><BR>
+			■<A HREF='/'>汎用JP専用コントロールパネル</A><BR>
+			■<A HREF=''>オークション</A> <A HREF='?action=buy1'>出品ドメイン一覧</A> <A HREF='?action=add1'>出品する</A><BR>
+			■ドメイン移管<BR>
+			┣<A HREF='/'>新しく移管申請を行う</A><BR>
+			┗<A HREF='/?action=getorder1'>移管中のドメインの状態を確認</A><BR>
+			■支払い操作<BR>
+			┣<A HREF='/?action=modifypay1'>支払い情報の変更・振り込み口座情報</A><BR>
+			┣<A HREF='/'>カード(VISA/MASTER/NICOS/JCB/AMEX)でお支払い </A><BR>
+			┣<A HREF=''>WebMoney(ウェブマネー)でお支払い</A><BR>
+			┣<A HREF='/?action=notify1'>銀行振り込み・郵便振替のご連絡</A><BR>
+			┣<A HREF='/?action=transfer'>残金を他のユーザーに送金する</A><BR>
+			┗<A HREF='/?action=viewpaytransaction'>支払い処理明細</A><BR>
+			■<A HREF='/'>サーバーアカウントの登録・管理・購入</A><BR>
+			┣<A HREF='/?action=addfreeweb1'>取得済み無料ウェブアカウントをデータベースに追加</A><BR>
+			┣<A HREF='/?action=signupfreeweb1'>無料ウェブアカウントを取得・作成</A><BR>
+			┗<A HREF='/?action=webtrans1'>異なるユーザーへ移動させる</A><BR>
+			■無料ネームサーバー管理<BR>
+			┣<A HREF='/'>他社で取得されたドメインの新規管理</A><BR>
+			┗<A HREF='/'>DNS情報の変更</A><BR>
+			■<A HREF='' TARGET="_blank">無料アクセス解析サービス</A><BR>
+			┗<A HREF='/'>管理パネル・有料サービスお申し込み</A><BR>
+			</FONT>
+		</TD>
+	</TR>
+</TABLE>
+</DIV>
+
+<map name="FlowMap1">
+<area shape="rect" coords="1,1,152,43" href="http://www.value-domain.com/howto/index.php?action=signup&noheader=" target="_blank" title="ユーザー登録方法">
+<area shape="rect" coords="1,63,152,108" href="http://www.value-domain.com/howto/index.php?action=signup&noheader=" target="_blank" title="お試し登録方法">
+<area shape="rect" coords="1,128,152,170" href="http://www.value-domain.com/howto/?action=payment" target="_blank" title="ご入金方法">
+<area shape="rect" coords="1,192,1520,231" href="http://www.value-domain.com/howto/index.php?action=signup&noheader=" target="_blank" title="登録方法">
+</map>
+
+</BODY>
+</HTML>

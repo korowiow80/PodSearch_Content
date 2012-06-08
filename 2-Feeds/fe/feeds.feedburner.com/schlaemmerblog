@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>webspezi.com :: Willkommen bei webspezi.com</title>
+<meta name="Robots" content="noindex,nofollow" />
+<link rel="index" href="./?_task=login" />
+<link rel="shortcut icon" href="skins/default/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="skins/default/common.css?s=1303397769" />
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="program/js/jquery-1.4.min.js?s=1303397528"></script>
+<script type="text/javascript" src="program/js/common.js?s=1303397525"></script>
+<script type="text/javascript" src="program/js/app.js?s=1303397523"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","request_token":"804bfc669b9041a6324e3107f2cde18e","keep_alive":60,"action":"","comm_path":".\/?_task=login"});
+rcmail.add_label("loading","Lade...");
+rcmail.add_label("servererror","Serverfehler!");
+rcmail.gui_object('message', 'message');
+rcmail.gui_object('loginform', 'form');
+/* ]]> */
+</script>
+</head>
+<body>
+
+<img id="logo" src="skins/default/images/roundcube_logo.png" border="0" alt="webspezi.com" style="margin:0 11px" />
+
+<div id="message"></div>
+
+<div id="login-form">
+<div class="boxtitle">Willkommen bei webspezi.com</div>
+<div class="boxcontent">
+
+<form name="form" action="./" method="post">
+<input type="hidden" name="_token" value="804bfc669b9041a6324e3107f2cde18e" />
+<input type="hidden" name="_task" value="login" /><input type="hidden" name="_action" value="login" /><input type="hidden" name="_timezone" id="rcmlogintz" value="_default_" /><input type="hidden" name="_url" id="rcmloginurl" value="feed=rss2" /><table summary="" border="0"><tbody><tr><td class="title"><label for="rcmloginuser">Benutzername</label>
+</td>
+<td><input name="_user" id="rcmloginuser" autocomplete="off" type="text" /></td>
+</tr>
+<tr><td class="title"><label for="rcmloginpwd">Passwort</label>
+</td>
+<td><input name="_pass" id="rcmloginpwd" autocomplete="off" type="password" /></td>
+</tr>
+</tbody>
+</table>
+
+
+<p style="text-align:center;"><input type="submit" class="button mainaction" value="Anmelden" /></p>
+
+</form>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+$(document).ready(function(){ rcmail.init(); });
+$(document).ready(function(){
+            var images = ["skins\/default\/images\/icons\/folders.png","skins\/default\/images\/mail_footer.png","skins\/default\/images\/taskicons.gif","skins\/default\/images\/display\/loading.gif","skins\/default\/images\/pagenav.gif","skins\/default\/images\/mail_toolbar.png","skins\/default\/images\/searchfield.gif","skins\/default\/images\/messageicons.png","skins\/default\/images\/icons\/reset.gif","skins\/default\/images\/abook_toolbar.png","skins\/default\/images\/icons\/groupactions.png","skins\/default\/images\/watermark.gif"];
+            for (var i=0; i<images.length; i++) {
+                img = new Image();
+                img.src = images[i];
+            }});
+/* ]]> */
+</script>
+</body>
+</html>

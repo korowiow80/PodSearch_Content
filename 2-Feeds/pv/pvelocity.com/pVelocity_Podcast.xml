@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="0PbPa8m9jMpG6mL7x0q3FRHCOy6MXamFThr0VEg0Y80" />
+<title>Profitability and Cost Simulation Software</title>
+	<base href="http://www.pvelocity.com/" />
+
+	<meta http-equiv="Content-Type" content="text/html; Charset=UTF-8" />
+	<meta http-equiv="expires" content="Thu, 07 Jun 2012 01:14:49 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="-1" />
+	
+	<meta http-equiv="content-language" content="en" />
+	
+	<meta name="Keywords" content="pVelocity, margin, profit, cost, simulation, software, optimization, products, assets, materials, suppliers, customers, analysis, analytics, predictive, BI, Business Intelligence, Enterprise Resource Planning, ERP, Supply Chain Management, SCM, Manufacturing, product manager, product management, production, sales, sales management, marketing, marketing management, sales & marketing, financial, standard costs,corporate performance management, product performance, Toronto" />
+
+	<meta name="Description" content="pVelocity Profit and Cost Simulation Software" /> 
+	<style type="text/css" media="screen">.hideme {display:none}</style>
+
+	<link rel="icon" href="pvelocity/images/favicon.png" type="image/png" />
+
+	<link rel="alternate" type="application/rss+xml" title="pVelocity News Feed" href="http://www.pvelocity.com/pvelocity/feeds/newsfeed.xml" /> 	
+	<link type="text/css" media="screen" rel="stylesheet" href="pvelocity/templates/pVelocity_v2/style_website.css" />
+	
+	<script src="css_js/jquery/jquery-1.4.3.min.js" type="text/javascript"></script>	
+	<script type="text/javascript" src="css_js/jquery/jquery-ui-1.7.2.custom.min.js" ></script>
+	<link type="text/css" href="css_js/jquery/smoothness/jquery-ui-1.7.custom.css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="css_js/languages.js"></script>
+	<script type="text/javascript" src="css_js/jquery/jquery.qtip-1.0.0-rc3.min.js"></script>	
+
+	<link type="text/css" rel="stylesheet" href="css_js/jquery/colorbox/colorbox.css" />
+	<script src="css_js/jquery/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery("a.colorboxs").colorbox({transition:"elastic", maxHeight:"90%", slideshow:true });
+		jQuery("a.colorbox").colorbox({transition:"elastic", maxHeight:"90%", slideshow:false });
+		jQuery("a.colorbox_video").colorbox( {width:"700px"} );
+		jQuery("a.colorbox_video_pv").colorbox( {width:"700px"} );
+		jQuery("a.colorbox_video_pv").colorbox( {width:"700px"} );
+		jQuery("a.colorbox_youtube").colorbox({iframe:true, innerWidth:650, innerHeight:396});
+		jQuery("a.colorbox_screenr").colorbox( {width:"650px", height:"396px", scrolling:"false"} );
+	});
+	</script>
+
+	<script type="text/javascript" src="css_js/flowplayer/flowplayer-3.2.4.min.js"></script>
+	
+	<script type="text/javascript" src="css_js/jwplayer/jwplayer.js"></script>
+
+	<link rel="stylesheet" type="text/css" media="all" href="pvelocity/templates/pVelocity_v2/plugin.css" />
+	
+	<script type="text/javascript" src="css_js/swfobject.js"></script>	
+	
+
+
+<script language="Javascript" type="text/javascript">
+jQuery(document).ready(function() {
+
+	jQuery('#r7form-submit').click(function(){
+		jQuery('#r7form, .r7form').prepend('<img src="images/ajax-loader_small.gif" style="float:left;margin-right:10px">');
+		jQuery.post('p_emailform.cfm',jQuery("#r7form, .r7form").serialize(),function(data,status){
+			jQuery('#r7form').fadeOut();
+			jQuery('#r7form').html(data);
+			jQuery('#r7form').fadeIn();
+
+			jQuery('.7form').fadeOut();
+			jQuery('.r7form').html(data);
+			jQuery('.r7form').fadeIn();
+		});
+	});
+
+	jQuery('#subscribe, .subscribe, .subscribe-button').click(function() {
+		if ( document.getElementById('email') ) {
+			e=document.getElementById('email').value;
+			if (e=='') {
+				alert('Please enter your email address');
+				document.getElementById('email').focus();
+			} else {
+				jQuery.post('plugins/subscribe.cfm',jQuery("#emailform, .emailform, .subscribe-form").serialize(),function(data,status){
+					if ( document.getElementById('response') ) {
+						data=jQuery('#response').val();
+					}
+					if ( document.getElementById('subscriberesult') ) {
+						jQuery('#subscriberesult').html(data);
+					} else {
+						jQuery('#emailform, .emailform, .subscribe-form').fadeOut();
+						jQuery('#emailform, .emailform, .subscribe-form').html(data);
+						jQuery('#emailform, .emailform, .subscribe-form').fadeIn();
+					}
+				});
+			}
+			return false
+		} else {
+			alert('The form requires an input field with an ID equal to "email" ');
+		}
+	});
+
+});
+
+</script>
+
+
+	<script type="text/javascript">
+function replacetemplateimage (id) {
+	i=document.getElementById(id).src;
+	sList = window.open('p_insertmedia.cfm?return_type=CSS&amp;div_id=' + i , "list", "resizable=yes,scrollbars=yes,width=1000,height=600");
+}
+
+function confirmSubmit(confirmmessage) {
+	if (typeof confirmmessage == "undefined") {
+		var agree=confirm("Are you sure you wish to continue?");
+	} else {
+		var agree=confirm(confirmmessage);
+	}
+	
+	if (agree) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function modifycss(cls) {
+	res = window.open('p_modifycss.cfm?tag=' + cls, 'mcss', 'width=800,height=100,scrollbars=no,resizable=no');
+}
+
+	</script>
+
+	<style type="text/css">
+	.codeformat {background-color: white;overflow: auto; padding: 5px; margin-top: 5px; margin-bottom: 5px; border-style: solid; border-width: thin; white-space: nowrap; font-size: 0.8em;}
+	.menub { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: black; font-weight: bold; text-decoration: none }
+	.std {font-family: Arial; font-size: 12px; color: #484848; text-decoration: none} 
+	#tooltips td, #tooltips th {padding:0 !important; border: none !important;}
+	#tooltips tr {background-color: #DFE22B !important;}
+	#tooltips {margin:0 !important;padding:0 !important}
+	#tooltips img {margin:0 !important;padding:0 !important; border: none !important;}
+	a#language-link { background:#CCC; padding:5px; cursor:pointer; font-family: arial; font-size: 12px }
+	div#languages { position:absolute; xtop: 5px; border:1px solid #CCC; background:#FFF; padding:10px; display:none; font-family: arial; font-size: 12px; width: 120px; z-index: 1000000 }
+	
+	</style>
+
+
+<link rel="icon" href="pvelocity/templates/pVelocity_v2/favicon.ico" type="image/x-icon" />
+
+<link href="pvelocity/templates/pVelocity_v2/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="pvelocity/templates/pVelocity_v2/css/main.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!--[if IE 7]>
+<link href="pvelocity/templates/pVelocity_v2/css/ie7-main.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link href="pvelocity/templates/pVelocity_v2/css/ie6-main.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="pvelocity/templates/pVelocity_v2/js/DD_belatedPNG.js"></script>
+<script>
+  DD_belatedPNG.fix('div, .logo, img');
+</script>
+<![endif]-->
+
+<!-- Load jQuery -->
+
+<style>
+#topnav li a {margin-right: 50px !important}
+</style>
+
+<!-- Load Hover Intent -->
+<script type="text/javascript" src="pvelocity/templates/pVelocity_v2/js/jquery.hoverIntent.minified.js"></script>
+
+<script>
+$(document).ready(function() {
+	//On Hover Over
+function megaHoverOver(){
+    $(this).find(".sub").stop().fadeTo('fast', 1).show(); //Find sub and fade it in
+    (function($) {
+        //Function to calculate total width of all ul's
+        jQuery.fn.calcSubWidth = function() {
+            rowWidth = 0;
+            //Calculate row
+            $(this).find("ul").each(function() { //for each ul...
+                rowWidth += $(this).width(); //Add each ul's width together
+            });
+        };
+    })(jQuery); 
+
+    if ( $(this).find(".row").length > 0 ) { //If row exists...
+
+        var biggestRow = 0;	
+
+        $(this).find(".row").each(function() {	//for each row...
+            $(this).calcSubWidth(); //Call function to calculate width of all ul's
+            //Find biggest row
+            if(rowWidth > biggestRow) {
+                biggestRow = rowWidth;
+            }
+        });
+
+        //$(this).find(".sub").css({'width' :biggestRow}); //Set width
+        $(this).find(".row:last").css({'margin':'0'});  //Kill last row's margin
+
+    } else { //If row does not exist...
+
+        $(this).calcSubWidth();  //Call function to calculate width of all ul's
+        //$(this).find(".sub").css({'width' : rowWidth}); //Set Width
+
+    }
+}
+//On Hover Out
+function megaHoverOut(){
+  $(this).find(".sub").stop().fadeTo('fast', 0, function() { //Fade to 0 opactiy
+      $(this).hide();  //after fading, hide it
+  });
+}
+
+//Set custom configurations
+var config = {
+     sensitivity: 2, // number = sensitivity threshold (must be 1 or higher)
+     interval: 50, // number = milliseconds for onMouseOver polling interval
+     over: megaHoverOver, // function = onMouseOver callback (REQUIRED)
+     timeout: 200, // number = milliseconds delay before onMouseOut
+     out: megaHoverOut // function = onMouseOut callback (REQUIRED)
+};
+
+$("ul#topnav li .sub").css({'opacity':'0'}); //Fade sub nav to 0 opacity on default
+$("ul#topnav li").hoverIntent(config); //Trigger Hover intent with custom configurations
+
+});
+</script>
+
+</head>
+
+
+<body>
+<div id="header">
+	<div class="container">
+
+    	<div class="logo"><a href="index.cfm" title="Home"><img src="pvelocity/templates/pVelocity_v2/images/pvelocity-logo.png" border="0"/></a></div>
+        <div class="nav">
+        	<ul>
+               <li class=''> 
+					<a href="index.cfm"  title=''>Home</a>
+				</li>  <li class='spacer'>|</li> <li> 
+					<a href="index.cfm/14505/Careers"  title=''>Careers</a>
+				</li>  <li class='spacer'>|</li> <li> 
+					<a href="index.cfm/14500/Contact Us"  title=''>Contact Us</a>
+				</li>  <li class='spacer'>|</li> <li> 
+					<a href="/?ms=1"  title=''>Mobile</a>
+				</li>         		
+                <li class="spacer">|</li>
+                <li style="color:whitesmoke">+1 416-493-8000</li>
+            </ul>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+
+</div>
+<div id="banner">
+	<div class="container" >
+	<div style="padding-left: 35px">
+		<ul id='topnav'>
+<li class='root-li'><a  title="Profitability &amp; Cost Optimization" href="index.cfm/10073/profitability-cost-optimization">Profitability &amp; Cost<br>Optimization</a>
+<li class='root-li'><a  title="Your Operational Role" href="index.cfm/14506/your-operational-role">Your Operational<br>Role</a>
+<div class='sub'>
+
+<ul>
+<li><a  title="Production &amp; Supply Chain" href="index.cfm/14507/production-supply-chain"> Production &amp; Supply Chain</a>
+<li><a  title="Sales &amp; Marketing" href="index.cfm/14508/sales-marketing"> Sales &amp; Marketing</a>
+<li><a  title="Product &amp; Pricing Management" href="index.cfm/14509/product-pricing-management"> Product &amp; Pricing Management</a>
+<li><a  title="Corporate" href="index.cfm/14510/corporate"> Corporate</a>
+</ul>
+
+</div>
+<li class='root-li'><a  title="pVelocity Solution" href="index.cfm/14511/pvelocity-solution">pVelocity<br>Solution</a>
+<div class='sub'>
+
+<ul>
+<li><a  title="pVelocity HD Mobile App" href="index.cfm/14575/pvelocity-hd-mobile-app"> pVelocity HD Mobile App</a>
+<li><a  title="pVelocity mobile" href="index.cfm/14565/pvelocity-mobile"> pVelocity mobile</a>
+<li><a  title="pVelocity Software" href="index.cfm/14561/pvelocity-software"> pVelocity Software</a>
+<li><a  title="pVelocity &amp; Pricing" href="index.cfm/14574/pvelocity-pricing"> pVelocity &amp; Pricing</a>
+<li><a  title="Business Efficiencies" href="index.cfm/14562/business-efficiencies"> Business Efficiencies</a>
+</ul>
+
+</div>
+<li class='root-li'><a  title="pVelocity Technology" href="index.cfm/14524/pvelocity-technology">pVelocity<br>Technology</a>
+<div class='sub'>
+
+<ul>
+<li><a  title="System Integration" href="index.cfm/14525/system-integration"> System Integration</a>
+<li><a  title="Implementation Methodology" href="index.cfm/14526/implementation-methodology"> Implementation Methodology</a>
+<li><a  title="Support" href="index.cfm/14527/support"> Support</a>
+<li><a  title="pVelocity and Enterprise Systems" href="index.cfm/14551/pvelocity-and-enterprise-systems"> pVelocity and Enterprise Systems</a>
+</ul>
+
+</div>
+<li class='root-li'><a  title="Our Partners" href="index.cfm/14538/our-partners">Our<br>Partners</a>
+<div class='sub'>
+
+<ul>
+<li><a  title="Dell Inc." href="index.cfm/14552/dell-inc"> Dell Inc.</a>
+<li><a  title="Technology Partners" href="index.cfm/14534/technology-partners"> Technology Partners</a>
+<li><a  title="Regional Partners" href="index.cfm/14556/regional-partners"> Regional Partners</a>
+</ul>
+
+</div>
+<li class='root-li'><a  title="Learn More" href="index.cfm/14517/learn-more">Learn<br>More</a>
+<div class='sub'>
+
+<ul>
+<li><a  title="Success Stories" href="index.cfm/14518/success-stories"> Success Stories</a>
+<li><a  title="Sample Analytics &amp; Simulations" href="index.cfm/14528/sample-analytics-simulations"> Sample Analytics &amp; Simulations</a>
+<li><a  title="Needs Assessment" href="index.cfm/14529/needs-assessment"> Needs Assessment</a>
+<li><a  title="Request A Demo" href="index.cfm/14530/request-a-demo"> Request A Demo</a>
+<li><a  title="Additional Resources" href="index.cfm/14540/additional-resources"> Additional Resources</a>
+<li><a  title="Videos" href="index.cfm/14558/videos"> Videos</a>
+</ul>
+
+</div>
+<li class='root-li'><a  title="About pVelocity" href="index.cfm/14531/about-pvelocity">About<br>pVelocity</a>
+<div class='sub'>
+
+<ul>
+<li><a  title="Leadership Teams" href="index.cfm/14532/leadership-teams"> Leadership Teams</a>
+<li><a  title="Customers" href="index.cfm/14533/customers"> Customers</a>
+</ul>
+
+</div>
+</ul>
+
+
+	</div>
+        <div class="btns" >
+		
+		<table id="but" style="color: rgb(219,229,241);text-align: center; font-family: arial; font-size: 12px; margin-right: 20px">
+		<tr>
+			<td width="245px" align="center">
+				<div style="width: 210px">
+				<span id="chunk104"><a class="colorbox_video_pv" href="http://www.pvelocity.com/index.cfm?docid=14554&amp;nooptions=y"><img src="http://www.pvelocity.com/pvelocity/images/Vid1 screen cap2.png-100062.jpg" alt="" align="pVelocity Video One!" border="0" /></a><br />Watch a Video - Profitability &amp; Cost Simulation Software</span>
+				</div>
+			</td>
+			<td width="180px" align="center">
+				<div style="width: 170px">
+				<span id="chunk105"><a href="http://www.pvelocity.com/index.cfm/14575/pvelocity-hd-mobile-app"><img id="2012/04/pvhdbutton2.png" src="http://www.pvelocity.com/pvelocity/images/2012/04/pvhdbutton2.png" alt="" border="0" /></a><br />pVelocityHD for the iPad</span>
+				</div>
+			</td>
+			<td width="122px" align="center" style="width:122px">
+				<span id="chunk106"><a title="Dell Product &amp; Profit Analytics Manufacturing Solution" href="http://content.dell.com/us/en/corp/d/press-releases/2011-11-29-dell-dppa-solution-launch.aspx" target="_blank"><img id="Dell_logo_with_tag_reverse.png" src="http://pvelocity.rave7.net/pvelocity/images/Dell_with_tag_square.png" alt="" width="120" height="120" border="0" /></a><br />Dell Product &amp; Profit <br />Analytics Announced</span>
+			</td>
+		</tr>
+		</table>
+		
+        	
+        	
+        	
+        </div>
+        
+	<div style="clear:both;"></div>
+
+	
+	</div>
+    </div>
+
+</div>
+
+<div id="promos" >
+  <div class="promo" style="margin-left:0px">
+    	<a href="index.cfm/14506/Your Operational Role"><img src="pvelocity/templates/pVelocity_v2/images/promo-1.jpg" alt="Product, Customer &amp; Asset Performance" border="0" /></a>
+        <ul>
+        	
+			<li><a title="Production & Supply Chain" href="index.cfm/14507/production-supply-chain">Production & Supply Chain</a></li>
+		
+			<li><a title="Sales & Marketing" href="index.cfm/14508/sales-marketing">Sales & Marketing</a></li>
+		
+			<li><a title="Product & Pricing Management" href="index.cfm/14509/product-pricing-management">Product & Pricing Management</a></li>
+		
+			<li><a title="Corporate" href="index.cfm/14510/corporate">Corporate</a></li>
+		
+        </ul>
+  </div>
+    <div class="promo">
+    <a href="index.cfm/14574/pVelocity & Pricing"><img src="pvelocity/images/2012/02/pvelocityandpricing2.png" alt="Using pVelocity for Pricing" border="0" /></a>
+        <span id="chunk102"><p>See how pVelocity software captures and models detailed manufacturing activity to build up to an optimal price through simulation and analysis of all available pricing levers</p></span>
+
+    </div>
+	<div class="promo-none">
+        <span id="chunk103"><A href="index.cfm/14540/additional-resources"><IMG id=promo-btn-3-green.png border=0 alt="" src="http://www.pvelocity.com/pvelocity/images/promo-btn-3-green.png"></A><BR>
+<P>Learn more about pVelocity's out-of-the-box, configurable solution with downloadable PDFs of collateral, case studies, and more.</P></span>
+    </div>
+    <div style="clear:both;"></div>  
+</div>
+
+
+
+
+
+
+<!-- Include Footer -->
+
+<!--snippet="footer"-->
+<div id="footer">
+
+	<div class="container">
+    	<table width="980" border="0" cellspacing="0" cellpadding="0">
+  			<tr>
+   			  <td width="143" class="1">
+                <ul>
+            		<li class="title"><a href="pvelocity/templates/pVelocity_v2/profitability-cost-optimization.php">Profitability &amp; Cost Optimization</a></li>
+            	</ul>
+
+                </td>
+    			<td width="168" class="2">
+       		  <ul>
+            		<li class="title"><a href="index.cfm/14506/Your Operational Role">Your Operational Role</a></li>
+            		
+			<li><a title="Production & Supply Chain" href="index.cfm/14507/production-supply-chain">Production & Supply Chain</a></li>
+		
+			<li><a title="Sales & Marketing" href="index.cfm/14508/sales-marketing">Sales & Marketing</a></li>
+		
+			<li><a title="Product & Pricing Management" href="index.cfm/14509/product-pricing-management">Product & Pricing Management</a></li>
+		
+			<li><a title="Corporate" href="index.cfm/14510/corporate">Corporate</a></li>
+		
+            	 </ul>
+                </td>
+   			  <td width="188" class="3">
+       		  <ul>
+            		<li class="title"><a href="index.cfm/14511/pVelocity Solution">pVelocity Solution</a></li>
+            			<ul class="sub">
+                			
+			<li><a title="pVelocity HD Mobile App" href="index.cfm/14575/pvelocity-hd-mobile-app">pVelocity HD Mobile App</a></li>
+		
+			<li><a title="pVelocity mobile" href="index.cfm/14565/pvelocity-mobile">pVelocity mobile</a></li>
+		
+			<li><a title="pVelocity Software" href="index.cfm/14561/pvelocity-software">pVelocity Software</a></li>
+		
+			<li><a title="pVelocity & Pricing" href="index.cfm/14574/pvelocity-pricing">pVelocity & Pricing</a></li>
+		
+			<li><a title="Business Efficiencies" href="index.cfm/14562/business-efficiencies">Business Efficiencies</a></li>
+		
+            			</ul>
+            	</ul>                
+                </td>
+   			  <td width="173" class="4">
+	       		<ul>
+            			<li class="title"><a href="pvelocity/templates/pVelocity_v2/pvelocity-technology.php">pVelocity Technology</a></li>
+            			
+			<li><a title="System Integration" href="index.cfm/14525/system-integration">System Integration</a></li>
+		
+			<li><a title="Implementation Methodology" href="index.cfm/14526/implementation-methodology">Implementation Methodology</a></li>
+		
+			<li><a title="Support" href="index.cfm/14527/support">Support</a></li>
+		
+			<li><a title="pVelocity and Enterprise Systems" href="index.cfm/14551/pvelocity-and-enterprise-systems">pVelocity and Enterprise Systems</a></li>
+		
+	        	</ul>                
+                </td>
+   			  <td width="153" class="5">
+       		  <ul>
+            		<li class="title"><a href="pvelocity/templates/pVelocity_v2/learn-more.php">Learn More</a></li>
+            		
+			<li><a title="Success Stories" href="index.cfm/14518/success-stories">Success Stories</a></li>
+		
+			<li><a title="Sample Analytics & Simulations" href="index.cfm/14528/sample-analytics-simulations">Sample Analytics & Simulations</a></li>
+		
+			<li><a title="Needs Assessment" href="index.cfm/14529/needs-assessment">Needs Assessment</a></li>
+		
+			<li><a title="Request A Demo" href="index.cfm/14530/request-a-demo">Request A Demo</a></li>
+		
+			<li><a title="Additional Resources" href="index.cfm/14540/additional-resources">Additional Resources</a></li>
+		
+			<li><a title="Videos" href="index.cfm/14558/videos">Videos</a></li>
+		
+          		</ul>                
+                </td>
+   			  <td width="153" class="6">
+       		  	
+       		  	<ul>
+
+            		<li class="title"><a href="pvelocity/templates/pVelocity_v2/about-pvelocity.php">Our Partners</a></li>
+            		
+			<li><a title="Dell Inc." href="index.cfm/14552/dell-inc">Dell Inc.</a></li>
+		
+			<li><a title="Technology Partners" href="index.cfm/14534/technology-partners">Technology Partners</a></li>
+		
+			<li><a title="Regional Partners" href="index.cfm/14556/regional-partners">Regional Partners</a></li>
+		
+
+            		</ul>                
+			
+			<br><br>
+       		  	
+       		  	<ul>
+
+            		<li class="title"><a href="pvelocity/templates/pVelocity_v2/about-pvelocity.php">About pVelocity</a></li>
+            		
+			<li><a title="Leadership Teams" href="index.cfm/14532/leadership-teams">Leadership Teams</a></li>
+		
+			<li><a title="Customers" href="index.cfm/14533/customers">Customers</a></li>
+		
+
+            		</ul>                
+                </td>
+		  </tr>
+
+		</table>
+	
+  
+    <div class="bottom">          
+    	<div class="copyright">
+    	  <p>&copy; Copyright pVelocity 2011 | 
+				<a href="index.cfm?DocId=login"  title='' target=_top>Login</a>
+			| 
+				<a href="index.cfm?DocId=14515"  title=''>Privacy Policy</a>
+			 </p></div>
+        <div class="credit">
+        	<p>Design by <a href="http://www.parachutedesign.ca" target="_blank">Parachute</a> | Powered by <a href="http://www.rave7.com" target="_blank">rave7 &trade;</a></p>
+        
+        </div> 
+        <div style="clear:both;"></div>   
+	</div>       
+    </div>
+
+</div>
+<!--snippet-->
+
+
+<span class="fixiebug" style="display:none">rave7&trade;</span>
+
+<ul id="languagemenu" class="flexdropdownmenu" style="display:none">
+
+	<li><a href="index.cfm/language/fr/French">French</a></li>
+
+	<li><a href="index.cfm/language/home/English">English</a></li>
+
+</ul>
+
+</body>
+</html>
+<!--rave7-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23372277-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+
+<script type="text/javascript" src="css_js/jquery/poshtip/jquery.poshytip.js"></script>
+<link rel="stylesheet" href="css_js/jquery/poshtip/tip-yellow.css" type="text/css" />
+
+
+<!--rave7 CMS-->

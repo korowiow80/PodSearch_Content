@@ -1,0 +1,48 @@
+<html><head><title>SUSPENDED</title>
+<style type="text/css"><!--
+.style1 {
+color: #FFFF00;
+font-weight: bold;
+font-size: 24px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style2 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+body {
+background-color: #CCCCCC;
+}
+.style4 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-weight: bold;
+}-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body>
+<table bgcolor=#ffffff link=#0000ee vlink=#0000ee text=#000000 border=0 align="center" width="100%">
+<tr class=cellheader>
+<td bgcolor=#788298><center>
+<span class="style1">This Account Has Exceeded Its CPU Quota </span>
+</center></td>
+</tr>
+</table>
+<p class="style4">Please contact this site's webmaster.</p>
+<p><span class="style2">Wait a few minutes and use your browser's &quot;Back&quot; button or click <a href="javascript:history.go(-1)">here</a> to try again.<br>
+<br>
+</span></p>
+<hr>
+<span class="style2">
+If you are the webmaster, your account may have gotten this error for one or more of the following reasons:
+<ul>
+<li>Your account has used more than its share of the cpu in the past 60 second sliding window.
+<li>Your account has too many concurrent processes running simultanously.
+<li>Your account has consumed too much memory.
+<li>Your site was recently very busy trying to run inefficient scripts.
+</ul>
+The solution would be to optimize your applications to use less CPU.<br>
+Adding appropriate indeces to your SQL tables can often help reduce CPU.<br>
+Using static .html documents instead of painful .php scripts will practically eliminate CPU usage.<br>
+</span>
+<BR>
+</html>

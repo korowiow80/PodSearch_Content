@@ -1,0 +1,546 @@
+<HEAD>
+<TITLE>ralph.de....Plattform f&uuml;r elaborierten SmallTalk</TITLE>
+</HEAD>
+	<HTML>
+
+<head>
+<style type="text/css">/*
+ * Galleria Classic Theme
+ * Copyright (c) 2010, Aino
+ * Licensed under the MIT license.
+ */
+ 
+.galleria-container {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+.galleria-container img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.galleria-stage {
+    position: absolute;
+    top: 10px;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+    overflow:hidden;
+}
+.galleria-thumbnails-container {
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+}
+.galleria-carousel .galleria-thumbnails-list {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.galleria-thumbnails .galleria-image {
+    height: 40px;
+    width: 60px;
+    background: #000;
+    margin: 0 5px 0 0;
+    border: 1px solid #000;;
+    float: left;
+    cursor: pointer;
+}
+.galleria-counter {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: right;
+    color: #fff;
+    font: normal 11px/1 arial,sans-serif;
+    z-index: 2;
+}
+.galleria-loader {
+    background: #000;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    display: none;
+    background: url(/sixcms/media.php/23/classic-loader.gif) no-repeat 2px 2px;
+}
+.galleria-info {
+    width: 50%;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    position: absolute;
+}
+.galleria-info-text {
+    background-color: #000;
+    padding: 12px;
+    display: none;
+    /* IE7 */ zoom:1;
+}
+.galleria-info-title {
+    font: bold 12px/1.1 arial,sans-serif;
+    margin: 0;
+    color: #fff;
+	margin-bottom: 7px;
+}
+.galleria-info-description {
+    font: italic 12px/1.4 georgia,serif;
+    margin: 0;
+    color: #bbb;
+}
+.galleria-info-close {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-position: -753px -11px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+    display: none;
+}
+.galleria-info-close:hover{
+    opacity:1;
+    filter: alpha(opacity=100);
+}
+.galleria-info-link {
+    background-position: -669px -5px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #000;
+}
+.galleria-info-link:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.galleria-image-nav {
+    position: absolute;
+    top: 50%;
+    margin-top: -62px;
+    width: 100%;
+    height: 62px;
+    left: 0;
+}
+.galleria-image-nav-left,
+.galleria-image-nav-right {
+    opacity: .3;
+    filter: alpha(opacity=30);
+    cursor: pointer;
+    width: 62px;
+    height: 124px;
+    position: absolute;
+    left: 10px;
+    z-index: 2;
+    background-position: 0 46px;
+}
+.galleria-image-nav-right {
+    left: auto;
+    right: 10px;
+    background-position: -254px 46px;
+    z-index: 2;
+}
+.galleria-image-nav-left:hover,
+.galleria-image-nav-right:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.galleria-thumb-nav-left,
+.galleria-thumb-nav-right {
+    cursor: pointer;
+    display: none;
+    background-position: -495px 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 23px;
+    z-index: 3;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+.galleria-thumb-nav-right {
+    background-position: -578px 5px;
+    border-right: none;
+    right: 0;
+    left: auto;
+}
+.galleria-thumbnails-container .disabled {
+    opacity: .2;
+    filter: alpha(opacity=20);
+    cursor: default;
+}
+.galleria-thumb-nav-left:hover,
+.galleria-thumb-nav-right:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    background-color: #111;
+}
+.galleria-thumbnails-container .disabled:hover {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    background-color: transparent;
+}
+
+.galleria-carousel .galleria-thumb-nav-left,
+.galleria-carousel .galleria-thumb-nav-right {
+    display: block;
+}
+.galleria-thumb-nav-left,
+.galleria-thumb-nav-right,
+.galleria-info-link,
+.galleria-info-close,
+.galleria-image-nav-left,
+.galleria-image-nav-right {
+    background-image: url(/sixcms/media.php/23/classic-map.png);
+    background-repeat: no-repeat;
+}
+</style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
+</script>
+
+<script type="text/javascript" src="/sixcms/detail.php?template=js_gallery">
+</script>
+
+ </head>
+
+<BODY LINK=#111166 VLINK=#111166>
+<TITLE>ralph.de Plattform f&uuml;r elaborierten Smalltalk</TITLE>
+
+ 
+
+<TABLE>
+	<TR>
+		<TD WIDTH=100> </TD>
+		<TD WIDTH=500 VALIGN=CENTER><a href=/sixcms/list.php?page=startseite><IMG SRC=/sixcms/media.php/23/rdelogo2.gif?backend_call=true  BORDER=0> </a> 
+
+
+ </TD>
+		<TD WDITH=100 VALIGN=BOTTOM>  </TD>
+	</TR>
+<TR>
+<TD COLSPAN=3><HR></TD>
+</TR>
+	<TR HEIGHT=20>
+		<TD>
+ <FONT FACE=ARIAL SIZE=-2>07.06.2012 
+ </TD>
+<TD>
+ <FONT FACE=COURIER>Plattform für elaborierten SmallTalk</FONT></TD>
+<TD></TD>
+	</TR>
+<TR>
+<TD COLSPAN=3><HR></TD>
+</TR>
+
+
+
+	<TR>
+		<TD VALIGN=TOP width=160>
+
+<B><FONT FACE=ARIAL COLOR=#771111>Ressort</FONT></B><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1 COLOR=#111166>
+
+<a href=/sixcms/list.php?page=p_gallery style="text-decoration:none">Bildergalerie</A><BR>
+
+<a href=/sixcms/list.php?page=wirtschaft style="text-decoration:none">Wirtschaft</A><BR>
+
+<a href=/sixcms/list.php?page=kultur style="text-decoration:none">Kultur</A><BR>
+
+<a href=/sixcms/list.php?page=menschen style="text-decoration:none">Menschen</A><BR>
+
+<a href=/sixcms/list.php?page=politik style="text-decoration:none">Politik</A><BR>
+</FONT><BR>
+
+<script language="JavaScript" type="text/javascript">
+			function app_window (loc, name, addition) {
+				var options = 'toolbar=no,location=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes';
+				if (addition && addition != "") {
+					options = addition + ',' + options;
+				} else {
+					options = 'width=460,height=500,' + options;
+				}
+				var fb_win = window.open (loc, name, options);
+				fb_win.focus();
+			}
+                      
+                        function swfobjects {
+if(typeof deconcept=="undefined"){var deconcept=new Object();}if(typeof deconcept.util=="undefined"){deconcept.util=new Object();}if(typeof deconcept.SWFObjectUtil=="undefined"){deconcept.SWFObjectUtil=new Object();}deconcept.SWFObject=function(_1,id,w,h,_5,c,_7,_8,_9,_a){if(!document.getElementById){return;}this.DETECT_KEY=_a?_a:"detectflash";this.skipDetect=deconcept.util.getRequestParameter(this.DETECT_KEY);this.params=new Object();this.variables=new Object();this.attributes=new Array();if(_1){this.setAttribute("swf",_1);}if(id){this.setAttribute("id",id);}if(w){this.setAttribute("width",w);}if(h){this.setAttribute("height",h);}if(_5){this.setAttribute("version",new deconcept.PlayerVersion(_5.toString().split(".")));}this.installedVer=deconcept.SWFObjectUtil.getPlayerVersion();if(!window.opera&&document.all&&this.installedVer.major>7){deconcept.SWFObject.doPrepUnload=true;}if(c){this.addParam("bgcolor",c);}var q=_7?_7:"high";this.addParam("quality",q);this.setAttribute("useExpressInstall",false);this.setAttribute("doExpressInstall",false);var _c=(_8)?_8:window.location;this.setAttribute("xiRedirectUrl",_c);this.setAttribute("redirectUrl","");if(_9){this.setAttribute("redirectUrl",_9);}};deconcept.SWFObject.prototype={useExpressInstall:function(_d){this.xiSWFPath=!_d?"expressinstall.swf":_d;this.setAttribute("useExpressInstall",true);},setAttribute:function(_e,_f){this.attributes[_e]=_f;},getAttribute:function(_10){return this.attributes[_10];},addParam:function(_11,_12){this.params[_11]=_12;},getParams:function(){return this.params;},addVariable:function(_13,_14){this.variables[_13]=_14;},getVariable:function(_15){return this.variables[_15];},getVariables:function(){return this.variables;},getVariablePairs:function(){var _16=new Array();var key;var _18=this.getVariables();for(key in _18){_16[_16.length]=key+"="+_18[key];}return _16;},getSWFHTML:function(){var _19="";if(navigator.plugins&&navigator.mimeTypes&&navigator.mimeTypes.length){if(this.getAttribute("doExpressInstall")){this.addVariable("MMplayerType","PlugIn");this.setAttribute("swf",this.xiSWFPath);}_19="<embed type=\"application/x-shockwave-flash\" src=\""+this.getAttribute("swf")+"\" width=\""+this.getAttribute("width")+"\" height=\""+this.getAttribute("height")+"\" style=\""+this.getAttribute("style")+"\"";_19+=" id=\""+this.getAttribute("id")+"\" name=\""+this.getAttribute("id")+"\" ";var _1a=this.getParams();for(var key in _1a){_19+=[key]+"=\""+_1a[key]+"\" ";}var _1c=this.getVariablePairs().join("&");if(_1c.length>0){_19+="flashvars=\""+_1c+"\"";}_19+="/>";}else{if(this.getAttribute("doExpressInstall")){this.addVariable("MMplayerType","ActiveX");this.setAttribute("swf",this.xiSWFPath);}_19="<object id=\""+this.getAttribute("id")+"\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\""+this.getAttribute("width")+"\" height=\""+this.getAttribute("height")+"\" style=\""+this.getAttribute("style")+"\">";_19+="<param name=\"movie\" value=\""+this.getAttribute("swf")+"\" />";var _1d=this.getParams();for(var key in _1d){_19+="<param name=\""+key+"\" value=\""+_1d[key]+"\" />";}var _1f=this.getVariablePairs().join("&");if(_1f.length>0){_19+="<param name=\"flashvars\" value=\""+_1f+"\" />";}_19+="</object>";}return _19;},write:function(_20){if(this.getAttribute("useExpressInstall")){var _21=new deconcept.PlayerVersion([6,0,65]);if(this.installedVer.versionIsValid(_21)&&!this.installedVer.versionIsValid(this.getAttribute("version"))){this.setAttribute("doExpressInstall",true);this.addVariable("MMredirectURL",escape(this.getAttribute("xiRedirectUrl")));document.title=document.title.slice(0,47)+" - Flash Player Installation";this.addVariable("MMdoctitle",document.title);}}if(this.skipDetect||this.getAttribute("doExpressInstall")||this.installedVer.versionIsValid(this.getAttribute("version"))){var n=(typeof _20=="string")?document.getElementById(_20):_20;n.innerHTML=this.getSWFHTML();return true;}else{if(this.getAttribute("redirectUrl")!=""){document.location.replace(this.getAttribute("redirectUrl"));}}return false;}};deconcept.SWFObjectUtil.getPlayerVersion=function(){var _23=new deconcept.PlayerVersion([0,0,0]);if(navigator.plugins&&navigator.mimeTypes.length){var x=navigator.plugins["Shockwave Flash"];if(x&&x.description){_23=new deconcept.PlayerVersion(x.description.replace(/([a-zA-Z]|\s)+/,"").replace(/(\s+r|\s+b[0-9]+)/,".").split("."));}}else{if(navigator.userAgent&&navigator.userAgent.indexOf("Windows CE")>=0){var axo=1;var _26=3;while(axo){try{_26++;axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+_26);_23=new deconcept.PlayerVersion([_26,0,0]);}catch(e){axo=null;}}}else{try{var axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");}catch(e){try{var axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");_23=new deconcept.PlayerVersion([6,0,21]);axo.AllowScriptAccess="always";}catch(e){if(_23.major==6){return _23;}}try{axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash");}catch(e){}}if(axo!=null){_23=new deconcept.PlayerVersion(axo.GetVariable("$version").split(" ")[1].split(","));}}}return _23;};deconcept.PlayerVersion=function(_29){this.major=_29[0]!=null?parseInt(_29[0]):0;this.minor=_29[1]!=null?parseInt(_29[1]):0;this.rev=_29[2]!=null?parseInt(_29[2]):0;};deconcept.PlayerVersion.prototype.versionIsValid=function(fv){if(this.major<fv.major){return false;}if(this.major>fv.major){return true;}if(this.minor<fv.minor){return false;}if(this.minor>fv.minor){return true;}if(this.rev<fv.rev){return false;}return true;};deconcept.util={getRequestParameter:function(_2b){var q=document.location.search||document.location.hash;if(_2b==null){return q;}if(q){var _2d=q.substring(1).split("&");for(var i=0;i<_2d.length;i++){if(_2d[i].substring(0,_2d[i].indexOf("="))==_2b){return _2d[i].substring((_2d[i].indexOf("=")+1));}}}return "";}};deconcept.SWFObjectUtil.cleanupSWFs=function(){var _2f=document.getElementsByTagName("OBJECT");for(var i=_2f.length-1;i>=0;i--){_2f[i].style.display="none";for(var x in _2f[i]){if(typeof _2f[i][x]=="function"){_2f[i][x]=function(){};}}}};if(deconcept.SWFObject.doPrepUnload){if(!deconcept.unloadSet){deconcept.SWFObjectUtil.prepUnload=function(){__flash_unloadHandler=function(){};__flash_savedUnloadHandler=function(){};window.attachEvent("onunload",deconcept.SWFObjectUtil.cleanupSWFs);};window.attachEvent("onbeforeunload",deconcept.SWFObjectUtil.prepUnload);deconcept.unloadSet=true;}}if(!document.getElementById&&document.all){document.getElementById=function(id){return document.all[id];};}var getQueryParamValue=deconcept.util.getRequestParameter;var FlashObject=deconcept.SWFObject;var SWFObject=deconcept.SWFObject;
+
+                        }
+
+</script>
+<HR>
+<B><FONT FACE=ARIAL COLOR=#771111>VBlogs</FONT></B><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Schoenheit_Vergangen/380.html style="text-decoration:none" >
+Schönheit Vergangen</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Mercedes4Sale/368.html style="text-decoration:none" >
+Mercedes4Sale</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Berlin_Zentrum_und_Wiege/350.html style="text-decoration:none" >
+Berlin, Zentrum und Wiege</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Halloween_und_die_Buchmesse/310.html style="text-decoration:none" >
+Halloween und die Buchmesse</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Sozialdemokratisierte_Kunst/306.html style="text-decoration:none" >
+Sozialdemokratisierte Kunst</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Raesonieren_des_Wahns/302.html style="text-decoration:none" >
+Räsonieren des Wahns</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Deutschland_im_Rausch/301.html style="text-decoration:none" >
+Deutschland im Rausch</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Namenstag_waehrend_der_WM/299.html style="text-decoration:none" >
+Namenstag während der WM</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Seearena_Haring_und_der_Welthurentag/291.html style="text-decoration:none" >
+Seearena, Haring und der Welthurentag</A> </FONT><BR>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href=/Berlin_und_Mode_in_Stuttgart/290.html style="text-decoration:none" >
+Berlin und Mode in Stuttgart</A> </FONT><BR>
+
+<a href=/alias/284 target=xml_new><IMG SRC=/sixcms/media.php/23/rss2.gif BORDER=0></a>
+
+
+</TD>
+		<TD  VALIGN=TOP>
+
+<img src="/sixcms/media.php/65/thumbnails/ralph_de_chronik_2011_11-04-03%201.jpg.596.jpg" alt="Stadtmenschen" ></BR></BR></BR>
+
+<!--
+
+
+
+<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' width='470' height='320' id='single1' name='single1'>
+<param name='movie' value='http://www.ralph.de/sixcms/media.php/66/player.swf'>
+<param name='allowfullscreen' value='true'>
+<param name='allowscriptaccess' value='always'>
+<param name='wmode' value='transparent'>
+<param name='flashvars' value='file=http://www.ralph.de/sixcms/media.php/43/E19.m4v'>
+<embed
+  id='single2'
+  name='single2'
+  src='http://www.ralph.de/sixcms/media.php/66/player.swf'
+  width='480'
+  height='320'
+  bgcolor='#ffffff'
+  allowscriptaccess='always'
+  allowfullscreen='true'
+  flashvars='file=http://www.ralph.de/sixcms/media.php/43/E19_part1.m4v&autostart=true'
+/>
+</object>
+
+--!>
+
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Schroedingers_Katze_in_der_Dusche/13060.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Schrödingers Katze in der Dusche</FONT></B></A>
+<BR>
+<I>08.02.2012</I> Wissenschaftsjournalismus in der Kausalitätskrise: Katzen im Stress<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Das_wahre_E10Problem_der_Verbrauch_nicht_die_Vertraeglichkeit/3204.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Das wahre E10-Problem: der Verbrauch, nicht die Verträglichkeit</FONT></B></A>
+<BR>
+<I>07.03.2011</I> Die nächste Politposse: Diskussionen über die Verträglichkeit von E10 bei Automarken verschleiert das tatsächliche Umweltproblem: Der Spritverbrauch steigt um bis zu 20% gegenüber dem "alten" Kraftstoff. ralph.de berichtet!<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Pollesch_hat_beides_Die_Loesung_Das_Problem/802.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Pollesch hat beides?! Die Lösung! Das Problem!</FONT></B></A>
+<BR>
+<I>17.02.2010</I> Bewegter Theaterabend<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Resonanzkatastrophe_der_diskursiven_Aufklaerung/786.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Resonanzkatastrophe der diskursiven Aufklärung</FONT></B></A>
+<BR>
+<I>30.12.2009</I> Medien (auch die GEZ-geprüphten) beteiligten sich an der Resonanzkatastrophe der Aufklärung<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Linke_fordert_Lockerung_des_Kuendigungsschutz/756.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>"Linke fordert Lockerung des Kündigungsschutz"</FONT></B></A>
+<BR>
+<I>08.09.2009</I> Hypothese zur Inkonsistenz linker Forderungen und deren intellektueller Basis<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Venedig_in_Harrys_Bar/417.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Venedig in Harry's Bar</FONT></B></A>
+<BR>
+<I>01.12.2008</I> Do's & Dont's<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Laphontaine_koennte_den_Haider_machen/416.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Laphontaine könnte den Haider machen</FONT></B></A>
+<BR>
+<I>23.11.2008</I> Mutanz en gros<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Der_Rote_Baron_und_die_Wahrheit_des_Joachim_Castan/385.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Der Rote Baron und die Wahrheit des Joachim Castan</FONT></B></A>
+<BR>
+<I>08.04.2008</I> Für Recherche ist in der deutschen Presselandschaft offenbar kein Raum. Sensationelle Enthüllungen zur Redaktionsarbeit von Stuttgarter Zeitung, FAZ, Welt<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Cocka_hHola_Company_Publikumsbeschimpfungen_20/384.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Cocka hHola Company: Publikumsbeschimpfungen 2.0</FONT></B></A>
+<BR>
+<I>15.02.2008</I> Dünnes Eis und leichtgewichtige Entgleisungen<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+
+<a href= /Umweltschutz_zur_vornehmen_Blaesse/381.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Umweltschutz zur vornehmen Blässe</FONT></B></A>
+<BR>
+<I>28.01.2008</I> War Blässe in vornehmen Kreisen zu vergangenen Zeiten, bleibt dies auch in der Zukunft mittels Umweltschutz den Reichen vorbehalten. <BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+<img src="/sixcms/media.php/43/thumbnails/E19%20Standbild.jpg.514.jpg"  align="LEFT" border="0" alt="" />
+<a href= /Schoenheit_Vergangen/380.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Schönheit Vergangen</FONT></B></A>
+<BR>
+<I>13.01.2008</I> So haben eure Altvorderen relaxt...<BR><BR>
+
+<FONT FACE=ARIAL SIZE=-1>
+<img src="/sixcms/media.php/25/thumbnails/ralph_jaguar.jpg.511.jpg"  align="LEFT" border="0" alt="" />
+<a href= /Im_Jaguar_ausgeraubt/379.html style="text-decoration:none")>
+
+<B> <FONT SIZE=-1>Im Jaguar ausgeraubt</FONT></B></A>
+<BR>
+<I>09.01.2008</I> Zu schnell und sich erwischen lassen<BR><BR>
+
+
+<BR>
+
+</TD>
+
+<TD VALIGN=TOP>
+
+<B><FONT FACE=ARIAL COLOR=#771111>
+Aktuelle Neuigkeiten</B></FONT>
+<BR>
+<FONT FACE=ARIAL SIZE=-2>
+
+> <FONT FACE=ARIAL SIZE=-1><B>
+<a href=/Schroedingers_Katze_in_der_Dusche/13060.html style="text-decoration:none">
+
+Schrödingers Katze in der Dusche</A></B><BR>
+
+> <FONT FACE=ARIAL SIZE=-1><B>
+<a href=/Das_wahre_E10Problem_der_Verbrauch_nicht_die_Vertraeglichkeit/3204.html style="text-decoration:none">
+
+Das wahre E10-Problem: der Verbrauch, nicht die Verträglichkeit</A></B><BR>
+
+> <FONT FACE=ARIAL SIZE=-1><B>
+<a href=/Pollesch_hat_beides_Die_Loesung_Das_Problem/802.html style="text-decoration:none">
+
+Pollesch hat beides?! Die Lösung! Das Problem!</A></B><BR>
+
+> <FONT FACE=ARIAL SIZE=-1><B>
+<a href=/Resonanzkatastrophe_der_diskursiven_Aufklaerung/786.html style="text-decoration:none">
+
+Resonanzkatastrophe der diskursiven Aufklärung</A></B><BR>
+
+> <FONT FACE=ARIAL SIZE=-1><B>
+<a href=/Linke_fordert_Lockerung_des_Kuendigungsschutz/756.html style="text-decoration:none">
+
+"Linke fordert Lockerung des Kündigungsschutz"</A></B><BR>
+
+<BR><BR>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-12209481-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><script type="text/javascript"><!--
+google_ad_client = "pub-6793251111521823";
+google_ad_width = 160;
+google_ad_height = 600;
+google_ad_format = "160x600_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "003366";
+google_color_url = "006699";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</TD>
+	</TR>
+</TABLE>
+
+<a HREF=/sixcms/detail.php?template=impressum>Impressum</A>
+</BODY>
+</HTML>

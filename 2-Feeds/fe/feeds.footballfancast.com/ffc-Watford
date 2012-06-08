@@ -1,0 +1,925 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+
+
+<title>Watford News | Watford Transfers and More | FootballFanCast.com</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/ffc-theme/style.css?v=1.8" />
+<link rel="stylesheet" type="text/css" href="http://www.footballfancast.com/wp-content/themes/ffc-theme/css/buddypress.css?v=1" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed" />
+<link href="/wp-content/themes/ffc-theme/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/themes/ffc-theme/js/teamloader.js'></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+//rail test
+
+function rail_check(){
+$('#ve_ce_tgt').addClass('ve_ce_tgt');
+
+if($('#ve_ce_tgt').hasClass('ve_ce_tgt')){
+var rail_message = 'there is a rail!';
+} else {
+var rail_message = 'there is no rail!';
+}
+
+$('body').append('<!--'+rail_message+'-->');
+}
+
+setTimeout(rail_check,10000);
+
+$('#scorecast_nav li.current_league ul').show();
+
+$('.sc_navheader').click(function(){
+if($(this).parent().hasClass('current_league')){
+} else {
+$('#scorecast_nav li').removeClass('current_league');
+var theli = $(this).attr('rel');
+$('#' +theli).addClass('current_league');
+$('ul#scorecast_nav li ul').hide();
+$('#' +theli + ' ul').show();
+}
+return false;
+});
+});
+</script>
+
+
+<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.3/jquery.tools.min.js"></script>  
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+$(".team_dd_select").change(function(){
+var slug = $(this).val();
+window.location = "/"+slug;
+});
+
+$(".newspost").click(function(){
+var news_click = $(".newstitle a").attr('href');
+window.location = news_click;
+});
+
+
+});
+</script>
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-4121406740932347");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddAttr("pageURL", "-team-watford");
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_FoxPop");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Gallery_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_InBlog_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_LDB");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_SKY");
+GA_googleAddSlot("ca-pub-4121406740932347", "Budwiser_Test_1x1");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_Promo");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Overlay");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_MEC-Tracker");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Article_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_SKY_2");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_LocalAds");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Wallpaper");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_1");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_2");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_3");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_4");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_5");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_LDB2");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFanCast_MGID");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="FootballFanCast.com &raquo; Watford Comments Feed" href="http://www.footballfancast.com/team/watford/feed" />
+<link rel='stylesheet' id='bp-css-css'  href='http://www.footballfancast.com/wp-content/plugins/bp-template-pack/bp.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.footballfancast.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='rr_styles-css'  href='http://www.footballfancast.com/wp-content/plugins/rss-reader/css/rr_style.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='subzane_youtube_plugin-css'  href='http://www.footballfancast.com/wp-content/plugins/subzane-youtube-recent-videos-widget/style.css?ver=3.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js?ver=3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"my_favs":"My Favorites","accepted":"Accepted","rejected":"Rejected","show_all_comments":"Show all comments for this thread","show_all":"Show all","comments":"comments","close":"Close","mention_explain":"@ is a unique identifier for  that you can type into any message on this site.  will be sent a notification and a link to your message any time you use it."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/plugins/buddypress/bp-themes/bp-default/_inc/global.js?ver=3.3'></script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/plugins/rss-reader/js/rr_script.js?ver=3.3'></script>
+<link rel='prev' title='Swansea City' href='http://www.footballfancast.com/team/swansea-city' />
+<link rel='next' title='West Bromwich Albion' href='http://www.footballfancast.com/team/west-bromwich-albion' />
+
+<!-- Start Of AW CSS -->
+<link rel="stylesheet" href="http://www.footballfancast.com/wp-content/plugins/affiliatewindow/affiliatewindow.css" type="text/css" media="screen" />
+<!-- End Of AW CSS -->
+
+<!-- All in One SEO Pack 1.6.13.8 by Michael Torbert of Semper Fi Web Design[256,326] -->
+<meta name="description" content="Hornets fans you have come to the right place. Here you will find all the latest Watford FC news and fan opinion in our Championship blogs," />
+<meta name="keywords" content="watford, fans wiki, championship" />
+<link rel="canonical" href="http://www.footballfancast.com/team/watford" />
+<!-- /all in one seo pack -->
+
+	<script type="text/javascript">var ajaxurl = "http://www.footballfancast.com/wp-load.php";</script>
+
+<link rel="stylesheet" href="http://www.footballfancast.com/wp-content/plugins/digg-digg/include/../css/diggdigg-style.css?ver=4.5.3.4" type="text/css" media="screen" /><!-- Pods CMS 1.12.2 -->
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background: #008000;
+	border: 1px solid #333333;
+}
+</style>
+
+	<script type="text/javascript"> jQuery(document).ready( function() { jQuery("a.confirm").click( function() { if ( confirm( 'Are you sure?' ) ) return true; else return false; }); });</script>
+
+<!-- wp thread comment 1.4.9.4.002 -->
+<style type="text/css" media="screen">
+.editComment, .editableComment, .textComment{
+	display: inline;
+}
+.comment-childs{
+	border: 1px solid #999;
+	margin: 5px 2px 2px 4px;
+	padding: 4px 2px 2px 4px;
+	background-color: white;
+}
+.chalt{
+	background-color: #E2E2E2;
+}
+#newcomment{
+	border:1px dashed #777;width:90%;
+}
+#newcommentsubmit{
+	color:red;
+}
+.adminreplycomment{
+	border:1px dashed #777;
+	width:99%;
+	margin:4px;
+	padding:4px;
+}
+.mvccls{
+	color: #999;
+}
+			
+</style>
+
+<script type="text/javascript" src="/wp-content/themes/ffc-theme/js/ffc.js"></script>
+<script type="text/javascript" src="/wp-content/themes/ffc-theme/js/captify.tiny.js"></script>
+
+<link rel="stylesheet" href="/wp-content/themes/ffc-theme/js/prettyphoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="/wp-content/themes/ffc-theme/js/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="/wp-content/themes/ffc-theme/js/ffc_colated_js.js"></script>
+
+
+
+<style type="text/css">
+body {background-color: #ffcc00;}
+.subnav ul li a.current  {background-color: #ffcc00;}
+</style>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.must_be_logged_in').click(function(){
+//alert('test');
+$('.mbli_message').html('You must be logged in to do that!<br />Please either <a href="http://www.footballfancast.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.footballfancast.com%2Fteam%2Fwatford" title="Login">Login</a> or <a href="http://www.footballfancast.com/wp-login.php?action=register">Register</a>.');
+$('.mbli_message').show(300);
+return false;
+});
+});
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1313722-1']);
+  _gaq.push(['_setDomainName', 'footballfancast.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="page page-id-6748 page-child parent-pageid-127102 page-template page-template-team_page_no_news-php pods pod-page-team-w">
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "12294186" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=12294186&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_Wallpaper");
+</script>
+
+<div id="header_ads">
+<div id="header_ads_inner">
+
+
+
+<div id="leaderboard">
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_LDB");
+</script>
+
+</div>
+
+
+<div style="width:266px; float:right;">
+
+<!-- FootballFancast_ROS_Promo -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_Promo");
+</script>
+
+</div>
+
+
+</div>
+</div>
+
+
+<div class="rap">
+<div class="rap_inner">
+<div id="header">
+
+<div id="header_left">
+<a href="/"><img src="/wp-content/themes/ffc-theme/images/FFC_logo.png" alt="Football FanCast - Real Fans, Real Opinions" width="600" height="64" /></a>
+</div>
+
+<div id="header_right">
+
+<form action="http://www.footballfancast.com/search-results" id="cse-search-box">
+<table cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td>
+    <input type="hidden" name="cx" value="017867473193801014068:8neqymgaaqe" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="32" />
+</td><td align="right">
+    <input type="submit" name="sa" value="Search" />
+</td></tr></tbody></table>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+
+<div style="height: 20px;" class="clearer"></div>
+
+
+<a id="team_list_button" href="/teams">Leagues &amp; Teams</a>
+</div>
+
+</div>
+
+</div>
+
+<div id="nav_clearer"></div>
+
+
+<div id="team_loader"></div>
+
+<div id="pagetab">
+
+<ul id="dropnav" class="clearfix"><li><a href="/football-news">News</a><ul><li><a href="/premiership">Premier League</a></li><li><a href="/championship">Championship</a></li><li><a href="/league-one">League 1</a></li><li><a href="/league-two">League 2</a></li><li><a href="/scottish-premier-league">SPL</a></li><li><a href="/champions-league">Champions League</a></li><li><a href="/europa-league">Europa League</a></li><li><a href="/fa-cup">FA Cup</a></li><li><a href="/carling-cup">Carling Cup</a></li><li><a href="/serie-a">Serie A</a></li><li><a href="/la-liga">La Liga</a></li><li><a href="/bundesliga">Bundesliga</a></li><li><a href="/euro-2012">Euro 2012</a></li></ul></li><li><a href="/football-blogs">Blogs</a><ul>
+<li><a href="http://www.footballfancast.com/author/editor/">Editor's Blog</a></li>
+<li><a href="http://www.footballfancast.com/football-business">Football Business</a></li>
+<li><a href="http://www.footballfancast.com/goal-of-the-week">Goal of the Week</a></li>
+<li><a href="http://www.footballfancast.com/play-of-the-week">Play of the Week</a></li>
+<li><a href="http://www.footballfancast.com/caption-competition">Caption Competition</a></li>
+<li><a href="http://www.footballfancast.com/wag-of-the-week">Wag of the Week</a></li>
+<li><a href="http://www.footballfancast.com/the-boy-has-got-skills">The Boy Has Got Skills</a></li>
+<li><a href="http://www.footballfancast.com/top-10s">Top Tens</a></li>
+<li><a href="http://www.footballfancast.com/5-things-we-learned">5 Things We Learned</a></li>
+<li><a href="http://www.footballfancast.com/said-and-done">Said and Done</a></li>
+<li><a href="http://www.footballfancast.com/whatever-happened-to">Whatever Happened To&hellip;</a></li>
+<li><a href="http://www.footballfancast.com/billy-batts-headline-round-up">Billy Batts' Headline Round Up</a></li>
+<li><a href="http://www.footballfancast.com/great-games">Great Games</a></li>
+<li><a href="http://www.footballfancast.com/best-of-partner-blogs">Best of Partner Blogs</a></li>
+</ul></li><li><a href="/euro-2012">Euro 2012</a></li><li><a href="/scorecast">ScoreCast</a><ul><li><a href="/scorecast">Live Scores</a></li><li><a href="/league-tables">League Tables</a></li><li><a href="/results">Results</a></li></ul></li><li><a href="http://podcasts.footballfancast.com/">Podcasts</a></li>
+
+<li><a href="/football-videos">Videos</a></li>
+
+<li><a href="/gallery">Gallery</a></li>
+
+<li><a href="/vip-lounge">VIP Lounge</a>
+<ul>
+<li><a href="/activity">Latest</a></li>
+<li><a href="/groups">Fans Groups</a></li>
+<li><a href="/members">Members</a></li>
+<li><a href="/achievements">Medals &amp; Tropies</a></li>
+<li><a href="http://www.footballfancast.com/wp-login.php" title="Login">Login</a></li><li><a href="http://www.footballfancast.com/wp-login.php?action=register">Register</a></li>
+</ul>
+</li>
+
+<li><a href="/stadium-guide">Stadium Guide</a></li>
+
+<li><a href="http://twitter.footballfancast.com/">Tweets</a></li>
+
+<li><a href="/competitions">Competitions</a><ul><li><a href="http://www.footballfancast.com/competitions">Prize Wall</a></li><li><a href="http://www.footballfancast.com/trivia">Trivia</a></li><li><a href="http://www.footballfancast.com/caption-competition">Caption Competition</a></li></ul></li>
+
+<li><a href="/football-tickets">Tickets</a></li><li><a href="/football-shirts">Shirts</a><ul>
+<li><a href="/football-shirts/retro-football-shirts">Retro Shirts</a></li>
+</ul></li><li><a href="/tv-guide">TV Guide</a></li>
+
+
+
+<li><a href="/contact-us">Write</a></li></ul>
+</div><!-- end PAGETAB -->
+</div><!--end header-->
+
+<div class="clearer"></div>
+
+<div class="rap">
+<div class="rap_inner" style="padding-top: 0px;">
+
+
+<div class="subnav">
+<ul>
+<li><a href="" class="current">Watford Home</a></li>
+<li><a href="watford/results">Watford Results</a></li><li><a href="/stadium/vicarage-road" target="_blank">Vicarage Road Guide</a></li>
+<li><a href="watford/squad">Watford Squad</a></li>
+<li><a href="/football-shirts/watford-shirts">Watford Shirts</a></li>
+<li><a href="/football-tickets/watford-tickets">Watford Tickets</a></li>
+</ul>
+</div>
+
+
+
+
+
+<div style="clear:both; height: 10px;"></div>
+
+<div class="team_page_header">
+
+<div style=" float: left; width:260px;">
+
+<h1 style="color: #ffcc00; padding: 0 0 4px; margin: 0pt 0pt 5px; font-size: 20px;">Watford</h1>
+
+<div style="padding-right: 10px; float: left; width: 70px;">
+<img src="http://images.footballfancast.com.s3.amazonaws.com/team_badges/england/70px/watford.png" alt="Watford" title="Watford" />
+</div>
+
+<div style="width:179px;float:right;">
+
+<table cellpadding="0" cellspacing="0" style="font-size: 11px;"><tbody>
+<tr><td>Nickname:&nbsp;&nbsp;</td><td><strong>Hornets</strong></td></tr>
+<tr><td>Founded:&nbsp;&nbsp;</td><td><strong>1881</strong></td></tr>
+<tr><td>Stadium:&nbsp;&nbsp;</td><td><a href="/stadium/vicarage-road" target="_blank"><strong>Vicarage Road</strong></a></td></tr>
+<tr><td>Manager:&nbsp;&nbsp;</td><td><a href="/championship/watford/manager-profile/sean-dyche"><strong>Sean Dyche</strong></a></td></tr>
+<tr><td>League:&nbsp;&nbsp;</td><td><a href="/championship">Championship</a></td></tr>
+</tbody></table>
+
+</div>
+
+<div class="clearer"></div>
+
+</div>
+
+<div style="margin-left:20px; width: 420px;  float: left;">
+
+<div style="padding:0 10px; border-left:1px solid #ccc; border-right:1px solid #ccc; border-top:0;">
+
+<div id="next_match" style="width:195px;float:left;border-right: 1px solid #ccc;">
+
+</div>
+
+<div id="last_match"style="width:195px;float:right; ">
+<b>Last Match:</b><br />
+
+<table width="190" cellspacing="0" cellpadding="3"><tbody>
+<tr style="font-size: 10px;"><td colspan="2">
+<b>Apr 28 2012 </b>
+ | <a href="http://www.footballfancast.com/championship">Championship</a>
+</td></tr>
+<tr style="font-size: 11px;">
+<td width="175" align="left"><a href="http://www.footballfancast.com/team/watford"><img src="http://images.footballfancast.com.s3.amazonaws.com/team_badges/england/28px/watford.png" alt="Watford" style="vertical-align:middle;margin: 0 5px;" /></a> <a href="http://www.footballfancast.com/team/watford">Watford</a></td><td width="20" align="right"><b>2</b></td></tr>
+<tr style="font-size: 11px;">
+<td width="175" align="left"><a href="http://www.footballfancast.com/team/middlesbrough"><img src="http://images.footballfancast.com.s3.amazonaws.com/team_badges/england/28px/middlesbrough.png" alt="Middlesbrough" style="vertical-align:middle;margin: 0 5px;" /></a> <a href="http://www.footballfancast.com/team/middlesbrough">Boro</a></td><td width="20" align="right"><b>1</b></td></tr>
+<tr><td colspan="2" align="right"><div class="more_link_button"><a href="/match/watford-vs-middlesbrough/2012-04-28">Match Review &amp; Stats &raquo;</a></div></td></tr>
+</tbody></table>
+<div style="clear:both;height:10px;"></div>
+<!--
+<div style="text-align:right; padding: 0 5px 0 0; font-size:10px;">
+<a href="watford/results">Previous Watford results &raquo;</a>
+</div>
+-->
+
+</div>
+
+<div class="clearer"></div>
+
+
+</div>
+</div>
+
+<div style="margin-left:10px; width: 204px; float: right;">
+<table cellspacing="0" cellpadding="0"><tr><td colspan="2" style="padding-bottom:5px;">
+<div style="padding:5px;background: #fff; -moz-border-radius:5px;-webkit-border-radius:5px;border:1px solid #efefef;">
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Ffootballfancast&amp;layout=standard&amp;show_faces=false&amp;width=180&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:40px;" allowTransparency="true"></iframe>
+</div>
+</td></tr>
+<tr><td>
+<div style="padding:5px;background: #fff; -moz-border-radius:5px;-webkit-border-radius:5px;font-size:11px;border:1px solid #efefef;">
+<table cellspacing="0" cellpadding="0"><tr><td>
+<a href="" target="_blank"><img src="http://twitter-badges.s3.amazonaws.com/t_logo-b.png" alt="Follow Watford on Twitter"/></a>
+</td><td style="padding-left:5px;">
+<a href="" target="_blank">Follow Watford on Twitter</a>
+</td></tr></table>
+</div>
+</td></tr></table>
+</div>
+
+<div class="clearer"></div>
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+
+<div id="content">
+<div class="clearer" style="height: 7px;"></div>
+
+
+
+<h1 class="grey_title">Watford News &amp; Blogs</h1>
+
+<div style="width: 300px; float: left;">
+
+ 
+
+<div class="post newspost" style="background: #000000 url(http://www.footballfancast.com/wp-content/uploads/2012/06/jjb_stadium_01-300x166.jpg) center top no-repeat;">
+<div style="height: 100px;"></div>
+	<div class="storycontent newspost_trans" style="height:100px;margin-top:80px;">
+<h2 class="newstitle" id="post-169483"><a href="http://www.footballfancast.com/2012/06/football-blogs/a-football-groundshare-that-is-fatally-flawed" rel="bookmark">A Football Groundshare that is Fatally Flawed</a></h2>
+<p>A patch of grass. Painted white lines. Two sets of &hellip;</p> 
+<p>2nd Jun 2012 8:46 pm | <a href="http://www.footballfancast.com/2012/06/football-blogs/a-football-groundshare-that-is-fatally-flawed" style="color:#fff;">Read article &raquo;</a></p>
+</div>
+	
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+
+
+
+<div>
+<ul style="list-style-type:none;margin:0;padding: 10px 0 0 0;">
+
+<li style="padding:4px 0; border-bottom:1px dotted #ccc;">
+<a href="http://www.footballfancast.com/2012/04/championship/bogey-teams-and-players-an-alternate-explanation">Bogey Teams And Players &#8211; An Alternate Explanation</a>
+</li>
+
+
+<li style="padding:4px 0; border-bottom:1px dotted #ccc;">
+<a href="http://www.footballfancast.com/2011/06/football-news/mackay-named-new-cardiff-boss">Mackay named new Cardiff boss</a>
+</li>
+
+
+<li style="padding:4px 0; border-bottom:1px dotted #ccc;">
+<a href="http://www.footballfancast.com/2011/06/football-news/mackay-to-enter-cardiff-talks">Mackay to enter Cardiff talks</a>
+</li>
+
+
+<li style="padding:4px 0; border-bottom:1px dotted #ccc;">
+<a href="http://www.footballfancast.com/2011/05/football-news/championship-wrap-qpr-receive-trophy-as-leeds-fall-short">Championship wrap: QPR receive trophy as Leeds fall short</a>
+</li>
+
+
+<li style="padding:4px 0; border-bottom:1px dotted #ccc;">
+<a href="http://www.footballfancast.com/2011/05/football-news/championship-strikers-danny-graham-billy-sharp-set-to-be-in-hot-demand">Championship strikers Danny Graham &amp; Billy Sharp set to be in hot demand</a>
+</li>
+
+
+<li style="padding:4px 0; border-bottom:1px dotted #ccc;">
+<a href="http://www.footballfancast.com/2011/04/football-news/championship-wrap-qpr-gain-promotion-leeds-hopes-still-alive">Championship wrap: QPR gain promotion, Leeds&#8217; hopes still alive</a>
+</li>
+
+
+
+
+</ul>
+</div>
+
+
+</div>
+<div style="width: 280px; float: right;">
+
+
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2012/04/football-blogs/the-championship-201112-season-review"><img src="http://www.footballfancast.com/wp-content/uploads/2011/07/Football-League-Championship-trophy_1065415-300x225.jpg" alt="The Championship 2011/12 Season Review" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2012/04/football-blogs/the-championship-201112-season-review">The Championship 2011/12 Season Review</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2012/04/championship/bogey-teams-and-players-an-alternate-explanation"><img src="http://www.footballfancast.com/wp-content/uploads/2012/04/3691927-100x100.jpg" alt="Bogey Teams And Players &#8211; An Alternate Explanation" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2012/04/championship/bogey-teams-and-players-an-alternate-explanation">Bogey Teams And Players &#8211; An Alternate Explanation</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship"><img src="http://www.footballfancast.com/wp-content/uploads/2011/09/NPower-Championship-Logo--100x100.jpg" alt="Are parachute payments creating a divide in the Championship?" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship">Are parachute payments creating a divide in the Championship?</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2011/08/football-blogs/how-much-are-football-journalists-needed-nowadays"><img src="http://www.footballfancast.com/wp-content/uploads/2011/08/Hat-with-Press-tag-100x100.jpg" alt="How Much Are Football Journalists Needed Nowadays?" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2011/08/football-blogs/how-much-are-football-journalists-needed-nowadays">How Much Are Football Journalists Needed Nowadays?</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2011/08/football-blogs/should-the-fa-set-up-an-elite-premier-academy-league"><img src="http://www.footballfancast.com/wp-content/uploads/2011/08/amoochelsea-100x100.jpg" alt="Should the FA set up an elite Premier Academy League?" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2011/08/football-blogs/should-the-fa-set-up-an-elite-premier-academy-league">Should the FA set up an elite Premier Academy League?</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2011/07/football-blogs/could-this-years-race-to-the-premier-league-be-the-toughest-yet"><img src="http://www.footballfancast.com/wp-content/uploads/2011/07/Football-League-Championship-trophy_1065415-100x100.jpg" alt="Could this year&#8217;s race to the Premier League be the toughest yet?" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2011/07/football-blogs/could-this-years-race-to-the-premier-league-be-the-toughest-yet">Could this year&#8217;s race to the Premier League be the toughest yet?</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2011/06/football-blogs/a-transfer-luxury-that-sir-alex-ferguson-could-do-without"><img src="http://www.footballfancast.com/wp-content/uploads/2011/04/Ashley-Young-Aston-Villa.jpg" alt="A transfer luxury that Sir Alex Ferguson could do without?" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2011/06/football-blogs/a-transfer-luxury-that-sir-alex-ferguson-could-do-without">A transfer luxury that Sir Alex Ferguson could do without?</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+<div style="padding: 0 0 5px 0;border-bottom:1px dotted #ccc;">
+<div class="slide-button-image">
+<a href="http://www.footballfancast.com/2011/06/football-blogs/the-financial-risks-for-the-taste-of-the-premier-league"><img src="http://www.footballfancast.com/wp-content/uploads/2010/12/bellamy1.jpg" alt="The financial risks for a taste of the Premier League" width="50" height="50" /></a>
+</div>
+<div class="slide-button-text2">
+<a href="http://www.footballfancast.com/2011/06/football-blogs/the-financial-risks-for-the-taste-of-the-premier-league">The financial risks for a taste of the Premier League</a>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer" style="height: 5px;"></div>
+
+
+<div class="more_link_button"><a href="http://www.footballfancast.com/category/championship/watford/page/2">More Watford news &amp; blogs &raquo;</a></div>
+
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+
+
+<div style="width: 300px; float: left;">
+
+<h1 class="grey_title">Watford Banter</h1>
+
+<table><tbody>
+<tr><td valign="top"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-184513"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/avatars/avatar-7.jpg" width="48" height="48" alt="" /></a></td><td><div class="speech_bubble"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-184513">In 2009 I lost my job due to some family problem. Then I decided to start my own business for earn m&hellip;</a></div></td></tr><tr><td valign="top"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-183687"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/avatars/avatar-4.jpg" width="48" height="48" alt="" /></a></td><td><div class="speech_bubble"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-183687">In 2009 I won a lottery. I was awarded a settlement for my lottery. That money was very helpful for &hellip;</a></div></td></tr><tr><td valign="top"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-182081"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/avatars/avatar-7.jpg" width="48" height="48" alt="" /></a></td><td><div class="speech_bubble"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-182081">When my sister suffered from cancer then the doctor gave me advice for immediate operation. But that&hellip;</a></div></td></tr><tr><td valign="top"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-179806"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/avatars/avatar-6.jpg" width="48" height="48" alt="" /></a></td><td><div class="speech_bubble"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-179806">When I was in my college then one day I was working in my welding workshop for complete my project w&hellip;</a></div></td></tr><tr><td valign="top"><a href="http://www.footballfancast.com/2012/04/football-blogs/the-championship-201112-season-review#comment-179404"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/avatars/avatar-10.jpg" width="48" height="48" alt="" /></a></td><td><div class="speech_bubble"><a href="http://www.footballfancast.com/2012/04/football-blogs/the-championship-201112-season-review#comment-179404">How can you possibly give Blackpool 9/10 and Birmingham only 8/10 and then give Watford and Cardiff &hellip;</a></div></td></tr><tr><td valign="top"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-177913"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/avatars/avatar-5.jpg" width="48" height="48" alt="" /></a></td><td><div class="speech_bubble"><a href="http://www.footballfancast.com/2011/09/football-blogs/are-parachute-payments-creating-a-divide-in-the-championship#comment-177913">Last year I won a bumper prize. I was awarded a structured settlement by the court for my bumper pri&hellip;</a></div></td></tr></tbody></table>
+
+<div class="more_link_button"><a href="">More Watford banter &raquo;</a></div>
+
+</div>
+
+<div style="width: 280px; float: right;">
+
+<h1 class="grey_title">Watford Squad</h1>
+<div class="player_profile">
+<a href="http://www.footballfancast.com/manager-profile/sean-dyche" title="View Sean Dyche's profile"><img src="http://images.footballfancast.com.s3.amazonaws.com/players/default/player-default.jpg" alt="Sean Dyche" title="Sean Dyche" /></a><br />
+<a href="http://www.footballfancast.com/manager-profile/sean-dyche" title="View Sean Dyche's profile"><strong>Sean Dyche</strong></a>
+</div>
+<div class="clearer" style="height:10px;"></div>
+<div class="more_link_button"><a href="watford/squad">View full squad &raquo;</a></div>
+
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+
+<h3 class="grey_title">Watford Videos</h3><div style="margin: 0 auto;width:508px;">
+	<div class="sz-youtube-list">
+		<ul>
+		<li><div><a href="http://www.footballfancast.com/football-video/zJEATHl-gn8&feature=youtube_gdata_player"><img alt="Watford - VICARAGE ROAD - Invaders Must Die" src="http://i.ytimg.com/vi/zJEATHl-gn8/default.jpg" /><p>Watford - VICARAGE ROAD - Invaders Must Die</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/j2fdcDnLjQ4&feature=youtube_gdata_player"><img alt="Van der Vaart goal and Official Highlights -Watford 0-1 Tottenham | FA Cup 4th Round Proper 27-01-12" src="http://i.ytimg.com/vi/j2fdcDnLjQ4/default.jpg" /><p>Van der Vaart goal and Official Highlights -Watford 0-1 Tottenham | FA Cup 4th Round Proper 27-01-12</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/3AMAUx95uTo&feature=youtube_gdata_player"><img alt="Watford FC 2010/11 - Part 1" src="http://i.ytimg.com/vi/3AMAUx95uTo/default.jpg" /><p>Watford FC 2010/11 - Part 1</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/L0hL6mGzfXE&feature=youtube_gdata_player"><img alt="Away Day - Spurs at Watford" src="http://i.ytimg.com/vi/L0hL6mGzfXE/default.jpg" /><p>Away Day - Spurs at Watford</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/BS7BYnd2Pgc&feature=youtube_gdata_player"><img alt="Watford v Tottenham Hotspur | FA Cup fourth round preview" src="http://i.ytimg.com/vi/BS7BYnd2Pgc/default.jpg" /><p>Watford v Tottenham Hotspur | FA Cup fourth round preview</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/yg6zqr4cJMQ&feature=youtube_gdata_player"><img alt="Watford Manager Mode: CHAMPIONS LEAGUE ACTION! - S4 Ep9" src="http://i.ytimg.com/vi/yg6zqr4cJMQ/default.jpg" /><p>Watford Manager Mode: CHAMPIONS LEAGUE ACTION! - S4 Ep9</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/ZTBhWpokNPg&feature=youtube_gdata_player"><img alt="Watford Manager Mode: $UNDERLAND RETURNS - S4 Ep10" src="http://i.ytimg.com/vi/ZTBhWpokNPg/default.jpg" /><p>Watford Manager Mode: $UNDERLAND RETURNS - S4 Ep10</p></a></div></li><li><div><a href="http://www.footballfancast.com/football-video/VNfxt9by7A0&feature=youtube_gdata_player"><img alt="Watford Manager Mode: LEAGUE MATCHES!!! - S4 Ep12" src="http://i.ytimg.com/vi/VNfxt9by7A0/default.jpg" /><p>Watford Manager Mode: LEAGUE MATCHES!!! - S4 Ep12</p></a></div></li>
+		</ul>
+	</div>
+	</div><div class="more_link_button"><a href="/football-videos/team/watford">More Watford Videos &raquo;</a></div><div class="clearer" style="height: 20px;"></div>
+
+<div style="width:300px; float: left;">
+
+
+
+<div class="clearer" style="height: 20px;"></div>
+<h3 class="grey_title">Watford League Form</h3>
+<div style="font-size:10px;">
+
+<table cellpadding="5" cellspacing="0" width="100%"><tbody>
+<tr>
+<td colspan="2"></td><td colspan="5" align="center" style="border-left: 1px solid #777;border-right: 1px solid #777; padding: 0 5px;background: #efefef;">HOME</td><td colspan="5" align="center" style="border-right: 1px solid #777; padding: 0 5px;background: #efefef;">AWAY</td><td colspan="2"></td>
+</tr>
+<tr style="font-weight:bold;">
+<td align="center">POS</td><td align="center">PL</td><td align="center">W</td><td align="center">D</td><td align="center">L</td><td align="center">F</td><td align="center">A</td><td align="center">W</td><td align="center">D</td><td align="center">L</td><td align="center">F</td><td align="center">A</td><td align="center">&nbsp;GD&nbsp;</td><td align="center">PTS</td>
+</tr>
+<tr>
+<td align="center">11</td><td align="center">46</td><td align="center">10</td><td align="center">6</td><td align="center">7</td><td align="center">32</td><td align="center">33</td><td align="center">6</td><td align="center">10</td><td align="center">7</td><td align="center">24</td><td align="center">31</td><td align="center">-8</td><td align="center">64</td>
+</tr>
+</tbody></table>
+<table cellpadding="5" cellspacing="0"><tbody>
+<tr><td align="left"><b>Current form:</b> WLDDDD&nbsp;&nbsp;&nbsp;</td><td align="left">
+<table cellpadding="0" cellspacing="0"><tbody>
+<tr><td align="left"><b>Cards:&nbsp;&nbsp;&nbsp;</b></td><td><div class="yellow_card">69</div>&nbsp;</td><td><div class="red_card">3</div>&nbsp;</td><td>&nbsp;Total: 72</td></tr>
+</tbody></table>
+</td></tr>
+</tbody></table>
+</div>
+<div class="clearer" style="height: 20px;"></div>
+
+
+
+
+</div>
+
+<div style="width:280px; float: right;">
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div><!--end content-->
+
+<!-- SIDEBAR LINKS -->
+<div id="nav">
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_MPU");
+</script>
+
+<div style="clear:both; height:10px;"></div>
+
+    <a href="https://twitter.com/FootballFanCast" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @FootballFanCast</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<div style="clear:both; height:10px;"></div>
+
+<div style="width: 119px; float: left;">
+
+<div style="background: #000; text-align:center; padding: 0 0 9px 0;font-size:10px;">
+<a href="http://www.newsnow.co.uk/h/Sport/Football" style="text-decoration:none;color:#fff" target="_blank"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/newsnow_ab.gif" style="width:119px;height:47px;border:0;display:block;padding-bottom:2px; outline:0;" alt="As featured on NewsNow: Football news" title="Click here for more Football news from NewsNow"/>Football News 24/7</a>
+</div>
+
+
+<div class="clearer" style="height: 2px;"></div>
+
+</div>
+
+<div style="width:178px;float:right;">
+<a href="http://www.footballfancast.com/activity"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/ffc-vip-banner-70.jpg" alt="VIP Lounge" title="Become a VIP member of FootballFanCast.com" /></a>
+</div>
+
+<div style="clear:both; height:10px;"></div>
+
+<div class="arrowlistmenu">
+
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FFootballFanCast&amp;width=300&amp;colorscheme=light&amp;connections=10&amp;stream=false&amp;header=true&amp;height=287" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:287px;"></iframe>
+
+<div style="clear:both; height:20px;"></div>
+
+<iframe src="http://www.footballfancast.com/euro-2012-widget" width="300" height="390" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+
+<div class="clearer" style="width: 40px; height: 20px;"></div>
+
+<div class="blog_banners">
+<a href="/football-news"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_news.jpg" alt="Football News" height="45" width="150" /></a>
+<a href="/football-blogs"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_blogs.jpg" alt="Football Blogs" height="45" width="150" /></a>
+<a href="/gallery"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_gallery.jpg" alt="Football Galleries" height="45" width="150" /></a>
+<a href="http://podcasts.footballfancast.com/"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_podcast.jpg" alt="Football Podcasts" height="45" width="150" /></a>
+<a href="/football-videos"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_videos.jpg" alt="Football Videos" height="45" width="150" /></a>
+<a href="/tv-guide"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_tv.jpg" alt="Football On TV" height="45" width="150" /></a>
+</div>
+
+<div class="clearer" style="width: 40px; height: 20px;"></div>
+
+
+</div><!-- end arrowlistmenu -->
+
+
+
+
+
+<div style="width: 160px; float: right;">
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_SKY");
+</script>
+
+<div style="height:10px;"></div>
+
+
+</div>
+<div style="width: 130px; float: left; padding: 0;">
+
+<div class="arrowlistmenu">
+
+
+
+
+<h3 class="grey_title" style="margin:0;">Weekly Poll</h3>
+<div class="tabbox2">
+<div id="polls-283" class="wp-polls">
+	<form id="polls_form_283" class="wp-polls-form" action="/team/watford" method="post">
+		<p style="display: none;"><input type="hidden" name="poll_id" value="283" /></p>
+		<p class="poll_question"><a href="/poll/283" rel="283"><strong>Are Liverpool fans happy with Rodgers appointment?</strong></a></p><div id="polls-283-ans" class="wp-polls-ans">
+		<input type="radio" id="poll-answer-1452" name="poll_283" value="1452" /> <label for="poll-answer-1452">Definitely</label><br />
+		<input type="radio" id="poll-answer-1453" name="poll_283" value="1453" /> <label for="poll-answer-1453">Not at all</label><br />
+		<p><input type="button" name="vote" value="   Vote   " class="Buttons" onclick="poll_vote(283);" /></p><p><a href="#ViewPollResults" onclick="poll_result(283); return false;" title="View Results Of This Poll">View Results</a></p></div>
+	</form>
+</div>
+<p><a href="http://www.footballfancast.com/fan-polls">Polls Archive</a></p> 
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+<h3 class="grey_title" style="margin:0;">Popular Searches</h3>
+<div class="tabbox2">
+  <ul>
+    <li><a href="http://www.footballfancast.com/2012/06/football-news/arsenal-left-waiting-as-frenchman-puts-transfer-talks-on-hold" title="arsenal">arsenal</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/premiership/arsenals-12-8m-bid-on-hold-wenger-face-transfer-battle-for-french-ace-best-of-afc" title="arsenal">arsenal</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/premiership/arsenals-12-8m-bid-on-hold-wenger-face-transfer-battle-for-french-ace-best-of-afc" title="arsenal transfer">arsenal transfer</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/football-news/manchester-city-line-up-triple-transfer-swoop" title="manchester city">manchester city</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/premiership/blues-look-to-hijack-fergies-6m-move-united-face-transfer-battle-for-spaniard-best-of-mufc" title="manchester united transfer">manchester united transfer</a></li>
+  </ul>
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+
+
+
+</div></div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+</div>
+</div><!-- end NAV -->
+<div class="clearer"></div>
+
+
+<!--122 queries--><div class="clearer">&nbsp;</div>
+</div><!-- end RAP Inner -->
+</div><!-- end RAP -->
+
+<!-- betting strip -->
+<div style="width: 1000px; background: #cccccc; padding: 5px 0; margin: 0 auto;">
+<div style="width: 728px; background: #cccccc; margin: 0 auto;">
+
+<!-- FootballFancast_ROS_LDB2 -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_LDB2");
+</script>
+
+</div></div>
+
+<div id="wide_footer"><div id="inner_wide_footer">
+<div class="clearer"></div>
+
+<div id="footer">
+
+<p><a href="/about-us">About Us</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/contact-us">Contact Us</a> &nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/advertise">Advertise</a> &nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/faqs">FAQ's</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/privacy-policy">Privacy Statement</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/terms-and-conditions">Terms &amp; Conditions</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/football-forum-rules">Forum Rules</a>&nbsp;&nbsp;|
+        &nbsp;&nbsp;<a href="http://www.footballfancast.com/feed/rss">RSS Feed</a></p>
+
+<p>&copy; 2012 <a href="/">FootballFanCast.com</a> | &copy; 2012 <a href="http://www.snack-media.com" target="_blank">Snack Media Ltd</a> <span id="star">*</span></p>
+
+<div class="clearer" style="height: 10px;"></div>
+</div><!-- end FOOTER -->
+</div></div>
+<div id="wp-admin-bar"><div class="padder"><ul class="main-nav"><li class="vip_logo" id="ffc_vip_logo"><a href="/vip-lounge/"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/FFC-VIP.png" /></a></li>  
+<li class="admin-bar-login" id="ffc-admin-bar-login">
+<table cellspacing="0" cellpadding="0" align="right"><tbody><tr>
+<td style="height:18px;line-height:18px;"><a class="login" href="http://www.footballfancast.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.footballfancast.com">Login</a> | <a href="http://www.footballfancast.com/wp-login.php?action=register">Register</a></td>
+</tr></tbody></table></li>        
+  </ul></div></div><!-- #wp-admin-bar -->
+
+
+<!-- Generated in 2.271 seconds. -->
+
+	<script type='text/javascript' src='http://w.sharethis.com/button/buttons.js?ver=3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.footballfancast.com\/wp-content\/plugins\/wp-polls\/wp-polls.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"0","show_fading":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.50'></script>
+
+
+
+
+<!-- FootballFancast_FoxPop -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_FoxPop");
+</script>
+
+
+
+<!--122 queries-->
+<script type='text/javascript'>
+GA_googleFillSlot("Budwiser_Test_1x1");
+</script>
+
+<!-- FootballFancast_Overlay -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_Overlay");
+</script>
+
+
+
+</body>
+</html>
+<!-- Dynamic page generated in 2.264 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-06-07 01:39:07 -->
+<!-- Compression = gzip -->

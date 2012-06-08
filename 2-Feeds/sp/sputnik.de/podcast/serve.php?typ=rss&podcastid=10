@@ -1,0 +1,637 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de" xmlns:trigger="http://sputnik.de/schema/trigger" xmlns:placer="http://sputnik.de/schema/placer">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="expires" content=" 0"/>
+<meta http-equiv="pragma" content="no-cache"/>
+<link rel="SHORTCUT ICON" href="/img/Sputnik_favicon.ico"/>
+<meta http-equiv="keywords" content="mdr,sputnik,webradio,stream,podcast,lebensplanung,sputniker am morgen,wiebke,raimund,sissy,tauchen,fliegen,fichtenberger,binder,metzschke,yvonne,struewing,anne,voigt,camillo,schumann,tagesupdate,mysputnik,popkult,community,blackbeatz,makossa,rockit,roboton,deintag,chillzone,lateline,musik,elektro,disko,residents,gaesteliste,lars,wohlfarth,andre,wieckenberg,sputnikzone,buntfunk,andrea,alic,video,newmusicaward,nma,sputnikspringbreak,springbreak,heimattour,beste,musik,null,werbung,partypics,partybilder,playlist,musikvideos,interview,event,insomnia,musiknews,mailbox,olaf,schubert,comedy,dlugosch,milk,and,sugar,moguai,kino,film,popkultur,games,echo,litpop,spudnik,spuntik,sputnick"/>
+<meta http-equiv="description" content="mdr,sputnik,webradio,stream,podcast,lebensplanung,sputniker am morgen,tauchen oder fliegen,wiebke,raimund,sissy,fichtenberger,binder,metzschke,yvonne,struewing,anne,voigt,camillo,schumann,tagesupdate,mysputnik,popkult,community,blackbeatz,makossa,rockit,roboton,deintag,chillzone,lateline,musik,elektro,disko,residents,gaesteliste,lars,wohlfarth,andre,wieckenberg,sputnikzone,buntfunk,andrea,alic,video,newmusicaward,nma,sputnikspringbreak,springbreak,heimattour,best,musik,null,werbung,partypics,partybilder,playlist,musikvideos,interview,event,insomnia,musiknews,mailbox,olaf,schubert,comedy,dlugosch,milk,and,sugar,moguai,kino,film,popkultur,games,echo,litpop,spudnik,spuntik,sputnick"/>
+<script type="text/javaScript" src="/js-sp/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/js-sp/hoverIntent.min.js"></script>
+<script type="text/javascript" src="/js-sp/tinyscrollbar.min.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.jqtransform.js"></script>
+<script type="text/javaScript" src="/js-sp/eyeCursor.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.backgroundpos.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.animate-colors-min.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.easing.1.3.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.pause.js"></script>
+<script type="text/javascript" src="/js-sp/article.js"></script>
+<script type="text/javascript" src="/scripts/sspgallery/shadowbox/build/adapter/shadowbox-jquery.js"></script>
+<script type="text/javascript" src="/scripts/sspgallery/shadowbox/build/shadowbox_mod.js"></script>
+<script type="text/javaScript" src="/js-sp/classObject.js"></script>
+<script type="text/javaScript" src="/js-sp/sputnikGlobal.js"></script>
+<script type="text/javaScript" src="/js-sp/sputniktv.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="/js-sp/swfobject.js"></script>
+<script type="text/javascript" src="/js-sp/swfobject2/swfobject.js"></script>
+<script type="text/javaScript" src="/js-sp/sputnikjQuery.js"></script>
+<script type="text/javaScript" src="/js-sp/jquery-ui-1.8.14.custom.min.js"></script>
+<script type="text/javascript">
+var noAnim = true;
+</script><link rel="stylesheet" type="text/css" href="/css-sp/jqtransform.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_basic.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_skyscraper.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_navigation.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_eventnavigator.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_modules_screen.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_skeleton_screen.css"/>
+
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_multiteaser.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_streamnavi.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_topnews.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_summarynavi.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_languagechoice.css"/>
+<link rel="stylesheet" type="text/css" href="/css-sp/redesign_forms_screen.css"/>
+
+      <script type="text/javascript" src="/js-sp/skins/facelift2011.js"></script>
+<link rel="stylesheet" type="text/css" href="/css-sp/skin_facelift2011.css" media="screen"/>
+<link rel="stylesheet" type="text/css" title="" href="/sspgallery/style.css" media="screen, projection"/>
+<link rel="stylesheet" type="text/css" title="" href="/sspgallery/lightbox/css-sp/lightbox.css" media="screen, projection"/>
+<link rel="search" type="application/opensearchdescription+xml" title="MDR SPUTNIK Suche" href="http://www.sputnik.de/opensearch.xml"/>
+<title>SPUTNIK: </title>
+<style type="text/css">
+body {
+  background-color: #fff;
+}</style><!--script type="text/javascript" src="/js-sp/buntfunkPopup.js"></script-->
+</head><body id="sputnik" old_onload="init()" class="indexArray">
+
+<!--  onLoad="PopUpBuntFunk('/livetool/')" -->
+    <script type="text/javascript">
+  <!--
+  var IVW="http://mdr.ivwbox.de/cgi-bin/ivw/CP/sputnik/podcasts;k=10&i=sputnik%2Fpodcasts&p=www.sputnik.de%2Fpodcasts";
+
+  document.open();
+  document.write('<IMG SRC="'+IVW+'?r='+escape(document.referrer)+'" WIDTH="1" HEIGHT="1" BORDER="0" style="border:0;position:absolute;top:0;left:0;z-index:-1;"/>');
+  document.close();
+  //-->
+</script>
+  <noscript>
+  <img src="http://mdr.ivwbox.de/cgi-bin/ivw/CP/sputnik/podcasts;k=10&amp;i=sputnik%2Fpodcasts&amp;p=www.sputnik.de%2Fpodcasts" width="1" height="1" border="0" style="border:0;position:absolute;top:0;left:0;z-index:-1;"/>
+  </noscript>
+  <img src="/cgi-bin/ivw/CP/podcasts" width="1" height="1" border="0" style="border:0;position:absolute;top:0;left:0;z-index:-1;"/>
+  <div id="centerPage">
+  <div id="wrapperPage">
+        <div id="backdings"></div>
+<div id="new_header">
+<div id="onair_mod"></div>
+<div id="onair_info">
+<span id="joa">Jetzt <span id="oar">Onair</span></span>
+<span id="oat">00:00 - 00:00 Uhr</span>
+<div id="sendungs_infos">
+<div id="sendungs_mod">
+<ul id="oath">Lade Sendung</ul>
+</div>
+</div>
+</div>
+<div id="search_bar_bg"></div>
+<div id="search_bar"><form id="searchtop" action="/service/suche/" method="get"><input type="text" name="search" id="search_text" /><input type="submit" id="search_submit" /></form></div>
+<div id="streamnavi_bg"></div>
+<div id="streamnavi"><a id="logo_fl" href="/"><img src="/img/skins/facelift2011/logo.png" width="120" height="23" alt="" /></a>
+<div id="live"><a href=""></a></div>
+<div id="onair_patch">
+<span id="eq"></span>
+<div id="info_live">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_webradio_60x45.jpg" />
+<a href="#" id="stream_webradio"><img class="loader" src="/img/skins/loader.gif" /></a>
+<div id="track_info">
+<p><a class="btn" href=""></a><b>Lade Playlist</b><br />
+Hier kommt nichts? Dann haben wir ein Problem.</p>
+</div>
+</div>
+<div id="info_black">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_black_60x45.jpg" />
+<a href="#" id="stream_black"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Das Fetteste aus den BlackBeatz-Sendungen der letzten Wochen gibt es im Black-Channel.</p>
+</div>
+</div>
+<div id="info_rock">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_rock_60x45.jpg" />
+<a href="#" id="stream_rock"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Gut aufgestellt an der Gitarrenfront: Das Beste aus den RockIt-Sendungen vom Freitagabend.</p>
+</div>
+</div>
+<div id="info_club">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_club_60x45.jpg" />
+<a href="#" id="stream_club"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Neue DJ-Sets aus der Partynacht am Samstag mit Phonique, Boris Dlugosch und anderen DJ-Größen.</p>
+</div>
+</div>
+<div id="info_insomnia">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_insomnia_60x45.jpg" />
+<a href="#" id="stream_insomnia"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Melancholie und leise Töne helfen beim Runterkommen, zum Beispiel mit Portishead und Bat For Lashes.</p>
+</div></div>
+<div id="info_popkult">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_popkult_60x45.jpg" />
+<a href="#" id="stream_popkult"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Der SPUTNIK Channel rund um Popkultur mit Musik, Interviews, Literatur, Kino, Lifestyle und Talks.</p>
+</div></div>
+<!-- ROBOTON: -->
+<div id="info_roboton">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_roboton2_60x45.jpg" />
+<a href="#" id="stream_roboton"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Der Channel für alle Freunde elektronischer Musik von Elektro-Funk bis Synthie-Pop</p>
+</div></div>
+<div id="info_soundcheck">
+<img class="artist" src="http://www.sputnik.de/sixcms_upload/media_fast/43/oneclick_soundcheck_60x45.jpg" />
+<a href="#" id="stream_soundcheck"><img class="loader" src="/img/skins/facelift2011/playlist_play.png" /></a>
+<div class="channel_info">
+<p>Das Best-Of der Soundcheck-Bands aus den vergangenen Wochen hört ihr in diesem Channel.</p>
+</div>
+</div>
+<div id="timepicker">
+<form id="tp" class="pls" action="" method="post">
+<p><b>Jetzt suchen, was im Radio lief:</b><br />
+Wähle einen Tag und eine Zeitspanne (innerhalb der letzten 30 Tage)
+und erfahre, welche Tracks bei SPUTNIK gelaufen sind.</p>
+<input type="hidden" id="datepicker" name="datetime" />
+<input type="hidden" class="nonce clear" name="" value="" />
+<input type="hidden" name="action" value="timesearch" />
+<input type="submit" id="tp_button" class="tpsubmit" value="suchen" />
+</form>
+<div id="tp_search"><p>Playlist durchsuchen</p><span class="arrowdown"></span></div>
+<div id="cal"></div>
+<div id="slide"><span id="slide_date" class="active"></span><span id="slide_name"></span>
+<div id="artistsearch">
+<form id="ap" class="pls" action="" method="post">
+<p><b>Jetzt suchen, was im Radio lief:</b><br />
+Gib den Namen eines Künstlers oder eines Songs ein oder zumindest eine Buchstabenfolge, an die du dich erinnerst.</p>
+<input type="hidden" class="nonce clear" name="" value="" />
+<input type="hidden" name="action" value="stringsearch" />
+<input type="text" id ="searchstring" name="searchstring" />
+<input type="submit" id="ap_button" class="tpsubmit" value="suchen" />
+</form>
+</div>
+</div>
+<div id="slide_form"></div>
+</div>
+</div>
+<ul id="streammenu">
+<li id="black"><a href="" id="link_black"></a></li>
+<li id="rock"><a href="" id="link_rock"></a></li>
+<li id="club"><a href="" id="link_club"></a></li>
+<li id="insomnia"><a href="" id="link_insomnia"></a></li>
+<li id="popkult"><a href="" id="link_popkult"></a></li>
+<!-- ROBOTON: -->
+<li id="roboton"><a href="" id="link_roboton"></a></li>
+<li id="soundcheck"><a href="" id="link_soundcheck"></a></li>
+<li id="ghost"></li>
+</ul>
+</div>
+</div>    <div id="wrapperMainContent">
+      <div id="wrapperSubNavigation">
+  <div id="a-z_overlay" class="overlay">
+    <div class="borderTop">
+      <a class="icon aqua minus" href="#"><span></span></a>
+    </div>
+    <div class="linkList">
+      <ul class="">
+              <li>
+          <a href="/sputnik/galerien" title="Bilder"><span></span>Bilder</a>
+        </li><li>
+          <a href="/popkultur/comedy" title="Comedy"><span></span>Comedy</a>
+        </li><li>
+          <a href="http://my.sputnik.de" title="Community"><span></span>Community</a>
+        </li><li>
+          <a href="/programm/frequenzen" title="Empfang"><span></span>Empfang</a>
+        </li><li>
+          <a href="/programm/filme" title="Filme"><span></span>Filme</a>
+        </li><li>
+          <a href="http://my.sputnik.de/forum" title="Forum"><span></span>Forum</a>
+        </li><li>
+          <a href="/programm/frequenzen" title="Frequenzen"><span></span>Frequenzen</a>
+        </li><li>
+          <a href="/sputnik/galerien" title="Galerien"><span></span>Galerien</a>
+        </li><li>
+          <a href="/programm/games" title="Games"><span></span>Games</a>
+        </li><li>
+          <a href="/service/hilfe" title="Hilfe"><span></span>Hilfe</a>
+        </li><li>
+          <a href="/service/kontakt" title="Hotline"><span></span>Hotline</a>
+        </li><li>
+          <a href="/programm/streaming" title="Internetradio"><span></span>Internetradio</a>
+        </li><li>
+          <a href="/programm/filme" title="Kino"><span></span>Kino</a>
+        </li><li>
+          <a href="/service/kontakt" title="Kontakt"><span></span>Kontakt</a>
+        </li><li>
+          <a href="/Lebensplanung" title="Lebensplanung"><span></span>Lebensplanung</a>
+        </li><li>
+          <a href="/programm/buecher" title="Lesestoff"><span></span>Lesestoff</a>
+        </li><li>
+          <a href="http://my.sputnik.de" title="mySPUTNIK"><span></span>mySPUTNIK</a>
+        </li><li>
+          <a href="/musik/neue-musik" title="Neue Musik"><span></span>Neue Musik</a>
+        </li><li>
+          <a href="/news" title="News"><span></span>News</a>
+        </li><li>
+          <a href="/podcasts" title="Podcsats"><span></span>Podcsats</a>
+        </li><li>
+          <a href="/programm/programmschema" title="Sendeschema"><span></span>Sendeschema</a>
+        </li><li>
+          <a href="/musik/sendungen/sputnik-soundcheck-di-21-00-22-00-cet" title="Soundcheck"><span></span>Soundcheck</a>
+        </li><li>
+          <a href="/programm/games" title="Spiele"><span></span>Spiele</a>
+        </li><li>
+          <a href="/programm/webradio" title="SPUTNIK hören"><span></span>SPUTNIK hören</a>
+        </li><li>
+          <a href="/events/aktuell-studiokonzerte" title="Studiokonzert"><span></span>Studiokonzert</a>
+        </li><li>
+          <a href="/radio/team" title="Team"><span></span>Team</a>
+        </li>      </ul>
+    </div>
+  </div>  <div id="subNavigation">
+            <div class="nav_block" id="nav_home">
+      <div class=""><span class="leftStripeMain"></span><a href="/home" class="home" title="HOME">HOME</a></div>
+      <div id="home" class="subnav">
+        <ul class="">
+		  	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_hren">
+      <div class="current"><span class="leftStripeMain"></span><a href="/hoeren" class="hren" title="HÖREN">HÖREN</a><a class="button" href="#hren"><span></span></a></div>
+      <div id="hren" class="subnav">
+        <ul class="current">
+		  <li class=""><a href="/sputniker_am_morgen" title="Hören: Die SPUTNIKer am Morgen" class="">Die SPUTNIKer am Morgen</a><span class="rightStripeSub "></span></li><li class=""><a href="/mysputnik" title="HÖREN: Die SPUTNIKer am Nachmittag" class="">Die SPUTNIKer am Nachmittag</a><span class="rightStripeSub "></span></li><li class=""><a href="/tagesupdate" title="Hören: Tagesupdate" class="">Tagesupdate</a><span class="rightStripeSub "></span></li><li class=""><a href="/popkult" title="Hören: Popkult" class="">Popkult</a><span class="rightStripeSub "></span></li><li class=""><a href="/musikspecials" title="Hören: Musikspecials" class="">Musikspecials</a><span class="rightStripeSub "></span></li><li class=""><a href="/apps" title="Hören: Apps" class="">Apps </a><span class="rightStripeSub "></span></li><li class=""><a href="/podcasts" title="Hören: Podcasts" class="">Podcasts</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_musik">
+      <div class=""><span class="leftStripeMain"></span><a href="/musik" class="musik" title="MUSIK">MUSIK</a><a class="button" href="#musik"><span></span></a></div>
+      <div id="musik" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/musik/neue-musik" title="Musik: Neue Musik" class="">Neue Musik</a><span class="rightStripeSub "></span></li><li class=""><a href="/musik/musiknews" title="Musik: Musiknews" class="">Musiknews</a><span class="rightStripeSub "></span></li><li class=""><a href="/musik/musikvideos" title="Musik: Musikvideos" class="">Musikvideos</a><span class="rightStripeSub "></span></li><li class=""><a href="/musik/playlisten" title="Musik: Playlisten" class="">Playlisten</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_sehen">
+      <div class=""><span class="leftStripeMain"></span><a href="/sehen" class="sehen" title="SEHEN">SEHEN</a><a class="button" href="#sehen"><span></span></a></div>
+      <div id="sehen" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/video" title="Sehen: Videos" class="">Videos</a><span class="rightStripeSub "></span></li><li class=""><a href="/sputnik/galerien" title="Sehen: Galerien" class="">Galerien</a><span class="rightStripeSub "></span></li><li class=""><a href="/partybilder" title="Sehen: Partybilder" class="">Partybilder</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_events">
+      <div class=""><span class="leftStripeMain"></span><a href="/events" class="events" title="EVENTS">EVENTS</a><a class="button" href="#events"><span></span></a></div>
+      <div id="events" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/konzerte" title="Events: Konzerte" class="">Konzerte</a><span class="rightStripeSub "></span></li><li class=""><a href="/Lebensplanung" title="Events: Aktuell: Lebensplanung" class="">Lebensplanung</a><span class="rightStripeSub "></span></li><li class=""><a href="/festivals" title="Events: Festival" class="">Festivals</a><span class="rightStripeSub "></span></li><li class=""><a href="/heimattour" title="Events: Heimattour" class="">Heimattour</a><span class="rightStripeSub "></span></li><li class=""><a href="/partybilder" title="Events: Partybilder" class="">Partybilder</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_beruns">
+      <div class=""><span class="leftStripeMain"></span><a href="/ueberuns" class="beruns" title="ÜBER UNS">ÜBER UNS</a><a class="button" href="#beruns"><span></span></a></div>
+      <div id="beruns" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/team" title="Service: Team" class="">Team</a><span class="rightStripeSub "></span></li><li class=""><a href="/programm/programmschema" title="Service: Sendeschema" class="">Sendungen</a><span class="rightStripeSub "></span></li><li class=""><a href="/programm/frequenzen" title="Service: Empfang (Frequenzen)" class="">Frequenzen</a><span class="rightStripeSub "></span></li><li class=""><a href="/kontakt" title="Service: Kontakt ins Studio" class="">Kontakt ins Studio</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_springbreak">
+      <div class=""><span class="leftStripeMain"></span><a href="/springbreak" class="springbreak" title="SPRING BREAK">SPRING BREAK</a><a class="button" href="#springbreak"><span></span></a></div>
+      <div id="springbreak" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/springbreak/kuenstler" title="SPRING BREAK: SSB Künstler" class="">Künstler</a><span class="rightStripeSub "></span></li><li class=""><a href="/festival/lineup" title="SPRING BREAK: Lineup" class="">Lineupdatenbank</a><span class="rightStripeSub "></span></li><li class=""><a href="/springbreak/magazin" title="SPRING BREAK: Magazin SSB" class="">Magazin</a><span class="rightStripeSub "></span></li><li class=""><a href="/springbreak/service" title="SPRING BREAK: Service SSB" class="">Service</a><span class="rightStripeSub "></span></li><li class=""><a href="/springbreak/partybilder2011" title="SPRING BREAK: Partybilder2011" class="">Partybilder</a><span class="rightStripeSub "></span></li><li class=""><a href="/springbreak/konzerte2010" title="SPRING BREAK: Konzerte2010" class="">Konzertrückblick</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_newmusicaward">
+      <div class=""><span class="leftStripeMain"></span><a href="/newmusicaward" class="newmusicaward" title="NEW MUSIC AWARD">NEW MUSIC AWARD</a><a class="button" href="#newmusicaward"><span></span></a></div>
+      <div id="newmusicaward" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/new-music-award/partner" title="Music Award: Partner" class="">Partner</a><span class="rightStripeSub "></span></li><li class=""><a href="/new-music-award/presse" title="Music Award: Presse" class="">Presse</a><span class="rightStripeSub "></span></li><li class=""><a href="/newmusicaward/impressum" title="Music Award: Impressum" class="">Impressum</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_radioecho">
+      <div class=""><span class="leftStripeMain"></span><a href="/echo2011" class="radioecho" title="RADIO ECHO 2011">RADIO ECHO 2011</a><a class="button" href="#radioecho"><span></span></a></div>
+      <div id="radioecho" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/echo-2011/nominees" title="ECHO 2011: Nominees" class="">Nominees</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo-2011/roter-teppich" title="ECHO 2011: Roter Teppich" class="">Roter Teppich</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo-2011/verleihung" title="ECHO 2011: Verleihung" class="">Verleihung</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo-2011/aftershow" title="ECHO 2011: Aftershow" class="">Aftershow</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo-2011/impressum" title="ECHO 2011: Impressum" class="">Impressum</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+            <div class="nav_block" id="nav_echo">
+      <div class=""><span class="leftStripeMain"></span><a href="/echo2012" class="echo" title="ECHO 2012">ECHO 2012</a><a class="button" href="#echo"><span></span></a></div>
+      <div id="echo" class="subnav">
+        <ul class="">
+		  <li class=""><a href="/echo2012/nominees" title="Echo 2012: Nominees" class="">Nominees</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo2012/verleihung" title="Echo 2012: Verleihung" class="">Verleihung</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo2012/roter-teppich" title="ECHO 2012: Roter Teppich" class="">Roter Teppich</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo2012/aftershow" title="ECHO 2012: Aftershow" class="">Aftershow</a><span class="rightStripeSub "></span></li><li class=""><a href="/echo2012/impressum" title="Echo 2012: Impressum" class="">Impressum</a><span class="rightStripeSub "></span></li>	    </ul>
+	  </div>
+	 </div>
+      </div>  <!--span metal:use-macro="inc/navi-sub.html/navi_tool" /-->
+  <div id="a-z">
+    <a title="A bis Z" class="icon a-z" href="#">A bis Z<span></span></a>
+  </div>  <div id="webcodeForm">
+    <form method="post" action="/sputnik/webcode">
+      <fieldset>
+        <input type="text" maxlength="7" size="8" value="webCODE eingeben" id="wcid" name="wcid" class="text" style="color: rgb(170, 170, 170);" onfocus="this.select(); if(this.value=='webCODE eingeben') this.value=''" onblur="if(this.value=='') this.value='webCODE eingeben'"/>
+        <input type="submit" alt="Webcode abschicken" value="submit" name="submit" src="/img/icon/a_z_weiter.png" class="image"/>
+      </fieldset>
+    </form>
+    <div id="ssb12_spider"><img src="/img/skins/ssb12/spider_top.png" title=""/></div>
+  </div></div>            <div id="wrapperContent">
+          <div id="PlaylistRecherche"></div>
+                <div class="col sizeS"> 
+                             <div class="teaser first">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/musik/sendungen/sputnik-soundcheck-di-22-00-23-00-cet">
+			  <img src="/sixcms_upload/media_fast/43/Irie-revoltes-t1.jpg" alt="Irie Revoltes - Quelle: Pressefoto" title="Irie Revoltes - Quelle: Pressefoto"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>Pressefoto</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>SPUTNIK Soundcheck | Di 22:00 CET</h4>
+				<h2 class="place " placer:id="2598" placer:pos="1" placer:subrubrik="placer">
+				Musik von euch für euch</h2>
+		<p>Aus unserer Onlineplattform für neue Künstler und Bands suchen wir jede Woche Highlights heraus und präsentieren sie im Radio. Heute mit den Irie Revoltes und ihrer LIVE-DVD. Funktioniert auch im Radio.</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">05.06.2012</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/musik/sendungen/sputnik-soundcheck-di-22-00-23-00-cet" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div><div class="teaser ">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/musik/musiknews">
+			  <img src="/sixcms_upload/media_fast/43/t1_megafon.jpg" alt="Achtung, wichtig! - Quelle: colourbox" title="Achtung, wichtig! - Quelle: colourbox"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>colourbox</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>Die SPUTNIKer am Morgen</h4>
+				<h2 class="place " placer:id="104393" placer:pos="4" placer:subrubrik="placer">
+				SPUTNIK Musiknews</h2>
+		<p>Wer hat wen verprügelt, möchte schwanger werden oder singt unter der Dusche? Egal, was Cro & Co. verzapfen - wir halten euch auf dem Laufenden, auch im Podcast - klick, klick!</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">18.05.2012</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/musik/musiknews" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div><div class="teaser last">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/programm/sendungen/dein-morgen/gehts-jetzt-gleich-los">
+			  <img src="/sixcms_upload/media_fast/43/_tonband196x147.jpg" alt="Tonband" title="Tonband"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>MDR SPUTNIK 2010</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>Die SPUTNIKer am Morgen</h4>
+				<h2 class="place " placer:id="3943" placer:pos="7" placer:subrubrik="placer">
+				Die SPUTNIK Mailbox</h2>
+		<p>Gehts jetzt gleich los? Jeden Morgen hören wir unsere Mailbox ab, und die dümmsten Sprüche bekommt ihr direkt auf die Ohren - oder als Podcast auf die Festplatte ...</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">25.09.2011</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/programm/sendungen/dein-morgen/gehts-jetzt-gleich-los" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div> 
+          
+	                   </div><div class="col sizeS"> 
+                             <div class="teaser first">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/musik/neue-musik/hot-chip">
+			  <img src="/sixcms_upload/media_fast/43/t1.107779.jpg" alt="Hot Chip  - Quelle: Steve Gullick" title="Hot Chip  - Quelle: Steve Gullick"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>Steve Gullick</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>SPUTNIK Popkult | Mo-Fr 19 bis 22 Uhr</h4>
+				<h2 class="place " placer:id="192160" placer:pos="2" placer:subrubrik="placer">
+				Hot Chip: Zwang- und planlos zur neuen Platte</h2>
+		<p>Wenn eine Band in ihr zwölftes Jahr geht, könnte man meinen, dass irgendwann die Ideen zu neuen Songs ausgehen. Hot Chip fürchten das nicht und basteln einfach, worauf den sie Bock haben.</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">03.06.2012</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/musik/neue-musik/hot-chip" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div><div class="teaser ">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/hoererlebnis">
+			  <img src="/sixcms_upload/media_fast/43/schwein196x147.jpg" alt="Das Schwein aus &quot;Mein Vater, sein Schwein und ich&quot;. - Quelle: mfox (pixelio.de)" title="Das Schwein aus &quot;Mein Vater, sein Schwein und ich&quot;. - Quelle: mfox (pixelio.de)"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>mfox (pixelio.de)</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>SPUTNIK Hörerlebnis</h4>
+				<h2 class="place " placer:id="30149" placer:pos="5" placer:subrubrik="placer">
+				Mein Vater, sein Schwein und ich</h2>
+		<p>Was haben Väter mit Schweinen zu tun, und wie ist es, Günter Grass zum Geburtstag zu bekommen? Unser neues SPUTNIK Hörerlebnis gibts auch als Podcast!</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">04.05.2012</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/hoererlebnis" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div><div class="teaser last">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/programm/sendungen/dein-morgen/olaf-schuberts-zeitgeschichte">
+			  <img src="/sixcms_upload/media_fast/43/schubert196x147.jpg" alt="Olaf Schubert" title="Olaf Schubert"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>MDR SPUTNIK 2010</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>Die SPUTNIKer am Morgen</h4>
+				<h2 class="place " placer:id="5110" placer:pos="8" placer:subrubrik="placer">
+				Zeitgeschichte à la Olaf Schubert!</h2>
+		<p>Olaf Schubert wäre sicher einer der führenden Historiker geworden, hätte er nicht den Weg als SPUTNIK-Comedian eingeschlagen. Zu hören jeden Tag um 7.20 und 10.50 Uhr!</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">31.03.2011</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/programm/sendungen/dein-morgen/olaf-schuberts-zeitgeschichte" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div> 
+          
+	                   </div><div class="col sizeS"> 
+                             <div class="teaser first">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/mysputnik/gamecheck-max-payne-3-ps3-xbox-360-pc">
+			  <img src="/sixcms_upload/media_fast/43/mp3%20196x147.jpg" alt="Max Payne 3 - Quelle: Rockstar" title="Max Payne 3 - Quelle: Rockstar"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>Rockstar</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>Die SPUTNIKER am Nachmittag</h4>
+				<h2 class="place " placer:id="191072" placer:pos="3" placer:subrubrik="placer">
+				Gamecheck: Max Payne 3</h2>
+		<p>Frau und Tochter tot, Freundin verblutet und der Held am Ende. Der dritte Teil schildert seine Auferstehung.</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">23.05.2012</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/mysputnik/gamecheck-max-payne-3-ps3-xbox-360-pc" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div><div class="teaser ">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/programm/podcasts/die-besten-sputnik-interviews">
+			  <img src="/sixcms_upload/media_fast/43/t1_interview_podcast.jpg" alt="Die besten SPUTNIK-Interviews - Quelle: sputnik.de/vorndran" title="Die besten SPUTNIK-Interviews - Quelle: sputnik.de/vorndran"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>sputnik.de/vorndran</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>Fragen und Antworten</h4>
+				<h2 class="place " placer:id="147536" placer:pos="6" placer:subrubrik="placer">
+				Die besten SPUTNIK-Interviews</h2>
+		<p>Den Weltmeister im Rückwärtslaufen? David Guetta? SPUTNIK-Interviews sind bunt. Wer keine freche Frage und keine clevere Antwort mehr verpassen will, abonniert den Podcast!</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">28.11.2011</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/programm/podcasts/die-besten-sputnik-interviews" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div><div class="teaser last">
+
+		
+											<div class="teaser_pict"><a class="pict" href="/programm/podcasts/sputnik-gamecheck">
+			  <img src="/sixcms_upload/media_fast/43/t1_gamecheck.jpg" alt="Videogames sind Kultur! - Quelle: colourbox" title="Videogames sind Kultur! - Quelle: colourbox"/></a>			  <div class="bildrechteItem">
+				<p><span>&copy;</span>colourbox</p>			  </div><a class="bildrechteBtn" href="#"><span class="bildrechteBtn"></span></a>
+					</div>
+																<div class="teaserContent">
+		  			  	<h4>mySPUTNIK</h4>
+				<h2 class="place " placer:id="106604" placer:pos="9" placer:subrubrik="placer">
+				Auch als Podcast: der SPUTNIK Gamecheck</h2>
+		<p>Nicht jeder hat eine gut sortierte Videothek mit Games-Regal um die Ecke. Die SPUTNIK Gamechecks behalten den Markt im Auge und bewahren Spielefreunde vor Fehlkäufen!</p>			<!-- a tal:condition="teaser/link" tal:attributes="href teaser/link" tal:content="structure string:weiter&raquo;" href="#" class="standard">Ein Link</a-->
+			<p class="onlinedate">15.09.2010</p>
+		</div>
+		<div class="links">
+          	        <ul>
+			  <!--li tal:condition="teaser/video_id" tal:attributes="class php:sp6_linkOddEven(col_size)"><a tal:attributes="href string:/scripts/sspgallery/shadowbox/mediaplayer.php?v=${teaser/video_id}" href="#" rel="shadowbox;width=420;height=415" class="icon stream_video" title="Video ansehen"><span></span>Video</a></li-->
+			 			 			 			  <li class="last" style="width:196px"><a href="/programm/podcasts/sputnik-gamecheck" class="icon to_article" title="zum Artikel"><span></span>Artikel</a></li>			  	      	        </ul>
+      	</div>
+		<!-- Ende Teaser-Content -->
+	</div> 
+          
+	  <div class="paging">
+            <div class="arrows">
+	      <div class="previousDisabled"></div>                            <div class="nextDisabled"></div>                          </div>
+          </div>                 </div><!-- /col -->
+		<!-- skyscraper previously -->
+      </div>
+	  <!-- new embed "unten": /tf, 2010-02-25 -->
+            <div id="skyscraper"> 
+  <div id="rubrikButtons">
+    <div id="rubrikVideo"><a href="/video">Videos</a></div>
+    <div id="rubrikBilder"><a href="/sputnik/galerien">Bilder</a></div>
+  </div>
+  <div id="newsPatch">
+	<img class="head" title="Nachrichten / News" alt="Nachrichten / News" src="/img/skyscraper/mysputnik_news_head.png"/>
+	<img class="bild" title="Nachrichten / News" alt="Nachrichten / News" src="/img/skyscraper/mysputnik_news_bild.png"/>	
+	<div class="nullDistance">
+      <h3 class="patchCaption">Topmeldungen</h3>						
+	  <!-- patch: News: Zeitgeschehen -->
+
+      <h3>Zeitgeschehen</h3>
+	  <p>
+        <a class="to_article" href="/news#patch" title="zur Newsseite">
+          Neonazi-Aufmarsch in Insel verboten
+		  <span></span>
+		</a>
+	  </p>
+    
+	</div>
+	<div>
+	  <!-- patch: News: Musik -->
+
+      <h3>Musik</h3>
+	  <p>
+        <a class="to_article" href="/news#patch" title="zur Newsseite">
+          Adele hat Angst vor ihren Ex-Freunden
+		  <span></span>
+		</a>
+	  </p>
+    
+	</div>
+	<div>
+	  <!-- patch: News: Multimedia -->
+
+      <h3>Multimedia</h3>
+	  <p>
+        <a class="to_article" href="/news#patch" title="zur Newsseite">
+          PS3-Version von Diablo 3 bei Redcoon
+		  <span></span>
+		</a>
+	  </p>
+    
+	</div>
+	<div class="roundedCorner nullDistance">
+	</div>	
+</div>  <div id="socialPatch">
+    <a class="button fb" href="http://www.facebook.com/mdrsputnik"><span>Facebook</span></a>
+    <a class="button tw" href="http://twitter.com/#!/mdrsputnik"><span>Twitter</span></a>
+    <a class="button yt" href="http://www.youtube.com/user/mySPUTNIK"><span>Youtube</span></a>
+  </div>
+  <div id="CommLoginPatch">
+  <iframe scrolling="no" frameborder="0" src="http://community.sputnik.de/statusbox-sputnik-redesign/" style="border:none; overflow:hidden;width:197px;height:800px;" allowtransparency="true"></iframe>
+  </div>
+  
+</div>          </div><!-- /wrapperMainContent -->
+	  <div id="wrapperSiteNavigation">
+        <div id="siteNavigation">
+			<div id="logo"><a href="http://www.mdr.de" title="MDR">&nbsp;</a></div>
+				<ul>
+					<li><a title="" id="kontakt" href="/service/kontakt" target="_blank"><span>Kontakt</span></a></li>
+					<li><a title="" id="impressum" href="/service/impressum" target="_blank"><span>Impressum</span></a></li>
+					<li><a title="" id="mdr_fernsehen" href="http://www.mdr.de/tv/" target="_blank"><span>MDR <br/>Fernsehen</span></a></li>
+					<li><a title="" id="mdr_info" href="http://www.mdr.de/mdr-info" target="_blank"><span>MDR <br/>Info</span></a></li>
+					<li><a title="" id="mdr_figaro" href="http://www.mdr.de/mdr-figaro" target="_blank"><span>MDR <br/>Figaro</span></a></li>
+					<li><a title="" id="mdr_sachsen" href="http://www.mdr.de/mdr1-radio-sachsen" target="_blank"><span>MDR 1 Radio <br/>Sachsen</span></a></li>
+					<li><a title="" id="mdr_sachsen_anhalt" href="http://www.mdr.de/mdr1-radio-sachsen-anhalt" target="_blank"><span>MDR 1 Radio <br/>Sachsen-Anhalt</span></a></li>
+					<li><a title="" id="mdr_thueringen" href="http://www.mdr.de/mdr1-radio-thueringen" target="_blank"><span>MDR 1 Radio <br/>Th&uuml;ringen</span></a></li>
+					<li><a title="" id="mdr_jump" href="http://www.jumpradio.de" target="_blank"><span>Jump</span></a></li>
+					<li><a title="" id="ard" href="http://www.ard.de" target="_blank"><span>ARD.DE</span></a></li>
+				</ul>
+			</div>
+    </div>    <div id="pageEnd"></div><!-- Haus oder Abstandhalter nach unten -->
+  </div>
+              <div id="specialTeaser">
+	<map name="ssb_map">
+	<area shape="poly" href="http://www.sputnik.de/springbreak" coords="9,612,237,620,251,42,22,36" alt="SPUTNIK Springbreak"/>
+</map>
+<img src="/img/ssb_ticket.jpg" alt="" usemap="#ssb_map" width="280" height="644"/>
+	</div>
+        </div><!-- /wrapperPage -->
+  <div>
+<script type="text/javascript">
+// 
+  var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.sputnik.de/87767957a7b84b18213b62f871f17439/" : "http://www.sputnik.de/87767957a7b84b18213b62f871f17439/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+// 
+</script><script type="text/javascript">  
+// 
+  try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+  }
+  catch( err ) {}
+// 
+</script>
+<noscript><p><img src="http://www.sputnik.de/87767957a7b84b18213b62f871f17439/piwik.php?idsite=7" style="border:0;position:absolute;top:0;left:0;z-index:-1;" alt=""/></p></noscript>
+</div>	
+	<!-- SSB10 Spezialbereich. -->
+	
+	
+</body>
+</html>

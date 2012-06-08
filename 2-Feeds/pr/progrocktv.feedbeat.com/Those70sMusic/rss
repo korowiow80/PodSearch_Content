@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="projekktor"/>
+   
+    <title>Projekktor Zwei - Free HTML5 video player - Error404</title>
+
+    <link rel="pingback" href="http://www.projekktor.com/blog/xmlrpc.php" />         
+
+    <meta property="og:title" content="Projekktor Zwei - THE free HTML5 video player" />
+    <meta property="og:image" content="http://www.projekktor.com/intro.png" />
+
+    <meta property="og:video" content="http://www.projekktor.com/jarisplayer.swf" />
+    <meta property="og:video:type" content="application/x-shockwave-flash" />
+    <meta property="og:video:width" content="640" />
+    <meta property="og:video:height" content="426" />
+    <meta property="og:video" content="http://www.projekktor.com/intro.mp4" />
+    <meta property="og:video:type" content="video/mp4" />
+    <meta property="og:video" content="http://www.projekktor.com/intro.webm" />
+    <meta property="og:video:type" content="video/webm" />
+
+<link rel="shortcut icon" href="http://projekktorxl.com/assets/frontend/images/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="http://projekktorxl.com/assets/frontend/images/apple-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://projekktorxl.com/assets/frontend/images/apple_72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://projekktorxl.com/assets/frontend/images/apple_114x114-precomposed.png">
+
+    
+    <link rel="alternate" type="application/rss+xml" title="Documenation - recent changes" href="http://wiki.projekktor.com/feed.php?mode=list" />
+    <link rel="alternate" type="application/rss+xml" title="Projekktor Forum - recent posts" href="http://www.projekktor.com/board/index.php?mode=rss" />
+ 
+    <meta name="google-site-verification" content="vyEWyJppBbokmG1DTa6YabrZgAV9qPHGJ9gZIwLyqsk" />
+    <meta name="keywords" content="html5,video,javascript,webm,free,player,gpl,open sorce" />
+
+    <link rel="canonical" href="http://www.projekktor.com/404.php" />
+
+    <link rel="stylesheet" type="text/css" href="http://www.projekktor.com/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    <link rel="stylesheet" title="maccaco" href="http://addons.projekktorxl.com/themes/editions/projekktor/theme/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="http://www.projekktor.com/css/jquery.snippet.min.css" />
+
+    <script type="text/javascript" src="http://www.filenew.org/tracker/piwik.js"></script>
+
+    <script src="http://www.projekktor.com/js/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="http://www.projekktor.com/js/jquery.jtweetsanywhere-1.3.1.min.js" type="text/javascript"></script>
+
+    <!--<script src="http://www.projekktor.com/js/jquery.sharrre-1.2.0.min.js" type="text/javascript"></script>-->
+    <script src="http://www.projekktor.com/js/jquery.snippet.min.js" type="text/javascript"></script> 
+ 
+    <script src="http://www.projekktorxl.com/api/js/core/id/projekktor" type="text/javascript"></script>
+
+  
+
+
+    <!-- start: demo -->
+        <!-- end: demo -->
+    
+    <script type="text/javascript">    
+    $(document).ready(function() {	
+	
+	try {
+	    var piwikTracker = Piwik.getTracker("http://www.filenew.org/tracker/piwik.php", 1);
+	    piwikTracker.trackPageView();
+	    piwikTracker.enableLinkTracking();
+	} catch( err ) {}
+	
+	$("pre").snippet("css",{style:"ide-eclipse",clipboard:"js/ZeroClipboard.swf"});
+	
+	$('a.code').click(function() {
+	    $('#'+$(this).attr('rel')).animate({height: 'toggle'}, 500)
+	})
+
+
+	$('#twittastatus').jTweetsAnywhere({
+	    username: 'projekktor',
+	    count: 1,
+	    showFollowButton: true,
+	    tweetFilter: function(obj) { if (obj.text.indexOf('#whassup')>-1) { obj.text = obj.text.replace('#whassup', ''); return obj;} }
+	});
+
+	
+	/*
+	$('#shareme').sharrre({
+	    share: {
+		googlePlus: true,
+		facebook: true,
+		twitter: true,
+		delicious: true
+	    },
+	    buttons: {
+		googlePlus: {size: 'tall'},
+		facebook: {layout: 'box_count'},
+		twitter: {count: 'vertical'},
+		digg: {type: 'DiggMedium'},
+		delicious: {size: 'tall'}
+	    },
+	    hover: function(element, options){
+		$(element).find('.buttons').show();
+	    },
+	    hide: function(element, options){
+		$(element).find('.buttons').hide();
+	    }
+	});
+*/
+
+
+    });
+    </script>  
+  
+
+</head>
+<body>
+<div id="main">
+
+<!-- START Top -->
+<div id="top">
+    <div id="logo"><a href="http://www.projekktor.com" title="Go to Projekktor Home"><img src="http://www.projekktor.com/img/logo.png" width="254" heoght="50" alt="Projekktor Home" /></a>
+
+</div>    
+    <ul>
+       <li>
+	    <a href="http://spinningairwhale.com/contact/" title="Get in touch" ><img src="http://www.projekktor.com/img/contact.png" alt="Mail"/></a>
+	</li>	
+	<li>
+	    <a href="http://twitter.com/projekktor" title="Follow me on Twitter" ><img src="http://www.projekktor.com/img/twitter.png" alt="twitter"/></a>
+	</li>		
+	<li>
+	    <a href="http://www.projekktor.com/blog/feed/" title="Blog RSS" ><img src="http://www.projekktor.com/img/rss.png" alt="rss"/></a>
+	</li>	
+	<li>
+		<div id="shareme" data-url="http://www.projekktor.com/" data-text="THE really free HTML5 video player" data-title="share me" ></div>
+	</li>
+    </ul>    
+</div>
+<!-- END Top -->
+
+<!-- START Menu -->
+<div id="topmenu" class="ddsmoothmenu">
+    <ul><li ><a href="http://www.projekktor.com/demo.php">Demos</a></li><li ><a href="http://www.projekktor.com/docs.php">Docs &amp; FAQ</a></li><li ><a href="http://www.projekktor.com/downloads.php">Downloads</a></li><li ><a href="http://www.projekktor.com/license.php">GPL License</a></li><li ><a href="http://www.projekktor.com/donate.php">Donate</a></li><li ><a href="http://www.projekktor.com/board/">Forum</a></li><li ><a href="http://dev.projekktorxl.com/">Bugs</a></li></ul></div>
+<!-- END Menu -->
+
+
+
+
+
+<div id="content" >
+    <div class="colBig">
+    
+    
+
+	<div class="colBigContent">
+	    <a name="generallicense"></a>
+	    <div class="smallTitleB">
+		<img src="img/license.png" width="32" height="32" alt="Blog" />
+		<h2>Whooooops.... </h2>
+	    </div>	
+	    <h3>404</h3>	    
+       </div>
+</div>
+</div>
+
+
+</div><!-- END Main --> 
+<!-- START Footer -->
+<div id="footer">
+    <div class="footerContent" ><!-- START FooterContent  -->
+    
+        <div class="logoBW" >             
+		<a href="http://spinningairwhale.com">     
+	    		<img src="http://www.projekktor.com/img/airwhale.png" alt="spinning airhale"/>        	
+		</a>
+        </div>
+        
+        <div class="copyright"><!-- START Copyright -->        
+	    <ul><li ><a href="http://www.projekktor.com/demo.php">Demos</a></li><li ><a href="http://www.projekktor.com/docs.php">Docs &amp; FAQ</a></li><li ><a href="http://www.projekktor.com/downloads.php">Downloads</a></li><li ><a href="http://www.projekktor.com/license.php">GPL License</a></li><li ><a href="http://www.projekktor.com/donate.php">Donate</a></li><li ><a href="http://www.projekktor.com/board/">Forum</a></li><li ><a href="http://dev.projekktorxl.com/">Bugs</a></li></ul>            <p style="clear:both;">
+		&copy; 2010-2012 Sascha Kluger, <a href="http://spinningairwhale.com">Spinning Airwhale Media</a>		
+		<br/> photos &copy; 2010-2012 <a href="http://www.ernstkluger.de">ernst kluger</a> under <a href="http://www.ernstkluger.de/lizenzhinweis/">creative commons</a>
+	    </p>
+        </div><!-- END copyright -->
+            
+    </div><!-- END footerContent  -->    
+
+</div>
+<!-- END Footer -->
+</body>
+</html>

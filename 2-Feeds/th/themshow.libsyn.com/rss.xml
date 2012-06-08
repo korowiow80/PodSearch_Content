@@ -1,0 +1,441 @@
+<html>
+<head>
+<title>The M Show (rss.xml)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.themshow.com/feed.xml"/>
+
+<style type="text/css">
+<!--
+body {
+text-align: center;
+margin: 0px;
+color: #111111;
+margin: 0px;
+padding-top: 0px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+font-weight: bold;
+text-decoration: none;
+color: #3333DD;
+}
+a:hover {
+text-decoration: underline;
+color: #111111;
+}
+.container
+{
+width: 90%;
+border: 1px dashed #DDDDDD;
+background-color: #F9F8F9;
+margin: 0px auto;
+text-align: left;
+overflow: visible;
+}
+.headerTop {
+}
+.headerMiddle {
+}
+.titleBar {
+background-color: #757575;
+cursor: pointer;
+}
+.podcastTitle {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 32px;
+font-weight: bold;
+color: #FFFFFF;
+}
+.podcastDescription {
+font-family: Geneva, Arial, Helvetica, san-serif;
+font-size: 14px;
+color: #FFFFFF;
+text-align: left;
+padding: 3px;
+}
+.headerBottom {
+}
+.bodyMiddle {
+}
+.rightnav
+{
+float: right;
+background-color: #F5F5F5;
+width: 200px;
+font-size: 11px;
+padding-top: 1px;
+padding-right: 1px;
+padding-bottom: 1px;
+padding-left: 3px;
+border-left-width: 1px;
+border-left-style: dashed;
+border-left-color: #F0F0F0;
+}
+
+.content
+{
+margin-left: 10px;
+margin-right: 10px;
+padding: 1em;
+}
+.blogPane {
+font-size: 10px;
+color: #000000;
+width: 550px;
+padding-top: 3px;
+padding-right: 15px;
+padding-bottom: 1px;
+padding-left: 7px;
+}
+.postImage {
+float: right;
+padding-left: 5px;
+vertical-align: middle;
+}
+.viewTypes {
+font-size: 6px;
+color: #DDEEEE;
+}
+.postDate {
+font-size: 9px;
+color: #333333;
+}
+.postTitle {
+font-size: 18px;
+color: #8A2222;
+font-weight: bold;
+}
+.postBody {
+font-size: 11px;
+color: #000000;
+}
+.postDetails {
+font-size: 9px;
+color: #777777;
+}
+.postComments {
+font-size: 10px;
+color: #111235;
+background-color: #FaFAFA
+}
+.postSeparator {
+border: 1px dashed #E9E9E9;
+background-color: #F9F8F9;
+}
+.showCommentsOdd{
+color: #202022;
+font-size: 11px;
+border-bottom: 1px dashed #DFDFDF;
+padding: 5px;
+margin-bottom: 5px;
+}
+.showCommentsEven{
+color: #202020;
+font-size: 11px;
+border-bottom: 1px dashed #DFDFDF;
+background-color: #FFFFFF;
+padding: 5px;
+margin-bottom: 5px;
+}
+.showCommentsDetails {
+font-size: 9px;
+}
+.showCommentsDetailsAuthorPost {
+font-size: 10px;
+font-weight: bold;
+}
+
+.sidePaneTitles {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #666666;
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #CCCCCC;
+cursor: default;
+}
+#wp-calendar {
+border: 1px dashed #ddd;
+empty-cells: show;
+margin: 0;
+width: 100%;
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+#wp-calendar a {
+display: block;
+font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+}
+#wp-calendar a:hover {
+background: #FFFFEE;
+color: #800000;
+font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+}
+#wp-calendar caption {
+color: black;
+text-align: left;
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+#wp-calendar td {
+color: black;
+font: normal 11px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+letter-spacing: normal;
+padding: 1px ;
+text-align: center;
+}
+#wp-calendar td:hover, #wp-calendar #today {
+background: #ffffee;
+color: black;
+font: 11px Verdana, Arial, Helvetica, sans-serif;
+cursor: default;
+}
+#wp-calendar th {
+text-transform: capitalize;
+font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.archives {
+color: #FFFFFF;
+font-size: 10pt;
+font-family: Arial, Helvetica, sans-serif;
+}
+a.nav:link {
+color: #FFFFFF;
+text-decoration: none;
+font-size: 10pt;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+a.nav:hover {
+color: #FFFF99;
+text-decoration: underline;
+font-size: 10pt;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+a.nav:visited {
+color: #FFFF99;
+text-decoration: none;
+font-size: 10pt;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+clear: both;
+}
+-->
+</style></head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="preloadImages();">
+
+<table border="0" cellpadding="0" cellspacing="0" width="1024">
+<!-- fwtable fwsrc="templatehome2.png" fwbase="template.gif" fwstyle="Dreamweaver" fwdocid = "1978191526" fwnested="0" -->
+<tr>
+<td width="539"><img src="http://www.themshow.com/images/spacer.gif" width="539" height="1" border="0" alt=""></td>
+<td width="225"><img src="http://www.themshow.com/images/spacer.gif" width="216" height="1" border="0" alt=""></td>
+<td width="269"><img src="http://www.themshow.com/images/spacer.gif" width="269" height="1" border="0" alt=""></td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="1" border="0" alt=""></td>
+</tr>
+
+<tr>
+<td rowspan="4" width="539"><img name="template_r1_c1" src="http://www.themshow.com/images/template_r1_c1.jpg" width="539" height="297" border="0" alt="The M Show"></td>
+<td rowspan="4" width="225"><img src="http://www.themshow.com/images/template_r1_c2.gif" alt="" name="template_r1_c2" width="216" height="297" border="0" usemap="#template_r1_c2Map"></td>
+<td width="269"><b>&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif">&nbsp;&nbsp;Subscribe
+to The Insider</font></b></td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="38" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="269">
+<!-- BEGIN: Constant Contact Basic Opt-in Email List Form -->
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="3" bgcolor="#006600" style="border:2px solid #000000;" width="217">
+<tr>
+<td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF;">Get
+the Newsletter or get email about new episodes</td>
+</tr>
+<tr>
+<td align="center" style="border-top:2px solid #000000">
+<form name="ccoptin" action="http://ui.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
+<input type="hidden" name="m" value="1101069399898">
+<input type="hidden" name="p" value="oi">
+<font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#FFFFFF;">Email:</font> <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
+<input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
+</form>
+</td>
+</tr>
+</table>
+</div>
+<!-- END: Constant Contact Basic Opt-in Email List Form -->
+</td> <td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="140" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="269">&nbsp;<b><font face="Geneva, Arial, Helvetica, san-serif">&nbsp;&nbsp;<font face="Verdana, Arial, Helvetica, sans-serif">Listen
+Now!</font></font></b></td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="27" border="0" alt=""></td>
+</tr>
+<tr>
+<td width="269">
+<div align="center">
+<SCRIPT LANGUAGE="javascript">
+function launch(page) {
+OpenWin = this.open(page, "LibsynPlayer", "toolbar=no,menubar=no,location=no,status=no,scrollbars=no,resizable=yes,width=195,height=75");
+}
+</script>
+<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+WIDTH="184" HEIGHT="75" id="libsynPlayer">
+<PARAM NAME=movie VALUE="http://www.libsyn.com/libsynPlayer_1.0.swf?userName=themshow">
+<PARAM NAME=quality VALUE=high>
+<PARAM NAME=bgcolor VALUE=#FFFFFF>
+<PARAM NAME=wmode VALUE=transparent>
+<EMBED src="http://www.libsyn.com/libsynPlayer_1.0.swf?userName=themshow" quality=high bgcolor=#FF
+FFFF  WIDTH="185" HEIGHT="75"
+TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+</EMBED>
+</OBJECT></div>
+</td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="80" border="0" alt=""></td>
+</tr>
+<tr>
+<td colspan="2" valign="middle" bgcolor="#12517D"><img src="http://www.themshow.com/images/spacer.gif" width="16" height="8"><span class="archives">Buy
+what we've talked about:</span><img src="http://www.themshow.com/images/spacer.gif" width="16" height="8"><a href="insider/200602.html" class="nav">JAN</a>
+<a href="insider/200603.html" class="nav">FEB</a> <a href="insider/200604.html" class="nav">MAR</a>
+<a href="insider/200605.html" class="nav">APR</a> <a href="insider/200606.html" class="nav">MAY</a>
+<a href="insider/200607.html" class="nav">JUN</a> <a href="insider/200608.html" class="nav">AUG</a>
+<a href="insider/200609.html" class="nav">SEP</a> <a href="insider/200610.html" class="nav">OCT</a>
+<a href="insider/200611.html" class="nav">NOV</a> <a href="insider/200612.html" class="nav">DEC</a></td>
+<td bgcolor="#12517D" width="269"><img src="http://www.themshow.com/images/template_r5_c3.gif" alt="" name="template_r5_c3" width="269" height="31" border="0" usemap="#template_r5_c3Map"></td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="31" border="0" alt=""></td>
+</tr>
+<tr>
+<td colspan="2" valign="middle" bgcolor="#5F87A3"><img src="http://www.themshow.com/images/spacer.gif" width="140" height="8"></td>
+<td bgcolor="#5F87A3" width="269">&nbsp;</td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="32" border="0" alt=""></td>
+</tr>
+<tr>
+<td colspan="3" valign="top">
+<p><table width="1000" border="0" cellspacing="1" cellpadding="20">
+<tr>
+<td><b>Copy this feed to subscribe: http://www.themshow.com/feed</b> <a href="http://www.themshow.com/feed"><img src="http://www.themshow.com/i/ff_rss_icon.png" width="15" height="15" border="0"></a><br>
+<div class="container">
+<div class="bodyMiddle">
+<div class="rightnav">
+
+<!-- Start Book Plug -->
+<table width="120" border="0" cellpadding="1" bgcolor="#000000">
+<tr>
+<td><table width=118  height=238 border=0 cellpadding=0 cellspacing=1 bordercolor="#000000" bgcolor="#FFFFFF">
+<tr align=center>
+<td width="118" height="86" valign="middle">
+<div align="center"><a href=http://www.sherpastore.com/e-commerce-benchmark.html?9068 target=_blank><img src="http://www.themshow.com/i/sherpa.gif"  border="1" align="absmiddle"></a></div>
+</td>
+</tr>
+<tr>
+<td height=29 valign=center><div align="center">
+<p><a href=http://www.sherpastore.com/e-commerce-benchmark.html?9068 target=_blank><font face="Arial" color="#0000ff" size="1">E-Commerce Benchmark Guide 2007</font></a></p>
+</div></td>
+</tr>
+<tr height=15%>
+<td height="15" valign="top"><center>
+<font face="Arial" color="#000000" size="-2">MarketingSherpa</font>
+</center></td>
+</tr>
+<tr>
+<td height=18 valign="top"><center>
+</center></td>
+</tr>
+<tr height=15%>
+<td><center>
+<font face=Arial color=#000000 size=1> Buy&nbsp;New&nbsp;<font color=#990000>$297</font></font>
+</center></td>
+</tr>
+<tr>
+<td height=15%><table align="center">
+<tr>
+<td><div align="center"><a http://www.sherpastore.com/e-commerce-benchmark.html?9068 target=_blank><img src="http://www.themshow.com/i/buy.gif" width="93" height="30" border="0"></a></div></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td height=5% align=absbottom><center>
+</center></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- End Book Plug -->
+<p><form name="searchBlog" method="GET" action="/index.php">
+					<input id="search_text" name="search" type="text" size="20">
+					<input id="search_submit_button" type="submit" name="Submit" value="Search">
+				</form></p>
+<script type="text/javascript">
+digg_url = 'http://www.digg.com/podcasts/The_M_Show';
+</script>
+<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+<p>      <img src="http://www.themshow.com/i/jw_sm.JPG" width="121" height="150"></p>
+<p>I listen to:<br>
+<br>
+<a href="http://5questions.net">5Questions</a><br>
+<a href="http://www.thegrooveradio.com">The Groove<br></a>
+<a href="http://www.podcast411.com">Podcast411</a><br>
+<a href="http://www.salesroundup.com">SalesRoundup</a><br>
+<a href="http://www.comedy4cast.com">Comedy4cast</a><br>
+<a href="http://www.webtalkradio.com">Webtalk Radio</a><br>
+<a href="http://www.acrossthesound.net">Across the Sound</a><br>
+<a href="http://www.twit.tv">This Week in Tech</a><br>
+<a href="http://www.dailysourcecode.com">Daily Source Code</a><br>
+<a href="http://www.managingthegray.com">Managing The Gray</a><br>
+<a href="http://www.griddlecakes.com">Griddlecakes Radio</a><br>
+<a href="http://www.fmstudio.com/blog/index.html">Media Artist Secrets</a><br>
+<a href="http://www.doctorfloyd.com">Radio Adventures of Dr. Floyd</a></p>
+<p class="sidePaneTitles">Archives</p>
+<p><div style="border-bottom: 1px solid #aaa; width: 40%;"><a href="/webpage/2010">2010</a></div><span style="margin-left: 10px;"><a href="/webpage/2010/07">July</a><br></span><br><div style="border-bottom: 1px solid #aaa; width: 40%;"><a href="/webpage/2009">2009</a></div><span style="margin-left: 10px;"><a href="/webpage/2009/10">October</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2009/08">August</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2009/07">July</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2009/05">May</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2009/02">February</a><br></span><br><div style="border-bottom: 1px solid #aaa; width: 40%;"><a href="/webpage/2008">2008</a></div><span style="margin-left: 10px;"><a href="/webpage/2008/11">November</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/10">October</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/09">September</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/08">August</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/07">July</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/06">June</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/05">May</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/04">April</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/03">March</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/02">February</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2008/01">January</a><br></span><br><div style="border-bottom: 1px solid #aaa; width: 40%;"><a href="/webpage/2007">2007</a></div><span style="margin-left: 10px;"><a href="/webpage/2007/12">December</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2007/11">November</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2007/10">October</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2007/06">June</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2007/05">May</a><br></span><br><div style="border-bottom: 1px solid #aaa; width: 40%;"><a href="/webpage/2006">2006</a></div><span style="margin-left: 10px;"><a href="/webpage/2006/05">May</a><br></span><br><div style="border-bottom: 1px solid #aaa; width: 40%;"><a href="/webpage/2005">2005</a></div><span style="margin-left: 10px;"><a href="/webpage/2005/08">August</a><br></span><span style="margin-left: 10px;"><a href="/webpage/2005/03">March</a><br></span><br></p>
+<p class="sidePaneTitles">Categories</p>
+<p><a href="/webpage/category/podcasts">podcasts</a><br><a href="/webpage/category/general">general</a><br>
+</p>
+<p>&nbsp;		      </p>
+</div>
+<div class="content">
+No posts!<table></table>
+</div>
+<div class="footer" align="right">powered by<br>
+<a href="http://libsyn.com"><img src="/img/soapBox.gif" border="0"></a>
+</div>
+</div>
+</div>
+<p>
+<script type="text/javascript"
+src="http://technorati.com/embed/c7k98xu8ws.js"> </script>
+</p>
+<p><a href="http://www.podcastalley.com/one_vote2.php?pod_id=1467"
+title="Podcast Alley - Your Podcast Library"><img
+src="http://www.podcastalley.com/images/podcastalley_icon.gif"
+width="80" height="15" border="0" alt="PodcastAlley.com Feeds"></a> Please Vote at Podcast Alley <a href="itpc://www.themshow.com/feed.xml"><img src="http://www.themshow.com/i/itunes.gif" width="80" height="15" border="0"></a> </p></td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+<td width="1"><img src="http://www.themshow.com/images/spacer.gif" width="1" height="408" border="0" alt=""></td>
+</tr>
+</table>
+<map name="template_r1_c2Map">
+<area shape="rect" coords="-2,8,91,45" href="http://www.themshow.com/index.html" alt="Home">
+<area shape="rect" coords="2,59,189,99" href="http://www.themshow.com/press.html" alt="About the M Show">
+<area shape="rect" coords="4,118,145,155" href="http://themshow.libsyn.com/" alt="Past Shows">
+<area shape="rect" coords="0,179,169,217" href="http://www.roninmarketeer.com" alt="Ronin Marketeer">
+<area shape="rect" coords="-5,235,206,276" href="http://www.themshow.com/insider.html" alt="Books, DVDs, & gear">
+</map>
+<map name="template_r5_c3Map">
+<area shape="rect" coords="39,11,119,32" href="itpc://www.themshow.com/feed" alt="iTunes">
+<area shape="rect" coords="124,12,202,31" href="http://www.themshow.com/feed.xml">
+</map>
+<p>&copy; 2005 - 2007 M Show Productions,LLC</p>
+<!-- ukey="394AE82C" -->
+<script type='text/javascript' src='http://track3.mybloglog.com/js/jsserv.php?mblID=2008041209540964'></script>
+<script type="text/javascript"> var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-1417413-13']);
+_gaq.push(['_setDomainName', 'none']);_gaq.push(['_setAllowLinker', true]);_gaq.push(['_trackPageview']);
+(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script></body>
+</html>

@@ -1,0 +1,783 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" dir="ltr">
+<head>
+   <base href="http://www.ichtys-radio.de/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Ichtys, Radio, Webradio, christlich, Forum, Chat, Gospel, Rock, Hardrock, Country, Musik, Lobpreis, Predigt, kurze Impulse, Info-G, Missionswerk Neues Leben, radio.de, ichtysradio, HCJB, hcjb, Rüdiger Klaue" />
+  <meta name="rights" content="Ichtys-Radio.de vertreten durch Sven Tasche" />
+  <meta name="description" content="Ichtys-Radio - Das Radio der lebendigen Fische mit Musik für Jung und Alt
+Jetzt neu: Wir sind nun auch auf radio.de unter folgender Adresse zu empfangen: http://ichtysradio.radio.de/
+
+***Ichtys-Radio - La radio de los peces vivos***
+
+Unsere Ziele:
+Wir haben es uns zum Ziel gesetzt, Menschen für Jesus zu gewinnen und Neulingen im Glauben zu zeigen, dass das was wir glauben nicht von gestern ist und das christliche Musik nicht nur aus alten Kirchenchorälen und Gesangbuchliedern besteht, sondern sehr modern sein kann. Des weiteren möchten wir Glaubensgeschwistern, die mit Problemen an uns herantreten, zur Seite stehen." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Home</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="http://www.ichtys-radio.de/components/com_kide/templates/default/css/kide.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.ichtys-radio.de/modules/mod_jvcounter/assets/jvcounter.css" type="text/css" />
+  <style type="text/css">
+
+	
+	#KIDE_usuarios_td { vertical-align: top }
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="http://www.ichtys-radio.de/components/com_kide/js/base.js" type="text/javascript"></script>
+  <script src="http://www.ichtys-radio.de/components/com_kide/templates/default/js/kide.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+	/*<![CDATA[*/
+	kide.img_encendido = ["http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/encendido_0.gif", "http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/encendido_1.gif", "http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/encendido_2.gif"];
+	kide.sound_on = "http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/sound_on.png";
+	kide.sound_off = "http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/sound_off.png";
+	kide.sound_src = "http://www.ichtys-radio.de/components/com_kide/templates/default/sound/msg.swf";
+	kide.img_blank = "http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png";
+	kide.ajax_url = "http://www.ichtys-radio.de/index.php?option=com_kide&no_html=1&tmpl=component";
+	kide.direct_url = "http://www.ichtys-radio.de/components/com_kide/direct/";
+	kide.url = "";
+	kide.popup_url = "/index.php/component/kide/popup?Itemid=101";
+	kide.order = "top";
+	kide.formato_hora = "G:i--";
+	kide.formato_fecha = "j-n G:i:s";
+	
+	kide.template = "default";
+	kide.gmt = "";
+	kide.token = 484973283;
+	kide.sesion = "3b1f69d2d02579a33cf3b85c7468bc70";
+	kide.rango = 4;
+	kide.rangos = ["special","admin","registered","guest","guest"];
+	kide.works = 0;
+	kide.direct = false;
+	kide.show_avatar = false;
+	kide.avatar_maxheight = "30px";
+	kide.refresh_time = 6000;
+	kide.refresh_time_sesion = 60000;
+	kide.refresh_time_privates = 7000;
+	kide.solo_registrado = true;
+	kide.boton_enviar = false;
+	kide.fast_init = true;
+	
+	kide.encendido = 1;
+	kide.n = 364;
+	kide.name = "";
+	kide.userid = 0;
+	kide.ban = new Array(0,2,0,0,0,0,0);
+	kide.sound = 0;
+	kide.color = "";
+	kide.retardo = 0;
+	kide.last_time = 1338888535;
+
+	kide.msg = {
+		espera_por_favor: 'Bitte warten...',
+		mensaje_borra: 'Du darfst diese Nachricht nicht l&ouml;schen',
+		retardo_frase: 'Delay (%s Sekunden) optimiert',
+		lang: ['Monat', 'Monate', 'Tag', 'Tage', 'Stunde', 'Stunden', 'Minute', 'Minuten', 'Sekunde', 'Sekunden'],
+		privados_usuario_cerrado: 'Der Benutzer hat sich abgemeldet',
+		privados_nuevos: 'Sie haben neue private Nachrichten. Öffnen Sie den allgemeinen <a href=\'javascript:void(0)\' onclick=\'kide.open_popup()\'>Chat</a> zu sehen.',
+		privados_need_login: 'Only registered users can send private messages'
+	};
+	kide.smilies = [
+		[':_(', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/crying.png'],
+['(?)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/help.png'],
+[':-|', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/plain.png'],
+[':-)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/smile.png'],
+[':-(', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/sad.png'],
+[';-)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/wink.png'],
+[':-P', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/razz.png'],
+[':-D', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/grin.png'],
+[':-O', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/surprise.png'],
+['O.O', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/eek.png'],
+['(!)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/important.png'],
+[':-*', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/kiss.png'],
+['8)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/glasses.png'],
+[':S', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/confused.png'],
+[':O', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/surprise.png'],
+[':|', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/plain.png'],
+[':D', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/grin.png'],
+[':P', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/razz.png'],
+[';)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/wink.png'],
+[':(', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/sad.png'],
+[':)', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/smile.png'],
+['xD', 	'http://www.ichtys-radio.de/components/com_kide/templates/default/images/iconos/grin.png']
+	];
+	/*]]>*/
+	var tiempo = new Date();
+	kide.save_config("gmt", (tiempo.getTimezoneOffset()/60)*-1);kide.ajax("retardo");kide.show_hour = 0;
+kide.show_sessions = 0;
+kide.autoiniciar = 0;
+kide.show_privados = 0;
+  </script>
+
+ <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+ <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+ <link rel="stylesheet" type="text/css" href="/templates/ichtys_joom25/css/template.css" media="screen" />
+ <!--[if IE 6]><link rel="stylesheet" href="/templates/ichtys_joom25/css/template.ie6.css" type="text/css" media="screen" /><![endif]-->
+ <!--[if IE 7]><link rel="stylesheet" href="/templates/ichtys_joom25/css/template.ie7.css" type="text/css" media="screen" /><![endif]-->
+ <script type="text/javascript">if ('undefined' != typeof jQuery) document._artxJQueryBackup = jQuery;</script>
+ <script type="text/javascript" src="/templates/ichtys_joom25/jquery.js"></script>
+ <script type="text/javascript">jQuery.noConflict();</script>
+ <script type="text/javascript" src="/templates/ichtys_joom25/script.js"></script>
+ <script type="text/javascript">if (document._artxJQueryBackup) jQuery = document._artxJQueryBackup;</script>
+</head>
+<body>
+<div id="khdjoom-page-background-glare-wrapper">
+    <div id="khdjoom-page-background-glare"></div>
+</div>
+<div id="khdjoom-main">
+    <div class="cleared reset-box"></div>
+<div class="khdjoom-box khdjoom-sheet">
+    <div class="khdjoom-box-body khdjoom-sheet-body">
+<div class="khdjoom-header">
+<div class="khdjoom-bar khdjoom-nav">
+<div class="khdjoom-nav-outer">
+<div class="khdjoom-nav-wrapper">
+<div class="khdjoom-nav-inner">
+			<ul class="khdjoom-hmenu"><li class="item-102"><a href="/index.php">Home</a></li><li class="item-174"><a href="/index.php/neuigkeiten">Neuigkeiten</a></li><li class="item-169"><a href="/index.php/pro-medienmagazin">Pro Medienmagazin</a></li></ul></div>
+</div>
+</div>
+</div>
+<div class="cleared reset-box"></div>
+<div class="khdjoom-headerobject"></div>
+<div class="khdjoom-logo">
+</div>
+
+</div>
+<div class="cleared reset-box"></div>
+<div class="khdjoom-layout-wrapper">
+    <div class="khdjoom-content-layout">
+        <div class="khdjoom-content-layout-row">
+<div class="khdjoom-layout-cell khdjoom-sidebar1">
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Hauptmenü</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        <ul class="menu"><li class="item-101 current active"><a href="/">Home</a></li><li class="item-155"><a href="/index.php/sendeplan/week.listevents/2012/06/07/-">Sendeplan</a></li><li class="item-172"><a href="/index.php/wunschjukebox">Wunschjukebox</a></li><li class="item-173"><a href="/index.php/weblinks">Weblinks</a></li><li class="item-175"><a href="/index.php/team">Team</a></li><li class="item-185"><a href="/index.php/faq">F A Q</a></li></ul>
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Interaktives</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        <ul class="menu"><li class="item-132"><a href="/index.php/forumindex">Forum</a></li><li class="item-225"><a href="/index.php/chat2" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');return false;">Chat</a></li><li class="item-211"><a href="/index.php/operation-auca">Operation Auca</a></li><li class="item-166"><a href="/index.php/gaestebuch">Gästebuch</a></li><li class="item-210"><a href="/index.php/geburtstagskalender/week.listevents/2012/06/07/-">Geburtstagskalender</a></li><li class="item-170"><a href="/index.php/unsere-banner">Unsere Banner</a></li><li class="item-142"><a href="http://ichtysradiosymbolleiste.ourtoolbar.com/" target="_blank">Ichtys Toolbar</a></li><li class="item-143"><a href="http://www.ichtys-radio.de/player/index.html" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');return false;">Ichtys Radio Player</a></li><li class="item-144"><a href="http://ichtys-radio.phonostar.de/" target="_blank">Ichtys-Radio bei Phonostar</a></li></ul>
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Kontakt / Impressum</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        <ul class="menu"><li class="item-141"><a href="/index.php/impressum">Impressum</a></li><li class="item-197"><a href="/index.php/kontaktformular">Kontaktformular</a></li><li class="item-226"><a href="/index.php/spenden">Spenden</a></li><li class="item-198"><a href="/index.php/bewerbung">Moderatoren Bewerbung</a></li></ul>
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Ichtys Podcast</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        
+	<div style="direction: ltr; text-align: left ! important"  class="feed">
+	
+				<h4>
+					<a href="http://de.1000mikes.com/show/ichtysradio_on_air" target="_blank">
+					Ichtys-Radio On Air</a>
+				</h4>
+
+		
+			<ul class="newsfeed">
+							<li class="newsfeed-item">
+									<h5 class="feed-link">
+				<a href="http://de.1000mikes.com/app/archiveEntry.xhtml?archiveEntryId=261096" target="_blank">
+					Info-G 508 - Gesellschaft ohne Gott</a>
+					</h5>				
+						<p>Gesellschaft ohne Gott Teil 2. Interview mit A. Püttmann</p>
+
+									</li>
+								<li class="newsfeed-item">
+									<h5 class="feed-link">
+				<a href="http://de.1000mikes.com/app/archiveEntry.xhtml?archiveEntryId=261093" target="_blank">
+					Info-G 507 - Gesellschaft ohne Gott</a>
+					</h5>				
+						<p>Info-G 507 - Gesellschaft ohne Gott Teil 1 - Interview mit A. Püttmann</p>
+
+									</li>
+							</ul>
+
+	</div>
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Partner</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        
+
+<div class="custom"  >
+	 
+<!-- You can place html anywhere within the source tags --> 
+<marquee behavior="scroll" direction="up" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();"><p align="center"> 
+<a target="_blank" href="http://www.khd-webservice.de"><img border="no" align="baseline" alt="KHD-Webservice.de" src="http://www.khd-webservice.de//modules/Sitebanner/images/khd-streamhosting1.jpg" /></a></p> 
+<p align="center"><a target="_blank" href="http://www.scm-shop.de//"><img border="no" alt="SCM Buchhandel" src="http://www.ichtys-radio.de/images/scm_logo_haenssler_klein2.jpg" /></a> 
+<p align="center"><a target="_blank" href="http://www.de-linkliste.de/"><img border="no" align="bottom" alt="Linkliste" src="http://www.de-linkliste.de/webkatalog/banner/button3.jpg" /></a></p> 
+<p align="center"><a target="_blank" href="http://gateway.christlist.de/515/"><img border="no" align="bottom" alt="Christlist" src="http://bannergate.christlist.de/2.gif" /></a></p> 
+<p align="center"><a target="_blank" href="http://www.life-is-more.at/toplist/in.php?account=Sven2703"><img border="no" alt="Life Is More" src="http://www.life-is-more.at/toplist/toplist_klein.gif" /></a>  
+<p align="center"><a target="_blank" href="http://www.meds-world.de/ranking.php"><img border="no" alt="Meds World" src="http://www.meds-world.de/ranking_pr/topliste.php?url_do=www.Ichtys-Radio.de&logo=3" /></a> 
+<p align="center"><a target="_blank" href="http://www.buntesuche.de/?u=116711"><img border="no" alt="Bunte Suche" src="http://www.buntesuche.de/grafik/buntesuche-klein-neu.gif?u=116711" /></a> 
+<p align="center"><a target="_blank" href="http://www.daswebradio.de/"><img border="no" alt="WebRadio.de" src="http://www.daswebradio.de/images/eingetragen1.gif" /></a> 
+<p align="center"><a target="_blank" href="http://daily-message.de/"><img src="http://daily-message.de/small.gif" alt="Daily-Message - die tägliche Kurzandacht" title="Daily-Message - die tägliche Kurzandacht" width="129" height="80" border=0></a> 
+</center></marquee> 
+ 
+<script language="javascript" type="text/javascript"> 
+    // You can place JavaScript like this 
+     
+</script> 
+ 
+</div>
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Besucherzähler</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        <div id="jv-counter" style="width:auto"><div class="jv-counter"><div class="totals"><img src="http://www.ichtys-radio.de/modules/mod_jvcounter/images/style 3/0.gif" alt="mod_jvcounter" title="Visitors CounterVERSION_MODULE"/><img src="http://www.ichtys-radio.de/modules/mod_jvcounter/images/style 3/8.gif" alt="mod_jvcounter" title="Visitors CounterVERSION_MODULE"/><img src="http://www.ichtys-radio.de/modules/mod_jvcounter/images/style 3/9.gif" alt="mod_jvcounter" title="Visitors CounterVERSION_MODULE"/><img src="http://www.ichtys-radio.de/modules/mod_jvcounter/images/style 3/9.gif" alt="mod_jvcounter" title="Visitors CounterVERSION_MODULE"/><img src="http://www.ichtys-radio.de/modules/mod_jvcounter/images/style 3/2.gif" alt="mod_jvcounter" title="Visitors CounterVERSION_MODULE"/></div><div class="jvcounter_images"><label>Heute</label>19</div><div class="jvcounter_images"><label>Gestern</label>136</div><div class="jvcounter_images"><label>Woche</label>341</div><div class="jvcounter_images"><label>Monat</label>607</div><div class="jvcounter_images"><label>Alle</label>8992</div></div><div class="count_members"><div class="members"><label>Mitglieder:</label> 4</div><div class="guest"><label>G&auml;ste Online:</label> 135</div><div ><label>Mitgliedsname</lable></div>Sven,Leghorn11,Simone,sternschnuppe</div></div>
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+
+  <div class="cleared"></div>
+</div>
+<div class="khdjoom-layout-cell khdjoom-content">
+
+<div class="blog-featured"><div class="khdjoom-box khdjoom-post">
+    <div class="khdjoom-box-body khdjoom-post-body">
+<div class="khdjoom-post-inner">
+<h2 class="khdjoom-postheader">Home</h2>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="items-leading"><div class="leading-0"><div class="khdjoom-box khdjoom-post">
+    <div class="khdjoom-box-body khdjoom-post-body">
+<div class="khdjoom-post-inner">
+<div class="khdjoom-postcontent">
+<div class="khdjoom-article"><h1 class="title">Herzlich willkommen auf der Homepage des ICHTYS-Radio</h1>
+<p style="text-align: center;"> </p>
+<p><strong>Herzlich willkommen allen Usern auf unserer Seite. Wir wünschen euch hier viel Spaß. Bei Fragen oder Kritik oder sonstigen Anliegen schreibt uns einfach eine E-Mail an: 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy79624 = 'k&#111;nt&#97;kt' + '&#64;';
+ addy79624 = addy79624 + '&#105;chtys-r&#97;d&#105;&#111;' + '&#46;' + 'd&#101;';
+ var addy_text79624 = 'k&#111;nt&#97;kt' + '&#64;' + '&#105;chtys-r&#97;d&#105;&#111;' + '&#46;' + 'd&#101;';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy79624 + '\'>');
+ document.write(addy_text79624);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein!
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script>.</strong></p>
+<p><span style="color: #ff0000;"><strong>Jetzt neu: Unsere Stream-App (Android) für Smartphones und Tablet PCs (ab Android-Version 2.3.3). Zum Download bitte <a href="http://obs.kilu.de/index.php?option=com_jotloader&amp;view=categories&amp;cid=0_61c45d258168922800f12d9ceb037499&amp;Itemid=78&amp;limitstart=3" target="_blank" title="Ichtys-Radio App"><span style="color: #ff0000;">HIER</span></a> klicken. Über Rückmeldungen zur Bedienbarkeit und Funktionalität freuen wir uns sehr.</strong></span></p>
+<p><strong>Hinweis für Smartphone-Nutzer: Es fallen die für euren Anbieter üblichen Kosten für eine Internetverbindung an, da diese App kontinuierlich, solange sie aktiv ist, auf das Internet zugreift.</strong></p>
+<p><span style="color: #3366ff;">Immer sonntags hört ihr hier bei uns von 18:15 bis 18:45 Uhr das christliche Info- und Nachrichtenmagazin "Info-G" von Neues Leben Medien, einem Arbeitszweig des Missionswerks Neues Leben. Im Anschluss ab 19:00 hört ihr dann "Gottes Wort zum Sonntag" mit Rüdiger Klaue.<br /></span></p>
+<h2> </h2>
+<h2>Ichtys-Radio in einen Player einbinden</h2>
+<p> </p>
+<p><strong>Über folgende Links könnt ihr den Live-Stream von Ichtys-Radio direkt in einen Player (z.B. den <a href="http://ccr.ornec.de/index.php/de/download" target="_blank" title="Christian Radio Player Download">Christian Radio Player</a>) einbinden:</strong></p>
+<p><strong><a href="http://dein-stream.de:8310/listen.pls" target="_blank" title="Winamp/iTunes-Stream">http://dein-stream.de:8310/listen.pls</a> oder</strong></p>
+<p><a href="/streambox/media.asx" target="_blank" title="Windows Media-Stream"><strong>http://www.ichtys-radio.de/streambox/media.asx</strong></a></p>
+<p><strong>In dem Programm <a href="http://www.radiograbber.de/de/surfmusik/start.html" target="_blank" title="Audiograbber herunterladen">Radiograbber</a> (Hinweis: Shareware mit sehr kurzer Nutzungsdauer) von <a href="http://www.surfmusik.de/" target="_blank" title="Zur Seite von Surfmusik.de">Surfmusik.de</a> sucht ihr einfach nach Ichtys-Radio. Der Vorschlag kommt dann automatisch. Klickt ihn einfach an und schon hört ihr unser Programm.</strong></p>
+<h2><small><small>Als Gast im Chat einloggen<br /></small></small></h2>
+<p>Hallo liebe User, wenn ihr euch als Gast in unserem Chat einloggen wollt, benutzt im Chatlogin den Link "weiter ohne Anmeldung", danach gebt ihr im Chatfenster unten rechts neben der Schreibzeile einfach einen Nickname ein und schreibt eure erste Mitteilung.</p>
+<h2><small><small>Ichtys-Radio am Telefon/Handy hören</small></small></h2>
+<p>Die Nummer  für unseren Telefonstream lautet: <span style="font-weight: bold; color: #ff6600;">0931/66399 0303</span>. Dieser Anruf  kostet euch soviel wie ein übliches Gespräch ins Festnetz (mit einer Flatrate ist er sogar kostenlos).</p>
+<p>Dieses Angebot ist besonders für Nutzer schwächerer Internetleitungen oder für unterwegs gedacht.</p>
+<p>Dieser Service wird zur Verfügung gestellt von <span style="font-weight: bold;">Phonecaster.de</span></p>
+<p><a href="http://phonecaster.de"><br /><img src="http://pics.phonecaster.de/pc.img?x=200&amp;id=5537" border="0" alt="Phonecaster.de" /><br /></a></p>
+<p> </p>
+<h2><a href="/index.php/component/kunena/5-webradio/291-tutorials-zum-radio?Itemid=85" target="_self"><small><small>Tipps und Tricks zum Radio hören. Hier Klicken.</small></small></a></h2>
+<p> </p>
+<p> </p>
+<h2><small><small>Wir suchen noch Moderatoren!</small></small></h2>
+<p> </p>
+<p><strong>Wir suchen noch Moderatoren für eine Sendung am späteren Nachmittag. Interessiert?  Dann könnt Ihr euch gern bei 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy7348 = 'sv&#101;n2703' + '&#64;';
+ addy7348 = addy7348 + '&#105;chtys-r&#97;d&#105;&#111;' + '&#46;' + 'd&#101;';
+ var addy_text7348 = 'Sven2703';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy7348 + '\'>');
+ document.write(addy_text7348);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>Diese E-Mail-Adresse ist vor Spambots geschützt! Zur Anzeige muss JavaScript eingeschaltet sein!
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script> melden.</strong></p></div>
+</div>
+<div class="cleared"></div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+</div></div></div>
+  <div class="cleared"></div>
+</div>
+<div class="khdjoom-layout-cell khdjoom-sidebar2">
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Radio hören</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        <script type="text/javascript">
+	function iFrameHeight() {
+		var h = 0;
+		if (!document.all) {
+			h = document.getElementById('blockrandom').contentDocument.height;
+			document.getElementById('blockrandom').style.height = h + 60 + 'px';
+		} else if (document.all) {
+			h = document.frames('blockrandom').document.body.scrollHeight;
+			document.all.blockrandom.style.height = h + 20 + 'px';
+		}
+	}
+</script>
+
+<iframe onload="iFrameHeight()"	id="blockrandom"
+	name=""
+	src="http://www.ichtys-radio.com/streambox/index.php"
+	width="100%"
+	height="200"
+	scrolling="auto"
+	class="wrapper" >
+	Keine IFrames</iframe>
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Login Form</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        <form action="http://www.ichtys-radio.de/index.php/component/comprofiler/login" method="post" id="login-form" class="cbLoginForm" style="margin:0px;">
+<fieldset class="userdata"><p id="form-login-username"><span id="mod_login_usernametext"><label for="mod_login_username">Username</label></span><span><input type="text" name="username" id="mod_login_username" class="inputbox" size="14" /></span></p><p id="form-login-password"><span id="mod_login_passwordtext"><label for="mod_login_password">Password</label></span><span><input type="password" name="passwd" id="mod_login_password" class="inputbox" size="14" /></span></p><input type="hidden" name="op2" value="login" />
+<input type="hidden" name="lang" value="german" />
+<input type="hidden" name="force_session" value="1" />
+<input type="hidden" name="return" value="B:aHR0cDovL3d3dy5pY2h0eXMtcmFkaW8uZGUv" />
+<input type="hidden" name="message" value="0" />
+<input type="hidden" name="loginfrom" value="loginmodule" />
+<input type="hidden" name="cbsecuritym3" value="cbm_5ca262eb_3ba0e7db_f0d88d5db631c18698da709dd3793d35" />
+<p id="form-login-remember"><span id="mod_login_remembermetext"><label for="mod_login_remember">Remember me</label></span><input type="checkbox" name="remember" id="mod_login_remember" value="yes" /> </p><span class="cbLoginButtonSpan"><span class="khdjoom-button-wrapper"><span class="khdjoom-button-l"> </span><span class="khdjoom-button-r"> </span><input type="submit" name="Submit" class="button khdjoom-button" value="Login" /></span></span></fieldset><ul class="cbLoginLinksList"><li class="cbLostLoginLi"><a href="http://www.ichtys-radio.de/index.php/component/comprofiler/lostpassword" class="mod_login">Forgot login?</a></li><li class="cbLostLoginLi"><a href="http://www.ichtys-radio.de/index.php/component/comprofiler/registers" class="mod_login">Register</a></li></ul></form>
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Losungen</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        
+<!-- Begin mod_herrnhuter_losungen_xml_J1.6 111011 * (C) 2011 by Dietmar Isenbart * Ichthys-Soft - Freeware * http://di-side.de -->
+<style type='text/css'>
+/*Style innerer Modulrahmen*/.los_92_content { font-size: 10px; font-family: tahoma, Verdana, Arial, Helvetica, sans-serif; margin: 0 0px; width: auto }  /*Style Wochentag/Datum*/ .los_92_datum { font-size: 11px; font-style: italic; text-align: center; width: auto }  /*Style Sonntagstext*/ .los_92_sonntagtxt { font-size: 10px; font-style: italic; margin-top: 5px }  /*Style Losungstext*/ .los_92_losungtxt { font-size: 11px; margin-top: 5px } .los_92_losungtxt_link { font-size: 10px; text-align: right } a.los_92_losungtxt_link:link, a.los_92_losungtxt_link:visited { /*color: #2a370d;*/ font-size: 10px; font-weight: normal; text-decoration: none; cursor: pointer } a.los_92_losungtxt_link:hover { /*color: #477711;*/ font-weight: normal; text-decoration: underline }  /*Style Lehrtext*/ .los_92_lehrtxt { font-size: 11px; margin-top: 5px } .los_92_lehrtxt_link { font-size: 10px; text-align: right } a.los_92_lehrtxt_link:link, a.los_92_lehrtxt_link:visited { /*color: #2a370d;*/ font-size: 10px; font-weight: normal; text-decoration: none; cursor: pointer } a.los_92_lehrtxt_link:hover { /*color: #477711;*/ font-weight: normal; text-decoration: underline }  /*Style Info Link*/ .los_92_info_link { font-size: 10px; margin-top: 8px } a.los_92_info_link:link, a.los_92_info_link:visited { /*color: #2a370d;*/ font-weight: normal; text-decoration: none; cursor: pointer } a.los_92_info_link:hover { /*color: #477711;*/ font-weight: normal; text-decoration: underline }  /*Style externe Links*/ .los_92_ext_links { font-size: 10px; } a.los_92_ext_links:link, a.los_92_ext_links:visited { /*color: #2a370d;*/ font-weight: normal; text-decoration: none; cursor: pointer } a.los_92_ext_links:hover { /*color: #477711;*/ font-weight: normal; text-decoration: underline }</style>
+<div class="los_92_content">
+
+<div class="los_92_datum">Tageslosung von Donnerstag, 07. Juni 2012</div>
+<div class="los_92_losungtxt">Ich bin ein Gast auf Erden.</div>
+<div class="los_92_losungtxt_link"><a title="Bibelabschnitt im neuem Fenster öffnen" href="http://www.bibleserver.com/index.php?language=1&s=1#/text/LUT/Psalm 119,19" target="_blank" class="los_92_losungtxt_link">Psalm 119,19</a></div>
+<div class="los_92_lehrtxt">Wisst ihr nicht, dass die, die in der Kampfbahn laufen, die laufen alle, aber einer empfängt den Siegespreis? Lauft so, dass ihr ihn erlangt.</div>
+<div class="los_92_lehrtxt_link"><a title="Bibelabschnitt im neuem Fenster öffnen" href="http://www.bibleserver.com/index.php?language=1&s=1#/text/LUT/1.Korinther 9,24" target="_blank" class="los_92_lehrtxt_link">1.Korinther 9,24</a></div>
+<div class="los_92_info_link"><img src="http://www.ichtys-radio.de/media/system/images/arrow.png" border="0" hspace="2" vspace="2" width="9" height="9" align="absmiddle" /><a title="Copyright-Informationen" class="los_92_info_link" href="http://www.ichtys-radio.de/modules/mod_herrnhuter_losungen_xml_J1.6/mod_herrnhuter_losungen_xml_J1.6.html" onclick="Popup=window.open('http://www.ichtys-radio.de/modules/mod_herrnhuter_losungen_xml_J1.6/mod_herrnhuter_losungen_xml_J1.6.html','popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=365,left='+(screen.availWidth/2-(600/2))+',top='+(screen.availHeight/2-(365/2))+'');return false;">Info Herrnhuter Losungen</a></div>
+</div>
+<!-- End mod_herrnhuter_losungen_xml_J1.6 111011 -->
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Quasselbox</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        
+<div class="KIDE_div" id="KIDE_div">
+	<form id="kideForm" name="kideForm" method="post" onsubmit="return false" action="">
+		
+<div id="KIDE_botones">
+	<a title="Ein/Ausschalten" href="javascript:kide.apagar_encender()"><img alt="Ein/Ausschalten" id="encendido" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/encendido_0.gif" /></a>
+	<a title="Sound" href="javascript:kide.sonido()"><img id="sound" alt="Sound" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/sound_off.png" /></a>		<a title="Smileys" href="javascript:kide.mostrar_iconos()"><img alt="Smileys" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/iconos.png" /></a>
+	<a title="Geschichte" href="/index.php/component/kide/geschichte?Itemid=101"><img alt="Geschichte" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/history.png" /></a>
+	<a title="FAQ" href="javascript:kide.show('KIDE_rangos')"><img alt="FAQ" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/faq.png" /></a>
+	<a title="Kide Chat" onclick="kide.open_popup()" href="javascript:void(0)"><img alt="Kide Chat" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/botones/chat.png" /></a>
+</div><div id="KIDE_msgs">
+	
+<p id="KIDE_tiempo_p" style="display:none">
+	<span id="last">Letzte Nachricht</span>
+	<span id="KIDE_hace">vor</span>
+	<span id="KIDE_tiempoK"></span>
+	<span id="KIDE_ago"></span>
+</p>	<div id="KIDE_output">
+		<div id="KIDE_id_364" class="KIDE_msg_top"><span style="cursor: pointer" title="5-6 9:28:55" onclick="kide.mensaje('Moni',256,364,'','5-6 9:28:55','d1453e703eb80c2b03e15d267f74a8ff',2,'http://www.gravatar.com/avatar/345a16768578cb86aa8348cd35079d17?s=50&amp;d=identicon')" class="KIDE_registered">Moni</span>: <span class="KIDE_dc_registered KIDE_msg"> Heute am Dienstag für euch im Programm: 12:30-12:45 Gott hat mehr für dich - Kurzer Impuls zur Ermutigung von Sigrid Baron (Der Münzsammler)<br />15- 17 Uhr Die Große Pause mit Regina<br />18- 19 Uhr Bibelquiz von  DebbyW<br />20- 22 Uhr  Letzte Fortsetzung: ERlebt! - Gott spricht zu uns (Wie gehe ich mit empfangenen Eindrücken um?) von  Moni<br />22-23:59 	Uhr "latenight" mit pierrot </span></div><div id="KIDE_id_363" class="KIDE_msg_top"><span style="cursor: pointer" title="5-6 5:55:43" onclick="kide.mensaje('Sven',45,363,'','5-6 5:55:43','ebf4c7786cbfe10f748e84cf9ec52e1c',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> Guten Morgen ihr Lieben. Von 8:00 bis 11:00 Uhr begrüßt euch heute morgen der Sven mit dem "Start in den Tag" hier live auf www.Ichtys-Radio.de. Er hat für euch ein Buntes Musikprogramm, die Bibellese und Kurzimpulse für euch zusammen gestellt. Natürlich dürfen eure Musikwünsche und Grüße nicht fehlen. Um unser Radio zu hören, könnt Ihr folgende Adressen verwenden: <a rel="nofollow" target="_blank" href="http://dein-stream.de:8310/listen.pls">«link»</a> für Winamp/iTunes o.ä. Player oder <a rel="nofollow" target="_blank" href="http://www.ichtys-radio.de/streambox/media.asx">«link»</a> wenn ihr den Windows Mediaplayer verwendet. Oder noch einfacher gehts auf radio.de mit dieser Adresse: <a rel="nofollow" target="_blank" href="http://ichtysradio.radio.de/">«link»</a> </span></div><div id="KIDE_id_362" class="KIDE_msg_top"><span style="cursor: pointer" title="2-6 8:40:31" onclick="kide.mensaje('Moni',256,362,'','2-6 8:40:31','d1453e703eb80c2b03e15d267f74a8ff',2,'http://www.gravatar.com/avatar/345a16768578cb86aa8348cd35079d17?s=50&amp;d=identicon')" class="KIDE_registered">Moni</span>: <span class="KIDE_dc_registered KIDE_msg"> Heute am Samstag für euch im Programm: 16- 17:30 Uhr  HCJB-Stunde von  Sven	<br />19- 21 Uhr Samstag Abend mit Jesus von  Moni </span></div><div id="KIDE_id_361" class="KIDE_msg_top"><span style="cursor: pointer" title="1-6 13:48:39" onclick="kide.mensaje('Baguette',71,361,'','1-6 13:48:39','146655819f0799f8ade5dd7235a62a17',2,'http://www.gravatar.com/avatar/e8ded39450e18c83688a8f84f1d79426?s=50&amp;d=identicon')" class="KIDE_registered">Baguette</span>: <span class="KIDE_dc_registered KIDE_msg"> kann heute nicht senden, bin zum Geburtstag eingeladen und mache für diesen grad einen Salat. Leider bin ich eh innerlich so unruhig und gestresst, dass ich keine Muße zum Senden habe. Ich finde es sehr schade, kann es aber grad nicht ändern. Wenn ich Zeit habe, sende ich gern spontan ... </span></div><div id="KIDE_id_360" class="KIDE_msg_top"><span style="cursor: pointer" title="31-5 17:46:48" onclick="kide.mensaje('Jesusfreak1987',249,360,'','31-5 17:46:48','3864eb3ad959f7fe1c50c9fac57b1bfb',2,'http://www.gravatar.com/avatar/500dba79850e169a08ed7580c98bc7b3?s=50&amp;d=identicon')" class="KIDE_registered">Jesusfreak1987</span>: <span class="KIDE_dc_registered KIDE_msg"> Der Ichtys-Worship Abend heute bis 20.30 Uhr </span></div><div id="KIDE_id_359" class="KIDE_msg_top"><span style="cursor: pointer" title="31-5 15:17:32" onclick="kide.mensaje('Jesusfreak1987',249,359,'','31-5 15:17:32','3864eb3ad959f7fe1c50c9fac57b1bfb',2,'http://www.gravatar.com/avatar/500dba79850e169a08ed7580c98bc7b3?s=50&amp;d=identicon')" class="KIDE_registered">Jesusfreak1987</span>: <span class="KIDE_dc_registered KIDE_msg"> Von 18°°-20°° Uhr heute der Ichtys-Worship Abend mit eurer Jesusfreak1987 </span></div><div id="KIDE_id_358" class="KIDE_msg_top"><span style="cursor: pointer" title="31-5 8:11:40" onclick="kide.mensaje('Leghorn11',70,358,'','31-5 8:11:40','e069fe5331123187115b8f4809d6c41d',2,'http://www.gravatar.com/avatar/96f9497d6857d9aada476c314c5988f1?s=50&amp;d=identicon')" class="KIDE_registered">Leghorn11</span>: <span class="KIDE_dc_registered KIDE_msg"> Hallo Bin aus dem Urlaub Zurück ab Sonntag wider auf Sendung 16-18 Uhr mit neuer Playliste </span></div><div id="KIDE_id_357" class="KIDE_msg_top"><span style="cursor: pointer" title="31-5 7:27:01" onclick="kide.mensaje('Sven',45,357,'','31-5 7:27:01','fa898e569d6c6811f7e0480606c4c9ea',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> danke Jochen, dir ebenso </span></div><div id="KIDE_id_355" class="KIDE_msg_top"><span style="cursor: pointer" title="30-5 9:07:50" onclick="kide.mensaje('JOCHEN',504,355,'','30-5 9:07:50','8504d03030700dd15689da24b6bbb11e',2,'http://www.gravatar.com/avatar/7d232627c0bddf6a184003c675c8959f?s=50&amp;d=identicon')" class="KIDE_registered">JOCHEN</span>: <span class="KIDE_dc_registered KIDE_msg"> Gottes Segen allen Hörern </span></div><div id="KIDE_id_354" class="KIDE_msg_top"><span style="cursor: pointer" title="30-5 9:07:34" onclick="kide.mensaje('JOCHEN',504,354,'','30-5 9:07:34','8504d03030700dd15689da24b6bbb11e',2,'http://www.gravatar.com/avatar/7d232627c0bddf6a184003c675c8959f?s=50&amp;d=identicon')" class="KIDE_registered">JOCHEN</span>: <span class="KIDE_dc_registered KIDE_msg"> Hallo </span></div><div id="KIDE_id_353" class="KIDE_msg_top"><span style="cursor: pointer" title="29-5 8:09:21" onclick="kide.mensaje('Moni',256,353,'','29-5 8:09:21','d1453e703eb80c2b03e15d267f74a8ff',2,'http://www.gravatar.com/avatar/345a16768578cb86aa8348cd35079d17?s=50&amp;d=identicon')" class="KIDE_registered">Moni</span>: <span class="KIDE_dc_registered KIDE_msg"> Heute am Dienstag für euch im Programm: 12:30 - 12:45 Gott hat mehr für dich - Kurzer Impuls zur Ermutigung von Sigrid Baron (Das Wort Gottes als Medizin)<br />15- 17 Uhr Die Große Pause mit Regina<br />18- 19 Bibelquiz von  DebbyW<br />21- 22 Uhr	 Fortsetzung 2 - ERlebt! Gott spricht zu uns von  Moni<br />22:00 - 23:59 	 "latenight" mit pierrot </span></div><div id="KIDE_id_352" class="KIDE_msg_top"><span style="cursor: pointer" title="28-5 16:46:57" onclick="kide.mensaje('Baguette',71,352,'','28-5 16:46:57','30b6fa10a7f0cfa576038f52e65b67a1',2,'http://www.gravatar.com/avatar/e8ded39450e18c83688a8f84f1d79426?s=50&amp;d=identicon')" class="KIDE_registered">Baguette</span>: <span class="KIDE_dc_registered KIDE_msg"> bin wieder mal spontan auf Sendung bis 20 Uhr </span></div><div id="KIDE_id_351" class="KIDE_msg_top"><span style="cursor: pointer" title="28-5 7:26:01" onclick="kide.mensaje('Moni',256,351,'','28-5 7:26:01','d1453e703eb80c2b03e15d267f74a8ff',2,'http://www.gravatar.com/avatar/345a16768578cb86aa8348cd35079d17?s=50&amp;d=identicon')" class="KIDE_registered">Moni</span>: <span class="KIDE_dc_registered KIDE_msg"> Am Pfingstmontag im Programm: 13:00 - 13:45 HCJB Sendung Hallo Kinder von  Jesusfreak1987<br />20- 22 Uhr "After eight" mit pierrot<br />22- 23 Uhr  Fortsetzung 1 - Gott spricht zu mir von  Moni </span></div><div id="KIDE_id_350" class="KIDE_msg_top"><span style="cursor: pointer" title="24-5 17:13:34" onclick="kide.mensaje('Baguette',71,350,'','24-5 17:13:34','ee4125ae71b7d426e94c590ebc9e10fc',2,'http://www.gravatar.com/avatar/e8ded39450e18c83688a8f84f1d79426?s=50&amp;d=identicon')" class="KIDE_registered">Baguette</span>: <span class="KIDE_dc_registered KIDE_msg"> schade, aber morgen gibts mal wieder einen bunten Kessel - dafür kann ich Pfingstmontag schon wieder mal nicht senden. Da habe ich einen anderen tollen Termin. </span></div><div id="KIDE_id_349" class="KIDE_msg_top"><span style="cursor: pointer" title="24-5 16:52:34" onclick="kide.mensaje('Ekto',75,349,'','24-5 16:52:34','0a643e2f36fcacb061d1c03d0bbc9ec8',2,'http://www.gravatar.com/avatar/e01076031ac7a145996152536a1c3bd2?s=50&amp;d=identicon')" class="KIDE_registered">Ekto</span>: <span class="KIDE_dc_registered KIDE_msg"> Es tut mir wirklich Sorry aber aus besonderem Anlässen, kann ich heute leider nicht hier als Gast-Mod auftreten, ich hoffe auf Euch Verständnis und wünsche Euch noch einen Schönen Abend. </span></div><div id="KIDE_id_348" class="KIDE_msg_top"><span style="cursor: pointer" title="24-5 15:16:11" onclick="kide.mensaje('Jesusfreak1987',249,348,'','24-5 15:16:11','7cbbbf6fa8c7ce8e97e5ef8561ca3f77',2,'http://www.gravatar.com/avatar/500dba79850e169a08ed7580c98bc7b3?s=50&amp;d=identicon')" class="KIDE_registered">Jesusfreak1987</span>: <span class="KIDE_dc_registered KIDE_msg"> Ich muss meine Sendung eine halbe stunde früher beenden aus Gesundheitlichen Gründen ich bitte um euer Verständnis eure Jesusfreak1987 </span></div><div id="KIDE_id_347" class="KIDE_msg_top"><span style="cursor: pointer" title="24-5 5:18:22" onclick="kide.mensaje('Sven',45,347,'','24-5 5:18:22','6882957b7bcc772e07dd83cf6d0cff0d',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> War gestern nimmer hier sry </span></div><div id="KIDE_id_346" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 14:58:00" onclick="kide.mensaje('gockel2',654,346,'','23-5 14:58:00','dec690aef06e3dae0242cf9340b00988',2,'http://www.gravatar.com/avatar/938a68c13c67f8ee8417c8e2041994bc?s=50&amp;d=identicon')" class="KIDE_registered">gockel2</span>: <span class="KIDE_dc_registered KIDE_msg"> sven da? </span></div><div id="KIDE_id_345" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 14:48:39" onclick="kide.mensaje('Moni',256,345,'','23-5 14:48:39','efa65ef3100b77bd76be47252662ae6c',2,'http://www.gravatar.com/avatar/345a16768578cb86aa8348cd35079d17?s=50&amp;d=identicon')" class="KIDE_registered">Moni</span>: <span class="KIDE_dc_registered KIDE_msg"> Das Programm heute Abend für euch: 20:00 - 22:00 	 "after eight" mit pierrot von  pierrot	  :: 	 DEFAULT<br />22:00 - 23:30 	 ERlebt! - Gott spricht zu uns von  Moni </span></div><div id="KIDE_id_344" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:47:59" onclick="kide.mensaje('Sven',45,344,'','23-5 8:47:59','f0aafe0542aeaa35e917573f248658b2',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> Ich mache demnächst dazu mal ein Video </span></div><div id="KIDE_id_343" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:36:49" onclick="kide.mensaje('clementine65',636,343,'','23-5 8:36:49','ea0c1524182c343a23f8974621c23307',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> oder brauche hilfe mal praktisch.... </span></div><div id="KIDE_id_342" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:36:27" onclick="kide.mensaje('clementine65',636,342,'','23-5 8:36:27','ea0c1524182c343a23f8974621c23307',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> vielleicht soll es nicht sein... </span></div><div id="KIDE_id_341" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:36:12" onclick="kide.mensaje('clementine65',636,341,'','23-5 8:36:12','ea0c1524182c343a23f8974621c23307',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> kriege es irgentwie nicht hin.... </span></div><div id="KIDE_id_340" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:20:21" onclick="kide.mensaje('clementine65',636,340,'','23-5 8:20:21','1b51eed7192f0028bca77dbc60a4c7ca',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> klasse </span></div><div id="KIDE_id_339" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:20:09" onclick="kide.mensaje('Sven',45,339,'','23-5 8:20:09','f0aafe0542aeaa35e917573f248658b2',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> Lösung für dieses Problem sag ich gleich mal durch </span></div><div id="KIDE_id_338" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:19:32" onclick="kide.mensaje('clementine65',636,338,'','23-5 8:19:32','1b51eed7192f0028bca77dbc60a4c7ca',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> dann höre ich meist nix mehr </span></div><div id="KIDE_id_337" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:19:21" onclick="kide.mensaje('Sven',45,337,'','23-5 8:19:21','f0aafe0542aeaa35e917573f248658b2',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> rechts in Interaktives auf chat klicken, da sind wir </span></div><div id="KIDE_id_336" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:19:07" onclick="kide.mensaje('clementine65',636,336,'','23-5 8:19:07','1b51eed7192f0028bca77dbc60a4c7ca',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> ach so ... </span></div><div id="KIDE_id_335" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:18:43" onclick="kide.mensaje('Sven',45,335,'','23-5 8:18:43','f0aafe0542aeaa35e917573f248658b2',1,'http://www.gravatar.com/avatar/4626b99389ca08ad7b2772b9af2dc34d?s=50&amp;d=identicon')" class="KIDE_admin">Sven</span>: <span class="KIDE_dc_admin KIDE_msg"> doch, wir sind im chat </span></div><div id="KIDE_id_334" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:16:33" onclick="kide.mensaje('clementine65',636,334,'','23-5 8:16:33','1b51eed7192f0028bca77dbc60a4c7ca',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> keiner da?? </span></div><div id="KIDE_id_333" class="KIDE_msg_top"><span style="cursor: pointer" title="23-5 8:14:02" onclick="kide.mensaje('clementine65',636,333,'','23-5 8:14:02','1b51eed7192f0028bca77dbc60a4c7ca',2,'http://www.gravatar.com/avatar/2ea363caaeb56793e82a5967b0deb94b?s=50&amp;d=identicon')" class="KIDE_registered">clementine65</span>: <span class="KIDE_dc_registered KIDE_msg"> morgen </span></div><div id="KIDE_id_332" class="KIDE_msg_top"><span style="cursor: pointer" title="22-5 22:28:29" onclick="kide.mensaje('Leghorn11',70,332,'','22-5 22:28:29','484ef15465ee9fafa0af233b44dc5a12',2,'http://www.gravatar.com/avatar/96f9497d6857d9aada476c314c5988f1?s=50&amp;d=identicon')" class="KIDE_registered">Leghorn11</span>: <span class="KIDE_dc_registered KIDE_msg"> Hallo ich bin noch bis zum 1.6.12 in Urlaub erst danach geh ich wider auf Sendung euer Leghorn </span></div><div id="KIDE_id_331" class="KIDE_msg_top"><span style="cursor: pointer" title="22-5 14:15:39" onclick="kide.mensaje('Chris',359,331,'','22-5 14:15:39','9f3c6ec69c3409446afa794aebb6112a',2,'http://www.gravatar.com/avatar/68d2d91bd8496440216c9b2683888d82?s=50&amp;d=identicon')" class="KIDE_registered">Chris</span>: <span class="KIDE_dc_registered KIDE_msg"> Man kann hier grad fast nix lesen, weil alles irgendwie ineinander gerutscht ist, die Schriften und so </span></div><div id="KIDE_id_330" class="KIDE_msg_top"><span style="cursor: pointer" title="22-5 14:15:02" onclick="kide.mensaje('Chris',359,330,'','22-5 14:15:02','9f3c6ec69c3409446afa794aebb6112a',2,'http://www.gravatar.com/avatar/68d2d91bd8496440216c9b2683888d82?s=50&amp;d=identicon')" class="KIDE_registered">Chris</span>: <span class="KIDE_dc_registered KIDE_msg"> Hi Süße, biste online? </span></div><div id="KIDE_id_329" class="KIDE_msg_top"><span style="cursor: pointer" title="22-5 12:31:34" onclick="kide.mensaje('DebbyW',77,329,'','22-5 12:31:34','587a7aee12a6206845e8b13b02ab7a6b',1,'http://www.gravatar.com/avatar/1e8b9904001cb7d1b6ded1e3c17ad2df?s=50&amp;d=identicon')" class="KIDE_admin">DebbyW</span>: <span class="KIDE_dc_admin KIDE_msg"> Hallo ihr Lieben, das Bibelquiz fällt heute leider aus, da ich mich auf 2 Arbeiten in der Schule vorbereiten muss. </span></div><div id="KIDE_id_328" class="KIDE_msg_top"><span style="cursor: pointer" title="22-5 8:09:16" onclick="kide.mensaje('Moni',256,328,'','22-5 8:09:16','ab327af03eebe61bc0db653430d65e8f',2,'http://www.gravatar.com/avatar/345a16768578cb86aa8348cd35079d17?s=50&amp;d=identicon')" class="KIDE_registered">Moni</span>: <span class="KIDE_dc_registered KIDE_msg"> Weiter im Programm Dienstag: 12:30-12:45 Gott hat mehr für dich - Kurzer Impuls zur Ermutigung von Martin Baron (Bring deinen Glauben in Aktion)<br />14-16 Uhr Die Große Pause mit Regina<br />18-19 Uhr Bibelquiz von DebbyW<br />22:00 - 23:59 "latenight" mit pierrot </span></div>	</div>
+	</div>
+<div id="KIDE_opciones" class="KIDE_mostrar" style="display: none">
+	<div>Hide session <input type="checkbox" value="1" name="ocultar_sesion" id="ocultar_sesion"  style="vertical-align:middle" /></div>
+	<div>Template: <select id="KIDE_template" name="KIDE_template" class="inputbox">
+	<option value="dark">dark</option>
+	<option value="default" selected="selected">default</option>
+</select>
+</div>
+	<div id="KIDE_opciones_colores"></div>
+	<br />
+	<button onclick="kide.save_options()">Save</button> <button onclick="kide.retardo_input()">Optimiere Delay</button>
+</div>
+
+<div id="KIDE_mensaje" class="KIDE_mostrar" style="display: none">
+	<table width="100%">
+		<tr>
+			<td>
+				· <span id="KIDE_mensaje_username"></span>
+				<br />
+				· <span id="KIDE_tiempo_msg"></span>
+				<span id="KIDE_mensaje_perfil_span">
+					<br />
+					· <a target="_blank" id="KIDE_mensaje_perfil" href="javascript:void(0)">Profil</a>
+				</span>
+				<span id="KIDE_mensaje_borrar_span">
+					<br />
+					· <a id="KIDE_mensaje_borrar" href="javascript:void(0)">Nachricht l&ouml;schen</a>
+				</span>
+				<span id="KIDE_mensaje_ocultar_span">
+					<br />
+					· <a id="KIDE_mensaje_ocultar" href="javascript:void(0)">Hide message</a>
+				</span>
+								<br />
+				<a href="/" id="KIDE_mensaje_img_enlace"><img style="border:0" id="KIDE_mensaje_img" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png" alt="" class="KIDE_avatar" /></a>
+			</td>
+			<td style="text-align: right; vertical-align: top">
+				<a href="javascript:kide.show('KIDE_mensaje',false)" class="KIDE_cerrar_x">X</a>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<div id="KIDE_usuario" class="KIDE_mostrar" style="display: none">
+	<table width="100%">
+		<tr>
+			<td>
+				· <span id="KIDE_usuario_name"></span>
+				<span id="KIDE_usuario_perfil_mostrar">
+					<br />
+					· <a target="_blank" id="KIDE_usuario_perfil" href="javascript:void(0)">Profil</a>
+				</span>
+								<br />
+				<a href="/" id="KIDE_usuario_img_enlace"><img style="border:0" id="KIDE_usuario_img" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png" alt="" class="KIDE_avatar" /></a>
+			</td>
+			<td style="text-align: right; vertical-align: top">
+				<a href="javascript:kide.show('KIDE_usuario',false)" class="KIDE_cerrar_x">X</a>
+			</td>
+		</tr>
+	</table>
+</div>
+	
+<div id="KIDE_rangos" class="KIDE_mostrar" style="display: none">
+	Rang: <br />
+	<img class="KIDE_r KIDE_bg_admin" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png" alt="" /> &nbsp; Administrator<br />
+	<img class="KIDE_r KIDE_bg_registered" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png" alt="" /> &nbsp; Registrierter<br />
+	<img class="KIDE_r KIDE_bg_guest" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png" alt="" /> &nbsp; Gast<br />
+	<img class="KIDE_r KIDE_bg_special" src="http://www.ichtys-radio.de/components/com_kide/templates/default/images/otras/blank.png" alt="" /> &nbsp; Besondere<br />
+</div><br />Nur f&uuml;r registrierte Benutzer! <a href='/index.php/component/users/register'>Registrieren</a> oder <a href='/index.php/component/users/?view=login&amp;return=aHR0cDovL3d3dy5pY2h0eXMtcmFkaW8uZGUv'>Einloggen</a>	</form>
+</div>
+<span id="KIDE_msg_sound"></span>
+
+<script type="text/javascript">
+<!--
+kide.onLoad(function() {
+	kide.$('KIDE_msgs').onmousedown = function() { kide.scrolling = true };
+	kide.$('KIDE_msgs').onmouseup = function() { kide.scrolling = false };
+});
+kide.onLoad(function() {
+	kide.$("encendido").src = kide.img_encendido[1];
+});
+kide.onLoad(function(){
+	kide.$("KIDE_div").onmouseover = function() {
+		kide.iniciar();
+		kide.$("KIDE_div").onmouseover = '';
+	};
+});
+kide.onLoad(kide.ajustar_scroll);
+//-->
+</script>
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        <div class="khdjoom-box khdjoom-block">
+            <div class="khdjoom-box-body khdjoom-block-body">
+        
+                <div class="khdjoom-bar khdjoom-blockheader">
+            <h3 class="t">
+        Ichtys bei Twitter</h3>
+        </div>
+                <div class="khdjoom-box khdjoom-blockcontent">
+            <div class="khdjoom-box-body khdjoom-blockcontent-body">
+        
+        
+	<div style="direction: ltr; text-align: left ! important"  class="feed">
+	
+			<ul class="newsfeed">
+							<li class="newsfeed-item">
+									<h4 class="feed-link">
+				<a href="http://twitter.com/IchtysRadio/statuses/210239403820453888" target="_blank">
+					IchtysRadio: Guten Morgen ihr lieben. Wir haben halbzeit von der Woche. Von 8°°-11°° Uhr begrüßt euch heute morgen der Sven... http://t.co/gLDOoLvH</a>
+					</h4>				
+						<p>IchtysRadio: Guten Morgen ihr lieben. Wir haben halbzeit von der Woche. Von 8°°-11°° Uhr begrüßt euch heute morgen der Sven... http://t.co/gLDOoLvH</p>
+
+									</li>
+								<li class="newsfeed-item">
+									<h4 class="feed-link">
+				<a href="http://twitter.com/IchtysRadio/statuses/210054102904872960" target="_blank">
+					IchtysRadio: Ich mag ein @YouTube-Video. http://t.co/c5AY4zo7 Komm Heiliger Geist, empfang den Heiligen Geist, Geistesgabe</a>
+					</h4>				
+						<p>IchtysRadio: Ich mag ein @YouTube-Video. http://t.co/c5AY4zo7 Komm Heiliger Geist, empfang den Heiligen Geist, Geistesgabe</p>
+
+									</li>
+								<li class="newsfeed-item">
+									<h4 class="feed-link">
+				<a href="http://twitter.com/IchtysRadio/statuses/209984038352596992" target="_blank">
+					IchtysRadio: Hallo ihr lieben, ich bin heute nachmittag von 15°°-17°° Uhr für euch mit meiner Sendung &quot;Die Große Pause&quot; für... http://t.co/LS7GPPfz</a>
+					</h4>				
+						<p>IchtysRadio: Hallo ihr lieben, ich bin heute nachmittag von 15°°-17°° Uhr für euch mit meiner Sendung "Die Große Pause" für... http://t.co/LS7GPPfz</p>
+
+									</li>
+							</ul>
+
+	</div>
+
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+        
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        
+
+  <div class="cleared"></div>
+</div>
+
+        </div>
+    </div>
+</div>
+<div class="cleared"></div>
+
+
+<div class="khdjoom-footer">
+    <div class="khdjoom-footer-body">
+                <div class="khdjoom-footer-text">
+                                        <p>Copyright © Ichtys -Radio.de 2009-2012. All Rights Reserved.</p><br>
+<p>Designed by <a href="http://www.khd-webservice.de" target="_blank">KHD-Webservice.de</p><br>
+
+                                                        </div>
+        <div class="cleared"></div>
+    </div>
+</div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+<div class="cleared"></div>
+
+<div id="stickey_footer">
+  <ul id="footer_menu">
+    <!-- Begin Footer Menu -->
+    <li class="imgmenu"><a href="/index.php">&nbsp;</a></li>
+    <!-- This Item is an Image, the "span" is hidden via CSS -->
+    <li><a href="/index.php/forumindex">Forum</a>
+    <li><a href="/index.php/sendeplan/week.listevents">Sendeplan</a>
+    <li><a href="/index.php/wunschjukebox">Wunschjukebox</a>    
+    <li><a href="http://de.1000mikes.com/show/ichtysradio_on_air" target="_blank">Ichtys Podcast</a>
+    <li><a href="http://obs.kilu.de/index.php?option=com_jotloader&view=categories&cid=0_61c45d258168922800f12d9ceb037499&Itemid=78" target="_blank">Downloads</a>
+    <li><a href="http://ichtysradio.radio.de/" target="_blank">Radio einschalten</a>
+        <li><a href="/index.php/impressum">Impressum</a>
+  </ul>  <!-- End Social Icons -->
+  <ul id="social_icons">
+    <!-- Social Icons -->
+    <!-- The span is the text appearing on hover, use the tooltip class in the link -->
+    <li><a href="http://www.facebook.com/pages/Ichtys-Radio-Fanseite/164185733613515" target="_blank"><img src='http://www.ichtys-radio.com/templates/ichtys_joom25/images/facebook.png' alt="" /><span>Ichtys Radio bei Facebook</span></a></li>
+    <li><a href="https://plus.google.com/118373038543272691090/posts" target="_blank"><img src='http://www.ichtys-radio.com/templates/ichtys_joom25/images/google.png' alt="" /><span>Ichtys Radio bei Google+</span></a></li>
+    <li><a href="http://twitter.com/#!/ichtysradio" target="_blank"><img src='http://www.ichtys-radio.com/templates/ichtys_joom25/images/twitter.png' alt="" /><span>Ichtys Radio bei Twitter</span></a></li>
+    </ul></div>
+
+<p class="khdjoom-page-footer"></a>.</p>
+
+    <div class="cleared"></div>
+</div>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://icedragon.is-a-geek.org/piwik/" : "http://icedragon.is-a-geek.org/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 11);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://icedragon.is-a-geek.org/piwik/piwik.php?idsite=11" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>

@@ -1,0 +1,727 @@
+
+
+
+
+
+
+	<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE" xml:lang="de-DE">
+<head profile="http://gmpg.org/xfn/11"> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+
+<meta name="language" content="en" /> 
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width"/><title>ManFisher Studio</title>	
+<link rel="shortcut icon" href="" type="image/x-icon" />
+
+<link rel="stylesheet" href="http://www.manfisher.net/wp-content/themes/ifeature/core/css/foundation.css" type="text/css" />
+<link rel="stylesheet" href="http://www.manfisher.net/wp-content/themes/ifeature/core/css/app.css" type="text/css" />
+<link rel="stylesheet" href="http://www.manfisher.net/wp-content/themes/ifeature/core/css/ie.css" type="text/css" />
+<link rel="stylesheet" href="http://www.manfisher.net/wp-content/themes/ifeature/css/style.css" type="text/css" />
+<link rel="stylesheet" href="http://www.manfisher.net/wp-content/themes/ifeature/css/color/grey.css" type="text/css" />
+<link rel="stylesheet" href="http://www.manfisher.net/wp-content/themes/ifeature/css/elements.css" type="text/css" />
+
+
+<link rel="pingback" href="http://www.manfisher.net/xmlrpc.php" />
+
+<link href='//fonts.googleapis.com/css?family=Arial' rel='stylesheet' type='text/css' /> 
+ <!-- wp_enqueue_script( 'comment-reply' );-->
+	<meta name="description" content="independent label, quality audio" />
+<link rel="alternate" type="application/rss+xml" title="ManFisher Studio &raquo; Feed" href="http://www.manfisher.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ManFisher Studio &raquo; Kommentar Feed" href="http://www.manfisher.net/comments/feed/" />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.manfisher.net/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://www.manfisher.net/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.4' type='text/css' media='screen' />
+	
+	<style type="text/css" media="screen">
+		#wrapper input, textarea, #twitterbar, input[type=submit], input[type=reset], #imenu, .searchform, .post_container, .postformats, .postbar, .post-edit-link, .widget-container, .widget-title, .footer-widget-title, .comments_container, ol.commentlist li.even, ol.commentlist li.odd, .slider_nav, ul.metabox-tabs li, .tab-content, .list_item, .section-info, #of_container #header, .menu ul li a, .submit input, #of_container textarea, #of_container input, #of_container select, #of_container .screenshot img, #of_container .of_admin_bar, #of_container .subsection > h3, .subsection, #of_container #content .outersection .section
+  		
+  	{
+  		behavior: url('http://www.manfisher.net/wp-content/themes/ifeature/core/library/pie/PIE.htc');
+	}
+	</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"B I T T E \u00a0\u00a0W A R T E N","msgClose":"Klicken zum Schliessen ","imageCount":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.3'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/foundation/jquery.orbit.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/foundation/app.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/foundation/jquery.placeholder.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/foundation/jquery.reveal.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/foundation/jquery.tooltips.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/foundation/modernizr.foundation.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/menu.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/plusone.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/video.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/themes/ifeature/core/library/js/mobilemenu.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.manfisher.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.manfisher.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+<link rel='shortlink' href='http://wp.me/21fRX' />
+		<meta property="og:title" content="JRexx & Jackson vertrauen ManFisher Studio" />
+	    <meta property="og:type" content="website" />
+	    <meta property="og:url" content="http://life.manfisher.net/" />
+	    <meta property="og:site_name" content="ManFisher Studio" />
+		<meta property="og:image" content="" />
+	    <meta property="og:description" content="independent label, quality audio" />
+		<meta property="fb:app_id" content="267533623296938" /><!-- <meta name="NextGEN" version="1.9.3" /> -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-13106435-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><style type="text/css">body {background-image: url('http://www.manfisher.net/wp-content/themes/ifeature/images/backgrounds/noise.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed;}</style><style type="text/css">.gplusone {float: right; margin-right: -38px;}</style><style type="text/css">.featured-image {float: left;}</style><style type="text/css">.sitename a {color: #717171;}</style><style type="text/css">.description {color: #000;}</style><style type="text/css">a {color: 717171;}.meta a {color: 717171;}</style><link href='//fonts.googleapis.com/css?family=Arial' rel='stylesheet' type='text/css' /><style type="text/css">#nav ul li a {font-family: Arial;}</style> <!-- wp_head();-->
+	
+</head><!-- closing head tag-->
+
+<!-- Begin @synapse after_head_tag hook content-->
+		
+	<body style="font-family:'Arial', Helvetica, serif" class="home blog" > <!-- End @synapse after_head_tag hook content-->
+	
+<!-- Begin @synapse before_header hook  content-->
+	 
+<!-- End @synapse before_header hook content -->
+			
+<header>		
+		<div class="container">
+		<div class="row">
+		
+			<div class="seven columns">
+				
+				<!-- Begin @Core header sitename hook -->
+							<h1 class="sitename"><a href="http://www.manfisher.net/">ManFisher Studio </a></h1>
+		 
+				<!-- End @Core header sitename hook -->
+			
+				
+			</div>	
+			
+			<div id ="register" class="five columns">
+				
+			<!-- Begin @Core header social icon hook -->
+				
+	<div id="social">
+
+		<div class="icons">
+
+					<a href="https://www.facebook.com/manfisher" target="_blank" rel="me"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/social/default/facebook.png" alt="Facebook" /></a>
+									<a href="http://twitter.com/themanfisher" target="_blank" rel="me"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/social/default/twitter.png" alt="Twitter" /></a>
+									<a href="https://plus.google.com/u/0/117411347935770187779/" target="_blank" rel="me"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/social/default/gplus.png" alt="Gplus" /></a>
+																															<a href="http://www.manfisher.net/feed/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/social/default/rss.png" alt="RSS" /></a>
+			
+		</div><!--end icons--> 
+		
+	</div><!--end social-->  
+			<!-- End @Core header contact social icon hook -->	
+				
+			</div>	
+		</div><!--end row-->
+	</div>
+
+	
+	<div class="container">
+		<div class="row">
+
+			<div class="twelve columns" id="imenu">
+
+			<div id="nav" class="nine columns">
+			<div id="home"><a href="http://www.manfisher.net"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/home.png" alt="home" /></a></div>					    	
+	<ul id="nav_menu">
+		<li class="page_item page-item-12"><a href="http://www.manfisher.net/datenschutz/">Datenschutz</a></li>
+<li class="page_item page-item-39"><a href="http://www.manfisher.net/produktionen/">Produktionen</a></li>
+<li class="page_item page-item-55"><a href="http://www.manfisher.net/technik/">Technik</a></li>
+	</ul>   			</div>
+   						<div class="three columns">
+				
+<form method="get" class="searchform" action="http://www.manfisher.net/">
+	<div id="magnify"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/magnify.png" alt="magnify" /></div>
+	<div><input type="text" name="s" class="s" value="Search" id="searchsubmit" onfocus="if (this.value == 'Search') this.value = '';" /></div>
+	<div><input type="submit" class="searchsubmit" value="" /></div>
+</form>			</div>
+					</div>
+	</div>
+</div>
+ </header>
+
+<!-- Begin @synapse after_header hook -->
+	 
+<!-- End @synapse after_header hook -->
+
+<div class="container">
+			
+	<!--Begin @Core sidebar init-->
+			<!--End @Core sidebar init-->
+	<div class="row">
+<!--Begin @Core before content sidebar hook-->
+			<!--End @Core before content sidebar hook-->
+
+		<div id="content" class="eight columns">
+		
+		<!--Begin @Core index entry hook-->
+				<!--End @Core index entry hook-->
+
+						
+			<div class="post_container">
+				<div class="post-84 post type-post status-publish format-standard hentry category-uncategorized" id="post-84">
+		
+				<!--Begin @Core index loop hook-->
+							
+					
+						<div class="postformats"><!--begin format icon-->
+				<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/formats/default.png" alt="formats" />
+			</div><!--end format-icon-->
+							<h2 class="posts_title"><a href="http://www.manfisher.net/2012/05/03/lifebeat-podcast/">lifebeat podcast</a></h2>
+					<!--Call @Core Meta hook-->
+				
+	<div class="meta">
+		 Ausgestellt am <a href="http://www.manfisher.net/2012/05/03/lifebeat-podcast/">3. Mai 2012</a>		vom <a href="http://www.manfisher.net/author/mark-cheret/" title="Artikel von ManFisher von Gottes Gnaden" rel="author">ManFisher von Gottes Gnaden</a>  
+		in <a href="http://www.manfisher.net/category/uncategorized/" title="Alle Artikel in Uncategorized ansehen" rel="category tag">Uncategorized</a> 	</div> 					
+				<div class="entry" >
+					<p>der lifebeat podcast wurde von einem Crackerteam aus Lybien sabbotiert und ich hatte keine Datensicherung davon. Daher hatte ich mich entschlossen, sämtliche Folgen noch einmal unter neuem Datum zu veröffentlichen.<br />
+Dieser Prozess ist jetzt abgeschlossen und ab Juni erscheinen neue Folgen. ManFisher ist nun alleiniger Moderator der Sendung und spricht mit verschiedenen Gästen über das gleich gebliebene Thema: das Leben und was es zu bieten hat.</p>
+<p>Ich hoffe euch macht es genau so viel Spaß wie mir und denkt dran:<br />
+<a href="http://www.manfisher.de" title="lifebeat podcast" target="_blank">Der lifebeat podcast ist unter http://www.manfisher.de abrufbar</a>.</p>
+				</div><!--end entry-->
+				
+				<div class='clear'>&nbsp;</div>
+							<!--End @Core index loop hook-->	
+			
+				<!--Begin @Core link pages hook-->
+									<!--End @Core link pages hook-->
+			
+				<!--Begin @Core post edit link hook-->
+									<!--End @Core post edit link hook-->
+			
+				<!--Begin @Core FB like hook-->
+					
+			<div class="gplusone">	
+			<g:plusone size="standard" count="true" href="http://www.manfisher.net/2012/05/03/lifebeat-podcast/"></g:plusone>
+		</div>
+							
+				
+		<div id="fb">
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.manfisher.net/2012/05/03/lifebeat-podcast/&layout=standard&show_faces=true&width=450&action=like&colorscheme=light" scrolling="no" frameborder="0"  allowTransparency="true" style="border:none; overflow:hidden; width:330px; height:28px"></iframe>
+		</div>
+					<!--End @Core FB like hook-->
+			
+				<!--Begin @Core post tags hook-->
+					
+					<!--End @Core post tags hook-->
+				
+							
+				</div><!--end post_class-->
+			</div><!--end post container-->
+			
+			<!--Begin @iFeature post bar hook-->
+					
+		<div id="postbar">
+				<div class="six columns" id="share">
+										&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.manfisher.net/2012/05/03/lifebeat-podcast/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/facebook.png" alt="Share on Facebook" height="16px" width="16px" /></a> 
+					<a href="http://twitter.com/home?status=http://www.manfisher.net/2012/05/03/lifebeat-podcast/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/twitter.png" alt="Share on Twitter" height="16px" width="16px" /></a> 
+					<a href="http://reddit.com/submit?url=http://www.manfisher.net/2012/05/03/lifebeat-podcast/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/reddit.png" alt="Share on Reddit" height="16px" width="16px" /></a> <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.manfisher.net/2012/05/03/lifebeat-podcast/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/linkedin.png" alt="Share on LinkedIn" height="16px" width="16px" /></a>	
+									</div><!--end share-->
+				<div class="six columns" id="comments">
+										<a href="http://www.manfisher.net/2012/05/03/lifebeat-podcast/#respond" title="Kommentiere lifebeat podcast">No Comments</a>&nbsp;&nbsp;<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/Commentsgrey.png" alt="comments"/>&nbsp;
+									</div><!--end comments-->
+		</div><!--end postbar--> 
+				<!--End @iFeature post bar hook-->
+			
+						
+				
+						
+			<div class="post_container">
+				<div class="post-79 post type-post status-publish format-standard hentry category-artists" id="post-79">
+		
+				<!--Begin @Core index loop hook-->
+							
+					
+						<div class="postformats"><!--begin format icon-->
+				<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/formats/default.png" alt="formats" />
+			</div><!--end format-icon-->
+							<h2 class="posts_title"><a href="http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/">ManFisher Studio produziert erste Auflage einer &#8220;richtigen&#8221; CD</a></h2>
+					<!--Call @Core Meta hook-->
+				
+	<div class="meta">
+		 Ausgestellt am <a href="http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/">14. April 2012</a>		vom <a href="http://www.manfisher.net/author/mark-cheret/" title="Artikel von ManFisher von Gottes Gnaden" rel="author">ManFisher von Gottes Gnaden</a>  
+		in <a href="http://www.manfisher.net/category/artists/" title="Alle Artikel in Artists ansehen" rel="category tag">Artists</a> 	</div> 					
+				<div class="entry" >
+					<p><a href="http://www.manfisher.net/wp-content/uploads/2012/04/CD-Cover-Jewel-Case-Frontside.jpg"><img class="alignleft size-thumbnail wp-image-80" title="CD-Cover-Jewel-Case-Frontside" src="http://www.manfisher.net/wp-content/uploads/2012/04/CD-Cover-Jewel-Case-Frontside-150x150.jpg" alt="" width="150" height="150" /></a>Nach etlichen Stunden Produktion konnte das neueste Album von <a title="JRexx - Atemzug Album Release" href="http://jrexx.manfisher.net/2012/04/14/album-release-atemzug-auf-cd/" target="_blank">JRexx &#8211; Atemzug</a> an den Start gebracht werden. Nachdem die Limited Edition unter den ersten treuen Fans von JRexx verteilt wurde, geht der Online Verkauf der ManFisher Studio Produktion an den Start.<br />
+Ich hoffe ihr freut euch genauso wie wir über das neue Album. Der Rapper JRexx und sein Label sind mächtig Stolz auf diese neue Produktion.<a href="http://www.manfisher.net/wp-content/uploads/2012/04/CD-Cover-Jewel-Case-Backside.jpg"><img src="http://www.manfisher.net/wp-content/uploads/2012/04/CD-Cover-Jewel-Case-Backside-150x150.jpg" alt="" title="CD-Cover-Jewel-Case-Backside" width="150" height="150" class="alignright size-thumbnail wp-image-81" /></a></p>
+				</div><!--end entry-->
+				
+				<div class='clear'>&nbsp;</div>
+							<!--End @Core index loop hook-->	
+			
+				<!--Begin @Core link pages hook-->
+									<!--End @Core link pages hook-->
+			
+				<!--Begin @Core post edit link hook-->
+									<!--End @Core post edit link hook-->
+			
+				<!--Begin @Core FB like hook-->
+					
+			<div class="gplusone">	
+			<g:plusone size="standard" count="true" href="http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/"></g:plusone>
+		</div>
+							
+				
+		<div id="fb">
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/&layout=standard&show_faces=true&width=450&action=like&colorscheme=light" scrolling="no" frameborder="0"  allowTransparency="true" style="border:none; overflow:hidden; width:330px; height:28px"></iframe>
+		</div>
+					<!--End @Core FB like hook-->
+			
+				<!--Begin @Core post tags hook-->
+					
+					<!--End @Core post tags hook-->
+				
+							
+				</div><!--end post_class-->
+			</div><!--end post container-->
+			
+			<!--Begin @iFeature post bar hook-->
+					
+		<div id="postbar">
+				<div class="six columns" id="share">
+										&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/facebook.png" alt="Share on Facebook" height="16px" width="16px" /></a> 
+					<a href="http://twitter.com/home?status=http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/twitter.png" alt="Share on Twitter" height="16px" width="16px" /></a> 
+					<a href="http://reddit.com/submit?url=http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/reddit.png" alt="Share on Reddit" height="16px" width="16px" /></a> <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/linkedin.png" alt="Share on LinkedIn" height="16px" width="16px" /></a>	
+									</div><!--end share-->
+				<div class="six columns" id="comments">
+										<a href="http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/#respond" title="Kommentiere ManFisher Studio produziert erste Auflage einer &#8220;richtigen&#8221; CD">No Comments</a>&nbsp;&nbsp;<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/Commentsgrey.png" alt="comments"/>&nbsp;
+									</div><!--end comments-->
+		</div><!--end postbar--> 
+				<!--End @iFeature post bar hook-->
+			
+						
+				
+						
+			<div class="post_container">
+				<div class="post-76 post type-post status-publish format-standard hentry category-artists" id="post-76">
+		
+				<!--Begin @Core index loop hook-->
+							
+					
+						<div class="postformats"><!--begin format icon-->
+				<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/formats/default.png" alt="formats" />
+			</div><!--end format-icon-->
+							<h2 class="posts_title"><a href="http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/">Single Release für die Fans&#8230; arbeiten am neuen Album von JRexx bald abgeschlossen</a></h2>
+					<!--Call @Core Meta hook-->
+				
+	<div class="meta">
+		 Ausgestellt am <a href="http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/">14. Februar 2012</a>		vom <a href="http://www.manfisher.net/author/mark-cheret/" title="Artikel von ManFisher von Gottes Gnaden" rel="author">ManFisher von Gottes Gnaden</a>  
+		in <a href="http://www.manfisher.net/category/artists/" title="Alle Artikel in Artists ansehen" rel="category tag">Artists</a> 	</div> 					
+				<div class="entry" >
+					<p><iframe width="400" height="100" style="position: relative; display: block; width: 400px; height: 100px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=1739050661/size=venti/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="http://jrexx.bandcamp.com/track/der-letzte-takt-f-llt-single-release-manfisher-produziert">der letzte Takt fällt (Single Release) (ManFisher produziert) by JRexx</a></iframe></p>
+<p>Die Single &#8220;der letzte Takt fällt&#8221; soll einen Vorgeschmack auf das neue Album von JRexx bieten. Ich hoffe man merkt, dass wir hart daran arbeiten uns weiter zu verbessern.</p>
+				</div><!--end entry-->
+				
+				<div class='clear'>&nbsp;</div>
+							<!--End @Core index loop hook-->	
+			
+				<!--Begin @Core link pages hook-->
+									<!--End @Core link pages hook-->
+			
+				<!--Begin @Core post edit link hook-->
+									<!--End @Core post edit link hook-->
+			
+				<!--Begin @Core FB like hook-->
+					
+			<div class="gplusone">	
+			<g:plusone size="standard" count="true" href="http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/"></g:plusone>
+		</div>
+							
+				
+		<div id="fb">
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/&layout=standard&show_faces=true&width=450&action=like&colorscheme=light" scrolling="no" frameborder="0"  allowTransparency="true" style="border:none; overflow:hidden; width:330px; height:28px"></iframe>
+		</div>
+					<!--End @Core FB like hook-->
+			
+				<!--Begin @Core post tags hook-->
+					
+					<!--End @Core post tags hook-->
+				
+							
+				</div><!--end post_class-->
+			</div><!--end post container-->
+			
+			<!--Begin @iFeature post bar hook-->
+					
+		<div id="postbar">
+				<div class="six columns" id="share">
+										&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/facebook.png" alt="Share on Facebook" height="16px" width="16px" /></a> 
+					<a href="http://twitter.com/home?status=http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/twitter.png" alt="Share on Twitter" height="16px" width="16px" /></a> 
+					<a href="http://reddit.com/submit?url=http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/reddit.png" alt="Share on Reddit" height="16px" width="16px" /></a> <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/linkedin.png" alt="Share on LinkedIn" height="16px" width="16px" /></a>	
+									</div><!--end share-->
+				<div class="six columns" id="comments">
+										<a href="http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/#respond" title="Kommentiere Single Release für die Fans&#8230; arbeiten am neuen Album von JRexx bald abgeschlossen">No Comments</a>&nbsp;&nbsp;<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/Commentsgrey.png" alt="comments"/>&nbsp;
+									</div><!--end comments-->
+		</div><!--end postbar--> 
+				<!--End @iFeature post bar hook-->
+			
+						
+				
+						
+			<div class="post_container">
+				<div class="post-47 post type-post status-publish format-standard hentry category-artists" id="post-47">
+		
+				<!--Begin @Core index loop hook-->
+							
+					
+						<div class="postformats"><!--begin format icon-->
+				<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/formats/default.png" alt="formats" />
+			</div><!--end format-icon-->
+							<h2 class="posts_title"><a href="http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/">ManFisher ist auf Bandcamp.com</a></h2>
+					<!--Call @Core Meta hook-->
+				
+	<div class="meta">
+		 Ausgestellt am <a href="http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/">23. Januar 2012</a>		vom <a href="http://www.manfisher.net/author/mark-cheret/" title="Artikel von ManFisher von Gottes Gnaden" rel="author">ManFisher von Gottes Gnaden</a>  
+		in <a href="http://www.manfisher.net/category/artists/" title="Alle Artikel in Artists ansehen" rel="category tag">Artists</a> 	</div> 					
+				<div class="entry" >
+					<p>Durch das rege Interesse an Tracks von ManFisher bietet es sich an, auf eine sehr flexible Plattform zu wechseln, die insgesamt mehr bietet als Jamendo.com. Hiermit gelingt es dem jungen Label ManFisher Studio eventuell, ein paar Euros für Investitionen in Equipment und Software zu generieren.</p>
+<p><iframe width="300" height="410" style="position: relative; display: block; width: 300px; height: 410px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=2286787198/size=grande3/bgcol=FFFFFF/linkcol=4285BB/" allowtransparency="true" frameborder="0"><a href="http://manfisher.bandcamp.com/album/paradigma">paradigma by ManFisher</a></iframe></p>
+				</div><!--end entry-->
+				
+				<div class='clear'>&nbsp;</div>
+							<!--End @Core index loop hook-->	
+			
+				<!--Begin @Core link pages hook-->
+									<!--End @Core link pages hook-->
+			
+				<!--Begin @Core post edit link hook-->
+									<!--End @Core post edit link hook-->
+			
+				<!--Begin @Core FB like hook-->
+					
+			<div class="gplusone">	
+			<g:plusone size="standard" count="true" href="http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/"></g:plusone>
+		</div>
+							
+				
+		<div id="fb">
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/&layout=standard&show_faces=true&width=450&action=like&colorscheme=light" scrolling="no" frameborder="0"  allowTransparency="true" style="border:none; overflow:hidden; width:330px; height:28px"></iframe>
+		</div>
+					<!--End @Core FB like hook-->
+			
+				<!--Begin @Core post tags hook-->
+					
+					<!--End @Core post tags hook-->
+				
+							
+				</div><!--end post_class-->
+			</div><!--end post container-->
+			
+			<!--Begin @iFeature post bar hook-->
+					
+		<div id="postbar">
+				<div class="six columns" id="share">
+										&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/facebook.png" alt="Share on Facebook" height="16px" width="16px" /></a> 
+					<a href="http://twitter.com/home?status=http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/twitter.png" alt="Share on Twitter" height="16px" width="16px" /></a> 
+					<a href="http://reddit.com/submit?url=http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/reddit.png" alt="Share on Reddit" height="16px" width="16px" /></a> <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/linkedin.png" alt="Share on LinkedIn" height="16px" width="16px" /></a>	
+									</div><!--end share-->
+				<div class="six columns" id="comments">
+										<a href="http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/#respond" title="Kommentiere ManFisher ist auf Bandcamp.com">No Comments</a>&nbsp;&nbsp;<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/Commentsgrey.png" alt="comments"/>&nbsp;
+									</div><!--end comments-->
+		</div><!--end postbar--> 
+				<!--End @iFeature post bar hook-->
+			
+						
+				
+						
+			<div class="post_container">
+				<div class="post-36 post type-post status-publish format-standard hentry category-artists" id="post-36">
+		
+				<!--Begin @Core index loop hook-->
+							
+					
+						<div class="postformats"><!--begin format icon-->
+				<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/formats/default.png" alt="formats" />
+			</div><!--end format-icon-->
+							<h2 class="posts_title"><a href="http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/">Artistpage für JRexx, find him on Facebook</a></h2>
+					<!--Call @Core Meta hook-->
+				
+	<div class="meta">
+		 Ausgestellt am <a href="http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/">26. November 2011</a>		vom <a href="http://www.manfisher.net/author/mark-cheret/" title="Artikel von ManFisher von Gottes Gnaden" rel="author">ManFisher von Gottes Gnaden</a>  
+		in <a href="http://www.manfisher.net/category/artists/" title="Alle Artikel in Artists ansehen" rel="category tag">Artists</a> 	</div> 					
+				<div class="entry" >
+					<p><a href="http://jrexx.manfisher.net" title="Artistpage von JRexx" target="_blank">JRexx&#8217;s Artistpage ist heute online gegangen</a>. Geht, sagt es allen weiter.<br />
+<a href="https://www.facebook.com/pages/JRexx/284504214920992" title="JRexx Fanpage auf Facebook" target="_blank">Außerdem hat er ab heute eine Facebook Page</a>. Werdet Fan, indem ihr auf &#8220;gefällt mir&#8221; klickt.<br />
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FJRexx.HipHop&amp;width=260&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=false&amp;appId=235996016468166" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:260px; height:62px;" allowTransparency="true"></iframe></p>
+				</div><!--end entry-->
+				
+				<div class='clear'>&nbsp;</div>
+							<!--End @Core index loop hook-->	
+			
+				<!--Begin @Core link pages hook-->
+									<!--End @Core link pages hook-->
+			
+				<!--Begin @Core post edit link hook-->
+									<!--End @Core post edit link hook-->
+			
+				<!--Begin @Core FB like hook-->
+					
+			<div class="gplusone">	
+			<g:plusone size="standard" count="true" href="http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/"></g:plusone>
+		</div>
+							
+				
+		<div id="fb">
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/&layout=standard&show_faces=true&width=450&action=like&colorscheme=light" scrolling="no" frameborder="0"  allowTransparency="true" style="border:none; overflow:hidden; width:330px; height:28px"></iframe>
+		</div>
+					<!--End @Core FB like hook-->
+			
+				<!--Begin @Core post tags hook-->
+					
+					<!--End @Core post tags hook-->
+				
+							
+				</div><!--end post_class-->
+			</div><!--end post container-->
+			
+			<!--Begin @iFeature post bar hook-->
+					
+		<div id="postbar">
+				<div class="six columns" id="share">
+										&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/facebook.png" alt="Share on Facebook" height="16px" width="16px" /></a> 
+					<a href="http://twitter.com/home?status=http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/twitter.png" alt="Share on Twitter" height="16px" width="16px" /></a> 
+					<a href="http://reddit.com/submit?url=http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/reddit.png" alt="Share on Reddit" height="16px" width="16px" /></a> <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/linkedin.png" alt="Share on LinkedIn" height="16px" width="16px" /></a>	
+									</div><!--end share-->
+				<div class="six columns" id="comments">
+										<a href="http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/#respond" title="Kommentiere Artistpage für JRexx, find him on Facebook">No Comments</a>&nbsp;&nbsp;<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/Commentsgrey.png" alt="comments"/>&nbsp;
+									</div><!--end comments-->
+		</div><!--end postbar--> 
+				<!--End @iFeature post bar hook-->
+			
+						
+				
+						
+			<div class="post_container">
+				<div class="post-17 post type-post status-publish format-standard hentry category-artists" id="post-17">
+		
+				<!--Begin @Core index loop hook-->
+							
+					
+						<div class="postformats"><!--begin format icon-->
+				<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/formats/default.png" alt="formats" />
+			</div><!--end format-icon-->
+							<h2 class="posts_title"><a href="http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/">JRexx &#038; Jackson vertrauen ManFisher Studio</a></h2>
+					<!--Call @Core Meta hook-->
+				
+	<div class="meta">
+		 Ausgestellt am <a href="http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/">26. November 2011</a>		vom <a href="http://www.manfisher.net/author/mark-cheret/" title="Artikel von ManFisher von Gottes Gnaden" rel="author">ManFisher von Gottes Gnaden</a>  
+		in <a href="http://www.manfisher.net/category/artists/" title="Alle Artikel in Artists ansehen" rel="category tag">Artists</a> 	</div> 					
+				<div class="entry" >
+					<p><a href="http://www.manfisher.net/wp-content/uploads/2011/11/DSC_0535.jpg"><img class="size-medium wp-image-18 alignleft" title="Jackson &amp; JRexx" src="http://www.manfisher.net/wp-content/uploads/2011/11/DSC_0535-300x199.jpg" alt="Jackson &amp; JRexx" width="300" height="199" /></a>mit Jackson und JRexx sind 2 Junge Talente zu ManFisher Studio gestoßen, die am Start ihrer Karriere stehen. Es ist sehr erfreulich, dass sie ManFisher Studio vertrauen, den Grundstein für ihre künstlerische Zukunft zu legen.<br />
+JRexx widmet sich derzeit eher dem Deeper-Rap. 16-Bar-Tracks und Flow sind Jackson&#8217;s Ding.<br />
+ManFisher hat sie produziert.</p>
+<p><a title="ManFisher Studio produziert: JRexx &amp; Jackson - Principium" href="http://www.jamendo.com/de/album/95292" target="_blank">Debut-Feature Album kostenlos anhören und herunterladen</a></p>
+				</div><!--end entry-->
+				
+				<div class='clear'>&nbsp;</div>
+							<!--End @Core index loop hook-->	
+			
+				<!--Begin @Core link pages hook-->
+									<!--End @Core link pages hook-->
+			
+				<!--Begin @Core post edit link hook-->
+									<!--End @Core post edit link hook-->
+			
+				<!--Begin @Core FB like hook-->
+					
+			<div class="gplusone">	
+			<g:plusone size="standard" count="true" href="http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/"></g:plusone>
+		</div>
+							
+				
+		<div id="fb">
+			<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/&layout=standard&show_faces=true&width=450&action=like&colorscheme=light" scrolling="no" frameborder="0"  allowTransparency="true" style="border:none; overflow:hidden; width:330px; height:28px"></iframe>
+		</div>
+					<!--End @Core FB like hook-->
+			
+				<!--Begin @Core post tags hook-->
+					
+					<!--End @Core post tags hook-->
+				
+							
+				</div><!--end post_class-->
+			</div><!--end post container-->
+			
+			<!--Begin @iFeature post bar hook-->
+					
+		<div id="postbar">
+				<div class="six columns" id="share">
+										&nbsp;<a href="http://www.facebook.com/share.php?u=http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/facebook.png" alt="Share on Facebook" height="16px" width="16px" /></a> 
+					<a href="http://twitter.com/home?status=http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/twitter.png" alt="Share on Twitter" height="16px" width="16px" /></a> 
+					<a href="http://reddit.com/submit?url=http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/reddit.png" alt="Share on Reddit" height="16px" width="16px" /></a> <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/share/linkedin.png" alt="Share on LinkedIn" height="16px" width="16px" /></a>	
+									</div><!--end share-->
+				<div class="six columns" id="comments">
+										<a href="http://www.manfisher.net/2011/11/26/jrexx-jackson-vertrauen-manfisher-studio/#comments" title="Kommentiere JRexx &amp; Jackson vertrauen ManFisher Studio">1 Comment</a>&nbsp;&nbsp;<img src="http://www.manfisher.net/wp-content/themes/ifeature/images/Commentsgrey.png" alt="comments"/>&nbsp;
+									</div><!--end comments-->
+		</div><!--end postbar--> 
+				<!--End @iFeature post bar hook-->
+			
+						
+				
+					
+						
+				<!--Begin @Core pagination hook-->
+						<!--End @Core pagination loop hook-->
+		
+		</div><!--end content-->
+
+	<!--Begin @Core after content sidebar hook-->
+			
+		<div id="sidebar" class="four columns">
+		<div id="search-3" class="widget-container">
+<form method="get" class="searchform" action="http://www.manfisher.net/">
+	<div id="magnify"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/magnify.png" alt="magnify" /></div>
+	<div><input type="text" name="s" class="s" value="Search" id="searchsubmit" onfocus="if (this.value == 'Search') this.value = '';" /></div>
+	<div><input type="submit" class="searchsubmit" value="" /></div>
+</form></div><div id="twitter-vjck" class="widget-container"><h2 class="widget-title">@theManFisher</h2><div id="widget_twitter_vjck" ><ul><div id="twitter_time_line"  style="width:100%; overflow:hidden;" ><script type="text/javascript">function flip_twitter_image(arg) {var targetTagID = window.document.getElementById(arg); var styleStr = (window.document.documentElement.getAttribute("style") == window.document.documentElement.style) ? targetTagID.style.cssText : targetTagID.getAttribute( "style" ); var nonString = styleStr.match( /display:.*?none;/g ); var nonPos = nonString ? styleStr.indexOf( nonString ) : -1; if( nonPos >= 0 ) { styleStr = styleStr.substring( 0, nonPos ) + styleStr.substring( nonPos + nonString.length, styleStr.length ); styleStr = styleStr + "display:block;"; }else{ var blkString = styleStr.match( /display:.*?block;/g ); var blkPos = blkString ? styleStr.indexOf( blkString ) : -1; if( blkPos >= 0 ) { styleStr = styleStr.substring( 0, blkPos ) + styleStr.substring( blkPos + blkString.length, styleStr.length ); } styleStr = styleStr + "display:none;"; } if( styleStr ) { if( window.document.documentElement.getAttribute("style") == window.document.documentElement.style ) { targetTagID.style.cssText = styleStr; }else{ targetTagID.setAttribute( "style", styleStr); }}}</script><li>Ich mag ein @YouTube-Video.von @jurtenland  Ösen reparieren - Jurtenland<br /><a href="http://t.co/VZEreChm" target="_blank" >http://t.co/VZEreChm</a><div id="twitter_time_source" style="font-size:7pt;color:#888;text-align:right;" >2012/06/06 08:27 by <a target="_blank" href="http://www.google.com/" rel="nofollow">Google</a></div></li><li>Ich mag ein @YouTube-Video.  Andere, die das land so sehr nicht liebten<br /><a href="http://t.co/RC0hcWlR" target="_blank" >http://t.co/RC0hcWlR</a><div id="twitter_time_source" style="font-size:7pt;color:#888;text-align:right;" >2012/06/05 16:46 by <a target="_blank" href="http://www.google.com/" rel="nofollow">Google</a></div></li><li>Ich mag ein @YouTube-Video.  Zupfgeigenhansel   Andre, die das Land so sehr nicht liebten<br /><a href="http://t.co/pBRufwTi" target="_blank" >http://t.co/pBRufwTi</a><div id="twitter_time_source" style="font-size:7pt;color:#888;text-align:right;" >2012/06/05 13:48 by <a target="_blank" href="http://www.google.com/" rel="nofollow">Google</a></div></li><li>Ich mag ein @YouTube-Video.  Spring Offensive - Every Coin /// Berlin Sessions (Bonus)<br /><a href="http://t.co/cNKgpXQp" target="_blank" >http://t.co/cNKgpXQp</a><div id="twitter_time_source" style="font-size:7pt;color:#888;text-align:right;" >2012/05/25 14:41 by <a target="_blank" href="http://www.google.com/" rel="nofollow">Google</a></div></li><li>I love Dropbox because It's easy and seamless. Still I'd love a 15 or 25 GB Paid version. <br /><a href="http://t.co/Ta0OaEg3" target="_blank" >http://t.co/Ta0OaEg3</a><div id="twitter_time_source" style="font-size:7pt;color:#888;text-align:right;" >2012/05/18 21:17 by <a target="_blank" href="http://www.dropbox.com" rel="nofollow">Dropbox </a></div></li></div></ul></div></div>		<div id="recent-posts-3" class="widget-container">		<h2 class="widget-title">Letzte Artikel</h2>		<ul>
+				<li><a href="http://www.manfisher.net/2012/05/03/lifebeat-podcast/" title="lifebeat podcast">lifebeat podcast</a></li>
+				<li><a href="http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/" title="ManFisher Studio produziert erste Auflage einer &#8220;richtigen&#8221; CD">ManFisher Studio produziert erste Auflage einer &#8220;richtigen&#8221; CD</a></li>
+				<li><a href="http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/" title="Single Release für die Fans&#8230; arbeiten am neuen Album von JRexx bald abgeschlossen">Single Release für die Fans&#8230; arbeiten am neuen Album von JRexx bald abgeschlossen</a></li>
+				<li><a href="http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/" title="ManFisher ist auf Bandcamp.com">ManFisher ist auf Bandcamp.com</a></li>
+				<li><a href="http://www.manfisher.net/2011/11/26/artistpage-fur-jrexx-find-him-on-facebook/" title="Artistpage für JRexx, find him on Facebook">Artistpage für JRexx, find him on Facebook</a></li>
+				</ul>
+		</div><div id="archives-3" class="widget-container"><h2 class="widget-title">Archive</h2>		<ul>
+			<li><a href='http://www.manfisher.net/2012/05/' title='Mai 2012'>Mai 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.manfisher.net/2012/04/' title='April 2012'>April 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.manfisher.net/2012/02/' title='Februar 2012'>Februar 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.manfisher.net/2012/01/' title='Januar 2012'>Januar 2012</a>&nbsp;(1)</li>
+	<li><a href='http://www.manfisher.net/2011/11/' title='November 2011'>November 2011</a>&nbsp;(2)</li>
+		</ul>
+</div>	</div>
+			<!--End @Core after content sidebar hook-->
+
+</div>
+</div><!--end container-->
+	
+	
+
+</div><!--end container wrap-->
+
+	<div id="footer">
+     	<div class="container">
+     		<div class="row">
+    	
+	<!-- Begin @synapse footer hook content-->
+				
+		<div class="three columns footer-widgets">
+			<h3 class="footer-widget-title">Footer Widgets</h3>
+			<ul>
+				<li>To customize this widget area login to your admin account, go to Appearance, then Widgets and drag new widgets into Footer Widgets</li>
+			</ul>
+		</div>
+
+		<div class="three columns footer-widgets">
+			<h3 class="footer-widget-title">Letzte Beiträgen</h3>
+			<ul>
+					<li><a href='http://www.manfisher.net/2012/05/03/lifebeat-podcast/' title='lifebeat podcast'>lifebeat podcast</a></li>
+	<li><a href='http://www.manfisher.net/2012/04/14/manfisher-studio-produziert-erste-auflage-einer-richtigen-cd/' title='ManFisher Studio produziert erste Auflage einer &#8220;richtigen&#8221; CD'>ManFisher Studio produziert erste Auflage einer &#8220;richtigen&#8221; CD</a></li>
+	<li><a href='http://www.manfisher.net/2012/02/14/single-release-fur-die-fans-arbeiten-neuen-album-von-jrexx-bald-abgeschlossen/' title='Single Release für die Fans&#8230; arbeiten am neuen Album von JRexx bald abgeschlossen'>Single Release für die Fans&#8230; arbeiten am neuen Album von JRexx bald abgeschlossen</a></li>
+	<li><a href='http://www.manfisher.net/2012/01/23/manfisher-ist-auf-bandcamp-com/' title='ManFisher ist auf Bandcamp.com'>ManFisher ist auf Bandcamp.com</a></li>
+			</ul>
+		</div>
+		
+		<div class="three columns footer-widgets">
+			<h3 class="footer-widget-title">Archiv</h3>
+			<ul>
+					<li><a href='http://www.manfisher.net/2012/05/' title='Mai 2012'>Mai 2012</a></li>
+	<li><a href='http://www.manfisher.net/2012/04/' title='April 2012'>April 2012</a></li>
+	<li><a href='http://www.manfisher.net/2012/02/' title='Februar 2012'>Februar 2012</a></li>
+	<li><a href='http://www.manfisher.net/2012/01/' title='Januar 2012'>Januar 2012</a></li>
+	<li><a href='http://www.manfisher.net/2011/11/' title='November 2011'>November 2011</a></li>
+			</ul>
+		</div>
+
+		<div class="three columns footer-widgets">
+			<h3 class="footer-widget-title">WordPress</h3>
+			<ul>
+    		    		<li><a href="http://www.manfisher.net/wp-login.php">Anmelden</a></li>
+    		<li><a href="http://wordpress.org/" target="_blank" title="Bereitgestellt von WordPress, ein modern semantisches persönliches publikations platform."> WordPress</a></li>
+    		    		</ul>
+		</div>
+		
+			<div class='clear'></div> 	<!-- End @synapse footer hook content-->
+	
+		
+
+		</div><!--end footer_wrap-->
+	</div><!--end footer-->
+</div> 
+
+
+	<div id="afterfooter">
+		<div id="afterfooterwrap">
+		<div class="row">	
+		<!-- Begin @synapse afterfooter hook content-->
+			<div id='afterfootermenu' class='four columns'><div class="menu"><ul><li class="page_item page-item-12"><a href="http://www.manfisher.net/datenschutz/">Datenschutz</a></li><li class="page_item page-item-39"><a href="http://www.manfisher.net/produktionen/">Produktionen</a></li><li class="page_item page-item-55"><a href="http://www.manfisher.net/technik/">Technik</a></li></ul></div>
+</div><div id='afterfootercopyright' class='four columns'>&copy; ManFisher Studio</div>		
+	<div id="credit" class="four columns">
+		<a href="http://cyberchimps.com/" target="_blank"><img src="http://www.manfisher.net/wp-content/themes/ifeature/images/achimps.png" alt="credit" /></a>
+	</div> 		<!-- End @synapse afterfooter hook content-->
+				
+		</div>  <!--end afterfooterwrap-->	
+	</div> <!--end afterfooter-->	
+		</div> 	
+		
+	<div id="fb-root"></div>
+<script type="text/javascript" language="javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+		appId: '267533623296938',
+		status: true,
+		cookie: true,
+		xfbml: true
+	});
+  };
+  
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js#appId=267533623296938&xfbml=1';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?aa&#038;ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.3.2'></script>
+	<div style="display:none">
+	</div>
+<div id="su-footer-links" style="text-align: center;"></div><script type='text/javascript' src='http://www.manfisher.net/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://www.manfisher.net/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.8.16'></script>
+
+	<script src="http://stats.wordpress.com/e-201223.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:1.3',blog:'29852005',post:'0'});
+	var load_cmc = function(){linktracker_init(29852005,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>	
+</body>
+
+</html>

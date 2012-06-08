@@ -1,0 +1,159 @@
+<?php
+header('Content-type: text/xml');
+echo '<?xml version="1.0"?>'."\n";
+?>
+<rss version="2.0">
+<channel>
+<title>Trader Interviews</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/</link>
+<description>TraderInterviews.com interviews successful wealthy traders about how they trade stocks, futures, options and forex. Listen in each week as we reveal the secret strategies of full-time at-home traders.</description>
+<pubDate>Thu, 03 May 2012 00:00:00 -0800</pubDate>
+<language>en-us</language>
+<copyright>Copyright 2006-2012 Trader Interviews</copyright>
+<image>
+ <url>http://<?= $_SERVER['SERVER_NAME'] ?>/images/traderinterviews_144x19.gif</url>
+ <title>Trader Interviews</title>
+ <link>http://<?= $_SERVER['SERVER_NAME'] ?></link>
+ <width>144</width>
+ <height>16</height>
+</image>
+
+<item>
+<title>Trader Interviews Episode 279: Trading Pure Price Action in Forex</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_279_Trading-Pure-Price-Action-in-Forex-DS.php</link>
+<description><![CDATA["Trading well means making decisions against every instinct in your mind. That's why traders have such a hard time making money." Derek, the full-time currency trader I spoke with for this interview, became enormously successful because he's learned to trade simple price action. In this discussion, we talk about how Derek uses specific pip charts but also why timeframes don't matter much when it comes to watching charts. He explains how he views trading like art and how his strategy is entirely based on identifying the flow of the currency pairs he is trading. We discuss the simple chart patterns he looks for and the two things he always checks before entering every trade. Derek explains his "hunting and gathering" steps he goes through each day and why he feels so strongly that the only indicator that doesn't lag is price.<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_279_Trading-Pure-Price-Action-in-Forex-DS.php">Trader Interviews Episode 279: Trading Pure Price Action in Forex</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_279_Trading-Pure-Price-Action-in-Forex-DS.php</guid>
+<pubDate>Thu, 03 May 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 278: How To Trade Options on Index ETFs for Profit</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_278_Trading-Options-on-Index-ETFs-AF.php</link>
+<description><![CDATA[Today's trader interviewee uses three specific technical indicators that, together, help him make profitable option trades on Index ETFs. In this episode, Alex explains exactly how he uses the three indicators to make solid trading decisions, one of which we both agreed is vastly under-utilized by most traders. We discuss the strike price and expiration preferences of the options he trades (mostly naked puts) and how he protects himself from or actually invites assignment of the underlying, based on the type of trade he puts in place. Finally, we have a short discussion about what it takes to jump from trading your own account to managing other people's accounts.
+
+<br><br>Markets discussed: <b>Options, ETFs</b><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_278_Trading-Options-on-Index-ETFs-AF.php">Trader Interviews Episode 278: How To Trade Options on Index ETFs for Profit</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_278_Trading-Options-on-Index-ETFs-AF.php</guid>
+<pubDate>Thu, 12 Apr 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 277: Gap Trading the S&amp;P 500 For Daily Profits</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_277_Trading-Gaps-in-EMini-Futures-SB.php</link>
+<description><![CDATA[Trading gaps on the S&P 500 via E-Mini futures is the specialty of this successful trader. Born in Switzerland, Serge learned how to trade at JP Morgan and later went out on his own to become an independent full-time trader. In this detail-packed interview, we discuss how he trades the opening gap intraday and how he also puts on swing trade positions. Using a combination of candlestick patterns and momentum oscillators, Serge describes how he enters, manages, and exits his trades with discipline. He also describes the specific way he sets profit targets and stop losses. Maintaining 10-20 positions at a time, this trader describes the time frame charts he monitors and why he settled on this particular method of trading, day in and day out, to make a living trading the markets.
+
+<br><br>Markets discussed: <b>S&P E-Mini futures, stocks, options</b><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_277_Trading-Gaps-in-EMini-Futures-SB.php">Trader Interviews Episode 277: Gap Trading the S&amp;P 500 For Daily Profits</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_277_Trading-Gaps-in-EMini-Futures-SB.php</guid>
+<pubDate>Thu, 22 Mar 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 276: Trading Wedges and Pullbacks for Profit</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_276_Trading-Pullbacks-and-Wedge-Patterns-For-Profit-JW.php</link>
+<description><![CDATA[Jeff has been a full-time trader for eleven years now, after trading part-time for two years prior. His trading methods are simple, yet profitable, and he explains exactly what he does in this interview. Specifically, Jeff is a pattern trader and here he explains how he uses trendlines to trade wedge and dip patterns. He explains how he scans for good trading opportunities and then decides the evening before which stocks offer the best chance of making money when the market opens. We discuss the one thing he does that has helped him make more money than any other method, and how he still works to improve his entries and exits every day. A competitive golfer in college, Jeff has taken that attention to detail and turned it into a nice living as a trader. Listen in to hear how.
+
+<br><br>Markets traded: <b>stocks</b><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_276_Trading-Pullbacks-and-Wedge-Patterns-For-Profit-JW.php">Trader Interviews Episode 276: Trading Wedges and Pullbacks for Profit</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_276_Trading-Pullbacks-and-Wedge-Patterns-For-Profit-JW.php</guid>
+<pubDate>Thu, 08 Mar 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 275: Secrets to Trading Butterfly Option Strategies</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_275_Butterfly-Option-Spread-Trading-JL.php</link>
+<description><![CDATA[Option traders tend to be very passionate about their style of trading and this interviewee is no different. John's trading strategy is centered around butterfly trades. This strategy consists of buying one put option, selling two lower-strike put options, and then buying a third lower-strike put option to create the butterfly. It sounds complicated, but with a few key secrets John shares, it makes him a full-time living. In the interview, John gives us the index this strategy works best on, how he watches that index for the right time to place the trade and the time frame chart that he uses to make sure he is on the right side of the market. 
+
+<br><br>Markets discussed: <b>options</b><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_275_Butterfly-Option-Spread-Trading-JL.php">Trader Interviews Episode 275: Secrets to Trading Butterfly Option Strategies</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_275_Butterfly-Option-Spread-Trading-JL.php</guid>
+<pubDate>Thu, 16 Feb 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 274: Using Momentum Scans for Profit</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_274_Using-Momentum-Scans-For-Profit-PB.php</link>
+<description><![CDATA["Traders shouldn't have to lose money to learn how to trade." I love that attitude and was anxious to ask this interviewee more about how he learned how to trade. Today's interviewee uses off-the-shelf software to scan for stocks that meet his criteria. In this interview, Pradeep freely shares his scan methods and tells us exactly what the software is looking for to find great trades. We discuss the types of stocks he favors and how he does his homework in the evening to spot trades he will be taking the next day. Pradeep also explains his intraday scans and provided us with a chart that shows exactly where he enters and exits a typical trade. Finally, we discuss a few specific trades he had recently and how he found them and managed them from start to finish.
+<br><br>Markets traded: <b>Stocks</b><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_274_Using-Momentum-Scans-For-Profit-PB.php">Trader Interviews Episode 274: Using Momentum Scans for Profit</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_274_Using-Momentum-Scans-For-Profit-PB.php</guid>
+<pubDate>Thu, 02 Feb 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 273: How To Trade with VWAP and Pivot Points</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_273_Trading-with-VWAP-Brian.php</link>
+<description><![CDATA["Trading profits made with stupid decisions never feel good." A great trading quote to start 2012. Brian is an experienced full-time trader who trades stocks and 3x leveraged ETFs. In this interview he explains the various levels he is plotting on charts and why these levels help him make better trades. We also discuss the time frames he monitors and specifically how he drills down to his "execution" time frame to decide where to get in and out. Brian reveals the indicator that is most important to him and describes exactly how he uses it on stocks and ETFs to spot great trades. Finally, he explains how he sets his profit targets and stops and gives you an objective way to determine these before you enter any trade. Finally, we discuss lessons learned in trading and the one thing he had to overcome before becoming confident and consistent.
+
+<br><br><b>Markets traded: Stocks, ETFs</b><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_273_Trading-with-VWAP-Brian.php">Trader Interviews Episode 273: How To Trade with VWAP and Pivot Points</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_273_Trading-with-VWAP-Brian.php</guid>
+<pubDate>Thu, 19 Jan 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 272: The Detailed Strategies of an Option Trading Pro</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_272_Strategies-Of-An-Options-Pro-SF.php</link>
+<description><![CDATA["Trading is like a bench press contest." I love it when good traders have great analogies to describe their methods. In this case, Seth is talking about how option traders should size their positions properly. We talk about why he is almost always on one side of the market and how simple (and sometimes complex) option spread trades have helped him make a living trading options for many years. Seth starts off with the basics but we quickly move into his favorite option trading strategies that he describes in detail, including the "heart friendly butterfly" that make up his foundation of money-making trades. I don't get a chance to talk with many option traders, and I really enjoyed speaking with Seth - you'll learn several great trading methods in this interview.<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_272_Strategies-Of-An-Options-Pro-SF.php">Trader Interviews Episode 272: The Detailed Strategies of an Option Trading Pro</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_272_Strategies-Of-An-Options-Pro-SF.php</guid>
+<pubDate>Thu, 05 Jan 2012 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 271: How To Trade With Two Simple Indicators</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_271_How-To-Accurately-Trade-Pivot-Points-MR.php</link>
+<description><![CDATA[Martin Rimes has been trading full-time for seven years and has developed a very specific method for finding entry and exit points - and he shares the entire system with us here in this interview. Day trading during the morning and managing swing trades during the afternoon, Martin explains exactly what he's looking for on short-term charts to spot profitable trades. You'll also learn the one indicator he relies on to help predict future movement and the one book he recommends to his friends and family who want to learn how to trade. Finally, Martin talks about why he settled on this strategy and the markets on which it works best.
+
+<br><br>Markets discussed: <strong>Futures, Commodities</strong><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_271_How-To-Accurately-Trade-Pivot-Points-MR.php">Trader Interviews Episode 271: How To Trade With Two Simple Indicators</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_271_How-To-Accurately-Trade-Pivot-Points-MR.php</guid>
+<pubDate>Thu, 15 Dec 2011 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Trader Interviews Episode 270: Trading on Intuition and Price Levels</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_270_Trading-Gut-Feel-and-Intuition.php</link>
+<description><![CDATA[Michael Patak started his trading career in the pits trading Mini Dow Futures and now trades crude oil futures. Michael is an intuitive trader who says that while 40% of his trading decisions are based on technical levels of previous highs and lows, 60% is based on gut feel and his read of supply and demand. In this interview we hear how he makes his trading decisions using those levels and intuition and how his view of trading as a "battle between buyers and sellers" helps him find profitable trades. 
+
+<br><br>Markets discussed: <strong>Futures</strong><br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_270_Trading-Gut-Feel-and-Intuition.php">Trader Interviews Episode 270: Trading on Intuition and Price Levels</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/programs/Trader_Interviews_Episode_270_Trading-Gut-Feel-and-Intuition.php</guid>
+<pubDate>Thu, 01 Dec 2011 00:00:00 -0800</pubDate>
+</item>
+
+
+<item>
+<title>20 Habits of All Successful Traders</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/content/20Habits.php</link>
+<description><![CDATA[These are the 20 Most Important Habits of All Successful Traders<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/content/20Habits.php">20 Habits of All Successful Traders</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/content/20Habits.php</guid>
+<pubDate>Mon, 12 Dec 2011 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>The 10 Attributes of a Great Trader</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/content/10Attributes.php</link>
+<description><![CDATA[Over the course of my 20 years in the trading arena, poker business, and sports oddsmaking, certain inalienable qualities seem to resonate in those exhibiting consistent success. The process to acquire this skill set is by no means assured and represents a constant work in progress. A process invariably leading us through multiple peaks and valleys, calling into question what compels us to compete in a trading arena that oscillates so easily from unimaginably predicable to perversely difficult. <br /><br />These attributes are applicable on a much grander scale, as they transcend the world of trading and investing. If you're reading this article, odds are you possess a certain entrepreneurial zeal and penchant for taking on risk. Great leaders, doctors, lawyers, and other prominent people in society will usually possess many, if not all, of these qualities. <br /><br />These 10 attributes are so important that they make up the core training I conduct for those that attend my mentorship program, any in person multi-day workshop, or those who decide to invest in my fund. They are not listed in any particular order of preference, as all have great significance and overlap with each other.  I implore you to use them as a template to decide what is important and how to incorporate them to make substantive improvements to your trading and personal life.<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/content/10Attributes.php">The 10 Attributes of a Great Trader</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/content/10Attributes.php</guid>
+<pubDate>Mon, 05 Dec 2011 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>Top 10 Trading Blogs</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/content/Top10TradingBlogs.php</link>
+<description><![CDATA[Like Trader Interviews, these popular trading blogs are worth checking out and adding to your RSS feed reader or list of sites you check each day. Most of these are popular - others don't get nearly the attention they deserve! There's probably another post I should do that features 10 trading blogs that you aren't reading but should - stay tuned for that one. <br /><br />But for now, here are a few traders whom I read each day. These are not in any particular order (even though they are numbered). Like everything else, what you're looking for is the "one takeaway" you use in your own trading. And these traders have some great thoughts in nearly every post that can help you make better trading decisions. <br /><br />Have I missed any? Be sure to post your favorite blogs in the comments below.<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/content/Top10TradingBlogs.php">Top 10 Trading Blogs</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/content/Top10TradingBlogs.php</guid>
+<pubDate>Mon, 28 Nov 2011 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>5 Simple Things All Wealthy Traders Do To Gain An Edge</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/content/5WealthyTraders.php</link>
+<description><![CDATA[Over the past year I've spoken to hundreds of traders, many of which were recorded and posted at TraderInterviews.com.  If you had asked me a few years ago how the best traders approached the markets, I would have said that they all had similar strategies.  But after talking with traders of every market imaginable, I've found they all have very different methods. <br /><br />However, while they each may use wildly different techniques (I spoke with one very wealthy trader who confirmed his chart patterns by looking at planetary movement and moon phases), <strong>all of them follow five rules without exception</strong>.   Some of them make hundreds of thousands - even millions - of dollars each trading their own account.  These aren't your typical "always use a hard stop loss" type of rules .  These are actual guidelines successful traders follow religiously. <br /><br />In fact, I'd bet that deep down you know you should be following these rules as well but you aren't - yet.  Today is the day you can commit to doing what works for other wealthy traders and get on that same path. <br /><br />Let's get started...<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/content/5WealthyTraders.php">5 Simple Things All Wealthy Traders Do To Gain An Edge</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/content/5WealthyTraders.php</guid>
+<pubDate>Mon, 21 Nov 2011 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+<title>The Top 10 Free Websites for Traders</title>
+<link>http://<?= $_SERVER['SERVER_NAME'] ?>/content/Top10FreeSitesForTraders.php</link>
+<description><![CDATA[This list is entirely subjective and simply my thoughts on some of the best free sites for traders in 2009. These are in no particular order. <br /><br />What site should this be? <br />Submit your choice in the comments.<br /><br /><a href="http://<?= $_SERVER['SERVER_NAME'] ?>/content/Top10FreeSitesForTraders.php">The Top 10 Free Websites for Traders</a>]]></description>
+<guid>http://<?= $_SERVER['SERVER_NAME'] ?>/content/Top10FreeSitesForTraders.php</guid>
+<pubDate>Mon, 14 Nov 2011 00:00:00 -0800</pubDate>
+</item>
+
+
+</channel>
+</rss>

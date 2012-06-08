@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   xmlns:cc="http://creativecommons.org/ns#"   
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xml:lang="en" lang="en">
+    <head> 
+
+  <title>ccMixter - ccMixter Podcast</title>
+    <meta name="keywords" content="cchost, remix, sharing, media" />
+    <meta name="description" content="ccMixter is a community remix site sponsored by ArtisTech Media, created by Creative Commons" />
+<META name="verify-v1" content="PEEIrYmur1ilJAiOk6Ky5lEDaJYIltd3L3qgUsbdGco=" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript">
+//<!--
+var home_url  = 'http://ccmixter.org/';
+var root_url  = 'http://ccmixter.org/';
+var query_url = 'http://ccmixter.org/api/query?';
+var q         = '?';
+var user_name =  null; 
+//-->
+</script>
+
+
+<script type="text/javascript" src="http://ccmixter.org/content/media_skin_20120603004019.js"></script>
+<link rel="stylesheet"  type="text/css" title="Default Style" href="http://ccmixter.org/content/media_skin_20120603004019.css" /><script type="text/javascript">var a=new Date,b=a.getUTCHours();if(0==a.getUTCMonth()&&2012==a.getUTCFullYear()&&((18==a.getUTCDate()&&13<=b)||(19==a.getUTCDate()&&0>=b)))window.location="http://sopastrike.com/strike";</script>
+    
+</head><body>
+
+        <div id="beta_message" style="position:absolute;"><a href="http://ccmixter.org/mixup/June-2012">Flying Time Secret Mixter is in Mix mode</a></div>
+    
+<div class="hide">
+  <a href="#content">skip</a>
+</div>
+
+<div id="container" style="background-color:white;">
+
+<div id="header" class="light_color">
+
+    <div id="login_info">
+    <!-- not logged in -->
+        <span class="med_color">Not logged in</span>
+        <a class="light_color" href="http://ccmixter.org/login">Log In</a>
+                    <a class="light_color" id="cc_openid_enabled" href="http://ccmixter.org/login/openid"><div>OpenID Enabled</div></a>
+            </div>
+
+    <div id="header_search"><img id="header_search_img" height="50" width="70" src="http://ccmixter.org/ccskins/commons/images/find.png" />
+    <a class="light_color" id="search_site_link" href="http://ccmixter.org/search"><h3>Search</h3>
+    <span class="light_color">Find content</span></a></div>
+
+    
+    <h1 id="site_title"><a href="http://ccmixter.org/" title="ccMixter">
+        <img src="http://ccmixter.org/mixter-files/images/cc-mixter-logo.png" style="width:131px;height:36px"/> 
+            </a></h1>
+
+            <div id="site_description">Download, Sample, Cut-up, Share.</div>
+        <ul id="tabs">
+            <li ><a href="http://ccmixter.org/view/media/home" title="Home page"><span>Home</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/picks" title="See picks by the Editorial Staff"><span>Picks</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/remix" title="See the latest remixes"><span>Remixes</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/samples" title="See recently uploaded samples"><span>Samples</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/pells" title="See recently uploaded a cappellas"><span>A Cappellas</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/people" title="See the newest users who uploaded here"><span>People</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/extras" title="Extras goodies"><span>Extras</span></a></li>
+            <li ><a href="http://ccmixter.org/view/media/playlists" title="Playlists"><span>Playlists - Podcast</span></a></li>
+        </ul>
+    <div class="post_tab_breaker"></div>
+</div><!-- header -->
+
+<div style="display:none" id="debug"></div>
+
+    <div id="wrapper">
+<div id="content">
+
+<div  class="cc_breadcrumbs"><a  href="http://ccmixter.org/"><span >Home</span></a>  &raquo; <span >ccMixter Podcast</span></div>    <h1 class="title">ccMixter Podcast</h1>
+<a name="content" ></a>
+<div id="inner_content">
+<select class="page_topic_toc" id="page_toc" onchange="document.location = this.options[this.selectedIndex].value;">
+<option value="http://ccmixter.org/podcast?topic=welcome-to-the-show">Welcome to the Show</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-11-duck-duck-goosebumps">MMTMMP 11 Duck Duck GOOSEBUMPS</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-10-april-showers-us-with-music">MMTMMP 10 April Showers Us with Music</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-9-an-endless-winter...-or-is-it?">MMTMMP 9 An Endless Winter... Or is it?</option>
+<option value="http://ccmixter.org/podcast?topic=thesavvyandthechics-favorites">TheSavvyAndTheChic's Favorites</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-8-leap-of-the-heart-round-up">MMTMMP 8 Leap of the Heart Round Up</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-45">The Mixin Kitchen 45</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-valentines-edition">The Juke Joint Valentine's edition</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-strikes-the-root-(ep-18)">The Hook Strikes The Root (EP 18)</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-7-from-sea-to-space">MMTMMP 7 From Sea to Space</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joints-2012-special">The Juke Joint's 2012 Special</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-44-part-2">The Mixin' Kitchen 44 Part 2</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-44-part-1">The Mixin' Kitchen 44 Part 1</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-6-ho-ho-ho-happy-new-year">MMTMMP 6 Ho Ho Ho Happy New Year</option>
+<option value="http://ccmixter.org/podcast?topic=trf-podcast:-electronico-and-elron-interview-sackjo22">TRF Podcast: Electronico and ElRon Interview SackJo22</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-5-harvest-moon-secret-mixter-edition">MMTMMP 5 Harvest Moon Secret Mixter Edition</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-12">The Juke Joint Episode 12</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-4-trick-or-treat-edition">MMTMMP 4 Trick OR Treat Edition</option>
+<option value="http://ccmixter.org/podcast?topic=tmk-blue-plate-special-2:--speck">TMK Blue Plate Special 2:  Speck</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-xi">The Juke Joint Episode XI</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-#3-tubed-by-you">MMTMMP #3 Tubed By You</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-x">The Juke Joint Episode X</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-#2">MMTMMP #2</option>
+<option value="http://ccmixter.org/podcast?topic=tmk-blue-plate-special-01:-texasradiofish">TMK Blue Plate Special 01: Texasradiofish</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-ix">The Juke Joint Episode IX</option>
+<option value="http://ccmixter.org/podcast?topic=mmtmmp-#1">MMTMMP #1</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-viii">The Juke Joint Episode VIII</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-16-(gamesoundcon)">The Hook Episode 16 (GameSoundCon)</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-vii">The Juke Joint Episode VII</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.8:-playa-cd1---marejada">The Savvy and The Chic Vol.8: Playa CD1 - MAREJADA</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-vi">The Juke Joint Episode VI</option>
+<option value="http://ccmixter.org/podcast?topic=conversations-with-my-anima-(paysage-intime)">Conversations with my Anima (Paysage Intime)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-43">The Mixin' Kitchen 43</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-v">The Juke Joint Episode V</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-iv">The Juke Joint Episode IV</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-42">The Mixin' Kitchen 42</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-iii">The Juke Joint Episode III</option>
+<option value="http://ccmixter.org/podcast?topic=onyx_inertia,-episode-3">Onyx_Inertia, Episode 3</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-15-(artlab-emerges)">The Hook Episode 15 (ArtLab Emerges)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-41">The Mixin' Kitchen 41</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-14-(powder-mix)">The Hook Episode 14 (Powder Mix)</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-ii">The Juke Joint Episode II</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-40">The Mixin' Kitchen 40</option>
+<option value="http://ccmixter.org/podcast?topic=onyx-inertia-podcast,-episode-2">Onyx Inertia Podcast, Episode 2</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-38">The Mixin' Kitchen 38</option>
+<option value="http://ccmixter.org/podcast?topic=the-holiday-hook-episode-13">The Holiday Hook Episode 13</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-37">The Mixin' Kitchen 37</option>
+<option value="http://ccmixter.org/podcast?topic=the-juke-joint-episode-i">The Juke Joint Episode I</option>
+<option value="http://ccmixter.org/podcast?topic=psychic-postcards--(anchor-m�jans-podcast-#4)">Psychic Postcards  (Anchor Méjans' PodCast #4)</option>
+<option value="http://ccmixter.org/podcast?topic=onyx-inertia-episode-1">Onyx Inertia Episode 1</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-36">The Mixin' Kitchen 36</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-12">The Hook Episode 12</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-35">The Mixin' Kitchen 35</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-34">The Mixin' Kitchen 34</option>
+<option value="http://ccmixter.org/podcast?topic=ccmixter-6th-anniversary-special-cool-music-show">ccmixter 6th Anniversary Special Cool Music Show</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-11">The Hook Episode 11</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-33">The Mixin' Kitchen 33</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-32">The Mixin' Kitchen 32</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-10">The Hook Episode 10</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-31">The Mixin' Kitchen 31</option>
+<option value="http://ccmixter.org/podcast?topic=adventures-in-consciousness">Adventures In Consciousness</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-30">The Mixin' Kitchen 30</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-09">The Hook Episode 09</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-29">The Mixin' Kitchen 29</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.6:-exotica">The Savvy and the Chic Vol.6: Exotica</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-28">The Mixin' Kitchen 28</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-27">The Mixin' Kitchen 27</option>
+<option value="http://ccmixter.org/podcast?topic=alembic-gold-#2:-going-places-(travel)">Alembic Gold #2: Going Places (Travel)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-26">The Mixin' Kitchen 26</option>
+<option value="http://ccmixter.org/podcast?topic=iglu-(ep-5)---chill-groove">Iglu (Ep 5) - Chill Groove</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-25">The Mixin' Kitchen 25</option>
+<option value="http://ccmixter.org/podcast?topic=ilgu-(ep-4)-dance-over-dark">Ilgu (Ep 4) Dance Over Dark</option>
+<option value="http://ccmixter.org/podcast?topic=alembic-(collaborative-gold)">Alembic (Collaborative Gold)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-24">The Mixin' Kitchen 24</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-23">The Mixin' Kitchen 23</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-22">The Mixin' Kitchen 22</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.5:-the-rules-of-social-decency">The Savvy and the Chic Vol.5: The Rules of Social Decency</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-21">The Mixin Kitchen 21</option>
+<option value="http://ccmixter.org/podcast?topic=iglu-(ep.-3-secret-mixter-march-madness)">Iglu (Ep. 3 Secret Mixter March Madness)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-20">The Mixin' Kitchen 20</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-08">The Hook Episode 08</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-19">The Mixin' Kitchen 19</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(february-18---february-25)">Cool Music - (February 18 - February 25)</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.4:-visceral">The Savvy and the Chic Vol.4: Visceral</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-18">The Mixin' Kitchen 18</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(february-11---february-18)">Cool Music - (February 11 - February 18)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(february-4---february-11)">Cool Music - (February 4 - February 11)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-17">The Mixin' Kitchen 17</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(january-28---february-4)">Cool Music - (January 28 - February 4)</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-07">The Hook Episode 07</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(january-21---january-28)">Cool Music - (January 21 - January 28)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-16">The Mixin' Kitchen 16</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(january-14---january-21)">Cool Music - (January 14 - January 21)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(january-7---january-14)">Cool Music - (January 7 - January 14)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-15">The Mixin' Kitchen 15</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(december-31---january-7)">Cool Music - (December 31 - January 7)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(december-24---december-31)">Cool Music - (December 24 - December 31)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-14">The Mixin' Kitchen 14</option>
+<option value="http://ccmixter.org/podcast?topic=the-holiday-cool-music-show">The Holiday Cool Music Show</option>
+<option value="http://ccmixter.org/podcast?topic=the-iglu-(episode-2-christmas-blues)">The Iglu (Episode 2 Christmas Blues)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(december-10---december-17)">Cool Music - (December 10 - December 17)</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-06">The Hook Episode 06</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-13">The Mixin' Kitchen 13</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(december-3---december-10)">Cool Music - (December 3 - December 10)</option>
+<option value="http://ccmixter.org/podcast?topic=the-iglu-(episode-1-peace-of-winter)">The Iglu (episode 1 Peace of Winter)</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.3:-carmen-cd2">The Savvy and the Chic Vol.3: Carmen CD2</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(november-26---december-3)">Cool Music - (November 26 - December 3)</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.3:-carmen-cd1">The Savvy and the Chic Vol.3: Carmen CD1</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-12">The Mixin' Kitchen 12</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(november-19---november-26)">Cool Music - (November 19 - November 26)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(november-12---november-19)">Cool Music - (November 12 - November 19)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-11">The Mixin' Kitchen 11</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(november-5---november-12)">Cool Music - (November 5 - November 12)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(october-29---november-5)">Cool Music - (October 29 - November 5)</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-05-(featuring-do-kashiteru)">The Hook Episode 05 (featuring Do Kashiteru)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-10">The Mixin Kitchen 10</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(october-22---october-29)">Cool Music - (October 22 - October 29)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(october-15---october-22)">Cool Music - (October 15 - October 22)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-8">The Mixin' Kitchen 8</option>
+<option value="http://ccmixter.org/podcast?topic=phunky-phetes-ep5">Phunky Phetes ep5</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(october-8---october-15)">Cool Music - (October 8 - October 15)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(october-1---october-8)">Cool Music - (October 1 - October 8)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-7">The Mixin' Kitchen 7</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-04">The Hook Episode 04</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(september-24---october-1)">Cool Music - (September 24 - October 1)</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy--and-the-chic-vol.2:-la-vie-boheme">The Savvy  and the Chic Vol.2: La Vie Boheme</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(september-17---september-24)">Cool Music - (September 17 - September 24)</option>
+<option value="http://ccmixter.org/podcast?topic=phunky-phetes-ep4">Phunky Phetes ep4</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-6">The Mixin' Kitchen 6</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(september-3---september-17)">Cool Music - (September 3 - September 17)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(highlights-from-the-ccmixter-convention)">Cool Music - (highlights from the ccMixter Convention)</option>
+<option value="http://ccmixter.org/podcast?topic=phunky-phetes-ep3">Phunky Phetes ep3</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-5">The Mixin Kitchen 5</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(august-27---september-3)">Cool Music - (August 27 - September 3)</option>
+<option value="http://ccmixter.org/podcast?topic=the-savvy-and-the-chic-vol.1">The Savvy and the Chic Vol.1</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-03">The Hook Episode 03</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(august-20---august-27)">Cool Music - (August 20 - August 27)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-4">The Mixin' Kitchen 4</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(august-13---august-20)">Cool Music - (August 13 - August 20)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(august-6---august-13)">Cool Music - (August 6 - August 13)</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-02">The Hook Episode 02</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-3">The Mixin' Kitchen 3</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(july-30---august-6)">Cool Music - (July 30 - August 6)</option>
+<option value="http://ccmixter.org/podcast?topic=ccmixter-unwind-(a-chillout-compilation)---vol.-2">ccMixter unwind (a chillout compilation) - vol. 2</option>
+<option value="http://ccmixter.org/podcast?topic=ccmixter-unwind-(a-chillout-compilation)---vol.-1">ccMixter unwind (a chillout compilation) - vol. 1</option>
+<option value="http://ccmixter.org/podcast?topic=the-hook-episode-01">The Hook Episode 01</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(july-23---july-30)">Cool Music - (July 23 - July 30)</option>
+<option value="http://ccmixter.org/podcast?topic=phunky-phetes-ep2">Phunky Phetes ep2</option>
+<option value="http://ccmixter.org/podcast?topic=dancemixter-sessions-2009---vol.-3-:-after-hours">DanceMixter Sessions 2009 - Vol. 3 : After hours</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-2">The Mixin Kitchen 2</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(july-16---july-23)">Cool Music - (July 16 - July 23)</option>
+<option value="http://ccmixter.org/podcast?topic=dancemixter-sessions-2009---vol.-2-:-late-night">DanceMixter Sessions 2009 - Vol. 2 : Late night</option>
+<option value="http://ccmixter.org/podcast?topic=dancemixter-sessions-2009---vol.-1-:-sunset">DanceMixter Sessions 2009 - Vol. 1 : Sunset</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(july-9---july-16)">Cool Music - (July 9 - July 16)</option>
+<option value="http://ccmixter.org/podcast?topic=phunky-phetes-ep-1">Phunky Phetes ep 1</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(july-2---july-9)">Cool Music - (July 2 - July 9)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(june-25---july-2)">Cool Music - (June 25 - July 2)</option>
+<option value="http://ccmixter.org/podcast?topic=the-mixin-kitchen-1">The Mixin Kitchen 1</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(june-18---june-25)">Cool Music - (June 18 - June 25)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music-one-year-anniversary-show">Cool Music One Year Anniversary Show</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(june-4---june-11)">Cool Music - (June 4 - June 11)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(may-28---june-4)">Cool Music - (May 28 - June 4)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(may-21---may-28)">Cool Music - (May 21 - May 28)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(may-14---may-21)">Cool Music - (May 14 - May 21)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(may-7---may-14)">Cool Music - (May 7 - May 14)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(april-30---may-7)">Cool Music - (April 30 - May 7)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(april-23---april-30)">Cool Music - (April 23 - April 30)</option>
+<option value="http://ccmixter.org/podcast?topic=cool-music---(april-16---april-23)">Cool Music - (April 16 - April 23)</option>
+</select><style type="text/css">
+#inner_content {
+    width: 610px;
+    margin: 0px auto;
+}
+.cc_content_page td ul.topic_links {
+    list-style: none;
+    height: 2em;
+}
+.cc_content_page td ul.topic_links li {
+    display: block;
+    float: right;
+    margin-right: 0.5em;
+    padding: 8px;
+}
+</style>
+<table class="cc_content_page" cellspacing="0" cellspacing="0" style="width:100%">
+<tr>
+            <td style="vertical-align:top;width:100%"><div class="box"><h2>Welcome to the Show</h2><span class="left"><img class="format_image" src="/mixter-files/images/ccMpromo.png" /></span><br />
+<br />
+<span class="big">The ccMixter Music Channel is on the air, podcasting to a computer or mobile device near you.</span><br />
+<br />
+<br />
+There are several ways to get to the podcast:<br />
+<br />
+- Subscribe via <a title="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=323139528" rel="nofollow" class="cc_format_link" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=323139528">iTunes</a>.<br />
+<br />
+- For <span class="i">iPhone</span> users: Click on the iTunes store icon and search for &#8216;ccmixter music.&#8217;<br />
+<br />
+- Drag  <a title="http://feeds2.feedburner.com/ccMixter_music" rel="nofollow" class="cc_format_link" href="http://feeds2.feedburner.com/ccMixter_music"><img class="format_image" src="/ccskins/shared/images/menu-podcast.png" /> this link</a> to your music player (e.g. Amarok, Winamp, Rhythmbox) that is &#8216;podcast aware&#8217; to subscribe to the channel.<br />
+<br />
+- You can download the individual show episodes from this page, which will keep up to date with the latest shows.<br />
+<br />
+Our music channel features several shows, all put together by members of the ccMixter community using music (including samples and a cappellas) available for free download here at ccMixter, where we invite you to join the ongoing musical conversation of the Commons.<br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_1" ></div><script> new Ajax.Updater('cath_1', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=the_kitchen', { method: 'get' } );</script></div></span><br />
+<br />
+<span class="b">The Mixin&#8217; Kitchen</span> is bi-monthly show featuring themed episodes of great mixes posted here at ccMixter. Each episode features remixes that have a special connection, sometimes conceptual, sometimes musical.</div><br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_2" ></div><script> new Ajax.Updater('cath_2', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=thehookpodcast', { method: 'get' } );</script></div></span><br />
+<br />
+If you are new to the site or open music in the Commons, then the show for you is <span class="b">The Hook</span>. It features the very best music from the archives along with special new mixes. If you, or your friends, ever want to know what all this stuff is about: point them at <span class="b">The Hook</span>.</div><br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_3" ></div><script> new Ajax.Updater('cath_3', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=iglu', { method: 'get' } );</script></div></span><br />
+<br />
+<span class="b">The Iglu</span> features a variety of themes and genres - from house to ambient, rock to folk. This show highlights some of the finest tracks on ccMixter. </div><br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_4" ></div><script> new Ajax.Updater('cath_4', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=coffeeeurope', { method: 'get' } );</script></div></span><br />
+<br />
+<span class="b">The Savvy & the Chic</span> is a downtempo/lounge podcast compiled and mixed by Hektor Thillet. Savvy & the Chic features some of the coolest music from ccMixter.org. </div><br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_5" ></div><script> new Ajax.Updater('cath_5', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=mcjackinthebox', { method: 'get' } );</script></div></span><br />
+<br />
+<span class="b">The Cool Music Show</span> ran 89 straight weeks, featuring the best remixes uploaded each week. Listening to the past episodes of the Cool Music Show is a great way to hear some of the best music from the ccMixter archives.</div><br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_6" ></div><script> new Ajax.Updater('cath_6', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=scmixer', { method: 'get' } );</script></div></span><br />
+<br />
+The s. c. mixer DJ mixes, including the <span class="b">unwind</span> and <span class="b">DanceMixter</span> sessions showcase great DJ sets of ambient, chill, downtempo, dance and trance.</div><br />
+<br />
+<div class="format_indent" style="padding-left:35px"><span class="left"><div><div id="cath_7" ></div><script> new Ajax.Updater('cath_7', 'http://ccmixter.org/api/query?limit=page&f=html&t=avatar&u=victor', { method: 'get' } );</script></div></span><br />
+<br />
+<span class="b">Phunky Phetes</span> is all about the funky backbeat. A perfect drive-time mix of nothing but the soul, R&B, hip hop and flat out funk on the site.</div><br />
+<br />
+<br />
+ <a title="http://ccmixter.org/thread/1929" rel="nofollow" class="cc_format_link" href="http://ccmixter.org/thread/1929">Learn more about our podcast here..</a><div style="clear:both">&nbsp;</div></div></td>
+    </tr>
+<tr>
+            <td style="vertical-align:top;width:100%"><div class="box"><h2>MMTMMP 11 Duck Duck GOOSEBUMPS</h2><!-- template playlist_2_info -->
+<h2 class="playlist_info_h2" style="margin:0px;"><a target="_parent" href="http://ccmixter.org/playlist/browse/12499">MMTMMP 11 Duck Duck GOOSEBUMPS</a></h2>
+<div>
+  created by <a target="_parent" class="cc_user_link" href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast (MMTMMP)</a> 
+</div>
+    <div  class="gd_description" id="pldesc_12499" style="padding: 10px;">
+        Duck, Duck, GOOSEBUMPS! Hope you dig this month’s selections. See you at the end of June!    </div>
+<a href="http://ccmixter.org/share/playlist/12499"><img src="http://ccmixter.org/ccskins/shared/images/share-link.gif" /></a>
+<h3><a rel="enclosure" href="http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_11_Duck_Duck_GOOSEBUMPS.mp3">Download podcast -  (47.00MB)</a></h3>
+<p><b>Songs...</b></p>
+<ul>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/37532" class="cc_file_link">MMTMMP 11 - Segue 1</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/tglancy/37374" class="cc_file_link">That'll Do Pig. That'll Do.</a> by: <a href="http://ccmixter.org/people/tglancy">Sturzstrom</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/CSoul/37182" class="cc_file_link">Whispering Campion</a> by: <a href="http://ccmixter.org/people/CSoul">CSoul</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/donniedrost/26186" class="cc_file_link">ccM Promo</a> by: <a href="http://ccmixter.org/people/donniedrost">donniedrost</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/Camburn/37163" class="cc_file_link">Cuss The Sky</a> by: <a href="http://ccmixter.org/people/Camburn">Camburn</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/KungFuFrijters/37280" class="cc_file_link">Sappho (I Lie Alone) - The Mighty Sappho Returns Mix</a> by: <a href="http://ccmixter.org/people/KungFuFrijters">KungFu</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/37533" class="cc_file_link">MMTMMP 11 - Segue 2</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/bangbangrouge/37482" class="cc_file_link">Your Turn</a> by: <a href="http://ccmixter.org/people/bangbangrouge">Bang Bang Rouge</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/scomber/37122" class="cc_file_link">Get it Right</a> by: <a href="http://ccmixter.org/people/scomber">Scomber</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/sLow_starteR/37366" class="cc_file_link">Go Tell Alyssa--ruff draft</a> by: <a href="http://ccmixter.org/people/sLow_starteR">sLow_starteR</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/speck/37463" class="cc_file_link">They Didn't Believe</a> by: <a href="http://ccmixter.org/people/speck">Speck</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/37534" class="cc_file_link">MMTMMP 11 - Segue 3</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/Per/37476" class="cc_file_link">Aliens</a> by: <a href="http://ccmixter.org/people/Per">timberman</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/Tigoolio/37383" class="cc_file_link">Funky Fluite /reverZmix/</a> by: <a href="http://ccmixter.org/people/Tigoolio">Tigoolio</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/admiralbob77/37160" class="cc_file_link">Star Wars Droid Blues</a> by: <a href="http://ccmixter.org/people/admiralbob77">Admiral Bob</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/37535" class="cc_file_link">MMTMMP 11 - Segue 4</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/hansatom/37142" class="cc_file_link">Allgemeingut (Don´t-dare-to-mess-with-the-80ies-remix!)</a> by: <a href="http://ccmixter.org/people/hansatom">Hans Atom</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+
+
+<p><b>Bumpers...</b></p>
+<ul>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/FACELESSIWONDER/28793" class="cc_file_link">CC SPLASH</a> by: <a href="http://ccmixter.org/people/FACELESSIWONDER">FACELESSIWONDER</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+    <!--
+         enclosure_url%http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_11_Duck_Duck_GOOSEBUMPS.mp3%
+         enclosure_size%49283072%
+         enclosure_duration%%
+         enclosure_type%audio/mp3%
+    -->
+<br /><br />Subscribe to podcast <a href="http://ccmixter.org/view/media/playlists/podcast">here</a>.    </div></td>
+    </tr>
+<tr>
+            <td style="vertical-align:top;width:100%"><div class="box"><h2>MMTMMP 10 April Showers Us with Music</h2><!-- template playlist_2_info -->
+<h2 class="playlist_info_h2" style="margin:0px;"><a target="_parent" href="http://ccmixter.org/playlist/browse/12324">MMTMMP 10 April Showers Us with Music</a></h2>
+<div>
+  created by <a target="_parent" class="cc_user_link" href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast (MMTMMP)</a> 
+</div>
+    <div  class="gd_description" id="pldesc_12324" style="padding: 10px;">
+        April Showers&#8230; Us with Music!  Hope you dig this month’s selections. See you at the end of May!    </div>
+<a href="http://ccmixter.org/share/playlist/12324"><img src="http://ccmixter.org/ccskins/shared/images/share-link.gif" /></a>
+<h3><a rel="enclosure" href="http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_10_April_Showers_Us_with_Music.mp3">Download podcast -  (46.00MB)</a></h3>
+<p><b>Songs...</b></p>
+<ul>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36929" class="cc_file_link">MMTMMP 10 - Segue 1</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/airtone/36751" class="cc_file_link">footprints</a> by: <a href="http://ccmixter.org/people/airtone">airtone</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/anchormejans/36787" class="cc_file_link">The Incident</a> by: <a href="http://ccmixter.org/people/anchormejans">Anchor Méjans (Jaff Noël Seijas)</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/panumoon/36758" class="cc_file_link">Speck In G or Something. . . . . . .</a> by: <a href="http://ccmixter.org/people/panumoon">panu</a> -- <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Attribution Noncommercial Share-Alike  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial Share-Alike  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36930" class="cc_file_link">MMTMMP 10 - Segue 2</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/annabloom/36621" class="cc_file_link">And all our Yesterdays</a> by: <a href="http://ccmixter.org/people/annabloom">annabloom</a> -- <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Attribution Noncommercial Share-Alike  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial Share-Alike  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/texasradiofish/36817" class="cc_file_link">Ceremonial Meeting on the Highway</a> by: <a href="http://ccmixter.org/people/texasradiofish">texasradiofish</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/sLow_starteR/36902" class="cc_file_link">Oolong Tea</a> by: <a href="http://ccmixter.org/people/sLow_starteR">sLow_starteR</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/thehookpodcast/30166" class="cc_file_link">hook ep14 duckett bumper</a> by: <a href="http://ccmixter.org/people/thehookpodcast">The Hook (w/spinning merkaba)</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/duckett/36855" class="cc_file_link">Greg's Remedy (ReintegrationMix)</a> by: <a href="http://ccmixter.org/people/duckett">duckett</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36931" class="cc_file_link">MMTMMP 10 - Segue 3</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/donniedrost/36735" class="cc_file_link">Angels</a> by: <a href="http://ccmixter.org/people/donniedrost">donniedrost</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/raja_ffm/36911" class="cc_file_link">detachment</a> by: <a href="http://ccmixter.org/people/raja_ffm">raja_ffm</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/muleboy/36785" class="cc_file_link">Waiting</a> by: <a href="http://ccmixter.org/people/muleboy">muleboy</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36932" class="cc_file_link">MMTMMP 10 - Segue 4</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/colab/36815" class="cc_file_link">Manoop-mah-manama</a> by: <a href="http://ccmixter.org/people/colab">colab</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+
+
+<p><b>Bumpers...</b></p>
+<ul>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/panumoon/36906" class="cc_file_link">ccM Promo #2</a> by: <a href="http://ccmixter.org/people/panumoon">panu</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/texasradiofish/34250" class="cc_file_link">Mind Map That Music Map Podcast Promo 1b</a> by: <a href="http://ccmixter.org/people/texasradiofish">texasradiofish</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/mcjackinthebox/36851" class="cc_file_link">Mind Map That Music Map Podcast Promo - Take 2</a> by: <a href="http://ccmixter.org/people/mcjackinthebox">MC Jack in the Box</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+    <!--
+         enclosure_url%http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_10_April_Showers_Us_with_Music.mp3%
+         enclosure_size%48234496%
+         enclosure_duration%%
+         enclosure_type%audio/mp3%
+    -->
+<br /><br />Subscribe to podcast <a href="http://ccmixter.org/view/media/playlists/podcast">here</a>.    </div></td>
+    </tr>
+<tr>
+            <td style="vertical-align:top;width:100%"><div class="box"><h2>MMTMMP 9 An Endless Winter... Or is it?</h2><!-- template playlist_2_info -->
+<h2 class="playlist_info_h2" style="margin:0px;"><a target="_parent" href="http://ccmixter.org/playlist/browse/12187">MMTMMP 9 An Endless Winter... Or is it?</a></h2>
+<div>
+  created by <a target="_parent" class="cc_user_link" href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast (MMTMMP)</a> 
+</div>
+    <div  class="gd_description" id="pldesc_12187" style="padding: 10px;">
+        Spring is coming and hope is in the air&#8230; Here are some tunes to help us all get there&#8230; Let&#8217;s find the hope in the darkness&#8230;    </div>
+<a href="http://ccmixter.org/share/playlist/12187"><img src="http://ccmixter.org/ccskins/shared/images/share-link.gif" /></a>
+<h3><a rel="enclosure" href="http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_9_An_Endless_Winter..._Or_is_it_.mp3">Download podcast -  (43.00MB)</a></h3>
+<p><b>Songs...</b></p>
+<ul>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36548" class="cc_file_link">MMTMMP 9 - Intro</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/TheDICE/36294" class="cc_file_link">An Endless Winter</a> by: <a href="http://ccmixter.org/people/TheDICE">TheDICE</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/speck/36453" class="cc_file_link">Ulkoavaruus Unfolding</a> by: <a href="http://ccmixter.org/people/speck">Speck</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/Super_Sigil/36408" class="cc_file_link">Ghost Control</a> by: <a href="http://ccmixter.org/people/Super_Sigil">Super_Sigil</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36549" class="cc_file_link">MMTMMP 9 - Segue 2</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/mrblitz000/36499" class="cc_file_link">Pink Slime</a> by: <a href="http://ccmixter.org/people/mrblitz000">mrblitz</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/zep_hurme/36470" class="cc_file_link">Slippershell</a> by: <a href="http://ccmixter.org/people/zep_hurme">Zep Hurme</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/Jacob_Nowak/36206" class="cc_file_link">Revolver 9</a> by: <a href="http://ccmixter.org/people/Jacob_Nowak">Jacob Nowak</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/unreal_dm/36239" class="cc_file_link">Nowhere Fast</a> by: <a href="http://ccmixter.org/people/unreal_dm">unreal_dm</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36550" class="cc_file_link">MMTMMP 9 - Segue 3</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/VJ_Memes/36516" class="cc_file_link">Bugs' Graveyard</a> by: <a href="http://ccmixter.org/people/VJ_Memes">Jeris</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/panumoon/36402" class="cc_file_link">Suddenly Invisible</a> by: <a href="http://ccmixter.org/people/panumoon">panu</a> -- <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Attribution Noncommercial Share-Alike  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial Share-Alike  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/hansatom/36518" class="cc_file_link">Certain Death</a> by: <a href="http://ccmixter.org/people/hansatom">Hans Atom</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/36551" class="cc_file_link">MMTMMP 9 - Segue 4</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/AlexBeroza/36522" class="cc_file_link">Open Source Ecology</a> by: <a href="http://ccmixter.org/people/AlexBeroza">Alex</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+
+
+<p><b>Bumpers...</b></p>
+<ul>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+    <!--
+         enclosure_url%http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_9_An_Endless_Winter..._Or_is_it_.mp3%
+         enclosure_size%45088768%
+         enclosure_duration%%
+         enclosure_type%audio/mp3%
+    -->
+<br /><br />Subscribe to podcast <a href="http://ccmixter.org/view/media/playlists/podcast">here</a>.    </div></td>
+    </tr>
+<tr>
+            <td style="vertical-align:top;width:100%"><div class="box"><h2>TheSavvyAndTheChic's Favorites</h2><!-- template playlist_2_info -->
+<h2 class="playlist_info_h2" style="margin:0px;"><a target="_parent" href="http://ccmixter.org/playlist/browse/12054">TheSavvyAndTheChic's Favorites</a></h2>
+<div>
+  created by <a target="_parent" class="cc_user_link" href="http://ccmixter.org/people/TheSavvyAndTheChic">TheSavvyAndTheChic</a> 
+</div>
+<a href="http://ccmixter.org/share/playlist/12054"><img src="http://ccmixter.org/ccskins/shared/images/share-link.gif" /></a>
+<h3><a rel="enclosure" href="http://ccmixter.org/content/TheSavvyAndTheChic/TheSavvyAndTheChic_-_The_Savvy_The_Chic_Vol9_Continental_Album_Compiled_by_Hektor_Thillet_.mp3">Download podcast -  (37.00MB)</a></h3>
+<p><b>Songs...</b></p>
+<ul>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+
+
+<p><b>Bumpers...</b></p>
+<ul>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+    <!--
+         enclosure_url%http://ccmixter.org/content/TheSavvyAndTheChic/TheSavvyAndTheChic_-_The_Savvy_The_Chic_Vol9_Continental_Album_Compiled_by_Hektor_Thillet_.mp3%
+         enclosure_size%38797312%
+         enclosure_duration%%
+         enclosure_type%audio/mp3%
+    -->
+<br /><br />Subscribe to podcast <a href="http://ccmixter.org/view/media/playlists/podcast">here</a>.    </div></td>
+    </tr>
+<tr>
+            <td style="vertical-align:top;width:100%"><div class="box"><h2>MMTMMP 8 Leap of the Heart Round Up</h2><!-- template playlist_2_info -->
+<h2 class="playlist_info_h2" style="margin:0px;"><a target="_parent" href="http://ccmixter.org/playlist/browse/11937">MMTMMP 8 Leap of the Heart Round Up</a></h2>
+<div>
+  created by <a target="_parent" class="cc_user_link" href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast (MMTMMP)</a> 
+</div>
+    <div  class="gd_description" id="pldesc_11937" style="padding: 10px;">
+        Visit or revisit some FANTASTIC tracks from the Leap of the Heart Secret Mixter!    <br />
+<br />
+*The next episode will air during the last week of March.<br />
+<br />
+*Wanna help out the show? Record a quick bumper,  <a title="http://ccmixter.org/files/texasradiofish/34250" rel="nofollow" class="cc_format_link" href="http://ccmixter.org/files/texasradiofish/34250">like Texas Radio Fish did</a>!    </div>
+<a href="http://ccmixter.org/share/playlist/11937"><img src="http://ccmixter.org/ccskins/shared/images/share-link.gif" /></a>
+<h3><a rel="enclosure" href="http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_8_Leap_of_the_Heart_Round_Up.mp3">Download podcast -  (42.00MB)</a></h3>
+<p><b>Songs...</b></p>
+<ul>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/35901" class="cc_file_link">MMTMMP 8 - Segue 1 (Feat. Kirkoid, annabloom)</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/stellarartwars/35798" class="cc_file_link">An Economy Ain't Nothing But A Recipe (inc stems)</a> by: <a href="http://ccmixter.org/people/stellarartwars">stellarartwars</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/annabloom/35804" class="cc_file_link">Round and Round the Garden (two step)</a> by: <a href="http://ccmixter.org/people/annabloom">annabloom</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/tigabeatz/35794" class="cc_file_link">Go1dfishesCandle</a> by: <a href="http://ccmixter.org/people/tigabeatz">tigabeatz</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/mcjackinthebox/35838" class="cc_file_link">Fun Fun Fun with DFF Sound System</a> by: <a href="http://ccmixter.org/people/mcjackinthebox">MC Jack in the Box</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/35902" class="cc_file_link">MMTMMP 8 - Segue 2 (Feat. Kirkoid, annabloom)</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/cdk/35847" class="cc_file_link">Tumblin Down (cdk Mix)</a> by: <a href="http://ccmixter.org/people/cdk">cdk</a> -- <a href="http://creativecommons.org/licenses/nc-sampling+/1.0/" title="Noncommercial Sampling Plus" style="font-size:80%;font-style:italic;" >(cc) Noncommercial Sampling Plus</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/onlymeith/35809" class="cc_file_link">Waiting For Deconstruction</a> by: <a href="http://ccmixter.org/people/onlymeith">onlymeith</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/thehookpodcast/30166" class="cc_file_link">hook ep14 duckett bumper</a> by: <a href="http://ccmixter.org/people/thehookpodcast">The Hook (w/spinning merkaba)</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/duckett/35788" class="cc_file_link">LeapMeith (Secret Cubism Mix)</a> by: <a href="http://ccmixter.org/people/duckett">duckett</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/coffeeeurope/35846" class="cc_file_link">Cruel Intentions</a> by: <a href="http://ccmixter.org/people/coffeeeurope">Hektor Thillet</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/MMTMMP/35903" class="cc_file_link">MMTMMP 8 - Segue 3 (Feat. Kirkoid, annabloom)</a> by: <a href="http://ccmixter.org/people/MMTMMP">Mind Map That Music Map Podcast</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/djolliej/35850" class="cc_file_link">Route 17</a> by: <a href="http://ccmixter.org/people/djolliej">DJRCHIVE</a> -- <a href="http://creativecommons.org/licenses/by/3.0/" title="Attribution (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution (3.0)</a></li>
+<li style="white-space:nowrap"><a href="http://ccmixter.org/files/copperhead/35825" class="cc_file_link">Luv Em or Leave Em</a> by: <a href="http://ccmixter.org/people/copperhead">copperhead</a> -- <a href="http://creativecommons.org/licenses/by-nc/3.0/" title="Attribution Noncommercial  (3.0)" style="font-size:80%;font-style:italic;" >(cc) Attribution Noncommercial  (3.0)</a></li>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+
+
+<p><b>Bumpers...</b></p>
+<ul>
+</ul>
+<i class="cc_tagline"><span>from <a href="http://ccmixter.org/">ccMixter</a></span></i>
+    <!--
+         enclosure_url%http://ccmixter.org/content/MMTMMP/MMTMMP_-_MMTMMP_8_Leap_of_the_Heart_Round_Up.mp3%
+         enclosure_size%44040192%
+         enclosure_duration%%
+         enclosure_type%audio/mp3%
+    -->
+<br /><br />Subscribe to podcast <a href="http://ccmixter.org/view/media/playlists/podcast">here</a>.    </div></td>
+    </tr>
+</table>
+
+</div>
+
+</div> <!-- content -->
+    </div> <!-- wrapper -->
+
+
+<div id="navigation">
+
+    
+        <div id="menu">
+
+                          <div class="menu_group">
+                <p>Visitors</p>
+                <ul>                  <li><a href="http://ccmixter.org/find-music" id="mi_find_music">Find Music</a></li>
+                                  <li><a href="http://ccmixter.org/forums" id="mi_forums">Forums</a></li>
+                                  <li><a href="http://ccmixter.org/about" id="mi_about">About</a></li>
+                                  <li><a href="http://ccmixter.org/thread/1921" id="mi_find_everything">Looking for...?</a></li>
+                                  <li><a href="http://twitter.com/ccMixterMusic" id="mi_16">Twitter</a></li>
+                 </ul>
+              </div>
+            
+        </div> <!-- end of menu -->
+
+        </div>
+
+<div id="extra">
+          <div class="menu_group">        
+                  </div>
+            <div class="menu_group">        
+          <br /><br />
+<a href="http://dig.ccmixter.org"><img src="http://dig.ccmixter.org/images/dig.ccmixter-white-on-black-100x22.jpg" /></a>
+<ul><li>
+Search our archives for<br />
+music for your video,<br />
+podcast or school project<br />
+at <a href="http://dig.ccmixter.org" style="font-weight:bold;text-decoration:underline;color:blue;">dig.ccMixter</a></li></ul>
+
+        </div>
+            <div class="menu_group">        
+          <p>Editors' Picks</p>
+<ul>
+   <li><a href="http://ccmixter.org/files/bangbangrouge/37482" class="cc_file_link">Your Turn</a></li>
+   <li><a href="http://ccmixter.org/files/tglancy/37374" class="cc_file_link">That'll Do Pi...</a></li>
+   <li><a href="http://ccmixter.org/files/Citizen_X0/37358" class="cc_file_link">Brown & Gold</a></li>
+   <li><a href="http://ccmixter.org/files/annabloom/37284" class="cc_file_link">Postmodernism...</a></li>
+   <li><a href="http://ccmixter.org/files/VJ_Memes/37228" class="cc_file_link">"Meditation i...</a></li>
+<li><a href="http://ccmixter.org/editorial/picks" class="cc_more_menu_link">More picks...</a></li>
+</ul>        </div>
+            <div class="menu_group">        
+          
+<p>Podcasts</p>
+<ul>
+<li><a href="http://ccmixter.org/podcast?topic=mmtmmp-11-duck-duck-goosebumps" class="topic_link">MMTMMP 11 Duck Duck...</a></li>
+<li><a href="http://ccmixter.org/podcast?topic=mmtmmp-10-april-showers-us-with-music" class="topic_link">MMTMMP 10 April Sho...</a></li>
+<li><a href="http://ccmixter.org/podcast?topic=mmtmmp-9-an-endless-winter...-or-is-it?" class="topic_link">MMTMMP 9 An Endless...</a></li>
+<li><a href="http://ccmixter.org/podcast?topic=thesavvyandthechics-favorites" class="topic_link">TheSavvyAndTheChic'...</a></li>
+<li><a href="http://ccmixter.org/podcast?topic=mmtmmp-8-leap-of-the-heart-round-up" class="topic_link">MMTMMP 8 Leap of th...</a></li>
+</ul>
+
+        </div>
+            <div class="menu_group">        
+                  </div>
+            <div class="menu_group">        
+          
+<p>Recent Reviewers</p>
+<ul>
+<li><a href="http://ccmixter.org/reviews/TheDICE/37619#159866">Speck</a></li>
+<li><a href="http://ccmixter.org/reviews/Super_Sigil/37631#159865">Donkey Horse ...</a></li>
+<li><a href="http://ccmixter.org/reviews/speck/37622#159861">annabloom</a></li>
+<li><a href="http://ccmixter.org/reviews/TheDICE/37619#159860">copperhead</a></li>
+<li><a href="http://ccmixter.org/reviews/speck/37622#159857">panu</a></li>
+<li><a href="http://ccmixter.org/reviews/milabrya/21133#159854">Psykick</a></li>
+<li><a href="http://ccmixter.org/reviews/Robbero/37621#159852">Abstract Audi...</a></li>
+<li><a href="http://ccmixter.org/reviews" class="cc_more_menu_link">More reviews...</a></li>
+</ul>        </div>
+            <div class="menu_group">        
+              <p>Syndication</p>
+    <ul>
+            <li><a rel="alternate" type="application/atom+xml" href="http://ccmixter.org/api/query?datasource=topics&amp;type=podcast&amp;page=podcast&amp;f=rss" title="ccMixter Podcast [ RSS 2.0 ]"><img src="http://ccmixter.org/ccskins/shared/images/feed-icon16x16.png" title="[ RSS 2.0 ]" /> ccMixter Podcast</a></li>
+        </ul>
+        </div>
+            <div class="menu_group">        
+          
+<p>Artists' Spotlight</p>
+<ul>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=dokashiteru" class="topic_link">DoKashiteru</a></li>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=brad-sucks" class="topic_link">Brad Sucks</a></li>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=robert-nunnally" class="topic_link">Robert Nunnally</a></li>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=shannon-hurley" class="topic_link">Shannon Hurley</a></li>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=frank-carter-iii" class="topic_link">Frank Carter III</a></li>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=calendar-girl" class="topic_link">Calendar Girl</a></li>
+<li><a href="http://ccmixter.org/artist-spotlight-q-a?topic=trifonic" class="topic_link">Trifonic</a></li>
+</ul>
+
+        </div>
+            <div class="menu_group">        
+          
+<p>Support ccMixter</p>
+<ul><li>
+<a href="http://tunetrack.net/ccmixter/join/"><img src="http://tunetrack.net/media/images/layout/tunetrack.gif" alt="Support ccMixter"/></a>
+</li></ul>
+        </div>
+    </div>
+
+<div id="footer" class="med_light_bg">
+  <div id="license"><p><a href="http://creativecommons.org/licenses/by-nc/3.0/us/">
+
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/us/88x31.png" />
+
+</a>
+
+<br />This text and images on this site are licensed under a 
+
+<a href="http://creativecommons.org/licenses/by-nc/3.0/us/">Creative Commons Attribution-Noncommercial 3.0 United States License</a>.</p></div>
+  <p><img style="display:none" src="http://ccmixter.org/mixter-files/images/cc-mixter-sq-logo.png" />This site uses <a href="http://wiki.creativecommons.org/CcHost">ccHost</a>, licensed under <a href="http://creativecommons.org/licenses/GPL/2.0/">CC-GNU-GPL</a>, which is a product of the <a href="http://sourceforge.net/projects/cctools/">ccTools</a> project and uses <a href="http://getid3.sourceforge.net/">GetID3</a>. This site is sponsored by <a href="http://artistechmedia.com/">ArtisTech Media</a>. By using this site, you agree to our <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a>. 
+
+<br /><br />Please note our <a href="/credits">site credits</a>. Contact: <a href="/media/people/contact/admin">site administrator</a>.<br /><br />
+
+ <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+_uacct = "UA-2878955-1";
+
+urchinTracker();
+
+</script>
+
+<div class="hide" style="font-size:1px;">
+
+<a href="/emails/indexe.php?index=1388304633" rel="nofollow" id="__cnt_st">&nbsp;</a>
+
+</div>
+
+<script>$('__cnt_st').href = '';</script></p>
+</div><!-- footer -->
+
+
+</div> <!-- container -->
+
+
+
+<script type="text/javascript"> 
+    new modalHook( [ 'search_site_link' ]);  
+    $$('.selected_tab a').each( function(e) { e.style.cursor = 'default'; e.href = 'javascript:// disabled'; } );
+if( typeof(_cc_post_page_load) == 'function' ) { _cc_post_page_load(); }</script>
+
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="http://ccmixter.org/ccskins/shared/js/pngfix.js"></script>
+<![endif]-->
+
+</body></html>

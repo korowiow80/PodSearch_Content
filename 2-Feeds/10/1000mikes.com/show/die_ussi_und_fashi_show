@@ -1,0 +1,1173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+	<meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	
+    <meta name="language" content="en" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    
+	<meta name="google-site-verification" content="iXsN8A7R0exA6l-Ntc76Y7iXfDcD00N59hZe25YG284" />
+	<meta name="verify-v1" content="wY6m+Sk6kowm9Gmw1dwNchT+g/ISFyQchQ504TGHrl4=" /> 
+	 	
+ 	<meta name="y_key" content="7d41a7137358eeaf" />
+	
+	<meta property="fb:page_id" content="120937694607261" />
+	<meta property="fb:admins" content="frank.felix.debatin" />
+	<meta property="og:site_name" content="1000MIKES" />
+    		<meta name="description" lang="de" content="Och ne....
+
+Ja doch...
+
+Ab jetzt mit eigener Homepage und dort mit eigener Kommentarfunktion. Schau mal vorbei: ussi-und-fashi.jimdo.com
+
+Der Musikstream..." />
+		<link rel="canonical" href="http://de.1000mikes.com/show/die_ussi_und_fashi_show" />	 	
+	 	
+	<link rel="icon" href="http://www.1000mikes.com/static/icons/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://www.1000mikes.com/static/icons/favicon.ico" type="image/x-icon" />
+	<link rel="home" href="http://en.1000mikes.com/" />
+    <link rel="copyright" title="Terms of Use" href="http://en.1000mikes.com/app/terms.xhtml" />
+	<link rel="author" title="Contact" href="http://en.1000mikes.com/app/imprint.xhtml" />
+			<link rel="alternate" type="text/html" href="http://fr.1000mikes.com/show/die_ussi_und_fashi_show" hreflang="fr" lang="fr" />
+			<link rel="alternate" type="text/html" href="http://de.1000mikes.com/show/die_ussi_und_fashi_show" hreflang="de" lang="de" />
+			<link rel="alternate" type="text/html" href="http://it.1000mikes.com/show/die_ussi_und_fashi_show" hreflang="it" lang="it" />
+			<link rel="alternate" type="text/html" href="http://es.1000mikes.com/show/die_ussi_und_fashi_show" hreflang="es" lang="es" />
+			<link rel="alternate" type="application/rss+xml" title="Channel Archive  (RSS 2.0)" href="http://en.1000mikes.com/rss/archive/die_ussi_und_fashi_show/rss.xml" />
+	
+ 	<title>1000MIKES - Die Ussi und Fashi Show</title>
+		<link rel="stylesheet" href="http://www.1000mikes.com/static/extensions/1000mikes.css" type="text/css" />
+		<link rel="stylesheet" href="http://www.1000mikes.com/static/extensions/en/1000mikes.css" type="text/css" />
+		<script type="text/javascript">
+			document.domain = '1000mikes.com';
+		</script>
+		<script type="text/javascript">
+			var djConfig= {
+				parseOnLoad: true,
+				useXDomain: true, 
+				locale: "en-us" };	
+		</script>
+	        	<script type="text/javascript" src="http://www.1000mikes.com/js/dojo.xd.js?version=%24%7Bsvn.Revision%7D"></script>
+		       	    <script type="text/javascript" src="http://www.1000mikes.com/js/mikes-dojo.js?version=%24%7Bsvn.Revision%7D"></script>
+
+    <script type="text/javascript">
+    	mikes = window["mikes"] || {};
+		mikes.community = "mikes";
+		mikes.homeUrl = "http://en.1000mikes.com/";
+		mikes.resourceUrl = "http://www.1000mikes.com/static/";
+		mikes.apiUrl = "http://en.1000mikes.com/api";
+		mikes.lang = "en";
+		mikes.stage = "production";
+		mikes.topmenu = "channels";
+		mikes.version = "${svn.Revision}";
+	</script>
+	
+	<script type="text/javascript" src="http://www.1000mikes.com/js/swfobject.js?version=%24%7Bsvn.Revision%7D"></script>
+		<script type="text/javascript" src="http://www.1000mikes.com/js/file_audio.js?version=%24%7Bsvn.Revision%7D"></script>
+		
+		<meta property="og:title" content="Die Ussi und Fashi Show" />
+	    <meta property="og:type" content="article" />
+	    <meta property="og:url" content="http://de.1000mikes.com/show/die_ussi_und_fashi_show" />
+	    <meta property="og:image" content="http://app.1000mikes.com/images/5348" />		
+		<meta property="og:description" content="Och ne....
+
+Ja doch...
+
+Ab jetzt mit eigener Homepage und dort mit eigener Kommentarfunktion. Schau mal vorbei: ussi-und-fashi.jimdo.com
+
+Der Musikstream au&szlig;erhalb der Sendungen wird zur Verf&uuml;gung..." />
+
+		<script type="text/javascript">
+			document.currentChannelId = Number("4533");
+			dojo.addOnLoad(mikes.updateLiveStatus); 
+		</script> 
+	
+</head>
+<body class="tundra">
+		<span id="MsgMissingOne" style="display:none" title="{0}: value required."></span>
+		<span id="MsgMissingMany" style="display:none" title="The following fields are mandatory: {0}."></span>
+		<span id="MsgInvalidOne" style="display:none" title="The value of the field {0} is invalid - please correct!"></span>
+		<span id="MsgInvalidMany" style="display:none" title="The values of the following fields are invalid: {0}."></span>
+		<span id="MsgServerError" style="display:none" title="Server error: Please try again later. We will solve the problem as soon as possible. Sorry!"></span>
+		<span id="MsgTimeout" style="display:none" title="Sorry, the server isn't responding at this time - please do try again later!"></span>
+		<span id="MsgLoggedOut" style="display:none" title="You have logged out."></span>
+		<span id="MsgA11ySaved" style="display:none" title="The accessibility options have been saved successfully."></span>
+		<span id="MsgYesterday" style="display:none" title="Yesterday {0}"></span>
+		<span id="MsgToday" style="display:none" title="Today {0}"></span>
+		<span id="MsgTomorrow" style="display:none" title="Tomorrow {0}"></span>
+		<span id="MsgSaved" style="display:none" title="The changes have been saved successfully."></span>
+		<span id="MsgTimezoneInfo" style="display:none" title="All times {0}."></span>  
+
+	<script type="text/javascript">
+		if (window["dojo"]) {
+			dojo.addOnLoad(mikes.adjustTimezones);
+		}
+	</script>
+	
+	<div id="container">
+	
+		<div id="header">
+			<h1>
+
+	<a id="id28341777" href="http://en.1000mikes.com/" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>1000MIKES</span></a></h1>
+			<h2 class="a11y">
+
+	<span id="id28341778" class="" style="">Main Navigation</span></h2>
+			<ul id="topMenu" class="channels">
+				<li id="channels">
+
+	<a id="id28341779" href="http://en.1000mikes.com/app/start.xhtml" type="text/html" title="Channels" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Channels</span></a></li>
+				<li id="community">
+
+	<a id="id28341780" href="http://en.1000mikes.com/app/community.xhtml" type="text/html" title="Community" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Mike's Caf&eacute;</span></a></li>
+				<li id="mymikes">
+
+	<a id="id28341781" href="http://en.1000mikes.com/user/welcome.xhtml" type="text/html" title="Overview" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Welcome</span></a></li>
+			</ul>
+			
+			<div id="a11yExt" class="a11y">
+				<a href="#content" class="a11y" accesskey="1">
+
+	<span id="id28341782" class="" style="">Jump to main content</span></a>
+				<a href="#menu" class="a11y" accesskey="3">
+
+	<span id="id28341783" class="" style="">Jump to page menu</span></a> 
+				<form name="a11yForm">
+					<fieldset>
+						<legend>
+
+	<span id="id28341784" class="" style=""></span>
+						</legend>
+						<input id="a11yAlerts" name="a11yAlerts" type="checkbox" value="alert" />
+						<label for="a11yAlerts">
+
+	<span id="id28341785" class="" style="">Display messages with alert boxes (recommended for blinds and visually impaired)</span></label>
+		  				<input type="button" name="a11yButton" value="Save" onclick="mikes.setA11yOptions()" />
+					</fieldset>
+				</form>
+				<script type="text/javascript">
+					dojo.addOnLoad( 
+						function() {
+							dojo.byId("a11yAlerts").checked = !!mikes.getState().a11yAlerts;
+						}
+					);
+				</script>  
+			</div>
+		<span id="MsgBlockedCookies" style="display:none" title="Please ensure that your browser accepts cookies."></span>
+		<span id="MsgLogin" style="display:none" title="User name"></span> 
+	
+	<form name="loginFormSmall" id="loginFormSmall" action="javascript:void(0);">
+		<fieldset>
+			<legend>
+
+	<span id="id28341786" class="a11y" style="">Login form</span></legend>
+			<label class="a11y" for="loginField">
+
+	<span id="id28341787" class="" style="">User name</span></label>  
+			<input type="text" class="input" id="loginField" name="login" />
+			<label class="a11y" for="passwordField">
+
+	<span id="id28341788" class="" style="">Password</span></label> 
+			<input type="password" class="input" id="passwordField" name="password" />
+			  
+			<a href="javascript:void(0);" onclick="mikes.doLoginOnPage(document.loginFormSmall);" id="loginFormSmallButton" title="Log in">
+				<img class="button" src="http://www.1000mikes.com/static/images/buttons/en/bt_anmelden.gif" alt="Log in" />
+			</a>
+	
+			<div id="loginFormSmallMsg"></div>
+		</fieldset>
+		
+		<script type="text/javascript">
+			mikes.toggleEditText("loginField", mikes.getString('Login'));
+			mikes.toggleEditText("passwordField", "******");
+			mikes.clickOnEnter("passwordField", "loginFormSmallButton");
+			dojo.addOnLoad(
+				function() {
+					var topMsg = mikes.params()['topMsg'];
+					if (topMsg) { mikes.info(mikes.getString(topMsg), "loginFormSmallMsg"); };
+				}
+			);
+		</script> 
+	</form>
+
+		</div>
+
+					
+		
+		<div id="searchBar">
+			<form action="javascript:mikes.search(dojo.byId('searchField').value, '');">
+				<fieldset>
+					<legend>
+
+	<span id="id28341789" class="a11y" style="">Search</span></legend>
+					<label for="searchField" class="a11y">
+
+	<span id="id28341790" class="" style="">Search</span></label>
+					<input accesskey="2" type="text" id="searchField" class="input" />
+					<input type="image" id="searchButton" src="http://www.1000mikes.com/static/images/buttons/bt_go.gif" alt="Start search" />
+				</fieldset>
+			</form>
+			<script type="text/javascript">
+				mikes.toggleEditText("searchField", "Search");
+			</script>  
+		</div>
+		
+		<div id="fileAudio"></div>
+
+		<div id="main">
+	
+		<div id="content">
+			<a name="content"></a>
+		<span id="MsgFavoriteAdded" style="display:none" title="Channel &quot;{0}&quot; has been added to your list of favorites!"></span>
+		<span id="MsgJustStarted" style="display:none" title="Just started. Tune in right now!"></span>
+		<span id="MsgOneMinuteLive" style="display:none" title="Live since one minute. Tune in right now!"></span>
+		<span id="MsgMinutesLive" style="display:none" title="Live since {0} minutes."></span>
+		<span id="MsgNumberOfListeners" style="display:none" title="{0} listeners"></span>
+		<span id="MsgCallsWaiting" style="display:none" title="{0} callers in the queue."></span>
+		<span id="MsgOneCallWaiting" style="display:none" title="One caller in the queue."></span>
+		<span id="MsgCallInReady" style="display:none" title="Your number has been registered and you may now call in!"></span>
+		<span id="MsgCommentPosted" style="display:none" title="Your comment has been posted."></span>
+		<span id="MsgReallyCancelBroadcast" style="display:none" title="Really cancel the current broadcast?"></span>
+		<span id="MsgReallyCancelListeners" style="display:none" title="Really cancel the current listeners?"></span>
+		<span id="MsgEnterReason" style="display:none" title="Please enter reason:"></span>
+		<span id="MsgConfirmationBroadcastCancelled" style="display:none" title="The current broadcast is about to be cancelled."></span>
+		<span id="MsgConfirmationListenersCancelled" style="display:none" title="The current listeners are about to be cancelled."></span>
+	<span id="channelData" jsonData="{&quot;logoThumbUrl&quot;:&quot;http://app.1000mikes.com/thumbs/5348&quot;,&quot;searchWords&quot;:&quot;&quot;,&quot;podcastUrl&quot;:&quot;http://en.1000mikes.com/rss/archive/die_ussi_und_fashi_show/rss.xml&quot;,&quot;ownerId&quot;:1832,&quot;lastUpdate&quot;:&quot;2011-08-11T20:00:00+02:00&quot;,&quot;categoryId&quot;:2629,&quot;state&quot;:&quot;ACTIVE&quot;,&quot;logoUrl&quot;:&quot;http://app.1000mikes.com/images/5348&quot;,&quot;homeUrl&quot;:&quot;http://en.1000mikes.com/show/die_ussi_und_fashi_show&quot;,&quot;callInMode&quot;:&quot;DISABLED&quot;,&quot;logoId&quot;:5348,&quot;downstreamUrl&quot;:&quot;http://en.1000mikes.com/audio/1000mikes.m3u?channelId=4533&quot;,&quot;playlistUrl&quot;:&quot;http://en.1000mikes.com/audio/1000mikes.m3u?channelId=4533&quot;,&quot;id&quot;:4533,&quot;title&quot;:&quot;Die Ussi und Fashi Show&quot;,&quot;iceUpstreamUrl&quot;:&quot;http://streaming3-aphrodite.1000mikes.com/die_ussi_und_fashi_show&quot;,&quot;description&quot;:&quot;Och ne....\n\nJa doch...\n\nAb jetzt mit eigener Homepage und dort mit eigener Kommentarfunktion. Schau mal vorbei: [http://ussi-und-fashi.jimdo.com ussi-und-fashi.jimdo.com]\n\nDer Musikstream au&szlig;erhalb der Sendungen wird zur Verf&uuml;gung gestellt von Laut.FM&quot;,&quot;name&quot;:&quot;die_ussi_und_fashi_show&quot;,&quot;quality&quot;:&quot;HIGH&quot;,&quot;owner&quot;:{&quot;login&quot;:&quot;dailypod&quot;,&quot;homeUrl&quot;:&quot;http://en.1000mikes.com/home/dailypod&quot;},&quot;broadcastUrl&quot;:&quot;rtmp://rtmp.1000mikes.com/talk?streamingHost=streaming6-aphrodite.1000mikes.com&amp;channelId=4533&amp;broadcast=true&quot;,&quot;rawDownstreamUrl&quot;:&quot;http://streaming6-boreas.1000mikes.com/die_ussi_und_fashi_show&quot;,&quot;descriptionHtml&quot;:&quot;Och ne....&lt;br /&gt;&lt;br /&gt;Ja doch...&lt;br /&gt;&lt;br /&gt;Ab jetzt mit eigener Homepage und dort mit eigener Kommentarfunktion. Schau mal vorbei: &lt;a href='http://ussi-und-fashi.jimdo.com'&gt;ussi-und-fashi.jimdo.com&lt;\/a&gt;&lt;br /&gt;&lt;br /&gt;Der Musikstream au&szlig;erhalb der Sendungen wird zur Verf&uuml;gung gestellt von Laut.FM&quot;}"></span>
+
+	<div class="headerBox">
+		<div class="headerBoxInner dividedBox">
+				<ul class="right">
+						<li>
+
+	<a href="http://en.1000mikes.com/rss/archive/die_ussi_und_fashi_show/rss.xml" type="application/rss+xml" title="Channel Archive  (RSS 2.0)" style="">
+
+	<img class="icon feedIcon" src="http://www.1000mikes.com/static/icons/gifs/feed.gif" title="Channel" alt="Channel" style="" />
+   	</a>
+						</li>
+				</ul>
+		
+			<div class="main">
+				<h2>
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/phone_lila.gif" title="Channel" alt="Channel" style="margin-right:3px;" />				
+					Die Ussi und Fashi Show
+				</h2>
+				<div>
+					
+
+	<a id="id28341791" href="http://en.1000mikes.com/browse/de" type="text/html" title="Alle deutschsprachigen Kan&auml;le." class="" onclick="" target="_self" style="">
+		
+		<span>
+			Alle Kan&auml;le</span></a>
+
+	<img alt="in" src="http://www.1000mikes.com/static/images/elements/el_arrow_channels.gif" />
+
+	<a id="id28341792" href="http://en.1000mikes.com/browse/de/kultur_1" type="text/html" title="Das Feuilleton auf 1000MIKES: Kulturelle Themen im engen und im weiteren Sinne." class="" onclick="" target="_self" style="">
+		
+		<span>
+			Kultur</span></a>
+
+	<img alt="in" src="http://www.1000mikes.com/static/images/elements/el_arrow_channels.gif" />
+
+	<a id="id28341793" href="http://en.1000mikes.com/browse/de/kultur_1/comedy_1" type="text/html" title="ansprechenden Komik f&uuml;r die lustigen Mitmenschen" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Comedy</span></a>
+			<div style="padding-top:5px;">Och ne....<br /><br />Ja doch...<br /><br />Ab jetzt mit eigener Homepage und dort mit eigener Kommentarfunktion. Schau mal vorbei: <a href='http://ussi-und-fashi.jimdo.com' rel='nofollow' target='_blank'>ussi-und-fashi.jimdo.com</a><br /><br />Der Musikstream außerhalb der Sendungen wird zur Verfügung gestellt von Laut.FM
+			</div>
+				</div>
+			</div> 
+		</div>  
+	</div>
+			<div class="livePlayerSection">
+				<div class="livePlayer">
+			<div id="I000MIKES_Player">
+
+	<a id="id28341794" href="http://en.1000mikes.com/audio/1000mikes.m3u?channelId=4533&amp;type=xmaxi&amp;lang=en&amp;bgcolor=0xF0F0F0&amp;version=${svn.Revision}" type="audio/mpeg" title="Click to open 1000MIKES live audio stream" class="" onclick="" target="_self" style="">
+		
+		<span>
+					Die Ussi und Fashi Show</span></a>
+				<p>
+				</p> 
+			</div>
+			
+			
+			<div class="a11y no_i18n_check">
+				<h4>
+
+	<span id="id28341795" class="" style="">Audio control</span></h4>
+				<ul>
+					<li>
+						<a onclick="getPlayer().mk_play();return false;" href="javascript:void(0);" accesskey="P" title="Start audio stream">
+							<span lang="en">Play</span>
+						</a>
+					</li>
+					<li>
+						<a onclick="getPlayer().mk_stop();return false;" href="javascript:void(0);" accesskey="S" title="Stop audio stream">
+							<span lang="en">Stop</span>
+						</a>
+					</li>
+					<li>
+						<a onclick="getPlayer().mk_call();return false;" href="javascript:void(0);" accesskey="C" title="Call into show">
+							<span lang="en">Call</span>
+						</a>
+					</li>
+					<li>
+						<a onclick="getPlayer().mk_hangUp();return false;" href="javascript:void(0);" accesskey="H" title="Hang up">
+							<span lang="en">Hang up</span>
+						</a>
+					</li>
+					<li>
+						<a onclick="getPlayer().mk_volumeUp();return false;" href="javascript:void(0);" accesskey="U" title="Increase volume">
+							<span lang="en">Volume up</span>
+						</a>
+					</li>
+					<li>
+						<a onclick="getPlayer().mk_volumeDown();return false;" href="javascript:void(0);" accesskey="D" title="Decrease volume">
+							<span lang="en">Volume down</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<script type="text/javascript" src="http://www.1000mikes.com/js/embed.js?version=%24%7Bsvn.Revision%7D"></script>
+			<script type="text/javascript">
+				var onLoad = function() {
+					createPlayer('http://www.1000mikes.com/static//flash/');
+				}
+				if ((typeof dojo)=="object") {
+					dojo.addOnLoad(onLoad);
+				}
+				else {
+					window.onload = onLoad; 	
+				} 
+			
+			</script>
+				</div>
+    
+    	<h4 class="a11y">
+
+	<span id="id28341796" class="" style="">Channel facts</span></h4>
+    
+		<ul class="infoBar">
+				<li>
+
+	<div class="rating" title="12 ratings">
+		<div class="a11y">Rating: 5 stars</div>
+		<div class="starBar" style="width:100.0px;"></div>
+	</div>
+				</li>
+				<li>
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/user_lila.gif" title="Host" alt="Host" style="" />
+
+	<a id="id28341797" href="http://en.1000mikes.com/home/dailypod" type="text/html" title="Go to home page of &quot;dailypod&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+					dailypod</span></a>
+				</li>
+		</ul>
+				
+				<div style="margin-left:70%;padding-left:10px;margin-top:10px;margin-bottom:10px">
+		<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+		<a id="skypeButton" title="Skype" href="skype:us.till?call" onclick="return skypeCheck();"><img src="http://mystatus.skype.com/smallclassic/us.till" style="border: none;" width="114" height="20" alt="Skype" /></a>
+				</div>
+				
+				<p style="line-height:normal;margin-left:70%;font-size:80%;padding-left:10px;margin-top:10px;margin-bottom:10px;color:#999;font-weight:normal;}">
+				</p>
+				
+				<div class="external">
+
+	<a id="id28341798" href="http://en.1000mikes.com/audio/1000mikes.m3u?channelId=4533" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>Listen with external player</span></a>
+				</div>
+			</div>
+			<div id="liveActions" class="actions">
+				<ul>
+					<li class="comment"><a href="#comment" onclick="javascript:mikes.showAction('comment');this.blur();return false;">
+
+	<span id="id28341799" class="" style="">Comment</span></a></li>
+					<li class="flag"><a href="#flag" onclick="javascript:mikes.showAction('flag');this.blur();return false;">
+
+	<span id="id28341800" class="" style="">Report</span></a></li> 
+				</ul>		
+				<div class="reactions">
+					<div id="comment" style="display:none;">
+						<h4 class="a11y">
+
+	<span id="id28341801" class="" style="">Comment</span></h4>
+
+	<div id="commentFormPane">
+
+	<form id="commentForm" name="commentForm" class="normForm " style="margin:10px 10px 0px 0px;" action="javascript:void(0);" dojoType="">
+				<p>Welcome as a guest! Commenting becomes more conveniently after you have <a href='http://en.1000mikes.com/app/login.xhtml'>logged in</a> or <a href='http://en.1000mikes.com/app/register.xhtml'>registered</a>.
+				 </p>
+	
+				<input type="hidden" name="archiveEntryId" value="" />
+				<input type="hidden" name="channelId" value="4533" />
+
+	<div class="formRow " style="">
+			<label for="nameField">Name</label>
+		<div class="rightSide">
+			<input id="nameField" type="text" name="name" class="input" value="" />
+		</div>
+	</div>
+
+	<div class="formRow " style="">
+			<label for="linkField">Website (optional)</label>
+		<div class="rightSide">
+			<input id="linkField" type="text" name="link" class="input" value="" />
+		</div>
+	</div>
+
+	<div class="formRow " style="">
+			<label for="textField">Comment</label>
+		<div class="rightSide">
+		<textarea id="textField" name="text" rows="7" cols="28"></textarea>
+		</div>
+	</div>
+
+	<div class="formRow buttonRow">
+		<a href="javascript:void(0);" class="button" onclick="mikes.postComment(true);return false;" title="" id="id28341802" style="">
+			<span>Send</span>
+		</a>
+		<a href="javascript:void(0);" class="button" onclick="mikes.showAction('comment');return false;" title="" id="id28341803" style="">
+			<span>Cancel</span>
+		</a>
+	</div>
+
+	
+	<p id="commentFormMsg"></p>
+	</form>
+	</div>
+					</div>
+					<div id="callIn" style="display:none">
+						<h4 class="a11y">
+
+	<span id="id28341804" class="" style="">Call in</span></h4>
+						<p class="first">
+
+	<span id="id28341805" class="" style="">You can call-in on this channel during the live show.</span>
+						</p>
+
+	<form id="callInForm" name="callInForm" class="normForm " style="" action="javascript:void(0);" dojoType="">
+							<input type="hidden" name="channelId" value="4533" />
+
+	<div class="formRow " style="">
+			<label for="phoneNumberField">Phone number</label>
+		<div class="rightSide">
+			<input id="phoneNumberField" type="text" name="phoneNumber" class="input" value="" />
+		</div>
+	</div>
+
+	
+	<p id="callInFormMsg"></p>
+
+	<div class="formRow buttonRow">
+		<a href="javascript:void(0);" class="button" onclick="mikes.callIn();return false;" title="" id="id28341806" style="">
+			<span>Register call-in</span>
+		</a>
+	</div>
+	</form>
+						<p class="note">
+
+	<span id="id28341807" class="" style="">Enter your own phone number, press the registration button and call the 1000MIKES dial-in number (see right column) from the number entered. Your phone number won't become visible to the host or other users.</span>
+						</p>  
+					</div>
+					<div id="flag" style="display:none;">
+						<h4 class="a11y">
+
+	<span id="id28341808" class="" style="">Report</span></h4>
+						<p class="first">
+
+	<span id="id28341809" class="" style="">Problems with the content on this channel? Notify the team.</span>
+						</p>
+						<p id="noFlagging" class="error">
+
+	<span id="id28341810" class="" style="">This channel is currently not broadcasting.</span></p>
+						<div id="flagging">
+		<div id="login">
+			<p class="error">Please <a href='http://en.1000mikes.com/app/login.xhtml'>log in</a> or <a href='http://en.1000mikes.com/app/register.xhtml'>register</a> first.
+			 </p>
+		</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="actions">
+				<h3 class="a11y">
+
+	<span id="id28341811" class="" style="">Actions</span></h3>
+				<ul>
+					<li class="rate"><a href="#rate" onclick="javascript:mikes.showAction('rate');this.blur();return false;">
+
+	<span id="id28341812" class="" style="">Rate</span></a></li>
+					<li class="embed"><a href="#embed" onclick="javascript:mikes.showAction('embed');this.blur();return false;">
+
+	<span id="id28341813" class="" style="">Embed</span></a></li>
+					<li class="favor"><a href="#favor" onclick="javascript:mikes.showAction('favor');this.blur();return false;">
+
+	<span id="id28341814" class="" style="">Favorites</span></a></li>
+					<li class="facebook"><a href="#facebook" onclick="javascript:mikes.showAction('facebook');this.blur();return false;">Facebook</a></li>
+				</ul>
+				<div class="reactions">
+					<div id="rate" style="display:none;">
+						<h4 class="a11y">
+
+	<span id="id28341815" class="" style="">Rate</span></h4>
+		<div id="login">
+			<p class="error">Please <a href='http://en.1000mikes.com/app/login.xhtml'>log in</a> or <a href='http://en.1000mikes.com/app/register.xhtml'>register</a> first.
+			 </p>
+		</div>
+					</div>
+					
+					<div id="embed" style="display:none;">
+						<h4 class="a11y">
+
+	<span id="id28341816" class="" style="">Embed</span></h4>
+	   	        		<p class="first">
+
+	<span id="id28341817" class="" style="">URL of this channel's web radio stream</span></p>
+	   	        		<input type="text" onclick="this.focus();this.select();" readonly="readonly" value="http://en.1000mikes.com/audio/1000mikes.m3u?channelId=4533" />     		   	        
+						<p class="first">
+
+	<span id="id28341818" class="" style="">Embed player in own website (HTML code)</span></p>
+	   	        		<textarea style="margin:0 0 0 10px;width:80%;height:80px" onclick="this.focus();this.select();" readonly="readonly">&lt;iframe width='320' height='140' scrolling='no' frameborder='no' src='http://en.1000mikes.com//widget?channelId=4533&amp;type=maxi'&gt;&lt;a href='http://en.1000mikes.com/show?channelId=4533'&gt;Die Ussi und Fashi Show&lt;/a&gt;&lt;/iframe&gt;</textarea>
+	   	        		<p class="first">
+
+	<span id="id28341819" class="" style="">Embed mini player in own website (HTML code)</span></p>
+	   	        		<textarea style="margin:0 0 0 10px;width:80%;height:80px" onclick="this.focus();this.select();" readonly="readonly">&lt;iframe width='32' height='32' scrolling='no' frameborder='no' src='http://en.1000mikes.com//widget?channelId=4533&amp;type=mini'&gt;&lt;a href='http://en.1000mikes.com/show?channelId=4533'&gt;Die Ussi und Fashi Show&lt;/a&gt;&lt;/iframe&gt;</textarea>
+	   	        		<p class="first">
+
+	<span id="id28341820" class="" style="">Embed schedule widget in own website (HTML code)</span></p>
+	   	        		<textarea style="margin:0 0 0 10px;width:80%;height:80px" onclick="this.focus();this.select();" readonly="readonly">&lt;iframe width='320' height='320' scrolling='no' frameborder='no' src='http://en.1000mikes.com//widget?channelId=4533&amp;type=schedule'&gt;&lt;a href='http://en.1000mikes.com/show?channelId=4533'&gt;Die Ussi und Fashi Show&lt;/a&gt;&lt;/iframe&gt;</textarea>
+					</div>
+					
+					<div id="favor" style="display:none;">
+						<h4 class="a11y">
+
+	<span id="id28341821" class="" style="">Favorites</span></h4>
+		<div id="login">
+			<p class="error">Please <a href='http://en.1000mikes.com/app/login.xhtml'>log in</a> or <a href='http://en.1000mikes.com/app/register.xhtml'>register</a> first.
+			 </p>
+		</div>
+					</div>
+					<div id="facebook" style="display:none;">
+
+	<div id="fbLikeButton" style="padding-bottom: 5px;"></div>
+
+	<script type="text/javascript">
+    	// <![CDATA[
+		dojo.addOnLoad(
+			function(){
+				mikes.initFacebook(
+					function onInit(){
+						var fbLike = dojo.byId('fbLikeButton');
+						dojo.create(
+							"div",
+							{"innerHTML": '<fb:like href="http://de.1000mikes.com/show/die_ussi_und_fashi_show" font="verdana"></fb:like>'},
+							fbLike);
+						FB.XFBML.parse(fbLike);
+					}
+				)
+			}
+		);    				
+		// ]]> 
+	</script>
+					</div>
+					
+				</div>
+			</div>
+				<h3 class="boxed">
+
+	<span id="id28341822" class="" style="">This channel is favored by...</span>
+				</h3>
+				<p class="favoredBy">
+
+	<a id="id28341823" href="http://en.1000mikes.com/home/adam1010" type="text/html" title="Go to home page of &quot;adam1010&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+					adam1010</span></a>
+								,
+
+	<a id="id28341824" href="http://en.1000mikes.com/home/citynews08" type="text/html" title="Go to home page of &quot;citynews08&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+					citynews08</span></a>
+								,
+
+	<a id="id28341825" href="http://en.1000mikes.com/home/Konstantin" type="text/html" title="Go to home page of &quot;Konstantin&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+					Konstantin</span></a>
+							and 2 more anonymous Mikes.
+				</p>
+		        <h3 class="boxed">
+
+	<span id="id28341826" class="" style="">Next shows</span> 
+		        </h3>
+					<p>
+
+	<span id="id28341827" class="" style="">Currently, there are no broadcasts scheduled for this channel.</span></p>
+			 
+	        <h3 class="boxed">
+
+	<span id="id28341828" class="" style="">Previous shows</span> 
+	        </h3>
+				<p>
+
+	<span id="id28341829" class="" style="">No released broadcasts.</span></p>
+
+	<div class="footerBox">
+		<div class="footerBoxInner dividedBox">		
+		</div>
+	</div>
+		</div>
+		
+		<div id="menuBar">
+			
+			<a name="menu"></a>
+			<h2 class="a11y">
+
+	<span id="id28341830" class="" style="">Menu</span></h2>
+			<div id="pageMenu" class="box">
+	
+	<ul id="menu">
+	
+	<li class="topmenu">
+
+	<a id="id28341831" href="http://en.1000mikes.com/app/start.xhtml" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>Overview</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341832" href="http://en.1000mikes.com/app/nextBroadcasts.xhtml" type="text/html" title="Next broadcasts" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Next broadcasts</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341833" href="http://en.1000mikes.com/app/recentBroadcasts.xhtml" type="text/html" title="Previous broadcasts" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Previous broadcasts</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341834" href="http://en.1000mikes.com/app/topBroadcasts.xhtml" type="text/html" title="Broadcasts in the public archive with the highest number of accesses" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Top broadcasts</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341835" href="http://en.1000mikes.com/app/mostPopularBroadcasts.xhtml" type="text/html" title="Most popular broadcasts" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Most popular broadcasts</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341836" href="http://en.1000mikes.com/app/topChannels.xhtml" type="text/html" title="Most popular channels on 1000MIKES" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Top channels</span></a>
+	</li>
+	
+	<li class="topmenu">
+
+	<a id="id28341837" href="http://en.1000mikes.com/browse/en" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			All Channels</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341838" href="http://en.1000mikes.com/browse/en/business" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Business</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341839" href="http://en.1000mikes.com/browse/en/culture" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Culture</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341840" href="http://en.1000mikes.com/browse/en/entertainment" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Entertainment</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341841" href="http://en.1000mikes.com/browse/en/radio" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Radio</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341842" href="http://en.1000mikes.com/browse/en/science" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Science</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341843" href="http://en.1000mikes.com/browse/en/sports" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			Sports</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341844" href="http://en.1000mikes.com/browse/en/world__politics" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>
+			World &amp; Politics</span></a>
+	</li>
+	
+	<li class="topmenu">
+
+	<span id="id28341845" class="" style="">Channels in other languages</span>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341846" href="http://en.1000mikes.com/browse/fr" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>French</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341847" href="http://en.1000mikes.com/browse/de" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>German</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341848" href="http://en.1000mikes.com/browse/it" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>Italian</span></a>
+	</li>
+	
+	<li class="submenu">
+
+	<a id="id28341849" href="http://en.1000mikes.com/browse/es" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>Spanish</span></a>
+	</li>
+
+	</ul>
+			</div>
+			
+			<h2 class="a11y">
+
+	<span id="id28341850" class="" style="">Tutorial</span></h2>
+			<div class="box">
+				<div class="tutorialTeaser"> 
+					<p>
+
+	<span id="id28341851" class="" style="">Your own radio channel in three easy steps. </span> 
+					</p>
+					<p>
+						<a href="http://en.1000mikes.com/app/tutorial.xhtml">
+
+	<span id="id28341852" class="" style="">Learn more...</span>
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div id="adAnchorLeft0">				
+			</div>
+			<div id="adAnchorLeft"></div>
+		</div>
+		
+		<h2 class="a11y">
+
+	<span id="id28341853" class="" style="">Extras</span></h2>
+		<div id="xtra">
+
+	<div id="liveChannelsTeaserPart" src="../app/liveChannelsTeaserPart.xhtml">
+		<div id="liveChannelsTeaser" class="teaser">
+			<div class="next">
+				<h3>
+
+	<span id="id28341854" class="" style="">Live on air</span></h3>			
+				<ul>
+					<li class="liveChannelRow" id="live41064" style="">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/lightning.gif" title="Now live!" alt="Now live!" style="" />
+				    	
+				    	<p>
+
+	<a id="id28341855" href="http://en.1000mikes.com/show/mrsn_3_1" type="text/html" title="Go to channel &quot;MRSN 3&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+		    		       MRSN 3</span></a>
+					    		<br />
+					    		<b>Normal Cornbelters at London Rippers</b>
+					    </p> 
+			    	</li>
+				</ul>
+			</div>
+		</div>			
+	</div>
+		<script type="text/javascript">
+			dojo.addOnLoad(function() { mikes.schedule(mikes.updateLiveChannels, 15000);});
+		</script>
+	
+	<div class="teaser">					
+				<div class="next">
+					<h3>
+
+	<span id="id28340516" class="" style="">Next shows</span></h3>			
+					<ul>
+
+	<li class="entry even">
+		<div class="startTime">
+		<span class="timestamp" jsonData="{&quot;time&quot;:&quot;2012-06-07T03:15:00+02:00&quot;,&quot;timeOnly&quot;:false}">
+			Today 03:15 
+		</span></div>
+		<h4>
+
+	<a id="id28340517" href="http://en.1000mikes.com/app/scheduleEntry.xhtml?scheduleEntryId=100446" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>DECEPTION</span></a></h4>
+		<p>We see how deception can come back to bite us!</p>
+		<div class="channel">
+
+	<span id="id28340518" class="" style="">on</span>
+
+	<a id="id28340519" href="http://en.1000mikes.com/show/the_christian_path" type="text/html" title="Go to channel &quot;THE CHRISTIAN PATH&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+		    		       THE CHRISTIAN PATH</span></a>
+		</div>
+	</li>
+
+	<li class="entry odd">
+		<div class="startTime">
+		<span class="timestamp" jsonData="{&quot;time&quot;:&quot;2012-06-07T03:45:00+02:00&quot;,&quot;timeOnly&quot;:false}">
+			Today 03:45 
+		</span></div>
+		<h4>
+
+	<a id="id28340520" href="http://en.1000mikes.com/app/scheduleEntry.xhtml?scheduleEntryId=100447" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>WWJD</span></a></h4>
+		<p>Remember the little cloth bracelets? They may have been a fad, but the...</p>
+		<div class="channel">
+
+	<span id="id28340521" class="" style="">on</span>
+
+	<a id="id28340522" href="http://en.1000mikes.com/show/the_christian_path" type="text/html" title="Go to channel &quot;THE CHRISTIAN PATH&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+		    		       THE CHRISTIAN PATH</span></a>
+		</div>
+	</li>
+
+	<li class="entry even">
+		<div class="startTime">
+		<span class="timestamp" jsonData="{&quot;time&quot;:&quot;2012-06-07T07:45:00+02:00&quot;,&quot;timeOnly&quot;:false}">
+			Today 07:45 
+		</span></div>
+		<h4>
+
+	<a id="id28340523" href="http://en.1000mikes.com/app/scheduleEntry.xhtml?scheduleEntryId=100164" type="text/html" title="" class="" onclick="" target="_self" style="">
+		
+		<span>07:45 Seewetter</span></a></h4>
+		<p>Seewetter f&uuml;r die Wassersportler an Nordsee und Ostsee und nautische...</p>
+		<div class="channel">
+
+	<span id="id28340524" class="" style="">on</span>
+
+	<a id="id28340525" href="http://en.1000mikes.com/show/seefunker_on_air" type="text/html" title="Go to channel &quot;Seefunker On Air&quot;" class="" onclick="" target="_self" style="">
+		
+		<span>
+		    		       Seefunker On Air</span></a>
+		</div>
+	</li>
+					</ul>
+					<div class="moretocome">
+						<a href="http://en.1000mikes.com/app/nextBroadcasts.xhtml">
+
+	<span id="id28340526" class="" style="">Further shows</span></a>				
+					</div>
+				</div>
+				
+	</div>
+	
+	<div class="teaser mikes">
+		<h3 class="a11y">
+
+	<span id="id28341856" class="" style="">Become a Mike</span></h3>
+
+		<div>
+			<p>and rate your favorite channels, give feedback to other Mikes or create your own channel.</p>
+			<a href="http://en.1000mikes.com/app/register.xhtml" class="button"><span>Register now!</span></a>
+		</div>  
+	</div>
+		<div class="teaser text">
+			<div class="next">
+			<h3>
+
+	<span id="id28340806" class="" style="">Broadcast options</span></h3>
+				<div class="phone" style="border-top:1px solid #D9D9D9;padding-top:5px;">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/world.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;top:1px;" /> 
+					<b>
+
+	<span id="id28340807" class="" style="">Internet</span></b><br />
+
+	<span id="id28340808" class="" style="">From everywhere</span>
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/DE.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				(040) 414 314 102</b><br /> Germany (Hamburg)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/CH.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				 +41 (43) 500 6570</b><br /> Switzerland (Zurich)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/AT.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				+43 (1) 253 497 8225</b><br /> Austria (Vienna)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/GB.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				0044 20 300 25 996</b><br /> United Kingdom (London)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/IT.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				+39 02 4070 8004</b><br /> Italy (Milan)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/US.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				+1 (646) 360-1708</b><br /> United States (New York)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/ES.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				+34 91 1829802</b><br /> Spain (Madrid)
+				</div>	
+				<div class="phone">
+
+	<img class="icon " src="http://www.1000mikes.com/static/icons/gifs/FR.gif" title="" alt="" style="float:left;margin-right:5px;margin-bottom:10px;" /> <b>
+				+33 (0)1 8288 3030 </b><br /> France (Paris)
+				</div> 			
+			
+			<p class="note">
+
+	<span id="id28340809" class="" style="">All phone numbers are landline numbers within the respective country without additional fees.</span>
+			</p>
+			 
+			</div>
+		</div>
+	
+	<div class="teaser text textAd">
+		<div id="adAnchorRight" class="adRight">
+			<div style="float:right;font-size:80%;margin:0 5px;font-weight:bold;">Our other projects</div>
+				<div lang="en" class="textAd">
+					<p>
+						<strong><a href="http://www.distance24.org" target="_blank" title="Worldwide distance, route info, time offset. By car, train or plane.">Distance calculation</a></strong>
+					</p>
+				</div>
+				<div lang="sv" class="textAd">
+					<p>
+						<strong><a href="http://se.avstand.org" target="_blank" title="F&aring;gelv&auml;gen, tidsskillnad, ruttens ber&auml;kning, k&ouml;rtid, information om str&auml;ckan.">Ber&auml;kna avst&aring;nd</a></strong>
+					</p>
+				</div>
+				<div lang="da" class="textAd">
+					<p>
+						<strong><a href="http://dk.afstand.org" target="_blank" title="Fugleflugtslinje, tidsforskel, ruteberegning, k&oslash;retid, rutevejledning.">Beregn afstande</a></strong>
+					</p>
+				</div>
+				<div lang="no" class="textAd">
+					<p>
+						<strong><a href="http://no.avstand.org" target="_blank" title="Luftlinje, tidsdifferanse, ruteberegning, kj&oslash;retid, strekningsinformasjon. ">Beregn avstander</a></strong>
+					</p>
+				</div>
+		</div>
+		<div id="adAnchorRight2" class="adRight">
+		</div>
+	</div>
+		</div>
+		</div>
+		
+		<div id="footer">
+			<h2 class="a11y">
+
+	<span id="id28341857" class="" style="">General links</span></h2>
+			<div class="footerInner">
+				<ul>
+					<li>
+
+	<a id="id28341858" href="http://en.1000mikes.com/app/faq.xhtml" type="text/html" title="FAQ" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Help</span></a></li>
+					<li>
+
+	<a id="id28341859" href="http://en.1000mikes.com/app/proAccounts.xhtml" type="text/html" title="Pro accounts" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Pro accounts</span></a></li>
+					<li>
+
+	<a id="id28341860" href="http://en.1000mikes.com/app/forumList.xhtml" type="text/html" title="Forum" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Discussion forums</span></a></li>
+					<li>
+
+	<a id="id28341861" href="http://en.1000mikes.com/app/terms.xhtml" type="text/html" title="Terms of Use" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Terms of Use</span></a></li>
+						<li>
+
+	<a id="id28341862" href="http://en.1000mikes.com/app/privacy.xhtml" type="text/html" title="1000MIKES's Privacy Policy" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Privacy</span></a></li>
+					<li>
+
+	<a id="id28341863" href="http://en.1000mikes.com/app/imprint.xhtml" type="text/html" title="Contact information and more" class="" onclick="" target="_self" style="">
+		
+		<span>
+		Contact</span></a></li>
+				</ul>
+					<h3 class="a11y">
+
+	<span id="id28341864" class="" style="">Languages</span></h3>
+					<ul style="height:25px"> 
+							<li>
+
+	<a id="id28341865" href="http://en.1000mikes.com/show/die_ussi_und_fashi_show" type="text/html" title="" class="langSelect" onclick="mikes.setLang('en','http://en.1000mikes.com/show/die_ussi_und_fashi_show');return false;" target="_self" style="">
+		
+		<span>English</span></a>
+							</li> 
+							<li>
+
+	<a id="id28341866" href="http://fr.1000mikes.com/show/die_ussi_und_fashi_show" type="text/html" title="" class="langSelect" onclick="mikes.setLang('fr','http://fr.1000mikes.com/show/die_ussi_und_fashi_show');return false;" target="_self" style="">
+		
+		<span>French</span></a>
+							</li> 
+							<li>
+
+	<a id="id28341867" href="http://de.1000mikes.com/show/die_ussi_und_fashi_show" type="text/html" title="" class="langSelect" onclick="mikes.setLang('de','http://de.1000mikes.com/show/die_ussi_und_fashi_show');return false;" target="_self" style="">
+		
+		<span>German</span></a>
+							</li> 
+							<li>
+
+	<a id="id28341868" href="http://it.1000mikes.com/show/die_ussi_und_fashi_show" type="text/html" title="" class="langSelect" onclick="mikes.setLang('it','http://it.1000mikes.com/show/die_ussi_und_fashi_show');return false;" target="_self" style="">
+		
+		<span>Italian</span></a>
+							</li> 
+							<li>
+
+	<a id="id28341869" href="http://es.1000mikes.com/show/die_ussi_und_fashi_show" type="text/html" title="" class="langSelect" onclick="mikes.setLang('es','http://es.1000mikes.com/show/die_ussi_und_fashi_show');return false;" target="_self" style="">
+		
+		<span>Spanish</span></a>
+							</li>
+					</ul>
+				
+				<div style="font-size: 10px;">
+					<span class="timezoneInfo">Central European Time</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		//dojo.addOnLoad(mikes.adjustFooterMargin);
+		dojo.addOnLoad(mikes.aria);
+		dojo.addOnLoad(mikes.checkVisitor);
+		dojo.addOnLoad(mikes.enableLikes);
+		dojo.addOnLoad( 
+			function() {
+				dojo.query("div[data-targetNode]").forEach(
+					function(node){
+						var targetNode = dojo.attr(node, "data-targetNode");
+						dojo.place(node, targetNode);
+						dojo.removeClass(node, "a11y");
+						mikes.show(node);
+					}
+				);
+				mikes.adjustFooterMargin();
+			}
+		);
+
+	</script>
+	
+	 
+	<div data-targetNode="adAnchorLeft">
+					<div class="box" style="padding:5ppx;width:160px;">
+						<script type="text/javascript">
+							google_ad_client = "pub-0334603767789102";
+							google_ad_slot = "8552608039";
+							google_ad_width = Number("160");
+							google_ad_height = Number("600"); 
+						</script>
+						<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+					</div>
+	</div>
+    
+		<script type="text/javascript">
+			dojo.addOnLoad(mikes.stats);
+		</script>
+		
+		<noscript>
+			<p><img alt="Clicky" src="http://in.getclicky.com/22883-db3.gif" /></p>
+		</noscript>	
+</body>
+</html>

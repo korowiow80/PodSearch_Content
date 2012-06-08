@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html dir="ltr" lang="de-DE" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<!-- WP-Minify JS -->
+<!-- WP-Minify CSS -->
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Nerdtalk &#8211; Der Podcast über Kinofilme - Der wöchentliche Podcast über aktuelle Filme im Kino und auf DVD/BluRay" />   
+<title>
+Nerdtalk &#8211; Der Podcast über Kinofilme
+</title>
+
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.nerdtalk.de/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://www.nerdtalk.de/wp-content/plugins/podpress/podpress.css?ver=3.3.2' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://www.nerdtalk.de/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://www.nerdtalk.de/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"E5E5E5", text:"333333", leftbg:"CCCCCC", lefticon:"333333", volslider:"666666", voltrack:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", righticon:"333333", righticonhover:"FFFFFF", loader:"009900", track:"FFFFFF", border:"CCCCCC", tracker:"DDDDDD", skip:"666666", slider:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.nerdtalk.de/";
+var podPressBackendURL = "http://www.nerdtalk.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.nerdtalk.de/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5sec = "d501d791c6";
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://www.nerdtalk.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.nerdtalk.de/wp-content/plugins/moviemeter/js.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.nerdtalk.de/wp-content/plugins/podpress/js/podpress.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.nerdtalk.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.nerdtalk.de/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="stylesheet" type="text/css" href="http://www.nerdtalk.de/wp-content/plugins/wp-recaptcha/recaptcha.css" />	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<link rel="alternate" type="application/rss+xml" title="Nerdtalk - Der Podcast über Kinofilme &#187; Podcast Feed" href="http://www.nerdtalk.de/feed/podcast/" />
+<meta name="robots" content="all" /><link rel="stylesheet" href="http://static.nerdtalk.de/themes/Nerdtalk/style.css" media="screen" />
+ <!-- <link rel="stylesheet" href="http://static.nerdtalk.de/themes/Nerdtalk/css/dropdown.css" media="all" /> /-->
+<link rel="stylesheet" href="http://static.nerdtalk.de/themes/Nerdtalk/css/default.advanced.css" media="all" />
+
+<link rel="alternate" type="application/rss+xml" title="Nerdtalk - Der Podcast über Kinofilme RSS Feed" href="http://www.nerdtalk.de/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Nerdtalk - Der Podcast über Kinofilme Atom Feed" href="http://www.nerdtalk.de/feed/atom/" />
+<link rel="pingback" href="http://www.nerdtalk.de/xmlrpc.php" /><!-- the default values -->
+
+<!-- if page is content page -->
+<meta property="og:site_name" content="Nerdtalk &#8211; Der Podcast über Kinofilme" />
+<meta property="og:description" content="Der wöchentliche Podcast über aktuelle Filme im Kino und auf DVD/BluRay" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://static.nerdtalk.de/themes/Nerdtalk/images/N_schwarz_300_bigger.jpg" />
+<link rel="image_src" href="http://static.nerdtalk.de/themes/Nerdtalk/images//N_schwarz_300_bigger.jpg" />
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<meta content="IE=8" http-equiv="X-UA-Compatible" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2176192-2']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div class="mainbody">
+
+	<!--div class="page_preloader" id="page_preloader"><div class="loader"><img src="http://static.nerdtalk.de/themes/Nerdtalk/images/lightbox-ico-loading.gif" alt="" /></div></div-->
+
+    <div class="header">
+
+        <div class="wrapper">
+
+        	<div class="logo">
+
+                <a href="http://www.nerdtalk.de/" title="Nerdtalk - Der Podcast über Kinofilme">
+                	<img src="http://static.nerdtalk.de/themes/Nerdtalk/images/logo.png" alt="Nerdtalk - Der Podcast über Kinofilme" width="284" height="103" />
+
+                </a>
+
+            </div>
+
+			<div class="topNav">
+
+            	<div class="topNavR">
+
+                	<div class="topNavB">
+
+                    	
+                        Willkommen Filmfan!
+
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="listTop">
+
+            	<div class="menu-hauptmenu-container"><ul id="menu-hauptmenu" class="menu"><li id="menu-item-2658" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2658"><a href="http://www.nerdtalk.de">Home</a></li>
+<li id="menu-item-2657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2657"><a href="http://www.nerdtalk.de/team/">Team</a></li>
+<li id="menu-item-2656" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2656"><a href="http://www.nerdtalk.de/besucher-tippspiel/">Besucher-Tippspiel</a></li>
+<li id="menu-item-2952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2952"><a href="http://www.nerdtalk.de/der-nerdtalk-de-wanderzirkus/">Wanderzirkus</a></li>
+</ul></div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="slogan">
+
+            	<div class="topB">Der w&ouml;chentliche Film-Schnack im Netz</div>
+
+                <div class="topS">Podcast, Kritiken, Tipps</div>
+
+            </div>
+
+            <div class="search">
+
+           <form method="get" action="http://www.nerdtalk.de/">
+<input class="inp" value="Suchst du etwas?" onclick="if (this.value==this.defaultValue){this.value=''};" onblur="if (this.value==''){this.value=this.defaultValue};" name="s" />
+	<input class="sub" type="image" src="http://static.nerdtalk.de/themes/Nerdtalk/images/search.gif" alt="suchen" />
+                </form>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="featuredCats">
+
+            	<div class="menu-submenu-container"><ul id="menu-submenu" class="menu"><li id="menu-item-2668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2668"><a href="http://www.nerdtalk.de/category/kritik/">Filmkritiken</a></li>
+<li id="menu-item-2670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2670"><a href="http://www.nerdtalk.de/category/gewinnspiel/">Gewinnspiele</a></li>
+<li id="menu-item-2669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2669"><a href="http://www.nerdtalk.de/category/tv-tipps/">TV-Tipps</a></li>
+</ul></div>
+                <div class="clear"></div>
+
+            </div>
+
+		</div>
+
+	</div>
+
+    <div class="bodywraps">
+
+        <div class="wrapper">
+
+            <div class="content" id="main-content">
+
+            	            <div class="featuredBlock">
+
+            	<div class="latestNews">
+
+                	<h3>Die neusten Artikel</h3>
+
+                    <ul>
+						
+                        <li><a href="http://www.nerdtalk.de/3209-media-monday-49/" title="Media Monday #49">Media Monday #49</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3205-trailershow-the-bourne-legacy-the-amazing-spider-man-branded-starship-troopers-invasion/" title="Trailershow: The Bourne Legacy, The amazing Spider-Man, Branded, Starship Troopers &#8211; Invasion">Trailershow: The Bourne Legacy, The amazing&hellip;</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3207-gewinner-des-the-muppets-gewinnspiels/" title="Gewinner des &#8220;The Muppets&#8221;-Gewinnspiels">Gewinner des &#8220;The Muppets&#8221;-Gewinnspiels</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3201-fernsehtipps-31-05-bis-06-06/" title="Fernsehtipps &#8211; 31.05. bis 06.06.">Fernsehtipps &#8211; 31.05. bis 06.06.</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/" title="Nerdtalk Sendung 256">Nerdtalk Sendung 256</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3073-trailershow-abraham-lincoln-vampire-hunter-anchorman-2-the-dark-knight-rises-finding-nemo-3d-gottesklang/" title="Trailershow: Abraham Lincoln &#8211; Vampire Hunter, Anchorman 2, The Dark Knight Rises, Finding Nemo 3D, Gottesklang">Trailershow: Abraham Lincoln &#8211; Vampire&hellip;</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3054-die-muppets-bluray-review-und-gewinnspiel/" title="Die Muppets &#8211; BluRay-Review und Gewinnspiel">Die Muppets &#8211; BluRay-Review und Gewinnspiel</a></li>
+
+                        
+                        <li><a href="http://www.nerdtalk.de/3064-nerdtalk-sendung-255/" title="Nerdtalk Sendung 255">Nerdtalk Sendung 255</a></li>
+
+                        
+                    </ul>
+
+                </div>
+
+                <div class="slider">
+
+                <iframe style="width:715px; margin:0px; height:350px; border:0px;" src="http://static.nerdtalk.de/themes/Nerdtalk/slide/slide.php">Your Browser does't support iframe.</iframe>
+
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+	        <div class="clear"></div>
+                
+                <div id="content">            
+                <div class="leftside" id="leftbar">
+                	                	<div class="tabSystem" id="tabSystem">
+                    	<ul class="tabs">
+                        	<li id="ec" class="first selected"><span>Neueste Podcasts</span></li>
+                        	<li id="mp" class="last"><span>Neueste Filmkritiken</span></li>
+                        </ul>
+                        <div class="tabContent">
+                        	<div id="tab_ec">
+                            	                                <div class="sPost">
+                                    <div class="image"><a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/" title="Nerdtalk Sendung 256"><img width="208" height="104" src="http://static.nerdtalk.de/uploads/2012/05/men_in_black_3-208x104.jpg" class="attachment-frontpage-thumb wp-post-image" alt="men_in_black_3" title="men_in_black_3" /></a></div>
+                                    <h2><a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/" rel="bookmark" title="Permanent Link to Nerdtalk Sendung 256">Nerdtalk Sendung 256</a></h2>
+                                    <p>Gesehene Filme:
+Men in Black 3
+Perfect Sense
+Eine Insel namens Udo
+Dark Shadows
+Rollergirl
+Kill The Boss
+Boogie Nights
+
+Vorgestellte Filmstarts der Woche:
+
+Snow White and the Huntsman
+http://www.filmstarts.de/kritiken/</p>
+                                    <p class="more"><a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/">Den Rest, bitte...</a></p>
+                                </div>
+								                                <div class="sPost">
+                                    <div class="image"><a href="http://www.nerdtalk.de/3064-nerdtalk-sendung-255/" title="Nerdtalk Sendung 255"><img width="208" height="104" src="http://static.nerdtalk.de/uploads/2012/05/der_diktator-208x104.jpg" class="attachment-frontpage-thumb wp-post-image" alt="der_diktator" title="der_diktator" /></a></div>
+                                    <h2><a href="http://www.nerdtalk.de/3064-nerdtalk-sendung-255/" rel="bookmark" title="Permanent Link to Nerdtalk Sendung 255">Nerdtalk Sendung 255</a></h2>
+                                    <p>Gesehene Filme:
+A History of Violence
+Der Diktator
+Moonrise Kingdom
+My Idiot Brother
+
+Vorgestellte Filmstarts der Woche:
+
+Men in Black 3
+http://www.filmstarts.de/kritiken/104315/trailer/19317747.html
+
+Moonrise Kingdom
+</p>
+                                    <p class="more"><a href="http://www.nerdtalk.de/3064-nerdtalk-sendung-255/">Den Rest, bitte...</a></p>
+                                </div>
+								                                <div class="sPost sPostLast">
+                                    <div class="image"><a href="http://www.nerdtalk.de/3029-nerdtalk-sendung-254/" title="Nerdtalk Sendung 254"><img width="208" height="104" src="http://static.nerdtalk.de/uploads/2012/05/dark_shadows-208x104.jpg" class="attachment-frontpage-thumb wp-post-image" alt="dark_shadows" title="dark_shadows" /></a></div>
+                                    <h2><a href="http://www.nerdtalk.de/3029-nerdtalk-sendung-254/" rel="bookmark" title="Permanent Link to Nerdtalk Sendung 254">Nerdtalk Sendung 254</a></h2>
+                                    <p>Gesehene Filme:
+Dark Shadows
+50/50 - Freunde fürs (Über-)Leben
+Four Lions
+The Guard
+Ausgerechnet Sibirien
+Midnight in Paris
+Iron Sky
+Krieg der Knöpfe
+Wir kaufen einen Zoo
+Piraten 3D
+We want sex
+Larry Crowne
+Brokeba</p>
+                                    <p class="more"><a href="http://www.nerdtalk.de/3029-nerdtalk-sendung-254/">Den Rest, bitte...</a></p>
+                                </div>
+								                                <div class="clear"></div>
+                            </div>
+                            <div id="tab_mp">
+                            	                                <div class="sPost">
+                                    <div class="image"><a href="http://www.nerdtalk.de/3054-die-muppets-bluray-review-und-gewinnspiel/" title="Die Muppets &#8211; BluRay-Review und Gewinnspiel"><img width="208" height="104" src="http://static.nerdtalk.de/uploads/2012/05/the_muppets_kermit-208x104.jpg" class="attachment-frontpage-thumb wp-post-image" alt="the_muppets_kermit" title="the_muppets_kermit" /></a></div>
+                                    <h2><a href="http://www.nerdtalk.de/3054-die-muppets-bluray-review-und-gewinnspiel/" rel="bookmark" title="Permanent Link to Die Muppets &#8211; BluRay-Review und Gewinnspiel">Die Muppets &#8211; BluRay-Review&hellip;</a></h2>
+                                    <p>12 Jahre dauerte es, bis sich die Muppets nach ihrem Kinofilm "Muppets aus dem All" wieder auf der Leinwand blicken ließen.
+Und Anfang des Jahres war es endlich so weit, dass die Muppets wieder ins Kino kamen. Die Freude war rie</p>
+                                    <p class="more"><a href="http://www.nerdtalk.de/3054-die-muppets-bluray-review-und-gewinnspiel/">Den Rest, bitte...</a></p>
+                                </div>
+								                                <div class="sPost">
+                                    <div class="image"><a href="http://www.nerdtalk.de/2984-the-guard-ein-ire-sieht-schwarz-filmkritik-inkl-bluray-review/" title="&#8220;The Guard &#8211; Ein Ire sieht schwarz&#8221; &#8211; Filmkritik inkl. BluRay-Review"><img src="http://static.nerdtalk.de/uploads/2012/05/the_Guard.jpg" class="attachment-frontpage-thumb wp-post-image" alt="the_Guard" title="the_Guard" /></a></div>
+                                    <h2><a href="http://www.nerdtalk.de/2984-the-guard-ein-ire-sieht-schwarz-filmkritik-inkl-bluray-review/" rel="bookmark" title="Permanent Link to &#8220;The Guard &#8211; Ein Ire sieht schwarz&#8221; &#8211; Filmkritik inkl. BluRay-Review">&#8220;The Guard &#8211; Ein Ire sieht&hellip;</a></h2>
+                                    <p>Irland ist nun nicht gerade für deren Film-Exportschlager bekannt, vergleicht man es mit großen Produktionsländern. Umso neugieriger waren wir über "The Guard", denn der Film sollte Witz, Charme, Aussage haben. Ob's sitmmt? Wi</p>
+                                    <p class="more"><a href="http://www.nerdtalk.de/2984-the-guard-ein-ire-sieht-schwarz-filmkritik-inkl-bluray-review/">Den Rest, bitte...</a></p>
+                                </div>
+								                                <div class="sPost sPostLast">
+                                    <div class="image"><a href="http://www.nerdtalk.de/2909-dat-mokt-wie-gistern-der-wanderzirkus-ist-zu-ende/" title="&#8220;Dat mokt wie gistern&#8221; &#8211; Der Wanderzirkus ist zu Ende"><img width="208" height="104" src="http://static.nerdtalk.de/uploads/2012/04/apparatspott-208x104.jpg" class="attachment-frontpage-thumb wp-post-image" alt="apparatspott" title="apparatspott" /></a></div>
+                                    <h2><a href="http://www.nerdtalk.de/2909-dat-mokt-wie-gistern-der-wanderzirkus-ist-zu-ende/" rel="bookmark" title="Permanent Link to &#8220;Dat mokt wie gistern&#8221; &#8211; Der Wanderzirkus ist zu Ende">&#8220;Dat mokt wie gistern&#8221;&hellip;</a></h2>
+                                    <p>Vor knapp einem Jahr entstand eine Idee, ähnlich dem Bookcrossing: Der Buchautor Uwe Hermann hat uns eine DVD seiner Star Trek-Parodie "Dat mokt wie gistern" aus der Reihe "Der Apparatspott" geschickt. Mit seiner Erlaubnis starte</p>
+                                    <p class="more"><a href="http://www.nerdtalk.de/2909-dat-mokt-wie-gistern-der-wanderzirkus-ist-zu-ende/">Den Rest, bitte...</a></p>
+                                </div>
+								                                <div class="clear"></div>
+                            </div>
+                                                    </div>
+                    </div>
+                	                    
+                    <div class="heading2">
+                        <h2>
+                                                        Letzte <span>Artikel</span>
+                                                    </h2>
+                    </div>
+
+                    <div class="post-wrapper">
+                        <!-- loop start-->
+                                                <div class="post-3209 post type-post status-publish format-standard hentry category-kolumne" id="post-3209">
+                            <div class="post_info">
+                                <h2><a href="http://www.nerdtalk.de/3209-media-monday-49/" rel="bookmark" title="Link zu Media Monday #49">Media Monday #49</a></h2>
+                                <p>Geschrieben von <a href="http://www.nerdtalk.de/author/andreas/" title="Artikel von andreas" rel="author">andreas</a> am 04. Juni 2012 || <a href="http://www.nerdtalk.de/3209-media-monday-49/">3 Kommentare</a> </p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="postdetail">
+                            <p><img width="714" height="354" src="http://static.nerdtalk.de/uploads/2012/03/Media_Monday_Teaser.jpg" class="attachment-post-thumbnail wp-post-image" alt="Media_Monday_Teaser" title="Media_Monday_Teaser" /></p>                                <p>Diese Woche sind wir wieder mit am Start. Die Fragen gibt&#8217;s wie immer im <a href="http://medienjournal-blog.de/2012/06/media-monday-49/" target="_blank" rel="nofollow">Medienjournal-Blog</a>.</p>
+<p>1. Der beste Film mit Clark Gable ist für mich <strong>&#8220;Vom Winde verweht&#8221;</strong><strong>. Zwar habe ich den Film noch nie gesehen (zumindest aber erst vor kurzem beschlossen ihn mal zu sichten), aber ohne Zweifel war es der Film, der Gable für einen Großteil der Filmfreunde unvergesslich machte.</strong></p>
+<p>2. Pedro Almodóvar hat mit <strong>???</strong> seine beste Regiearbeit abgelegt, weil <strong>ich zwar seinen Hang zu Penelope Cruz als Hauptdarstellerin gut nachvollziehen kann, aber immer noch keinen seiner Filme gesehen habe. Zumindest warten &#8220;Volver&#8221; und &#8220;Zerrissene Umarmungen&#8221; auf der Festplatte auf ihre Sichtung.</strong></p>
+<p>3. Der beste Film mit Jennifer Connelly ist für mich <strong>&#8220;Requiem For A Dream&#8221;</strong>, der zweite Aronofsky-Film.</p>
+<p>4. Jeder hat so seine Filme, von denen sie/er glaubt, dass sie außer einem selbst kaum jemand kennt, obwohl sie unglaublich gut, spannend, witzig oder was auch immer sind. Raus damit, was sind eure Geheimtipps?<br />
+<strong>Hier ist Gehirnschmalz gefordert. Spontan fällt mir hier &#8220;Im Juli&#8221; ein, ein Frühwerk von Fatih Akin. Eine Liebeskomödie mit Moritz Bleibtreu und Christiane Paul in den Hauptrollen, deren finale Liebeserklärung ihresgleichen sucht. Falls auch TV-Filme hier reinzählen, dann kann ich auch eingefleischten Kinogängern die Sichtung von &#8220;Zivilcourage&#8221;, &#8220;Es war einer von uns&#8221; oder &#8220;Homevideo&#8221; doch sehr ans Herz legen, weil diese TV-Filme so klasse waren, dass sie auch eine Kino-Auswertung verdient hätten.</strong></p>
+<p>5. Ein neuer Film von <strong>Christopher Nolan</strong> kann ja nur <strong>mit hohen Erwartungen einher gehen. Ich bin mal gespannt was er uns nach &#8220;The Dark Knight Rises&#8221; zu bieten hat. Nolan ist immer für eine Überraschung und eine überwältigende Storyline gut.</strong></p>
+<p>6.<strong> Wenn zwei besondere Filme nacheinander geguckt werden, unterbrochen von einem leckeren Abendessen in der Sommersonne, jeder Film an sich schon hochromantisch ist und der letzte Film einen mit dem perfektesten Filmende und einem verträumten Grinsen aus dem Kinosaal entlässt (also quasi die ist die taggleiche Sichtung von &#8220;Before Sunrise&#8221; und &#8220;Before Sunset&#8221;),</strong> ist für mich der perfekte Filmeabend.</p>
+<p>7. Mein zuletzt gesehener Film ist <strong>&#8220;Sherlock S02E02 – Die Hunde von Baskerville&#8221;</strong> und der war zwar <strong>immer noch wesentlich sehenswerter als 99,9 % des restlichen Fernsehprogramms, im direkten Vergleich zu anderen Episoden fällt diese aber doch ein klein wenig ab</strong>, weil <strong>zu sehr auf Schockmomente und weniger auf Sherlocks Interaktion mit anderen Menschen gesetzt wird. Dennoch: &#8220;Sherlock&#8221; ist weiterhin das Beste was seit vielen Jahren in der Glotze lief.</strong></p>
+                                <div class="clear"></div>
+                                                            </div>                    
+                            <div class="clear"></div>
+                        </div>
+                                                <div class="post-3205 post type-post status-publish format-standard hentry category-featured category-trailer tag-branded tag-starship-troopers-invasion tag-the-amazing-spider-man tag-the-bourne-legacy" id="post-3205">
+                            <div class="post_info">
+                                <h2><a href="http://www.nerdtalk.de/3205-trailershow-the-bourne-legacy-the-amazing-spider-man-branded-starship-troopers-invasion/" rel="bookmark" title="Link zu Trailershow: The Bourne Legacy, The amazing Spider-Man, Branded, Starship Troopers &#8211; Invasion">Trailershow: The Bourne Legacy, The amazing Spider-Man, Branded, Starship Troopers &#8211; Invasion</a></h2>
+                                <p>Geschrieben von <a href="http://www.nerdtalk.de/author/alexander/" title="Artikel von Alex" rel="author">Alex</a> am 03. Juni 2012 || <a href="http://www.nerdtalk.de/3205-trailershow-the-bourne-legacy-the-amazing-spider-man-branded-starship-troopers-invasion/">5 Kommentare</a> </p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="postdetail">
+                                                            <h2>The Bourne Legacy</h2>
+<p><a href="http://www.youtube.com/watch?v=DfzuYlgzrsM&#038;hd=1" class="video-in-link" style="background:url('http://i.ytimg.com/vi/DfzuYlgzrsM/hqdefault.jpg') no-repeat center center; width:500px; height:281px;" onclick="ryt(this, 'DfzuYlgzrsM', 500, 281);" id="DfzuYlgzrsM"><img src="http://static.nerdtalk.de/uploads/youtube_play_button.png" border="0" width="96" height="70" alt="Abspielen" title="Abspielen" class="playyt" /></a></p>
+<p>Eine Trilogie ist eine Trilogie &#8211; eigentlich! Na gut, das hier ist das Vermächtnis <img src='http://www.nerdtalk.de/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' />  . Rasante Action, so wie man sie aus den ursprünglichen Teilen her kennt, ist garantiert. Neue und bekannte Schauspieler bringen neuen Wind, find ich gut, gefällt mir. Für mich ein Kinobesuch wert.</p>
+<h2>The amazing Spider-Man (Australischer Trailer)</h2>
+<p><a href="http://www.youtube.com/watch?v=32nyLBiAU1w&#038;hd=1" class="video-in-link" style="background:url('http://i.ytimg.com/vi/32nyLBiAU1w/hqdefault.jpg') no-repeat center center; width:500px; height:281px;" onclick="ryt(this, '32nyLBiAU1w', 500, 281);" id="32nyLBiAU1w"><img src="http://static.nerdtalk.de/uploads/youtube_play_button.png" border="0" width="96" height="70" alt="Abspielen" title="Abspielen" class="playyt" /></a></p>
+<p>Inzwischen gab es zu diesem Film sooo viele Trailer, dass ich gar nicht mehr weiß, was ich noch schreiben soll. Bei mir stand schon früh fest, das ich mir Spider-Man anschauen werde, da brauchte es keine weiteren Trailer mehr.</p>
+<h2>Branded</h2>
+<p><a href="http://www.youtube.com/watch?v=gtzxiAUQ-3E&#038;hd=1" class="video-in-link" style="background:url('http://i.ytimg.com/vi/gtzxiAUQ-3E/hqdefault.jpg') no-repeat center center; width:500px; height:281px;" onclick="ryt(this, 'gtzxiAUQ-3E', 500, 281);" id="gtzxiAUQ-3E"><img src="http://static.nerdtalk.de/uploads/youtube_play_button.png" border="0" width="96" height="70" alt="Abspielen" title="Abspielen" class="playyt" /></a></p>
+<p>Haltet den QR-Code Reader bereit, den hier gibts gleich 97 Codes zum Scannen &#8211; im Trailer! Ansonsten eher durchwachsen. Ein Film zwischen Realität und Transformers. Kann mich noch nicht ganz damit anfreunden.</p>
+<h2>Starship Troopers &#8211; Invasion</h2>
+<p><a href="http://www.youtube.com/watch?v=nrlI1Hs_HIM&#038;hd=1" class="video-in-link" style="background:url('http://i.ytimg.com/vi/nrlI1Hs_HIM/hqdefault.jpg') no-repeat center center; width:500px; height:281px;" onclick="ryt(this, 'nrlI1Hs_HIM', 500, 281);" id="nrlI1Hs_HIM"><img src="http://static.nerdtalk.de/uploads/youtube_play_button.png" border="0" width="96" height="70" alt="Abspielen" title="Abspielen" class="playyt" /></a></p>
+<p>Wie ein Computerspiel für die große Leinwand. Rund 15 Jahre nach dem ersten Teil kommt nun eine Fortsetzung. Vom ersten Teil hab ich noch nichts gehört, liegt auch einfach an der Indizierung die der Film erhalten hat. Anschauen? Eher nein, ist nicht mein Fall.</p>
+                                <div class="clear"></div>
+                                                            </div>                    
+                            <div class="clear"></div>
+                        </div>
+                                                <div class="post-3207 post type-post status-publish format-standard hentry category-gewinnspiel" id="post-3207">
+                            <div class="post_info">
+                                <h2><a href="http://www.nerdtalk.de/3207-gewinner-des-the-muppets-gewinnspiels/" rel="bookmark" title="Link zu Gewinner des &#8220;The Muppets&#8221;-Gewinnspiels">Gewinner des &#8220;The Muppets&#8221;-Gewinnspiels</a></h2>
+                                <p>Geschrieben von <a href="http://www.nerdtalk.de/author/phil/" title="Artikel von phil" rel="author">phil</a> am 03. Juni 2012 || <a href="http://www.nerdtalk.de/3207-gewinner-des-the-muppets-gewinnspiels/">6 Kommentare</a> </p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="postdetail">
+                            <p><img width="714" height="357" src="http://static.nerdtalk.de/uploads/2012/05/the_muppets_waldorf_statler.jpg" class="attachment-post-thumbnail wp-post-image" alt="the_muppets_waldorf_statler" title="the_muppets_waldorf_statler" /></p>                                <p>Die Muppets sind wieder unterwegs und wir haben für euch die <a href="http://www.nerdtalk.de/3054-die-muppets-bluray-review-und-gewinnspiel/" title="Die Muppets – BluRay-Review und Gewinnspiel">BluRay zum aktuellen Film &#8220;The Muppets&#8221; durchgesehen</a>. Das Fazit war durch und durch nur positiv!<br />
+Und deswegen haben wir auch gleich <a href="http://www.nerdtalk.de/3054-die-muppets-bluray-review-und-gewinnspiel/" title="Die Muppets – BluRay-Review und Gewinnspiel">ein Gewinnspiel an die Rezension angeschlossen</a>.</p>
+<p>Ihr solltet einen einfachen Text auf eurem Twitter-Account veröffentlichen &#8211; das wars.<br />
+Das Gewinnspiel ist zu Ende, jetzt geht es an die Verlosung&#8230;<br />
+ <a href="http://www.nerdtalk.de/3207-gewinner-des-the-muppets-gewinnspiels/#more-3207" class="more-link">Den Rest, bitte&#8230;</a></p>
+                                <div class="clear"></div>
+                                                            </div>                    
+                            <div class="clear"></div>
+                        </div>
+                                                <div class="post-3201 post type-post status-publish format-standard hentry category-tv category-tv-tipps tag-adams-apfel" id="post-3201">
+                            <div class="post_info">
+                                <h2><a href="http://www.nerdtalk.de/3201-fernsehtipps-31-05-bis-06-06/" rel="bookmark" title="Link zu Fernsehtipps &#8211; 31.05. bis 06.06.">Fernsehtipps &#8211; 31.05. bis 06.06.</a></h2>
+                                <p>Geschrieben von <a href="http://www.nerdtalk.de/author/lars/" title="Artikel von Lars" rel="author">Lars</a> am 31. Mai 2012 || <a href="http://www.nerdtalk.de/3201-fernsehtipps-31-05-bis-06-06/">keine Kommentare</a> </p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="postdetail">
+                            <p><img width="714" height="357" src="http://static.nerdtalk.de/uploads/2012/05/aa.jpg" class="attachment-post-thumbnail wp-post-image" alt="aa" title="aa" /></p>                                <p>Gerade gestern in der Episode noch groß die TV-Tipps für heute Nachmittag angekündigt, und dann kann ich nur mit einem Film aufwarten. Summer in the city<a href="http://www.youtube.com/watch?v=s1_8909dNJ0">!</a></p>
+<p>Viel Spaß beim Fernsehen!</p>
+<p>Filme, deren Titel in <span style="color: #999999">grauer Schrift</span> dargestellt sind, werden nur in einer gekürzten Fassung ausgestrahlt, obwohl sie in der Uncut-Version sehenswert wären.</p>
+<p>Filme, die nach 24.00 Uhr laufen, schreibe ich dennoch beim vorhergehenden Tag auf. Wenn ein Film also z.B. um 1:15 am Samstag hier in den Fernsehtipps steht, läuft er <em>eigentlich</em> am Sonntag um 1:15 morgens.</p>
+<p style="text-align: center"> <a href="http://www.nerdtalk.de/3201-fernsehtipps-31-05-bis-06-06/#more-3201" class="more-link">Den Rest, bitte&#8230;</a></p>
+                                <div class="clear"></div>
+                                                            </div>                    
+                            <div class="clear"></div>
+                        </div>
+                                                <div class="post-3198 post type-post status-publish format-standard hentry category-nerdtalk category-podcast tag-boogie-nights tag-dark-shadows tag-eine-insel-namens-udo tag-kill-the-boss tag-men-in-black-3 tag-perfect-sense tag-rollergirl" id="post-3198">
+                            <div class="post_info">
+                                <h2><a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/" rel="bookmark" title="Link zu Nerdtalk Sendung 256">Nerdtalk Sendung 256</a></h2>
+                                <p>Geschrieben von <a href="http://www.nerdtalk.de/author/phil/" title="Artikel von phil" rel="author">phil</a> am 31. Mai 2012 || <a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/">11 Kommentare</a> </p>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="postdetail">
+                                                            <div class="podPress_content podPress_content_audio_mp3">
+<div class="podpress_playerspace podpress_playerspace_audio_mp3 podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_1"><!-- podPress --></div></div>
+<div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://www.nerdtalk.de/podpress_trac/web/3198/0/2012-05-31_Nerdtalk-Sendung-256.MP3" target="new" title="Download: Nerdtalk Sendung 256" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://www.nerdtalk.de/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">Nerdtalk Sendung 256</span> <span class="podpress_mediafile_dursize podpress_mediafile_dursize_audio_mp3">[ 1:16:40 ]</span> <a href="#podPressPlayerSpace_1" class="podpress_playlink podpress_playlink_audio_mp3" onclick="javascript:podPressShowHidePlayer('1', 'http://www.nerdtalk.de/podpress_trac/play/3198/0/2012-05-31_Nerdtalk-Sendung-256.MP3', 290, 24, 'false', 'http://www.nerdtalk.de/wp-content/plugins/podpress/images/vpreview_center.png', 'Nerdtalk Sendung 256', 'Andreas Waschk, Phil Marx'); return false;"><span id="podPressPlayerSpace_1_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_1_OrigURL" value="http://media.nerdtalk.de/podcasts/2012-05-31_Nerdtalk-Sendung-256.MP3" /> | <a href="#podPressPlayerSpace_1" class="podpress_playinpopup podpress_playinpopup_audio_mp3" onclick="javascript:podPressPopupPlayer('1', 'http://www.nerdtalk.de/podpress_trac/play/3198/0/2012-05-31_Nerdtalk-Sendung-256.MP3', 290, 24, 'Nerdtalk - Der Podcast über Kinofilme', '3198', 'Nerdtalk Sendung 256', 'Andreas Waschk, Phil Marx'); return false;">Play in Popup</a> | <a href="http://www.nerdtalk.de/podpress_trac/web/3198/0/2012-05-31_Nerdtalk-Sendung-256.MP3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a></div></div>
+<script type="text/javascript">podPressShowHidePlayer('1', 'http://www.nerdtalk.de/podpress_trac/play/3198/0/2012-05-31_Nerdtalk-Sendung-256.MP3', 290, 24, 'false', 'http://www.nerdtalk.de/wp-content/plugins/podpress/images/vpreview_center.png', 'Nerdtalk Sendung 256', 'Andreas Waschk, Phil Marx');</script><h2>Gesehene Filme:</h2>
+<p><strong>Men in Black 3<br />
+Perfect Sense<br />
+Eine Insel namens Udo<br />
+Dark Shadows<br />
+Rollergirl<br />
+Kill The Boss<br />
+Boogie Nights</strong><br />
+ <a href="http://www.nerdtalk.de/3198-nerdtalk-sendung-256/#more-3198" class="more-link">Den Rest, bitte&#8230;</a></p>
+                                <div class="clear"></div>
+                                                            </div>                    
+                            <div class="clear"></div>
+                        </div>
+                         
+                                                <div class="clear"></div>
+                        <!-- loop end-->
+                        <div class="fotNav">
+                            <div class='wp-pagenavi'>
+<span class='pages'>Seite 1 von 184</span><span class='current'>1</span><a href='http://www.nerdtalk.de/page/2/' class='page larger'>2</a><a href='http://www.nerdtalk.de/page/3/' class='page larger'>3</a><a href='http://www.nerdtalk.de/page/4/' class='page larger'>4</a><a href='http://www.nerdtalk.de/page/5/' class='page larger'>5</a><span class='extend'>...</span><a href='http://www.nerdtalk.de/page/10/' class='larger page'>10</a><a href='http://www.nerdtalk.de/page/20/' class='larger page'>20</a><a href='http://www.nerdtalk.de/page/30/' class='larger page'>30</a><span class='extend'>...</span><a href='http://www.nerdtalk.de/page/2/' class='nextpostslink'>»</a><a href='http://www.nerdtalk.de/page/184/' class='last'>Letzte »</a>
+</div> 
+                                                    </div>
+                        <div style="height:10px;"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="sidebar" id="sidebar">
+	<div class="login">
+    
+				        <form method="post" action="http://www.nerdtalk.de/wp-login.php" name="loginform">
+<span>Registrierte Benutzer</span>
+<table style="width:150px; padding:0px; margin:2px; border:0px; text-align:right;">
+    <tr>
+    <td style="width:85px;">Benutzername:</td>
+    <td style="width:176px;"><input type="text" name="log" size="20" class="input" /></td>
+</tr>
+<tr>
+	<td colspan="2" style="height:6px;"></td>
+</tr>
+<tr>
+	<td>Passwort:</td>
+    <td><input type="password" name="pwd" size="12" class="input pwd" /><input type="submit" value="Login" name="wp-submit" class="submit" /></td>
+</tr>
+<tr>
+	<td colspan="2" style="height:6px;"></td>
+</tr>
+<tr>
+	<td colspan="2" style="text-align:right;"><a href="http://www.nerdtalk.de/wp-login.php?action=lostpassword">Passwort verloren</a>&nbsp;|&nbsp;<a href="http://www.nerdtalk.de/wp-login.php?action=register">Registrieren</a></td>
+</tr>
+        </table>
+        <input type="hidden" value="/" name="redirect_to"/>
+        <input type="hidden" value="1" name="testcookie"/>
+        
+        </form>
+        
+    
+    </div>
+    <div id="recent-comments-3" class="round_widget widget_recent_comments"><div class="round_inside"><div class="widget_heading"><h2>Letzte Kommentare</h2></div><div class="round_inside2"><div class="widget_body"><ul id="recentcomments"><li class="recentcomments">Anno bei <a href="http://www.nerdtalk.de/3205-trailershow-the-bourne-legacy-the-amazing-spider-man-branded-starship-troopers-invasion/comment-page-1/#comment-30709">Trailershow: The Bourne Legacy, The amazing Spider-Man, Branded, Starship Troopers &#8211; Invasion</a></li><li class="recentcomments">summerwine-lee bei <a href="http://www.nerdtalk.de/3209-media-monday-49/comment-page-1/#comment-30708">Media Monday #49</a></li><li class="recentcomments">sherm bei <a href="http://www.nerdtalk.de/3209-media-monday-49/comment-page-1/#comment-30707">Media Monday #49</a></li><li class="recentcomments"><a href='http://moviescape.wordpress.com' rel='external nofollow' class='url'>bullion</a> bei <a href="http://www.nerdtalk.de/3209-media-monday-49/comment-page-1/#comment-30706">Media Monday #49</a></li><li class="recentcomments"><a href='http://blog.teo-net.de' rel='external nofollow' class='url'>Teo</a> bei <a href="http://www.nerdtalk.de/3205-trailershow-the-bourne-legacy-the-amazing-spider-man-branded-starship-troopers-invasion/comment-page-1/#comment-30705">Trailershow: The Bourne Legacy, The amazing Spider-Man, Branded, Starship Troopers &#8211; Invasion</a></li></ul><div class="clear"></div></div></div></div></div><div id="text-344645885" class="round_widget widget_text"><div class="round_inside"><div class="widget_heading"><h2>Amazon</h2></div><div class="round_inside2"><div class="widget_body">			<div class="textwidget"><center><script charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&amp;MarketPlace=DE&amp;ID=V20070822/DE/nerdtalk-21/8002/916ba146-6205-48ca-8842-4e5849101bd5"> </script> <noscript><a href="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&amp;MarketPlace=DE&amp;ID=V20070822%2FDE%2Fnerdtalk-21%2F8002%2F916ba146-6205-48ca-8842-4e5849101bd5&amp;Operation=NoScript">Amazon.de Widgets</a></noscript></center></div>
+		<div class="clear"></div></div></div></div></div><div id="text-344645886" class="round_widget widget_text"><div class="round_inside"><div class="widget_heading"><h2>Nerdtalk Sources</h2></div><div class="round_inside2"><div class="widget_body">			<div class="textwidget"><div align="center"><img src="http://static.nerdtalk.de/uploads/Imagemap.jpg"  usemap="#imagemap.jpg" width="166" height="165" alt="Woher bekomme ich Nerdtalk?" />
+<map name="imagemap.jpg" id="imagemap.jpg">
+<area shape="rect" coords="3,3,76,77" href="http://itunes.apple.com/de/podcast/nerdtalk/id415386591" target="_self" alt="Nerdtalk.de auf iTunes" />
+<area shape="rect" coords="90,4,162,77" href="http://itunes.apple.com/de/app/nerdtalk/id359336440?mt=8" target="_self" alt="Nerdtalk.de auf iTunes" />
+<area shape="rect" coords="3,86,77,160" href="http://www.facebook.com/Nerdtalk.de" target="_self" alt="Nerdtalk.de auf Facebook" />
+<area shape="rect" coords="89,87,162,162" href="http://www.twitter.com/nerdtalk" target="_self" alt="Nerdtalk.de auf Twitter" />
+<area shape="rect" coords="87,125,90,126" href="http://www.twitter.com/nerdtalk" target="_self" alt="Nerdtalk.de auf Twitter"/>
+</map>
+</div>
+<br />
+<p><strong>Die Nerdtalk-Voicemailbox</strong><br />
+03222 - 1401310</p></div>
+		<div class="clear"></div></div></div></div></div><div id="text-344645887" class="round_widget widget_text"><div class="round_inside"><div class="widget_heading"><h2>Nerdtalk ist Partner von</h2></div><div class="round_inside2"><div class="widget_body">			<div class="textwidget"><center><a href="http://www.filmstarts.de" rel="nofollow"><img src="http://www.nerdtalk.de/wp-content/uploads/filmstarts_partnerlogo.jpg" width="166" height="104" alt="Nerdtalk.de ist Partner von Filmstarts.de" title="Nerdtalk.de ist Partner von Filmstarts.de" /></a></span></center></div>
+		<div class="clear"></div></div></div></div></div></div>                <div class="clear"></div>
+
+                </div> 
+ 
+                <div class="clear"></div> 
+ 
+            </div> 
+ 
+        </div> 
+ 
+    </div> 
+ 
+	<div class="copyright"> 
+ 
+    	<div class="wrapper"><div class="copyright2"> 
+ 
+    	&copy; 2012 <a href="http://www.nerdtalk.de/" title="Nerdtalk - Der Podcast über Kinofilme">Nerdtalk - Der Podcast über Kinofilme</a> | Design by <a href="http://themes.rock-kitty.net" rel="nofollow">Rock Kitty</a> and <a href="http://www.bglam.com" title="Web Design Leeds" rel="nofollow">Web Design Leeds</a>, modified by <a href="http://www.eileen-steinbach.de" rel="nofollow">Eileen Steinbach</a> | <a href="http://www.nerdtalk.de//impressum/">Impressum | Datenschutz</a></div> 
+ 
+</div> 
+ 
+    </div> 
+ 
+	<div class="clear"></div> 
+ 
+</div>
+<script type="text/javascript"> 
+var isSingle = 0;
+var isHome   = 1;
+var isPage   = 0;
+function getElementByIdUniversal( id )
+{
+	return ( document.getElementById ) ? document.getElementById( id ) : document.all[ id ];
+}
+function plusoneready()
+{
+	gapi.plusone.render( 'googleone_share_1', { 'size': 'medium', 'count': 'false', 'href': 'http://www.nerdtalk.de/3198-nerdtalk-sendung-256/' } );
+}
+ 
+(function() {
+	var gp = document.createElement( 'script' );
+	gp.type = 'text/javascript';
+	gp.async = true;
+	gp.src = 'https://apis.google.com/js/plusone.js';
+ 
+	gp.onload = plusoneready();
+	// Only for IE 6 and 7
+	gp.onreadystatechange = function()
+	{
+		if( this.readyState == 'complete' )
+		{
+			plusoneready();
+		}
+	}
+	var div = getElementByIdUniversal( 'googleone_share_1' );
+	div.parentNode.insertBefore( gp, div );
+})();
+ </script>
+<script type="text/javascript" src="http://static.nerdtalk.de/themes/Nerdtalk/footerscripts.php" defer="defer"></script>
+
+  
+</body> 
+</html>

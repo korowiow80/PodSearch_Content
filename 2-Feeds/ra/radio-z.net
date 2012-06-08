@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" dir="ltr" >
+<head>
+  <base href="http://www.radio-z.net/index.php" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Startseite</title>
+  <link href="/index.php?format=feed&amp;type=rss&amp;lang=de" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom&amp;lang=de" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_smanager/css/page-player.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_lofarticlesscroller/assets/style.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_lofeventsscroller/assets/style.css" type="text/css" />
+  <style type="text/css">
+    <!--
+.playerDiv {
+ 	position:absolute;
+ 	left:30px;
+ 	right:30px;
+    width:260px;
+    top:188px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	visibility:hidden;
+	display:none;
+ } 
+    -->
+  </style>
+  <script type="text/javascript" src="/plugins/system/mtupgrade/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="/modules/mod_smanager/js/soundmanager2.js"></script>
+  <script type="text/javascript" src="/modules/mod_smanager/js/page-player.js"></script>
+  <script type="text/javascript" src="/modules/mod_lofarticlesscroller/assets/script_12.js"></script>
+  <script type="text/javascript" src="/modules/mod_lofeventsscroller/assets/script_12.js"></script>
+  <script type="text/javascript">
+window.addEvent("domready", function() {
+	SqueezeBox.initialize({});
+	$$("a.modal").each(function(el) {
+		el.addEvent("click", function(e) {
+			new Event(e).stop();
+			SqueezeBox.fromElement(el);
+		});
+	});
+});window.addEvent("domready", function() {
+	var JTooltips = new Tips($$(".hasTip"), { maxTitleChars: 50, fixed: false});
+});
+var playing=1;
+soundManager.url = '/modules/mod_smanager/swf/';
+ 	var playDiv = null;
+ 	window.addEvent("domready", function(){
+             	      	
+    }); 
+
+function closePlayer() {
+	 var myFx = new Fx.Style(playDiv, 'opacity', {duration:3000,
+	 onComplete:function(){
+	 	pagePlayer.stopAll();
+	 	playDiv.style.visibility = 'hidden';
+		playDiv.style.display = 'none';		 
+	 }
+	 }).start(1,0);
+	
+}
+    
+function getSound(el) {
+    playDiv.style.visibility = 'visible';
+    playDiv.style.display = 'block';	
+    var myFx = new Fx.Style(playDiv, 'opacity', {duration:3000}).start(0,1);
+    var play = $$('.findMe')[0].title;
+    //pagePlayer.handleClick(play);
+    pagePlayer.handleClick({target:pagePlayer.links[0]});
+	
+} 
+soundManager.onload = function() {
+
+		playDiv = new Element('div', {
+				'class':'playerDiv',
+				'styles': {
+					'position': 'absolute',
+					'top': '100',
+					'left': '0',
+					'visibility': 'hidden'
+				}
+			}).inject(document.body);
+			var playerUl = new Element('ul', {				
+				'id':'playerUl',
+				'class':'playlist'
+			}).injectInside(playDiv);
+			
+            $$('.msound').each(function(el,index){
+
+            	var li =  new Element('li');
+            	li.injectInside(playerUl);
+            	var alink = new Element('a', {				
+				'title':el.title,
+				'href':'#',
+				'class':'findMe'
+			}).injectInside(li);
+
+			    var stop =  new Element('div', {								
+				'class':'startstop plstarted'
+			}).injectInside(li);
+				stop.addEvent('click', function(event){
+
+					pagePlayer.handleClick({target:pagePlayer.links[index]});
+           			      if (stop.hasClass('plstopped')) {
+           			      		stop.removeClass('plstopped');
+           			      		stop.addClass('plstarted');
+
+           			      } else {
+
+           			      		stop.removeClass('plstarted');
+           			      		stop.addClass('plstopped');
+           			      }
+           		}); 
+       
+			    var innerText = el.getText();
+			    if(el.rel) innerText =  el.getText() + el.rel;
+			    if(innerText.length > 27) innerText = innerText.substr(0,24) + '...';  
+			    alink.innerHTML = innerText;			       
+            	el.title='Link';
+            	el.addEvent('click', function(ev){           			
+    				el.href='javascript:void(0);';
+            		getSound(el);
+           		});
+          
+				el.setStyle('display','inline');
+            });	
+
+            
+  			pagePlayer.initDOM();
+			
+}
+
+  </script>
+
+<meta name="viewport" initial-scale=2.0; content="width=334" />
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/templates/zhome/css/positions.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/templates/zhome/css/template.css?v=2" type="text/css" />
+<link rel="stylesheet" href="/templates/zhome/css/menu.css?v=1" type="text/css" />
+<link rel="stylesheet" media="handheld" href="/templates/zhome/css/mobile.css?v=2" type="text/css" />
+
+</head>
+<body>
+<div id="header">   
+<div id="top">
+		<div id="logo"><a href="http://www.radio-z.net/" title="Home" alt="Home"><img src="/templates/zhome/images/logo.png" title="Logo" alt="Logo"></img></a></div>
+		<div id="banner">
+		<div id="banner-inner">
+			<div style="text-align: center"><a href="/home/mitglied-werden.html?lang=de" title="Mitglied werden"><img src="/images/stories/mitglied.gif" border="0" /></a></div>
+			</div>
+			</div>
+		 <div class="clr"></div>
+                	
+			<div id="topmenu">
+				 <ul class="menu"><li id="current" class="parent active item1"><a href="http://www.radio-z.net/"><span>Startseite</span></a><ul><li class="parent item53"><a href="/home/aktuelles.html?lang=de"><span>Aktuelles</span></a><ul><li class="item716"><a href="/home/aktuelles/wir-informieren.html?lang=de"><span>Wir informieren</span></a></li></ul></li><li class="item80"><a href="/home/mitglied-werden.html?lang=de"><span>Mitglied werden</span></a></li><li class="item692"><a href="/home/spenden.html?lang=de"><span>Spenden</span></a></li></ul></li><li class="parent item27"><a href="/planet-z.html?lang=de"><span>Planet Z</span></a><ul><li class="item549"><a href="/planet-z/mitarbeitjobs.html?lang=de"><span>Mitarbeit/Jobs</span></a></li><li class="parent item443"><a href="/planet-z/alles-ueber-radio-z.html?lang=de"><span>Alles über Z</span></a><ul><li class="item469"><a href="/planet-z/alles-ueber-radio-z/faq.html?lang=de"><span>FAQ</span></a></li><li class="item471"><a href="/planet-z/alles-ueber-radio-z/geschichte.html?lang=de"><span>Geschichte</span></a></li><li class="item473"><a href="/planet-z/alles-ueber-radio-z/hintergrund.html?lang=de"><span>Hintergrund</span></a></li></ul></li><li class="item457"><a href="/planet-z/z-praesentiert.html?lang=de"><span>Z präsentiert</span></a></li><li class="item445"><a href="/planet-z/radio-z-fanshop.html?lang=de"><span>Fanshop</span></a></li><li class="item451"><a href="/planet-z/jingles-schalten.html?lang=de"><span>Jingles schalten</span></a></li><li class="item453"><a href="http://www.distler-tontechnik.de/index.html?http://www.distler-tontechnik.de/ztech02.html"><span>Radiotechnik</span></a></li><li class="item475"><a href="/planet-z/kabelfrequenzen.html?lang=de"><span>Kabelfrequenzen</span></a></li></ul></li><li class="parent item275"><a href="/radioprogramm.html?lang=de"><span>Programm</span></a><ul><li class="item459"><a href="/radioprogramm/kalender.html?lang=de"><span>Kalender</span></a></li><li class="item57"><a href="/radioprogramm/redaktionsuebersicht.html?lang=de"><span>Redaktionsübersicht</span></a></li><li class="item58"><a href="/radioprogramm/playlists.html?lang=de"><span>Playlisten</span></a></li><li class="parent item67"><a href="/radioprogramm/gesellschaft-beitraege.html?lang=de"><span>Radiobeiträge</span></a><ul><li class="item76"><a href="/radioprogramm/gesellschaft-beitraege/kultur-beitraege.html?lang=de"><span>Kultur</span></a></li><li class="item77"><a href="/radioprogramm/gesellschaft-beitraege/politik-beitraege.html?lang=de"><span>Politik</span></a></li><li class="item78"><a href="/radioprogramm/gesellschaft-beitraege/wirtschaft-beitraege.html?lang=de"><span>Wirtschaft</span></a></li><li class="item79"><a href="/radioprogramm/gesellschaft-beitraege/oekologie-beitraege.html?lang=de"><span>Ökologie</span></a></li><li class="item66"><a href="/radioprogramm/gesellschaft-beitraege/forschung-beitraege.html?lang=de"><span>Forschung</span></a></li><li class="item688"><a href="/radioprogramm/gesellschaft-beitraege/toleranz-foerdern-kompetenz-staerken.html?lang=de"><span>Toleranz Fördern - Kompetenz stärken</span></a></li></ul></li><li class="item684"><a href="/radioprogramm/nachrichten-bei-radio-z.html?lang=de"><span>Nachrichten bei Radio Z</span></a></li><li class="item656"><a href="/radioprogramm/programmvorschau.html?lang=de"><span>Vorschau</span></a></li></ul></li><li class="item682"><a href="/projekte.html?lang=de"><span>Projekte</span></a></li><li class="parent item247"><a href="/kontakt.html?lang=de"><span>Kontakt</span></a><ul><li class="item465"><a href="/kontakt.html?lang=de"><span>Kontakt aufnehmen</span></a></li><li class="item31"><a href="/kontakt/impressum.html?lang=de"><span>Impressum</span></a></li></ul></li><li class="item48"><a href="/weblinks.html?lang=de"><span>Links</span></a></li></ul><form action="index.php" method="post">
+	<div class="search-suche">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Suchen" class="inputbox-suche" type="text" size="15" value="suchen..."  onblur="if(this.value=='') this.value='suchen...';" onfocus="if(this.value=='suchen...') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="1" />
+</form>
+			<div class="clr"></div>
+         </div> 
+		        <div class="clr"></div>
+  </div>	
+</div>  
+<div id="pageouter"  class="threecols">
+
+<div id="wrap">	 
+  <div id="main">
+    	  <div class="clr"></div>
+	   <div id="impressum-mobile">
+	   <a href="/kontakt/impressum.html" title="Impressum">Impressum</a>
+	   </div>	  
+	  <div id="pathway">
+	  
+       <a id="login-icon" href="/login.html"><img src="/templates/zhome/images/log.png" title="Anmelden" alt="Anmelden"></img></a>       	  
+        <div class="syndicate-podcast">
+			<div align="center">
+			<a href="http://www.radio-z.net/index.php?option=com_jimtawl&amp;view=topic_feed&amp;no_html=1&amp;mid=68">
+				<img src="http://www.radio-z.net//administrator/components/com_jimtawl/icon/rss_podcast_button.png"  alt="Podcast" name="Podcast" align="middle" border="0" /></a>
+		</div>
+		</div>
+              	
+	    <a id="livestream-text" class="livelink modal hasTip" rel="{handler: 'iframe', size: {x: 400, y: 300}}" title="Livestream::24 Stunden Radio Z als Livestream &lt;br /&gt; hifi and lowfi" href="/de/component/content/article/6943.html?tmpl=component">
+              <img src="/templates/zhome/images/livestream-text.png"></img>
+        </a>        
+	  </div>
+   
+  <div class="clr"></div>  
+  	  <div  id="topcontent">
+		
+		<div class="topbox  moduletable">
+		<a href="#" class="toggler"><span>Nachrichten</span></a>
+		<div class="topbox-inner toggleMe">
+							<h3 class="hide-mobile">Nachrichten</h3>
+						<div id="lofarticlessroller232" class="lof-articlessroller" style="height:200px; width:290px">
+<div class=" lof-horizontal lof-container ">
+<div class="lof-nav">
+    <a class="lof-previous lof-but"  href="/" onclick="return false;"><span>Previous</span></a>
+    <a class="lof-next lof-but" href="/" onclick="return false;"><span>Weiter</span></a>
+</div>    
+
+
+ <!-- MAIN CONTENT of ARTICLESCROLLER MODULE --> 
+  <div class="lof-main-wapper" style="height:200px;width:290px">
+ 		  		<div class="lof-main-item page-1">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner">
+    
+           <a class="lof-title" target="_parent" title="Herdprämie ist beschlossene Sache" href="/radioprogramm/nachrichten-bei-radio-z/16722-herdpraemie-ist-beschlossene-sache.html?lang=de">
+       Herdprämie ist beschlossene Sache     </a>
+            	Der vieldiskutierte Gesetzentwurf zum Betreuungsgeld wurde heute Vormittag vom Regierungskabinett verabschiedet. Mit der "Herdprämie" sieht der Gesetzentwurf vor, Geldleistungen an Eltern zu vergeben, die keine staatlich geförderte Betreuun...
+</div>
+          <a target="_parent" class="lof-readmore" title="Herdprämie ist beschlossene Sache" href="/radioprogramm/nachrichten-bei-radio-z/16722-herdpraemie-ist-beschlossene-sache.html?lang=de">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-2">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner">
+    
+           <a class="lof-title" target="_parent" title="Erst die Mauer, jetzt die Vergiftung" href="/radioprogramm/nachrichten-bei-radio-z/16720-erst-die-mauer-jetzt-die-vergiftung.html?lang=de">
+       Erst die Mauer, jetzt die Vergiftung     </a>
+            	Um seine Wählerschaft auszuweiten und zufriedenzustellen ordnete der amtierende Bürgermeister des rumänischen Ortes Baia Mare die Umsiedlung von 2.000 Roma in ehemalige Laboratorien an. Schon vergangenes Jahr machte Bürgermeister Catalin Ch...
+</div>
+          <a target="_parent" class="lof-readmore" title="Erst die Mauer, jetzt die Vergiftung" href="/radioprogramm/nachrichten-bei-radio-z/16720-erst-die-mauer-jetzt-die-vergiftung.html?lang=de">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-3">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner">
+    
+           <a class="lof-title" target="_parent" title="Wagner Konzert in Tel Aviv abgesagt" href="/radioprogramm/nachrichten-bei-radio-z/16718-wagner-konzert-in-tel-aviv-abgesagt.html?lang=de">
+       Wagner Konzert in Tel Aviv abgesagt     </a>
+            	Die Universität Tel Aviv hat ein geplante Wagner Konzert Mitte Juni abgesagt. Die Veranstaltung sollte ein Tabubruch sein und dem Willen des Veranstalters Jonathan Livny zufolge eine Trennung von Musik und Politik darstellen. Richard Wagner...
+</div>
+          <a target="_parent" class="lof-readmore" title="Wagner Konzert in Tel Aviv abgesagt" href="/radioprogramm/nachrichten-bei-radio-z/16718-wagner-konzert-in-tel-aviv-abgesagt.html?lang=de">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-4">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner">
+    
+           <a class="lof-title" target="_parent" title="Flüchtlinge radikalisieren Protest" href="/radioprogramm/nachrichten-bei-radio-z/16716-fluechtlinge-radikalisieren-protest.html?lang=de">
+       Flüchtlinge radikalisieren Protest     </a>
+            	Um für ihre Anerkennung als politische Flüchtlinge zu kämpfen haben sich 2 iranische Flüchtlinge in Würzburg die Münder zugenäht und sind erneut in den Hungerstreik getreten. In einer Stellungnahme äußerten die Protestierenden, dass man sic...
+</div>
+          <a target="_parent" class="lof-readmore" title="Flüchtlinge radikalisieren Protest" href="/radioprogramm/nachrichten-bei-radio-z/16716-fluechtlinge-radikalisieren-protest.html?lang=de">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-5">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner">
+    
+           <a class="lof-title" target="_parent" title="Amnesty äußert Bedenken vor Saudi-Arabien Besuch von Wirtschaftsminister Rösler" href="/radioprogramm/nachrichten-bei-radio-z/16714-amnesty-aeussert-bedenken-vor-saudi-arabien-besuch-von-wirtschaftsminister-roesler.html?lang=de">
+       Amnesty äußert Bedenken vor Saudi-Arabien Besuch von Wirtschaftsminister Rösler     </a>
+            	Wolfgang Grenz, Generalsekräter der Sektion Deutschland von Amnesty International äußerte Bedenken und Kritik zur Reise Philip Röslers nach Saudi- Arabien. Gemeinsam mit dem Wirtschaftsminister reisen 40 VertreterInnen aus der Wirtschaft mi...
+</div>
+          <a target="_parent" class="lof-readmore" title="Amnesty äußert Bedenken vor Saudi-Arabien Besuch von Wirtschaftsminister Rösler" href="/radioprogramm/nachrichten-bei-radio-z/16714-amnesty-aeussert-bedenken-vor-saudi-arabien-besuch-von-wirtschaftsminister-roesler.html?lang=de">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  </div>
+ </div> 
+  <!-- END MAIN CONTENT of ARTICLESCROLLER MODULE --> 
+ </div> 
+<script type="text/javascript">
+var _lofmain =  $('lofarticlessroller232'); 
+var object = new LofScroller( _lofmain,
+							  { 
+								  fxObject:{
+									transition:Fx.Transitions.Quad.easeInOut,  
+									duration:500								  },
+								  startItem:0,
+								  interval:2000,
+								  direction :'hrright', 
+								  navItemHeight:32,
+								  navItemWidth:32,
+								  navItemsDisplay:3,
+								  navPos:'0'
+							  } );
+	object.registerButtonsControl( 'click', {next:_lofmain.getElement('.lof-next'),
+											 previous:_lofmain.getElement('.lof-previous')} );
+	object.start( 0, null );	
+</script>
+
+			</div>
+		</div>
+		
+		<div class="topbox  moduletable">
+		<a href="#" class="toggler"><span>Programmhinweise</span></a>
+		<div class="topbox-inner toggleMe">
+							<h3 class="hide-mobile">Programmhinweise</h3>
+						<div id="lofarticlessroller228" class="lof-articlessroller" style="height:173px; width:290px">
+<div class=" lof-horizontal lof-container ">
+<div class="lof-nav">
+    <a class="lof-previous lof-but"  href="/" onclick="return false;"><span>Previous</span></a>
+    <a class="lof-next lof-but" href="/" onclick="return false;"><span>Weiter</span></a>
+</div>    
+
+
+ <!-- MAIN CONTENT of ARTICLESCROLLER MODULE --> 
+  <div class="lof-main-wapper" style="height:173px;width:290px">
+ 		  		<div class="lof-main-item page-1">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Lokale Leidenschaften" href="http://leidenschaften.radio-z.net">
+       Lokale Leidenschaften     </a>
+                   <i>Don, 07.06.2012 20:00</i>
+       	<strong>Rejected Youth & Bülbül Manush</strong>: Rejected Youth, von der Intro als "Band mit Youth im Namen" auf Platz neun gewählt, sind heute endlich mal bei uns in der Sendung. Punk as Punk can, 14 Jahre im Business, ausverkaufte Hallen - und eine...
+</div>
+          <a target="_parent" class="lof-readmore" title="Lokale Leidenschaften" href="/component/programme/programmelist.html?lang=de#8274">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-2">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Limbo Rhythm" href="http://limborythm.radio-z.net">
+       Limbo Rhythm     </a>
+                   <i>Sam, 09.06.2012 15:00</i>
+       	<strong>Zu Gast: Lofile Records Label Crew</strong>: House is in the House. Zu Gast ist die Lofile Records Label Crew aus Bayreuth.
+Die inzwischen beim zweiten Release auf ihrem Label angekommen sind und Bayreuth und mehr inzwischen schon lange mit H...
+</div>
+          <a target="_parent" class="lof-readmore" title="Limbo Rhythm" href="/component/programme/programmelist.html?lang=de#8276">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-3">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Yeke Yeke!" href="http://yeke.radio-z.net">
+       Yeke Yeke!     </a>
+                   <i>Son, 10.06.2012 16:00</i>
+       	<strong>Son, 10. Juni 2012: Blue rhythms - Neue soulige CDs aus Afrika</strong>: Soul-Reggae-R´n`B-Pop: Dieses Mischfeld pflegt Nneka aus Nigeria, und es eint sie (Debüt 2008) mit Jaquee, Exil-Uganderin (2009: Debütalbum "Kokoo girl"). Wobei Nneka ex...
+</div>
+          <a target="_parent" class="lof-readmore" title="Yeke Yeke!" href="/component/programme/programmelist.html?lang=de#7717">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-4">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Blaue Stunde" href="http://blaue-stunde.radio-z.net">
+       Blaue Stunde     </a>
+                   <i>Mon, 11.06.2012 20:00</i>
+       	<strong>Im Fokus: Das Herzberg-Festival</strong>: Die Festivalsaison hat begonnen! Grund genug für Floh Söllner, eines der legendärsten Festivals mal etwas genauer unter die Lupe zu nehmen: das "Herzberg-Festival" - seit Jahren mit einer eigenen Lied...
+</div>
+          <a target="_parent" class="lof-readmore" title="Blaue Stunde" href="/component/programme/programmelist.html?lang=de#8278">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-5">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Lokale Leidenschaften" href="http://leidenschaften.radio-z.net">
+       Lokale Leidenschaften     </a>
+                   <i>Don, 14.06.2012 20:00</i>
+       	<strong>Live aus der MUZ mit THOMSEN</strong>: Einmal im Monat senden die Lokalen Leidenschaften nicht aus Studio 1 bei Radio Z, sondern live vor Publikum aus dem MUZ-Club, Fürther Str. 63. So wie man Radio Z kostenlos empfangen kann, ist auch der Ei...
+</div>
+          <a target="_parent" class="lof-readmore" title="Lokale Leidenschaften" href="/component/programme/programmelist.html?lang=de#8282">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-6">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Tinnitus" href="http://tinnitus.radio-z.net">
+       Tinnitus     </a>
+                   <i>Son, 17.06.2012 22:00</i>
+       	<strong>Mit Hans Plesch</strong>: Aus dem Hinterzimmer: Lubomyr Melnyk, The Voice Of Trees - Reto Mäder: Pendulum Nisum / RM 74  
+</div>
+          <a target="_parent" class="lof-readmore" title="Tinnitus" href="/component/programme/programmelist.html?lang=de#8284">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-7">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Powerplay" href="http://powerplay.radio-z.net">
+       Powerplay     </a>
+                   <i>Die, 19.06.2012 20:00</i>
+       	<strong>Radio Pauke mit Axel Nerlich</strong>: Die Sendung für Lo-Fi, Noise-Rock, Electro-Pop, Post-Rock, Post-Punk und andere handgemachte Musik.
+Diesmal mit einem neuen Album, der von manchen als "lauteste Band aus New York City" bezeichneten Forma...
+</div>
+          <a target="_parent" class="lof-readmore" title="Powerplay" href="/component/programme/programmelist.html?lang=de#8286">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-8">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Radio Mao" href="http://mao.radio-z.net">
+       Radio Mao     </a>
+                   <i>Mitt, 20.06.2012 20:00</i>
+       	<strong>Echtzeitmusik</strong>: Ein Portrait der Berliner Improvisationsszene von Wolfgang Seidel
+ 
+</div>
+          <a target="_parent" class="lof-readmore" title="Radio Mao" href="/component/programme/programmelist.html?lang=de#8288">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-9">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="China süß-sauer" href="http://china-suess-sauer.radio-z.net">
+       China süß-sauer     </a>
+                   <i>Don, 21.06.2012 19:00</i>
+       	<strong>Volksreligionen in China</strong>: In unserer heutigen Sendung in der Reihe Religionen und Philosophien in China geht es um Volksreligionen. Schamanismus und Ahnenverehrung sind alte Rituale, die vor langer, langer Zeit praktiziert wurden - f...
+</div>
+          <a target="_parent" class="lof-readmore" title="China süß-sauer" href="/component/programme/programmelist.html?lang=de#8290">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-10">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Lokale Leidenschaften" href="http://leidenschaften.radio-z.net">
+       Lokale Leidenschaften     </a>
+                   <i>Don, 21.06.2012 20:00</i>
+       	<strong>Zu Gast: Ray Hautmann</strong>: Mit Ray Hautmann wandeln die Lokalen Leidenschaften mal wieder weit abseits der ausgetretenen Indie-Pfade: sehr persönliche Songs mit zeitloser Note, wunderschön einfühlsam, stimmungsvoll, beseelt, akustisch. U...
+</div>
+          <a target="_parent" class="lof-readmore" title="Lokale Leidenschaften" href="/component/programme/programmelist.html?lang=de#8292">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-11">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Lokale Leidenschaften" href="http://leidenschaften.radio-z.net">
+       Lokale Leidenschaften     </a>
+                   <i>Don, 28.06.2012 20:00</i>
+       	<strong>Zu Gast: Six Finger Jack & Red On </strong>: Captain Coma und seine Band Six Finger Jack schicken sich an, den unaufhaltsamen Weltuntergang mit dem schnellsten, härtesten und geilsten Rock des Universums zu beschleunigen, um danach alles kopf...
+</div>
+          <a target="_parent" class="lof-readmore" title="Lokale Leidenschaften" href="/component/programme/programmelist.html?lang=de#8294">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-12">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Limbo Rhythm" href="http://limborythm.radio-z.net">
+       Limbo Rhythm     </a>
+                   <i>Sam, 30.06.2012 15:00</i>
+       	<strong>Zu Gast: Quantec und birke tm</strong>: Ein bisschen plaudern und Musik spielen von Techno über House bis zu Dub, vielleicht Discog - auf jeden Fall immer mit einem schönen Beat unterlegt. Eine Exkursion durch die Plattenkisten der Gäste, ges...
+</div>
+          <a target="_parent" class="lof-readmore" title="Limbo Rhythm" href="/component/programme/programmelist.html?lang=de#8296">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  		<div class="lof-main-item page-13">
+        		        		 <div class="lof-row" style="width:99.9%">
+                   <div class="lof-inner programme">
+
+           <a class="lof-title programme" target="_parent" title="Yeke Yeke!" href="http://yeke.radio-z.net">
+       Yeke Yeke!     </a>
+                   <i>Son, 08.07.2012 16:00</i>
+       	
+</div>
+          <a target="_parent" class="lof-readmore" title="Yeke Yeke!" href="/component/programme/programmelist.html?lang=de#7719">
+        Weiterlesen      </a>
+    				</div>      
+                       
+                        </div> 
+   		  </div>
+ </div> 
+  <!-- END MAIN CONTENT of ARTICLESCROLLER MODULE --> 
+ </div> 
+<script type="text/javascript">
+var _lofmain =  $('lofarticlessroller228'); 
+var object = new LofScroller( _lofmain,
+							  { 
+								  fxObject:{
+									transition:Fx.Transitions.Quad.easeInOut,  
+									duration:500								  },
+								  startItem:0,
+								  interval:18000,
+								  direction :'hrright', 
+								  navItemHeight:32,
+								  navItemWidth:32,
+								  navItemsDisplay:3,
+								  navPos:'0'
+							  } );
+	object.registerButtonsControl( 'click', {next:_lofmain.getElement('.lof-next'),
+											 previous:_lofmain.getElement('.lof-previous')} );
+	object.start( 1, null );	
+</script>
+
+			</div>
+		</div>
+		
+		<div class="topbox  moduletable-right">
+		<a href="#" class="toggler"><span>Z präsentiert</span></a>
+		<div class="topbox-inner toggleMe">
+							<h3 class="hide-mobile">Z präsentiert</h3>
+						<div id="lofarticlessroller226" class="lof-articlessroller" style="height:143px; width:290px">
+<div class="lof-bottom lof-horizontal lof-container ">
+
+<div class="lof-nav">
+    <a class="lof-previous lof-but"  href="/" onclick="return false;"><span>Previous</span></a>
+    <a class="lof-next lof-but" href="/" onclick="return false;"><span>Weiter</span></a>
+</div>    
+
+    <!-- NAVIGATOR -->    
+<div style="z-index: 4;height:21px;position:absolute;float:left;width:100px;overflow:hidden;bottom:0;" id="lov-events-all">
+<a target="_parent" class="lof-readmore" title="" href="/component/eventlist/categoryevents/1-veranstaltungen.html?lang=de">
+        Alle  zeigen </a>                
+</div>      
+      <div class="lof-navigator-outer">    
+            <ul class="lof-navigator lof-bullets">
+                            <li><span>1</span></li>
+                             <li><span>2</span></li>
+                             <li><span>3</span></li>
+              		
+            </ul>
+        </div>
+   
+
+ <!-- MAIN CONTENT of ARTICLESCROLLER MODULE --> 
+  <div class="lof-main-wapper" style="height:143px;width:290px">
+ 		  		<div class="lof-main-item width-33 page-1">
+        	<div class="lof-row" style="width:99.9%">		
+        	
+ 			        		 
+                   
+
+<div class="lof-inner height-45">    
+           <a class="lof-title" target="_parent" title="Union Jack + Support" href="/planet-z/z-praesentiert/details/1548-union-jack--support.html?lang=de">
+       Union Jack + Support     </a>
+          <div class="lof-event-text">
+              <i>08.06.2012 - 08.06.2012,  21:00 Uhr</i><br />
+       	Kunstverein Nürnberg	
+	</div>
+		
+</div>
+    			      
+                                                        	<div class="lof-clearfix"></div>
+                       
+                        		 
+                   
+
+<div class="lof-inner height-45">    
+           <a class="lof-title" target="_parent" title="La Vela Puerca" href="/planet-z/z-praesentiert/details/1552-la-vela-puerca.html?lang=de">
+       La Vela Puerca     </a>
+          <div class="lof-event-text">
+              <i>11.06.2012,  21:00 Uhr</i><br />
+       	E-Werk, Erlangen	
+	</div>
+		
+</div>
+    			      
+                       
+                                	</div>
+        </div> 
+   		  		<div class="lof-main-item width-33 page-2">
+        	<div class="lof-row" style="width:99.9%">		
+        	
+ 			        		 
+                   
+
+<div class="lof-inner height-45">    
+           <a class="lof-title" target="_parent" title="Across: Julia Holter" href="/planet-z/z-praesentiert/details/1554-across-julia-holter.html?lang=de">
+       Across: Julia Holter     </a>
+          <div class="lof-event-text">
+              <i>12.06.2012,  21:00 Uhr</i><br />
+       	Neues Museum	
+	</div>
+		
+</div>
+    			      
+                                                        	<div class="lof-clearfix"></div>
+                       
+                        		 
+                   
+
+<div class="lof-inner height-45">    
+           <a class="lof-title" target="_parent" title="Diamond Road Show" href="/planet-z/z-praesentiert/details/1556-diamond-road-show.html?lang=de">
+       Diamond Road Show     </a>
+          <div class="lof-event-text">
+              <i>13.06.2012,  21:00 Uhr</i><br />
+       	Desi, Nürnberg	
+	</div>
+		
+</div>
+    			      
+                       
+                                	</div>
+        </div> 
+   		  		<div class="lof-main-item width-33 page-3">
+        	<div class="lof-row" style="width:99.9%">		
+        	
+ 			        		 
+                   
+
+<div class="lof-inner height-45">    
+           <a class="lof-title" target="_parent" title="Elfin Saddle" href="/planet-z/z-praesentiert/details/1558-elfin-saddle.html?lang=de">
+       Elfin Saddle     </a>
+          <div class="lof-event-text">
+              <i>13.06.2012,  21:00 Uhr</i><br />
+       	Muz-Club, Nürnberg	
+	</div>
+		
+</div>
+    			      
+                                                        	<div class="lof-clearfix"></div>
+                       
+                        		 
+                   
+
+<div class="lof-inner height-45">    
+           <a class="lof-title" target="_parent" title="M To The V-fest 2012" href="/planet-z/z-praesentiert/details/1550-m-to-the-v-fest-2012.html?lang=de">
+       M To The V-fest 2012     </a>
+          <div class="lof-event-text">
+              <i>16.06.2012,  21:00 Uhr</i><br />
+       	K4, Nürnberg	
+	</div>
+		
+</div>
+    			      
+                       
+                                	</div>
+        </div> 
+   		  </div>
+ </div> 
+  <!-- END MAIN CONTENT of ARTICLESCROLLER MODULE --> 
+ </div> 
+<script type="text/javascript">
+var _lofmain =  $('lofarticlessroller226'); 
+var object = new LofScroller( _lofmain,
+							  { 
+								  fxObject:{
+									transition:Fx.Transitions.Quad.easeInOut,  
+									duration:500								  },
+								  startItem:0,
+								  interval:2000,
+								  direction :'hrright', 
+								  navItemHeight:32,
+								  navItemWidth:32,
+								  navItemsDisplay:3,
+								  navPos:'bottom'
+							  } );
+	object.registerButtonsControl( 'click', {next:_lofmain.getElement('.lof-next'),
+											 previous:_lofmain.getElement('.lof-previous')} );
+	object.start( 0, null );	
+</script>
+
+			</div>
+		</div>
+	
+	  </div>
+  <div id="content-outer" style="width:454px;">    
+       	  
+  
+      <div id="content" >
+      
+   <div id="fcolumns">  
+  
+  <div id="sidebar-right" style="width:207px;">     
+  
+      	 		    <a href="#" class="toggler"><span>25 Jahre Radio Z</span></a>
+	    		<div class="moduletable toggleMe">
+					<p><a id="jubbanner" class="hasTip" href="http://25jahre.radio-z.net/" title="25 Jahre Radio Z::25 Veranstaltungen - Parties, Konzerte und vieles mehr" style="display:block;"> <img src="/images/25/25jahre.png" border="0" /></a></p>		</div>
+		 			<div class="moduletable-smanager">
+					
+<div id="control-template">
+
+	<div class="exit">
+		<a href="javascript:closePlayer()">x</a>
+	</div>
+	<div class="controls">
+		<div class="statusbar">
+			<div class="loading"></div>
+			<div class="position"></div>
+		</div>
+	</div>
+	<div class="timing">
+		<div id="sm2_timing" class="timing-data">
+			<span class="sm2_position">%s1</span> / <span class="sm2_total">%s2</span>
+		</div>
+	</div>
+	<div class="peak">
+		<div class="peak-box">
+			<span class="l"></span><span class="r"></span>
+		</div>
+	</div>
+</div>
+<div id="spectrum-container" class="spectrum-container">
+	<div class="spectrum-box">
+		<div class="spectrum"></div>
+	</div>
+	<br style="clear: both" />
+</div>
+
+		</div>
+		 		    <a href="#" class="toggler"><span>Wir informieren</span></a>
+	    		<div class="moduletable toggleMe">
+					<h3 class="hide-mobile">Wir informieren</h3>
+					<ul class="latestnews">
+	<li class="latestnews">
+		<a href="/home/aktuelles/wir-informieren/16384-alternativer-medienpreis-2012-fuer-radio-z.html?lang=de" class="latestnews">
+			Alternativer Medienpreis 2012 für Radio Z			
+		</a><br/>
+		<br/><p>Alternativer Medienpreis 2012 für Freie JournalistInnen der Tagesredaktion von Radio Z<br /><br />Ceyda Keskin, Umut Sahverdi und Hadil Ali von Radio Z gewinnen den 2. Preis des Alternativen Medienpreises für die Sondersendung "50 Jahre Scheinehe mit der Türkei -  Eine kritische Integrationsdebatte"</p>
+<p> </p>
+<p> </p>
+	</li>
+	<li class="latestnews">
+		<a href="/home/aktuelles/wir-informieren/16204-was-laeuft-bei-radio-z.html?lang=de" class="latestnews">
+			Was läuft bei Radio Z?			
+		</a><br/>
+		<br/><h3>Die monatliche Programmvorschau von Radio Z...</h3>
+<p> </p>
+	</li>
+</ul>		</div>
+	     
+      
+            
+  </div>
+  <div id="sidebar-left"  style="width:295px;">     
+      	 		    <a href="#" class="toggler"><span>Jetzt auf Sendung</span></a>
+	    		<div class="moduletable toggleMe">
+					<h3 class="hide-mobile">Jetzt auf Sendung</h3>
+							<!--
+		SELECT DISTINCT PK.Team_ID AS Team_ID, PK.ProgrammeKind_ID, PK.Name AS name, T.email AS email, T.www AS www, T.description AS description, s.name AS section, BT.WeekOfMonth AS wom,  BT.Time AS time, BT.Duration AS duration, BT.DayOfWeek AS dow, BT.repeatmode,BT.startdate,BT.`repeat`
+ FROM jos_jimtawl_programmekind AS PK
+ RIGHT JOIN jos_jimtawl_team AS T ON ( T.Team_ID = PK.Team_ID )
+ LEFT JOIN jos_jimtawl_broadcasttime AS BT ON ( BT.ProgrammeKind_ID = PK.ProgrammeKind_ID )
+ LEFT JOIN jos_jimtawl_programmesection AS s ON ( s.ProgrammeSection_ID = PK.ProgrammeSection_ID )
+ WHERE 1
+ AND PK.published > 0
+ AND (TIME_TO_SEC( BT.Time ) <= TIME_TO_SEC( '03:07:00' )
+ AND (
+ TIME_TO_SEC( BT.Time ) + TIME_TO_SEC( BT.Duration )
+ ) >= TIME_TO_SEC( '03:07:00' ))
+ AND (( 
+ (FIND_IN_SET('1',BT.WeekOfMonth) OR BT.WeekOfMonth = 'def' ) 
+ AND BT.repeatmode = '0' 
+ AND BT.DayOfWeek = '3')
+ OR (
+ (BT.repeatmode = 'month'
+ AND BT.DayOfWeek = '3')
+ AND (
+ FIND_IN_SET('1',BT.WeekOfMonth) 
+ )
+ AND ROUND((06 - MONTH( BT.startdate )) / BT.`repeat`) = ('06' - MONTH( BT.startdate )) / BT.`repeat`)
+ OR (
+ BT.repeatmode = 'day'
+ AND DATEDIFF( '2012-06-07 00:00:00' , BT.startdate ) / BT.`repeat` = ROUND( DATEDIFF( '2012-06-07 00:00:00' , BT.startdate) /  BT.`repeat` )
+ ))		-->
+				<!--
+		SELECT DISTINCT PK.Team_ID AS Team_ID, PK.ProgrammeKind_ID, PK.Name AS name, T.email AS email, T.www AS www, T.description AS description, s.name AS section, BT.WeekOfMonth AS wom,  BT.Time AS time, BT.Duration AS duration, BT.DayOfWeek AS dow, BT.repeatmode,BT.startdate,BT.`repeat`
+ FROM jos_jimtawl_programmekind AS PK
+ RIGHT JOIN jos_jimtawl_team AS T ON ( T.Team_ID = PK.Team_ID )
+ LEFT JOIN jos_jimtawl_broadcasttime AS BT ON ( BT.ProgrammeKind_ID = PK.ProgrammeKind_ID )
+ LEFT JOIN jos_jimtawl_programmesection AS s ON ( s.ProgrammeSection_ID = PK.ProgrammeSection_ID )
+ WHERE 1
+ AND PK.published > 0
+ AND TIME_TO_SEC( BT.Time ) >= TIME_TO_SEC( '03:07:00' )
+ AND (( 
+ (FIND_IN_SET('1',BT.WeekOfMonth) OR BT.WeekOfMonth = 'def' ) 
+ AND BT.repeatmode = '0' 
+ AND BT.DayOfWeek = '3')
+ OR (
+ (BT.repeatmode = 'month'
+ AND BT.DayOfWeek = '3')
+ AND (
+ FIND_IN_SET('1',BT.WeekOfMonth) 
+ )
+ AND ROUND((06 - MONTH( BT.startdate )) / BT.`repeat`) = ('06' - MONTH( BT.startdate )) / BT.`repeat`)
+ OR (
+ BT.repeatmode = 'day'
+ AND DATEDIFF( '2012-06-07 00:00:00' , BT.startdate ) / BT.`repeat` = ROUND( DATEDIFF( '2012-06-07 00:00:00' , BT.startdate) /  BT.`repeat` )
+ ))
+ ORDER BY BT.DayOfWeek ASC,  BT.Time ASC
+ LIMIT 1		-->
+				<!--
+		SELECT DISTINCT PK.Team_ID AS Team_ID, PK.ProgrammeKind_ID, PK.Name AS name, T.email AS email, T.www AS www, T.description AS description, s.name AS section, BT.WeekOfMonth AS wom,  BT.Time AS time, BT.Duration AS duration, BT.DayOfWeek AS dow, BT.repeatmode,BT.startdate,BT.`repeat`
+ FROM jos_jimtawl_programmekind AS PK
+ RIGHT JOIN jos_jimtawl_team AS T ON ( T.Team_ID = PK.Team_ID )
+ LEFT JOIN jos_jimtawl_broadcasttime AS BT ON ( BT.ProgrammeKind_ID = PK.ProgrammeKind_ID )
+ LEFT JOIN jos_jimtawl_programmesection AS s ON ( s.ProgrammeSection_ID = PK.ProgrammeSection_ID )
+ WHERE 1
+ AND PK.published > 0
+ AND TIME_TO_SEC( BT.Time ) >= TIME_TO_SEC( '15:00:00' )
+ AND (( 
+ (FIND_IN_SET('1',BT.WeekOfMonth) OR BT.WeekOfMonth = 'def' ) 
+ AND BT.repeatmode = '0' 
+ AND BT.DayOfWeek = '3')
+ OR (
+ (BT.repeatmode = 'month'
+ AND BT.DayOfWeek = '3')
+ AND (
+ FIND_IN_SET('1',BT.WeekOfMonth) 
+ )
+ AND ROUND((06 - MONTH( BT.startdate )) / BT.`repeat`) = ('06' - MONTH( BT.startdate )) / BT.`repeat`)
+ OR (
+ BT.repeatmode = 'day'
+ AND DATEDIFF( '2012-06-07 00:00:00' , BT.startdate ) / BT.`repeat` = ROUND( DATEDIFF( '2012-06-07 00:00:00' , BT.startdate) /  BT.`repeat` )
+ ))
+ ORDER BY BT.DayOfWeek ASC,  BT.Time ASC
+ LIMIT 1		-->
+		
+ 
+	<p>Zur Zeit ist Sendepause.
+Nächste Sendung:</p> 14:00 Uhr:<br /><a href="http://kaffeesatz.radio-z.net">Kaffeesatz</a> - Der bunte Mittags-Musik-Sampler zum Einstieg							  					
+	<br />Ab 15:00 Uhr: <br /><a href="http://castrop.radio-z.net">Castrop Rauxel</a> - Aktuelles Musikgeschehen - mit täglich wechselnden RedakteurInnen							  					
+    <p></p><p> Z hören: <a  class="msound" href="#"  title="http://snd.radio-z.net:8000/z.mp3">Livestream</a> (24 Stunden)</p>		</div>
+		 		    <a href="#" class="toggler"><span>Best of Radio Z</span></a>
+	    		<div class="moduletable-bestof toggleMe">
+					<h3 class="hide-mobile">Best of Radio Z</h3>
+					<h4>Interviews &amp; Berichte</h4>
+		<div>
+			<h5>Klärwerk</h5>
+			Mittwoch, 06. Juni 2012				<p>
+				<a href="http://klaerwerk.radio-z.net/radioprogramm/gesellschaft-beitraege/politik-beitraege/topic_show/118433-frankreich-vor-den-parlamentswahlen.html?lang=de" class="jrecent-bestof">
+				Frankreich vor den Parlamentswahlen			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Klärwerk</h5>
+			Mittwoch, 06. Juni 2012				<p>
+				<a href="http://klaerwerk.radio-z.net/radioprogramm/gesellschaft-beitraege/topic_show/118435-johannes-agnolis-subversive-theorie-teil-1.html?lang=de" class="jrecent-bestof">
+				Johannes Agnolis Subversive Theorie Teil 1			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Gender. So What?</h5>
+			Mittwoch, 23. Mai 2012				<p>
+				<a href="http://gender-so-what.radio-z.net/radioprogramm/gesellschaft-beitraege/topic_show/117577-der-weibliche-koerper-im-spaetkapitalismus-das-buch-qfleischmarktq-von-laurie-penny.html?lang=de" class="jrecent-bestof">
+				Der weibliche Körper im Spätkapitalismus - das Buch "Fleischmarkt" von Laurie Penny			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Lokale Leidenschaften</h5>
+			Donnerstag, 03. Mai 2012				<p>
+				<a href="http://leidenschaften.radio-z.net/radioprogramm/gesellschaft-beitraege/kultur-beitraege/topic_show/113485.html?lang=de" class="jrecent-bestof">
+				Lokale Leidenschaften mit Amphimatic und Schimmy Yaw			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Klärwerk</h5>
+			Mittwoch, 02. Mai 2012				<p>
+				<a href="http://klaerwerk.radio-z.net/radioprogramm/gesellschaft-beitraege/politik-beitraege/topic_show/115099-was-ist-leiharbeit.html?lang=de" class="jrecent-bestof">
+				Was ist Leiharbeit?			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Best of Stoffwechsel</h5>
+			Montag, 30. April 2012				<p>
+				<a href="http://stoffwechsel.radio-z.net/radioprogramm/gesellschaft-beitraege/kultur-beitraege/topic_show/114523-zugabe-spezial-lokale-leidenschaften-die-radio-z-k-sessions.html?lang=de" class="jrecent-bestof">
+				ZU:GABE SPEZIAL: LOKALE LEIDENSCHAFTEN - DIE RADIO Z K-SESSIONS			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Musik spezial</h5>
+			Mittwoch, 25. April 2012				<p>
+				<a href="http://musik.radio-z.net/radioprogramm/gesellschaft-beitraege/kultur-beitraege/topic_show/113481-radio-z-spezial-lokale-leidenschaften-koepfe-der-subkultur-mit-sabine-limmer.html?lang=de" class="jrecent-bestof">
+				Radio Z Spezial: Lokale Leidenschaften -- Köpfe der Subkultur mit Sabine Limmer			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Musik spezial</h5>
+			Mittwoch, 18. April 2012				<p>
+				<a href="http://musik.radio-z.net/radioprogramm/gesellschaft-beitraege/topic_show/113479-radio-z-spezial-loakele-leidenschaften-der-wert-der-musik.html?lang=de" class="jrecent-bestof">
+				Radio Z Spezial: Lokale Leidenschaften -- Der Wert der Musik			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Klärwerk</h5>
+			Mittwoch, 04. April 2012				<p>
+				<a href="http://klaerwerk.radio-z.net/radioprogramm/gesellschaft-beitraege/politik-beitraege/topic_show/112799-schuldenkrise-der-versuch-einer-annaeherung.html?lang=de" class="jrecent-bestof">
+				Schuldenkrise - der Versuch einer Annäherung			</a>
+			</p>	
+		</div>
+			<div>
+			<h5>Klärwerk</h5>
+			Mittwoch, 07. März 2012				<p>
+				<a href="http://klaerwerk.radio-z.net/radioprogramm/gesellschaft-beitraege/politik-beitraege/topic_show/110299-themenuebersicht.html?lang=de" class="jrecent-bestof">
+				Schlaglichter auf Lateinamerika			</a>
+			</p>	
+		</div>
+			</div>
+	
+          
+  </div>
+  </div>
+    
+        			 		    <a href="#" class="toggler"><span>Die Radio Z-Kollektion 2012</span></a>
+	    		<div class="moduletable-kollektion toggleMe">
+					<h3 class="hide-mobile">Die Radio Z-Kollektion 2012</h3>
+					<p><a class="modal" href="/images/stories/Z_Kollektion/z-t-shirt-vorne.jpg"><img src="/images/stories/Z_Kollektion/z-t-shirt-vorne-small.jpg" border="0" /><img src="/images/stories/Z_Kollektion/z-t-shirt-hinten-small.jpg" border="0" /></a></p>
+<div>
+<h5>Z-2012 T-Shirt</h5>
+</div>
+<div>Preis: 15€</div>
+<hr />
+<p><a class="modal" href="/images/stories/Z_Kollektion/z-zip-hoody-vorne.jpg"><img src="/images/stories/Z_Kollektion/z-zip-hoody-vorne-small.jpg" border="0" /></a><a class="modal" href="/images/stories/Z_Kollektion/z-zip-hoody-hinten.jpg"><img src="/images/stories/Z_Kollektion/z-zip-hoody-hinten-small.jpg" border="0" /></a></p>
+<div>
+<h5>Z-2012 Zip-Up-Hoody</h5>
+</div>
+<div>Preis: 35€</div>
+<p>Details im<a href="http://www.radio-z.net/planet-z/radio-z-fanshop.html"> Z-Fanshop</a></p>		</div>
+	
+      	
+      	 <a href="#" class="toggler"><span>Aktuelle Radiobeiträge</span></a>
+      	<div  class="toggleMe" id="aktuellStoffwechsel">            	
+      	<h2 class="blockheading">Aktuelles aus dem Stoffwechsel-Magazin</h2>
+      	
+	    	    	    
+      	
+
+			<div class="leading">
+			
+<h2 class="contentheading">
+	Neue Stromtrassen: ein heftig umstrittenes Thema</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Montag, 04. Juni 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Co2-Zertifikate, Solar-Förderung, jetzt wieder keine, dafür werden Off-Shore-Windparks gefördert – die sogenannte „Energiewende“ scheint vor allem eines zu sein: ein Milliardengeschäft.<br />Seit letzter Woche liegen die neuen Pläne der Bundesnetzagentur vor und seitdem haben wir Gelegenheit, den Bau und Ausbau von tausenden Kilometern Stromtrassen, konkret gut oder schlecht zu finden.<br />In unserer Energie- und Umweltreihe hört ihr einen Beitrag darüber, ob der Trassenausbau wirklich die einzige Möglichkeit ist, uns alle mit sauberer Energie zu versorgen.Co2-Zertifikate, Solar-Förderung, jetzt wieder keine, dafür werden Off-Shore-Windparks gefördert – die sogenannte „Energiewende“ scheint vor allem eines zu sein: ein Milliardengeschäft.<br />Seit letzter Woche liegen die neuen Pläne der Bundesnetzagentur vor und seitdem haben wir Gelegenheit, den Bau und Ausbau von tausenden Kilometern Stromtrassen, konkret gut oder schlecht zu finden.<br />In unserer Energie- und Umweltreihe hört ihr einen Beitrag darüber, ob der Trassenausbau wirklich die einzige Möglichkeit ist, uns alle mit sauberer Energie zu versorgen.Co2-Zertifikate, Solar-Förderung, jetzt wieder keine, dafür werden Off-Shore-Windparks gefördert – die sogenannte „Energiewende“ scheint vor allem eines zu sein: ein Milliardengeschäft.<br />Seit letzter Woche liegen die neuen Pläne der Bundesnetzagentur vor und seitdem haben wir Gelegenheit, den Bau und Ausbau von tausenden Kilometern Stromtrassen, konkret gut oder schlecht zu finden.<br />In unserer Energie- und Umweltreihe hört ihr einen Beitrag darüber, ob der Trassenausbau wirklich die einzige Möglichkeit ist, uns alle mit sauberer Energie zu versorgen.</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/politik-beitraege/themen/118417-neue-stromtrassen-ein-heftig-umstrittenes-thema.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+		</div>
+		<span class="leading_separator">&nbsp;</span>
+	
+				<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Johannes Agnolis Subversive Theorie Teil 1</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Klärwerk	</span>
+	
+		<span class="createdate">
+		Montag, 04. Juni 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Der 2003 verstorbene Politikwissenschaftler Johannes Agnoli war einer der Theoretiker der 68er Bewegung. Später war er Professor an der der FU-Berlin. Seine 10-teilige Abschiedsvorlesung stellte er unter das Thema "Subversive Theorie. Die Sache selbst und ihre Geschichte."  Eine Akustische Aufbereitung der 1. Lesung.</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/themen/118435-johannes-agnolis-subversive-theorie-teil-1.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Frankreich vor den Parlamentswahlen</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Klärwerk	</span>
+	
+		<span class="createdate">
+		Montag, 04. Juni 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Am kommenden Sonntag beginnen die Parlamentswahlen und es muss sich erst noch zeigen, ob Francoise Hollande auch im Parlament eine Mehrheit hinter sich bringen kann. Ist dies nicht der Fall, dann werden seine Wahlversprechen keinen Cent wert sein, da dann die größere Macht beim Premierminister liegen würde.</p>
+<p>Welcher Ausgang der Wahlen ist zu erwarten, welche Auswirkungen würde eine Regierung des gemäßigten Sozialisten für Frankreich und Europa bedeuten?</p>
+<p>Der Publlizist und Journalist Bernard Schmid lebt in Paris und analysiert für uns im Interview die politische Situation in Frankreich.</p>
+<p> </p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/politik-beitraege/themen/118433-frankreich-vor-den-parlamentswahlen.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Unterirdische Engpassage von Florian Hüttner</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Montag, 04. Juni 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Wir nehmen euch mit in die Nürnberger Unterwelt, genauer: in die Kanalisation. Zusammen mit dem Künstler Florian Hüttner heißt es heute: „abwärts“.Wir nehmen euch mit in die Nürnberger Unterwelt, genauer: in die Kanalisation. Zusammen mit dem Künstler Florian Hüttner heißt es heute: „abwärts“.</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/kultur-beitraege/themen/118395-unterirdische-engpassage-von-florian-huettner.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Mad Rush</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Lokale Leidenschaften	</span>
+	
+		<span class="createdate">
+		Mittwoch, 02. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Mad Rush - das lokale Urgestein der Rap Music, normalerweise mit D-Phunk und DJ Phast am Start, hat wieder neue Tracks in Petto. Dabei hat er niemals vergessen, woher er kommt. Zu uns kommt er diesmal nicht nur, um über N.A.T.O zu sprechen, sondern auch über die Message des Titels "To Da Rescue".</p>
+<p>Und zum Nachhören mit Musik (dank GEMA-Freiheit &amp; Lizenzvertrag) hier:</p>
+<p>http://soundcloud.com/lokaleleidenschaften/mad-rush-bei-den-lokalen</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/kultur-beitraege/themen/115448-mad-rush--fuenfzig-kilo.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	muz-sommerfest</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Mittwoch, 30. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>das muzclub sommerfest an diesem samstag-präsentiert von radio z.</p>
+<p>www.musikzentrale.com</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/kultur-beitraege/themen/117821-enter-title.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	„Schweigen und Verschweigen - Rassismus, NSU und die Stille im Land“ - Öffentliches Hearing</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Mittwoch, 30. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>"Schweigen und Verschweigen - Rassismus, NSU und die Stille im Land“ -  das ist der Titel eines öffentlichen Hearings diesen Samstag in Berlin.  Sechs Monate nach dem Auffliegen des sogenannten  „Nationalsozialistischen Untergrunds“ will das „Bündnis gegen das  Schweigen“ damit eine öffentliche Debatte einfordern über die  rassistische Normalität in der deutschen Gesellschaft – denn sie ist die  Grundlage der NSU-Mordserie, sagt das Bündnis.</p>
+<p> </p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/politik-beitraege/themen/117837-enter-title.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Alternatives Zentrum in der bayerischen Provinz kurz vor der Schließung?</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Mittwoch, 30. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Dem einzigen alternativen, selbstverwalteten und unabhängigen Kulturzentrum ( Zakk ) in Passau und weiterer Umgebung droht das Aus.  Dem Projekt in der Passauer Altstadt wurde der Mietvertrag gekündigt;</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/politik-beitraege/themen/117841-enter-title.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	kunstsupermart</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Mittwoch, 30. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>supermART heißt es vom 1.-3. Juni auf dem ehemaligen Quellegelände in der Fürther Straße.</p>
+<p><img src="/images/stories/ccimages/kunstsupermart.jpg" border="0" width="336" height="204" /></p>
+<p>www.kunstsupermart.de</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/kultur-beitraege/themen/117809-enter-title.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Guts Pie Earshot beim Fight Back! Festival 2012</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Dienstag, 29. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Am 26. Mai fand das Fight Back-Festival in Nürnberg statt. Eine der experimentellsten Bands im Festival Line-Up waren Guts Pie Earshot. Unser Interview mit der Gruppe hört Ihr hier.</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/kultur-beitraege/themen/117743-guts-pie-earshot.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Sendereihe &quot;Fluchtpunkte&quot; - Thema &quot;Racial Profiling&quot;</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Sonntag, 27. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Ein Mensch fährt mit der Bahn und wird von zwei Bundespolizeibeamten kontrolliert. Er möchte dies nicht auf sich sitzen lassen, da er auf Grund schwarzer Hautfarbe schon häufig kontrolliert wurde. Das Verfahren ist mittlerweile in zweiter Instanz vor dem Oberverwaltungsgericht Rheinland- Pfalz. Mittlerweile guckt ganz Europa auf diesen Fall- denn ironischerweise hat es endlich mal einen Fall gebraucht bei dem ein Polizist oder eine Polizisten die Wahrheit sagt und sich gegenüber dem gängigen Racial Profiling positioniert. Für unsere Sendereihe "Fluchtpunkte" sprachen wir mit VertreterInnen des Panafrikanismus e.V. aus München, mit der Initiative Schwarzer Menschen (ISD) und mit dem Anwalt des Betroffenen Sven Adam.</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/politik-beitraege/themen/117531-fluchtpunkte-teil-2.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Der weibliche Körper im Spätkapitalismus - das Buch &quot;Fleischmarkt&quot; von Laurie Penny</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Gender. So What?	</span>
+	
+		<span class="createdate">
+		Sonntag, 27. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Der weibliche Körper – wie ist er im kapitalistischen System besetzt, welche Funktion und Bedeutung hat er? Damit hat sich die feministische britische Autorin und Bloggerin Laurie Penny auseinandergesetzt.</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/themen/117577-der-weibliche-koerper-im-spaetkapitalismus-das-buch-qfleischmarktq-von-laurie-penny.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+					<div class="article_row">
+									<div class="article_column column1 cols1" >
+						
+<h2 class="contentheading">
+	Paradiesvogelfest- Problematische Idylle</h2>
+
+
+
+
+<p class="iteminfo">
+	
+		<span class="createdby">
+		Geschrieben von: Stoffwechsel	</span>
+	
+		<span class="createdate">
+		Donnerstag, 24. Mai 2012 12:00	</span>
+	</p>
+
+
+
+
+<p>Vom 31.Mai bis zum 03.Juni soll im Schloss Weitersroda das zweite Paradiesvogelfest stattfinden. Doch neben der großen Vorfreude auf das bunte Spektakel, kam es in vergangener Zeit immer häufiger zu Angriffen auf die dort lebenden Personen.- Ein Interview mit "Prinz Chaos II"</p>
+<p>
+	<a href="/radioprogramm/gesellschaft-beitraege/themen/117403-enter-title.html?lang=de" class="readon">
+		Zum Radiobeitrag</a>
+</p>
+
+					</div>
+					<span class="article_separator">&nbsp;</span>
+								<span class="row_separator">&nbsp;</span>
+			</div>
+		
+	
+					<p class="counter">
+			Seite 1 von 127		</p>
+							&lt;&lt; <span class="pagenav">Start</span> &lt; <span class="pagenav">voriger</span> <span class="pagenav">1</span> <a title="2" href="/index.php?lang=de&amp;start=13" class="pagenav">2</a> <a title="3" href="/index.php?lang=de&amp;start=26" class="pagenav">3</a> <a title="4" href="/index.php?lang=de&amp;start=39" class="pagenav">4</a> <a title="5" href="/index.php?lang=de&amp;start=52" class="pagenav">5</a> <a title="6" href="/index.php?lang=de&amp;start=65" class="pagenav">6</a> <a title="7" href="/index.php?lang=de&amp;start=78" class="pagenav">7</a> <a title="8" href="/index.php?lang=de&amp;start=91" class="pagenav">8</a> <a title="9" href="/index.php?lang=de&amp;start=104" class="pagenav">9</a> <a title="10" href="/index.php?lang=de&amp;start=117" class="pagenav">10</a> <a title="Weiter" href="/index.php?lang=de&amp;start=13" class="pagenav">Weiter</a> &gt; <a title="Ende" href="/index.php?lang=de&amp;start=1638" class="pagenav">Ende</a> &gt;&gt;			
+
+
+      	
+      	</div> 
+      	
+      	</div>   
+  </div>
+    <div class="clr"></div>
+  <div class="clr"></div>
+  </div>  
+<!--end of wrap-->
+</div>    
+<!--end of pageouter-->
+</div>
+<div id="footerwrap"> 
+  <div id="footer"  class="threecols">  	
+        
+        
+            
+  </div>  
+ 
+</div>
+</body>
+</html>

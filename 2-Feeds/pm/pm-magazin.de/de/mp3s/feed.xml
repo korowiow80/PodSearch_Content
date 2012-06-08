@@ -1,0 +1,1449 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml" xml:lang="de" lang="de" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Home | PM</title>
+
+	<meta property="og:title" content="Home | PM"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="P.M."/>
+		
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/www.pm-magazin.de/themes/pm_online/favicon.ico" type="image/x-icon" />
+	
+	<link rel="stylesheet" type="text/css" href="/sites/www.pm-magazin.de/gujAd/gujAd.css" />
+	<script type="text/javascript" src="/sites/www.pm-magazin.de/gujAd/gujAd.js"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+				GujAd.getClient().setIsIndexPage(true);
+		
+		GujAd.registerAdPositionLoadedHandler(function(position) {
+			if (position.getName() == 'superbanner_1' && (true || position.getAdType() == 'wallpaper')) {
+				moveSuperbannerToWallpaperSlot();
+			}
+		}, true);
+
+		function moveSuperbannerToWallpaperSlot() {
+			var superbannerDiv = document.getElementById('superbanner_1');
+			var wallpaperDiv = document.getElementById('wallpaper');
+			var firstHtmlElement;
+			
+			while (firstHtmlElement = superbannerDiv.firstChild) {
+				// skip script tags. otherwise they will be executed.
+				if (firstHtmlElement.tagName && firstHtmlElement.tagName.toLowerCase() == "script") {
+					superbannerDiv.removeChild(firstHtmlElement);
+				} else { // move html
+					wallpaperDiv.appendChild(firstHtmlElement);
+				}
+			}
+			
+			superbannerDiv.style.display = 'none';
+			$('#wp-container').css('height', '175px');
+			$('#wallpaper').show();
+			
+			$('#ausgabeNaviContainer').css('top', '217px');
+		}
+		
+		if (window.location.search.indexOf('gujad=1' == true)) {
+			document.write('<scr'+'ipt type="text/javascript" src="http://test.adtech2.guj.de/satellite.php/get-file-content/1/pm-magazin.de/gujAd.js"></scr'+'ipt>');
+			document.write('<link rel="stylesheet" type="text/css" media="screen" href="http://test.adtech2.guj.de/satellite.php/get-file-content/1/pm-magazin.de/gujAd.css">');
+		} else {
+			document.write('<scr'+'ipt type="text/javascript" src="/gujAd/gujAd.js"></scr'+'ipt>');
+			document.write('<link rel="stylesheet" type="text/css" media="screen" href="/gujAd/gujAd.css">');
+		}
+	//]]>
+	</script>
+
+	<link type="text/css" rel="stylesheet" media="all" href="/sites/www.pm-magazin.de/files/css/css_57430f221b023afe13cddc8a4b14809b.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.pm-magazin.de/themes/pm_online/css/ie.css?p" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.pm-magazin.de/themes/pm_online/css/ie6.css?p" />
+<![endif]-->
+
+	<link type="text/css" rel="stylesheet" media="all" href="/sites/www.pm-magazin.de/themes/pm_online/css/f3/styles.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="/sites/www.pm-magazin.de/themes/pm_online/css/f3/colorbox.css" />
+	<link type="text/css" rel="stylesheet" media="print" href="/sites/www.pm-magazin.de/themes/pm_online/css/print.css" />
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/sites/www.pm-magazin.de/themes/pm_online/css/f3/ie7.css" type="text/css" media="all" />
+	<![endif]-->
+
+	<!--[if IE 8]>
+		<link rel="stylesheet" href="/sites/www.pm-magazin.de/themes/pm_online/css/f3/ie8.css" type="text/css" media="all" />
+	<![endif]-->
+
+	<script type="text/javascript" src="/sites/www.pm-magazin.de/files/js/js_46ecc3e25f89eceb62b06c8521602c4e.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "fivestar": { "titleUser": "Eigene Bewertung: ", "titleAverage": "Durchschnitt: ", "feedbackSavingVote": "Bewertung wird gespeichert...", "feedbackVoteSaved": "Die Bewertung wurde gespeichert.", "feedbackDeletingVote": "Bewertung wird gelöscht...", "feedbackVoteDeleted": "Die Bewertung wurde gelöscht." } });
+//--><!]]>
+</script>
+
+	<script type="text/javascript" src="http://maps.google.de/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="/sites/www.pm-magazin.de/themes/pm_online/js/gmap_v3.js"></script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+		function suche(event) {
+			event.returnValue = false;
+			var begriff = $('#edit-search-theme-form-1').val();
+			location.href = '/suche/' + begriff;
+			return false;
+		}
+	//]]>
+	</script>
+
+		<link rel="alternate" type="application/rss+xml" title="P.M. RSS-Feed" href="/rss" />
+</head>
+<body class="front not-logged-in one-sidebar sidebar-first page-panels body_bg">
+
+<div id="wp-container"></div>
+
+<!-- bookmarkcontainer -->
+<div id="bookmarkBox">
+	<div class="headline">Diese Seite bookmarken:</div>
+	<ul class="noListStyle">
+		<li>
+			<a href="#" rel="sidebar" title="Diese Seite bookmarken" id="firefoxIcon" onclick="if(document.all && !window.opera){ window.external.AddFavorite(location.href, document.title);return false; }else{ this.title = document.title; }">
+				<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/firefox.png" alt="Diese Seite bookmarken" />
+			</a>
+		</li>
+		<li>
+			<a title="Diese Seite bookmarken" href="#" id="ieIcon" onclick="if(document.all && !window.opera){ window.external.AddFavorite(location.href, document.title);return false; }else{ this.title = document.title; }" >
+				<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/ie.png" alt="Diese Seite bookmarken" />
+			</a>
+		</li>
+		<li>
+			<a title="Diese Seite bookmarken" href="http://del.icio.us/post?url=www.pm-magazin.de%2F&title=Home+%7C+PM" id="deliciousIcon">
+				<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/delicious.png" alt="Diese Seite bookmarken" />
+			</a>
+		</li>
+		<li>
+			<a title="Diese Seite bookmarken" href="http://www.mister-wong.de/index.php?action=addurl&bm_url=www.pm-magazin.de%2F&bm_description=Home+%7C+PM" id="wongIcon">
+				<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/wong.png" alt="Diese Seite bookmarken" />
+			</a>
+		</li>
+		<li>
+			<a title="Diese Seite bookmarken" href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t=Home+%7C+PM&d=&tag=&u=www.pm-magazin.de%2F" id="yahooIcon">
+				<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/yahoo.png" alt="Diese Seite bookmarken" />
+			</a>
+		</li>
+		<li>
+			<a title="Diese Seite bookmarken" href="http://www.google.com/bookmarks/mark?op=add&bkmk=www.pm-magazin.de%2F&title=Home+%7C+PM" id="googleIcon">
+				<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/google.png" alt="Diese Seite bookmarken" />
+			</a>
+		</li>
+	</ul>
+	<p class="bookmarkText">
+		Diese Seite bookmarken	</p>
+</div>
+
+
+<!-- IVW VERSION="1.5" -->
+<script type="text/javascript">
+//<![CDATA[
+	var IVW = 'http://pmonline.ivwbox.de/cgi-bin/ivw/CP/homepage;';
+	document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"szmtag\" />");
+//]]>
+</script>
+<noscript>
+	<img src="http://pmonline.ivwbox.de/cgi-bin/ivw/CP/homepage;" width="1" height="1" alt="szmtag" />
+</noscript>
+<!-- /IVW -->
+
+<div id="page-wrapper" class="positionRelative">
+	<div id="page">
+		<div id="ausgabeNaviContainer" class="hidden">
+			<div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-magazin/pm-magazin-%E2%80%93-die-10-gro%C3%9Fen-mysterien-unserer-existenz"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover_16.jpg" alt="" title=""  class="cover" width="80" height="104" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-magazin/pm-magazin-%E2%80%93-die-10-gro%C3%9Fen-mysterien-unserer-existenz">P.M. Magazin</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-history/pm-history-%E2%80%93-der-kampf-um-den-heiligen-gral"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover-History-06-12.jpg" alt="" title=""  class="cover" width="80" height="104" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-history/pm-history-%E2%80%93-der-kampf-um-den-heiligen-gral">P.M. HISTORY</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover_19.jpg" alt="" title=""  class="cover" width="80" height="104" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause">P.M. Fragen &amp; Antworten</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-biografie/pm-biografie-%E2%80%93-sisi-von-%C3%B6sterreich"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover_18.jpg" alt="" title=""  class="cover" width="80" height="104" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-biografie/pm-biografie-%E2%80%93-sisi-von-%C3%B6sterreich">P.M. Biografie</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-perspektive/die-wunderbare-welt-unseres-k%C3%B6rpers"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover_15.jpg" alt="" title=""  class="cover" width="80" height="104" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-perspektive/die-wunderbare-welt-unseres-k%C3%B6rpers">P.M. Perspektive</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-logik-trainer/pm-logik-trainer-juni-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover-LT06-2012.jpg" alt="" title=""  class="cover" width="80" height="115" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-logik-trainer/pm-logik-trainer-juni-2012">P.M. Logik-Trainer</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-intelligenz-trainer/pm-intelligenz-trainer-maijuni-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover-IT03-2012.jpg" alt="" title=""  class="cover" width="80" height="115" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-intelligenz-trainer/pm-intelligenz-trainer-maijuni-2012">P.M. Intelligenz-Trainer</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-kreativ-trainer/pm-kreativ-trainer-maijuni-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover-KT03-2012.jpg" alt="" title=""  class="cover" width="80" height="115" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-kreativ-trainer/pm-kreativ-trainer-maijuni-2012">P.M. Kreativ-Trainer</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-sudoku-trainer/pm-sudoku-trainer-aprilmai-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover-ST03-2012.jpg" alt="" title=""  class="cover" width="80" height="115" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-sudoku-trainer/pm-sudoku-trainer-aprilmai-2012">P.M. Sudoku-Trainer</a></div>
+	</li>
+</ul>
+
+
+
+</div><div class="row ausgabeNaviListe">
+
+<ul class="noListStyle container">
+	<li class="cover">
+		<a href="/m/pm-logicals/pm-logicals-ausgabe-winter-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/ausgabe_navi/images/Cover-LOG01-2012.jpg" alt="" title=""  class="cover" width="80" height="115" /></a>	</li>
+	<li class="text posRelative">
+		<div class="headline"><a href="/m/pm-logicals/pm-logicals-ausgabe-winter-2012">P.M. Logicals</a></div>
+	</li>
+</ul>
+
+
+
+</div>		</div><!--- ende ausgabeNaviContainer -->
+		
+				<div class="gujAd wallpaper txtCenter hidden" id="wallpaper"></div>
+				
+		<div id="headerContainer">
+			<div class="row">
+								<h1>
+									<a href="/" title="P.M. Welt des Wissens">
+						<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/logo.png" alt="PM - Welt des Wissens" id="logo" />
+					</a>
+								</h1>
+				
+				<div class="floatRight">
+					<ul class="serviceNav clear">
+						<li>
+															Sie sind nicht angemeldet&nbsp;&nbsp;
+								<a href="/user" title="Anmelden" class="moreLink">Anmelden &raquo;</a>
+													</li>
+						<li><a href="/newsletter" title="Newsletter">Newsletter</a></li>
+						<li><a href="/pm-medien" title="P.M. Medienwelt">P.M. Medienwelt</a></li>
+						<li><a href="https://shop.pm-magazin.de/kundenservice/index/index/" title="Kundenservice">Kundenservice</a></li>
+						<li class="last">
+							<a href="http://de-de.facebook.com/PMOnline" title="P.M. auf Facebook" target="_blank">
+								<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/facebook.png" alt="P.M. auf Facebook" />
+							</a>
+							&nbsp;
+							<a href="/rss" title="RSS" target="_blank">
+								<img src="/sites/www.pm-magazin.de/themes/pm_online/images/pm_online/icons/rss.png" alt="RSS" />
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<form action="#" accept-charset="UTF-8" method="post" id="search-theme-form" class="search-form" onSubmit="return suche(event);">
+					<div>
+						<div id="search" class="container-inline">
+							<div class="form-item" id="edit-search-theme-form-1-wrapper">
+								<label class="element-invisible" for="edit-search-theme-form-1">Diese Website durchsuchen: </label>
+								<input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" onblur="clearText(this)" onfocus="clearText(this)" size="15" value="Suche" title="Die Begriffe eingeben, nach denen gesucht werden soll" class="form-text custom-search-default-value custom-search-box" />
+							</div>
+							<input type="submit" name="op" id="edit-submit-2" value="Suchen" class="form-submit" />
+						</div>
+					</div>
+				</form>
+
+			</div>
+			<div class="naviBar">
+				<div class="region region-navigation">
+  <div id="block-menu-primary-links" class="block block-menu region-odd even region-count-1 count-2">
+
+
+<pre></pre>
+
+
+  
+  <div class="content">
+    <ul class="menu"><li class="expanded first active-trail"><a href="/" title="" class="active">Themen</a><ul class="menu"><li class="leaf first"><a href="/r/mensch" title="">Mensch</a></li>
+<li class="leaf"><a href="/r/natur" title="">Natur</a></li>
+<li class="leaf"><a href="/r/technik" title="">Technik</a></li>
+<li class="leaf"><a href="/r/geschichte" title="">Geschichte</a></li>
+<li class="leaf"><a href="/r/automobiles" title="">Auto</a></li>
+<li class="leaf last"><a href="/r/gute-frage" title="">Schon gewusst?</a></li>
+</ul></li>
+<li class="expanded"><a href="/specials" title="">Specials</a><ul class="menu"><li class="leaf first"><a href="/t/energie-umwelt" title="">Energie &amp; Umwelt</a></li>
+<li class="leaf"><a href="/t/evolution-leben" title="">Evolution &amp; Leben</a></li>
+<li class="leaf"><a href="/t/gehirn-intelligenz" title="">Gehirn &amp; Intelligenz</a></li>
+<li class="leaf"><a href="/t/geschichte-v%C3%B6lkerkunde" title="">Geschichte &amp; Völkerkunde</a></li>
+<li class="leaf"><a href="/t/kunst-kultur" title="">Kunst &amp; Kultur</a></li>
+<li class="leaf"><a href="/t/mystery-verschw%C3%B6rung" title="">Mystery &amp; Verschwörung</a></li>
+<li class="leaf"><a href="/t/physik-technik" title="">Physik &amp; Technik</a></li>
+<li class="leaf"><a href="/t/psychologie-gesundheit" title="">Psychologie &amp; Gesundheit</a></li>
+<li class="leaf"><a href="/t/raumfahrt-kosmos" title="">Raumfahrt &amp; Kosmos</a></li>
+<li class="leaf last"><a href="/t/religion-mythologie" title="">Religion &amp; Mythologie</a></li>
+</ul></li>
+<li class="expanded"><a href="/magazine" title="">P.M. Hefte</a><ul class="menu"><li class="leaf first"><a href="/m/pm-magazin/pm-magazin-–-die-10-großen-mysterien-unserer-existenz" title="">P.M. Magazin</a></li>
+<li class="leaf"><a href="/m/pm-history/pm-history-–-der-kampf-um-den-heiligen-gral" title="">P.M. HISTORY</a></li>
+<li class="leaf"><a href="/m/pm-fragen-antworten/pm-fragen-antworten-–-woher-kommt-die-neue-sehnsucht-nach-zu-hause" title="">P.M. Fragen &amp; Antworten</a></li>
+<li class="leaf"><a href="/m/pm-biografie/pm-biografie-–-sisi-von-österreich" title="">P.M. Biografie</a></li>
+<li class="leaf"><a href="/m/pm-perspektive/die-wunderbare-welt-unseres-körpers" title="">P.M. Perspektive</a></li>
+<li class="leaf"><a href="/m/pm-speed-trainer/pm-speed-trainer" title="P.M. SPEED-Trainer">P.M. SPEED-Trainer</a></li>
+<li class="leaf last"><a href="/magazine/trainer" title="">P.M. Trainer</a></li>
+</ul></li>
+<li class="expanded"><a href="/interaktiv" title="">Spiele &amp; Co</a><ul class="menu"><li class="leaf first"><a href="/interaktiv" title="">Übersicht</a></li>
+<li class="leaf"><a href="/a/pm-gehirntrainer-0" title="">P.M. Gehirntrainer</a></li>
+<li class="leaf"><a href="/gewinnspiele" title="">Gewinnspiele</a></li>
+<li class="leaf"><a href="/zitate" title="">Zitate</a></li>
+<li class="leaf"><a href="/videos" title="">Videos</a></li>
+<li class="leaf"><a href="/i/spiele" title="">Spiele</a></li>
+<li class="leaf"><a href="/i/quiz" title="">Quiz</a></li>
+<li class="leaf"><a href="/eMagazine" title="">eMagazine</a></li>
+<li class="leaf"><a href="/a/pm-apps" title="">Apps</a></li>
+<li class="leaf last"><a href="/i/cartoons" title="">Cartoons</a></li>
+</ul></li>
+<li class="expanded last"><a href="http://shop.pm-magazin.de" title="">Abo &amp; Shop</a><ul class="menu"><li class="leaf first"><a href="http://shop.pm-magazin.de/abo.html" title="">Abo</a></li>
+<li class="leaf"><a href="http://shop.pm-magazin.de/einzelhefte.html" title="">Einzelhefte</a></li>
+<li class="leaf"><a href="http://shop.pm-magazin.de/buecher.html" title="">Bücher</a></li>
+<li class="leaf"><a href="http://shop.pm-magazin.de/cds-dvds.html" title="">CDs &amp; DVDs</a></li>
+<li class="leaf"><a href="http://shop.pm-magazin.de/kalender.html" title="">Kalender</a></li>
+<li class="leaf"><a href="http://shop.pm-magazin.de/leserreisen.html" title="">Leserreisen</a></li>
+<li class="leaf"><a href="http://shop.pm-magazin.de/schuber/pm-schuber.html" title="">Schuber</a></li>
+<li class="leaf last"><a href="http://shop.pm-magazin.de/pm-kult.html" title="">P.M. Kult</a></li>
+</ul></li>
+</ul>  </div>
+
+  </div> <!-- /.block -->
+</div> <!-- /.region -->
+			</div>
+		</div>
+				<div class="gujAd superbanner txtCenter" id="superbanner_1">
+			<script type="text/javascript">
+			//<![CDATA[
+				GujAd.push('superbanner_1');
+			//]]>
+			</script>
+		</div>
+				
+		<div id="main-wrapper">
+														<div class="main_sidebar_wrapper">
+			<div id="sidebar" class="" style="margin-top:362px;">
+				<div class="region region-sidebar-first column sidebar"><div class="section">
+  <div id="block-panels_mini-sidebar_home" class="block block-panels_mini region-odd odd region-count-1 count-1">
+
+
+<pre></pre>
+
+
+  
+  <div class="content">
+    <div class="panel-display panel-1col clear-block" id="mini-panel-sidebar_home">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-views pane-ad-mr" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="container txtCenter">
+	<div class="gujAd rectangle" id="rectangle_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.push('rectangle_1');
+		//]]>
+		</script>
+	</div>
+	<div class="gujAd halfpagead" id="halfpagead_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.push('halfpagead_1');
+		//]]>
+		</script>
+	</div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-aktuelle-magazine" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-aktuelle-magazine view-id-aktuelle_magazine view-display-id-default view-dom-id-22 view-aktuelle-magazine view-id-aktuelle_magazine view-display-id-default view-dom-id-22">
+  
+  
+  
+  
+      <div class="view-content">
+      <div class="sidebarContainer lightGreyBg padding" id="magazinAuswahlContainer">
+<div class="headline">P.M. Hefte</div><select name="magazinAuswahlSelect" id="magazinAuswahlSelect" class="aktuelleMagazine"><option value="300001">P.M. Magazin</option><option value="300002">P.M. HISTORY</option><option value="1106550">P.M. HISTORY Collection</option><option value="1106110">P.M. HISTORY Special</option><option value="300006">P.M. Fragen & Antworten</option><option value="300012">P.M. Biografie</option><option value="300007">P.M. Perspektive</option><option value="1107427">P.M. SPEED-Trainer</option><option value="300005">P.M. Logik-Trainer</option><option value="300004">P.M. Intelligenz-Trainer</option><option value="300003">P.M. Kreativ-Trainer</option><option value="300011">P.M. Sudoku-Trainer</option><option value="300008">P.M. Logicals</option></select><div class="magazinAuswahl posRelative">
+			<div id="magazinbox_300001" class="clear magazinbox ">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-magazin/pm-magazin-%E2%80%93-die-10-gro%C3%9Fen-mysterien-unserer-existenz"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover_16.jpg" alt="" title=""  class="pic ausgabecover_1107707" width="130" height="169" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Die 10 gro&szlig;en <strong>Mysterien unserer Existenz</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	Der <strong>perfekte Mord</strong> ist Geschichte</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Papiergeld</strong> - Das Risiko des sch&ouml;nen Scheins</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />06/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-magazin.html?icode=050100017&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmm" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300002" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-history/pm-history-%E2%80%93-der-kampf-um-den-heiligen-gral"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-History-06-12.jpg" alt="" title=""  class="pic ausgabecover_1107708" width="130" height="169" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Der <strong>Heilige Gral </strong>von Wales</p>
+<p>
+	&nbsp;</p>
+<p>
+	Aus dem Leben einer <strong>echten K&ouml;nigin</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Gralsburgen</strong> in Deutschland</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />06/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-history?icode=050100225&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmh-button#rd=1" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_1106550" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-history-collection/pm-history-collection-jesus"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover_1.jpg" alt="" title=""  class="pic ausgabecover_1106551" width="130" height="165" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Der Glaube, dass<strong>&nbsp; Gott zum Menschen </strong>wurde</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Reliquien</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	Vom<strong> Ende der Zeiten</strong></p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />01/2011</p>
+					<a href="http://shop.pm-magazin.de/einzelhefte/sonderhefte/p-m-history-collection-die-besten-geschichten-aus-p-m-history.html" class="redBtnMedium floatRight">
+						Zum Heft &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_1106110" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-history-special/pm-history-special-im-reich-der-wikinger"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-His-Special-4.jpg" alt="" title=""  class="pic ausgabecover_1106111" width="130" height="168" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	<strong>Drachenboote:</strong> Schneller, wendiger, robuster</p>
+<p>
+	&nbsp;</p>
+<p>
+	Deutschland zur <strong>Wikingerzeit</strong></p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />04/2011</p>
+					<a href="http://shop.pm-magazin.de/einzelhefte/sonderhefte.html" class="redBtnMedium floatRight">
+						Zum Heft &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300006" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover_19.jpg" alt="" title=""  class="pic ausgabecover_1107806" width="130" height="169" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Die <strong>Heimat</strong> boomt!</p>
+<p>
+	&nbsp;</p>
+<p>
+	Dick durch sp&auml;tes <strong>Schlafengehen</strong>?</p>
+<p>
+	&nbsp;</p>
+<p>
+	Wer tr&auml;gt den <strong>Mobster-Look</strong>?</p>
+<p>
+	&nbsp;</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />06/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-fragen-und-antworten.html?icode=050100219&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmfa-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300012" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-biografie/pm-biografie-%E2%80%93-sisi-von-%C3%B6sterreich"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover_18.jpg" alt="" title=""  class="pic ausgabecover_1107748" width="130" height="169" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	<strong>Sisi von &Ouml;sterreich</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Michelle Williams</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Juri Gagarin</strong></p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />02/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-biografie.html?icode=050100139&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmb-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300007" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-perspektive/die-wunderbare-welt-unseres-k%C3%B6rpers"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover_15.jpg" alt="" title=""  class="pic ausgabecover_1107626" width="130" height="169" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Die wunderbare Welt unseres <strong>K&ouml;rpers</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	Die Kraft der <strong>guten Gedanken</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	So werden Sie ein <strong>Optimist</strong>!</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />02/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-perspektive.html?icode=050100145&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmp-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_1107427" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-speed-trainer/pm-speed-trainer"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-SP01-2012.jpg" alt="" title=""  class="pic ausgabecover_1107430" width="130" height="187" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Der Brain-Booster f&uuml;r einen h&ouml;heren IQ!</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />01/2012</p>
+					<a href="http://shop.pm-magazin.de/einzelhefte/pm-speed-trainer/p-m-speed-trainer-01-2012.html" class="redBtnMedium floatRight">
+						Zum Heft &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300005" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-logik-trainer/pm-logik-trainer-juni-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-LT06-2012.jpg" alt="" title=""  class="pic ausgabecover_1107811" width="130" height="186" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Kombinieren Sie Schritt f&uuml;r Schritt zur logischen L&ouml;sung!</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />06/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-logik-trainer.html?icode=050100147&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmlt-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300004" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-intelligenz-trainer/pm-intelligenz-trainer-maijuni-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-IT03-2012.jpg" alt="" title=""  class="pic ausgabecover_1107635" width="130" height="187" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Denksport-Aufgaben aus acht Bereichen bringen Ihr Gehirn auf Touren</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />03/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-intelligenz-trainer.html?icode=050100147&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmit-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300003" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-kreativ-trainer/pm-kreativ-trainer-maijuni-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-KT03-2012.jpg" alt="" title=""  class="pic ausgabecover_1107634" width="130" height="187" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Gestalten Sie: Pixel f&uuml;r Pixel zum fertigen Bild</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />03/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-kreativ-trainer.html?icode=050100147&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmkt-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300011" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-sudoku-trainer/pm-sudoku-trainer-aprilmai-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-ST03-2012.jpg" alt="" title=""  class="pic ausgabecover_1107537" width="130" height="187" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	92 qualitativ hochwertige Sudokus&nbsp; &ndash; f&uuml;r Anf&auml;nger, Fortgeschrittene, Experten und Champions</p>
+<p>
+	<br />
+	<strong>Zu gewinnen: drei Qualit&auml;ts-Kochtopf-Sets!</strong></p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />03/2012</p>
+					<a href="http://shop.pm-magazin.de/abo/pm-sudoku.html?icode=050100153&utm_source=pm&utm_medium=aboteaser&utm_campaign=pmst-button" class="redBtnMedium floatRight">
+						Zum Abo &raquo;
+					</a>
+				</div>
+			</div>
+			<div id="magazinbox_300008" class="clear magazinbox hidden">
+				<div class="clear">
+					<div class="cover">
+						<a href="/m/pm-logicals/pm-logicals-ausgabe-winter-2012"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/magazin_cover_medium/images/Cover-LOG01-2012.jpg" alt="" title=""  class="pic ausgabecover_1106794" width="130" height="187" /></a>
+					</div>
+					<div class="text container">
+						<p>
+	Noch mehr <strong>R&auml;tselspa&szlig;</strong>:</p>
+<p>
+	P.M. Logicals bringt Ihre grauen Zellen auf Hochtouren. Mit 45 anspruchsvollen Logik-Puzzles</p>
+
+					</div>
+				</div>
+				<div>
+					<p class="txtBold ausgabenu floatLeft prozent50"><span class="txtUppercase">Ausgabe</span><br />01/2011</p>
+					<a href="http://shop.pm-magazin.de/einzelhefte/pm-logicals.html" class="redBtnMedium floatRight">
+						Zum Shop &raquo;
+					</a>
+				</div>
+			</div></div></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-zitate-index" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-zitate-index view-id-zitate_index view-display-id-block_1 view-dom-id-23 view-zitate-index view-id-zitate_index view-display-id-block_1 view-dom-id-23">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="sidebarContainer">
+	<div class="zitatBox lightGreenBg">
+		<div class="headline">Zitat des Tages			<div class="serviceLinks floatRight">
+				<div class="sidebar-likebutton"><fb:like href="http://www.pm-magazin.de/zitate/katharine-hepburn_603871" layout="button_count" ></fb:like></div>			</div>
+		</div>
+		<div class="text">
+			<p>Die Schauspielkunst ist die geringste aller Begabungen und auch nicht gerade die feinste Art, seinen Lebensunterhalt zu verdienen. Shirley Temple konnte das schon mit vier.</p>
+			<div class="row">
+				<div class="floatLeft prozent50 txtLeft"><a href="/zitate" class="red txtBold">Mehr Zitate &raquo;</a></div>
+				<div class="floatLeft prozent50 txtUppercase txtRight">
+					Katharine Hepburn				</div>
+			</div>
+		</div>
+	</div>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-frage-der-woche" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-frage-der-woche view-id-frage_der_woche view-display-id-default view-dom-id-24 view-frage-der-woche view-id-frage_der_woche view-display-id-default view-dom-id-24">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="container sidebarContainer">
+	<div class="sidebarBox">
+		<div class="darkGreyHeadlineBg clear">
+			<div class="floatLeft headline">
+				Schon gewusst?			</div>
+			<div class="floatRight txtRight">
+				<div class="sidebar-likebutton"><fb:like href="http://www.pm-magazin.de/r/gute-frage/ist-sex-gut-für-die-umwelt" layout="button_count" ></fb:like></div>			</div>
+		</div>
+		<div class="padding lightGreyBg">
+			<div class="question">
+				Ist Sex gut für die Umwelt?			</div>
+			<div class="boxFooter row">
+				<div class="floatLeft paddingTop7">
+					<a href="/r/gute-frage" class="txtBold red" title="Mehr wissen">Mehr wissen &raquo;</a>
+				</div>
+				<div class="floatRight">
+					<a href="/r/gute-frage/ist-sex-gut-f%C3%BCr-die-umwelt" class="redBtnSmall txtBold" title="Zur Antwort &amp;raquo;">Zur Antwort &raquo; &raquo;</a>				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-facebook-box" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="sidebarContainer">
+	<fb:like-box profile_id="58428074178" width="300" stream="false" header="false"></fb:like-box>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-node" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="sidebarContainer lightGreyBg padding" id="newsletterAboSidebarContainer">
+	<div class="headline">P.M. Online Newsletter abonnieren:</div>
+	<div class="content" id="newsletterbox">
+		<!--paging_filter--><form action="/newsletter"  accept-charset="UTF-8" method="post" id="webform-client-form-1102263" class="webform-client-form" enctype="multipart/form-data">
+<div><div class="webform-component webform-component-email" id="webform-component-email"><div class="form-item" id="edit-submitted-email-wrapper">
+ <input type="text" maxlength="128" name="submitted[email]" id="edit-submitted-email" size="60" value="E-Mail-Adresse" class="form-text required email" />
+</div>
+</div><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
+<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
+<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
+<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
+<input type="hidden" name="form_build_id" id="form-cb47d36b351e7c928138099dcd6c053e" value="form-cb47d36b351e7c928138099dcd6c053e"  />
+<input type="hidden" name="form_id" id="edit-webform-client-form-1102263" value="webform_client_form_1102263"  />
+<div id="edit-actions" class="form-actions form-wrapper"><input type="submit" name="op" id="edit-submit" value="Speichern"  class="form-submit" />
+</div>
+</div></form>
+	</div>
+	</div>
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-manueller-teaser-sidebar" >
+  
+  
+  
+  <div class="pane-content">
+    
+	<div class=" posRelative sidebarContainer manuellerTeaser">
+	<a href="http://www.pm-magazin.de/a/pm-gehirntrainer-0"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser_horizontal_big_sidebar/images/P.M. Gehirntrainer.JPG" alt="" title=""  class="pic" width="300" height="211" /></a>			<div class="text">
+							<div class="spitzmarke"><a href="http://www.pm-magazin.de/a/pm-gehirntrainer-0">Fitness für Ihr Gehirn</a></div>
+										<div class="headline"><a href="http://www.pm-magazin.de/a/pm-gehirntrainer-0">P.M. Gehirntrainer</a></div>
+										<div class="teaserText">
+					<p>
+	Steigern Sie Ihre geistige Fitness - mit dem P.M. Gehirntrainer!</p>
+									</div>
+				<a href="http://www.pm-magazin.de/a/pm-gehirntrainer-0" class="moreLink" target="_self">Steigern Sie Ihre geistige Fitness  &raquo;</a>					</div>
+		</div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-manueller-teaser-sidebar" >
+  
+  
+  
+  <div class="pane-content">
+    
+	<div class=" posRelative sidebarContainer manuellerTeaser">
+	<a href="http://www.pm-magazin.de/i/spiele/spiel-bubbles"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser_horizontal_big_sidebar/images/Bubbles-Teaser.jpg" alt="" title=""  class="pic" width="300" height="211" /></a>			<div class="text">
+							<div class="spitzmarke"><a href="http://www.pm-magazin.de/i/spiele/spiel-bubbles">Bubbles </a></div>
+										<div class="headline"><a href="http://www.pm-magazin.de/i/spiele/spiel-bubbles">Scharfe Augen gefragt</a></div>
+										<div class="teaserText">
+					<p>
+	Bringen Sie den Pfeil in Position und lassen somit gleiche Bubbles verschwinden! Aber Vorsicht: Wenn Sie nicht genau zielen, werden die Bubbles immer mehr!</p>
+									</div>
+				<a href="http://www.pm-magazin.de/i/spiele/spiel-bubbles" class="moreLink" target="_self">Zu Bubbles &raquo;</a>					</div>
+		</div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-manueller-teaser-sidebar" >
+  
+  
+  
+  <div class="pane-content">
+    
+	<div class=" posRelative sidebarContainer manuellerTeaser">
+	<a href="http://shop.pm-magazin.de/"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser_horizontal_big_sidebar/images/pm_banner_300x211_120306.JPG" alt="" title=""  class="pic" width="300" height="211" /></a>			<div class="text">
+										<div class="headline"><a href="http://shop.pm-magazin.de/">Abo & Shop</a></div>
+								</div>
+		</div>
+
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  </div> <!-- /.block -->
+</div></div> <!-- /.section, /.region -->
+			</div>
+	
+			<div id="main" class="" >
+				<div>
+									</div>
+	
+				<div id="content" class="column">
+					<div class="section">
+						<div id="content-area">
+							<div class="panel-display panel-pm clear-block" >
+	<div class="panel-panel panel-top">
+		<div class="inside"><div class="panel-pane pane-views pane-teaserliste-manuell" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-block_1 view-dom-id-7 view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-block_1 view-dom-id-7">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+<script type="text/javascript">
+	function updateBuehneTeaser() {
+		var i = $(this).attr('item');
+		$('.buehne_teaser').show();
+		$('.buehne_teaser[item="' + i +'"]').hide();
+	}
+	$(document).ready(function() {
+		$('.buehne_detail_container').cycle({
+			after: updateBuehneTeaser
+		});
+	});
+</script>
+
+<div class="buehne_container posRelative">
+	<div class="buehne_detail_container">
+		<div class="buehne_detail" item="0"><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet" title="Cäsar - Wie oft war Cäsar verheiratet?"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_detail/images/Caesar.JPG" alt="Cäsar - Wie oft war Cäsar verheiratet?" title="Cäsar - Wie oft war Cäsar verheiratet?"  class="imagecache imagecache-buehne_detail" width="485" height="340" /></a><div class="buehne_detail_textbox links_unten dunkel weiss"><div class="buehne_detail_spitzmarke"><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet">Geschichte &amp; Politik</a></div><div class="buehne_detail_headline"><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet">Wie oft war Cäsar verheiratet?</a></div></div></div><div class="buehne_detail hidden" item="1"><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause" title="Neu am Kiosk - P.M. Fragen &amp; Antworten"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_detail/images/PM neu.JPG" alt="Neu am Kiosk - P.M. Fragen &amp; Antworten" title="Neu am Kiosk - P.M. Fragen &amp; Antworten"  class="imagecache imagecache-buehne_detail" width="485" height="340" /></a><div class="buehne_detail_textbox links_unten dunkel weiss"><div class="buehne_detail_spitzmarke"><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause">Neu am Kiosk</a></div><div class="buehne_detail_headline"><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause">P.M. Fragen &amp; Antworten</a></div></div></div><div class="buehne_detail hidden" item="2"><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur" title="Ausbruch des Mt. Spurr in Alaska -  Kann daraus eine Supereruption werden? "><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_detail/images/WN-Vulkan-Supereruption.jpg" alt="Ausbruch des Mt. Spurr in Alaska -  Kann daraus eine Supereruption werden? " title="Ausbruch des Mt. Spurr in Alaska -  Kann daraus eine Supereruption werden? "  class="imagecache imagecache-buehne_detail" width="485" height="340" /></a><div class="buehne_detail_textbox links_unten dunkel weiss"><div class="buehne_detail_spitzmarke"><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur">Supereruption</a></div><div class="buehne_detail_headline"><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur">Vulkanologen sind Supereruptionen auf der Spur</a></div></div></div><div class="buehne_detail hidden" item="3"><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns" title="Ob ein Mensch mitfühlend ist oder im Gegenteil zu Egoismus neigt, lässt sich in den Augen sehen"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_detail/images/Augen.JPG" alt="Ob ein Mensch mitfühlend ist oder im Gegenteil zu Egoismus neigt, lässt sich in den Augen sehen" title="Ob ein Mensch mitfühlend ist oder im Gegenteil zu Egoismus neigt, lässt sich in den Augen sehen"  class="imagecache imagecache-buehne_detail" width="485" height="340" /></a><div class="buehne_detail_textbox links_unten dunkel weiss"><div class="buehne_detail_spitzmarke"><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns">Psychologie &amp; Gesundheit</a></div><div class="buehne_detail_headline"><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns">Was verraten die Augen über uns?</a></div></div></div>	</div>
+
+	<div class="buehne_teaser_container">
+		<div class="buehne_teaser hidden" item="0"><div class="buehne_teaser_image"><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet" title="Cäsar - Wie oft war Cäsar verheiratet?"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_preview/images/Caesar.JPG" alt="Cäsar - Wie oft war Cäsar verheiratet?" title="Cäsar - Wie oft war Cäsar verheiratet?"  class="imagecache imagecache-buehne_preview" width="160" height="112" /></a></div><div class="buehne_teaser_textbox"><div class="spitzmarke"><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet">Geschichte &amp; Politik</a></div><div class="headline"><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet">Wie oft war Cäsar verheiratet?</a></div><a href="/r/gute-frage/wie-oft-war-c%C3%A4sar-verheiratet" class="moreLink">Zur Antwort &raquo;</a></div></div><div class="buehne_teaser" item="1"><div class="buehne_teaser_image"><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause" title="Neu am Kiosk - P.M. Fragen &amp; Antworten"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_preview/images/PM neu.JPG" alt="Neu am Kiosk - P.M. Fragen &amp; Antworten" title="Neu am Kiosk - P.M. Fragen &amp; Antworten"  class="imagecache imagecache-buehne_preview" width="160" height="112" /></a></div><div class="buehne_teaser_textbox"><div class="spitzmarke"><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause">Neu am Kiosk</a></div><div class="headline"><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause">P.M. Fragen &amp; Antworten</a></div><a href="http://www.pm-magazin.de/m/pm-fragen-antworten/pm-fragen-antworten-%E2%80%93-woher-kommt-die-neue-sehnsucht-nach-zu-hause" class="moreLink">Hier geht's zum Heft &raquo;</a></div></div><div class="buehne_teaser" item="2"><div class="buehne_teaser_image"><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur" title="Ausbruch des Mt. Spurr in Alaska -  Kann daraus eine Supereruption werden? "><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_preview/images/WN-Vulkan-Supereruption.jpg" alt="Ausbruch des Mt. Spurr in Alaska -  Kann daraus eine Supereruption werden? " title="Ausbruch des Mt. Spurr in Alaska -  Kann daraus eine Supereruption werden? "  class="imagecache imagecache-buehne_preview" width="160" height="112" /></a></div><div class="buehne_teaser_textbox"><div class="spitzmarke"><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur">Supereruption</a></div><div class="headline"><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur">Vulkanologen sind Supereruptionen auf der Spur</a></div><a href="/r/natur/vulkanologen-sind-supereruptionen-auf-der-spur" class="moreLink">mehr &raquo;</a></div></div><div class="buehne_teaser" item="3"><div class="buehne_teaser_image"><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns" title="Ob ein Mensch mitfühlend ist oder im Gegenteil zu Egoismus neigt, lässt sich in den Augen sehen"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/buehne_preview/images/Augen.JPG" alt="Ob ein Mensch mitfühlend ist oder im Gegenteil zu Egoismus neigt, lässt sich in den Augen sehen" title="Ob ein Mensch mitfühlend ist oder im Gegenteil zu Egoismus neigt, lässt sich in den Augen sehen"  class="imagecache imagecache-buehne_preview" width="160" height="112" /></a></div><div class="buehne_teaser_textbox"><div class="spitzmarke"><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns">Psychologie &amp; Gesundheit</a></div><div class="headline"><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns">Was verraten die Augen über uns?</a></div><a href="/r/gute-frage/was-verraten-die-augen-%C3%BCber-uns" class="moreLink">Zur Antwort &raquo;</a></div></div>	</div>
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+</div>
+	</div>
+
+	<div class="panel-panel panel-col-first">
+		<div class="inside"><div class="panel-pane pane-views pane-teaserliste-manuell" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-1 view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-1">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="teaserlisteHeadline"></div><div class="container">
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			   gmapsInitialize({lat:'', lng:'', width:'640', height:'380', zoom:12});
+			});
+		</script>
+	<div class="verticalTeaser posRelative ">
+			<a href="http://www.pm-magazin.de/a/bewegte-geschichte-histoclips-pr%C3%A4sentiert-von-pm-history" target="_blank" title="P.M. App - Histoclips präsentiert von P.M. HISTORY"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Histoclips-Teaser_0.jpg" alt="P.M. App - Histoclips präsentiert von P.M. HISTORY" title="P.M. App - Histoclips präsentiert von P.M. HISTORY"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="http://www.pm-magazin.de/a/bewegte-geschichte-histoclips-pr%C3%A4sentiert-von-pm-history">P.M. App</a></div>
+		<div class="headline"><a href="http://www.pm-magazin.de/a/bewegte-geschichte-histoclips-pr%C3%A4sentiert-von-pm-history">Histoclips präsentiert von P.M. HISTORY</a></div>
+		<div class="teaserText">
+			<p>
+	Spannende Kapitel der Zeitgeschichte in bewegten Bildern erleben &ndash; das geht jetzt ganz einfach mit der neuen &raquo;Histoclips&laquo;-App f&uuml;r iPhone und iPad.</p>
+			
+		</div>
+		<a href="http://www.pm-magazin.de/a/bewegte-geschichte-histoclips-pr%C3%A4sentiert-von-pm-history" class="moreLink" target="_blank">Zur App &raquo;</a>	</div>
+</div><div class="verticalTeaser posRelative ">
+			<a href="/r/technik/sicherheitstraining-f%C3%BCr-flugzeugungl%C3%BCcke" target="_self" title="Sicherheitstraining - Sicherheitstraining für Flugzeugunglücke"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Flugzeugunglueck 1.jpg" alt="Sicherheitstraining - Sicherheitstraining für Flugzeugunglücke" title="Sicherheitstraining - Sicherheitstraining für Flugzeugunglücke"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="/r/technik/sicherheitstraining-f%C3%BCr-flugzeugungl%C3%BCcke">Sicherheitstraining</a></div>
+		<div class="headline"><a href="/r/technik/sicherheitstraining-f%C3%BCr-flugzeugungl%C3%BCcke">Sicherheitstraining für Flugzeugunglücke</a></div>
+		<div class="teaserText">
+			<p>
+	&Uuml;ber Flugzeugungl&uuml;cke nachzudenken ist f&uuml;r viele ein Tabu. Wer sich im Simulator einem Sicherheitstraining absolviert, hat im Ernstfall beste &Uuml;berlebenschancen.</p>
+			
+		</div>
+		<a href="/r/technik/sicherheitstraining-f%C3%BCr-flugzeugungl%C3%BCcke" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div><div class="verticalTeaserLast posRelative ">
+			<a href="http://www.pm-magazin.de/apps" target="_self" title="P.M. App - P.M. Planetarium für Nachtschwärmer"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Planetarium.jpg" alt="P.M. App - P.M. Planetarium für Nachtschwärmer" title="P.M. App - P.M. Planetarium für Nachtschwärmer"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="http://www.pm-magazin.de/apps">P.M. App</a></div>
+		<div class="headline"><a href="http://www.pm-magazin.de/apps">P.M. Planetarium für Nachtschwärmer</a></div>
+		<div class="teaserText">
+			<p>
+	Sie sind Sterngucker? Dann holen Sie sich die neue P.M. App auf Ihr Handy. Mit P.M. Planetarium, der App f&uuml;r iPhone, iPod touch und iPad k&ouml;nnen Sie ganz einfach ins Universum blicken und den Sternenhimmel erkunden.</p>
+			
+		</div>
+		<a href="http://www.pm-magazin.de/apps" class="moreLink" target="_self">Zur App &raquo;</a>	</div>
+</div>
+
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-teaserliste-manuell" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-2 view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-2">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="teaserlisteHeadline"></div><div class="container">
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			   gmapsInitialize({lat:'', lng:'', width:'640', height:'380', zoom:12});
+			});
+		</script>
+	<div class="horizontalTeaser posRelative">
+	<a href="/r/geschichte/die-geheimarchive-der-inquisition" target="" title="Vatikan - Die Geheimarchive der Inquisition"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Die Geheimarchive der Inquisition.jpg" alt="Vatikan - Die Geheimarchive der Inquisition" title="Vatikan - Die Geheimarchive der Inquisition"  class="pic" width="199" height="140" /></a>	<div class="text">
+		<div class="spitzmarke"><a href="/r/geschichte/die-geheimarchive-der-inquisition" target="">Vatikan</a></div>
+		<div class="headline"><a href="/r/geschichte/die-geheimarchive-der-inquisition" target="">Die Geheimarchive der Inquisition</a></div>
+		<div class="teaserText">
+			<p>
+	500 Jahre lang verfolgte die Kirche Hexen, Ketzer und Andersgl&auml;ubige. Die Inquisitoren lieferten Millionen Menschen der Folter und dem Feuer aus. Die Protokolle darüber bewahrt der Vatikan in Geheimarchiven auf, zu denen nur wenige Auserw&auml;hlte Zutritt haben.</p>
+		</div>
+		<a href="/r/geschichte/die-geheimarchive-der-inquisition" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div>
+<div class="horizontalTeaser posRelative">
+	<a href="/a/wozu-braucht-der-staat-seine-staatssekret%C3%A4re" target="" title="Politik &amp; Geschichte - Wozu braucht der Staat seine Staatssekretäre?"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Staatssekretäre.jpg" alt="Politik &amp; Geschichte - Wozu braucht der Staat seine Staatssekretäre?" title="Politik &amp; Geschichte - Wozu braucht der Staat seine Staatssekretäre?"  class="pic" width="199" height="140" /></a>	<div class="text">
+		<div class="spitzmarke"><a href="/a/wozu-braucht-der-staat-seine-staatssekret%C3%A4re" target="">Politik & Geschichte</a></div>
+		<div class="headline"><a href="/a/wozu-braucht-der-staat-seine-staatssekret%C3%A4re" target="">Wozu braucht der Staat seine Staatssekretäre?</a></div>
+		<div class="teaserText">
+			<p>		</div>
+		<a href="/a/wozu-braucht-der-staat-seine-staatssekret%C3%A4re" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div>
+<div class="horizontalTeaserLast posRelative">
+	<a href="/a/texten-gewinnen" target="" title="P.M. Kult - Texten &amp; gewinnen"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/t-shirt-rakete-2.jpg" alt="P.M. Kult - Texten &amp; gewinnen" title="P.M. Kult - Texten &amp; gewinnen"  class="pic" width="199" height="140" /></a>	<div class="text">
+		<div class="spitzmarke"><a href="/a/texten-gewinnen" target="">P.M. Kult</a></div>
+		<div class="headline"><a href="/a/texten-gewinnen" target="">Texten & gewinnen</a></div>
+		<div class="teaserText">
+			<p>
+	Schicken Sie uns Ihr Lieblingszitat und gewinnen Sie ein P.M. Kult T-Shirt mit Ihrem Spruch!</p>
+		</div>
+		<a href="/a/texten-gewinnen" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div>
+<div class="greyLine">&nbsp;</div>
+
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-teaserliste-manuell" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-4 view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-4">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="teaserlisteHeadline"></div><div class="container">
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			   gmapsInitialize({lat:'', lng:'', width:'640', height:'380', zoom:12});
+			});
+		</script>
+	<div class="verticalTeaser posRelative ">
+			<a href="/r/technik/viren-als-energielieferanten" target="_self" title="Viren - Viren als Energielieferanten"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/WN-Viren-Energielieferanten.jpg" alt="Viren - Viren als Energielieferanten" title="Viren - Viren als Energielieferanten"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="/r/technik/viren-als-energielieferanten">Viren</a></div>
+		<div class="headline"><a href="/r/technik/viren-als-energielieferanten">Viren als Energielieferanten</a></div>
+		<div class="teaserText">
+			<p>
+	Forscher haben einen Stromgenerator aus Viren gebaut. Der Apparat wandelt einen Fingerdruck in elektrische Energie um.</p>
+			
+		</div>
+		<a href="/r/technik/viren-als-energielieferanten" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div><div class="verticalTeaser posRelative ">
+			<a href="/r/natur/k%C3%BCnstliches-erbgut-soll-erbkrankheiten-bek%C3%A4mpfen" target="_self" title="Erbgut - Künstliches Erbgut soll Erbkrankheiten bekämpfen"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/--Erbgut.jpg" alt="Erbgut - Künstliches Erbgut soll Erbkrankheiten bekämpfen" title="Erbgut - Künstliches Erbgut soll Erbkrankheiten bekämpfen"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="/r/natur/k%C3%BCnstliches-erbgut-soll-erbkrankheiten-bek%C3%A4mpfen">Erbgut</a></div>
+		<div class="headline"><a href="/r/natur/k%C3%BCnstliches-erbgut-soll-erbkrankheiten-bek%C3%A4mpfen">Künstliches Erbgut soll Erbkrankheiten bekämpfen</a></div>
+		<div class="teaserText">
+			<p>
+	Konkurrenz f&uuml;r DNA: Wissenschaftlern ist es gelungen, k&uuml;nstliche DNA herzustellen. Das Erbgut aus dem Labor erm&ouml;glicht sogar neue Lebensformen.</p>
+			
+		</div>
+		<a href="/r/natur/k%C3%BCnstliches-erbgut-soll-erbkrankheiten-bek%C3%A4mpfen" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div><div class="verticalTeaserLast posRelative ">
+			<a href="/r/technik/roboter-f%C3%BCr-die-liebe" target="_self" title="Roboter - Roboter für die Liebe"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Liebesroboter.jpg" alt="Roboter - Roboter für die Liebe" title="Roboter - Roboter für die Liebe"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="/r/technik/roboter-f%C3%BCr-die-liebe">Roboter</a></div>
+		<div class="headline"><a href="/r/technik/roboter-f%C3%BCr-die-liebe">Roboter für die Liebe</a></div>
+		<div class="teaserText">
+			<p>
+	Im Rotlichtbezirk der Zukunft gibt es keine Prostituierten mehr. Stattdessen &uuml;bernehmen Roboter die Liebesdienste.</p>
+			
+		</div>
+		<a href="/r/technik/roboter-f%C3%BCr-die-liebe" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div>
+
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-teaserliste-manuell" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-5 view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-5">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="teaserlisteHeadline"></div><div class="container">
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			   gmapsInitialize({lat:'', lng:'', width:'640', height:'380', zoom:12});
+			});
+		</script>
+	<div class="horizontalTeaser posRelative">
+	<a href="/r/geschichte/die-musen-der-k%C3%B6che" target="" title="Kochen und Genießen - Die Musen der Köche"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Pizza Margeritha.jpg" alt="Kochen und Genießen - Die Musen der Köche" title="Kochen und Genießen - Die Musen der Köche"  class="pic" width="199" height="140" /></a>	<div class="text">
+		<div class="spitzmarke"><a href="/r/geschichte/die-musen-der-k%C3%B6che" target="">Kochen und Genießen</a></div>
+		<div class="headline"><a href="/r/geschichte/die-musen-der-k%C3%B6che" target="">Die Musen der Köche</a></div>
+		<div class="teaserText">
+			<p>
+	Damen vom Hof und von der B&uuml;hne stehen ganz oben auf der Liste der Namensgeber von ber&uuml;hmten Speisen und Getr&auml;nken. Wie kam es dazu, dass sie als Nachtisch oder Suppe in die Geschichte eingingen?</p>
+		</div>
+		<a href="/r/geschichte/die-musen-der-k%C3%B6che" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div>
+<div class="horizontalTeaser posRelative">
+	<a href="/r/gute-frage/wann-war-die-nacht-der-langen-messer" target="" title="Politik &amp; Geschichte - Wann war die Nacht der langen Messer?"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Debat-Ponsan-matin-Louvre.jpg" alt="Politik &amp; Geschichte - Wann war die Nacht der langen Messer?" title="Politik &amp; Geschichte - Wann war die Nacht der langen Messer?"  class="pic" width="199" height="140" /></a>	<div class="text">
+		<div class="spitzmarke"><a href="/r/gute-frage/wann-war-die-nacht-der-langen-messer" target="">Geschichte & Politik</a></div>
+		<div class="headline"><a href="/r/gute-frage/wann-war-die-nacht-der-langen-messer" target="">Wann war die Nacht der langen Messer?</a></div>
+		<div class="teaserText">
+					</div>
+		<a href="/r/gute-frage/wann-war-die-nacht-der-langen-messer" class="moreLink" target="_self">Zur Antwort &raquo;</a>	</div>
+</div>
+<div class="horizontalTeaserLast posRelative">
+	<a href="/r/mensch/kann-meditation-die-welt-ver%C3%A4ndern" target="" title="Meditation - Kann Meditation die Welt verändern?"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/Meditation.JPG" alt="Meditation - Kann Meditation die Welt verändern?" title="Meditation - Kann Meditation die Welt verändern?"  class="pic" width="199" height="140" /></a>	<div class="text">
+		<div class="spitzmarke"><a href="/r/mensch/kann-meditation-die-welt-ver%C3%A4ndern" target="">Meditation</a></div>
+		<div class="headline"><a href="/r/mensch/kann-meditation-die-welt-ver%C3%A4ndern" target="">Kann Meditation die Welt verändern?</a></div>
+		<div class="teaserText">
+			<p>
+	Sie schenkt nicht nur innere Ruhe und Gelassenheit, sondern auch Empathie. Ihre Wirkung reicht deshalb weit &uuml;ber das Befinden des Einzelnen hinaus. Manche Anh&auml;nger glauben sogar, dass Meditation den Weltfrieden retten k&ouml;nnte.</p>
+		</div>
+		<a href="/r/mensch/kann-meditation-die-welt-ver%C3%A4ndern" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div>
+<div class="greyLine">&nbsp;</div>
+
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-teaserliste-manuell" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-6 view-teaserliste-manuell view-id-teaserliste_manuell view-display-id-default view-dom-id-6">
+  
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <div class="teaserlisteHeadline"></div><div class="container">
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+			   gmapsInitialize({lat:'', lng:'', width:'640', height:'380', zoom:12});
+			});
+		</script>
+	<div class="verticalTeaser posRelative ">
+			<a href="/r/geschichte/unendlicher-kampf-gegen-%C3%BCberfl%C3%BCssige-pfunde" target="_self" title="Übergewicht - ein altbekanntes Problem"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/übergewicht.jpg" alt="Übergewicht - ein altbekanntes Problem" title="Übergewicht - ein altbekanntes Problem"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="/r/geschichte/unendlicher-kampf-gegen-%C3%BCberfl%C3%BCssige-pfunde">Medizin</a></div>
+		<div class="headline"><a href="/r/geschichte/unendlicher-kampf-gegen-%C3%BCberfl%C3%BCssige-pfunde">Unendlicher Kampf gegen überflüssige Pfunde</a></div>
+		<div class="teaserText">
+			<p>
+	Unter Fettleibigkeit leiden Menschen nicht erst seit der Erfindung von Fastfood-Restaurants. Schon seit den Anf&auml;ngen der modernen Medizin im 16. Jahrhundert besch&auml;ftigen sich &Auml;rzte mit dieser Volkskrankheit.</p>
+			
+		</div>
+		<a href="/r/geschichte/unendlicher-kampf-gegen-%C3%BCberfl%C3%BCssige-pfunde" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div><div class="verticalTeaser posRelative ">
+			<a href="/r/technik/mahlzeit-auf-knopfdruck" target="_self" title="Mahlzeit - Mahlzeit auf Knopfdruck"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/WN-Mahlzeit-Knopfdruck.jpg" alt="Mahlzeit - Mahlzeit auf Knopfdruck" title="Mahlzeit - Mahlzeit auf Knopfdruck"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="/r/technik/mahlzeit-auf-knopfdruck">Mahlzeit</a></div>
+		<div class="headline"><a href="/r/technik/mahlzeit-auf-knopfdruck">Mahlzeit auf Knopfdruck</a></div>
+		<div class="teaserText">
+			<p>
+	Ein frisch zubereitetes Men&uuml; auf Knopfdruck? Wissenschaftler arbeiten an einem vollautomatischen Kochautomaten.</p>
+			
+		</div>
+		<a href="/r/technik/mahlzeit-auf-knopfdruck" class="moreLink" target="_self">mehr &raquo;</a>	</div>
+</div><div class="verticalTeaserLast posRelative ">
+			<a href="http://www.pm-magazin.de/kult" target="_self" title="P.M. Kult - Eine Tasse mit 640 kB, bitte!"><img src="http://www.pm-magazin.de/sites/www.pm-magazin.de/files/imagecache/teaser/images/PM-Kult-Teaser-neu.JPG" alt="P.M. Kult - Eine Tasse mit 640 kB, bitte!" title="P.M. Kult - Eine Tasse mit 640 kB, bitte!"  class="pic" width="199" height="140" /></a>	<div class="text">
+				<div class="spitzmarke"><a href="http://www.pm-magazin.de/kult">P.M. Kult</a></div>
+		<div class="headline"><a href="http://www.pm-magazin.de/kult">Eine Tasse mit 640 kB, bitte!</a></div>
+		<div class="teaserText">
+			<p>
+	Neben den neuen P.M. Kult-T-Shirts und Kapuzenpullovern gibt es nun auch eine iPad-H&uuml;lle und eine Tasse. Ab sofort erh&auml;ltlich im P.M. Kult-Shop!</p>
+			
+		</div>
+		<a href="http://www.pm-magazin.de/kult" class="moreLink" target="_self">Zu den T-Shirts! &raquo;</a>	</div>
+</div>
+
+</div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- /.view -->
+  </div>
+
+  
+  </div>
+</div>
+	</div>
+
+	<div class="panel-panel panel-col-last">
+		<div class="inside"></div>
+	</div>
+</div>
+						</div>
+	
+																	</div>
+				</div> <!-- /.section, /#content -->
+			</div>
+		</div>
+	</div> <!-- /#main, /#main-wrapper -->
+ 	<div id="footer" class="wireframe">
+		<ul class="liste">
+			<li class="first"><a href="/a/die-pm-geschichte" title="Über P.M.">Über P.M.</a>|</li>
+			<li><a href="/kontakt" title="Kontakt">Kontakt</a>|</li>
+			<li><a href="/impressum"  title="Impressum">Impressum</a>|</li>
+			<li><a href="/agb"  title="AGB">AGB</a>|</li>
+			<li><a href="/datenschutz"  title="Datenschutz"> Datenschutz</a>|</li>
+			<li><a href="https://shop.pm-magazin.de/kundenservice/index/index/" title="Kundenservice">Kundenservice</a>|</li>
+			<li><a href="http://ems.guj.de/online/portfolio/pm-online/profil/"  title="Mediadaten" target="_blank">Mediadaten</a>|</li>
+			<li><a href="http://www.gujmedia.de/print/portfolio/pm-magazin/profil/"  title="Mediadaten Print" target="_blank">Mediadaten Print</a>|</li>
+			<li class="noborder"><a href="http://ems.guj.de/service/oba"  title="Nutzungsbasierte Online Werbung" target="_blank">Nutzungsbasierte Online Werbung</a></li>
+		</ul>
+		<div class="pm_copyright">
+			<a href="/" title="2011 pm-magazin.de">&copy; 2012 pm-magazin.de</a>
+		</div>
+	</div>
+	
+		<div class="gujAd skyscraper" id="skyscraper_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.push('skyscraper_1');
+		//]]>
+		</script>
+	</div>
+	
+</div>
+<!-- /#page, /#page-wrapper -->
+
+
+
+
+<div id="fb-root"></div>
+<script>
+//<![CDATA[
+	window.fbAsyncInit = function() {
+		FB.init({
+			status: true,
+			cookie: true,
+			xfbml: true,
+			channelUrl: 'http://www.pm-magazin.de/channel.html'
+		});
+	};
+	(function() {
+		var e = document.createElement('script');
+		e.async = true;
+		e.src = 'http://connect.facebook.net/de_DE/all.js';
+		document.getElementById('fb-root').appendChild(e);
+	}());
+//]]>
+</script>
+
+<div class="hidden">
+	<div id="temp_superbanner_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.delayedInlineLoad('superbanner_1');
+		//]]>
+		</script>
+	</div>
+	<div id="temp_halfpagead_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.delayedInlineLoad('halfpagead_1');
+		//]]>
+		</script>
+	</div>
+	<div id="temp_rectangle_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			if (GujAd.adPositionIsEmpty('halfpage_1') == true) {
+				GujAd.delayedInlineLoad('rectangle_1');
+			}
+		//]]>
+		</script>
+	</div>
+	<div id="temp_skyscraper_1">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.delayedInlineLoad('skyscraper_1');
+		//]]>
+		</script>
+	</div>
+	<div id="temp_performance_4">
+		<script type="text/javascript">
+		//<![CDATA[
+			GujAd.delayedInlineLoad('performance_4');
+		//]]>
+		</script>
+	</div>
+	<script type="text/javascript">
+	//<![CDATA[
+		GujAd.finalizeInlineLoading();
+	//]]>
+	</script>
+	
+	
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-2355431-1']);
+	  _gaq.push(['_gat._anonymizeIp']);
+	  _gaq.push(['_trackPageview']);
+	 
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	
+	
+</div>
+</div>
+</body>
+</html>
+<!-- Page cached by Boost @ 2012-06-07 02:50:30, expires @ 2012-06-07 03:05:30 -->

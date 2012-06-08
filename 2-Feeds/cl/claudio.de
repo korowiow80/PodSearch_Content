@@ -1,0 +1,3235 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<base href="http://www.claudio.de/lib/../content/media/">
+<script>function none() {};base="http://www.claudio.de/lib/../content/media/";</script>
+<title>Ihr Portal für Bücher, Hörbücher und Downloads - Claudio.de</title>
+<meta name="description" content="Ihr Portal für Bücher, Hörbücher und Downloads - Claudio.de">
+<meta name="keywords" content="hörbücher,hörbuch,hoerbuecher,hoerbuch,hörbuch download,hörbücher download,claudio,bücher">
+<meta name="language" content="de">
+<link rel="alternate" type="application/rss+xml" title="Unsere neuesten Produkte" href="http://www.claudio.de/RSS/Übersicht/de" />
+<link rel="shortcut icon" href="http://www.claudio.de/favicon.ico" type="image/ico" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="verify-v1" content="ycXSDpZnJtfttSBTs7BzUlKdWj9FtvlyKo86WXLSVfg=" />
+<link rel="stylesheet" type="text/css" href="http://www.claudio.de/temp/styles/791fc8d14ccd81b7280bd3bf1e5464fd.css">
+<script type="text/javascript" src="http://www.claudio.de/temp/scripts/4ea575753b6867aa69278eb5ffe9d15d.js"></script>
+</head>
+
+<body id="body" onLoad="if (typeof initPage=='function') initPage();" marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" onclick="e=document.getElementById('autosuggest'); if (e) e.style.display='none';" onkeypress="keyPressHandler(event)">
+
+
+<script>
+var myurl='';
+function addBasket(itemid,params) {
+    if (params) {
+    if (params.indexOf('packid')!=-1) {
+      if (typeof(window.checkBundle)=="function") {
+        if (checkBundle(0)==false) return false;
+      }
+      f=document.forms['pack_form'];
+      f.target='pack_iframe';
+      f.action='http://www.claudio.de/Intern/Packerstellung/de';
+      f.method='POST';
+      f.submit();
+    }
+  }
+
+  
+  var q="";
+  if (document.getElementById('params')) q=document.getElementById('params').value;
+  if (document.forms.form && document.forms.form.amount) {
+    if (document.forms.form.amount.value!="1") q=q+"&amount="+document.forms.form.amount.value;
+  }
+
+    myurl='http://www.claudio.de/Intern/Warenkorb/de?itemid='+encodeURIComponent(itemid)+q;
+    if (!params) var params="";
+  params=params+"&orderfolder=Home%2FStartseite";
+
+  myurl=myurl+params;
+    /* erst status des artikel prüfen, wenn aktiv dann gehts in den warenkorb, sonst kommt eine warnmeldung */
+  var checkurl='http://www.claudio.de/content/media/system/direct/cinactiveitems.php?itemid='+encodeURIComponent(itemid)+q;
+  ajax_get_url(checkurl,'throwArticlestatusInfo');
+  //ajax_get_url(myurl,'basketPopupLoaded');
+  body.scrollTop=0;
+  }
+</script>
+
+<div style="position:absolute;left:250px;top:250px;z-index:50;display:none;" id="previewwin">
+   <table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  <td background="../../temp/fxlib/fe/fed7011fe5f385a8c853cba8f97625b7.gif"><img src="system/images/blind.gif" width="4" height="4"></td>
+  <td background="../../temp/fxlib/b9/b96c44829ffed0ad8f139e2712881fe0.gif"><img src="system/images/blind.gif" width="272" height="1"></td>
+  <td background="../../temp/fxlib/d9/d994b634d19a18937c7dfb333fcb1678.gif"><img src="system/images/blind.gif" width="4" height="4"></td>
+  </tr>
+  <tr valign="top">
+  <td background="../../temp/fxlib/51/51c75588013a1d291ee713e2269f064a.gif"><img src="system/images/blind.gif" width="1" height="130"></td>
+  <td background="../../temp/fxlib/08/08f99057a7126838639bc8e0ea825944.gif" class="silverbox">
+  <div class="silvertop">
+   <div style="position:relative;z-index:2;">
+
+  <table border="0" cellspacing="0" cellpading="0" width="100%">
+   <tr valign="top">
+    <td style="font-weight:bold;color:white;">Anhören</td>
+    <td align="right"><a href="javascript:previewFileClose()"><![if !IE]><img src="system/images/icon_close.png" width="20" height="20"   style="position:relative;top:-2px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/icon_close.png',sizingMethod=scale);position:relative;top:-2px;" /><![endif]--></a></td>
+   </tr>
+   <tr>
+    <td colspan="2" bgcolor="white">
+    <iframe name="preview" src="http://www.claudio.de/Intern/Null/de?null=1" width="100%" height="100" frameborder="0"></iframe></td>
+   </tr>
+  </table>
+
+ </div>
+   </div>
+  </td>
+  <td background="../../temp/fxlib/6d/6defc0c540c8384f5e0bf0d619d22739.gif"><img src="system/images/blind.gif" width="1" height="130"></td>
+  </tr>
+  <tr>
+  <td background="../../temp/fxlib/4c/4c555b3c9331e15a488e55b4609263a5.jpg"><img src="system/images/blind.gif" width="4" height="20"></td>
+  <td background="../../temp/fxlib/f7/f7b5ac1833ee86356b3a7c43b4610914.gif" class="silverbox">
+  <div>
+   <div style="position:relative;z-index:2">&nbsp;</div>
+   </div>
+  </td>
+  <td style="background-repeat:no-repeat;" background="../../temp/fxlib/af/af1e4dca40b7e6ba38a543ecb21121f9.jpg"><img src="system/images/blind.gif" width="4" height="20"></td>
+  </tr>
+  <tr>
+  <td background="../../temp/fxlib/94/94626acbfc6154b1f32f424662e30a6d.gif"><img src="system/images/blind.gif" width="4" height="4"></td>
+  <td background="../../temp/fxlib/5c/5c21a35e43c7fba77c73344a39bd5d8d.gif"><img src="system/images/blind.gif" width="1" height="1"></td>
+  <td background="../../temp/fxlib/7d/7d323b8fce9621c4e13f860b780f8275.gif"><img src="system/images/blind.gif" width="4" height="4"></td>
+  </tr>
+  </table>
+  </div>
+
+
+
+<div style="display:none">
+  <form name="addbasketform">
+  <input type="hidden" name="itemid" />
+  </form>
+</div>
+
+<table border="0" cellspacing="0" cellpadding="0" width="1000">
+  <tr>
+    <td style="background-image:url(../../temp/fxlib/01/014300c5afc30797db0e3be3a5ea0e99.jpg);">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+          <td><img src="system/images/blind.gif" width="1" height="40"></td>
+          <td style="padding-top:7px;padding-left:20px;">
+                        <a href="http://www.claudio.de"><![if !IE]><img src="system/images/claudio_logo.png" width="78" height="85"  alt="Hörbücher zum Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="78" height="85"  alt="Hörbücher zum Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/claudio_logo.png',sizingMethod=scale);" /><![endif]--></a>
+          </td>
+          <td align="center" class="headbanner">
+                                                <img src="system/images/blind.gif" width="1" height="8"><br>
+                        <a href="http://www.claudio.de/Landing_pages/Apocalypsis/%C3%9Cbersicht/de">
+            <![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi82Yy82Y2IwMzVhNTUyY2U2ZGJiZjg3MWEyZDY1NTQzNjZkYi5wbmc./uid/x" width="367" height="33"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="367" height="33"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi82Yy82Y2IwMzVhNTUyY2U2ZGJiZjg3MWEyZDY1NTQzNjZkYi5wbmc./uid/x',sizingMethod=scale);" /><![endif]--><br />
+                                    <![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8xOS8xOWQ2YmVjYWY0ZDQ5OGY2NTVlODc5OTZlYjliNDc3NS5wbmc./uid/x" width="381" height="23"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="381" height="23"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8xOS8xOWQ2YmVjYWY0ZDQ5OGY2NTVlODc5OTZlYjliNDc3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]-->                        <![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8yZC8yZGMzZTRmZTY3MDA2NjBjMTBmMTQ1YThjMjJiNmVmNC5wbmc./uid/x" width="11" height="23"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="11" height="23"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8yZC8yZGMzZTRmZTY3MDA2NjBjMTBmMTQ1YThjMjJiNmVmNC5wbmc./uid/x',sizingMethod=scale);" /><![endif]-->                        <![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi84Yy84YzFkMzBjMDVkZWNkY2UzNDQ3NmQyNjg5NTE0MTY1NC5wbmc./uid/x" width="4" height="23"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="4" height="23"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi84Yy84YzFkMzBjMDVkZWNkY2UzNDQ3NmQyNjg5NTE0MTY1NC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--><br />
+            </a>
+          </td>
+          <td align="right" style="height:98px;">
+
+            <table cellspacing="0" cellpadding="0" border="0">
+              <tr><td align="right" style="padding-right:8px;">
+  <style>
+  .abg1 {background-image:url(system/images/warenkorb.png);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg2 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi8xYi8xYmU0ZTZlODgxM2FhM2M1OWJhMjE2NzdlZmIzMGU1NS5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg3 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9mOS9mOTUyNTg1OWYzZmQ1Mzc4YmIxNTM1NzEzODliZWM2Ni5wbmc./uid/x);background-repeat:background-repeat:repeat;;}
+  </style>
+  
+  <style>
+  .abg4 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9kOC9kODMzYTlkNThlMGUyZGQzODEzODkwMjhhZjc4N2Q5Zi5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg5 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9kNC9kNDY0ZDlmZGJmYTExYmIyNjQyYjlmMjVmYTMyYjEzMi5wbmc./uid/x);background-repeat:background-repeat:repeat;;}
+  </style>
+  
+  <style>
+  .abg6 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9hMy9hM2MzNTBjNmUyMzczODY2YmMzN2Y3ZjAwZmY4ZTZkZC5wbmc./uid/x);background-repeat:background-repeat:repeat;;}
+  </style>
+  
+  <style>
+  .abg7 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi84ZS84ZWJjYzEyOTQ0MGJlYjFjZTAwMzQ5NjYzMTNmNzUzNC5wbmc./uid/x);background-repeat:background-repeat:repeat;;}
+  </style>
+  
+  <style>
+  .abg8 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi8zZS8zZTc3Yzc1NjQ5NjU3ZWRlMWM2MmE4NWMxNWQ4YzQ2OC5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg9 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi81Yy81Y2ExZmVhOGE5ZWQ5YTM0ZmUxZjcyM2UwNTczNmM0MC5wbmc./uid/x);background-repeat:background-repeat:repeat;;}
+  </style>
+  
+  <style>
+  .abg10 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9iOC9iODIwN2I0NTk5MjVhNWU4ZDk3ZTBmZGQ3ZWViZDQ5Yi5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+<table cellspacing="0" cellpadding="0" border="0" style="width:160px;">
+ <tr>
+  <td>
+
+  <div class="abg1 warenkorb cursor" onclick="basketPopupLoad();" style="text-align:left;width:158;height:60;padding:3px 6px 4px 2px">
+  <table border="0" cellspacing="0" cellpadding="0" style="width:100%;line-height:10px;">
+   <tr>
+    <td><img src="system/images/blind.gif" width="3" height="18"></td>
+    <td class="head">Ihr Warenkorb</td>
+    <td align="right"><![if !IE]><img src="system/images/mini_cart.png" width="22" height="15"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="22" height="15"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mini_cart.png',sizingMethod=scale);" /><![endif]--></td>
+    <td><img src="system/images/blind.gif" width="4" height="1"></td>
+   </tr>
+  </table>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="line-height:10px;">
+      <tr><td><img src="system/images/blind.gif" width="3" height="19"></td><td>Artikelanzahl:</td><td align="right" id="itemscount">0</td><td><img src="system/images/blind.gif" width="4" height="1"></td></tr>
+    <tr style="line-height:1px;height:1px;"><td></td><td bgcolor="#E6E6E6" colspan="2" height="1"></td><td></td></tr>
+    <tr><td><img src="system/images/blind.gif" width="3" height="19"></td><td>Gesamtbetrag:</td><td align="right" id="itemssum">€ 0,00</td><td><img src="system/images/blind.gif" width="4" height="1"></td></tr>
+    </table>
+  </div>
+
+  <div style="position:relative;display:none;z-index:200;" id="basketpopup">
+   <div id="popupbasket_pos" style="position:absolute;top:-68px;left:-38px;width:200px;z-index:201;">
+    <table border="0" cellspacing="0" cellpadding="0" style="width:200px;">
+     <tr>
+      <td class="abg2" width="9"><img src="system/images/blind.gif" width="9" height="22"></td>
+      <td class="abg3"><a href="http://www.claudio.de/Warenkorb/Übersicht/de" style="color:#D8000A;font-weight:bold;text-decoration:none;">Ihr Warenkorb</a></td>
+      <td class="abg3" align="right"><div style="position:relative"><span style="cursor:pointer;cursor:hand;" onclick="basketPopupClose();"><img src="system/images/miniclose.gif" width="11" height="11" style="padding-top:2px;" /></span></div></td>
+      <td class="abg4" width="13"><img src="system/images/blind.gif" width="13" height="1"></td>
+     </tr>
+     <tr>
+      <td class="abg5" width="9"><img src="system/images/blind.gif" width="9" height="1"></td>
+      <td class="abg6" colspan="2" id="popupbasketct" width="100%" style="vertical-align:top;"></td>
+      <td class="abg7" width="13"><img src="system/images/blind.gif" width="13" height="1"></td>
+     </tr>
+     <tr>
+      <td class="abg8" width="9"><img src="system/images/blind.gif" width="9" height="18"></td>
+      <td class="abg9" colspan="2">&nbsp;</td>
+      <td class="abg10" width="13"><img src="system/images/blind.gif" width="13" height="18"></td>
+     </tr>
+    </table>
+
+   </div>
+  </div>
+
+  </td>
+ </tr>
+</table></td></tr>
+              <tr><td align="center">    <table border="0" cellspacing="0" cellpadding="0" class="topmenu">
+     <tr>
+          <td class="topmenu" nowrap="1"><a href="http://www.claudio.de/Wunschliste/Wunschliste/de">Wunschliste</a></td>
+      <td><img src="system/images/blind.gif" width="3" height="1"></td>
+            <td class="topmenu">|</td>
+      <td><img src="system/images/blind.gif" width="3" height="1"></td>
+            <td class="topmenu" nowrap="1"><a href="http://www.claudio.de/FAQ/Übersicht/de">FAQ</a></td>
+      <td><img src="system/images/blind.gif" width="3" height="1"></td>
+            <td><img src="system/images/blind.gif" width="6" height="1"></td>
+     </tr>
+    </table>
+      <table border="0" cellspacing="0" cellpadding="0" class="topmenu">
+     <tr>
+          <td class="topmenu" nowrap="1"><a href="http://www.claudio.de/Gutschein/Übersicht/de">Gutschein</a></td>
+      <td><img src="system/images/blind.gif" width="3" height="1"></td>
+            <td class="topmenu">|</td>
+      <td><img src="system/images/blind.gif" width="3" height="1"></td>
+            <td class="topmenu" nowrap="1"><a href="http://www.claudio.de/Newsletter/Übersicht/de">Newsletter</a></td>
+      <td><img src="system/images/blind.gif" width="3" height="1"></td>
+            <td><img src="system/images/blind.gif" width="6" height="1"></td>
+     </tr>
+    </table>
+  </td></tr>
+                          </table>
+
+          </td>
+        </tr>
+        <tr>
+          <td><img src="system/images/blind.gif" width="1" height="33"></td>
+          <td colspan="3">
+              <style>
+  .mainmenu {font-size:11px;color:#505050;font-weight:bold;}
+  .mainmenu a.inactive {font-size:11px;color:#505050;font-weight:bold;}
+  .mainmenu a.inactive:hover {font-size:11px;color:#505050;font-weight:bold;}
+  .mainmenu a.active {font-size:11px;color:#d80008;font-weight:bold;}
+  .mainmenu a.active:hover {font-size:11px;color:#d80008;font-weight:bold;}
+  </style>
+
+  
+  <style>
+  .abg11 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9lMS9lMWYxYjFhZDU1Y2UwZmRhNzA2NGQ4Y2EyNGVkODllMy5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg12 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9iNy9iNzZhNjllNDljNzczMTMyNWU0ODQ2OGE3ODI0MDViZS5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg13 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi8yMS8yMTAzZWQ5YTI3ZmM0Nzk3MDM4NDdiZGQzMWU5MjU3NC5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg14 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi83NC83NDJhNmYwYjViMjFmYTRmOTczOTMzODM2ZGE2YjgzNy5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg15 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9lYi9lYjA0NGM0NTU4MzY2MzRmYzAwZmI0ODlkODdjZGE1Zi5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg16 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi8xNy8xNzViNTg4ZGYzZGU0NGI5OGIwZTRiNTVhZTk2YzRiYi5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <table border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+   <tr>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+      <td width="1"><a href="http://www.claudio.de/Home/Startseite/de"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9iMC9iMDBjZmE0MmEyZGRlNjdkYWI4MDk2YjlmNTYwYmVjMC5wbmc./uid/x" width="56" height="38"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="56" height="38"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9iMC9iMDBjZmE0MmEyZGRlNjdkYWI4MDk2YjlmNTYwYmVjMC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+    <td width="1"><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td width="1"><a href="http://www.claudio.de/Bestseller/Übersicht/de"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8zYS8zYWQ2NWE3ZTliOTA4NmExODQ4NWVlZjFiYzJkNjc5Yi5wbmc./uid/x" width="81" height="38"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="81" height="38"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8zYS8zYWQ2NWE3ZTliOTA4NmExODQ4NWVlZjFiYzJkNjc5Yi5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+    <td width="1"><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td width="1"><a href="http://www.claudio.de/Downloads/Übersicht/de"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kNy9kNzBlOWM2NmFlYjYzZjY3ZjU3NzM5MTY0YjM1NGE1MC5wbmc./uid/x" width="136" height="38"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="136" height="38"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kNy9kNzBlOWM2NmFlYjYzZjY3ZjU3NzM5MTY0YjM1NGE1MC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+    <td width="1"><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td width="1"><a href="http://www.claudio.de/E-Books/Übersicht/de"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi84Yi84YjFhOGUzY2VjNGQzNWMzNDI1NjhlNDExMDg4OWNhNS5wbmc./uid/x" width="69" height="38"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="69" height="38"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi84Yi84YjFhOGUzY2VjNGQzNWMzNDI1NjhlNDExMDg4OWNhNS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+    <td width="1"><img src="system/images/blind.gif" width="3" height="1"></td>
+      </tr>
+  </table>
+            </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+  <tr>
+    <td style="height:3px;line-height:1px;"><img src="system/images/head_divi.gif" width="999" height="5"  /></td>
+  </tr>
+
+  <tr>
+    <td background="system/images/subnavibar.gif">
+        </td>
+  </tr>
+  <tr>
+    <td background="system/images/toolbar.gif">
+    <table cellspacing="0" cellpadding="0" width="100%" class="toolbar" style="line-height:1px;">
+ <tr>
+  <td><img src="system/images/blind.gif" width="6" height="27"></td>
+
+  <td><p class="search_toolbar">SUCHE:</p></td>
+  <td>|</td>
+
+  
+  <td>
+ <form name="myminiform">
+  <table class="checkboxes">
+   <tr>
+    <td>      <script>
+
+      function cc_set_state(nam,state) {
+        crs=controls_checkbox_states[nam];
+        var idbase=nam+"_";
+        for (var k=0;k<crs.length;k++) {
+          var cr=crs[k];
+          var e=document.getElementById(idbase+cr);
+          if (cr==state) e.style.display=""; else e.style.display="none";
+        }
+      }
+
+     function cc_find_form(e) {
+        while (true) {
+          var e=e.parentNode;
+          if (!e) break;
+          if (!e.tagName) continue;
+          if (e.tagName.toLowerCase()=="form") return e;
+        }
+        return 0;
+      }
+
+      function cc_click(nam) {
+        if (cc_block[nam]) return;
+
+        var e=document.getElementById(nam+"_normal");
+        var f=cc_find_form(e);
+        if (!f) return;
+
+        f.elements[nam].checked=!f.elements[nam].checked;
+
+        if (f.elements[nam].checked) cc_set_state(nam,"checked"); else cc_set_state(nam,"normal");
+
+        cc_block[nam]=true;
+        f.elements[nam].onclick();
+        cc_block[nam]=false;
+
+      }
+
+      function cc_hover(nam) {
+        var e=document.getElementById(nam+"_normal");
+        var f=cc_find_form(e);
+        if (!f) return;
+
+        if (!f.elements[nam].checked) {
+          cc_set_state(nam,"hover");
+        } else {
+          cc_set_state(nam,"checkedhover");
+        }
+      }
+
+      function cc_unhover(nam) {
+        var e=document.getElementById(nam+"_normal");
+        var f=cc_find_form(e);
+        if (!f) return;
+
+        if (!f.elements[nam].checked) {
+          cc_set_state(nam,"normal");
+        } else {
+          cc_set_state(nam,"checked");
+        }
+      }
+
+      /*
+      function cc_load() {
+        for (var nam in controls_checkbox_states) {
+          var e=document.getElementById(nam+"_normal");
+          var f=cc_find_form(e);
+          if (!f) continue;
+          if (f.elements[nam].checked) cc_click(nam);
+        }
+      }
+
+      if (document.addEventListener) document.addEventListener('DOMContentLoaded',cc_load,false);
+      */
+
+      controls_checkbox_states=new Array();
+      cc_block=new Array();
+      </script>
+          <script>
+    controls_checkbox_states['select_hoerbucher_download']=["normal","hover","checked","checkedhover"];
+    cc_block['select_hoerbucher_download']=false;
+    </script>
+          <span id="select_hoerbucher_download_normal" onClick="cc_click('select_hoerbucher_download')" onMouseOver="cc_hover('select_hoerbucher_download')" onMouseOut="cc_unhover('select_hoerbucher_download')" style="cursor:pointer;cursor:hand;display:none"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8zMS8zMTJkNWM3ODFlNTYzZmViN2E4YjY1YmU2MzY0NzJiZC5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8zMS8zMTJkNWM3ODFlNTYzZmViN2E4YjY1YmU2MzY0NzJiZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+            <span id="select_hoerbucher_download_hover" onClick="cc_click('select_hoerbucher_download')" onMouseOver="cc_hover('select_hoerbucher_download')" onMouseOut="cc_unhover('select_hoerbucher_download')" style="cursor:pointer;cursor:hand;display:none"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9mZi9mZjNiYTBjNGE4NWI4MDA0MWYwYzQwNWM4Yzk2YTA0Ni5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9mZi9mZjNiYTBjNGE4NWI4MDA0MWYwYzQwNWM4Yzk2YTA0Ni5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+            <span id="select_hoerbucher_download_checked" onClick="cc_click('select_hoerbucher_download')" onMouseOver="cc_hover('select_hoerbucher_download')" onMouseOut="cc_unhover('select_hoerbucher_download')" style="cursor:pointer;cursor:hand;"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9lMy9lM2IyODQ0Yjk2N2VmZDFjYTNjM2VmNDIyNzRiMjUzMi5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9lMy9lM2IyODQ0Yjk2N2VmZDFjYTNjM2VmNDIyNzRiMjUzMi5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+            <span id="select_hoerbucher_download_checkedhover" onClick="cc_click('select_hoerbucher_download')" onMouseOver="cc_hover('select_hoerbucher_download')" onMouseOut="cc_unhover('select_hoerbucher_download')" style="cursor:pointer;cursor:hand;display:none"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8zNi8zNjM5M2UxOGNmMDIzNGVjMzEwNzFlN2FkZGM5N2NlOC5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8zNi8zNjM5M2UxOGNmMDIzNGVjMzEwNzFlN2FkZGM5N2NlOC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+      <input type="checkbox" id="select_hoerbucher_download" name="select_hoerbucher_download" value="1" style="display:none;checkbox-image:url('normal:../../temp/fxlib/31/312d5c781e563feb7a8b65be636472bd.png,hover:../../temp/fxlib/ff/ff3ba0c4a85b80041f0c405c8c96a046.png,checked:../../temp/fxlib/e3/e3b2844b967efd1ca3c3ef42274b2532.png,checkedhover:../../temp/fxlib/36/36393e18cf0234ec31071e7addc97ce8.png')" checked onclick="cc_click('select_hoerbucher_download');"></td>
+    <td>Hörbuch-Downloads</td>
+    <td>    <script>
+    controls_checkbox_states['select_ebooks']=["normal","hover","checked","checkedhover"];
+    cc_block['select_ebooks']=false;
+    </script>
+          <span id="select_ebooks_normal" onClick="cc_click('select_ebooks')" onMouseOver="cc_hover('select_ebooks')" onMouseOut="cc_unhover('select_ebooks')" style="cursor:pointer;cursor:hand;display:none"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8zMS8zMTJkNWM3ODFlNTYzZmViN2E4YjY1YmU2MzY0NzJiZC5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8zMS8zMTJkNWM3ODFlNTYzZmViN2E4YjY1YmU2MzY0NzJiZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+            <span id="select_ebooks_hover" onClick="cc_click('select_ebooks')" onMouseOver="cc_hover('select_ebooks')" onMouseOut="cc_unhover('select_ebooks')" style="cursor:pointer;cursor:hand;display:none"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9mZi9mZjNiYTBjNGE4NWI4MDA0MWYwYzQwNWM4Yzk2YTA0Ni5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9mZi9mZjNiYTBjNGE4NWI4MDA0MWYwYzQwNWM4Yzk2YTA0Ni5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+            <span id="select_ebooks_checked" onClick="cc_click('select_ebooks')" onMouseOver="cc_hover('select_ebooks')" onMouseOut="cc_unhover('select_ebooks')" style="cursor:pointer;cursor:hand;"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9lMy9lM2IyODQ0Yjk2N2VmZDFjYTNjM2VmNDIyNzRiMjUzMi5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9lMy9lM2IyODQ0Yjk2N2VmZDFjYTNjM2VmNDIyNzRiMjUzMi5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+            <span id="select_ebooks_checkedhover" onClick="cc_click('select_ebooks')" onMouseOver="cc_hover('select_ebooks')" onMouseOut="cc_unhover('select_ebooks')" style="cursor:pointer;cursor:hand;display:none"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8zNi8zNjM5M2UxOGNmMDIzNGVjMzEwNzFlN2FkZGM5N2NlOC5wbmc./uid/x" width="13" height="13"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="13" height="13"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi8zNi8zNjM5M2UxOGNmMDIzNGVjMzEwNzFlN2FkZGM5N2NlOC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></span>
+      <input type="checkbox" id="select_ebooks" name="select_ebooks" value="1" style="display:none;checkbox-image:url('normal:../../temp/fxlib/31/312d5c781e563feb7a8b65be636472bd.png,hover:../../temp/fxlib/ff/ff3ba0c4a85b80041f0c405c8c96a046.png,checked:../../temp/fxlib/e3/e3b2844b967efd1ca3c3ef42274b2532.png,checkedhover:../../temp/fxlib/36/36393e18cf0234ec31071e7addc97ce8.png')" checked onclick="cc_click('select_ebooks');"></td>
+    <td>E-Books</td>
+   </tr>
+  </table>
+  </form>
+  </td>
+<td>
+  <div style="position:relative;background-color:#ffffff;z-index:199;">
+    <div bgcolor="#ffffff" id="autosuggest" style="position:absolute;border:1px solid #666666;top:+18px;display:none;background-color:white;z-index:200;-moz-opacity:.95;">
+    #
+    </div>
+  </div>
+  <input type="text" name="search"  autocomplete="off" onkeydown="searchKeyDown(event);" onkeyup="searchKeyUpJS(event);" onblur="searchBlur(event)" onclick="webStopBubble(event)" id="search_text" style="width:180px;height:19px;" />
+</td>
+<td>&nbsp;</td>
+<td><a href="javascript:dosearch();" alt="Suchen" title=""><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9jZS9jZTUzMGFkOGM2NjhhMTcwMGYzZTUyZTYyNzA3YjI4Ni5wbmc./uid/x" width="75" height="21"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="75" height="21"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9jZS9jZTUzMGFkOGM2NjhhMTcwMGYzZTUyZTYyNzA3YjI4Ni5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+<td>&nbsp;&nbsp;</td>
+  <td class="toolbar_width">&nbsp;</td>
+
+    <td align="right"><a href="https://www.claudio.de/mein_claudio.de/login/de" style="font-weight:bold;">myClaudio</a></td>
+  <td><img src="system/images/blind.gif" width="4" height="1"></td>
+
+  <td>|</td>
+
+  <td><img src="system/images/blind.gif" width="4" height="1"></td>
+  <td><a href="https://www.claudio.de/mein_claudio.de/Registrierung/de">Registrierung</a></td>
+    <td><img src="system/images/blind.gif" width="4" height="1"></td>
+
+ </tr>
+
+</table>    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0" cellspacing="0" cellpadding="0" class="toolbar">
+   <tr>
+    <td><img src="system/images/blind.gif" width="6" height="24"></td>
+    <td>Sie sind hier:</td>
+    <td><img src="system/images/blind.gif" width="4" height="1"></td>
+      <td><a href="http://www.claudio.de/Home/Startseite/Home/de" style="font-weight:bold;">Home</a></td>
+   </tr>
+  </table>
+      </td>
+  </tr>
+   </table>
+
+<table border="0" cellspacing="0" cellpadding="0" width="1000">
+  <tr>
+    <td>
+<table border="0" cellspacing="0" cellpadding="0">
+
+<tr>
+<td width="1"><img src="system/images/blind.gif" width="6" height="1"></td>
+<td width="1"><img src="system/images/blind.gif" width="165" height="1"></td>
+
+<td width="1"><img src="system/images/blind.gif" width="7" height="1"></td>
+<td width="1"><img src="system/images/blind.gif" width="1" height="1"></td>
+<td width="1"><img src="system/images/blind.gif" width="6" height="1"></td>
+
+<td width="1"><img src="system/images/blind.gif" width="605" height="1"></td>
+
+<td width="1"><img src="system/images/blind.gif" width="6" height="1"></td>
+<td width="1"><img src="system/images/blind.gif" width="1" height="1"></td>
+<td width="1"><img src="system/images/blind.gif" width="7" height="1"></td>
+
+<td width="1"><img src="system/images/blind.gif" width="196" height="1"></td>
+</tr>
+
+<tr valign="top">
+<td><img src="system/images/blind.gif" width="1" height="1"></td>
+
+<td width="165">
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+
+    <td background="../../temp/fxlib/93/931c08e51576e1dcea8db5529f5d19a5.png" style="background-repeat:no-repeat">
+     <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="34"></td>
+              <td ><img src="../../lib/nget.php/ub64/Y29udGVudC9tZWRpYS9Ib21lL1N0YXJ0c2VpdGUhbWFyZ2luX2xlZnRfaWNvbl9iZXN0c2VsbGVybGlzdGVuLmdpZg../uid/x" width="1" height="1"  /></td>
+              <td><img src="system/images/blind.gif" width="4" height="1"></td>
+       <td class="redbar">Bestsellerlisten</td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td background="../../temp/fxlib/a5/a5738c2dc7bda63e7c325372a0cb8dca.gif" style="background-repeat:repeat-y">
+
+     <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+      </tr>
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td style="color:black;font-size:11px;">
+  
+<style>
+.bestsellerlinks a {color:#505050;text-decoration:underline;}
+.bestsellerlinks a:hover {color:#505050;text-decoration:underline;}
+</style>
+
+<div class="bestsellerlinks">
+  <table border="0" cellspacing="0" cellpadding="0" style="display:inline;">
+   <tr valign="top">
+    <td><![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="position:relative;top:+4px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);position:relative;top:+4px;" /><![endif]--></td>
+    <td><img src="system/images/blind.gif" width="8" height="1"></td>
+    <td><a href="http://www.claudio.de/Downloads/Top-Downloads/Übersicht/de" class="redarrow">Top-Downloads</a></td>
+   </tr>
+  </table>
+  <br />
+  <table border="0" cellspacing="0" cellpadding="0" style="display:inline;">
+   <tr valign="top">
+    <td><![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="position:relative;top:+4px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);position:relative;top:+4px;" /><![endif]--></td>
+    <td><img src="system/images/blind.gif" width="8" height="1"></td>
+    <td><a href="http://www.claudio.de/E-Books/Top-E-Books/Übersicht/de" class="redarrow">Top-E-Books</a></td>
+   </tr>
+  </table>
+  </div>
+
+       </td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+      </tr>
+     </table>
+
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td height="4" background="../../temp/fxlib/9f/9f26a58ff89f75e996b07ff8ec0fe8c0.gif" style="background-repeat:no-repeat;">
+    <img src="system/images/blind.gif" width="1" height="4">    </td>
+   </tr>
+
+  </table>
+  <img src="system/images/blind.gif" width="1" height="8"><br>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+
+    <td background="../../temp/fxlib/93/931c08e51576e1dcea8db5529f5d19a5.png" style="background-repeat:no-repeat">
+     <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="34"></td>
+              <td><img src="system/images/blind.gif" width="1" height="1"  /></td>
+              <td><img src="system/images/blind.gif" width="4" height="1"></td>
+       <td class="redbar">Verlagsshops</td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td background="../../temp/fxlib/a5/a5738c2dc7bda63e7c325372a0cb8dca.gif" style="background-repeat:repeat-y">
+
+     <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+      </tr>
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td style="color:black;font-size:11px;">
+  
+<style>
+.verlagsshoplinks a {color:#505050;text-decoration:underline;}
+.verlagsshoplinks a:hover {color:#505050;text-decoration:underline;}
+</style>
+
+<div class="verlagsshoplinks">
+  <table border="0" cellspacing="0" cellpadding="0" style="display:inline;">
+   <tr valign="top">
+    <td><![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="position:relative;top:+4px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);position:relative;top:+4px;" /><![endif]--></td>
+    <td><img src="system/images/blind.gif" width="8" height="1"></td>
+    <td><a href="http://www.claudio.de/Verlagsshops/GABAL/Übersicht/de" class="redarrow">GABAL</a></td>
+   </tr>
+  </table>
+  <br>  <table border="0" cellspacing="0" cellpadding="0" style="display:inline;">
+   <tr valign="top">
+    <td><![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="position:relative;top:+4px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);position:relative;top:+4px;" /><![endif]--></td>
+    <td><img src="system/images/blind.gif" width="8" height="1"></td>
+    <td><a href="http://www.claudio.de/Verlagsshops/D-A-V/Übersicht/de" class="redarrow">D-A-V</a></td>
+   </tr>
+  </table>
+  <br></div>
+
+       </td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+      </tr>
+     </table>
+
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td height="4" background="../../temp/fxlib/9f/9f26a58ff89f75e996b07ff8ec0fe8c0.gif" style="background-repeat:no-repeat;">
+    <img src="system/images/blind.gif" width="1" height="4">    </td>
+   </tr>
+
+  </table>
+  <img src="system/images/blind.gif" width="1" height="8"><br>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+
+    <td background="../../temp/fxlib/93/931c08e51576e1dcea8db5529f5d19a5.png" style="background-repeat:no-repeat">
+     <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="34"></td>
+              <td ><img src="../../lib/nget.php/ub64/Y29udGVudC9tZWRpYS9Ib21lL1N0YXJ0c2VpdGUhbWFyZ2luX2xlZnRfaWNvbl9zcGVjaWFscy5naWY./uid/x" width="1" height="1"  /></td>
+              <td><img src="system/images/blind.gif" width="4" height="1"></td>
+       <td class="redbar">Specials</td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td background="../../temp/fxlib/a5/a5738c2dc7bda63e7c325372a0cb8dca.gif" style="background-repeat:repeat-y">
+
+     <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+      </tr>
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td style="color:black;font-size:11px;">
+  
+<div class="sideboxinfotext" style="width:100%;"  >
+<table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr valign="top"><td><![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="position:relative;top:+3px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);position:relative;top:+3px;" /><![endif]--></td><td width="1"><img src="system/images/blind.gif" width="8" height="1"></td><td valign="center"><a href="http://www.claudio.de/Landing_pages/Kostenlose_Downloads/Übersicht/de">Kostenlose Downloads</a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr valign="top"><td><![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="position:relative;top:+3px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);position:relative;top:+3px;" /><![endif]--></td><td width="1"><img src="system/images/blind.gif" width="8" height="1"></td><td valign="center"><a href="http://www.claudio.de/Landing_pages/Stöbern/Übersicht/de">Weitere Specials zum Thema Buch und Hörbuch</a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+
+       </td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+      </tr>
+     </table>
+
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td height="4" background="../../temp/fxlib/9f/9f26a58ff89f75e996b07ff8ec0fe8c0.gif" style="background-repeat:no-repeat;">
+    <img src="system/images/blind.gif" width="1" height="4">    </td>
+   </tr>
+
+  </table>
+  <img src="system/images/blind.gif" width="1" height="8"><br /><div>
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+
+    <td background="../../temp/fxlib/93/931c08e51576e1dcea8db5529f5d19a5.png" style="background-repeat:no-repeat">
+     <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="34"></td>
+              <td><img src="system/images/blind.gif" width="1" height="1"  /></td>
+              <td><img src="system/images/blind.gif" width="4" height="1"></td>
+       <td class="redbar">Zahlungsarten</td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td background="../../temp/fxlib/a5/a5738c2dc7bda63e7c325372a0cb8dca.gif" style="background-repeat:repeat-y">
+
+     <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td width="1"><img src="system/images/blind.gif" width="4" height="4"></td>
+      </tr>
+      <tr>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+       <td style="color:black;font-size:11px;">
+    <center>
+   <table border="0" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+     <td align="center" onclick="window.open('http://www.paypal.com/de/cgi-bin/webscr?cmd=xpt/Marketing/popup/OLCWhatIsPayPal-outside','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=500');" class="cursor">
+      <img src="http://www.paypal.com/de_DE/DE/i/logo/lockbox_100x45.gif" border="0" alt="PayPal-Bezahlmethoden-Logo">
+     </td>
+    </tr>
+   </table>
+
+   <!--<div class="cursor" style="position:absolute;left:55px;width:60px;height:40px" onclick="window.open('http://www.clickandbuy.com/DE_de/info.html','paymentinfo','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=650, height=500');">&nbsp;</div>-->
+      <img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi85Ny85NzVkYzQ1MmFhMTEzYTA4N2MxNmU4YWMzZjUyZGM2Zi5qcGc./uid/x" width="122" height="46"  /><br />
+         <br />
+  </center>
+         </td>
+       <td><img src="system/images/blind.gif" width="1" height="1"></td>
+      </tr>
+     </table>
+
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td height="4" background="../../temp/fxlib/9f/9f26a58ff89f75e996b07ff8ec0fe8c0.gif" style="background-repeat:no-repeat;">
+    <img src="system/images/blind.gif" width="1" height="4">    </td>
+   </tr>
+
+  </table>
+  </div></td>
+
+<td><img src="system/images/blind.gif" width="1" height="1"></td>
+<td bgcolor="#CECECE"><img src="system/images/blind.gif" width="1" height="1"></td>
+<td><img src="system/images/blind.gif" width="1" height="1"></td>
+
+<td width="605">
+<div style="position:relative;overflow:hidden;width:606px">
+
+
+<script>
+//:EDIT: cinactiveitems
+function closeInactive() {
+  document.getElementById('showinactive').style.display='none';
+  document.getElementById('preventer').style.display='none';
+}
+
+function showinactive() {
+  document.getElementById('showinactive').style.display='';
+  document.getElementById('preventer').style.display='';
+  var oh=document.getElementById('showinactive').offsetHeight;
+  var dtr=document.getElementById('detail_shadow_right');
+  dtr.style.height="100px";
+}
+</script>
+
+<div id="showinactive" style="position:absolute;left:600px;top:50px;width:300px;z-index:333;display:none;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tr>
+  <td height="20" style="background-color:white;border-top:1px solid #D8D8D8;border-left:1px solid #D8D8D8;color:darksilver;" align="right">
+
+   <table cellspacing="0" cellpadding="0" border="0">
+    <tr>
+     <td><a href="javascript:closeInactive();">schließen</a></td>
+     <td><img src="system/images/blind.gif" width="5" height="1"></td>
+     <td><a href="javascript:closeInactive();"><img src="system/images/miniclose.gif" width="11" height="11"  /></a></td>
+     <td><img src="system/images/blind.gif" width="5" height="1"></td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+
+ <tr valign="top">
+  <td style="background-color:white;border-left:1px solid #D8D8D8;">
+
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr valign="top">
+        <td><img src="system/images/blind.gif" width="10" height="10"></td>
+        <td>
+          Der von ihnen ausgewählte Artikel ist leider <b style="color:red">momentan nicht verfügbar</b>.<br><br>
+          Der Artikel konnte <b>nicht</b> in den Warenkorb gelegt werden.</td>
+        <td><img src="system/images/blind.gif" width="10" height="1"></td>
+      </tr>
+      <tr>
+        <td colspan="3"><img src="system/images/blind.gif" width="0" height="10"></td>
+      </tr>
+    </table>
+  </td>
+  <td><div id="detail_shadow_right" style="overflow:hidden;height:20px;"><![if !IE]><img src="system/images/detail_right_shadow.png" width="7" height="600"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="7" height="600"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/detail_right_shadow.png',sizingMethod=scale);" /><![endif]--></div></td>
+ </tr>
+
+ <tr valign="top">
+  <td><div id="detailshadowbottom" style="width:300px;overflow:hidden;"><![if !IE]><img src="system/images/detail_bottom_shadow.png" width="834" height="8"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="834" height="8"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/detail_bottom_shadow.png',sizingMethod=scale);" /><![endif]--></div></td>
+  <td><![if !IE]><img src="system/images/detail_bottom_shadow_corner.png" width="7" height="8"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="7" height="8"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/detail_bottom_shadow_corner.png',sizingMethod=scale);" /><![endif]--></td>
+ </tr>
+
+</table>
+</div>
+
+<div style="position:absolute;z-index:10;">
+<![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi85OC85ODA1NjQ2OGI0MTc2YzA4ZDY1YzE1NTI4NDEyMTkwMC5wbmc./uid/x" width="605" height="240"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="605" height="240"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi85OC85ODA1NjQ2OGI0MTc2YzA4ZDY1YzE1NTI4NDEyMTkwMC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></div>
+
+<div style="position:relative;z-index:40;top:75px;left:16px;font-size:15px;font-family:Arial;color:#4B4B4D">
+Bei claudio <b>easy</b>flex anmelden<br>
+und je Titel max. 9,95 € zahlen -<br>
+unabhängig vom Originalpreis!
+</div>
+
+<div style="position:relative;z-index:50;top:-35px;left:408px;">
+<a href="http://www.claudio.de/easyflex/Übersicht/de"><img src="system/images/jetzt_informieren.jpg" width="128" height="23" style="display:inline;" /></a>
+</div>
+
+<div style="position:relative;z-index:60;left:408px;font-size:12px;font-family:Arial;color:#4B4B4D;line-height:16px;">
+<![if !IE]><img src="system/images/red_arrow.png" width="8" height="10"   style="display:inline;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="8" height="10"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/red_arrow.png',sizingMethod=scale);display:inline;" /><![endif]--> Eines von 10.000 <b>easy</b>flex-<br>
+Beispielen: 9,95 € statt 17,49 €.<br>
+Achten Sie auf dieses Zeichen.<br>
+</div>
+
+<div style="position:relative;z-index:70;top:10px;left:408px;">
+<a href="http://www.claudio.de/easyflex/Übersicht/de"><![if !IE]><img src="system/images/easyflex.png" width="111" height="23"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="111" height="23"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflex.png',sizingMethod=scale);" /><![endif]--></a>
+</div>
+
+<div style="position:relative;z-index:80;top:-73px;left:260px;width:120px;height:120px;cursor:pointer;" onclick="location.href='http://www.claudio.de/Home/Startseite/Eine_kurze_Geschichte_der_alltäglichen_Dinge_-_MP3-Download/itemid/CXCL158401/de'"></div>
+
+<table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td colspan="4" width='605'>
+      <table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td colspan="13">    <style>
+    .abg17 {background-image:url(../../lib/nget.php/ub64/Y29udGVudC9tZWRpYS9Ib21lL0tsaXBwZW5fNjA1LmpwZw../uid/x);}
+    </style>
+      <table border="0" cellspacing="0" cellpadding="0">
+  <tr><td><img src="system/images/blind.gif" width="605" height="1"></td></tr>
+  <tr>
+    <td class="abg17">
+        <div onClick="location.href='http://www.claudio.de/Landing_pages/Hörverlag-Neuheiten_Juni_2012/Übersicht/de'" style="position:relative;overflow:hidden;width:605;height:140px;cursor:pointer;cursor:hand;">
+            <img src="system/images/blind.gif" width="1" height="140">    </div>
+    </td>
+  </tr>
+  </table>
+  </td></tr></table>  <script language="JavaScript">
+      eqheights=new Array();
+    function equalizeHeightsAdd(nam) {
+      var maxh=0;
+      var idx=0;
+      while (true) {
+        var e=document.getElementById(nam+"_"+idx);
+        if (!e) break;
+        maxh=Math.max(maxh,e.offsetHeight);
+        idx++;
+      }
+      var idx=0;
+      while (true) {
+        var e=document.getElementById(nam+"_"+idx);
+        if (!e) break;
+        e.style.height=maxh+'px';
+        idx++;
+      }
+    }
+
+    function equalizeHeights(nam) {
+      if (!nam) {
+        for (var k=0;k<eqheights.length;k++) {
+          if (!eqheights[k]) continue;
+          equalizeHeightsAdd(eqheights[k]);
+        }
+        return;
+      }
+
+      eqheights.push(nam);
+      equalizeHeightsAdd(nam);
+    }
+      equalizeHeights('slot_thumb_0_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_0_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_0_1');
+  </script>
+  <img src="system/images/blind.gif" width="1" height="24"><br /></td></tr><tr valign="top"><td colspan="4" width='605'>
+      
+  
+  <style>
+  .abg19 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi9kNi9kNmRiZGI0NGViOTZkMGVkOGJiNTZmOGZjMDM5MGViMS5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg20 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi8yMC8yMDcwNzJhZGJiODk5ZTZjN2I2ZTMxMzJjOTgwODFjOS5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+  
+  <style>
+  .abg21 {background-image:url(../../lib/nget.php/ub64/dGVtcC9meGxpYi8xNy8xN2YwOGYxMDY3MjVkNmFmOGNkYzMyZTdmY2QzMjFmZS5wbmc./uid/x);background-repeat:no-repeat;}
+  </style>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td class="abg19" width="1"><img src="system/images/blind.gif" width="10" height="31"></td>
+      <td class="abg20">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+          <tr>
+            <td class="headbar" style="color:#d80008;font-weight:bold;font-size:13px;line-height:14px" width="100%">Hörbuch-Neuheiten bei claudio.de</td>
+            <td></td>
+          </tr>
+        </table>
+      </td>
+      <td class="abg21" width="1"><img src="system/images/blind.gif" width="10" height="1"></td>
+    </tr>
+  </table>
+  <br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_1_0"><a href="http://www.claudio.de/Home/Startseite/Desire_-_MP3-Download/itemid/CXCL159643/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk2NDMhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Desire" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_1_0">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Desire_-_MP3-Download/itemid/CXCL159643/de" class="underline">Desire</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Lisa%20Jackson&s_category=all&s_from=lsearch&s_what=author">Lisa Jackson</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_1_0">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159643')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159643.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;19,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    
+  <style>
+  .abg18 {background-image:url(system/images/preisschild_gerade.png);background-repeat:no-repeat;}
+  </style>
+      <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;13,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_1_1"><a href="http://www.claudio.de/Home/Startseite/Perry_Rhodan_Nr._2648%3A_Die_Seele_der_Flotte_-_MP3-Download/itemid/CXCL159758/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3NTghdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Perry Rhodan Nr. 2648: Die Seele der Flotte" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_1_1">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Perry_Rhodan_Nr._2648%3A_Die_Seele_der_Flotte_-_MP3-Download/itemid/CXCL159758/de" class="underline">Perry Rhodan Nr.<br>2648: Die Seele der<br>Flotte</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Christian%20Montillon&s_category=all&s_from=lsearch&s_what=author">Christian<br />Montillon</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_1_1">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159758')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159758.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;7,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_1_2"><a href="http://www.claudio.de/Home/Startseite/Das_Leben%2C_das_Universum_und_der_ganze_Rest_-_MP3-Download/itemid/CXCL159695/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk2OTUhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Das Leben, das Universum und der ganze Rest" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_1_2">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Das_Leben%2C_das_Universum_und_der_ganze_Rest_-_MP3-Download/itemid/CXCL159695/de" class="underline">Das Leben, das<br>Universum und der<br>ganze Rest</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Douglas%20Adams&s_category=all&s_from=lsearch&s_what=author">Douglas Adams</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_1_2">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159695')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159695.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;29,95</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;20,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_1_3"><a href="http://www.claudio.de/Home/Startseite/Wer_Schatten_küsst_-_MP3-Download/itemid/CXCL159745/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3NDUhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Wer Schatten küsst" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_1_3">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Wer_Schatten_küsst_-_MP3-Download/itemid/CXCL159745/de" class="underline">Wer Schatten<br>küsst</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Marc%20Levy&s_category=all&s_from=lsearch&s_what=author">Marc Levy</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_1_3">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159745')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159745.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;16,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;13,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td></tr><tr valign="top"><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_2_0"><a href="http://www.claudio.de/Home/Startseite/Satori_-_MP3-Download/itemid/CXCL159708/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3MDghdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Satori" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_2_0">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Satori_-_MP3-Download/itemid/CXCL159708/de" class="underline">Satori</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Don%20Winslow&s_category=all&s_from=lsearch&s_what=author">Don Winslow</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_2_0">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159708')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159708.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;24,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_2_1"><a href="http://www.claudio.de/Home/Startseite/House_of_Night_-_Bestimmt_-_MP3-Download/itemid/CXCL159696/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk2OTYhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="House of Night - Bestimmt" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_2_1">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/House_of_Night_-_Bestimmt_-_MP3-Download/itemid/CXCL159696/de" class="underline">House of Night -<br>Bestimmt</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=P.C.%20Cast&s_category=all&s_from=lsearch&s_what=author">P.C. Cast</a>, <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Kristin%20Cast&s_category=all&s_from=lsearch&s_what=author">Kristin Cast</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_2_1">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159696')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159696.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;16,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;11,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_2_2"><a href="http://www.claudio.de/Home/Startseite/Der_Engel_von_Hampstead_-_MP3-Download/itemid/CXCL159701/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3MDEhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Der Engel von Hampstead" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_2_2">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Der_Engel_von_Hampstead_-_MP3-Download/itemid/CXCL159701/de" class="underline">Der Engel von<br>Hampstead</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Sir%20Arthur%20Conan%20Doyle&s_category=all&s_from=lsearch&s_what=author">Sir Arthur<br />Conan Doyle</a>, <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Marc%20Grupe&s_category=all&s_from=lsearch&s_what=author">Marc Grupe</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_2_2">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159701')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159701.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;8,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;6,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_1_2_3"><a href="http://www.claudio.de/Home/Startseite/Teuflische_Versprechen_-_MP3-Download/itemid/CXCL159738/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3MzghdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Teuflische Versprechen" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_1_2_3">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Teuflische_Versprechen_-_MP3-Download/itemid/CXCL159738/de" class="underline">Teuflische<br>Versprechen</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Andreas%20Franz&s_category=all&s_from=lsearch&s_what=author">Andreas Franz</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_1_2_3">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159738')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.Hörbuch-Neuheiten bei claudio.de.rec.group/CXCL159738.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;16,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;13,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td></tr></table>  <script language="JavaScript">
+    equalizeHeights('slot_thumb_1_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_1_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_1_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_thumb_1_2');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_1_2');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_1_2');
+  </script>
+  <img src="system/images/blind.gif" width="1" height="24"><br /></td></tr><tr valign="top"><td colspan="4" width='605'>
+      
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td class="abg19" width="1"><img src="system/images/blind.gif" width="10" height="31"></td>
+      <td class="abg20">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+          <tr>
+            <td class="headbar" style="color:#d80008;font-weight:bold;font-size:13px;line-height:14px" width="100%">E-Book-Neuheiten bei claudio.de</td>
+            <td></td>
+          </tr>
+        </table>
+      </td>
+      <td class="abg21" width="1"><img src="system/images/blind.gif" width="10" height="1"></td>
+    </tr>
+  </table>
+  <br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_1_0"><a href="http://www.claudio.de/Home/Startseite/Das_Lied_von_Eis_und_Feuer_09_-_eBook/itemid/LE9783641088637/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwODA0MTUyNC9MRTk3ODM2NDEwODg2MzchdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Das Lied von Eis und Feuer 09" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_1_0">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Das_Lied_von_Eis_und_Feuer_09_-_eBook/itemid/LE9783641088637/de" class="underline">Das Lied von Eis<br>und Feuer 09</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=George%20R.R.%20Martin&s_category=all&s_from=lsearch&s_what=author">George R.R.<br />Martin</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_1_0">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783641088637.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;12,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_1_1"><a href="http://www.claudio.de/Home/Startseite/Der_Seelensammler_-_eBook/itemid/LE9783492954730/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwNzIwMjk0Ny9MRTk3ODM0OTI5NTQ3MzAhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Der Seelensammler" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_1_1">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Der_Seelensammler_-_eBook/itemid/LE9783492954730/de" class="underline">Der<br>Seelensammler</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Donato%20Carrisi&s_category=all&s_from=lsearch&s_what=author">Donato Carrisi</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_1_1">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783492954730.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;8,49</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_1_2"><a href="http://www.claudio.de/Home/Startseite/Die_Corleones_-_eBook/itemid/LE9783608102901/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwODA0MTUyNC9MRTk3ODM2MDgxMDI5MDEhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Die Corleones" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_1_2">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Die_Corleones_-_eBook/itemid/LE9783608102901/de" class="underline">Die Corleones</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Mario%20Puzo&s_category=all&s_from=lsearch&s_what=author">Mario Puzo</a>, <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Edward%20Falco&s_category=all&s_from=lsearch&s_what=author">Edward Falco</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_1_2">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783608102901.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;16,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_1_3"><a href="http://www.claudio.de/Home/Startseite/Sieben_Tage_ohne_-_eBook/itemid/LE9783462305364/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwODA0MTUyNC9MRTk3ODM0NjIzMDUzNjQhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Sieben Tage ohne" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_1_3">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Sieben_Tage_ohne_-_eBook/itemid/LE9783462305364/de" class="underline">Sieben Tage ohne</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Monika%20Peetz&s_category=all&s_from=lsearch&s_what=author">Monika Peetz</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_1_3">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783462305364.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;9,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td></tr><tr valign="top"><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_2_0"><a href="http://www.claudio.de/Home/Startseite/Die_unwahrscheinliche_Pilgerreise_des_Harold_Fry_-_eBook/itemid/LE9783104020754/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwODA0MTUyNC9MRTk3ODMxMDQwMjA3NTQhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Die unwahrscheinliche Pilgerreise des Harold Fry" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_2_0">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Die_unwahrscheinliche_Pilgerreise_des_Harold_Fry_-_eBook/itemid/LE9783104020754/de" class="underline">Die<br>unwahrscheinliche<br>Pilgerreise des<br>Harold Fry</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Rachel%20Joyce&s_category=all&s_from=lsearch&s_what=author">Rachel Joyce</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_2_0">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783104020754.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;16,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_2_1"><a href="http://www.claudio.de/Home/Startseite/Der_Insider_-_eBook/itemid/LE9783641076849/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwNzE1MzM0MC9MRTk3ODM2NDEwNzY4NDkhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Der Insider" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_2_1">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Der_Insider_-_eBook/itemid/LE9783641076849/de" class="underline">Der Insider</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Michael%20Robotham&s_category=all&s_from=lsearch&s_what=author">Michael<br />Robotham</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_2_1">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783641076849.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;11,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_2_2"><a href="http://www.claudio.de/Home/Startseite/Küstennebel_-_eBook/itemid/LE9783492954822/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwODA0MTUyNC9MRTk3ODM0OTI5NTQ4MjIhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Küstennebel" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_2_2">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Küstennebel_-_eBook/itemid/LE9783492954822/de" class="underline">Küstennebel</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Gisa%20Pauly&s_category=all&s_from=lsearch&s_what=author">Gisa Pauly</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_2_2">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783492954822.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;8,49</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_2_2_3"><a href="http://www.claudio.de/Home/Startseite/Europa_braucht_den_Euro_nicht_-_eBook/itemid/LE9783641085735/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL2Vib29rcy8yMDEyMDMwODA0MTUyNC9MRTk3ODM2NDEwODU3MzUhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Europa braucht den Euro nicht" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_2_2_3">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Europa_braucht_den_Euro_nicht_-_eBook/itemid/LE9783641085735/de" class="underline">Europa braucht<br>den Euro nicht</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Thilo%20Sarrazin&s_category=all&s_from=lsearch&s_what=author">Thilo Sarrazin</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_2_2_3">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/ebook.png" width="20" height="20"  title="eBook"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="eBook" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/ebook.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">eBook</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.E-Book-Neuheiten bei claudio.de.rec.group/LE9783641085735.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td><img src="system/images/blind.gif" width="1" height="1"></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;18,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td></tr></table>  <script language="JavaScript">
+    equalizeHeights('slot_thumb_2_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_2_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_2_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_thumb_2_2');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_2_2');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_2_2');
+  </script>
+  <img src="system/images/blind.gif" width="1" height="24"><br /></td></tr><tr valign="top"><td colspan="4" width='605'>
+      
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+      <td class="abg19" width="1"><img src="system/images/blind.gif" width="10" height="31"></td>
+      <td class="abg20">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+          <tr>
+            <td class="headbar" style="color:#d80008;font-weight:bold;font-size:13px;line-height:14px" width="100%">claudio.de für Kinder!</td>
+            <td></td>
+          </tr>
+        </table>
+      </td>
+      <td class="abg21" width="1"><img src="system/images/blind.gif" width="10" height="1"></td>
+    </tr>
+  </table>
+  <br /><table border="0" cellspacing="0" cellpadding="0"><tr valign="top"><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_1_0"><a href="http://www.claudio.de/Home/Startseite/Plötzlich_Zombie_-_So_ein_Mist%21_-_MP3-Download/itemid/CXCL159536/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk1MzYhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Plötzlich Zombie - So ein Mist!" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_1_0">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Plötzlich_Zombie_-_So_ein_Mist%21_-_MP3-Download/itemid/CXCL159536/de" class="underline">Plötzlich Zombie -<br>So ein Mist!</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=David%20Lubar&s_category=all&s_from=lsearch&s_what=author">David Lubar</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_1_0">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159536')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159536.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;9,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;6,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_1_1"><a href="http://www.claudio.de/Home/Startseite/CD_WISSEN_Junior_-_Lisa_schafft_das_ganz_allein_-_MP3-Download/itemid/CXCL159723/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3MjMhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="CD WISSEN Junior - Lisa schafft das ganz allein" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_1_1">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/CD_WISSEN_Junior_-_Lisa_schafft_das_ganz_allein_-_MP3-Download/itemid/CXCL159723/de" class="underline">CD WISSEN Junior -<br>Lisa schafft das<br>ganz allein</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Achim%20Br%C3%B6ger&s_category=all&s_from=lsearch&s_what=author">Achim Bröger</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_1_1">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159723')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159723.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;9,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;7,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_1_2"><a href="http://www.claudio.de/Home/Startseite/Albert_E._erklärt_Internet%2C_Handy_%23us_Co._-_MP3-Download/itemid/CXCL159715/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3MTUhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Albert E. erklärt Internet, Handy & Co." /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_1_2">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Albert_E._erklärt_Internet%2C_Handy_%23us_Co._-_MP3-Download/itemid/CXCL159715/de" class="underline">Albert E. erklärt<br>Internet, Handy &<br>Co.</a>
+        </b>
+    <br>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_1_2">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159715')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159715.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;2,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td>  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_1_3"><a href="http://www.claudio.de/Home/Startseite/Die_magischen_Vier_-_MP3-Download/itemid/CXCL159313/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTkzMTMhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Die magischen Vier" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_1_3">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Die_magischen_Vier_-_MP3-Download/itemid/CXCL159313/de" class="underline">Die magischen<br>Vier</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=R%C3%BCdiger%20Bertram&s_category=all&s_from=lsearch&s_what=author">Rüdiger<br />Bertram</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_1_3">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159313')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159313.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;9,99</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;6,99</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td></tr><tr valign="top"><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_2_0"><a href="http://www.claudio.de/Home/Startseite/Die_Biene_Maja_und_ihre_Abenteuer_-_MP3-Download/itemid/CXCL159453/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk0NTMhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Die Biene Maja und ihre Abenteuer" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_2_0">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Die_Biene_Maja_und_ihre_Abenteuer_-_MP3-Download/itemid/CXCL159453/de" class="underline">Die Biene Maja<br>und ihre Abenteuer</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Waldemar%20Bonsels&s_category=all&s_from=lsearch&s_what=author">Waldemar<br />Bonsels</a>, <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Frauke%20Nahrgang&s_category=all&s_from=lsearch&s_what=author">Frauke Nahrgang</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_2_0">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159453')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159453.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;9,95</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;6,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_2_1"><a href="http://www.claudio.de/Home/Startseite/Schluri_Schlampowski_und_die_Spielzeugbande_-_MP3-Download/itemid/CXCL159449/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk0NDkhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Schluri Schlampowski und die Spielzeugbande" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_2_1">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Schluri_Schlampowski_und_die_Spielzeugbande_-_MP3-Download/itemid/CXCL159449/de" class="underline">Schluri<br>Schlampowski und<br>die Spielzeugbande</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Brigitte%20Endres&s_category=all&s_from=lsearch&s_what=author">Brigitte Endres</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_2_1">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159449')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159449.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br /><strike>€&nbsp;9,95</strike>    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;7,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_2_2"><a href="http://www.claudio.de/Home/Startseite/5_Märchen_aus_Afrika_-_MP3-Download/itemid/CXCL159761/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk3NjEhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="5 Märchen aus Afrika" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_2_2">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/5_Märchen_aus_Afrika_-_MP3-Download/itemid/CXCL159761/de" class="underline">5 Märchen aus<br>Afrika</a>
+        </b>
+    <br>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_2_2">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159761')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159761.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;2,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td bgcolor="#E0E0E0" width="1"><img src="system/images/blind.gif" width="1" height="1"></td><td width="14"><img src="system/images/blind.gif" width="14" height="1"></td><td><img src="system/images/blind.gif" width="1" height="24"><br />  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+  <tr><td width="1"><img src="system/images/blind.gif" width="128" height="1"></td></tr>
+    <tr>
+  <td align="center" id="slot_thumb_3_2_3"><a href="http://www.claudio.de/Home/Startseite/Der_kleine_Drache_Kokosnuss_und_der_schwarze_Ritter_-_MP3-Download/itemid/CXCL159456/de"><img src="../../lib/nget.php/ub64/Y29udGVudC9kYXRhL2l0ZW1zL0NYLzIwMDgwOTMwMTgwMzU5L0NYQ0wxNTk0NTYhdGh1bWJfY2xhdWRpb19ub3JtYWwuanBn/uid/x" alt="Der kleine Drache Kokosnuss und der schwarze Ritter" /></a></td>
+  </tr>
+     <tr valign="top">
+    <td width="128" class="featurecaption" valign="top" id="slot_caption_3_2_3">
+    <br>
+    <b>
+        <a href="http://www.claudio.de/Home/Startseite/Der_kleine_Drache_Kokosnuss_und_der_schwarze_Ritter_-_MP3-Download/itemid/CXCL159456/de" class="underline">Der kleine Drache<br>Kokosnuss und der<br>schwarze Ritter</a>
+        </b>
+    <br>
+        von <b>
+    <a class="underline" style="color:black" href="http://www.claudio.de/Suche/de?s_text=Ingo%20Siegner&s_category=all&s_from=lsearch&s_what=author">Ingo Siegner</a>    </b>
+        <br>
+    </td>
+   </tr>
+   <tr>
+    <td id="slot_info_3_2_3">
+
+    <br>
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+      <td><![if !IE]><img src="system/images/mediaicons/mp3.png" width="20" height="20"  title="MP3-Download"  /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"  title="MP3-Download" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/mediaicons/mp3.png',sizingMethod=scale);" /><![endif]--></td>
+      <td><img src="system/images/blind.gif" width="4" height="1"></td>
+            <td class="micap">MP3-Download</td>
+            </tr>
+        <tr>
+    <td colspan="3"><img src="system/images/blind.gif" width="1" height="4"></td>
+    </tr>
+    </table>
+        
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td>  <table width="128" border="0" cellspacing="0" cellpadding="0" style="line-height:1px;">
+  <tr>
+    <td width="20"><a href="javascript:previewFile('CXCL159456')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi9kMS9kMTk4ZWE4NzJjODcyMjIzN2IzZDlhYjFmMmY0MjA2ZC5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+  <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+        <td width="20"><a class="cursor" onclick="addBasket('Home/.claudio.de für Kinder#ex.rec.group/CXCL159456.jpg')"><![if !IE]><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x" width="20" height="20"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="20" height="20"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../lib/nget.php/ub64/dGVtcC9meGxpYi80Zi80ZmQzYThkOTkyYWNjZTU0NDRiNmFkNTk2ZWExZTQ3NS5wbmc./uid/x',sizingMethod=scale);" /><![endif]--></a></td>
+        <td width="8"><img src="system/images/blind.gif" width="8" height="1"></td>
+  <td align="right"><a style="padding:5px;" href="http://www.claudio.de/easyflex/Übersicht/de" title="Informationen zum Abo claudio easyflex"><![if !IE]><img src="system/images/easyflexlogo_small.png" width="29" height="12"    /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="29" height="12"   style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/easyflexlogo_small.png',sizingMethod=scale);" /><![endif]--></a></td>
+  
+  </tr>
+  </table>
+  </td>
+      <td width="100%" align="right"></td>
+     </tr>
+    </table>
+    <br>
+
+   </td>
+  </tr>
+
+  <tr>
+  <td>
+  
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+   <tr>
+    <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;"><img src="system/images/blind.gif" width="6" height="20"></td>
+    <td align="center" valign="top" style="font-size:10px;" width="100%" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+    <img src="system/images/blind.gif" width="1" height="4"><br />&nbsp;    </td>
+        <td width="1" background="../../temp/fxlib/93/931aab3cad2b0851375d8ec8ab5fba76.gif" style="background-repeat:repeat-x;">
+        <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td class="abg18" align="center">
+        <table border="0" cellspacing="0" cellpadding="0">
+        <tr>
+        <td width="1" class="pricetag" style="color:#d80008;font-size:15px;">€&nbsp;5,95</td>
+        <td width="1"><img src="system/images/blind.gif" width="1" height="49"></td>
+                </tr>
+        </table>
+        <img src="system/images/blind.gif" width="65" height="1">      </td>
+    </tr>
+    </table>
+        </td>
+   </tr>
+  </table>
+
+    <span class="pricenote">inkl. USt.</span>
+
+    </td>
+   </tr>
+  </table>
+  </td></tr></table>  <script language="JavaScript">
+    equalizeHeights('slot_thumb_3_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_3_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_3_1');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_thumb_3_2');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_caption_3_2');
+  </script>
+    <script language="JavaScript">
+    equalizeHeights('slot_info_3_2');
+  </script>
+  <img src="system/images/blind.gif" width="1" height="24"><br /></td></tr></table></div>
+</td>
+
+
+<td><img src="system/images/blind.gif" width="1" height="1"></td>
+<td bgcolor="#CECECE"><img src="system/images/blind.gif" width="1" height="1"></td>
+<td><img src="system/images/blind.gif" width="1" height="1"></td>
+
+<td>
+<a target="_blank" href="https://www.trustedshops.com/bewertung/info_X5EAF8F7A31CA4FED3FF1B99617266224.html" title="Kundenbewertungen von claudio.de einsehen"><img class="bewertung" alt="Kundenbewertungen von claudio.de" border="0" src="../../temp/X5EAF8F7A31CA4FED3FF1B99617266224.gif"/></a>
+<br /><br />
+
+  <table border="0" cellspacing="0" cellpadding="0" width="100%" class="round_table">
+   <tr>
+    <td class="outter_line"><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8wMi8wMjE0MzU3YTFjZDRkOWM1N2JkYTE4ZjBjM2QzZDVjNS5naWY./uid/x" width="4" height="4"  /></td>
+    <td background="../../temp/fxlib/ae/ae4c36b857ead5572a0dfa5f69b6437c.gif"><img src="system/images/blind.gif" width="1" height="4"></td>
+    <td class="outter_line"><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi80OC80ODliYzZkNmU5MDVmYzJlZmMxZmRiNDJlZWMyZDUzOC5naWY./uid/x" width="4" height="4"  /></td>
+   </tr>
+   <tr class="item_line">
+    <td background="../../temp/fxlib/73/7367227dc621127e43d9a7ba11875d5f.gif"><img src="system/images/blind.gif" width="4" height="1"></td>
+    <td height="3"><img src="system/images/blind.gif" width="1" height="3"></td>
+    <td background="../../temp/fxlib/6d/6d709c9f9ced301c85a48423c2bb0c46.gif"><img src="system/images/blind.gif" width="4" height="1"></td>
+   </tr>
+   <tr>
+    <td width="4" class="outter_line" background="../../temp/fxlib/73/7367227dc621127e43d9a7ba11875d5f.gif"><img src="system/images/blind.gif" width="4" height="1"></td>
+    <td class="content_area">
+
+   <div id="tsBox" style="width:100%;font-size:80%">
+    <div style="font-family: Verdana, Arial, Helvetica, sans-serif;vertical-align:middle;width:100%;margin-top:0px;border:0px solid #C0C0C0;padding:2px;" id="tsInnerBox">
+   <div style="text-align:center;width:100%;float:left;border:0px solid;padding:2px;" id="tsSeal"><a href="https://www.trustedshops.com/shop/certificate.php?shop_id=X5EAF8F7A31CA4FED3FF1B99617266224" target="_blank"><img style="border:0px none;display:inline;" src="system/images/trustedshops.gif" title="Klicken Sie auf das G&uuml;tesiegel, um die G&uuml;ltigkeit zu pr&uuml;fen!"></a></div>
+   <div style="text-align:center;width:92%;line-height:125%;float:left;border:0px solid;padding:2px;" id="tsText"><a style="font-weight:normal;text-decoration:none;color:#000000;" title="Mehr Informationen zu claudio.de" href="http://www.trustedshops.de/profil/claudio-de_X5EAF8F7A31CA4FED3FF1B99617266224.html" target="_blank">claudio.de ist ein von Trusted Shops gepr&uuml;fter Onlineh&auml;ndler mit Zertifikat und K&auml;uferschutz.</a></div>
+   <div style="clear:both;"></div>
+  </div>
+  </div>
+
+    </td>
+    <td class="outter_line" background="../../temp/fxlib/6d/6d709c9f9ced301c85a48423c2bb0c46.gif"><img src="system/images/blind.gif" width="4" height="1"></td>
+   </tr>
+   <tr class="item_line">
+    <td background="../../temp/fxlib/73/7367227dc621127e43d9a7ba11875d5f.gif"><img src="system/images/blind.gif" width="4" height="1"></td>
+    <td height="3"><img src="system/images/blind.gif" width="1" height="3"></td>
+    <td background="../../temp/fxlib/6d/6d709c9f9ced301c85a48423c2bb0c46.gif"><img src="system/images/blind.gif" width="4" height="1"></td>
+   </tr>
+   <tr>
+    <td class="outter_line"><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi83Yi83YmQ3YzlmMDE1YWM1Yzk5YTAyODM2ZjI3YzY4OWFjMS5naWY./uid/x" width="4" height="4"  /></td>
+    <td background="../../temp/fxlib/04/04e99bc8e86bfea376c9941f9e1a66ad.gif"><img src="system/images/blind.gif" width="1" height="4"></td>
+    <td class="outter_line"><img src="../../lib/nget.php/ub64/dGVtcC9meGxpYi8wZC8wZDAxYWZjODBhNDdjYzkzZTZkOGJkYzY3YTEzYWY1MC5naWY./uid/x" width="4" height="4"  /></td>
+   </tr>
+  </table>
+  <img src="system/images/blind.gif" width="1" height="8"><br>
+<div style="text-align:left" ><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr><td valign="center"><a href="http://www.claudio.de/Landing_pages/hörBuch-Bibel_2012/Übersicht/de"><img alt="" src="../../lib/nget.php?uid=x&ub64=bWVkaWEvSG9tZS8ucmlnaHQvaMO2ckJ1Y2gtQmliZWwhMTYuanBn" /></a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+<img src="system/images/blind.gif" width="1" height="8">
+<div style="text-align:left" ><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr><td valign="center"><a href="http://twitter.com/hoerbuecher"><img src="../../lib/nget.php?uid=x&ub64=bWVkaWEvSG9tZS8ucmlnaHQvdHdpdHRlciExMS5qcGc." alt="" /></a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+<img src="system/images/blind.gif" width="1" height="8">
+<div style="text-align:left" ><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr><td valign="center"><a href="http://www.claudio.de/Landing_pages/Bücher_4%23sl2012/Übersicht/de"><img alt="" src="../../lib/nget.php?uid=x&ub64=bWVkaWEvSG9tZS8ucmlnaHQvQsO8Y2hlciExNi5qcGc." /></a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+<img src="system/images/blind.gif" width="1" height="8">
+<div style="text-align:left" ><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr><td valign="center"><a href="http://www.dealunited.com/public/campaignrefi/landing/id/e0b82632c73bc0690254974a70be6de6"><img alt="" src="../../lib/nget.php?uid=x&ub64=bWVkaWEvSG9tZS8ucmlnaHQvZGVhbHVuaXRlZCExNC5qcGc." /></a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+<img src="system/images/blind.gif" width="1" height="8">
+<div style="text-align:left" ><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr><td valign="center"><a href="http://www.claudio.de/Landing_pages/Extraleben/Übersicht/de"><img alt="" src="../../lib/nget.php?uid=x&ub64=bWVkaWEvSG9tZS8ucmlnaHQvRXh0cmFsZWJlbl9Ta3lzY3JhcGVyITE4LmpwZw.." /></a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+<img src="system/images/blind.gif" width="1" height="8">
+<div style="text-align:left" ><table cellspacing="0" cellpadding="0" border="0" style="display:inline"><tr><td valign="center"><a href="http://www.buecher-magazin.de/download"><img alt="" src="../../lib/nget.php?uid=x&ub64=bWVkaWEvSG9tZS8ucmlnaHQvQsO8Y2hlcl9Ta3lzY3JhcGVyITI2LmpwZw.." /></a></td></tr><tr><td colspan="3"><img src="system/images/blind.gif" width="1" height="2"></td></tr></table><br></div>
+<img src="system/images/blind.gif" width="1" height="8"></td>
+
+</tr>
+
+</table>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="system/images/blind.gif" width="1" height="20"><br>
+
+      <table border="0" cellspacing="0" cellpadding="0" width="100%">
+      <tr>
+      <td><img src="system/images/blind.gif" width="8" height="1"></td>
+      <td bgcolor="#E8E8E8" width="100%"><img src="system/images/blind.gif" width="1" height="1"></td>
+      <td><img src="system/images/blind.gif" width="8" height="1"></td>
+      </tr>
+      <tr>
+      <td><img src="system/images/blind.gif" width="8" height="1"></td>
+      <td>
+        <img src="system/images/blind.gif" width="1" height="8"><br>
+        <table border="0" cellspacing="0" cellpadding="0" width="100%">
+         <tr>
+          <td>
+            <table border="0" cellspacing="0" cellpadding="0" class="footmenu">
+   <tr>
+  
+        
+    <td class="footmenu" nowrap="1"><a href="http://www.claudio.de/Kontakt/Übersicht/de" alt="" title="">KONTAKT</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td class="footmenu">|</td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+        
+    <td class="footmenu" nowrap="1"><a href="http://www.claudio.de/Impressum/Übersicht/de" alt="" title="">IMPRESSUM</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td class="footmenu">|</td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+                <td><![if !IE]><img src="system/images/rss_icon.png" width="14" height="14"   alt="Die neusten Hörbuch-Downloads" title="Die neusten Hörbuch-Downloads" style="position:relative;top:+1px;" /><![endif]><!--[if IE]><img src="system/images/blind.gif" width="14" height="14"   alt="Die neusten Hörbuch-Downloads" title="Die neusten Hörbuch-Downloads" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../../../content/media/system/images/rss_icon.png',sizingMethod=scale);position:relative;top:+1px;" /><![endif]--></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+    <td class="footmenu" nowrap="1"><a href="http://www.claudio.de/RSS/Übersicht/de" alt="Die neusten Hörbuch-Downloads" title="Die neusten Hörbuch-Downloads">RSS</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td class="footmenu">|</td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+        
+    <td class="footmenu" nowrap="1"><a href="http://www.claudio.de/Über_uns/Übersicht/de" alt="" title="">ÜBER UNS</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td class="footmenu">|</td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+        
+    <td class="footmenu" nowrap="1"><a href="http://www.claudio.de/AGB/Übersicht/de" alt="" title="">AGB</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td class="footmenu">|</td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+        
+    <td class="footmenu" nowrap="1"><a href="http://www.claudio.de/Datenschutz/Übersicht/de" alt="" title="">DATENSCHUTZ</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+        <td class="footmenu">|</td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+    
+        
+    <td class="footmenu" nowrap="1"><a href="http://sitemap.claudio.de" alt="" title="">SITEMAP</a></td>
+    <td><img src="system/images/blind.gif" width="3" height="1"></td>
+       </tr>
+  </table>
+            </td>
+          <td>&nbsp;</td>
+          <td style="color:#BBBBBB;font-size:8px;" nowrap="1" align="right">
+           <nobr>COPYRIGHT BY MVB GMBH 2012.</nobr><br>
+          </td>
+         </tr>
+        </table>
+        <img src="system/images/blind.gif" width="1" height="8"><br>
+      </td>
+      <td><img src="system/images/blind.gif" width="8" height="1"></td>
+      </tr>
+      <tr>
+      <td><img src="system/images/blind.gif" width="8" height="1"></td>
+      <td bgcolor="#E8E8E8" width="100%"><img src="system/images/blind.gif" width="1" height="1"></td>
+      <td><img src="system/images/blind.gif" width="8" height="1"></td>
+      </tr>
+      </table>
+      <img src="system/images/blind.gif" width="1" height="8"><br>
+
+    </td>
+  </tr>
+
+</table>
+
+
+<div id="preventer" style="cursor:wait;display:none;position:absolute;left:0;top:0;width:100%;height:100%;z-index:300;"><table width="100%" height="100%"><tr><td>&nbsp;</td></tr></table></div>
+<!-- QMONPAGEOK -->
+  <script>
+    ajax_get_url('media/../system/direct/webstats_verify.php?page_start_time='+encodeURIComponent(1339030981.36)+'&url='+encodeURIComponent('/lib/anyindex.php/Home/Startseite/de')+'&query='+encodeURIComponent(''),'dummy');
+    function dummy() {}
+  </script>
+  <!-- etracker PARAMETER 2.4 -->
+
+<script type="text/javascript">
+var et_easy     = "0";
+var et_ssl      = 1;
+var et_pagename = "claudio.de%3A+Home+-+Startseite";
+var et_areas    = "";
+var et_ilevel   = 3;
+var et_url      = "";
+</script>
+<!-- etracker PARAMETER END -->
+
+<!-- etracker URL PARAMETER 2.4 -->
+<script type="text/javascript"><!--
+var et_up=''; function et_pQ(param){var ll,fl, pV, rS; var qS=
+document.location.search; pV=""; if(qS.length>1){ qS=qS.substr
+(1);fl=qS.indexOf(param);if(fl!=-1){fl+=param.length + 1;ll=qS
+.indexOf('&',fl);if(ll== - 1 )ll = qS.length;pV = qS.substring
+(fl,ll);rS=new RegExp(" ",'g');pV=pV.replace( rS,'+' ); fl=pV.
+indexOf('=',0);pV = pV.substring( fl+1 );}}return pV;}if((tc =
+et_pQ( "et_cid" ))&&(tl=et_pQ( "et_lid" )))et_up += "&amp;et"+
+"_cid=" + tc +  "&amp;et_lid="  + tl ; if( typeof( et_sub ) !=
+"undefined" && typeof( et_sub )!="unknown")et_up += "&amp;et"+
+"_sub="+et_sub;else if( et_tmp=et_pQ( "et_sub" ))et_up += "&"+
+"amp;et_sub="+et_tmp;if( typeof( et_target ) != "undefined" &&
+typeof( et_target )!="unknown") if (tt = et_pQ("et_target") ||
+et_target!="" ){ tv = et_pQ("et_tval"); to = et_pQ("et_tonr");
+ts=et_pQ("et_tsale");}
+//--></script>
+<!-- etracker URL PARAMETER 2.4 END -->
+<!-- etracker CODE 2.4 -->
+<script type="text/javascript"><!--
+var et_server = "http://www.etracker.de";
+var et_sslserver = "https://www.etracker.de";
+var et_referer = et_server + '/app?et=', cex = '';
+var et_la = '', et_js = 1, et_pl, et_co, et_iw,  et_sh, et_sw;
+var et_sc = 'na',   et_gp = '',   lt = '<',   et_ih ,  et_up ;
+if( typeof( tt ) == "undefined" || typeof( tt ) == "unknown" )
+{var tt='';} var tv, to,  ts,  et_tmp; function et_eC( param )
+{var et_a = '', et_t = '', et_p = '', et_b='', et_s='',et; var
+et_ref=escape(document.referrer);if(et_js>=1.3){if(typeof(top.
+document)=='object')eval('try{et_ref=escape(top.document.ref'+
+'errer);}catch(e){et_ref="";}');} if(et_ref!='') et_gp+='&am'+
+'p;ref='+et_ref; et_gp +='&amp;swidth='+et_sw+'&amp;sheight='+
+et_sh+'&amp;siwidth='+et_iw+'&amp;siheight='+et_ih+'&amp;sco'+
+'okie='+et_co+'&amp;scolor='+et_sc;if(et_easy)et_gp+='&amp;e'+
+'t_easy=1'; if( et_pl!='' ) et_gp+='&amp;p='+escape(et_pl);if(
+et_areas != '' )et_gp += '&amp;et_areas='+escape(et_areas);if(
+typeof(et_target)== "undefined"||typeof(et_target)=="unknown")
+{et_target = ""; et_tval = "0";  et_tonr = "0"; et_tsale = 0;}
+et_gp+="&amp;"+"et_target="+ escape( tt.length?tt:et_target )+
+"," + ( tv?tv:et_tval ) + "," + ( to?to:et_tonr )+ ","+(ts?ts:
+et_tsale )+","+( typeof( et_cust ) == "number"?et_cust:0 );if(
+typeof( et_lpage )=='undefined' ||typeof(et_lpage)=='unknown')
+et_lpage=''; else et_gp += '&amp;et_lpage='+et_lpage;if(typeof
+(et_se) == 'undefined' || typeof(et_se)=='unknown')et_se='';if
+(et_se!='')et_gp +='&amp;et_se='+et_se;if(typeof( et_trig ) ==
+'undefined'||typeof(et_trig)=='unknown')et_trig='';if( et_trig
+!='' )et_gp+='&amp;et_trig='+et_trig;if(et_pagename!='') et_gp
++='&amp;et_pagename='+escape(et_pagename);if(typeof(et_basket)
+=='string')et_gp += '&amp;et_basket=' + escape(et_basket); if(
+typeof(et_up) == 'undefined' || typeof(et_up)=='unknown')et_up
+= ''; if( et_url ) { et_gp += '&amp;et_url=' + et_url } else {
+et=document.location.href.split('?'); et_gp += '&amp;et_url='+
+escape( et[0] );}et_gp += '&amp;slang=' +et_la; tc=new Date();
+document.write( lt + "a target='_blank' href='" +  et_referer+
+param+"'>" +lt  + "img border='0' alt='' src='" + ( et_ssl==1?
+et_sslserver:et_server) + "/cnt.php?v=2.4&amp;java=y&amp;usid=PHPSESSID=37d3b15d5d8f440ea4fc7fc5c481671e&amp;tc="+
+tc.getTime()+ "&amp;et="+param +"&amp;et_ilevel=" + et_ilevel+
+et_gp  +  et_up  +  "'/>" +lt+"/a>"  ) ; }  //--></script>
+<script type='text/javascript'>document.write(lt+'script lan'+
+'guage="JavaScript1.3"> var et_js = 1.3;' + lt + '/script>' );
+</script><script type='text/javascript'><!-- /////////////////
+et_sw = screen.width;et_sh = screen.height;et_co =( navigator.
+cookieEnabled == true ? 1:(navigator.cookieEnabled==false?2: 0
+ ));if ( navigator.language ) et_la = navigator.language; else
+ if ( navigator.userLanguage ) et_la = navigator.userLanguage;
+et_sc  =  (   (   screen.pixelDepth  )   ?   screen.pixelDepth
+: screen.colorDepth ); if ( et_js >= 1.3 ){ eval('try{et_iw='+
+'top.innerWidth;et_ih=top.innerHeight;}catch(e){et_iw=window'+
+'.innerWidth;et_ih=window.innerHeight;}');}if(typeof(et_iw) ==
+'undefined'){eval('if(document.documentElement&&document.doc'+
+'umentElement.clientHeight){et_iw=document.documentElement.c'+
+'lientWidth;et_ih=document.documentElement.clientHeight;}els'+
+'e if(document.body){et_iw = document.body.clientWidth; et_i'+
+'h = document.body.clientHeight; }' ) ; } //--></script>
+<script type='text/javascript'> et_eC( 'm9gfoE' );</script>
+
+<!-- etracker CODE NOSCRIPT -->
+<noscript>
+<p><a href='http://www.etracker.de/app?et=m9gfoE'>
+<img style='border:0px;' alt='' src='https://www.etracker.de/cnt.php?
+et=m9gfoE&amp;v=2.4&amp;java=n&amp;et_easy=1
+&amp;et_pagename=
+&amp;et_areas=&amp;et_ilevel=3&amp;et_target=,,,0
+&amp;et_lpage=&amp;et_trig=&amp;et_se=0&amp;et_cust=0
+&amp;et_basket=&amp;et_url='/></a></p>
+</noscript>
+<!-- etracker CODE END -->
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+try {
+_uacct = "UA-8751840-1";
+urchinTracker();
+} catch(err) {}</script>
+
+</body>
+</html>

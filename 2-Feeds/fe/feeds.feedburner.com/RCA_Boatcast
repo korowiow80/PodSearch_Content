@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Download YouTube Videos and Convert YouTube to MP3</title>
+<meta property="og:title" content="Freecorder - Download YouTube Video, and Convert YouTube to MP3 - FREE" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="http://vixy.net/" />
+<meta property="og:image" content="http://applian-images.s3.amazonaws.com/images/boxes/FC5-160.jpg" />
+<meta property="og:site_name" content="Freecorder" />
+<meta property="fb:admins" content="572521221" />
+<meta name="description" content="Download YouTube videos, and convert YouTube to MP3. It's free with Vixy Freecorder.  Record from Facebook, Dailymotion, Vimeo, Metacafe and much more - only with Vixy Freecorder." />
+<meta name="keywords" content="download YouTube videos, download YouTube, convert YouTube to MP3, download videos"> 
+
+<link media="all" rel="stylesheet" type="text/css" href="/video_img/all.css" />
+<script type="text/javascript" src="/t3/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="/t3/js/jquery.main.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19613410-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	
+
+<script type="text/javascript">
+function get_download_count()
+{
+
+var xmlhttp;    
+
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("counter").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("POST","/ajax/get_fc_downloads.php",true);
+xmlhttp.send();
+}
+
+get_download_count() ;
+syncTimer = setInterval(get_download_count, 2000);
+
+
+</script>
+
+</head>
+<body>
+<div id="wrapper" class="inner">
+		<div id="header">
+			<h1 class="logo">Download YouTube Videos: YouTube to MP3 Converter</h1>
+			<p class="social">
+				 <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fvixy.net&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+			 
+			</p>
+		</div>
+		<div id="main">
+			<div class="visual">
+				<div class="holder">
+					<div class="frame">
+						<div class="image">
+							<a class="has-popup ajax" rel="#popup-1" href="/t3/inc/lightbox.php?src=vixy.net"><img src="/video_img/download_video.png" width="433" height="307" alt="How to Download YouTube Videos and Convert YouTube to MP3" /></a>
+						</div>
+						<div class="visual-info">
+							<h2>Download Videos from YouTube, Convert YouTube to MP3, and more. </h2> 
+                            <h2><div id="counter"></div></h2>
+							<p>Vixy Freecorder adds a powerful video downloader, MP3 audio recorder and video/MP3 converter to your browser. Works with YouTube and thousands of other sites. Get it now for free. </p>
+							<div class="btns">
+								<span class="text-free">its free!</span>
+								<a href="http://applian.com/download_file.php?src=vixy.net&file=FCTBSetup.exe" class="download"><div class="dl">DOWNLOAD FREE</div></a></div>
+                               
+                                
+						</div>
+					</div>
+				</div>
+				<div class="ad">
+				  <div class="ad-holder">
+                    <div class="ad-frame"> <span class="ad-text">Download and convert videos from YouTube and more</span>
+                        <ul>
+                          <li><a href="http://youtube.com" rel="nofollow"><img src="/video_img/download-youtube-videos.gif" width="77" height="37" alt="Download YouTube Videos" /></a></li>
+                          <li><a href="http://facebook.com" rel="nofollow"><img src="/video_img/download-facebook-videos.gif" width="98" height="37" alt="Download Facebook Videos" /></a></li>
+                          <li><a href="http://dailymotion.com" rel="nofollow"><img src="/video_img/download-dailymotion-videos.gif" width="156" height="37" alt="Download DailyMotion" /></a></li>
+                          <li><a href="http://vimeo.com" rel="nofollow"><img src="/video_img/download-vimeo-videos.gif" width="92" height="37" alt="Download Videos from Vimeo" /></a></li>
+                          <li><a href="http://metacafe.com" rel="nofollow"><img src="/video_img/download-metacafe-videos.gif" width="114" height="37" alt="Download Videos from Metacafe" /></a></li>
+                        </ul>
+                    </div>
+			      </div>
+				</div>
+			</div>
+			<div class="main-content">
+              <div class="main-holder">
+                <div class="main-frame">
+                  <div id="content">
+                    <h3>Download YouTube Videos and Convert YouTube to MP3 - with ease!</h3>
+                    <div class="items">
+                      <ul class="items-list">
+                        <li>
+                          <div class="icon"> <img src="/video_img/download-videos-instantly.gif" width="60" height="47" alt="Download YouTube videos instantly" /> </div>
+                          <div class="item-text">
+                            <p><strong>Download YouTube Videos fast</strong> using smart caching technology</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="icon"> <img src="/video_img/audio-recorder.gif" width="60" height="50" alt="Free Audio Recorder" /> </div>
+                          <div class="item-text">
+                            <p><strong>Record Audio</strong> from ANY site to MP3.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="icon"> <img src="/video_img/save-youtube-video.gif" width="60" height="56" alt="Save YouTube Video to MP3" /> </div>
+                          <div class="item-text">
+                            <p><strong>Customizable:</strong> Add thousands of bonus apps to Freecorder.</p>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul class="items-list">
+                        <li>
+                          <div class="icon"> <img src="/video_img/video-converter.gif" width="60" height="56" alt="Convert Videos" /> </div>
+                          <div class="item-text">
+                            <p><strong>Convert Videos to MP3</strong>, AVI. WMV, MPEG-4, MP3 and more.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="icon"> <img src="/video_img/video-downloader.gif" width="60" height="56" alt="Video Downloader for Firefox and Internet Explorer" /> </div>
+                          <div class="item-text">
+                            <p><strong>Convenient:</strong> Save Videos from inside your Browser.</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="icon"> <img src="/video_img/free-video-downloader.gif" width="60" height="45" alt="Free Video Downloader" /> </div>
+                          <div class="item-text">
+                            <p><strong>100% Free</strong>. No Registration Required.</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div align="left"></div>
+                  <div id="sidebar">
+                    <div class="testimonials">
+                      <div class="testimonials-holder">
+                        <blockquote> <q>I tried Vixy Freecorder with Windows 7 and it works so well and smoothly for downloading my YouTube videos or turning YouTube videos into MP3 files. It is really amazing. Please deliver my compliments to the team. </q> <cite>-Izi (Jerusalem)</cite> </blockquote>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+		  </div>
+			<div class="promo">
+				<div class="promo-holder">
+				  <div class="promo-frame"> <a href="http://applian.com/download_file.php?src=vixy.net&file=FCTBSetup.exe" class="btn"><div class="dl">DOWNLOAD NOW</div></a>
+                      <div class="promo-text"> <a href="http://applian.com/download_file.php?src=vixy.net&file=FCTBSetup.exe"><div class="dl"><img src="/video_img/download-youtube.png" alt="Download YouTube videos and convert YouTube to MP3 right inside your browser." width="296" height="29" border="0" /></div></a>
+                          <p align="left"><br />
+                            Vixy Freecorder is small and powerful, running quietly inside Internet Explorer or Firefox  on any PC with Windows 7, Vista or XP. Try it now! </p>
+                    </div>
+			      </div>
+				</div>
+			</div>
+<script language="javascript"> 
+	function show_hidden() {
+		var ele = document.getElementById("hidden_stuff");
+		ele.style.display = "block" ;
+	} 
+</script>              
+			<p>Vixy Freecorder is the only YouTube Video Downloader and YouTube to MP3 Converter that can 
+		capture video from thousands of web sites, and record MP3 audio from ANY site. It's completely free, and you can uninstall it at any time. <div class="dl"><a href="javascript:show_hidden();">Learn more about downloading and converting YouTube to MP3 today!</a></div></p>
+ <div id="hidden_stuff" style="display: none">
+ Are you looking to <b>Download Youtube Videos</b> and Covert <i>Youtube to MP3</i>?  Look no further, Vixy Freecorder allows you to download youtube videos with ease, and convert videos and youtube to mp3, AVI, WMV, MPEG-4, MP4 as well as many other popular formats.
+<br />
+<br />
+
+We're proud to offer this new feature this year: Vixy Freecorder now features a 'one touch' youtube button, simply click on the youtube icon within the program, and you'll be able to <i>download youtube videos</i> directly from your browser in a matter of seconds, not minutes or hours!  Are you looking to convert <b>youtube to mp3</b> instead? That's no problem!  Using Vixy Freecorders patented technology, you'll be downloading and converting youtube videos with ease in no time - and did we remember to mention it's 100% free?!
+<br />
+<br />
+
+<h2>Convert youtube to mp3 and more with a built in converter!</h2>
+
+Great news - Vixy Freecorder not only SAVES your files, but it even includes an easy to use convert function that lets you transcode your audio and video files to other formats!  This works great if you're looking to convert youtube to mp3, or any other audio or video format it supports! Simply click on the 'convert' button and you'll be prompted with proper instructions from there!
+<br />
+<br />
+
+Another cool feature that we're proud of is our 'Record Audio Tool'.  This feature allows you to use Vixy Freecorder just like a tape recorder!  If you're listening to something on your computer, you're now able to capture it in real time as you listen!  These files play back easily via any MP3 player, and can just as easily be transferred to your ipod,iphone, ipad or any compatible mp3 player.
+<br />
+<br />
+
+It's SUPER easy to get started, simply <a title="Download Vixy Freecorder" href="http://applian.com/download_file.php?src=vixy.net&file=FCTBSetup.exe">Click Here</a> to download vixy freecorder, and you'll be recording videos from the likes of Facebook, DailyMotion, Vimeo, Metacafe, youtube and many MANY more!
+<br />
+<br />
+
+ </div>
+ 
+</div>
+		<div id="footer"><br /> 
+		  <span class="copy">Note: This web site is not intended for making illegal copies of copyrighted content. <br />
+		  Please respect the rights of the content owners when recording.<br />
+		  Freecorder is not affiliated with any companies or web sites mentioned on this page.. <br />
+		  © Copyright 2012 Applian Technologies Inc. - All Rights Reserved<br />
+  <br />
+		  Includes <a href="http://applian.com/flvplayer">FLV Player</a>: by Applian Technologies Inc. - the best free video player to use for <a href="http://applian.com/flvplayer">File Extension FLV</a>.<br />
+		  That being said, Vixy Freecorder is the best way to <a href="http://vixy.net">download YouTube videos</a> and converting <a href="http://vixy.net">YouTube to MP3</a><br />
+		  <br />Tutorial: Watch this video on how to <a href="http://www.youtube.com/watch?v=vgFTmZx5aT0" target="_blank">download YouTube videos</a>.<br />
+<a href="http://vixy.net"></a></span>
+            <ul class="social">
+              <li><a href="http://www.facebook.com/pages/Freecorder-Download-Video-Record-MP3-Audio-and-Convert-Media-Files-FREE/186781851358124" target="_blank"><img src="t3/images/icon-faceook.gif" alt="faceook" width="30" height="30" border="0" /></a></li>
+              <li><a href="http://twitter.com/applian"><img src="t3/images/icon-twitter.gif" alt="twitter" width="30" height="30" border="0" /></a></li>
+              
+            </ul>
+  </div>
+	</div>
+	<div id="popup-1" class="lightbox">
+		<a href="#" class="close">close</a>
+		<div class="holder"></div>
+	</div>
+<script type="text/javascript">
+adroll_adv_id = "LSN522WL7NCG3EUQHEOUHY";
+adroll_pix_id = "BUSR37ZQTNG57B6AH66HIW";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+    
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>	
+<link type="text/css" rel="stylesheet" href="fb-traffic-pop.css">
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+<script type="text/javascript" src="fb-traffic-pop.js"></script>
+<script>
+    $(".dl").click(function() {
+		$().facebookTrafficPop({
+			timeout:0,
+			delay:5,
+			title: "Vixy Freecorder",
+			message: 'Support Free Software! Help us spread the word on Facebook.<br>Please click <b>Like</b> now.',
+			url: "http://vixy.net",
+			showfaces : true,
+			closeable: true
+		});
+    });
+</script>
+
+</body>
+</html>

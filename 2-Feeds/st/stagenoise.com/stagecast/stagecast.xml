@@ -1,0 +1,69 @@
+<? header('Content-type: text/xml;charset=utf-8');
+
+echo '<?xml version="1.0" encoding="UTF-8"?>';?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+
+<title>StageCast</title>
+<description>A podcast to keep you up to date with everything that is going on in the
+Australian theatrical scene with interviews, live performances, news and reviews. Brought to you by Stagenoise.com</description>
+<link>http://www.stagenoise.com/stagecast</link>
+<language>en-us</language>
+<copyright>Copyright 2008</copyright>
+<webMaster>info@stagenoise.com</webMaster>
+
+<itunes:author>Stagenoise.com</itunes:author>
+<itunes:subtitle>Stagecast, bringing you the best coverage of the Australian theatre and arts scene!</itunes:subtitle>
+<itunes:summary>If you want to stay up to date with everything that is happening in the Australian theatre and arts scene then Stagecast is the podcast for you. It contains all of the latest news, interviews, reviews and a whole lot more! </itunes:summary>
+
+<itunes:owner>
+<itunes:name>Stagenoise.com</itunes:name>
+<itunes:email>info@stagenoise.com</itunes:email>
+</itunes:owner>
+
+<itunes:explicit>No</itunes:explicit>
+
+<itunes:image href="http://www.stagenoise.com/stagecast/stagecastlogo.jpg"/>
+   
+<itunes:category text="Arts">
+     <itunes:category text="Performing Arts"/>
+</itunes:category>
+
+
+<?
+include '../connect.php';
+$q="SELECT id, title, link, duration, filesize, teaser, guests, UNIX_TIMESTAMP(date) AS date
+FROM stagecast ORDER BY date DESC, id DESC";
+$doGet = mysql_query($q) or die('Error : ' . mysql_error());
+
+include '../asciifunction.php';
+
+while($result = mysql_fetch_array($doGet)){
+
+
+$guests = utf8_encode($result['guests']);
+
+?>
+
+<item>
+<title><?php echo $result['title'];?></title>
+<link>http://www.stagenoise.com/stagecast/episode.php?id=<?php echo $result['id'];?></link>
+<description><?php echo $result['teaser'];?></description>
+<itunes:author>Stage Noise</itunes:author>
+<itunes:subtitle><?php echo $result['teaser'];?></itunes:subtitle>
+<itunes:summary><?php echo $result['teaser'];?></itunes:summary>
+<enclosure url="http://www.stagenoise.com/stagecast/<?php echo $result['link'];?>" length="<?php echo filesize("../../stagecast/".$result['link']."");?>" type="audio/mpeg" />
+<guid>http://www.stagenoise.com/<?php echo $result['link'];?></guid>
+<pubDate><?=strftime( "%a, %d %b %Y %T %Z" , $result['date']); ?></pubDate>
+<itunes:duration><?php echo $result['duration'];?></itunes:duration>
+<itunes:keywords>Stage Noise, StageCast, Stagecsat, stagceast, Stage noise podcast, theater podcast, theatre, Diana Simmonds, <?php echo all_ascii($guests);?>, interviews</itunes:keywords>
+</item>
+
+<? } ?> 
+
+
+
+</channel>
+
+</rss>

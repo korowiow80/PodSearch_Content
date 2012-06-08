@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ubuntublog.ch &#187; Podcast</title>
+	<atom:link href="http://ubuntublog.ch/category/podcast/feed" rel="self" type="application/rss+xml" />
+	<link>http://ubuntublog.ch</link>
+	<description>Debian und Ubuntu beobachtet</description>
+	<lastBuildDate>Wed, 23 May 2012 22:35:45 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.4</generator>
+		<item>
+		<title>Video erstellen mit Ubuntu</title>
+		<link>http://ubuntublog.ch/allgemein/video-erstellen-mit-ubuntu</link>
+		<comments>http://ubuntublog.ch/allgemein/video-erstellen-mit-ubuntu#comments</comments>
+		<pubDate>Tue, 07 Dec 2010 12:30:29 +0000</pubDate>
+		<dc:creator>Gregor Fröhlich</dc:creator>
+				<category><![CDATA[Allgemein]]></category>
+		<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=10320</guid>
+		<description><![CDATA[Schon immer wollte ich eigene Videos mit Ubuntu erstellen und habe jetzt einen Weg dazu gefunden. Ein &#228;lterer Artikel von Roman hat mich inspiriert, meine Bastelt&#228;tigkeit ein wenig zu f&#246;rdern. Auf den Seiten von Cubecraft gibt es Bastelb&#246;gen mit denen man sich bekannte Comic-Figuren aus Papier basteln kann. Runterladen, ausdrucken, ausschneiden und zusammen-stecken und schon [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.youtube.com/watch?v=nBaxogx4nis" target="_blank" class="liimagelink"><img class="alignnone size-full wp-image-10322" src="http://ubuntublog.ch/wp-content/uploads/2010/12/media_00.png" alt="" width="520" /></a></p>
+<p>Schon immer wollte ich eigene Videos mit Ubuntu erstellen und habe jetzt einen Weg dazu gefunden.</p>
+<p>Ein &#228;lterer Artikel von Roman hat mich inspiriert, meine Bastelt&#228;tigkeit ein wenig zu f&#246;rdern. Auf den Seiten von Cubecraft gibt es Bastelb&#246;gen mit denen man sich bekannte Comic-Figuren aus Papier basteln kann. Runterladen, ausdrucken, ausschneiden und zusammen-stecken und schon hat man eine lustige Spielfigur. Leider hat sich das Ausschneiden ein wenig verz&#246;gert, denn das braucht doch recht viel Zeit.</p>
+<p>Als n&#228;chsten stand dann die Idee, die Figur zu digitalisieren. Zuerst dachte ich nur an eine lose Reihenfolge von Bildern die man zusammen setzt und so z.B. eine GIF Animation erstellen kann. Ist aber eher langweilig und so hatte ich micht entschieden einen Film zu machen.</p>
+<h4>Voraussetzung</h4>
+<ul>
+<li>Einen tollen Darsteller (in meinem Fall Gangster-Hans)</li>
+<li>Eine Aufnahme-Umgebung (Drehteller mit CD, ein Tuch als Hintergrund und etwas Licht von der B&#252;rolampe)</li>
+<li>Ubuntu 10.10 (oder so) mit Cheese, Desktop Recorder, Pitivi, einen Videoconverter und eine Webpr&#228;senz</li>
+</ul>
+<p><a href="http://ubuntublog.ch/wp-content/uploads/2010/12/media_01.png" class="liimagelink"><img class="alignnone size-full wp-image-10334" src="http://ubuntublog.ch/wp-content/uploads/2010/12/media_01.png" alt="" width="520" /></a></p>
+<h4>Die Aufnahme</h4>
+<p>Nachdem der Gangster-Hans richtig ins Bild geruckt war, startete ich <a href="http://wiki.ubuntuusers.de/Cheese" target="_blank" class="liexternal">Cheese</a> und richtete meine Webcam auf Gangster-Hans. Nun startete ich eine Videoaufnahme und wurde schon bald ent&#228;uscht. Mit Chesse ruckelte alles ein wenig und zu Schluss war das Video unbrauchbar. So musste ich eine andere Applikation zur Hand nehmen. F&#252;r diesen Fall habe ich den <a href="http://wiki.ubuntuusers.de/recordMyDesktop" target="_blank" class="liexternal">Desktop Recorder</a> genommen und einfach den Inhalt von Cheese aufgenommen. Geht auch, f&#252;hlt sich schon fast an wie auf dem Filmset. Ich habe dann den Gangster-Hans ein wenig tanzen und sich bewegen lassen und so etwa 50 Sekunden aufgenommen. Das ganze Video wurde dann im <a href="http://de.wikipedia.org/wiki/Ogv" target="_blank" rel="nofollow" class="liwikipedia">OGV Format</a> abgespeichert.</p>
+<h4>Der Schnitt</h4>
+<p>Als n&#228;chstes musste ich einen Videoschnitt erstellen. Ich kenne mich ehrlich gesagt mit Videoschneiden gar nicht aus und hatte mich nun mit der Applikation <a href="http://wiki.ubuntuusers.de/PiTiVi" target="_blank" class="liexternal">Pitivi</a> zu gute getan. Das Programm ist einfach zu bedienen und man kann Videos wie Audios importieren. In einer Art Zeitschiene stellt man dann das Video an den Anfang. Beim Audio hatte ich eigentlich noch keine Ahnung was man im Video h&#246;ren sollte. Ich bin dann zum AT&amp;T Labs Natural Voices® gegangen und hab mal versucht eine Art Konversation mit der <a href="http://www.research.att.com/projects/Natural_Voices/index.html" target="_blank" class="liexternal">Text-to-Speech</a> Technik und der Stimme von Reiner zu gestalten. Das funktionierte eigentlich sehr gut. Leider ist in der Demoversion die L&#228;nge des Textes beschr&#228;nkt und ich musste die 50 Sekunden in verschiedene Abschnitte unterteilen. Das Ergebnis waren 3 <a href="http://de.wikipedia.org/wiki/Wav" target="_blank" rel="nofollow" class="liwikipedia">WAV Dateien</a> die ich dann per Download zu meinem Projekt herunter laden konnte. Diese WAV Dateien habe ich dann in <a href="http://www.audacity.de/" target="_blank" class="liexternal">Audacity</a> zusammen gesetzt, die Spielzeit gestreckt und die Tonlage ein wenig herunter genommen, damit der Gangster-Hans auch ein wenig gef&#228;hrlicher wirkt. Die daraus resultierende Datei habe ich dann als mp3 exportiert und dem Pitivi hinzugef&#252;gt. Damit das ganze auch noch ein wenig Gef&#252;hl bekommt, habe ich eine startende Harley und einen tollen Pistolenschuss im WAV Format am Anfang des Videos hinzugef&#252;gt. Nachdem nun alles passte, hatte ich das Video mittels der Funktion Projekt erstellen, im Pitivi in eine OGV Datei konvertiert. Fertig !</p>
+<h4>Das Abspielen</h4>
+<p>Um das Video abspielen zu k&#246;nnen braucht es eigentlich nur einen Video Player, z.B. Totem. Das geht sehr gut und Totem kennt auch das OGV Format. Ich wollte mein Video aber nicht nur f&#252;r mich brauchen, sondern der grossen weiten Welt zur Verf&#252;gung stellen. Zum einen habe ich das Video auf meinem Webserver im OGV und im MP4 Format hochgeladen, und zum anderen bei Youtube eigestellt. Wie man mit Youtube zusammen arbeitet beschreibe ich hier nicht im Detail. Wer einen Google Account hat, der kann sich das selber einmal durchspielen. Leider hatte Youtube Probleme mit dem OGV Format, so dass ich das OGV mit <a href="http://wiki.ubuntuusers.de/traGtor" target="_blank" class="liexternal">traGtor</a> in eine MP4 umwandeln musste. Na ja, hat nicht sehr lange gedauert und Youtube war zufrieden.</p>
+<h4>Fazit</h4>
+<h3>Mit wenig Aufwand und nur mit meinem Ubuntu 10.10 Desktop Computer lassen sich einfach und schnell Videos f&#252;r das Web, z.B. Youtube erstellen. Ich werde mal weiter die Cubecraft Figuren basteln, und wer weiss vielleicht entstehen daraus noch ganz witzige Geschichten</h3>
+<ul>
+<li><a href="http://www.froeh.li/cubecraft/video/gangster-hans.ogv" class="liexternal">Video im OGV Format</a></li>
+<li><a href="http://www.froeh.li/cubecraft/video/gangster-hans.mp4" class="liexternal">Video im MP4 Format</a></li>
+<li><a href="http://www.youtube.com/watch?v=nBaxogx4nis" target="_blank" class="liexternal">Video bei Youtube</a></li>
+</ul>
+<p>Podcast h&#246;ren</p>
+<p><a href="http://ubuntublog.ch/_files/Video_erstellen_mit_Ubuntu.mp3" class="liinternal">Audio-Datei herunterladen (Video_erstellen_mit_Ubuntu.mp3)</a></p>
+<p>oder im <a href="http://ubuntublog.ch/_files/Video_erstellen_mit_Ubuntu.ogg" class="liinternal">OGG</a>, <a href="http://ubuntublog.ch/_files/Video_erstellen_mit_Ubuntu.mp3" class="liinternal">MP3</a> Format downloaden</p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=10320">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>Keine ähnlichen Artikel vorhanden</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/allgemein/video-erstellen-mit-ubuntu/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+<enclosure url="http://www.froeh.li/cubecraft/video/gangster-hans.ogv" length="6688458" type="video/ogg" />
+<enclosure url="http://www.froeh.li/cubecraft/video/gangster-hans.mp4" length="2160002" type="video/mp4" />
+<enclosure url="http://ubuntublog.ch/_files/Video_erstellen_mit_Ubuntu.mp3" length="4178002" type="audio/mpeg" />
+<enclosure url="http://ubuntublog.ch/_files/Video_erstellen_mit_Ubuntu.ogg" length="2881033" type="audio/ogg" />
+		</item>
+		<item>
+		<title>ubuntublog.ch mit Podcast</title>
+		<link>http://ubuntublog.ch/allgemein/ubuntublog-ch-mit-podcast</link>
+		<comments>http://ubuntublog.ch/allgemein/ubuntublog-ch-mit-podcast#comments</comments>
+		<pubDate>Wed, 01 Dec 2010 19:09:50 +0000</pubDate>
+		<dc:creator>Gregor Fröhlich</dc:creator>
+				<category><![CDATA[Allgemein]]></category>
+		<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Kurz notiert]]></category>
+		<category><![CDATA[Podcast]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=10277</guid>
+		<description><![CDATA[Nun ist es vollbracht, unser Podcast ist Online. Ab sofort werden alle Blogartikel als Podcast zum anh&#246;ren und herunterladen angeboten. Jeden Monat produzieren wir eine moderierte Sendung mit freier Musik. Audio-Datei herunterladen (ubuntublog_podcast_2010_11.mp3) oder ohne Flash als MP3 Download F&#252;r die Produktion benutzen wir folgende Hard und Software: Hardware OEM PC mit Ubuntu 10.10 Desktop Version [...]]]></description>
+			<content:encoded><![CDATA[<p>Nun ist es vollbracht, unser Podcast ist Online. Ab sofort werden alle Blogartikel als Podcast zum anh&#246;ren und herunterladen angeboten. Jeden Monat produzieren wir eine moderierte Sendung mit freier Musik.</p>
+<p><a href="http://ubuntublog.ch/wp-content/uploads/2010/12/podcast.png" class="liimagelink"><img class="alignnone size-full wp-image-10279" src="http://ubuntublog.ch/wp-content/uploads/2010/12/podcast.png" alt="" width="520" /></a></p>
+<p><a href="http://ubuntublog.ch/_files/ubuntublog_podcast_2010_11.mp3" class="liinternal">Audio-Datei herunterladen (ubuntublog_podcast_2010_11.mp3)</a></p>
+<p>oder ohne Flash als <a href="http://ubuntublog.ch/_files/ubuntublog_podcast_2010_11.mp3" target="_self" class="liinternal">MP3 Download</a></p>
+<p>F&#252;r die Produktion benutzen wir folgende Hard und Software:</p>
+<p><strong>Hardware</strong></p>
+<ul>
+<li>OEM PC mit <a href="http://www.ubuntu.com/desktop" target="_blank" class="liexternal">Ubuntu 10.10 </a>Desktop Version</li>
+<li>Logitech <a href="http://www.logitech.com/en-us/webcam-communications/internet-headsets-phones/devices/3622" target="_blank" class="liexternal">Clear Chat Headset</a></li>
+<li><a href="http://www.zoom.co.jp/english/products/h1/" target="_blank" class="liexternal">Zoom H1</a> AudioRecorder</li>
+</ul>
+<p><strong>Software</strong></p>
+<ul>
+<li><a href="http://audacity.sourceforge.net/" target="_blank" class="liexternal">Audacity</a> Aufnahme und Schnittprogramm</li>
+<li>AT&amp;T Labs Natural Voices® <a href="http://www.research.att.com/projects/Natural_Voices/index.html" target="_blank" class="liexternal">Text-to-Speech</a></li>
+</ul>
+<p><strong>Musik</strong></p>
+<ul>
+<li>Freie Musik von der Musikplattform <a href="http://www.jamendo.com" target="_blank" class="liexternal">jamendo.com</a></li>
+</ul>
+<p><a href="http://ubuntublog.ch/wp-content/uploads/2010/12/jamendo.png" class="liimagelink"><img class="alignnone size-full wp-image-10285" src="http://ubuntublog.ch/wp-content/uploads/2010/12/jamendo.png" alt="" width="520" /></a></p>
+<p>Wir w&#252;nschen Euch viel Spass und Freude mit unseren Podcast.</p>
+<p>Podcast <strong>2010_11</strong></p>
+<p><a href="http://ubuntublog.ch/_files/ubuntublog_podcast_2010_11.mp3" class="liinternal">Audio-Datei herunterladen (ubuntublog_podcast_2010_11.mp3)</a></p>
+<p>oder ohne Flash als <a href="http://ubuntublog.ch/_files/ubuntublog_podcast_2010_11.mp3" target="_self" class="liinternal">MP3 Download</a></p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=10277">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>Keine ähnlichen Artikel vorhanden</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/allgemein/ubuntublog-ch-mit-podcast/feed</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/ubuntublog_podcast_2010_11.mp3" length="173749913" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Ubuntu Wochenr&#252;ckblick in Schweizerdeutsch</title>
+		<link>http://ubuntublog.ch/applikationen/ubuntu-wochenrueckblick-in-schweizerdeutsch</link>
+		<comments>http://ubuntublog.ch/applikationen/ubuntu-wochenrueckblick-in-schweizerdeutsch#comments</comments>
+		<pubDate>Thu, 25 Mar 2010 06:15:52 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[danke]]></category>
+		<category><![CDATA[Geste]]></category>
+		<category><![CDATA[RadioTux]]></category>
+		<category><![CDATA[Rückblick]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[UWR]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=7879</guid>
+		<description><![CDATA[Als kleine Geste zu meinem Einstieg bei Ikhaya auf ubuntuusers.de m&#246;chte ich hier gerne etwas Leichtes beisteuern. Ich darf ja jede Woche den Ubuntu Wochenr&#252;ckblick f&#252;r RadioTux sprechen und so spreche ich den einmal ganz speziell f&#252;r die Eidgenossen hier auf Schweizerdeutsch. Ich verstehe diese Aktion als einmalige Schandtat und werde sie wohl nicht so [...]]]></description>
+			<content:encoded><![CDATA[<p>Als kleine Geste zu meinem Einstieg bei <a href="http://ikhaya.ubuntuusers.de/" class="liexternal">Ikhaya</a> auf <a href="http://ubuntuusers.de" class="liexternal">ubuntuusers.de</a> m&#246;chte ich hier gerne etwas Leichtes beisteuern. Ich darf ja jede Woche den Ubuntu Wochenr&#252;ckblick f&#252;r <a href="http://radiotux.de" class="liexternal">RadioTux</a> sprechen und so spreche ich den einmal ganz speziell f&#252;r die Eidgenossen hier auf <a href="http://de.wikipedia.org/wiki/Schweizerdeutsch" rel="nofollow" class="liwikipedia">Schweizerdeutsch</a>. Ich verstehe diese Aktion als einmalige Schandtat und werde sie wohl nicht so schnell wiederholen. Dazu nutze ich einen etwas anderen Jingle als der bei RadioTux. Aus dem Album The Dead Rocks und den Jungs von der <a href="http://www.jamendo.com/en/album/31777" class="liexternal">One Million Dollar Surf Band</a> setze ich das St&#252;ck EasyJob ein. Gerade weil es f&#252;r mich sehr leicht ist, in meiner Muttersprache zu reden, handelt es sich dabei tats&#228;chlich um ein &#8220;Easy Job&#8221;. Ganz im Gegensatz zu den Jungs, welche den Wochenr&#252;ckblick zusammenstellen. Der Musiktipp stammt &#252;brigens vom <a href="http://karl-tux-stadt.de/ktuxs/" class="liexternal">B&#252;rgermeister</a>.</p>
+<p><a href="http://www.jamendo.com/en/album/31777" class="liimagelink"><img src="http://ubuntublog.ch/wp-content/uploads/2010/03/band.jpg" alt="" title="One Million Dollar Band" width="480" height="475" class="alignnone size-full wp-image-7883" /></a></p>
+<p>Am Schluss des R&#252;ckblicks habe ich das ganze St&#252;ck angeh&#228;ngt, es l&#228;sst sich aber auch <a href="http://www.jamendo.com/en/album/31777" class="liexternal">hier herunterladen</a>. </p>
+<p><a href="http://ubuntublog.ch/_files/uuwr.mp3" class="liinternal">Audio-Datei herunterladen (uuwr.mp3)</a></p>
+<p>MP3 10.5 MB 11:01 Minuten <a href="http://ubuntublog.ch/_files/uuwr.mp3" class="liinternal">Download</a></p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=7879">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>21. Dezember 2010 -- <a href="http://ubuntublog.ch/allgemein/der-ubuntu-wochenrueckblick-stirbt-noch-einmal" title="Der Ubuntu-Wochenrückblick stirbt noch einmal">Der Ubuntu-Wochenrückblick stirbt noch einmal</a> (20)</li><li>12. Mai 2011 -- <a href="http://ubuntublog.ch/allgemein/radiotux-am-linuxtag-zu-berlin" title="RadioTux am LinuxTag zu Berlin">RadioTux am LinuxTag zu Berlin</a> (1)</li><li>4. Januar 2011 -- <a href="http://ubuntublog.ch/allgemein/der-ubuntu-wochenrueckblick-ist-erneut-auferstanden" title="Der Ubuntu-Wochenrückblick ist erneut auferstanden">Der Ubuntu-Wochenrückblick ist erneut auferstanden</a> (9)</li><li>12. Oktober 2010 -- <a href="http://ubuntublog.ch/applikationen/push-to-talk-mit-mumble" title="Push-To-Talk mit Mumble">Push-To-Talk mit Mumble</a> (10)</li><li>21. April 2010 -- <a href="http://ubuntublog.ch/allgemein/ein-jahr-ubuntu-weekly-news-auf-radiotux" title="Ein Jahr Ubuntu Weekly-News auf RadioTux">Ein Jahr Ubuntu Weekly-News auf RadioTux</a> (1)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/applikationen/ubuntu-wochenrueckblick-in-schweizerdeutsch/feed</wfw:commentRss>
+		<slash:comments>37</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/uuwr.mp3" length="10581607" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Unerwartetes Geschenk aus dem Norden</title>
+		<link>http://ubuntublog.ch/podcast/unerwartetes-geschenk-aus-dem-norden</link>
+		<comments>http://ubuntublog.ch/podcast/unerwartetes-geschenk-aus-dem-norden#comments</comments>
+		<pubDate>Sun, 27 Dec 2009 18:03:19 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Kurz notiert]]></category>
+		<category><![CDATA[Planet]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Freunde]]></category>
+		<category><![CDATA[Gemeinschaft]]></category>
+		<category><![CDATA[Geschnek]]></category>
+		<category><![CDATA[Ikhaya]]></category>
+		<category><![CDATA[Support]]></category>
+		<category><![CDATA[Team]]></category>
+		<category><![CDATA[ubuntuusers.de]]></category>
+		<category><![CDATA[Weihnachten]]></category>
+		<category><![CDATA[Wiki]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=6300</guid>
+		<description><![CDATA[Ganz unerwartet komme ich in den Genuss einer Erw&#228;hnung auf Ikhaya von ubuntuusers.de. Der Verlag Galileo stellte dem Verlag einige B&#252;cher zur freien Verf&#252;gung bereit und die Jungs von ubuntuusers.de beschenkten damit einige Menschen, die stellvertretend f&#252;r die ganze Gemeinschaft genannt werden. Ich habe dazu einige Gedanken lautsprachlich festgehalten: Audio-Datei herunterladen (ikhaya.mp3) Audio-Datei herunterladen (mp3, [...]]]></description>
+			<content:encoded><![CDATA[<p>Ganz unerwartet komme ich in den Genuss einer Erw&#228;hnung auf <a href="http://ikhaya.ubuntuusers.de" class="liexternal">Ikhaya</a> von <a href="http://ubuntuusers.de" class="liexternal">ubuntuusers.de</a>. Der Verlag <a href="http://www.galileo-press.de/" class="liexternal">Galileo</a> stellte dem Verlag einige B&#252;cher zur freien Verf&#252;gung bereit und die Jungs von ubuntuusers.de <a href="http://ikhaya.ubuntuusers.de/2009/12/24/weihnachtsgeschenke-vom-team-an-fleissige-benutzer/" class="liexternal">beschenkten</a> damit einige Menschen, die stellvertretend f&#252;r die ganze Gemeinschaft genannt werden. Ich habe dazu einige Gedanken lautsprachlich festgehalten:</p>
+<p><a href="http://ubuntublog.ch/_files/ikhaya.mp3" class="liinternal">Audio-Datei herunterladen (ikhaya.mp3)</a></p>
+<p>Audio-Datei <a href="http://ubuntublog.ch/_files/ikhaya.mp3" class="liinternal">herunterladen</a> (mp3, 3:24 Min, 4.2 MB)</p>
+<p>Ich w&#252;nsche uns allen eine gute Zeit und bedanke mich bei allen Menschen, die sich f&#252;r die freie Software und deren Welten engagieren. </p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=6300">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>10. Mai 2010 -- <a href="http://ubuntublog.ch/allgemein/ubuntuusers-de-teamtreffen-in-essen" title="ubuntuusers.de Teamtreffen in Essen">ubuntuusers.de Teamtreffen in Essen</a> (8)</li><li>19. März 2010 -- <a href="http://ubuntublog.ch/allgemein/freundlicher-empfang-beim-ikhaya-team" title="Freundlicher Empfang beim Ikhaya-Team">Freundlicher Empfang beim Ikhaya-Team</a> (4)</li><li>2. Dezember 2008 -- <a href="http://ubuntublog.ch/kurz-notiert/eine-lebendige-gemeinschaft" title="Eine lebendige Gemeinschaft">Eine lebendige Gemeinschaft</a> (2)</li><li>2. April 2008 -- <a href="http://ubuntublog.ch/services/haesslicher-500er-fehler" title="Hässlicher 500er-Fehler">Hässlicher 500er-Fehler</a> (0)</li><li>21. Dezember 2010 -- <a href="http://ubuntublog.ch/allgemein/der-ubuntu-wochenrueckblick-stirbt-noch-einmal" title="Der Ubuntu-Wochenrückblick stirbt noch einmal">Der Ubuntu-Wochenrückblick stirbt noch einmal</a> (20)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/podcast/unerwartetes-geschenk-aus-dem-norden/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/ikhaya.mp3" length="4290404" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Installation und Show von und mit Ubuntu [Podcast]</title>
+		<link>http://ubuntublog.ch/services/installation-und-show-von-und-mit-ubuntu-podcast</link>
+		<comments>http://ubuntublog.ch/services/installation-und-show-von-und-mit-ubuntu-podcast#comments</comments>
+		<pubDate>Thu, 15 Oct 2009 06:15:00 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Planet]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Services]]></category>
+		<category><![CDATA[Andelfingen]]></category>
+		<category><![CDATA[Installation]]></category>
+		<category><![CDATA[Lernen]]></category>
+		<category><![CDATA[LiveCD]]></category>
+		<category><![CDATA[Party]]></category>
+		<category><![CDATA[Schmiedstube]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Weinland]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=4813</guid>
+		<description><![CDATA[Unsere erste Installationsparty erreicht bald die Gegenwart. Am kommenden Dienstag, den 20. Oktober 2009 ist es soweit. Wir treffen uns in Andelfingen zur Ubuntu-Party, zu der alle Interessierten herzlich eingeladen sind. Ich habe dazu eine kleine Aufnahme zurechtgeschustert, allerdings in Schweizerdeutsch, beziehungsweise Thurgau(n)er-Deutsch. Die Datei ist 8.7 MB schwer und bietet w&#228;hrend 7:02 Minuten mehr [...]]]></description>
+			<content:encoded><![CDATA[<p>Unsere erste <a href="http://party.ubuntublog.ch" class="liexternal">Installationsparty</a> erreicht bald die Gegenwart. Am kommenden Dienstag, den 20. Oktober 2009 ist es soweit. Wir treffen uns in <a href="http://andelfingen.ch" class="liexternal">Andelfingen</a> zur <a href="http://party.ubuntublog.ch" class="liexternal">Ubuntu-Party</a>, zu der alle Interessierten herzlich eingeladen sind. </p>
+<p><a href="http://party.ubuntublog.ch" class="liimagelink"><img src="http://ubuntublog.ch/wp-content/uploads/2009/07/ubuntu-party.png" alt="Ubuntu-Party" /></a></p>
+<p>Ich habe dazu eine kleine Aufnahme zurechtgeschustert, allerdings in Schweizerdeutsch, beziehungsweise Thurgau(n)er-Deutsch. Die Datei ist 8.7 MB schwer und bietet w&#228;hrend 7:02 Minuten mehr oder weniger sinnreiche Informationen. </p>
+<p><a href="http://ubuntublog.ch/_files/upa.mp3" class="liinternal">Audio-Datei herunterladen (upa.mp3)</a></p>
+<p>mp3-File <a href="http://ubuntublog.ch/_files/upa.mp3" class="liinternal">herunterladen</a></p>
+<p>Links aus dem Podcast:</p>
+<ul>
+<li><a href="http://party.ubuntublog.ch" class="liexternal">Wikiseite</a> der Ubuntuparty</li>
+<li><a href="http://ubuntuusers.de" class="liexternal">ubuntuusers.de</a></li>
+<li><a href="http://www.ubuntu-austria.at/" class="liexternal">Ubuntu Austria</a></li>
+<li><a href="https://wiki.ubuntu.com/SwissTeam" class="liexternal">Ubuntu SwissTeam</a></li>
+<li><a href="https://lists.ubuntu.com/mailman/listinfo/ubuntu-ch" class="liexternal">Mailingliste SwissTeam</a></li>
+<li><a href="http://www.kde.de/" class="liexternal">KDE</a></li>
+<li>Restaurant <a href="http://www.andelfingen.ch/de/tourismus/restaurants/?action=showunternehmen&#038;unternehmen_id=16594" class="liexternal">Schmiedstube</a></li>
+<li><a href="http://www.andelfingen.ch" class="liexternal">Andelfingen</a></li>
+</ul>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=4813">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>29. August 2009 -- <a href="http://ubuntublog.ch/allgemein/ubuntuparty-in-andelfingen-am-20-oktober-2009" title="Ubuntuparty in Andelfingen am 20. Oktober 2009">Ubuntuparty in Andelfingen am 20. Oktober 2009</a> (4)</li><li>14. Juli 2009 -- <a href="http://ubuntublog.ch/applikationen/ubuntu-party-in-andelfingen" title="Ubuntu-Party in Andelfingen">Ubuntu-Party in Andelfingen</a> (4)</li><li>3. April 2010 -- <a href="http://ubuntublog.ch/betriebssystem/release-party-lucid-lynx-am-1-mai-in-winterthur" title="Release-Party Lucid Lynx am 1. Mai in Winterthur">Release-Party Lucid Lynx am 1. Mai in Winterthur</a> (4)</li><li>18. November 2009 -- <a href="http://ubuntublog.ch/allgemein/die-naechste-ubuntu-party-im-zuercher-oberland" title="Die nächste Ubuntu-Party im Zürcher Oberland">Die nächste Ubuntu-Party im Zürcher Oberland</a> (17)</li><li>23. Oktober 2009 -- <a href="http://ubuntublog.ch/allgemein/ubuntu-in-der-lokalpresse" title="Ubuntu in der Lokalpresse">Ubuntu in der Lokalpresse</a> (6)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/services/installation-und-show-von-und-mit-ubuntu-podcast/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/upa.mp3" length="9121526" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Totes Debian, lange m&#246;ge Dein Leben sein! [Podcast]</title>
+		<link>http://ubuntublog.ch/betriebssystem/todes-debian-lange-moege-dein-leben-sein</link>
+		<comments>http://ubuntublog.ch/betriebssystem/todes-debian-lange-moege-dein-leben-sein#comments</comments>
+		<pubDate>Wed, 19 Aug 2009 05:15:47 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Betriebssystem]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[16 Jahre]]></category>
+		<category><![CDATA[Debian]]></category>
+		<category><![CDATA[Debora]]></category>
+		<category><![CDATA[Geburtstag]]></category>
+		<category><![CDATA[Ian]]></category>
+		<category><![CDATA[Pakteverwaltung]]></category>
+		<category><![CDATA[SuSe]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=3779</guid>
+		<description><![CDATA[Vor ein paar Tagen feierte die Debian-Community den 16. Geburtstag. Ohne Debian g&#228;be es weder Ubuntu, noch Linux Mint, kein Knoppix und wohl auch kein gOS. Diese Aufz&#228;hlung ist noch lange nicht zu Ende. Und doch scheint es manchmal, als ob es die Abk&#246;mmlinge w&#228;ren, die Debian am Leben erhielten. Aber der Schein tr&#228;gt tr&#252;gt, [...]]]></description>
+			<content:encoded><![CDATA[<p>Vor ein paar Tagen feierte die <a href="http://www.debian.org/" class="liexternal">Debian</a>-Community den 16. Geburtstag. Ohne Debian g&#228;be es weder <a href="http://www.ubuntu.com/" class="liexternal">Ubuntu</a>, noch <a href="http://www.linuxmint.com/" class="liexternal">Linux Mint</a>, kein <a href="http://www.knoppix.org/" class="liexternal">Knoppix</a> und wohl auch kein <a href="http://www.thinkgos.com/company/index.html" class="liexternal">gOS</a>. Diese Aufz&#228;hlung ist noch lange nicht zu Ende. Und doch scheint es manchmal, als ob es die Abk&#246;mmlinge w&#228;ren, die Debian am Leben erhielten. </p>
+<p><a href="http://www.debian.org/" class="liimagelink"><img src="http://www.debian.org/Pics/lennybanner_indexed.png" alt="Debian" /></a></p>
+<p>Aber der Schein <s>tr&#228;gt</s> tr&#252;gt, denn in der Debian-Zunft geht offenbar die Post ab! Dazu habe ich mir ein paar Gedanken notiert und sie hernach auf ein digitales Tonband gesprochen. </p>
+<p><a href="http://ubuntublog.ch/_files/debian.mp3" class="liinternal">Audio-Datei herunterladen (debian.mp3)</a></p>
+<p><a href="http://ubuntublog.ch/_files/debian.mp3" class="liinternal">mp3-File herunterladen</a> (4.5 MB) &#8211; <a href="http://ubuntublog.ch/_files/debian.pdf" class="lipdf">Text herunterladen</a> (PDF)</p>
+<p>16 Jahre bilden eine lange Zeitstrecke ab. Damals war ich gerade mal 28 Jahre jung. Alleine schon, um w&#228;hrend dieser Zeit ein Projekt nur am Leben zu erhalten, braucht es schon einen harten Durchhaltewillen. Zum Vergleich sollte man sich vielleicht noch in Erinnerung rufen, dass Window$ mittlerweile 24 Jahre alt ist <s>und noch immer nicht an Debian herankommt</s>. </p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=3779">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>14. Mai 2010 -- <a href="http://ubuntublog.ch/betriebssystem/das-grml-monster-und-seine-zaehne" title="Das grml-Monster und seine Zähne">Das grml-Monster und seine Zähne</a> (13)</li><li>5. Mai 2010 -- <a href="http://ubuntublog.ch/allgemein/ein-jahr-deimhart-geburtstag-und-ausblick" title="Ein Jahr DeimHart: Geburtstag und Ausblick">Ein Jahr DeimHart: Geburtstag und Ausblick</a> (5)</li><li>23. Februar 2010 -- <a href="http://ubuntublog.ch/betriebssystem/uns-bleibt-immer-noch-debian" title="Uns bleibt immer noch Debian">Uns bleibt immer noch Debian</a> (35)</li><li>15. Februar 2010 -- <a href="http://ubuntublog.ch/allgemein/ubuntu-9-10-karmic-koala" title="Ubuntu 9.10 Karmic Koala">Ubuntu 9.10 Karmic Koala</a> (5)</li><li>8. Januar 2010 -- <a href="http://ubuntublog.ch/betriebssystem/brlix-ein-linux-aus-brasilien" title="BRlix &#8211; ein Linux aus Brasilien">BRlix &#8211; ein Linux aus Brasilien</a> (7)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/betriebssystem/todes-debian-lange-moege-dein-leben-sein/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/debian.mp3" length="4350961" type="audio/mpeg" />
+<enclosure url="http://ubuntublog.ch/_files/debian.mp3" length="4350961" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>DeimHart.net im neuen Gewand</title>
+		<link>http://ubuntublog.ch/podcast/deimhartnet-im-neuen-gewand</link>
+		<comments>http://ubuntublog.ch/podcast/deimhartnet-im-neuen-gewand#comments</comments>
+		<pubDate>Fri, 22 May 2009 20:49:17 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Kurz notiert]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[DeimHart.net]]></category>
+		<category><![CDATA[Design]]></category>
+		<category><![CDATA[s9y]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=3060</guid>
+		<description><![CDATA[Obschon unser Projekt noch sehr jung ist, hat Dirk ihm bereits ein neues und wesentlich ansprechenderes Gesicht verpasst. Damit pr&#228;sentieren wir unser Blog etwas nobler und konnten gleichzeitig einigen H&#246;rern ein Anliegen erf&#252;llen. Dazu habe ich ein paar Gedanken gesprochen und gebe eine kurze Vorschau auf die Themen, die wir in der Nummer 2 besprechen [...]]]></description>
+			<content:encoded><![CDATA[<p>Obschon unser <a href="http://deimhart.net/" class="liexternal">Projekt</a> noch sehr jung ist, hat <a href="http://www.deimeke.net/dirk/blog/" class="liexternal">Dirk</a> ihm bereits ein neues und wesentlich ansprechenderes Gesicht verpasst. Damit pr&#228;sentieren wir unser Blog etwas nobler und konnten gleichzeitig <a href="http://deimhart.net/index.php?/archives/1-Aller-Anfang-....html#comments" class="liexternal">einigen H&#246;rern</a> ein Anliegen erf&#252;llen. </p>
+<p>Dazu habe ich ein paar Gedanken gesprochen und gebe eine kurze Vorschau auf die Themen, die wir in der Nummer 2 besprechen m&#246;chten. </p>
+<p><a href="http://ubuntublog.ch/_files/folge2.mp3" class="liinternal">Audio-Datei herunterladen (folge2.mp3)</a></p>
+<p><a href="http://ubuntublog.ch/_files/folge2.mp3" class="liinternal">mp3-File herunterladen</a> (4 MB)</p>
+<p><a href="http://deimhart.net" class="liimagelink"><img src="http://ubuntublog.ch/wp-content/uploads/2009/05/bildschirmfoto-deimhart-mozilla-firefox.png" alt="DeimHart.net ganz neu" title="DeimHart.net ganz neu" width="480" height="434" class="aligncenter size-full wp-image-3062" /></a></p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=3060">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>7. August 2009 -- <a href="http://ubuntublog.ch/allgemein/die-vierte-folge-unseres-podcasts" title="Die vierte Folge unseres Podcasts">Die vierte Folge unseres Podcasts</a> (0)</li><li>6. Juli 2009 -- <a href="http://ubuntublog.ch/allgemein/deimhart-net-die-folge-3-liegt-bereit" title="DeimHart.net: Die Folge 3 liegt bereit">DeimHart.net: Die Folge 3 liegt bereit</a> (1)</li><li>1. Juli 2009 -- <a href="http://ubuntublog.ch/allgemein/start-der-dritten-produktion" title="Start der dritten Produktion">Start der dritten Produktion</a> (2)</li><li>27. April 2012 -- <a href="http://ubuntublog.ch/applikationen/user-interfaces-entwerfen-mit-pencil" title="User Interfaces entwerfen mit Pencil">User Interfaces entwerfen mit Pencil</a> (4)</li><li>4. Juli 2011 -- <a href="http://ubuntublog.ch/allgemein/android-in-der-schweiz" title="Android in der Schweiz">Android in der Schweiz</a> (0)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/podcast/deimhartnet-im-neuen-gewand/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/folge2.mp3" length="4170673" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Ubuntu Weekly News auf RadioTux</title>
+		<link>http://ubuntublog.ch/allgemein/ubuntu-weekly-news-auf-radiotux</link>
+		<comments>http://ubuntublog.ch/allgemein/ubuntu-weekly-news-auf-radiotux#comments</comments>
+		<pubDate>Wed, 20 May 2009 20:07:08 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Allgemein]]></category>
+		<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[RadioTux]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[Weekly]]></category>
+		<category><![CDATA[Wochenrückblick]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=2980</guid>
+		<description><![CDATA[Seit ein paar Wochen darf ich f&#252;r RadioTux die w&#246;chentlichen News von Ubuntu sprechen. Ich habe ja bereits schon einmal dar&#252;ber berichtet, dass ich als sehr komfortabel erachte, so wir &#252;ber die Arbeit, welche das UWR-Team in m&#252;hsamer Handarbeit erstellt, einfach verf&#252;gen k&#246;nnen. Herzlichen Dank an die Ersteller der umfassenden Nachrichten! Die aktuelle Ausgabe der [...]]]></description>
+			<content:encoded><![CDATA[<p>Seit ein paar Wochen darf ich f&#252;r <a href="http://blog.radiotux.de" class="liexternal">RadioTux</a> die <a href="http://ikhaya.ubuntuusers.de/2009/05/20/ubuntu-wochenrueckblick-2009-20-1559/" class="liexternal">w&#246;chentlichen News</a> von Ubuntu sprechen. Ich habe ja bereits schon einmal dar&#252;ber berichtet, dass ich als sehr komfortabel erachte, so wir &#252;ber die Arbeit, welche das <a href="http://ubuntuusers.de/group/UWR-Team/" class="liexternal">UWR-Team</a> in m&#252;hsamer Handarbeit erstellt, einfach verf&#252;gen k&#246;nnen. Herzlichen Dank an die Ersteller der umfassenden Nachrichten! Die aktuelle Ausgabe der Ubuntu-Nachrichten ist ja noch ganz frisch und soeben habe ich die News dazu gesprochen. </p>
+<p><a href="http://ubuntublog.ch/_files/20.mp3" class="liinternal">Audio-Datei herunterladen (20.mp3)</a></p>
+<p><a href="http://ubuntublog.ch/_files/20.mp3" class="liinternal">File zum Herunterladen</a> (3.5 MB)</p>
+<p>Mittlerweile k&#246;nnen wir in der Sendung <a href="http://www.linuxpodcast.de/index.php" class="liexternal">RadioTux@HoRadS</a> nicht nur w&#246;chentliche News von den Distributionen Ubuntu und <a href="http://de.opensuse.org" class="liexternal">OpenSuse</a> anbieten, sondern auch <a href="http://fedoraproject.org/de/" class="liexternal">Fedora</a> liefert nun w&#246;chentliche Nachrichten. Ich werde versuchen, meine <a href="http://blog.radiotux.de/redaktion" class="liexternal">Kollegen</a> bei RadioTux davon zu &#252;berzeugen, dass diese Nachrichten nicht am Ende der Sendung verbreitet werden, sondern verteilt w&#228;hrend der ganze Sendedauer auftauchen sollten. </p>
+<p>Der Wochenr&#252;ckblick f&#252;r Ubuntu fordert ja mitunter einen recht hohen Einsatz der Menschen, die die Nachrichten zusammenstellen. Solchen T&#228;tigkeiten und Verpflichtungen stehe ich mit einem hohen Respekt gegen&#252;ber, denn sie bilden schliesslich die Essenz einer Community. Das UWR-Team sucht nach Leuten, die sich gerne bei der Nachrichtenfindung, Redaktion und Formulierung beteiligen m&#246;chten:</p>
+<blockquote><p>Ihr k&#246;nnt dazu <a href="http://wiki.ubuntuusers.de/LocoTeam/UWR/Mitmachen" class="liexternal">beitragen</a>, den UWR zu verbessern. Aktuelle Links f&#252;r den <a href="http://wiki.ubuntuusers.de/LocoTeam/UWR/2009-21" class="liexternal">kommenden UWR</a> sollten in die Wiki-Seite eingetragen werden, zu vorhandenen Meldungen werden kurze Texte ben&#246;tigt. Ebenso darf im <a href="http://forum.ubuntuusers.de/forum/ubuntu-wochenrueckblick/" class="liexternal">UWR-Forum</a> die Gestaltung des UWR mitdiskutiert werden.</p></blockquote>
+<p>Ich habe mir auch schon &#252;berlegt, dort meinen Teil dazu beizutragen. Leider muss ich meine Ressourcen vorsichtig einteilen, ich befinde mich bereits jetzt schon wieder hart am Abgrund. Familie und Arbeit fordern auch ihre Zeit und die Familie bedeutet mir sehr viel. Ich m&#246;chte sie nicht zugunsten der Community &#8211; obschon ich mich in ihr sehr wohl und aufgehoben f&#252;hle &#8211; vernachl&#228;ssigen. Die gemeinsame Zeit mit unserem Ruben, der im Sommer sechs Jahre jung wird, l&#228;sst sich nicht nachholen. Jetzt m&#246;chte ich mit ihm und meiner Frau zusammen sein.</p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=2980">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>9. April 2010 -- <a href="http://ubuntublog.ch/allgemein/neun-jahre-radiotux-und-deimhart" title="Neun Jahre RadioTux und Deimhart">Neun Jahre RadioTux und Deimhart</a> (1)</li><li>30. Dezember 2009 -- <a href="http://ubuntublog.ch/applikationen/der-ubuntu-wochenrueckblick-stirbt" title="Der Ubuntu-Wochenrückblick stirbt">Der Ubuntu-Wochenrückblick stirbt</a> (3)</li><li>15. April 2009 -- <a href="http://ubuntublog.ch/applikationen/ubuntu-news-auf-radiotux" title="Ubuntu-News auf RadioTux">Ubuntu-News auf RadioTux</a> (3)</li><li>30. Juni 2011 -- <a href="http://ubuntublog.ch/betriebssystem/lubuntu-als-alternative" title="Lubuntu als Alternative">Lubuntu als Alternative</a> (20)</li><li>12. Mai 2011 -- <a href="http://ubuntublog.ch/allgemein/radiotux-am-linuxtag-zu-berlin" title="RadioTux am LinuxTag zu Berlin">RadioTux am LinuxTag zu Berlin</a> (1)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/allgemein/ubuntu-weekly-news-auf-radiotux/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/20.mp3" length="3464670" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Die Anarchie der Hacker [Podcast]</title>
+		<link>http://ubuntublog.ch/betriebssystem/die-anarchie-der-hacker-podcast</link>
+		<comments>http://ubuntublog.ch/betriebssystem/die-anarchie-der-hacker-podcast#comments</comments>
+		<pubDate>Thu, 23 Apr 2009 06:15:45 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Betriebssystem]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Anarchie]]></category>
+		<category><![CDATA[Buch]]></category>
+		<category><![CDATA[Christian Imhorst]]></category>
+		<category><![CDATA[Freie Software Bewegung]]></category>
+		<category><![CDATA[Hacker]]></category>
+		<category><![CDATA[Lesen]]></category>
+		<category><![CDATA[Richard Stallman]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=2196</guid>
+		<description><![CDATA[Richard Stallman gilt unter den Verfechtern der Freien Software als F&#252;hrerfigur, Anarchist und teilweise wird er sogar als Religionsf&#252;hrer verehrt. Ich wollte es ein klein wenig genauer wissen und haben mir deswegen das B&#252;chlein Die Anarchie der Hacker von Richard Christian Imhorst besorgt. Das Buch gibt einen kurzen und nackigen knackigen &#220;berblick der fr&#252;hen Entwicklung [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.amazon.de/Anarchie-Hacker-Richard-Stallman-Freie-Software-Bewegung/dp/3828887694/ref=sr_1_1?ie=UTF8&#038;s=books&#038;qid=1240319678&#038;sr=8-1/yoda03" class="liimagelink"><img align="left" src="http://ubuntublog.ch/wp-content/uploads/2009/04/dadh.jpg" alt="Die Anarchie der Hacker" title="Die Anarchie der Hacker" width="243" height="349" /></a><a href="http://de.wikipedia.org/wiki/Richard_Stallman" rel="nofollow" class="liwikipedia">Richard Stallman</a> gilt unter den Verfechtern der Freien Software als F&#252;hrerfigur, Anarchist und teilweise wird er sogar als Religionsf&#252;hrer verehrt. Ich wollte es ein klein wenig genauer wissen und haben mir deswegen das B&#252;chlein <a href="http://www.amazon.de/Anarchie-Hacker-Richard-Stallman-Freie-Software-Bewegung/dp/3828887694/ref=sr_1_1?ie=UTF8&#038;s=books&#038;qid=1240319678&#038;sr=8-1/yoda03" class="liexternal">Die Anarchie der Hacker</a> von <s>Richard</s> Christian Imhorst besorgt. Das Buch gibt einen kurzen und <s>nackigen</s> knackigen &#220;berblick der fr&#252;hen Entwicklung der Software an den ersten Computern in den Hochschulen der Vereinigten Staaten und stellt sachlich dar, wie sich daraus eine Philosophie der freien Software entwickelt hat. </p>
+<p>Zur damaligen Zeit war es nicht nur &#252;blich, sondern notwendig, dass Wissen uneingeschr&#228;nkt geteilt wurde, ansonsten h&#228;tte man keine Forschungsresultate erreichen k&#246;nnen. W&#228;hren den 80er Jahren hat sich das Blatt gewendet und Wissen im Bereich Computer wurde teilweise zum Privateigentum degradiert. Bis heute k&#228;mpft Stallman f&#252;r die Freiheit, Wissen weiterzugeben. Dadurch entsteht kein Mangel, sondern deutlicher Mehrwert. Ich habe dazu ein paar Gedanken gesprochen, die ich hier wiedergeben m&#246;chte:</p>
+<p><a href="http://ubuntublog.ch/_files/stallman.mp3" class="liinternal">Audio-Datei herunterladen (stallman.mp3)</a></p>
+<p>mp3-File <a href="http://ubuntublog.ch/_files/stallman.mp3" class="liinternal">herunterladen</a> (8.6 MB)</p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=2196">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>13. Februar 2011 -- <a href="http://ubuntublog.ch/allgemein/lernen-rund-um-open-source-und-ubuntu" title="Lernen rund um Open-Source und Ubuntu">Lernen rund um Open-Source und Ubuntu</a> (2)</li><li>12. Februar 2011 -- <a href="http://ubuntublog.ch/betriebssystem/ein-buch-ueber-den-linux-server" title="Ein Buch über den Linux-Server">Ein Buch über den Linux-Server</a> (2)</li><li>3. Juli 2010 -- <a href="http://ubuntublog.ch/allgemein/offene-texte-fuer-ein-freies-ubuntu" title="Offene Texte für ein freies Ubuntu">Offene Texte für ein freies Ubuntu</a> (5)</li><li>22. März 2010 -- <a href="http://ubuntublog.ch/allgemein/das-it-handbuch-fuer-fachinformatiker" title="Das IT-Handbuch für Fachinformatiker">Das IT-Handbuch für Fachinformatiker</a> (16)</li><li>4. März 2010 -- <a href="http://ubuntublog.ch/allgemein/t3n-mit-wordpress-cheat-sheet" title="t3n mit WordPress Cheat Sheet">t3n mit WordPress Cheat Sheet</a> (5)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/betriebssystem/die-anarchie-der-hacker-podcast/feed</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/stallman.mp3" length="8619489" type="audio/mpeg" />
+		</item>
+		<item>
+		<title>Selbstorganisation mit Gnome [Podcast]</title>
+		<link>http://ubuntublog.ch/applikationen/selbstorganisation-mit-gnome</link>
+		<comments>http://ubuntublog.ch/applikationen/selbstorganisation-mit-gnome#comments</comments>
+		<pubDate>Fri, 17 Apr 2009 09:01:10 +0000</pubDate>
+		<dc:creator>Roman Hanhart</dc:creator>
+				<category><![CDATA[Applikationen]]></category>
+		<category><![CDATA[Podcast]]></category>
+		<category><![CDATA[Getting Things Done]]></category>
+		<category><![CDATA[Getting Things Gnome]]></category>
+		<category><![CDATA[Gnome]]></category>
+		<category><![CDATA[Lernen]]></category>
+		<category><![CDATA[Organisation]]></category>
+		<category><![CDATA[Selbstorganisation]]></category>
+
+		<guid isPermaLink="false">http://ubuntublog.ch/?p=2080</guid>
+		<description><![CDATA[Stephan Tetzel berichtet in seinem Blog &#252;ber ein Tool namens Getting Things Gnome, welches im Launchpad gepflegt wird und das Konzept von Getting Things Done abbilden will. Selbstorganisation wird meines Erachtens oft mit dem Prozess verwechselt, der die Grundsatzentscheidung f&#228;llt, was ich &#252;berhaupt tun will und welchen Weg ich dazu nutzen m&#246;chte. Solche grunds&#228;tzlichen Entscheidungen [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://zefanjas.de/impressum/" class="liexternal">Stephan Tetzel</a> berichtet in seinem <a href="http://zefanjas.de/2009/04/15/getting-things-gnome/" class="liexternal">Blog</a> &#252;ber ein Tool namens <a href="http://gtg.fritalk.com/" class="liexternal">Getting Things Gnome</a>, welches im <a href="https://edge.launchpad.net/~gtg/+archive/ppa" class="liexternal">Launchpad</a> gepflegt wird und das Konzept von <a href="http://www.davidco.com/" class="liexternal">Getting Things Done</a> abbilden will. Selbstorganisation wird meines Erachtens oft mit dem Prozess verwechselt, der die Grundsatzentscheidung f&#228;llt, was ich &#252;berhaupt tun will und welchen Weg ich dazu nutzen m&#246;chte. Solche grunds&#228;tzlichen Entscheidungen f&#228;llt man mit keinem Tool, auch wenn es manche nicht glauben m&#246;chten. Dazu ein paar Worte aus meinem Thurgau(n)er Mund:</p>
+<p><a href="http://ubuntublog.ch/_files/oha.mp3" class="liinternal">Audio-Datei herunterladen (oha.mp3)</a></p>
+<p>Audiofile (6.2 MB) <a href="http://ubuntublog.ch/_files/oha.mp3" class="liinternal">herunterladen</a></p>
+<p>&#220;brigens heisst mein &#8220;pers&#246;nlicher GTD-Papst&#8221; <a href="http://blog.oliver-gassner.de/archives/3249-Meine-Liste-von-deutschsprachigen-Blogs-zu-Selbstmanagement-und-Produktivitaet-GTD.html" class="liexternal">Oliver Gassner</a>. Er bespricht die Thematik oft an <a href="http://de.wikipedia.org/wiki/BarCamp" rel="nofollow" class="liwikipedia">BarCamps</a> und gibt Ratschl&#228;ge.</p>
+
+ <div id="aspdf">
+								<p>
+ <a href="http://ubuntublog.ch/wp-content/plugins/as-pdf/generate.php?post=2080">
+ <span>PDF-Datei dieses Artikels erzeugen</span>
+ </a>
+ <br /><br /></p>
+ </div><h2  class="related_post_title">Ähnliche Artikel</h2><ul class="related_post"><li>5. Februar 2011 -- <a href="http://ubuntublog.ch/betriebssystem/ubuntu-11-04-natty-narwhal-alpha-2-im-test" title="Ubuntu 11.04 Natty Narwhal Alpha 2 im Test">Ubuntu 11.04 Natty Narwhal Alpha 2 im Test</a> (14)</li><li>5. August 2010 -- <a href="http://ubuntublog.ch/betriebssystem/gnome-aufpeppen" title="Gnome aufpeppen">Gnome aufpeppen</a> (12)</li><li>12. Mai 2009 -- <a href="http://ubuntublog.ch/allgemein/gnome-translate" title="Gnome Translate">Gnome Translate</a> (2)</li><li>19. Januar 2009 -- <a href="http://ubuntublog.ch/betriebssystem/ausflug-zu-kde-41" title="Ausflug zu KDE 4.1">Ausflug zu KDE 4.1</a> (16)</li><li>2. Januar 2012 -- <a href="http://ubuntublog.ch/kurz-notiert/abbruch-im-leben" title="Abbruch im Leben">Abbruch im Leben</a> (5)</li></ul>]]></content:encoded>
+			<wfw:commentRss>http://ubuntublog.ch/applikationen/selbstorganisation-mit-gnome/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+<enclosure url="http://ubuntublog.ch/_files/oha.mp3" length="6158482" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

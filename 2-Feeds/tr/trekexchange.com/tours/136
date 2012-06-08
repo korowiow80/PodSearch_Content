@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Topkapi Palace, iPod MP3 Audio Walking Tour</title>
+		<!--// DOCUMENT (META) INFORMATION //-->
+		<meta http-equiv="charset" content="iso-8859-1" />
+		
+
+
+<meta name="description" content="Let your iPod be your tour guide through Topkapi Palace $9.95" />
+		<meta name="keywords" content="Topkapi Palace, Istanbul Turkey iPod MP3 Audio Walking Tour" />
+		<meta name="author" content="TrekExchange" />
+		<meta name="copyright" content="December 2007" />
+		<meta name="contact" content="info@trekexchange.com" />
+		<meta name="ROBOTS" content="NOODP" />
+		<meta name="verify-v1" content="ky5Z6d8/mpwjB4L7t8v/KHZvakcYVRNlG0BpSQCdT/w=" />
+		<!--// STYLESHEETS //-->
+		<link rel="stylesheet" type="text/css" href="/css/default.css" />
+		<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/ie.css" />
+		<![endif]-->
+		<!--// LIGHTBOX JS //-->
+		<link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+		<script src="/js/prototype.js" type="text/javascript"></script>
+		<script src="/js/scriptaculous.js?load=effects" type="text/javascript"></script>
+		<script src="/js/lightbox.js" type="text/javascript"></script>
+		<!--// GOOGLE ANALYTICS //-->
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+		_uacct = "UA-3508701-1";
+		urchinTracker();
+		</script>
+		<script src="https://seal.networksolutions.com/siteseal/javascript/siteseal.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+		<!--//
+		
+		function go_pop_up(url)
+		{
+		  if (navigator.appName == "Microsoft Internet Explorer")
+		  {
+		    if ( navigator.appVersion.indexOf( "Macintosh" ) != -1 ) // IE Mac
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=280,height=260,top=0,left=0,resizable=yes');
+		    }
+		    else // IE Win
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=280,height=260,top=0,left=0,resizable=yes');
+		    }
+		  }
+		  if (navigator.appName != "Microsoft Internet Explorer")
+		  {
+		    if ( navigator.appVersion.indexOf( "Macintosh" ) != -1 ) // Netscape Mac
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=484,height=340,top=50,left=50,resizable=yes');
+		    }
+		    else // Netscape WIn
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=484,height=340,top=50,left=50,resizable=yes');
+		    }
+		  }
+		}
+		
+		//-->
+		</script>
+		<script type="text/javascript">
+		<!--// Browser Support Code
+	
+		function getCities(){
+			var ajaxRequest;  // The variable that makes Ajax possible!
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+			// Create a function that will receive data sent from the server
+			ajaxRequest.onreadystatechange = function(){
+				if(ajaxRequest.readyState == 4){
+					var sPath = window.location.pathname;
+					//var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+					var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+					document.getElementById('citySelect').innerHTML = ajaxRequest.responseText;
+				}
+			}
+			var country = document.getElementById('tours').country.options[document.getElementById('tours').country.selectedIndex].value;
+			ajaxRequest.open("GET", "includes/get-cities.php?country="+country, true);
+			ajaxRequest.send(null); 
+		}
+		
+		function getSites(){
+			var ajaxRequest;  // The variable that makes Ajax possible!
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+			// Create a function that will receive data sent from the server
+			ajaxRequest.onreadystatechange = function(){
+				if(ajaxRequest.readyState == 4){
+					var sPath = window.location.pathname;
+					//var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+					var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+					/* if(sPage == 'search.php') {
+						document.getElementById('tours').tour_name.innerHTML = '<option value="">Show All</option>';
+					}else{
+						document.getElementById('tours').tour_name.innerHTML = '<option value=""> - - Choose an option - - </option>';
+					} */
+					document.getElementById('tournameSelect').innerHTML = ajaxRequest.responseText;
+				}
+			}
+			ajaxRequest.open("GET", "includes/get-sites.php?city="+document.getElementById('tours').city.options[document.getElementById('tours').city.selectedIndex].value, true);
+			ajaxRequest.send(null); 
+		}
+		
+		function updateResults(){
+			document.getElementById('results').innerHTML = '<h5 style="text-align:center;margin-top:0;"><img src="/images/loading.gif" alt="Loading..." /><br/>Loading...</h5>';
+			var ajaxRequest;  // The variable that makes Ajax possible!
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+			// Create a function that will receive data sent from the server
+			ajaxRequest.onreadystatechange = function(){
+				if(ajaxRequest.readyState == 4){
+					var sPath = window.location.pathname;
+					//var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+					var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+					document.getElementById('results').innerHTML = ajaxRequest.responseText;
+					document.getElementById('tours').offset.value = '';
+				}
+			}
+			var queryString = "includes/get-results.php?country="+document.getElementById('tours').country.options[document.getElementById('tours').country.selectedIndex].value+"&city="+document.getElementById('tours').city.options[document.getElementById('tours').city.selectedIndex].value+"&tour_name="+document.getElementById('tours').tour_name.options[document.getElementById('tours').tour_name.selectedIndex].value+"&type="+document.getElementById('tours').type.options[document.getElementById('tours').type.selectedIndex].value+"&platform="+document.getElementById('tours').platform.options[document.getElementById('tours').platform.selectedIndex].value+"&offset="+document.getElementById('tours').offset.value;
+			ajaxRequest.open("GET", queryString, true);
+			ajaxRequest.send(null); 
+		}
+		
+		function popup(page) {
+			window.open(page,'popup','width=660,height=490,toolbar=false,scrollbar=false,resizeable=no,menubar=no');
+		}
+		
+		function popup2(page2) {
+			window.open(page2,'popup2','width=370,height=595,toolbar=false,scrollbar=false,resizeable=no,menubar=no');
+		}
+		
+		function popup3(page3) {
+			window.open(page3,'popup3','width=570,height=420,toolbar=false,scrollbar=false,resizeable=no,menubar=no');
+		}
+		
+		//-->
+		</script>
+
+	</head>
+	
+	<body>
+		<div id="all">
+			<h3 style="margin:0;margin-bottom:1em;display:block;font-size:7pt;color:#666;">Keywords: Topkapi Palace, Istanbul Turkey iPod MP3 Audio Walking Tour</h3>
+			<div id="search">
+				<form id="searchFrm" method="post" action="/search-results.php">
+					<p style="margin:0;padding:0;font-size:8pt;">Search <input type="text" name="q" size="25" maxlength="255" value="" /> | <a href="http://www.payloadz.com/go/view_cart.asp?id_user=61948" onclick="window.open(this.href,'paypal'); return false;">View Cart</a></p>
+				</form>
+				<!--//
+				############################################################
+				#################### GOOGLE SITE SEARCH ####################
+				############################################################
+				#####	<form id="googlesearch" method="get" action="http://www.google.com/search">
+				#####		<p style="margin:0;padding:0;"><input type="hidden" name="sitesearch" value="trekexchange.com" />Search <input type="text" name="q" size="25" maxlength="255" value="" /></p>
+				#####	</form>
+				############################################################
+				//-->
+			</div>
+			<div id="head"><a href="/index.php" title="TrekExchange&trade; Home Page"><img src="/images/trek_exchange.png" alt="Trek Exchange" /></a></div>
+			<div id="global">
+				<a href="/index.php">Home</a> | 
+				<a href="/demo.php">How it Works</a> | 
+				<a href="/faq.php">FAQ&#39;s</a> | 
+				
+
+
+<strong>
+<a href="/search.php">Search for Tours</a>
+</strong>
+
+
+ | 
+				<!--// <a href="/upload.php">Submit Your Tour</a> | //-->
+				<a href="/contact.php">Contact</a> | 
+				<a href="/links.php">Links</a> | 
+				<a href="/sitemap.php">Sitemap</a> 
+			</div>			<div id="content">
+				<!--// PAGE CONTENT STARTS HERE //-->
+<h1 style="margin-bottom:0;">Topkapi Palace, iPod MP3 Audio Walking Tour</h1><h2 style="margin-top:0;">Let your iPod be your tour guide through Topkapi Palace $9.95</h2><form id="searchCriteria" action="/search.php" method="get"><fieldset style="padding:0;border:none;background-color:transparent;"><input type="hidden" name="country" value="" /><input type="hidden" name="city" value="" /><input type="hidden" name="tour_name" value="" /><input type="hidden" name="type" value="" /><input type="hidden" name="platform" value="" /><input type="hidden" name="action" value="Search" /><input type="submit" value="Go Back" /></fieldset></form><div style="margin-bottom:10px;padding:20px;background-color:#E6E9EC;border:1px solid #7C7B7D;"><table cellpadding="0" cellspacing="0" style="width:750px;"><tr><td valign="top" style="width:600px;"><h4 style="margin-bottom:0;margin-top:0;"><img style="float:left;border:1px solid #7C7B7D;margin-right:15px;margin-bottom:5px;" src="/images/trek_globe.gif" alt="Topkapi Palace, iPod MP3 Audio Walking Tour" />Topkapi Palace, iPod MP3 Audio Walking Tour</h4><p style="margin-top:0;font-size:9pt;">Let your iPod be your tour guide through Topkapi Palace $9.95</p><p style="clear:both;margin-top:0;font-size:9pt;"><span style="font-weight:bold;">Location:</span> Topkapi Palace - Istanbul, Turkey<br/><span style="font-weight:bold;">Type:</span> iPod/MP3 Audio Tours<br/><span style="font-weight:bold;">Operating System:</span> </p></td><td valign="top" style="width:150px;padding-top:10px;"><a class="button" href="http://www.payloadz.com/go?id=1188011" target="paypal">Add to Cart</a></td></tr><tr><td valign="top" colspan="2"><div style="border-top:1px solid #ccc;padding-top:5px;font-size:9pt;"><!-- IMAGE START -->
+<p><img style="float: left; margin: 10px; width: 450px; height: 295px" alt="Topkapi Palace, Istanbul, Turkey, MP3 iPod Audio Walking Tour" src="/images/Topkapi.jpg" /> <!-- IMAGE STOP --><!-- DESCRIPTION START --><font size="4"><span style="color: #4e5d70">Topkapi Palace, The crown Jewel of the Ottoman Empire - Download Your Audio Guide</span></font></p>
+<!-- DESCRIPTION STOP --><!-- AUDIO SAMPLE LINK START -->
+<p><font size="3"><span style="color: #4e5d70"><a target="_blank" href="/files/Topkapi_intro.mp3"><span>Listen to a Sample of This Tour</span></a> <!-- AUDIO SAMPLE LINK STOP --></span></font></p>
+<!-- TOUR DESCRIPTION START-->
+<div style="margin: 0in 0in 0pt">
+<p><font size="3"><strong><span style="color: #4e5d70">Tour Description: </span></strong><span style="color: #4e5d70">Considered to be the crown jewel and the heart of the Ottoman Empire, Topkapi Palace was the official and primary Istanbul residence of the Ottoman Sultans from 1465 to 1853. At the height of its existence as a royal residence, it was home to as many as 4,000 people, as well as a setting for state occasions and royal entertainments. With 65 tracks and almost one and a half hours of recorded content, this is the most comprehensive Topkapi Palace tour available anywhere. </span><br />
+<br />
+<span style="color: #4e5d70">Emperors have left their marks on the palace throughout the centuries, adding new building extensions, enriching the treasury, or equipping the palace with precious handwritten books, porcelein artifacts and similar works of art. On 3 April 1924, by the authority of Mustafa Kemal Ataturk, the founder of the Turkish Republic, the Topkapi Palace became a museum. </span><br />
+<br />
+<span style="color: #4e5d70">Spread over an area of 700 thousand square meters and surrounded by gardens and wooden lodges in the past, the part of the palace which was turned into a museum now covers an area of 80 thousand square meters. Today, Topkapi Palace is a major tourist attraction. Its Ottoman-architecture buildings, various collections and 1001 different traditions are like windows opening to a glorious past. </span></font></p>
+<!-- XXXXXXXXXXXXXXXXX --><font size="2"><span style="color: #4e5d70"><strong>Tracks on This Tour: 100)</strong> Entrance, <strong>101)</strong> Main entrance to the palace and the first court, <strong>102)</strong> Mehter band, <strong>103)</strong> Classical Ottoman piece played with authentic instruments, <strong>110)</strong> Royal Kitchens, <strong>111)</strong> Porcelain collection, <strong>112)</strong> Silver Collection, <strong>120)</strong> Bab-us Saade - Gate of Felicity, <strong>121)</strong> The Chamber of Petitions - the audience room, <strong>122)</strong> The Library of Ahmed III, <strong>123)</strong> Sultan's Clothes, <strong>130)</strong> Fourth place, <strong>131)</strong> Mecidiye Kiosk, <strong>132)</strong> Ismail Dede Efendi (Music) neo-classical Ottoman composer, <strong>133)</strong> Marble Terrace and the Revan Kiosk, <strong>140)</strong> Head physicians's pavilion, <strong>141)</strong> Stone Throne, <strong>150)</strong> Sofa Kiosk, <strong>151)</strong> Pavilion for breaking fast, <strong>152)</strong> Baghdad Kiosk, <strong>153)</strong> Circumcision Room, <strong>160)</strong> Sultan's Private chamber and holy items, <strong>161)</strong> Hall with the Fountain, <strong>162)</strong> Destimal (handkerchief) Room, <strong>163)</strong> Arzhane, <strong>164)</strong> Hirka-i Saadet - The Holy Mantle, <strong>170)</strong> Portrait gallery, <strong>180)</strong> Armory, <strong>185)</strong> Divan (Council Hall) or Kubbealt1G(under the tower), <strong>300)</strong> Treasury, <strong>311)</strong> Thrones and Symbols of Sovereignty, <strong>312)</strong> Throne of Nadir Shah, <strong>313)</strong> Golden Ceremony Throne, <strong>314)</strong> The Ebony Throne, <strong>315)</strong> First room, Seal of Sultan Selim, <strong>321)</strong> Second room, <strong>322)</strong> Jug, <strong>323)</strong> Relics of St. John the Baptist, <strong>331)</strong> Third room, <strong>332)</strong> Jewelled Binding of Murad III's Divan, <strong>333)</strong> Helmet, <strong>334)</strong> Golden Candlesticks, <strong>341)</strong> Fourth room - Sword of Prophet Osman, <strong>342)</strong> Dagger and yataghan, <strong>343)</strong> Kashioggi diamond, <strong>344)</strong> Topkapi dagger, <strong>500)</strong> Harem, <strong>508)</strong> The quarters of Mother Sultan, <strong>510)</strong> Eunuchs' Courtyard, <strong>511)</strong> Dormitory of the Harem Eunuchs, <strong>512)</strong> Main Door, <strong>513)</strong> Passage of concubines, <strong>514)</strong> Courtyard of concubines and treasurykeepers, <strong>515)</strong> The courtyard of the Mother Sultan, <strong>516)</strong> Baths, <strong>517)</strong> Imperial Hall, <strong>518)</strong> The Private chamber of Ahmet III, <strong>519)</strong> Twin Pavilions, <strong>520)</strong> Courtyard of Favorite Concubines, <strong>521)</strong> Golden Path, <strong>522)</strong> Private Chamber of Murad III, <strong>523)</strong> Private Chamber of Ahmet I, <strong>525)</strong> Private Chamber of Abdulhamid, <strong>526)</strong> The courtyard and Kiosk of Osman III, <strong>527)</strong> Chamber of Selim III. </span></font><!-- TOUR DESCRIPTION STOP --><!-- DOWNLOAD PDF TOUR LINK START -->
+<p><font size="3"><span style="color: #4e5d70"><a target="_blank" href="/files/Topkapi_map.pdf"><span>Download PDF Map of This Tour</span></a> <!--  DOWNLOAD PDF TOUR LINK STOP --><!-- TOUR LENGTH START--></span></font></p>
+<div style="margin: 0in 0in 0pt">
+<p><font size="3"><strong><span style="color: #4e5d70">Tour Length:</span></strong></font> <font size="3"><span style="color: #4e5d70">&nbsp; 81 minutes recorded time&nbsp;</span></font></p>
+<!-- TOUR LENGTH STOP --><font size="3"><span style="color: #4e5d70">With this tour, you always have a professional tour guide ready to share the history and secrets of great cities. No waiting for a group to form. No having to cut short your exploration of interesting areas because a bus is leaving. No having to stay at points you don't care about because a tour company thinks them special. Start whenever you want. Stop when you are ready. All information has been carefully researched for accuracy and is presented by professional narrators.
+<p>The download comes as a compressed .zip and is designed to be used with the PDF map showing all the sights listed. We strongly recommend that you print out the map and use while listing the sights covered. Please check that the files work to your satisfaction before going on your journey and contact us immediately if you have any problems.</p>
+</span></font></div>
+</div></div></td></tr></table></div>				<!--// PAGE CONTENT ENDS HERE //-->
+			</div>
+			<div id="googleAds">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-4765466024409623";
+				//728x90, created 1/23/08
+				google_ad_slot = "2908656752";
+				google_ad_width = 728;
+				google_ad_height = 90;
+				//--></script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</div>
+			
+<div id="foot">
+				
+<div style="float:left;">
+					
+<table cellspacing="0" cellpadding="3">
+
+						<tr>
+
+							<td valign="top">
+
+								
+<!--
+
+								
+SiteSeal Html Builder Code:
+
+								
+Shows the logo at URL https://seal.networksolutions.com/images/basicsqblue.gif
+
+								
+Logo type is  ("NETSB")
+
+								
+//-->
+
+								
+
+<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=169849100307105dc8a10120b22e01e267fb49424747067767554911"></script> </span>
+							
+
+</td>
+
+
+
+<td valign="top">
+								<!-- AddThis Button BEGIN -->
+								<script type="text/javascript">addthis_pub  = 'trekexchange';</script>
+								<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+								<!-- AddThis Button END -->							
+</td>
+
+						<!--
+							<td valign="top">
+								<a href="go-here.php?url=http://www.neteffexstudios.com" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title=""><img src="/images/neteffex_footicon.gif" alt="Website Development by NetEffex Studios" /></a>
+							</td>
+						-->
+						
+							<td valign="top">
+								<a href="go-here.php?url=http://validator.w3.org/check/referer" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title=""><img src="/images/w3c_validated.gif" alt="Valid xHTML 1.0 Strict" /></a>
+							</td>
+						
+
+							<td valign="top">
+								<a href="go-here.php?url=http://jigsaw.w3.org/css-validator/validator?uri=http://www.trekexchange.com/css/default.css" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title=""><img src="/images/css_powered.gif" alt="Valid CSS" /></a>
+							</td>
+							<td valign="top">
+								<a href="/login.php" title="Administrator Login"><img src="/images/admin.gif" alt="Administrator Login" /></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<a href="mailto:info@trekexchange.com" title="info@trekexchange.com">info@trekexchange.com</a><br/>
+				Copyright &copy; 2007-11 Trek Exchange LLC
+			</div>
+
+		<!--// GOOGLE ANALYTICS //-->
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+		_uacct = "UA-3508701-1";
+		urchinTracker();
+		</script>		</div>
+	</body>
+</html>
+
+
+
+

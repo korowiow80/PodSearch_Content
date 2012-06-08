@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>JasonandCheryl.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="mm_travel2.css" type="text/css" />
+<script language="JavaScript" type="text/javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#C0DFFD" onload="MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<br />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th align="left" valign="top" scope="col"><link href="mm_travel2.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr bgcolor="#3366CC">
+        <td width="698" colspan="3" rowspan="2"><img src="http://www.jasonandcheryl.com/images/mm_travel_photo.jpg" alt="Header image" width="382" height="127" border="0" /></td>
+        <td width="840" height="63" colspan="3" align="center" valign="bottom" nowrap="nowrap" id="logo">jasonandcheryl.com</td>
+        <td width="17">&nbsp;</td>
+      </tr>
+      <tr bgcolor="#3366CC">
+        <td height="50" colspan="3" id="tagline" valign="top" align="center">miles from maui </td>
+        <td width="17">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="7" bgcolor="#003366"><img src="images/mm_spacer.gif" alt="spacer" width="1" height="1" border="0" /></td>
+      </tr>
+      <tr bgcolor="#CCFF99">
+        <td colspan="7" id="dateformat" height="25">&nbsp;&nbsp;
+            <script language="JavaScript" type="text/javascript">
+      document.write(TODAY);	</script>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="7" bgcolor="#003366"><img src="images/mm_spacer.gif" alt="spacer" width="1" height="1" border="0" /></td>
+      </tr>
+    </table><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <th align="left" valign="top" scope="col"><table width="750" border="0" cellspacing="0" cellpadding="4">
+            <tr>
+              <th width="165" height="838" align="left" valign="top" scope="col"><table border="0" cellspacing="0" cellpadding="0" width="165" id="navigation">
+                <tr>
+                  <td width="165">&nbsp;<br />
+                    &nbsp;<br /></td>
+                </tr>
+                <tr>
+                  <td width="165"><a href="http://www.jasonandcheryl.com/index.php" class="navText">home </a></td>
+                </tr>
+                <tr>
+                  <td width="165"><a href="http://www.jasonandcheryl.com/gallery/video_gallery.php" class="navText">video gallery </a></td>
+                </tr>
+                <tr>
+                  <td width="165"><a href="http://netfusionstudios.smugmug.com/Family%20Photos" target="_blank" class="navText">photo gallery  </a></td>
+                </tr>
+                <tr>
+                  <td width="165"><a href="http://www.jasonandcheryl.com/tribetix2008.php"><img src="http://www.jasonandcheryl.com/images/cle_standings_logo.gif" alt="Cleveland Indians" width="51" height="21" border="0" /> Tickets</a></td>
+                </tr>
+                <tr>
+                  <td width="165"><a href="http://www.jasonandcheryl.com/gallery/nchouse.php" class="navText">NC House</a></td>
+  </tr>
+                <tr>
+                  <td><a href="http://jasonandcheryl.viewnetcam.com:5000" target="_blank">Net Cam 1</a> </td>
+  </tr>
+                <tr>
+                  <td><a href="http://jasonandcheryl2.viewnetcam.com:50000" target="_blank">Net Cam 2</a></td>
+                </tr>
+                <tr>
+                  <td><a href="http://jasonandcheryl.com/webmail" target="_blank">Check Email</a> </td>
+  </tr>
+              </table>
+&nbsp;</th>
+              <th width="340" align="left" valign="top" scope="col"><table border="0" cellspacing="0" cellpadding="0" width="360">
+                <tr>
+                  <td bgcolor="#E6F3FF" class="pageName">Welcome!</td>
+                </tr>
+                <tr>
+                  <td valign="top" bgcolor="#E6F3FF" class="bodyText"><p>Welcome to our home page! Please share with other family and friends. </p></td>
+                </tr>
+                <tr>
+                  <td height="5" valign="top" class="bodyText"></td>
+                </tr>
+               <tr>
+                 <td valign="top" class="bodyText">&nbsp;</td>
+               </tr>
+              </table>
+                <table width="360" border="0" cellpadding="0" cellspacing="0" bgcolor="#E6F3FF" id="links">
+                  <tr>
+                    <td width="50%" class="navText" scope="col"><a href="http://www.uofazips.com" target="_blank">UofAZIPS.com</a></td>
+                    <td width="50%" class="navText" scope="col"><a href="http://www.gozips.com" target="_blank">Go Zips </a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.glennbeck.com" target="_blank">Glenn Beck </a></td>
+                    <td><a href="http://www.nyaforum.com" target="_blank">NYA Forum</a> </td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.techeblog.com/" target="_blank">Tech E Blog</a></td>
+                    <td><a href="http://www.techdirt.com" target="_blank">Tech Dirt</a> </td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.foxnews.com" target="_blank">Fox News </a></td>
+                    <td><a href="http://www.drudgereport.com" target="_blank">Drudge Report</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.espn.com" target="_blank">ESPN</a></td>
+                    <td><a href="http://www.mlb.com" target="_blank">MLB</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.speedtest.net" target="_blank">Speed Test </a></td>
+                    <td><a href="http://www.vtext.com/" target="_blank">Verizon Text Msg.</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.bulger12.com" target="_blank">Bulger12 </a> </td>
+                    <td><a href="http://www.ebay.com" target="_blank">Ebay</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.ohioreferee.com/index.asp" target="_blank">Ohio Referee</a> </td>
+                    <td><a href="http://www.bballrefs.org/" target="_blank">NCAA Officials</a> </td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://2008vfp.football.sportsline.com/" target="_blank">Football Pool </a></td>
+                    <td><a href="http://www.ohiowestie.com" target="_blank">Ohio Westie </a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.netfusionstudios.com" target="_blank">NetFUSIONstudios</a></td>
+                    <td><a href="https://chaseonline.chase.com/chaseonline/logon/sso_logon.jsp" target="_blank">Chase Bank</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="https://www.pnc.com/webapp/unsec/Homepage.do?siteArea=/PNCCorp/PNC/Home/Personal" target="_blank">PNC Bank</a></td>
+                    <td><a href="http://www.wachovia.com" target="_blank">Wachovia</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://www.mnma.net/">MAC News Media Assoc.</a> </td>
+                    <td><a href="http://www.yittle.net" target="_blank">Yittle</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="http://2008vfp.football.sportsline.com/e" target="_blank">Football Pool </a></td>
+                    <td><a href="http://www.akoldies.org" target="_blank">AK-OLDIES</a></td>
+                  </tr>
+				  <tr>
+                    <td><a href="http://www.raleighbrownsbackers.com" target="_blank">Raleigh Browns Backers </a></td>
+                    <td><a href="https://www.wirelesssync.vzw.com" target="_blank">Wireless Sync</a> </td>
+                  </tr>
+                </table>
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <th scope="col"><script type="text/javascript">
+
+   /* Locations can be edited manually by updating 'wx_locID' below.  Please also update */
+   /* the location name and link in the above div (wx_module) to reflect any changes made. */
+   var wx_locID = '44319';
+
+   /* If you are editing locations manually and are adding multiple modules to one page, each */
+   /* module must have a unique div id.  Please append a unique # to the div above, as well */
+   /* as the one referenced just below.  If you use the builder to create individual modules  */
+   /* you will not need to edit these parameters. */
+   var wx_targetDiv = 'wx_module_5480';
+
+   /* Please do not change the configuration value [wx_config] manually - your module */
+   /* will no longer function if you do.  If at any time you wish to modify this */
+   /* configuration please use the graphical configuration tool found at */
+   /* https://registration.weather.com/ursa/wow/step2 */
+   var wx_config='SZ=180x150*WX=FHW*LNK=SSNL*UNT=F*BGI=seasonal1*MAP=null|null*DN=www.jasonandcheryl.com*TIER=0*PID=1022579080*MD5=ce24399607f7b74d8e0af9c5ff1f53ee';
+
+   document.write('<scr'+'ipt src="'+document.location.protocol+'//wow.weather.com/weather/wow/module/'+wx_locID+'?config='+wx_config+'&proto='+document.location.protocol+'&target='+wx_targetDiv+'"></scr'+'ipt>');  
+                  </script>                    </th>
+                    <th scope="col"><script type="text/javascript">
+
+   /* Locations can be edited manually by updating 'wx_locID' below.  Please also update */
+   /* the location name and link in the above div (wx_module) to reflect any changes made. */
+   var wx_locID = 'USHI0031';
+
+   /* If you are editing locations manually and are adding multiple modules to one page, each */
+   /* module must have a unique div id.  Please append a unique # to the div above, as well */
+   /* as the one referenced just below.  If you use the builder to create individual modules  */
+   /* you will not need to edit these parameters. */
+   var wx_targetDiv = 'wx_module_8067';
+
+   /* Please do not change the configuration value [wx_config] manually - your module */
+   /* will no longer function if you do.  If at any time you wish to modify this */
+   /* configuration please use the graphical configuration tool found at */
+   /* https://registration.weather.com/ursa/wow/step2 */
+   var wx_config='SZ=180x150*WX=FHW*LNK=SSNL*UNT=F*BGI=boat*MAP=CSC|null*DN=www.jasonandcheryl.com*TIER=0*PID=1022579080*MD5=caaa72b7a29bbc3d24617895147e3ebd';
+
+   document.write('<scr'+'ipt src="'+document.location.protocol+'//wow.weather.com/weather/wow/module/'+wx_locID+'?config='+wx_config+'&proto='+document.location.protocol+'&target='+wx_targetDiv+'"></scr'+'ipt>');  
+                  </script>                    </th>
+                  </tr>
+                  <tr>
+                    <th scope="col">
+					
+					<div style='width: 180px; height: 150px; background-image: url( http://vortex.accuweather.com/adcbin/netweather_v2/backgrounds/clouds_180x150_bg.jpg ); background-repeat: no-repeat; background-color: #;' ><div style='height: 138px;' ><script src='http://netweather.accuweather.com/adcbin/netweather_v2/netweatherV2.asp?partner=netweather&tStyle=normal&logo=1&zipcode=44056&lang=eng&size=8&theme=clouds&metric=0&target=_self'></script></div><div style='text-align: center; font-family: arial, helvetica, verdana, sans-serif; font-size: 10px; line-height: 12px; color: #;' ><a style='color: #' href='http://www.accuweather.com/us/OH/MACEDONIA/44056/city-weather-forecast.asp?partner=accuweather&traveler=0' >Weather Forecast</a> | <a style='color: #' href='http://www.accuweather.com/maps-satellite.asp' >Weather Maps</a></div></div>
+
+<script type="text/javascript">
+
+   /* Locations can be edited manually by updating 'wx_locID' below.  Please also update */
+   /* the location name and link in the above div (wx_module) to reflect any changes made. */
+   var wx_locID = '44319';
+
+   /* If you are editing locations manually and are adding multiple modules to one page, each */
+   /* module must have a unique div id.  Please append a unique # to the div above, as well */
+   /* as the one referenced just below.  If you use the builder to create individual modules  */
+   /* you will not need to edit these parameters. */
+   var wx_targetDiv = 'wx_module_3794';
+
+   /* Please do not change the configuration value [wx_config] manually - your module */
+   /* will no longer function if you do.  If at any time you wish to modify this */
+   /* configuration please use the graphical configuration tool found at */
+   /* https://registration.weather.com/ursa/wow/step2 */
+   var wx_config='SZ=180x150*WX=FHW*LNK=SSNL*UNT=F*BGI=seasonal1*MAP=null|null*DN=www.jasonandcheryl.com*TIER=0*PID=1022579080*MD5=ce24399607f7b74d8e0af9c5ff1f53ee';
+
+   document.write('<scr'+'ipt src="'+document.location.protocol+'//wow.weather.com/weather/wow/module/'+wx_locID+'?config='+wx_config+'&proto='+document.location.protocol+'&target='+wx_targetDiv+'"></scr'+'ipt>');  
+</script>
+					
+					</th>
+                    <th scope="col"><div style='width: 180px; height: 150px; background-image: url( http://vortex.accuweather.com/adcbin/netweather_v2/backgrounds/spring1_180x150_bg.jpg ); background-repeat: no-repeat; background-color: #607041;' ><div style='height: 138px;' ><script src='http://netweather.accuweather.com/adcbin/netweather_v2/netweatherV2.asp?myspace=0&logo=1&tStyle=normal&zipcode=96761&lang=eng&size=8&theme=1&metric=0'></script></div><div style='text-align: center; font-size: 12px;line-height: 12px; color: #FDEA11;' ><a style='font-family: arial, helvetica, verdana, sans-serif; font-size: 12px; font-weight: normal; color: #FDEA11' href='http://wwwa.accuweather.com/index-forecast.asp?partner=accuweather&traveler=0' >Weather Forecast</a> | <a style='font-size: 12px; font-weight: normal; color: #FDEA11' href='http://wwwa.accuweather.com/maps-satellite.asp' >Weather Maps</a></div></div></th>
+                  </tr>
+                </table>
+                <br /></th>
+              <th width="120" align="left" valign="top" scope="col"><table border="0" cellspacing="0" cellpadding="0" width="140">
+                <tr>
+                  <td align="center" class="subHeader">&nbsp;</td>
+                </tr>
+              </table></th>
+              <th align="left" valign="top" scope="col"><table width="340" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <th class="subHeader" scope="col"><div align="center"></div></th>
+                </tr>
+                <tr>
+                  <th scope="col">&nbsp;</th>
+                </tr>
+                <tr>
+                  <th valign="top" scope="col">
+                  
+                  <script src='http://netwx.accuweather.com/netweatherV2.asp?size=video&category=citiesusa&video=cle' ></script><div style='width: 300px; font-family: arial; background-color: black; color: white; font-size: 10px; text-align: center; padding: 2px;'><a style='color: white;' href='http://wwwa.accuweather.com/index-forecast.asp' >Weather Forecast</a> | <a style='color: white;' href='http://wwwa.accuweather.com/maps-satellite.asp' >Weather Maps</a> | <a style='color: white;' href='http://wwwa.accuweather.com/index-radar.asp' >Weather Radar</a></div></div>
+                  
+                  </th>
+                </tr>
+              </table></th>
+            </tr>
+          </table></th>
+        </tr>
+      </table></th>
+  </tr>
+</table>
+</body>
+</html>

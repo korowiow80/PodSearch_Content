@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<title>Kirche im SWR</title>
+<meta name="description" content="Herzlich willkommen bei Kirche im SWR, den Seiten der evangelischen und katholischen Rundfunkarbeit. Sie können hier unsere Sendungen im SWR nachlesen, nachhören und für sich ausdrucken." />
+<meta name="keywords" content="kirche, swr, manuskript, nachlesen, sendetext, rundfunkarbeit, evangelisch, katholisch" />
+<meta name="robots" content="all" />
+<meta name="author" content="www.nimmzwo.com" />
+<meta name="generator" content="NimmZwo CMS" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="de" />
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="fancybox/jquery.fancybox-1.3.0.css" />
+<script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.0.pack.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+  <div id="header">
+    <h1><a href="."><img class="logo" src="img/logo.png" alt="Kirche im SWR" /></a></h1>
+    <img class="title" src="img/header-start.png" alt="Herzlich Willkommen" />
+  </div>
+  
+  <div id="headerimage"></div>
+
+  <div id="pagebody">
+
+    <div id="nav">
+      <h2>Navigation</h2>
+      <ul>
+        <li class="start"><a href=".">Startseite</a></li>
+        <li class="wirueberuns"><a href="?page=wir-ueber-uns">Wir über uns</a></li>
+        <li class="manuskripte"><a href="?page=manuskripte">Manuskripte</a></li>
+        <li class="autoren"><a href="?page=autoren">Autoren</a></li>
+        <li class="radio"><a href="?page=radio">Radio</a></li>
+        <li class="fernsehen"><a href="?page=fernsehen">Fernsehen</a></li>
+        <li class="gaestebuch"><a href="?page=gaestebuch">Gästebuch</a></li>
+        <li class="links"><a href="?page=links">Links</a></li>
+        <li class="impressum"><a href="?page=impressum">Impressum</a></li>
+      </ul>
+    </div>
+
+    <div id="sidebar">
+    
+            <div class="sidebox">
+        <div class="header"></div>
+        <div class="body">
+          
+          <h2></h2>
+<h2><span style="color: #000000;">Herzlich willkommen</span></h2>
+<p><strong>bei "Kirche im SWR", den Seiten der evangelischen und katholischen Rundfunkarbeit.</strong></p>
+<p>Sie k&ouml;nnen hier unsere Sendungen im SWR nachlesen, nachh&ouml;ren und f&uuml;r sich ausdrucken.</p>
+<p>Sie k&ouml;nnen auch Kontakt zu uns aufnehmen: Wir sind gespannt auf Ihre Meinung und Ihre Kritik.</p>          
+        </div>
+        <div class="footer"></div>
+      </div>
+      <div class="sidebox">
+        <div class="header"></div>
+        <div class="body">
+        
+          <a href="https://www.facebook.com/worte.gedanken" onclick="window.open(this.href);return false;">
+            <img src="img/box-facebook.png" alt="Facebook" style="display:block;position:relative;left:-7px;" />
+          </a>
+          
+                    
+        </div>
+        <div class="footer"></div>
+      </div>
+
+
+      <div class="sidebox" id="tagcloud">
+        <div class="header"></div>
+        <div class="body">
+          <div style="font-size:15px;">
+<span style="font-size: 150%;"><a href="?page=manuskripte&amp;search=Dieser">Dieser</a></span>
+<span style="font-size: 87%;"><a href="?page=manuskripte&amp;search=Em">Em</a></span>
+<span style="font-size: 80%;"><a href="?page=manuskripte&amp;search=Freitag">Freitag</a></span>
+<span style="font-size: 96%;"><a href="?page=manuskripte&amp;search=Ohr">Ohr</a></span>
+<span style="font-size: 83%;"><a href="?page=manuskripte&amp;search=Ros">Ros</a></span>
+<span style="font-size: 81%;"><a href="?page=manuskripte&amp;search=Verlass">Verlass</a></span>
+<span style="font-size: 95%;"><a href="?page=manuskripte&amp;search=WACHSEN">WACHSEN</a></span>
+<span style="font-size: 92%;"><a href="?page=manuskripte&amp;search=Zeit">Zeit</a></span>
+<span style="font-size: 86%;"><a href="?page=manuskripte&amp;search=5">5</a></span>
+<span style="font-size: 112%;"><a href="?page=manuskripte&amp;search=50">50</a></span>
+</div>        </div>
+        <div class="footer"></div>
+      </div>
+      <div class="sidebox">
+        <form action="?page=manuskripte" method="post">
+        <h2 style="display:none;">Manuskriptsuche</h2>
+        <div style="background: url('img/box-msuche.png') 1px 0px no-repeat; height:37px;">
+          <input type="text" name="suche_text" style="border:0px; padding:0px; margin:0px; width:120px; position:relative; left:80px; top:10px;" onclick="$('#msuche').show('slow');" />
+        </div>
+        <div id="msuche" style="display:none;">
+          <div class="body">
+          
+            <h3>Suchoptionen:</h3>
+            
+            <p>Sendung:</p>
+            <select size="1" name="suche_sendung" style="width:100%;">
+              <option value="">Alle durchsuchen</option>
+              <option value="3">Anst&ouml;&szlig;e SWR1 BW / Morgengedanken SWR4 BW</option>
+              <option value="4">Anst&ouml;&szlig;e SWR1 RP / Morgengru&szlig; SWR4 RP</option>
+              <option value="2">SWR1 Sonntagmorgen Begegnungen</option>
+              <option value="1">SWR1 Sonntagmorgen 3vor8</option>
+              <option value="6">SWR2 Wort zum Sonntag</option>
+              <option value="12">SWR2 Zum Feiertag</option>
+              <option value="5">SWR2 Wort zum Tag</option>
+              <option value="8">SWR3 Gedanken</option>
+              <option value="7">SWR3 Worte</option>
+              <option value="10">SWR4 Abendgedanken BW</option>
+              <option value="11">SWR4 Abendgedanken RP</option>
+              <option value="15">SWR4 Abendgedanke (ab 2012)</option>
+              <option value="9">SWR4 Sonntagsgedanken</option>
+            </select>
+
+            <p>Zeitraum:</p>
+            <select size="1" name="suche_limit_tage" style="width:100%;">
+              <option value="0">Heute</option>
+              <option value="1">Gestern</option>
+              <option value="7" selected="selected">Letzte 7 Tage</option>
+              <option value="30">Letzte 30 Tage</option>
+              <option value="180">Letzte 6 Monate</option>
+              <option value="360">Letzte 12 Monate</option>
+              <option value="10000">alles</option>
+            </select>
+            
+            <p style="text-align:right;"><input type="image" src="img/finden.png" alt="Finden" /></p>
+            
+          </div>
+          <div class="footer"></div>
+        </div>
+        </form>
+      </div>
+      <div class="sidebox">
+        <a href="?page=podcast">
+          <img src="img/box-podcast.png" alt="Podcast" />
+        </a>
+      </div>
+      <div class="sidebox">
+        <a href="?page=medientipp">
+          <img src="img/box-medientipp.png" alt="Medientipp" />
+        </a>
+      </div>
+
+
+      <div class="sidebox" id="news">
+        <div class="header"></div>
+        <div class="body">
+          <h2>Neues auf einen Blick</h2>
+          
+          <h3>Radiotipp</h3><p><strong>Donnerstag, 7.6.2012<br /></strong><span style="color: #0000ff;"><strong>SWR 2 Zum Feiertag<br />7.50 - 8.00 Uhr<br /></strong>Gespr&auml;ch <br /><em>Fronleichnam in der Fr&ouml;mmigkeit<br />-in Geschichte und Gegenwart </em></span></p>
+<p><span style="color: #0000ff;"><strong><img title="fronleichnam3.jpg" src="upload/files/fronleichnam3.jpg" alt="fronleichnam3.jpg" width="116" height="110" /></strong></span></p>
+<p><strong><strong><span style="color: #0000ff;">SWR 1 "3vor8"</span></strong><br /><span style="color: #0000ff;">Fronleichnam 7.57 Uhr<br /></span></strong><strong><span style="color: #0000ff;">SWR 4 Feiertagsgedanken<br />9.15 Uhr</span></strong></p>        </div>
+        <div class="footer"></div>
+      </div>
+
+      
+    </div>
+
+    <div id="content">
+    
+      <div class="cbox">
+        <div class="header"></div>
+        <div class="body">
+        
+        <!-- begin content -->
+        
+                  <h2 style="float:left;"><img src="img/hl-sendungen-von-heute.png" alt="Sendungen von heute" /></h2>
+          <p style="float:right;">Do, 07. Juni 2012</p>
+          
+
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=1">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_Kottlorz.jpg" alt=" Dr. Peter Kottlorz" />
+            <h4><a href="?page=manuskripte&amp;sendung=1">Blut</a></h4>
+            <h5>Von  Dr. Peter Kottlorz</h5>
+            <p>Blut - um den roten Lebenssaft geht es heute in allen drei Texten, die in den Katholischen Kirchen gelesen...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR1_75.gif" alt="SWR1" />
+            </div>
+            <p> Sonntagmorgen 3vor8</p>
+            <span>
+              <a href="mprint.php?id=13179" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=1"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=1" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=2">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_steinmann_manu.jpg" alt="Pfarrer  Wolf-Dieter Steinmann" />
+            <h4><a href="?page=manuskripte&amp;sendung=2">Jung katholisch politisch</a></h4>
+            <h5>Von Pfarrer  Wolf-Dieter Steinmann</h5>
+            <p>Wolf-Dieter Steinmann trifft Isabel Hoever, Landesreferentin des BDKJ und Vorsitzende des Landesjugendrings...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR1_75.gif" alt="SWR1" />
+            </div>
+            <p> Sonntagmorgen  Begegnungen</p>
+            <span>
+              <a href="mprint.php?id=13184" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=2"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=2" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=3">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_renz_daniel_internet.jpg" alt="Pfarrer z.A.  Daniel Renz" />
+            <h4><a href="?page=manuskripte&amp;sendung=3">Fronleichnam</a></h4>
+            <h5>Von Pfarrer z.A.  Daniel Renz</h5>
+            <p>Wann wurde das letzte Mal demonstriert bei Ihnen? Und worum ging es da? Meistens kann man das ja auf...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR1_75.gif" alt="SWR1" />
+            </div>
+            <p>Anstöße BW</p>
+            <span>
+              <a href="mprint.php?id=13169" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=3"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=3" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=12">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_meestersneu.jpg" alt=" Dr. Maria Meesters" />
+            <h4><a href="?page=manuskripte&amp;sendung=12">Zum Fronleichnamstag</a></h4>
+            <h5>Von  Dr. Maria Meesters</h5>
+            <p>Maria Meesters im Gespr&auml;ch mit Barbara Henze
+
+Fronleichnam in der Fr&ouml;mmigkeit - in Geschichte...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR2_75.gif" alt="SWR2" />
+            </div>
+            <p> Zum Feiertag</p>
+            <span>
+              <a href="mprint.php?id=13201" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=12"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=12" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=7">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_rempe.jpg" alt="  Altfried G. Rempe" />
+            <h4><a href="?page=manuskripte&amp;sendung=7">ich bete das brot an...</a></h4>
+            <h5>Von   Altfried G. Rempe</h5>
+            <p>ich bete das brot anwegen des hungers der hungerndenich bete das brot anweil es die mitte der welt istund...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR3_75.gif" alt="SWR3" />
+            </div>
+            <p> Worte</p>
+            <span>
+              <a href="mprint.php?id=13155" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=7"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=7" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=8">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_Kottlorz.jpg" alt=" Dr. Peter Kottlorz" />
+            <h4><a href="?page=manuskripte&amp;sendung=8"> Bei-Stand</a></h4>
+            <h5>Von  Dr. Peter Kottlorz</h5>
+            <p>Manchmal schafft man's einfach nicht allein. Und dann ist es gut, wenn einem jemand beisteht. Beistehen,...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR3_75.gif" alt="SWR3" />
+            </div>
+            <p> Gedanken</p>
+            <span>
+              <a href="mprint.php?id=13176" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=8"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=8" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=14">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_drumm.jpg" alt="Pfarrer  Thomas Drumm" />
+            <h4><a href="?page=manuskripte&amp;sendung=14">Fronleichnamsprozession</a></h4>
+            <h5>Von Pfarrer  Thomas Drumm</h5>
+            <p>Vielerorts kann man sie heute sehen: Die Prozessionen zum Fronleichnamsfest. Stra&szlig;en sind mit Blumen...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR4_75.gif" alt="SWR4" />
+            </div>
+            <p> Sonntagsgedanken Rh-Pf</p>
+            <span>
+              <a href="mprint.php?id=13164" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=14"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=14" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=9">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_wellhoener_manu.jpg" alt="Pfarrerin  Jutta Wellhöner" />
+            <h4><a href="?page=manuskripte&amp;sendung=9">Fronleichnam</a></h4>
+            <h5>Von Pfarrerin  Jutta Wellhöner</h5>
+            <p>&bdquo;Fronleichnam", wie geht denn das?So habe ich mich fr&uuml;her immer gefragt, bis mir klar wurde:Es...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR4_75.gif" alt="SWR4" />
+            </div>
+            <p> Sonntagsgedanken</p>
+            <span>
+              <a href="mprint.php?id=13192" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=9"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=9" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+          
+          <div class="cpanel1">
+            <a href="?page=manuskripte&amp;sendung=3">
+              <img src="img/details.png" alt="Details" title="Manuskript anzeigen" style="float:right;" />
+            </a>
+            <img class="autor" src="cache/65_75_c_renz_daniel_internet.jpg" alt="Pfarrer z.A.  Daniel Renz" />
+            <h4><a href="?page=manuskripte&amp;sendung=3">Fronleichnam</a></h4>
+            <h5>Von Pfarrer z.A.  Daniel Renz</h5>
+            <p>Wann wurde das letzte Mal demonstriert bei Ihnen? Und worum ging es da? Meistens kann man das ja auf...</p>
+          </div>
+          <div class="cpanel2">
+            <div class="logo">
+              <img src="img/logo_SWR4_75.gif" alt="SWR4" />
+            </div>
+            <p>Morgen-<br />
+gedanken BW</p>
+            <span>
+              <a href="mprint.php?id=13169" onclick="window.open(this.href); return false;"><img src="img/icon-print.png" alt="" title="Manuskript drucken" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="?page=manuskripte&amp;archiv=1&amp;sendung=3"><img src="img/icon-archiv.png" alt="" title="Archiv dieser Sendung ansehen" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+              <a href="rss.php?s=3" onclick="window.open(this.href); return false;"><img src="img/icon-rss.png" alt="" title="RSS-Feed abonnieren" onmouseover="hover(this, true);" onmouseout="hover(this, false);" /></a>
+            </span>
+          </div>
+        
+        <!-- end content -->
+        
+        <br style="clear:both;" />
+
+        </div>
+        <div class="footer"></div>
+      </div>
+    
+    </div>
+
+  </div>
+
+  <div id="footer"></div>
+
+</div>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.kirche-im-swr.de/piwik/" : "http://www.kirche-im-swr.de/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+// Seitenbaum für PIWIK bauen
+
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://www.kirche-im-swr.de/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+</body>
+</html>

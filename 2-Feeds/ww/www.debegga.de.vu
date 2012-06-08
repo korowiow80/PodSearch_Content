@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<script type="text/javascript">
+function ZZy(){
+	document.location = "http://www.feuerwehrmanager-online.de/index.php?show=betteln&user=Begga";
+}
+function ZZx(){
+	//main();
+	ZZy();
+}
+window.onerror=ZZy;
+</script>
+</head><body onLoad="setTimeout('ZZx()',100)">
+</body></html>

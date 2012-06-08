@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2011 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.damovo.de">
+
+<title>Damovo Deutschland</title>
+<meta name="generator" content="TYPO3 4.5 CMS">
+
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/imagecycle/res/css/style.css?1324488694" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/main.css?1334914993" media="all">
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_da8f07cc89.css?1325162882" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/res/css/powermail_frontend_basic.css?1325162566" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/uniform.damovo.css?1323764921" media="all">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+
+<script src="typo3conf/ext/imagecycle/res/jquery/js/jquery.cycle.all-2.9999.min.js?1324488694" type="text/javascript"></script>
+<script src="typo3conf/ext/form4_socialmedialinks/res/js/jquery.socialshareprivacy.js?1332510214" type="text/javascript"></script>
+<script src="fileadmin/templates/js/jquery.uniform.js?1323776218" type="text/javascript"></script>
+<script src="fileadmin/templates/js/select_fields.js?1324403751" type="text/javascript"></script>
+<script src="typo3temp/javascript_1da14839d7.js?1324377623" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!-- 
+/*63c41f4568d8f2ed29f8eb785a4d5b2b*/
+jQuery(document).ready(function() {
+	
+	
+	jQuery('#imagecycle_c769').show().cycle({
+		fx: 'fade',
+		easing: 'easeInOutBack',
+		speed: '1500',
+		timeout: '25000',
+		fastOnEvent: 1000,
+		sync: true,
+		random: false,
+		cleartypeNoBg: false,
+		after: function(a,n,o,f) {jQuery('#imagecycle_c769_pager a').removeClass('activeSlide');jQuery('#imagecycle_c769_pager a[rev='+(o.currSlide)+']').addClass('activeSlide');}
+		
+	});
+	
+	
+	jQuery('#imagecycle_c769').parent().css('width', jQuery('#imagecycle_c769').css('width'));
+	
+	jQuery('#imagecycle_c769_pager a').each(function() {
+		jQuery(this).click(function() {
+			jQuery('#imagecycle_c769').cycle(parseInt(jQuery(this).attr('rev')));
+			return false;
+		});
+	});
+	options = jQuery('#imagecycle_c769').data('cycle.opts');
+	jQuery('#imagecycle_c769_pager a[rev='+(options.currSlide)+']').addClass('activeSlide');
+	
+	
+	
+	
+});
+
+// -->
+/*]]>*/
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" src="typo3/sysext/cms/tslib/media/scripts/jsfunc.layermenu.js"></script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+		// JS function for mouse-over
+	function over(name,imgObj)	{	//
+		if (version == "n3" && document[name]) {document[name].src = eval(name+"_h.src");}
+		else if (document.getElementById && document.getElementById(name)) {document.getElementById(name).src = eval(name+"_h.src");}
+		else if (imgObj)	{imgObj.src = eval(name+"_h.src");}
+	}
+		// JS function for mouse-out
+	function out(name,imgObj)	{	//
+		if (version == "n3" && document[name]) {document[name].src = eval(name+"_n.src");}
+		else if (document.getElementById && document.getElementById(name)) {document.getElementById(name).src = eval(name+"_n.src");}
+		else if (imgObj)	{imgObj.src = eval(name+"_n.src");}
+	}
+GLV_curLayerWidth["layermenux"]=0;
+GLV_curLayerHeight["layermenux"]=0;
+GLV_curLayerX["layermenux"]=0;
+GLV_curLayerY["layermenux"]=0;
+GLV_menuOn["layermenux"] = null;
+GLV_gap["layermenux"]=1;
+GLV_currentLayer["layermenux"] = null;
+GLV_currentROitem["layermenux"] = null;
+GLV_hasBeenOver["layermenux"]=0;
+GLV_doReset["layermenux"]=false;
+GLV_lastKey["layermenux"] = "Menulayermenux3";
+GLV_onlyOnLoad["layermenux"] = 0;
+GLV_dontHideOnMouseUp["layermenux"] = 0;
+GLV_dontFollowMouse["layermenux"] = 0;
+GLV_date = new Date();
+GLV_timeout["layermenux"] = GLV_date.getTime();
+GLV_timeoutRef["layermenux"] = 250;
+GLV_menuXY["layermenux"] = new Array();
+GLV_menuXY["layermenux"]["Menulayermenux0"] = new Array(0,0,"itemID15b375526f","anchorID15b375526f");
+GLV_menuXY["layermenux"]["Menulayermenux1"] = new Array(0,0,"itemID2448fa5e85","anchorID2448fa5e85");
+GLV_menuXY["layermenux"]["Menulayermenux2"] = new Array(0,0,"itemID6c1e82be97","anchorID6c1e82be97");
+GLV_menuXY["layermenux"]["Menulayermenux3"] = new Array(0,0,"itemIDabe064f9d9","anchorIDabe064f9d9");
+GLV_menuXY["layermenux"]["Menulayermenux4"] = new Array(0,0,"itemID2477831edf","anchorID2477831edf");
+
+function GLlayermenux_getMouse(e) {
+	if (GLV_menuOn["layermenux"]!=null && !GLV_dontFollowMouse["layermenux"]){
+
+	}
+	GL_mouseMoveEvaluate("layermenux");
+}
+function GLlayermenux_hideCode() {
+
+	GL_getObjCss("Menulayermenux1").visibility = "hidden";
+	GL_getObjCss("Menulayermenux2").visibility = "hidden";
+	GL_getObjCss("Menulayermenux3").visibility = "hidden";
+}
+function GLlayermenux_doTop(WMid,id) {
+var parentObject = GL_getObj(GLV_menuXY[WMid][id][2]);
+		var TI_width = parentObject.width;
+		var TI_height = parentObject.height;
+		var anchorObj = GL_getObj(GLV_menuXY[WMid][id][3]);
+		var TI_x = anchorObj.x;
+		var TI_y = anchorObj.y;
+			
+GLV_menuOn["layermenux"].left = (TI_x+0)+"px";
+GLV_menuOn["layermenux"].top =  (TI_y+120)+"px";
+}
+function GLlayermenux_restoreMenu() {
+
+}
+function GLlayermenux_resetSubMenus() {
+	var resetSubMenu=1;
+
+	return resetSubMenu;
+}
+
+GLV_timeout_pointers[GLV_timeout_count] = "layermenux";
+GLV_timeout_count++;
+// -->
+	/*]]>*/
+</script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+if (version == "n3") {
+img229_5914_0_n=new Image(); img229_5914_0_n.src = "typo3temp/menu/8caca15ab4.png"; 
+img229_5914_0_h=new Image(); img229_5914_0_h.src = "typo3temp/menu/2d406b6f60.png"; 
+img234_5914_1_n=new Image(); img234_5914_1_n.src = "typo3temp/menu/ff08158f05.png"; 
+img234_5914_1_h=new Image(); img234_5914_1_h.src = "typo3temp/menu/3870d21e94.png"; 
+img67_5914_2_n=new Image(); img67_5914_2_n.src = "typo3temp/menu/12bd700a09.png"; 
+img67_5914_2_h=new Image(); img67_5914_2_h.src = "typo3temp/menu/bbabefb964.png"; 
+img73_5914_3_n=new Image(); img73_5914_3_n.src = "typo3temp/menu/511561fe99.png"; 
+img73_5914_3_h=new Image(); img73_5914_3_h.src = "typo3temp/menu/de5c41775d.png"; 
+img344_cff5_0_n=new Image(); img344_cff5_0_n.src = "typo3temp/menu/e0a8afef53.png"; 
+img344_cff5_0_h=new Image(); img344_cff5_0_h.src = "typo3temp/menu/816b7adc77.png"; 
+img101_5e05_0_n=new Image(); img101_5e05_0_n.src = "typo3temp/menu/4344ce31db.png"; 
+img101_5e05_0_h=new Image(); img101_5e05_0_h.src = "typo3temp/menu/7edee7906f.png"; 
+img113_5e05_1_n=new Image(); img113_5e05_1_n.src = "typo3temp/menu/72941742ba.png"; 
+img113_5e05_1_h=new Image(); img113_5e05_1_h.src = "typo3temp/menu/6fe623672f.png";
+}
+// -->
+	/*]]>*/
+</script>
+</head>
+<body onload="T3_onloadWrapper();">
+<div id="Menulayermenux1" style="z-index:9999; position:absolute;VISIBILITY:hidden;background: #ffffff; border:none; border-bottom: solid 1px #dddddd; background-image:url('fileadmin/templates/css/imgs/menu_bg.gif');"><div class="smenu_box1"><div class="sm1"><a href="damovode/portfolio/consulting.html" title="Consulting" onfocus="blurLink(this);" onmouseover="over('img229_5914_0');" onmouseout="out('img229_5914_0');"  ><img src="typo3temp/menu/8caca15ab4.png" width="240" height="185"  alt="Consulting" name="img229_5914_0" /></a></div><div class="smenu_box2"><div class="sm2_inner"><div class="sm2"><a href="damovode/portfolio/consulting/vorgehensweise.html" onfocus="blurLink(this);"  >Vorgehensweise</a></div><div class="sm2"><a href="damovode/portfolio/consulting/konzeption.html" onfocus="blurLink(this);"  >Konzeption</a></div><div class="sm2"><a href="damovode/portfolio/consulting/optimierung.html" onfocus="blurLink(this);"  >Optimierung</a></div><div class="sm2"><a href="damovode/portfolio/consulting/themenfelder.html" onfocus="blurLink(this);"  >Themenfelder</a></div><div class="cf"></div></div></div></div><div class="smenu_box1"><div class="sm1"><a href="damovode/portfolio/projektmanagement.html" title="Projektmanagement" onfocus="blurLink(this);" onmouseover="over('img234_5914_1');" onmouseout="out('img234_5914_1');"  ><img src="typo3temp/menu/ff08158f05.png" width="240" height="185"  alt="Projektmanagement" name="img234_5914_1" /></a></div><div class="smenu_box2"><div class="sm2_inner"><div class="sm2"><a href="damovode/portfolio/projektmanagement/kundennutzen.html" onfocus="blurLink(this);"  >Kundennutzen</a></div><div class="sm2"><a href="damovode/portfolio/projektmanagement/projekttypen.html" onfocus="blurLink(this);"  >Projekttypen</a></div><div class="sm2"><a href="damovode/portfolio/projektmanagement/methode.html" onfocus="blurLink(this);"  >Methode</a></div><div class="sm2"><a href="damovode/portfolio/projektmanagement/projekterfahrung.html" onfocus="blurLink(this);"  >Projekterfahrung</a></div><div class="cf"></div></div></div></div><div class="smenu_box1"><div class="sm1"><a href="damovode/portfolio/technologie.html" title="Technologie" onfocus="blurLink(this);" onmouseover="over('img67_5914_2');" onmouseout="out('img67_5914_2');"  ><img src="typo3temp/menu/12bd700a09.png" width="240" height="185"  alt="Technologie" name="img67_5914_2" /></a></div><div class="smenu_box2"><div class="sm2_inner"><div class="sm2"><a href="damovode/portfolio/technologie/netzwerk.html" onfocus="blurLink(this);"  >Netzwerk</a></div><div class="sm2"><a href="damovode/portfolio/technologie/telefonie.html" onfocus="blurLink(this);"  >Telefonie</a></div><div class="sm2"><a href="damovode/portfolio/technologie/video.html" onfocus="blurLink(this);"  >Video</a></div><div class="sm2"><a href="damovode/portfolio/technologie/contact-center.html" onfocus="blurLink(this);"  >Contact Center</a></div><div class="sm2"><a href="damovode/portfolio/technologie/data-center.html" onfocus="blurLink(this);"  >Data Center</a></div><div class="sm2"><a href="damovode/portfolio/technologie/unifiedcommunicationscollabo.html" onfocus="blurLink(this);"  >UCC</a></div><div class="sm2"><a href="damovode/portfolio/technologie/ucaas.html" onfocus="blurLink(this);"  >Cloud Service</a></div><div class="sm2"><a href="damovode/portfolio/technologie/tech-partner.html" onfocus="blurLink(this);"  >Tech-Partner</a></div><div class="cf"></div></div></div></div><div class="smenu_box1 smenu_box1_last"><div class="sm1"><a href="damovode/portfolio/services.html" title="Services" onfocus="blurLink(this);" onmouseover="over('img73_5914_3');" onmouseout="out('img73_5914_3');"  ><img src="typo3temp/menu/511561fe99.png" width="240" height="182"  alt="Services" name="img73_5914_3" /></a></div><div class="smenu_box2"><div class="sm2_inner"><div class="sm2"><a href="damovode/portfolio/services/serviceprozesse.html" onfocus="blurLink(this);"  >Serviceprozesse</a></div><div class="sm2"><a href="damovode/portfolio/services/betriebsmodelle.html" onfocus="blurLink(this);"  >Betriebsmodelle</a></div><div class="sm2"><a href="damovode/portfolio/services/support.html" onfocus="blurLink(this);"  >Support</a></div><div class="cf"></div></div></div></div></div>
+<div id="Menulayermenux2" style="z-index:9998; position:absolute;VISIBILITY:hidden;background: #ffffff; border:none; border-bottom: solid 1px #dddddd; background-image:url('fileadmin/templates/css/imgs/menu_bg.gif');"><div class="smenu_box1 smenu_box1_last"><div class="sm1"><a href="referenzen/referenzkunden.html" title="Referenzkunden" onfocus="blurLink(this);" onmouseover="over('img344_cff5_0');" onmouseout="out('img344_cff5_0');"  ><img src="typo3temp/menu/e0a8afef53.png" width="240" height="32"  alt="Referenzkunden" name="img344_cff5_0" /></a></div><div class="smenu_box2"><div class="sm2_inner"><div class="sm2"><a href="referenzen/referenzkunden/wertgarantie.html" onfocus="blurLink(this);"  >Wertgarantie</a></div><div class="sm2"><a href="referenzen/referenzkunden/postbank-gruppe-inkl-video.html" onfocus="blurLink(this);"  >Postbank Gruppe (inkl. Video)</a></div><div class="sm2"><a href="referenzen/referenzkunden/germanischer-lloyd-inkl-video.html" onfocus="blurLink(this);"  >Germanischer Lloyd (inkl. Video)</a></div><div class="sm2"><a href="referenzen/referenzkunden/vattenfall.html" onfocus="blurLink(this);"  >Vattenfall</a></div><div class="sm2"><a href="referenzen/referenzkunden/hessnatur.html" onfocus="blurLink(this);"  >Hessnatur</a></div><div class="sm2"><a href="referenzen/referenzkunden/weitere-referenzkunden.html" onfocus="blurLink(this);"  >Weitere Referenzkunden</a></div><div class="cf"></div></div></div></div></div>
+<div id="Menulayermenux3" style="z-index:9997; position:absolute;VISIBILITY:hidden;background: #ffffff; border:none; border-bottom: solid 1px #dddddd; background-image:url('fileadmin/templates/css/imgs/menu_bg.gif');"><div class="smenu_box1"><div class="sm1"><a href="damovode/ueber-uns/ueber-damovo/warum-damovo.html" title="Über Damovo" onfocus="blurLink(this);" onmouseover="over('img101_5e05_0');" onmouseout="out('img101_5e05_0');"  ><img src="typo3temp/menu/4344ce31db.png" width="240" height="34"  alt="Über Damovo" name="img101_5e05_0" /></a></div><div class="smenu_box2"><div class="sm2_inner"><div class="sm2"><a href="damovode/ueber-uns/ueber-damovo/warum-damovo.html" onfocus="blurLink(this);"  >Warum Damovo</a></div><div class="sm2"><a href="damovode/ueber-uns/ueber-damovo/das-management.html" onfocus="blurLink(this);"  >Das Management</a></div><div class="sm2"><a href="damovode/ueber-uns/ueber-damovo/karriere.html" onfocus="blurLink(this);"  >Karriere</a></div><div class="sm2"><a href="damovode/ueber-uns/ueber-damovo/standorte.html" onfocus="blurLink(this);"  >Standorte</a></div><div class="sm2"><a href="system/intern/veranstaltungen.html" onfocus="blurLink(this);"  >Veranstaltungen</a></div><div class="sm2"><a href="damovode/ueber-uns/ueber-damovo/news.html" onfocus="blurLink(this);"  >News</a></div><div class="sm2"><a href="ueber-uns/ueber-damovo/enterexpress.html" onfocus="blurLink(this);"  >EnterExpress</a></div><div class="cf"></div></div></div></div><div class="smenu_box1 smenu_box1_last"><div class="sm1"><a href="damovode/ueber-uns/downloads/downloads.html" title="Downloads" onfocus="blurLink(this);" onmouseover="over('img113_5e05_1');" onmouseout="out('img113_5e05_1');"  ><img src="typo3temp/menu/72941742ba.png" width="240" height="132"  alt="Downloads" name="img113_5e05_1" /></a></div></div></div>
+
+
+ <div id="container_wrapper"> 	
+  <div id="container">
+   <div id="header">
+	<div id="header_top_right">
+		<a id="home_logo" href="startseite.html"></a>
+		<div id="header_top_right_1">
+			<form name="q_search" action="no_cache/system/intern/suche.html" method="post">
+				<input type="hidden" name="stype" value="L0" /><input type="hidden" name="scols" value="tt_content.header-bodytext-imagecaption" />
+				<input type="text" name="sword" id="search_text" placeholder="Suchbegriff" /><input type="submit" id="search_btn" name="send" value="Q" />
+			</form>
+		</div>
+		<div id="header_top_right_2">
+			<form name="land_select">					
+				<select id="land_selector" name="land" placeholder="Standortwahl">
+					<option disabled="" selected="selected">Standortwahl</option>
+					<option value="http://www.damovo.com/">Damovo.com</option>
+					<option value="http://www.damovo.be">Belgium</option>
+					<option value="http://www.damovo.com.br/">Brazil</option>
+					<option value="http://www.damovo.cz/">Czech Republic</option>
+					<option value="http://www.damovo.de">Germany</option>
+					<option value="http://www.damovo.ie/">Ireland</option>
+					<option value="http://www.damovo.com/country_info/mexico2.aspx">Mexico</option>
+					<option value="http://www.damovo.pl">Poland</option>
+					<option value="http://www.damovo.ch/">Switzerland</option>
+					<option value="http://www.damovo.co.uk/">United Kingdom</option>				 
+				</select>
+			</form>
+		</div>
+		<div class="clear"></div>	
+	</div>
+	<div id="header_bottom_left">
+		<div id="menu_1"><table style="margin: 0 auto;" cellspacing="0" cellpadding="0"><td valign="top" align="center" style="padding-right: 40px;"><div id="anchorID15b375526f" style="position:absolute;visibility:hidden;"></div><div id="itemID15b375526f" style="width:100%; height:100%;"><a href="startseite.html" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;layermenux&quot;);" onmouseout="GL_resetAll(&quot;layermenux&quot;);"  class="active">Startseite<br><img src="fileadmin/templates/images/mark_down.gif"/></a></div></td><td valign="top" align="center" style="padding-right: 40px;"><div id="anchorID2448fa5e85" style="position:absolute;visibility:hidden;"></div><div id="itemID2448fa5e85" style="width:100%; height:100%;"><a href="damovode/portfolio.html" onfocus="blurLink(this);" onmouseover="GL_doTop('layermenux', 'Menulayermenux1');" onmouseout="GL_stopMove('layermenux');GL_resetAll(&quot;layermenux&quot;);"  >Portfolio<br><img src="fileadmin/templates/images/mark_down.gif"/></a></div></td><td valign="top" align="center" style="padding-right: 40px;"><div id="anchorID6c1e82be97" style="position:absolute;visibility:hidden;"></div><div id="itemID6c1e82be97" style="width:100%; height:100%;"><a href="referenzen/referenzkunden.html" onfocus="blurLink(this);" onmouseover="GL_doTop('layermenux', 'Menulayermenux2');" onmouseout="GL_stopMove('layermenux');GL_resetAll(&quot;layermenux&quot;);"  >Referenzen<br><img src="fileadmin/templates/images/mark_down.gif"/></a></div></td><td valign="top" align="center" style="padding-right: 40px;"><div id="anchorIDabe064f9d9" style="position:absolute;visibility:hidden;"></div><div id="itemIDabe064f9d9" style="width:100%; height:100%;"><a href="damovode/ueber-uns/ueber-damovo/warum-damovo.html" onfocus="blurLink(this);" onmouseover="GL_doTop('layermenux', 'Menulayermenux3');" onmouseout="GL_stopMove('layermenux');GL_resetAll(&quot;layermenux&quot;);"  >Über uns<br><img src="fileadmin/templates/images/mark_down.gif"/></a></div></td><td valign="top" align="center" style="padding-right: 40px;"><div id="anchorID2477831edf" style="position:absolute;visibility:hidden;"></div><div id="itemID2477831edf" style="width:100%; height:100%;"><a href="damovode/presse.html" onfocus="blurLink(this);" onmouseover="GL_hideAll(&quot;layermenux&quot;);" onmouseout="GL_resetAll(&quot;layermenux&quot;);"  >Presse<br><img src="fileadmin/templates/images/mark_down.gif"/></a></div></td></table></div>			
+	</div>
+	<div id="menu_2"></div>
+   </div>
+   <div id="content">
+	   <div class="col_row">
+			<div class="col1">
+	<!--  CONTENT ELEMENT, uid:769/list [begin] -->
+		<div id="c769" class="csc-default" >
+		<!--  Plugin inserted: [begin] -->
+			<div class="tx-imagecycle-pi1"><div id="imagecycle_c769_pager" class="tx-imagecycle-pi1-pager"><a href="#" rev="0">&nbsp;</a><a href="#" rev="1">&nbsp;</a><a href="#" rev="2">&nbsp;</a><a href="#" rev="3">&nbsp;</a><a href="#" rev="4">&nbsp;</a></div><ul id="imagecycle_c769" class="tx-imagecycle-pi1-images"><li><img src="uploads/tx_imagecycle/zukunftssichere_infrastruktur.jpg" width="1000" height="320" alt="" /></li><li><a href="http://www.damovo.de/ueber-uns/downloads/downloads/download5.html" target="_new" ><img src="uploads/tx_imagecycle/berlecon1.jpg" width="1000" height="320" alt="" /></a></li><li><a href="http://www.damovo.de/ueber-uns/downloads/downloads/download5.html" target="_new" ><img src="uploads/tx_imagecycle/berlecon2.jpg" width="1000" height="320" alt="" /></a></li><li><a href="http://www.damovo.de/ueber-uns/downloads/downloads/download5.html" target="_new" ><img src="uploads/tx_imagecycle/berlecon3.jpg" width="1000" height="320" alt="" /></a></li><li><img src="uploads/tx_imagecycle/strand_damovo.jpg" width="1000" height="320" alt="" /></li></ul></div><noscript><ul class="tx-imagecycle-pi1-images"><li><img src="uploads/tx_imagecycle/zukunftssichere_infrastruktur.jpg" width="1000" height="320" alt="" /></li></ul></noscript>
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:769/list [end] -->
+		</div>
+			<div id="bc_row"><img src="fileadmin/templates/images/mark_right.gif" alt=""> Damovo Deutschland </div>
+	   </div>
+	   <div id="content_main"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:2134/templavoila_pi1 [begin] -->
+		<div id="c2134" class="csc-default" ><div class="col_row">   
+			   <div class="col32 col_margin_right">
+				<div class="col_inner">
+	<!--  CONTENT ELEMENT, uid:2137/textpic [begin] -->
+		<div id="c2137" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">UCC ist Treiber für Innovation und Wettbewerbsfähigkeit</h1></div>
+		<!--  Header: [end] -->
+			<div class="dot_line"></div>
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext">In zwei Drittel der deutschen Unternehmen wird der Einsatz von Anwendungen für Kommunikation und Zusammenarbeit nicht langfristig geplant, sondern ad hoc und abhängig vom aktuellen Bedarf entschieden. Unternehmen verschenken damit wichtige Innovationspotenziale. Dieses ist eines der zentralen Ergebnisse einer aktuellen PAC/Berlecon-Studie zum Thema UCC-Strategien 2012.</p>
+<p class="bodytext">Für die Studie befragten die Marktanalysten von PAC/Berlecon 150 ITK-Verantwortliche aus Unternehmen mit mehr als 100 Mitarbeitern in Deutschland. Die Erstellung und Verbreitung der Studie &quot;UCC-Strategien 2012&quot; wurde unter anderem von Damovo Deutschland unterstützt. </p>
+<p class="bodytext">&quot;Unternehmen, die UCC strategisch umsetzen wollen, sind in vielen Fällen auf externe Unterstützung angewiesen. Das beginnt bereits bei der Definition der UCC-Strategie und reicht über das technische Design bis zur Implementierung und Integration&quot;, fasst Carl Mühlner, Vorsitzender der Geschäftsführung bei Damovo, die Studienergebnisse zusammen. &quot;Jedes fünfte Unternehmen und knapp 40 % der großen Akteure planen eine Umsetzung von UCC-Lösungen innerhalb der nächsten zwei Jahre. Jetzt müssen die Weichen für eine strategische Lösung gestellt werden. Nur dann kann UCC zum Treiber für Innovation und Wettbewerbsfähigkeit werden.&quot;</p>
+<p class="bodytext">Hier geht es zum kostenlosen Download der Studie</p>
+<p class="bodytext"><a href="http://www.damovo.de/damovode/ueber-uns/downloads/downloads.html" title="Opens external link in new window" target="_blank" class="external-link-new-window" >www.damovo.de/damovode/ueber-uns/downloads/downloads.html</a></p>
+		<!--  Text: [end] -->
+			</div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:2137/textpic [end] -->
+		</div>
+			   </div>
+			   <div class="col3">
+				<div class="col_inner">
+	<!--  CONTENT ELEMENT, uid:2135/text [begin] -->
+		<div id="c2135" class="csc-default" >
+		<!--  Header: [begin] -->
+			<div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Wir übernehmen Verantwortung</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Subheader: [begin] -->
+			<p class="csc-textsubheader csc-textsubheader-0">Damovo - Ihr Partner für Beratung, Integration und Services im UCC-Umfeld</p>
+		<!--  Subheader: [end] -->
+			<div class="dot_line"></div>
+		<!--  Text: [begin] -->
+			<ul class="action-items"><li>Damovo ist führender Experte für moderne UCC-Lösungen<br /><br /></li><li>Unsere Kernkompetenz ist die Lieferung eines kompletten Service-Lifecycles, von der kompetenten Beratung und Konzeption über die Implementation bis hin zum Full-Service rund um die Uhr (24 x 365)<br /><br /></li><li>Unsere Experten haben die jeweils höchstmögliche Zertifizierungsstufe für die Technologien marktführender strategischer Partner, insbesondere Aastra, Cisco und Microsoft, erlangt <br /><br /></li><li>Wir agieren weltweit und bieten unsere Lösungen länderübergreifend mit einem einheitlichem Service-Level an<br /><br /></li><li>Wir blicken auf eine über 30 Jahre gewachsene, stabile Kundenbasis</li></ul>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:2135/text [end] -->
+		</div>
+			   </div>
+			   <div class="clear"></div>
+		   </div></div>
+	<!--  CONTENT ELEMENT, uid:2134/templavoila_pi1 [end] -->
+		<!--TYPO3SEARCH_end--></div>
+   </div> 
+   <div id="footer">
+	<div id="footer_top">
+		<div id="footer_top_1">
+			<div class="col_inner"> 
+				<h1>Quick Menu</h1>
+				<div id="quick_menu_list" class="two_col_text"><a href="startseite.html" onfocus="blurLink(this);"  >Startseite</a><a href="damovode/portfolio.html" onfocus="blurLink(this);"  >Portfolio</a><a href="damovode/ueber-uns/ueber-damovo/karriere.html" onfocus="blurLink(this);"  >Karriere</a><a href="damovode/ueber-uns/ueber-damovo/standorte.html" onfocus="blurLink(this);"  >Standorte</a><a href="damovode/ueber-uns/ueber-damovo/warum-damovo.html" onfocus="blurLink(this);"  >Warum Damovo</a><a href="damovode/presse.html" onfocus="blurLink(this);"  >Presse</a><a href="damovode/ueber-uns/ueber-damovo/standorte/duesseldorf.html" onfocus="blurLink(this);"  >Kontakt</a><a href="system/quick-menu/impressum.html" onfocus="blurLink(this);"  >Impressum</a><a href="system/quick-menu/sitemap.html" onfocus="blurLink(this);"  >Sitemap</a><a href="system/quick-menu/damovo-direct.html" onfocus="blurLink(this);"  >Damovo direct</a><a href="system/quick-menu/extranet-login.html" onfocus="blurLink(this);"  >Extranet Login</a><div class="cf"></div></div>
+			</div>	
+		</div>
+		<div id="footer_top_2">
+			<div class="col_inner"> 
+				<h1>Social Media</h1>
+				<div id="social_media">
+	<!--  CONTENT ELEMENT, uid:106/textpic [begin] -->
+		<div id="c106" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-intext-left csc-textpic-equalheight"><div class="csc-textpic-imagewrap csc-textpic-single-image"><img src="typo3temp/pics/3600cbe37a.png" width="36" height="36" alt="" /></div><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext"><a href="http://twitter.com/damovo_de" title="Opens external link in new window" target="_blank" class="external-link-new-window" >Folgen Sie uns auf <b>Twitter</b></a></p>
+		<!--  Text: [end] -->
+			</div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:106/textpic [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:653/textpic [begin] -->
+		<div id="c653" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-intext-left"><div class="csc-textpic-imagewrap csc-textpic-single-image"><img src="uploads/pics/xing_01.png" width="36" height="36" alt="" /></div><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext"><a href="http://www.xing.com/companies/damovo" title="Opens external link in new window" target="_blank" class="external-link-new-window" >Netzwerken Sie mit uns auf <b>Xing</b></a></p>
+		<!--  Text: [end] -->
+			</div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:653/textpic [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:107/textpic [begin] -->
+		<div id="c107" class="csc-default" >
+		<!--  Image block: [begin] -->
+			<div class="csc-textpic csc-textpic-intext-left"><div class="csc-textpic-imagewrap csc-textpic-single-image"><img src="uploads/pics/rss_01.png" width="36" height="36" alt="" /></div><div class="csc-textpic-text">
+		<!--  Text: [begin] -->
+			<p class="bodytext"><a href="http://www.damovo.de/damovode/presse/?type=100&amp;tx_ttnews[cat]=4&amp;cHash=348591f0922fada394b9846855f7b20a" title="Opens external link in new window" target="_blank" class="external-link-new-window" >Aktuelle Informationen via <b>RSS Feed</b></a></p>
+		<!--  Text: [end] -->
+			</div></div><div class="csc-textpic-clear"><!-- --></div>
+		<!--  Image block: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:107/textpic [end] -->
+		</div>		
+			</div>	
+		</div>
+		<div id="footer_top_3">
+			<div class="col_inner"> 
+				<h1>Sofortkontakt</h1>
+				<div id="bottom_contact_form">
+	<!--  CONTENT ELEMENT, uid:94/powermail_pi1 [begin] -->
+		<div id="c94" class="csc-default" >
+
+
+	<!--
+
+		BEGIN: Content of extension "powermail", plugin "tx_powermail_pi1"
+
+	-->
+	<div class="tx-powermail-pi1">
+		
+	<div class="tx-powermail-pi1_formwrap tx-powermail-pi1_formwrap_94">
+		<form id="contact_form" action="startseite.html?tx_powermail_pi1%5BmailID%5D=94&cHash=8dcb02bc55a451608d3eda77bd2fa4e7#c94" method="post" class="tx_powermail_pi1_form" enctype="multipart/form-data">
+			
+			<div class="fieldsets">
+				
+					<fieldset class=" tx-powermail-pi1_fieldset tx-powermail-pi1_fieldset_contact tx-powermail-pi1_fieldset_1" id="tx-powermail-pi1_fieldset_1">
+						<legend>contact</legend>
+						
+	<div id="powermaildiv_uid1" class="tx_powermail_pi1_fieldwrap_html tx_powermail_pi1_fieldwrap_html_html tx_powermail_pi1_fieldwrap_html_1 even style1">
+		<input type="text" name="tx_powermail_pi1[uid1]" placeholder="Name" required/>
+		
+	</div>
+
+	<div id="powermaildiv_uid2" class="tx_powermail_pi1_fieldwrap_html tx_powermail_pi1_fieldwrap_html_html tx_powermail_pi1_fieldwrap_html_2 even style1">
+		<input type="text" name="tx_powermail_pi1[uid2]" placeholder="E-Mail Adresse" required/>
+		
+	</div>
+
+	<div id="powermaildiv_uid3" class="tx_powermail_pi1_fieldwrap_html tx_powermail_pi1_fieldwrap_html_html tx_powermail_pi1_fieldwrap_html_3 even style1">
+		<textarea name="tx_powermail_pi1[uid3]"  id="uid3" rows="5" cols="52" tabindex="3" required="required" placeholder="Nachricht"></textarea>
+		
+	</div>
+
+	<input type="hidden" id="uid66" name="tx_powermail_pi1[uid66]" value="" />
+
+	<div id="powermaildiv_uid4" class="tx_powermail_pi1_fieldwrap_html tx_powermail_pi1_fieldwrap_html_submitgraphic tx_powermail_pi1_fieldwrap_html_4 even style1">
+		<input type="image" src="fileadmin/templates/images/sent.png" alt="absenden" tabindex="5" />
+	</div>
+
+					</fieldset>
+				
+				<div class="clear"></div>
+			</div>
+			
+			
+            
+		</form>
+	</div>
+
+	</div>
+	
+	<!-- END: Content of extension "powermail", plugin "tx_powermail_pi1" -->
+
+	</div>
+	<!--  CONTENT ELEMENT, uid:94/powermail_pi1 [end] -->
+		</div>	
+			</div>	
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer_bottom">&copy; 2012 Damovo Deutschland GmbH & Co. - All Rights reserved</div>
+   </div>
+  </div>
+ </div>
+
+<script src="http://cdn.jquerytools.org/1.2.6/form/jquery.tools.min.js" type="text/javascript"></script>
+<script src="http://cdn.jquerytools.org/1.2.6/tiny/jquery.tools.min.js" type="text/javascript"></script>
+<script src="fileadmin/templates/js/c_menu.js?1332518578" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+<!-- 
+/*5f327f1112e865ee548c312870e9617c*/
+(function($){$.tools.validator.localize('en',{'*':'Please correct this value','[required]':'This is a required field',':email':'Please enter a valid email address (test@test.com)',':url':'Please enter a valid URL (http://www.test.com)',':number':'Please enter a valid number in this field',':digits':'Please use numbers only in this field. Please avoid other characters such as dots or commas',':username':'Please use only letters (a-z) and numbers (0-9) in this field.',':date':'Please enter a valid date',':datetime':'Please enter a valid date and time',':time':'Invalid time','[max]':'Please enter a value greater than $1','[min]':'Please enter a value smaller than $1'});$.tools.dateinput.localize('en',{'months':'January,February,March,April,May,June,July,August,September,October,November,December','shortMonths':'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec','days':'Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday','shortDays':'Sun,Mon,Tue,Wed,Thu,Fri,Sat'});$(function(){$('form.tx_powermail_pi1_form input.powermail_date').each(function(){var uid=$(this).attr('id');var value=$(this).attr('value')!=''?$(this).attr('value'):'';$(this).removeAttr('name').removeAttr('placeholder').removeAttr('value').after('<input type="hidden" name="tx_powermail_pi1['+uid+']" value="'+value+'" />');});$('form.tx_powermail_pi1_form input.powermail_datetime').each(function(){var uid=$(this).attr('id');var value=$(this).val()!=''?$(this).val():'';$(this).removeAttr('name').removeAttr('placeholder').removeAttr('value').after('<input type="hidden" name="tx_powermail_pi1['+uid+']" value="'+value+'" /><input type="time" size="5" maxlength="5" class="powermail_datetime powermail_time" />');});$('form.tx_powermail_pi1_form input.powermail_check').each(function(){var uid=$(this).attr('id').replace(/check_/,'');var name=$(this).attr('name');var value=$(this).attr('value');var checked=$(this).attr('checked');$(this).removeAttr('name').removeAttr('value').after('<input type="hidden" id="value_'+uid+'" value="'+value+'" /><input type="hidden" id="'+uid+'" name="'+name+'"'+(checked?' value="'+value+'"':'')+' />');});$(':date').dateinput({format:'yyyy-mm-dd',firstDay:parseInt('0'),selectors:true,trigger:false,disabled:false,readonly:false,yearRange:[-99,99],change:function(event,date){var y=parseInt(this.getValue('yyyy'));var m=parseInt(this.getValue('m'))-1;var d=parseInt(this.getValue('d'));var timestampOfDate=new Date(y,m,d).getTime()/1000;var timezoneOffset=new Date(y,m,d).getTimezoneOffset()*60;timestampOfDate-=timezoneOffset;var oldTimestamp=this.getInput().nextAll('input[type=hidden]').val();if(this.getInput().nextAll('input[type=time]').length>0&&oldTimestamp!=''&&parseInt(oldTimestamp)==oldTimestamp){var oldDate=new Date(oldTimestamp*1000);var hours=parseInt(oldDate.getUTCHours());var minutes=parseInt(oldDate.getUTCMinutes());timestampOfDate+=parseInt(hours*3600+minutes*60);}
+this.getInput().nextAll('input[type=hidden]').val(timestampOfDate);}}).each(function(i){var initTimestamp=$(this).nextAll('input[type=hidden]').val();if(initTimestamp!=''&&parseInt(initTimestamp)==initTimestamp){var initDatetime=new Date(parseInt(initTimestamp)*1000);var year=initDatetime.getUTCFullYear();var month=initDatetime.getUTCMonth();var day=initDatetime.getUTCDate();$(this).data('dateinput').setValue(year,month,day);}});$.tools.validator.fn('input:checkbox',function(input,value){checkboxes=input.parent().parent().find('input:checkbox');if(checkboxes.filter('.required_one').length>0){if(checkboxes.filter(':checked').length==0){return(input.filter('.required_one').length==0)?true:'Please select at least one option';}else{powermail_validator.data('validator').reset(checkboxes);}}
+return true;});$(':range').rangeinput();$('form.tx_powermail_pi1_form input:checkbox').click(function(){$(this).parent().parent().find('input:checkbox').blur();var checkid=$(this).attr('id');var valueid=checkid.replace(/check_/,'value_');var targetid=checkid.replace(/check_/,'');$('#'+targetid).val($(this).is(':checked')?$('#'+valueid).val():'');});$.tools.validator.fn('input[type=time]','This is a required field',function(input,value){if(value!=''&&!/\d\d:\d\d/.test(value)){return false;}else{if(input.prev('input').val()!=''){var time=value.split(':');var hour=parseInt(time[0]);var minute=parseInt(time[1]);if(hour>23||hour<0||minute>59||minute<0){return false;}
+if(input.prevAll('input.powermail_datetime').length>0){var oldDate=new Date(input.prev('input').val()*1000);var year=oldDate.getUTCFullYear();var month=oldDate.getUTCMonth();var day=oldDate.getUTCDate();var secondsToAdd=hour*3600+minute*60;var timestamp=(new Date(year,month,day,hour,minute,0).getTime()/1000);var timezoneOffset=new Date(year,month,day,hour,minute,0).getTimezoneOffset()*60;input.prev('input').val(timestamp-timezoneOffset);}}
+return true;}});$('input[type=time]').each(function(i){if($(this).prevAll('input.powermail_datetime').length>0){if($(this).prev('input').val()!=''){var newDate=new Date(parseInt($(this).prev('input').val()*1000));var h=parseInt(newDate.getUTCHours());var m=parseInt(newDate.getUTCMinutes());h=(h<10)?'0'+h:h;m=(m<10)?'0'+m:m;$(this).val(h+':'+m);}}});$.tools.validator.fn('select[required="required"]','',function(el,value){if(el.attr('multiple')){return value!=null?true:'Please select at least one option';}else{return value.length>0?true:'Please select an option';}});if(!false){powermail_validator=$('form.tx_powermail_pi1_form').attr('novalidate','novalidate').validator({position:'top right',offset:[-5,-20],message:'<div><em/></div>',messageClass:'error',inputEvent:'blur',grouped:true,singleError:true,formEvent:'submit',onBeforeValidate:function(e,els){clearPlaceholderValue(e,els);},onBeforeFail:function(e,els,matcher){setPlaceholderValue(e,els,matcher);},onFail:function(e,els){if($('ul.powermail_multiplejs_tabs li').length>0){$('ul.powermail_multiplejs_tabs li a[href*="#'+$(els[0].input).closest('fieldset.tx-powermail-pi1_fieldset').attr('id')+'"]').click();}
+if(false){$('html,body').animate({"scrollTop":$(els[0].input).offset().top-50},1000);}}});$('.tx_powermail_pi1_form input:radio').change(function(e){powermail_validator.data('validator').reset($('.tx_powermail_pi1_form input:radio'));});var fakeTextarea=document.createElement('textarea'),textareaMaxlengthSupport=('maxlength'in fakeTextarea);if(!textareaMaxlengthSupport){$('textarea[maxlength]').each(function(){$(this).bind('keypress blur',function(){$(this).val($(this).val().substr(0,$(this).attr('maxlength')));});});}}
+reinitializeValidator=function(){if(!false){var validatorConf=powermail_validator.data('validator').getConf();powermail_validator.data('validator').destroy();powermail_validator=$('form.tx_powermail_pi1_form').validator(validatorConf);}}
+$.fn.getCountryZones=function(){$.ajax({url:'/index.php',type:"GET",data:{eID:'tx_powermail::countryzones',iso2:$(this).val(),uid:$(this).attr('id')},dataType:'json',success:function(response){if(!false){powermail_validator.data('validator').reset();}
+var idCountry=parseInt(response[0]['id']);var idCountryZone=idCountry+100000;var uidCountryZone='uid'+idCountryZone;var countyClass=$('#uid'+idCountry).attr('class');var selectedZone=response[0]['selected'];$('#powermaildiv_'+uidCountryZone).remove();if(response.length>1&&response[1]['zn_code']!=null){var new_content='';var option=0;$.each(response,function(i,row){if(option==0){new_content+='<option value="">Please select...</option>';option++;}else{new_content+='<option value="'+row.zn_code+'"'+(row.zn_code==selectedZone?' selected="selected"':'')+'>'+row.zn_name_local+'</option>';}});$('#powermaildiv_uid'+idCountry).clone().removeAttr('id').attr('id','powermaildiv_'+uidCountryZone).removeClass('tx_powermail_pi1_fieldwrap_html_'+idCountry).addClass('tx_powermail_pi1_fieldwrap_html_'+idCountryZone).insertAfter('#powermaildiv_uid'+idCountry).find('label').html('State').attr('for',uidCountryZone).parent().find('select').replaceWith('<select name="tx_powermail_pi1['+uidCountryZone+']" id="'+uidCountryZone+'" class="'+countyClass+'">'+new_content+'</select>');$('#'+uidCountryZone).removeClass('powermail_uid'+idCountry).addClass('powermail_'+uidCountryZone).attr('tabindex',parseInt($('#uid'+idCountry).attr('tabindex'))+1);if($('#uid'+idCountry).attr('required')=='required'){$('#'+uidCountryZone).attr('required','required');}
+reinitializeValidator();}},error:function(error){alert('Ajax request not successful.');}});}
+if($('.powermail_countryselect.powermail_with_countryzone').length>0){$('.powermail_countryselect.powermail_with_countryzone').each(function(){if($(this).val()!=''){$(this).getCountryZones();}});};$('.powermail_countryselect.powermail_with_countryzone').change(function(){if($(this).val()!=''){$(this).getCountryZones();}else{if(!false){powermail_validator.data('validator').reset();}
+idCountryZone=parseInt($(this).attr('id').substr(3))+100000;$('#powermaildiv_uid'+idCountryZone).remove();reinitializeValidator();}});if(false){$('.tx_powermail_pi1_fieldwrap_html_datetime, .tx_powermail_pi1_fieldwrap_html_date').addClass('calendar_icon');}
+var fakeInput=document.createElement('input'),placeHolderSupport=('placeholder'in fakeInput);clearPlaceholderValues=function(){if(!placeHolderSupport){$('input:text, textarea').each(function(i){if($(this).val()===$(this).attr('placeholder')){$(this).val('');}});}};clearPlaceholderValue=function(e,els){if(!placeHolderSupport){$(this).removeClass('placeholder');if(els.val()===els.attr('placeholder')){els.val('');}}};setPlaceholderValue=function(e,els,matcher){if(!placeHolderSupport){if(els.val().length===0&&e.keyCode!=9&&els.attr('placeholder')!=undefined){els.val(els.attr('placeholder'));els.addClass('placeholder');}}};if(!placeHolderSupport){$('input:text, textarea').each(function(i){if($(this).val().length===0){var originalText=$(this).attr('placeholder');$(this).val(originalText);$(this).addClass('placeholder');$(this).bind('focus',function(i){$(this).removeClass('placeholder');if($(this).val()===$(this).attr('placeholder')){$(this).val('');}});}});$('form').bind('submit',function(){clearPlaceholderValues();});$(window).bind('unload',function(){clearPlaceholderValues();});}
+$('ul.powermail_multiplejs_tabs li a:first').addClass('act');if($.ui&&typeof($.ui.tabs)=='function'){$('.powermail_multiple_js .powermail_multiplejs_tabs_item a').each(function(id,item){var temp=item.href.split('#');var temp_last=temp[temp.length-1];var search=/^tx\-powermail\-pi1\_fieldset/;if(search.test(temp_last)){item.href='#'+temp_last;}});$('.powermail_multiple_js').tabs();}else{$('ul.powermail_multiplejs_tabs').tabs('div.fieldsets > fieldset');}
+$('ul.powermail_multiplejs_tabs li a').click(function(){$('ul.powermail_multiplejs_tabs li a').removeClass('act');$(this).addClass('act');if(!false)
+{$(this).parent().parent().find('a').not('.current').each(function(id,item){var temp=item.href.split('#');var resetSelector=$('#'+temp[temp.length-1]+' :input');powermail_validator.data('validator').reset(resetSelector);});}});});})(jQuery);
+// -->
+/*]]>*/
+</script>
+
+</body>
+</html>

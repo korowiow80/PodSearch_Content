@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+<script type="text/javascript">
+		function set_cookie(c_name,value,exdays) {
+			var exdate=new Date();
+			exdate.setDate(exdate.getDate() + exdays);
+			var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+			document.cookie=c_name + "=" + c_value;
+		}
+		
+		function get_cookie(c_name) {
+			var i,x,y,ARRcookies=document.cookie.split(";");
+			for (i=0;i<ARRcookies.length;i++) {
+				x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("=")); 
+				y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+				x=x.replace(/^\s+|\s+$/g,"");
+				if (x==c_name) {
+				return unescape(y);
+				}
+			}
+		}
+
+		var refersh_minutes = 1;
+		
+		function refresh_page() {
+			window.location = "http://www.stardomains.com/myvideoblog/feed.xml"; 
+		}
+		
+		window.onload = function() {
+			setTimeout("refresh_page()", (1000 * 60 * refersh_minutes));
+			
+			var refresh_value = get_cookie("page_refresh");
+			
+			if (refresh_value != null && refresh_value != 0 && refresh_value != "") {
+				set_cookie("page_refresh", "0", "-1");
+				refresh_page();
+			} else {
+				set_cookie("page_refresh", "1", "1");
+			}
+		}
+	</script><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Website currently down for maintenance</title>
+
+<style>
+	#centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 602px;
+		height: 403px;
+		border: 0;
+		margin: -220px 0px 0px -300px;
+		padding: 0px;
+	}
+
+	body{
+		background: #E3E3E3;
+	}
+
+</style>
+</head>
+
+<body>
+
+<div id="centered"><img src="images/coming_soon.gif" width="602" height="403" border="0" alt="Website currently down for maintenance" /></div>
+
+</body>
+</html>

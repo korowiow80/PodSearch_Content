@@ -1,0 +1,343 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<title>Calvary Church of Naperville - Page Not Found</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/?css=global_embeds/header_reset_css.v.1301867055" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/?css=global_embeds/header_1140_css.v.1323379853" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/?css=global_embeds/header_main_css.v.1339012775" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/themes/site_themes/calvary/css/jquery.fancybox-1.3.1.css" />
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/?css=global_embeds/header_style_css.v.1334947841" />
+
+<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1090px)" href="http://www.calvarynaperville.org/?css=global_embeds/header_smallerscreen_css.v.1327011507"/>
+
+<script type="text/javascript" src="http://www.calvarynaperville.org/global_embeds/jquery" ></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/global_embeds/jqueryui" ></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/global_embeds/javascript_mobile_detect" ></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.mousewheel-3.0.2.pack.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.fancybox-1.3.1.js"></script>
+<script>
+	if(isTierIphone||DetectMobileQuick()){
+		if (document.cookie.indexOf("iphone_redirect=false") == -1) window.location = "http://m.calvarynaperville.org/";
+	}
+</script>
+
+
+<script>
+	$(document).ready(function(){
+	
+	$('#leftnav ul ul').hide();
+	$('#leftnav ul ul').parent("li").addClass('dropdown');
+	$('#leftnav ul li.active ul').show();
+	$('.active').parent("ul").show();
+	$('#leftnav ul ul:visible').parent("li").addClass('dropdown_active');
+
+	$("#campusbar").hide().children('.campuslist').append(" <a href='#' class='campus_close' id='fancybox-close' style='color:#fff;font-size:14px;float:right;'>close</a>");
+        $("#new-bar").addClass("navbar").hide().load("/nav/new");
+        $("#ministries-bar").addClass("navbar").hide().load("/nav/ministries");
+        $("#resources-bar").addClass("navbar").hide().load("/nav/resources");
+
+	$("#nav ul li a").attr('href', '#');
+	$("#events a").attr('href', 'http://www.calvarynaperville.org/events/');
+	$("#giving a").attr('href', 'http://www.calvarynaperville.org/give/');
+
+         $('.dropdown > a').click(function() {
+		$(this).parent("li").children("ul"). slideToggle(400);
+		if ($(this).parent('li').hasClass("dropdown_active")){$(this).parent('li').removeClass('dropdown_active');} else {$(this).parent("li").addClass('dropdown_active');}
+		return false;
+ 	 });
+
+	$('#campus a, .campus_close').click(function() {$('#campusbar').slideToggle(400);});
+	
+        $('#nav li').click(function() {
+            var dabutton = ("#" + this.id);
+            var current = ("#" + this.id + "-bar");
+            if ($(current).hasClass("me")){
+                 $("#nav li").removeClass("active");
+                 $('.me').slideToggle(400);
+                 $('.me').removeClass("me");
+                 return
+            }
+            $('.navbar').each(function(){
+                 $("#nav li").removeClass("active");
+                 $('.me').slideToggle(400);
+                 $('.me').removeClass("me");
+            });
+                 $(dabutton).addClass("active");
+                 $(current).slideToggle(400);
+                 $(current).addClass("me");
+        });
+
+	$("#search").attr({ value: 'search our website'}).focus(function(){
+		if($(this).val()=="search our website"){$(this).val("");}
+	}).blur(function(){
+		if($(this).val()==""){
+			$(this).val("search our website");
+		}
+	});
+
+$("a.lightbox").fancybox({
+	'titleShow': false,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic'
+});
+$(".lightbox_gallery").fancybox({
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'titlePosition': 'over',
+	'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
+		return '<span id="fancybox-title-over">Image ' +  (currentIndex + 1) + ' / ' + currentArray.length + ' – ' + title + '</span>';
+	}
+});
+$("a.lightbox_video").fancybox({
+	'titleShow': false,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'scrolling': 'no'
+});
+$("a.lightbox_tour").fancybox({
+	'titleShow': false,
+	'width': 900,
+	'height': 700,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'scrolling': 'no',
+	'type': 'iframe'
+});
+$("a.lightbox_iframe").fancybox({
+	'titleShow': false,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'width': 900,
+	'height': 700,
+	'type': 'iframe',
+	'onComplete': function() {$("#fancybox-inner").css({'overflow-x':'hidden'}); 
+	} 
+});
+$("a.lightbox_iframetxt").fancybox({
+	'titleShow': false,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'width': 500,
+	'height': 400,
+	'type': 'iframe'
+});
+$("a.lightbox_inline").fancybox({
+	'titleShow': false,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'width': 500,
+	'height': 400,
+	'type': 'inline'
+});
+
+$('a.lightbox_iframebody').click(function() { 
+	var pageToLoad = $(this).attr('href') + " #content"; 
+	$('#fancybox-inner').load(pageToLoad); 
+	$.fancybox({ 
+	'titleShow': false,
+	'transitionIn': 'elastic',
+	'transitionOut': 'elastic',
+	'autoDimensions': false,
+	'width': 800, 
+	'height': 600,
+	'scrolling': 'yes',
+	'type': 'iframe',
+	'onComplete': function() {$("#fancybox-inner").css({'overflow-x':'hidden'}); 
+	} 
+ }); 
+        return false; 
+        }); 
+
+
+$(".details").hide();
+
+        $('a.read_details').click(function() {
+            var current = ("#" + this.id + "-read");
+        	$(current).slideToggle(400);
+        	$(current).addClass("readthis");
+	    return false;
+        });
+
+});
+
+</script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.serialScroll-1.2.2-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/tabs.js" ></script><script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.serialScroll-1.2.2-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/tabs.js" ></script><script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/jquery.serialScroll-1.2.2-min.js"></script>
+<script type="text/javascript" src="http://www.calvarynaperville.org/themes/site_themes/calvary/js/tabs.js" ></script><!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/?css=global_embeds/header_smallerscreen_css.v.1327011507"/>
+<link rel="stylesheet" type="text/css" media="screen, projection" href="http://www.calvarynaperville.org/?css=global_embeds/header_fix_ie8.v.1323381071" />
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17675532-1']);
+  _gaq.push(['_setDomainName', '.calvarynaperville.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<!--[if lte IE 6]>
+    <script type="text/javascript" 
+     src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+
+    <style>
+     .chromeFrameInstallDefaultStyle {
+       width: 800px; /* default is 800px */
+       border: 5px solid blue;
+       z-index: 70000;
+       MARGIN-TOP: -270px;
+     }
+    </style>
+
+    <div id="prompt">
+     <!-- if IE without GCF, prompt goes here -->
+    </div>
+ 
+    <script>
+     // The conditional ensures that this code will only execute in IE,
+     // Therefore we can use the IE-specific attachEvent without worry
+     window.attachEvent("onload", function() {
+       CFInstall.check({
+         mode: "inline", // the default
+         node: "prompt"
+       });
+     });
+    </script>
+
+<![endif]-->
+<div id="campusbar">
+	<div class="campuslist">
+	<h3><a href="http://www.calvarynaperville.org/new/visiting_calvary/">Calvary Naperville</a></h3>
+	<h3><a href="http://www.calvaryweb.org">Web Church</a></h3>
+	<h3><a href="http://www.calvarysugargrove.org">Calvary West</a></h3>
+	<h3><a href="http://www.calvaryespanol.org">Calvary en Español</a></h3>
+	</div>
+</div>
+
+<div id="background">
+<div id="wrap">
+<div id="main" class="clearfix">
+<div id="header">
+	<h1><a href="http://www.calvarynaperville.org">Calvary Church of Naperville</a></h1>
+	<div id="nav">
+		<ul>
+			<li id="new"><a href="http://www.calvarynaperville.org/new">I'm New</a></li>
+			<li id="events"><a href="http://www.calvarynaperville.org/events">Events</a></li>
+			<li id="ministries"><a href="http://www.calvarynaperville.org/ministries">Ministries</a></li>
+			<li id="resources"><a href="http://www.calvarynaperville.org/resources">Resources</a></li>
+			<li id="giving"><a href="http://www.calvarynaperville.org/give">Giving</a></li>
+		</ul>
+	</div>
+	<div id="campus"><a href="#campusbar">Campuses &nbsp; Locales</a></div>
+	<div id="searchbox"><form id="cse-search-box" method="post" action="http://www.calvarynaperville.org/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="XID" value="4160edddd887d0c38e6fce3c4098cceff0fa522b" />
+<input type="hidden" name="ACT" value="37" />
+<input type="hidden" name="RP" value="search/results_new" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+  <fieldset>
+    <input type="text" name="keywords" id="keywords" size="31" />
+    <button type="submit" class="submit">Search</button>
+  </fieldset>
+</form></div>
+	<div id="social"><a href="https://twitter.com/calvarynaper" id="twitter" target="_blank">Twitter</a> <a href="http://www.facebook.com/calvarynaperville" id="facebook" target="_blank">Facebook</a></div>
+</div>
+<div id="bars">
+	<div id="new-bar">
+	</div>
+	<div id="ministries-bar">
+	</div>
+	<div id="resources-bar">
+	</div>
+</div>
+		
+<div id="navbar"><div id="pageheader"><h2>Page Not Found</h2></div><img src="/images/layout/bar_default.jpg" alt="{title}" /></div>
+<div id="leftnav" class="aside">
+
+
+
+
+
+
+
+</div>
+<div id="content" class="section">
+<div id="body">
+<h3>I'm sorry but the page you're looking for can't be found.</h3>
+<p>Our website recently underwent a major overhaul and consequently a lot of content has moved. You can find anything you need by starting at the new home page. <strong><a href="http://www.calvarynaperville.org">Click here to go home.</a></strong></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer_content">
+<div id="footer_left">
+<p><a href="http://www.calvarynaperville.org/">Home</a> | 
+<a href="http://www.calvarynaperville.org/new/">I'm New</a> |
+<a href="http://www.calvarynaperville.org/events/event/">Events</a> |
+<a href="http://www.calvarynaperville.org/ministries/">Ministries</a> |
+<a href="http://www.calvarynaperville.org/resources/">Resources</a> |
+<a href="http://www.calvarynaperville.org/give/">Giving</a></p>
+
+<p><a href="http://www.calvarynaperville.org/new/contact_us">Contact Us</a> | 
+<a href="http://www.calvarynaperville.org/mystory">My Story</a> | 
+<a href="http://www.calvarynaperville.org/signup">E-newsletter Sign-up</a></p>
+<p>Copyright Calvary Church of Naperville. All rights reserved.</p>
+</div>
+
+
+<div id="footer_right">
+<p>Calvary Church of Naperville</p>
+<p>9s200 State Route 59 | Naperville, Illinois 60564</p>
+<p>630.851.7000 | <a href="http://www.calvarynaperville.org/new/contact_us">Contact Us</a></p>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>

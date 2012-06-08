@@ -1,0 +1,44 @@
+<!--
+	top.location="http://pagesinxt.com/?dn=www.grayther.com&fp=CksaMwVSkgglrFMaC4mRMRPec1mosIKx3Q8S1hZlJ7jM7rI%2B3EqYDSG%2FxNydxrt4%2BFHEvKAooqd1lNeAQuhFAA%3D%3D&prvtof=5vwpXZ0cZW9IpdqTymvkjglnY1JRnjvHmZzLx%2BZdcAc%3D&poru=XelEN973HKryyBfpo2qWiRB1iWj4SExql9wXOim0P%2B0MGct%2FyKzS7vLuq3MXn%2BDYuigH%2BArOWfK2R0SQOyBKd9KoB1Tg25OR8vDFthMYjDU%3D&cifr=1&flrdr=yes&nxte=xml";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://pagesinxt.com/?dn=www.grayther.com&fp=CksaMwVSkgglrFMaC4mRMRPec1mosIKx3Q8S1hZlJ7jM7rI%2B3EqYDSG%2FxNydxrt4%2BFHEvKAooqd1lNeAQuhFAA%3D%3D&prvtof=SeGJb3eCepvYbwVnQ2YSwTboNG5sWRng%2BvlnDUNq5z8%3D&poru=u4ZZ%2B59b0kG8tdpNbTVy2Zxx2leyOIp%2FY1K%2FdbfUBfNWLf3oIF4nrvgSlyjU%2BM2cdtMQihnIyLVIfQI%2BmPnSrI1AtRLVyx3gABU8J9pLwS0%3D&cifr=1&flrdr=yes&nxte=xml";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://pagesinxt.com/?dn=www.grayther.com&fp=CksaMwVSkgglrFMaC4mRMRPec1mosIKx3Q8S1hZlJ7jM7rI%2B3EqYDSG%2FxNydxrt4%2BFHEvKAooqd1lNeAQuhFAA%3D%3D&prvtof=QKkJ0CoOdG3PnwqOagMfdv%2BD1rRVj7EFaeNwVcG%2BYyg%3D&poru=uGdeux17Mq0DrzJn1cJhbqDUIn2AwRh1lufUmNKQFzhmWHxZKZJOeZUQ%2Bk%2BM7lNHj45Y9fCE2DN7weFQQt0pm0NzIWbjaDGnyN%2Fw0JT8ia8%3D&flrdr=yes&nxte=xml">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://pagesinxt.com/?dn=www.grayther.com&fp=CksaMwVSkgglrFMaC4mRMRPec1mosIKx3Q8S1hZlJ7jM7rI%2B3EqYDSG%2FxNydxrt4%2BFHEvKAooqd1lNeAQuhFAA%3D%3D&prvtof=SbG3VodJg9SSGIGZyqnSK2JTSjQKODj8ib0Q5BS%2BuQs%3D&poru=1ru%2BanoVYKjpUTN8gZNx8SS2QJYyBWu7Z7Xsghj%2FZM%2FI4D%2BJwENWItd5QnrXTBZ5eSm4xb8%2FQ38pF90GG8IbdrGnBtYfZc%2BmiiV8wRmNOLM%3D&flrdr=yes&nxte=xml">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->

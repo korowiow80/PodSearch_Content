@@ -1,0 +1,18 @@
+	
+	<SCRIPT Language="JavaScript">
+		top.location.href = "../portlets/login.php";
+	</SCRIPT>
+		<SCRIPT Language="JavaScript">
+		top.location.href = "../portlets/login.php";
+	</SCRIPT>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="fr-CH">
+	<frameset rows="168,*" frameborder="0">
+		<frame src="content/includes/frameheader.php" name="header" frameborder="0">
+		<frameset cols="292,*">
+			<frame src="content/includes/treemenu.php" name="menu">
+			<frame src="portlets/login.php" name="content">
+		</frameset> 
+	</frameset> 
+</html>

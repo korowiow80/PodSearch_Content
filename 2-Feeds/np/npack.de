@@ -1,0 +1,716 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<!-- Design (c) 2010 by NPack.de -->
+	<head>
+		<link rel="stylesheet" media="screen" type="text/css" href="css/css.css" />
+		<link rel="stylesheet" href="css/menu-top.css" type="text/css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="css/scrollable-horizontal.css" />
+		<link rel="stylesheet" type="text/css" href="css/scrollable-buttons.css" />
+		<link rel="stylesheet" type="text/css" href="css/scrollable-navigator.css" />
+		<link href="css/DDSlider.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css" />
+		
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+		<script src="scripts/jquery.tools.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="scripts/jquery.DDSlider.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.lightbox.min.js"></script>
+		<script type="text/javascript" src="scripts/npack_scripts.js"></script>
+		
+		
+		
+		<meta name="revisit-after" content="1day" />
+		<meta name="description" content="Aktuelles Nintendo Magazin mit Wii, 3DS und DS News (Nachrichten). Inklusive gro&szlig;em Forum (Community) zu Nintendo." />
+		<meta name="keywords" content="Nintendo, Wii, 3DS, DS, News, Magazin, Forum, Community, Test, Review, Preview, Aktuelles, Spiele, Games" />
+		<meta name="language" content="de" />
+		<meta name="robots" content="index,follow" />
+		<meta name="author" content="www.npack.de" />
+		<meta name="copyright" content="www.npack.de" />
+		<meta name="designer" content="Marc Heiduk, Anton Porsche" />
+		<meta name="readability-verification" content="ks5kKPFeLRSa7mPgUXvJW7dwkXV7GBUkR7Jk8BVD"/>
+		
+		<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/nintendo-news" title="Aktuelle Nintendo News" />
+		
+		<script>
+        /*$(document).ready(function() {
+	    var refreshId = setInterval(function() {
+        var col = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+        $('body').css('background-color', col);
+        }, 3000);
+        });*/
+        </script>
+		
+		<script type="text/javascript">
+		
+		/////////////////////
+		// Comments Script //
+		/////////////////////
+		
+		$(function() {$(".c_submit").click(function(){var ta_comment = $("#ta_comment").val();var dataString = '&ta_comment=' + ta_comment;if(ta_comment==''){alert('Bitte einen Kommentar eingeben!');}else{$("#loading").show();$("#loading").fadeIn(400).html('<img src="img/loading.gif" height="32" width="32" alt="Loading" /> Speichere Kommentar ...');
+		$.ajax({type: "POST",url: "scripts/comments_post.php?news=",data: dataString,cache:false,success:function(html){$(".info").hide();$("#comments_container").append(html);document.getElementById('ta_comment').value='';$("#loading").hide();}});}return false;}); });
+
+		</script>
+		
+		<style type="text/css">
+		
+		#header_bg { background-image: url(img/design/header_v2.png); }
+		
+		</style>
+		
+		<title>NPack.de - Nintendo 3DS, Wii U &amp; Wii News und Reviews</title>
+	</head>
+	<body>
+		<div id="general">
+		
+		<div id="ad_160600" style="position: absolute; margin-left: 1000px;"><!-- BEGIN: 160x600 - www.npack.de, 160 x 600 -->
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4541997293991564";
+/* NPack.de 160x600 AD */
+google_ad_slot = "0319094285";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- END: 160x600 - www.npack.de, 160 x 600 --></div>
+		
+	        <!-- begin header -->
+	           <div id="header_container">
+	
+	        	
+	            <div id="header_bg">
+				<div class="loginboxstyle"><form method="post" action="forum/ucp.php?mode=login" name="login" style="margin-bottom:5px;"><input type="hidden" name="PHPSESSID" value="5fcc9d3321b6651e4ebce3b6163af6c7" /><div class="loginboxtitle">Login <span style="font-size:10px;">oder <a href="forum/ucp.php?mode=register&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" style="color:#FFFFFF;">neu registrieren!</a></span></div><input type="text" name="username" value="Username" onFocus="if(this.value=='Username') this.value=''" class="loginbox" style="margin-top:5px;" /><br /><input type="password" name="password" value="Passwort" onFocus="if(this.value=='Passwort') this.value=''" class="loginbox" /><input name="autologin" value="checked" type="hidden" /><input name="redirect" value="http://www.npack.de/" type="hidden" /> <input type="submit" name="login" value="Einloggen" class="loginbox" /></form><div style="clear: both;"><a href="http://www.facebook.com/NPack.de" title="Facebook" target="_blank"><img src="img/facebook_icon.png" alt="Facebook" style="margin-right: 18px;" /></a><a href="http://twitter.com/NPackDE" title="Twitter" target="_blank"><img src="img/twitter_icon.png" alt="Twitter" style="margin-right: 18px;" /></a><a href="http://www.youtube.com/user/NPackDE" title="YouTube" target="_blank"><img src="img/youtube_icon.png" alt="YouTube" style="margin-right: 18px;" /></a><a href="http://feeds.feedburner.com/nintendo-news" title="RSS Feed" target="_blank"><img src="img/rssfeed_icon.png" alt="RSS Feed" /></a></div></div>
+				   <div id="header_center"><a href="http://www.npack.de/" title="Zur Hauptseite"><img src="img/design/npack_logo.png" alt="NPack Logo" /></a></div>
+	               <div id="header_navbar">	<!-- Begin Menu -->
+	<ul id="nav">
+		<li class="first"><a href="http://www.npack.de/">Startseite</a>
+        
+			<ul><!-- Startseite Sub Menu -->
+				<li><a href="http://www.npack.de/news-einsenden.html" title="News einsenden">News einsenden</a></li>
+                <li><a href="http://www.npack.de/suche.html" title="Suche">Suche</a></li>
+				<li><a href="http://www.npack.de/nintendo-wiiu.html" title="Nintendo WiiU">Nintendo WiiU</a></li>
+            </ul>
+        </li>
+		<li><a href="http://www.npack.de/forum/" title="Nintendo Forum">Forum</a></li>
+        <li><a href="http://www.npack.de/toplist/" title="Wii Toplist">Toplist</a>
+
+			<ul><!-- Toplist Sub Menu -->
+				<li><a href="http://www.npack.de/toplist/join.html" title="Seite eintragen">Seite eintragen</a></li>
+                <li><a href="http://www.npack.de/toplist/user-cpl.html" title="Benutzer Bereich">Benutzer-Kontrollbereich</a></li>
+            </ul>
+         </li>
+         
+         <li><a href="http://www.npack.de/spiele.html" title="Spiele Datenbank">Spiele</a>
+         
+         	<ul><!-- Spiele Sub Menu -->
+				<li><a href="http://www.npack.de/neuerscheinungen.html" title="Nintendo Neuerscheinungen">Neuerscheinungen</a></li>
+				<li><a href="http://www.npack.de/reduzierte-spiele.html" title="Reduzierte Spiele">Reduziert</a></li>
+            </ul>
+          </li>
+            
+         <li><a href="javascript:void(0);">Artikel</a>
+         
+         	<ul><!-- Artikel Sub Menu -->
+				<li><a href="http://www.npack.de/reviews.html" title="Spieletests">Reviews</a></li>
+                <li><a href="http://www.npack.de/handson.html" title="Hands-On">Hands-On</a></li>
+                <li><a href="http://www.npack.de/artikel.html" title="Nintendo Artikel">Artikel</a></li>
+            </ul>
+          </li>
+            
+         <li><a href="javascript:void(0);">Medien</a>
+         
+         	<ul><!-- Medien Sub Menu -->
+				<li><a href="http://www.npack.de/packcast.html" title="Nintendo Podcast">PackCast</a></li>
+                <li><a href="http://www.npack.de/newsletter.html" title="Nintendo Newsletter">Newsletter</a></li>
+            </ul>
+          </li>
+
+		<li class="last"><a href="javascript:void(0);">Sonstiges</a>
+         
+         	<ul><!-- Sonstiges Sub Menu -->
+				<li><a href="http://www.npack.de/seite-impressum.html" title="Impressum">Impressum</a></li>
+				<li><a href="http://www.npack.de/kontakt.html" title="Kontakt">Kontaktformular</a></li>
+                <li><a href="http://www.npack.de/seite-redaktion.html" title="Redaktion">Redaktion</a></li>
+                <li><a href="http://www.npack.de/seite-jobs.html" title="Jobs">Jobs</a></li>
+                <li><a href="http://www.npack.de/seite-partner.html" title="Partner">Partner</a></li>
+                <li><a href="http://www.npack.de/seite-linkus.html" title="Link Us">Link Us</a></li>
+            </ul>
+         </li>
+	</ul>
+	<!-- End Menu --></div>
+</div>
+			   
+			   </div>
+	           <!-- end header -->
+	           <!-- begin content -->
+	           <div id="content_container">
+
+	            <div id="content_right">
+	           	    <div id="content_ad"><a href="http://www.npack.de/e3-2012-live.html" title="E3 2012 Live"><img src="e3expo2012_banner.png" alt="E3 2012 Live" /></a></div>
+	
+	<div class="content_sidebar" style="height: 410px;">
+	<h3 style="border-bottom-color:#7FBA90;">Top-Content</h3>
+<!-- tabs -->
+<ul class="css-tabs">
+	<li><a href="#">News 1up's</a></li>
+	<li><a href="#">Games</a></li>
+	<li><a href="#">Sammlungen</a></li>
+</ul>
+<br />
+<!-- panes -->
+<span class="css-panes">
+<span><div class="oneup_item oneup_bg1">
+		<div class="oneup_stats">
+		<div style="position: absolute; margin-left: 50px; font-size: 12px;"><a href="http://www.npack.de/news-13273-3ds-rabbids-rumble-offiziell-bestaetigt.html#comments" class="comments">5</a></div>
+		<div class="oneup_mushroom"><a href="#" class="love" id="13273">
+<div class="on_img oneup_padding" align="left"> 6 </div> 
+</a></div>
+</div>
+<div class="oneup_news"><a href="http://www.npack.de/news-13273-3ds-rabbids-rumble-offiziell-bestaetigt.html" title="3DS: Rabbids Rumble offiziell bestätigt" style="color:#7FBA90;">3DS: Rabbids Rumble offiziel ...</a></div>
+</div><div class="oneup_item oneup_bg2">
+		<div class="oneup_stats">
+		<div style="position: absolute; margin-left: 50px; font-size: 12px;"><a href="http://www.npack.de/news-13279-aufzeichnung-der-nintendo-direct-presentation-update.html#comments" class="comments">0</a></div>
+		<div class="oneup_mushroom"><a href="#" class="love" id="13279">
+<div class="on_img oneup_padding" align="left"> 5 </div> 
+</a></div>
+</div>
+<div class="oneup_news"><a href="http://www.npack.de/news-13279-aufzeichnung-der-nintendo-direct-presentation-update.html" title="Aufzeichnung der Nintendo Direct Presentation *UPDATE*" style="color:#7FBA90;">Aufzeichnung der Nintendo Di ...</a></div>
+</div><div class="oneup_item oneup_bg3">
+		<div class="oneup_stats">
+		<div style="position: absolute; margin-left: 50px; font-size: 12px;"><a href="http://www.npack.de/news-13280-ubisoft-pk-zombiu-trailer-und-informationen.html#comments" class="comments">0</a></div>
+		<div class="oneup_mushroom"><a href="#" class="love" id="13280">
+<div class="on_img oneup_padding" align="left"> 5 </div> 
+</a></div>
+</div>
+<div class="oneup_news"><a href="http://www.npack.de/news-13280-ubisoft-pk-zombiu-trailer-und-informationen.html" title="Ubisoft PK: ZombiU Trailer und Informationen" style="color:#7FBA90;">Ubisoft PK: ZombiU Trailer u ...</a></div>
+</div><div class="oneup_item oneup_bg4">
+		<div class="oneup_stats">
+		<div style="position: absolute; margin-left: 50px; font-size: 12px;"><a href="http://www.npack.de/news-13282-neues-material-zu-assassin%92s-creed-iii.html#comments" class="comments">0</a></div>
+		<div class="oneup_mushroom"><a href="#" class="love" id="13282">
+<div class="on_img oneup_padding" align="left"> 5 </div> 
+</a></div>
+</div>
+<div class="oneup_news"><a href="http://www.npack.de/news-13282-neues-material-zu-assassin%92s-creed-iii.html" title="Neues Material zu Assassin’s Creed III" style="color:#7FBA90;">Neues Material zu Assassin’s ...</a></div>
+</div><div class="oneup_item oneup_bg5">
+		<div class="oneup_stats">
+		<div style="position: absolute; margin-left: 50px; font-size: 12px;"><a href="http://www.npack.de/news-13281-weitere-titel-fuer-wii-u-bestaetigt.html#comments" class="comments">0</a></div>
+		<div class="oneup_mushroom"><a href="#" class="love" id="13281">
+<div class="on_img oneup_padding" align="left"> 5 </div> 
+</a></div>
+</div>
+<div class="oneup_news"><a href="http://www.npack.de/news-13281-weitere-titel-fuer-wii-u-bestaetigt.html" title="Weitere Titel für Wii U bestätigt!" style="color:#7FBA90;">Weitere Titel f&uuml;r Wii U best ...</a></div>
+</div></span>
+	<span><div class="oneup_item tc_ugamelist_bg1">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>18</b></div><div style="font-size: 10px; display: inline; color: #666;"> Besitzer</div>
+<div class="oneup_news"><a href="http://www.npack.de/besitzer-649-mario-kart-wii.html" title="Mario Kart Wii" style="color:#be0000;">Mario Kart Wii</a></div>
+</div><div class="oneup_item tc_ugamelist_bg2">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>13</b></div><div style="font-size: 10px; display: inline; color: #666;"> Besitzer</div>
+<div class="oneup_news"><a href="http://www.npack.de/besitzer-646-wii-sports.html" title="Wii Sports" style="color:#be0000;">Wii Sports</a></div>
+</div><div class="oneup_item tc_ugamelist_bg3">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>12</b></div><div style="font-size: 10px; display: inline; color: #666;"> Besitzer</div>
+<div class="oneup_news"><a href="http://www.npack.de/besitzer-723-super-smash-bros--brawl.html" title="Super Smash Bros. Brawl" style="color:#be0000;">Super Smash Bros. Brawl</a></div>
+</div><div class="oneup_item tc_ugamelist_bg4">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>12</b></div><div style="font-size: 10px; display: inline; color: #666;"> Besitzer</div>
+<div class="oneup_news"><a href="http://www.npack.de/besitzer-720-super-mario-galaxy.html" title="Super Mario Galaxy" style="color:#be0000;">Super Mario Galaxy</a></div>
+</div><div class="oneup_item tc_ugamelist_bg5">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>12</b></div><div style="font-size: 10px; display: inline; color: #666;"> Besitzer</div>
+<div class="oneup_news"><a href="http://www.npack.de/besitzer-731-the-legend-of-zelda-twilight-princess.html" title="The Legend of Zelda: Twilight Princess" style="color:#be0000;">The Legend of Zelda: Twiligh ...</a></div>
+</div></span>
+	<span><div class="oneup_item tc_ugamelist_bg1">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>109</b></div><div style="font-size: 10px; display: inline; color: #666;"> Spiele in der Sammlung</div>
+<div class="oneup_news"><a href="http://www.npack.de/forum/da_bak-u84.html" title="Spielesammlung von da_Bak" style="color:#be0000;">da_Bak</a></div>
+</div><div class="oneup_item tc_ugamelist_bg2">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>79</b></div><div style="font-size: 10px; display: inline; color: #666;"> Spiele in der Sammlung</div>
+<div class="oneup_news"><a href="http://www.npack.de/forum/heldenpon wippo-u1081.html" title="Spielesammlung von Heldenpon Wippo" style="color:#be0000;">Heldenpon Wippo</a></div>
+</div><div class="oneup_item tc_ugamelist_bg3">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>47</b></div><div style="font-size: 10px; display: inline; color: #666;"> Spiele in der Sammlung</div>
+<div class="oneup_news"><a href="http://www.npack.de/forum/nifl-u1052.html" title="Spielesammlung von NiFl" style="color:#be0000;">NiFl</a></div>
+</div><div class="oneup_item tc_ugamelist_bg4">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>43</b></div><div style="font-size: 10px; display: inline; color: #666;"> Spiele in der Sammlung</div>
+<div class="oneup_news"><a href="http://www.npack.de/forum/dennis-u386.html" title="Spielesammlung von Dennis" style="color:#be0000;">Dennis</a></div>
+</div><div class="oneup_item tc_ugamelist_bg5">
+		<div style="font-size: 26px; display: inline; color: #666;" class="usericon"><b>42</b></div><div style="font-size: 10px; display: inline; color: #666;"> Spiele in der Sammlung</div>
+<div class="oneup_news"><a href="http://www.npack.de/forum/tamii-u1034.html" title="Spielesammlung von TaMii" style="color:#be0000;">TaMii</a></div>
+</div></span>
+	</span></div>
+<script>
+$(function() {
+	$(".css-tabs").tabs(".css-panes > span", {effect: 'fade', fadeOutSpeed: 400});
+});
+</script>
+<div class="content_sidebar">
+<h3>Werbung</h3>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4541997293991564";
+google_ad_slot = "1803198192";
+google_ad_width = 250;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div><div class="content_sidebar">
+	
+	<h3 style="border-bottom-color:#99A6E0;">Neuerscheinungen</h3><div class="release_main release_main_bg">
+		<div class="release_boxart"><a href="http://www.npack.de/boxart/RaymanOrigins3DSBoxart.jpg" class="lightbox" title="Rayman Origins Boxart"><img src="http://www.npack.de/thumbs/boxart/klein/RaymanOrigins3DSBoxart.jpg" height="40" alt="Boxart" /></a></div>
+		<div class="release_title"><a href="http://www.npack.de/spiel-1575-rayman-origins.html" style="color:#99A6E0;">Rayman Origins</a><br />
+		<div class="release_date">7.6.2012</div>
+		<div class="release_img"><a href="http://www.amazon.de/exec/obidos/ASIN/B005KH4C02/np04-21/" target="_blank"><img src="http://www.npack.de/img/az.png" alt="Amazon" /></a> <img src="http://www.npack.de/img/3ds_mini.png" alt="System" /> <img src="http://www.npack.de/img/calendar.png" title="Erscheint heute!" alt="Erscheint heute!" /></div>
+		</div>
+		</div><div class="release_main">
+		<div class="release_boxart"><a href="http://www.npack.de/boxart/HeroesofRuin3DSBoxart.jpg" class="lightbox" title="Heroes of Ruin Boxart"><img src="http://www.npack.de/thumbs/boxart/klein/HeroesofRuin3DSBoxart.jpg" height="40" alt="Boxart" /></a></div>
+		<div class="release_title"><a href="http://www.npack.de/spiel-1426-heroes-of-ruin.html" style="color:#99A6E0;">Heroes of Ruin</a><br />
+		<div class="release_date">15.6.2012</div>
+		<div class="release_img"> <img src="http://www.npack.de/img/3ds_mini.png" alt="System" /> </div>
+		</div>
+		</div><div class="release_main">
+		<div class="release_boxart"><a href="http://www.npack.de/boxart/DefaultWiiBoxart.jpg" class="lightbox" title="Project Zero 2: Wii Edition Boxart"><img src="http://www.npack.de/thumbs/boxart/klein/DefaultWiiBoxart.jpg" height="40" alt="Boxart" /></a></div>
+		<div class="release_title"><a href="http://www.npack.de/spiel-1592-project-zero-2-wii-edition.html" style="color:#99A6E0;">Project Zero 2: Wii Editi...</a><br />
+		<div class="release_date">29.6.2012</div>
+		<div class="release_img"> <img src="http://www.npack.de/img/wii_mini.png" alt="System" /> </div>
+		</div>
+		</div><div class="release_main">
+		<div class="release_boxart"><a href="http://www.npack.de/boxart/DefaultDSBoxart.jpg" class="lightbox" title="LEGO Batman 2: DC Super Heroes Boxart"><img src="http://www.npack.de/thumbs/boxart/klein/DefaultDSBoxart.jpg" height="40" alt="Boxart" /></a></div>
+		<div class="release_title"><a href="http://www.npack.de/spiel-1570-lego-batman-2-dc-super-heroes.html" style="color:#99A6E0;">LEGO Batman 2: DC Super H...</a><br />
+		<div class="release_date">29.6.2012</div>
+		<div class="release_img"> <img src="http://www.npack.de/img/ds_mini.png" alt="System" /> </div>
+		</div>
+		</div><div class="release_main">
+		<div class="release_boxart"><a href="http://www.npack.de/boxart/Default3DSBoxart.jpg" class="lightbox" title="LEGO Batman 2: DC Super Heroes Boxart"><img src="http://www.npack.de/thumbs/boxart/klein/Default3DSBoxart.jpg" height="40" alt="Boxart" /></a></div>
+		<div class="release_title"><a href="http://www.npack.de/spiel-1569-lego-batman-2-dc-super-heroes.html" style="color:#99A6E0;">LEGO Batman 2: DC Super H...</a><br />
+		<div class="release_date">29.6.2012</div>
+		<div class="release_img"> <img src="http://www.npack.de/img/3ds_mini.png" alt="System" /> </div>
+		</div>
+		</div><br />
+	<div class="right"><a href="http://www.npack.de/neuerscheinungen.html" style="color:#99A6E0;font-size:12px;">Zu weiteren Neuerscheinungen</a></div>
+	</div>	            
+<br>
+<a href="http://www.npack.de/e3-2012-live.html" title="E3 2012">E3 2012 Live</a> - <a href="http://www.npack.de/index-wiiu-news.html" title="Wii U News">Wii U News</a>
+<div style="text-align:center;font-size:12px;"></div></div>
+	              <div id="content_left">
+	                <div id="content_slideshow">						<ul id="yourSliderId">
+						
+							<li title="squareMoving"><div class="title_slide">The Last Story im Test<br /><br />
+									  <span class="title_slide_small">Wirklich das Letzte? Sicher nicht!<br /><br /><a href="http://www.npack.de/review-995-the-last-story.html" style="color: #FFFFFF;" title="The Last Story im Test"><strong>&gt;&gt; mehr ...</strong></a></span>
+									</div>
+									<a href="http://www.npack.de/review-995-the-last-story.html"><img src="http://www.npack.de/img/slideshow/Slideshow373.jpg" title="The Last Story im Test" alt="" /></a></i><li title="squareMoving"><div class="title_slide">Pinball Hall of Fame: The Williams Collection im Test<br /><br />
+									  <span class="title_slide_small">Erreicht das Flipper-Game auf dem 3DS einen Highscore?<br /><br /><a href="http://www.npack.de/review-1598-pinball-hall-of-fame-williams-collection.html" style="color: #FFFFFF;" title="Pinball Hall of Fame: The Williams Collection im Test"><strong>&gt;&gt; mehr ...</strong></a></span>
+									</div>
+									<a href="http://www.npack.de/review-1598-pinball-hall-of-fame-williams-collection.html"><img src="http://www.npack.de/img/slideshow/Slideshow592.jpg" title="Pinball Hall of Fame: The Williams Collection im Test" alt="" /></a></i><li title="squareMoving"><div class="title_slide">Pandora's Tower im Test<br /><br />
+									  <span class="title_slide_small">Ein neues Action-RPG erobert die Wii!<br /><br /><a href="http://www.npack.de/review-1199-pandoras-tower.html" style="color: #FFFFFF;" title="Pandora's Tower im Test"><strong>&gt;&gt; mehr ...</strong></a></span>
+									</div>
+									<a href="http://www.npack.de/review-1199-pandoras-tower.html"><img src="http://www.npack.de/img/slideshow/Slideshow458.jpg" title="Pandora's Tower im Test" alt="" /></a></i><li title="squareMoving"><div class="title_slide">PackCast #20<br /><br />
+									  <span class="title_slide_small">Der ultimative Energy Drink Test. Jetzt im neuen PackCast.<br /><br /><a href="http://www.npack.de/podcast-20-packcast-20---erfrischendes-jubilaeum-mit-alpen-yodl.html" style="color: #FFFFFF;" title="PackCast #20"><strong>&gt;&gt; mehr ...</strong></a></span>
+									</div>
+									<a href="http://www.npack.de/podcast-20-packcast-20---erfrischendes-jubilaeum-mit-alpen-yodl.html"><img src="http://www.npack.de/img/slideshow/Slideshow374.jpg" title="PackCast #20" alt="" /></a></i><li title="squareMoving"><div class="title_slide">Kid Icarus: Uprising im Test<br /><br />
+									  <span class="title_slide_small">Engel Pit eilt wieder zur Rettung der Welt - Ein neuer Top-Titel f&uuml;r den 3DS?<br /><br /><a href="http://www.npack.de/review-511-kid-icarus-uprising.html" style="color: #FFFFFF;" title="Kid Icarus: Uprising im Test"><strong>&gt;&gt; mehr ...</strong></a></span>
+									</div>
+									<a href="http://www.npack.de/review-511-kid-icarus-uprising.html"><img src="http://www.npack.de/img/slideshow/Slideshow532.png" title="Kid Icarus: Uprising im Test" alt="" /></a></i>
+						</ul>
+				  <div class="container_slide">
+                  <div class="slider_arrow_left"></div>
+                  <div class="slider_arrow_right"></div>
+                  <ul class="slider_selector"></ul>
+				  </div>
+					</div>
+
+	                   <div id="content_main">
+	<h3>News</h3>
+	<table width="650" height="50" border="0">
+<tr>
+<td class="center"><a href="index.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Nintendo News"><img src="img/design/npack.png" alt="Alle News" /></a></td><td width="25"></td><td class="center"><a href="index-wiiu-news.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii U News"><img src="img/wiiu-news.png" alt="Wii U News" /></a></td><td width="25"></td><td class="center"><a href="index-wii-news.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii News"><img src="img/design/wii3.png" alt="Wii News" /></a></td><td width="25"></td><td class="center"><a href="index-3ds-news.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="3DS News"><img src="img/design/3ds3.png" alt="3DS News" /></a></td>
+</tr>
+</table>
+	<div id="news_container">
+	<h6>Donnerstag, 07. Juni</h6><div class="news_item_intern" onClick="location.href='http://www.npack.de/news-13303-packcast-22-fazit-zur-e3-nintendo-konferenz.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_intern.png" alt="Intern" title="Intern" /></div>
+		      <div class="title">
+		         <h1><a href="news-13303-packcast-22-fazit-zur-e3-nintendo-konferenz.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="PackCast 22: Fazit zur E3 Nintendo-Konferenz">PackCast 22: Fazit zur E3 Nintendo-Konfere ...</a></h1>
+		         <h2>Vier Redakteure geben ihren Senf ab</h2>
+				 <span class="author">Marc um 00:07 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13303">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13303-packcast-22-fazit-zur-e3-nintendo-konferenz.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">1</a></div>
+</div>  
+	</div>
+<h6>Mittwoch, 06. Juni</h6><div class="news_item" onClick="location.href='http://www.npack.de/news-13302-disney-micky-epic-2-erscheint-am-17--november.html'">
+		      <div class="category"><div class="news_wii">wii</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13302-disney-micky-epic-2-erscheint-am-17--november.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Disney Micky Epic 2 erscheint am 17. November">Disney Micky Epic 2 erscheint am 17. Novem ...</a></h1>
+		         <h2>Disney Interactive k&uuml;ndigt Releasedatum an</h2>
+				 <span class="author">Florian um 19:52 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13302">
+<div class="on_img" align="left"> 1 </div> 
+</a>
+<div class="div_comments"><a href="news-13302-disney-micky-epic-2-erscheint-am-17--november.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13301-heroes-of-ruin-morgen-als-3ds-demo-erhaeltlich.html'">
+		      <div class="category"><div class="news_3ds">3ds</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13301-heroes-of-ruin-morgen-als-3ds-demo-erhaeltlich.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Heroes of Ruin morgen als 3DS Demo erh&auml;ltlich">Heroes of Ruin morgen als 3DS Demo erh&auml;ltl ...</a></h1>
+		         <h2>Au&szlig;erdem die restlichen Downloads dieser Woche!</h2>
+				 <span class="author">Florian um 19:43 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13301">
+<div class="on_img" align="left"> 1 </div> 
+</a>
+<div class="div_comments"><a href="news-13301-heroes-of-ruin-morgen-als-3ds-demo-erhaeltlich.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13300-e3-game---wario-angekuendigt-fuer-wii-u.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13300-e3-game---wario-angekuendigt-fuer-wii-u.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="E3: Game &amp; Wario angek&uuml;ndigt f&uuml;r Wii U">E3: Game &amp; Wario angek&uuml;ndigt f&uuml;r Wii U</a></h1>
+		         <h2>Ein neues Geschicklichkeitsspiel im Stil der WarioWare Serie</h2>
+				 <span class="author">Florian um 01:11 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13300">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13300-e3-game---wario-angekuendigt-fuer-wii-u.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">2</a></div>
+</div>  
+	</div>
+<div class="news_item">
+		      <div class="category"><div class="news_allg">ad</div><img src="img/cat_partner.png" alt="Partner" title="Partner" /></div>
+		      <div class="news_ad"><center><!-- BEGIN: 468x60 - www.npack.de, 468 x 60 -->
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-4541997293991564";
+/* Wii Fanseite ADS small */
+google_ad_slot = "2691784105";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- END: 468x60 - www.npack.de, 468 x 60 --></center></div>
+	</div><div class="news_item" onClick="location.href='http://www.npack.de/news-13299-e3-p-100-fuer-wii-u-angekuendigt.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13299-e3-p-100-fuer-wii-u-angekuendigt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="E3: P-100 f&uuml;r Wii U angek&uuml;ndigt">E3: P-100 f&uuml;r Wii U angek&uuml;ndigt</a></h1>
+		         <h2>In einem Interview mit Reggie Fils-Aime</h2>
+				 <span class="author">Florian um 00:55 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13299">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13299-e3-p-100-fuer-wii-u-angekuendigt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13298-e3-wii-u-erscheint-in-schwarz-und-weiss.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13298-e3-wii-u-erscheint-in-schwarz-und-weiss.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="E3: Wii U erscheint in Schwarz und Wei&szlig;">E3: Wii U erscheint in Schwarz und Wei&szlig;</a></h1>
+		         <h2>Einige Bilder der Konsole</h2>
+				 <span class="author">Florian um 00:42 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13298">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13298-e3-wii-u-erscheint-in-schwarz-und-weiss.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">1</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13297-technische-daten-der-wii-u-bekannt.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_hardware.png" alt="Hardware" title="Hardware" /></div>
+		      <div class="title">
+		         <h1><a href="news-13297-technische-daten-der-wii-u-bekannt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Technische Daten der Wii U bekannt">Technische Daten der Wii U bekannt</a></h1>
+		         <h2>Nintendo plauderte nach der Pressekonferenz</h2>
+				 <span class="author">Marc um 00:21 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13297">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13297-technische-daten-der-wii-u-bekannt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13295-e3-liste-mit-allen-wii-u-titeln-veroeffentlicht.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13295-e3-liste-mit-allen-wii-u-titeln-veroeffentlicht.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="E3: Liste mit allen Wii-U Titeln ver&ouml;ffentlicht">E3: Liste mit allen Wii-U Titeln ver&ouml;ffent ...</a></h1>
+		         <h2>&Uuml;ber 35 Spiele werden aufgez&auml;hlt</h2>
+				 <span class="author">Florian um 00:03 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13295">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13295-e3-liste-mit-allen-wii-u-titeln-veroeffentlicht.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<h6>Dienstag, 05. Juni</h6><div class="news_item" onClick="location.href='http://www.npack.de/news-13294-3ds-spiele-werden-morgen-vorgestellt.html'">
+		      <div class="category"><div class="news_3ds">3ds</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13294-3ds-spiele-werden-morgen-vorgestellt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="3DS Spiele werden morgen vorgestellt!">3DS Spiele werden morgen vorgestellt!</a></h1>
+		         <h2>Live-Stream auf der offiziellen Nintendo Seite</h2>
+				 <span class="author">Florian um 19:24 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13294">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13294-3ds-spiele-werden-morgen-vorgestellt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13293-nintendo-pressekonferenz-ubisoft-stellt-spiele-vor.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13293-nintendo-pressekonferenz-ubisoft-stellt-spiele-vor.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Nintendo Pressekonferenz: Ubisoft stellt Spiele vor">Nintendo Pressekonferenz: Ubisoft stellt S ...</a></h1>
+		         <h2>Rayman Legends, Zombi U, Just Dance 4</h2>
+				 <span class="author">Florian um 19:01 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13293">
+<div class="on_img" align="left"> 3 </div> 
+</a>
+<div class="div_comments"><a href="news-13293-nintendo-pressekonferenz-ubisoft-stellt-spiele-vor.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13292-lego-city-undercover-fuer-wii-u.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13292-lego-city-undercover-fuer-wii-u.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Lego City: Undercover f&uuml;r Wii U">Lego City: Undercover f&uuml;r Wii U</a></h1>
+		         <h2>Open World Titel f&uuml;r die neue Nintendo Konsole</h2>
+				 <span class="author">Florian um 18:50 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13292">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13292-lego-city-undercover-fuer-wii-u.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13291-nintendo-konferenz-3ds-spiele.html'">
+		      <div class="category"><div class="news_3ds">3ds</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13291-nintendo-konferenz-3ds-spiele.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Nintendo Konferenz: 3DS Spiele">Nintendo Konferenz: 3DS Spiele</a></h1>
+		         <h2>New Super Mario Bros. 2, Paper Mario, Luigis Mansion</h2>
+				 <span class="author">Florian um 18:47 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13291">
+<div class="on_img" align="left"> 3 </div> 
+</a>
+<div class="div_comments"><a href="news-13291-nintendo-konferenz-3ds-spiele.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13290-nintendo-wii-fit-u-vorgestellt.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13290-nintendo-wii-fit-u-vorgestellt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Nintendo Wii Fit U vorgestellt">Nintendo Wii Fit U vorgestellt</a></h1>
+		         <h2>Der dritte Teil der Fitness Reihe</h2>
+				 <span class="author">Florian um 18:38 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13290">
+<div class="on_img" align="left"> 3 </div> 
+</a>
+<div class="div_comments"><a href="news-13290-nintendo-wii-fit-u-vorgestellt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13289-neues-video-zeigt-viele-dritthersteller-spiele.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13289-neues-video-zeigt-viele-dritthersteller-spiele.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Neues Video zeigt viele Dritthersteller-Spiele">Neues Video zeigt viele Dritthersteller-Sp ...</a></h1>
+		         <h2>Trine 2, Ninja Gaiden 3, Tekken Tag Tournament, ...</h2>
+				 <span class="author">Florian um 18:35 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13289">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13289-neues-video-zeigt-viele-dritthersteller-spiele.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">1</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13288-wii-u-scribblenauts-unlimited-.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13288-wii-u-scribblenauts-unlimited-.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii U: Scribblenauts Unlimited ">Wii U: Scribblenauts Unlimited </a></h1>
+		         <h2>In einem kurzen Video wird das neue Spiel vorgestellt.</h2>
+				 <span class="author">Florian um 18:31 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13288">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13288-wii-u-scribblenauts-unlimited-.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13287-super-mario-bros--u-vorgestellt.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13287-super-mario-bros--u-vorgestellt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Super Mario Bros. U vorgestellt!">Super Mario Bros. U vorgestellt!</a></h1>
+		         <h2>Erstes Super Mario in HD vorgestellt mit neuen Elementen</h2>
+				 <span class="author">Florian um 18:25 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13287">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13287-super-mario-bros--u-vorgestellt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13286-wii-u-miiverse-auch-ueber-smartphone-erreichbar.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13286-wii-u-miiverse-auch-ueber-smartphone-erreichbar.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii U: Miiverse auch &uuml;ber Smartphone erreichbar">Wii U: Miiverse auch &uuml;ber Smartphone errei ...</a></h1>
+		         <h2>Verschiedene Funktionen werden wiederholt</h2>
+				 <span class="author">Florian um 18:22 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13286">
+<div class="on_img" align="left"> 2 </div> 
+</a>
+<div class="div_comments"><a href="news-13286-wii-u-miiverse-auch-ueber-smartphone-erreichbar.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13285-wii-u-wird-zwei-gamepads-unterstuetzen.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13285-wii-u-wird-zwei-gamepads-unterstuetzen.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii U wird zwei GamePads unterst&uuml;tzen">Wii U wird zwei GamePads unterst&uuml;tzen</a></h1>
+		         <h2>Reggie Fils-Aime best&auml;tigt dies</h2>
+				 <span class="author">Florian um 18:18 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13285">
+<div class="on_img" align="left"> 3 </div> 
+</a>
+<div class="div_comments"><a href="news-13285-wii-u-wird-zwei-gamepads-unterstuetzen.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13284-wii-u-nintendo-kuendigt-pikmin-3-an.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13284-wii-u-nintendo-kuendigt-pikmin-3-an.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii U: Nintendo k&uuml;ndigt Pikmin 3 an">Wii U: Nintendo k&uuml;ndigt Pikmin 3 an</a></h1>
+		         <h2>Shigeru Miyamoto stellt den dritten Teil vor</h2>
+				 <span class="author">Florian um 18:11 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13284">
+<div class="on_img" align="left"> 3 </div> 
+</a>
+<div class="div_comments"><a href="news-13284-wii-u-nintendo-kuendigt-pikmin-3-an.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item_intern" onClick="location.href='http://www.npack.de/news-13283-e3-2012-nintendo-pk-heute-um-18-00-uhr.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_intern.png" alt="Intern" title="Intern" /></div>
+		      <div class="title">
+		         <h1><a href="news-13283-e3-2012-nintendo-pk-heute-um-18-00-uhr.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="E3 2012: Nintendo PK heute um 18.00 Uhr">E3 2012: Nintendo PK heute um 18.00 Uhr</a></h1>
+		         <h2>Bald geht es los</h2>
+				 <span class="author">Marc um 16:16 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13283">
+<div class="on_img" align="left"> 4 </div> 
+</a>
+<div class="div_comments"><a href="news-13283-e3-2012-nintendo-pk-heute-um-18-00-uhr.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">1</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13282-neues-material-zu-assassin%92s-creed-iii.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13282-neues-material-zu-assassin%92s-creed-iii.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Neues Material zu Assassin’s Creed III">Neues Material zu Assassin’s Creed III</a></h1>
+		         <h2>Videos und Gameplay Footage</h2>
+				 <span class="author">Florian um 01:45 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13282">
+<div class="on_img" align="left"> 5 </div> 
+</a>
+<div class="div_comments"><a href="news-13282-neues-material-zu-assassin%92s-creed-iii.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13281-weitere-titel-fuer-wii-u-bestaetigt.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13281-weitere-titel-fuer-wii-u-bestaetigt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Weitere Titel f&uuml;r Wii U best&auml;tigt!">Weitere Titel f&uuml;r Wii U best&auml;tigt!</a></h1>
+		         <h2>Rabbids Land, Assassin's Creed III, Rayman Legends, ...</h2>
+				 <span class="author">Florian um 01:25 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13281">
+<div class="on_img" align="left"> 5 </div> 
+</a>
+<div class="div_comments"><a href="news-13281-weitere-titel-fuer-wii-u-bestaetigt.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13280-ubisoft-pk-zombiu-trailer-und-informationen.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13280-ubisoft-pk-zombiu-trailer-und-informationen.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Ubisoft PK: ZombiU Trailer und Informationen">Ubisoft PK: ZombiU Trailer und Information ...</a></h1>
+		         <h2>Vormals bekannt als 'Killer Freaks from Outer Space'</h2>
+				 <span class="author">Florian um 01:19 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13280">
+<div class="on_img" align="left"> 5 </div> 
+</a>
+<div class="div_comments"><a href="news-13280-ubisoft-pk-zombiu-trailer-und-informationen.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<h6>Montag, 04. Juni</h6><div class="news_item" onClick="location.href='http://www.npack.de/news-13279-aufzeichnung-der-nintendo-direct-presentation-update.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13279-aufzeichnung-der-nintendo-direct-presentation-update.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Aufzeichnung der Nintendo Direct Presentation *UPDATE*">Aufzeichnung der Nintendo Direct Presentat ...</a></h1>
+		         <h2>Nintendo Direct verpasst? Kein Problem!</h2>
+				 <span class="author">Florian um 00:47 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13279">
+<div class="on_img" align="left"> 5 </div> 
+</a>
+<div class="div_comments"><a href="news-13279-aufzeichnung-der-nintendo-direct-presentation-update.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">0</a></div>
+</div>  
+	</div>
+<div class="news_item" onClick="location.href='http://www.npack.de/news-13278-wii-u-als-soziale-plattform.html'">
+		      <div class="category"><div class="news_allg">allg</div><img src="img/cat_software.png" alt="Software" title="Software" /></div>
+		      <div class="title">
+		         <h1><a href="news-13278-wii-u-als-soziale-plattform.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" title="Wii U als soziale Plattform">Wii U als soziale Plattform</a></h1>
+		         <h2>Mii Wara Wara, Miiverse, Kommunikation in Spielen</h2>
+				 <span class="author">Florian um 00:43 Uhr</span>
+			  </div>
+		      <div class="like"><a href="#" class="love" id="13278">
+<div class="on_img" align="left"> 3 </div> 
+</a>
+<div class="div_comments"><a href="news-13278-wii-u-als-soziale-plattform.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7#comments" class="comments">3</a></div>
+</div>  
+	</div>
+<br />
+<center><div class="pagination"><span class="disabled">&laquo; zur&uuml;ck</span><span class="current">1</span><a href="index.html?page=2&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">2</a><a href="index.html?page=3&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">3</a><a href="index.html?page=4&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">4</a><a href="index.html?page=5&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">5</a><a href="index.html?page=6&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">6</a><a href="index.html?page=7&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">7</a><a href="index.html?page=8&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">8</a><a href="index.html?page=9&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">9</a>...<a href="index.html?page=529&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">529</a><a href="index.html?page=530&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">530</a><a href="index.html?page=2&select=&PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">vor &raquo;</a></div>
+</center>
+	</div>
+	<!--<br><br>
+	<a href="forum/news-f61.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">Newsarchiv</a> - <a href="suche.php?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7">Suche</a>-->
+	                   </div>
+	              </div>
+	           </div>
+	           <!-- end content -->
+	           <div id="clearfloat"></div>
+	           <!-- begin footer -->
+	           <div id="footer_container">
+			   <div class="footer_text">
+			   <span class="footer_bgtext"><strong>Partner:</strong> <a href="http://www.play3.de/" target="_blank" title="play3.de">play3</a> - <a href="http://www.xboxuser.de/" target="_blank" title="xboxuser.de">XboxUser.de</a> - <a href="http://www.zeldaeurope.de/" target="_blank" title="ZeldaEurope.de">ZEurope</a> - <a href="http://www.junge-technik.de/" target="_blank" title="Junge-Technik.de Magazin">Games News</a> - <a href="http://www.rawiioli.de/" target="_blank" title="Rawiioli - Gaming is awesome">Rawiioli</a> - <a href="http://www.ikyg.de/" target="_blank" title="iknowyourgame.de">IKYG</a> - <a href="http://elhabib.com/" target="_blank" title="eLhabib - A gaming Life!">elhabib</a> - <a href="http://www.pressabutton.de/" target="_blank" title="pressabutton.de">Press A Button</a> - <a href="seite-partner.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7" target="_blank"><i>mehr Partner</i></a></span>
+			   </div>
+			   <div class="footer_imprint">
+			   <span class="footer_bgtext">&copy; 2012 NPack.de 1.2 - <a href="seite-impressum.html?PHPSESSID=5fcc9d3321b6651e4ebce3b6163af6c7"><strong>Impressum</strong></a>
+			   </div>
+			   </div>
+			   
+	    </div>
+		
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    jQuery('.lightbox').lightbox();
+  });
+</script>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18705529-1']);
+		  _gaq.push(['_gat._anonymizeIp']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+	</body>
+</html>

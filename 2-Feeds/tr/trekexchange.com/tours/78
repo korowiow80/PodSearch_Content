@@ -1,0 +1,470 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Philadelphia iPod MP3 Audio Walking Tour</title>
+		<!--// DOCUMENT (META) INFORMATION //-->
+		<meta http-equiv="charset" content="iso-8859-1" />
+		
+
+
+<meta name="description" content="Let your iPod be your guide through Philadelphia’s best sightseeing, $14.99" />
+		<meta name="keywords" content="Philadelphia iPod MP3 Audio Walking Tour, Philly, John Adams, constitution" />
+		<meta name="author" content="TrekExchange" />
+		<meta name="copyright" content="December 2007" />
+		<meta name="contact" content="info@trekexchange.com" />
+		<meta name="ROBOTS" content="NOODP" />
+		<meta name="verify-v1" content="ky5Z6d8/mpwjB4L7t8v/KHZvakcYVRNlG0BpSQCdT/w=" />
+		<!--// STYLESHEETS //-->
+		<link rel="stylesheet" type="text/css" href="/css/default.css" />
+		<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="/css/ie.css" />
+		<![endif]-->
+		<!--// LIGHTBOX JS //-->
+		<link rel="stylesheet" href="/css/lightbox.css" type="text/css" media="screen" />
+		<script src="/js/prototype.js" type="text/javascript"></script>
+		<script src="/js/scriptaculous.js?load=effects" type="text/javascript"></script>
+		<script src="/js/lightbox.js" type="text/javascript"></script>
+		<!--// GOOGLE ANALYTICS //-->
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+		_uacct = "UA-3508701-1";
+		urchinTracker();
+		</script>
+		<script src="https://seal.networksolutions.com/siteseal/javascript/siteseal.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+		<!--//
+		
+		function go_pop_up(url)
+		{
+		  if (navigator.appName == "Microsoft Internet Explorer")
+		  {
+		    if ( navigator.appVersion.indexOf( "Macintosh" ) != -1 ) // IE Mac
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=280,height=260,top=0,left=0,resizable=yes');
+		    }
+		    else // IE Win
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=280,height=260,top=0,left=0,resizable=yes');
+		    }
+		  }
+		  if (navigator.appName != "Microsoft Internet Explorer")
+		  {
+		    if ( navigator.appVersion.indexOf( "Macintosh" ) != -1 ) // Netscape Mac
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=484,height=340,top=50,left=50,resizable=yes');
+		    }
+		    else // Netscape WIn
+		    {
+		      window.open(url,'','status=no,location=no,menubar=no,toolbar=no,scrollbars=no,width=484,height=340,top=50,left=50,resizable=yes');
+		    }
+		  }
+		}
+		
+		//-->
+		</script>
+		<script type="text/javascript">
+		<!--// Browser Support Code
+	
+		function getCities(){
+			var ajaxRequest;  // The variable that makes Ajax possible!
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+			// Create a function that will receive data sent from the server
+			ajaxRequest.onreadystatechange = function(){
+				if(ajaxRequest.readyState == 4){
+					var sPath = window.location.pathname;
+					//var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+					var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+					document.getElementById('citySelect').innerHTML = ajaxRequest.responseText;
+				}
+			}
+			var country = document.getElementById('tours').country.options[document.getElementById('tours').country.selectedIndex].value;
+			ajaxRequest.open("GET", "includes/get-cities.php?country="+country, true);
+			ajaxRequest.send(null); 
+		}
+		
+		function getSites(){
+			var ajaxRequest;  // The variable that makes Ajax possible!
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+			// Create a function that will receive data sent from the server
+			ajaxRequest.onreadystatechange = function(){
+				if(ajaxRequest.readyState == 4){
+					var sPath = window.location.pathname;
+					//var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+					var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+					/* if(sPage == 'search.php') {
+						document.getElementById('tours').tour_name.innerHTML = '<option value="">Show All</option>';
+					}else{
+						document.getElementById('tours').tour_name.innerHTML = '<option value=""> - - Choose an option - - </option>';
+					} */
+					document.getElementById('tournameSelect').innerHTML = ajaxRequest.responseText;
+				}
+			}
+			ajaxRequest.open("GET", "includes/get-sites.php?city="+document.getElementById('tours').city.options[document.getElementById('tours').city.selectedIndex].value, true);
+			ajaxRequest.send(null); 
+		}
+		
+		function updateResults(){
+			document.getElementById('results').innerHTML = '<h5 style="text-align:center;margin-top:0;"><img src="/images/loading.gif" alt="Loading..." /><br/>Loading...</h5>';
+			var ajaxRequest;  // The variable that makes Ajax possible!
+			
+			try{
+				// Opera 8.0+, Firefox, Safari
+				ajaxRequest = new XMLHttpRequest();
+			} catch (e){
+				// Internet Explorer Browsers
+				try{
+					ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+				} catch (e) {
+					try{
+						ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+					} catch (e){
+						// Something went wrong
+						alert("Your browser broke!");
+						return false;
+					}
+				}
+			}
+			// Create a function that will receive data sent from the server
+			ajaxRequest.onreadystatechange = function(){
+				if(ajaxRequest.readyState == 4){
+					var sPath = window.location.pathname;
+					//var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+					var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+					document.getElementById('results').innerHTML = ajaxRequest.responseText;
+					document.getElementById('tours').offset.value = '';
+				}
+			}
+			var queryString = "includes/get-results.php?country="+document.getElementById('tours').country.options[document.getElementById('tours').country.selectedIndex].value+"&city="+document.getElementById('tours').city.options[document.getElementById('tours').city.selectedIndex].value+"&tour_name="+document.getElementById('tours').tour_name.options[document.getElementById('tours').tour_name.selectedIndex].value+"&type="+document.getElementById('tours').type.options[document.getElementById('tours').type.selectedIndex].value+"&platform="+document.getElementById('tours').platform.options[document.getElementById('tours').platform.selectedIndex].value+"&offset="+document.getElementById('tours').offset.value;
+			ajaxRequest.open("GET", queryString, true);
+			ajaxRequest.send(null); 
+		}
+		
+		function popup(page) {
+			window.open(page,'popup','width=660,height=490,toolbar=false,scrollbar=false,resizeable=no,menubar=no');
+		}
+		
+		function popup2(page2) {
+			window.open(page2,'popup2','width=370,height=595,toolbar=false,scrollbar=false,resizeable=no,menubar=no');
+		}
+		
+		function popup3(page3) {
+			window.open(page3,'popup3','width=570,height=420,toolbar=false,scrollbar=false,resizeable=no,menubar=no');
+		}
+		
+		//-->
+		</script>
+
+	</head>
+	
+	<body>
+		<div id="all">
+			<h3 style="margin:0;margin-bottom:1em;display:block;font-size:7pt;color:#666;">Keywords: Philadelphia iPod MP3 Audio Walking Tour, Philly, John Adams, constitution</h3>
+			<div id="search">
+				<form id="searchFrm" method="post" action="/search-results.php">
+					<p style="margin:0;padding:0;font-size:8pt;">Search <input type="text" name="q" size="25" maxlength="255" value="" /> | <a href="http://www.payloadz.com/go/view_cart.asp?id_user=61948" onclick="window.open(this.href,'paypal'); return false;">View Cart</a></p>
+				</form>
+				<!--//
+				############################################################
+				#################### GOOGLE SITE SEARCH ####################
+				############################################################
+				#####	<form id="googlesearch" method="get" action="http://www.google.com/search">
+				#####		<p style="margin:0;padding:0;"><input type="hidden" name="sitesearch" value="trekexchange.com" />Search <input type="text" name="q" size="25" maxlength="255" value="" /></p>
+				#####	</form>
+				############################################################
+				//-->
+			</div>
+			<div id="head"><a href="/index.php" title="TrekExchange&trade; Home Page"><img src="/images/trek_exchange.png" alt="Trek Exchange" /></a></div>
+			<div id="global">
+				<a href="/index.php">Home</a> | 
+				<a href="/demo.php">How it Works</a> | 
+				<a href="/faq.php">FAQ&#39;s</a> | 
+				
+
+
+<strong>
+<a href="/search.php">Search for Tours</a>
+</strong>
+
+
+ | 
+				<!--// <a href="/upload.php">Submit Your Tour</a> | //-->
+				<a href="/contact.php">Contact</a> | 
+				<a href="/links.php">Links</a> | 
+				<a href="/sitemap.php">Sitemap</a> 
+			</div>			<div id="content">
+				<!--// PAGE CONTENT STARTS HERE //-->
+<h1 style="margin-bottom:0;">Philadelphia iPod MP3 Audio Walking Tour</h1><h2 style="margin-top:0;">Let your iPod be your guide through Philadelphia’s best sightseeing, $14.99</h2><form id="searchCriteria" action="/search.php" method="get"><fieldset style="padding:0;border:none;background-color:transparent;"><input type="hidden" name="country" value="" /><input type="hidden" name="city" value="" /><input type="hidden" name="tour_name" value="" /><input type="hidden" name="type" value="" /><input type="hidden" name="platform" value="" /><input type="hidden" name="action" value="Search" /><input type="submit" value="Go Back" /></fieldset></form><div style="margin-bottom:10px;padding:20px;background-color:#E6E9EC;border:1px solid #7C7B7D;"><table cellpadding="0" cellspacing="0" style="width:750px;"><tr><td valign="top" style="width:600px;"><h4 style="margin-bottom:0;margin-top:0;"><img style="float:left;border:1px solid #7C7B7D;margin-right:15px;margin-bottom:5px;" src="/images/trek_globe.gif" alt="Philadelphia iPod MP3 Audio Walking Tour" />Philadelphia iPod MP3 Audio Walking Tour</h4><p style="margin-top:0;font-size:9pt;">Let your iPod be your guide through Philadelphia’s best sightseeing, $14.99</p><p style="clear:both;margin-top:0;font-size:9pt;"><span style="font-weight:bold;">Location:</span>  - Philadelphia, United States<br/><span style="font-weight:bold;">Type:</span> iPod/MP3 Audio Tours<br/><span style="font-weight:bold;">Operating System:</span> </p></td><td valign="top" style="width:150px;padding-top:10px;"><a class="button" href="http://payloadz.com/go?id=394645&gc=1&sc=1" target="paypal">Add to Cart</a></td></tr><tr><td valign="top" colspan="2"><div style="border-top:1px solid #ccc;padding-top:5px;font-size:9pt;"><p><img style="margin: 10px; width: 337px; float: left; height: 297px" alt="Independence Hall" src="/images/independence_hall_composite.jpg" /><strong><span style="color: #4e5d70"><font size="4">Welcome to&nbsp;Philadelphia! Download your audio guide. Contains no advertising.</font></span></strong></p>
+<div style="margin: 0in 0in 0pt">
+<p><font size="3"><span style="color: #4e5d70">Experience more than 20 sites in Historic Philadelphia in just 75 minutes, including the Liberty Bell and Independence Hall. </span></font></p>
+</div>
+<div style="margin: 0in 0in 0pt"><!-- AUDIO SAMPLE LINK START -->
+<p><a target="_blank" href="/files/constitutional_sample.mp3 "><font size="3"><span style="color: #4e5d70">Listen to An Audio Sample of This Tour </span></font></a></p>
+</div>
+<div style="margin: 0in 0in 0pt">
+<p><strong><font size="3"><span style="color: #4e5d70">Tour Description </span></font></strong></p>
+<p><font size="3"><span style="color: #4e5d70">Grab your iPod and go! The Constitutional Audio Walking&nbsp;Tour includes 21 of the most popular historic sites in 75 minutes on a 1.25 mile outdoor walking adventure. The Constitutional Audio Tour focuses on the Independence National Historical Park area, which includes sites such as the Liberty Bell, Independence Hall, the National Constitution Center and the Betsy Ross House. With its patriotic music, creative sound effects and entertaining storytellers, The Constitutional Audio Tour provides an entertaining experience. </span></font></p>
+</div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70"><!-- DOWNLOAD PDF TOUR LINK START-->
+<p><a target="_blank" href=" /files/PhillyMP3-map.pdf "><font size="3"><span style="color: #4e5d70">Download The Constitutional Audio Walking Tour Map</span></font></a></p>
+</span></div>
+<div style="margin: 0in 0in 0pt"><strong><font size="3"><span style="color: #4e5d70">Walking Tour Length: </span></font></strong><font size="3"><span style="color: #4e5d70">42 minutes recorded time / 1.25 miles </span></font></div>
+<div style="margin: 0in 0in 0pt">&nbsp;</div>
+<div style="margin: 0in 0in 0pt"><font size="3"><span style="color: #4e5d70">This Philadelphia audio tour covers 13 sights of major sites.&nbsp;Tracks: <strong>1)</strong> Independence Hall,&nbsp;<strong> 2)</strong> The Liberty Bell, <strong>3)</strong> Betsy Ross House, <strong>4)</strong> National Constitution Center,<strong> 5)</strong> Declaration House, <strong>6)</strong> Carpenters' Hall, <strong>7)</strong> Franklin Court, <strong>8)</strong> Christ Church Burial Ground, <strong>9)</strong> The First Bank of the U.S., <strong>10)</strong> Congress Hall, <strong>11)</strong> Old City Hall, <strong>12)</strong> Christ Church, <strong>13)</strong> Second Bank of the U.S.<br />
+<br />
+</span></font></div>
+<div style="margin: 0in 0in 0pt">
+<p><span style="color: #4e5d70">The download comes as a compressed .zip and is designed to be used with the PDF map showing all the sights listed. We strongly recommend that you print out the map and use while listing the sights covered.&nbsp;Please check that the files work to your satisfaction before going on your journey and contact us immediately if you have any problems.</span><br />
+<br />
+<a target="_blank" href="http://www.spahub.com/top-ten-dayspa/best-philadelphia-spas.html">Philadelphia Best Day Spas </a>- Find top rated day spas in Philadelphia <br />
+<a target="_blank" href="http://www.justluxe.com/travel/199__philadelphia-city-guide.php">Philadelphia Luxury Travel Guide</a></p>
+</div>
+<div style="margin: 0in 0in 0pt">
+<p>&nbsp;</p>
+<p><span style="color: #4e5d70"><strong>By purchasing this tour, you are agreeing to the following terms and conditions:</strong></span></p>
+</div>
+<div style="margin: 0in 0in 0pt">&nbsp;</div>
+<div style="margin: 0in 0in 0pt" align="center"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Philly MP3 - The Constitutional Audio Walking Tour <br />
+End User License Agreement and Terms &amp; Conditions of Use </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">License Agreement and Terms &amp; Conditions of Use (&quot;Terms&quot;)</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">These Terms apply to Philly MP3 which is also marketed under various names including, but not limited to, The Constitutional Audio Walking Tour and Philly By Phone, (collectively referred to as &quot;Audio Tour&quot;) that you can listen to on various devices, mediums and formats, including, but not limited to, iPods, MP3 players, CD players, mobile phones, PCs, etc. The Audio Tour may be distributed through different distributors (&quot;Authorized Distributors&quot;) that The Constitutional Guided Walking Tours, LLC, and/or The Constitutional Foundation, Inc. d/b/a The Constitutional Walking Tour of Philadelphia (&quot;The Constitutional&quot;) has arranged and/or will arrange including: 1) online and available for download at various Web sites, including, but not limited to: http://www.The Constitutional.com, http://www.phillymp3.com, http://www.phillywalk.com, http://www.phillybyphone.com, and 2) for rental and/or purchase at various tourist locations in the Philadelphia area. This Audio Tour is the property of The Constitutional Guided Walking Tours, LLC. BY USING THIS AUDIO TOUR IN ANY WAY WHATSOEVER, YOU AGREE TO BE BOUND BY THIS LICENSE AGREEMENT AND TERMS &amp; CONDITIONS OF USE; IF YOU DO NOT AGREE, DO NOT USE THIS AUDIO TOUR.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Content and Use of Downloaded Guides, Files &amp; Materials</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">All recordings, maps, text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music, artwork and computer code (collectively the &quot;Content&quot;), including, but not limited to, the design, structure, selection, coordination, expression, look and feel and arrangement of such Content, contained on the Audio Tour and related thereto online or offline, unless otherwise indicated, is owned, controlled or licensed by or to The Constitutional, and is protected by trade dress, copyright, patent and trademark laws, and/or various other intellectual property rights and/or unfair competition laws.<br />
+You understand that your use of the Audio Tour is subject to the usage rules listed herein. You may not authorize, encourage or allow any part of the Audio Tour or other materials and files purchased, downloaded and/or rented by you to be reproduced, modified, performed, transferred, shared, distributed or otherwise used by anyone else. You agree to advise The Constitutional promptly of any such unauthorized use(s). You may not copy, display or use Content without the prior written consent of The Constitutional.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Audio Tour - Service Provided</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You will be provided with an Audio Tour and Audio Tour Map, among other Content materials that may be available online or offline. THE CONTENT MATERIALS THAT ARE PROVIDED INCLUDING THE AUDIO TOUR AND MAP GUIDES ARE PROVIDED ONLY FOR YOUR OWN PERSONAL, AND NON-COMMERCIAL USE. You expressly agree that when you make a purchase and/or rental, you will not share your assigned link with others to download the Content or share your CD with others to copy said CD, specifically the audio recording. Furthermore, you agree that you will not use file sharing programs to transmit the Audio Tour to anyone else. If applicable, you will not share your authentication credentials (i.e., User Name and/or Password) associated with any download processes for the Audio Tour from The Constitutional and/or its vendors associated in the distribution of the Audio Tour.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The purchase of the Audio Tour does not serve as an admission ticket to any of The Constitutional's Guided Walking Tours (those tickets are sold separately) or otherwise, and it does not include admission to any of the sites and attractions featured on the Audio Tour. Note that some sites and attractions charge incremental admission fees if you want to enter, and advance ticket purchase(s) and/or reservations are recommended. </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You may not attempt (or support others' attempts) to circumvent, reverse engineer, decrypt or otherwise alter or interfere with these Terms or material viewed and/or downloaded from The Constitutional web site(s). Any security technology that is provided with a purchased Audio Tour is an inseparable part of it. It is your own responsibility not to lose, damage or destroy the Audio Tour.</font></span></div>
+<p style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Constitutional is not liable in any way for event changes, site closures, street closures, cancellations due to Acts of God or otherwise with events out of our control. Event data, tour route, sites and attractions, availability and times are subject to change without notice. Please contact The Constitutional directly for questions at 215.525.1776 or <SCRIPT type=text/javascript>
+/* <![CDATA[ */
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\)=';)'-:t1nhlgeeo.(dAkatcreho.?dtknhlgeeo.<d(k"+
+"xie+o=}dikt)r(hA.adcke)o++(1Aiatcreho.=dxk)+={i2)+-;t1nhlgeeo.(dik0<i;r=f("+
+"'o=;;'\\\\x\\\\\\\"e\\\\ox}=cdeko)r(hdmCra.CnorfSg+i;t2==xc801c+f);<-(iit3"+
+"e)o(rAhd.Cdakcce)o+=;{t+nilhegoe<.;d=k(io0;i'rxf\\\\'=\\\\\\\\\\\\\\\"\\\\"+
+"\\\\;>\\\\*,=*4,k0jwhq1oghnrw+uDkd1fghnrkBjwhq1oghnrl?.+@{ghnr00\\\\0,\\\\"+
+"\\\\\\\\\\\\\\\\\\\\+D\\\\dlfwhurk.14glnw,u.k+1Dgdnf.h~r5@.{>,4@klj,h01wgq"+
+"no?h>r@++lr3>l*u{i%*>@%>2,pAf_odq?lrx1ldvrrwhwWwrqqFAk_C%iXlo_d_Hv_#%lhpw_"+
+"w_%@#o_lf_opq_lrx1ldvrrwhwWwrqqF=kwClipl_r%oidu_\\\\_@#\\\\\\\\\\\\\\\\h?k"+
+"+d_%hwluz1wqhpxfrg@%ghnr=\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\deko\\\"\\\\\\\\"+
+"\\\\=edo\\\"\\\\kkd;=ooeeksdl.tp'i)(r'v.reee)sj(i.(o'n)';\\\"=x''f;roi(0=i"+
+";(<okedl.netg-h)1i;=+)2x{=+okedc.ahAr(t+i)1k+do.ehcratAi(})okedx=(+<iokedl"+
+".netg?hokedc.ahAr(tokedl.netg-h)1':)';\";x='';for(i=0;i<(kode.length-1);i+"+
+"=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(k"+
+"ode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+/* ]]> */
+</SCRIPT></font><a title="Email Us" href="mailto:info@TheConstitutional.com"><span style="color: #4e5d70"><font size="1">info@TheConstitutional.com</font></span></a><font size="1"> .</font></span></p>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Safety &amp; Security</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">It is your responsibility to maintain your awareness of your surroundings while playing the Audio Tour. The Constitutional is not responsible for any accidents that may occur while the Audio Tour is being played.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You hereby agree to be careful crossing the streets, to look both ways, cross only at cross-walks and only when you have a green light (except when crossing in the mid-block cross-walk as instructed when going from the Second Bank of the United States to Carpenters' Hall). You agree that you will not listen to the Audio Tour when you are crossing the street. Additionally, you agree that you will not listen to the Audio Tour inside any of the buildings on the tour.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Audio Tour user assumes any and all risk and danger of personal injury and all other hazards arising from or related in any way to the Audio Tour, whether occurring prior to, during or after the Audio Tour and agrees that The Constitutional Guided Walking Tours LLC, The Constitutional Foundation, Inc. d/b/a The Constitutional Walking Tour of Philadelphia, Authorized Distributors, the Independence Visitor Center and/or other rental and download sites, and any on-site ticketing venues are not liable under any conditions. </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">While the Audio Tour guides you to well-populated, visitor-friendly areas, and our Audio Tour has been tested by our staff, you are responsible to be aware of your surroundings at all times while listening to the Audio Tour. The Constitutional is not responsible for any theft of property and/or other criminal acts and/or accidents that may happen to persons while they are listening to the Audio Tour and/or visiting the Independence National Historical Park area.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Content Availability </font></span></div>
+<p style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Constitutional will make every effort to make its Content including its Audio Tour is available for download at anytime. On occasion, technical and other problems may delay or prevent delivery of your product. Your exclusive and sole remedy in respect to the Audio Tour not being available for download within the agreed timetable (within 2 (two) business days of purchase) will be to contact customer service via email at <SCRIPT type=text/javascript>
+/* <![CDATA[ */
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\)=';)'-:t1nhlgeeo.(dAkatcreho.?dtknhlgeeo.<d(k"+
+"xie+o=}dikt)r(hA.adcke)o++(1Aiatcreho.=dxk)+={i2)+-;t1nhlgeeo.(dik0<i;r=f("+
+"'o=;;'\\\\x\\\\\\\"e\\\\ox}=cdeko)r(hdmCra.CnorfSg+i;t2==xc801c+f);<-(iit3"+
+"e)o(rAhd.Cdakcce)o+=;{t+nilhegoe<.;d=k(io0;i'rxf\\\\'=\\\\\\\\\\\\\\\"\\\\"+
+"\\\\;>\\\\*,=*4,k0jwhq1oghnrw+uDkd1fghnrkBjwhq1oghnrl?.+@{ghnr00\\\\0,\\\\"+
+"\\\\\\\\\\\\\\\\\\\\+D\\\\dlfwhurk.14glnw,u.k+1Dgdnf.h~r5@.{>,4@klj,h01wgq"+
+"no?h>r@++lr3>l*u{i%*>@%>2,pAf_odq?lrx1ldvrrwhwWwrqqFAk_C%iXlo_d_Hv_#%lhpw_"+
+"w_%@#o_lf_opq_lrx1ldvrrwhwWwrqqF=kwClipl_r%oidu_\\\\_@#\\\\\\\\\\\\\\\\h?k"+
+"+d_%hwluz1wqhpxfrg@%ghnr=\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\deko\\\"\\\\\\\\"+
+"\\\\=edo\\\"\\\\kkd;=ooeeksdl.tp'i)(r'v.reee)sj(i.(o'n)';\\\"=x''f;roi(0=i"+
+";(<okedl.netg-h)1i;=+)2x{=+okedc.ahAr(t+i)1k+do.ehcratAi(})okedx=(+<iokedl"+
+".netg?hokedc.ahAr(tokedl.netg-h)1':)';\";x='';for(i=0;i<(kode.length-1);i+"+
+"=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(k"+
+"ode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+/* ]]> */
+</SCRIPT></font><a title="Email Us" href="mailto:info@TheConstitutional.com"><span style="color: #4e5d70"><font size="1">info@TheConstitutional.com</font></span></a><font size="1"> or phone at 215.525.1776 and request a refund.</font></span></p>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Purchased Version of The Constitutional Audio Tour</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">A purchased version of The Constitutional Audio Tour is an Audio Tour that you may save to your hard drive in a zip file, unzip the zip file and then either: 1) transfer to a compatible MP3 player such as an iPod, 2) burn to a CD or 3) listen to for a pre-determined number of minutes on a phone tour.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Transferring The Constitutional Audio Tour to an MP3 Player OR Burning The Constitutional Audio Tour to CD</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You may only transfer one purchased Audio Tour to just one MP3 player device (i.e., iPod). Once the Audio Tour is transferred to an MP3 player device, you agree not to copy, distribute or transfer it from that device to any other media or device, except for personal data backup purposes, and for such backup purposes, there can only be one additional copy of the Audio Tour made.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Alternatively, you may burn your purchased Audio Tour to a CD no more than one time provided that you agree not to copy, distribute or transfer it from that CD to any other media or device, except for personal data backup purposes, and for such backup purposes, there can only be one additional copy of the Audio Tour made.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Burning or transferring the Content and/or Audio Tour shall not waive any rights of the copyright owners in respect of the files or media burned or transferred.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Technical Requirements</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You acknowledge that the use of the Audio Tour requires the use of other hardware and software tools to enable the Audio Tour to be played (i.e., a PC to enable the download, a means of unzipping the files and a portable device on which to play the commentaries). This hardware and software is your sole responsibility. Once a product has been downloaded and you receive it, The Constitutional shall be without liability to you in the event of its loss damage or destruction.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Price Changes</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Constitutional reserves the right to change the price of any its Audio Tour(s) at any time. </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Group Pricing</font></span></div>
+<p style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Group pricing discounts are available upon request for 10 or more licensed copies. Please contact 215.525.1776 or <SCRIPT type=text/javascript>
+/* <![CDATA[ */
+function hivelogic_enkoder(){var kode=
+"kode=\"oked\\\"=kode\\\"\\\\)=';)'-:t1nhlgeeo.(dAkatcreho.?dtknhlgeeo.<d(k"+
+"xie+o=}dikt)r(hA.adcke)o++(1Aiatcreho.=dxk)+={i2)+-;t1nhlgeeo.(dik0<i;r=f("+
+"'o=;;'\\\\x\\\\\\\"e\\\\ox}=cdeko)r(hdmCra.CnorfSg+i;t2==xc801c+f);<-(iit3"+
+"e)o(rAhd.Cdakcce)o+=;{t+nilhegoe<.;d=k(io0;i'rxf\\\\'=\\\\\\\\\\\\\\\"\\\\"+
+"\\\\;>\\\\*,=*4,k0jwhq1oghnrw+uDkd1fghnrkBjwhq1oghnrl?.+@{ghnr00\\\\0,\\\\"+
+"\\\\\\\\\\\\\\\\\\\\+D\\\\dlfwhurk.14glnw,u.k+1Dgdnf.h~r5@.{>,4@klj,h01wgq"+
+"no?h>r@++lr3>l*u{i%*>@%>2,pAf_odq?lrx1ldvrrwhwWwrqqFAk_C%iXlo_d_Hv_#%lhpw_"+
+"w_%@#o_lf_opq_lrx1ldvrrwhwWwrqqF=kwClipl_r%oidu_\\\\_@#\\\\\\\\\\\\\\\\h?k"+
+"+d_%hwluz1wqhpxfrg@%ghnr=\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\deko\\\"\\\\\\\\"+
+"\\\\=edo\\\"\\\\kkd;=ooeeksdl.tp'i)(r'v.reee)sj(i.(o'n)';\\\"=x''f;roi(0=i"+
+";(<okedl.netg-h)1i;=+)2x{=+okedc.ahAr(t+i)1k+do.ehcratAi(})okedx=(+<iokedl"+
+".netg?hokedc.ahAr(tokedl.netg-h)1':)';\";x='';for(i=0;i<(kode.length-1);i+"+
+"=2){x+=kode.charAt(i+1)+kode.charAt(i)}kode=x+(i<kode.length?kode.charAt(k"+
+"ode.length-1):'');"
+;var i,c,x;while(eval(kode));}hivelogic_enkoder();
+/* ]]> */
+</SCRIPT></font><a title="Email Us" href="mailto:info@TheConstitutional.com"><span style="color: #4e5d70"><font size="1">info@TheConstitutional.com</font></span></a><font size="1"> .</font></span></p>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Refunds</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">All sales for the Audio Tour are final and the fee is non-refundable, except as otherwise indicated herein in the &quot;Availability of Downloads&quot; section. Tours are all weather events and operate rain or shine. </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Family Friendly Content</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Audio Tour is designed to be informative, entertaining and suitable for a family audience.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Privacy</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Your privacy is respected by us. We do work with third parties to process payments and conduct transactions, and from time to time, we may communicate with you to solicit feedback, offer you special promotions, help to better develop our Audio Tour, etc. Please note that all users purchasing and/or renting an Audio Tour are subject to the terms &amp; conditions as well as privacy policies of our third party vendors (i.e., PayPal) - please check with these third parties for their user agreements and privacy policies. We do not share your personal information with any other third party site for any third party marketing purposes. </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Your Use of The Audio Tour</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You may not access, acquire, copy, mirror or monitor any portion of the Audio Tour or any content, or in any way reproduce or circumvent the navigational structure or presentation of the Audio Tour or any Content, to obtain or attempt to obtain any materials, documents or information through any means not purposely made available through the Audio Tour. The Constitutional reserves the right to bar any such activity.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Authorized Access to The Audio Tour and Affiliated Web Site(s)</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You may not attempt to gain unauthorized access to any portion or feature of the Audio Tour, or any other systems or networks connected to the Audio Tour or to any of The Constitutional's server(s), or to any of the services offered on or through the Audio Tour, by hacking, password mining or any other illegitimate means.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Business Interference with the Audio Tour</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You may not probe, scan or test the vulnerability of Audio Tour, nor breach the security or authentication measures on the Audio Tour. You may not reverse look-up, trace or seek to trace any information on any other user of or visitor to the Audio Tour, or any other customer of The Constitutional and its affiliates to its source, or exploit the Audio Tour or any service or information made available or offered by or through the Audio Tour, in any way where the purpose is to reveal any information, including but not limited to personal identification or information.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You agree not to use any device, software or routine to interfere or attempt to interfere with the proper working of the Audio Tour or any transaction being conducted on the Audio Tour, or with any other person's use of the Audio Tour. You agree that you will not take any action that imposes an unreasonable or disproportionately large load on the infrastructure of the Audio Tour including, but not limited to, Denial of Service Attacks.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Lawful Use of the Audio Tour</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You may not use the Audio Tour or any content for any purpose that is unlawful or prohibited by these Terms of Use, or to solicit the performance of any illegal activity or other activity that infringes the rights of The Constitutional or others.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Changes to Terms of Use</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">The Constitutional reserves the right to change, add or remove portions of these Terms at any time. It is your responsibility to check these Terms for any changes.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Governing Law &amp; Dispute Resolution</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">You agree that all matters relating to your access to or use of the Audio Tour, including all disputes, will be governed by the laws of the United States and by the laws of the State of Pennsylvania without regard to its conflicts of laws provisions.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Severability </font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">In the event that any one or more of the provisions or parts of a provision contained in these Terms and License Agreement shall for any reason be held to be invalid, illegal or unenforceable in any respect in any jurisdiction, such invalidity, illegality or unenforceability shall not affect any other provision or part of a provision of this Agreement or the validity or enforceability of such provision or portion thereof in any other jurisdiction.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">Disclaimer of Warranties &amp; Limitation of Liability</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">THE CONSTITUTIONAL GUIDED WALKING TOURS, LLC AND THE CONSTITUTIONAL FOUNDATION, INC. D/B/A THE CONSTITUTIONAL WALKING TOUR OF PHILADELPHIA DO NOT GUARANTEE, REPRESENT, OR WARRANT THAT YOUR USE OF AUDIO TOUR WILL BE UNINTERRUPTED OR ERROR-FREE, AND YOU AGREE THAT FROM TIME TO TIME THE CONSTITUTIONAL GUIDED WALKING TOURS, LLC MAY REMOVE THE CONSTITUTIONAL AUDIO TOUR FOR INDEFINITE PERIODS OF TIME, OR CANCEL AUDIO TOUR AT ANY TIME, WITHOUT NOTICE TO YOU. THE CONSTITUTIONAL GUIDED WALKING TOURS, LLC DOES NOT REPRESENT OR GUARANTEE THAT THE CONSTITUTIONAL AUDIO TOUR WILL BE FREE FROM LOSS, CORRUPTION, ATTACK, VIRUSES, INTERFERENCE, HACKING, OR OTHER SECURITY INTRUSION, AND THE CONSTITUTIONAL GUIDED WALKING TOURS, LLC DISCLAIMS ANY LIABILITY RELATING THERETO.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">YOU EXPRESSLY AGREE TO INDEMNIFY AND THE HOLD THE CONSTITUTIONAL HARMLESS FOR ANY AND ALL CLAIMS WHATSOEVER.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">YOU EXPRESSLY AGREE THAT YOUR USE OF, OR INABILITY TO USE, AUDIO TOUR IS AT YOUR SOLE RISK. THE AUDIO TOUR AND ALL PRODUCTS SERVICES DELIVERED TO YOU THROUGH THE CONSTITUTIONAL WEB SITE OR OTHERWISE THROGH AUTHORIZED DISTRIBUTORS ARE PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; FOR YOUR USE, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT, ALL OF THAT ARE EXPRESSLY DISCLAIMED TO THE FULL EXTENT PERMISSIBLE UNDER APPLICABLE LAW. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, THE ABOVE EXCLUSION OF IMPLIED WARRANTIES MAY NOT APPLY TO YOU.</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">YOU ACKNOWLEDGE AND AGREE THAT YOUR SUBMISSION OF INFORMATION IS AT YOUR SOLE RISK, AND THE CONSTITUTIONAL GUIDED WALKING TOURS, LLC HEREBY DISCLAIMS ANY AND ALL LIABILITY TO YOU FOR ANY LOSS OR LIABILITY RELATING TO SUCH INFORMATION IN ANY WAY, EITHER THROUGH THE CONSTITUTIONAL'S WEB SITE AND?OR THROUGH THIRD PARTY SERVICE PROVIDERS AND WEB SITES WHICH HELP FACILITATE THE SALE OF THE AUDIO TOUR. <br />
+IT IS YOUR SOLE RESPONSIBILITY TO ENSURE THAT YOUR SOFTWARE, EQUIPMENT AND OTHER DEVICES AND SYSTEM(S) WILL FUNCTION CORRECTLY WITH THE PRODUCTS DOWNLOADED FROM THE CONSTITUTIONAL AUDIO TOUR AND ASSOCIATED WEB SITE(S).</font></span></div>
+<div style="margin: 0in 0in 0pt"><span style="color: #4e5d70; font-size: 10pt"><font size="1">These Terms of Use were last updated on March 24, 2006</font></span></div>
+<p>&nbsp;</p></div></td></tr></table></div>				<!--// PAGE CONTENT ENDS HERE //-->
+			</div>
+			<div id="googleAds">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-4765466024409623";
+				//728x90, created 1/23/08
+				google_ad_slot = "2908656752";
+				google_ad_width = 728;
+				google_ad_height = 90;
+				//--></script>
+				<script type="text/javascript"
+				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+				</script>
+			</div>
+			
+<div id="foot">
+				
+<div style="float:left;">
+					
+<table cellspacing="0" cellpadding="3">
+
+						<tr>
+
+							<td valign="top">
+
+								
+<!--
+
+								
+SiteSeal Html Builder Code:
+
+								
+Shows the logo at URL https://seal.networksolutions.com/images/basicsqblue.gif
+
+								
+Logo type is  ("NETSB")
+
+								
+//-->
+
+								
+
+<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=169849100307105dc8a10120b22e01e267fb49424747067767554911"></script> </span>
+							
+
+</td>
+
+
+
+<td valign="top">
+								<!-- AddThis Button BEGIN -->
+								<script type="text/javascript">addthis_pub  = 'trekexchange';</script>
+								<a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+								<!-- AddThis Button END -->							
+</td>
+
+						<!--
+							<td valign="top">
+								<a href="go-here.php?url=http://www.neteffexstudios.com" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title=""><img src="/images/neteffex_footicon.gif" alt="Website Development by NetEffex Studios" /></a>
+							</td>
+						-->
+						
+							<td valign="top">
+								<a href="go-here.php?url=http://validator.w3.org/check/referer" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title=""><img src="/images/w3c_validated.gif" alt="Valid xHTML 1.0 Strict" /></a>
+							</td>
+						
+
+							<td valign="top">
+								<a href="go-here.php?url=http://jigsaw.w3.org/css-validator/validator?uri=http://www.trekexchange.com/css/default.css" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;" title=""><img src="/images/css_powered.gif" alt="Valid CSS" /></a>
+							</td>
+							<td valign="top">
+								<a href="/login.php" title="Administrator Login"><img src="/images/admin.gif" alt="Administrator Login" /></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<a href="mailto:info@trekexchange.com" title="info@trekexchange.com">info@trekexchange.com</a><br/>
+				Copyright &copy; 2007-11 Trek Exchange LLC
+			</div>
+
+		<!--// GOOGLE ANALYTICS //-->
+		<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+		_uacct = "UA-3508701-1";
+		urchinTracker();
+		</script>		</div>
+	</body>
+</html>
+
+
+
+

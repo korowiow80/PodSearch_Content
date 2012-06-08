@@ -1,0 +1,229 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" >
+	<head>
+
+  	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+  	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+  	<meta name="robots" content="index, follow" />
+    <meta http-equiv="content-language" content="de" />
+
+  	<title>Offene Jugendarbeit Waldfeucht - Herzlich willkommen</title>
+
+	<link rel="stylesheet" href="http://design.verwaltungsportal.de/global/css/global.css" type="text/css"/>
+	<link href="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/css/layout.css" rel="stylesheet" type="text/css"/>
+
+
+
+	<link href="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/css/style_std.css" media="screen, projection" rel="alternate stylesheet" type="text/css" title="Normal"/>
+  	<link href="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/css/style_mid.css" media="screen, projection" rel="alternate stylesheet" type="text/css" title="Gross"/>
+	<link href="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/css/style_big.css" media="screen, projection" rel="alternate stylesheet" type="text/css" title="SehrGross"/>
+
+
+	<script src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/js/styleswitcher.js" type="text/javascript"></script>
+
+	<script type="text/javascript">/* <![CDATA[ */
+
+				function createCookie(name,value,days) {
+					if (days) {
+						var date = new Date();
+						date.setTime(date.getTime()+(days*60*60*1000));
+						var expires = '; expires='+date.toGMTString();
+					} else var expires = '';
+					document.cookie = name+'='+value+expires+'; path=/';
+				}
+
+				function readCookie(name) {
+					var nameEQ = name + '=';
+					var ca = document.cookie.split(';');
+					for(var i=0;i < ca.length;i++) {
+						var c = ca[i];
+						while (c.charAt(0)==' ') c = c.substring(1,c.length);
+						if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+					}
+					return null;
+				}
+
+			 	function menue_read() {
+					var container = readCookie('navigation');
+					menue(container);
+				}
+
+			  	function menue(menue_name){
+			document.getElementById('m2_5045').style.display = "none";
+document.getElementById('m5_5045').style.display = "none";
+
+
+			  		if (menue_name != null && menue_name != 'null' && menue_name != 'm0') {
+						document.getElementById(menue_name).style.display='block';
+
+					}
+
+					 createCookie('navigation',menue_name,1);
+			  	}
+
+			  	function activetop(toplevel, read){
+
+			document.getElementById('toplevel1_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel2_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel3_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel4_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel5_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel6_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel7_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel8_5045').className = 'menue_point_toplevel_5045';
+document.getElementById('toplevel9_5045').className = 'menue_point_toplevel_5045';
+
+					document.getElementById(toplevel).className=document.getElementById(toplevel).className+'_over';
+
+					createCookie('activetop',toplevel,1);
+
+					if (read != 'read') {
+						createCookie('activesecond','0',1);
+					}
+				}
+
+				function activesecond(secondlevel){
+					document.getElementById(secondlevel).className=document.getElementById(secondlevel).className+'_over';
+					createCookie('activesecond',secondlevel,1);
+				}
+
+				function activetop_read(toplevel) {
+					var toplevel = readCookie('activetop');
+
+					if (toplevel == null) {
+			toplevel = 'toplevel1_5045';
+					}
+
+					activetop(toplevel,'read');
+				}
+
+				function activesecond_read(secondlevel) {
+					var secondlevel = readCookie('activesecond');
+					if (secondlevel != '0' && secondlevel != null && secondlevel != 'null') {
+						activesecond(secondlevel);
+					}
+				}
+			/* ]]> */</script>
+
+
+</head>
+
+<body  onload="javascript:menue_read();activetop_read(); activesecond_read();" >
+	<div id="maindiv">
+		<div id="oheader">
+			<div id="header-l">
+				<div id="styler-spacer">&nbsp;</div>
+				<div id="styler-pos">
+					<div id="styler-font">Schriftgr&ouml;&szlig;e:</div>
+					<div id="styler"><a href="#" title="normale Schrift einschalten" onclick="setActiveStyleSheet('Normal'); return false;" onkeypress="setActiveStyleSheet('Normal'); return false;"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/a.jpg" alt="normale Schrift einschalten"  /></a><a href="#" title="gro&szlig;e Schrift einschalten" onclick="setActiveStyleSheet('Gross'); return false;" onkeypress="setActiveStyleSheet('Gross'); return false;"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/aa.jpg" alt="gro&szlig;e Schrift einschalten"  /></a><a href="#" title="sehr gro&szlig;e Schrift einschalten" onclick="setActiveStyleSheet('SehrGross'); return false;" onkeypress="setActiveStyleSheet('SehrGross'); return false;"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/aaa.jpg" alt="sehr gro&szlig;e Schrift einschalten" /></a></div>
+				</div>
+			</div>
+			<div id="header-r"><a href="/" title="Startseite"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/bg_header-r.jpg" alt="Offene Jugendarbeit Waldfeucht" width="766" height="45" /></a></div>
+		</div>
+ 		<div id="header">
+			<a href="/" title="Startseite"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/bg_header.jpg" alt="Offene Jugendarbeit Waldfeucht" width="1000" height="182" /></a>
+		</div>
+
+		<div id="fix1">
+ 			<div id="fix2">
+				<div id="left">
+					<div id="left-pos">
+						<div>
+
+  <div class="menue_point_toplevel_5045" id="toplevel1_5045"><a class="navpoint_toplevel_5045" href="/" title="Startseite" onclick="  javascript: activetop('toplevel1_5045'); menue('m0'); return true; ">Startseite</a></div>
+  <div class="menue_point_toplevel_5045" id="toplevel2_5045"><a class="navpoint_toplevel_5045" href="/" title="Aktuelles" onclick="  javascript: activetop('toplevel2_5045'); menue('m2_5045'); return false; ">Aktuelles</a></div>
+  <div class="menue_group_5045" id="m2_5045">
+    <div class="menue_group_5045_start">&nbsp;</div>
+<div class="menue_point_secondlevel_5045" id="secondlevel1_5045"><a class="navpoint_secondlevel_5045" href="/news/index.php?rubrik=1" title="Berichte" onclick="   javascript: activetop('toplevel2_5045'); activesecond('secondlevel1_5045'); ">Berichte</a></div>
+<div class="menue_point_secondlevel_5045" id="secondlevel2_5045"><a class="navpoint_secondlevel_5045" href="/news/index.php?rubrik=15" title="Presse" onclick="   javascript: activetop('toplevel2_5045'); activesecond('secondlevel2_5045'); ">Presse</a></div>
+    <div class="menue_group_5045_end">&nbsp;</div>
+  </div>
+  <div class="menue_point_toplevel_5045" id="toplevel3_5045"><a class="navpoint_toplevel_5045" href="/veranstaltungen/rubrik.php?nummer=17" title="Veranstaltungen" onclick="  javascript: activetop('toplevel3_5045'); menue('m0'); return true; ">Veranstaltungen</a></div>
+  <div class="menue_point_toplevel_5045" id="toplevel4_5045"><a class="navpoint_toplevel_5045" href="/veranstaltungen/rubrik.php?nummer=19" title="Spirituelles" onclick="  javascript: activetop('toplevel4_5045'); menue('m0'); return true; ">Spirituelles</a></div>
+  <div class="menue_point_toplevel_5045" id="toplevel5_5045"><a class="navpoint_toplevel_5045" href="/texte/seite.php?id=81079" title="Materialverleih" onclick="  javascript: activetop('toplevel5_5045'); menue('m5_5045'); return true; ">Materialverleih</a></div>
+  <div class="menue_group_5045" id="m5_5045">
+    <div class="menue_group_5045_start">&nbsp;</div>
+<div class="menue_point_secondlevel_5045" id="secondlevel3_5045"><a class="navpoint_secondlevel_5045" href="/texte/seite.php?id=81080" title="Gesellschaftsspiele" onclick="   javascript: activetop('toplevel5_5045'); activesecond('secondlevel3_5045'); ">Gesellschaftsspiele</a></div>
+<div class="menue_point_secondlevel_5045" id="secondlevel4_5045"><a class="navpoint_secondlevel_5045" href="/texte/seite.php?id=81081" title="Drau&szlig;en" onclick="   javascript: activetop('toplevel5_5045'); activesecond('secondlevel4_5045'); ">Drau&szlig;en</a></div>
+<div class="menue_point_secondlevel_5045" id="secondlevel5_5045"><a class="navpoint_secondlevel_5045" href="/texte/seite.php?id=81082" title="Seminarmaterialien" onclick="   javascript: activetop('toplevel5_5045'); activesecond('secondlevel5_5045'); ">Seminarmaterialien</a></div>
+<div class="menue_point_secondlevel_5045" id="secondlevel6_5045"><a class="navpoint_secondlevel_5045" href="/texte/seite.php?id=81083" title="Technische Ger&auml;te" onclick="   javascript: activetop('toplevel5_5045'); activesecond('secondlevel6_5045'); ">Technische Ger&auml;te</a></div>
+    <div class="menue_group_5045_end">&nbsp;</div>
+  </div>
+  <div class="menue_point_toplevel_5045" id="toplevel6_5045"><a class="navpoint_toplevel_5045" href="/texte/seite.php?id=81095" title="Dorfzeitung" onclick="  javascript: activetop('toplevel6_5045'); menue('m0'); return true; ">Dorfzeitung</a></div>
+  <div class="menue_point_toplevel_5045" id="toplevel7_5045"><a class="navpoint_toplevel_5045" href="/schnappschuesse.html" title="Bildergalerie" onclick="  javascript: activetop('toplevel7_5045'); menue('m0'); return true; ">Bildergalerie</a></div>
+  <div class="menue_point_toplevel_5045" id="toplevel8_5045"><a class="navpoint_toplevel_5045" href="/webseite/kontakt/index.php" title="Kontakt" onclick="  javascript: activetop('toplevel8_5045'); menue('m0'); return true; ">Kontakt</a></div>
+  <div class="menue_point_toplevel_5045" id="toplevel9_5045"><a class="navpoint_toplevel_5045" href="/texte/seite.php?id=107359" title="Grundlegendes" onclick="  javascript: activetop('toplevel9_5045'); menue('m0'); return true; ">Grundlegendes</a></div>
+
+</div>
+						<div id="jub"><a href="http://www.ju-bo.de/" onclick="target='_blank'"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/jub.jpg" alt="jub" width="209" height="67" /></a></div>
+						<div style="text-align:center; margin-top: 30px; "><a href="http://www.nordrhein-westfalen-vernetzt.de/" title="Nordrhein Westfalen Vernetzt" target="_blank"><img src="http://design.verwaltungsportal.de/jugendarbeit-waldfeucht.de/img/nrw_vernetzt.jpg" alt="Nordrhein Westfalen Vernetzt" width="209" height="103" /></a></div>
+						
+					</div>
+				</div>
+				<div id="middle">
+					<div id="content"><h2 style="text-align: center;">Herzlich Willkommen</h2>
+<h2 style="text-align: center;">bei der Jugendarbeit in der Gemeinde Waldfeucht!</h2>
+<p class="tiny_p">&#160;</p>
+<p class="tiny_p" style="text-align: left;">&#160;</p>
+<div style="text-align: left;" align="center">
+<div style="text-align: left;" align="center"><strong>Ich begr&#252;&#223;e Dich herzlich auf der Seite der offenen Jugendarbeit der Gemeinde Waldfeucht. Auf dieser Seite findest Du Informationen &#252;ber Treffm&#246;glichkeiten, aktuelle Projekte, Ausfl&#252;ge und Ferienfreizeiten.</strong></div>
+<p class="tiny_p">&#160;</p>
+<div align="left">Ich hoffe es ist auch etwas f&#252;r Dich dabei, falls nicht und Du&#160;hast eine gute Idee, melde Dich doch einfach bei mir und dann sehen wir,&#160;was wir&#160;m&#246;glich machen k&#246;nnen. (Und da geht einiges...) Unter Kontakt findest Du meine Daten.</div>
+<div align="left">&#160;</div>
+<div align="left">Mitarbeit zu dieser Seite ist auch gerne gew&#252;nscht. Einige Seiten sind immer mal wieder im Aufbau, hier kannst Du Deine Anregungen direkt in die Tat umsetzen. Melde Dich hierzu einfach bei mir.</div>
+<p class="tiny_p">&#160;</p>
+<div align="left">Ich w&#252;rde mich freuen, von Dir zu h&#246;ren,</div>
+<div align="left">lieben Gru&#223;</div>
+</div><!-- Ende Cache --><p class="tinyback">[<a href="javascript:history.go(-1)">zurück</a>]</p><div id="startseite_news">
+
+	<!-- auf einem Blick, Übersichtsseite mit drei Meldungen -->
+	<h1>Auf einen Blick!</h1>
+	<br />
+
+<!--here-->	<div>
+		<div style="float:right; width:100px; margin: 0 0 8px 8px; text-align: right;">
+			<a href="/news/index.php?rubrik=1&amp;news=166217&amp;typ=1" title="Meldung: Anmeldungen f&uuml;r den Zirkus">
+			<img src="http://vorschau.verwaltungsportal.de/news/166217/133645465881.01.jpg" alt="Vorschaubild der Meldung: Anmeldungen f&uuml;r den Zirkus" /></a>
+		</div>
+		<h4 class="h4link"><a class="news_header" href="/news/index.php?rubrik=1&amp;news=166217&amp;typ=1" title="Meldung: Anmeldungen f&uuml;r den Zirkus">Anmeldungen f&uuml;r den Zirkus</a></h4>
+		<p class="vorschau">Hier findet Ihr das Anmeldeformular, was Ihr bitte ausgef&#252;llt bei mir abgebt oder in der Schulstr. 7 einwerft.
+&#160;
+Freu mich auf Euch in der ... [<a href="/news/index.php?rubrik=1&amp;news=166217&amp;typ=1" class="mehr" title="Meldung: - Anmeldungen f&uuml;r den Zirkus - weiterlesen">mehr</a>]</p>
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<div><h4 class="h4link"><a href="/news/index.php?rubrik=15" title="Meldungsrubrik Pressemitteilungen">Pressemitteilungen</a></h4></div>
+	<br />
+	<a style="float: right; margin: 0 0 8px 8px;" href="/news/index.php?rubrik=15&amp;news=167400&amp;typ=1" title="Meldung: test Skater-Probleme finden Geh&ouml;r">
+	<!--<img src="http://vorschau.verwaltungsportal.de/news/167400/133762501971.56.jpg" alt="Vorschaubild der Meldung: Skater-Probleme finden Geh&ouml;r" />--><img src="http://vorschau.verwaltungsportal.de/news/167400/133762501971.56.jpg" alt="Vorschaubild der Meldung: Skater-Probleme finden Geh&ouml;r" /></a>
+
+<!-- Ausgabe der Verkehrsnews -->
+
+	<ul>
+		<li><a href="/news/index.php?rubrik=15&amp;news=167400&amp;typ=1" title="Meldung: Skater-Probleme finden Geh&ouml;r">Skater-Probleme finden Geh&ouml;r</a></li>
+		<li><a href="/news/index.php?rubrik=15&amp;news=166878&amp;typ=1" title="Meldung: Anmeldungen zum M&auml;dchentag">Anmeldungen zum M&auml;dchentag</a></li>
+		<li><a href="/news/index.php?rubrik=15&amp;news=159092&amp;typ=1" title="Meldung: Prinz und Papst gemeinsam in der Badewanne">Prinz und Papst gemeinsam in der Badewanne</a></li>
+	</ul>
+	<br /><a href="/news/index.php?rubrik=15" title="Weitere Meldungen in der Rubrik Pressemitteilungen">Weitere Meldungen</a>
+	<hr style="clear: both" />
+
+
+</div><div><div><h4 class="h4link"><a href="veranstaltungen/index.php" title="Veranstaltungshinweise">Veranstaltungshinweise</a></h4></div><div><div style="margin: 0pt 0pt 1px; float: left; width: 70px;" class="vorschau">07.06.2012:</div><div style="margin: 0pt 0pt 2px 75px;" class="vorschau">Probesegeln f&uuml;r die Sommerfahrten der KJG (Offene Jugendarbeit Waldfeucht)</div></div><div><div style="margin: 0pt 0pt 1px; float: left; width: 70px;" class="vorschau">09.06.2012:</div><div style="margin: 0pt 0pt 2px 75px;" class="vorschau">Wort Gottes Feier f&uuml;r Kinder  (Offene Jugendarbeit Waldfeucht)</div></div><div><div style="margin: 0pt 0pt 1px; float: left; width: 70px;" class="vorschau">10.06.2012:</div><div style="margin: 0pt 0pt 2px 75px;" class="vorschau">Messfeier mit KINDERKIRCHE f&uuml;r 3-7j&auml;hrige Kinder  (Offene Jugendarbeit Waldfeucht)</div></div><div style="clear:both;">&nbsp;</div></div><div>
+
+</div><div id="startseite_fotos">
+</div>
+
+</div>
+				</div>
+
+				<div id="right">
+					<div id="right-top">&nbsp;
+					</div>
+				</div>
+				<div style="clear:both;">&nbsp;</div>
+			</div>
+		</div>
+		<div id="footer"><div id="innerfooter"><a class="navpoint_toplevel_5046" href="/" title="Startseite" onclick=" ">Startseite</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="navpoint_toplevel_5046" href="http://admin.verwaltungsportal.de/" title="Login" onclick="target='_blank';  ">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="navpoint_toplevel_5046" href="/impressum/index.php" title="Impressum" onclick=" ">Impressum</a></div></div>
+	</div>
+</body>
+</html>

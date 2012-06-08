@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<html b:version='2' class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<script type='text/javascript'>
+  /*  <![CDATA[ */
+    (function() {
+      var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = 'https://api.flattr.com/js/0.6/load.js?mode=manual&uid=derduebel&category=text&language=de_DE';
+      t.parentNode.insertBefore(s, t);
+    })();
+    function displayFlattrButton(postid, url, tags) {
+      var flattr_tle = document.getElementById("flattr_title_" + postid).innerHTML;  
+      if (flattr_tle.length > 80) {
+        flattr_tle = flattr_tle.replace(/(.{0,71}) .*/, "$1 &#8230;");
+        flattr_tle = flattr_tle.slice(0,79);
+      }
+      var flattr_dsc = document.getElementById("flattr_summary_" + postid).innerHTML;  
+      flattr_dsc = flattr_dsc.replace(/<.*?>/g, "");
+      if (flattr_dsc.length > 980) {
+        flattr_dsc = flattr_dsc.replace(/\n/g, " ");
+        flattr_dsc = flattr_dsc.replace(/(.{0,971}) .*/, "$1 &#8230;");
+        flattr_dsc = flattr_dsc.slice(0,979);
+      }
+      if (tags.length > 230) {
+        tags = tags.replace(/(.{0,230}),/, "$1");
+        tags = tags.slice(0,229);
+      }
+      tags = tags + ';';
+     
+      document.write('<a class="FlattrButton" style="display:none;" title="' +
+flattr_tle + '" href="' + url + '" rev="flattr;button:compact;tags:' + tags + '">' + flattr_dsc + '</a>');
+    }
+  /* ]]> */
+  </script>
+<meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,e="jstiming",f="tick";(function(){function c(a){this.t={};this.tick=function(a,c,d){d=void 0!=d?d:(new Date).getTime();this.t[a]=[d,c]};this[f]("start",null,a)}var a=new c;b.jstiming={Timer:c,load:a};if(b.performance&&b.performance.timing){var d=b.performance.timing,a=b[e].load,g=d.navigationStart,d=d.responseStart;0<g&&d>=g&&(a[f]("_wtsrt",void 0,g),a[f]("wtsrt_","_wtsrt",d))}try{a=null,b.chrome&&b.chrome.csi&&(a=Math.floor(b.chrome.csi().pageT)),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&
+(a=b.external.pageT),a&&(b[e].pt=a)}catch(j){}})();b.tickAboveFold=function(c){var a=0;if(c.offsetParent){do a+=c.offsetTop;while(c=c.offsetParent)}c=a;750>=c&&b[e].load[f]("aft")};var h=!1;function i(){h||(h=!0,b[e].load[f]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",i,!1):b.attachEvent("onscroll",i);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://duebelsgeistesblitz.blogspot.de/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://duebelsgeistesblitz.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Dübels Geistesblitz - Atom" href="http://duebelsgeistesblitz.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Dübels Geistesblitz - RSS" href="http://duebelsgeistesblitz.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Dübels Geistesblitz - Atom" href="http://www.blogger.com/feeds/28730990/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=28730990" />
+<link rel="me" href="http://www.blogger.com/profile/03741623396358316698" />
+<link rel="openid.server" href="http://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://duebelsgeistesblitz.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="http://www.blogger.com/static/v1/jsbin/2904029546-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Dübels Geistesblitz</title>
+<script type="text/javascript">
+if (navigator.userAgent.indexOf('MSIE 6') == -1) {
+  WebFontConfig = {
+    google: { families: [ 'Fontdiner Swanky' ],
+    api: 'http://themes.googleusercontent.com/fonts/css?kit=8_GxIO5ixMtn5P6COsF3TjoTK5tqmX1gAmGFLAHeNdw'
+    },
+    loading: function() {
+      if (window.jstiming) window.jstiming.load.tick('webfontLoading');
+    },
+    active: function() {
+      if (window.jstiming) window.jstiming.load.tick('webfontActive');
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+} else {
+  document.documentElement.className = 'wf-inactive';
+}
+</script>
+<style type="text/css">
+.wf-inactive .header h1, .wf-fontdinerswanky-n4-loading .header h1, .wf-fontdinerswanky-n4-inactive .header h1 {
+  font-family: cursive;
+}
+</style>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/2098323231-widget_css_2_bundle.css' />
+<link type="text/css" rel="stylesheet" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=28730990&zx=eae0118b-ddd5-4543-8d4f-71c268ca40fc"/>
+<style type="text/css">
+#navbar-iframe { display:block }
+#b-navbar{white-space:nowrap;color:#444;height:29px;border-bottom:1px solid #888;background:transparent;font-size:13px;font-family:Arial,Sans-serif;position:relative}#b-navbar #b-navbar-bg{position:absolute;left:0;top:0;width:100%;height:30px;z-index:-1;background-color:#fff;opacity:0.4;filter:alpha(opacity=40)}#b-navbar-user{width:500px;height:30px}.navbar-float-left{float:left}.navbar-float-right{float:right}#b-navbar-controls{margin-left:.2em;height:29px}#b-navbar #b-navbar-logo{display:block;margin-right:8px;margin-left:8px;width:20px;height:20px;background:url('http://img1.blogblog.com/img/navbar/icons_peach.png') no-repeat -26px 0;cursor:pointer;cursor:hand}#b-navbar #b-query-box{background-color:#fff;margin:0 .5em 0 0;border:1px solid #aaa;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:0 .3em}#b-navbar #b-query-icon{display:block;width:13px;height:13px;cursor:pointer;cursor:hand;background:url('http://img1.blogblog.com/img/navbar/icons_peach.png') no-repeat 0 0}#b-navbar #b-query-icon:hover{background:url('http://img1.blogblog.com/img/navbar/icons_peach.png') no-repeat -13px 0}#b-navbar #b-query{font-size:13px;color:#000;background-color:transparent;border:none;width:10em;margin:0}#b-navbar .b-link,#b-navbar #b-user{font-size:13px;vertical-align:middle;padding:0 .4em}#b-navbar .b-link{color:#333;text-decoration:none;white-space:nowrap;cursor:pointer;cursor:hand}#b-navbar .b-link:hover{color:#55e;text-decoration:underline}#b-navbar .b-menu{border:none;border:0;margin:0;padding:0 10px}#b-navbar .b-menu ul{list-style:none;margin:0;padding:0}#b-navbar .b-menu ul ul{background-color:#fff;color:#000}#b-navbar .b-menu li{background:none;border:none;font-weight:normal;margin:0;padding:0}#b-navbar .b-menu li:hover{background-color:#fff}#b-navbar .b-menu li a{display:block;margin:0;padding:0 10px 0 10px;text-align:center;text-decoration:none;height:29px;line-height:30px;cursor:pointer;position:relative}#b-navbar .b-menu li ul{display:none;height:auto;padding:0;margin:0;position:absolute;z-index:200}#b-navbar .b-menu li:hover ul{display:block}#b-navbar .b-menu li li{background-color:#fff;display:block;margin:0;padding:0}#b-navbar .b-menu li:hover li a{background:none}#b-navbar .b-menu li a:hover,#b-navbar .b-menu li:hover .b-link{color:#000;text-decoration:none}#b-navbar .b-menu ul li a span.arrow{background:url('http://img1.blogblog.com/img/navbar/arrows-light.png') no-repeat -12px center;display:inline-block;width:7px;height:10px;margin:0 0 0 5px}#b-navbar .b-menu li:hover span.arrow{background:url('http://img1.blogblog.com/img/navbar/arrows-light.png') no-repeat 0 center}#b-navbar .b-menu li ul a{display:block;height:35px;font-size:13px;font-style:normal;margin:0;padding:0 25px 0 15px;text-align:left;color:#777777}#b-navbar .b-menu ul li ul{border:1px #fff solid;-webkit-box-shadow:0 4px 16px rgba(0,0,0,0.2);-moz-box-shadow:0 4px 16px rgba(0,0,0,0.2);-ms-box-shadow:0 4px 16px rgba(0,0,0,0.2);box-shadow:2px 4px 4px rgba(0,0,0,0.2)}#b-navbar .b-menu li ul a:hover,#b-navbar .b-menu li ul li:hover a{border:0;cursor:pointer;background-color:#f1f1f1;color:#000}#b-navbar .b-menu p{clear:left}#bt-unflag-body{display:none}#flagi,#unflagi{display:none;top:3px;color:#000;background-color:#ff9;border:1px solid #333;z-index:300;padding:4px;font-size:.7em;line-height:.8em}#flagi a,#unflagi a{color:#3366cc;text-decoration:underline}.b-mobile{display:none}#b-sms{margin:0 0 0 100px;padding:4px 7px;line-height:1em;font-size:100%;text-align:left}#b-sms a{margin-right:.5em;line-height:1em}#b-sms a:hover{text-decoration:underline}@media handheld{body .b-mobile{display:block}body #b-navbar-fg,body #flagi,body #unflagi{display:none}}</style>
+<style id='page-skin-1' type='text/css'><!--
+/*-----------------------------------------------
+Blogger Template Style
+Name:     Picture Window
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#1a222a"/>
+<Variable name="body.background" description="Body Background" type="background"
+color="#6da582" default="#111111 url(http://themes.googleusercontent.com/image?id=1OACCYOE0-eoTRTfsBuX1NMN9nz599ufI1Jh0CggPFA_sK80AGkIr8pLtYRpNUKPmwtEa) repeat-x fixed top center"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#333333"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#296695"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+<Variable name="post.background.color" description="Post Background" type="color" default="#ffffff"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#336699"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#6699cc"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Title Font" type="font"
+default="normal normal 36px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#339966"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="transparent"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="transparent"/>
+<Variable name="tabs.separator.color" description="Separator Color" type="color" default="transparent"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Title Font" type="font"
+default="normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color" default="#333333"/>
+</Group>
+<Group description="Post" selector=".post">
+<Variable name="post.footer.text.color" description="Footer Text Color" type="color" default="#999999"/>
+<Variable name="post.border.color" description="Border Color" type="color" default="#dddddd"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#888888"/>
+</Group>
+<Group description="Footer" selector=".footer-outer">
+<Variable name="footer.text.color" description="Text Color" type="color" default="#cccccc"/>
+<Variable name="footer.widget.title.text.color" description="Gadget Title Color" type="color" default="#aaaaaa"/>
+</Group>
+<Group description="Footer Links" selector=".footer-outer">
+<Variable name="footer.link.color" description="Link Color" type="color" default="#99ccee"/>
+<Variable name="footer.link.visited.color" description="Visited Color" type="color" default="#77aaee"/>
+<Variable name="footer.link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Variable name="content.margin" description="Content Margin Top" type="length" default="20px"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="0"/>
+<Variable name="content.background" description="Content Background" type="background"
+default="transparent none repeat scroll top left"/>
+<Variable name="content.border.radius" description="Content Border Radius" type="length" default="0"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="0"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url"
+default="none"/>
+<Variable name="header.border.radius" description="Header Border Radius" type="length" default="0"/>
+<Variable name="main.border.radius.top" description="Main Border Radius" type="length" default="20px"/>
+<Variable name="footer.border.radius.top" description="Footer Border Radius Top" type="length" default="0"/>
+<Variable name="footer.border.radius.bottom" description="Footer Border Radius Bottom" type="length" default="20px"/>
+<Variable name="region.shadow.spread" description="Main and Footer Shadow Spread" type="length" default="3px"/>
+<Variable name="region.shadow.offset" description="Main and Footer Shadow Offset" type="length" default="1px"/>
+<Variable name="tabs.background.gradient" description="Tab Background Gradient" type="url" default="none"/>
+<Variable name="tab.selected.background.gradient" description="Selected Tab Background" type="url"
+default="url(http://www.blogblog.com/1kt/transparent/white80.png)"/>
+<Variable name="tab.background" description="Tab Background" type="background"
+default="transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="tab.border.radius" description="Tab Border Radius" type="length" default="10px" />
+<Variable name="tab.first.border.radius" description="First Tab Border Radius" type="length" default="10px" />
+<Variable name="tabs.border.radius" description="Tabs Border Radius" type="length" default="0" />
+<Variable name="tabs.spacing" description="Tab Spacing" type="length" default=".25em"/>
+<Variable name="tabs.margin.bottom" description="Tab Margin Bottom" type="length" default="0"/>
+<Variable name="tabs.margin.sides" description="Tab Margin Sides" type="length" default="20px"/>
+<Variable name="main.background" description="Main Background" type="background"
+default="transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left"/>
+<Variable name="main.padding.sides" description="Main Padding Sides" type="length" default="20px"/>
+<Variable name="footer.background" description="Footer Background" type="background"
+default="transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left"/>
+<Variable name="post.margin.sides" description="Post Margin Sides" type="length" default="-20px"/>
+<Variable name="post.border.radius" description="Post Border Radius" type="length" default="5px"/>
+<Variable name="widget.title.text.transform" description="Widget Title Text Transform" type="string" default="uppercase"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #333333;
+background: #6da582 none no-repeat scroll center center;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+.content-outer {
+font-size: 90%;
+}
+a:link {
+text-decoration:none;
+color: #339966;
+}
+a:visited {
+text-decoration:none;
+color: #66cc99;
+}
+a:hover {
+text-decoration:underline;
+color: #32ff87;
+}
+.content-outer {
+background: transparent none repeat scroll top left;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+margin: 20px auto;
+}
+.content-inner {
+padding: 0;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+color: #ffffff;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.Header img, .Header #header-inner {
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.header-inner .Header .titlewrapper,
+.header-inner .Header .descriptionwrapper {
+padding-left: 0;
+padding-right: 0;
+}
+.Header h1 {
+font: normal normal 70px Fontdiner Swanky;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.Header h1 a {
+color: #ffffff;
+}
+.Header .description {
+font-size: 130%;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner {
+margin: .5em 20px 0;
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0;
+}
+.tabs-inner .widget ul {
+padding: 0;
+background: transparent none repeat scroll bottom;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .5em 1em;
+margin-right: .25em;
+color: #ffffff;
+font: normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+-moz-border-radius: 10px 10px 0 0;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-goog-ms-border-radius: 10px 10px 0 0;
+border-radius: 10px 10px 0 0;
+background: transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+border-right: 1px solid transparent;
+}
+.tabs-inner .widget li:first-child a {
+padding-left: 1.25em;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 0;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 0;
+-goog-ms-border-top-left-radius: 10px;
+-goog-ms-border-bottom-left-radius: 0;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 0;
+}
+.tabs-inner .widget li.selected a,
+.tabs-inner .widget li a:hover {
+position: relative;
+z-index: 1;
+background: transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom;
+color: #339966;
+-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+font: bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+text-transform: uppercase;
+color: #888888;
+margin: .5em 0;
+}
+/* Main
+----------------------------------------------- */
+.main-outer {
+background: transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left;
+-moz-border-radius: 20px 20px 0 0;
+-webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-goog-ms-border-radius: 20px 20px 0 0;
+border-radius: 20px 20px 0 0;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+.main-inner {
+padding: 15px 20px 20px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-left-inner {
+padding-left: 0;
+}
+.main-inner .column-right-inner {
+padding-right: 0;
+}
+/* Posts
+----------------------------------------------- */
+h3.post-title {
+margin: 0;
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.comments h4 {
+margin: 1em 0 0;
+font: normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.date-header span {
+color: #333333;
+}
+.post-outer {
+background-color: #ffffff;
+border: solid 1px #dddddd;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-goog-ms-border-radius: 5px;
+padding: 15px 20px;
+margin: 0 -20px 20px;
+}
+.post-body {
+line-height: 1.4;
+font-size: 110%;
+position: relative;
+}
+.post-header {
+margin: 0 0 1.5em;
+color: #999999;
+line-height: 1.6;
+}
+.post-footer {
+margin: .5em 0 0;
+color: #999999;
+line-height: 1.6;
+}
+#blog-pager {
+font-size: 140%
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: dashed 1px #ccc;
+border-top: dashed 1px rgba(128, 128, 128, .5);
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #32ff87;
+border-bottom: 1px solid #32ff87;
+}
+.comments .continue {
+border-top: 2px solid #32ff87;
+}
+/* Widgets
+----------------------------------------------- */
+.widget ul, .widget #ArchiveList ul.flat {
+padding: 0;
+list-style: none;
+}
+.widget ul li, .widget #ArchiveList ul.flat li {
+border-top: dashed 1px #ccc;
+border-top: dashed 1px rgba(128, 128, 128, .5);
+}
+.widget ul li:first-child, .widget #ArchiveList ul.flat li:first-child {
+border-top: none;
+}
+.widget .post-body ul {
+list-style: disc;
+}
+.widget .post-body ul li {
+border: none;
+}
+/* Footer
+----------------------------------------------- */
+.footer-outer {
+color:#cccccc;
+background: transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left;
+-moz-border-radius: 0 0 20px 20px;
+-webkit-border-top-left-radius: 0;
+-webkit-border-top-right-radius: 0;
+-webkit-border-bottom-left-radius: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-goog-ms-border-radius: 0 0 20px 20px;
+border-radius: 0 0 20px 20px;
+-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+.footer-inner {
+padding: 10px 20px 20px;
+}
+.footer-outer a {
+color: #98eebb;
+}
+.footer-outer a:visited {
+color: #77eeba;
+}
+.footer-outer a:hover {
+color: #32ff87;
+}
+.footer-outer .widget h2 {
+color: #aaaaaa;
+}
+/* Mobile
+----------------------------------------------- */
+html body.mobile {
+height: auto;
+}
+html body.mobile {
+min-height: 480px;
+background-size: 100% auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+html .mobile .mobile-date-outer, html .mobile .blog-pager {
+border-bottom: none;
+background: transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left;
+margin-bottom: 10px;
+}
+.mobile .date-outer {
+background: transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left;
+}
+.mobile .header-outer, .mobile .main-outer,
+.mobile .post-outer, .mobile .footer-outer {
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+-goog-ms-border-radius: 0;
+border-radius: 0;
+}
+.mobile .content-outer,
+.mobile .main-outer,
+.mobile .post-outer {
+background: inherit;
+border: none;
+}
+.mobile .content-outer {
+font-size: 100%;
+}
+.mobile-link-button {
+background-color: #339966;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile-index-contents {
+color: #333333;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background: transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll bottom;
+color: #339966;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid transparent;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 930px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 930px;
+max-width: 930px;
+_width: 930px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 360px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 360px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("360px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 360px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 360px;
+margin-right: -360px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a=navigator,b="userAgent",c="indexOf",f="&m=1",g="(^|&)m=",h="?",i="?m=1";function j(){var d=window.location.href,e=d.split(h);switch(e.length){case 1:return d+i;case 2:return 0<=e[1].search(g)?null:d+f;default:return null}}if(-1!=a[b][c]("Mobile")&&-1!=a[b][c]("WebKit")&&-1==a[b][c]("iPad")||-1!=a[b][c]("Opera Mini")||-1!=a[b][c]("IEMobile")){var k=j();k&&window.location.replace(k)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=28730990&amp;blogName=D%C3%BCbels+Geistesblitz&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=LIGHT&amp;layoutType=LAYOUTS&amp;searchRoot=http://duebelsgeistesblitz.blogspot.com/search&amp;blogLocale=de_DE&amp;v=1&amp;homepageUrl=http://duebelsgeistesblitz.blogspot.com/&amp;vt=7414824431412054092" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger-Navigation und -Suche"></iframe>
+<div></div><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://duebelsgeistesblitz.blogspot.de/' style='display: block'>
+<img alt='Dübels Geistesblitz' height='177px; ' id='Header1_headerimg' src='http://3.bp.blogspot.com/-woE5sGWvasU/Te5jPaCpKfI/AAAAAAAAAS4/rZs1s1mIlTs/s1600/DG_website_header2.jpg' style='display: block' width='740px; '/>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sonntag, Juni 03, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='7766645434366706411'></a>
+<h3 class='post-title entry-title'>
+<a href='http://duebelsgeistesblitz.blogspot.de/2012/06/dg226-wurstkunst.html'>DG226 - Wurstkunst</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7766645434366706411'>
+Der Auslöser für den aktuellen Geistesblitz ist ein <a href="http://www.spiegeloffline.de/2012/05/23/neulich-im-stellenmarkt/">Stellenangebot in einer Zeitung</a>. Die Filiale einer Supermarktkette in Cölbe sucht darin Auszubildende für den Beruf des Fleisch- und Wurstdesigners. Mehr muss man nicht sagen.<br />
+<br />
+Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz226.mp3">Duebels_Geistesblitz226.mp3</a><br />
+<br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-timestamp'>
+um
+<a class='timestamp-link' href='http://duebelsgeistesblitz.blogspot.de/2012/06/dg226-wurstkunst.html' rel='bookmark' title='permanent link'><abbr class='published' title='2012-06-03T14:38:00+02:00'>14:38</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=28730990&amp;postID=7766645434366706411' onclick=''>2
+Kommentare</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-2016021522'>
+<a href='http://www.blogger.com/post-edit.g?blogID=28730990&postID=7766645434366706411&from=pencil' title='Post bearbeiten'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=7766645434366706411&target=email' target='_blank' title='Diesen Post per E-Mail versenden'><span class='share-button-link-text'>Diesen Post per E-Mail versenden</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=7766645434366706411&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=7766645434366706411&target=twitter' target='_blank' title='In Twitter freigeben'><span class='share-button-link-text'>In Twitter freigeben</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=7766645434366706411&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='In Facebook freigeben'><span class='share-button-link-text'>In Facebook freigeben</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger' href='http://duebelsgeistesblitz.blogspot.com/2012/06/dg226-wurstkunst.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<div style='display:inline-block; position:relative; top:6px;'>
+<div id='flattr_summary_7766645434366706411' style='display: none;'>
+Der Auslöser für den aktuellen Geistesblitz ist ein <a href="http://www.spiegeloffline.de/2012/05/23/neulich-im-stellenmarkt/">Stellenangebot in einer Zeitung</a>. Die Filiale einer Supermarktkette in Cölbe sucht darin Auszubildende für den Beruf des Fleisch- und Wurstdesigners. Mehr muss man nicht sagen.<br />
+<br />
+Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz226.mp3">Duebels_Geistesblitz226.mp3</a><br />
+<br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+</div>
+<div id='flattr_title_7766645434366706411' style='display: none;'>
+DG226 - Wurstkunst
+</div>
+<script type='text/javascript'>  
+        displayFlattrButton('7766645434366706411', 'http://duebelsgeistesblitz.blogspot.de/2012/06/dg226-wurstkunst.html', '');
+       </script>
+<br/>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Montag, Mai 28, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5719713093649622364'></a>
+<h3 class='post-title entry-title'>
+<a href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg225-die-4-von-der-baustelle-und-der.html'>DG225 - Die 4 von der Baustelle und der grausame Elfmeter</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5719713093649622364'>
+Im Bauwagen gibt es heute eine heftige Debatte über <a href="http://www.spiegel.de/sport/fussball/fifa-praesident-joseph-blatter-will-das-elfmeterschiessen-abschaffen-a-835223.html">Joseph Blatters Vorschlag zur Abschaffung des Elfmeterschiessens</a>&nbsp;beim Fussball. Horst ist absolut dagegen, der Rest hat ganz andere Ideen.<br />
+<br />
+Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz225.mp3">Duebels_Geistesblitz225.mp3</a><br />
+<br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-timestamp'>
+um
+<a class='timestamp-link' href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg225-die-4-von-der-baustelle-und-der.html' rel='bookmark' title='permanent link'><abbr class='published' title='2012-05-28T15:07:00+02:00'>15:07</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=28730990&amp;postID=5719713093649622364' onclick=''>0
+Kommentare</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-2016021522'>
+<a href='http://www.blogger.com/post-edit.g?blogID=28730990&postID=5719713093649622364&from=pencil' title='Post bearbeiten'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5719713093649622364&target=email' target='_blank' title='Diesen Post per E-Mail versenden'><span class='share-button-link-text'>Diesen Post per E-Mail versenden</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5719713093649622364&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5719713093649622364&target=twitter' target='_blank' title='In Twitter freigeben'><span class='share-button-link-text'>In Twitter freigeben</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5719713093649622364&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='In Facebook freigeben'><span class='share-button-link-text'>In Facebook freigeben</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger' href='http://duebelsgeistesblitz.blogspot.com/2012/05/dg225-die-4-von-der-baustelle-und-der.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<div style='display:inline-block; position:relative; top:6px;'>
+<div id='flattr_summary_5719713093649622364' style='display: none;'>
+Im Bauwagen gibt es heute eine heftige Debatte über <a href="http://www.spiegel.de/sport/fussball/fifa-praesident-joseph-blatter-will-das-elfmeterschiessen-abschaffen-a-835223.html">Joseph Blatters Vorschlag zur Abschaffung des Elfmeterschiessens</a>&nbsp;beim Fussball. Horst ist absolut dagegen, der Rest hat ganz andere Ideen.<br />
+<br />
+Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz225.mp3">Duebels_Geistesblitz225.mp3</a><br />
+<br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+</div>
+<div id='flattr_title_5719713093649622364' style='display: none;'>
+DG225 - Die 4 von der Baustelle und der grausame Elfmeter
+</div>
+<script type='text/javascript'>  
+        displayFlattrButton('5719713093649622364', 'http://duebelsgeistesblitz.blogspot.de/2012/05/dg225-die-4-von-der-baustelle-und-der.html', '');
+       </script>
+<br/>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Dienstag, Mai 22, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5681207959092582060'></a>
+<h3 class='post-title entry-title'>
+<a href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg224-farbschwachen.html'>DG224 - Farbschwächen</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5681207959092582060'>
+Kiwi, Pflaume, Orange ... was für Männer lediglich wie ein Obstkorb klingt, ist für Frauen auch eine Farbauswahl. Der heutige Geistesblitz widmet sich der Problematik "Gemischtgeschlechtlicher Wandfarbenkauf". Ein Thema, das uns alle angeht.<br />
+<div style="text-align: left;"><br />
+Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz224.mp3">Duebels_Geistesblitz224.mp3</a></div><br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-timestamp'>
+um
+<a class='timestamp-link' href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg224-farbschwachen.html' rel='bookmark' title='permanent link'><abbr class='published' title='2012-05-22T19:51:00+02:00'>19:51</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=28730990&amp;postID=5681207959092582060' onclick=''>1 Kommentare</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-2016021522'>
+<a href='http://www.blogger.com/post-edit.g?blogID=28730990&postID=5681207959092582060&from=pencil' title='Post bearbeiten'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5681207959092582060&target=email' target='_blank' title='Diesen Post per E-Mail versenden'><span class='share-button-link-text'>Diesen Post per E-Mail versenden</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5681207959092582060&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5681207959092582060&target=twitter' target='_blank' title='In Twitter freigeben'><span class='share-button-link-text'>In Twitter freigeben</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5681207959092582060&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='In Facebook freigeben'><span class='share-button-link-text'>In Facebook freigeben</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger' href='http://duebelsgeistesblitz.blogspot.com/2012/05/dg224-farbschwachen.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<div style='display:inline-block; position:relative; top:6px;'>
+<div id='flattr_summary_5681207959092582060' style='display: none;'>
+Kiwi, Pflaume, Orange ... was für Männer lediglich wie ein Obstkorb klingt, ist für Frauen auch eine Farbauswahl. Der heutige Geistesblitz widmet sich der Problematik "Gemischtgeschlechtlicher Wandfarbenkauf". Ein Thema, das uns alle angeht.<br />
+<div style="text-align: left;"><br />
+Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz224.mp3">Duebels_Geistesblitz224.mp3</a></div><br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+</div>
+<div id='flattr_title_5681207959092582060' style='display: none;'>
+DG224 - Farbschwächen
+</div>
+<script type='text/javascript'>  
+        displayFlattrButton('5681207959092582060', 'http://duebelsgeistesblitz.blogspot.de/2012/05/dg224-farbschwachen.html', '');
+       </script>
+<br/>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Sonntag, Mai 06, 2012</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='5877595172917787195'></a>
+<h3 class='post-title entry-title'>
+<a href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg223-die-4-von-der-baustelle-und-die.html'>DG223 - Die 4 von der Baustelle und die gute Sache</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5877595172917787195'>
+Horst ist der Meinung, daß der Bau des Altenwohnheims an sich ja schon eine gute Sache wäre. Nach und nach erzählen dann auch Maurice, Karl und Heinz, wofür sie so eintreten und was sie alles für eine bessere Welt tun.<br />
+<br />
+Hier wären mal zwei Vorschläge dafür, wie man ein wenig die Welt retten könnte:<br />
+<a href="http://www.organspende-info.de/">BZgA - Organspende schenkt Leben</a><br />
+<a href="http://www.dkms.de/home/de/">DKMS Deutsche Knochenmarkspenderdatei</a><br />
+<br />
+Eure Vorschläge könnt ihr als Kommentar anfügen.<br />
+<br />
+<div style="text-align: left;">Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz223.mp3">Duebels_Geistesblitz223.mp3</a></div><br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-timestamp'>
+um
+<a class='timestamp-link' href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg223-die-4-von-der-baustelle-und-die.html' rel='bookmark' title='permanent link'><abbr class='published' title='2012-05-06T13:20:00+02:00'>13:20</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://www.blogger.com/comment.g?blogID=28730990&amp;postID=5877595172917787195' onclick=''>6
+Kommentare</a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-2016021522'>
+<a href='http://www.blogger.com/post-edit.g?blogID=28730990&postID=5877595172917787195&from=pencil' title='Post bearbeiten'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5877595172917787195&target=email' target='_blank' title='Diesen Post per E-Mail versenden'><span class='share-button-link-text'>Diesen Post per E-Mail versenden</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5877595172917787195&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5877595172917787195&target=twitter' target='_blank' title='In Twitter freigeben'><span class='share-button-link-text'>In Twitter freigeben</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=28730990&postID=5877595172917787195&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='In Facebook freigeben'><span class='share-button-link-text'>In Facebook freigeben</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger' href='http://duebelsgeistesblitz.blogspot.com/2012/05/dg223-die-4-von-der-baustelle-und-die.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+<div style='display:inline-block; position:relative; top:6px;'>
+<div id='flattr_summary_5877595172917787195' style='display: none;'>
+Horst ist der Meinung, daß der Bau des Altenwohnheims an sich ja schon eine gute Sache wäre. Nach und nach erzählen dann auch Maurice, Karl und Heinz, wofür sie so eintreten und was sie alles für eine bessere Welt tun.<br />
+<br />
+Hier wären mal zwei Vorschläge dafür, wie man ein wenig die Welt retten könnte:<br />
+<a href="http://www.organspende-info.de/">BZgA - Organspende schenkt Leben</a><br />
+<a href="http://www.dkms.de/home/de/">DKMS Deutsche Knochenmarkspenderdatei</a><br />
+<br />
+Eure Vorschläge könnt ihr als Kommentar anfügen.<br />
+<br />
+<div style="text-align: left;">Direktdownload dieser Folge: <a href="http://der-duebel.podspot.de/files/Duebels_Geistesblitz223.mp3">Duebels_Geistesblitz223.mp3</a></div><br />
+Kommentare zu dieser Folge bitte in den Commentbereich auf <a href="http://www.duebelsgeistesblitz.de/">www.duebelsgeistesblitz.de</a>, oder per Email direkt an <a href="mailto:derduebel@derduebel.de">derduebel@derduebel.de</a>. &nbsp;In diesem Podcast verwandte Musik und Sounds stammen von &nbsp;<a href="http://www.magix.de/">MAGIX</a>. Aufgenommen wurde mit Garageband.
+</div>
+<div id='flattr_title_5877595172917787195' style='display: none;'>
+DG223 - Die 4 von der Baustelle und die gute Sache
+</div>
+<script type='text/javascript'>  
+        displayFlattrButton('5877595172917787195', 'http://duebelsgeistesblitz.blogspot.de/2012/05/dg223-die-4-von-der-baustelle-und-die.html', '');
+       </script>
+<br/>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'></div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-max=2012-05-06T13:20:00%2B02:00&amp;max-results=4' id='Blog1_blog-pager-older-link' title='Ältere Posts'>Ältere Posts</a>
+</span>
+<a class='home-link' href='http://duebelsgeistesblitz.blogspot.de/'>Startseite</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Abonnieren
+<a class='feed-link' href='http://duebelsgeistesblitz.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'de_DE'};window.___gapisync = false;(function() {var po = document.createElement('script');po.type = 'text/javascript';po.async = true;po.src = 'https://apis.google.com/js/plusone.js';var s = document.body.getElementsByTagName('script')[0];s.parentNode.insertBefore(po, s);})();</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Hallo, Grüß Gott, Moin Moin, wie auch immer ...</h2>
+<div class='widget-content'>
+<span>Dübels Geistesblitz ist ein seit dem 04.September 2006 erscheinender Personal-Comedy-Podcast. Statistiker haben ermittelt, daß er alle 9 Tage (vorzugsweise Sonntags) neu erscheint. Kein Witz ist zu billig, kein Gag zu flach und erlaubt ist alles was gefällt. Am besten einfach mal reinhören. Ein Klick und los ...</span>
+<a href="javascript:void(window.open('http://www.podster.de/listen/3399',%20'podster_player','width=354,height=260,left=20,top=20'))">PLAY</a>
+<p></p><p>
+<span style="font-weight: bold;">Podcastfeed:</span>
+<a href="http://der-duebel.podspot.de/rss">RSS</a> /
+<a href="itpc://der-duebel.podspot.de/rss">iTunes</a>
+</p><p>
+<span style="font-weight: bold;">Blogfeed:</span>
+<a href="http://duebelsgeistesblitz.blogspot.com/feeds/posts/default?alt=rss">RSS</a></p><p></p><p></p><span style="font-weight: bold;">
+
+<p>
+<span style="font-weight: bold;">Ukulelengeschrammel:</span>
+<a style="font-weight: normal;" href="http://soundcloud.com/derduebel">Soundcloud.com</a>
+
+</p></span><span><p>
+Das Dübels Geistesblitz Logo wurde gestaltet von <a href="http://www.lachhaft-cartoons.de/">Michael Mantel</a>.</p><p></p></span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML8'>
+<div class='widget-content'>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.hoerspielprojekt.de/?p=937"><img border="0" height="292" src="http://1.bp.blogspot.com/-4r09z9G8Oho/TnTKUgbTtlI/AAAAAAAAAhk/2l3sq-gN8qo/s320/Cover_online-1306424311.png" width="292" /></a></div>
+<div style="text-align: center;">
+Kinderhörspiel von <a href="http://www.hoerspielprojekt.de/">Hörspielprojekt.de</a>&nbsp;</div>
+<div style="text-align: center;">
+mit mir als "Mister Maulwurf".</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' target='configHTML8' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<div class='widget-content'>
+<center>
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/duebelsgeistesblitz" width="292" show_faces="true" border_color="" stream="false" header="false"></fb:like-box></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML1'>
+<h2 class='title'>Bestellt doch etwas bei Amazon für Euch ...</h2>
+<div class='widget-content'>
+<center>
+<script charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&amp;MarketPlace=DE&amp;ID=V20070822/DE/duebelgeiste-21/8002/eef24402-91f6-4b62-b10a-f10b86e7d2d6"> </script> <noscript><a href="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&amp;MarketPlace=DE&amp;ID=V20070822%2FDE%2Fduebelgeiste-21%2F8002%2Feef24402-91f6-4b62-b10a-f10b86e7d2d6&amp;Operation=NoScript">Amazon.de Widgets</a></noscript>
+
+<br />
+<a href="http://www.amazon.de/gp/registry/registry.html?ie=UTF8&type=wishlist&id=312F7ARYK1HVM">... oder für mich. ;)</a>
+</center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-1'><div class='widget HTML' id='HTML7'>
+<h2 class='title'>Flattr</h2>
+<div class='widget-content'>
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;"
+href="http://duebelsgeistesblitz.blogspot.com/"></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog-Archiv</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2012-01-01T00:00:00%2B01:00&amp;updated-max=2013-01-01T00:00:00%2B01:00&amp;max-results=15'>2012</a>
+<span class='post-count' dir='ltr'>(15)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2012_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/06/dg226-wurstkunst.html'>DG226 - Wurstkunst</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2012_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg225-die-4-von-der-baustelle-und-der.html'>DG225 - Die 4 von der Baustelle und der grausame E...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg224-farbschwachen.html'>DG224 - Farbschwächen</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/05/dg223-die-4-von-der-baustelle-und-die.html'>DG223 - Die 4 von der Baustelle und die gute Sache...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2012_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(5)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/04/dg222-das-standard-gute-nacht-gebet.html'>DG222 - Das Standard Gute Nacht Gebet</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/04/dg221-die-4-von-der-baustelle-im.html'>DG221 - Die 4 von der Baustelle im Lesefieber</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/04/dg220-die-4-von-der-baustelle-und-das.html'>DG220 - Die 4 von der Baustelle und das Osterwoche...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/04/dg19-die-4-von-der-baustelle-und-der.html'>DG219 - Die 4 von der Baustelle und der wandernde ...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/04/dg218-die-4-von-der-baustelle-und-der.html'>DG218 - Die 4 von der Baustelle und der Placeboeff...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2012_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/03/dg217-die-4-von-der-baustelle-und-die.html'>DG217 - Die 4 von der Baustelle und die neue Gotts...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/03/european-podcast-award-2011.html'>European Podcast Award 2011</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/03/der-erdnussbuttersong-zum.html'>Der Erdnussbuttersong (zum selberklampfen und träl...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/03/dg216-anrufbeantworter-und.html'>DG216 - Anrufbeantworter und Erdnussbutter</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2012_02_01_archive.html'>Februar</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/02/dg215-der-niedergang-des-grunen.html'>DG215 - Der Niedergang des grünen Frosches</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2012_01_01_archive.html'>Januar</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2012/01/dg214-fans-unter-sich.html'>DG214 - Fans unter sich</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2011-01-01T00:00:00%2B01:00&amp;updated-max=2012-01-01T00:00:00%2B01:00&amp;max-results=36'>2011</a>
+<span class='post-count' dir='ltr'>(36)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/12/dg213-zwischen-den-jahren-bei-den.html'>DG213 - Zwischen den Jahren bei den Nachbarn</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/12/dg212-aktion-weihnachten-in-not.html'>DG212 - Aktion &quot;Weihnachten in Not&quot;</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/11/dg211-von-nach-b.html'>DG211 - Von A nach B</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/10/dg210-talente-im-wartezimmer.html'>DG210 - Talente im Wartezimmer</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/10/dg209-wie-ich-mir-beinahe-ein.html'>DG209 - Wie ich mir beinahe ein sprechendes Handy ...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/10/dg208-freizeitpark-zweiter-klasse.html'>DG208 - Freizeitpark zweiter Klasse</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(4)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/09/wenn-ich-papst-war-text-und-akkorde.html'>Wenn ich Papst wär - Text und Akkorde</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/09/dg206-wenn-ich-papst-war.html'>DG207 - Wenn ich Papst wär</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/09/dg206-nordsee-91-directors-cut.html'>DG206 - Nordsee 91 (Directors Cut)</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/09/dg205-die-groe-erleuchtung.html'>DG205 - Die große Erleuchtung</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/08/dg204-der-1000000-kunde.html'>DG204 - Der 1.000.000 Kunde</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/08/dg203-vorsicht-baustelle.html'>DG203 - Vorsicht, Baustelle!</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_07_01_archive.html'>Juli</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/07/dg202-lieferung-fur-matuschek.html'>DG202 - Lieferung für Matuschek</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/07/dg201-neues-von-pappel.html'>DG201 - Neues von Päppel</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/07/packchen-packen.html'>Päckchen packen</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(6)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/06/der-karpatenmolch-im-radio.html'>Der Karpatenmolch im Radio</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/06/dg200-operation-karpatenmolch.html'>DG200 - Operation Karpatenmolch</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/06/wie-siehst-du-denn-aus.html'>&quot;Wie siehst Du denn aus?&quot;</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/06/der-countdown-lauft.html'>Der Countdown läuft ...</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/06/zwischenbericht.html'>Zwischenbericht</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/06/dg199-das-zeugenschutzprogramm.html'>DG199 - Das Zeugenschutzprogramm</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(5)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/05/lulu-merlin-und-der-traum-vom-fliegen.html'>&quot;Lulu, Merlin und der Traum vom Fliegen&quot;</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/05/dg198-durchfall-deo-derminator.html'>DG198 - Durchfall, Deo, Derminator</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/05/dg197-63-bitte-12.html'>DG197 - 63, bitte 12!</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/05/dg196-resozialisierung-von-9live.html'>DG196 - Resozialisierung von 9live-Moderatoren</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/05/dg195-royal-wedding.html'>DG195 - The Royal Wedding</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/04/dg194-der-ostereiersuchwettbewerb.html'>DG194 - Der Ostereiersuchwettbewerb</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/04/dg193-die-qual-der-wahl.html'>DG193 - Die Qual der Wahl</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/04/dg192-von-einparkhilfen-und-liftboys.html'>DG192 - Von Einparkhilfen und Liftboys</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/03/dg191-bitte-nicht-hupfen.html'>DG191 - Bitte nicht hüpfen!</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/03/dg190-haggis.html'>DG190 - Haggis</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/03/dg189-schonen-fruhlingsanfang.html'>DG189 - Schönen Frühlingsanfang</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_02_01_archive.html'>Februar</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/02/dg188-kabelsalat.html'>DG188 - Kabelsalat</a></li>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/02/dg187-10111011.html'>DG187 - 10111011</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2011_01_01_archive.html'>Januar</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://duebelsgeistesblitz.blogspot.de/2011/01/dg186-zu-spat.html'>DG186 - Zu spät</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2010-01-01T00:00:00%2B01:00&amp;updated-max=2011-01-01T00:00:00%2B01:00&amp;max-results=43'>2010</a>
+<span class='post-count' dir='ltr'>(43)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_07_01_archive.html'>Juli</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_02_01_archive.html'>Februar</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2010_01_01_archive.html'>Januar</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2009-01-01T00:00:00%2B01:00&amp;updated-max=2010-01-01T00:00:00%2B01:00&amp;max-results=50'>2009</a>
+<span class='post-count' dir='ltr'>(55)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_07_01_archive.html'>Juli</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_02_01_archive.html'>Februar</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2009_01_01_archive.html'>Januar</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2008-01-01T00:00:00%2B01:00&amp;updated-max=2009-01-01T00:00:00%2B01:00&amp;max-results=50'>2008</a>
+<span class='post-count' dir='ltr'>(98)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_07_01_archive.html'>Juli</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(15)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_02_01_archive.html'>Februar</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2008_01_01_archive.html'>Januar</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2007-01-01T00:00:00%2B01:00&amp;updated-max=2008-01-01T00:00:00%2B01:00&amp;max-results=50'>2007</a>
+<span class='post-count' dir='ltr'>(90)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_07_01_archive.html'>Juli</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_03_01_archive.html'>März</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_02_01_archive.html'>Februar</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2007_01_01_archive.html'>Januar</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/search?updated-min=2006-01-01T00:00:00%2B01:00&amp;updated-max=2007-01-01T00:00:00%2B01:00&amp;max-results=50'>2006</a>
+<span class='post-count' dir='ltr'>(138)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_12_01_archive.html'>Dezember</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_10_01_archive.html'>Oktober</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_07_01_archive.html'>Juli</a>
+<span class='post-count' dir='ltr'>(24)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_06_01_archive.html'>Juni</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://duebelsgeistesblitz.blogspot.de/2006_05_01_archive.html'>Mai</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-2'><div class='widget HTML' id='HTML6'>
+<h2 class='title'>PayPal</h2>
+<div class='widget-content'>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="P64R93C2AU2WW" />
+<input type="image" src="https://www.paypal.com/de_DE/DE/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen &#8211; mit PayPal." />
+<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=sidebar-right-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<h2 class='title'>Blitzgetwitter</h2>
+<div class='widget-content'>
+<div id="twitter_div">
+<h2 style="display:none;" class="sidebar-title">Twitter Updates</h2>
+<ul id="twitter_update_list"></ul>
+<a id="twitter-link" style="display:block;text-align:right;" href="http://twitter.com/DerDuebel">follow me on Twitter</a>
+</div>
+<script src="http://twitter.com/javascripts/blogger.js" type="text/javascript"></script>
+<script src="http://twitter.com/statuses/user_timeline/DerDuebel.json?callback=twitterCallback2&amp;count=5" type="text/javascript"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=sidebar-right-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sidebar section' id='sidebar-right-3'></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'><div class='widget Text' id='Text2'>
+<h2 class='title'>Impressum</h2>
+<div class='widget-content'>
+Marcus Dübel<br/>Kleinweg 4<br/>59075 Hamm<br/><p>E-Mail: derduebel (@) derduebel.de</p><p>Homepage: <a href="http://www.derduebel.de/">www.duebelsgeistesblitz.de</a> oder <a href="http://www.derduebel.de">www.derduebel.de</a><br/><br/></p><p></p><blockquote></blockquote><p></p><p></p><p></p><p></p><p></p>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=Text&widgetId=Text2&action=editWidget&sectionId=footer-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text2"));' target='configText2' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'><div class='widget Text' id='Text1'>
+<div class='widget-content'>
+<p>Inhaltlich Verantwortlicher gemäß &#167; 10 Absatz 3 MDStV: Marcus Dübel (Anschrift wie oben)<br/></p><p>Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=28730990&widgetType=Text&widgetId=Text1&action=editWidget&sectionId=footer-2-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text1"));' target='configText1' title='Bearbeiten'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type='text/javascript'>
+  FlattrLoader.setup();
+</script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/949222031-widgets.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '28730990';BLOG_attachCsiOnload(''); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID\x3d28730990','http://duebelsgeistesblitz.blogspot.de/','28730990');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID\x3d28730990','APq4FmD1fE_jSJZz_VSXDGSrx5Tso0ODxnSUq4Um1biUlzqh7iM4vZ4jnb1tPpDeZ8khc0zH3zdvKe_R8ay-MisoQrAhZAr_Lw\x3d\x3d','AOuZoY74NjFHPLcy79I81fCowPLi7Avt0A:1338978003332');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '28730990', 'bloggerUrl': 'http://www.blogger.com', 'title': 'Dübels Geistesblitz', 'pageType': 'index', 'url': 'http://duebelsgeistesblitz.blogspot.de/', 'canonicalUrl': 'http://duebelsgeistesblitz.blogspot.com/', 'canonicalHomepageUrl': 'http://duebelsgeistesblitz.blogspot.com/', 'homepageUrl': 'http://duebelsgeistesblitz.blogspot.de/', 'blogspotFaviconUrl': 'http://duebelsgeistesblitz.blogspot.de/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '', 'pageTitle': 'Dübels Geistesblitz', 'encoding': 'UTF-8', 'locale': 'de-DE', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Dübels Geistesblitz - Atom\42 href\75\42http://duebelsgeistesblitz.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Dübels Geistesblitz - RSS\42 href\75\42http://duebelsgeistesblitz.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Dübels Geistesblitz - Atom\42 href\75\42http://www.blogger.com/feeds/28730990/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\07528730990\42 /\076', 'meTag': '\74link rel\75\42me\42 href\75\42http://www.blogger.com/profile/03741623396358316698\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://duebelsgeistesblitz.blogspot.com/\42 /\76\n', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,e\75\42jstiming\42,f\75\42tick\42;(function(){function c(a){this.t\75{};this.tick\75function(a,c,d){d\75void 0!\75d?d:(new Date).getTime();this.t[a]\75[d,c]};this[f](\42start\42,null,a)}var a\75new c;b.jstiming\75{Timer:c,load:a};if(b.performance\46\46b.performance.timing){var d\75b.performance.timing,a\75b[e].load,g\75d.navigationStart,d\75d.responseStart;0\74g\46\46d\76\75g\46\46(a[f](\42_wtsrt\42,void 0,g),a[f](\42wtsrt_\42,\42_wtsrt\42,d))}try{a\75null,b.chrome\46\46b.chrome.csi\46\46(a\75Math.floor(b.chrome.csi().pageT)),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46\n(a\75b.external.pageT),a\46\46(b[e].pt\75a)}catch(j){}})();b.tickAboveFold\75function(c){var a\0750;if(c.offsetParent){do a+\75c.offsetTop;while(c\75c.offsetParent)}c\75a;750\76\75c\46\46b[e].load[f](\42aft\42)};var h\75!1;function i(){h||(h\75!0,b[e].load[f](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,i,!1):b.attachEvent(\42onscroll\42,i);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42http://www.blogger.com/static/v1/jsbin/2904029546-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/5fb5d2cbc93cfe93'}}, {'name': 'skin', 'data': {'vars': {'content_padding': '0', 'tabs_selected_background_color': 'transparent', 'region_shadow_spread': '3px', 'header_padding': '0', 'tab_selected_background_gradient': 'url(http://www.blogblog.com/1kt/transparent/white80.png)', 'link_visited_color': '#66cc99', 'tabs_margin_sides': '20px', 'post_title_font': 'normal normal 18px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_separator_color': 'transparent', 'tabs_text_color': '#ffffff', 'header_background_gradient': 'none', 'widget_title_font': 'bold normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tab_first_border_radius': '10px', 'tabs_border_radius': '0', 'keycolor': '#1a2a22', 'content_shadow_spread': '0', 'main_background': 'transparent url(http://www.blogblog.com/1kt/transparent/white80.png) repeat scroll top left', 'header_font': 'normal normal 70px Fontdiner Swanky', 'footer_background': 'transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left', 'header_background_color': 'transparent', 'widget_title_text_transform': 'uppercase', 'footer_link_visited_color': '#77eeba', 'footer_link_hover_color': '#32ff87', 'footer_border_radius_bottom': '20px', 'tabs_background_gradient': 'none', 'tab_background': 'transparent url(http://www.blogblog.com/1kt/transparent/black50.png) repeat scroll top left', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'tabs_background_color': 'transparent', 'header_border_radius': '0', 'post_margin_sides': '-20px', 'link_hover_color': '#32ff87', 'footer_link_color': '#98eebb', 'content_background': 'transparent none repeat scroll top left', 'tabs_margin_bottom': '0', 'body_text_color': '#333333', 'main_padding_sides': '20px', 'post_border_color': '#dddddd', 'footer_text_color': '#cccccc', 'footer_border_radius_top': '0', 'post_background_color': '#ffffff', 'content_border_radius': '0', 'endSide': 'right', 'post_footer_text_color': '#999999', 'startSide': 'left', 'date_header_color': '#333333', 'tabs_font': 'normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'body_font': 'normal normal 15px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'post_border_radius': '5px', 'widget_title_text_color': '#888888', 'content_margin': '20px', 'link_color': '#339966', 'footer_widget_title_text_color': '#aaaaaa', 'header_text_color': '#ffffff', 'main_border_radius_top': '20px', 'region_shadow_offset': '1px', 'tab_border_radius': '10px', 'tabs_selected_text_color': '#339966', 'body_background_color': '#6da582', 'tabs_spacing': '.25em'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '/?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '/?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '/?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '/?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '/?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '/?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '/?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'footer-2-2', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text2', 'footer-2-1', null, document.getElementById('Text2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'http://www.blogger.com/static/v1/jsbin/3298464920-lbx_de.js', 'lightboxCssUrl': 'http://www.blogger.com/static/v1/v-css/228702327-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar-right-1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'sidebar-right-1', null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar-right-1', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar-right-1', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar-right-2-2', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar-right-2-2', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'sidebar-right-2-1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-2-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+</script>
+</body>
+</html>

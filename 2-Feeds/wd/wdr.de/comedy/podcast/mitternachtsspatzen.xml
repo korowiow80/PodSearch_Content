@@ -1,0 +1,608 @@
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>comedy.wdr.de - WDR Fernsehen</title>
+<!--<script type="text/javascript" src="http://www.wdr.de/themen/_config_/script/2006/global.js"></script>-->
+
+<script type="text/javascript" src="/tv/fsstd-technik/codebase/js/global.js"></script>
+
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="Language" content="de" />
+
+<meta name="Keywords" content="ad-free site,WDR Fernsehen, WDR Radio, Comedy, Kabarett,
+Unterhaltung, Humor," />
+<meta name="Description" content="Spa&szlig; ohne Ende - mit comedy.wdr.de immer auf dem neusten
+Stand in der Kabarett und Comedy Welt." />
+<meta name="Author" content="Redaktion comedy.wdr.de" />
+<meta name="Publisher" content="Westdeutscher Rundfunk" />
+<meta name="DC.Date" content="2012-06-06T04:24+0200" />
+<meta name="robots" content="noarchive" />
+
+<link rel="start" href="/" title="Startseite WDR.de" />
+<link rel="bookmark" href="/tv/" title="WDR Fernsehen" />
+<link rel="bookmark" href="/radio/" title="WDR Radioprogramme" />
+<link rel="bookmark" href="/themen/homepages/epg.jhtml" title="WDR Programmvorschau" />
+<link rel="bookmark" href="/unternehmen/" title="Informationen über das Unternehmen WDR" />
+<link rel="bookmark" href="#top" title="Zum Seitenanfang" />
+<link rel="bookmark" href="#inhalt" title="Zum Seiteninhalt" />
+<link rel="contents" href="/themen/global/inhalt/" title="Inhaltsverzeichnis" />
+<link rel="bookmark" href="/themen/global/impressum/" title="Impressum" />
+<link rel="search" href="/tv/comedy/suche.jsp" title="Suche im Online Angebot" />
+<link rel="help" href="/themen/global/hilfe/start.jhtml" title="Hilfe zur Bedienung und Orientierung" />
+<link rel="copyright" href="/themen/global/urheber/" title="Copyright" />
+<link rel="icon" href="http://www.wdr.de/favicon.ico" type="image/ico" />
+<link rel="shortcut icon" href="http://www.wdr.de/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="http://www.wdr.de/themen/_config_/css/basic.css" />
+
+<!--[if !IE]> <--><link rel="stylesheet" type="text/css" href="/tv/comedy/codebase/css/wrapper_ie.css" /><!--> <![endif]-->
+<!--[if gt IE 5.5000]><link rel="stylesheet" type="text/css" href="/tv/comedy/codebase/css/wrapper_ie.css" /><![endif]-->
+<!--[if gt IE 6 & lt IE 9]><link rel="stylesheet" type="text/css" href="/tv/fsstd-technik/codebase/css/ie_flash.css"/><![endif]-->   
+
+<style type="text/css" media="handheld">
+<!-- /* <![CDATA[ */
+@import '/themen/_config_/css/pda/basic.css';
+/* ]]> */ -->
+</style><script type="text/javascript">
+<!-- <![CDATA[
+  document.write(getInitHeader());
+// ]]> -->
+</script>
+
+<script type="text/javascript">
+   <!--
+  jQuery().ready(function(){
+    // simple accordion
+    jQuery('#medienliste').accordion({
+      autoheight: false, header: 'a.klickbar', active: true, alwaysOpen: false
+    });
+  });
+
+   -->
+</script>
+
+</head>
+<body>
+<p><a name="top" id="top"></a></p>
+<div id="wsHauptlogo"> <a href="http://www.wdr.de/tv/home/" title="WDR Fernsehen-Startseite"><img src="/tv/comedy/codebase/img/logo_wdr_fernsehen.gif" alt="WDR Fernsehen-Startseite" id="wsLogoWDR" /></a>
+</div>
+<ul class="inv">
+  <li><a href="#inhalt">Zum Inhalt</a>. </li>
+  <li><a href="#navigation">Zur Navigation</a>. </li>
+  <li><a href="#re">weitere Themen und Service</a>. </li>
+</ul>
+<hr class="inv" />
+<div id="wsKopf">
+  <div id="wsDachNavBg"> 
+    <div id="wsDachNav">
+
+      <p class="inv"><strong>Hauptnavigation</strong></p>
+      <ul>
+        <li id="wsWdrde"><a href="http://www.wdr.de" title="Homepage des WDR (Westdeutscher Rundfunk)">WDR.de</a><span class="inv">. </span></li>
+        <li id="wsFernsehenDepr" class="aktiv"><a href="http://www.wdr.de/tv/home/" title="Fernsehen im WDR">Fernsehen</a><span class="inv">. </span></li>
+        <li id="wsRadio"><a href="http://www.wdr.de/radio/" title="Radio im WDR">Radio</a><span class="inv">. </span></li>
+
+        <li id="wsEpg"><a href="http://www.wdr.de/themen/homepages/epg.jhtml" title="Programmübersicht aller Sendungen">Programmvorschau</a><span class="inv">. </span></li>
+        <li id="wsUnternehmen"><a href="http://www.wdr.de/unternehmen/" title="Informationen über das Unternehmen WDR">Unternehmen</a><span class="inv">. </span></li>
+      </ul>
+      <p id="wsDatum"> Donnerstag, 07.06.2012 </p>
+    </div>
+  </div>
+
+  <div id="wsBalken"> 
+    <div id="wsTopNavBg"> 
+      <div id="wsTopNav"> 
+        <div id="wsSuchForm" class="wsKopfText"> 
+          <form action="/tv/comedy/suche.jsp" method="post" onsubmit="if(document.forms[0].q.value=='Suchbegriff'){ alert('Bitte geben Sie einen von Ihnen gewünschten Suchbegriff ein!'); document.forms[0].q.focus(); return false; }">
+            <fieldset>
+               <legend><span class="inv">Suche im Redaktionsangebot von comedy.wdr.de</span></legend>
+               <label for="words" class="inv">Suchbegriff: </label>
+
+               <input type="text" name="q" id="words" value="Suchbegriff" onfocus="if(this.value=='Suchbegriff'){ this.value=''; }" onblur="if(this.value==''){ this.value='Suchbegriff'; }" />
+               <input type="submit" value="suchen" class="wsFormBut" />
+            </fieldset>
+          </form>
+        </div>
+        <ul id="wsButNav">
+          <li><a href="http://www.wdr.de/themen/global/hilfe/groesse.jhtml" title="Tipps zur vergr&ouml;&szlig;erten Ansicht"><img src="/tv/comedy/codebase/img/icons/kopf_aaa.gif" alt="Tipps zur vergr&ouml;&szlig;erten Ansicht" /></a><span class="inv">. </span></li>
+          <li><a href="/tv/comedy/kontakt/" title="Kontakt zur Redaktion"><img src="/tv/comedy/codebase/img/icons/kopf_email.gif" alt="Kontakt zur Redaktion" /></a><span class="inv">. </span></li>
+
+          <li><a href="http://www.wdr.de/tv/home/sendungen/" title="Alle WDR Sendungen von A bis Z"><img src="/tv/comedy/codebase/img/icons/kopf_abisz.gif" alt="Alle WDR Sendungen von A bis Z" /></a><span class="inv">. </span></li>
+          <li><a href="http://www.wdr.de/themen/global/inhalt/" title="Inhaltsverzeichnis WDR.de"><img src="/tv/comedy/codebase/img/icons/kopf_sitemap.gif" alt="Inhaltsverzeichnis WDR.de" id="wsSitemap" /></a><span class="inv">. </span></li>
+          <li><a href="http://www.wdr.de/themen/homepages/hilfe.jhtml" title="Hilfe"><img src="/tv/comedy/codebase/img/icons/kopf_faq.gif" alt="Hilfe" id="wsHelp" /></a><span class="inv">. </span></li>
+          <li><a href="http://www.wdr.de/themen/homepages/multimedia.jhtml" title="Multimedia"><img src="/tv/comedy/codebase/img/icons/kopf_streaming.gif" alt="Multimedia" id="wsMedia" /></a><span class="inv">. </span></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="wsKopfSubLine"> </div>
+<hr class="inv" />
+
+
+<!-- CP --><div class="inv">
+<script type="text/javascript">
+<!-- // <![CDATA[
+ var IVW="http://wdr.ivwbox.de/cgi-bin/ivw/CP/;www.wdr.de/tv/comedy/index.jsp";
+ document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />");
+// ]]> -->
+</script>
+<noscript>
+<div class="inv"><img src="http://wdr.ivwbox.de/cgi-bin/ivw/CP/;www.wdr.de/tv/comedy/index.jsp" width="1" height="1" alt="" /></div>
+</noscript>
+</div><!-- /CP -->
+
+<h1 class="wsInvP">comedy.wdr.de</h1>
+<div id="wsBranding">
+<img src="/tv/comedy/codebase/img/key_visual.jpg" alt="comedy.wdr.de"/></div>
+
+  
+
+
+
+
+
+<div id="wsNavi">
+  <div id="wsThemen">
+    <a name="navigation"></a>
+    <p class="inv"><strong>Navigation</strong></p>
+    <ul>
+      <li id="wsFernsehen"><a href="http://www.wdr.de/tv/home/">Fernsehen</a><span class="inv">. </span></li>
+<li id="wsPortal"><a href="/tv/comedy/index.jsp"
+ class="aktiv"
+>comedy.wdr.de</a><span class="inv">. </span></li>
+
+      <li id="wsNaviSecondLevel">
+         <ul>
+<li><a href="/tv/comedy/sendungen">Sendungen</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/comedians">Comedians</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/moderatoren">Moderatoren</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/kontakt">Kontakt</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/videos/uebersicht.jsp">Videos</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/audios">Audios</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/extras">Extras</a><span class="inv">.</span></li>
+<li><a href="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp">Prix Pantheon</a><span class="inv">.</span></li>
+
+         </ul>
+      </li>
+      <li id="wsAlleSendungen"><a href="http://www.wdr.de/tv/home/sendungen/">Sendungen A bis Z</a><span class="inv">. </span></li>
+    </ul>
+  </div>
+
+<hr class="inv" />
+
+	
+<div id="wsSdgKalender">
+<table summary="Sendungskalender f&uuml;r Juni 2012">
+<thead>
+<tr>
+<td class="digFirstRow"><a href="/tv/comedy/index.jsp?smonat=2012-5" title="Zurück: Mai 2012"><img src="/tv/comedy/codebase/img/icons/navi_pfeil_zurueck.gif" alt="Zurück: Mai 2012" width="12" height="12"/></a></td>
+<th class="digFirstRow" colspan="5" id="monat"><span class="inv">Sendeplan f&uuml;r </span>Juni 2012</th>
+<td class="digFirstRow"><a href="/tv/comedy/index.jsp?smonat=2012-7" title="Weiter: Juli 2012"><img src="/tv/comedy/codebase/img/icons/navi_pfeil_vorwaerts.gif" alt="Weiter: Juli 2012" width="12" height="12"/></a></td>
+</tr>
+<tr>
+<th scope="col" id="mo"><acronym title="Montag">Mo</acronym></th>
+<th scope="col" id="di"><acronym title="Dienstag">Di</acronym></th>
+<th scope="col" id="mi"><acronym title="Mittwoch">Mi</acronym></th>
+<th scope="col" id="do"><acronym title="Donnerstag">Do</acronym></th>
+<th scope="col" id="fr"><acronym title="Freitag">Fr</acronym></th>
+<th scope="col" id="sa"><acronym title="Samstag">Sa</acronym></th>
+<th scope="col" id="so"><acronym title="Sonntag">So</acronym></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="4"></td>
+<td headers="monat fr" class="inaktiv">01
+</td>
+<td headers="monat sa" class="inaktiv">02
+</td>
+<td headers="monat so" class="inaktiv">03
+</td>
+</tr>
+<tr>
+<td headers="monat mo" class="inaktiv">04
+</td>
+<td headers="monat di" class="inaktiv">05
+</td>
+<td headers="monat mi" class="inaktiv">06
+</td>
+<td headers="monat do" class="ausgewaehlt"><span>07
+</span></td>
+<td headers="monat fr" class="inaktiv">08
+</td>
+<td headers="monat sa" class="inaktiv">09
+</td>
+<td headers="monat so" class="inaktiv">10
+</td>
+</tr>
+<tr>
+<td headers="monat mo" class="inaktiv">11
+</td>
+<td headers="monat di" class="inaktiv">12
+</td>
+<td headers="monat mi" class="inaktiv">13
+</td>
+<td headers="monat do" class="inaktiv">14
+</td>
+<td headers="monat fr" class="inaktiv">15
+</td>
+<td headers="monat sa" class="inaktiv">16
+</td>
+<td headers="monat so" class="inaktiv">17
+</td>
+</tr>
+<tr>
+<td headers="monat mo" class="inaktiv">18
+</td>
+<td headers="monat di" class="inaktiv">19
+</td>
+<td headers="monat mi" class="inaktiv">20
+</td>
+<td headers="monat do" class="inaktiv">21
+</td>
+<td headers="monat fr" class="inaktiv">22
+</td>
+<td headers="monat sa" class="inaktiv">23
+</td>
+<td headers="monat so" class="inaktiv">24
+</td>
+</tr>
+<tr>
+<td headers="monat mo" class="inaktiv">25
+</td>
+<td headers="monat di" class="inaktiv">26
+</td>
+<td headers="monat mi" class="inaktiv">27
+</td>
+<td headers="monat do" class="inaktiv">28
+</td>
+<td headers="monat fr" class="inaktiv">29
+</td>
+<td headers="monat sa" class="inaktiv">30
+</td>
+<td colspan="1"></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+	
+
+
+
+  <div id="wsSpezial">
+    <ul id="wsImpressum">
+      <li><a href="http://www.wdr.de/themen/homepages/hilfe.jhtml">Hilfe</a><span class="inv">. </span></li>
+      <li><a href="http://www.wdr.de/themen/global/inhalt/" hreflang="en">Inhaltsverzeichnis</a><span class="inv">. </span></li>
+   
+<!--/tv/comedy/index.jsp-->
+<li><a href="/tv/comedy/impressum/">Impressum</a><span class="inv">. </span></li>
+
+
+
+    </ul>
+  </div>
+</div>
+<hr class="inv" />
+<!--googleon: index-->
+
+  <!-- Content -->
+  <div id="wsContentBGOuter"> 
+   <div id="wsInhC"></div>
+   <p class="inv"><a name="inhalt" id="inhalt"></a></p>
+
+   
+
+
+
+
+
+
+  <div  id="wsBC"  class="">
+   <p class="wsBCPfad"><span class="inv">Sie befinden sich hier: 
+     <img src="/tv/comedy/codebase/img/icons/breadcrumb_pfeil.gif" alt="&gt;"/> 
+     <a href="http://www.wdr.de/">WDR.de</a>
+     <img src="/tv/comedy/codebase/img/icons/breadcrumb_pfeil.gif" alt="&gt;"/> 
+     <a href="http://www.wdr.de/tv/">WDR Fernsehen</a></span>
+<img src="/tv/comedy/codebase/img/icons/breadcrumb_pfeil.gif" alt="&gt;" /> 
+<a href="http://www.wdr.de/tv/home/unterhaltung/">Unterhaltung</a>
+<img src="/tv/comedy/codebase/img/icons/breadcrumb_pfeil.gif" alt="&gt;" /> 
+<a href="/tv/comedy/index.jsp">comedy.wdr.de</a>
+
+
+
+   </p>
+
+   <hr class="inv" />
+  </div>
+  <div class="clearMe"></div>
+
+
+
+   <div id="wsContentBGInner" class="wsMReSp"> 
+     <div id="wsContentArea">
+     <div class="inv"></div>
+<div class="wsTeaserCont">
+<div class='wsRubrik wsFirstRubrik'><h2>Unser Wochentipp im Fernsehen</h2></div>
+<div id="noflash475">
+<div class="wsTsrImg160">
+<div>
+<h3><a href="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp" rel="wdr">Prix Pantheon - Der Wettbewerb
+</a></h3>
+<a href="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp" title="mehr zum Beitrag: " rel="wdr"><img src="/tv/comedy/img/Flash-Alternativbilder/pp2012_teaser_gross.jpg" class="wsTsrBld160" alt="Prix Pantheon 2012 Rechte: WDR"/></a></div>
+<p>&nbsp;[<a
+href="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp"
+ rel="wdr"
+title="mehr zum Beitrag: Prix Pantheon - Der Wettbewerb">mehr</a>]</p></div>
+</div>
+<script type="text/javascript" src="/tv/fsstd-technik/codebase/js/flash.js"></script>
+<script type="text/javascript">
+<!-- <![CDATA[
+if(detectFlash()) {
+document.getElementById('noflash475').innerHTML='<div class="sofsTsrflash458" style="width: 458px; height: 240px;"><!--[if IE]><object width="458"  height="240" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="src" value="/tv/comedy/swf/prixpantheon_458.swf" /></object><![endif]--><!--[if !IE]> <--><object type="application/x-shockwave-flash" width="458" height="240" data="/tv/comedy/swf/prixpantheon_458.swf"></object><!--> <![endif]--></div>';
+}
+// ]]> -->
+</script>
+<hr class="inv" />
+<div class="wsRubrik"><h2>Alle Sendungen</h2>
+</div>
+<div class="wsContentFormBlock">
+<form method="post" action="/tv/fsstd-technik/redir.jsp" id="wsArchivRubriken">
+<div class="wsTeaserFormBlockFields">
+<label for="sendungen" class="inv">Zu den Sendungen:</label>
+<select name="t" id="sendungen">
+<option value="/tv/comedy/index.jsp"> - Sendungsübersicht - </option>
+<option value='/tv/comedy/sendungen/fernsehen/baustelle_deutschland/index.jsp'>Jürgen Becker - Baustelle Deutschland</option>
+<option value='/tv/comedy/sendungen/fernsehen/bildungsweg/index.jsp'>Ebert und Hirschhausen: Der dritte Bildungsweg</option>
+<option value='/tv/comedy/sendungen/fernsehen/dittsche_das_wirklich_wahre_leben/index.jsp'>Dittsche - Das wirklich wahre Leben</option>
+<option value='/tv/comedy/sendungen/fernsehen/ein_grosser_spass/index.jsp'>Ein großer Spaß</option>
+<option value='/tv/comedy/sendungen/fernsehen/lachgeschichten/index.jsp'>Lachgeschichten</option>
+<option value='/tv/comedy/sendungen/fernsehen/ladies_night/index.jsp'>Ladies Night</option>
+<option value='/tv/comedy/sendungen/fernsehen/die_lottokoenige/index.jsp'>Die Lottokönige</option>
+<option value='/tv/comedy/sendungen/fernsehen/mitternachtsspitzen/index.jsp'>Mitternachtsspitzen</option>
+<option value='/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp'>Prix Pantheon 2012</option>
+<option value='/tv/comedy/sendungen/fernsehen/der_popolski_show/index.jsp'>Der Popolski Show</option>
+<option value='/tv/comedy/sendungen/fernsehen/puschel_tv/index.jsp'>Puschel-TV</option>
+<option value='/tv/comedy/sendungen/fernsehen/satire_gipfel/index.jsp'>Satire Gipfel</option>
+<option value='/tv/comedy/sendungen/fernsehen/so_lacht_nrw/index.jsp'>So lacht NRW</option>
+<option value='/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp'>Stratmanns</option>
+<option value='/tv/comedy/sendungen/fernsehen/wiwaldi_show/index.jsp'>Die Wiwaldi Show</option>
+<option value='/tv/comedy/sendungen/fernsehen/zimmer_frei/index.jsp'>Zimmer Frei!</option>
+</select>
+<input name="genre" value="auswählen" class="wsFormBut" type="submit" />
+</div>
+</form>
+</div>
+<hr class="inv" />
+<div class='wsRubrik'><h2>Comedy Highlights im WDR Fernsehen</h2></div>
+<div id="noflash476">
+<div class="wsTsrImg160">
+<div>
+<h3><a href="/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp" rel="wdr">Stratmanns
+</a></h3>
+<a href="/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp" title="mehr zum Beitrag: " rel="wdr"><img src="/tv/comedy/img/Flash-Alternativbilder/stratmanns_nonflash.jpg" class="wsTsrBld160" alt="Stratmanns Rechte: WDR "/></a></div>
+<p>&nbsp;[<a
+href="/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp"
+rel="wdr" title="mehr zum Beitrag: Stratmanns">mehr</a>]</p></div>
+</div>
+<div id="noflash2476">
+<div class="wsTsrImg160">
+<div>
+<h3><a href="/tv/comedy/sendungen/fernsehen/der_popolski_show/index.jsp" rel="wdr">Der Popolski Show
+</a></h3>
+<a href="/tv/comedy/sendungen/fernsehen/der_popolski_show/index.jsp" title="mehr zum Beitrag: " rel="wdr"><img src="/tv/comedy/img/Flash-Alternativbilder/popolski_klein_nonflash.jpg" class="wsTsrBld160" alt="Popolski Show Rechte: WDR"/></a></div>
+<p>&nbsp;[<a
+href="/tv/comedy/sendungen/fernsehen/der_popolski_show/index.jsp"
+rel="wdr" title="mehr zum Beitrag: Der Popolski Show">mehr</a>]</p></div>
+</div>
+<script type="text/javascript" src="/tv/fsstd-technik/codebase/js/flash.js"></script>
+<script type="text/javascript">
+<!-- <![CDATA[
+if(detectFlash()) {
+document.getElementById('noflash476').innerHTML='<div class="sofsTsrflash225o1" style="width: 229px; height: 160px; float: left;"><!--[if IE]><object width="229"  height="160" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="src" value="/tv/comedy/swf/stratmanns_klein_02.swf" /></object><![endif]--><!--[if !IE]> <--><object type="application/x-shockwave-flash" width="229" height="160" data="/tv/comedy/swf/stratmanns_klein_02.swf"></object><!--> <![endif]--></div>';
+document.getElementById('noflash2476').innerHTML='<div class="sofsTsrflash225o2" style="width: 229px; height: 160px; float: right;"><!--[if IE]><object width="229"  height="160" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="src" value="/tv/comedy/swf/popolski_klein_01.swf" /></object><![endif]--><!--[if !IE]> <--><object type="application/x-shockwave-flash" width="229" height="160" data="/tv/comedy/swf/popolski_klein_01.swf"></object><!--> <![endif]--></div>';
+}
+// ]]> -->
+</script>
+<hr class="inv" />
+<div class='wsRubrik'><h2>Comedy, Kabarett und Satire im Radio</h2></div>
+<div id="noflash477">
+<div class="wsTsrImg160">
+<div>
+<h3><a href="/tv/comedy/http:/www.wdr.de/tv/comedy/sendungen/radio/wdr_2/Von_der_Leyens/index.jsp" rel="wdr">
+</a></h3>
+<a href="/tv/comedy/http:/www.wdr.de/tv/comedy/sendungen/radio/wdr_2/Von_der_Leyens/index.jsp" title="mehr zum Beitrag: Die von der Leyens auf WDR2" rel="wdr"><img src="/tv/comedy/img/Flash-Alternativbilder/flashteaser_vonderleyens.jpg" class="wsTsrBld160" alt="Die von der Leyens auf WDR2 Rechte: WDR "/></a></div>
+<p>&nbsp;[<a
+href="/tv/comedy/http:/www.wdr.de/tv/comedy/sendungen/radio/wdr_2/Von_der_Leyens/index.jsp"
+ rel="wdr" title="mehr zum Beitrag: ">mehr</a>]</p></div>
+</div>
+<div id="noflash2477">
+<div class='wsRubrik'>"><h2>Zugabe</h2></div>
+<div class="wsTsrImg160">
+<div>
+<h3><a href="/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp" rel="wdr">
+</a></h3>
+<a href="/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp" title="mehr zum Beitrag: Mehr Infos zur WDR2 Zugabe" rel="wdr"><img src="/tv/comedy/img/Flash-Alternativbilder/flashteaser_zugabe.jpg" class="wsTsrBld160" alt="WDR2 Zugabe Rechte: WDR"/></a></div>
+<p>&nbsp;[<a
+href="/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp"
+rel="wdr" title="mehr zum Beitrag: ">mehr</a>]</p></div>
+</div>
+<script type="text/javascript" src="/tv/fsstd-technik/codebase/js/flash.js"></script>
+<script type="text/javascript">
+<!-- <![CDATA[
+if(detectFlash()) {
+document.getElementById('noflash477').innerHTML='<div class="sofsTsrflash225o1" style="width: 229px; height: 160px; float: left;"><!--[if IE]><object width="229"  height="160" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="src" value="/tv/comedy/swf/von_der_leyen.swf" /></object><![endif]--><!--[if !IE]> <--><object type="application/x-shockwave-flash" width="229" height="160" data="/tv/comedy/swf/von_der_leyen.swf"></object><!--> <![endif]--></div>';
+document.getElementById('noflash2477').innerHTML='<div class="sofsTsrflash225o2" style="width: 229px; height: 160px; float: right;"><!--[if IE]><object width="229"  height="160" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"><param name="src" value="/tv/comedy/swf/zugabe.swf" /></object><![endif]--><!--[if !IE]> <--><object type="application/x-shockwave-flash" width="229" height="160" data="/tv/comedy/swf/zugabe.swf"></object><!--> <![endif]--></div>';
+}
+// ]]> -->
+</script>
+<hr class="inv" />
+<div class='wsTeaserCont'><div class='wsRubrik'><h2>Videos</h2></div>
+<div class='wsVideoTeaser'><div class='wsViererBox'>
+<!-- Ausgabe Bildzeile -->
+<div class='wsViererBlock'><div><a href='/tv/comedy/sendungen/fernsehen/dittsche_das_wirklich_wahre_leben/videos.jsp' rel='wdr' title=''><img src='/tv/comedy/sendungen/fernsehen/dittsche/img/dittsche_113x85.jpg' title='mehr zu: Dittsche' alt='Dittsche in der Imbissbude; Rechte: WDR' class='wsNeuVtBild' /></a><p><img src='/tv/comedy/codebase/img/icons/content_pfeil.gif' alt='WDR'/> <a href='/tv/comedy/sendungen/fernsehen/dittsche_das_wirklich_wahre_leben/videos.jsp' rel='wdr' title=''>Dittsche</a></p></div><div><a href='http://www.wdr.de/tv/mitternachtsspitzen/videos/uebersicht.jsp' rel='ard' title=''><img src='/tv/comedy/videos/img/mispi_113x85_videouebersicht.jpg' title='mehr zu: Mitternachts-spitzen' alt='J&uuml;rgen Becker; Rechte: WDR' class='wsNeuVtBild' /></a><p><img src='/tv/comedy/codebase/img/icons/content_pfeil.gif' alt='ARD'/> <a href='http://www.wdr.de/tv/mitternachtsspitzen/videos/uebersicht.jsp' rel='ard' title=''>Mitternachts-spitzen</a></p></div><div><a href='http://www.wdr.de/tv/stratmanns/videos/uebersicht.jsp' rel='ard' title=''><img src='/tv/comedy/videos/img/stratmann_113x85_videouebersicht.jpg' title='mehr zu: Stratmanns' alt='Ludger Stratmann; Rechte: WDR' class='wsNeuVtBild' /></a><p><img src='/tv/comedy/codebase/img/icons/content_pfeil.gif' alt='ARD'/> <a href='http://www.wdr.de/tv/stratmanns/videos/uebersicht.jsp' rel='ard' title=''>Stratmanns</a></p></div><div><a href='/tv/comedy/sendungen/fernsehen/mann_an_bord/videos.jsp' rel='wdr' title=''><img src='/tv/comedy/sendungen/fernsehen/mann_an_bord/img/videouebersicht_tobi_mann.jpg' title='mehr zu: Mann an Bord' alt='Tobias Mann; Rechte: WDR' class='wsNeuVtBild' /></a><p><img src='/tv/comedy/codebase/img/icons/content_pfeil.gif' alt='WDR'/> <a href='/tv/comedy/sendungen/fernsehen/mann_an_bord/videos.jsp' rel='wdr' title=''>Mann an Bord</a></p></div></div>
+<!-- Ausgabe Teaserende -->
+</div></div></div>
+<div class='clearMe'></div>
+</div>
+<div class="clearMe"></div>
+
+
+      <div class="wsTeaserCont"> <a name="tn5" id="tn5"></a>
+        <script src="http://www.wdr.de/themen/_config_/javascript/openpop.js" type="text/javascript"></script>
+      </div>
+    </div>
+    <div id="wsReSpContD" class="wsReSpCont"><!--googleoff: index-->
+      <p class="inv"><a name="re" id="re"></a></p>
+ 
+     
+ 
+
+  
+  
+     
+ 
+
+  
+  
+     
+ 
+
+  
+  
+     
+ 
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wsRubrik wsFirst"><h2>Prix Pantheon 2012</h2></div>
+<div class="wsTeaser">
+<a href="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp" id="rt1" title="mehr zu: Prix Pantheon 2012"><img src="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/img/logo_160x90.jpg" alt="Logo Prix Pantheon" title="Rechte: WDR" /></a>
+<p>Das Online-Voting zum begehrten Satirepreis [<a href="/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp" id="rtm1" title="mehr zu: Prix Pantheon 2012">mehr</a>]</p>
+
+</div>
+<hr class="inv" />
+<div class="wsRubrik"><h2>Highlights im WDR Fernsehen</h2></div>
+<div class="wsTeaser">
+
+<ul class='wsLinkliste'>
+<li><a href='/tv/comedy/sendungen/fernsehen/so_lacht_nrw/index.jsp' rel='wdr'><strong>So lacht NRW</strong> <br />
+Do, 07.06. um 21.45 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/beliebtesten_komiker/index.jsp' rel='wdr'><strong>Die beliebtesten Komiker der Deutschen</strong> <br />
+Do, 07.06. um 23.25 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/stratmanns/index.jsp' rel='wdr'><strong>Stratmanns (Wdh.)</strong> <br />
+Fr, 08.06. um 21.00 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/wilfried_schmickler_solo/index.jsp' rel='wdr'><strong>Wilfried Schmickler Solo</strong><br />
+Sa, 09.06. um 21.45 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/ladies_night/index.jsp' rel='wdr'><strong>Ladies Night</strong><br />
+Sa, 09.06. um 23.25 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/zimmer_frei/index.jsp' rel='wdr'><strong>Zimmer Frei!</strong><br />
+So, 10.06. um 22.15 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/prix_pantheon_2012/microsite/index.jsp' rel='wdr'><strong>Prix Pantheon - Der Wettbewerb Teil 5</strong><br />
+So, 10.06. um 23.15 Uhr</a></li>
+<li><a href='/tv/comedy/sendungen/fernsehen/der_popolski_show/index.jsp' rel='wdr'><strong>Der Popolski-Show</strong><br />
+So, 10.06. um 23.45 Uhr</a></li>
+</ul>
+</div>
+<hr class="inv" />
+<div class="wsRubrik"><h2>K&uuml;nstler der Woche</h2></div>
+<div class="wsTeaser">
+<a href="/tv/comedy/comedians/s-u/schmickler_wilfried.jsp" id="rt3" title="mehr zu: K&uuml;nstler der Woche"><img src="/tv/comedy/img/comedian_der_woche_wilfried_schmickler.jpg" alt="Wilfired Schmickler" title="Rechte: WDR" /></a>
+<p><b>Wilfried Schmicker</b><br />
+ ist neben den &quot;Mitternachtsspitzen&quot; auch Solo unterwegs [<a href="/tv/comedy/comedians/s-u/schmickler_wilfried.jsp" id="rtm3" title="mehr zu: K&uuml;nstler der Woche">mehr</a>]</p>
+
+</div>
+<hr class="inv" />
+<div class="wsRubrik"><h2>Moderatoren</h2></div>
+<div class="wsTeaser">
+<a href="/tv/comedy/moderatoren/index.jsp" id="rt4" title="mehr zu: Moderatoren"><img src="/tv/comedy/img/startseite_moderatoren02.jpg" alt="Moderatorenbildchen: G&ouml;tz Alsmann, Wilfried Schmickler,
+Cordula Stratmann, J&uuml;rgen von der Lippe, Christine Westermann" title="Rechte: WDR" /></a>
+<p>Finde hier deine Lieblingsmoderatoren. [<a href="/tv/comedy/moderatoren/index.jsp" id="rtm4" title="mehr zu: Moderatoren">mehr</a>]</p>
+
+</div>
+<hr class="inv" />
+
+
+    </div>
+
+  </div>
+</div>
+<div class="clearMe"></div>
+<!-- /Content -->
+
+<div id="wsFooterOuterBG"> 
+  <div id="wsPublish"> 
+    <ul>
+      <li id="wsCopy"><a href="http://www.wdr.de/themen/global/urheber/">&copy; WDR 2012</a><span class="inv">. </span></li>
+    </ul>
+
+  </div>
+  <div id="wsFooterColored"></div>
+  <div id="wsFooterInnerBG">
+    <div id="wsFunction"> 
+      <ul id="wsTop">
+        <li><img src="/tv/comedy/codebase/img/icons/fuss_seitenanfang.gif" alt="" /><a href="#top">Seitenanfang</a><span class="inv">. </span></li>
+      </ul>
+      <ul id="wsPrint">
+<li><script type="text/javascript">
+<!-- <![CDATA[
+document.write(getIconPrintLink(1,1,'/tv/comedy/codebase/img/icons/fuss_drucken.gif'));
+// ]]> -->
+</script>
+
+          <img src="/tv/comedy/codebase/img/icons/fuss_bericht_senden.gif" alt="" /><a href="/tv/comedy/index.jsp?versenden=1" id="wsSend">Seite empfehlen</a><span class="inv">. </span></li>
+
+      </ul>
+
+    </div>
+    <hr class="inv" />
+    <div id="wsDisclaimer">
+      <p>Der WDR ist nicht für die Inhalte fremder Seiten verantwortlich, die über einen Link erreicht werden.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Konzeption und Umsetzung der technischen Plattform: WDR mediagroup webservice GmbH, Köln -->
+
+</body>
+</html>
+
+

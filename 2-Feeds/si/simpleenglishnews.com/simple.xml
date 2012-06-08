@@ -1,0 +1,1700 @@
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<!--
+Simple English News uses HeatMap Theme 2.5.4 (http://heatmaptheme.com)
+by Stuart Wider (http://stuartwider.com) copyright 2010
+-->
+ 
+<!-- 
+header.php
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+<head profile="http://gmpg.org/xfn/11">
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+ 
+<meta name="robots" content="index,follow" /> 
+<meta name="language" content="en" />
+
+<!-- 
+Meta Description and KeyWords for Home Page
+~~~ -->
+ 
+ 
+  
+  
+ 
+<!-- 
+Meta Description and KeyWords for a Post or a Page
+~~~ -->
+ 
+ 
+<!-- 
+HTML Title
+~~~ -->
+ 
+<title>Yes, you can learn English. - Simple English News</title>
+ 
+<!--
+Favicon
+~~~ -->
+ 
+<link rel="Shortcut Icon" href="http://www.simpleenglishnews.com/wordpress/wp-content/themes/heatmap-adsense-theme/images/favicon.ico" type="image/x-icon" />
+ 
+<!--
+Stylesheet
+~~~ -->
+ 
+ 
+<link rel="stylesheet" href="http://www.simpleenglishnews.com/wordpress/wp-content/themes/heatmap-adsense-theme/style.css" type="text/css" media="screen" />
+ 
+ <link rel="stylesheet" href="http://www.simpleenglishnews.com/wordpress/wp-content/themes/heatmap-adsense-theme/default.css" type="text/css" media="screen" />
+ 
+
+<!--
+RSS Feeds
+~~~ -->
+ 
+<link rel="alternate" type="application/rss+xml" title="Simple English News RSS Feed" href="http://www.simpleenglishnews.com/feed" />
+<link rel="alternate" type="application/atom+xml" title="Simple English News Atom Feed" href="http://www.simpleenglishnews.com/feed/atom" />
+ 
+<!--
+Pingback URL
+~~~ -->
+ 
+<link rel="pingback" href="http://www.simpleenglishnews.com/wordpress/xmlrpc.php" />
+ 
+
+<!--
+Javascript for the Suckerfish Menu plugin
+~~~ -->
+ 
+ 
+<!--
+Additional Head Scripts
+~~~ -->
+ 
+ 
+<!--
+wp_head()
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+<script type="text/javascript"><!--
+function disableSelection(target){
+if (typeof target.onselectstart!="undefined") //IE route
+ target.onselectstart=function(){return false}
+else if (typeof target.style.MozUserSelect!="undefined") //Firefox route
+ target.style.MozUserSelect="none"
+else //All other route (ie: Opera)
+ target.onmousedown=function(){return false}
+target.style.cursor = "default"
+}
+//-->
+</script>
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.simpleenglishnews.com/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.simpleenglishnews.com/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+ 
+<!--
+End of wp_head()
+~~~ -->
+ 
+</head>
+ 
+<body>
+ 
+ 
+<!--
+Find out if this theme has the preset mode deactivated. If its not deactivated then lets show off a bit. Party time!
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+ 
+  
+<!--
+The High Bar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+ 
+ <div id="high-bar">
+ 
+    
+    
+  <!-- hmt_widget_ad_unit_1 --><div id="hmt-widget-ad-unit-1" class="widget hmt_widget_ad_unit_1"><script type="text/javascript"><!--
+google_ad_client = "pub-3893717779527588";
+/* 728x90, created 9/5/11 */
+google_ad_slot = "3721263710";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>  
+ </div> <!-- id="high-bar" -->
+  
+ <div class="clearFloat"></div>
+ 
+    <div id="main">
+ 
+<!--
+The Header Bar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+ 
+        <div id="header-bar">
+  
+<!--
+The Logo
+~~~ -->
+         
+        
+<!--
+The Name of the Blog and the Tagline
+~~~ -->
+   
+       <div id="header-bar-content">
+     <div class="blog-title"><a href="http://www.simpleenglishnews.com/">Simple English News</a></div>
+     <div class="blog-tagline"><a href="http://www.simpleenglishnews.com/">Yes, you can learn English.</a></div>
+    </div> <!-- id="header-bar-content" -->
+                
+<!--
+Widget Area: Header Right
+~~~ -->
+   
+            <div id="header-bar-right">
+    
+        
+        
+    <!-- hmt_widget_ad_unit_2 --><div id="hmt-widget-ad-unit-2" class="widget hmt_widget_ad_unit_2"><script type="text/javascript"><!--
+google_ad_client = "pub-3893717779527588";
+/* 468x60, created 9/5/11 */
+google_ad_slot = "6107980306";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>     
+            </div> <!-- id="header-bar-right" -->
+   
+        </div> <!-- id="header-bar" -->
+        
+        <div class="clearFloat"></div>
+        
+<!--
+The Nav Bar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+ 
+        <div id="nav-bar">
+         
+    
+    <div id="nav-bar-content">
+     <ul>
+     <li><a href="http://www.simpleenglishnews.com">Home</a></li>
+          <li class="page_item page-item-2"><a href="http://www.simpleenglishnews.com/about">About</a></li>
+<li class="page_item page-item-363"><a href="http://www.simpleenglishnews.com/links">Links</a></li>
+<li class="page_item page-item-55"><a href="http://www.simpleenglishnews.com/contact">Contact/Advertise</a></li>
+<li class="page_item page-item-4482"><a href="http://www.simpleenglishnews.com/a-region-in-europe">A Region in Europe</a></li>
+     </ul>
+    </div> <!-- id="nav-bar-content" -->
+           
+        </div> <!-- id="nav-bar" -->
+  
+<!--
+The Search Bar
+~~~ -->
+        
+  <div id="search-bar">
+  
+   <div id="search-bar-content">
+    <form method="get" id="searchform" action="http://www.simpleenglishnews.com"><input type="text" value="" name="s" id="s" size="20" />
+				<input type="submit" id="searchsubmit" value="Search" />
+				</form>   </div> <!-- id="search-bar-content" -->
+ 
+  </div> <!-- id="search-bar" -->
+  
+        <div class="clearFloat"></div>
+ 
+<!--
+The Categories Bar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+ 
+        <div id="cat-bar">
+         
+    
+    <div id="cat-bar-content">
+
+    </div> <!-- id="cat-bar-content" -->
+           
+        </div> <!-- id="cat-bar" -->
+  
+<!--
+The RSS Bar (inc Feedburner)
+~~~ -->    
+        <div id="rss-bar">
+        
+         <div id="rss-bar-content">
+<!--
+Feedburner Email Link
+~~~ -->  
+       
+        
+ 
+<!--
+RSS Comments Link
+~~~ --> 
+    <div class="rss-comments">
+    
+           <a href="http://www.simpleenglishnews.com/comments/feed">Comments</a>
+      
+    </div> <!-- class="rss-comments" -->
+ 
+<!--
+RSS Posts Link
+~~~ -->
+    <div class="rss-posts">
+    
+           <a href="http://www.simpleenglishnews.com/feed">Posts</a>
+      
+    </div> <!-- class="rss-posts" -->
+    
+            </div> <!-- id="rss-bar-content" -->
+ 
+        </div> <!-- id="rss-bar" -->
+        
+        <div class="clearFloat"></div>
+    
+    
+<!--
+End of header.php
+~~~ -->
+
+ 
+
+<!--
+
+home.php
+
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+ 
+
+<!--
+
+Content of the page (inc comments and post details)
+
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+<div id="page-body-wrapper">
+
+ 
+
+ <div id="content">
+
+ 
+
+<!--
+
+The Home Page 'Page Block'
+
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+  
+  
+
+  <!--
+common.php
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+
+<!--
+The Posts 
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+<!--
+<br />
+<h4>Click on the links to read the articles</h4>
+<hr>
+-->
+
+		
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		<!-- hmt_widget_link_unit_1 --><div id="hmt-widget-link-unit-1" class="all-content-above hmt_widget_link_unit_1"><center><b>HELP US CONTINUE OUR SITE. DONATE TO SIMPLE ENGLISH NEWS. </b></center><br />
+<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="KSMSUFRBX5MES">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-3893717779527588";
+/* 468x15, created 9/5/11 */
+google_ad_slot = "1766326565";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br /></div>
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/the-getting-to-know-our-neighbors-project-5314962" rel="bookmark"> 
+			The Getting to Know Our Neighbors Project			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+		<!--
+Widget Area: [Content Item] Left 
+~~~ -->
+							
+<!--
+Widget Area: [Content Item] Right
+~~~ -->
+						  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/the-getting-to-know-our-neighbors-project-5314962#respond">
+				1 comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			May 14, 2012 at 9:07 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/announcements" title="View all posts in Announcements" rel="category tag">Announcements</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/anti-xenophobia" rel="tag">anti-xenophobia</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/countries" rel="tag">countries</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/internet" rel="tag">internet</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/other-classes" rel="tag">other classes</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/videoconferences" rel="tag">videoconferences</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/a-movie-about-the-problem-of-bullying-5314946" rel="bookmark"> 
+			A Movie About the Problem of Bullying			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/a-movie-about-the-problem-of-bullying-5314946#respond">
+				10 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 29, 2012 at 6:45 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/entertainment" title="View all posts in Entertainment" rel="category tag">Entertainment</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/america" rel="tag">america</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/bully" rel="tag">bully</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/bullying" rel="tag">bullying</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/children" rel="tag">children</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/christopher-marlowe" rel="tag">Christopher Marlowe</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/kids" rel="tag">kids</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/movie" rel="tag">movie</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/problem" rel="tag">problem</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/school" rel="tag">school</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/united-states" rel="tag">united states</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/director-morgan-spurlock-speaks-to-simple-english-news-5314930" rel="bookmark"> 
+			Director Morgan Spurlock Speaks to Simple English News			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/director-morgan-spurlock-speaks-to-simple-english-news-5314930#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 27, 2012 at 3:10 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/entertainment" title="View all posts in Entertainment" rel="category tag">Entertainment</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/comic-con" rel="tag">comic con</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/comic-con-iv-a-fans-hope" rel="tag">Comic Con IV: A Fan’s Hope</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/morgan-spurlock" rel="tag">morgan spurlock</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/san-diego" rel="tag">san diego</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/super-size-me" rel="tag">super size me</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/world-autism-awareness-day-5314927" rel="bookmark"> 
+			World Autism Awareness Day			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/world-autism-awareness-day-5314927#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 26, 2012 at 6:28 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/world-news" title="View all posts in World News" rel="category tag">World News</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/world-autism-awareness-day" rel="tag">world autism awareness day</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/leave-your-car-at-home-5314923" rel="bookmark"> 
+			Leave Your Car at Home			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/leave-your-car-at-home-5314923#respond">
+				9 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 22, 2012 at 11:17 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/health" title="View all posts in Health" rel="category tag">Health</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/environment" rel="tag">environment</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/exercise" rel="tag">exercise</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/health" rel="tag">Health</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/leave-your-car-at-home" rel="tag">leave your car at home</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/public-transportation" rel="tag">public transportation</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/savings" rel="tag">savings</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/cities-of-the-future-5314921" rel="bookmark"> 
+			Cities of the Future			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/cities-of-the-future-5314921#respond">
+				2 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 20, 2012 at 7:05 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/world-news" title="View all posts in World News" rel="category tag">World News</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/china" rel="tag">china</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/cities" rel="tag">cities</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/city" rel="tag">city</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/eco" rel="tag">eco</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/eco-cities" rel="tag">eco-cities</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/eco-city" rel="tag">eco-city</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/future" rel="tag">future</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/tianjin" rel="tag">tianjin</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/save-the-seals-5314919" rel="bookmark"> 
+			Save the Seals			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/save-the-seals-5314919#respond">
+				4 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 18, 2012 at 10:17 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/pets-and-animals" title="View all posts in Pets and Animals" rel="category tag">Pets and Animals</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/canadian-prime-minister" rel="tag">canadian prime minister</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/humane-society" rel="tag">humane society</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/letter" rel="tag">letter</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/message" rel="tag">message</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/petition" rel="tag">petition</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/save" rel="tag">save</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/seals" rel="tag">seals</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/stephen-harper" rel="tag">stephen harper</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/from-childrens-game-to-film-5314915" rel="bookmark"> 
+			From Children’s Game to Film			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/from-childrens-game-to-film-5314915#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 14, 2012 at 8:05 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/entertainment" title="View all posts in Entertainment" rel="category tag">Entertainment</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/battleship" rel="tag">battleship</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/film" rel="tag">film</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/game" rel="tag">game</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/hasbro" rel="tag">hasbro</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/may-18" rel="tag">may 18</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/movie" rel="tag">movie</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/release" rel="tag">release</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/universal-pictures" rel="tag">universal pictures</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/the-vegetarian-butcher-5314913" rel="bookmark"> 
+			The Vegetarian Butcher			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/the-vegetarian-butcher-5314913#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 12, 2012 at 7:36 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/food-and-recipes" title="View all posts in Food and Recipes" rel="category tag">Food and Recipes</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/fake-chicken" rel="tag">fake chicken</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/fake-meat" rel="tag">fake meat</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/fake-sausages" rel="tag">fake sausages</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/vegetarian-butcher" rel="tag">vegetarian butcher</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/publishing-a-book-has-never-been-easier-5314909" rel="bookmark"> 
+			Publishing a Book Has Never Been Easier			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/publishing-a-book-has-never-been-easier-5314909#respond">
+				2 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 8, 2012 at 10:50 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/business" title="View all posts in Business" rel="category tag">Business</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/books" rel="tag">books</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/lulu" rel="tag">lulu</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/publishing" rel="tag">publishing</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/self-publishing" rel="tag">self-publishing</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/smashwords" rel="tag">smashwords</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/the-vancouver-real-estate-market-is-still-crazy-5314907" rel="bookmark"> 
+			The Vancouver Real Estate Market Is Still Crazy			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/the-vancouver-real-estate-market-is-still-crazy-5314907#respond">
+				1 comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 7, 2012 at 1:06 am 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/business" title="View all posts in Business" rel="category tag">Business</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/bubble" rel="tag">bubble</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/crazy" rel="tag">crazy</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/home" rel="tag">home</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/housing" rel="tag">housing</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/prices" rel="tag">prices</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/real-estate" rel="tag">real estate</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/vancouver" rel="tag">vancouver</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/inflation-and-deflation-5314904" rel="bookmark"> 
+			Inflation and Deflation			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/inflation-and-deflation-5314904#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 5, 2012 at 10:27 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/business" title="View all posts in Business" rel="category tag">Business</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/deflation" rel="tag">deflation</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/food" rel="tag">food</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/inflation" rel="tag">inflation</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/minyanville" rel="tag">minyanville</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/need" rel="tag">need</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/todd-harrison" rel="tag">todd harrison</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/want" rel="tag">want</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/english-cliches-5314901" rel="bookmark"> 
+			English Clichés			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/english-cliches-5314901#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			March 3, 2012 at 12:01 am 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/world-news" title="View all posts in World News" rel="category tag">World News</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/between-a-rock-and-a-hard-place" rel="tag">between a rock and a hard place</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/english-cliches" rel="tag">english clichés</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/going-forward" rel="tag">going forward</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/its-not-rocket-science" rel="tag">it's not rocket science</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/to-think-outside-the-box" rel="tag">to think outside the box</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/snowdrops-are-here-spring-is-coming-5314894" rel="bookmark"> 
+			Snowdrops Are Here; Spring Is Coming			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/snowdrops-are-here-spring-is-coming-5314894#respond">
+				4 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 29, 2012 at 7:37 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/world-news" title="View all posts in World News" rel="category tag">World News</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/europe" rel="tag">europe</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/festival" rel="tag">festival</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/plant" rel="tag">plant</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/snow" rel="tag">snow</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/snowdrop" rel="tag">snowdrop</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/snowdrops" rel="tag">snowdrops</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/spring" rel="tag">spring</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/united-kingdom" rel="tag">United Kingdom</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/winter" rel="tag">winter</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/many-businesses-are-still-not-online-5314891" rel="bookmark"> 
+			Many Businesses Are Still Not Online			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/many-businesses-are-still-not-online-5314891#respond">
+				4 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 27, 2012 at 11:41 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/business" title="View all posts in Business" rel="category tag">Business</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/business" rel="tag">Business</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/companies" rel="tag">companies</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/internet" rel="tag">internet</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/not-online" rel="tag">not online</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/offline" rel="tag">offline</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/web" rel="tag">web</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/jennifer-anistons-new-film-opens-today-5314888" rel="bookmark"> 
+			Jennifer Aniston’s New  Film Opens Today			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/jennifer-anistons-new-film-opens-today-5314888#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 24, 2012 at 8:08 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/entertainment" title="View all posts in Entertainment" rel="category tag">Entertainment</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/jennifer-aniston" rel="tag">jennifer aniston</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/paul-rudd" rel="tag">paul rudd</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/wanderlust" rel="tag">wanderlust</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/fear-of-dentists-5314883" rel="bookmark"> 
+			Fear of Dentists			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/fear-of-dentists-5314883#respond">
+				1 comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 23, 2012 at 12:27 am 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/health" title="View all posts in Health" rel="category tag">Health</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/chair" rel="tag">chair</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/denist" rel="tag">denist</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/dentists" rel="tag">Dentists</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/fear" rel="tag">fear</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/scared" rel="tag">scared</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/teeth" rel="tag">teeth</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/singapore-ranks-number-1-in-perception-index-5314877" rel="bookmark"> 
+			Singapore Ranks Number 1 in Perception Index			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/singapore-ranks-number-1-in-perception-index-5314877#respond">
+				Be the first to comment</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 21, 2012 at 1:39 am 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/world-news" title="View all posts in World News" rel="category tag">World News</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/east-west-communications" rel="tag">east west communications</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/international-media" rel="tag">international media</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/ireland" rel="tag">Ireland</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/kuwait" rel="tag">Kuwait</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/malaysia" rel="tag">Malaysia</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/perception-index" rel="tag">perception index</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/singapore" rel="tag">singapore</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/south-korea" rel="tag">south korea</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/are-we-losing-our-memories-5314875" rel="bookmark"> 
+			Are We Losing Our Memories?			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/are-we-losing-our-memories-5314875#respond">
+				3 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 17, 2012 at 11:39 pm 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/health" title="View all posts in Health" rel="category tag">Health</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/facts" rel="tag">facts</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/lose" rel="tag">lose</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/losing" rel="tag">losing</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/memory" rel="tag">memory</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/search-engines" rel="tag">search engines</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/technology" rel="tag">technology</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Individual Post Content 
+~~~ -->
+	<div class="post-content">
+<!--
+Widget Area: [All Content] Above 
+~~~ -->
+		
+<!--
+The Post Title 
+~~~ -->	
+		<h2 class="h2-simulate-h1-size"><a href="http://www.simpleenglishnews.com/archives/stories/can-english-help-you-make-more-money-5314872" rel="bookmark"> 
+			Can English Help You Make More Money?			</a></h2>
+<!--
+Widget Area: [Content Item] Above
+~~~ -->	
+				  
+			
+<!--
+The content itself 
+~~~ -->
+		
+<!--
+Widget Area: [Content Item] Below
+~~~ -->
+				
+	</div> <!-- class="post-content" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+Individual Post Details 
+~~~ -->
+	
+	<div class="post-details">
+
+		<!--<p class="comment-button-box"><span class="comment-button"><a href="http://www.simpleenglishnews.com/archives/stories/can-english-help-you-make-more-money-5314872#respond">
+				3 comments</a> - What do you think?</span>&nbsp;&nbsp;Posted by
+			Sam						 - 
+			February 16, 2012 at 12:00 am 
+		</p> ~~~ -->
+		<!--<p>Categories:
+			<a href="http://www.simpleenglishnews.com/archives/stories/category/business" title="View all posts in Business" rel="category tag">Business</a>		&nbsp;&nbsp;Tags:
+			<a href="http://www.simpleenglishnews.com/archives/stories/tag/better" rel="tag">better</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/english" rel="tag">english</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/income" rel="tag">income</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/job" rel="tag">job</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/learn" rel="tag">learn</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/money" rel="tag">money</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/more" rel="tag">more</a>, <a href="http://www.simpleenglishnews.com/archives/stories/tag/paying" rel="tag">paying</a>		</p> ~~~ -->
+		<p>
+					</p>
+	
+	</div> <!-- class="post-details" -->
+	
+		 
+	
+		
+<!--
+Widget Area: [All Content] Below
+~~~ -->
+	<!-- hmt_widget_link_unit_2 --><div id="hmt-widget-link-unit-2" class="all-content-below hmt_widget_link_unit_2"><script type="text/javascript"><!--
+google_ad_client = "pub-3893717779527588";
+/* 468x15, created 9/5/11 */
+google_ad_slot = "1766326565";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>	
+<!--
+Previous and Next Page navigation
+~~~ -->
+	<div class="post-nav"><p><a href="http://www.simpleenglishnews.com/page/2" >Next Page &raquo;</a></p></div>
+	
+<!--
+End of common.php
+~~~ -->
+  
+
+ 
+
+ </div> <!-- id="content" -->
+
+ 
+
+ 
+<!-- 
+sidebar.php
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+
+<!-- 
+top-widebar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+	
+	<div id="sidebar-wrapper">
+	
+		<div id="top-widebar">
+			
+			<ul>
+			<!-- hmt_widget_additional_unit_1 --><li id="hmt-widget-additional-unit-1" class="widget hmt_widget_additional_unit_1"><iframe src="http://www.facebook.com/plugins/likebox.php?id=122547848496&amp;width=292&amp;connections=0&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:62px;"></iframe><br />
+
+
+</li>			</ul>
+		
+		</div> <!-- id="top-widebar" -->
+	
+<!-- 
+left sidebar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+	
+		<div id="left-sidebar">
+			
+			<ul>				
+			<!-- widget_categories --><li id="categories-3" class="widget widget_categories"><h4 class="widgettitle">Categories</h4>		<ul>
+	<li class="cat-item cat-item-1891"><a href="http://www.simpleenglishnews.com/archives/stories/category/a-classroom-visit-from-simple-english-news" title="View all posts filed under A Classroom Visit from Simple English News">A Classroom Visit from Simple English News</a>
+</li>
+	<li class="cat-item cat-item-882"><a href="http://www.simpleenglishnews.com/archives/stories/category/announcements" title="View all posts filed under Announcements">Announcements</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.simpleenglishnews.com/archives/stories/category/business" title="View all posts filed under Business">Business</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.simpleenglishnews.com/archives/stories/category/english-in-30-seconds-videos" title="View all posts filed under English in 30 Seconds Videos">English in 30 Seconds Videos</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://www.simpleenglishnews.com/archives/stories/category/entertainment" title="View all posts filed under Entertainment">Entertainment</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://www.simpleenglishnews.com/archives/stories/category/food-and-recipes" title="View all posts filed under Food and Recipes">Food and Recipes</a>
+</li>
+	<li class="cat-item cat-item-1127"><a href="http://www.simpleenglishnews.com/archives/stories/category/grammar" title="View all posts filed under Grammar">Grammar</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.simpleenglishnews.com/archives/stories/category/health" title="View all posts filed under Health">Health</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.simpleenglishnews.com/archives/stories/category/interviews" title="View all posts filed under Interviews">Interviews</a>
+</li>
+	<li class="cat-item cat-item-1881"><a href="http://www.simpleenglishnews.com/archives/stories/category/jobs-2" title="View all posts filed under Jobs">Jobs</a>
+</li>
+	<li class="cat-item cat-item-166"><a href="http://www.simpleenglishnews.com/archives/stories/category/music" title="View all posts filed under Music">Music</a>
+</li>
+	<li class="cat-item cat-item-1792"><a href="http://www.simpleenglishnews.com/archives/stories/category/opinion" title="View all posts filed under Opinion">Opinion</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.simpleenglishnews.com/archives/stories/category/pets-and-animals" title="View all posts filed under Pets and Animals">Pets and Animals</a>
+</li>
+	<li class="cat-item cat-item-76"><a href="http://www.simpleenglishnews.com/archives/stories/category/polls" title="View all posts filed under Polls">Polls</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="http://www.simpleenglishnews.com/archives/stories/category/quizzes" title="View all posts filed under Quizzes">Quizzes</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://www.simpleenglishnews.com/archives/stories/category/science-and-technology" title="View all posts filed under Science and Technology">Science and Technology</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://www.simpleenglishnews.com/archives/stories/category/simple-english-news-videos" title="View all posts filed under Simple English News Videos">Simple English News Videos</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.simpleenglishnews.com/archives/stories/category/sports" title="View all posts filed under Sports">Sports</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.simpleenglishnews.com/archives/stories/category/travel" title="View all posts filed under Travel">Travel</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.simpleenglishnews.com/archives/stories/category/uncategorized" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.simpleenglishnews.com/archives/stories/category/unusual-news" title="View all posts filed under Unusual News">Unusual News</a>
+</li>
+	<li class="cat-item cat-item-56"><a href="http://www.simpleenglishnews.com/archives/stories/category/words-in-the-news" title="View all posts filed under Words in the News">Words in the News</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.simpleenglishnews.com/archives/stories/category/world-news" title="View all posts filed under World News">World News</a>
+</li>
+		</ul>
+</li><!-- widget_rss --><li id="rss-15" class="widget widget_rss"><h4 class="widgettitle"><a class='rsswidget' href='http://quizzes.simpleenglishnews.com/?feed=rss2' title='Syndicate this content'><img style='border:0' width='14' height='14' src='http://www.simpleenglishnews.com/wordpress/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.simpleenglishnews.com/quizzes' title='A new English quiz every day'>New Quizzes</a></h4><ul><li><a class='rsswidget' href='http://www.simpleenglishnews.com/quizzes/?p=39' title=' [&hellip;]'>Future Tense</a></li><li><a class='rsswidget' href='http://www.simpleenglishnews.com/quizzes/?p=232' title=' [&hellip;]'>Can, Must, Needn’t, Have to…</a></li></ul></li><!-- widget_rss --><li id="rss-16" class="widget widget_rss"><h4 class="widgettitle"><a class='rsswidget' href='http://ads.simpleenglishnews.com/quizzes/?feed=rss2' title='Syndicate this content'><img style='border:0' width='14' height='14' src='http://www.simpleenglishnews.com/wordpress/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.simpleenglishnews.com/ads/wordpress' title=''>New Ads</a></h4><ul><li><a class='rsswidget' href='http://www.simpleenglishnews.com/ads/wordpress/?p=237' title='Hundreds  of badges and pins collected during the Communist era in Hungary are for sale. [&hellip;]'>Hundreds of Communist Era Badges and Pins for Sale</a></li><li><a class='rsswidget' href='http://www.simpleenglishnews.com/ads/wordpress/?p=198' title='High quality individual English courses. Also online ones using SKYPE. Kvalitné doučovanie angličtiny ako študentov, tak aj dospelých. Doučovanie aj online cez SKYPE. Výhody: flexibilné termíny, kvalita, pre začiatočníkov aj pokročilých – konverzácia. Skúsenosti s doučovaním pre uchádzačov na posty v organizáciách EU. rkenglish@stonline.sk [&hellip;]'>Teacher of English – Učiteľ angličtiny</a></li><li><a class='rsswidget' href='http://www.simpleenglishnews.com/ads/wordpress/?p=187' title='Hello,  I am Sam Margolis, the founder of Simple English News  http://www.simpleenglishnews.com  Please contact me if you would like an English lesson on Skype or the telephone. I have over 20 years experience teaching English. Tel: 415 691 6170 email: sam at simpleenglishnews dot com Skype: sam.margolis [&hellip;]'>English Lessons on Skype/Telephone for $30 an Hour</a></li></ul></li><!-- widget_recent_comments --><li id="recent-comments-4" class="widget widget_recent_comments"><h4 class="widgettitle">Recent Comments</h4><ul id="recentcomments"><li class="recentcomments">David on <a href="http://www.simpleenglishnews.com/archives/stories/snowdrops-are-here-spring-is-coming-5314894/comment-page-1#comment-3175">Snowdrops Are Here; Spring Is Coming</a></li><li class="recentcomments">Aldo on <a href="http://www.simpleenglishnews.com/archives/stories/grammar-expressions-for-modal-auxiliaries-5313325/comment-page-1#comment-3174">Grammar: Expressions For Modal Auxiliaries</a></li><li class="recentcomments"><a href='http://towant' rel='external nofollow' class='url'>modou</a> on <a href="http://www.simpleenglishnews.com/archives/stories/simple-english-news-in-the-classroom-5314439/comment-page-1#comment-3170">Simple English News in the Classroom</a></li></ul></li><!-- widget_archive --><li id="archives-3" class="widget widget_archive"><h4 class="widgettitle">Archives</h4>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://www.simpleenglishnews.com/archives/stories/date/2012/05'> May 2012 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2012/03'> March 2012 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2012/02'> February 2012 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2012/01'> January 2012 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/12'> December 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/11'> November 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/10'> October 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/09'> September 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/08'> August 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/07'> July 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/06'> June 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/05'> May 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/04'> April 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/03'> March 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/02'> February 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2011/01'> January 2011 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/12'> December 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/11'> November 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/10'> October 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/09'> September 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/08'> August 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/07'> July 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/06'> June 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/05'> May 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/04'> April 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/03'> March 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2010/02'> February 2010 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/12'> December 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/11'> November 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/08'> August 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/07'> July 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/05'> May 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/04'> April 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2009/01'> January 2009 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/12'> December 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/10'> October 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/09'> September 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/08'> August 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/07'> July 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/06'> June 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/05'> May 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/04'> April 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/03'> March 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/02'> February 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2008/01'> January 2008 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/12'> December 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/11'> November 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/10'> October 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/09'> September 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/08'> August 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/07'> July 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/06'> June 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/05'> May 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/03'> March 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/02'> February 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2007/01'> January 2007 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2005/04'> April 2005 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2002/02'> February 2002 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2001/04'> April 2001 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2000/09'> September 2000 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2000/08'> August 2000 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/2000/06'> June 2000 </option>
+	<option value='http://www.simpleenglishnews.com/archives/stories/date/1811/06'> June 1811 </option>
+ </select>
+</li>			</ul>
+		
+		</div> <!-- id="left-sidebar" -->
+	
+<!-- 
+right sidebar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+	
+		<div id="right-sidebar">
+			
+			<ul>
+			<!-- hmt_widget_ad_unit_3 --><li id="hmt-widget-ad-unit-3" class="widget hmt_widget_ad_unit_3"><script type="text/javascript"><!--
+google_ad_client = "pub-3893717779527588";
+/* 120x600, created 9/5/11 */
+google_ad_slot = "2251140166";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></li>			</ul>
+			
+		</div> <!-- id="right-sidebar" -->
+		
+<!-- 
+bottom widebar
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+	
+		<div id="bottom-widebar">
+<!--			
+			<ul>
+						</ul>
+-->			
+		</div> <!-- id="bottom-widebar" -->
+	 
+	</div> <!-- id="sidebar-wrapper" -->
+	
+	<div class="clearFloat"></div>
+
+<!--
+End of sidebar.php
+~~~ -->
+		
+ 
+
+</div> <!-- id="page-body-wrapper" -->
+
+ 
+
+
+<!--
+footer.php
+~~~~~~~~~~~~~~~~~~~~~~~~ ~~~ -->
+<div class="clearFloat"></div>
+
+
+<!-- 
+Footers Left and Right
+~~~ -->
+	<div id="footer">
+		<div id="footer-content">
+			<div id="footer-content-left">	
+				<p>Photos provided courtesy of <a href="http://www.photos8.com">Photos8.com</a></p>			</div> <!-- id="footer-content-left" -->
+			<div id="footer-content-right">	
+							</div> <!-- id="footer-content-right" -->
+		</div> <!-- "footer-content" -->
+	</div> <!-- id="footer" -->
+	
+	<div class="clearFloat"></div>
+      
+<!-- 
+Sub Footers Left and Right
+~~~ -->  
+	<div id="sub-footer">
+		<div id="sub-footer-content">
+			<div id="sub-footer-content-left">	
+				<p>Copyright © Simple English News™<br />
+</p>			</div> <!-- id="sub-footer-content-left" -->
+			<div id="sub-footer-content-right">	
+				<p>WordPress Theme by <a href="http://heatmaptheme.com">HeatMapTheme.com</a></p>			</div> <!-- id="sub-footer-content-right" -->
+		</div> <!-- id="sub-footer-content" -->  
+	</div> <!-- id="sub-footer" -->
+	
+	<div class="clearFloat"></div>
+
+</div> <!-- id="sub-footer" -->
+
+		
+<!-- 
+Google Analytics
+~~~ -->	
+		
+<!-- AddThis Button Begin -->
+<script type="text/javascript">var addthis_product = 'wpp-257';
+var addthis_config = {"data_track_clickback":false,"ui_language":"en"};</script><script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=wp-4fd000215ca84009"></script>	<!-- Number of Queries:59   Seconds: 0.458-->
+<center> <a href='http://www.amazon.de/gp/product/B003TKOU7M'>iPhone screen guard</a>     <a href='http://www.franchising.com/kumon/'>Reviews Kumon Franchising</a> </p></center>	
+<br />
+<center><!-- Site Meter -->
+<script type="text/javascript" src="http://sm8.sitemeter.com/js/counter.js?site=sm8samu21">
+</script>
+<noscript>
+<a href="http://sm8.sitemeter.com/stats.asp?site=sm8samu21" target="_top">
+<img src="http://sm8.sitemeter.com/meter.asp?site=sm8samu21" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2006 Site Meter -->
+<br />
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2935801-1";
+urchinTracker();
+</script>
+<script type="text/javascript">
+disableSelection(document.body)
+</script>
+</center>
+<center>
+<!-- 
+Google Analytics
+~~~ -->	
+		
+<!-- AddThis Button Begin -->
+<script type="text/javascript">var addthis_product = 'wpp-257';
+var addthis_config = {"data_track_clickback":false,"ui_language":"en"};</script><script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#pubid=wp-4fd000213c1776e8"></script>	<!-- Number of Queries:59   Seconds: 0.458-->
+</center>
+</body>
+</html>
+
+ 
+
+ 
+
+<!--
+
+End of index.php
+
+~~~ -->

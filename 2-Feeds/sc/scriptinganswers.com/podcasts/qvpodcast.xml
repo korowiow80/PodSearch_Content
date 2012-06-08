@@ -1,0 +1,327 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ScriptingAnswers Forums</title>
+<meta name="generator" content="Web Wiz Forums" />
+
+<!--//
+/* *******************************************************
+Software: Web Wiz Forums ver. 9.0
+Info: http://www.webwizforums.com
+Copyright: ©2001-2007 Web Wiz. All rights reserved
+******************************************************* */
+//-->
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="RSS_topic_feed.asp" />
+<link href="css_styles/default/default_style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="includes/default_javascript.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="http://www.sapien.com/assets/css/main.css" media="all">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="<?=base_url();?>/assets/css/ie.css" media="all">
+	<![endif]-->
+	<style type="text/css">
+		#nav li a {font-size: 14px; padding: 5px 14px 6px 14px;}
+	</style>
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<div id="container">
+		<div id="header">
+			<div id="logo" class="group">
+				<a href="/"><img src="http://www.sapien.com/assets/img/logo3.png" alt="SAPIEN Technologies" width="170" height="56" /></a>
+			</div>
+			<ul id="nav" class="group">
+				<li><a href="/software">Software</a></li>
+				<li><a href="/books">Books</a></li>
+				<li><a href="/training">Training</a></li>
+				<li class="active"><a href="/support">Support</a></li>
+				<li><a href="/downloads">Downloads</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/company">Company</a></li>
+				<li><a href="/store">Store</a></li>
+				<li><a href="/account">MySAPIEN</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<div class="top">
+				<div>
+					<h1>ScriptingAnswers</h1>
+					<span class="social">
+						<div class="fb-like" style="border: 0; padding: 0; float: left;" data-href="http://www.facebook.com/SAPIENTech" data-send="false" data-layout="button_count" data-width="86" data-show-faces="false" data-font="arial"></div>
+						<div style="display: inline-block; border: 0; padding: 0;">
+							<a href="https://twitter.com/SapienTech" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" style="margin-top: 100px;">Follow @SapienTech</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+					</span>
+				</div>
+			</div>
+			<div class="main">	
+<iframe id="dropDownSearch" src="quick_search.asp?FID=0" class="dropDownSearch" frameborder="2" scrolling="no" rel="nofollow"></iframe>
+<table cellspacing="1" cellpadding="3" align="center" class="tableBorder">
+ <tr class="tableStatusBar"> 
+  <td>
+   <div style="float:left;"><img src="forum_images/forum_home.png" border="0" align="absmiddle" alt="Forum Home" title="Forum Home" />&nbsp;<a href="default.asp">Forum Home</a></div>
+   <div style="float:right;">&nbsp;&nbsp;<img src="forum_images/active_topics.png" align="absmiddle" border="0" alt="Active Topics" title="Active Topics" /> <a href="active_topics.asp">Active Topics</a> &nbsp;&nbsp;<img src="forum_images/unanswered_topics.png" align="absmiddle" border="0" alt="Un-Answered Topics" title="Un-Answered Topics" /> <a href="active_topics.asp?UA=Y">Un-Answered Topics</a> &nbsp;<a href="RSS_topic_feed.asp" target="_blank"><img src="forum_images/rss.png" border="0" align="absmiddle" title="RSS Feed: New Post Feed" /></a></div>
+  </td>
+ </tr>
+ <tr class="tableStatusBar">
+  <td>
+   <div style="float:right;">&nbsp;&nbsp;<img src="forum_images/FAQ.png" align="absmiddle" border="0" alt="FAQ" title="FAQ" /> <a href="help.asp">FAQ</a>&nbsp;&nbsp;<span id="SearchLink" onClick="showDropDown('SearchLink', 'dropDownSearch', 230, 0);" class="dropDownPointer"><img src="forum_images/search.png" align="absmiddle" border="0" alt="Forum Search" title="Forum Search" /> <script language="JavaScript">document.write('Search')</script><noscript><a href="search_form.asp" rel="nofollow">Search</a></noscript></span>&nbsp;&nbsp;<img src="forum_images/register.png" border="0" align="absmiddle" alt="Register" title="Register" /> <a href="registration_rules.asp?FID=0" rel="nofollow">Register</a>&nbsp;&nbsp;<img src="forum_images/login.png" border="0" align="absmiddle" alt="Login" title="Login" /> <a href="login_user.asp?returnURL=" rel="nofollow">Login</a></div>
+  </td>
+ </tr>
+</table>
+<br />
+<table class="basicTable" cellspacing="1" cellpadding="3" align="center">
+ <tr>
+  <td class="smText">The time now is 20:14<br /><br /></td> <td align="right" class="smText">
+  <form method="post" name="frmLogin" id="frmLogin" action="login_user.asp">Quick Login
+   <input type="text" size="10" name="name" id="name" style="font-size: 10px;" tabindex="1" />
+   <input type="password" size="10" name="password" id="password" style="font-size: 10px;" tabindex="2" />
+   <input type="hidden" name="NS" id="NS" value="1" />
+   <input type="submit" value="Go" style="font-size: 10px;" tabindex="3" />
+  </form>
+ </td>
+ </tr>
+</table>
+<br />
+<table cellspacing="1" cellpadding="3" class="tableBorder" align="center">
+ <tr class="tableLedger">
+  <td width="5%">&nbsp;</td>
+  <td width="50%">Forum</td>
+  <td width="10%" align="center">Topics</td>
+  <td width="10%" align="center">Posts</td>
+  <td width="30%">Last Post</td>
+ </tr>
+ <tr class="tableSubLedger"><td colspan="5"><a href="default.asp?C=6">Windows Scripting</a></td></tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum_sub.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum with Sub Forum(s)" title="Forum with Sub Forum(s)" /></div></td>
+  <td><a href="forum_topics.asp?FID=27">Windows PowerShell</a><br />Ask your Windows PowerShell-related questions, including questions on cmdlet development!<br /><span class="smText">Sub Forum(s): </span><a href="forum_topics.asp?FID=28" class="smLink">PowerShell Development</a></td>
+  <td align="center">1537</td>
+  <td align="center">12058</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=2491" class="smLink" rel="nofollow">jvierra</a> <a href="get_last_post.asp?FID=27"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=5124" title="Where is the error line number" class="smLink">Where is the error line number...</a><br />Today&nbsp;at&nbsp;17:21</td>
+ </tr>
+ <tr class="evenTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=9">VBScript</a><br />Anything VBScript-related, including Windows Script Host, WMI, ADSI, and more.</td>
+  <td align="center">1669</td>
+  <td align="center">12014</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=50013" class="smLink" rel="nofollow">ultrasoft</a> <a href="get_last_post.asp?FID=9"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=5119" title="Creating a language that targets WSH" class="smLink">Creating a language that...</a><br />01 Jun 2012&nbsp;at&nbsp;10:46</td>
+ </tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=10">Command-Line</a><br />Scripting in BAT or CMD files? Discuss your scripts here.</td>
+  <td align="center">129</td>
+  <td align="center">720</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=2491" class="smLink" rel="nofollow">jvierra</a> <a href="get_last_post.asp?FID=10"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=5073" title="Dsadd sample script" class="smLink">Dsadd sample script </a><br />26 Apr 2012&nbsp;at&nbsp;20:10</td>
+ </tr>
+ <tr class="evenTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=18">HTML Applications (HTAs)</a><br />Post here for topics related to HTAs or Internet Explorer scripting.</td>
+  <td align="center">126</td>
+  <td align="center">937</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=2491" class="smLink" rel="nofollow">jvierra</a> <a href="get_last_post.asp?FID=18"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=5121" title="File2FTP Uploader.hta with spaces Problems" class="smLink">File2FTP Uploader.hta with...</a><br />04 Jun 2012&nbsp;at&nbsp;13:39</td>
+ </tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=11">JScript</a><br />Prefer to administer Windows with JScript? Talk about it here!</td>
+  <td align="center">29</td>
+  <td align="center">229</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=2491" class="smLink" rel="nofollow">jvierra</a> <a href="get_last_post.asp?FID=11"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=5101" title="Is this right JavaScript forum?" class="smLink">Is this right JavaScript...</a><br />18 May 2012&nbsp;at&nbsp;12:34</td>
+ </tr>
+ <tr class="evenTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=12">KiXtart</a><br />Writing logon scripts or other Windows scripts in KiXtart? Discuss your scripts here.</td>
+  <td align="center">4</td>
+  <td align="center">17</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=36261" class="smLink" rel="nofollow">cymba</a> <a href="get_last_post.asp?FID=12"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=4490" title="find computer user last logon" class="smLink">find computer user last logon...</a><br />27 Apr 2011&nbsp;at&nbsp;15:42</td>
+ </tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum_no_access.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum No Access" title="Forum No Access" /></div></td>
+  <td><a href="forum_topics.asp?FID=29">Online Class Discussion</a><br />Private forum for online students</td>
+  <td align="center">85</td>
+  <td align="center">167</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=3359" class="smLink" rel="nofollow">jhicks</a> <a href="get_last_post.asp?FID=29"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=3028" title="6/11 Review" class="smLink">6/11 Review </a><br />11 Jun 2009&nbsp;at&nbsp;12:17</td>
+ </tr>
+</table>
+<br />
+<table cellspacing="1" cellpadding="3" class="tableBorder" align="center">
+ <tr class="tableLedger">
+  <td width="5%">&nbsp;</td>
+  <td width="50%">Forum</td>
+  <td width="10%" align="center">Topics</td>
+  <td width="10%" align="center">Posts</td>
+  <td width="30%">Last Post</td>
+ </tr>
+ <tr class="tableSubLedger"><td colspan="5"><a href="default.asp?C=8">Script Sharing</a></td></tr>
+ <tr class="evenTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum_sub.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum with Sub Forum(s)" title="Forum with Sub Forum(s)" /></div></td>
+  <td><a href="forum_topics.asp?FID=22">PowerShell Scripts</a><br />Post PowerShell scripts that you've written and want to share with the world<br /><span class="smText">Sub Forum(s): </span><a href="forum_topics.asp?FID=31" class="smLink">Exchange Scripts</a>, <a href="forum_topics.asp?FID=32" class="smLink">VMWare</a></td>
+  <td align="center">62</td>
+  <td align="center">104</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=46311" class="smLink" rel="nofollow">kcmazie</a> <a href="get_last_post.asp?FID=22"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=4988" title="Internet (NTP) Time" class="smLink">Internet (NTP) Time </a><br />14 Mar 2012&nbsp;at&nbsp;14:31</td>
+ </tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=24">VBScript Scripts</a><br />Share your VBScript with the world - who knows who it might help?</td>
+  <td align="center">370</td>
+  <td align="center">380</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=46697" class="smLink" rel="nofollow">eric.scarlett</a> <a href="get_last_post.asp?FID=24"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=4930" title="Sorry" class="smLink">Sorry </a><br />09 Feb 2012&nbsp;at&nbsp;09:56</td>
+ </tr>
+ <tr class="evenTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=26">Batch/Cmd Scripts</a><br />Share your batch files with the world - who knows who your script might help?</td>
+  <td align="center">14</td>
+  <td align="center">18</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=50013" class="smLink" rel="nofollow">ultrasoft</a> <a href="get_last_post.asp?FID=26"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=5118" title="Opening several remote desktop sessions at once" class="smLink">Opening several remote desktop...</a><br />01 Jun 2012&nbsp;at&nbsp;08:06</td>
+ </tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=25">HTA Scripts</a><br />Share HTML Applications (HTAs) that you've created</td>
+  <td align="center">16</td>
+  <td align="center">16</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=46697" class="smLink" rel="nofollow">eric.scarlett</a> <a href="get_last_post.asp?FID=25"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=4933" title="The Lottery Prophet" class="smLink">The Lottery Prophet </a><br />09 Feb 2012&nbsp;at&nbsp;10:41</td>
+ </tr>
+ <tr class="evenTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=30">Conference Downloads</a><br />Conference slide decks, demos and samples</td>
+  <td align="center">7</td>
+  <td align="center">9</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=39005" class="smLink" rel="nofollow">jasoncrider</a> <a href="get_last_post.asp?FID=30"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=2373" title="Techmentor Las Vegas 2008 Samples and Demos" class="smLink">Techmentor Las Vegas 2008...</a><br />12 May 2011&nbsp;at&nbsp;09:19</td>
+ </tr>
+</table>
+<br />
+<table cellspacing="1" cellpadding="3" class="tableBorder" align="center">
+ <tr class="tableLedger">
+  <td width="5%">&nbsp;</td>
+  <td width="50%">Forum</td>
+  <td width="10%" align="center">Topics</td>
+  <td width="10%" align="center">Posts</td>
+  <td width="30%">Last Post</td>
+ </tr>
+ <tr class="tableSubLedger"><td colspan="5"><a href="default.asp?C=5">Non-Technical</a></td></tr>
+ <tr class="oddTableRow">
+   <td align="center"><div class="topicIcon" style="background-image: url('forum_images/forum.png');"><img src="forum_images/forum_blank.png" border="0" alt="Forum" title="Forum" /></div></td>
+  <td><a href="forum_topics.asp?FID=8">Web Site Feedback</a><br />Your comments and suggestions for this Web site</td>
+  <td align="center">14</td>
+  <td align="center">49</td>
+  <td class="smText" nowrap>By&nbsp;<a href="member_profile.asp?PF=2491" class="smLink" rel="nofollow">jvierra</a> <a href="get_last_post.asp?FID=8"><img src="forum_images/view_last_post.png" align="absmiddle" border="0" alt="View Last Post" title="View Last Post" /></a><br />in&nbsp;<a href="forum_posts.asp?TID=4597" title="PowerShell Deep Dive Registration Info" class="smLink">PowerShell Deep Dive Registration...</a><br />20 Jul 2011&nbsp;at&nbsp;11:55</td>
+ </tr>
+</table>
+<br />
+<br />
+<table cellspacing="1" cellpadding="3" class="tableBorder" align="center">
+ <tr class="tableLedger">
+  <td colspan="2">What's Going On?</td>
+ </tr>
+ <tr class="tableSubLedger">
+  <td colspan="2">Forum Statistics</td>
+ </tr>
+ <tr class="tableRow">
+  <td width="5%" align="center"><img src="forum_images/forum_statistics.png" alt="Forum Statistics" title="Forum Statistics" /></td>
+  <td width="95%" nowrap>Our users have posted 26,718 Posts in 4,062 Topics in 16 Forum(s)<br />Last Post; Today at 17:21 By <a href="member_profile.asp?PF=2491" rel="nofollow">jvierra</a><br />We have 49,872 Forum Members<br />The Newest Forum Member is <a href="member_profile.asp?PF=50147" rel="nofollow">jimlinehan</a></td>
+ </tr>
+ <tr class="tableSubLedger">
+  <td colspan="2"><a href="active_users.asp">Active Users</a></td>
+ </tr>
+ <tr class="tableRow">
+  <td width="5%" align="center"><a href="active_users.asp"><img src="forum_images/active_users.png" alt="Active Users" title="View Active Users" border="0" /></a></td>
+  <td width="95%">In total there are 1 <a href="active_users.asp">Active Users</a> online, 1 Guest(s), 0 Member(s), 0 Anonymous Member(s)
+  </td>
+ </tr>
+</table>
+<br />
+<div align="center">
+<span class="smText"><a href="mark_posts_as_read.asp" class="smLink">Mark all posts as read</a> :: <a href="remove_cookies.asp" class="smLink">Delete cookies set by this forum</a><br /><br />Cookies and JavaScript must be enabled on your web browser in order to use this forum</span><br />
+<br />
+</div>
+   			</div>
+		</div>
+		<div id="footer">
+			<div class="inner">
+				<div class="links group">
+					<div class="footer-box">
+						<h4>Software</h4>
+						<ul>
+							<li><a href="/software/primalscript">PrimalScript</a></li>
+							<li><a href="/software/powershell_studio">PowerShell Studio</a></li>
+							<li><a href="/software/primalsql">PrimalSQL</a></li>
+							<li><a href="/software/primalxml">PrimalXML</a></li>
+							<li><a href="/software/changevue">ChangeVue</a></li>
+							<li><a href="/software/ipowershell">iPowerShell</a></li>
+							<li><a href="/software/bundles">SAPIEN Software Suite</a></li>
+						</ul>
+					</div>
+					<div class="footer-box books">
+						<h4>Books</h4>
+						<ul>
+							<li><a href="/books/Windows-PowerShell-2">Windows PowerShell 2</a></li>
+							<li><a href="/books/Managing-Active-Directory">Managing Active Directory</a></li>
+							<li><a href="/books/Managing-VMWare">Managing VMWare</a></li>
+							<li><a href="/books/Microsoft-Hyper-V">Microsoft Hyper-V</a></li>
+							<li><a href="/books/WSH-and-VBScript-Core">WSH and VBScript Core</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<h4>Training</h4>
+						<ul>
+							<li><a href="/training/selfpaced">Self-Paced</a></li>
+							<li><a href="/training/classroom">Classroom</a></li>
+							<li><a href="/training">On-Site</a></li>
+							<li><a href="/training/courseware">Courseware</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<h4>Support</h4>
+						<ul>
+							<li><a href="/forums/support/default.asp">SAPIEN Forum</a></li>
+							<li><a href="/forums/scriptinganswers/default.asp">ScriptingAnswers</a></li>
+							<li><a href="https://store.sapien.com/t-contact.aspx">Store Support</a></li>
+							<li><a href="/downloads">Downloads</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<h4>Account</h4>
+						<ul>
+							<li><a href="/auth/login">Login</a></li>
+							<li><a href="/auth/register">Signup</a></li>
+							<li><a href="/account/">My Products</a></li>
+							<li><a href="/account/">Register a Product</a></li>
+						</ul>
+					</div>
+					<div class="footer-box">
+						<h4>Company</h4>
+						<ul>
+							<li><a href="/store">Store</a></li>
+							<li><a href="/company/contact">Contact</a></li>
+							<li><a href="/blog">Blog</a></li>
+							<li><a href="/company/resellers">Resellers</a></li>
+							<li><a href="/company/eula">EULA</a></li>
+							<li><a href="/company/privacy">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="copyright">Copyright &copy; 2012 SAPIEN Technologies</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-293363-1']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</body>
+</html>

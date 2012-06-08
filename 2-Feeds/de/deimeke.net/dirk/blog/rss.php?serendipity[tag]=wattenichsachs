@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version="2.0" 
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:admin="http://webns.net/mvcb/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+   xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+   xmlns:content="http://purl.org/rss/1.0/modules/content/"
+   >
+<channel>
+    
+    <title>Dirks Logbuch (Artikel mit Tag wattenichsachs)</title>
+    <link>http://www.deimeke.net/dirk/blog/</link>
+    <description>Die Chronik des schleichenden Wahnsinns ...</description>
+    <dc:language>de</dc:language>
+    <generator>Serendipity 1.6.2 - http://www.s9y.org/</generator>
+    
+    
+
+<item>
+    <title>Null-eins-zwei ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2608-Null-eins-zwei-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2608-Null-eins-zwei-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2608</wfw:comment>
+
+    <slash:comments>10</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2608</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Das ist die zwölfte Folge von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, mit einem Beitrag über &quot;Facebook (und social Spam)&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-012.mp3&quot; title=&quot;WNS-012.mp3&quot; target=&quot;_blank&quot;&gt;WNS-012.mp3&lt;/a&gt; (09:06 Minuten, 8.7 MB)
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Konvertiert mit &lt;a href=&quot;http://sox.sourceforge.net/&quot; title=&quot;SoX - Sound eXchange | HomePage&quot;&gt;SoX&lt;/a&gt;:&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;div class=&quot;bash geshi&quot; style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #c20cb9; font-weight: bold;&quot;&gt;sox&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-S&lt;/span&gt; WNS-012.wav &lt;span style=&quot;color: #660033;&quot;&gt;-b&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;16&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-r&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;44100&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-c&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;2&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;--norm&lt;/span&gt; WNS-012.mp3 compand &lt;span style=&quot;color: #000000;&quot;&gt;0.05&lt;/span&gt;,&lt;span style=&quot;color: #000000;&quot;&gt;0.2&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;6&lt;/span&gt;:-&lt;span style=&quot;color: #000000;&quot;&gt;54&lt;/span&gt;,-&lt;span style=&quot;color: #000000;&quot;&gt;90&lt;/span&gt;,-&lt;span style=&quot;color: #000000;&quot;&gt;36&lt;/span&gt;,-&lt;span style=&quot;color: #000000;&quot;&gt;36&lt;/span&gt;,-&lt;span style=&quot;color: #000000;&quot;&gt;24&lt;/span&gt;,-&lt;span style=&quot;color: #000000;&quot;&gt;24&lt;/span&gt;,&lt;span style=&quot;color: #000000;&quot;&gt;0&lt;/span&gt;,-&lt;span style=&quot;color: #000000;&quot;&gt;12&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;0&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-90&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;0.1&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Getagged mit &lt;a href=&quot;http://home.gna.org/lltag/&quot; title=&quot;lltag - Command-line music file tagger&quot;&gt;lltag&lt;/a&gt;:&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;div class=&quot;bash geshi&quot; style=&quot;text-align: left&quot;&gt;lltag &lt;span style=&quot;color: #660033;&quot;&gt;-a&lt;/span&gt; &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;quot;Dirk Deimeke&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-t&lt;/span&gt; &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;quot;Facebook&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-A&lt;/span&gt; wattenichsachs &lt;span style=&quot;color: #660033;&quot;&gt;-n&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;12&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-g&lt;/span&gt; Podcast &lt;span style=&quot;color: #660033;&quot;&gt;-d&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;20110411&lt;/span&gt; WNS-012.mp3&lt;/div&gt;&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&amp;bull; &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/2049-Redundanz-....html&quot; title=&quot;Redundanz ... | Dirks Logbuch&quot;&gt;Redundanz&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&amp;bull; &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/2255-Social-Spam.html&quot; title=&quot;Social Spam | Dirks Logbuch&quot;&gt;Social Spam&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&amp;bull; &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/2505-15-Tipps-fuer-Blogger-....html&quot; title=&quot;15 Tipps für Blogger ... | Dirks Logbuch&quot;&gt;15 Tipps für Blogger&lt;/a&gt;&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&amp;bull; &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/2519-Keiner-mag-mich-mehr-....html&quot; title=&quot;Keiner mag mich mehr ... | Dirks Logbuch&quot;&gt;Keiner mag mich mehr&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Eure Meinungen und Vorschläge interessieren mich, ab in die Kommentare damit.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Sat, 23 Apr 2011 11:27:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2608-guid.html</guid>
+    <category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-eins-eins ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2588-Null-eins-eins-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2588-Null-eins-eins-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2588</wfw:comment>
+
+    <slash:comments>4</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2588</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Das ist die elfte Folge von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, mit einem Beitrag über &quot;Gefühlte Wirklichkeiten&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-011.mp3&quot; title=&quot;WNS-011.mp3&quot; target=&quot;_blank&quot;&gt;WNS-011.mp3&lt;/a&gt; (08:38 Minuten, 8.0 MB)
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Konvertiert mit &lt;a href=&quot;http://sox.sourceforge.net/&quot; title=&quot;SoX - Sound eXchange | HomePage&quot;&gt;SoX&lt;/a&gt;:&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;div class=&quot;bash geshi&quot; style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: #c20cb9; font-weight: bold;&quot;&gt;sox&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-S&lt;/span&gt; WNS-011.wav &lt;span style=&quot;color: #660033;&quot;&gt;-b&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;16&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-r&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;44100&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-c&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;2&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;--norm&lt;/span&gt; WNS-011.mp3&lt;/div&gt;&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Getagged mit &lt;a href=&quot;http://home.gna.org/lltag/&quot; title=&quot;lltag - Command-line music file tagger&quot;&gt;lltag&lt;/a&gt;:&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;div class=&quot;bash geshi&quot; style=&quot;text-align: left&quot;&gt;lltag &lt;span style=&quot;color: #660033;&quot;&gt;-a&lt;/span&gt; &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;quot;Dirk Deimeke&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-t&lt;/span&gt; &lt;span style=&quot;color: #ff0000;&quot;&gt;&amp;quot;Gefuehlte Wirklichkeiten&amp;quot;&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-A&lt;/span&gt; wattenichsachs &lt;span style=&quot;color: #660033;&quot;&gt;-n&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;11&lt;/span&gt; &lt;span style=&quot;color: #660033;&quot;&gt;-g&lt;/span&gt; Podcast &lt;span style=&quot;color: #660033;&quot;&gt;-d&lt;/span&gt; &lt;span style=&quot;color: #000000;&quot;&gt;20110411&lt;/span&gt; WNS-011.mp3&lt;/div&gt;&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Eure Meinungen und Vorschläge interessieren mich, ab in die Kommentare damit.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Mon, 11 Apr 2011 19:35:17 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2588-guid.html</guid>
+    <category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-eins-null ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2567-Null-eins-null-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2567-Null-eins-null-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2567</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2567</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Das ist die zehnte Folge von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, mit einem Lebenszeichen.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-010.mp3&quot; title=&quot;WNS-010.mp3&quot; target=&quot;_blank&quot;&gt;WNS-010.mp3&lt;/a&gt; (02:12 Minuten, 2.1 MB)
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Konvertiert mit &lt;a href=&quot;http://sox.sourceforge.net/&quot; title=&quot;SoX - Sound eXchange | HomePage&quot;&gt;SoX&lt;/a&gt;:&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;code&gt;sox -S WNS-010.wav -b 16 -r 44100 -c 2 --norm WNS-010.mp3&lt;/code&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Eure Meinungen und Vorschläge interessieren mich, ab in die Kommentare damit.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Wed, 30 Mar 2011 05:36:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2567-guid.html</guid>
+    <category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-neun ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2297-Null-null-neun-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2297-Null-null-neun-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2297</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2297</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Das ist die neunte Folge von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, mit einer Richtigstellung zum Thema &quot;Krise&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-009.mp3&quot; title=&quot;WNS-009.mp3&quot; target=&quot;_blank&quot;&gt;WNS-009.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Hier der Link zu den &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/1597-Trittbrettfahrer,-Heissluftgeblaese-und-Nebelbombenwerfer-....html&quot; title=&quot;Trittbrettfahrer, Heissluftgebläse und Nebelbombenwerfer ... | Dirks Logbuch&quot;&gt;Trittbrettfahrern&lt;/a&gt; und zu &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/2296-Monkeynomics.html&quot; title=&quot;Monkeynomics | Dirks Logbuch&quot;&gt;Monkeynomics&lt;/a&gt;.
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Eure Meinungen interessieren mich, ab in die Kommentare damit.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Sat, 31 Jul 2010 10:21:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2297-guid.html</guid>
+    <category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-acht ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2280-Null-null-acht-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2280-Null-null-acht-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2280</wfw:comment>
+
+    <slash:comments>4</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2280</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Die achte Ausgabe von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, mit Geschwafel zum Thema &quot;Podcasting&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-008.mp3&quot; title=&quot;WNS-008.mp3&quot; target=&quot;_blank&quot;&gt;WNS-008.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Eure Meinungen interessieren mich, ab in die Kommentare damit.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Thu, 15 Jul 2010 19:32:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2280-guid.html</guid>
+    <category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-sieben ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2231-Null-null-sieben-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2231-Null-null-sieben-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2231</wfw:comment>
+
+    <slash:comments>0</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2231</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Die siebte Ausgabe von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, dieses Mal zum Thema &quot;Alles in einem Gerät&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-007.mp3&quot; title=&quot;WNS-007.mp3&quot; target=&quot;_blank&quot;&gt;WNS-007.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Eure Meinungen interessieren mich, ab in die Kommentare damit.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Mon, 07 Jun 2010 05:54:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2231-guid.html</guid>
+    <category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-sechs ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2225-Null-null-sechs-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2225-Null-null-sechs-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2225</wfw:comment>
+
+    <slash:comments>4</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2225</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Die sechste Ausgabe von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, dieses Mal als Soundcheck.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-006a.mp3&quot; title=&quot;WNS-006a.mp3&quot; target=&quot;_blank&quot;&gt;WNS-006a.mp3&lt;/a&gt; (das blöde &quot;a&quot; kommt übrigens daher, dass der Zomm H4n zwar Dateien umbenennen aber keine Zeichen löschen kann.
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Podcast-Tipp: &lt;a href=&quot;http://digital-dictators.de/category/podcast/&quot; title=&quot;Podcast | digital-dictators.de blog&quot;&gt;Digital Dictators&lt;/a&gt;&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Fri, 04 Jun 2010 10:21:13 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2225-guid.html</guid>
+    <category>computer</category>
+<category>podcast</category>
+<category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-fünf ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2160-Null-null-fuenf-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2160-Null-null-fuenf-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2160</wfw:comment>
+
+    <slash:comments>2</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2160</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Die fünfte Ausgabe von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, dieses Mal über unentgeltliche Hilfe.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-005.mp3&quot; title=&quot;WNS-005.mp3&quot; target=&quot;_blank&quot;&gt;WNS-005.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/2127-Gegen-den-Strom-2-....html&quot; title=&quot;Gegen den Strom (2) ... | Dirks Logbuch&quot;&gt;Dieser Artikel&lt;/a&gt; hat den Anstoss gegeben.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Thu, 15 Apr 2010 18:44:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2160-guid.html</guid>
+    <category>computer</category>
+<category>podcast</category>
+<category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-vier ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/2019-Null-null-vier-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/2019-Null-null-vier-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=2019</wfw:comment>
+
+    <slash:comments>3</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=2019</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Die vierte Ausgabe von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, dieses Mal über Computer im Allgemeinen.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-004.mp3&quot; title=&quot;WNS-004.mp3&quot; target=&quot;_blank&quot;&gt;WNS-004.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Und hier dann auch der versprochene &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/1572-Stromkosten-....html&quot; title=&quot;Stromkosten ... | Dirks Logbuch&quot;&gt;Link zu den Stromkosten&lt;/a&gt;.
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;strong&gt;Nachtrag:&lt;/strong&gt; Fast vergessen, hier &lt;a href=&quot;http://www.heise.de/ct/04/01/003/&quot; title=&quot;&quot;&gt;der Link zum WAF&lt;/a&gt;.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Sat, 19 Dec 2009 12:07:00 +0100</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/2019-guid.html</guid>
+    <category>computer</category>
+<category>podcast</category>
+<category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-drei ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/1917-Null-null-drei-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/1917-Null-null-drei-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=1917</wfw:comment>
+
+    <slash:comments>2</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=1917</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Episode drei von &lt;strong&gt;wattenichsachs&lt;/strong&gt; über Beschwichtigungssignale bei Hunden.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-003.mp3&quot; title=&quot;WNS-003.mp3&quot; target=&quot;_blank&quot;&gt;WNS-003.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Literaturtipp, nicht nur für Hundebesitzer: &lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.amazon.de/exec/obidos/ASIN/3936188017/ref=nosim/dirkshomepa09-21&quot; title=&quot;&quot;&gt;Calming Signals - Die Beschwichtigungssignale der Hunde&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Feedback ist jederzeit willkommen, entweder hier in die Kommentare oder per Strompost.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Sun, 04 Oct 2009 16:16:23 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/1917-guid.html</guid>
+    <category>beschwichtigungssignale</category>
+<category>hunde</category>
+<category>podcast</category>
+<category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-zwei ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/1903-Null-null-zwei-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/1903-Null-null-zwei-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=1903</wfw:comment>
+
+    <slash:comments>4</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=1903</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Episode zwei von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, heute mit einem meiner Lieblingtexte, der &lt;a href=&quot;http://www.uni-flensburg.de/asta/pol_kultur_anekdote.htm&quot; title=&quot;Aktuelle Nachrichten | Studierendenportal der Flensburger Hochschulen&quot;&gt;Anekdote zur Senkung der Arbeitsmoral&lt;/a&gt;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-002.mp3&quot; title=&quot;WNS-002.mp3&quot; target=&quot;_blank&quot;&gt;WNS-002.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Ich möchte an dieser Stelle noch einmal darauf hinweisen, dass der Podcast nicht geschnitten wird und nur mit Mitteln, die mir das Aufnahmegerät bietet, bearbeitet wird.
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Feedback ist jederzeit willkommen, entweder hier in die Kommentare oder per Strompost.&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Sat, 26 Sep 2009 08:56:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/1903-guid.html</guid>
+    <category>arbeitsmoral</category>
+<category>podcast</category>
+<category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-eins ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/1883-Null-null-eins-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/1883-Null-null-eins-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=1883</wfw:comment>
+
+    <slash:comments>8</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=1883</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Viel Spass bei Episode 1 von &lt;strong&gt;wattenichsachs&lt;/strong&gt;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Thema ist &quot;Denglisch&quot; oder &quot;Germish&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-001.mp3&quot; title=&quot;WNS-001.mp3&quot; target=&quot;_blank&quot;&gt;WNS-001.mp3&lt;/a&gt;
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Feedback jederzeit willkommen!&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Mon, 14 Sep 2009 12:14:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/1883-guid.html</guid>
+    <category>denglisch</category>
+<category>germish</category>
+<category>podcast</category>
+<category>wattenichsachs</category>
+
+</item>
+<item>
+    <title>Null-null-null ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/1868-Null-null-null-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/1868-Null-null-null-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=1868</wfw:comment>
+
+    <slash:comments>8</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=1868</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Hier ist die Nullnummer von &lt;strong&gt;wattenichsachs&lt;/strong&gt;, viel Spass!
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;&lt;a href=&quot;http://www.deimeke.net/dirk/blog/uploads/wattenichsachs/WNS-000.mp3&quot; title=&quot;WNS-000.mp3&quot; target=&quot;_blank&quot;&gt;WNS-000.mp3&lt;/a&gt;&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Sun, 06 Sep 2009 17:43:47 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/1868-guid.html</guid>
+    <category>podcast</category>
+<category>wattenichsachs</category>
+<category>zoomh4n</category>
+
+</item>
+<item>
+    <title>Wattenichsachs ...</title>
+    <link>http://www.deimeke.net/dirk/blog/index.php?/archives/1863-Wattenichsachs-....html</link>
+            <category>wattenichsachs</category>
+    
+    <comments>http://www.deimeke.net/dirk/blog/index.php?/archives/1863-Wattenichsachs-....html#comments</comments>
+    <wfw:comment>http://www.deimeke.net/dirk/blog/wfwcomment.php?cid=1863</wfw:comment>
+
+    <slash:comments>2</slash:comments>
+    <wfw:commentRss>http://www.deimeke.net/dirk/blog/rss.php?version=2.0&amp;type=comments&amp;cid=1863</wfw:commentRss>
+    
+
+    <author>nospam@example.com (Dirk Deimeke)</author>
+    <content:encoded>
+    &lt;p class=&quot;whiteline&quot;&gt;Mit meiner &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/archives/1848-Zoom-H4n-....html&quot; title=&quot;Zoom H4n ... | Dirks Logbuch&quot;&gt;Neuanschaffung&lt;/a&gt; muss ich mal so langsam &quot;aus der Hüfte kommen&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Da Trockenübungen ohne besonderen Nutzen immer sehr motivationsbelastend sind, habe ich mir überlegt, einen Mini-Podcast mit Namen &quot;wattenichsachs&quot; ins Leben zu rufen.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;In diesem Podcast soll es um Experimente gehen, die die Arbeit mit dem &lt;a href=&quot;http://www.zoom.co.jp/english/products/h4n/&quot; title=&quot;H4n Handy Recorder &quot;&gt;Zoom H4n&lt;/a&gt; betreffen und auch um vertonte Gedanken und kurze Text- und oder Sound-Schnippsel oder &quot;Was auch immer mir sonst noch einfällt&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Für die nicht des &lt;a href=&quot;http://de.wikipedia.org/wiki/Ruhrdeutsch&quot; title=&quot;Ruhrdeutsch – Wikipedia&quot;&gt;Ruhrdeutsch&lt;/a&gt; mächtigen:
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;&quot;wattenichsachs&quot; steht für &quot;Was Du nicht sagst&quot;.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Die Kurzform hat zwei Bedeutungen:
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Zum Einen kann man damit zum Ausdruck geben, dass man etwas unglaublich findet oder rhetorisch nachfragen, ob das Gesagte wirklich so gemeint ist (wissend, dass das der Fall ist).
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Zum Anderen wird es ironisch verwendet, um zu verstehen zu geben, dass man den Sachverhalt auch ohne die gerade gegebene Erklärung verstanden hätte. Der Gesprächspartner wird damit indirekt als Besserwisser (Erbsenzähler, Korinthenkacker, ...) bezeichnet.
+&lt;/p&gt;&lt;p class=&quot;whiteline&quot;&gt;Am Wochenende geht es los, das Ganze bekommt das Schlagwort (den Tag) &lt;a href=&quot;http://www.deimeke.net/dirk/blog/index.php?/plugin/tag/wattenichsachs&quot; title=&quot;Dirks Logbuch | Artikel mit Tag wattenichsachs&quot;&gt;wattenichsachs&lt;/a&gt; und der Podcast-Feed wird unter &lt;a href=&quot;http://www.deimeke.net/dirk/blog/rss.php?serendipity%5Btag%5D=wattenichsachs&quot; title=&quot;Dirks Logbuch (Artikel mit Tag wattenichsachs)&quot;&gt;dieser Adresse&lt;/a&gt; abonnierbar sein.
+&lt;/p&gt;&lt;p class=&quot;break&quot;&gt;Feedback ist erwünscht!&lt;/p&gt; 
+    </content:encoded>
+
+    <pubDate>Thu, 03 Sep 2009 07:00:00 +0200</pubDate>
+    <guid isPermaLink="false">http://www.deimeke.net/dirk/blog/index.php?/archives/1863-guid.html</guid>
+    <category>podcast</category>
+<category>wattenichsachs</category>
+<category>zoomh4n</category>
+
+</item>
+
+</channel>
+</rss>

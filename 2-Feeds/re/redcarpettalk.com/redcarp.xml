@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+<!--The Title-->
+<title>RedCarpet Talk</title>
+
+<!--The Meta Info-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!--The Stylesheets-->
+<link rel="stylesheet" href="http://www.redcarpettalk.com/wp-content/themes/lexicon/style.css" type="text/css" media="screen" />
+<!--[if lt IE 8 ]>
+<link rel="stylesheet" href="http://www.redcarpettalk.com/wp-content/themes/lexicon/ie.css" type="text/css" media="screen" />
+<![endif]-->
+
+<!--The RSS and Pingback-->
+<link rel="alternate" type="application/rss+xml" title="RedCarpet Talk RSS Feed" href="http://www.redcarpettalk.com/?feed=rss2" />
+<link rel="pingback" href="http://www.redcarpettalk.com/xmlrpc.php" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.redcarpettalk.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.redcarpettalk.com/wp-includes/wlwmanifest.xml" /> 
+<link type="text/css" rel="stylesheet" href="http://www.redcarpettalk.com/wp-content/plugins/social-connect-widget/css/socialConnect-style.css" />
+<style type="text/css" media="screen">
+
+/*
+| ----------------------------------------
+| General Section
+| ----------------------------------------
+*/
+
+| - ATTENTION IE users: The following rules are only compatible with IE8+
+| - Please consider to specify custom CSS rules to support previous IE versions.
+| - In order to mantain a minimum compatibnility with IE7, a special CSS file is stored at special-recent-posts/css/css-ie7-fix.css.
+| - Feel free to modify this file which is loaded by a conditional statement in the HTML header of the rendered webpage.
+
+/* The Recent Posts Container. */
+div.srp-widget-container {
+	display : table;
+	clear   : both;
+}
+
+/* The Widget Title. */
+div.srp-widget-container h3.widget-title{
+	display       : block;
+	margin-bottom : 10px;
+}
+
+// The widget title link
+a.srp-widget-title-link {}
+
+/* Single post entry box. */
+div.srp-widget-singlepost {
+	padding       : 0px 0px 10px 0px;
+	margin        : 0px 0px 10px 0px;
+	border-bottom : 1px solid #CCCCCC;
+	clear         : both;
+}
+
+/* The single row container and the single column container */
+div.srp-single-row, div.srp-widget-column {
+	display        : table-cell !important;
+	vertical-align : top !important;
+	margin         : 0px 0px 0px 0px !important;
+	padding        : 0px 10px 0px 0px !important;
+	border         : none !important;
+}
+
+/* The multi-column class on each post entry */
+div.srp-multi-column {}
+
+/* The single-row class on each post entry */
+div.srp-single-row {}
+/*
+| ----------------------------------------
+| Thumbnail Section
+| ----------------------------------------
+*/
+
+/* The thumbnail box. */
+div.srp-thumbnail-box {
+	display        : table-cell;
+	vertical-align : top;
+	padding-right  : 10px;
+}
+
+/* The thumbnail link. */
+a.srp-widget-thmblink {}
+
+/* The thumbnail image. */
+img.srp-widget-thmb {}
+
+/*
+| ----------------------------------------
+| Content Section
+| ----------------------------------------
+*/
+
+/* The content box. */
+div.srp-content-box {
+	display        : table-cell;
+	vertical-align : top;
+}
+
+/* The single post title. */
+h4.srp-post-title {
+	display: block;
+}
+
+/* The single post title link. */
+a.srp-post-title-link {}
+
+/* The post excerpt. */
+p.srp-widget-excerpt {
+	margin: 0px;
+}
+
+/* The linked Excerpt */
+a.srp-linked-excerpt {}
+
+/* The stringbreak. */
+span.srp-widget-stringbreak {}
+
+/* The stringbreak link. */
+a.srp-widget-stringbreak-link {}
+
+/* The stringbreak link image. */
+a.srp-widget-stringbreak-link-image {}
+
+/* The post date box. */
+p.srp-widget-date {
+	margin: 0px;
+}
+
+/* The post author box. */
+p.srp-widget-author {
+	margin: 0px;
+}
+
+/* The post category box. */
+p.srp-widget-category {
+	margin: 0px;
+}
+
+/* The tags box */
+p.srp-widget-tags {
+	margin: 0px;
+}
+</style><!--[if IE 7]><link rel='stylesheet' id='css-ie-fix' href='http://www.redcarpettalk.com/wp-content/plugins/special-recent-posts/css/css-ie7-fix.css' type='text/css' media='all' /> <![endif]--><style type="text/css">
+#header #title a {
+	background: url(http://www.redcarpettalk.com/wp-content/themes/lexicon/images/header.jpg) no-repeat;
+}
+</style>
+</head>
+<body class="home blog">
+
+<div id="header">
+    <p id="title"><a href="http://www.redcarpettalk.com" title="Return to Home">RedCarpet Talk</a></p>
+	
+	<form method="get" id="searchform" action="http://www.redcarpettalk.com"> 
+	<input type="text" value="Search..." name="s" id="s" onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" /> 
+	</form> 
+</div>
+
+<div id="menu"><ul><li class="current_page_item"><a href="http://www.redcarpettalk.com/" title="Home">Home</a></li><li class="page_item page-item-40"><a href="http://www.redcarpettalk.com/?page_id=40">Videos</a></li><li class="page_item page-item-43"><a href="http://www.redcarpettalk.com/?page_id=43">Contact</a></li><li class="page_item page-item-49"><a href="http://WWW.REDCARPETTALK.COM">Music</a></li><li class="page_item page-item-55"><a href="http://www.redcarpettalk.com/?page_id=55">TV</a></li><li class="page_item page-item-57"><a href="http://www.redcarpettalk.com/?page_id=57">Style</a></li><li class="page_item page-item-102"><a href="http://www.redcarpettalk.com/?page_id=102">Hot Spots</a></li><li class="page_item page-item-104"><a href="http://www.redcarpettalk.com/?page_id=104">Exclusives</a></li><li class="page_item page-item-2"><a href="http://www.redcarpettalk.com/?page_id=2">About</a></li><li class="page_item page-item-46 current_page_item"><a href="http://www.redcarpettalk.com">Photos</a></li></ul></div>
+
+<div id="container"><!--home.php-->
+
+<div id="feature">
+
+	<a href="http://www.redcarpettalk.com/?p=19"><img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/TESTF.jpg" alt="BREAKING NEWS" /></a>
+	<div class="title"><h3><a href="http://www.redcarpettalk.com/?p=19">BREAKING NEWS</a></h3></div>
+	<p class="byline">Jan 17 | by <a href="http://www.redcarpettalk.com/?author=1" title="Posts by Keith@redcarpettalk.com" rel="author">Keith@redcarpettalk.com</a> | <a href="http://www.redcarpettalk.com/?p=19#respond" title="Comment on BREAKING NEWS">No Comments</a></p>
+    <p>We just found out this morning that <a href="http://www.hollyscoop.com/gerard-butler" target="_blank">Gerard Butler </a>entered rehab, and now we’re learning he’s already been released and is at home chilling. I know celebs do the whole rehab thing really fast, but six hours? There’s got to be an explanation.</p>
+<p>Well, there is. Gerard actually entered rehab three weeks ago to deal with his addiction to what is reportedly pain medication. And the addiction reportedly wasn’t that bad; Gerard just wanted to nip it in the bud before it got out of control..<a href="http://www.redcarpettalk.com/wp-content/uploads/2011/01/AAC_-_Stars_on_Ice_051410_-_27.jpg.728x520_q85.jpg"></a></p>
+  </div>
+
+<div id="content">
+			
+	<!--Post Wrapper Class-->
+  <div class="post-19 post type-post status-publish format-standard sticky hentry category-featuredvideos">
+	
+	<div class="date">
+		<div class="month">Jan		  <span class="day">
+		  17	    </span></div>
+		<div class="day"></div>
+	</div>
+	
+
+	<div class="postcontent"><h3 id="post-19" class="title"><a href="http://www.redcarpettalk.com/?p=19" rel="bookmark">
+	  BREAKING NEWS	</a></h3>
+		<a href="http://www.redcarpettalk.com/?p=19"><img class="alignleft" src="Smuckers10.jpg" width="550" height="306" alt="BREAKING NEWS" /></a>
+		
+		<p>We just found out this morning that Gerard Butler entered rehab, and now we’re learning he’s already been released and is at home chilling. I know celebs do the whole rehab thing really fast, but six hours? There’s got to be an explanation. Well, there is. Gerard actually entered rehab three weeks ago to deal with his [...]</p>
+	  <span class="commentlink">
+		<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" width="65" height="18"/></span><div id="commentnumber"><a href="http://www.redcarpettalk.com/?p=19#respond" title="Comment on BREAKING NEWS">0</a></div>
+	  <a class="more-link" href="http://www.redcarpettalk.com/?p=19">Read More</a></div>
+
+	<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" width="590" height="25"/>
+	<a href="http://www.redcarpettalk.com/?cat=4" title="View all posts in Featured Videos" rel="category">Featured Videos</a>	</div><!--end post_class()-->
+	
+			
+	<!--Post Wrapper Class-->
+  <div class="post-86 post type-post status-publish format-standard hentry category-featuredvideos">
+	
+	<div class="date">
+		<div class="month">Feb		  <span class="day">
+		  23	    </span></div>
+		<div class="day"></div>
+	</div>
+	
+
+	<div class="postcontent"><h3 id="post-86" class="title"><a href="http://www.redcarpettalk.com/?p=86" rel="bookmark">
+	  Teen Choice Awards 08	</a></h3>
+		<a href="http://www.redcarpettalk.com/?p=86"><img class="alignleft" src="http://www.hollywoodreporter.com/sites/default/files/imagecache/small_144x81/2012/05/prettyll_a.jpg" width="550" height="306" alt="Teen Choice Awards 08" /></a>
+		
+		<p>VIDEO INFO HERE</p>
+	  <span class="commentlink">
+		<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" width="65" height="18"/></span><div id="commentnumber"><a href="http://www.redcarpettalk.com/?p=86#respond" title="Comment on Teen Choice Awards 08">0</a></div>
+	  <a class="more-link" href="http://www.redcarpettalk.com/?p=86">Read More</a></div>
+
+	<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" width="590" height="25"/>
+	<a href="http://www.redcarpettalk.com/?cat=4" title="View all posts in Featured Videos" rel="category">Featured Videos</a>	</div><!--end post_class()-->
+	
+			
+	<!--Post Wrapper Class-->
+  <div class="post-28 post type-post status-publish format-standard hentry category-breakingnews">
+	
+	<div class="date">
+		<div class="month">Jan		  <span class="day">
+		  17	    </span></div>
+		<div class="day"></div>
+	</div>
+	
+
+	<div class="postcontent"><h3 id="post-28" class="title"><a href="http://www.redcarpettalk.com/?p=28" rel="bookmark">
+	  Kaley Cuoco’s Big Engagement Fake-Out	</a></h3>
+		<a href="http://www.redcarpettalk.com/?p=28"><img class="alignleft" src="http://ll-media.tmz.com/2012/02/22/0222-javaris-ex-01.jpg" width="550" height="306" alt="Kaley Cuoco’s Big Engagement Fake-Out" /></a>
+		
+		<p>Kaley Cuoco made a big announcement on the red carpet at Sunday&#8217;s Golden Globes: The Big Bang Theory star told Ryan Seacrest she was engaged – then she took it back. After noticing a major sparkler on her ring finger, Seacrest asked the actress if she had any happy news to share. &#8220;I&#8217;m engaged,&#8221; Cuoco, [...]</p>
+	  <span class="commentlink">
+		<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" width="65" height="18"/></span><div id="commentnumber"><a href="http://www.redcarpettalk.com/?p=28#comments" title="Comment on Kaley Cuoco’s Big Engagement Fake-Out">1</a></div>
+	  <a class="more-link" href="http://www.redcarpettalk.com/?p=28">Read More</a></div>
+
+	<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" width="590" height="25"/>
+	<a href="http://www.redcarpettalk.com/?cat=3" title="View all posts in Breaking News" rel="category">Breaking News</a>	</div><!--end post_class()-->
+	
+			
+	<!--Post Wrapper Class-->
+  <div class="post-21 post type-post status-publish format-standard hentry category-featuredvideos">
+	
+	<div class="date">
+		<div class="month">Jan		  <span class="day">
+		  17	    </span></div>
+		<div class="day"></div>
+	</div>
+	
+
+	<div class="postcontent"><h3 id="post-21" class="title"><a href="http://www.redcarpettalk.com/?p=21" rel="bookmark">
+	  Dew Tour 2010	</a></h3>
+		<a href="http://www.redcarpettalk.com/?p=21"><img class="alignleft" src="/wp-content/themes/RCTDesign/Images/VideoThumbs/DewTour10.jpg" width="550" height="306" alt="Dew Tour 2010" /></a>
+		
+		<p>Video Info Here&#8230;&#8230;&#8230;&#8230;&#8230;. Video Info Here&#8230;&#8230;&#8230;&#8230;&#8230;. Video Info Here&#8230;&#8230;&#8230;&#8230;&#8230;.</p>
+	  <span class="commentlink">
+		<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" width="65" height="18"/></span><div id="commentnumber"><a href="http://www.redcarpettalk.com/?p=21#respond" title="Comment on Dew Tour 2010">0</a></div>
+	  <a class="more-link" href="http://www.redcarpettalk.com/?p=21">Read More</a></div>
+
+	<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" width="590" height="25"/>
+	<a href="http://www.redcarpettalk.com/?cat=4" title="View all posts in Featured Videos" rel="category">Featured Videos</a>	</div><!--end post_class()-->
+	
+			
+	<!--Post Wrapper Class-->
+  <div class="post-16 post type-post status-publish format-standard hentry category-featuredvideos">
+	
+	<div class="date">
+		<div class="month">Jan		  <span class="day">
+		  17	    </span></div>
+		<div class="day"></div>
+	</div>
+	
+
+	<div class="postcontent"><h3 id="post-16" class="title"><a href="http://www.redcarpettalk.com/?p=16" rel="bookmark">
+	  The Happening Premiere	</a></h3>
+		<a href="http://www.redcarpettalk.com/?p=16"><img class="alignleft" src="/wp-content/themes/RCTDesign/Images/VideoThumbs/Happening.jpg" width="550" height="306" alt="The Happening Premiere" /></a>
+		
+			  <span class="commentlink">
+		<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" width="65" height="18"/></span><div id="commentnumber"><a href="http://www.redcarpettalk.com/?p=16#respond" title="Comment on The Happening Premiere">0</a></div>
+	  <a class="more-link" href="http://www.redcarpettalk.com/?p=16">Read More</a></div>
+
+	<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" width="590" height="25"/>
+	<a href="http://www.redcarpettalk.com/?cat=4" title="View all posts in Featured Videos" rel="category">Featured Videos</a>	</div><!--end post_class()-->
+	
+			
+	<!--Post Wrapper Class-->
+  <div class="post-5 post type-post status-publish format-standard hentry category-breakingnews">
+	
+	<div class="date">
+		<div class="month">Jan		  <span class="day">
+		  16	    </span></div>
+		<div class="day"></div>
+	</div>
+	
+
+	<div class="postcontent"><h3 id="post-5" class="title"><a href="http://www.redcarpettalk.com/?p=5" rel="bookmark">
+	  Golden Globes: Ricky Gervais&#8217;s Best Zingers of the Night	</a></h3>
+		<a href="http://www.redcarpettalk.com/?p=5"><img class="alignleft" src="http://img2.timeinc.net/people/i/2011/specials/goldenglobes/news/ricky-gervais.jpg" width="550" height="306" alt="Golden Globes: Ricky Gervais&#8217;s Best Zingers of the Night" /></a>
+		
+		<p>Ricky Gervais said he would &#8220;notch it up&#8221; for this year&#8217;s 68th Golden Globe Awards. And the British comedian took a sip of his beer and left the audience speechless right out of the gate. No one was safe. Here are some of his most memorable zingers: • It&#8217;s gonna be a night of partying [...]</p>
+	  <span class="commentlink">
+		<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/comments-bg.jpg" width="65" height="18"/></span><div id="commentnumber"><span>Comments Off</span></div>
+	  <a class="more-link" href="http://www.redcarpettalk.com/?p=5">Read More</a></div>
+
+	<img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" alt="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/border-bottom.jpg" width="590" height="25"/>
+	<a href="http://www.redcarpettalk.com/?cat=3" title="View all posts in Breaking News" rel="category">Breaking News</a>	</div><!--end post_class()-->
+	
+	
+	<!-- Previous/Next page navigation -->
+		<div class="postnav">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>    
+
+		
+</div><!--end #content-->
+
+<div id="sidebar">
+              <div class="widgettop"></div><div id="brpwp_wrapper-2" class="widget widget_brpwp_wrapper">                  							<ul class="no-bullets">
+																<li  >
+																					<a href="http://www.redcarpettalk.com/?p=16" style="float: left; margin: 0 5px 0 0;"></a>
+																															<a href="http://www.redcarpettalk.com/?p=16">The Happening Premiere</a>
+																																																		<p><a href="http://www.redcarpettalk.com/wp-content/uploads/2011...</p>
+										
+									</li>
+																	<li  >
+																					<a href="http://www.redcarpettalk.com/?p=86" style="float: left; margin: 0 5px 0 0;"></a>
+																															<a href="http://www.redcarpettalk.com/?p=86">Teen Choice Awards 08</a>
+																																																		<p>VIDEO INFO HERE&#8230;</p>
+										
+									</li>
+																	<li  >
+																					<a href="http://www.redcarpettalk.com/?p=21" style="float: left; margin: 0 5px 0 0;"></a>
+																															<a href="http://www.redcarpettalk.com/?p=21">Dew Tour 2010</a>
+																																																		<p><a href="http://www.redcarpettalk.com/wp-content/uploads/2011...</p>
+										
+									</li>
+																	<li  >
+																					<a href="http://www.redcarpettalk.com/?p=19" style="float: left; margin: 0 5px 0 0;"></a>
+																															<a href="http://www.redcarpettalk.com/?p=19">BREAKING NEWS</a>
+																																																		<p>We just found out this morning that <a href=&#8221;http&#8230;</p>
+										
+									</li>
+																							</ul>
+              </div><div class="widgetbottom"></div>        <div class="widgettop"></div><div id="wdg_specialrecentposts-6" class="widget special-recent-posts"><!-- BOF Special Recent Posts PRO ver2.2 --><div class="srp-widget-container"><h3 class="widget-title">Featured Videos</h3>
+<div id="srp-singlepost-1" class="srp-widget-singlepost srp-single-column"><div class="srp-thumbnail-box"><a class="srp-widget-thmblink" href="http://www.redcarpettalk.com/?p=86" title="Teen Choice Awards 08"><img class="srp-widget-thmb" src="http://www.redcarpettalk.com/wp-content/plugins/special-recent-posts/images/icons/default-thumb.gif" alt="No thumbnail available" width="100" height="100">
+</a>
+</div>
+<div class="srp-content-box"><h4 class="srp-post-title"><a class="srp-post-title-link" href="http://www.redcarpettalk.com/?p=86" title="Teen Choice Awards 08">Teen Choice Awards 08</a>
+</h4>
+<p class="srp-widget-excerpt">VIDEO INFO HERE<a class="srp-widget-stringbreak-link" href="http://www.redcarpettalk.com/?p=86" title="Teen Choice Awards 08">[...]</a>
+</p></div></div><div id="srp-singlepost-2" class="srp-widget-singlepost srp-single-column"><div class="srp-thumbnail-box"><a class="srp-widget-thmblink" href="http://www.redcarpettalk.com/?p=21" title="Dew Tour 2010"><img class="srp-widget-thmb" src="http://www.redcarpettalk.com/wp-content/plugins/special-recent-posts/cache/MTAwMTAwbm9EZXdUb3VyMTA=.jpg" alt="Dew Tour 2010" width="100" height="100">
+</a>
+</div>
+<div class="srp-content-box"><h4 class="srp-post-title"><a class="srp-post-title-link" href="http://www.redcarpettalk.com/?p=21" title="Dew Tour 2010">Dew Tour 2010</a>
+</h4>
+<p class="srp-widget-excerpt">Video Info Here................ Video Info Here................ Video Info Here................<a class="srp-widget-stringbreak-link" href="http://www.redcarpettalk.com/?p=21" title="Dew Tour 2010">[...]</a>
+</p></div></div><div id="srp-singlepost-3" class="srp-widget-singlepost srp-single-column"><div class="srp-thumbnail-box"><a class="srp-widget-thmblink" href="http://www.redcarpettalk.com/?p=19" title="BREAKING NEWS"><img class="srp-widget-thmb" src="http://www.redcarpettalk.com/wp-content/plugins/special-recent-posts/cache/MTAwMTAwbm9BQUNfLV9TdGFyc19vbl9JY2VfMDUxNDEwXy1fMjcuanBnLjcyOHg1MjBfcTg1LTE1MHgxNTA=.jpg" alt="BREAKING NEWS" width="100" height="100">
+</a>
+</div>
+<div class="srp-content-box"><h4 class="srp-post-title"><a class="srp-post-title-link" href="http://www.redcarpettalk.com/?p=19" title="BREAKING NEWS">BREAKING NEWS</a>
+</h4>
+<p class="srp-widget-excerpt">We just found out this morning that Gerard Butler entered rehab, and now we’re learning he’s already<a class="srp-widget-stringbreak-link" href="http://www.redcarpettalk.com/?p=19" title="BREAKING NEWS">[...]</a>
+</p></div></div><div id="srp-singlepost-4" class="srp-widget-singlepost srp-single-column"><div class="srp-thumbnail-box"><a class="srp-widget-thmblink" href="http://www.redcarpettalk.com/?p=16" title="The Happening Premiere"><img class="srp-widget-thmb" src="http://www.redcarpettalk.com/wp-content/plugins/special-recent-posts/cache/MTAwMTAwbm9hMWlpcm02MW50OGI2bW5pLTE1MHgxNTA=.jpg" alt="The Happening Premiere" width="100" height="100">
+</a>
+</div>
+<div class="srp-content-box"><h4 class="srp-post-title"><a class="srp-post-title-link" href="http://www.redcarpettalk.com/?p=16" title="The Happening Premiere">The Happening Premiere</a>
+</h4>
+<p class="srp-widget-excerpt"><a class="srp-widget-stringbreak-link" href="http://www.redcarpettalk.com/?p=16" title="The Happening Premiere">[...]</a>
+</p></div></div><br style="clear:both; height: 0px;">
+</div><!-- EOF Special Recent Posts PRO ver2.2 --></div><div class="widgetbottom"></div><div class="widgettop"></div><div id="socialprofiles-3" class="widget socialprofiles"><a href="http://www.twitter.com/RedCarpetTalk"><img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/social/Twitter_32x32.png" alt="Twitter" /></a><a href="http://www.facebook.com/pages/RedCarpet-Talk/186931144552"><img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/social/Facebook_32x32.png" alt="Facebook" /></a><a href="http://ComingSoon"><img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/social/Youtube_32x32.png" alt="YouTube" /></a><a href="http://ComingSoon"><img src="http://www.redcarpettalk.com/wp-content/themes/lexicon/images/social/Myspace_32x32.png" alt="MySpace" /></a></div><div class="widgetbottom"></div><div class="widgettop"></div><div id="text-4" class="widget widget_text">			<div class="textwidget"><img src="file:///C|/Users/Keith/Desktop/42871c10-29f9-4e68-b511-99f8995dbd72.jpg" width="300" height="250" alt="Advertisement" /></div>
+		</div><div class="widgetbottom"></div><div class="widgettop"></div><div id="widget_sp_image-2" class="widget widget_sp_image"><h5>rr-photogallery-2</h5><a class="widget_sp_image-image-link" href="http://www.redcarpettalk.com/wp-content/uploads/2012/02/rr-photogallery-2.jpg" target="_self"><img src="http://www.redcarpettalk.com/wp-content/uploads/2012/02/rr-photogallery-2-280x402.jpg" style="max-width: 280px;max-height: 431px;" alt="rr-photogallery-2" /></a></div><div class="widgetbottom"></div><div class="widgettop"></div><div id="my-tweets-widget-3" class="widget mytweets"><h5>RedCarpet Talk</h5><ul id="twitter_update_list"><li>Loading &hellip;</li></ul><ul><li><a href="http://twitter.com/RedCarpetTalk">More Updates</a></li></ul><script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/RedCarpetTalk.json?callback=twitterCallback2&amp;count=5"></script>
+</div><div class="widgetbottom"></div></div>
+</div><!--end #container-->
+<div id="footer">
+	<div id="credits">
+		<p>&copy;2012 All Rights Reserved &bull;Powered by <a href="http://wordpress.org/">WordPress</a> &bull; <a href="http://www.redcarpettalk.com/wp-login.php">Log in</a></p>
+	</div>
+</div>
+
+<!--tracking code goes here--></body>
+</html>

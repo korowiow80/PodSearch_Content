@@ -1,0 +1,285 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   xml:lang="en-gb" lang="en-gb" >
+<head>
+  <base href="http://www.hgst.com/support/index-files/external-drive-support" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Hitachi, HDD, Hard Disk Drives, " />
+  
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="(c) 2004-2010 Hitachi Global Storage Technologies, Ltd." />
+  
+  <title>Hitachi External Drive Technical Support</title>
+  <link rel="stylesheet" href="http://www.hgst.com/plugins/system/yoo_effects/lightbox/shadowbox.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="http://www.hgst.com/modules/mod_superfishmenu/tmpl/js/jquery.js"></script>
+  <script type="text/javascript" src="http://www.hgst.com/modules/mod_superfishmenu/tmpl/js/jquery.event.hover.js"></script>
+  <script type="text/javascript" src="http://www.hgst.com/modules/mod_superfishmenu/tmpl/js/superfish.js"></script>
+  <script type="text/javascript">
+jQuery.noConflict();
+jQuery(function($){ $("ul.sf-menu").superfish({hoverClass:'sfHover', pathClass:'active', pathLevels:0, delay:700, animation:{opacity:'show', height:'show', width:'show'}, speed:'def', autoArrows:0, dropShadows:0}) });
+jQuery.event.special.hover.delay = 100;
+jQuery.event.special.hover.speed = 100;
+
+  </script>
+  <script type="text/javascript">var YOOeffects = { url: 'http://www.hgst.com/plugins/system/yoo_effects/lightbox/' };</script>
+<script type="text/javascript" src="http://www.hgst.com/plugins/system/yoo_effects/yoo_effects.js.php?lb=1&amp;re=1&amp;sl=1"></script>
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="/css/main.css" type="text/css" media="screen,print" />
+<link rel="stylesheet" href="/css/hgst-wd.css" type="text/css" media="screen,print" />
+<script type="text/javascript" src="/js/main.js" charset="utf-8"></script> 
+<!--[if IE 6]>
+	<link rel="stylesheet" href="/css/ie6.css" type="text/css"/> 
+<![endif]-->
+<!--[if IE 7]>
+	<link rel="stylesheet" href="/css/ie7.css" type="text/css"/> 
+<![endif]-->
+<!--[if IE 8]>
+	<link rel="stylesheet" href="/css/ie8.css" type="text/css"/> 
+<![endif]-->
+<script type="text/javascript" src="/js/jquery.tablesorter.min.js" charset="utf-8"></script> 
+<script>
+jQuery(function($) 
+    { 
+		$.tablesorter.addParser({
+			id:'rpm',
+			is:function(s) {
+				return false;
+			},
+			format:function(s){
+				s = s.toLowerCase().replace(/ /g,"").replace(/rpm/ig,"");
+				var sArr = s.split(';');
+				for(var i=0;i<sArr.length;i++) {
+					sArr[i] = +sArr[i];
+				}
+				sArr.sort(function(a, b) {
+					return b - a;
+				});
+				return sArr[0];
+			},
+			type:'numeric'
+		});
+		$.tablesorter.addParser({
+			id:'capacity',
+			is:function(s) {
+				return false;
+			},
+			format:function(s) {
+				s = s.toLowerCase().replace(/ /g,"").replace(/gb/ig,"");
+				var sArr = s.split(';');
+				for(var i=0;i<sArr.length;i++) {
+					sArr[i] = +sArr[i];
+				}
+				sArr.sort(function(a, b) {
+					return b - a;
+				});
+				return $.tablesorter.formatFloat(sArr[0]);
+			},
+			type:'numeric'
+		});
+        $("#ProductListTable").tablesorter({
+			headers: {
+				0:{ sorter: false},
+				1:{sorter:'rpm'},
+				2:{sorter:'capacity'}
+			}
+		}); 
+    } 
+);
+</script>
+<script type="text/javascript">
+jQuery(function($)  {
+	// Use this example, or...
+	$('a[@rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
+	// This, or...
+	//$('#gallery a').lightBox(); // Select all links in object with gallery ID
+	// This, or...
+	//$('a.lightbox').lightBox(); // Select all links with lightbox class
+	// This, or...
+	//$('a').lightBox(); // Select all links in the page
+	// ... The possibility are many. Use your creative or choose one in the examples above
+});
+</script>
+<!-- onHover for product details -->
+<script language="JavaScript" type="text/JavaScript"> 
+function showT(q){ 
+	var w = "";
+	document.getElementById('ima').setAttribute('src',w+q); 
+} 
+</script>
+
+<script type="text/javascript" src="//hitachi.ugc.bazaarvoice.com/static/1300-en_us/bvapi.js"></script>
+<script type="text/javascript">
+	$BV.configure("global", {submissionContainerUrl: "http://www.hgst.com/submissionPage.html"});
+</script>
+
+
+<!-- HEADER/FOOTER OVERRIDES -->
+<link rel="stylesheet" href="https://www.hgst.com/css/new_headers.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="https://www1.hgst.com/css/hgst-wd.css" type="text/css" media="screen,print">
+<!-- END -->
+</head>
+
+<!-- Google Analytics Code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-224849-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics Code -->
+
+<body>
+
+	<p class="Hide"><a href="#body" name="top" id="top">Skip to main content</a></p> 
+	<!-- NEW TOP HEADER -->
+<div id="Header-HGST">
+
+<ul id="CountryRegion"><li><a href="https://www.hgst.com/">Language</a><img src="/images/icon_dropdown.gif" width="7" height="4" alt=""><div id="Selector" class="off"><ul class="FirstItem"><li class="FirstItem"><a href="https://www.hgst.com/">English </a></li></ul><ul><li class="FirstItem"><a href="http://www.hgst.com/portal/site/cn/">中文</a></li><li><a href="http://www.hgst.com/portal/site/jp/">日本語</a></li></ul></div></li></ul><ul id="HeaderLinks"><li><a href="/company/contact/">Contact Us</a></li><li><a href="/portal/site/partners">Partners</a></li><li><a href="http://wdc.com">wdc.com</a></li></ul>
+<!-- ----------------  Search Area Begins ------------------------ --> 
+<div id="Search">
+          <form action="https://search02.hgst.com/search" method="get">
+            <fieldset>
+              <legend>search form</legend>
+              <p>
+                <input style="color: rgb(153, 153, 153); " name="q" size="20" maxlength="40" tabindex="10" accesskey="s" id="SearchTextBox" value="Search HGST" type="text"> <input name="SITE" value="default_collection" type="hidden"> <input name="client" value="public_en" type="hidden"> <input name="proxystylesheet" value="public_en_v2" type="hidden"> <input name="output" value="xml_no_dtd" type="hidden"> <input src="/images/search_button.gif" alt="search" title="search" type="image"> 
+              </p>
+            </fieldset>
+          </form>
+        </div>
+<!-- ----------------  Search Area Ends ------------------------ -->
+<div style="position:absolute; left:0; top 0;">
+<a style="float:left;padding: 8px 15px 0px 10px;" href="http://www.hgst.com">
+<img height="49" border="0" alt="HGST, a Western Digital company" src="https://www.hgst.com/images/wd/hgst_awdco_142x49.png"></a>  
+<div id="Welcome">
+             
+            
+        
+        
+&nbsp;
+               
+    
+</div>
+</div>
+</div>
+	<div id="GlobalNavC" class="ClearFix">
+		<div class="NavItems">
+			<ul class="menu sf-menu sf-horizontal" id="GlobalNavId"><li class="first-child item1"><a href="http://www.hgst.com/"><span>Hitachi Storage</span></a></li><li class="parent item2"><a href="/external-drives/"><span>External Drives</span></a><ul><li class="first-child item573"><a href="/external-drives/mobile/"><span>Mobile</span></a></li><li class="item71"><a href="/external-drives/desktop/"><span>Desktop</span></a></li><li class="last-child item69"><a href="http://g-technology.com/"><span>G-Technology</span></a></li></ul></li><li class="parent item3"><a href="/internal-drives/"><span>Internal Drives</span></a><ul><li class="first-child item99"><a href="/internal-drives/mobile/"><span>Mobile</span></a></li><li class="item100"><a href="/internal-drives/desktop/"><span>Desktop</span></a></li><li class="item101"><a href="/internal-drives/enterprise/"><span>Enterprise</span></a></li><li class="item102"><a href="/internal-drives/consumer-electronics/"><span>Consumer Electronics</span></a></li><li class="item103"><a href="/internal-drives/automotive-industrial/"><span>Automotive &amp; Industrial</span></a></li><li class="item633"><a href="/internal-drives/retail-kits/"><span>Retail Kits</span></a></li><li class="item622"><a href="/internal-drives/above-2tb/"><span>Above 2TB</span></a></li><li class="item616"><a href="/internal-drives/advanced-format-drives"><span>Advanced Format Drives</span></a></li><li class="item104"><a href="/internal-drives/self-encrypting-drives/"><span>Self-Encrypting Drives</span></a></li><li class="item122"><a href="/portal/site/en/drive-search/"><span>Drive Quick Search</span></a></li><li class="last-child item105"><a href="/internal-drives/all-hard-drives/"><span>All Hard Drives</span></a></li></ul></li><li class="item4"><a href="/solid-state-drives/"><span>Solid State Drives</span></a></li><li class="item5"><a href="http://www.hitachibackup.com" target="_blank"><span>Online Backup</span></a></li><li class="parent item6"><a href="/tech-support/"><span>Support</span></a><ul><li class="first-child active item722"><a href="/support/index-files/external-drive-support"><span>External Hard Drives</span></a></li><li class="parent item164"><a href="/support/index-files/general-faqs-index"><span>FAQs</span></a></li><li class="item163"><a href="/tech/techlib.nsf"><span>Product Documentation</span></a></li><li class="item162"><a href="/support/downloads/"><span>Downloads</span></a></li><li class="item161"><a href="/portal/site/en/support/warranty/"><span>Warranty/RMA</span></a></li><li class="last-child item160"><a href="/support/contact-support/"><span>Contact Support</span></a></li></ul></li><li class="last-child item7"><a href="/portal/site/en/buy"><span>Where To Buy</span></a></li></ul>
+
+		</div>
+	</div><!-- /GlobalNavC -->
+	<div id="Contents"> 
+		<!-- ContentPadding div is optional. Provides uniform padding. -->
+		<div class="ContentPadding ClearFix">
+			<div class="LeftColumn">
+				<ul class="menu_ProductParent"><li id="current" class="parent active item723"><a href="/support/index-files/external-drive-support"><span>External Hard Drives</span></a><ul><li class="item746"><a href="/support/index-files/touro-mobile-technical-support"><span>Touro Mobile</span></a></li><li class="item747"><a href="/support/index-files/touro-mobile-pro-technical-support"><span>Touro Mobile Pro</span></a></li><li class="item752"><a href="/support/index-files/touro-desk-technical-support"><span>Touro Desk</span></a></li><li class="item753"><a href="/support/index-files/touro-desk-pro-technical-support"><span>Touro Desk Pro</span></a></li><li class="item733"><a href="/support/index-files/lifestudio-mobile-technical-support"><span>LifeStudio Mobile</span></a></li><li class="item734"><a href="/support/index-files/lifestudio-mobile-plus-technical-support"><span>LifeStudio Mobile Plus</span></a></li><li class="item735"><a href="/support/index-files/lifestudio-desk-technical-support"><span>LifeStudio Desk</span></a></li><li class="item736"><a href="/support/index-files/lifestudio-desk-plus-technical-support"><span>LifeStudio Desk Plus</span></a></li><li class="item737"><a href="/support/index-files/x-mobile-technical-support"><span>X-Mobile</span></a></li><li class="item738"><a href="/support/index-files/xl-desk-technical-support"><span>XL-Desk</span></a></li><li class="item739"><a href="/support/index-files/sd3-technical-support"><span>SimpleDrive 3</span></a></li><li class="item740"><a href="/support/index-files/simpletough-technical-support"><span>SimpleTOUGH</span></a></li><li class="item741"><a href="/support/index-files/sd-mini-technical-support"><span>SimpleDrive Mini</span></a></li></ul></li><li class="parent item290"><a href="/support/index-files/general-faqs-index"><span>FAQs</span></a></li><li class="item289"><a href="/tech/techlib.nsf"><span>Product Documentation</span></a></li><li class="item288"><a href="/support/downloads/"><span>Downloads</span></a></li><li class="item664"><a href="http://www.hitachigst.com/warranty/jsp/arma24h.jsp"><span>Data Recovery Policy</span></a></li><li class="item287"><a href="/portal/site/en/support/warranty/"><span>Warranty/RMA</span></a></li><li class="item280"><a href="/support/contact-support/"><span>Contact Support</span></a></li></ul>
+					
+				
+			</div>
+			<div class="RightColumn">
+				
+				
+				
+<div id="page" class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table style="width: 670px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top">
+<div style="float: left; width: 600px; margin-top: 20px; margin-bottom: 10px;"><span style="font-family: Arial, Helvetica, sans-serif; font-size: x-large; color: #999999;"><strong>&nbsp;EXTERNAL HARD DRIVES - TECHNICAL SUPPORT</strong></span></div>
+<!-- START Product Catalog-->
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px;"><a href="/support/index-files/touro-mobile-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/touro_mobile_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/touro_mobile_up.gif';" src="/images/stories/Articles/support/l2/touro_mobile_up.gif" alt="Touro Mobile" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px;"><a href="/support/index-files/touro-mobile-pro-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/touro_mobile_pro_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/touro_mobile_pro_up.gif';" src="/images/stories/Articles/support/l2/touro_mobile_pro_up.gif" alt="Touro Mobile Pro" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px;"><a href="/support/index-files/touro-desk-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/touro_desk_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/touro_desk_up.gif';" src="/images/stories/Articles/support/l2/touro_desk_up.gif" alt="Touro Desk" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px;"><a href="/support/index-files/touro-desk-pro-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/touro_desk_pro_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/touro_desk_pro_up.gif';" src="/images/stories/Articles/support/l2/touro_desk_pro_up.gif" alt="Touro Desk Pro" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px;"><a href="/support/index-files/lifestudio-mobile-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/lifestudio_mobile_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/lifestudio_mobile_up.gif';" src="/images/stories/Articles/support/l2/lifestudio_mobile_up.gif" alt="lifestudio_mobile_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px; margin-left: 0px;"><a href="/support/index-files/lifestudio-mobile-plus-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/lifestudio_mobile_plus_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/lifestudio_mobile_plus_up.gif';" src="/images/stories/Articles/support/l2/lifestudio_mobile_plus_up.gif" alt="lifestudio_mobile_plus_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px; margin-left: 0px;"><a href="/support/index-files/lifestudio-desk-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/lifestudio_desk_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/lifestudio_desk_up.gif';" src="/images/stories/Articles/support/l2/lifestudio_desk_up.gif" alt="lifestudio_desk_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-bottom: 15px; margin-left: 0px; margin-right: 10px;"><a href="/support/index-files/lifestudio-desk-plus-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/lifestudio_desk_plus_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/lifestudio_desk_plus_up.gif';" src="/images/stories/Articles/support/l2/lifestudio_desk_plus_up.gif" alt="lifestudio_desk_plus_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px;"><a href="/support/index-files/x-mobile-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/x_mobile_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/x_mobile_up.gif';" src="/images/stories/Articles/support/l2/x_mobile_up.gif" alt="x_mobile_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px; margin-left: 0px;"><a href="/support/index-files/xl-desk-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/xl_desk_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/xl_desk_up.gif';" src="/images/stories/Articles/support/l2/xl_desk_up.gif" alt="xl_desk_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 15px; margin-left: 0px;"><a href="/support/index-files/sd3-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/simpledrive_3_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/simpledrive_3_up.gif';" src="/images/stories/Articles/support/l2/simpledrive_3_up.gif" alt="simpledrive_3_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-bottom: 15px; margin-left: 0px; margin-right: 10px;"><a href="/support/index-files/simpletough-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/simpletough_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/simpletough_up.gif';" src="/images/stories/Articles/support/l2/simpletough_up.gif" alt="simpletough_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 35px;"><a href="/support/index-files/sd-mini-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/simpledrive_mini_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/simpledrive_mini_up.gif';" src="/images/stories/Articles/support/l2/simpledrive_mini_up.gif" alt="simpledrive_mini_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 35px;"><a href="/support/index-files/prodrive-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/prodrive_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/prodrive_up.gif';" src="/images/stories/Articles/support/l2/prodrive_up.gif" alt="prodrive_up" width="152" height="125" /></a></div>
+<div style="float: left; width: 152px; margin-right: 10px; margin-bottom: 35px;"><a href="/support/index-files/duoprodrive-technical-support"><img onmouseover="this.src='/images/stories/Articles/support/l2/duoprodrive_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/duoprodrive_up.gif';" src="/images/stories/Articles/support/l2/duoprodrive_up.gif" alt="Duo Pro Drive" width="152" height="125" /></a></div>
+<!--
+<div style="float: left; width: 152px; margin-bottom: 35px; margin-left: 10px;"><a href="#"                          ><img onmouseover="this.src='/images/stories/Articles/support/l2/simplenet_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/simplenet_up.gif';" src="/images/stories/Articles/support/l2/simplenet_up.gif"                           alt="SimpleNET" width="152" height="125" /></a></div>
+-->                 <!-- END Product Catalog --></td>
+</tr>
+<!--                                                                                
+<tr>
+<td>
+<div style="float: left; width: 600px; margin-bottom: 5px;"><span style="font-family: Arial, Helvetica, sans-serif;"                         >&nbsp;Don't see your drive listed? Check the Hitachi brands below...</span></div>
+<div style="float: left; width: 223px; margin-bottom: 15px;"><a href="http://www.g-technology.com"                         ><img onmouseover="this.src='/images/stories/Articles/support/l2/g-tech_products_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/g-tech_products_up.gif';" src="/images/stories/Articles/support/l2/g-tech_products_up.gif"                          alt="G-Technology Products" width="224" height="76" /></a></div>
+<div style="float: left; width: 221px; margin-bottom: 15px;"><a href="#"                         ><img onmouseover="this.src='/images/stories/Articles/support/l2/simpletech_products_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/simpletech_products_up.gif';" src="/images/stories/Articles/support/l2/simpletech_products_up.gif"                          alt="SimpleTech Products" width="221" height="76" /></a></div>
+<div style="float: left; width: 223px; margin-bottom: 15px;"><a href="#"                         ><img onmouseover="this.src='/images/stories/Articles/support/l2/hitachi_legacy_over.gif';" onmouseout="this.src='/images/stories/Articles/support/l2/hitachi_legacy_up.gif';" src="/images/stories/Articles/support/l2/hitachi_legacy_up.gif"                          alt="Hitachi Legacy Products" width="223" height="76" /></a></div>
+</td>
+</tr>
+-->
+</tbody>
+</table>
+
+</div>
+			
+				<!-- Default Template: Three Column Section -->
+										
+			</div>
+		</div>
+	</div><!--/ContentsArea--> 	
+	<div id="Footer"> 
+		<div id="AboveFooter" class="ClearFix">
+			<div class="social">
+				<a href="http://www.youtube.com/HitachiStorage"> <img class="FirstIcon" src="/images/stories/social_media_icons/img_youtube.gif" alt="img_youtube" width="30" height="30" /></a> <a href="http://www.facebook.com/HitachiStorage"><img src="/images/stories/social_media_icons/img_facebook.gif" alt="img_facebook" width="30" height="30" /></a> <a href="http://twitter.com/HitachiStorage"><img src="/images/stories/social_media_icons/img_twitter.gif" alt="img_twitter" width="30" height="30" /></a>
+			</div>
+		</div>
+		<h2>Copyright and Liability Notice, etc.</h2> 
+			<ul class="menu"><li class="item77"><a href="/terms/"><span>Terms</span></a></li><li class="item78"><a href="/privacy/"><span>Privacy Policy</span></a></li><li class="parent item79"><a href="/citizenship/"><span>Citizenship</span></a></li><li class="parent item80"><a href="/company/"><span>Company</span></a></li><li class="item587"><a href="/company/employment/"><span>Employment</span></a></li><li class="item81"><a href="https://www1.hgst.com/portal/site/partners"><span>Partner Center</span></a></li><li class="item83"><a href="/admin/home/login"><span>Login</span></a></li></ul>
+		<p>© 2012 HGST, a Western Digital company</p> 
+	</div><!--/FooterArea-->
+	
+<!-- Start of Woopra Code -->
+<!-- Commented out, but updated to latest script 3/31/11-->
+<!--
+<script type="text/javascript">
+var woo_settings = {idle_timeout:'300000', domain:'hgst.com'};
+(function(){
+var wsc = document.createElement('script');
+wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+wsc.type = 'text/javascript';
+wsc.async = true;
+var ssc = document.getElementsByTagName('script')[0];
+ssc.parentNode.insertBefore(wsc, ssc);
+})();
+</script>
+-->
+<!-- End of Woopra Code -->
+
+	
+</body>
+</html>

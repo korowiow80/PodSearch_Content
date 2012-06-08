@@ -1,0 +1,517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="en"
+    lang="en"
+    xmlns:sp="http://www.spreaker.com/namespaces/sp"
+    xmlns:fb="http://www.facebook.com/2008/fbml"
+    xmlns:og="http://ogp.me/ns#">
+<head>
+
+
+    <script>
+        // IFrame detection
+        if (self !== top) {
+            top.location.href = window.location.href;
+        }
+
+        // Ajax navigation
+        var p    = (typeof history.pushState === 'function' && true),
+            l    = window.location,
+            ajax = true;
+
+        if (!p && l.pathname !== "/page") {
+            if (l.hash.indexOf('#!') !== -1) {
+                window.location = "/page" + l.search + l.hash;
+            } else if (ajax) {
+                window.location = "/page#!" + l.pathname + l.search + l.hash;
+            }
+        } else if (p && l.pathname === "/page" && l.hash.indexOf('#!') !== -1) {
+            window.location = l.hash.replace("#!", "");
+        }
+    </script>
+
+    <script type='text/javascript'>
+        var DFPads=[],
+            DFPpubid="ca-pub-3563739614275044";
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Page not found | Spreaker Online Radio</title>
+
+                    <meta name="description" content="Spreaker allows anyone to become a radio DJ by helping them create and broadcast their own personal radio show on the internet. Create your own online radio show and listen to thousands of internet radio shows and podcasts live every day." />
+    
+    
+
+    
+<meta property="og:site_name" content="Spreaker Online Radio"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Spreaker allows anyone to become a radio DJ by helping them create and broadcast their own personal radio show on the internet. Create your own online radio show and listen to thousands of internet radio shows and podcasts live every day."/>
+<meta property="og:title" content="Spreaker Online Radio"/>
+<meta property="og:image" content="http://staticimages.spreaker.net/images/facebook/stream_logo.jpg"/>
+
+
+
+
+
+
+
+
+
+    <link href="http://staticimages.spreaker.net/images/favicon_2-9.ico" rel="shortcut icon" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="http://static.spreaker.net/css/frontend-303.min.gz.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://static.spreaker.net/css/removed_content-303.min.gz.css" />
+
+    <script type="text/javascript" src="http://static.spreaker.net/js/frontend-core-324.en_US.min.gz.js"></script>
+    
+<script type="text/javascript">
+
+    // Global configuration
+    SP.Config.addGlobalConfig({
+        USER:               null,
+        DOMAIN:             "spreaker.com",
+        API_URL:            "http:\/\/api.spreaker.com",
+        API_RECEIVER_URL:   "http:\/\/api.spreaker.com\/receiver.html?v=248",
+        API_CULTURE:        "en_US",
+        SITE_URL:           "http:\/\/www.spreaker.com",
+        PUSHER_URL:         "http:\/\/push.spreaker.com",
+        VALIDATION_URL:     "\/ajax\/validate\/form",
+        UPLOADER_URL:       "http:\/\/staticcdn.spreaker.com\/swf\/swfupload-190.swf",
+        SEARCH_URL:         "http:\/\/search.spreaker.com:443",
+        SEARCH_RECEIVER_URL:"http:\/\/search.spreaker.com:443\/receiver.html?v=248",
+        FB_SHARE_ICON:      "http:\/\/staticimages.spreaker.net\/images\/facebook\/stream_logo.jpg",
+        REDIRECT_URL:       "\/browse\/popular",
+        STORAGE_SWF_URL:    "http:\/\/staticcdn.spreaker.com\/swf\/Storage-190.swf",
+        AJAX_VERSION:       248,
+        AUTH_COOKIE:        "spreaker_user",
+        AUTH_URL:           "\/connect\/login",
+        UPLOADER_MAX_FILE_SIZE: "200 MB"
+    });
+
+    // Modules configuration
+    SP.Config.addModuleConfig('ajax', {
+        modules:        {"compatibility":{"persistent":true},"ads_manager":{"persistent":true},"ajax":{"persistent":true},"auth":{"persistent":true},"error_display":{"persistent":true},"services_connect":{"persistent":true},"perf_track":{"persistent":true},"play_buttons":{"persistent":true},"player":{"persistent":true},"player_chat":{"persistent":true},"player_cli":{"persistent":true},"player_ads":{"persistent":true},"embed":{"persistent":true},"pusher":{"persistent":true},"follow":{"persistent":true},"culture":{"persistent":true},"search_typeahead":{"persistent":true},"flash_message":{"persistent":true},"cohort_events":{"persistent":true}},
+        history_url:    "http:\/\/www.spreaker.com\/history.html",
+        push_state:     true    });
+
+    SP.Config.addModuleConfig('pusher', {
+        domain:        "spreaker.com",
+        receiver_url:  "http:\/\/push.spreaker.com\/receiver.html"    });
+
+    SP.Config.addModuleConfig('facebook_connect', {
+        app_id:         215002133707    });
+
+    SP.Config.addModuleConfig('services_connect', {
+        facebook_app_id:        215002133707,
+        twitter_connect_url:    "\/twitter\/connect",
+        google_connect_url:     "\/google\/connect",
+        soundcloud_connect_url: "\/soundcloud\/connect"    });
+
+    SP.Config.addModuleConfig('facebook_share', {
+        player_url:    "http:\/\/staticcdn.spreaker.com\/swf\/PlayerFb.swf"    });
+
+    SP.Config.addModuleConfig('compatibility', {
+        mobile:        false,
+        force_desktop: false    });
+
+</script>    
+
+
+    <script type="text/javascript">
+
+      var _gaq      = _gaq || [];
+      var pageviews = ["\/show\/196853\/episodes\/feed"];
+
+      _gaq.push(['_setAccount', "UA-9526709-1"]);
+
+      // Track pageviews
+      for (var i in pageviews) {
+          if (pageviews.hasOwnProperty(i)) {
+              _gaq.push(['_trackPageview', pageviews[i]]);
+          }
+      }
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+    <link type="application/opensearchdescription+xml" rel="search"
+       href="http://www.spreaker.com/open_search.xml"/>
+
+</head>
+<body>
+
+
+
+<!-- Header -->
+<div id="hd_wrapper">
+    <div id="hd_body">
+
+        <!-- Login / Logout -->
+        <ul id="hd_links">
+                            <li class="hd_link">
+                    <script type="text/javascript">
+                        var redirect_to = window.location.href;
+                    </script>
+                    <span>Sign in with</span>
+                    <a  href="#"
+                        onclick="SP.Core.notify('fbconnect.connect', {show_success: true, show_error: true, redirect_to: redirect_to }); return false;"
+                        onmouseover="SP.Tooltip.over(this, 'Facebook', 'bottom', 250)">
+                        <span class="icon_22 icon_facebook"></span>
+                    </a>
+                    <a  href="#"
+                        onclick="SP.Core.notify('twconnect.connect', {show_success: true, show_error: true, redirect_to: redirect_to }); return false;"
+                        onmouseover="SP.Tooltip.over(this, 'Twitter', 'bottom', 250)">
+                        <span class="icon_22 icon_twitter"></span>
+
+                    </a>
+                    <a  href="#"
+                        onclick="SP.Core.notify('goconnect.connect', {show_success: true, show_error: true, redirect_to: redirect_to }); return false;"
+                        onmouseover="SP.Tooltip.over(this, 'Google', 'bottom', 250)">
+                        <span class="icon_22 icon_google"></span>
+                    </a>
+
+                    <span>or</span>
+
+                    <a title="Sign in" onclick="SP.Core.notify('auth.login'); return false;" onmouseover="SP.Tooltip.over(this, 'Spreaker', 'bottom', 250)" href="/login?redirect=%2Fshow%2F196853%2Fepisodes%2Ffeed"><span class="icon_22 icon_spreaker"></span></a>                </li>
+
+                <li class="hd_link"><span class="hd_sep">|</span><a title="Join Spreaker!" onclick="SP.Core.notify('auth.signup'); return false;" href="/signup?redirect=%2Fshow%2F196853%2Fepisodes%2Ffeed">Create an account (It's free!)</a></li>
+                    </ul>
+
+        <div class="clear"></div>
+
+
+        <!-- Logo -->
+                    <a id="hd_logo" title="Spreaker Online Radio" class="hd_logo_size_medium" href="/">Spreaker Online Radio</a>        
+
+        <!-- Navigation -->
+        <ul id="hd_nav">
+            
+                                    <li class="hd_nav_item"><a title="Spreaker Online Radio" onclick="SP.Ajax.onClick(this, arguments);Sp.util.Track.nav(&quot;Menu&quot;, &quot;Home&quot;);" href="/">Home</a></li>
+                
+                <li class="hd_nav_item"><a title="Create your podcast now!" onclick="SP.Ajax.onClick(this, arguments);Sp.util.Track.nav(&quot;Menu&quot;, &quot;Broadcast&quot;);" href="/broadcast">Broadcast</a></li>
+                <li class="hd_nav_item"><a title="Spreaker Online Radio" onclick="SP.Ajax.onClick(this, arguments);Sp.util.Track.nav(&quot;Menu&quot;, &quot;Explore&quot;);" href="/browse/popular">Listen</a></li>
+
+                                    </ul>
+
+
+        <!-- Search -->
+                    <div id="hd_search">
+                <form id="hd_search_form" method="get" action="/search" autocomplete="off">
+                    <input id="hd_search_input"  type="text"   class="left hint" name="query" value="Search for Shows or Users" sp:hint="Search for Shows or Users" maxlength="50" />
+                    <input id="hd_search_submit" type="submit" class="left" name="search" value="" />
+                    <div class="clear"></div>
+                </form>
+
+                <div id="hd_search_results" style="display: none;"></div>
+            </div>
+        
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+<!-- Content -->
+<div id="ly_ajax_content_wrapper">
+
+    <div id="ly_ajax_content_container">
+
+        <!-- Notices -->
+        
+
+        <!-- Page content -->
+        <div id="ly_ajax_content">
+            
+
+        <div id="rmv_wrapper" class="rmv_404">
+        <div id="rmv_padding">
+            <div id="rmv_innerwrapper">
+                <div id="rmv_main">
+                    <div id="rmv_content">
+
+                        We're really sorry, but the page you're looking for can't be found<br/>
+
+                        <p>You might have mis-typed the URL.<br/>Please check it again.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Footer -->
+    
+<div id="ft_wrapper">
+    <div id="ft_body">
+
+        
+            <div id="ft_links">
+
+                <!-- About -->
+                <div class="ft_column">
+                    <h4 class="ft_title">About</h4>
+                    <ul class="ft_links">
+                        <li class="ft_link"><a title="Spreaker" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/company">Company</a></li>
+                        <li class="ft_link"><a title="Terms and Conditions" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/terms-service">Terms and Conditions</a></li>
+                        <li class="ft_link"><a title="Privacy Policy" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/privacy">Privacy Policy</a></li>
+                        <li class="ft_link"><a title="Community" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/guidelines">Community Guidelines</a></li>
+                        <li class="ft_link"><a title="Spread the Word" onclick="SP.Ajax.onClick(this, arguments);" href="/invite">SPREAD THE WORD</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="ft_column">
+                    <h4 class="ft_title">Resources</h4>
+                    <ul class="ft_links">
+                        <li class="ft_link"><a title="Plans" onclick="SP.Ajax.onClick(this, arguments);" href="/plans">Plans</a></li>
+                                                <li class="ft_link"><a title="Press" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/press">Press Resources</a></li>
+                        <li class="ft_link"><a target="_blank" title="Blog - Spreaker Online Radio" href="http://blog.spreaker.com">Blog</a></li>
+                        <li class="ft_link"><a target="_blank" title="Developers / API" href="http://developers.spreaker.com">Developers / API</a></li>
+                        <li class="ft_link"><a target="_blank" href="/newsletter/latest">Newsletter</a></li>
+                    </ul>
+                </div>
+
+                <!-- Help -->
+                <div class="ft_column">
+                    <h4 class="ft_title">Help</h4>
+                    <ul class="ft_links">
+                        <li class="ft_link"><a title="FAQ" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/help-top-faqs">Spreaker Help</a></li>
+                        <li class="ft_link"><a title="Tutorial" onclick="SP.Ajax.onClick(this, arguments);" href="/cms/tutorial">Tutorial</a></li>
+                        <li class="ft_link"><a target="_blank" title="Forum" href="http://getsatisfaction.com/spreaker">Forum</a></li>
+                    </ul>
+                </div>
+
+                <!-- Languages -->
+                <div class="ft_column">
+                    <h4 class="ft_title">Languages</h4>
+                    <ul id="ft_langs" class="ft_links">
+                        
+                                                    <li class="ft_link">
+                                <a onclick=" SP.I18n.onChangeCultureClick('en_US', 'en_US', arguments)" title="English - Spreaker Online Radio" href="http://en_us.spreaker.com/show/196853/episodes/feed">English</a>                            </li>
+                                                    <li class="ft_link">
+                                <a onclick=" SP.I18n.onChangeCultureClick('en_US', 'it_IT', arguments)" title="Italiano - Spreaker Online Radio" href="http://it_it.spreaker.com/show/196853/episodes/feed">Italiano</a>                            </li>
+                                                    <li class="ft_link">
+                                <a onclick=" SP.I18n.onChangeCultureClick('en_US', 'es_ES', arguments)" title="Español - Spreaker Online Radio" href="http://es_es.spreaker.com/show/196853/episodes/feed">Español</a>                            </li>
+                                            </ul>
+                </div>
+
+                <!-- Follow us -->
+                <div class="ft_column">
+                    <h4 class="ft_title">Follow us</h4>
+                    <p>
+                        <a class="sm_icon sm_icon_facebook" title="Spreaker on Facebook" target="_blank" href="http://www.facebook.com/pages/Spreaker/118493356346">Spreaker on Facebook</a>                        <a class="sm_icon sm_icon_flickr" title="Spreaker on Flickr" target="_blank" href="http://www.flickr.com/photos/spreaker/">Spreaker on Flickr</a>                        <a class="sm_icon sm_icon_twitter" title="Spreaker on Twitter" target="_blank" href="http://twitter.com/spreaker/">Spreaker on Twitter</a>                        <a class="sm_icon sm_icon_youtube" title="Spreaker on YouTube" target="_blank" href="http://www.youtube.com/user/SpreakerWebRadio">Spreaker on YouTube</a>                        <a class="sm_icon sm_icon_vimeo" title="Spreaker on Vimeo" target="_blank" href="http://vimeo.com/user3155190">Spreaker on Vimeo</a>                        <a class="sm_icon sm_icon_wordpress" title="Spreaker Blog" target="_blank" href="http://blog.spreaker.com">Spreaker Blog</a>                        <span class="clear"></span>
+                    </p>
+
+                    <ul class="ft_links">
+                        <li class="ft_link">
+                            <a class="sm_icon sm_icon_appstore" title="Spreaker App for iPhone, iPad and iPod Touch" target="_blank" href="http://itunes.apple.com/app/id388449677">Spreaker App for iPhone, iPad and iPod Touch</a>                            <a target="_blank" href="http://itunes.apple.com/app/id388449677">Download our App for iPhone, iPad and iPod Touch</a>                            <div class="clear"></div>
+                        </li>
+                        <li class="ft_link">
+                            <a class="sm_icon sm_icon_androidmarket" title="Spreaker App for Android Devices" target="_blank" href="https://market.android.com/details?id=com.spreaker.android">Spreaker App for Android Devices</a>                            <a target="_blank" href="https://market.android.com/details?id=com.spreaker.android">Download our App for Android Devices</a>                            <div class="clear"></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+
+        
+
+        
+            <!-- Copyright -->
+            <div id="ft_copyright">
+                Copyright &copy;2012 Spreaker <a title="Online Radio" onclick="SP.Ajax.onClick(this, arguments);" href="http://www.spreaker.com:80/dashboard">Online Radio</a>. All rights reserved.            </div>
+
+            </div>
+</div>
+
+
+<!-- Player -->
+    
+<div id="pl_wrapper" class="pl_hidden pl_podcast">
+    <div id="pl_container">
+        <div class="left pl_box">
+            <a href="#" id="pl_play">
+                <div class="pl_play_icon"></div>
+            </a>
+        </div>
+        <div id="pl_station_img" class="left pl_box"  onmouseover="SP.Tooltip.over(this, this.title, 'top')">
+
+        </div>
+        <div class="left pl_box pl_boxline">
+
+            <a id="pl_btn_download" class="right pl_box pl_boxbtn"  onmouseover="SP.Tooltip.over(this, &quot;Download&quot;, 'top', 80)" title="Open"></a>
+            <a id="pl_btn_chat" class="right pl_box pl_boxbtn" title="Open">
+
+            <span id="pl_chat_unread">0</span></a>
+            <a id="pl_btn_share" class="right pl_box pl_boxbtn" onmouseover="SP.Tooltip.over(this, &quot;Share&quot;, 'top', 80)" title="Open"></a>
+            <a id="pl_follow_btn"class="btnn right" onmouseover="SP.Tooltip.over(this, &quot;Follow this station to receive notification and status updates&quot;, 'top', 165)">
+                <span class="ffico ffico_follow" data-icon="&gt;"><!--[if lte IE 7]><span class="ffico_icon">></span><![endif]--></span>                Follow            </a>
+            <span id="pl_follow_feedback" class="right" style="display:none">You're a follower.</span>
+
+            <div id="pl_station_info">
+            </div>
+
+        </div>
+        <div class="left pl_box pl_boxline">
+
+            <div id="pl_volume" class="right pl_box pl_boxbtn">
+                <a id="pl_btn_volume" class="pl_boxbtn"></a>
+                <div id="pl_volumebar" class="right">
+                    <div id="pl_volumebar_track">
+                        <div id="pl_volumebar_passed">
+                            <div id="pl_volumebar_control"></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+            <div id="pl_live">
+                <!-- live -->
+                <span id="pl_live_label">LIVE</span>
+                <span id="pl_radio_info">since <span class="pl_since">00.00</span></span>
+                <span id="pl_live_info">started at <span class="pl_at">00.00</span><span class="pl_since_txt"> | since  <span class="pl_since_at">00.00</span></span></span>
+            </div>
+
+            <div id="pl_seekbar">
+                <div id="pl_seekbar_info" class="right"><span class="pl_since">00.00</span> | <span class="pl_until">00.00</span></div>
+                <!-- podcast -->
+                <div id="pl_seekbar_track" class="right">
+                    <div id="pl_seekbar_passed">
+                        <div id="pl_seekbar_control"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Chat window -->
+        <div id="pc_container" class="pl_chat_container" style="display: none;">
+            <div id="pc_header">
+                <a id="pc_close_btn" class="right" href="#" onclick="return false" title="Close"></a>
+                <h4 id="pc_header_title"></h4>
+
+                <div class="clear"></div>
+            </div>
+
+            <div id="pc_body">
+                <div id="pc_empty">The chat history is empty.</div>
+                <div id="pc_messages"></div>
+            </div>
+
+            <div id="pc_footer">
+                <form id="pc_form" action="#" method="POST" autocomplete="off" onsubmit="return false" style="display: none">
+                    <input id="pc_input" type="text" name="" value="" sp:hint="Leave a message on the chat" />
+                </form>
+
+                <a id="pc_notlogged" onclick="SP.Core.notify('auth.login'); return false;" href="/login">Please, login or signup to send a chat message.</a>            </div>
+
+        </div>
+
+        <!-- Old share window -->
+        <div id="pl_share_container" style="display:none">
+        </div>
+
+        <div id="pl_download" style="display:none">
+        </div>
+
+        <!-- New share window -->
+        <div id="pl_share_container" style="display:none">
+        </div>
+
+        <!-- Ads -->
+        <div id="pl_ads_container">
+            <div id="pl_ads_visual" style="height:1px">
+                <div id="ts_player_div"></div>
+            </div>
+
+            <div id="pl_ads_close" style="display:none">
+                <a href="#" onclick="SP.Core.notify('player_ads.close'); return false;" class="lk_orange" title="Hide advertising">
+                    <span class="icon_16 icon_close"></span>
+                    <span>Hide</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Swf container -->
+<div>
+    <div id ="player_cli_swf"></div>
+</div>
+
+<script type="text/javascript">
+
+SP.Config.addModuleConfig('player_cli', {
+    player_id:  'player_cli_swf',
+    flashvars:  {"API_BASE_URL":"http:\/\/api.spreaker.com","DEBUG":"false","REFERRER":"www.spreaker.com","AUTOPLAY":"false"},
+    swfUrl:     "http:\/\/staticcdn.spreaker.com\/swf\/PlayerCli-190.swf"});
+
+SP.Config.addModuleConfig('player_ads', {
+    provider:   null,
+    targetspot: {
+        swf_url: "http:\/\/player.cdn.targetspot.com"    }
+});
+
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        Sp.fb.Connect.init(215002133707, "http:\/\/www.spreaker.com\/fb_channel.html");
+    };
+
+    (function() {
+        var e = document.createElement('script'); e.async = true; e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        document.getElementById('fb-root').appendChild(e);
+    }());
+</script>
+
+
+<script type="text/javascript">
+Ext.onReady(function() {
+
+    // Start javascript core
+    SP.Core.init(SP.Config);
+    SP.Core.start(["compatibility","ads_manager","ajax","auth","error_display","services_connect","perf_track","play_buttons","player","player_chat","player_cli","player_ads","embed","pusher","follow","culture","search_typeahead","flash_message","cohort_events"]);
+
+});
+</script>
+
+
+<!-- Feedback (GetSatisfaction) -->
+    <div id="feedback_container"></div>
+
+    <script type="text/javascript" charset="utf-8">
+        Ext.onReady(function() {
+            var widget = new GSFN.feedback_widget({
+                container: "feedback_container",
+                display:   "overlay",
+                company:   "spreaker",
+                placement: "right",
+                color:     "#419C00",
+                style:     "idea"
+            });
+        });
+    </script>
+
+</body>
+</html>

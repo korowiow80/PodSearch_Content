@@ -1,0 +1,596 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2011 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.energy.de/" />
+<link rel="shortcut icon" href="http://fileadmin/favicon.ico" />
+<link rel="icon" href="http://fileadmin/favicon.ico" />
+<title>ENERGY.de: RADIO ENERGY im Webradio, als Podcast in den Starnews und allen Playlisten.</title>
+<meta name="generator" content="TYPO3 4.5 CMS" />
+<meta name="author" content="Radio ENERGY GmbH" />
+<meta name="publisher" content="Radio ENERGY GmbH" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="de" />
+<meta name="copywrite" content="www.energy.de" />
+<meta name="description" content="Titelinformationen zu allen deutschen ENERGY-Sendern und 11 weiteren Streams im Online Radio und den Mobile Apps." />
+<meta name="keywords" content="ENERGY.de, Webradio, Podcast, Playlist, Starnews" />
+<meta name="revisit-after" content="1 day" />
+<meta name="page-topic" content="description" />
+<meta name="google-site-verification" content="xs92fp_F2jEnZtnFpY1MiKZqtVi55ALtQKil81G4-sg" />
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_26012b1331.css" media="all" />
+<link rel="stylesheet" type="text/css" href="fileadmin/stylesheets/nrj_de_main.css" media="all" />
+
+
+
+<script src="typo3temp/javascript_b9328db19d.js" type="text/javascript"></script>
+
+
+<style type="text/css">
+  /*<![CDATA[*/
+  <!--
+  body {
+    background: url(uploads/media/bg_energy2012_panther.jpg) repeat;
+    background-attachment: fixed;
+  }
+  // -->
+  /*]]>*/
+  </style>    <meta http-equiv="content-language" content="de-de" />
+    <!--[if lte IE 7]>
+      <style type="text/css">
+      html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
+      </style>
+    <![endif]-->
+    <script type="text/javascript" src="/fileadmin/scripts/js/jquery-1.5.min.js"></script>
+    <script type="text/javascript" src="/fileadmin/scripts/js/swfobject.js"></script>
+    <script type="text/javascript" src="/fileadmin/scripts/js/standard.js"></script>
+    <script type="text/javascript" src="/fileadmin/scripts/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript" src="/fileadmin/scripts/js/fb.js"></script>
+    <script type="text/javascript" src="/fileadmin/scripts/js/werbung/mod_ad.js"></script><link rel="canonical" href="national/" /><link rel="alternate" type="application/rss+xml" title="ENERGY RSS-Feed" href="feed://www.energy.de/xml/news.xml" />
+<script type="text/javascript" src="typo3conf/ext/t3mootools/res/mootoolsv1.11.js"></script>
+<script src="typo3conf/ext/rgslideshow/res/rgslideshow.js" type="text/javascript"></script>
+<script type="text/javascript">setSettingTag("national","home","163");setAd_rect("63");setAd_sky("3");setAd_super("2");</script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+		// JS function for mouse-over
+	function over(name,imgObj)	{	//
+		if (version == "n3" && document[name]) {document[name].src = eval(name+"_h.src");}
+		else if (document.getElementById && document.getElementById(name)) {document.getElementById(name).src = eval(name+"_h.src");}
+		else if (imgObj)	{imgObj.src = eval(name+"_h.src");}
+	}
+		// JS function for mouse-out
+	function out(name,imgObj)	{	//
+		if (version == "n3" && document[name]) {document[name].src = eval(name+"_n.src");}
+		else if (document.getElementById && document.getElementById(name)) {document.getElementById(name).src = eval(name+"_n.src");}
+		else if (imgObj)	{imgObj.src = eval(name+"_n.src");}
+	}
+
+// -->
+	/*]]>*/
+</script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+if (version == "n3") {
+img43_1cf3_0_n=new Image(); img43_1cf3_0_n.src = "typo3temp/menu/bt_startseite_over_dbccac445b.png"; 
+img43_1cf3_0_h=new Image(); img43_1cf3_0_h.src = "typo3temp/menu/bt_startseite_over_dbccac445b.png"; 
+img42_1cf3_1_n=new Image(); img42_1cf3_1_n.src = "typo3temp/menu/bt_berlin_6010e6a382.png"; 
+img42_1cf3_1_h=new Image(); img42_1cf3_1_h.src = "typo3temp/menu/bt_berlin_over_ec84c6409e.png"; 
+img40_1cf3_2_n=new Image(); img40_1cf3_2_n.src = "typo3temp/menu/bt_bremen_948f8c294c.png"; 
+img40_1cf3_2_h=new Image(); img40_1cf3_2_h.src = "typo3temp/menu/bt_bremen_over_7b9b76f77c.png"; 
+img41_1cf3_3_n=new Image(); img41_1cf3_3_n.src = "typo3temp/menu/bt_hamburg_64273c9539.png"; 
+img41_1cf3_3_h=new Image(); img41_1cf3_3_h.src = "typo3temp/menu/bt_hamburg_over_b6b24324ab.png"; 
+img36_1cf3_4_n=new Image(); img36_1cf3_4_n.src = "typo3temp/menu/bt_muenchen_4dc831fd27.png"; 
+img36_1cf3_4_h=new Image(); img36_1cf3_4_h.src = "typo3temp/menu/bt_muenchen_over_d43552b3ed.png"; 
+img38_1cf3_5_n=new Image(); img38_1cf3_5_n.src = "typo3temp/menu/bt_nuernberg_5679f08344.png"; 
+img38_1cf3_5_h=new Image(); img38_1cf3_5_h.src = "typo3temp/menu/bt_nuernberg_over_346549c841.png"; 
+img2401_1cf3_6_n=new Image(); img2401_1cf3_6_n.src = "typo3temp/menu/bt_rhein-main_09f88ab37c.png"; 
+img2401_1cf3_6_h=new Image(); img2401_1cf3_6_h.src = "typo3temp/menu/bt_rhein-main_over_f21d25c9e8.png"; 
+img39_1cf3_7_n=new Image(); img39_1cf3_7_n.src = "typo3temp/menu/bt_sachsen_b97ef4c2ee.png"; 
+img39_1cf3_7_h=new Image(); img39_1cf3_7_h.src = "typo3temp/menu/bt_sachsen_over_bd2d52633d.png"; 
+img37_1cf3_8_n=new Image(); img37_1cf3_8_n.src = "typo3temp/menu/bt_stuttgart_db7f29a6ca.png"; 
+img37_1cf3_8_h=new Image(); img37_1cf3_8_h.src = "typo3temp/menu/bt_stuttgart_over_b808dfcc44.png"; 
+img3759_1cf3_9_n=new Image(); img3759_1cf3_9_n.src = "typo3temp/menu/bt_empfangen_ac10acb850.png"; 
+img3759_1cf3_9_h=new Image(); img3759_1cf3_9_h.src = "typo3temp/menu/bt_empfangen_over_994ba843a4.png";
+}
+// -->
+	/*]]>*/
+</script>
+</head>
+<body>
+
+
+		<div id="ivwscript"><!-- SZM VERSION="1.5" -->
+<script type="text/javascript">
+<!--
+var account = "energyon";var ivw_tag = "national";
+var IVW="http://energyon.ivwbox.de/cgi-bin/ivw/CP/"+ivw_tag;
+document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"\" />");
+// -->
+</script> <noscript>
+<img src="http://energyon.ivwbox.de/cgi-bin/ivw/cp/national" width="1" height="1" alt="" />
+</noscript><!--SZMFRABO VERSION="1.2" -->
+<script type="text/javascript">
+<!--
+var szmvars="energyon//CP//national";
+// -->
+</script>
+<script src="http://energyon.ivwbox.de/2004/01/survey.js" type="text/javascript"></script>
+<!-- /SZMFRABO --></div>
+		<div id="adsscript"></div>
+
+		<div id="design_holder">
+			<!-- HEADER DATA START -->
+			<div id="header_energy">
+				<!-- catch_header START -->
+				<div id="header_energy_grafik" class="header_energy_grafik_wh"><a href="http://www.energy.de/"><img src="/fileadmin/images/layout/ci/logo/nrj_logo.gif" alt="" /></a></div>
+				<!-- catch_header ENDE -->
+				<div id="ad_super_banner" class="ad_super_banner_fix"><script type="text/javascript">getAd_super();</script></div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- HEADER DATA START -->
+			<div class="clearfix"></div>
+		
+			<div id="navigation_top_line" class="navi_search_login">
+				<div id="ad_sky2"><script type="text/javascript">getAd_sky();</script></div>
+				
+				<div class="navi_city">
+					<div class="typo3_navi_city"><a href="national/" onfocus="blurLink(this);" onmouseover="over('img43_1cf3_0');" onmouseout="out('img43_1cf3_0');"><img src="typo3temp/menu/bt_startseite_over_dbccac445b.png" width="93" height="33" alt="National" id="img43_1cf3_0" /></a><img src="fileadmin/images/layout/buttons/bt_wrap_over.png" width="1" height="33" alt="" /><a href="berlin/" onfocus="blurLink(this);" onmouseover="over('img42_1cf3_1');" onmouseout="out('img42_1cf3_1');"><img src="typo3temp/menu/bt_berlin_6010e6a382.png" width="93" height="33" alt="Berlin" id="img42_1cf3_1" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="bremen/" onfocus="blurLink(this);" onmouseover="over('img40_1cf3_2');" onmouseout="out('img40_1cf3_2');"><img src="typo3temp/menu/bt_bremen_948f8c294c.png" width="93" height="33" alt="Bremen" id="img40_1cf3_2" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="hamburg/" onfocus="blurLink(this);" onmouseover="over('img41_1cf3_3');" onmouseout="out('img41_1cf3_3');"><img src="typo3temp/menu/bt_hamburg_64273c9539.png" width="93" height="33" alt="Hamburg" id="img41_1cf3_3" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="muenchen/" onfocus="blurLink(this);" onmouseover="over('img36_1cf3_4');" onmouseout="out('img36_1cf3_4');"><img src="typo3temp/menu/bt_muenchen_4dc831fd27.png" width="93" height="33" alt="Muenchen" id="img36_1cf3_4" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="nuernberg/" onfocus="blurLink(this);" onmouseover="over('img38_1cf3_5');" onmouseout="out('img38_1cf3_5');"><img src="typo3temp/menu/bt_nuernberg_5679f08344.png" width="93" height="33" alt="Nürnberg" id="img38_1cf3_5" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="rhein-main/" onfocus="blurLink(this);" onmouseover="over('img2401_1cf3_6');" onmouseout="out('img2401_1cf3_6');"><img src="typo3temp/menu/bt_rhein-main_09f88ab37c.png" width="93" height="33" alt="Rhein-Main" id="img2401_1cf3_6" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="sachsen/" onfocus="blurLink(this);" onmouseover="over('img39_1cf3_7');" onmouseout="out('img39_1cf3_7');"><img src="typo3temp/menu/bt_sachsen_b97ef4c2ee.png" width="93" height="33" alt="Sachsen" id="img39_1cf3_7" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="stuttgart/" onfocus="blurLink(this);" onmouseover="over('img37_1cf3_8');" onmouseout="out('img37_1cf3_8');"><img src="typo3temp/menu/bt_stuttgart_db7f29a6ca.png" width="93" height="33" alt="Stuttgart" id="img37_1cf3_8" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /><a href="energy-empfangen/" onfocus="blurLink(this);" onmouseover="over('img3759_1cf3_9');" onmouseout="out('img3759_1cf3_9');"><img src="typo3temp/menu/bt_empfangen_ac10acb850.png" width="93" height="33" alt="ENERGY empfangen" id="img3759_1cf3_9" /></a><img src="fileadmin/images/layout/buttons/bt_wrap.png" width="1" height="18" alt="" /></div><!-- typo3_navi_city ENDE -->
+				</div><!-- navi_city ENDE -->
+				<div class="navi_main">
+					<div class="typo3_navi_main"><ul class="navi_main"><li class="navi_main_lv1"><a href="news/" title="NEWS">NEWS</a><ul><li class="navi_main_lv2"><a href="news/em-2012/" title="Sport">EM 2012</a></li><li class="navi_main_lv2"><a href="berlin/uebersicht/energy-in-the-park-2012/" title="ENERGY IN THE PARK">ENERGY IN THE PARK</a></li><li class="navi_main_lv2"><a href="news/the-voice-of-germany/" title="The Voice of Germany">The Voice of Germany</a></li><li class="navi_main_lv2"><a href="news/nrj-music-awards-2012/" title="NRJ MUSIC AWARDS 2012">NRJ MUSIC AWARDS 2012</a></li><li class="navi_main_lv2"><a href="news/stars-privat/" title="Stars Privat">Stars Privat</a></li><li class="navi_main_lv2"><a href="news/helfen-und-spenden/" title="Helfen und Spenden">Helfen und Spenden</a></li><li class="navi_main_lv2"><a href="news/tierschutz/" title="Tierschutz">Tierschutz</a></li><li class="navi_main_lv2"><a href="news/umweltschutz/" title="Umweltschutz">Umweltschutz</a></li><li class="navi_main_lv2"><a href="news/newsarchiv/" title="Newsarchiv">Newsarchiv</a></li></ul></li><li class="navi_main_lv1"><a href="lifestyle/" title="LIFESTYLE">LIFESTYLE</a><ul><li class="navi_main_lv2"><a href="lifestyle/fashion/" title="Fashion">Fashion</a></li><li class="navi_main_lv2"><a href="lifestyle/energy-startalk/" title="ENERGY Startalk">ENERGY Startalk</a></li><li class="navi_main_lv2"><a href="lifestyle/duftstars/" title="Duftstars 2012">Duftstars 2012</a></li><li class="navi_main_lv2"><a href="we-love-energy-fashion-night/start/" title="ENERGY Fashion Night">ENERGY Fashion Night</a></li></ul></li><li class="navi_main_lv1"><a href="musik/" title="MUSIK">MUSIK</a><ul><li class="navi_main_lv2"><a href="musik/energy-cds/" title="ENERGY CDs">ENERGY CDs</a></li><li class="navi_main_lv2"><a href="musik/energy-live-sessions/" title="ENERGY LIVE SESSIONS">ENERGY LIVE SESSIONS</a></li><li class="navi_main_lv2"><a href="musik/rdio/" title="Rdio">Rdio</a></li></ul></li><li class="navi_main_lv1"><a href="on-air/" title="ON AIR">ON AIR</a><ul><li class="navi_main_lv2"><a href="on-air/album-der-woche/" title="Album der Woche">Album der Woche</a></li><li class="navi_main_lv2"><a href="on-air/baend-scheiben-vorfall/" title="Bänd-Scheiben-Vorfall">Bänd-Scheiben-Vorfall</a></li><li class="navi_main_lv2"><a href="on-air/energy-brandneu/" title="ENERGY Brandneu">ENERGY Brandneu</a></li><li class="navi_main_lv2"><a href="on-air/wosch-energy-abendschau/" title="Wosch: ENERGY Abendschau">Wosch: ENERGY Abendschau</a></li><li class="navi_main_lv2"><a href="on-air/energy-daily-charts/" title="ENERGY Daily Charts">ENERGY Daily Charts</a></li><li class="navi_main_lv2"><a href="on-air/energy-euro-hot-30/" title="ENERGY EURO HOT 30">ENERGY EURO HOT 30</a></li><li class="navi_main_lv2"><a href="on-air/energy-mastermix/" title="ENERGY Mastermix">ENERGY Mastermix</a></li><li class="navi_main_lv2"><a href="on-air/playlist/" title="Playlist">Playlist</a></li><li class="navi_main_lv2"><a href="on-air/podcasts/" title="Podcasts">Podcasts</a></li><li class="navi_main_lv2"><a href="on-air/webradios/" title="Webradios">Webradios</a></li></ul></li><li class="navi_main_lv1"><a href="bilder/" title="ENERGY BILDERGALERIEN">BILDER</a><ul><li class="navi_main_lv2"><a href="bilder/archiv/" title="Archiv">Archiv</a></li></ul></li><li class="navi_main_lv1"><a href="myenergy/" title="MyENERGY">MyENERGY</a><ul><li class="navi_main_lv2"><a href="myenergy/benutzerprofil-erstellen/" title="Benutzerprofil erstellen">Benutzerprofil erstellen</a></li><li class="navi_main_lv2"><a href="myenergy/myenergy-login/" title="Login">MyENERGY Login</a></li><li class="navi_main_lv2"><a href="myenergy/chat/" target="_blank" title="Chat">Chat</a></li><li class="navi_main_lv2"><a href="myenergy/energy-clever/" title="ENERGY Clever">ENERGY Clever</a></li><li class="navi_main_lv2"><a href="myenergy/energy-city-guide/" title="ENERGY City Guide">ENERGY City Guide</a></li><li class="navi_main_lv2"><a href="myenergy/gewinnspiele/" title="Gewinnspiele">Gewinnspiele</a></li><li class="navi_main_lv2"><a href="myenergy/rss-feeds/" title="RSS-Feeds">RSS-Feeds</a></li><li class="navi_main_lv2"><a href="myenergy/spiele/einzelspieler/" title="Spiele">Spiele</a></li><li class="navi_main_lv2"><a href="energy-ticketshop/" title="Ticketshop">Ticketshop</a></li><li class="navi_main_lv2"><a href="myenergy/wetternet/" target="_blank" title="wetter.net">wetter.net</a></li></ul></li><li class="navi_main_lv1"><a href="ueber-uns/team/" title="ÜBER UNS">ÜBER UNS</a><ul><li class="navi_main_lv2"><a href="ueber-uns/team/" title="Team">Team</a></li><li class="navi_main_lv2"><a href="ueber-uns/kontakt/" title="Kontakt">Kontakt</a></li><li class="navi_main_lv2"><a href="energy-empfangen/" title="ENERGY hören">ENERGY hören</a></li><li class="navi_main_lv2"><a href="ueber-uns/social-media/" title="Social Media">Social Media</a></li><li class="navi_main_lv2"><a href="ueber-uns/jobboerse/" title="Jobbörse">Jobbörse</a></li><li class="navi_main_lv2"><a href="energymedia/energy-media/" target="_blank" title="ENERGY MEDIA">ENERGY MEDIA</a></li><li class="navi_main_lv2"><a href="ueber-uns/online-vermarktung/" target="_blank" title="Online Vermarktung">Online Vermarktung</a></li><li class="navi_main_lv2"><a href="ueber-uns/mediadaten/" target="_blank" title="Mediadaten">Mediadaten</a></li><li class="navi_main_lv2"><a href="energymedia/news/" title="Presse">Presse</a></li><li class="navi_main_lv2"><a href="ueber-uns/nrj-group/" title="NRJ Group">NRJ Group</a></li><li class="navi_main_lv2"><a href="ueber-uns/nrj-international/" target="_blank" title="NRJ International">NRJ International</a></li><li class="navi_main_lv2"><a href="ueber-uns/impressum/" title="Impressum">Impressum</a></li><li class="navi_main_lv2"><a href="ueber-uns/teilnahmebedingungen/" title="Teilnahmebedingungen">Teilnahmebedingungen</a></li></ul></li></ul></div><!-- typo3_navi_main ENDE -->
+					<div class="field_search"><div class="tx-macinasearchbox-pi1">
+		
+<form action="de/suchergebnisse/" method="post" name="searchform" class="suche_form">
+  <input name="search_box" type="text" class="suche_feld" />
+  <input name="tx_indexedsearch[submit_button]" type="image" src="/fileadmin/images/layout/buttons/search_button.jpg" alt="Abschicken" class="suche_button" />
+  <input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[pointer]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[ext]" value="0" />
+  <input type="hidden" name="tx_indexedsearch[lang]" value="0" />
+</form>
+
+	</div>
+	</div><!-- Suche ENDE -->
+					<div class="top_login"></div><!-- top_login ENDE -->
+				</div>
+				<!-- navi_main ENDE -->
+				<div class="nav_breadcrumb">Du befindest dich in:&nbsp;National</div>
+			</div><!-- navi_search_login ENDE -->
+
+			<div id="webradio-widget" class="widget-reset" style="display: block; -moz-border-bottom-colors: none; -moz-border-image: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); display: block !important; font: 13px/17px Helvetica,Arial,sans-serif; height: 200px; position: fixed; right: 230px; top: 600px; width: 24px; z-index: 890;"></div>
+
+			<div class="grid_holder">
+				<div class="navi_dummy"></div>
+				<div id="mf_masthead" style="display:none;"></div>
+				<div id="typo3_catch_content"><!--TYPO3SEARCH_begin-->
+  <div class="grid_box_3"><div class="tx-rgslideshow-pi1" id="rgslideshow-396" style="width:556px;height:334px;"><a href="news/lesen/article/fremdschaem-alarm/"><img src="fileadmin/images/content/WENN/Juli_2011/wenn_michaela_schaefer_06062012.jpg" width="556" height="334" alt="Fremdschäm-Alarm!" title="Fremdschäm-Alarm!|Welcher »Star« musste sich am Brandenburger Tor schon wieder..." /></a><a href="news/em-2012/"><img src="fileadmin/images/content/EM_2012/EM_Special_CNT_Teaser_richtig.jpg" width="556" height="334" alt="EM 2012 Special" title="EM 2012 Special|Infos, Videos, Fußball-Songs, Quiz, Spielerfrauen..." /></a><a href="musik/lesen/article/energy-summer-mashup-2012-1/"><img src="fileadmin/images/content/Musik/Sommermashup_Banner_556_334.jpg" width="556" height="334" alt="ENERGY Summer Mashup 2012" title="ENERGY Summer Mashup 2012|Wir haben für dich den perfekten Sommermix zusammengestellt" /></a><a href="berlin/uebersicht/energy-in-the-park-2012/"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/NIP_2012/NRJ_B_Nip_556x334_ohneDatum.jpg" width="556" height="334" alt="ENERGY IN THE PARK 2012" title="ENERGY IN THE PARK 2012|Mit Taio Cruz, The BossHoss, Marlon Roudette..." /></a><a href="musik/lesen/article/special-channel/"><img src="fileadmin/images/content/Musik/Special_Channel/ENERGY_Special_Fussball_120524.jpg" width="556" height="334" alt="SPECIAL CHANNEL" title="SPECIAL CHANNEL|Klick dich rein und höre die größten Fußball-Hits" /></a><a href="musik/rdio/"><img src="fileadmin/images/content/verkaufte_Aktionen/rdio/RDIO_neu/radio_neuer_teaer.jpg" width="556" height="334" alt="Rdio" title="Rdio|Unbegrenzt Musik. Wo immer du bist" /></a><a href="musik/rdio/"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/brandneu_kw23_12.jpg" width="556" height="334" alt="Katy Perry, B.o.B., Die Orsons, ...." title="Katy Perry, B.o.B., Die Orsons, ...." /></a></div><script type="text/javascript">
+                  window.addEvent("domready", function(){
+                    var slideshow396 = new SimpleSlideShowDemo(
+                      $$("#rgslideshow-396 img"),{auto:true,slideInterval:5000,bigNavigation:false,smallNavigation:false});
+                  });
+                </script><div class="csc-header csc-header-n2"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/EM_2012_h1_bg_b4765f40a4_h1_red_border_97013097fb_316895151e.gif" width="940" height="28" alt="EM 2012" title="EM 2012" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/em-2012/" title="EM 2012 Special"><img src="typo3temp/pics/EM_Special_CNT_Teaser_richtig_83c0cfbd06.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/em-2012/" title="EM 2012 Special">EM 2012 Special</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/em-2012/" title="EM 2012 Special"><span><p>Infos, Videos, Fußball-Songs, Quiz, Spielerfrauen...</p></span></a>
+                <a href="news/em-2012/" title="EM 2012 Special">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+<div class="csc-header csc-header-n3"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/NEWS_h1_bg_b4765f40a4_h1_red_border_97013097fb_9e4e29ee18.gif" width="940" height="28" alt="News" title="News" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/lesen/article/hier-thront-eine-hollywood-diva/" title="Hier thront eine Hollywood-Diva"><img src="typo3temp/pics/lohan_movie_2012_01_c483e582fd.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/lesen/article/hier-thront-eine-hollywood-diva/" title="Hier thront eine Hollywood-Diva">Hier thront eine Hollywood-Diva</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/lesen/article/hier-thront-eine-hollywood-diva/" title="Hier thront eine Hollywood-Diva"><span><p>Lindsay Lohan gibt sich am Filmset von »Liz & Dick« ganz entspannt
+</p></span></a>
+                <a href="news/lesen/article/hier-thront-eine-hollywood-diva/" title="Hier thront eine Hollywood-Diva">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+
+
+<div class="news-list-2">
+  <ul>
+    
+          <li class="news-list-2-item">
+            <div class="teaser_image">
+              <a href="news/lesen/article/fremdschaem-alarm/" title=""><img src="typo3temp/GB/wenn_michaela_schaefer_06062012_4aed3e2521_358ef6dfa2.jpg" width="100" height="60" alt="Fremdschäm-Alarm!" title="Fremdschäm-Alarm!" /></a>
+            </div>
+            <div class="teaser_text">
+              <h4 class="teaser_title"><a href="news/lesen/article/fremdschaem-alarm/" title="">Fremdschäm-Alarm!</a></h4>
+              <div class="teaser_subheader">
+                <p><a href="news/lesen/article/fremdschaem-alarm/" title=""><span>Welcher »Star« musste sich am Brandenburger Tor schon wieder ausziehen?
+...</span></a>&nbsp;
+                <a href="news/lesen/article/fremdschaem-alarm/" title="">mehr...</a></p>
+              </div>
+            </div>
+          </li>
+        
+          <li class="news-list-2-item">
+            <div class="teaser_image">
+              <a href="news/lesen/article/miley-liam-verlobt/" title=""><img src="typo3temp/GB/miley_cyrus_liam_hemsworth_111212_0_c83201063c_8501f75ec5.jpg" width="100" height="60" alt="Miley &amp; Liam: Verlobt" title="Miley &amp; Liam: Verlobt" /></a>
+            </div>
+            <div class="teaser_text">
+              <h4 class="teaser_title"><a href="news/lesen/article/miley-liam-verlobt/" title="">Miley & Liam: Verlobt</a></h4>
+              <div class="teaser_subheader">
+                <p><a href="news/lesen/article/miley-liam-verlobt/" title=""><span>Disney-Sternchen Miley Cyrus und Liam Hemsworth wollen sich trauen...</span></a>&nbsp;
+                <a href="news/lesen/article/miley-liam-verlobt/" title="">mehr...</a></p>
+              </div>
+            </div>
+          </li>
+        
+          <li class="news-list-2-item">
+            <div class="teaser_image">
+              <a href="news/lesen/article/jay-chris-gwyn-bee-karavane/" title=""><img src="typo3temp/GB/Jay_Bee_Gwyn_Chris_a2041a6bec_7a3caf60b3.jpg" width="100" height="60" alt="Jay, Chris, Gwyn &amp; Bee: Karavane" title="Jay, Chris, Gwyn &amp; Bee: Karavane" /></a>
+            </div>
+            <div class="teaser_text">
+              <h4 class="teaser_title"><a href="news/lesen/article/jay-chris-gwyn-bee-karavane/" title="">Jay, Chris, Gwyn & Bee: Karavane </a></h4>
+              <div class="teaser_subheader">
+                <p><a href="news/lesen/article/jay-chris-gwyn-bee-karavane/" title=""><span>Die vier Superstars wollen einen ganz speziellen Urlaub miteinander verbringen...</span></a>&nbsp;
+                <a href="news/lesen/article/jay-chris-gwyn-bee-karavane/" title="">mehr...</a></p>
+              </div>
+            </div>
+          </li>
+        
+  </ul>
+</div>
+<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:556px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:556px;"><dt><a href="news/" title="Mehr News"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Button-Mehr-news_NEU.jpg" width="556" height="20" alt="Mehr news" title="Mehr News" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n6"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/ENERGY_BILDERGALERIE_h1_bg_b4765f40a4_h1_red_borde_2d78cbf126.gif" width="940" height="28" alt="ENERGY Bildergalerie" title="ENERGY Bildergalerie" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="bilder/" title="ENERGY Bildergalerie"><img src="typo3temp/pics/energy_bildergalerien_019f918684.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="bilder/" title="ENERGY Bildergalerie">ENERGY Bildergalerie</a></h3>
+              <div class="teaser_subheader">
+                <a href="bilder/" title="ENERGY Bildergalerie"><span><p>Die coolsten Bilder deiner Stars findest du bei uns</p></span></a>
+                <a href="bilder/" title="ENERGY Bildergalerie">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+<div class="csc-header csc-header-n7"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/PROMOTION_h1_bg_b4765f40a4_h1_red_border_97013097f_a987cdb91f.gif" width="940" height="28" alt="Promotion" title="Promotion" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/lesen/article/skoda-citigo/" title="Freunde mal wieder live treffen"><img src="typo3temp/pics/nrj_koop_followup_motiv_strich_neu_51ca9922b6.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/lesen/article/skoda-citigo/" title="Freunde mal wieder live treffen">Freunde mal wieder live treffen</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/lesen/article/skoda-citigo/" title="Freunde mal wieder live treffen"><span><p>Der ŠKODA Citigo. Das neue Kommunikations-Tool. Gewinne mit ŠKODA Citigo Beachpässe für ENERGY IN THE PARK Berlin</p></span></a>
+                <a href="news/lesen/article/skoda-citigo/" title="Freunde mal wieder live treffen">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/lesen/article/landrover-experience-tour-2013/" title="Land Rover Experience Tour 2013"><img src="typo3temp/pics/LET_Keyvisual_2012_5a0a9ba032.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/lesen/article/landrover-experience-tour-2013/" title="Land Rover Experience Tour 2013">Land Rover Experience Tour 2013</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/lesen/article/landrover-experience-tour-2013/" title="Land Rover Experience Tour 2013"><span><p>Entdecke Land Rover Experience und gewinne ein Fahrsicherheitstraining</p></span></a>
+                <a href="news/lesen/article/landrover-experience-tour-2013/" title="Land Rover Experience Tour 2013">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:556px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:556px;"><dt><a href="myenergy/gewinnspiele/" title="Mehr Promotion"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Button-Mehr-promotion.jpg" width="556" height="20" alt="Mehr news" title="Mehr Promotion" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n9"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/MUSIK_h1_bg_b4765f40a4_h1_red_border_97013097fb_fdbe4ff5c2.gif" width="940" height="28" alt="Musik" title="Musik" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="musik/lesen/article/fun-some-nights-3/" title="FUN.: »Some Nights«"><img src="typo3temp/pics/Warner_FUN_120605_8d6f6af23f.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="musik/lesen/article/fun-some-nights-3/" title="FUN.: »Some Nights«">FUN.: »Some Nights«</a></h3>
+              <div class="teaser_subheader">
+                <a href="musik/lesen/article/fun-some-nights-3/" title="FUN.: »Some Nights«"><span><p>Hier gibt's das Video zur neuen Single der Alternative-Band</p></span></a>
+                <a href="musik/lesen/article/fun-some-nights-3/" title="FUN.: »Some Nights«">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+
+
+<div class="news-list-2">
+  <ul>
+    
+          <li class="news-list-2-item">
+            <div class="teaser_image">
+              <a href="musik/lesen/article/coldplay-feat-rihanna-princess-of-china/" title=""><img src="typo3temp/GB/090504_Coldplay_556_5ec1a06a3d_271d17a2f3.jpg" width="100" height="60" alt="Coldplay feat. Rihanna: »Princess of China«" title="Coldplay feat. Rihanna: »Princess of China«" /></a>
+            </div>
+            <div class="teaser_text">
+              <h4 class="teaser_title"><a href="musik/lesen/article/coldplay-feat-rihanna-princess-of-china/" title="">Coldplay feat. Rihanna: »Princess of China«</a></h4>
+              <div class="teaser_subheader">
+                <p><a href="musik/lesen/article/coldplay-feat-rihanna-princess-of-china/" title=""><span>Hier gibt's die Premiere zum neuen Video der britischen Pop-Rocker mit Rihanna...</span></a>&nbsp;
+                <a href="musik/lesen/article/coldplay-feat-rihanna-princess-of-china/" title="">mehr...</a></p>
+              </div>
+            </div>
+          </li>
+        
+          <li class="news-list-2-item">
+            <div class="teaser_image">
+              <a href="musik/lesen/article/usher-scream/" title=""><img src="typo3temp/GB/Usher_Sony_120601_c913d4e25c_04acb73e7c.jpg" width="100" height="60" alt="Usher: »Scream«" title="Usher: »Scream«" /></a>
+            </div>
+            <div class="teaser_text">
+              <h4 class="teaser_title"><a href="musik/lesen/article/usher-scream/" title="">Usher: »Scream« </a></h4>
+              <div class="teaser_subheader">
+                <p><a href="musik/lesen/article/usher-scream/" title=""><span>Gewinne hier die aktuelle Single des R&B-Superstars...</span></a>&nbsp;
+                <a href="musik/lesen/article/usher-scream/" title="">mehr...</a></p>
+              </div>
+            </div>
+          </li>
+        
+  </ul>
+</div>
+<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:556px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:556px;"><dt><a href="musik/" title="Mehr Musik"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Button-Mehr-musik_NEU.jpg" width="556" height="20" alt="Mehr Musik" title="Mehr Musik" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n12"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/LIFESTYLE_h1_bg_b4765f40a4_h1_red_border_97013097f_fcc97acdf5.gif" width="940" height="28" alt="Lifestyle" title="Lifestyle" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="lifestyle/lesen/article/gleichaltrige-stars/" title="Erstaunlich: Stars aus demselben Baujahr"><img src="typo3temp/pics/MeganFox_LadyGaga_120531_655a50f9a9.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="lifestyle/lesen/article/gleichaltrige-stars/" title="Erstaunlich: Stars aus demselben Baujahr">Erstaunlich: Stars aus demselben Baujahr  </a></h3>
+              <div class="teaser_subheader">
+                <a href="lifestyle/lesen/article/gleichaltrige-stars/" title="Erstaunlich: Stars aus demselben Baujahr"><span><p>Diese Berühmtheiten erblickten doch tatsächlich im selben Jahr das Licht der Welt</p></span></a>
+                <a href="lifestyle/lesen/article/gleichaltrige-stars/" title="Erstaunlich: Stars aus demselben Baujahr">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+
+
+<div class="news-list-2">
+  <ul>
+    
+          <li class="news-list-2-item">
+            <div class="teaser_image">
+              <a href="lifestyle/lesen/article/die-muetter-und-toechter-des-showbiz/" title=""><img src="typo3temp/GB/Teaser_Stars_Mutter_120529_6351b4d4ff_1e3df7f3cb.jpg" width="100" height="60" alt="Die Mütter der Showbiz-Stars" title="Die Mütter der Showbiz-Stars" /></a>
+            </div>
+            <div class="teaser_text">
+              <h4 class="teaser_title"><a href="lifestyle/lesen/article/die-muetter-und-toechter-des-showbiz/" title="">Die Mütter der Showbiz-Stars</a></h4>
+              <div class="teaser_subheader">
+                <p><a href="lifestyle/lesen/article/die-muetter-und-toechter-des-showbiz/" title=""><span>Die Promis zeigen sich im Blitzlichtgewitter gerne mit ihren Mamis...</span></a>&nbsp;
+                <a href="lifestyle/lesen/article/die-muetter-und-toechter-des-showbiz/" title="">mehr...</a></p>
+              </div>
+            </div>
+          </li>
+        
+  </ul>
+</div>
+<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:556px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:556px;"><dt><a href="lifestyle/" title="Mehr Lifestyle"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Button-Mehr-Lifestyle_01.jpg" width="556" height="20" alt="Mehr Lifestyle" title="Mehr Lifestyle" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n15"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/PROMOTION_h1_bg_b4765f40a4_h1_red_border_97013097f_a987cdb91f.gif" width="940" height="28" alt="Promotion" title="Promotion" /></h1></div>
+<div class="news-latest">
+  <ul>
+    
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/lesen/article/energy-in-the-park-in-berlin-2012/" title="ENERGY IN THE PARK in Berlin 2012"><img src="typo3temp/pics/NiP2012_556_334_Hoeffner_fdcb2a2ed7.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/lesen/article/energy-in-the-park-in-berlin-2012/" title="ENERGY IN THE PARK in Berlin 2012">ENERGY IN THE PARK in Berlin 2012</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/lesen/article/energy-in-the-park-in-berlin-2012/" title="ENERGY IN THE PARK in Berlin 2012"><span><p>Erlebe Deutschlands größtes Gratis Radio Open Air Festival mit Höffner Express</p></span></a>
+                <a href="news/lesen/article/energy-in-the-park-in-berlin-2012/" title="ENERGY IN THE PARK in Berlin 2012">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/lesen/article/malibu-sunset-tour-2012/" title="Malibu Sunset Tour 2012"><img src="typo3temp/pics/120413_malibu_tour-logo_17_86710f192c.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/lesen/article/malibu-sunset-tour-2012/" title="Malibu Sunset Tour 2012">Malibu Sunset Tour 2012</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/lesen/article/malibu-sunset-tour-2012/" title="Malibu Sunset Tour 2012"><span><p>Gewinne einen Malibu-Kühlschrank oder ein Malibu-Set und genieße den karibischen Moment des Tages</p></span></a>
+                <a href="news/lesen/article/malibu-sunset-tour-2012/" title="Malibu Sunset Tour 2012">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="news/lesen/article/das-quer-durchs-land-ticket-4/" title="Das Quer-durchs-Land-Ticket"><img src="typo3temp/pics/qdl_energy_77b85c5d1c.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="news/lesen/article/das-quer-durchs-land-ticket-4/" title="Das Quer-durchs-Land-Ticket">Das Quer-durchs-Land-Ticket</a></h3>
+              <div class="teaser_subheader">
+                <a href="news/lesen/article/das-quer-durchs-land-ticket-4/" title="Das Quer-durchs-Land-Ticket"><span><p>Erlebe mit dem Quer-durchs-Land-Ticket spontan die schönsten Ecken Deutschlands</p></span></a>
+                <a href="news/lesen/article/das-quer-durchs-land-ticket-4/" title="Das Quer-durchs-Land-Ticket">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+        <li class="news-latest-item">
+          <div class="teaser_image">
+            <a href="musik/rdio/" title="Rdio"><img src="typo3temp/pics/radio_neuer_teaer_c884984dad.jpg" width="200" height="120" alt="" /></a>
+          </div>
+          <div class="teaser_text">
+              <h3 class="teaser_title"><a href="musik/rdio/" title="Rdio">Rdio</a></h3>
+              <div class="teaser_subheader">
+                <a href="musik/rdio/" title="Rdio"><span><p>Unbegrenzt Musik. Wo immer du bist</p></span></a>
+                <a href="musik/rdio/" title="Rdio">mehr...</a>
+              </div>
+          </div>
+        </li>
+      
+  </ul>
+</div>
+<div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:556px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:556px;"><dt><a href="myenergy/gewinnspiele/" title="Mehr Promotion"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Button-Mehr-promotion.jpg" width="556" height="20" alt="Mehr news" title="Mehr Promotion" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div></div>
+  <div class="grid_box_2"><div style="margin-left:0px;"><div class="csc-header csc-header-n1"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/WEBRADIOS_h1_bg_b4765f40a4_h1_red_border_97013097f_68fcb9e7a0.gif" width="940" height="28" alt="Webradios" title="Webradios" /></h1></div>
+			<script type="text/javascript">
+				function webradio_window (id) {
+					fenster = window.open("http://www.energy.de/webradio/index.php?play="+id, "fenster1", "width=950,height=700,status=no,scrollbars=auto,resizable=no");
+					fenster.focus();
+				}
+				function oeffnefenster (url) {
+					fenster = window.open(url, "fenster1", "width=950,height=700,status=no,scrollbars=auto,resizable=no");
+					fenster.focus();
+				}
+			</script>
+		<div id="webipad" style="padding: 20px;font-size:20px; display:none;">Du nutzt das iPad. Leider kann das Webradio auf dem iPad nicht dargestellt werden.<br />Bitte lade dir eine <a href="http://www.energy.de/myenergy/energy-mobile-apps/">unserer Apps</a>!</div><div id="webiphone" style="padding: 20px;font-size:20px; display:none;">Du nutzt das iPhone. Leider kann das Webradio auf dem iPhone nicht dargestellt werden.<br />Bitte besuche unsere <a href="http://m.energy.de" style="color: #cc0000;">mobile Webseite</a> oder lade dir eine <a href="http://www.energy.de/myenergy/energy-mobile-apps/">unserer Apps</a>!</div>
+			<div id="catch_flash_webradios" style="display: block;">
+				<div id="catch_flash_rec_webradio"></div>
+				<span id="webRadioSliderSwf" style="display: none;">slider15.swf</span>
+				<span id="webRadioParamt" style="display: none;">http://www.energy.de/webradio/</span>
+			</div>
+		<div class="csc-header csc-header-n2"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/ENERGY_PLAYLIST_h1_bg_b4765f40a4_h1_red_border_970_d142eff6bb.gif" width="940" height="28" alt="ENERGY Playlist" title="ENERGY Playlist" /></h1></div><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:364px;"><dt><a href="on-air/playlist/" title="Hier gelangst du zu den ENERGY Playlists"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Rechte_Spalte/Energy_Playlist_2012_endgueltige_Version.jpg" width="364" height="46" alt="" title="Hier gelangst du zu den ENERGY Playlists" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n3"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/WERBUNG_h1_bg_b4765f40a4_h1_red_border_97013097fb_ae757bc782.gif" width="940" height="28" alt="Werbung" title="Werbung" /></h1></div><div class="tx-nrjads-pi1">
+		
+				<div id="ad_rect">
+					<script type="text/javascript">
+						getAd_rect();
+					</script>
+				</div>
+			
+	</div>
+	<div class="csc-header csc-header-n4"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/MUSIKVIDEOS_h1_bg_b4765f40a4_h1_red_border_9701309_55ae2e83bf.gif" width="940" height="28" alt="Musikvideos" title="Musikvideos" /></h1></div><div> <p><a id="p871eaa4c-5007-48ca-948f-623c17cbdb6c" href="http://www.fashiondaily.tv/" title="Fashion Daily TV">Fashion Daily TV Mode Videos</a></p> </div> <script type="text/javascript"> var _fmtv=_fmtv||[];_fmtv.push({'id':'871eaa4c-5007-48ca-948f-623c17cbdb6c','width':364,'height':346,'synd': true}); (function() { var fm = document.createElement('script'); fm.type = 'text/javascript'; fm.async = true; fm.src = 'http://hub.freshmilk.tv/static/embed/nettv.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(fm); })(); </script><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:364px;"><dt><a href="lifestyle/fashion/" target="_top" title="Mehr zum Thema Fashion"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Rechte_Spalte/rs_mehr_fashion.jpg" width="364" height="20" alt="" title="Mehr zum Thema Fashion" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n7"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/ENERGY_TICKETSHOP_h1_bg_b4765f40a4_h1_red_border_9_3f3423113a.gif" width="940" height="28" alt="ENERGY Ticketshop" title="ENERGY Ticketshop" /></h1></div><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:364px;"><dt><a href="energy-ticketshop/" title="ENERGY Ticketshop"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Rechte_Spalte/Tickets_national_2012_364x150.jpg" width="364" height="150" alt="" title="ENERGY Ticketshop" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n8"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/MEISTGELESEN_h1_bg_b4765f40a4_h1_red_border_970130_a0ebce3914.gif" width="940" height="28" alt="Meistgelesen" title="Meistgelesen" /></h1></div>
+<div class="most_popular">
+	
+		<div class="most_popular_item">
+			<div class="most_popular_image">	
+			<a href="lifestyle/fashion/lesen/article/bling-bling/" title="Bling Bling"><img src="typo3temp/GB/Bling_Bling_PR_Ketten_Teaser_120531_d78725127a__e6_25018b2914.jpg" width="364" height="78" alt="Bling Bling" title="Bling Bling" /></a>
+			</div>
+		</div>
+		
+		<div class="most_popular_item">
+			<div class="most_popular_image">	
+			<a href="news/lesen/article/gntm-2012-die-finalistinnen-im-check/" title="GNTM 2012: Die Finalistinnen im Check"><img src="typo3temp/GB/GNTM_2012__Die_Finalistinnen_im_Check_GNTM_finalis_72aa43264f.jpg" width="364" height="78" alt="GNTM 2012: Die Finalistinnen im Check" title="GNTM 2012: Die Finalistinnen im Check" /></a>
+			</div>
+		</div>
+		
+		<div class="most_popular_item">
+			<div class="most_popular_image">	
+			<a href="musik/lesen/article/energy-summer-mashup-2012-1/" title="ENERGY Summer Mashup 2012"><img src="typo3temp/GB/ENERGY_Summer_Mashup_2012_Sommermashup_Banner_556__b89a9da0c0.jpg" width="364" height="78" alt="ENERGY Summer Mashup 2012" title="ENERGY Summer Mashup 2012" /></a>
+			</div>
+		</div>
+		
+</div>
+<div class="csc-header csc-header-n10"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/FOLLOW_US_..._h1_bg_b4765f40a4_h1_red_border_97013_3311432766.gif" width="940" height="28" alt="Follow us ..." title="Follow us ..." /></h1></div><div class="tx-nrjfacebookfanbox-pi1">
+		
+			<fb:fan profile_id="79543067452" stream="0" connections="12" logobar="0" width="364" height="260"></fb:fan>			
+		
+	</div>
+	<div class="csc-header csc-header-n11"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/MOBILE_APP_-_UPDATE_h1_bg_b4765f40a4_h1_red_border_8b4ea0c957.gif" width="940" height="28" alt="Mobile App - Update" title="Mobile App - Update" /></h1></div><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:364px;"><dt><a href="http://www.energy.de/energy-empfangen/mobil/" target="_self" title="Bada-App Update"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Rechte_Spalte/Bada_Update_364.jpg" width="364" height="200" alt="" title="Bada-App Update" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n12"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/ENERGY_DAILY_CHARTS_h1_bg_b4765f40a4_h1_red_border_1325175b1b.gif" width="940" height="28" alt="ENERGY Daily Charts" title="ENERGY Daily Charts" /></h1></div><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-firstcol csc-textpic-lastcol" style="width:364px;"><dt><a href="on-air/energy-daily-charts/" title="ENERGY Daily Charts"><img src="fileadmin/images/navigation/rechte_spalte/nrjdailycharts_364.jpg" width="364" height="72" alt="ENERGY Daily Charts - Schnellklicker schnappen sich jetzt 2 Downloads for free!" title="ENERGY Daily Charts" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n13"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/EURO_HOT_30_h1_bg_b4765f40a4_h1_red_border_9701309_3f785c3ae7.gif" width="940" height="28" alt="EURO HOT 30" title="EURO HOT 30" /></h1></div><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:364px;"><dt><a href="on-air/energy-euro-hot-30/" target="_top" title="EURO HOT 30"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Rechte_Spalte/rs_eurohot30.jpg" width="364" height="250" alt="" title="EURO HOT 30" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div><div class="csc-header csc-header-n14"><h1 class="headline"><a href="/#Anker"></a><img src="typo3temp/GB/DIGITALRADIO_MIT_ENERGY_h1_bg_b4765f40a4_h1_red_bo_8206d7980e.gif" width="940" height="28" alt="Digitalradio mit ENERGY" title="Digitalradio mit ENERGY" /></h1></div><div class="csc-textpic csc-textpic-center csc-textpic-above"><div class="csc-textpic-imagewrap" style="width:364px;"><dl class="csc-textpic-image csc-textpic-lastcol" style="width:364px;"><dt><a href="energy-empfangen/dab/" target="_top" title="ENERGY auf DAB+ - Alle Infos!"><img src="fileadmin/images/content/ENERGY_Logo_Grafiken/Rechte_Spalte/rs_energy_dab_111219.jpg" width="364" height="80" alt="" title="ENERGY auf DAB+ - Alle Infos!" /></a></dt></dl></div></div><div class="csc-textpic-clear"><!-- --></div></div></div>
+<!--TYPO3SEARCH_end--></div><!-- typo_catch_content ENDE -->
+				<div class="clearer"></div>
+				<div id="footer">
+					<div class="footer_headline">
+						<div class="footer_headline_1">
+							<a onfocus="blurLink(this);" href="fileadmin/templates/../../news/">NEWS</a><br />
+							<a onfocus="blurLink(this);" href="fileadmin/templates/../../musik/">MUSIK</a><br />
+							<a onfocus="blurLink(this);" href="http://m.energy.de">ENERGY mobile</a>
+						</div>
+						<div class="footer_headline_2"><a onfocus="blurLink(this);" href="fileadmin/templates/../../on-air/">ON AIR</a></div>
+						<div class="footer_headline_3"><a onfocus="blurLink(this);" href="fileadmin/templates/../../spiele/">SPIELE</a></div>
+						<div class="footer_headline_4"><a onfocus="blurLink(this);" href="fileadmin/templates/../../myenergy/">MyENERGY</a></div>
+						<div class="footer_headline_5"><a onfocus="blurLink(this);" href="fileadmin/templates/../../ueber-uns/">ÜBER UNS</a></div>
+						<div class="footer_headline_6">STATIONEN</div>
+					</div>
+					<div class="footer_content">
+						<div class="footer_content_1"><ul><li><a href="musik/energy-cds/" onfocus="blurLink(this);">ENERGY CDs</a></li><li><a href="musik/energy-live-sessions/" onfocus="blurLink(this);">ENERGY LIVE SESSIONS</a></li><li><a href="musik/rdio/" onfocus="blurLink(this);">Rdio</a></li></ul></div>
+						<div class="footer_content_2"><ul><li><a href="on-air/album-der-woche/" onfocus="blurLink(this);">Album der Woche</a></li><li><a href="on-air/baend-scheiben-vorfall/" onfocus="blurLink(this);">Bänd-Scheiben-Vorfall</a></li><li><a href="on-air/energy-brandneu/" onfocus="blurLink(this);">ENERGY Brandneu</a></li><li><a href="on-air/wosch-energy-abendschau/" onfocus="blurLink(this);">Wosch: ENERGY Abendschau</a></li><li><a href="on-air/energy-daily-charts/" onfocus="blurLink(this);">ENERGY Daily Charts</a></li><li><a href="on-air/energy-euro-hot-30/" onfocus="blurLink(this);">ENERGY EURO HOT 30</a></li><li><a href="on-air/energy-mastermix/" onfocus="blurLink(this);">ENERGY Mastermix</a></li><li><a href="on-air/playlist/" onfocus="blurLink(this);">Playlist</a></li><li><a href="on-air/podcasts/" onfocus="blurLink(this);">Podcasts</a></li><li><a href="on-air/webradios/" onfocus="blurLink(this);">Webradios</a></li></ul></div>
+						<div class="footer_content_3"><ul><li><a href="bilder/archiv/" onfocus="blurLink(this);">Archiv</a></li></ul></div>
+						<div class="footer_content_4"><ul><li><a href="myenergy/benutzerprofil-erstellen/" onfocus="blurLink(this);">Benutzerprofil erstellen</a></li><li><a href="myenergy/myenergy-login/" onfocus="blurLink(this);">MyENERGY Login</a></li><li><a href="myenergy/chat/" target="_blank" onfocus="blurLink(this);">Chat</a></li><li><a href="myenergy/energy-clever/" onfocus="blurLink(this);">ENERGY Clever</a></li><li><a href="myenergy/energy-city-guide/" onfocus="blurLink(this);">ENERGY City Guide</a></li><li><a href="myenergy/gewinnspiele/" onfocus="blurLink(this);">Gewinnspiele</a></li><li><a href="myenergy/rss-feeds/" onfocus="blurLink(this);">RSS-Feeds</a></li><li><a href="myenergy/spiele/einzelspieler/" onfocus="blurLink(this);">Spiele</a></li><li><a href="energy-ticketshop/" onfocus="blurLink(this);">Ticketshop</a></li><li><a href="myenergy/wetternet/" target="_blank" onfocus="blurLink(this);">wetter.net</a></li></ul></div>
+						<div class="footer_content_5"><ul><li><a href="ueber-uns/team/" onfocus="blurLink(this);">Team</a></li><li><a href="ueber-uns/kontakt/" onfocus="blurLink(this);">Kontakt</a></li><li><a href="energy-empfangen/" onfocus="blurLink(this);">ENERGY hören</a></li><li><a href="ueber-uns/social-media/" onfocus="blurLink(this);">Social Media</a></li><li><a href="ueber-uns/jobboerse/" onfocus="blurLink(this);">Jobbörse</a></li><li><a href="energymedia/energy-media/" target="_blank" onfocus="blurLink(this);">ENERGY MEDIA</a></li><li><a href="ueber-uns/online-vermarktung/" target="_blank" onfocus="blurLink(this);">Online Vermarktung</a></li><li><a href="ueber-uns/mediadaten/" target="_blank" onfocus="blurLink(this);">Mediadaten</a></li><li><a href="energymedia/news/" onfocus="blurLink(this);">Presse</a></li><li><a href="ueber-uns/nrj-group/" onfocus="blurLink(this);">NRJ Group</a></li><li><a href="ueber-uns/nrj-international/" target="_blank" onfocus="blurLink(this);">NRJ International</a></li><li><a href="ueber-uns/impressum/" onfocus="blurLink(this);">Impressum</a></li><li><a href="ueber-uns/teilnahmebedingungen/" onfocus="blurLink(this);">Teilnahmebedingungen</a></li></ul></div>
+						<div class="footer_content_6"><ul><li><a href="national/" onfocus="blurLink(this);">National</a></li><li><a href="berlin/" onfocus="blurLink(this);">Berlin</a></li><li><a href="bremen/" onfocus="blurLink(this);">Bremen</a></li><li><a href="hamburg/" onfocus="blurLink(this);">Hamburg</a></li><li><a href="muenchen/" onfocus="blurLink(this);">Muenchen</a></li><li><a href="nuernberg/" onfocus="blurLink(this);">Nürnberg</a></li><li><a href="rhein-main/" onfocus="blurLink(this);">Rhein-Main</a></li><li><a href="sachsen/" onfocus="blurLink(this);">Sachsen</a></li><li><a href="stuttgart/" onfocus="blurLink(this);">Stuttgart</a></li><li><a href="energy-empfangen/" onfocus="blurLink(this);">ENERGY empfangen</a></li></ul></div>
+					</div>
+					<div class="footer_headline subFooterHeadNoTop">
+						<div class="footer_headline_1">
+							<span>PARTNER</span>
+							<div class="footer_partner_1">
+								<a href="http://www.allbuyone.com" title="Banner im Digitaldruck, Molton, Bühnenmolton, Gummimatten, Gaze, Kabelbrücken, Messeteppich und vieles mehr auf www.allbuyone.com" target="_blank">allbuyone | Eventshop</a>
+							</div>
+							<div class="footer_partner_2">
+								<a href="http://www.philips.de" title="Philips" target="_blank">Philips</a>
+							</div>
+							<div class="footer_partner_2">
+								<a href="http://www.pure.de" title="PURE.de" target="_blank">PURE.de</a>
+							</div>
+						</div>
+						<div class="footer_headline_1 ">
+							<div class="footer_partner_2">
+								<a href="http://www.energy.de/tierschutz/" title="TIERSCHUTZ" target="_blank">TIERSCHUTZ</a>
+							</div>
+							<div class="footer_partner_2">
+								<a href="http://www.energy.de/umweltschutz" title="UMWELTSCHUTZ" target="_blank">UMWELTSCHUTZ</a>
+							</div>
+							<div class="footer_partner_3">
+								<a href="http://www.energy.de/news/helfen-und-spenden/" title="HELFEN UND SPENDEN" target="_blank">HELFEN UND SPENDEN</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer_copyright"><p>© NRJ GmbH 2011 <a href="http://www.energy.de/ueber-uns/impressum/">Impressum</a> <a href="http://www.energymedia.de/media/index.html" target="_blank" class="-">Mediadaten</a> <a href="http://www.energy.de/ueber-uns/kontakt-presse/">Presse</a> und <a href="http://www.energy.de/ueber-uns/">weitere Informationen</a></p></div>
+				</div><!-- footer ENDE -->
+			</div><!-- grid_holder ENDE -->
+		</div><!-- design_holder ENDE -->
+		  <!-- Google Analytics Scripte -->
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        _uacct = "UA-3166431-1";
+        urchinTracker();
+    </script>
+ <!-- / Google Analytics Scripte -->
+
+		<div id="gallery_overlay"></div>
+		<div id="gallery_zoom"></div>
+	  <div id="popuup_div" class="popup_msg"></div>
+  <div id="ajaxframe" name="ajaxframe" style="display: none;"></div>
+
+
+
+
+</body>
+</html>

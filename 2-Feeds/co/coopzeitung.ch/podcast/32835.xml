@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="${contexttool.node.getDefaultLocale().language}" lang="${contexttool.node.getDefaultLocale().language}" class="${contexttool.node.getDefaultLocale().language}">
+	<head>
+		
+		<!-- metatags -->
+		<!-- start ext. metatags -->
+
+
+
+    <title>Coopzeitung - Die gr&ouml;sste Wochenzeitung der Schweiz</title>
+
+<!-- Pflichtfelder -->
+<meta name="keywords" content="Coopzeitung, Coop, Rezepte, Frisch auf den Tisch, Wochenzeitung, Reportagen, Kochen, Essen, Trinken, Freizeit, Unterhaltung, Wohnen, Geniessen, Leben, Kinder, Familie, Wochenrezept, Persönlich, Wettbewerbe, Wettbewerb, Gewinnen, Win, Mittwochstudio" />
+<meta name="description" content="Die grösste Wochenzeitung der Schweiz. Finden Sie jede Woche neue leckere Rezepte, spannende Reportagen und Gewinnspiele." />
+<meta name="Content-Language" content="de-ch" />
+
+<meta name="DCSext.lang" content="de-ch" />
+<meta name="date-revision-yyyymmdd" content="20120605" />
+<meta name="date-publication-yyyymmdd" content="20110510" />
+<meta name="google-site-verification" content="eI-z7Us_XwCyH_C7IvU4BQKjRTAnSS9LGDKUg764VIM" />
+<meta name="msvalidate.01" content="25523AF5E38CEC4B9D1F8833CDA8CA58" />
+<meta name= "DCSext.w_sitetyp_s" content="Presse Detailseite" />
+<meta name="date" content="2012-06-05T17:42:32CEST">
+
+		
+			<meta name="robots" content="index, follow" />
+	
+	
+
+	
+<meta name="DCSext.w_tc" content="index" />
+<meta name="RAY.bc" content="" />
+<meta name="RAY.bcid" content="" />
+<meta name="RAY.url" content="$contUtil.createNodeLink($contexttool.node, $contexttool.node.getDefaultLocale())" />
+
+<meta name="DCSext.w_bcid" content="cbi:///cms/10281;" />
+<meta name="DCSext.w_gl1" content="coop presse" />
+<meta name="DCSext.w_gl2" content="coopzeitung" />
+
+
+
+<!-- Optional -->
+
+<meta name="WT.sp" content="coopzeitung" />
+
+<!-- https://jira.pironet-ndh.com/jira/browse/CIR-480 -->
+	
+<!-- Medieninfo metatags -->
+
+<!-- end ext. metatags -->
+
+
+
+		<!-- headinclude -->
+		
+
+	<link rel="stylesheet" type="text/css" href="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/style/coopzeitung_styles.css" media="screen, projection, print" />
+	<link rel="stylesheet" type="text/css" href="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/style/prototyp_fixes.css" media="screen, projection, print" />
+	<link rel="stylesheet" type="text/css" href="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/style/coopzeitung_print.css" media="print" />
+
+	<link rel="shortcut icon" href="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/images/favicon.ico" />
+	<link rel="icon" href="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/images/favicon.ico" type="image/ico" />
+
+				
+	<script type="text/javascript">
+		// insert url here
+		// example value = "http://www.coop.ch/pb/site/homepage/resourceCached/5/common/"
+		var scriptBase = "http://www.coopzeitung.ch/site/presse/resourceCached/26/common/";
+		var myJSONControllerUrl = "http://www.coopzeitung.ch/site/presse/jsonCreator/index.html?ts=1339031002709";
+		var myCommentJSONControllerUrl = "http://www.coopzeitung.ch/site/presse/commentJsonCreator/index.html?ts=1339031002709";
+        var fotodtailsDataControllerURI = "http://www.coopzeitung.ch/site/presse/fotodatasource_json?list=";
+        var fotodtailsVoteDataControllerURI = "http://www.coopzeitung.ch/site/presse/fotodatasource_json?list=checkRating";
+        var ratingServiceUrl = "http://www.coopzeitung.ch/site/presse/fotoRatingsJson";
+        var managementFotoService = "http://www.coopzeitung.ch/site/presse/fotoStateManagement";
+        var myRatingJSONControllerUrl = "http://www.coopzeitung.ch/site/presse/ratingJsonCreator/index.html?ts=1339031002709";
+        var myQuizJSONControllerUrl = "http://www.coopzeitung.ch/site/presse/quizJsonCreator/index.html?ts=1339031002709";
+        var myHotelJSONControllerUrl = "http://www.coopzeitung.ch/site/presse/petHotels/index.html?ts=1339031002709";
+        var blogCalnderController = "http://www.coopzeitung.ch/site/presse/blogcalenderjson/index.html?ts=1339031002709";
+        var calender_localized_array = ['So','Mo','Di',
+            'Mi',
+            'Do',
+            'Fr','Sa'];
+
+		var commentNoficationJSONController = "http://www.coopzeitung.ch/site/presse/reportComment/index.html?ts=1339031002709";
+	</script>
+
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/script/essentials.js"></script>
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/libs/plugins/jquery.galleriffic.js"></script>
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/libs/plugins/jquery.opacityrollover_min.js"></script>
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/libs/plugins/jquery.platformselector-0.1.1-min.js"></script>
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/libs/plugins/jquery.infieldlabel.min.js"></script>
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/script/jquery.livequery.js"></script>
+	<script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/script/jquery.ui.datepicker.js"></script>
+
+				
+		
+<script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-28089799-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+
+<script type="text/javascript" src="https://imagesrv.adition.com/js/secure_tag_head_ad3_adfarm1.js"></script>
+        <!-- custom_headinclude -->
+        
+		
+		
+
+		<script type="text/javascript">
+            if (window.SmartEditor) {
+                pb.se.inplace.ComposedContentToolbar.prototype.addElementMenu_orig = pb.se.inplace.ComposedContentToolbar.prototype.addElementMenu;
+                pb.se.inplace.ComposedContentToolbar.prototype.addElementMenu = function(i, v) {
+                    this.addElementMenu_orig(i, v);
+                    i.push({
+                        icon: SmartEditor.getImageResourceUrl('/app/images/toolbar/properties'),
+                        handler: function() {
+                            pb.se.Actions.execute('showProperties', this.cmsItem.attributes.id);
+                        },
+                        scope: this
+                    });
+                };
+            }
+		</script>
+	</head>
+				<body id="error_404" class="langDE" lang="${contexttool.node.getDefaultLocale().language}">
+		<!-- start body node/frame.vm -->
+		<div id="main-wrapper">
+
+			<!-- Banner oben -->
+						<div id="banner-container">
+
+				<div id="leaderboard">
+					<!-- BEGIN ADITIONTAG Website-Tag  Werbeplatz homepage, fullsize-leaderboard , Werbeplatz-Gruppe hompage , Netzwerk 596 , Website Coopzeitung-NEU , Unternehmen Coop Presse , Typ dynamic , Größe (Bereich, 468x60 - 728x90) -->
+										<!-- END ADITIONTAG-->
+				</div> <!-- leaderboard end -->
+
+				<div id="leaderboard-wallpaper">
+					<!-- BEGIN ADITIONTAG Website-Tag  Werbeplatz homepage, leaderbord-wallpaper , Werbeplatz-Gruppe hompage , Netzwerk 596 , Website Coopzeitung-NEU , Unternehmen Coop Presse , Typ fix , Größe (728x90) -->
+										<!-- END ADITIONTAG-->
+				</div> <!-- leaderboard-wallpaper end -->
+				<div class="clearall"></div>
+
+			</div>
+
+			<div id="background-container">
+
+				<!-- abgerundeter verlauf oben rechts -->
+				<div id="background-top-right">
+					<img src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/images/bg_top-right.png" alt="" />
+				</div>
+
+				<div id="site-container">
+					<!-- Main navigation -->
+					
+
+
+	<div id="main-navi">
+		
+		<div id="logo">
+			<a href="http://www.coopzeitung.ch/startseite">
+													
+				<img src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/images/logo_coop_94x40.png" alt="Coopzeitung" />
+			</a>
+		</div>
+						
+				
+		<!-- Content Element CZ-F-A.12.18 HTML-Wildcard-Teaser: Hauptnavigationsteaser Start -->
+		<!-- Inhalt des Elements soll durch Mediamatiker gepflegt und per Inline CSS positioniert werden können -->
+		<div class="CZ-F-A_12_18">
+			<div>
+									<a name="anker46815"></a><div class="basecontent-coophtmleditor"><p><a style="margin-left: 233px; position: relative; top: 13px;" target="_self" href="http://www.coopzeitung.ch/tierhotels"><img src="http://www.coopzeitung.ch/site/presse/get/documents/presse/mediathek/Coopzeitung/Allgemein/Allgemeine_Teaserbilder/Hauptnavigationsteaser/hauptnavigationsteaser_Tierhotels.png"/></a> <a style="margin-left: 40px; position: relative; top: 13px;" target="_self" href="http://www.coopzeitung.ch/vereb"><img src="http://www.coopzeitung.ch/site/presse/get/documents/presse/mediathek/Coopzeitung/Allgemein/Allgemeine_Teaserbilder/Hauptnavigationsteaser/Hauptnavigationsteaser_Katalin.png"/></a></p>
+<!--Teaser 1--></div>
+            			</div>
+		</div>
+		<!-- Content Element CZ-F-A.12.18 HTML-Wildcard-Teaser: Hauptnavigationsteaser End --> 
+		
+		<!-- Content Element CZ-F-A.12.14 Hauptnavigation Start --> 
+		<div class="CZ-F-A_12_14">
+			<ul>
+														<li id="presse_home" class="presse_home "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10281" target="_self"><b>Coopzeitung</b></a></li>
+					
+														<li id="presse_oekologisch" class="presse_oekologisch "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10320" target="_self"><b>oekologisch &amp; fair</b></a></li>
+					
+														<li id="presse_essen" class="presse_essen "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10308" target="_self"><b>essen &amp; trinken</b></a></li>
+					
+														<li id="presse_wohnen" class="presse_wohnen "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10316" target="_self"><b>wohnen &amp; geniessen</b></a></li>
+					
+														<li id="presse_einkaufen" class="presse_einkaufen "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10324" target="_self"><b>einkaufen &amp; profitieren</b></a></li>
+					
+														<li id="presse_kinder" class="presse_kinder "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10312" target="_self"><b>kinder &amp; familie</b></a></li>
+					
+														<li id="presse_freizeit" class="presse_freizeit "><span class="leftBorder"></span><a href="http://www.coopzeitung.ch/10304" target="_self"><b>freizeit &amp; unterhaltung</b></a></li>
+					
+								
+			</ul>
+			<div class="clearall"></div>
+		</div>						
+		<!-- Content Element CZ-F-A.12.14 Hauptnavigation End --> 
+		
+	</div> <!-- main-navi end -->
+					
+					<!-- Sub navigation -->
+						
+	
+					
+
+					<!-- Kommunikationsnavigation -->
+					<!-- start kommunikationsNavigation.vm -->
+
+	<!-- Content Element CZ-F-A.12.17 Querschnittsnavigation Start --> 
+	<div class="CZ-F-A_12_17">	
+		    		<h4 class="Amplitude-Bold">Top-Themen:</h4>
+<ul>
+  <li id="qsnavi_1" class=""><a href="http://epaper.coopzeitung.ch" target="_blank">Archiv</a></li>
+  <li id="qsnavi_2" class=""><a target="_self" href="http://www.coopzeitung.ch/blog">Blogs</a></li>
+  <li id="qsnavi_3" class=""><a target="_self" href="http://www.coopzeitung.ch/fotowettbewerb">Fotowettbewerb</a></li>
+  <li id="qsnavi_4" class=""><a target="_self" href="http://www.coopzeitung.ch/leserreisen">Leserreisen</a></li>
+  <li id="qsnavi_5" class=""><a target="_self" href="http://www.coopzeitung.ch/mittwochstudio">Mittwochstudio</a></li>
+  <li id="qsnavi_6" class=""><a target="_self" href="http://www.coopzeitung.ch/video">Videos</a></li>
+</ul>
+    
+			   <form action="http://www.coopzeitung.ch/site/presse/search/10281/Lde/index.html" enctype="application/x-www-form-urlencoded" method="post" name="searchform">
+					<input type="hidden" name="search" value="Search" />
+			<input type="hidden" name="search" value="Suchen" />
+			<input type="hidden" name="la" value="de" />
+			<input type="hidden" name="local" value="" />
+			<input type="hidden" name="localtext" value="" />
+			<input type="hidden" name="fr" value="coopzeitung" />
+			
+			<div class="inputFormElement">
+				<label class="" for="qs_search">Zeitung durchsuchen...</label>
+				<div class="input autocomplete">
+					<input autocomplete="off" class="defaultText" type="text" value="" name="qs" id="qs_search" />
+					<div class="errortext">Fehlertext für Eingabe</div>							
+				</div>
+				<br clear="all" />
+			</div>
+		
+			<div class="submitContainer">
+				<input type="submit" name="submit" value="" />
+				<br clear="all" />
+			</div>							
+		
+		</form>							
+	</div>
+	<!-- Content Element CZ-F-A.12.17 Querschnittsnavigation End -->										
+<!-- end kommunikationsNavigation.vm -->	
+
+					<!-- content -->
+					<div id="content-container">
+						<!-- start content_error.vm  -->
+<link rel="stylesheet" type="text/css" href="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/style/beispiel_skinning_404seite.css" media="screen, projection" />
+
+
+<h1 class="Amplitude-Bold">Diese Seite wurde wohl noch nicht publiziert&hellip;</h1>
+<h2>&hellip;oder wir konnten Sie aus anderen Gründen nicht finden.</h2>
+<h3 class="errorCode Amplitude-Bold">Fehler 404</h3>
+<h3 class="message Amplitude-Bold">Bitte nutzen Sie unsere Suche.</h3>
+<!--
+   stackTrace:
+   pirobase.cms.smartview.exception.NoPermissionException: No Item found for permission checks
+	at pirobase.cms.smartview.interceptor.UseCaseInterceptor.preHandle(UseCaseInterceptor.java:69)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:865)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:807)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:571)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:501)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:617)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at pirobase.cms.view.impl.ViewServiceImpl.service(ViewServiceImpl.java:642)
+	at pirobase.cms.smartview.RequestToSiteForwarder.service(RequestToSiteForwarder.java:668)
+	at pirobase.cms.smartview.ShortUrlFilter.doFilter(ShortUrlFilter.java:89)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.pironet.pbng.cms.servletfilter.SessionFilter.doFilter(SessionFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.pirobase.security.authentication.CmsAuthenticationFilter.doFilter(CmsAuthenticationFilter.java:183)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:359)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.AbstractProcessingFilter.doFilterHttp(AbstractProcessingFilter.java:268)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.pirobase.authentication.xapp.CrossApplicationProcessingFilter.doFilterHttp(CrossApplicationProcessingFilter.java:116)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.pirobase.authentication.ntlm.NtlmProcessingFilter.doFilter(NtlmProcessingFilter.java:115)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.pirobase.authentication.delegation.CredentialDelegateFilter.doFilter(CredentialDelegateFilter.java:54)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.pirobase.authentication.kerberos.KerberosProcessingFilter.doFilter(KerberosProcessingFilter.java:158)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.basicauth.BasicProcessingFilter.doFilterHttp(BasicProcessingFilter.java:172)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.pirobase.authentication.http.HttpRequestTrustedProcessingFilter.doFilter(HttpRequestTrustedProcessingFilter.java:95)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.ui.logout.LogoutFilter.doFilterHttp(LogoutFilter.java:87)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at com.pirobase.authentication.filter.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:79)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:371)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:174)
+	at com.pirobase.authentication.filter.FilterProxy.doFilter(FilterProxy.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.securechannel.ChannelProcessingFilter.doFilterHttp(ChannelProcessingFilter.java:116)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at com.pirobase.authentication.filter.FilterProxy.doFilter(FilterProxy.java:56)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at pirobase.cms.smartview.ErrorUrlFilter.doFilter(ErrorUrlFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.jboss.web.tomcat.filters.ReplyHeaderFilter.doFilter(ReplyHeaderFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:173)
+	at org.jboss.web.tomcat.security.SecurityAssociationValve.invoke(SecurityAssociationValve.java:182)
+	at org.jboss.web.tomcat.security.JaccContextValve.invoke(JaccContextValve.java:84)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.jboss.web.tomcat.service.jca.CachedConnectionValve.invoke(CachedConnectionValve.java:157)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:241)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:662)
+
+-->
+<!-- end content_error.vm  -->
+						<br clear="all" />
+					</div><!-- /content container -->
+
+
+					<!-- footer -->
+					
+
+<div id="footer">
+  <div id="footer-left-col">
+    <div class="blogs">
+      <h3 class="Amplitude-Bold">Blogs</h3>
+      <ul>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/cr-blog">Der Chefredaktor-Blog</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/gartenblog">Sabines Gartenblog</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/312846">Leserreisen Blogs</a></li>
+      </ul>
+    </div>
+    <div class="feature">
+      <h3 class="Amplitude-Bold">Feature</h3>
+      <ul>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/video">Videos</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/leserreisen">Coopzeitung-Leserreisen</a></li>
+        <li><a display="none" class="textlink" target="_self" href="http://www.coopzeitung.ch/rezept">Rezeptdatenbank mit Kochvideos</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/fotowettbewerb">Der aktuelle Fotowettbewerb</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/werbung">Werbung</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/tiere">Tiere</a></li>
+      </ul>
+    </div>
+    <div class="epaper" style="background: url('http://www.coopzeitung.ch/site/presse/get/params_Dattachment/596074/Cover-NEW.jpg') no-repeat scroll 43px bottom transparent">
+      <div>
+        <h3 class="Amplitude-Regular">Coopzeitung als ePaper</h3>
+        <div class="call-to-action">
+          <span class="text">Ausgabe Nr. 23 vom 5. Juni 2012</span>
+          <span class="pfeil">&nbsp;</span>
+          <a href="http://epaper.coopzeitung.ch" class="boxLink"></a>
+        </div>
+        <a href="http://epaper.coopzeitung.ch" class="boxLink"></a>
+      </div>
+    </div>
+  </div>
+  <div id="footer-right-col">
+    <div class="service">
+      <h3 class="Amplitude-Bold">Service</h3>
+      <ul>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/kontakt">Kontakt</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/abo">Abo, Adressänderungen, Urlaubsadresse</a></li>
+        <li><a class="textlink" target="_self" href="http://www.coopzeitung.ch/impressum">Impressum &amp; Datenschutz</a></li>
+      </ul>
+    </div>
+    <div class="newsletterabo" style="background: url('http://www.coopzeitung.ch/site/presse/get/params_Dattachment/63820/Newsletter-Cover.png') no-repeat scroll 150px 0 transparent">
+      <div>
+        <h3 class="Amplitude-Bold">Newsletterabo</h3>
+        <p class="teaser">Unser wöchentlicher Online-Newsletter</p>
+        <div class="call-to-action">
+          <span class="text">Hier abonnieren</span>
+          <span class="pfeil">&nbsp;</span>
+          <a href="http://www.coopzeitung.ch/newsletter" class="boxLink"></a>
+        </div>
+        <a href="http://www.coopzeitung.ch/newsletter" class="boxLink"></a>
+      </div>
+    </div>
+    <div class="partner">
+      <h3 class="Amplitude-Bold">Partner</h3>
+      <ul>
+        <li><a href="http://www.coopathome.ch" title="coop@home" class="textlink" target="_blank">coop@home</a></li>
+        <li><a href="http://www.coop.ch" title="Coop Homepage" class="textlink" target="_blank">Coop Homepage</a></li>
+        <li><a href="http://www.freizeit.coopzeitung.ch" class="textlink" target="_blank">Freizeitplattform</a></li>
+      </ul>
+    </div>
+    <div class="clearall"></div>
+  </div>
+  <div class="clearall"></div>
+</div>
+
+
+				</div><!-- /site container -->
+
+				<!-- Banner rechts -->
+				
+				<div id="marginal-container">
+					<div id="skyscraper">
+
+						<!-- BEGIN ADITIONTAG Website-Tag  Werbeplatz homepage, skyscraper , Werbeplatz-Gruppe hompage , Netzwerk 596 , Website Coopzeitung-NEU , Unternehmen Coop Presse , Typ fix , Größe (160x600) -->
+												<!-- END ADITIONTAG-->
+					</div>
+					<div id="skyscraper wallpaper">
+						<!-- BEGIN ADITIONTAG Website-Tag  Werbeplatz homepage, skyscraper-wallpaper , Werbeplatz-Gruppe hompage , Netzwerk 596 , Website Coopzeitung-NEU , Unternehmen Coop Presse , Typ fix , Größe (160x600) -->
+												<!-- END ADITIONTAG-->
+					</div>
+				</div> <!-- marginal-container end -->
+
+				<br clear="all" />
+			</div><!-- /background container -->
+
+			<!-- Disclaimer -->
+			
+
+	<div id="disclaimer-container">
+		<span>Copyright © Coopzeitung - All rights reserved</span>
+		<a href="http://www.coopzeitung.ch/startseite">
+								
+		
+			<img src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/images/logo_coop_69x28.png" alt="Coopzeitung" />
+		</a>
+	</div> <!-- disclaimer-container end -->
+	
+
+			<div id="background-bottom-container"></div>
+
+		</div><!-- /main-wrapper -->
+
+		<!-- Footer include -->
+		
+
+
+<script type="text/javascript" src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/script/init.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+
+<script type="text/javascript" src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/script/quiz.js"></script>
+<script type="text/javascript">
+if (jQuery('#quiz').quiz) {
+	jQuery('#quiz').quiz({
+		url: myQuizJSONControllerUrl + '/index.html'
+	});
+} else {
+	setTimeout(function() {
+		if (jQuery('#quiz').quiz) {
+			jQuery('#quiz').quiz({
+				url: myQuizJSONControllerUrl + '/index.html'
+			});
+		}
+	}, 50);
+}
+</script>
+
+
+
+
+
+
+<!-- Start Webtrends Code-->
+	<!-- START OF SmartSource Data Collector TAG -->
+    <script language="Javascript">    
+    var gDcsId="dcsoqwe5200000ch5xar9hjjq_5t4b";
+    </script>
+    <script src="http://www.coopzeitung.ch/site/presse/resourceCached/26/common/script/webtrends.js" type="text/javascript"></script>
+    <!-- ----------------------------------------------------------------------------------- -->
+    <!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+    <!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+    <!-- ----------------------------------------------------------------------------------- -->
+    <script type="text/javascript">
+    //<![CDATA[
+    var _tag=new WebTrends();
+    _tag.dcsGetId();
+    //]]>>
+    </script>    
+    <script type="text/javascript">
+    //<![CDATA[
+    // Add custom parameters here.
+    //_tag.DCSext.param_name=param_value;
+    _tag.dcsCollect();
+    //]]>>
+    </script>
+    <!-- END OF SmartSource Data Collector TAG -->
+<!-- finished Webtrends Code-->
+
+
+
+		<script type="text/javascript" src="https://imagesrv.adition.com/js/secure_tag_before_body_end.js"></script>
+		<!-- end body node/frame.vm -->
+	</body>
+</html>

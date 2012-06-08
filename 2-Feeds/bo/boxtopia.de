@@ -1,0 +1,2073 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="de"><head>
+<base href="http://www.boxtopia.de/" />
+	<title>Startseite - Die Xbox-Community für erwachsene Gamer</title>
+	
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="description" content="Das Forum für erwachsene Xbox 360-Gamer: Zocken und Spaß haben!" />
+<meta name="keywords" content="Xbox Community, Koop, Videospiele, Games, Xbox, Xbox 360, Online spielen, Xbox Live" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+
+<script type="text/javascript" src="wcf/js/3rdParty/protoaculous.1.8.2.min.js"></script>
+<script type="text/javascript" src="wcf/js/default.js"></script>
+<script type="text/javascript" src="wcf/js/PopupMenuList.class.js"></script>
+<script type="text/javascript" src="wcf/js/AjaxRequest.class.js"></script>
+
+<!-- wbb styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.boxtopia.de/style/burningBoard.css" />
+
+	<!-- special styles -->
+	
+<!-- video bbcode javascript and ie styles -->
+<script type="text/javascript" src="wcf/js/VideoBBCode.class.js"></script>
+<script type="text/javascript">
+	//<![CDATA[			
+	// when the window is fully loaded, initialize the video bbcode javascript
+	Event.observe(window, 'load', function() {
+		new VideoBBCode({
+			zoomIn		: 'Video vergrößern',
+			copyright	: '<a href="http://www.forenberg.de/">BBCode: <strong>Video</strong>, entwickelt von <strong>Bergwerk</strong></a>',
+			defaultTitle	: 'Video'
+		});
+	});
+//]]>
+</script>
+
+<!--[if lte IE 7]>
+<style type="text/css">
+	.videoBBCodeContainerLeft .videoBBCodeInnerContainer, .videoBBCodeContainerRight .videoBBCodeInnerContainer, .videoBBCodeContainerSmallLeft .videoBBCodeInnerContainer, .videoBBCodeContainerSmallRight .videoBBCodeInnerContainer, .videoBBCodeContainerWideLeft .videoBBCodeInnerContainer, .videoBBCodeContainerWideRight .videoBBCodeInnerContainer { width: auto; }
+	.videoBBCodeContainerSmallLeft, .videoBBCodeContainerSmallRight { width: 254px; }
+	.videoBBCodeContainerWideLeft, .videoBBCodeContainerWideRight { width: 504px; }
+	.videoBBCodeContainerLeft, .videoBBCodeContainerRight { width: 404px; }
+</style>
+<![endif]-->
+<!--[if IE]><style type="text/css">.videoBBCodeHR { display: block !important; clear: both; }</style><![endif]--><script type="text/javascript" src="wcf/js/AdvancedPageMenu.class.js"></script>
+<!-- dynamic styles -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.boxtopia.de/wcf/style/style-9.css" />
+
+<!-- print styles -->
+<link rel="stylesheet" type="text/css" media="print" href="http://www.boxtopia.de/wcf/style/extra/print.css" />
+
+<!-- opera styles -->
+<script type="text/javascript">
+	//<![CDATA[
+	if (Prototype.Browser.Opera) {
+		document.write('<style type="text/css">.columnContainer { border: 0; }</style>');
+	}
+	//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+	var SID_ARG_2ND	= '&s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7';
+	var SECURITY_TOKEN = '16d4d22b471afa574443f0185dccbc72c6146788';
+	var RELATIVE_WCF_DIR = 'wcf/';
+	var RELATIVE_WBB_DIR = '';
+	var LANG_DELETE_CONFIRM = 'Möchten Sie das Element wirklich löschen?';
+	//]]>
+</script>
+
+<!-- hack styles -->
+<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.boxtopia.de/wcf/style/extra/ie6-fix.css" />
+	<style type="text/css">
+					</style>
+<![endif]-->
+
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.boxtopia.de/wcf/style/extra/ie7-fix.css" />
+	<script type="text/javascript">
+		//<![CDATA[
+		document.observe('dom:loaded', function() {
+			if (location.hash) {
+				var columnContainer = null;
+				var columnContainerHeight = 0;
+				$$('.columnContainer > .column').each(function(column) {
+					if (columnContainer != column.up()) {
+						columnContainer = column.up();
+						columnContainerHeight = columnContainer.getHeight();
+					}
+					columnContainer.addClassName('columnContainerJS');
+					column.setStyle({ 'height': columnContainerHeight + 'px' });
+					columnContainer.up().setStyle({ 'height': columnContainerHeight + 1 + 'px' });
+					column.removeClassName('column').addClassName('columnJS');
+				});
+			}
+			$$('.layout-3 .second').each(function(column) {
+				column.insert('<div style="float: right; font-size: 0">&nbsp;</div>');
+			});
+		});
+		//]]>
+	</script>
+	<![endif]-->
+
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.boxtopia.de/wcf/style/extra/ie8-fix.css" />
+	<![endif]-->
+
+<link rel="shortcut icon" href="http://www.boxtopia.de/wcf/icon/favicon/faviconBlack.ico" type="image/x-icon" />
+	<script type="text/javascript">
+		//<![CDATA[
+		var ajaxRequest = new AjaxRequest();
+		ajaxRequest.openGet('index.php?action=CronjobsExec'+SID_ARG_2ND);
+		//]]>
+	</script>
+	<link rel="alternate" type="application/rss+xml" href="http://www.boxtopia.de/index.php?page=ThreadsFeed&amp;format=rss2" title="Themen abonnieren (RSS2)" />
+	<link rel="alternate" type="application/atom+xml" href="http://www.boxtopia.de/index.php?page=ThreadsFeed&amp;format=atom" title="Themen abonnieren (Atom)" />
+</head>
+<body id="tplIndex">
+	
+<div id="headerContainer">
+	<a id="top"></a>
+	<div id="userPanel" class="userPanel">
+		<div class="userPanelInner">
+			<p style="display: none;" id="userAvatar">
+				<img src="wcf/images/avatars/avatar-default.png" alt="" />			</p>
+			<p id="userNote">
+				Sie sind nicht angemeldet.			</p>
+			<div id="userMenu">
+				<ul>
+											<li id="userMenuLogin" class="options"><a href="http://www.boxtopia.de/index.php?form=UserLogin&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" id="loginButton"><img src="wcf/icon/loginS.png" alt="" id="loginButtonImage" /> <span>Anmelden</span></a></li>
+
+						<li id="userMenuRegistration"><a href="http://www.boxtopia.de/index.php?page=Register&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="wcf/icon/registerS.png" alt="" /> <span>Registrieren</span></a></li>
+						
+															</ul>
+			</div>
+		</div>
+	</div>
+
+			<script type="text/javascript">
+			//<![CDATA[
+			document.observe("dom:loaded", function() {
+				var loginFormVisible = false;
+
+				var loginBox = $('quickLoginBox');
+				var loginButton = $('loginButton');
+
+				if (loginButton && loginBox) {
+					function showLoginForm(evt) {
+						if (loginBox.hasClassName('hidden')) {
+							loginBox.setStyle('display: none');
+							loginBox.removeClassName('hidden');
+						}
+
+						var top = (loginButton.cumulativeOffset()[1] + loginButton.getHeight() + 5);
+						var left = loginButton.cumulativeOffset()[0] > $$('body')[0].getWidth()/2 ? loginButton.cumulativeOffset()[0] - loginBox.getWidth() + loginButton.getWidth() : loginButton.cumulativeOffset()[0];
+						loginBox.setStyle('left: ' + left + 'px; top: ' + top + 'px;');
+						if (loginBox.visible()) {
+							new Effect.Parallel([
+								new Effect.BlindUp(loginBox),
+								new Effect.Fade(loginBox)
+							], { duration: 0.3 });
+							loginFormVisible = false;
+						}
+						else {
+							new Effect.Parallel([
+								new Effect.BlindDown(loginBox),
+								new Effect.Appear(loginBox)
+							], { duration: 0.3 });
+							loginFormVisible = true;
+						}
+						evt.stop();
+					}
+
+					loginButton.observe('click', showLoginForm);
+					loginButton.observe('dblclick', function() { document.location.href = fixURL('index.php?form=UserLogin&s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7'); });
+
+					document.getElementById('quickLoginUsername').onfocus = function() { if (this.value == 'Benutzername') this.value=''; };
+					document.getElementById('quickLoginUsername').onblur = function() { if (this.value == '') this.value = 'Benutzername'; };
+					$('loginButtonImage').src = $('loginButtonImage').src.gsub('loginS.png', 'loginOptionsS.png');
+				}
+			});
+			//]]>
+		</script>
+	
+	<div id="header">
+
+		
+
+																			
+		<div id="search">
+			<form method="post" action="index.php?form=Search">
+
+				<div class="searchContainer">
+					<input type="text" tabindex="5" id="searchInput" class="inputText" name="q" value="Suchbegriffe eingeben" />
+					<input type="image" tabindex="6" id="searchSubmit" class="searchSubmit inputImage" src="wcf/icon/searchSubmitS.png" alt="Absenden" />
+					<input type="hidden" name="s" value="439bf093f49c3ff24dd029e7e9d2f41048e04eb7" />					<input type="hidden" name="types[]" value="post" />
+					<script type="text/javascript">
+						//<![CDATA[
+						document.getElementById('searchInput').setAttribute('autocomplete', 'off');
+						document.getElementById('searchInput').onfocus = function() { if (this.value == 'Suchbegriffe eingeben') this.value=''; };
+						document.getElementById('searchInput').onblur = function() { if (this.value == '') this.value = 'Suchbegriffe eingeben'; };
+						document.getElementById('searchSubmit').ondblclick = function() { window.location = 'index.php?form=Search&s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7'; };
+													popupMenuList.register("searchInput");
+							document.getElementById('searchInput').className += " searchOptions";
+												//]]>
+					</script>
+											<div class="searchInputMenu">
+							<div class="hidden" id="searchInputMenu">
+								<div class="pageMenu smallFont">
+									<ul>
+														<li><a href="http://www.boxtopia.de/index.php?form=Search&amp;action=unread&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Ungelesene Beiträge</a></li>
+				<li><a href="http://www.boxtopia.de/index.php?form=Search&amp;action=unreplied&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Unbeantwortete Themen</a></li>
+				<li><a href="http://www.boxtopia.de/index.php?form=Search&amp;action=24h&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Themen der letzten 24 Stunden</a></li>
+																	<li><a href="http://www.boxtopia.de/index.php?form=Search&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Erweiterte Suche</a></li>									</ul>
+								</div>
+							</div>
+						</div>
+					
+											<noscript>
+							<p><a href="http://www.boxtopia.de/index.php?form=Search&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Erweiterte Suche</a></p>
+						</noscript>
+									</div>
+			</form>
+		</div>
+		<div id="logo">
+			<div class="logoInner">
+				<h1 class="pageTitle"><a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Die Xbox-Community für erwachsene Gamer</a></h1>
+							</div>
+		</div>
+	</div>
+
+						<div id="mainMenu" class="mainMenu advancedMainMenuPopup">
+	<div class="mainMenuInner"><ul id="mainMenuItems-0"><li id="mainMenuItem-3" class="firstActive"><a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" title="Forum" id="mainMenuLink-3"><img src="icon/indexM.png" alt="" id="mainMenuIcon-3" /> <span id="mainMenuTitle-3">Forum</span></a></li><li id="mainMenuItem-28"><a href="http://www.boxtopiacast.de" title="Podcast" id="mainMenuLink-28"><span id="mainMenuTitle-28">Podcast</span></a></li><li id="mainMenuItem-27"><a href="http://www.boxtopia.de/index.php?page=Calendar&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" title="Kalender" id="mainMenuLink-27"><img src="icon/calendarM.png" alt="" id="mainMenuIcon-27" /> <span id="mainMenuTitle-27">Kalender</span></a></li><li id="mainMenuItem-2"><a href="http://www.boxtopia.de/index.php?page=MembersList&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" title="Mitglieder" id="mainMenuLink-2"><img src="wcf/icon/membersM.png" alt="" id="mainMenuIcon-2" /> <span id="mainMenuTitle-2">Mitglieder</span></a></li><li id="mainMenuItem-29"><a href="http://www.boxtopia.de/index.php?page=Custom&amp;pageID=1&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" title="Über Uns" id="mainMenuLink-29"><img src="wcf/icon/iconM.png" alt="" id="mainMenuIcon-29" /> <span id="mainMenuTitle-29">Über Uns</span></a></li><li id="mainMenuItem-23" class="last"><a href="http://www.boxtopia.de/index.php?page=Help&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" title="Hilfe" id="mainMenuLink-23"><img src="wcf/icon/helpM.png" alt="" id="mainMenuIcon-23" /> <span id="mainMenuTitle-23">Hilfe</span></a></li></ul></div>
+</div>
+<script type="text/javascript">
+	//<![CDATA[
+	    var AdvancedMainMenu = new AdvancedPageMenu('mainMenu', '3', 'popup', 'down', {'arrow':'wcf/icon/pageMenuArrowS.png', 'plus':'wcf/icon/plusS.png', 'minus':'wcf/icon/minusS.png'});
+		onloadEvents.push(function() { AdvancedMainMenu.init(); });
+	//]]>
+</script>
+
+</div>
+<div id="mainContainer">
+
+<div id="main">
+	
+	<div class="mainHeadline">
+		<img src="icon/indexL.png" alt="" ondblclick="document.location.href=fixURL('index.php?action=BoardMarkAllAsRead&amp;t=16d4d22b471afa574443f0185dccbc72c6146788&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7')" title="Alle Foren als gelesen markieren" />
+		<div class="headlineContainer">
+			<h2>Die Xbox-Community für erwachsene Gamer</h2>
+			<p></p>
+		</div>
+	</div>
+	
+		
+		<p class="info">Lieber Besucher, herzlich willkommen bei: Die Xbox-Community für erwachsene Gamer. 
+Falls dies Ihr erster Besuch auf dieser Seite ist, lesen Sie sich bitte die <a href="http://www.boxtopia.de/index.php?page=Help&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Hilfe</a> durch. Dort wird Ihnen die Bedienung dieser Seite näher erläutert.
+Darüber hinaus sollten Sie sich registrieren, um alle Funktionen dieser Seite nutzen zu können.
+Benutzen Sie das <a href="http://www.boxtopia.de/index.php?page=Register&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Registrierungsformular</a>, um sich zu registrieren oder <a href="http://www.boxtopia.de/index.php?page=Help&amp;item=user.login&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">informieren Sie sich ausführlich</a> über den Registrierungsvorgang.
+Falls Sie sich bereits zu einem früheren Zeitpunkt registriert haben, können Sie sich <a href="http://www.boxtopia.de/index.php?form=UserLogin&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">hier anmelden</a>.</p>
+			
+		<div class="top5box">
+		<div class="border titleBarPanel">
+		        <div class="containerHead">
+		                <div class="containerIcon">
+		                        <a href="javascript: void(0)" onclick="openList('top5', { save:true })"><img src="wcf/icon/minusS.png" id="top5Image" alt="" /></a>
+		                </div>
+		                <div class="containerContent">
+		                        <img src="icon/postS.png" alt="" /> Die letzten 7 Beiträge
+		                </div>
+		        </div>
+	           
+			<div id="top5">
+													<table class="tableList">                			                                                        	
+						<tbody>
+																						<tr class="container-1 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board3-xbox-live/board55-community-events/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									Community Events																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon2799" />
+																																	<a class="new" id="top5href2799" href="http://www.boxtopia.de/board3-xbox-live/board55-community-events/2799-boxtopiacast-trials-evolution-bestzeitenhatz/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											Boxtopiacast:...																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board3-xbox-live/board55-community-events/2799-boxtopiacast-trials-evolution-bestzeitenhatz/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a> <span class="light">(Gestern, 22:30)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+															<tr class="container-2 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board45-pc/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									PC																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon2453" />
+																																	<a class="new" id="top5href2453" href="http://www.boxtopia.de/board41-andere-plattformen/board45-pc/2453-diablo-3/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											Diablo 3																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board41-andere-plattformen/board45-pc/2453-diablo-3/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a> <span class="light">(Gestern, 22:26)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+															<tr class="container-1 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board23-rollenspiele-und-strategie/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									Rollenspiele und Strategie																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon2208" />
+																																	<a class="new" id="top5href2208" href="http://www.boxtopia.de/board1-xbox-360-games/board23-rollenspiele-und-strategie/2208-the-elder-scrolls-v-skyrim/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											The Elder Scrolls V: Skyrim																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board1-xbox-360-games/board23-rollenspiele-und-strategie/2208-the-elder-scrolls-v-skyrim/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/345-kurt-van-demon/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Kurt van Demon</a> <span class="light">(Gestern, 12:17)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+															<tr class="container-2 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board21-shooter-und-action/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									Shooter und Action																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon1562" />
+																																	<a class="new" id="top5href1562" href="http://www.boxtopia.de/board1-xbox-360-games/board21-shooter-und-action/1562-ghost-recon-future-soldier/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											Ghost Recon Future Soldier																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board1-xbox-360-games/board21-shooter-und-action/1562-ghost-recon-future-soldier/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/304-luckymorpheus74/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Luckymorpheus74</a> <span class="light">(5. Juni 2012, 16:58)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+															<tr class="container-1 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board4-die-community/board7-alles-außer-zocken/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									Alles außer Zocken																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon532" />
+																																	<a class="new" id="top5href532" href="http://www.boxtopia.de/board4-die-community/board7-alles-außer-zocken/532-musik-die-wo-ich-mir-gern-anhöre/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											Musik, die wo ich mir gern anhöre																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board4-die-community/board7-alles-außer-zocken/532-musik-die-wo-ich-mir-gern-anhöre/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/123-spheresofchaos/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">SpheresOfChaos</a> <span class="light">(5. Juni 2012, 07:52)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+															<tr class="container-2 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board43-wii/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									Wii																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon2803" />
+																																	<a class="new" id="top5href2803" href="http://www.boxtopia.de/board41-andere-plattformen/board43-wii/2803-e3-2012-nintendo-news/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											E3 2012 - Nintendo News																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board41-andere-plattformen/board43-wii/2803-e3-2012-nintendo-news/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/89-saksa2000/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Saksa2000</a> <span class="light">(4. Juni 2012, 15:16)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+															<tr class="container-1 normalFont">				
+									<td class="columnTop5Board" style="width:30%;">
+										<img src="icon/boardS.png" alt="" />
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board24-party-und-musikspiele/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+											<span>
+																									Party- und Musikspiele																							</span>
+										</a> &raquo;
+									</td>                        
+									<td class="columnTop5Topic" style="width:45%;">
+										<span style="float: right;">
+																																											</span>
+										<span class="columnTop5TopicTitle">
+																							<img src="wcf/icon/nextS.png" alt="" id="top5Icon2157" />
+																																	<a class="new" id="top5href2157" href="http://www.boxtopia.de/board1-xbox-360-games/board24-party-und-musikspiele/2157-rockband-3/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">
+												<span>
+																											RockBand 3																									</span>
+											</a>
+										</span>
+									</td>										
+									<td class="columnTop5LastPost" style="width:25%;">						
+										<div class="containerIconSmall">
+											<a href="http://www.boxtopia.de/board1-xbox-360-games/board24-party-und-musikspiele/2157-rockband-3/last-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToLastPostS.png" alt="" title="Zum letzten Beitrag dieses Themas springen" /></a>
+										</div>
+										<div class="containerContentSmall">
+											<p class="smallFont">Von <a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a> <span class="light">(2. Juni 2012, 21:54)</span></p>								
+										</div>						
+									</td>
+								</tr>				
+													</tbody>
+					</table>
+									<div class="top5 container-2">
+		<form method="post" action="index.php?form=UserLogin">
+			<div>
+				<div style="text-align:center; padding:6px;">
+					<span class="normalFont" style="text-align:left;">Anmelden: </span>
+					<input type="text" class="inputText" style="width:150px !important" id="TopXLoginUsername" name="loginUsername" value="" title="Benutzername" />
+					<input type="password" class="inputText" id="TopXLoginPassword" style="width:150px !important" name="loginPassword" value="" title="Kennwort" />
+					<input type="hidden" name="url" value="/index.php?page=Index" />					<input type="hidden" id="TopXLoginUseCookies" name="useCookies" value="1" />
+					<input type="submit" accesskey="s" value="Absenden" />
+					<input type="hidden" name="s" value="439bf093f49c3ff24dd029e7e9d2f41048e04eb7" />				</div>
+			</div>
+		</form>
+	</div>
+			</div>
+			<script type="text/javascript">
+		                //<![CDATA[
+		                initList('top5', 1);
+				$$('.columnTop5TopicTitle').each(function (element) {
+					element.down('img').observe('dblclick', function (event) {
+						var element = Event.element(event);
+						var threadID = element.id.gsub('top5Icon', '');
+						new Ajax.Request('index.php?action=ThreadMarkAsRead&ajax=1&threadID='+threadID+'&t='+SECURITY_TOKEN, {
+							onSuccess: function () {
+								$('top5Icon'+threadID).writeAttribute({ 'src': 'icon/threadS.png' });
+								$('top5href'+threadID).removeClassName('new');
+							}
+						});
+					});
+				});
+		                //]]>
+		        </script>
+	        </div>     
+	</div>
+	
+		<script type="text/javascript" src="js/BoardMarkAsRead.class.js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		var boards = new Hash();
+		document.observe("dom:loaded", function() {
+			new BoardMarkAsRead(boards);
+		});
+	//]]>
+	</script>
+	
+		<ul id="boardlist">
+					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board1">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=1&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink1" onclick="return !openList('category1', { save: true, openTitle: 'Kategorie: &raquo;Xbox 360 Games&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Xbox 360 Games&laquo; schließen' })"><img id="category1Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Xbox 360 Games&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink1" href="http://www.boxtopia.de/board1-xbox-360-games/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Xbox 360 Games</a>
+								</h3>																	<p class="boardlistDescription">
+										Diskutiert über sämtliche Xbox 360 Games hier									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category1">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board21">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon2" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink2" class="new" href="http://www.boxtopia.de/board1-xbox-360-games/board21-shooter-und-action/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Shooter und Action<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(2, {
+											'boardNo': 2,
+											'boardID': 21,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Ego - und Third-Person, Tactical, Survival-Horror, Beat'em'ups									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board1-xbox-360-games/board21-shooter-und-action/1562-ghost-recon-future-soldier/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board21-shooter-und-action/1562-ghost-recon-future-soldier/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Ghost Recon Future Soldier</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/304-luckymorpheus74/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Luckymorpheus74</a>
+																				<span class="light">(5. Juni 2012, 16:58)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>250</dd>
+									<dt>Beiträge</dt>
+									<dd>10&nbsp;304</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board23">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon3" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink3" class="new" href="http://www.boxtopia.de/board1-xbox-360-games/board23-rollenspiele-und-strategie/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Rollenspiele und Strategie<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(3, {
+											'boardNo': 3,
+											'boardID': 23,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										RPGs, Online-Rollenspiele, Adventures, Strategie									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board1-xbox-360-games/board23-rollenspiele-und-strategie/2208-the-elder-scrolls-v-skyrim/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board23-rollenspiele-und-strategie/2208-the-elder-scrolls-v-skyrim/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">The Elder Scrolls V: Skyrim</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/345-kurt-van-demon/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Kurt van Demon</a>
+																				<span class="light">(Gestern, 12:17)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>69</dd>
+									<dt>Beiträge</dt>
+									<dd>3&nbsp;499</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board22">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon4" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink4" href="http://www.boxtopia.de/board1-xbox-360-games/board22-sport-und-rennspiele/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Sport- und Rennspiele</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Sportsimulationen, Rennspiele, Arcade- und Fun-Racer									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board1-xbox-360-games/board22-sport-und-rennspiele/2791-ridge-racer-unbounded/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board22-sport-und-rennspiele/2791-ridge-racer-unbounded/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Ridge Racer Unbounded</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/225-tasmane79/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">TASMANE79</a>
+																				<span class="light">(9. Mai 2012, 11:19)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>76</dd>
+									<dt>Beiträge</dt>
+									<dd>3&nbsp;072</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board24">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon5" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink5" class="new" href="http://www.boxtopia.de/board1-xbox-360-games/board24-party-und-musikspiele/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Party- und Musikspiele<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(5, {
+											'boardNo': 5,
+											'boardID': 24,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Musikspiele, Quiz-Games, Party-Titel									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board1-xbox-360-games/board24-party-und-musikspiele/2157-rockband-3/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board24-party-und-musikspiele/2157-rockband-3/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">RockBand 3</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a>
+																				<span class="light">(2. Juni 2012, 21:54)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>36</dd>
+									<dt>Beiträge</dt>
+									<dd>718</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board28">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon6" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink6" href="http://www.boxtopia.de/board1-xbox-360-games/board28-tipps-tricks-und-achievements/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Tipps, Tricks und Achievements</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Kommt ihr in einem Spiel nicht weiter? Habt ihr Tipps in Sachen Gamerscore?									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board1-xbox-360-games/board28-tipps-tricks-und-achievements/2766-assassins-creed-revelations/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board28-tipps-tricks-und-achievements/2766-assassins-creed-revelations/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Assassins Creed Revelations</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/353-shakedalic/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">shakedalic</a>
+																				<span class="light">(9. April 2012, 17:04)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>34</dd>
+									<dt>Beiträge</dt>
+									<dd>417</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board6">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon7" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink7" class="new" href="http://www.boxtopia.de/board1-xbox-360-games/board6-rund-um-die-xbox-360/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Rund um die Xbox 360<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(7, {
+											'boardNo': 7,
+											'boardID': 6,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Trends und Neuigkeiten in Sachen 360 und was euch sonst noch bewegt auf der Box									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board1-xbox-360-games/board6-rund-um-die-xbox-360/291-schnäppchen/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board1-xbox-360-games/board6-rund-um-die-xbox-360/291-schnäppchen/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Schnäppchen</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/345-kurt-van-demon/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Kurt van Demon</a>
+																				<span class="light">(2. Juni 2012, 18:46)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>253</dd>
+									<dt>Beiträge</dt>
+									<dd>5&nbsp;515</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board3">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=3&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink8" onclick="return !openList('category3', { save: true, openTitle: 'Kategorie: &raquo;Xbox Live&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Xbox Live&laquo; schließen' })"><img id="category3Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Xbox Live&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink8" href="http://www.boxtopia.de/board3-xbox-live/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Xbox Live</a>
+								</h3>																	<p class="boardlistDescription">
+										Das XBL Universum: Verabredet euch zum gemeinsamen Zocken									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category3">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board16">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon9" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink9" href="http://www.boxtopia.de/board3-xbox-live/board16-xbox-live-verabredungen/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Xbox Live Verabredungen</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Mitspielersuche zu einzelnen Xbox 360-Spielen, Taktiken und Strategien in Online-Matches									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board3-xbox-live/board16-xbox-live-verabredungen/2783-trials-mp-spontan/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board3-xbox-live/board16-xbox-live-verabredungen/2783-trials-mp-spontan/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Trials MP spontan</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/104-khaaoos/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Khaaoos</a>
+																				<span class="light">(3. Mai 2012, 16:49)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>216</dd>
+									<dt>Beiträge</dt>
+									<dd>4&nbsp;830</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board55">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon10" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink10" class="new" href="http://www.boxtopia.de/board3-xbox-live/board55-community-events/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Community Events<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(10, {
+											'boardNo': 10,
+											'boardID': 55,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Organisierte Events der Community-Mitglieder									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board3-xbox-live/board55-community-events/2799-boxtopiacast-trials-evolution-bestzeitenhatz/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board3-xbox-live/board55-community-events/2799-boxtopiacast-trials-evolution-bestzeitenhatz/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Boxtopiacast: Trials-Evolution-Bestzeitenhatz</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a>
+																				<span class="light">(Gestern, 22:30)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>39</dd>
+									<dt>Beiträge</dt>
+									<dd>2&nbsp;613</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board46">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon11" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink11" class="new" href="http://www.boxtopia.de/board3-xbox-live/board46-xbox-live-arcade-games/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Xbox Live Arcade Games<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(11, {
+											'boardNo': 11,
+											'boardID': 46,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Die Download-Titel auf dem Xbox Live Arcade Marktplatz im Visier									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board3-xbox-live/board46-xbox-live-arcade-games/2753-trials-evolution/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board3-xbox-live/board46-xbox-live-arcade-games/2753-trials-evolution/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Trials Evolution</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/89-saksa2000/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Saksa2000</a>
+																				<span class="light">(1. Juni 2012, 20:40)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>59</dd>
+									<dt>Beiträge</dt>
+									<dd>881</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board52">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon12" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink12" href="http://www.boxtopia.de/board3-xbox-live/board52-indie-games-und-der-xbox-live-marktplatz/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Indie Games und der Xbox Live Marktplatz</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Alles rund den Marktplatz auf der Xbox 360									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board3-xbox-live/board52-indie-games-und-der-xbox-live-marktplatz/2674-neue-demos/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board3-xbox-live/board52-indie-games-und-der-xbox-live-marktplatz/2674-neue-demos/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Neue Demos</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/74-danielmax81/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">DanielMax81</a>
+																				<span class="light">(14. Januar 2012, 15:54)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>11</dd>
+									<dt>Beiträge</dt>
+									<dd>76</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board51">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=51&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink13" onclick="return !openList('category51', { save: true, openTitle: 'Kategorie: &raquo;Boxtopia Podcast&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Boxtopia Podcast&laquo; schließen' })"><img id="category51Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Boxtopia Podcast&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink13" href="http://www.boxtopia.de/board51-boxtopia-podcast/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Boxtopia Podcast</a>
+								</h3>																	<p class="boardlistDescription">
+										Hier könnt ihr die Folgen des Boxtopia Podcasts diskutieren und die neusten Folgen herunterladen. Der Podcast erscheint alle 14 Tage.									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category51">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board54">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon14" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink14" href="http://www.boxtopia.de/board51-boxtopia-podcast/board54-podcast-folgen/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Podcast-Folgen</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Hier gibt es die einzelnen Podcast-Folgen zum Diskutieren und Downloaden									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board51-boxtopia-podcast/board54-podcast-folgen/2798-boxtopiacast-45-von-gletscherspalten-und-busenwundern/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board51-boxtopia-podcast/board54-podcast-folgen/2798-boxtopiacast-45-von-gletscherspalten-und-busenwundern/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Boxtopiacast #45: Von Gletscherspalten und Busenwundern</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/2-lance/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Lance</a>
+																				<span class="light">(26. Mai 2012, 22:12)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>46</dd>
+									<dt>Beiträge</dt>
+									<dd>234</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board41">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=41&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink15" onclick="return !openList('category41', { save: true, openTitle: 'Kategorie: &raquo;Andere Plattformen&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Andere Plattformen&laquo; schließen' })"><img id="category41Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Andere Plattformen&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink15" href="http://www.boxtopia.de/board41-andere-plattformen/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Andere Plattformen</a>
+								</h3>																	<p class="boardlistDescription">
+										Hier könnt ihr euch über die anderen Video- und Computerspiel-Plattformen austauschen									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category41">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board42">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon16" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink16" href="http://www.boxtopia.de/board41-andere-plattformen/board42-playstation-3/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">PlayStation 3</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Die Sony-Welt: Alle Games zur PS2 und PS3 findet ihr hier									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board41-andere-plattformen/board42-playstation-3/2751-hunted-die-schmiede-der-finsternis/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board42-playstation-3/2751-hunted-die-schmiede-der-finsternis/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Hunted: Die Schmiede der Finsternis</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/308-pani/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">pani</a>
+																				<span class="light">(23. März 2012, 09:30)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>57</dd>
+									<dt>Beiträge</dt>
+									<dd>1&nbsp;146</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board43">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon17" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink17" class="new" href="http://www.boxtopia.de/board41-andere-plattformen/board43-wii/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Wii<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(17, {
+											'boardNo': 17,
+											'boardID': 43,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Nintendo, Mario und Zelda finden hier ihren Platz									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board41-andere-plattformen/board43-wii/2803-e3-2012-nintendo-news/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board43-wii/2803-e3-2012-nintendo-news/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">E3 2012 - Nintendo News</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/89-saksa2000/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Saksa2000</a>
+																				<span class="light">(4. Juni 2012, 15:16)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>14</dd>
+									<dt>Beiträge</dt>
+									<dd>200</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board44">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon18" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink18" href="http://www.boxtopia.de/board41-andere-plattformen/board44-mobile-plattformen/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Mobile Plattformen</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Mobile Gaming: PSP, Nintendo DS, iPhone, iPod Touch									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board41-andere-plattformen/board44-mobile-plattformen/2797-3ds-heroes-of-ruin/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board44-mobile-plattformen/2797-3ds-heroes-of-ruin/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">3ds: Heroes of Ruin</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/89-saksa2000/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Saksa2000</a>
+																				<span class="light">(24. Mai 2012, 11:19)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>29</dd>
+									<dt>Beiträge</dt>
+									<dd>520</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board45">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon19" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink19" class="new" href="http://www.boxtopia.de/board41-andere-plattformen/board45-pc/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">PC<span>&nbsp;(2)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(19, {
+											'boardNo': 19,
+											'boardID': 45,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Daddeln am Rechner ist hier angesagt									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board41-andere-plattformen/board45-pc/2453-diablo-3/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board45-pc/2453-diablo-3/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Diablo 3</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a>
+																				<span class="light">(Gestern, 22:26)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>49</dd>
+									<dt>Beiträge</dt>
+									<dd>978</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board56">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon20" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink20" href="http://www.boxtopia.de/board41-andere-plattformen/board56-retro-gaming/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Retro-Gaming</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Duke Nukem, Doom, Sega Mega Drive, NES, F-Zero: Alles was alt, aber gut ist, hier rein!									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board41-andere-plattformen/board56-retro-gaming/2775-frotz-alte-infocom-adventures-für-das-ipad/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board56-retro-gaming/2775-frotz-alte-infocom-adventures-für-das-ipad/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Frotz: Alte Infocom-Adventures für das iPad</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/66-lillebror/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Lillebror</a>
+																				<span class="light">(17. April 2012, 19:04)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>17</dd>
+									<dt>Beiträge</dt>
+									<dd>155</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board53">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon21" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink21" href="http://www.boxtopia.de/board41-andere-plattformen/board53-online-gaming-mit-anderen-plattformen/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Online-Gaming mit anderen Plattformen</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Wollt ihr auf der Wii oder auf der PS3 gemeinsam zocken? Verabredet euch hier									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board41-andere-plattformen/board53-online-gaming-mit-anderen-plattformen/2020-schnauze-voll-ich-bin-raus/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board41-andere-plattformen/board53-online-gaming-mit-anderen-plattformen/2020-schnauze-voll-ich-bin-raus/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Schnauze voll - ich bin raus!!!</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/104-khaaoos/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Khaaoos</a>
+																				<span class="light">(22. Dezember 2010, 11:04)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>7</dd>
+									<dt>Beiträge</dt>
+									<dd>180</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board47">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=47&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink22" onclick="return !openList('category47', { save: true, openTitle: 'Kategorie: &raquo;Technik und Hardware&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Technik und Hardware&laquo; schließen' })"><img id="category47Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Technik und Hardware&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink22" href="http://www.boxtopia.de/board47-technik-und-hardware/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Technik und Hardware</a>
+								</h3>																	<p class="boardlistDescription">
+										Grundlage jeglicher Daddelei: die dafür nötige Technik									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category47">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board48">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon23" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink23" href="http://www.boxtopia.de/board47-technik-und-hardware/board48-konsolen-und-zubehör/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Konsolen und Zubehör</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Probleme mit der Konsole? Braucht ihr Hilfe in Sachen Anschluss der Daddelkisten?									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board47-technik-und-hardware/board48-konsolen-und-zubehör/2776-pobleme-mit-fritzbox-7390/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board47-technik-und-hardware/board48-konsolen-und-zubehör/2776-pobleme-mit-fritzbox-7390/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Pobleme mit Fritzbox 7390</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/210-yoshi24/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">YOSHI24</a>
+																				<span class="light">(20. April 2012, 13:39)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>58</dd>
+									<dt>Beiträge</dt>
+									<dd>664</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board49">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon24" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink24" href="http://www.boxtopia.de/board47-technik-und-hardware/board49-tv-video-audio/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">TV, Video, Audio</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Kaufempfehlung für einen neuen TV? Such ihr die richtige Soundanlage?									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board47-technik-und-hardware/board49-tv-video-audio/2719-3d-lcd-oder-plasmaglotze/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board47-technik-und-hardware/board49-tv-video-audio/2719-3d-lcd-oder-plasmaglotze/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">3d LCD oder Plasmaglotze</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/57-pepe/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Pepe</a>
+																				<span class="light">(17. Februar 2012, 13:12)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>22</dd>
+									<dt>Beiträge</dt>
+									<dd>307</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board50">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon25" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink25" href="http://www.boxtopia.de/board47-technik-und-hardware/board50-pc-technik/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">PC-Technik</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Windows-Probleme? Macht der Rechner Mucken? Internet geht nicht? Hier posten									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board47-technik-und-hardware/board50-pc-technik/2796-grafikkarte-gesucht/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board47-technik-und-hardware/board50-pc-technik/2796-grafikkarte-gesucht/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Grafikkarte gesucht</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/89-saksa2000/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Saksa2000</a>
+																				<span class="light">(24. Mai 2012, 06:33)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>32</dd>
+									<dt>Beiträge</dt>
+									<dd>221</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board4">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=4&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink26" onclick="return !openList('category4', { save: true, openTitle: 'Kategorie: &raquo;Die Community&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Die Community&laquo; schließen' })"><img id="category4Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Die Community&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink26" href="http://www.boxtopia.de/board4-die-community/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Die Community</a>
+								</h3>																	<p class="boardlistDescription">
+										Stellt euch vor, diskutiert über das Forum und unterhaltet euch noch über andere Dinge, die nix mit Zocken zu tun haben.									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category4">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board20">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon27" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink27" class="new" href="http://www.boxtopia.de/board4-die-community/board20-das-forum/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Das Forum<span>&nbsp;(2)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(27, {
+											'boardNo': 27,
+											'boardID': 20,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Alles, was das Forum selbst betrifft, hier rein									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board4-die-community/board20-das-forum/2346-gerade-gekauft/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board4-die-community/board20-das-forum/2346-gerade-gekauft/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Gerade gekauft ...</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/235-cameo/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Cameo</a>
+																				<span class="light">(31. Mai 2012, 20:59)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>117</dd>
+									<dt>Beiträge</dt>
+									<dd>4&nbsp;895</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board14">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon28" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink28" href="http://www.boxtopia.de/board4-die-community/board14-selbstvorstellungen/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Selbstvorstellungen</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Neu im Forum? Stellt euch doch kurz vor									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board4-die-community/board14-selbstvorstellungen/2760-shakedalic-stellt-sich-vor/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board4-die-community/board14-selbstvorstellungen/2760-shakedalic-stellt-sich-vor/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">shakedalic stellt sich vor</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/331-smeetz/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">smeetz</a>
+																				<span class="light">(16. April 2012, 16:06)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>115</dd>
+									<dt>Beiträge</dt>
+									<dd>2&nbsp;127</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board7">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon29" src="icon/boardNewM.png" alt="" title="Forum durch Doppelklick als gelesen markieren" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink29" class="new" href="http://www.boxtopia.de/board4-die-community/board7-alles-außer-zocken/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Alles außer Zocken<span>&nbsp;(1)</span></a>
+								</h4>																	<script type="text/javascript">
+										//<![CDATA[
+										boards.set(29, {
+											'boardNo': 29,
+											'boardID': 7,
+											'icon': 'icon/boardM.png'
+										});
+										//]]>
+									</script>
+																
+																	<p class="boardlistDescription">
+										Filme, Serien, Musik, TV, Sport und was euch sonst bewegt									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board4-die-community/board7-alles-außer-zocken/532-musik-die-wo-ich-mir-gern-anhöre/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board4-die-community/board7-alles-außer-zocken/532-musik-die-wo-ich-mir-gern-anhöre/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Musik, die wo ich mir gern anhöre</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/123-spheresofchaos/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">SpheresOfChaos</a>
+																				<span class="light">(5. Juni 2012, 07:52)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>276</dd>
+									<dt>Beiträge</dt>
+									<dd>7&nbsp;180</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board26">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon30" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink30" href="http://www.boxtopia.de/board4-die-community/board26-webshit-und-forenspiele/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Webshit und Forenspiele</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Skurrile Funde aus der Welt des Internets und jede Menge Forenspiele									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+													<div class="boardlistLastPost">								
+								<div class="containerIconSmall"><a href="http://www.boxtopia.de/board4-die-community/board26-webshit-und-forenspiele/814-webshit/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/goToFirstNewPostS.png" alt="" title="Zum ersten neuen Beitrag springen" /></a></div>
+								<div class="containerContentSmall">
+									<p>
+										<span class="prefix"><strong></strong></span>
+										<a href="http://www.boxtopia.de/board4-die-community/board26-webshit-und-forenspiele/814-webshit/first-new-post.html?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">webshit  : )</a>
+									</p>
+									<p>Von
+																					<a href="http://www.boxtopia.de/user/89-saksa2000/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Saksa2000</a>
+																				<span class="light">(29. Mai 2012, 13:08)</span>
+									</p>
+								</div>
+							</div>
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>135</dd>
+									<dt>Beiträge</dt>
+									<dd>9&nbsp;649</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>					
+																											
+							
+								<li class="category border">
+					<div class="containerHead boardlistInner board31">
+						<div class="boardlistTitle">
+							<div class="containerIcon">
+																																			<a href="http://www.boxtopia.de/index.php?page=Index&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7&amp;closeCategory=31&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7#boardLink31" onclick="return !openList('category31', { save: true, openTitle: 'Kategorie: &raquo;Boxtopia Marktplatz&laquo; öffnen', closeTitle: 'Kategorie: &raquo;Boxtopia Marktplatz&laquo; schließen' })"><img id="category31Image" src="wcf/icon/minusS.png" alt="" title="Kategorie: &raquo;Boxtopia Marktplatz&laquo; schließen" /></a>
+															</div>
+							<div class="containerContent">
+								<h3 class="boardTitle">									<a id="boardLink31" href="http://www.boxtopia.de/board31-boxtopia-marktplatz/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Boxtopia Marktplatz</a>
+								</h3>																	<p class="boardlistDescription">
+										Tauscht, verleiht oder kauft eure Games. ACHTUNG: Freischaltung erforderlich									</p>
+																
+																
+															</div>
+						</div>
+					</div>
+						
+						
+			<ul id="category31">								
+																												
+
+				<li>
+					<div class="boardlistInner container-1 board34">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon32" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink32" href="http://www.boxtopia.de/board31-boxtopia-marktplatz/board34-ü18-tauschbörse/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Ü18-Tauschbörse</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Tauscht und verleiht Spiele. Freischaltung erforderlich, siehe Thread &quot;Ü18-Handelsforum&quot; im Forum &quot;Das Forum&quot;.									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>25</dd>
+									<dt>Beiträge</dt>
+									<dd>189</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>								
+																												
+
+				<li>
+					<div class="boardlistInner container-2 board33">
+						<div class="boardlistTitle boardlistCols-3">
+							<div class="containerIcon">
+								<img id="boardIcon33" src="icon/boardM.png" alt="" />
+							</div>
+							
+							<div class="containerContent">
+								<h4 class="boardTitle">									<a id="boardLink33" href="http://www.boxtopia.de/board31-boxtopia-marktplatz/board33-ü18-marktplatz/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Ü18-Marktplatz</a>
+								</h4>																
+																	<p class="boardlistDescription">
+										Kauft und Verkauft eure Games. Freischaltung erforderlich, siehe Thread &quot;Ü18-Handeslforum&quot; im Forum &quot;Das Forum&quot;.									</p>
+																
+																
+																
+																
+															</div>
+						</div>
+						
+												
+													<div class="boardlistStats">
+								<dl>
+									<dt>Themen</dt>
+									<dd>208</dd>
+									<dt>Beiträge</dt>
+									<dd>1&nbsp;100</dd>
+								</dl>
+							</div>
+												<!--[if IE 7]><span> </span><![endif]-->
+					</div>
+						
+						
+						
+			</li>			</ul></li>			</ul>
+	
+		
+					<div class="border infoBox">
+							<div class="container-1 infoBoxUsersOnline">
+					<div class="containerIcon"> <img src="wcf/icon/membersM.png" alt="" /></div>
+					<div class="containerContent">
+						<h3><a href="http://www.boxtopia.de/index.php?page=UsersOnline&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Zur Zeit ist 1 Benutzer online:</a></h3> 
+						<p class="smallFont">
+ 
+	1 Besucher
+ - Rekord: 1&nbsp;723 Benutzer (Dienstag, 29. März 2011, 15:41)</p>
+											</div>
+				</div>
+						
+							<div class="container-2 infoBoxStatistics">
+					<div class="containerIcon"><img src="icon/statisticsM.png" alt="" /></div>
+					<div class="containerContent">
+						<h3>Statistik:</h3> 
+						<p class="smallFont">239 Mitglieder - 2&nbsp;541 Themen - 66&nbsp;990 Beiträge (41,92 Beiträge pro Tag)<br />
+Unser neuestes Mitglied heißt: <a href="http://www.boxtopia.de/user/356-majoshka/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Majoshka</a>.</p>
+					</div>
+				</div>
+						
+			<div class="container-1">
+	<div class="containerIcon"> <img src="wcf/icon/birthdayM.png" alt="" /></div>
+	<div class="containerContent">
+					<h3><a href="http://www.boxtopia.de/index.php?page=CalendarBirthdayEvent">Heute haben folgende Mitglieder Geburtstag:</a></h3>
+				
+		<p class="smallFont">
+											 								<a href="http://www.boxtopia.de/user/116-superkowboy/?s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7">Superkowboy (38)</a>							</p>
+	</div>
+</div>			
+					</div>
+		<div class="pageOptions">
+				<a href="http://www.boxtopia.de/index.php?action=BoardMarkAllAsRead&amp;t=16d4d22b471afa574443f0185dccbc72c6146788&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7"><img src="icon/boardMarkAsReadS.png" alt="" /> <span>Alle Foren als gelesen markieren</span></a>
+	</div>
+</div>
+
+<script type="text/javascript" src="mobiquo/tapatalkdetect.js"></script></div>
+<div id="footerContainer">
+	<div id="footer">
+							<div id="footerMenu" class="footerMenu advancedFooterMenuPopup">
+	<div class="footerMenuInner"><ul id="footerMenuItems-0"><li id="footerMenuItem-24" class="first"><a href="http://www.boxtopia.de/index.php?page=LegalNotice&amp;s=439bf093f49c3ff24dd029e7e9d2f41048e04eb7" title="Impressum" id="footerMenuLink-24"><img src="wcf/icon/legalNoticeS.png" alt="" id="footerMenuIcon-24" /> <span id="footerMenuTitle-24">Impressum</span></a></li></ul></div>
+</div>
+<script type="text/javascript">
+	//<![CDATA[
+	    var AdvancedFooterMenu = new AdvancedPageMenu('footerMenu', '3', 'popup', 'up', {'arrow':'wcf/icon/pageMenuArrowS.png', 'plus':'wcf/icon/plusS.png', 'minus':'wcf/icon/minusS.png'});
+		onloadEvents.push(function() { AdvancedFooterMenu.init(); });
+	//]]>
+</script>		<div id="footerOptions" class="footerOptions">
+			<div class="footerOptionsInner">
+				<ul>
+										
+															<li id="toTopLink" class="last extraButton"><a href="/#top" title="Zum Seitenanfang"><img src="wcf/icon/upS.png" alt="Zum Seitenanfang" /> <span class="hidden">Zum Seitenanfang</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<p class="copyright"><a href="http://www.woltlab.com/de/">Forensoftware: <strong>Burning Board&reg; 3.1.6</strong>, entwickelt von <strong>WoltLab&reg; GmbH</strong></a></p>
+	</div>
+</div>
+	<div class="border loginPopup hidden" id="quickLoginBox">
+		<form method="post" action="index.php?form=UserLogin" class="container-1">
+			<div>
+				<input tabindex="1" type="text" class="inputText" id="quickLoginUsername" name="loginUsername" value="Benutzername" title="Benutzername" />
+				<input tabindex="2" type="password" class="inputText" id="quickLoginPassword" name="loginPassword" value="" title="Kennwort" />
+				<input type="hidden" name="url" value="/index.php?page=Index" />				<input type="hidden" name="s" value="439bf093f49c3ff24dd029e7e9d2f41048e04eb7" />				<input tabindex="4" type="image" class="inputImage" src="wcf/icon/submitS.png" alt="Absenden" />
+			</div>
+			<p><label><input tabindex="3" type="checkbox" id="useCookies" name="useCookies" value="1" /> Dauerhaft angemeldet bleiben?</label></p>
+		</form>
+	</div>
+
+</body>
+</html>

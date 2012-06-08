@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>404 Error - Not Found</title>
+
+<style type="text/css">
+<!--
+#ERR_MAIN { margin:11px auto 0 auto; width:470px; }
+.LINE_DOT { background-image:url(/lolipop_service_documents/simple/line_dot.gif); height:2px; }
+a.IMG_LINK:hover { background:none; }
+.ERR_TXT { width: 470px; height:18px; padding: 7px 0px 5px 10px ; margin:20px 0px 10px 0px; background-color: #bbeeee; font-weight: bold; color:#ee5555; font-size:14px; }
+.ERR_CHK { width: 470px; margin:0px 0px 0px 10px; font-size:12px; }
+.PEPABO  { border-top: 1px solid #666; color:#022055; padding: 10px 0px 0px 0px; margin-bottom:0px; text-align:center; font-family:Verdana;  font-size:12px; }
+.COPY{ font-size: 11px; margin-bottom:15px; text-align:center; font-family:Verdana; }
+-->
+</style>
+
+
+<script type="text/javascript">
+    function setCopyrights () {
+        document.write('copyright(c)2001-' + 2012 + ' <a href="http://www.paperboy.co.jp/" target="_blank">paperboy&co</a>. all rights reserved');
+    }
+</script>
+
+</head>
+
+<body>
+
+	<div id="ERR_MAIN">
+
+		<h1 style="margin:0px;"><img src="/lolipop_service_documents/simple/obj_404.gif" width="450" height="81" alt="404 エラー" /></h1>
+		<div class="LINE_DOT" style="margin:7px 0px;"><img src="/lolipop_service_documents/simple/sp.gif" width="1" height="1"></div>
+		<a href="http://lolipop.jp/" class="IMG_LINK" title="月額105円～ 最大30GB マルチドメイン対応 ロリポップ！"><img src="/lolipop_service_documents/simple/btn_lolipop.gif" border="0" width="320" height="16" alt="月額105円～ 最大30GB マルチドメイン対応 ロリポップ！" /></a>
+
+		<dl style="margin: 15px 0px; line-height:20px;">
+			<dt class="ERR_TXT">※指定されたページ（ＵＲＬ）は見つかりません。</dt>
+			<dd class="ERR_CHK">&bull;&nbsp;ＵＲＬに間違いがないか、再度確認してください。再読み込みしてください。</dd>
+			<dd class="ERR_CHK">&bull;&nbsp;ご利用中のユーザー様は 【 <a href="http://lolipop.jp/support/faq/etc/000553/" target="_top">ロリポップ！よくある質問集</a> 】 をご参照ください。</dd>
+			<dd class="ERR_CHK">&bull;&nbsp;疑問点等ございましたら 【 <a href="http://lolipop.jp/support/inq/" target="_top">ロリポップ！お問合せフォーム</a> 】 よりお問合せください。</dd>
+		</dl>
+
+		<iframe src="http://ad.calamel.jp/ads/lolipop" width="470" height="640" frameborder="0" scrolling="no">
+		この部分は iframe 対応のブラウザで見てください。
+		</iframe>
+
+		<h4 class="PEPABO"><a href="http://www.paperboy.co.jp/" target="_blank">株式会社 paperboy&co.</a></h4>
+		<div class="COPY"><script type="text/javascript">setCopyrights();</script></div>
+
+	</div>
+</body>
+</html>

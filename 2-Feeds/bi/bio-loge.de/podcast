@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="title" content="bio-loge.de" />
+<meta name="robots" content="index, follow, noarchive" />
+<meta name="description" content="Interessante Themen rund um die Biologie" />
+<meta name="keywords" content="Biologie, Podcast, Bio-Podcast, iTunes, Tiere, Pflanzen, Flora, Fauna, Meldungen, Nachrichten, News, Ralph Stelzer, rastel, Frank Stelzer, BleedingMoon, Symfony" />
+<meta name="language" content="de" />
+<meta name="author" content="Ralph Stelzer" />
+
+<title>bio-loge.de</title>
+
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="alternate stylesheet" type="text/css" media="screen" href="/css/large.css" />
+
+<script type="text/javascript" src="/js/bl-common.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/prototype.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/effects.js"></script>
+<script type="text/javascript" src="/sf/prototype/js/builder.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/bio-loge-style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/css/bio-loge-indicator.css" />
+</head>
+<body>
+
+<a name="top"></a>
+<div id="container">
+	<div id="header" >
+ 		<img src="/images/design/standard/logen-banner.gif" /><br />
+ 			<div id="navcontainer">
+		<ul id="navlist">
+		<li ><a accesskey="1" href="/meldungen/">Meldungen</a></li>
+		<li ><a accesskey="2" href="/blog/">Blog</a></li>
+		<li ><a accesskey="3" href="/podcast/">Podcast</a></li>
+		<li><a accesskey="4" href="http://forum.bio-loge.de/">Forum</a>		<li ><a accesskey="5" href="/feedinfos/">RSS</a></li>
+		<li ><a accesskey="6" href="/hilfe.html">Hilfe</a></li>
+		<li ><a accesskey="7" href="/kontakt.html">Kontakt</a></li>
+		<li ><a accesskey="8" href="/impressum.html">Impressum</a></li>
+		<!-- <li </li> -->
+		</ul>
+		<br clear="all" />
+	</div> 
+	</div>
+	<div id="paneright" >
+		<div id="paneright-inner">
+				
+
+<h4>Hallo Gast </h4>
+
+<ul>
+		<li><a href="/registrieren.html">registrieren</a></li>
+	<!-- <li><a href="#" onclick="new Effect.BlindDown('sidebar_login_container', {duration:0.5});; switchContentWithOnclick(this, '<a href=\'#\' onclick=\'new Effect.BlindUp(\'sidebar_login_container\', {duration:0.5})\'>abmelden</a>' ); return false;">anmelden</a></li> -->
+	 <li><a href="#" onclick="new Effect.toggle('sidebar_login_container', 'blind', {duration:0.5}); return false;">anmelden</a>
+	</ul>
+<div id="sidebar_login_container" style="display: none"><!--  -->
+
+<form method="post" action="/login.html">  <fieldset>
+	<h5>Login:</h5>
+  <div class="form-row">
+    <div style="display:none;" class="form_error" id="error_for_username"> &darr;&nbsp; &nbsp;&darr;</div>
+    <input type="text" name="username" id="username" value="Benutzername" size="16" class="small" onclick="clearForm(this, 'Benutzername')" />  </div>
+
+  <div class="form-row">
+    <div style="display:none;" class="form_error" id="error_for_password"> &darr;&nbsp; &nbsp;&darr;</div>
+    <input type="password" name="password" id="password" value="Passwort" size="16" class="small" onclick="clearFormForced(this)" />  </div>
+  <div class="form-row">
+	<label for="remember"></label>
+	<div class="form-content"><input type="checkbox" name="remember" id="remember" value="1" /> automatisch einloggen?</div>
+	<div>  <a href="/passwort_vergessen.html">Passwort vergessen?</a></div>
+  </div>
+  
+  <input type="hidden" name="referer" id="referer" value="" />  
+  <input type="submit" name="commit" value="anmelden" class="button_small" />  
+  </fieldset>
+
+
+ 
+
+</form>
+
+</div>
+ 
+
+
+
+<h4>Accesskeys:</h4>
+<p>
+	<ul>
+		<li>[alt+1] Meldungen</li>
+		<li>[alt+2] Blog</li>
+		<li>[alt+3] Podcast</li>
+		<li>[alt+4] Forum</li>
+		<li>[alt+5] RSS</li>
+		<li>[alt+6] Hilfe</li>
+		<li>[alt+7] Kontakt</li>
+		<li>[alt+8] Impressum</li>
+	</ul>
+</p>
+  
+		</div>
+	</div>
+
+	<div id="maincontent" >
+		 
+					<div id="indicator" style="display: none;">
+				<div id="indicator-inner">
+					<div id="indicator-content">
+						<p><img src="/images/indicator.gif" alt="Indicator" /> Einen Moment bitte...</p>
+					</div>
+				</div>
+			</div> 
+		<h2 class="error">Error404 - page not found</h2>
+<hr />
+<p class="error-explain">
+<h1>Dokument nicht gefunden</h1>
+Die von dir gewählte Adresse/URL ist auf unserem Server nicht bzw. nicht mehr vorhanden.<br /><br />
+
+Bitte überprüfe: <br>
+<ul>
+	<li>die Schreibweise der URL (zwischen Groß- und Kleinschreibung wird unterschieden)</li>
+	<li>ggf. den Bookmark</li>
+	<li>die Seite, die dich hierher gebracht hat</li>
+</ul>
+<br />
+Wenn du einem Link unserer Webseite gefolgt bist, dann versuche es bitte in ein paar Minuten
+nochmal oder nehme via <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;:&#101;&#114;&#114;&#x6f;&#x72;&#52;&#48;&#x34;&#x40;b&#105;&#111;-&#108;&#x6f;&#103;&#101;&#x2e;&#100;&#101;">E-Mail</a>  Kontakt mit uns auf.
+</p>
+<hr />
+<h2 class="error">Error404 - page not found</h2>	</div><!-- end content -->
+	
+	
+ 	    <div id="footer">
+    	<a href="/feed/news/rss091.xml"><img alt="News Feed" src="/images/RSS/rss-icon-news.gif" /></a>    	<a href="/feed/blog/rss091.xml"><img alt="Blog Feed" src="/images/RSS/rss-icon-blog.gif" /></a><!-- <img src="/images/RSS/rss-icon-blog.gif" alt="RSS Blog" class="center" /> -->
+    	<a href="/feed/podcast/rss091.xml"><img alt="Bio-Podcast Feed" src="/images/RSS/rss-icon-podcast.gif" /></a>    	&nbsp;&copy; bio-loge.de
+    	<div style="display: inline; margin-left: 3em;">
+    	<a href="#top" title="nach oben"><img alt="nach oben" src="/images/icons/page_to_top.png" /></a>
+    	</div>
+    </div>
+     
+</div><!-- end container -->
+
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-2391464-1";
+	urchinTracker();
+	</script>
+</body>
+</html>

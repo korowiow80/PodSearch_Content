@@ -1,0 +1,45 @@
+
+<html xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+    <title>gurliegurl.com: The Leading Teen Dating Site on the Net</title>
+    <script type="text/javascript" src="http://return.domainnamesales.com/return_js.php?d=gurliegurl.com&s=1339031608"></script>
+    <script src="http://google.com/adsense/domains/caf.js" type="text/javascript"></script>
+    <script type="text/javascript" language="JavaScript" src="http://pagead2.googlesyndication.com/apps/domainpark/show_afd_ads.js"></script>
+    <script type="text/javascript">
+        // afd_default should be the same page as control, but can
+        // have different reporting information (e.g., channels)
+        var afd_default = 'search.php?uid=www4fd0003893b358.55666106';
+        // What fraction of traffic to use for the control & experiment.
+        // .2 = 20% total  (10% for experiment, 10% for control)
+        var afd_fraction = .15;
+        // The experiment control.  I.e., the existing JS page.
+        // The 'vid' value will be provide to you by your account manager.
+        var afd_control = {
+            url: 'search.php?src=jsX&uid=www4fd0003893b358.55666106',
+            vid: 'na-js-test'
+        };
+        var afd_control2 = {
+            url: 'search.php?src=jsY&uid=www4fd0003893b358.55666106',
+            vid: 'na-js-test2'
+        }
+        // The experiment control.  I.e., the new CAF page.
+        // Must use the same client as the experiment control
+        var afd_experiment = {
+            url: 'search_caf.php?src=caf&uid=www4fd0003893b358.55666106',
+            vid: 'na-caf-test'
+        };
+
+        // work around for when SplitTraffic() is missing
+        var st_defined = (typeof SplitTraffic != 'function') ? false : true;
+    </script>
+</head>
+<frameset rows="100%,*,*" frameborder="no" border="0" framespacing="0">
+    <frame onload="javascript:this.src?'':(!st_defined?this.src=afd_default:this.src=SplitTraffic(afd_default,afd_fraction,[afd_control2, afd_control, afd_experiment]));" ></frame>
+    <frame src="tg.php?uid=www4fd0003893b358.55666106"></frame>
+    <frame src="page.php?www4fd0003893b358.55666106"></frame>
+</frameset>
+<noframes>
+    You found gurliegurl.com, so will your customers. It's a great label for your website and will help you define your identity on the Web.</noframes>
+
+</html>
+

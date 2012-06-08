@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<!--[if IE]>
+<![endif]-->
+<html><head><meta charset="utf-8" />
+<title>DJ Rich@rd's sounds on SoundCloud - Create, record and share your sounds for free</title>
+<script>
+(function(H){ if(navigator.userAgent.toLowerCase().match(/iPad.+AppleWebKit/i) && !window.localStorage.getItem('no-ipad-overlay')) {H.className+="ipadOverlay"}})(document.documentElement)
+</script>
+<meta content="record, sounds, share, sound, audio, tracks, music, soundcloud" name="keywords" />
+<meta content="Create, record and share the sounds you create anywhere to friends, family and the world with SoundCloud, the world's largest community of sound creators." name="description" />
+
+<meta content="width=device-width" name="viewport" />
+<meta content="IE=edge,chrome=1" name="X-UA-Compatible" />
+<meta content="video" name="medium" />
+<meta content="soundcloud:user" property="og:type" /><meta content="http://soundcloud.com/dj-richard" property="og:url" /><meta content="DJ Rich@rd" property="og:title" /><meta content="http://i1.sndcdn.com/avatars-000002829143-lk0t8y-t300x300.jpg?d870dea" property="og:image" /><meta content="" property="og:description" /><meta content="12" property="soundcloud:sound_count" /><meta content="236" property="soundcloud:follower_count" /><meta content="19507961798" property="fb:app_id" /><meta content="SoundCloud" property="og:site_name" /><meta content="242" property="og:video:height" /><meta content="460" property="og:video:width" /><meta content="application/x-shockwave-flash" property="og:video:type" /><meta content="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F306773&amp;color=3b5998&amp;auto_play=true&amp;show_artwork=false" property="og:video" /><link href="http://soundcloud.com/oembed?url=http%3A%2F%2Fsoundcloud.com%2Fdj-richard&amp;format=xml" rel="alternate" type="text/xml+oembed" />
+<link href="http://soundcloud.com/oembed?url=http%3A%2F%2Fsoundcloud.com%2Fdj-richard&amp;format=json" rel="alternate" type="application/json+oembed" />
+
+
+<!--[if IE]>
+<script src="http://a1.sndcdn.com/javascripts/plugins/vendor/excanvas-compressed.js?d870dea" type="text/javascript"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script type="text/javascript">
+document.getElementsByTagName("html")[0].className = "ie9";
+</script>
+<![endif]-->
+<!--[if IE 8]>
+<script type="text/javascript">
+document.getElementsByTagName("html")[0].className = "ie8";
+</script>
+<![endif]-->
+<!--[if lte IE 8]>
+<script type="text/javascript">
+document.getElementsByTagName("html")[0].className = "ie7";
+</script>
+<meta content="true" name="MSSmartTagsPreventParsing" />
+<meta content="false" http-equiv="imagetoolbar" />
+<![endif]-->
+<script type="text/javascript">
+window.SC = {"bufferTracks":[],"bufferComments":[],"cookieDomain":"soundcloud.com","assetPath":"a1.sndcdn.com","assetPathSSL":"soundcloud.com","facebook":{"appId":19507961798,"appKey":"61261ce0407b2ccb568641b513098e18","namespace":"soundcloud","xdReceiver":"/connect/xd_receiver.htm"},"songkickApiKey":"ZWsLr2h7FF5sHG54","gaID":"UA-2519404-1"};
+</script>
+<link href="http://a1.sndcdn.com/stylesheets/general.css?d870dea" media="all" rel="stylesheet" type="text/css" />
+<link href="http://a1.sndcdn.com/stylesheets/special.css?d870dea" media="all" rel="stylesheet" type="text/css" />
+<link href="/sc-opensearch.xml" rel="search" title="SoundCloud Search" type="application/opensearchdescription+xml" />
+
+<link href="http://a1.sndcdn.com/images/apple-touch-icon.png?d870dea" rel="apple-touch-icon" />
+<link href="http://a1.sndcdn.com/favicon.ico?d870dea" rel="shortcut icon" />
+<link href="http://a1.sndcdn.com/images/soundcloud_app.png?d870dea" rel="fluid-icon" />
+</head>
+<body class="tracks restricted profile" data-sc-owner="dj-richard" id="users"><div class="dormant"><div class="announcement"><a href="#" class="announcement-close close" title="Hide this help-text">hide</a>
+<span class="exclamation"></span>
+<p class="message"></p></div></div>
+
+<div id="header"><div id="header-top"><div id="sc-info"><a href="/apps?ref=top">App Gallery</a>
+|
+<a href="http://help.soundcloud.com">Get help</a>
+|
+<a href="/premium?ref=top">Try Premium</a>
+|
+<a href="http://blog.soundcloud.com">What's new?</a></div>
+<div id="user-status"><a href="/" id="logo">Soundcloud</a>
+<div class="logged-in"><abbr title="It's Swedish for 'Hi'">Hej,</abbr>
+<span id="logged-in-user"><a href="/" class="current-user" id="current-user-head">stranger</a>
+<a class="premium" href="/premium?ref=t027" id="current-plan-badge"></a></span>
+|
+<script type="text/javascript">
+  //<![CDATA[
+    window.SC.renderLoginStatus = function() {
+      var $p = document.getElementById('current-plan-badge')
+        , $h = document.getElementById('current-user-head')
+        , $u = document.getElementById('logged-in-user')
+        , $ht = document.getElementsByTagName('html')[0]
+        , $b = document.getElementsByTagName('body')[0]
+        , w = $b.getAttribute('data-sc-owner')
+        , c = document.cookie.split(';')
+        , u = {}
+        , o = {};
+    
+      for(var i = 0; i < c.length; i++) {
+        var pair = c[i].split('=');
+        o[pair[0].replace(/^\s/, '')] = decodeURIComponent(pair[1]).replace(/\+/g, ' ');
+      }
+    
+      if($h) {
+        $h.innerHTML = o['u'] || 'stranger';
+        $h.href = '/' + o['p'];
+      }
+    
+      if($ht) {
+        $ht.className = $ht.className.replace(/ ?(anonymous|logged-in)/g, '');
+        $ht.className += o['p'] ? ' logged-in' : ' anonymous';
+      }
+    
+      u.authenticityToken = o['k']
+      u.avatarTiny = o['a'];
+      u.permalink = o['p'];
+      u.plan = o['l'];
+      u.planName = o['c'];
+      u.tracks_count = o['r'];
+      u.comments_count = o['o'];
+      u.favorites_count = o['v'];
+      u.id = parseInt(o['i']);
+    
+      if(o['t']) {
+        u.types = o['t'].split('&');
+      } else {
+        u.types = [];
+      }
+    
+      u.quota = {};
+      u.quota.playlists = o['qp'];
+      u.quota.sharings_per_track = o['qs'];
+      u.quota.contributions_per_track = o['qc'];
+      u.quota.contact_groupings = o['qn'];
+      u.quota.groups = o['qg'];
+      u.quota.support = o['qt'];
+    
+      if(o['c'] === 'free') {
+        if($u) { $u.className = 'free-user'; }
+        if($p) { $p.className += ' hidden' }
+      } else {
+        if($p) { $p.className += ' plan-' + o['c']; }
+      }
+    
+      if($b && w && (w === u.permalink)) {
+        $b.className += ' current-user';
+      }
+    
+      window.SC.currentUser = u;
+    };
+    
+    window.SC.renderSupportLevel = function() {
+      var support = 'Support';
+    
+      if (SC.currentUser.quota.support === 'premium') {
+        support = 'Premium Support';
+      } else if (SC.currentUser.quota.support === 'pro') {
+        support = 'Pro Support';
+      }
+      document.getElementById('footer-support-link').innerHTML = support;
+    };
+    
+    window.SC.renderLoginStatus();
+  //]]>
+</script>
+
+<a href="/settings">Settings</a>
+|
+<a class="inbox" href="/messages">Inbox
+<cite class="user-counter" id="user-inbox-counter" style="display: none;"></cite></a>
+|
+<a href="/logout" class="header-logout">Log out</a>
+<div class="hidden" id="user-id">DJ Rich@rd</div></div>
+<div class="anonymous"><a href="/login?ref=top" class="sign-in" id="login-link">Log In</a> | <a href="/signup?ref=top" class="sign-in" id="signup-link">Sign Up</a></div></div></div>
+<div id="header-lower"><ul id="main-nav"><li class="nav no-submenu anonymous" id="menu-button-home"><a href="/">Home</a>
+<div class="open-submenu"></div></li>
+<li class="nav no-submenu anonymous" id="menu-button-tour"><a href="/tour/">The Tour</a>
+<div class="open-submenu"></div></li>
+<li class="nav no-submenu anonymous" id="menu-button-signup"><a href="/signup">Sign Up</a>
+<div class="open-submenu"></div></li>
+<li class="no-submenu nav logged-in" id="menu-button-dashboard"><a href="/">Dashboard</a>
+<div class="open-submenu"></div></li>
+<li class="nav submenu logged-in" id="menu-button-you"><a href="/you/tracks">You</a>
+<div class="open-submenu"></div>
+<ul class="tabs"><li class="first" data-sc-cnt="tracks"><a href="/you/tracks">Tracks</a></li><li data-sc-cnt="playlists"><a href="/you/sets">Sets</a></li><li data-sc-cnt="comments"><a href="/you/comments">Comments</a></li><li data-sc-cnt="favorites"><a href="/you/favorites">Favorites</a></li><li data-sc-cnt="moderated_groups"><a href="/you/groups">Groups</a></li><li><a href="/you/profile">Your public Profile</a></li><li class="last"><a href="/you/stats">Your Stats</a></li></ul></li>
+<li class="nav submenu logged-in" id="menu-button-tracks"><a href="/tracks">Tracks</a>
+<div class="open-submenu"></div>
+<ul class="tabs"><li class="first"><a href="/tracks">Explore Tracks</a></li><li><a href="/creativecommons">Creative Commons</a></li><li class="last"><a href="/tracks/search">Search for Tracks</a></li></ul></li>
+<li class="nav submenu logged-in" id="menu-button-people"><a href="/people">People</a>
+<div class="open-submenu"></div>
+<ul class="tabs"><li class="first"><a href="/people">Explore People</a></li><li><a href="/people/finder">Find Friends</a></li><li data-sc-cnt="contact_affiliations"><a href="/people/following">You Follow</a></li><li data-sc-cnt="fan_affiliations"><a href="/people/followers">Following You</a></li><li data-sc-cnt="contact_groups"><a href="/people/contacts">Your Contact Lists</a></li><li class="last"><a href="/people/search">Search for People</a></li></ul></li>
+<li class="nav submenu logged-in" id="menu-button-groups"><a href="/groups/joined">Groups</a>
+<div class="open-submenu"></div>
+<ul class="tabs"><li class="first" data-sc-cnt="groups"><a href="/groups/joined">You've joined</a></li><li><a href="/groups/latest">Explore Groups</a></li><li class="last"><a href="/groups/search">Search for Groups</a></li></ul></li>
+<li id="menu-button-upload"><a href="/upload" class="link-button">Upload &amp; Share</a></li></ul>
+
+<div id="volume"><a class="volume-control-button level0" title="Set the volume">Volume</a>
+<div class="aural" id="volume-control"><a class="volume-control-button level0">Volume</a>
+<div id="volume-control-wrapper"><a class="volume-plus">+</a>
+<div id="volume-control-handle"></div>
+<div id="volume-control-scale"></div>
+<a class="volume-minus"></a></div></div></div>
+<div id="search"><form action="/search" method="get">
+<input accesskey="f" autocomplete="off" class="blurred" id="header-search" name="q[fulltext]" placeholder="Search SoundCloud" type="text" value="Search SoundCloud" />
+<div class="search-selector" title="Select what you want to search for"></div>
+<ul class="pulldown hidden search-select"><li><a href="/tracks/search">Tracks</a></li>
+<li><a href="/people/search">Users</a></li>
+<li><a href="/groups/search">Groups</a></li></ul>
+</form></div></div></div>
+<div id="ipadWrapper"><div id="ipadOverlay"><a class="ipad-img-link" href="http://itunes.apple.com/us/app/soundcloud/id336353151"><img class="ipad-img" data-src="http://a1.sndcdn.com/images/ipadpage/ipads.jpg?d870dea" height="420" id="ipadOverlayImg" width="666" /></a>
+<h1>Try the new SoundCloud iPad app!</h1>
+<p>Discover a new way to experience SoundCloud.</p>
+<div class="action"><a href="http://itunes.apple.com/us/app/soundcloud/id336353151" class="big-action-button orange" id="ipadGetappLink">Get the iPad + iPhone App</a><a href="#ipadVideo" class="big-action-button grey" id="ipadVideoLink">Watch the video</a><a href="#" class="big-action-button light-grey" id="ipadNotnowLink">Not Now</a></div>
+<div class="video" id="ipadVideo"></div>
+<div class="social-sharing">Like it? Share it!
+<div class="share-plugin"><div class="fb-like" data-href="http://itunes.apple.com/us/app/soundcloud/id336353151" data-layout="button_count" data-send="false" data-show-faces="false" data-width="84"></div></div>
+<div class="share-plugin"><a class="twitter-share-button" data-count="horizontal" data-text="Introducing the SoundCloud iPad app - a new way to experience SoundCloud. Download for free!:" data-url="http://itunes.apple.com/us/app/soundcloud/id336353151" data-via="soundcloud" href="http://twitter.com/share">Tweet</a></div>
+<div class="share-plugin"><a href="http://www.tumblr.com/share/link?url=http%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Fsoundcloud%2Fid336353151&amp;name=The%20SoundCloud%20iPad%20app&amp;description=Introducing%20the%20SoundCloud%20iPad%20app%20-%20a%20new%20way%20to%20experience%20SoundCloud.%20Download%20for%20free%21" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:64px; height:20px; background:url('/images/tumblr_share.png') top left no-repeat transparent;" title="Share on Tumblr"></a></div>
+<div class="share-plugin share-plugin-last"><g:plusone href="http://itunes.apple.com/us/app/soundcloud/id336353151" size="medium"></g:plusone></div></div></div></div>
+
+
+<div id="main-wrapper"><div id="main-wrapper-inner"><div id="side-content"><div class="context-item"></div>
+<div class="context-item hidden" id="contacts"><ul class="tabs"><li class="current"><a href="#following" class="following" onclick="return false;" rel="nofollow">Following<abbr>198 </abbr></a></li>
+<li><a href="#followers" class="followers" onclick="return false;" rel="nofollow">Followers<abbr>236 </abbr></a></li>
+<li><a href="#groups" class="groups" onclick="return false;" rel="nofollow">Groups<abbr>16 </abbr></a></li></ul>
+<div class="pane" id="following"><a href="/dj-richard/following" class="lazy hidden">View all</a></div>
+<div class="hidden pane" id="followers"><a href="/dj-richard/followers?include_unseen=false" class="lazy hidden">View all</a></div>
+<div class="hidden pane" id="groups"><a href="/dj-richard/groups" class="lazy hidden">View all</a></div></div>
+
+</div>
+<div id="main-content"><div id="main-content-inner">
+
+
+<div class="vcard" id="user-info"><div class="user-image"><a class="user-image-large zoom photo" href="http://i1.sndcdn.com/avatars-000002829143-lk0t8y-crop.jpg?d870dea" style="background:url(http://i1.sndcdn.com/avatars-000002829143-lk0t8y-large.jpg?d870dea)" title="Click to zoom in">User Image</a></div>
+
+<h1><span class="inline nickname">DJ Rich@rd</span>
+<a class="plan-solo" href="/premium?ref=t050">&nbsp;</a>
+<span><span class="fn inline">Richard Lohstroh</span>, <span class="loc inline">The Hague, Netherlands</span></span></h1><div class="actions"><a href="/dj-richard/follow" class="contact-link update button" id="add-user-306773" onclick="return false;" rel="nofollow"><span>Follow</span></a>
+<a href="/messages/new?to=306773" class="send-message button" onclick="return false;" rel="nofollow"><span>Send message</span></a>
+<a href="/dj-richard/dropbox/profile" class="button send-track"><span>Share a track</span></a>
+<a href="#share" class="share button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><div class="share-options"><div class="expanded share-public share-root with-push-connection" data-sc-track-permalink="http://soundcloud.com/dj-richard"><div class="share-icons"><div class="icons-group"><a href="https://www.facebook.com/dialog/feed?display=popup&amp;app_id=19507961798&amp;link=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dfacebook%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard&amp;redirect_uri=http%3A%2F%2Fsoundcloud.com/popup_callback.html" class="facebook  popup" data-sc-share-type="facebook" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to Facebook"><span>Facebook</span></a>
+<a href="http://twitter.com/share?text=DJ+Rich%40rd+by+DJ+Rich%40rd+via+%23soundcloud&amp;url=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtwitter%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard" class="twitter  popup" data-sc-share-type="twitter" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to Twitter"><span>Twitter</span></a>
+<a href="http://www.tumblr.com/share/audio?externally_hosted_url=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dtumblr%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard" class="tumblr  popup" data-sc-share-type="tumblr" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to Tumblr"><span>Tumblr</span></a>
+<a href="mailto:?subject=DJ%20Rich%40rd%20-%20SoundCloud&amp;body=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Demail%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard" class="email  " data-sc-share-type="email" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to Email"><span>Email</span></a>
+<a href="[soundcloud url=&quot;http://api.soundcloud.com/users/306773&quot; iframe=&quot;true&quot; /]" class="wordpress  " data-sc-share-type="wordpress" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to WordPress"><span>WordPress</span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dstumbleupon%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard&amp;title=DJ+Rich%40rd+-+SoundCloud" class="stumbleupon  popup" data-sc-share-type="stumbleupon" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to StumbleUpon"><span>StumbleUpon</span></a>
+<a href="http://blogger.com/blog-this.g?u=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dblogger%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard&amp;n=DJ+Rich%40rd" class="blogger  popup" data-sc-share-type="blogger" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to Blogger"><span>Blogger</span></a>
+<a href="http://www.myspace.com/index.cfm?fuseaction=postto&amp;t=DJ+Rich%40rd&amp;u=http%3A%2F%2Fsoundcloud.com%2Fdj-richard%3Futm_source%3Dsoundcloud%26utm_campaign%3Dshare%26utm_medium%3Dmyspace%26utm_content%3Dhttp%3A%2F%2Fsoundcloud.com%2Fdj-richard&amp;c=" class="myspace  popup" data-sc-share-type="myspace" data-sc-url="http://soundcloud.com/dj-richard?utm_source=soundcloud&amp;utm_campaign=share&amp;utm_medium=raw&amp;utm_content=http://soundcloud.com/dj-richard" target="_blank" title="Share to MySpace"><span>MySpace</span></a></div><a href="#" class="expand" onclick="return false;" rel="nofollow">Less</a></div>
+<span class="learnmore">Did you know that you can publish your tracks & favorites automatically to other social networks?
+<a href="/settings/connections">Learn more</a></span>
+<div class="secret-link shortenable" data-sc-long-url="http://soundcloud.com/dj-richard"><label class="float" for="secret-users-306773">
+<strong>Get the link:</strong>
+</label>
+<input class="url auto-select" readonly="readonly" title="Copy the link" type="text" value="http://soundcloud.com/dj-richard" />
+<input class="shorten-url public-shorten-url" id="shorten-url-users-306773" type="checkbox" />
+<label for="shorten-url-users-306773">
+Make it short
+<span class="spinner">Loading</span>
+</label></div>
+<div class="embed-code-wrapper"><label class="float" for="embed-code-field">
+<strong>Embed Code:</strong>
+</label>
+<input class="url auto-select" id="embed-code-field" readonly="readonly" title="Copy the code" type="text" value='&lt;object height="225" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F306773"&gt;&lt;/param&gt; &lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt; &lt;embed allowscriptaccess="always" height="225" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F306773" type="application/x-shockwave-flash" width="100%"&gt;&lt;/embed&gt; &lt;/object&gt;  &lt;span&gt;&lt;a href="http://soundcloud.com/dj-richard"&gt;Latest tracks by DJ Rich@rd&lt;/a&gt;&lt;/span&gt; ' />
+<div class="html5-wrap"><input class="html5-code public-html5-code" id="html5-code-users-306773" type="checkbox" />
+<label for="html5-code-users-306773">Use the HTML5 widget</label>
+<span class="inline-help tiny"><strong class="headline hidden">HTML5 widget</strong>
+<span class="content hidden"><p>The <a href="http://blog.soundcloud.com/2012/01/26/html5-widget/">HTML5 widget</a> is faster, easier to share and you can comment and like the sound right away. Works on mobile too!</p></span></span></div>
+<input id="embed-code-field-flash" type="hidden" value='&lt;object height="225" width="100%"&gt; &lt;param name="movie" value="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F306773"&gt;&lt;/param&gt; &lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt; &lt;embed allowscriptaccess="always" height="225" src="https://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F306773" type="application/x-shockwave-flash" width="100%"&gt;&lt;/embed&gt; &lt;/object&gt;  &lt;span&gt;&lt;a href="http://soundcloud.com/dj-richard"&gt;Latest tracks by DJ Rich@rd&lt;/a&gt;&lt;/span&gt; ' />
+<input id="embed-code-field-html5" type="hidden" value='&lt;iframe width="100%" height="450" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F306773&amp;show_artwork=true"&gt;&lt;/iframe&gt;' />
+<a class="customize-player-link icon-button permissions" href="/customize/user/dj-richard" rel="nofollow"><span>Edit your widget</span></a></div></div></div></div></div>
+
+<div class="mute-user-wrapper"></div></div>
+</div>
+<div id="user-tabs"><ul class="tabs"><li class="current first"><a href="/dj-richard/tracks" class="tracks-count" rel="nofollow">Tracks<abbr> (12)</abbr></a></li><li class=""><a href="/dj-richard/sets" class="playlists-count">Sets<abbr> (2)</abbr></a></li><li class=""><a href="/dj-richard/comments" class="comments-count">Comments<abbr> (79)</abbr></a></li><li class=""><a href="/dj-richard/favorites" class="favorites-count">Favorites<abbr> (17)</abbr></a></li><li class="last"><a href="/dj-richard/dropbox/profile" class="dropbox-count">DropBox</a></li></ul></div>
+
+
+<div id="tracks"><ul class="tracks-list"><li class="player"><div class="medium mode player" data-sc-track="48817300"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000024597571-4pcsxa-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000024597571-4pcsxa-badge.jpg?d870dea)">060612 DJ Rich@rd     &quot;Rainshine&amp;Sundrops ;)&quot;  (live-set) Artwork</a>
+<h3><a href="/dj-richard/060612-dj-rich-rd-rainshine">060612 DJ Rich@rd     &quot;Rainshine&amp;Sundrops ;)&quot;  (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='June,  6 2012 14:41:10 +0000' class='pretty-date'>on June 06, 2012 14:41</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="4 Plays">4 <span>Plays</span></span><span class="comments" title="2 Comments">2 <span>Comments</span></span><span class="downloads" title="1 Download">1 <span>Download</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deep"><span class="genre" title="Find more Deep tracks">Deep</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/060612-dj-rich-rd-rainshine/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/060612-dj-rich-rd-rainshine" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/060612-dj-rich-rd-rainshine/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 73.14 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="48817300"><div class="action-overlay-inner"><a href="/dj-richard/060612-dj-rich-rd-rainshine/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">73.14 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11954">1.19.54</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/VYO3fR4fHyGz_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="1404386" style="left: 29.29185545230442%;"><div class="marker" style="width: 1px"><a href="/cocochanellive" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000016151398-ufsqgr-tiny.jpg?d870dea)">CocoVChanel</a></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="4533708" style="left: 94.56140932689173%;"><div class="marker" style="width: 1px"><a href="/dj-craig-twitty" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000013884604-z6xi1l-tiny.jpg?d870dea)">DJ Craig Twitty</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":48817300,"uid":"VYO3fR4fHyGz","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/060612-dj-rich-rd-rainshine","duration":4794459,"token":"6NANw","name":"060612-dj-rich-rd-rainshine","title":"060612 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0 \u0026quot;Rainshine\u0026amp;Sundrops ;)\u0026quot;\u00a0 (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/060612-dj-rich-rd-rainshine/comments/","streamUrl":"http://media.soundcloud.com/stream/VYO3fR4fHyGz?stream_token=6NANw","waveformUrl":"http://w1.sndcdn.com/VYO3fR4fHyGz_m.png","propertiesUri":"/dj-richard/060612-dj-rich-rd-rainshine/properties/","statusUri":"/transcodings/VYO3fR4fHyGz","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":60761763,"uri":"/dj-richard/060612-dj-rich-rd-rainshine/comments/60761763/","avatar":"http://i1.sndcdn.com/avatars-000016151398-ufsqgr-tiny.jpg?d870dea","name":"CocoVChanel","userPermalink":"cocochanellive","userUri":"/cocochanellive","userId":4364771,"trackOwnerId":306773,"created_at":"2012/06/06 14:50:19 +0000","body":"\u003Cp\u003EHey, check out my sneak peaks on my page #SimplyUnpredictable coming soon Female  Canadian MC [check out my page] leave comments tell me what you think! \u0026lt;=== send me beats/collabs\u003C/p\u003E","timestamp":1404386,"track_id":48817300},{"id":60783062,"uri":"/dj-richard/060612-dj-rich-rd-rainshine/comments/60783062/","avatar":"http://i1.sndcdn.com/avatars-000013884604-z6xi1l-tiny.jpg?d870dea","name":"DJ Craig Twitty","userPermalink":"dj-craig-twitty","userUri":"/dj-craig-twitty","userId":10624873,"trackOwnerId":306773,"created_at":"2012/06/06 17:18:29 +0000","body":"\u003Cp\u003EExcellent Set Richard!!!!!\u003C/p\u003E","timestamp":4533708,"track_id":48817300}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"1404386":[60761763],"4533708":[60783062]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="48479151"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000024420930-2p0r7g-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000024420930-2p0r7g-badge.jpg?d870dea)">030612 DJ Rich@rd      &quot;NiceViewBehindTheBooth&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/030612-dj-rich-rd">030612 DJ Rich@rd      &quot;NiceViewBehindTheBooth&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='June,  3 2012 13:51:45 +0000' class='pretty-date'>on June 03, 2012 13:51</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="13 Plays">13 <span>Plays</span></span><span class="comments" title="1 Comment">1 <span>Comment</span></span><span class="favoritings" title="1 Favoriting">1 <span>Favoriting</span></span><span class="downloads" title="4 Downloads">4 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deep-tech"><span class="genre" title="Find more Deep/Tech tracks">Deep/Tech</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/030612-dj-rich-rd/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/030612-dj-rich-rd" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/030612-dj-rich-rd/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 69.26 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="48479151"><div class="action-overlay-inner"><a href="/dj-richard/030612-dj-rich-rd/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">69.26 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11540">1.15.40</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/CWJKmrxklUVf_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="2146958" style="left: 47.28812599900048%;"><div class="marker" style="width: 1px"><a href="/dj-mar3ko" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000008964006-5wzpbl-tiny.jpg?d870dea)">☆♫ ★™DJ MAR3KO★.ılı.™☆♫✖</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":48479151,"uid":"CWJKmrxklUVf","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/030612-dj-rich-rd","duration":4540163,"token":"PAUmA","name":"030612-dj-rich-rd","title":"030612 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0 \u00a0\u0026quot;NiceViewBehindTheBooth\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/030612-dj-rich-rd/comments/","streamUrl":"http://media.soundcloud.com/stream/CWJKmrxklUVf?stream_token=PAUmA","waveformUrl":"http://w1.sndcdn.com/CWJKmrxklUVf_m.png","propertiesUri":"/dj-richard/030612-dj-rich-rd/properties/","statusUri":"/transcodings/CWJKmrxklUVf","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":60308499,"uri":"/dj-richard/030612-dj-rich-rd/comments/60308499/","avatar":"http://i1.sndcdn.com/avatars-000008964006-5wzpbl-tiny.jpg?d870dea","name":"\u2606\u266b \u2605\u2122DJ MAR3KO\u2605.\u0131l\u0131.\u2122\u2606\u266b\u2716","userPermalink":"dj-mar3ko","userUri":"/dj-mar3ko","userId":7028436,"trackOwnerId":306773,"created_at":"2012/06/03 23:19:31 +0000","body":"\u003Cp\u003Egood song would you come and hear my new song? thanks a lot! \u003Ca href=\"http://soundcloud.com/dj-mar3ko/dj-mar3ko-three\" rel=\"nofollow\" target=\"_blank\"\u003EDJ MAR3KO-THREE by \u2606\u266b \u2605\u2122DJ MAR3KO\u2605.\u0131l\u0131.\u2122\u2606\u266b\u2716\u003C/a\u003E\u003C/p\u003E","timestamp":2146958,"track_id":48479151}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"2146958":[60308499]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="48186034"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000024269353-cpgu6z-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000024269353-cpgu6z-badge.jpg?d870dea)">310512 DJ Rich@rd      &quot;HoyLluvia&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/310512-dj-rich-rd-hoylluvia">310512 DJ Rich@rd      &quot;HoyLluvia&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May, 31 2012 17:17:25 +0000' class='pretty-date'>on May 31, 2012 17:17</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="21 Plays">21 <span>Plays</span></span><span class="comments" title="3 Comments">3 <span>Comments</span></span><span class="favoritings" title="1 Favoriting">1 <span>Favoriting</span></span><span class="downloads" title="5 Downloads">5 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deephouse-techhouse"><span class="genre" title="Find more Deephouse/Techhouse tracks">Deephouse/Techhouse</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/310512-dj-rich-rd-hoylluvia/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/310512-dj-rich-rd-hoylluvia" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/310512-dj-rich-rd-hoylluvia/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 72.84 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="48186034"><div class="action-overlay-inner"><a href="/dj-richard/310512-dj-rich-rd-hoylluvia/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">72.84 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11934">1.19.34</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/6YYQ2nOXBXRr_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="2590150" style="left: 54.24527412801059%;"><div class="marker" style="width: 3px"><a href="/vincenzociotoli" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000003425809-jz2eva-tiny.jpg?d870dea)">Vincenzo Ciotoli</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":48186034,"uid":"6YYQ2nOXBXRr","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/310512-dj-rich-rd-hoylluvia","duration":4774886,"token":"RYmgo","name":"310512-dj-rich-rd-hoylluvia","title":"310512 DJ Rich@rd \u00a0 \u00a0 \u00a0\u0026quot;HoyLluvia\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/310512-dj-rich-rd-hoylluvia/comments/","streamUrl":"http://media.soundcloud.com/stream/6YYQ2nOXBXRr?stream_token=RYmgo","waveformUrl":"http://w1.sndcdn.com/6YYQ2nOXBXRr_m.png","propertiesUri":"/dj-richard/310512-dj-rich-rd-hoylluvia/properties/","statusUri":"/transcodings/6YYQ2nOXBXRr","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":59818704,"uri":"/dj-richard/310512-dj-rich-rd-hoylluvia/comments/59818704/","avatar":"http://i1.sndcdn.com/avatars-000003425809-jz2eva-tiny.jpg?d870dea","name":"Vincenzo Ciotoli","userPermalink":"vincenzociotoli","userUri":"/vincenzociotoli","userId":987986,"trackOwnerId":306773,"created_at":"2012/05/31 18:48:28 +0000","body":"\u003Cp\u003EBeautiful work Br\u00f2,this is special!! Congrats.If you have a second follow me and visit my new track on Beatport and if you want Buy it!! \u003Ca href=\"http://www.beatport.com/track/the-art-of-mainframe-original-mix/3523342\" rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.beatport.com/track/the-art-of-mainframe-original-mix/3523342\u003C/a\u003E\u003C/p\u003E","timestamp":2590150,"track_id":48186034},{"id":59828110,"uri":"/dj-richard/310512-dj-rich-rd-hoylluvia/comments/59828110/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/31 19:52:40 +0000","body":"\u003Cp\u003EGreat productions you make Vincenzo... love it !! keep up the good work !! ;)\u003C/p\u003E","timestamp":2590150,"track_id":48186034},{"id":59828357,"uri":"/dj-richard/310512-dj-rich-rd-hoylluvia/comments/59828357/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/31 19:54:31 +0000","body":"\u003Cp\u003EThanks for comment !!\u003C/p\u003E","timestamp":2590150,"track_id":48186034}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"2590150":[59818704,59828110,59828357]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="47856312"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000024098990-gt85p9-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000024098990-gt85p9-badge.jpg?d870dea)">280512 DJ Rich@rd     &quot;Seaflame&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/280512-dj-rich-rd-seaflame">280512 DJ Rich@rd     &quot;Seaflame&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May, 28 2012 18:55:05 +0000' class='pretty-date'>on May 28, 2012 18:55</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="17 Plays">17 <span>Plays</span></span><span class="comments" title="2 Comments">2 <span>Comments</span></span><span class="favoritings" title="3 Favoritings">3 <span>Favoritings</span></span><span class="downloads" title="4 Downloads">4 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deephouse-techhouse"><span class="genre" title="Find more Deephouse/Techhouse tracks">Deephouse/Techhouse</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/280512-dj-rich-rd-seaflame/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/280512-dj-rich-rd-seaflame" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/280512-dj-rich-rd-seaflame/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 72.06 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="47856312"><div class="action-overlay-inner"><a href="/dj-richard/280512-dj-rich-rd-seaflame/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">72.06 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11844">1.18.44</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/wLM1riVD6DzJ_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="3779266" style="left: 79.99999153274825%;"><div class="marker" style="width: 2px"><a href="/mikeemartillo" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000007726980-kybt2n-tiny.jpg?d870dea)">Micamino</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":47856312,"uid":"wLM1riVD6DzJ","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/280512-dj-rich-rd-seaflame","duration":4724083,"token":"yRG2j","name":"280512-dj-rich-rd-seaflame","title":"280512 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0\u00a0\u0026quot;Seaflame\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/280512-dj-rich-rd-seaflame/comments/","streamUrl":"http://media.soundcloud.com/stream/wLM1riVD6DzJ?stream_token=yRG2j","waveformUrl":"http://w1.sndcdn.com/wLM1riVD6DzJ_m.png","propertiesUri":"/dj-richard/280512-dj-rich-rd-seaflame/properties/","statusUri":"/transcodings/wLM1riVD6DzJ","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":59347631,"uri":"/dj-richard/280512-dj-rich-rd-seaflame/comments/59347631/","avatar":"http://i1.sndcdn.com/avatars-000007726980-kybt2n-tiny.jpg?d870dea","name":"Micamino","userPermalink":"mikeemartillo","userUri":"/mikeemartillo","userId":244089,"trackOwnerId":306773,"created_at":"2012/05/28 19:38:22 +0000","body":"\u003Cp\u003Elekker mixje weer gooz!\u003C/p\u003E","timestamp":3779266,"track_id":47856312},{"id":59349323,"uri":"/dj-richard/280512-dj-rich-rd-seaflame/comments/59349323/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/28 19:50:45 +0000","body":"\u003Cp\u003Edank je goozert !! ;) \u003C/p\u003E","timestamp":3779266,"track_id":47856312}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"3779266":[59347631,59349323]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="47634846"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000023984446-p32y3k-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000023984446-p32y3k-badge.jpg?d870dea)">240512 DJ Rich@rd     &quot;BeautifulSunnyDay&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/240512-dj-rich-rd">240512 DJ Rich@rd     &quot;BeautifulSunnyDay&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May, 26 2012 12:09:38 +0000' class='pretty-date'>on May 26, 2012 12:09</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="34 Plays">34 <span>Plays</span></span><span class="comments" title="3 Comments">3 <span>Comments</span></span><span class="favoritings" title="4 Favoritings">4 <span>Favoritings</span></span><span class="downloads" title="8 Downloads">8 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deephouse-techhouse"><span class="genre" title="Find more Deephouse/Techhouse tracks">Deephouse/Techhouse</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/240512-dj-rich-rd/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/240512-dj-rich-rd" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/240512-dj-rich-rd/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 65.15 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="47634846"><div class="action-overlay-inner"><a href="/dj-richard/240512-dj-rich-rd/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">65.15 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11111">1.11.11</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/KpHWEhLJAX67_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="4053880" style="left: 94.91525741199123%;"><div class="marker" style="width: 2px"><a href="/dj-craig-twitty" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000013884604-z6xi1l-tiny.jpg?d870dea)">DJ Craig Twitty</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":47634846,"uid":"KpHWEhLJAX67","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/240512-dj-rich-rd","duration":4271052,"token":"0T2Fl","name":"240512-dj-rich-rd","title":"240512 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0 \u0026quot;BeautifulSunnyDay\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/240512-dj-rich-rd/comments/","streamUrl":"http://media.soundcloud.com/stream/KpHWEhLJAX67?stream_token=0T2Fl","waveformUrl":"http://w1.sndcdn.com/KpHWEhLJAX67_m.png","propertiesUri":"/dj-richard/240512-dj-rich-rd/properties/","statusUri":"/transcodings/KpHWEhLJAX67","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":59009576,"uri":"/dj-richard/240512-dj-rich-rd/comments/59009576/","avatar":"http://i1.sndcdn.com/avatars-000013884604-z6xi1l-tiny.jpg?d870dea","name":"DJ Craig Twitty","userPermalink":"dj-craig-twitty","userUri":"/dj-craig-twitty","userId":10624873,"trackOwnerId":306773,"created_at":"2012/05/26 14:23:32 +0000","body":"\u003Cp\u003EGreat Mix for a beautiful sunny day in the USA!!!  Thanks Richard!!!!\u003C/p\u003E","timestamp":4053880,"track_id":47634846},{"id":59011141,"uri":"/dj-richard/240512-dj-rich-rd/comments/59011141/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/26 14:34:54 +0000","body":"\u003Cp\u003Ethanks Craig... same here... enjoy   ;)\u003C/p\u003E","timestamp":4053880,"track_id":47634846}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"4053880":[59009576,59011141]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="47186564"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000023750398-w9c9bz-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000023750398-w9c9bz-badge.jpg?d870dea)">220512 DJ Rich@rd     &quot;HouseThing&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/220512-dj-rich-rd-housething">220512 DJ Rich@rd     &quot;HouseThing&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May, 22 2012 11:30:06 +0000' class='pretty-date'>on May 22, 2012 11:30</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="28 Plays">28 <span>Plays</span></span><span class="favoritings" title="1 Favoriting">1 <span>Favoriting</span></span><span class="downloads" title="6 Downloads">6 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deep-tech-soulful-house"><span class="genre" title="Find more Deep/Tech/Soulful/House tracks">Deep/Tech/Soulful/House</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/220512-dj-rich-rd-housething/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/220512-dj-rich-rd-housething" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/220512-dj-rich-rd-housething/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 68.71 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="47186564"><div class="action-overlay-inner"><a href="/dj-richard/220512-dj-rich-rd-housething/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">68.71 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11504">1.15.04</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/hNspgQdq7yQf_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":47186564,"uid":"hNspgQdq7yQf","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/220512-dj-rich-rd-housething","duration":4504440,"token":"7OnQu","name":"220512-dj-rich-rd-housething","title":"220512 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0 \u0026quot;HouseThing\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/220512-dj-rich-rd-housething/comments/","streamUrl":"http://media.soundcloud.com/stream/hNspgQdq7yQf?stream_token=7OnQu","waveformUrl":"http://w1.sndcdn.com/hNspgQdq7yQf_m.png","propertiesUri":"/dj-richard/220512-dj-rich-rd-housething/properties/","statusUri":"/transcodings/hNspgQdq7yQf","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="46887585"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000023595582-rga0ez-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000023595582-rga0ez-badge.jpg?d870dea)">190512 DJ Rich@rd     &quot;What'sHappeningTheseDays&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/190512-dj-rich-rd">190512 DJ Rich@rd     &quot;What'sHappeningTheseDays&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May, 19 2012 13:00:01 +0000' class='pretty-date'>on May 19, 2012 13:00</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="40 Plays">40 <span>Plays</span></span><span class="comments" title="2 Comments">2 <span>Comments</span></span><span class="favoritings" title="2 Favoritings">2 <span>Favoritings</span></span><span class="downloads" title="6 Downloads">6 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deephouse"><span class="genre" title="Find more Deephouse tracks">Deephouse</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/190512-dj-rich-rd/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/190512-dj-rich-rd" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/190512-dj-rich-rd/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 72.50 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="46887585"><div class="action-overlay-inner"><a href="/dj-richard/190512-dj-rich-rd/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">72.50 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11912">1.19.12</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/1qz8rdqDNIho_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="2086561" style="left: 43.90047412809138%;"><div class="marker" style="width: 2px"><a href="/johan_dskr" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000016247985-g2k5hn-tiny.jpg?d870dea)">Surrcut</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":46887585,"uid":"1qz8rdqDNIho","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/190512-dj-rich-rd","duration":4752935,"token":"EeDvB","name":"190512-dj-rich-rd","title":"190512 DJ Rich@rd \u00a0 \u00a0 \u0026quot;What'sHappeningTheseDays\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/190512-dj-rich-rd/comments/","streamUrl":"http://media.soundcloud.com/stream/1qz8rdqDNIho?stream_token=EeDvB","waveformUrl":"http://w1.sndcdn.com/1qz8rdqDNIho_m.png","propertiesUri":"/dj-richard/190512-dj-rich-rd/properties/","statusUri":"/transcodings/1qz8rdqDNIho","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":58044939,"uri":"/dj-richard/190512-dj-rich-rd/comments/58044939/","avatar":"http://i1.sndcdn.com/avatars-000016247985-g2k5hn-tiny.jpg?d870dea","name":"Surrcut","userPermalink":"johan_dskr","userUri":"/johan_dskr","userId":2660797,"trackOwnerId":306773,"created_at":"2012/05/20 09:53:14 +0000","body":"\u003Cp\u003EThis is good!\u003C/p\u003E","timestamp":2086561,"track_id":46887585},{"id":58051272,"uri":"/dj-richard/190512-dj-rich-rd/comments/58051272/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/20 11:01:19 +0000","body":"\u003Cp\u003Ethanks !! track ID=  Luper - Cinderfella  ;)\u003C/p\u003E","timestamp":2086561,"track_id":46887585}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"2086561":[58044939,58051272]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="46367247"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000023327844-lprq3h-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000023327844-lprq3h-badge.jpg?d870dea)">130512 DJ Rich@rd      &quot;SundayBlue&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/130512-dj-rich-rd-sundayblue">130512 DJ Rich@rd      &quot;SundayBlue&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May, 14 2012 18:26:42 +0000' class='pretty-date'>on May 14, 2012 18:26</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="34 Plays">34 <span>Plays</span></span><span class="comments" title="2 Comments">2 <span>Comments</span></span><span class="favoritings" title="1 Favoriting">1 <span>Favoriting</span></span><span class="downloads" title="13 Downloads">13 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deephouse"><span class="genre" title="Find more Deephouse tracks">Deephouse</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/130512-dj-rich-rd-sundayblue/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/130512-dj-rich-rd-sundayblue" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/130512-dj-rich-rd-sundayblue/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 71.68 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="46367247"><div class="action-overlay-inner"><a href="/dj-richard/130512-dj-rich-rd-sundayblue/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">71.68 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11819">1.18.19</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/wVLZaCboqQpv_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="4280486" style="left: 91.09159390274863%;"><div class="marker" style="width: 2px"><a href="/dj-craig-twitty" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000013884604-z6xi1l-tiny.jpg?d870dea)">DJ Craig Twitty</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":46367247,"uid":"wVLZaCboqQpv","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/130512-dj-rich-rd-sundayblue","duration":4699101,"token":"cXt3a","name":"130512-dj-rich-rd-sundayblue","title":"130512 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0\u00a0 \u0026quot;SundayBlue\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/130512-dj-rich-rd-sundayblue/comments/","streamUrl":"http://media.soundcloud.com/stream/wVLZaCboqQpv?stream_token=cXt3a","waveformUrl":"http://w1.sndcdn.com/wVLZaCboqQpv_m.png","propertiesUri":"/dj-richard/130512-dj-rich-rd-sundayblue/properties/","statusUri":"/transcodings/wVLZaCboqQpv","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":57217279,"uri":"/dj-richard/130512-dj-rich-rd-sundayblue/comments/57217279/","avatar":"http://i1.sndcdn.com/avatars-000013884604-z6xi1l-tiny.jpg?d870dea","name":"DJ Craig Twitty","userPermalink":"dj-craig-twitty","userUri":"/dj-craig-twitty","userId":10624873,"trackOwnerId":306773,"created_at":"2012/05/14 23:18:40 +0000","body":"\u003Cp\u003EGreat Mix Richard!!!!!\u003C/p\u003E","timestamp":4280486,"track_id":46367247},{"id":57293424,"uri":"/dj-richard/130512-dj-rich-rd-sundayblue/comments/57293424/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/15 13:17:57 +0000","body":"\u003Cp\u003Ethanks again !! ;)\u003C/p\u003E","timestamp":4280486,"track_id":46367247}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"4280486":[57217279,57293424]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="45471407"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000022865323-z7udjp-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000022865323-z7udjp-badge.jpg?d870dea)">060512 DJ Rich@rd     &quot;PickUpThePieces&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/060512-dj-rich-rd">060512 DJ Rich@rd     &quot;PickUpThePieces&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May,  6 2012 09:46:00 +0000' class='pretty-date'>on May 06, 2012 09:46</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="61 Plays">61 <span>Plays</span></span><span class="comments" title="6 Comments">6 <span>Comments</span></span><span class="favoritings" title="1 Favoriting">1 <span>Favoriting</span></span><span class="downloads" title="13 Downloads">13 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/techno-deep-techhouse"><span class="genre" title="Find more Techno/Deep/Techhouse tracks">Techno/Deep/Techhouse</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/060512-dj-rich-rd/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/060512-dj-rich-rd" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/060512-dj-rich-rd/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 72.65 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="45471407"><div class="action-overlay-inner"><a href="/dj-richard/060512-dj-rich-rd/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">72.65 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11922">1.19.22</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/ywiJPLRqM3Wf_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="102863" style="left: 2.159818098479038%;"><div class="marker" style="width: 2px"><a href="/obergandleverin" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000015481795-cy67va-tiny.jpg?d870dea)">O'berg &amp; Leverin</a></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="1498915" style="left: 31.472771988778344%;"><div class="marker" style="width: 2px"><a href="/deltac0" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000014746159-4dpwp1-tiny.jpg?d870dea)">Deltac0</a></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="3892948" style="left: 81.7403687121489%;"><div class="marker" style="width: 2px"><a href="/webnoiseart-co" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000003148041-otl3sy-tiny.jpg?d870dea)">WebNoiseArt</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":45471407,"uid":"ywiJPLRqM3Wf","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/060512-dj-rich-rd","duration":4762577,"token":"rNwqP","name":"060512-dj-rich-rd","title":"060512 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0 \u0026quot;PickUpThePieces\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/060512-dj-rich-rd/comments/","streamUrl":"http://media.soundcloud.com/stream/ywiJPLRqM3Wf?stream_token=rNwqP","waveformUrl":"http://w1.sndcdn.com/ywiJPLRqM3Wf_m.png","propertiesUri":"/dj-richard/060512-dj-rich-rd/properties/","statusUri":"/transcodings/ywiJPLRqM3Wf","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":56187456,"uri":"/dj-richard/060512-dj-rich-rd/comments/56187456/","avatar":"http://i1.sndcdn.com/avatars-000015481795-cy67va-tiny.jpg?d870dea","name":"O'berg \u0026amp; Leverin","userPermalink":"obergandleverin","userUri":"/obergandleverin","userId":850614,"trackOwnerId":306773,"created_at":"2012/05/08 15:08:43 +0000","body":"\u003Cp\u003Every nice dreamy intro\u003C/p\u003E","timestamp":102863,"track_id":45471407},{"id":56329236,"uri":"/dj-richard/060512-dj-rich-rd/comments/56329236/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/09 07:10:49 +0000","body":"\u003Cp\u003Ethanks gentleman... enjoy !!\u003C/p\u003E","timestamp":102863,"track_id":45471407},{"id":56168668,"uri":"/dj-richard/060512-dj-rich-rd/comments/56168668/","avatar":"http://i1.sndcdn.com/avatars-000014746159-4dpwp1-tiny.jpg?d870dea","name":"Deltac0","userPermalink":"deltac0","userUri":"/deltac0","userId":5369942,"trackOwnerId":306773,"created_at":"2012/05/08 13:25:37 +0000","body":"\u003Cp\u003EI love this track. \u003Ca href=\"http://soundcloud.com/deltac0/05-1\" rel=\"nofollow\" target=\"_blank\"\u003ECheck out my stuff!\u003C/a\u003E\u003C/p\u003E","timestamp":1498915,"track_id":45471407},{"id":56329892,"uri":"/dj-richard/060512-dj-rich-rd/comments/56329892/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/09 07:19:24 +0000","body":"\u003Cp\u003Ethanks !! ;)\u003C/p\u003E","timestamp":1498915,"track_id":45471407},{"id":55944667,"uri":"/dj-richard/060512-dj-rich-rd/comments/55944667/","avatar":"http://i1.sndcdn.com/avatars-000003148041-otl3sy-tiny.jpg?d870dea","name":"WebNoiseArt","userPermalink":"webnoiseart-co","userUri":"/webnoiseart-co","userId":539017,"trackOwnerId":306773,"created_at":"2012/05/07 07:39:44 +0000","body":"\u003Cp\u003Enice\u003C/p\u003E","timestamp":3892948,"track_id":45471407},{"id":55946021,"uri":"/dj-richard/060512-dj-rich-rd/comments/55946021/","avatar":"http://i1.sndcdn.com/avatars-000002829143-lk0t8y-tiny.jpg?d870dea","name":"DJ Rich@rd","userPermalink":"dj-richard","userUri":"/dj-richard","userId":306773,"trackOwnerId":306773,"created_at":"2012/05/07 07:55:31 +0000","body":"\u003Cp\u003Ethanks.. enjoy !!! ;)\u003C/p\u003E","timestamp":3892948,"track_id":45471407}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"102863":[56187456,56329236],"1498915":[56168668,56329892],"3892948":[55944667,55946021]};
+</script></div>
+</li>
+<li class="player"><div class="medium mode player" data-sc-track="44952310"><div class="info-header"><a href="http://i1.sndcdn.com/artworks-000022597541-hjhzvw-crop.jpg?d870dea" class="artwork" onclick="return false;" rel="nofollow" style="background:url(http://i1.sndcdn.com/artworks-000022597541-hjhzvw-badge.jpg?d870dea)">010512 DJ Rich@rd     &quot;FirstDayInMay&quot; (live-set) Artwork</a>
+<h3><a href="/dj-richard/010512-dj-rich-rd">010512 DJ Rich@rd     &quot;FirstDayInMay&quot; (live-set)</a></h3>
+<span class="subtitle"><span class="user tiny"><a href="/dj-richard" class="user-name">DJ Rich@rd</a>
+<span class="user-status"></span></span>
+<abbr title='May,  1 2012 13:49:59 +0000' class='pretty-date'>on May 01, 2012 13:49</abbr></span>
+<div class="meta-data"><span class="stats"><span class="plays first" title="40 Plays">40 <span>Plays</span></span><span class="comments" title="2 Comments">2 <span>Comments</span></span><span class="downloads" title="7 Downloads">7 <span>Downloads</span></span></span></div>
+</div>
+<div class="actionbar"><a href="/tags/deep-tech"><span class="genre" title="Find more Deep/Tech tracks">Deep/Tech</span></a><div class="actions"><div class="primary"><a href="#share" class="share pl-button" onclick="return false;" rel="nofollow" title="Share this on other networks"><span>Share</span></a>
+<div class="share-code hidden action-overlay"><div class="action-overlay-inner"><a href="/dj-richard/010512-dj-rich-rd/share-options" class="lazy initial" onclick="return false;" rel="nofollow">Loading sharing options</a></div></div>
+
+<a href="/you/favorites/dj-richard/010512-dj-rich-rd" class="pl-button favorite create" onclick="return false;" rel="nofollow"><span>Save to Favorites</span></a>
+<a href="/dj-richard/010512-dj-rich-rd/download" class="download pl-button" rel="nofollow" title="The file you're about to download has a size of 70.81 MB"><span>Download</span></a></div>
+<div class="hidden download-options action-overlay" data-sc-track="44952310"><div class="action-overlay-inner"><a href="/dj-richard/010512-dj-rich-rd/download" class="icon-button download" rel="nofollow"><span>Download</span></a>
+<span class="file-type">mp3</span>
+<span class="content-size">70.81 MB</span></div></div></div></div>
+
+<div class="container"><div class="controls"><a href="#play" class="play" onclick="return false;" rel="nofollow">Play</a>
+<div class="timecodes"><span class="editable">0.00</span>
+/
+<span class="duration" title="PT11721">1.17.21</span></div></div>
+<div class="display"><div class="progress"></div>
+<img class="waveform" src="http://w1.sndcdn.com/8ccx3farkXE5_m.png" unselectable="on" />
+<img class="waveform-overlay" src="http://a1.sndcdn.com/images/player-overlay.png?d870dea" unselectable="on" />
+<div class="playhead aural"></div>
+<div class="seekhead hidden"><div><span></span></div></div>
+<ol class="timestamped-comments"><li class="aural template timestamped-comment"><div class="marker" style="width: 1px"></div></li>
+<li class="timestamped-comment" data-sc-comment-timestamp="3857299" style="left: 83.10072893316371%;"><div class="marker" style="width: 1px"><a href="/dj-andity" class="user-image-tiny" style="background-image: url(http://i1.sndcdn.com/avatars-000003624871-ulloff-tiny.jpg?d870dea)">[DJ] Andity</a></div></li></ol></div>
+<a class="comments-toggle" href="#no-comments" title="Hide the comments">Hide the comments</a>
+</div>
+
+<script type="text/javascript">
+window.SC.bufferTracks.push({"id":44952310,"uid":"8ccx3farkXE5","user":{"username":"DJ Rich@rd","permalink":"dj-richard"},"uri":"/dj-richard/010512-dj-rich-rd","duration":4641715,"token":"4CJbr","name":"010512-dj-rich-rd","title":"010512 DJ Rich@rd\u00a0\u00a0\u00a0\u00a0 \u0026quot;FirstDayInMay\u0026quot; (live-set)","commentable":true,"revealComments":true,"commentUri":"/dj-richard/010512-dj-rich-rd/comments/","streamUrl":"http://media.soundcloud.com/stream/8ccx3farkXE5?stream_token=4CJbr","waveformUrl":"http://w1.sndcdn.com/8ccx3farkXE5_m.png","propertiesUri":"/dj-richard/010512-dj-rich-rd/properties/","statusUri":"/transcodings/8ccx3farkXE5","replacingUid":null,"preprocessingReady":true,"renderingFailed":false,"isPublic":true,"geo":[],"commentableByUser":true,"favorite":false,"followingTrackOwner":false});
+</script>
+<script type="text/javascript">
+window.SC.bufferComments = window.SC.bufferComments.concat([{"id":55302386,"uri":"/dj-richard/010512-dj-rich-rd/comments/55302386/","avatar":"http://i1.sndcdn.com/avatars-000003624871-ulloff-tiny.jpg?d870dea","name":"[DJ] Andity","userPermalink":"dj-andity","userUri":"/dj-andity","userId":4337175,"trackOwnerId":306773,"created_at":"2012/05/02 23:12:27 +0000","body":"\u003Cp\u003EI dig ur style, you got good taste ;)! would totally love to get your thoughts on my music! Also, please post this track on my page? Have a quite a big following who would LOVE this :) \u003Ca href=\"http://www.facebook.com/pages/DJ-Andity/218983178119848\" rel=\"nofollow\" target=\"_blank\"\u003Ehttp://www.facebook.com/pages/DJ-Andity/218983178119848\u003C/a\u003E just hit \"LIKE\" then post your favorite tracks for us to listen too!!;)\u003C/p\u003E","timestamp":3857299,"track_id":44952310}]);
+window.SC.bufferTracks[window.SC.bufferTracks.length - 1].conversations = {"3857299":[55302386]};
+</script></div>
+</li></ul><div class="pagination"><span class="disabled prev_page">Prev</span> <span class="current">1</span> <a href="/dj-richard/tracks?page=2" rel="next">2</a> <a href="/dj-richard/tracks?page=2" class="next_page" rel="next">Next</a></div></div>
+
+</div></div></div></div>
+<div id="footer"><div class="footer-col"><div class="logged-in"><h4>You</h4>
+<ul><li><a href="/you/tracks">Tracks</a></li>
+<li><a href="/you/sets">Sets</a></li>
+<li><a href="/you/comments">Comments</a></li>
+<li><a href="/you/favorites">Favorites</a></li>
+<li><a href="/you/groups">Groups</a></li>
+<li><a href="/settings">Settings</a></li></ul></div>
+<div class="anonymous"><h4>Sign Up</h4>
+<ul><li>Not on SoundCloud yet?
+<a href="/signup">Sign up for free</a></li></ul></div></div>
+<div class="footer-col"><h4>Explore</h4>
+<ul><li><a href="/tracks">Tracks</a></li>
+<li><a href="/creativecommons">Creative Commons</a></li>
+<li><a href="/people">People</a></li>
+<li><a href="/groups">Groups</a></li>
+<li><a href="/apps">Apps</a></li>
+<li class="logged-in"><a href="/pages/widgets">Widgets &amp; Badges</a></li>
+<li><a href="/pages/meetups">Meetups</a></li>
+<li><a href="/mobile">Mobile</a></li></ul></div>
+<div class="footer-col"><h4>Premium</h4>
+<ul><li><a href="/premium?ref=t025">Feature Overview</a></li>
+<li><a href="/premium/gifts">Buy a Gift</a></li>
+<li><a class="icon-button" href="/premium?ref=t026"><span class="go-pro">Premium</span></a></li></ul></div>
+<div class="footer-col"><h4>About Us</h4>
+<ul><li><a href="/pages/contact">About SoundCloud</a></li>
+<li><a href="http://blog.soundcloud.com">Blog</a></li>
+<li><a href="/jobs">Jobs</a></li>
+<li><a href="/sounds">Sound</a></li>
+<li><a href="/press">Press</a></li></ul></div>
+<div class="footer-col"><h4>Help</h4>
+<ul><li><a href="/tour">Take The Tour</a></li>
+<li><a href="/101">SoundCloud 101</a></li>
+<li><a href="http://help.soundcloud.com">Help</a></li>
+<li><a href="/videos">Videos</a></li>
+<li><a href="http://help.soundcloud.com" id="footer-support-link">Support</a></li></ul><script type="text/javascript">
+//<![CDATA[
+window.SC.renderSupportLevel()
+//]]>
+</script></div>
+<div class="footer-col last"><h4>Developers</h4>
+<ul><li><a href="http://developers.soundcloud.com">Get Started</a></li>
+<li><a href="http://developers.soundcloud.com/docs">Documentation</a></li>
+<li><a href="http://developers.soundcloud.com/blog">API Blog</a></li>
+<li class="logged-in"><a href="/you/apps">Your Apps</a></li>
+<li><a href="/apps">App Gallery</a></li>
+<li><a href="http://soundcloudlabs.com">Labs</a></li></ul></div>
+<div id="logo-footer"></div><p id="copyright">© 2007-2012 SoundCloud Ltd. All rights reserved.
+<a href="/community-guidelines">Community Guidelines</a>
+|
+<a href="/terms-of-use">Terms of Use</a>
+|
+<a href="/pages/privacy">Privacy Policy</a>
+|
+<a href="/pages/copyright">Copyright Information</a>
+|
+<a href="/imprint">Imprint</a></p>
+</div>
+<div class="templates aural"><div id="wordpress-form"><h2>Share to WordPress.com</h2>
+<form><label for="short-code">
+Grab the <strong>shortcode</strong> or
+<a class="customize-link" href="#customize">customize your player</a>
+</label>
+<input class="content auto-select" id="short-code" name="short-code" />
+<div class="expl">If you are using <strong>self-hosted WordPress</strong>, please use our standard embed code or install the
+<a href="http://wordpress.org/extend/plugins/soundcloud-shortcode/">plugin</a>
+to use shortcodes.</div></form></div>
+
+<div id="timestamped-comment-template"><div class="content"><div class="header"><a class="close" href="#"></a>
+<span class="new">Add a comment</span>
+<span class="count">0 comments</span>
+at
+<span class="time">0.00</span></div>
+<div class="replies"><ol></ol>
+<div class="form-buttons"><input class="reply small" type="submit" value="Reply" /></div></div>
+<div class="tooltip"><abbr>
+Click to enter a
+<br />
+comment at
+</abbr>
+<span>0.00</span></div>
+<div class="footer"></div></div>
+<div class="arrow"></div></div>
+
+<div class="aural"><div id="unlock-form"><div class="site-login-form-wrapper zoom"><div class="login-header"><h2>Sign up</h2>
+<form action="https://soundcloud.com/login/facebook/create" class="connect-facebook" id="facebook-connect-form" method="POST"><input name="token" type="hidden" value="" />
+<input name="sig" type="hidden" value="" />
+<input alt="With your facebook account" class="facebook-signin" src="http://a1.sndcdn.com/images/connect_facebook.png?d870dea" tabindex="0" type="image" />
+<small>
+By signing in you accept our
+<a href="/terms-of-use" target="_blank">Terms Of Use</a>
+and
+<a href="/pages/privacy" target="_blank">Privacy Policy</a>
+</small></form></div>
+<br />
+<ul class="tabs"><li class="first "><a href="/login" id="tab-log-in-link" tabindex="1">Log in</a></li>
+<li class="last current"><a href="/signup" id="tab-sign-up-link" tabindex="2">Sign up</a></li></ul>
+<div class="pane hidden" id="tab-log-in"><form accept-charset="utf-8" action="https://soundcloud.com/session" id="login-form" method="post">
+<div class="form-group"><label for="site-username">Your email address</label><input id="login_submitted_via" name="login_submitted_via" type="hidden" value="zoom" /><input class="title auto-select" id="site-username" name="username" tabindex="3" type="text" /></div>
+<div class="form-group"><label for="site-password">
+Password
+<a href="/login/forgot" class="forgot-link" tabindex="7">Forgot password?</a>
+</label><input class="title auto-select" id="site-password" name="password" tabindex="4" type="password" /></div>
+<div class="remember"><div class="checkbox"><input id="site-remember-me" name="remember_me" type="checkbox" />
+<label for="site-remember-me" tabindex="5">Remember me</label></div></div>
+<div class="form-buttons"><input class="default" id="log-in-submit-button" name="commit" tabindex="6" type="submit" value="Log in" /><a href="#" class="cancel" onclick="return false;" rel="nofollow" tabindex="8">Cancel</a></div>
+</form>
+<div class="forgot-password"><div class="forgot-password-container hidden"><form accept-charset="utf-8" action="http://soundcloud.com/login/forgot" id="forgot-password-form" method="post">
+<p>Enter your <strong>email address</strong> and we'll <strong>send you a link</strong> that'll allow you to <strong>change your password</strong>. Problems? Contact <a href="/help" target="_blank">support</a>.</p>
+<div><div class="form-group"><label for="email">
+Your email address
+<a href="/login/forgot" class="forgot-link-back">Oh, I remember it!</a>
+</label><input class="title auto-focus" id="email" name="email" type="text" /></div>
+<div class="form-buttons"><input class="default" name="commit" type="submit" value="Submit" /></div></div>
+</form>
+</div></div></div>
+<div class="pane " id="tab-sign-up"><form accept-charset="utf-8" action="https://soundcloud.com/signup" class="suggest-email" id="signup-form" method="post">
+
+<div class="form-group"><div class="width_full"><label for="user_email">What's your email address?</label>
+<input autocomplete="off" class="title" id="user_email" maxlength="255" name="user[email]" size="255" type="text" />
+<small class="correction-notice hidden">
+Whoops, we corrected your misspelled email address
+</small></div></div>
+<div class="form-group"><div class="width_1_2"><label for="user_password">Choose a password</label><input autocomplete="off" class="title" id="user_password" maxlength="255" name="user[password]" size="255" type="password" /></div>
+<div class="width_1_2 last"><label for="user_password_confirmation">Re-type password</label><input autocomplete="off" class="title" id="user_password_confirmation" maxlength="255" name="user[password_confirmation]" size="255" type="password" /></div></div>
+<div class="remember"><div class="checkbox"><input name="user[newsletter]" type="hidden" value="0" /><input checked="checked" default="true" id="user_newsletter" name="user[newsletter]" type="checkbox" value="1" /><label for="user_newsletter">Yes, send me useful news about SoundCloud</label></div><div class="checkbox"><input id="user_terms_of_use" name="user[terms_of_use]" tabindex="" type="checkbox" value="1" />
+<label for="user_terms_of_use">
+I agree to the
+<a href="/terms-of-use" target="_blank">Terms of Use</a>
+and
+<a href="/pages/privacy" target="_blank">Privacy Policy</a>
+</label></div>
+</div>
+<div class="remember form-buttons"><input class="default" id="user-submit" name="commit" type="submit" value="Sign up" />
+<a class="cancel" href="/">Cancel</a></div>
+</form></div></div></div></div></div>
+<script src="http://a1.sndcdn.com/javascripts/base.js?d870dea" type="text/javascript"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+$.helpers.loadScriptAsync('//www.google-analytics.com/ga.js');
+$.helpers.loadScriptAsync('//www.google.com/jsapi');
+</script>
+<!-- / %script{:type => "text/javascript"} -->
+<script type="text/javascript">
+_qoptions = {qacct: "p-47_zcqmJsLHXQ"};
+$.helpers.loadScriptAsync('//edge.quantserve.com/quant.js', '//secure.quantserve.com/quant.js', true);
+</script>
+<noscript>
+<img alt="Quantcast" class="hidden" src="//pixel.quantserve.com/pixel/p-47_zcqmJsLHXQ.gif" />
+</noscript>
+<noscript>
+<img alt="" src="//logc252.xiti.com/hit.xiti?s=487751&amp;s2=&amp;p=&amp;di=&amp;an=&amp;ac=" />
+</noscript>
+
+
+</body></html>

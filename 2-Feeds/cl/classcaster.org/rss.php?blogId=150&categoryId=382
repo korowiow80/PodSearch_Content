@@ -1,0 +1,696 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>
+CALI Classcaster</title>
+
+<link rel="stylesheet" href="http://classcaster.net/wp-content/themes/edu-clean/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://classcaster.net/wp-content/themes/edu-clean/wp-comments.css" type="text/css" />
+
+<link rel="stylesheet" href="http://classcaster.net/wp-content/themes/edu-clean/tabber.css" type="text/css" />
+
+<link rel="stylesheet" href="http://classcaster.net/wp-content/themes/edu-clean/theme-options.php" type="text/css" />
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://classcaster.net/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://classcaster.net/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://classcaster.net/feed/atom/" />
+<link rel="pingback" href="http://classcaster.net/xmlrpc.php" />
+<link rel="icon" href="http://classcaster.net/wp-content/themes/edu-clean/favicon.ico" type="images/x-icon" />
+
+
+
+<script type="text/javascript" src="http://classcaster.net/wp-content/themes/edu-clean/js/tabber.js"></script>
+<script type="text/javascript" src="http://classcaster.net/wp-content/themes/edu-clean/js/quicktags.js"></script>
+<script type="text/javascript" src="http://classcaster.net/wp-content/themes/edu-clean/js/simple-code.php"></script>
+
+
+<script type="text/javascript">
+/*
+Optional: Temporarily hide the "tabber" class so it does not "flash" on the page as plain HTML.
+After tabber runs, the class is changed to "tabberlive" and it will appear. this code will cause
+invalid xhtml in code but it is necessary for optimal perfomance
+*/
+document.write('<style type="text/css">.tabber{display:none;}<\/style>');
+</script>
+
+
+<!--[if IE 6]>
+<style type="text/css">
+#list-benefits ul li, .site-logo img {
+behavior: url(http://classcaster.net/wp-content/themes/edu-clean/js/iepngfix.htc);
+}
+</style>
+<![endif]-->
+
+
+<link rel='stylesheet' id='contact-form-7-css'  href='http://classcaster.net/wp-content/plugins/contact-form-7/styles.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://classcaster.net/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://classcaster.net/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://classcaster.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://classcaster.net/wp-includes/wlwmanifest.xml" /> 
+				<script type="text/javascript">
+				var _gaq = _gaq || [];
+								_gaq.push(['_setAccount', 'UA-442653-9']);
+										_gaq.push(['_setDomainName', '.classcaster.net']);
+										_gaq.push(['_trackPageview']);
+					
+									(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+				</script>			
+				
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});wpa2a.done=true;}}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];
+//--></script>
+<script type="text/javascript" src="http://classcaster.net/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://classcaster.net/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<style type="text/css">
+    .calnk a:hover {
+         background-position:0 0;
+         text-decoration:none;  
+         color:#000000;
+         border-bottom:1px dotted #000000;
+         }
+    .calnk a:visited {
+         text-decoration:none;
+         color:#000000;
+         border-bottom:1px dotted #000000;
+        }
+    .calnk a {
+        text-decoration:none; 
+        color:#000000; 
+        border-bottom:1px dotted #000000;
+        }
+    .calnk a span { 
+        display:none; 
+        }
+    .calnk a:hover span {
+        color:#333333; 
+        background:#F6F79B; 
+        display:block;
+        position:absolute; 
+        margin-top:1px; 
+        padding:5px; 
+        width:150px; 
+        z-index:100;
+        }
+     .calendar-table {
+        border:none;
+        width:100%;
+     }
+     .calendar-heading {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+     }
+     .calendar-next {
+        width:25%;
+        text-align:center;
+     }
+     .calendar-prev {
+        width:25%;
+        text-align:center;
+     }
+     .calendar-month {
+        width:50%;
+        text-align:center;
+        font-weight:bold;
+     }
+     .normal-day-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+     }
+     .weekend-heading {
+        text-align:center;
+        width:25px;
+        height:25px;
+        font-size:0.8em;
+        border:1px solid #DFE6DE;
+        background-color:#EBF2EA;
+        color:#FF0000;
+     }
+     .day-with-date {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #DFE6DE;
+     }
+     .no-events {
+
+     }
+     .day-without-date {
+        width:60px;
+        height:60px;
+        border:1px solid #E9F0E8;
+     }
+     span.weekend {
+        color:#FF0000;
+     }
+     .current-day {
+        vertical-align:text-top;
+        text-align:left;
+        width:60px;
+        height:60px;
+        border:1px solid #BFBFBF;
+        background-color:#E4EBE3;
+     }
+     span.event {
+        font-size:0.75em;
+     }
+     .kjo-link {
+        font-size:0.75em;
+        text-align:center;
+     }
+     .event-title {
+        text-align:center;
+        font-weight:bold;
+        font-size:1.2em;
+     }
+     .event-title-break {
+        width:96%;
+        margin-left:2%;
+        margin-right:2%;
+        margin-top:5px;
+        margin-bottom:5px;
+        text-align:center;
+        height:1px;
+        background-color:#000000;
+     }
+     .event-content-break {
+        width:96%;
+        margin-left:2%;
+        margin-right:2%;
+        margin-top:5px;
+        margin-bottom:5px;
+        text-align:center;
+        height:1px;
+        background-color:#000000;
+     }
+     .calendar-date-switcher {
+        height:25px;
+        text-align:center;
+        border:1px solid #D6DED5;
+        background-color:#E4EBE3;
+     }
+     .calendar-date-switcher form {
+        margin:0;
+        padding:0;
+     }
+     .calendar-date-switcher input {
+        border:1px #D6DED5 solid;
+     }
+     .calendar-date-switcher select {
+        border:1px #D6DED5 solid;
+     }
+     .cat-key {
+        width:100%;
+        margin-top:10px;
+        padding:5px;
+        border:1px solid #D6DED5;
+     }
+</style>
+<!--[if IE]>
+<style type="text/css">
+.addtoany_list a img{filter:alpha(opacity=70)}
+.addtoany_list a:hover img,.addtoany_list a.addtoany_share_save img{filter:alpha(opacity=100)}
+</style>
+<![endif]-->
+
+
+</head>
+
+<body id="edubody">
+
+<div id="top-header">
+<div class="h-content">
+
+<div class="top-h-content">
+<div class="site-logo">
+
+<a href="http://classcaster.net" title="Click here to go to the site homepage">
+<img src="http://classcaster.net/files/2010/01/Classcaster_Logo_Color.png" alt="edublogs homepage" /></a>
+
+</div>
+
+<div class="site-stats"><span>Currently powering <strong>138 blogs</strong></span></div>
+
+
+</div>
+
+<div class="bottom-h-content">
+<div class="navigation">
+
+<ul class="pg-nav">
+<li id="home"><a href="http://classcaster.net" title="The homepage">Home</a></li>
+<li class="page_item page-item-2"><a href="http://classcaster.net/about/">About</a></li>
+<li class="page_item page-item-12"><a href="http://classcaster.net/blogs/">Blogs</a></li>
+<li class="page_item page-item-5"><a href="http://classcaster.net/contact-us/">Contact Us</a></li>
+<li class="page_item page-item-14"><a href="http://classcaster.net/features/">Features</a></li>
+<li class="page_item page-item-168"><a href="http://classcaster.net/sample-page/">Sample Page</a></li>
+<li class="page_item page-item-13"><a href="http://classcaster.net/site-search/">Site Search</a></li>
+<li><a href="http://help.classcaster.net/category/faq/" title="Classcaster FAQ" target="_blank">FAQ</a></li>
+<li><a href="http://help.classcaster.net/forums/" title="Get help and support " target="_blank">Forums</a></li>
+<li><a href="http://help.classcaster.net/" target="_blank">Help</a></li>
+
+</ul>
+
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div id="main-header">
+<div id="main-header-content">
+<div id="main-header-inner">
+<div id="main-header-inner-content">
+<h4>The legal education podcasting and blogging network</h4>
+<br /><br />
+<div id="intro-log">
+<div id="list-benefits">
+<ul>
+<li>Effortlessly create and manage blogs</li>
+<li>Packed with useful features and customizable themes</li>
+<li>Ready made for podcasting, videos, photos and more</li>
+</ul></div>
+
+
+<div id="intro-package">
+<div id="edublog-free"><h3>CALI Members: Get started in seconds</h3><p><a href="http://classcaster.net/wp-signup.php" title="Get yourself a free blog">Create a Blog Here!</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="wraps">
+<div id="container">
+<div id="front-left">
+<div id="services">
+
+<h4>How CALI Classcaster Can Help You?</h4>
+
+
+
+<div class="service-block">
+<img src="http://classcaster.net/wp-content/blogs.dir/1/thumbs/edu1_thumb.jpg" width="200" height="100" alt="<a href=/features/podcasting>Podcasting</a>" />
+<h3><a href=/features/podcasting>Podcasting</a></h3>
+<p>
+Classcaster gives you all the tools you need to podcast your lectures, course summaries, and more...</p>
+</div>
+
+
+
+<div class="service-block">
+<img src="http://classcaster.net/wp-content/blogs.dir/1/thumbs/edu2_thumb.jpg" width="200" height="100" alt="<a href=/features/blogging>Blogging</a>" />
+<h3><a href=/features/blogging>Blogging</a></h3>
+<p>
+
+Classcaster provides law school friendly blogs for CALI member schools  ...
+</p>
+</div>
+
+
+<div class="service-block">
+<img src="http://classcaster.net/wp-content/blogs.dir/1/thumbs/edu3_thumb.jpg" width="200" height="100" alt="<a href=/features>Customizing Classcaster</a>" />
+<h3><a href=/features>Customizing Classcaster</a></h3>
+<p>
+
+You can customize your Classcaster blog with themes and plugins...
+</p>
+</div>
+
+
+
+<div class="service-block">
+<img src="http://classcaster.net/wp-content/blogs.dir/1/thumbs/edu4_thumb.jpg" width="200" height="100" alt="<a href=http://help.classcaster.net/>Support</a>" />
+<h3><a href=http://help.classcaster.net/>Support</a></h3>
+<p>
+
+Visit the Classcaster Help site for FAQs and forums to get help...
+</p>
+</div>
+
+
+<div id="more-features"><a href="http://classcaster.net/features/">Browse more features &raquo;</a></div>
+
+</div>
+
+
+
+
+
+
+<div class="tabber">
+
+
+<div class="tabbertab">
+<h3>CALI Spotlight</h3>
+
+<div class="rss-feeds">
+
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/blog/2012/06/04/900-cali-lessons-counting" rel="external nofollow" title="900 CALI Lessons and Counting">900 CALI Lessons and Counting</a>
+</h1>
+<div class="rss-author">By emasters</div>
+<div class="rss-content">We just published our 900th CALI Lesson on cali.org! The 900th lesson was Professor Steve Bradford’s “Inventory and the Cost of Goods Sold.” Thi...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/blog/2012/06/01/learn-make-ebooks-calicon12" rel="external nofollow" title="Learn to Make Ebooks at CALIcon12">Learn to Make Ebooks at CALIcon12</a>
+</h1>
+<div class="rss-author">By agroothuis</div>
+<div class="rss-content">It&rsquo;s getting easier to publish ebooks using freely available tools like Sigil and Calibre. What&rsquo;s this have to do with your law school? Th...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/blog/2012/05/14/cali-partnering-chicago-kent-pilot-law-school-clinics-program" rel="external nofollow" title="CALI partnering with Chicago-Kent for pilot law school clinics program">CALI partnering with Chicago-Kent for pilot law school clinics program</a>
+</h1>
+<div class="rss-author">By emasters</div>
+<div class="rss-content">We at CALI are very excited Chicago-Kent’s Cyber Clinics pilot project.
+read more...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/blog/2012/05/07/adopt-free-open-legal-ed-materials" rel="external nofollow" title="Adopt free, open legal ed materials.">Adopt free, open legal ed materials.</a>
+</h1>
+<div class="rss-author">By emasters</div>
+<div class="rss-content">We’re asking legal educators to consider adopting free, open eLangdell books and supplements for their Summer or Fall classes.
+Consider the advantag...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/blog/2012/04/16/book-book-other-thoughts-our-webby-future" rel="external nofollow" title="A Book Is A Book And Other Thoughts On Our Webby Future">A Book Is A Book And Other Thoughts On Our Webby Future</a>
+</h1>
+<div class="rss-author">By emasters</div>
+<div class="rss-content">In February I wrote that every book is a website and we need to embrace the webiness of books. This led to some good discussion about the nature of bo...</div></div>
+
+</div>
+
+</div>
+
+
+
+<div class="tabbertab">
+<h3>CALI Lessons</h3>
+<div class="rss-feeds">
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/lesson/9824" rel="external nofollow" title="An Introduction to Depreciation">An Introduction to Depreciation</a>
+</h1>
+<div class="rss-author">By sam</div>
+<div class="rss-content">This lesson is an introduction to the basic concept of depreciation. It discusses depreciation as an expense, how to determine the cost, or basis, of ...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/lesson/9826" rel="external nofollow" title="Inventory and the Cost of Goods Sold">Inventory and the Cost of Goods Sold</a>
+</h1>
+<div class="rss-author">By sam</div>
+<div class="rss-content">This lesson discusses the accounting treatment of inventory: how to value inventory on the balance sheet, inventory as an expense (the cost of goods s...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/lesson/9827" rel="external nofollow" title="Inventory: The Lower-of-Cost-or-Market Rule">Inventory: The Lower-of-Cost-or-Market Rule</a>
+</h1>
+<div class="rss-author">By sam</div>
+<div class="rss-content">This lesson discusses the lower-of-cost-or-market rule that sometimes requires the book value of inventory to be reduced to its market value. Before t...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/lesson/9825" rel="external nofollow" title="Methods of Depreciation">Methods of Depreciation</a>
+</h1>
+<div class="rss-author">By sam</div>
+<div class="rss-content">This lesson discusses the different methods of calculating depreciation expense. Students who take this lesson should already be familiar with the bas...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://www.cali.org/lesson/9756" rel="external nofollow" title="Interference with Flight Crew">Interference with Flight Crew</a>
+</h1>
+<div class="rss-author">By sam</div>
+<div class="rss-content">This lesson discusses 49 U.S.C. sec. 46504, providing for civil and criminal penalties for passengers who intimidate pilots or flight attendants.
+    ...</div></div>
+</div>
+
+</div>
+
+
+
+<div class="tabbertab">
+<h3>Classcaster Help</h3>
+
+<div class="rss-feeds">
+
+
+<div class="feed-pull"><h1>
+<a href="http://help.classcaster.net/2011/01/13/is-it-possible-to-create-a-custom-blogging-domain-for-my-law-school/" rel="external nofollow" title="Is it possible to create a custom blogging domain for my law school?">Is it possible to create a custom blogging domain for my law school?</a>
+</h1>
+<div class="rss-author">By admin</div>
+<div class="rss-content">The Domain Mapping plugin for Classcaster allows bloggers to use their own domain name with a Classcaster blog. With a little planning and direction C...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://help.classcaster.net/2011/01/08/how-do-i-create-a-classcaster-blog/" rel="external nofollow" title="How do I create a Classcaster blog?">How do I create a Classcaster blog?</a>
+</h1>
+<div class="rss-author">By admin</div>
+<div class="rss-content">Creating a new Classcaster blog is easy! Just visit the Classcaster home page and click on the &#8216;Create a blog here!&#8216; link to get started.�...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://help.classcaster.net/2010/10/08/can-i-use-a-custom-domain-name-with-my-classcaster-blog/" rel="external nofollow" title="Can I use a custom domain name with my Classcaster blog?">Can I use a custom domain name with my Classcaster blog?</a>
+</h1>
+<div class="rss-author">By admin</div>
+<div class="rss-content">We understand that not everyone wants or is able to use a classcaster.net domain for their blog. You may already have a domain that you use for a blog...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://help.classcaster.net/2010/08/29/adding-users-to-my-blog/" rel="external nofollow" title="How do I add authors or editors or other users to my blog?">How do I add authors or editors or other users to my blog?</a>
+</h1>
+<div class="rss-author">By admin</div>
+<div class="rss-content">Classcaster makes it easy to add additional authors or editors to your blog. Please note that for security reasons we require that everyone who is goi...</div></div>
+
+<div class="feed-pull"><h1>
+<a href="http://help.classcaster.net/2010/08/26/how-do-i-change-the-author-name-that-displays-in-my-posts/" rel="external nofollow" title="How do I change the author name that displays in my posts?">How do I change the author name that displays in my posts?</a>
+</h1>
+<div class="rss-author">By admin</div>
+<div class="rss-content">By default Classcaster displays your CALI username as the author name on your posts. For many faculty this username is often your email address. Chang...</div></div>
+
+</div>
+
+</div>
+
+
+
+<!--[if !IE]> List class usage <![endif]-->
+
+<!--[if !IE]>
+
+<div class="tabbertab">
+<h3>Links</h3>
+<ul class="nolist">
+<li><a href="#">Testing Comments Here&nbsp;<strong>(19)</strong></a></li>
+<li><a href="#">April post test with long title tag&nbsp;<strong>(9)</strong></a></li>
+<li><a href="#">Caption right within post with links&nbsp;<strong>(5)</strong></a></li>
+<li><a href="#">Center Image with text&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">Aloha Newstimes&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">September Walking Dog Post Is Insane&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">Finally Upgrade To WordPress Dexter 2.3...looking good so far&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">Ji Eun - Love - in radio station lock room..superb!&nbsp;<strong>(2)</strong></a></li><li><a href="#">Right Image with text&nbsp;<strong>(1)</strong></a></li><li><a href="#">Test UL&nbsp;<strong>(1)</strong></a></li>
+</ul>
+</div>
+
+<div class="tabbertab">
+<h3>Links</h3>
+<ul class="list-alt">
+<li><a href="#">Testing Comments Here&nbsp;<strong>(19)</strong></a></li>
+<li><a href="#">April post test with long title tag&nbsp;<strong>(9)</strong></a></li>
+<li><a href="#">Caption right within post with links&nbsp;<strong>(5)</strong></a></li>
+<li><a href="#">Center Image with text&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">Aloha Newstimes&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">September Walking Dog Post Is Insane&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">Finally Upgrade To WordPress Dexter 2.3...looking good so far&nbsp;<strong>(2)</strong></a></li>
+<li><a href="#">Ji Eun - Love - in radio station lock room..superb!&nbsp;<strong>(2)</strong></a></li><li><a href="#">Right Image with text&nbsp;<strong>(1)</strong></a></li><li><a href="#">Test UL&nbsp;<strong>(1)</strong></a></li>
+</ul>
+</div>
+
+<![endif]-->
+
+</div>
+
+<!-- end all rss feeds -->
+
+</div><div id="front-right">
+
+<div id="top-right-front">
+
+
+<div id="latest-news">
+
+<div id="top-right-panel">
+
+
+<form name="loginform" action="http://classcaster.net/wp-login.php" method="post">
+
+      <h3>Log in</h3>
+
+      <label>Username:</label>
+      <p><input name="log" id="user_login" class="inbox" value=""/></p>
+
+       <label>Password:</label>
+      <p><input name="pwd" id="user_pass" type="password" value="" class="inbox"/></p>
+
+      <p><input name="submit" type="submit" value="Login" class="submit-button"/>
+      <input type="hidden" name="redirect_to" value="/"/>
+      </p>
+
+      <p class="chk"><input name="rememberme" id="rememberme" value="forever" type="checkbox" checked="checked" />&nbsp;remember me</p>
+      <p class="chk"><a href="http://classcaster.net/wp-login.php?action=lostpassword" title="Get a new password sent to you">Lost your password?</a></p><br />
+<p class="chk"><a href="http://classcaster.net/wp-login.php?redirect_to=http%3A%2F%2Fclasscaster.net%2Fwp-signup.php" title="Create a new Classcaster blog">Create a new Classcaster Blog</a></p><br />
+      </form>
+
+
+</div>
+
+<h3>Latest News &raquo;</h3>
+
+<div class="news">
+<h1><a href="http://classcaster.net/2011/01/07/enabling-a-blogging-domain-for-your-law-school-with-domain-mapping/" rel="bookmark" title="Enabling a Blogging Domain For Your Law School With Domain Mapping">Enabling a Blogging Domain For Your Law School With Domain Mapping</a></h1>
+<p class="date-in">January 7th</p>
+<p>The Domain Mapping plugin for Classcaster allows bloggers to use their own domain name with a Classcaster blog. With a <a href="http://classcaster.net/2011/01/07/enabling-a-blogging-domain-for-your-law-school-with-domain-mapping/#more-133"></a>...(<span>Comments Off</span>)</p>
+</div>
+
+
+<div class="news">
+<h1><a href="http://classcaster.net/2010/10/08/new-feature-custom-domain-mapping/" rel="bookmark" title="New Feature: Custom Domain Mapping">New Feature: Custom Domain Mapping</a></h1>
+<p class="date-in">October 8th</p>
+<p>Now you can map your Classcaster blog to a custom domain using the Domain Mapping plugin. If you already have <a href="http://classcaster.net/2010/10/08/new-feature-custom-domain-mapping/#more-127"></a>...(<a href="http://classcaster.net/2010/10/08/new-feature-custom-domain-mapping/#respond" title="Comment on New Feature: Custom Domain Mapping">No Comment</a>)</p>
+</div>
+
+
+<div class="news">
+<h1><a href="http://classcaster.net/2010/02/24/resources-for-making-the-most-out-of-wordpress/" rel="bookmark" title="Resources For Making The Most Out of WordPress">Resources For Making The Most Out of WordPress</a></h1>
+<p class="date-in">February 24th</p>
+<p>One of the core reason for the popularity of WordPress is the community around it. There are thousands of fans <a href="http://classcaster.net/2010/02/24/resources-for-making-the-most-out-of-wordpress/#more-29"></a>...(<a href="http://classcaster.net/2010/02/24/resources-for-making-the-most-out-of-wordpress/#respond" title="Comment on Resources For Making The Most Out of WordPress">No Comment</a>)</p>
+</div>
+
+
+<div class="news">
+<h1><a href="http://classcaster.net/2010/02/19/the-new-classcaster/" rel="bookmark" title="The New Classcaster!">The New Classcaster!</a></h1>
+<p class="date-in">February 19th</p>
+<p>Welcome to the new Classcaster podcasting and blogging network. We've updated the 5 year-old Classcaster network to use Wordpress MU <a href="http://classcaster.net/2010/02/19/the-new-classcaster/#more-27"></a>...(<a href="http://classcaster.net/2010/02/19/the-new-classcaster/#comments" title="Comment on The New Classcaster!">2 Comments</a>)</p>
+</div>
+
+
+<div class="news">
+<h1><a href="http://classcaster.net/2007/01/31/blogging-with-word-2007/" rel="bookmark" title="Blogging With Word 2007">Blogging With Word 2007</a></h1>
+<p class="date-in">January 31st</p>
+<p>This is a test.  You bet it is.  So, here I am editing an existing post with Word <a href="http://classcaster.net/2007/01/31/blogging-with-word-2007/#more-191"></a>...(<a href="http://classcaster.net/2007/01/31/blogging-with-word-2007/#respond" title="Comment on Blogging With Word 2007">No Comment</a>)</p>
+</div>
+
+</div>
+</div>
+
+<div id="bottom-right-front">
+
+<ul class="sidebar_list">
+
+
+
+
+
+
+
+
+<li id="ahp_recent-posts">
+<h3>Recent Classcaster Posts</h3>
+<li class="ahp_recent-posts"><small>Wed Jun 6th, 2012 by laura.ray@law.csuohio.edu | no comments</small><br>@<a href="http://cmlawlibraryblog.classcaster.net/">C-M Law Library Blog</a> | <a href="http://cmlawlibraryblog.classcaster.net/2012/06/06/linkedin-passwords-may-be-at-risk/">LinkedIn Passwords May Be At Risk</a><br><small><span style="ahp-excerpt">IF YOU HAVE A LINKEDIN account, you should seriously consider changing your password.  Security firms are reporting that a file with over 6.4 million LinkedIn passwords was posted on a... <a href="http://cmlawlibraryblog.classcaster.net/2012/06/06/linkedin-passwords-may-be-at-risk/">&raquo;&raquo;MORE</a></span></small></li><li class="ahp_recent-posts"><small>Mon May 7th, 2012 by ed.myers@temple.edu | no comments</small><br>@<a href="http://lawschooltechtalk.classcaster.net/">Law School Tech Talk</a> | <a href="http://lawschooltechtalk.classcaster.net/2012/05/07/episode-24/">Episode 24</a><br><small><span style="ahp-excerpt">WE TALKED ABOUT LOTS OF great tech news this week, from personal URL shorteners to the return of Ze Frank to DYI tech news magazines.
+
+Links for this podcast:
+
+	YOURLS:... <a href="http://lawschooltechtalk.classcaster.net/2012/05/07/episode-24/">&raquo;&raquo;MORE</a></span></small></li><li class="ahp_recent-posts"><small>Wed Jun 6th, 2012 by gregory.ogden@pepperdine.edu | no comments</small><br>@<a href="http://ogden.classcaster.net/">Gregory Ogden classes at Pepperdine</a> | <a href="http://ogden.classcaster.net/2012/06/06/ethical-lawyering-summer-2012-6-4-2012-part-2/">Ethical Lawyering Summer 2012 (6.4.2012) part 2</a><br><small><span style="ahp-excerpt">ETHICAL LAWYERING SU 2012 (6.4.2012) part 2... <a href="http://ogden.classcaster.net/2012/06/06/ethical-lawyering-summer-2012-6-4-2012-part-2/">&raquo;&raquo;MORE</a></span></small></li><li class="ahp_recent-posts"><small>Fri Apr 6th, 2012 by Austin Groothuis | no comments</small><br>@<a href="http://tdlp.classcaster.net/">Topics in Digital Law Practice</a> | <a href="http://tdlp.classcaster.net/2012/04/06/tdlp-class-9-ernie-svenson-social-media-in-lawyering/">TDLP Class 9 - Ernie Svenson - Social Media in Lawyering</a><br><small><span style="ahp-excerpt">THIS IS THE 9TH AND final class in our TDLP course. Thanks to our 900+ registrants and our fantastic volunteer expert speakers for helping make our first TDLP MOOC a... <a href="http://tdlp.classcaster.net/2012/04/06/tdlp-class-9-ernie-svenson-social-media-in-lawyering/">&raquo;&raquo;MORE</a></span></small></li><li class="ahp_recent-posts"><small>Mon Jun 4th, 2012 by Austin Groothuis | no comments</small><br>@<a href="http://spotlight.classcaster.net/">CALI Spotlight Blog</a> | <a href="http://spotlight.classcaster.net/2012/06/04/900-cali-lessons-and-counting/">900 CALI Lessons and Counting</a><br><small><span style="ahp-excerpt">WE JUST PUBLISHED OUR 900TH CALI Lesson on cali.org! The 900th lesson was Professor Steve Bradford's "Inventory and the Cost of Goods Sold." This is a true milestone for CALI.... <a href="http://spotlight.classcaster.net/2012/06/04/900-cali-lessons-and-counting/">&raquo;&raquo;MORE</a></span></small></li><li class="ahp_recent-posts"><small>Mon Jun 4th, 2012 by Lucie | no comments</small><br>@<a href="http://pacelawlibrary.classcaster.net/">Pace Law Library Podcasts</a> | <a href="http://pacelawlibrary.classcaster.net/2012/06/04/bookbag-to-briefcase-2012/">Bookbag to Briefcase 2012</a><br><small><span style="ahp-excerpt">THE FOURTH ANNUAL BOOKBAG TO Briefcase program was held on April 11, 2012 at 3:00 pm at the Pace Law Library, offering a wide range of tips and tricks to... <a href="http://pacelawlibrary.classcaster.net/2012/06/04/bookbag-to-briefcase-2012/">&raquo;&raquo;MORE</a></span></small></li><li class="ahp_recent-posts"><small>Mon Jun 4th, 2012 by dmcgovern@charlestonlaw.edu | no comments</small><br>@<a href="http://csol.classcaster.net/">Charleston School of Law Podcasts</a> | <a href="http://csol.classcaster.net/2012/06/04/domestic-violence-training-6-1-2012/">Domestic Violence Training 6-1-2012</a><br><small><span style="ahp-excerpt">CAREER SERVICES DV 6-1-12 VIDEO ... <a href="http://csol.classcaster.net/2012/06/04/domestic-violence-training-6-1-2012/">&raquo;&raquo;MORE</a></span></small></li></li>
+
+
+
+
+
+<li id="tag_cloud" class="widget_tag_cloud">
+<h3>Popular Tags</h3>
+<ul><li>
+<a href='http://classcaster.net/tag/blog/' class='tag-link-403' title='2 topics' style='font-size: 24pt;'>blog</a>
+<a href='http://classcaster.net/tag/classcaster/' class='tag-link-402' title='1 topic' style='font-size: 11pt;'>Classcaster</a>
+<a href='http://classcaster.net/tag/creating-blogs/' class='tag-link-3354' title='1 topic' style='font-size: 11pt;'>creating blogs</a>
+<a href='http://classcaster.net/tag/custom-domain/' class='tag-link-788' title='2 topics' style='font-size: 24pt;'>custom domain</a>
+<a href='http://classcaster.net/tag/podcast/' class='tag-link-60' title='1 topic' style='font-size: 11pt;'>podcast</a>
+<a href='http://classcaster.net/tag/url/' class='tag-link-643' title='1 topic' style='font-size: 11pt;'>url</a></li>
+</ul>
+</li>
+
+<li id="gravatar_comments" class="widget_gravatar_comments">
+<h3>Recent Comments</h3>
+<ul>
+
+<li>
+<img class="alignleft" src="http://www.gravatar.com/avatar.php?gravatar_id=f18ef2c5c6b420df11cade7f2f239a93&amp;size= 50" alt="" /><br />
+<a href="http://classcaster.net/2010/02/19/the-new-classcaster/#comment-1509" title="on The New Classcaster!">
+&quot;This is not very user friendly.  I still can't find my way t...&quot;
+</a>
+<br />
+<small><strong>rcarlson@stcl.edu</strong> in <em>The New Classcaster!</em></small>
+</li>
+</ul>
+</li>
+
+ <!-- widgets -->
+
+
+</ul>
+
+
+</div>
+
+</div></div>
+</div>
+<div id="footer">
+<div id="footer-wrap">
+<div id="footer-container">
+<div class="myedu">&copy; 2012 CALI Classcaster<br />
+<a href="http://www.cali.org/legal/termsofservice" title="CALI Terms of Service" target="_blank">Terms of Service</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://help.classcaster.net/forums" title="Classcaster support forums" target="_blank">Support Forums</a>
+</div>
+
+
+<div id="incsubfooter"><br />
+<a href="http://premium.wpmudev.org/" title="Theme by WPMU DEV Premium">Theme by WPMU DEV Premium</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://mu.wordpress.org" title="Powered by WordPress MU" target="_blank">WordPress MU</a>
+</div>
+
+<div id="wp-footer"><a href="http://www.cali.org"><img src="/wp-content/images/miniLogo.png" /></a>
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<script type='text/javascript' src='http://classcaster.net/wp-content/plugins/contact-form-7/jquery.form.js?ver=3.08'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/classcaster.net\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://classcaster.net/wp-content/plugins/contact-form-7/scripts.js?ver=3.1.2'></script>
+</div>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+</body>
+</html>    

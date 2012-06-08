@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Rich Media Portal
+</title>
+<script type="text/javascript" src="cookie.js"></script>
+<script language="javascript">
+//<!--
+    
+     function isCookieEnabled()
+     {
+       if(testSessionCookie())
+       {
+       doAction();
+       }
+       else
+       {
+         
+        doCookieNotFound();
+       }
+     }
+     function doCookieNotFound()
+     {
+      var doc = window.main.document;
+       doc.location.href ='webcastportal/CookiesNotSet.aspx';
+	 }
+	function doAction()
+	{
+		var doc = window.main.document;
+		doc.open();
+		doc.write('<form name="framedForm" action="webcastportal/Program.aspx" method="POST">');
+		doc.write('<input type="hidden" name="key" value="08032007Capture">');
+		doc.write('');
+		doc.write('<input type="hidden" name="referer" value="">');
+		doc.write('</form>');
+		doc.close();
+		doc.framedForm.submit();
+	}
+	window.onload = isCookieEnabled;
+//-->
+</script>
+</head>
+<frameset rows="*,0" framespacing="0" frameborder="0" border="0">
+  <frame name="main" src="">
+  <noframes>
+  <body>
+  <p>This page uses frames, but your browser doesn't support them.</p>
+  </body>
+  </noframes>
+</frameset>
+</html>

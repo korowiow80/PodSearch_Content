@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>
+            Wizzard Sandboxss        </title>
+        <link href="/public/css/login.v0.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="login_body" bgcolor="#000" >
+    			<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-1417413-12']);
+		  _gaq.push(['_setDomainName', 'none']);
+		  _gaq.push(['_setAllowLinker', true]);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+
+		        <link rel="stylesheet" type="text/css" href="/public/lib/ext/resources/css/ext-all.css" />
+        <link rel="stylesheet" id="theme" href="/public/css/xtheme-gray.v0.css" />
+
+                <div id="login_window" class="login_window">
+            <div class="login_box">
+                                <!-- forgot pw confirm-->
+                <div id="forgot_pw_confirm" style="display:none;">
+                    <p>
+                        &nbsp;
+                    </p>
+                    <div style="width:409px;" align="center">
+                        Please check your email for instructions on resetting your password.
+                        <br/>
+                        <p>
+                            <a style="cursor:pointer" onClick="returnToLogin('forgot_pw_confirm');">Click here to login.</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- --><!-- forgot pw prompt-->
+                <div id="forgot_pw_prompt" style="display:none;">
+                    <div style="font-size:30px;color:#e0e0e0;">
+                        Oops.
+                    </div>
+                    <div align="center">
+                        <br>
+                        Please tell us your email address.
+                        <br/>
+                        We'll send instructions on how to reset your password.
+                        <form name="forgot_pw_form" id="forgot_pw_form" onSubmit="forgotPw(); return false;">
+                            <input type="hidden" name="mode" value="forgot_pw">
+                            <br>
+                            email: <input name="email" id="forgot_pw_email" type="text" style="width:150px;"/>
+                            <br>
+                            <br>
+                            <img src="/public/styles/black_mirror/img/request_btn.jpg" onclick="forgotPw();">
+                            <br/>
+                            <a style="cursor:pointer;font-size:12px;" onclick="returnToLogin('forgot_pw_prompt')">return to login</a>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+                <div id="login_prompt">
+                    <div style="font-size:30px;color:#e0e0e0;margin:auto;text-align:center;margin-bottom:14px;">
+                        Hello.
+                    </div>
+                    <div style="margin:auto;" align="center">
+                        <div class="network_icon" style="margin:auto;">
+                            <!-- <img src="/network-images/$this->network->getNetworkId()/images/75.jpg"> --><img width="100" src='http://asset-server.libsyn.com/network/k-f823e0b92b198fa0/height/100/width/100'>
+                        </div><!--pixel_image_75-->
+                        <br style="clear:both;">
+                        Welcome to
+                        Wizzard Sandboxss                        <br/>
+                        <form name="login_form" id="login_form" method="post" action="/auth/login">
+                            <div style="margin-top:7px;width:237px;text-align:right;">
+                                email:<input id="email" name="email" type="text" style="width:150px;"/>
+                            </div>
+                            <div style="margin-top:7px;width:237px;text-align:right;">
+                                password:<input id="password" name="password" type="password" style="width:150px;"/>
+                            </div>
+                            <br>
+                            <div>
+                                <input style="margin:auto;" name="imageField" type="image" src="/public/styles/black_mirror/img/login_btn.jpg" alt="login" />
+                            </div><a style="cursor:pointer;font-size:11px;" onclick="displayForgotPw();">forgot password?</a>
+                        </form>
+                    </div>
+                </div>
+                            </div>
+            <br>
+            <div id="footer" style="text-align:center;font-size:10px;color:#777;width:409px;margin:auto;" align="center">
+                Wizzard Sandboxss                is powered by libsyn.
+                <br/>
+                Please visit <a href="http://docs.libsynpro.com/wiki/system_status" target="_blank">libsyn System Status</a> for announcements and service issues
+                <br/>
+                libsyn publishing system version 3.4.41 (rev. 0)
+                <br/>
+                liberated syndication.
+                <br>
+                <br>
+            </div>
+        </div>
+
+
+		        <script type="text/javascript" src="/public/lib/ext/adapter/ext/ext-base.js"></script>
+        <script type="text/javascript" src="/public/lib/ext/ext-all.js"></script>
+        <script type="text/javascript" src="/public/lib/ext/build/core/Fx-min.js"></script>
+
+
+        <script src="/public/js/common/login.v0.js"></script>
+    </body>
+</html>

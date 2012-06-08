@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+	<meta name="revisit-after" content="1 days" />
+	<meta name="expires" content="now" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<title></title>
+	<link rel="shortcut icon" href="/img/favicon.ico"/>
+	<script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+		var err = function() {
+			$("body").append('An error occurred...');
+		};
+		var load = function( d ) {
+			$("img").remove();
+			if (d && 'u' in d && d.u) {
+									window.location = d.u;
+							} else {
+				err();
+			}
+		};
+		$.ajax({
+			url: "/js/go", async: true
+			, data: 'domain=wild-kingdom.de&tok='
+					+ '%2BaCZQJS%2BTIeyvZtDsjPBU%2BJTODzfyudgYZJy'
+					+ '%2F8faqn1nTjaJRHNEo9Arsw7S6qS7ZfwoBawfDjCqoKZ%2FnySES4HIhlbxTIVDQkmJ7qv9aWRMnf4FPlHij96Xg%2BubVQqK'
+			, dataType: 'json', success: load, failure: err
+		});
+	</script>
+</head>
+<body>
+	<img src='/img/loading.gif' alt='Loading...'>
+</body>
+</html>

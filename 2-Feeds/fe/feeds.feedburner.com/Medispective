@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head data-layout-view="simple" class="xj_layout_head">    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Video Game News</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Since 1996, providing gaming news, reviews and knowledge to the public for free." />
+    <meta name="keywords" content="Video, Game, News" />
+<meta name="title" content="Video Game News" />
+<link rel="image_src" href="http://api.ning.com/icons/appatar/6458022?default=6458022&amp;width=90&amp;height=90" />
+<script type="text/javascript">
+            (function(){
+            if (!window.ning) { return; }
+
+            var age, gender, rand, obfuscated, combined;
+
+            obfuscated = document.cookie.match(/xgdi=([^;]+)/);
+            if (obfuscated) {
+                var offset = 100000;
+                obfuscated = parseInt(obfuscated[1]);
+                rand = obfuscated / offset;
+                combined = (obfuscated % offset) ^ rand;
+                age = combined % 1000;
+                gender = (combined / 1000) & 3;
+                gender = (gender == 1 ? 'm' : gender == 2 ? 'f' : 0);
+                ning.viewer = {"age":age,"gender":gender};
+            }
+        })();
+
+        if (window.location.hash.indexOf('#!/') == 0) {
+        window.location.replace(window.location.hash.substr(2));
+    }
+    
+window.xg = {};
+xg.addOnRequire = function(f) { xg.addOnRequire.functions.push(f); };
+xg.addOnRequire.functions = [];
+xg.addOnFacebookLoad = function (f) { xg.addOnFacebookLoad.functions.push(f); };
+xg.addOnFacebookLoad.functions = [];
+xg._loader = {
+    p: 0,
+    loading: function(set) { this.p++; },
+    onLoad: function(set) {
+        this.p--;
+        if (this.p == 0 && typeof(xg._loader.onDone) == 'function') {
+            xg._loader.onDone();
+        }
+    }
+};
+xg._loader.loading('xnloader');
+if (window.bzplcm) {
+    window.bzplcm._profileCount = 0;
+    window.bzplcm._profileSend = function() { if (window.bzplcm._profileCount++ == 1) window.bzplcm.send(); };
+}
+xg._loader.onDone = function() {
+        if(window.bzplcm)window.bzplcm.start('ni');
+        xg.shared.util.parseWidgets();    var addOnRequireFunctions = xg.addOnRequire.functions;
+    xg.addOnRequire = function(f) { f(); };
+    try {
+        if (addOnRequireFunctions) { dojo.lang.forEach(addOnRequireFunctions, function(onRequire) { onRequire.apply(); }); }
+    } catch (e) {
+        if(window.bzplcm)window.bzplcm.ts('nx').send();
+        throw e;
+    }
+    if(window.bzplcm) { window.bzplcm.stop('ni'); window.bzplcm._profileSend(); }
+};
+window.xn = { track: { event: function() {}, pageView: function() {}, registerCompletedFlow: function() {}, registerError: function() {}, timer: function() { return { lapTime: function() {} }; } } };</script>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/common-982.min.css?xn_version=260404971);
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/component.min.css?xn_version=1315613885);
+@import url(http://static.ning.com/socialnetworkmain/widgets/index/css/paidaccess.css?xn_version=2703059924);
+
+</style>
+
+<style type="text/css" media="screen,projection">
+@import url(http://static.ning.com/videogamenews/instances/css/theme-982_1338490684.css?xn_version=201205311826);
+
+</style>
+
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://static.ning.com/socialnetworkmain/widgets/index/css/common-ie6.min.css?xn_version=4160739512" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://static.ning.com/socialnetworkmain/widgets/index/css/common-ie7.css?xn_version=2712659298" />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://videogamenews.com/profiles/blog/rsd" />
+</head>
+<body>
+    <div class="xj_before_content">    <div id="xn_bar">&#160;</div>
+<a style="display:none" class="button" href="#" dojoType="frameBusting" _isAdminOrNC="" _appUrl="http://videogamenews.com/main/authorization/signIn?target=http%3A%2F%2Fvideogamenews.com%2F"></a>
+<div id="xj_msg" style="display:none;"></div>
+
+
+</div>
+    <div class="xg_theme" data-layout-pack="petruchio">
+        <div id="xg_themebody">
+            <div id="xg" class="account external-auth xg_widget_main xg_widget_main_authorization xg_widget_main_authorization_signIn">
+                <div id="xg_body">
+                    <div id="xg_canvas" class="xj_canvas">
+                        <div class="xg_module xg_lightborder signin-module">
+    <form action="http://videogamenews.com/main/authorization/doSignIn?target=http%3A%2F%2Fvideogamenews.com%2F" method="post" class="xg_module_body xg_lightborder" novalidate="novalidate">
+        <input type="hidden" name="xg_token" value="" />		                        <p class="dy-right">New? <a href="http://videogamenews.com/main/authorization/signUp?">Click here to join</a></p>
+                            <h2 class='xg_lightborder'>Sign In to Video Game News</h2>
+                    <div class="signin-left xg_lightborder">
+            <div class="dy-error-msg" style="display: none">
+               <p></p>
+               <p><a target="_blank" href="http://videogamenews.com/main/authorization/problemsSigningIn?noBack=1">I still can't sign in.</a></p>
+            </div>
+            <div class="dy-error-msg" style="display:none" id="cookie_check">
+                <p>Cookies may not be enabled in your browser.  You will need to enable them in order to continue.</p>
+            </div>
+            <fieldset class="dy-form-1 account clear" id="signin">
+                <dl>
+                    <dt><label for="signin_email">Email Address</label></dt>
+                    <dd><input type="email" name="emailAddress" value="" id="signin_email" class="dy-input-text dy-input-medium" size="20"/></dd>
+                </dl>
+                <dl>
+                    <dt><label for="signin_password">Password</label></dt>
+                    <dd><input type="password" name="password" value="" id="signin_password" class="dy-input-text dy-input-normal" size="20" /></dd>
+                </dl>
+                <dl>
+                        <dd><input type="submit" class="button" value="Sign In" /></dd>
+                    <dd id="helplinks" class="clear">
+                        <a href="http://videogamenews.com/main/authorization/requestPasswordReset?previousUrl=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FsignIn%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F">Forgot your password?</a><br />
+                    </dd>
+                </dl>
+            </fieldset>
+        </div>
+                <div class="signin-right xg_lightborder">
+                                <h3>…Or sign in with one of these:</h3>
+                    <div class="services xg_lightborder dy-clearfix">
+                            <a class="service service-fb" onclick="window.open('https://videogamenews.networkauth.com/facebook/connect_start?ext_perm=user_birthday%2Cuser_location%2Cemail&token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D1%26provider%3Dfacebook', null, 'width=626,height=436,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,status=no'); return false;" href="https://videogamenews.networkauth.com/facebook/connect_start?ext_perm=user_birthday%2Cuser_location%2Cemail&amp;token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D0%26provider%3Dfacebook">Facebook</a>
+    <a class="service service-tw" onclick="window.open('https://videogamenews.networkauth.com/twitter/start?token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D1%26provider%3Dtwitter', null, 'width=860,height=440,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,status=no'); return false;" href="https://videogamenews.networkauth.com/twitter/start?token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D0%26provider%3Dtwitter">Twitter</a>
+    <a class="service service-google" onclick="window.open('https://videogamenews.networkauth.com/openid/start?openid_identifier=http%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid&token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D1%26provider%3Dgoogle', null, 'width=530,height=480,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,status=no'); return false;" href="https://videogamenews.networkauth.com/openid/start?openid_identifier=http%3A%2F%2Fwww.google.com%2Faccounts%2Fo8%2Fid&amp;token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D0%26provider%3Dgoogle">Google</a>
+    <a class="service service-yahoo" onclick="window.open('https://videogamenews.networkauth.com/openid/start?openid_identifier=http%3A%2F%2Fme.yahoo.com%2F&token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D1%26provider%3Dyahoo', null, 'width=500,height=480,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,status=no'); return false;" href="https://videogamenews.networkauth.com/openid/start?openid_identifier=http%3A%2F%2Fme.yahoo.com%2F&amp;token_url=http%3A%2F%2Fvideogamenews.com%2Fmain%2Fauthorization%2FprocessExternalAuth%3Ftarget%3Dhttp%253A%252F%252Fvideogamenews.com%252F%26source%3DsignIn%26close%3D0%26provider%3Dyahoo">Yahoo!</a>
+
+                    </div>
+                    <div class="signin-about">
+        <h3>About Video Game News</h3>
+        <img class="appatar" src="http://api.ning.com/icons/appatar/6458022?default=6458022&amp;width=72&amp;height=72" alt="Thumbnail" />
+           <p>Since 1996, providing gaming news, reviews and knowledge to the public for free.</p>
+    </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    document.getElementById('signin_email').focus();
+    document.getElementById('signin_email').select();
+    if (document.cookie.indexOf('xg_cookie_check') < 0) {
+        document.getElementById('cookie_check').style.display = 'block';
+    }
+</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="xj_after_content"><div id="xj_baz17246" class="xg_theme"></div>
+<div id="xg_overlay" style="display:none;">
+<!--[if lte IE 6.5]><iframe></iframe><![endif]-->
+</div>
+<!--googleoff: all--><noscript>
+	<style type="text/css" media="screen">
+        #xg { position:relative;top:120px; }
+        #xn_bar { top:120px; }
+	</style>
+	<div class="errordesc noscript">
+		<div>
+            <h3><strong>Hello, you need to enable JavaScript to use Video Game News.</strong></h3>
+            <p>Please check your browser settings or contact your system administrator.</p>
+			<img src="/xn_resources/widgets/index/gfx/jstrk_off.gif" alt="" height="1" width="1" />
+		</div>
+	</div>
+</noscript><!--googleon: all-->
+        <script>
+    xg.xnTrackHost = "coll.ning.com";
+    xg.global = {};
+    if(window.bzplcm)window.bzplcm.listen('load', function() { window.bzplcm.ts('hr').send() });
+            if (top != self) { top.location.replace('http://videogamenews.com/main/authorization/signIn?target=http%3A%2F%2Fvideogamenews.com%2F'); }
+        </script>
+<script>
+(function () {
+var cookies = document.cookie.split(';');
+var re = /^\s*xn_visitor=([^\s]*)/;
+var vc = '';
+for (i in cookies) {
+    if (!cookies.hasOwnProperty(i)) {
+        continue
+    }
+    var match = re.exec(cookies[i]);
+    if (match) {
+        vc = match[1];
+        break;
+    }
+}
+var image = new Image();
+var user = vc + ',,videogamenews';
+image.src = 'http://www22.glam.com/cTagsImgCmd.act?gname=ning_user&gvalue=' + user + '&gtid=5000059145&gcmd=setc&gexpires=604800&ord=' + Math.random()*1E16;
+})();
+</script>
+<script src="http://www35.glam.com/gad/glamadapt_jsapi.act?afid=183770529"></script>
+<script>
+try {
+    GlamCreateSlot("183770529", "728x90", "Ning_Top_Leaderboard");
+    GlamSetSlotData("Ning_Top_Leaderboard", "ningid=6458022");
+    GlamCreateSlot("183770529", "300x250", "Ning_Top_Right");
+    GlamSetSlotData("Ning_Top_Right", "ningid=6458022");
+    GlamTrack("183770529");
+} catch (e) {}
+</script>
+<script type="text/javascript">
+    var ning_gaq = ning_gaq || [];
+    ning_gaq.push(['_ning_ga._setAccount', 'UA-2270114-6']);
+    ning_gaq.push(['_ning_ga._setNamespace', 'ning']);
+               ning_gaq.push(['_ning_ga._setCustomVar', 1,'member_type',   'anonymous', 3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 2,'subdomain',     'videogamenews.ning.com' ,3]); 
+       ning_gaq.push(['_ning_ga._setCustomVar', 3,'category',      'gaming' ,3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 4,'product_type',  'plus' ,3]);
+       ning_gaq.push(['_ning_ga._setCustomVar', 5,'member_segment','20-149' ,3]);
+    ning_gaq.push(['_ning_ga._trackPageview']);
+    ning_gaq.push(['_ning_ga._trackPageLoadTime']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = "http://static.ning.com/socialnetworkmain/widgets/index/js/google-analytics/ga.js?xn_version=201205311826";
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6770185" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6770185&cv=2.0&cj=1" />
+</noscript>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,594 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>horads - das Hochschulradio Stuttgart</TITLE>
+<meta name="google-site-verification" content="BM1z7ek6jpyAO_wYFxpmdVESw9N2I1bkQpjAimNvJas" />
+<META NAME="keywords" content="horads, Lernradio, Ausbildungsradio, Hochschulradio, Stuttgart, Campusradio, Uniradio, University, Studentenradio, Radio, FM, Livestream, Webradio, Uni, Universität, HdM, Hochschule, Medien, Indie, Musik, Alternative, Studenten, Campus, Campuscharts, studentisches, Streaming, nichtkommerziell, zugangsoffen, NKL, unabhängig, Pop, Rock, Radio, Internetradio, unabhängig, HdM, Uni, Ludwigsburg, Baden-Württemberg">
+<META NAME="description" content="horads - das HochschulRadio Stuttgart, vom Campus Stuttgart für die Region Stuttgart, auf der Frequenz 88,6 MHz und im Internet unter www.horads.de">
+<META NAME="Content-Language" content="de">
+<META NAME="ROBOTS" CONTENT="INDEX,NOFOLLOW">
+<META NAME="revisit-after" CONTENT="2 days">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="horads.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="HoRadS Info Podcast" href="http://www.horads.de/fd_podcast/ch1_info/horads_info.xml">
+<link rel="alternate" type="application/rss+xml" title="HoRadS Lifestyle Podcast" href="http://www.horads.de/fd_podcast/ch3_lifestyle/horads_lifestyle.xml">
+<link rel="alternate" type="application/rss+xml" title="HoRadS Kultür Podcast" href="http://www.horads.de/fd_podcast/ch2_musik/horads_musik.xml">
+<link rel="alternate" type="application/rss+xml" title="HoRadS Kultür" href="http://www.horads.de/fd_podcast/ch4_kultuer/horads_kultuer.xml">
+<link rel="SHORTCUT ICON" href="http://www.horads.de/favicon.ico">
+
+
+ <script src="jquery.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+    <!--
+
+    $(function () {
+        $('.bubbleInfo').each(function () {
+            var distance = 10;
+            var time = 150;
+            var hideDelay = 100;
+
+            var hideDelayTimer = null;
+
+            var beingShown = false;
+            var shown = false;
+            var trigger = $('.trigger', this);
+            var info = $('.popup', this).css('opacity', 0);
+            var otherdiv = $('.bubbledTimo');
+
+            $([trigger.get(0), info.get(0)]).mouseover(function () {
+				$(this).css('cursor', 'pointer');
+                if (hideDelayTimer) clearTimeout(hideDelayTimer);
+                if (beingShown || shown) {
+                    // don't trigger the animation again
+                    return;
+                } else {
+                    // reset position of info box
+                    beingShown = true;
+
+                    info.css({
+                        top: -90,
+                        left: 33,
+                        display: 'block'
+                    }).animate({
+                        top: '-=' + distance + 'px',
+                        opacity: 1
+                    }, time, 'swing', function() {
+                        beingShown = false;
+                        shown = true;
+                    });
+                   otherdiv.animate({
+                        top: '-=' + distance + 'px',
+                        opacity: 0
+                    }, time, 'swing', function () {
+                        shown = false;
+                        otherdiv.css('display', 'none');
+                    });
+                }
+
+                return false;
+            }).mouseout(function () {
+                if (hideDelayTimer) clearTimeout(hideDelayTimer);
+                hideDelayTimer = setTimeout(function () {
+                    hideDelayTimer = null;
+                    info.animate({
+                        top: '-=' + distance + 'px',
+                        opacity: 0
+                    }, time, 'swing', function () {
+                        shown = false;
+                        info.css('display', 'none');
+                    });
+
+                }, hideDelay);
+
+                return false;
+            }).click(function() {
+   window.open('http://www.facebook.com/horads88.6');
+    });;
+        });
+    });
+	
+	$(function () {
+        $('.bubbleTimo').each(function () {
+            var distance = 10;
+            var time = 150;
+            var hideDelay = 100;
+
+            var hideDelayTimer = null;
+
+            var beingShown = false;
+            var shown = false;
+            var trigger = $('.trigger', this);
+            var info = $('.popuptimo', this).css('opacity', 0);
+
+
+            $([trigger.get(0), info.get(0)]).mouseover(function () {
+				$(this).css('cursor', 'pointer');
+                if (hideDelayTimer) clearTimeout(hideDelayTimer);
+                if (beingShown || shown) {
+                    // don't trigger the animation again
+                    return;
+                } else {
+                    // reset position of info box
+                    beingShown = true;
+
+                    info.css({
+                        top: -90,
+                        left: 33,
+                        display: 'block'
+                    }).animate({
+                        top: '-=' + distance + 'px',
+                        opacity: 1
+                    }, time, 'swing', function() {
+                        beingShown = false;
+                        shown = true;
+                    });
+                }
+
+                return false;
+            }).mouseout(function () {
+                if (hideDelayTimer) clearTimeout(hideDelayTimer);
+                hideDelayTimer = setTimeout(function () {
+                    hideDelayTimer = null;
+                    info.animate({
+                        top: '-=' + distance + 'px',
+                        opacity: 0
+                    }, time, 'swing', function () {
+                        shown = false;
+                        info.css('display', 'none');
+                    });
+
+                }, hideDelay);
+
+                return false;
+            }).click(function() {
+   window.open('http://twitter.com/#!/horads/');
+    });
+			
+			
+			
+        });
+    });
+    
+    //-->
+    </script>
+
+  
+  
+
+
+
+<script language="JavaScript">  
+	function MM_openBrWindow(theURL,winName,features) { //v2.0
+	window.open(theURL,winName,features);
+	}
+
+</script>
+</head>
+
+<body>
+<table class="main" width="941" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td colspan="3">
+	
+<!--  Tabelle mit Horads-Logo -->
+<table class="main" width=941 border=0 cellpadding=0 cellspacing=0>
+	<tr>
+		<td rowspan=5>
+			<a href="http://www.horads.de"><img src="images/logotop_01.gif" alt="" width=135 height=111 border="0"></a></td>
+		<td rowspan=5>
+                        <a href="http://www.horads.de"><img src="images/logotop_02.gif" alt="" width=27 height=111 border="0"></a></td>
+		<td rowspan=4>
+			<a href="http://www.horads.de"><img src="images/logotop_03.jpg" width=261 height=93 alt="" border="0"></a></td>
+		<td rowspan=2>
+			<img src="images/logotop_04.jpg" width=274 height=66 alt=""></td>
+		<td colspan=2>
+			<img src="images/logotop_05.jpg" width=244 height=36 alt=""></td>
+		<td height=36 nowrap></td>
+	</tr>
+	<tr>
+		<td class="horads topnavi" width=244 height=30 colspan=2 nowrap>&nbsp;&nbsp;&nbsp;<a href="http://www.horads.de/fd_kontakt/">Kontakt</a> <a href="http://www.horads.de/impressum">Impressum</a></td>
+		<td height=30 nowrap></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/logotop_07.gif" width=274 height=23 alt=""></td>
+		<td width=109 height=45 rowspan=3 nowrap></td>
+		<td class="naviright" width=135 height=45 rowspan=3 nowrap></td>
+		<td height=23 nowrap></td>
+	</tr>
+	<tr>
+		<td rowspan=2>
+			<img src="images/logotop_10.gif" width=274 height=22 alt=""></td>
+		<td height=4 nowrap></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/logotop_11.gif" width=261 height=18 alt=""></td>
+		<td height=18 nowrap></td>
+	</tr>
+	<tr>
+		<td class="horads" width=135 height=23 nowrap></td>
+		<td width=671 height=23 colspan=4 nowrap></td>
+		<td class="naviright" width=135 height=23 nowrap></td>
+		<td height=23 nowrap></td>
+	</tr>
+</table>	
+	
+	
+	</td>
+  </tr>
+  <tr>
+    <td width="135" valign="top" class="navi" border="0" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" width="135">
+						<!-- Dynamische Navigation / Anfang -->
+						
+        <!-- LinkTreeItem Level 2 -->
+	<tr>
+		<td class="navielem">			
+                        <a class="navilink" href="http://www.horads.de/fd_programm/">Programm</a>
+		</td>
+	</tr>
+
+        <!-- LinkTreeItem Level 2 -->
+	<tr>
+		<td class="navielem">			
+                        <a class="navilink" href="http://www.horads.de/fd_mitmachen/">Mitmachen</a>
+		</td>
+	</tr>
+
+        <!-- LinkTreeItem Level 2 -->
+	<tr>
+		<td class="navielem">			
+                        <a class="navilink" href="http://www.horads.de/fd_horads/">Über uns</a>
+		</td>
+	</tr>
+
+        <!-- LinkTreeItem Level 2 -->
+	<tr>
+		<td class="navielem">			
+                        <a class="navilink" href="http://www.horads.de/fd_links_partner/">Partnerlinks</a>
+		</td>
+	</tr>
+
+        <!-- LinkTreeItem Level 2 -->
+	<tr>
+		<td class="navielem">			
+                        <a class="navilink" href="http://www.horads.de/fd_kontakt/">Kontakt</a>
+		</td>
+	</tr>
+
+        <!-- LinkTreeItem Level 2 -->
+	<tr>
+		<td class="navielem">			
+                        <a class="navilink" href="http://www.horads.de/fd_intern/">Intern</a>
+		</td>
+	</tr>
+
+
+						<!-- Dynamische Navigation / Ende -->
+
+<tr><td style="color:#999896;background:#eeedeb;width:135px;">
+<span>
+<br></span>
+
+ 
+    <div class="bubbleInfo">
+       <div>
+         
+
+		<div class="trigger" style"background:url(bg_facebbok.png);"><script src="http://connect.facebook.net/de_DE/all.js#xfbml=1"></script><fb:like href="http://www.facebook.com/horads88.6" send="false" layout=		 	
+        	"button_count" width="130" show_faces="false"  font="verdana"></fb:like>
+            </div>
+
+      </div>
+        	<div id="dpop" class="popup">
+              <div class="popup-contents">
+             <script src="http://connect.facebook.net/de_DE/all.js#xfbml=1"></script><fb:like-box href="http://www.facebook.com/horads88.6" width="292" show_faces="true" stream="true" header="true"></fb:like-box>
+			  </div>
+			</div>
+    </div>
+    <br>
+  
+            <br>
+      <div class="bubbleTimo">
+       <div>
+         
+
+		<div class="trigger" style"background:url(images/bg_facebbok.png);"><div class="twitterholder"><a href="http://www.facebook.com/horads88.6" targe="blank"><img src="images/twitter_btn.gif" border="0" align="left" /></a>
+<div class="counter">
+		
+            <script type="text/javascript">
+$(function(){
+    $.ajax({
+        url: 'http://api.twitter.com/1/users/show.json',
+        data: {screen_name: 'horads'},
+        dataType: 'jsonp',
+        success: function(data) {
+            $('#followers').html(data.followers_count);
+        }
+    });
+});
+</script>
+<span id="followers"></span>
+            </div>
+</div>
+            </div>
+
+      </div>
+        	<div id="dpop" class="popuptimo">
+              <div class="popup-contents">
+             <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js">
+</script><div id="schrift">Folge uns auf Twitter</div>
+<div class="tweetcon">
+
+<div id="last_tweet">Loading last tweet ...</div>
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
+</script>
+ 
+<script>
+function twitter_callback_function( tweet ) {
+    var name = tweet[0].user.name.split(' ', 1);
+	var name = tweet[1].user.name.split(' ', 1);
+	var name = tweet[0].user.name.split(' ', 1);
+	
+    $('#last_tweet').html(
+        '<div class="me">' +
+        '<a href="http://twitter.com/' +
+        tweet[0].user.screen_name + '">' +
+        '<img src="' + tweet[0].user.profile_image_url +
+        '" align="left" width="40" border="0" hspace="10px"/> ' +
+         name[0] + ' auf	 Twitter</a></div><div class="msg"><br><br><span id="ubtweet"><b>Letzer Tweet:</b></span><br>' +
+		tweet[0].text + '</p></div>' 
+    );
+    $('#last_tweet').addClass('last_tweet_box');
+}
+</script>
+ 
+<script src="http://twitter.com/statuses/user_timeline/horads.json?callback=twitter_callback_function&count=3"></script>
+</div>
+			  </div>
+			</div>
+    </div>
+
+<br>
+
+</td>
+</tr>
+<tr><td style="color:#999896;background:#eeedeb;width:135px;">
+<span>
+<br><br><br><br></span>
+
+    
+</td>
+</tr>
+
+    </table>
+	</td>
+
+   
+<td width="671" valign="top">
+<table class="content" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td>
+<table width="610" border="0 cellpadding="5" cellspacing="0">
+<tr>
+ <td colspan="3" bgcolor="white" align="left" class="title"><img src="horads_podlogo.gif" alt="Die HoRadS Podcast-Channels - unser Programm zum Mitnehmen" border="0" align="left" hspace="5">
+ HoRadS Podcast Channels -<br />
+ <font size="-1">das HoRadS-Programm zum Mitnehmen</fond><br /><br /></td>
+</tr>
+  <tr height="45">
+
+     <td align="left" colspan="2">Willkommen bei den HoRadS-Podcasts! In vier Kanälen gibt es hier das HoRadS-Programm als Abonnement für den Podcatcher und als direkten Download zum Mitnehmen auf dem eigenen MP3-Player oder zum Nachhören unseres laufenden Programms.<br><br>
+                      Infos, Musik, Kultur und Forschung: die gesamte Bandbreite des HoRadS-Programms lässt sich gezielt nach Thema auswählen und als Podcast abonnieren. Mehr allgemeine Infos zum Thema Podcasting <a href="http://www.horads.de/fd_intern/fd_news/hrdsnews20051111101129" class="navi" target="_blank">findet man bei uns</a> oder <a href="http://de.wikipedia.org/wiki/Podcasting" class="navi" target="_blank">Wikipedia</a>. Podcasts lassen sich mit gängigen Mediaplayern (beispielsweise Winamp oder iTunes) empfangen oder mit sogenannten Podcatchern abonnieren - HoRadS empfiehlt hierzu das kostenlose Programm <a href="http://juicereceiver.sourceforge.net/" class="navi" target="_blank">Juice</a>.<br><br></td>
+     <td width="10">&nbsp;</td>
+  </tr>
+  <tr height="20">
+     <td width="0" style="vertical-align: top"><img src="horads_info_podlogo.gif" alt="HoRadS Info Podcast" border="0" align="left" hspace="0"></td>
+     <td class="naviright_align" align="left" >
+         &nbsp;<b>HoRadS Info Podcast</b><br />
+         Jede Woche informiert mit den aktuellen Hochschulnews, Musikinfos sowie Beiträgen aus den Redaktionen von HoRadS - direkt vom Campus der Hochschulregion Stuttgart.<br /><br />
+         &nbsp;<a href="itpc://www.horads.de/fd_podcast/ch1_info/horads_info.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (iTunes)
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="rtsp://realserver2.iuk.hdm-stuttgart.de/horads/podcast/horads_info.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Aktuelle Folge anhören (Real)</a><br /><br />
+         &nbsp;<a href="http://www.horads.de/fd_podcast/ch1_info/horads_info.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (RSS)</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.horads.de/fd_podcast/ch1_info/080229_horads_info.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Download aktuelle Folge (MP3)</a><br /><br />
+         &nbsp;Link für den Podcatcher:<br />
+         &nbsp;<input name="podlink" type="text" size="75" maxlength="75" value="http://www.horads.de/fd_podcast/ch1_info/horads_info.xml" readonly align="bottom">
+     </td>
+     <td width="10">&nbsp;</td>
+  </tr>
+  <tr height="10">
+     <td cellspan="3">&nbsp;</td>
+  </tr>
+  <tr height="20">
+     <td width="0" style="vertical-align: top"><img src="horads_musik_podlogo.gif" alt="HoRadS Musik Podcast" border="0" align="left" hspace="0"></td>
+     <td class="naviright_align" align="left" >
+         &nbsp;&nbsp;&nbsp;<b>HoRadS Musik Podcast</b><br />
+         Die wichtigsten Trends und News aus der Musikwelt sowie Interviews mit angesagten Bands und Künstlern - immer aktuell und musikalisch auf dem Laufenden.<br /><br />
+         &nbsp;<a href="itpc://www.horads.de/fd_podcast/ch2_musik/horads_musik.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (iTunes)
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="rtsp://realserver2.iuk.hdm-stuttgart.de/horads/podcast/horads_musik.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Aktuelle Folge anhören (Real)</a><br /><br />
+         &nbsp;<a href="http://www.horads.de/fd_podcast/ch2_musik/horads_musik.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (RSS)</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.horads.de/fd_podcast/ch2_musik/080222_horads_musik.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Download aktuelle Folge (MP3)</a><br /><br />
+         &nbsp;Link für den Podcatcher:<br />
+         &nbsp;<input name="podlink" type="text" size="75" maxlength="75" value="http://www.horads.de/fd_podcast/ch2_musik/horads_musik.xml" readonly align="bottom">
+     <td width="10">&nbsp;</td>
+  </tr>
+  <tr height="10">
+     <td cellspan="3">&nbsp;</td>
+  </tr>
+  <tr height="20">
+     <td width="0" style="vertical-align: top"><img src="horads_feldforschung_podlogo.gif" alt="HoRadS Feldforschung Podcast" border="0" align="left" hspace="0"></td>
+     <td class="naviright_align" align="left" >
+         &nbsp;&nbsp;&nbsp;<b>HoRadS Feldforschung Podcast</b><br />
+         Das wöchentliche Talk-Magazin mit Forschern und Wissenschaftlern aus der Hochschulregion Stuttgart. Wissenschaftliche Themen ohrennah erleben, mit HoRadS Feldforschung.<br /><br />
+         &nbsp;<a href="itpc://www.horads.de/fd_podcast/ch3_feldforschung/horads_feldforschung.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (iTunes)
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="rtsp://realserver2.iuk.hdm-stuttgart.de/horads/podcast/horads_feldforschung.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Aktuelle Folge anhören (Real)</a><br /><br />
+         &nbsp;<a href="http://www.horads.de/fd_podcast/ch3_feldforschung/horads_feldforschung.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (RSS)</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.horads.de/fd_podcast/ch3_feldforschung/080229_horads_feldforschung.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Download aktuelle Folge (MP3)</a><br /><br />
+         &nbsp;Link für den Podcatcher:<br />
+         &nbsp;<input name="podlink" type="text" size="75" maxlength="75" value="http://www.horads.de/fd_podcast/ch3_feldforschung/horads_feldforschung.xml" readonly align="bottom">
+     <td width="10">&nbsp;</td>
+  </tr>
+  <tr height="10">
+     <td cellspan="3">&nbsp;</td>
+  </tr>
+  <tr height="20">
+     <td width="0" style="vertical-align: top"><img src="horads_kultuer_podlogo.gif" alt="HoRadS Kultür Podcast" border="0" align="left" hspace="0"></td>
+     <td class="naviright_align" align="left" >
+         &nbsp;&nbsp;&nbsp;<b>HoRadS Kultür Podcast</b><br />
+         Das wöchentliche Talk-Magazin rund um die kulturellen Höhepunkte aus der Hochschulregion Stuttgart, interessante Gäste und außergewöhnliche Institutionen stellen sich vor.<br /><br />
+         &nbsp;<a href="itpc://www.horads.de/fd_podcast/ch4_kultuer/horads_kultuer.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (iTunes)
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="rtsp://realserver2.iuk.hdm-stuttgart.de/horads/podcast/horads_kultuer.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Aktuelle Folge anhören (Real)</a><br /><br />
+         &nbsp;<a href="http://www.horads.de/fd_podcast/ch4_kultuer/horads_kultuer.xml" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Channel abonnieren (RSS)</a>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.horads.de/fd_podcast/ch4_kultuer/080222_horads_kultuer.mp3" class="navi"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"><img src="http://www.horads.de/fd_intern/fd_webredaktion/images/pfeil.gif" border="0"> Download aktuelle Folge (MP3)</a><br /><br />
+         &nbsp;Link für den Podcatcher:<br />
+         &nbsp;<input name="podlink" type="text" size="75" maxlength="75" value="http://www.horads.de/fd_podcast/ch4_kultuer/horads_kultuer.xml" readonly align="bottom">
+     <td width="10">&nbsp;</td>
+  </tr>
+
+  <tr height="25">
+     <td cellspan="3">&nbsp;</td>
+  </tr>
+</table>
+
+		</td>
+      </tr>
+    </table>
+
+
+</td>
+	
+	
+	
+   <td width="139" class="navi">	
+<!-- Tabelle mit rechter Navigationsleiste-->	
+<table width="139" border="0" cellpadding=0 cellspacing=0>
+
+<tr>    <td class="naviright">
+
+<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="126" height="67" id="seitenspieler" align="middle">
+				<param name="movie" value="http://files.horads.de/playlist/player/seitenspieler.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#00ffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="http://files.horads.de/playlist/player/seitenspieler.swf" width="126" height="67">
+					<param name="movie" value="http://files.horads.de/playlist/player/seitenspieler.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#00ffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+ <a style="cursor:pointer;" onClick="javascript:window.open('http://files.horads.de/playlist/player/horads-player.html','Titel','width=400,height=240,menubar=no,toolbar=no,scrollbars=no,status=no,resizable=yes,location=no,hotkeys=no,top=200,left=744')"
+onMouseOver="document.Bild1.src='images/anhoeren_over.gif';"    onMouseOut="document.Bild1.src='images/anhoeren.gif';">
+
+<img src="images/anhoeren.gif"    name="Bild1"  border=0 width="88" height="27" /></a>
+
+
+			
+
+		</div>
+
+</td>  </tr>
+  
+
+
+  <!-- Livestream: Knopf "Live Hören" -->
+  <tr>    <td class="naviright"><br><br><br><br><div align="center"><a style="cursor:pointer;" onClick="javascript:window.open('http://files.horads.de/playlist/player/horads-player.html','Titel','width=400,height=240,menubar=no,toolbar=no,scrollbars=no,status=no,resizable=yes,location=no,hotkeys=no,top=200,left=744')"><img src="images/radio_new.gif" width="42" height="42" border="0" alt="Webradio h&ouml;ren" title="Webradio h&ouml;ren"></a></div></td>  </tr>
+  <tr>    <td height="41" valign="top" class="naviright_link_gruen_14"><a style="cursor:pointer;" onClick="javascript:window.open('http://files.horads.de/playlist/player/horads-player.html','Titel','width=400,height=240,menubar=no,toolbar=no,scrollbars=no,status=no,resizable=yes,location=no,hotkeys=no,top=200,left=744')">Live h&ouml;ren</a></td>  </tr>
+
+<!-- Ausgeblendet
+  <tr>    <td class="naviright_text_gruen_12"><div align="center"><a href="/files/horads.pls">...mit Winamp</a></div></td>  </tr>
+  <tr>    <td class="naviright_text_gruen_12"><div align="center"><a href="/files/horads.asx">...mit Windows Media Player</a></div></td>  </tr>
+  <tr>    <td height="41" valign="top" class="naviright_text_gruen_12"><div align="center"><a href="/files/horads.xspf">...mit VLC-Player</a></div></td>  </tr>-->
+
+  <!-- Webcam: Knopf "Live Sehen"-->	
+  <tr>    <td class="naviright"><div align="center"><a href="#" onMouseDown="MM_openBrWindow('webcam','','scrollbars=no,resizable=no,width=360,height=280')"><img src="images/webcam.gif" border="0" width="42" height="42" alt="Webcam" title="Webcam"></a></div></td>  </tr>
+  <tr>    <td height="41" valign="top" class="naviright_link_gruen_14"><a href="#" onMouseDown="MM_openBrWindow('webcam','','scrollbars=no,resizable=no,width=360,height=280')">Live sehen</a></td>  </tr>
+
+  <!-- Chat: Knopf "Studio-Chat"-->	
+  <tr>    <td class="naviright"><div align="center"><a href="#" onMouseDown="MM_openBrWindow('chat','','scrollbars=auto,resizable=yes,width=900,height=650')"><img src="images/chat.gif" alt="Chat" width="42" height="42" border="0" title="Chat"></a></div></td>  </tr>
+  <tr>    <td height="150" valign="top" class="naviright_link_gruen_14"><a href="#" onMouseDown="MM_openBrWindow('chat','','scrollbars=auto,resizable=yes,width=900,height=650')">Studio-Chat</a></td>  </tr>
+
+  <!-- Shop: Knopf "Einkaufen"
+  <tr>    <td class="naviright"><div align="center"><a href="http://horads.spreadshirt.net/" target="_blank"><img src="images/shop.gif" alt="Einkaufen" width="42" height="42" border="0" title="Einkaufen"></a></div></td>  </tr>
+  <tr>    <td height="41" valign="top" class="naviright_link_gruen_14"><a href="http://horads.spreadshirt.net/" target="_blank">Einkaufen</a></td>  </tr> -->
+
+  <!-- Podcast: Knopf "Podcasts"
+  <tr>    <td class="naviright"><div align="center"><a href="http://www.horads.de/fd_podcast/"><img src="images/podcasting" border="0" alt="Podcasts" title="Podcasts"></a></div></td>  </tr>
+  <tr>    <td height="41" valign="top" class="naviright_link_gruen_14"><a href="http://www.horads.de/fd_podcast/">Podcasts</a></td>  </tr>  -->
+
+ <tr>    <td class="naviright" height="100" valign="top">
+
+  <!-- Campuscharts: Mini-Logo Campuscharts mit Link-->	
+   <div align="center"><a href="http://www.campuscharts.de" target="_blank"><img src="images/campuscharts.gif" border="0" alt="www.campuscharts.de" title="Campuscharts"></a><br><br>
+
+  <!-- Studipolitblog: Mini-Logo Studipolitblog mit Link	
+    <a href="http://blogs.stuttgarter-zeitung.de/studipolitblog/" target="_blank"><img src="images/studipolitblog.gif" border="0" alt="blogs.stuttgarter-zeitung.de/studipolitblog" title="StudiPolitBlog"></a>-->
+
+
+</div></td>  </tr>
+
+<!-- Sendeangaben (Ort, Zeit und Frequenz)-->	
+  <tr>    <td width="5" class="naviright_text_grau_20"><a class="naviright_text_grau_20" href="http://www.horads.de/fd_programm/fd_frequenz/">Empfang<a></td>  </tr>
+  <tr>    <td class="naviright_text_gruen_12"><div align="right" class="horads_gruen">Region Stuttgart</div></td>  </tr>
+  <tr>    <td class="naviright_text_grau_12">Antenne UKW</td>  </tr>
+  <tr>    <td class="naviright_text_gruen_18"><div align="right">88,6 MHz </div></td>  </tr>
+  <tr>    <td class="naviright_text_grau_12">&nbsp;</td>  </tr>
+  <tr>    <td height="70" valign="top" class="naviright_text_gruen_18"><div align="right" class="naviright_gruen">&nbsp;</div></td>  </tr>
+<!--  <tr>    <td class="naviright_text_grau_12">Kabel</td>  </tr> -->
+<!--  <tr>    <td height="70" valign="top" class="naviright_text_gruen_18"><div align="right" class="naviright_gruen">102.1 MHz</div></td>  </tr> -->	
+
+</table>		
+	
+	</td>
+  </tr>
+  <tr>
+    <td colspan="3">
+	
+<!-- Tabelle mit Mitglieds-Logos-->
+	<table width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="100%" class="logobottom"><img src="images/logos_bottom.gif" alt="horads-Mitglieder" width="941" height="66" border="0" usemap="#Map"></td>        
+        
+      </tr>
+    </table>	
+	
+	</td>
+  </tr>
+</table>
+
+  <map name="Map">
+    <area shape="rect" coords="0,4,134,65" href="http://www.lfk.de" title="Landesanstalt für Kommunikation Baden-W&uuml;rttemberg" alt="Landesanstalt für Kommunikation Baden-W&uuml;rttemberg" target="_blank">
+    <area shape="rect" coords="135,4,305,65" href="http://www.paritaet-bw.de"  title="Der Parit&auml;tische Wohlfahrtsverband Baden-Württemberg" alt="Der Parit&auml;tische Wohlfahrtsverband Baden-Württemberg" target="_blank">
+    <area shape="rect" coords="306,4,382,65" href="http://www.universitaet-stuttgart.de" title="Universit&auml;t Stuttgart" alt="Universit&auml;t Stuttgart" target="_blank">
+    <area shape="rect" coords="383,4,467,65" href="http://www.eh-ludwigsburg.de/" title="Evangelische Hochschule Ludwigsburg" alt="Evangelische Hochschule Ludwigsburg" target="_blank">
+    <area shape="rect" coords="468,4,538,65" href="http://www.ph-ludwigsburg.de" title="P&auml;dagogische Hochschule Ludwigsburg" alt="P&auml;dagogische Hochschule Ludwigsburg" target="_blank">
+    <area shape="rect" coords="539,4,590,65" href="http://www.fh-ludwigsburg.de" title="Hochschule für &ouml;ffentliche Verwaltung und Finanzen Ludwigsburg" alt="Hochschule für &ouml;ffentliche Verwaltung und Finanzen Ludwigsburg" target="_blank">
+    <area shape="rect" coords="591,4,669,65" href="https://www.uni-hohenheim.de" title="Universität Hohenheim" alt="Universität Hohenheim" target="_blank">
+    <area shape="rect" coords="670,4,761,65" href="http://www.mh-stuttgart.de" title="Staatliche Hochschule f&uuml;r Musik und Darstellende Kunst Stuttgart" alt="Staatliche Hochschule f&uuml;r Musik und Darstellende Kunst Stuttgart" target="_blank">
+    <area shape="rect" coords="762,4,940,65" href="http://www.hdm-stuttgart.de" title="Hochschule der Medien" alt="Hochschule der Medien" target="_blank">  
+</map>

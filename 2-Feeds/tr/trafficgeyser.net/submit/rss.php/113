@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Traffic Geyser</title>
+
+        <link rel="shortcut icon" href="/images/favicon.png" />
+        <link rel="stylesheet" href="/styles/form-field-tooltip.css" media="screen" type="text/css" />
+            <link href="/styles/base.css?1339031330" rel="stylesheet" type="text/css" />
+            <link href="/styles/menu.css" rel="stylesheet" type="text/css" />
+            <link href="/styles/all.css" rel="stylesheet" type="text/css" />
+            <!--[if IE 7]>
+		<link href="/styles/ie7.css" rel="stylesheet" type="text/css" />
+            <![endif]-->
+            <!--[if lt IE 7]>
+		<link href="/styles/ie6.css" rel="stylesheet" type="text/css" />
+                    <script type="text/javascript" src="/scripts/unitpngfix.js"></script>
+            <![endif]-->
+
+
+
+            <script type="text/javascript" src="/scripts/prototype.js"></script>
+            <script type="text/javascript" src="/scripts/scriptaculous/scriptaculous.js"></script>
+            <script type="text/javascript" src="/scripts/accordion.js"></script>
+
+            <script type="text/javascript" src="/scripts/rounded-corners.js"></script>
+            <script type="text/javascript" src="/scripts/form-field-tooltip.js"></script>
+
+            <script type="text/javascript" src="/scripts/tg.main.functions.js?1339031330"></script>
+            <script type="text/javascript" src="/scripts/CalendarPopup.js"></script>
+            <script type="text/javascript" src="/scripts/date.js"></script>
+            <script type="text/javascript" src="/scripts/lightbox.js"></script>
+            <script type="text/javascript" src="/scripts/PopupWindow.js"></script>
+            <script type="text/javascript" src="/scripts/AnchorPosition.js"></script>
+            <SCRIPT LANGUAGE="JavaScript">document.write(getCalendarStyles());</SCRIPT>
+            <script type="text/javascript" src="/scripts/fixed.js"></script>
+            <script type="text/javascript" src="/scripts/tree.js"></script>
+            <script type="text/javascript" src="/scripts/context-menu.js"></script>
+            <script type="text/javascript" src="/scripts/menu.js"></script>
+            <script type="text/javascript" src="/scripts/stereotabs_new.js?1339031330"></script>
+            <script type="text/javascript" src="/scripts/jquery.js"></script>
+            <script type="text/javascript" src="/scripts/jquery-ui-1.7.3.custom.min.js"></script>
+            <script type="text/javascript" src="/scripts/jquery-idleTimeout.js"></script>
+            <script>
+                /*$jQ(document).ready(function(){
+                    $jQ(document).idleTimeout({
+                        inactivity: 10800000,//3 hrs (1000=1 second)
+                        noconfirm: 600000,//10 min
+                        sessionAlive: 300000,
+                        redirect_url: '',
+                        click_reset: true,
+                        alive_url: '',
+                        logout_url: ''
+                    });
+                });*/
+            </script>
+
+
+            <script type="text/javascript">
+                var i = 1,timer;
+                function blinkMsg(){
+                    timer = setInterval('blink()', 500);
+                }
+                function blink() {
+
+ 
+                    if (i%4 == 0) {
+                        $('downote').hide();
+                    } else {
+                        $('downote').show();
+                    }
+ 
+                    i++;
+                }
+                function AjaxEditUserPref()
+                {
+	
+                    ShowLoading('Updating Profile...');
+                    new Ajax.Request('/Users/ajaxEditUserPref', {
+                        method:'post',
+                        parameters: {},
+                        requestHeaders: {},
+	
+                        onSuccess: function(transport)
+                        {
+                            HideLoading();
+                        }
+                    });
+                }
+                function popup(windowname) {
+                    blanket_size(windowname);
+                    window_pos(windowname);
+                    toggle('blanket');
+                    toggle(windowname);
+                    showDiamondPop();
+                }
+
+                if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+            </script>
+
+
+            <style type="text/css">
+                /* Diamond popup added 28/4/10*/
+
+                #blanket {
+                    background-color:#111;
+                    opacity: 0.65;
+                    position:absolute;
+                    z-index: 9001;
+                    top:0px;
+                    left:0px;
+                    width:100%;
+                }
+                #popUpDiv {
+                    position:absolute;
+                    top:0px;
+                    left:0px;
+                    margin:0px;
+                    background-color:#FAFAFA;
+                    width:720px;
+                    height:auto;
+                    z-index: 9002;
+                    border:#217D7C 4px solid;
+
+                    font-family:'Lucida Grande',Verdana,Arial;
+                }
+                .popclose {
+                    float:right;
+                    font-size:0.8em;
+
+                }
+                .popclose a{
+                    padding:5px;
+
+                }
+                ul.emailul li {
+                    padding:5px 0 5px 0;
+
+                }
+                #popcontainer{}
+                ul#tabnav {
+                    height:35px;
+                    margin:0pt;
+                    padding:0pt;
+                    display:block;
+                    line-height:35px;
+                }
+                ul#tabnav li {
+                    margin:0;
+                    padding:0;
+                    float:left;
+                    height:35px;
+                    list-style-type:none;
+                    position:relative;
+                }
+                ul#tabnav li a {
+                    color:#4D5431;
+                    font-size:16px;
+                    line-height:35px;
+                    text-decoration:none;
+                    display:block;
+                    float:left;
+                    height:35px;
+                    margin:0pt 0pt 0pt 5px;
+                    padding:0pt 6px;
+                    position:relative;
+                    border-left:2px solid;
+                    border-right:2px solid;
+                    border-top:2px solid;
+                }
+                ul#tabnav li a:hover, ul#tab li a.active {
+                    background:#FFFFFF none repeat scroll 0%;
+                }
+                .panel {
+                    background:#EAEAEA none repeat scroll 0%;
+                    display:block;
+                    margin-top:2px;
+                }
+                .panel ul {
+                    list-style:circle;
+                }
+                .tabcontentPopup {
+                    font-size:12px;
+                    line-height:18px;
+                    padding:13px 35px 15px 15px;
+                    text-align:left;
+                    height:460px;
+                    overflow:scroll;
+                }
+            </style>
+        <!-- Bug herd -->
+        <script type='text/javascript'>
+		(function (d, t) {
+		  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		  bh.type = 'text/javascript';
+		  bh.src = '//www.bugherd.com/sidebarv2.js?apikey=c22fbaab-d400-4529-b95e-0edd3281d753';
+		  s.parentNode.insertBefore(bh, s);
+		  })(document, 'script');
+		</script>
+        <!-- Bug herd end -->           
+            
+    </head>
+                <body id="mainBody" onload=tooltipObj.initFormFieldTooltip();  class="oneColFixCtrHdr"  >
+        
+                                                <div class="head_round"><img src="/images/header2.png" align="bottom" alt=" "  width="1029"  /> </div>
+
+            <div id="fullbody"   >
+
+                    <div id="header">
+                        <div style="float:left;">
+                            <a href="/tg"><img src="/images/tg_logo_big.png"  alt="Traffic Geyser" border="0" class="logo" /></a>
+                        </div>
+            </div>
+                
+
+
+
+                        <div id="bodycontent"  >
+
+
+<script type="text/javascript">
+function AjaxLogin(secureHost)
+{
+	var submitTypes = $('login').serialize(true);
+	var url = secureHost + '/index.php/tg/Ajaxlogin';
+	//alert(url);
+	ShowLoading('Logging into TrafficGeyser...');
+	new Ajax.Request(url, {
+	method:'post',
+	parameters: {submitTypes: Object.toJSON(submitTypes)},
+	requestHeaders: {Accept: 'application/json'},
+	onComplete: function(transport)
+	{
+	//	alert(transport.responseText);
+	//	HideLoading();
+	},
+	onSuccess: function(transport)
+	{	var responseMsg = TGevalJSON(transport.responseText);
+		if(responseMsg['type'] == 'error')
+		{	displayError(responseMsg['target'],responseMsg['message']);
+			tooltipObj.initFormFieldTooltip();
+			HideLoading();
+		}	
+		else
+		{	
+			
+			formvalues =   $('login').serialize(true);
+                        /*alert(responseMsg['zendesk_sso_url']);
+                        if(responseMsg['zendesk_sso_url']!='')
+                        {
+                            window.location.href = responseMsg['zendesk_sso_url'];
+                        }
+                        else{*/
+                        
+                            if(formvalues.redirect == '')
+                            {	window.location.href = '/tg?loggedin=1';
+                            }
+                            else
+                            {
+                                    window.location.href = formvalues.redirect+'?loggedin=1';
+                            }
+                        //}
+		}
+		
+	}	
+	});
+}
+</script>
+
+<script type="text/javascript" src="/scripts/tg.login.functions.js?1339031330"></script>
+
+<div id="number">
+
+<h1>&nbsp;TrafficGeyser Login</h1>
+
+</div>
+
+<br />
+
+<form id="login" name="login" class="login" method="post"
+
+	onsubmit="AjaxLogin('');return false;">
+
+<div id="error_cont">
+<br />
+	
+	
+<div class="errorMsg">
+
+<ul><li>Your session has expired, please re-login.</li></ul>
+</div>
+
+
+
+
+
+</div>
+<br />
+<div class="login-page-notice2" style="display:block;float:none;margin:0 auto;width:600px;font-size:12px;display:none;">
+<p style="padding-top:0px;margin-top:0px;">On Sunday evening, April 3, you may experience issues logging in and/or uploading. There's a perfectly great explanation as to "why," but it's so riddled with nerd-speak, we don't want to bore you.  After a few hours, we'll be done, and things will be just as awesome as before.*</p>
+<p><em>*Note: Things will probably be more awesome than before.</em></p>
+<p>Thanks for bearing with us!</p>
+<p>The Traffic Geyser Team</p>
+</div>
+<br style="clear:both"/>
+<br style="clear:both"/>
+
+
+<label for="username">Username : </label>
+<input type="text" name="username" id="username" class="login_tx" value="" /> <br />
+
+<label for="password">Password : </label>
+<input type="password" name="password" id="password" class="login_tx" value="" /> <br />
+<!--  
+<br />
+<label>&nbsp;</label><input type="checkbox" name="sub_user"
+	id="sub_user" value="true"
+	style="width: auto; margin: 0px; border: 0px;"
+	 /><label for="sub_user"
+	style="float: none; margin: 0px; text-align: left">&nbsp;Login As Sub-user </label>
+	<input type="text" class="as_list" style="width: auto" value="What is this?" tooltipText="This is a feature we are still testing and is available only to a select few. We will notify you when it is available." readonly />
+<br />
+-->
+<Br />
+<label>&nbsp;</label>
+<input type="checkbox" name="remember_me" id="remember_me" value="true" style="width: auto; margin: 0px; border: 0px;"  />
+<label for="remember_me" style="float: none; margin: 0px; text-align: left">Remember Me</label>
+<Br />
+<br />
+<label>&nbsp;</label>
+<input type="submit" value="Login" class="buttonSubmit" onclick="AjaxLogin('');return false;" />
+<br />
+
+<br />
+<label>&nbsp;</label>&nbsp;<a href="/index.php/tg/forgotPassword">Forgot Password</a> <br />
+
+<label>&nbsp;</label> <input type="hidden" name="redirect" value="/feed/rss/id/113.xml" />  
+<!-- <input type="reset" value="Reset" class="buttonSubmit" /> <br />-->
+
+<br />
+
+</form>
+
+                                </div>
+                                                <div id="footer">
+
+                        </div>
+
+                            <!-- end #container --></div>
+
+                                            <div class="foot_round"> <img src="/images/footer2.png" align="bottom" alt=" " width="1028"  /></div>
+        
+
+                                <div class="sub_footer">
+                                    <ul id="legal_list" >
+                                        <li><a href="http://www.trafficgeyser.com/legal/terms.html" target="_blank">TERMS OF SERVICE</a></li>
+                                        <li><a href="http://www.trafficgeyser.com/legal/copy.html" target="_blank">COPYRIGHT</a></li>
+                                        <li><a href="http://www.trafficgeyser.com/legal/privacy.html" target="_blank">PRIVACY</a></li>
+                                        <li><a href="http://www.trafficgeyser.com/legal/disclaim.html" target="_blank">DISCLAIMER</a></li>
+                                        <li><a href="http://www.trafficgeyser.com/legal/antispam.html" target="_blank">ANTI-SPAM</a></li>
+                                    <li><a href="/tg/login" >LOGIN</a></li>
+                                                <li><a href="/support" target="_blank">SUPPORT</a></li>
+                            </ul>
+                            Ver 4.0 @ TG-Server #0<br />
+                            Copyright &copy; 2006 - 2012 Traffic Geyser, LLC Patents Pending.
+                            <br />
+                            Server time : Wed, 06 Jun 2012 20:08:50 -0500                            <br />
+
+                        </div>
+
+                        <div id="loading-notice">Loading...</div>
+
+                        <DIV ID="calender_div"
+                             STYLE="position: absolute; visibility: hidden; background-color: white; layer-background-color: white;"></DIV>
+                        <script language="javascript">
+                            var tooltipObj = new DHTMLgoodies_formTooltip();
+
+                            tooltipObj.setTooltipPosition('below');
+                            tooltipObj.setPageBgColor('#FFFFFF');
+                            tooltipObj.setTooltipCornerSize(3);
+                            initButton();
+                        </script>
+
+                    </body>
+                        <script language="javascript">
+        </script>
+    <script type="text/javascript">
+        //<![CDATA[
+	
+  
+        //]]>
+    </script>
+    <img src="/support" height="1" width="1"/>
+</html>

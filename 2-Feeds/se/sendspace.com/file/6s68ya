@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+				<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="en" />
+		<meta name="keywords" content="file transfer, large file, big file, free send, send file">
+		<meta name="description" content="Free file hosting. Email large files for free.">
+					<meta property="og:image" content="http://www.sendspace.com/img/fb_icon100.png" />
+			<meta property="og:type" content="website" />
+				<title>Free large file hosting. Send big files the easy way!</title>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<link type="text/css" rel="stylesheet" href="/css/sendspace.css?v=a04d1432"/>
+		<link rel="shortcut icon" href="/favicon.ico" />
+				<script type="text/javascript" src="/js/jquery-1.7.1.min.js?v=a04d1432"></script>
+		<link type="text/css" rel="stylesheet" href="/openid/css/openid.css?v=a04d1432" />
+	</head>
+
+	<body id="_page">
+
+	<!--[if lt IE 8]>  
+		<div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+		    <div style='position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;'>
+		    	<a href='#' onclick='javascript:this.parentNode.parentNode.style.display="none"; return false;'>
+		    		<img src='/graphics/ie6nomore/ie6nomore-cornerx.jpg' style='border: none;' alt='Close this notice'/>
+		    	</a>
+		    </div>
+		    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+		          <div style='width: 75px; float: left;'><img src='/graphics/ie6nomore/ie6nomore-warning.jpg' alt='Warning!'/></div>
+		          <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+		  	        <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>You are using an outdated browser</div>
+		  	        <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>For a better experience using this site, please upgrade to any of the following:</div>
+		  	      </div>
+		  	      <div style='width: 75px; float: left;'>
+		  	      	<a href='http://www.firefox.com' target='_blank'>
+		  	      		<img src='/graphics/ie6nomore/ie6nomore-firefox.jpg' style='border: none;' alt='Get Firefox 5'/>
+		  	      	</a>
+		  	      </div> 
+		  	      <div style='width: 75px; float: left;'>
+		  	      	<a href='http://www.browserforthebetter.com/download.html' target='_blank'>
+		  	      		<img src='/graphics/ie6nomore/ie6nomore-ie.jpg' style='border: none;' alt='Get Internet Explorer 9'/>
+		  	      	</a>
+		  	      </div>
+		  	      <div style='width: 73px; float: left;'>
+		  	      	<a href='http://www.apple.com/safari/download/' target='_blank'>
+		  	      		<img src='/graphics/ie6nomore/ie6nomore-safari.jpg' style='border: none;' alt='Get Safari 5'/>
+		  	      	</a>
+		  	      </div>
+		  	      <div style='float: left;'>
+		  	      	<a href='http://www.google.com/chrome' target='_blank'>
+		  	      		<img src='/graphics/ie6nomore/ie6nomore-chrome.jpg' style='border: none;' alt='Get Google Chrome'/>
+		  	      	</a>
+				  </div>
+			</div>
+		</div>
+	<![endif]-->
+						
+
+	<div id="header">
+		<div class="grasp">
+			
+			<div class="wrap">
+				<div id="logo">
+					<a href="/">	
+						<img width="222px" height="42px" src="/graphics/header/logo.png" alt="sendspace" />
+						<span id="userType"></span>
+						<span id="slogan" style="clear:left;">Send, Receive, Track &amp; Share Your Big Files!</span>
+					</a>
+			</div>			
+									<ul id="control">
+																					<li style="position: relative; z-index:3">
+								<a href="/login.html" class="login" rel="open">Log In</a>
+								<div id="login_frame" class="overlay">
+									<a href="#" class="login" rel="close">Log In</a>
+									<a class="remove login" rel="close"></a>
+									<div class="clear" style="height: 10px"></div>
+									<form method="post" action="/login.html">
+										<input type="hidden" name="action" value="login" />
+										<input type="hidden" name="submit" value="login" />
+										<input type="hidden" name="target" value="%2Ffile%2F6s68ya" />
+										<input type="hidden" name="action_type" value="login" />
+										<input type="hidden" name="remember" value="1" />
+																				<div class="row first">
+											<span class="label">Your Username</span>
+											<input type="text" name="username" class="input" id="top_login_username" />
+										</div>
+										<div class="row">
+											<span class="label">Your Password</span>
+											<input type="password" name="password" class="input" />
+										</div>
+										<div class="row" style="margin:3px 0">
+											<label style="float: left;line-height:36px;margin-left: 5px"><input type="checkbox" class="checkbox" name="remember" checked/> Remember me</label>
+											<input style="float: right;margin: 0 0 0 2px" type="submit" class="submit button" value="Log In"/>
+										</div>
+									</form>
+									
+									<form action="http://www.sendspace.com/openid/auth.php" method="get" id="openid_form">
+										<input type="hidden" name="action" value="verify" />
+										<span style="float:left; margin-top:13px; padding-right:6px; margin-left:3px;"><strong>Or</strong></span>
+										
+										<div class="row" style="margin-top:-12px; height:50px; float:left;">
+											<div id="openid_choice">
+												<div id="openid_btns"></div>
+											</div>
+											<div id="openid_input_area">
+												<input id="openid_identifier" name="openid_identifier" type="text" value="http://" />
+												<input id="openid_submit" type="submit" value="Sign-In"/>
+											</div>
+										</div>
+										
+									</form>
+									<div class="clear split"></div>
+									<ul class="options">
+										<li><a href="/forgot.html">Forgot your password?</a></li>
+										<!--<li><a href="/register.html">Don't have an account yet? Register now!</a></li>-->
+									</ul>									
+								</div>
+							</li>
+																			 <li><a href="/register.html">Sign Up</a></li> 						<li><a href="/premium_upgrade.html?_ptc=122">Plans</a></li>
+						<li><a href="/download_tools.html">Tools</a></li>
+						<li class="last"><a href="/help.html">Contact Us</a></li>
+	
+											</ul>
+												
+				<div class="clear"></div>
+	
+							</div>
+
+		</div>
+	</div>
+
+<div id="headline">
+	<h1 class="droid">
+		Download Error	</h1>
+			<div class="actions download_error">
+			<a href="/" class="button upload_new_file">&gt; Upload New File</a>
+		</div>
+	</div>
+
+<div class="clear"></div>
+
+
+
+	<div id="blog_headline">
+		<span style="font-weight:bold">SendSpace News: </span>
+	</div>
+	
+	<script type="text/javascript">
+		var headlines = [{"title":"Upload files by simply dragging and dropping them","link":"http:\/\/blog.sendspace.com\/2011\/11\/07\/upload-files-by-simply-dragging-and-dropping-them\/","published":"Mon, 07 Nov 2011 12:55:39 +0000"},{"title":"File size limits increased: 500MB for Lite\/Max and 10GB for Pro!","link":"http:\/\/blog.sendspace.com\/2011\/09\/10\/file-size-limits-increased-500mb-for-litemax-and-10gb-for-pro\/","published":"Sat, 10 Sep 2011 14:14:34 +0000"},{"title":"Login with Facebook, Google, Twitter, Yahoo and more","link":"http:\/\/blog.sendspace.com\/2011\/08\/16\/login-with-facebook-google-twitter-yahoo-and-more\/","published":"Tue, 16 Aug 2011 14:32:46 +0000"}];
+		var current = 0;
+
+		$('<a />').attr('target', '_blank').attr('href', headlines[current].link).text(headlines[current].title).insertAfter($('#blog_headline span')).fadeIn();
+			
+		if (headlines.length > 1) {
+			setInterval(function() {
+				$('#blog_headline a').fadeOut(function() {
+					$('#blog_headline a').remove();
+					
+					if (++current >= headlines.length)
+						current = 0;
+					
+					$('<a />').attr('target', '_blank').attr('href', headlines[current].link).text(headlines[current].title).insertAfter($('#blog_headline span')).fadeIn();
+					
+				});
+			}, 7500);
+		}
+	</script>
+
+	
+<div id="content" >	
+    <script type='text/javascript' src='http://optimized.by.vitalads.net/serve/8f14e45fceea167a5a36dedd4bea2543/?cb=1053965123&'></script>
+&nbsp;<br />
+		<div class="msg error" style="cursor: default">Sorry, the file you requested is not available.</div>       <br>
+                Possible reasons include:
+				<br><br>
+                - File date limit has expired.
+				<br>
+                - File was not successfully uploaded.
+				<br><br>
+				<b>It is not possible to restore the file.</b> Please contact the uploader and ask them to upload the file again.
+<br><br>
+<center>
+            <script type='text/javascript' src='http://optimized.by.vitalads.net/serve/c4ca4238a0b923820dcc509a6f75849b/?cb=1067740680&'></script>            </center>
+<br><br>
+
+
+<noscript>
+	 <div id="nojs" style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+	    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+	        <div style='width: 100%; float: left; font-family: Arial, sans-serif;'>
+	                <div style='width: 75px; float: left;'><img src='/graphics/ie6nomore/ie6nomore-warning.jpg' alt='Warning!'/></div>
+	                <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>No javascript available!</div>
+	                <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>Your browser does not support JavaScript or JavaScript is disabled. You must enable JavaScript or use a JavaScript supported browser for this site to function correctly.</div> 
+	        </div>
+	    </div>
+	</div>
+</noscript>
+
+
+</div> <!-- #content -->
+
+
+
+<div id="footer">
+	<div class="wrap">
+					<ul id="footer_menu">
+				<li>
+					<ul>
+						<li class="title">SendSpace</li>
+													<li><a href="/">Upload</a></li>
+																		<li><a href="/about.html">About Us</a></li>
+						<li><a href="http://blog.sendspace.com">Blog</a></li>
+						<li><a href="/terms.html">Terms Of Use</a></li>
+						<li><a href="/privacy_policy.html">Privacy Policy</a></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li class="title">Tools</li>
+						<li><a href="/download_wizard.html">Wizard (Win*, Mac, Linux)</a></li>
+						<li><a href="/download_android.html">SendSpace for Android</a></li>
+						<li><a href="/download_ishare.html">iShare for iPhone</a></li>
+						<li><a href="/developers/">Developer Tools</a></li>
+					</ul>
+				</li>
+
+				<li style="width:90px">
+					<ul>
+						<li class="title">Help &amp; Support</li>
+						<li><a href="/help.html">Contact Us</a></li>
+													<li><a href="/faqs.html">FAQ</a></li>
+											</ul>
+				</li>
+												<li style="float:right; width:100px; padding:0">
+				 					 	<a href="https://market.android.com/details?id=com.app.sendspace.mobile" title="SendSpace Android Application">
+				 		<img width="100" height="100" src="/img/androidqr.gif" alt="SendSpace Android Application QR" />
+				 	</a>
+				</li>
+			</ul>
+
+				<div id="signature">
+						<div class="clear"></div>
+			&copy; 2005-2012 sendspace.com
+		</div>
+	</div>
+</div>
+<div id="glass"></div>
+
+
+<script type='text/javascript' src='/js/sendspace.js?v=a04d1432'></script>
+<script type='text/javascript' src='/openid/js/openid-jquery.js?v=a04d1432?v=a04d1432'></script>
+<script type='text/javascript' src='/openid/js/openid-en.js?v=a04d1432?v=a04d1432'></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    				openid.img_path = '/openid/images/';
+    				openid.init('openid_identifier');
+    			 });
+</script>
+
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-2221170-1']);
+        _gaq.push(['_setDomainName', '.sendspace.com']);
+                    _gaq.push(['_trackPageview', "/file_error.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer + "&error=1"]);
+        
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+</body>
+</html>
+

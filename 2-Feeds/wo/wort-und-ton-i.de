@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="programming" content="Regina Störk / www.ms-computer.de" />
+<meta name="design" content="Regina Störk / www.ms-computer.de" />
+<meta name="Description" content="Wort- und Ton-Idee mit Lokalnachrichten aus Degerschlacht und der Region Reutlingen, Infos über Musik von und für Musiker mit Veranstaltungstipps im Raum Reutlingen, Geschichten und Webideen - regional im Raum Degerschlacht, Reutlingen und darüber hinaus" />
+<meta name="Keywords" content="Regina, Störk, Reutlingen, Degerschlacht, Presse, Journalismus, Musik, Musiker, Chor, Gesangverein, Lokalnachrichten, Geschichten, Lesestoff, Schreibwerkstatt, Lokalnachrichten" />
+<link rel="shortcut icon" href="bilder/toni.gif">
+<title>Wort- und Ton-Ideen aus Degerschlacht und der Region Reutlingen</title>
+<link href="toni.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="thrColLiqHdr">
+
+<div id="container">
+ <div id="header">
+    <h3><img src="bilder/fisch2.gif" alt="Zeitung ist für Fische" width="298" height="84" align="middle" /><br />
+	&quot;Woher soll ich wissen, was ich denke,<br /> 
+	bevor ich lese, was ich geschrieben hab . . . ?&quot;</h3>
+    <!-- end #header -->
+ </div>
+  <div id="sidebar1">
+  <h3>Inhalt</h3>
+    <ul id="MenuBar1" class="MenuBarVertical">
+	  <li><a href="index.php">Home</a></li>
+      <li><a href="profil.php">Profil</a></li>
+      <li><a href="lokalseite/index.php">Lokalseite</a></li>
+      <li><a href="http://ms-computer.de/index.php?seite=web" target="_blank">Ins Netz - Webdesign</a></li>
+      <li><a href="musik/index.php">Hier ist Musik drin</a></li>
+	  <li><a href="geschichten/index.php">Lesestoff</a></li>
+      <li><a href="kontakt.php">Kontakt</a></li>
+    </ul>
+    <p>&nbsp;</p>
+        <form  method="post" action="/index.php">
+ <input type="hidden" name="Betreff" value="Ich möchte über aktuelle Inhalte informiert werden" />	
+  <table border="0" align="right">
+<tr>
+<td><strong>Ich möchte über aktuelle Inhalte informiert werden:</strong></td>
+</tr>
+<tr>
+  <td><div class="labelLeft">Ihre E-Mail</div></td>
+</tr>
+<td><input type="text" name="E-Mail" value="" class="txtField" size="15" maxlength="60" /></td>
+</tr>
+<tr>
+  <td><div class="labelLeft">Name</div></td>
+</tr>
+<tr>               	    
+  <td><input type="text" name="Name" value="" class="txtField" size="15"maxlength="60" /></td>
+</tr>
+<tr>
+   <td><input type="Radio" name="Lokalseite" value="eintragen" id="ein" checked><label for="ein">Eintragen</label></td>
+</tr>
+<tr>
+	<td><input type="Radio" name="Lokalseite" value="austragen" id="aus"><label for="aus">Austragen</label></td>
+</tr>
+<tr>
+	<td><input type="submit" name="submit" value="senden"><a href="/index.php"><input type="button" name="reset" value="löschen" /></a>
+</td>
+</tr>
+</table>
+</form>
+</div>
+  
+  <div id="sidebar2">
+  	  <p><img src="bilder/yoyo.jpg" width="158" height="122" alt="Yoyo" /></p>
+	  <h4>Sängerin<br />
+	  Chorleiterin:</h4>
+	  <h3><a href="musik/index.php">Hier ist Musik drin</a></h3>
+      <p>Die Seite von mit News aus der lokalen Musikszene. Von Musikern für Musiker. 
+	  Zum Mitmachen. Und mit "Schwarzem Brett".</p>	
+	</div>
+		
+     <div id="mainContent">
+     <div id="titel"><img src="bilder/tonialle.png" width="350" height="106" alt="Toni - das ist Degerschlachter News, regionale Musik und Geschichten" />
+       <h2>Wort- und Ton-Idee - Ideen aus Reutlingen und der Region</h2>	  
+	 </div>
+   
+			<div id="journalistin"> 
+			<h4>Journalistin:</h4>
+			<h3><a href="lokalseite/index.php">Lokalseite</a></h3>
+			<p>Wer lesen kann ist klar im Vorteil.
+			Habt ihr hier in der Gegend etwas erlebt oder gesehen worüber keine Zeitung berichtet hat? 
+			Hier wäre der Platz dafür.</p>
+			</div>
+			<div id="geschichten">
+			<p><img src="bilder/buecher.jpg" width="100" height="75" alt="Bücher" /></p>
+			<h4>Erzählerin:</h4>
+			<h3><a href="geschichten/index.php">Geschichten und Bücher</a></h3>
+			<p>Lesen oder Schreiben, das ist hier die Frage. Hier gibt es Geschichten satt. 
+			Meine und Eure. Die Seite zum Schmökern und Schreiben.</p>
+
+			</div>	
+	
+			<div id="web">
+			<h4>Webentwicklerin:</h4>
+			<h3><a href="http://www.ms-computer.de/index.php?seite=web" target="_blank" >Ins Netz - Webauftritt für Sie</a></h3>
+			<p>Eine Seite ist eine Seite ist eine Seite. Was sie sonst noch ist, liegt nicht nur im Auge des Betrachters.
+			Wir programmieren, gestalten und pflegen barrierefreie Websites<br />
+			</p>
+			</div>
+	
+	</div>
+ 
+  <!-- Dieses clear-Element sollte direkt auf das #mainContent-div folgen, um das #container-div anzuweisen, alle untergeordneten Floats aufzunehmen. --><br class="clearfloat" />
+  <div id="footer">
+    <p>© 2009  Text und Gestaltung Regina Störk  - Webserveradministration, Webprogrammierungund -design<br />
+	MS Computer GmbH - Leopoldstr. 21 - 72768 Reutlingen<br />
+	Tel. 07121-68086-0 - Fax 07121-68086-79 - mail: r.stoerk@ms-computer.de
+    </p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>

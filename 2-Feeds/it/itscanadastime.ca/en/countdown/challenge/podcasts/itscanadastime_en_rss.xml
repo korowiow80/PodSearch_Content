@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Home - It’s Canada’s time to quit smoking</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+	<meta name="Description" content=""></meta>
+	<meta name="Keywords" content=""></meta>
+	<link href="/elements/stylesheets/standard_stylesheet/" rel="stylesheet" type="text/css"></link>
+	<!--[if IE]>
+	<style>
+	input.radio, input.checkbox {margin:-3px 0}
+	</style>
+	<![endif]-->	
+
+	<script>
+		var siteroot = '/'
+	</script>
+
+
+	<script src="/administration/layouts/javascript/1_6" type="text/javascript"></script>
+
+	<script src="/elements/javascripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="/elements/javascripts/jquery-ui-1.8.5.custom.min.js" type="text/javascript"></script>
+	<script type="text/javascript"> // no conflict script for jquery
+		$j = jQuery.noConflict();
+		// Code that uses other library's $ can follow here.
+	</script>
+
+	<script src="/elements/javascripts/javascript.js" type="text/javascript"></script>
+
+
+
+<!--[if IE 6]>
+	<script src="/elements/javascripts/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+	<script>
+	  /* EXAMPLE */
+	  DD_belatedPNG.fix('img');
+	  DD_belatedPNG.fix('.pngfix');
+	  /* string argument can be any CSS selector */
+	  /* .png_bg example is unnecessary */
+	  /* change it to what suits you! */
+	</script>
+<![endif]--> 
+
+
+
+</head>
+<body class="homepage en">
+	<div id="modalcontainer" class="modalcontainer hidden">
+		<div id="modalmask" class="modalmask">
+			<!--[if IE]><iframe frameborder="0" src="about:blank"></iframe><![endif]-->
+		</div>
+		<div id="modalbody" class="modalbody">
+			<div id="modalheader" class="modalheader">
+				<div class="modalclosercontainer">
+					<a id="modalcloser" href="javascript:void(0)" class="modalcloser">X</a>
+				</div>
+				<div id="modaltitle" class="modaltitle"></div>
+				<div class="clear"></div>
+			</div>
+			<div id="modalcontent" class="modalcontent"></div>
+		</div>
+	</div>
+		<div class="layoutOutside">
+		<div class="layout">
+			<div class="layoutBottom">
+				<div class="header">
+					<div class="mainLogo"></div>
+					<div class="languagetoggle" id="languagetoggle">
+						<a href="/fr/home/">français</a>
+					</div>	
+				</div>
+				<div class="body">
+					<div><span class="ELEMENT-en-home-index smartsite-element smartsite-element-editmode-both"><style>
+/* homepage-specific adjustments to class="body"*/
+
+.layoutBottom {padding-bottom:57px;*padding-bottom:46px;}
+.footer {margin-top:-100px;}
+
+.homepage .body {min-height:0 !important; height:471px; padding:0 0 14px; }
+
+/*main container -- holds the crumpled paper bg*/
+.homepagemain {background:url(/local/images/homepagebg.png) no-repeat; position:relative; top:-10px; ttop:37px; min-height:460px; height:auto !important; height:460px;}
+
+/* top left callout*/
+.callouttalktodoctor {background:url(/local/images/doctorcallout.png) no-repeat; position:absolute; height:89px; left:24px; top:-13px; width:311px; }
+.fr .callouttalktodoctor {background:url(/local/images/doctorcallout_fr.png) no-repeat;}
+
+/*"insert your photo here and share"*/
+.sharephoto {background:url(/local/images/sharephotohere.png) no-repeat; height:47px; left:698px; position:absolute; top:-27px; width:125px; }
+.fr .sharephoto {background:url(/local/images/sharephotohere_fr.png) no-repeat; }
+
+/*"make a pledge!"*/
+.makeapledge {background:url(/local/images/makeapledge.png) no-repeat; height:132px; left:837px; position:absolute; top:-32px; width:134px;}
+.fr .makeapledge {background:url(/local/images/makeapledge_fr.png) no-repeat;}
+
+/*content container*/
+.homepagecontent{position:absolute; left:224px; top:110px;}
+.homepagetitle {background:url(/local/images/title_readytoquitsmoking.png) no-repeat; height:44px; text-indent:-5000px; width:400px;}
+.fr .homepagetitle {background:url(/local/images/title_readytoquitsmoking_fr.png) no-repeat; height:53px; text-indent:-5000px; width:432px;}
+
+.homepageoption{display:block; height:36px; width:355px;}
+#readyoption1{background:url(/local/images/homebutton_ready_off.gif) no-repeat;padding-bottom:20px;}
+.fr #readyoption1{background:url(/local/images/homebutton_ready_off_fr.gif) no-repeat;height:47px;}
+#readyoption2{background:url(/local/images/homebutton_thinkingaboutit_off.gif) no-repeat;}
+.fr #readyoption2{background:url(/local/images/homebutton_thinkingaboutit_off_fr.gif) no-repeat;}
+
+.homepageoption span {display:block; height:36px;}
+#readyoption1 span {background:url(/local/images/homebutton_ready_on.gif) no-repeat;}
+.fr #readyoption1 span {background:url(/local/images/homebutton_ready_on_fr.gif) no-repeat;height:47px;}
+#readyoption2 span {background:url(/local/images/homebutton_thinkingaboutit_on.gif) no-repeat;}
+.fr #readyoption2 span {background:url(/local/images/homebutton_thinkingaboutit_on_fr.gif) no-repeat;}
+
+.homepagecontent p {padding:37px 0 0 53px;}
+
+
+
+</style>
+<div class="homepagemain pngfix">
+	<div class="callouttalktodoctor pngfix"></div>
+	<div class="makeapledge pngfix"></div>
+	<div class="homepagecontent">
+		<div class="homepagetitle pngfix">Ready to Quit Smoking?</div>
+		
+		<p>
+			<a href="/en/quitting_plan/" class="homepageoption" id="readyoption1"
+	 onmouseover="$j(this).find('span').removeClass('hidden')" onmouseout="$j(this).find('span').addClass('hidden')"><span class="hidden"></span></a>
+			<a href="/en/quitting_picture/" class="homepageoption" id="readyoption2"
+	 onmouseover="$j(this).find('span').removeClass('hidden')" onmouseout="$j(this).find('span').addClass('hidden')"><span class="hidden"></span></a>
+		</p>
+		
+	</div>
+</div></span></div>
+				</div>
+			</div>
+				<div class="footer">
+					<span class="ELEMENT-elements-navigation-misc_menu-index smartsite-element smartsite-element-editmode-both"><p>This campaign is brought to you by one of canada’s leading research-based pharmaceutical companies. Copyright © 2010. All rights reserved.</p>
+<ul class="navigation">
+	<li class=" first">
+		<a href="/en/privacy_statement/">Privacy Statement</a>
+	</li><li class=" ">
+		<a href="/en/terms_of_use/">Terms of use</a>
+	</li><li class=" last">
+		<a href="/en/references/">References</a>
+	</li>
+</ul>
+<div class="clear"></div></span>
+				</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-6393314-1");
+
+	var ssnormalizedurl = "/en/home/";    
+	pageTracker._trackPageview(ssnormalizedurl);
+</script>
+</body>
+</html>
+
+</html>

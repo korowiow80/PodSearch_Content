@@ -1,0 +1,797 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> Schwindtweb 8.1</title>
+
+<link rel="alternate" type="application/rss+xml" title="Schwindtweb 8.1 RSS Feed" href="http://www.schwindtweb.de/?feed=rss2" />
+<link rel="alternate" type="application/atom+xml" title="Schwindtweb 8.1 Atom Feed" href="http://www.schwindtweb.de/?feed=atom" />
+<link rel="pingback" href="http://www.schwindtweb.de/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.schwindtweb.de/wp-content/themes/arclite/favicon.ico" />
+
+<style type="text/css" media="all">
+@import "http://www.schwindtweb.de/wp-content/themes/arclite/style.css";
+@import "http://www.schwindtweb.de/wp-content/themes/arclite/options/header-blue.css";
+@import "http://www.schwindtweb.de/wp-content/themes/arclite/options/side-gray.css";
+@import "http://www.schwindtweb.de/wp-content/themes/arclite/options/content-default.css";
+</style>
+
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+@import "http://www.schwindtweb.de/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+  
+<link rel='stylesheet' id='wpinstagram-css'  href='http://www.schwindtweb.de/wp-content/plugins/instagram-for-wordpress/wpinstagram.css?ver=0.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css-css'  href='http://www.schwindtweb.de/wp-content/plugins/instagram-for-wordpress/js/fancybox/jquery.fancybox-1.3.4.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='instapress-css'  href='http://www.schwindtweb.de/wp-content/plugins/instapress/instapress.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.schwindtweb.de/wp-content/plugins/instapress/fancybox/jquery.fancybox.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.schwindtweb.de/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-postratings-css'  href='http://www.schwindtweb.de/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.63' type='text/css' media='all' />
+<link rel='stylesheet' id='comfeed-css'  href='http://www.schwindtweb.de/wp-content/plugins/sexybookmarks/css/comfeed.css?ver=5.0.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://www.schwindtweb.de/wp-content/plugins/podpress/podpress.css?ver=3.3.2' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.schwindtweb.de/";
+var podPressBackendURL = "http://www.schwindtweb.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressPlayerFile = "podango_player.swf";
+var podPressMP3PlayerOptions = "&amp;lefticon=0x666666&amp;leftbg=0xEEEEEE&amp;volslider=0x666666&amp;voltrack=0xFFFFFF&amp;text=0x666666&amp;tracker=0xDDDDDD&amp;slider=0x666666&amp;loader=0x171f36&amp;track=0xFFFFFF&amp;border=0x666&amp;bg=0xF8F8F8&amp;skip=0x666666&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;rightbg=0xCCCCCC&amp;rightbghover=0x999999&amp;initialvolume=70&amp;buffer=5&amp;checkpolicy=no&amp;";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/instagram-for-wordpress/js/jquery.easing-1.3.pack.js'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/instagram-for-wordpress/js/jquery.cycle.lite-1.5.min.js'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/instagram-for-wordpress/js/jquery.fancybox-1.3.4.pack.js'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/instagram-for-wordpress/js/jquery.mousewheel-3.0.4.pack.js'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/themes/arclite/js/arclite.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/countdown-timer/js/fergcorp_countdownTimer_java.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/countdown-timer/js/webtoolkit.sprintf.js?ver=2.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SHRSB_Globals = {"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","perfoption":"1","twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","locale":"0","shortener":"tinyurl","shortener_key":"","pubGaSocial":"0","pubGaKey":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-publishers-sb.min.js?ver=5.0.0.4'></script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/podpress/js/podpress.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.schwindtweb.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.schwindtweb.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+
+			<script type="text/javascript">
+			var scrolltotop={
+			//startline: Integer. Number of pixels from top of doc scrollbar is scrolled before showing control
+			//scrollto: Keyword (Integer, or "Scroll_to_Element_ID"). How far to scroll document up when control is clicked on (0=top).
+			setting: {startline:350, scrollto: 0, scrollduration:800, fadeduration:[500, 100]},
+			controlHTML: '<img src="http://www.schwindtweb.de/wp-content/plugins/scrolltotop/image/up.png" /></b></div>', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+			controlattrs: {offsetx:5, offsety:5}, //offset of control relative to right/ bottom of window corner
+			anchorkeyword: '#top', //Enter href value of HTML anchors on the page that should also act as "Scroll Up" links
+
+			state: {isvisible:false, shouldvisible:false},
+
+			scrollup:function(){
+				if (!this.cssfixedsupport) //if control is positioned using JavaScript
+					this.control.css({opacity:0}) //hide control immediately after clicking it
+				var dest=isNaN(this.setting.scrollto)? this.setting.scrollto : parseInt(this.setting.scrollto)
+				if (typeof dest=="string" && jQuery('#'+dest).length==1) //check element set by string exists
+					dest=jQuery('#'+dest).offset().top
+				else
+					dest=0
+				this.body.animate({scrollTop: dest}, this.setting.scrollduration);
+			},
+
+			keepfixed:function(){
+				var window=jQuery(window)
+				var controlx=window.scrollLeft() + window.width() - this.control.width() - this.controlattrs.offsetx
+				var controly=window.scrollTop() + window.height() - this.control.height() - this.controlattrs.offsety
+				this.control.css({left:controlx+'px', top:controly+'px'})
+			},
+
+			togglecontrol:function(){
+				var scrolltop=jQuery(window).scrollTop()
+				if (!this.cssfixedsupport)
+					this.keepfixed()
+				this.state.shouldvisible=(scrolltop>=this.setting.startline)? true : false
+				if (this.state.shouldvisible && !this.state.isvisible){
+					this.control.stop().animate({opacity:1}, this.setting.fadeduration[0])
+					this.state.isvisible=true
+				}
+				else if (this.state.shouldvisible==false && this.state.isvisible){
+					this.control.stop().animate({opacity:0}, this.setting.fadeduration[1])
+					this.state.isvisible=false
+				}
+			},
+			
+			init:function(){
+				jQuery(document).ready(function($){
+					var mainobj=scrolltotop
+					var iebrws=document.all
+					mainobj.cssfixedsupport=!iebrws || iebrws && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
+					mainobj.body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
+					mainobj.control=$('<div id="topcontrol">'+mainobj.controlHTML+'</div>')
+						.css({position:mainobj.cssfixedsupport? 'fixed' : 'absolute', bottom:mainobj.controlattrs.offsety, right:mainobj.controlattrs.offsetx, opacity:0, cursor:'pointer'})
+						.attr({title:'Scroll Back to Top'})
+						.click(function(){mainobj.scrollup(); return false})
+						.appendTo('body')
+					if (document.all && !window.XMLHttpRequest && mainobj.control.text()!='') //loose check for IE6 and below, plus whether control contains any text
+						mainobj.control.css({width:mainobj.control.width()}) //IE6- seems to require an explicit width on a DIV containing text
+					mainobj.togglecontrol()
+					$('a[href="' + mainobj.anchorkeyword +'"]').click(function(){
+						mainobj.scrollup()
+						return false
+					})
+					$(window).bind('scroll resize', function(e){
+						mainobj.togglecontrol()
+					})
+				})
+			}
+		}
+
+		scrolltotop.init()
+
+		</script>
+		
+
+<!-- Start SHR Open Graph Tags -->
+
+	<!-- Shareaholic Notice: There is no featured image set -->
+
+<!-- END SHR Open Graph Tags -->
+
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://www.schwindtweb.de/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.schwindtweb.de/";
+var podPressBackendURL = "http://www.schwindtweb.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressPlayerFile = "podango_player.swf";
+var podPressMP3PlayerOptions = "&amp;lefticon=0x666666&amp;leftbg=0xEEEEEE&amp;volslider=0x666666&amp;voltrack=0xFFFFFF&amp;text=0x666666&amp;tracker=0xDDDDDD&amp;slider=0x666666&amp;loader=0x171f36&amp;track=0xFFFFFF&amp;border=0x666&amp;bg=0xF8F8F8&amp;skip=0x666666&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;rightbg=0xCCCCCC&amp;rightbghover=0x999999&amp;initialvolume=70&amp;buffer=5&amp;checkpolicy=no&amp;";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.schwindtweb.de/";
+var podPressBackendURL = "http://www.schwindtweb.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressPlayerFile = "podango_player.swf";
+var podPressMP3PlayerOptions = "&amp;lefticon=0x666666&amp;leftbg=0xEEEEEE&amp;volslider=0x666666&amp;voltrack=0xFFFFFF&amp;text=0x666666&amp;tracker=0xDDDDDD&amp;slider=0x666666&amp;loader=0x171f36&amp;track=0xFFFFFF&amp;border=0x666&amp;bg=0xF8F8F8&amp;skip=0x666666&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;rightbg=0xCCCCCC&amp;rightbghover=0x999999&amp;initialvolume=70&amp;buffer=5&amp;checkpolicy=no&amp;";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+
+<!-- Wordpress Popular Posts v2.2.1 -->
+<link rel="stylesheet" href="http://www.schwindtweb.de/wp-content/plugins/wordpress-popular-posts/style/wpp.css" type="text/css" media="screen" />
+<!-- End Wordpress Popular Posts v2.2.1 -->
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.schwindtweb.de/";
+var podPressBackendURL = "http://www.schwindtweb.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressPlayerFile = "podango_player.swf";
+var podPressMP3PlayerOptions = "&amp;lefticon=0x666666&amp;leftbg=0xEEEEEE&amp;volslider=0x666666&amp;voltrack=0xFFFFFF&amp;text=0x666666&amp;tracker=0xDDDDDD&amp;slider=0x666666&amp;loader=0x171f36&amp;track=0xFFFFFF&amp;border=0x666&amp;bg=0xF8F8F8&amp;skip=0x666666&amp;righticon=0x666666&amp;righticonhover=0xFFFFFF&amp;rightbg=0xCCCCCC&amp;rightbghover=0x999999&amp;initialvolume=70&amp;buffer=5&amp;checkpolicy=no&amp;";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+
+
+</head>
+<body class="home">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://www.schwindtweb.de/">Schwindtweb 8.1</a></h1>
+      
+            <div class="clear"></div>
+
+                  <!-- search form -->
+      <div class="search-block">
+        <div class="searchform-wrap">
+          <form method="get" id="searchform" action="http://www.schwindtweb.de/">
+            <fieldset>
+            <input type="text" name="s" id="searchbox" class="searchfield" value="Suchen" onfocus="if(this.value == 'Suchen') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Suchen';}" />
+             <input type="submit" value="Go" class="go" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <!-- /search form -->
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink" class="current_page_item"><a class="fadeThis" href="http://www.schwindtweb.de" title="Du bist auf der Startseite"><span>Startseite</span></a></li>
+                    <li class="page_item page-item-810"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=810"><span>EyePod &#8211; der Podcast</span></a>
+<ul class='children'>
+	<li class="page_item page-item-830"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=830"><span>EyePod &#8211; Sollndas??</span></a></li>
+	<li class="page_item page-item-815"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=815"><span>EyePod abonnieren</span></a></li>
+	<li class="page_item page-item-819"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=819"><span>EyePod Folgenübersicht</span></a></li>
+	<li class="page_item page-item-825"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=825"><span>EyePod Fanshop</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-836"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=836"><span>Hörspiel</span></a>
+<ul class='children'>
+	<li class="page_item page-item-843"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=843"><span>Hörspiel- SollnDas?</span></a></li>
+	<li class="page_item page-item-845"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=845"><span>Aktuelles Hörspiel &#8211; Folgenübersicht</span></a></li>
+	<li class="page_item page-item-848"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=848"><span>theM als Sprecher</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-795"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=795"><span>theM</span></a>
+<ul class='children'>
+	<li class="page_item page-item-800"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=800"><span>theM&#8217;s Egozentrale</span></a></li>
+	<li class="page_item page-item-804"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=804"><span>Sprich zu theM</span></a></li>
+	<li class="page_item page-item-54"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=54"><span>theM erfreuen</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-1251"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=1251"><span>Impressum</span></a></li>
+<li class="page_item page-item-9"><a class="fadeThis" href="http://www.schwindtweb.de/?page_id=9"><span>Disclaimer</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              
+        <!-- post -->
+        <div id="post-1421" class="post-1421 post type-post status-publish format-standard hentry category-eyepod-der-podcast tag-53-angriff-der-plastikschalen tag-eyepod tag-hacksteak tag-neil-armstrong tag-podcast tag-satire tag-schnapsdrossel tag-tupperparty">
+
+          <div class="post-header">
+           <h3><a href="http://www.schwindtweb.de/?p=1421" rel="bookmark" title="Permanenter Link 53 Angriff der Plastikschalen">53 Angriff der Plastikschalen</a></h3>
+           <p class="post-date">
+            <span class="month">Jun</span>
+            <span class="day">2</span>
+           </p>
+           <p class="post-author">
+            <span>Gepostet von <a href="http://www.schwindtweb.de/?author=2" title="Beitr&auml;ge von theM ">theM</a> in <a href="http://www.schwindtweb.de/?cat=19" title="Alle Artikel in EyePod - der Podcast ansehen" rel="category">EyePod - der Podcast</a> | <a class="no comments" href="http://www.schwindtweb.de/?p=1421#comments">Keine Kommentare</a>             </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic --><p style="text-align: justify;"><a href="http://www.schwindtweb.de/wp-content/uploads/2012/06/53angriffPlastikschalen.jpg"><img class="aligncenter size-full wp-image-1422" title="53 Angriff der Plastikschalen" src="http://www.schwindtweb.de/wp-content/uploads/2012/06/53angriffPlastikschalen.jpg" alt="53 Angriff der Plastikschalen" width="350" height="264" /></a>Eigentlich sind Partys ein erfreulicher Anlass. Außer es geht darum kleine Plastikschüsselchen zu verkaufen, dann gerät  man(n) schnell ins Schwitzen. Was ein 4  Wochen altes Hackschnitzes dazu beizutragen hat lernen wir ebenso wie den Anteil von Neil Armstrong beim Siegeszug von kleinen Plastikkuben.</p>
+<p>&nbsp;</p>
+<p>Linkisch: <a title="Die Schnapsdrossel welche eine Eule ist" href="(http://www.ksta.de/html/fotolines/1294060147377/rahmen.shtml?3)">Die Schnapsdrossel welche eine Eule ist</a></p>
+<p>&nbsp;</p>
+<p>&#8220;EyePod- Dinge die ins Auge springen&#8221; ist ein nichtkommerzieller, privater Podcast von http://www.schwindtweb.de</p>
+<div class="shr-publisher-1421"></div><!-- Start Shareaholic LikeButtonSetBottom Automatic --><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><div class='shareaholic-like-buttonset' style='float:none;height:30px;'><a class='shareaholic-fblike' data-shr_layout='button_count' data-shr_showfaces='false' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1421' data-shr_title='53+Angriff+der+Plastikschalen'></a><a class='shareaholic-googleplusone' data-shr_size='medium' data-shr_count='true' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1421' data-shr_title='53+Angriff+der+Plastikschalen'></a><a class='shareaholic-tweetbutton' data-shr_count='horizontal' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1421' data-shr_title='53+Angriff+der+Plastikschalen'></a></div><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><!-- End Shareaholic LikeButtonSetBottom Automatic --><div class="podPress_content podPress_content_audio_mp3">
+<div class="podpress_playerspace podpress_playerspace_audio_mp3"><div id="podPressPlayerSpace_1" style="display:block;" ><!-- podPress --></div></div>
+<div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://eyepod.podspot.de/files/53%20Der%20Angriff%20der%20Plastikschalen.mp3" target="new" title="Download: Angriff der Plastkschalen" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://www.schwindtweb.de/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">Angriff der Plastkschalen</span> <a href="#podPressPlayerSpace_1" class="podpress_playlink podpress_playlink_audio_mp3" onclick="javascript:podPressShowHidePlayer('1', 'http://eyepod.podspot.de/files/53%20Der%20Angriff%20der%20Plastikschalen.mp3', 290, 24, 'false', 'http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png', 'Angriff der Plastkschalen', 'theM'); return false;"><span id="podPressPlayerSpace_1_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_1_OrigURL" value="http://eyepod.podspot.de/files/53%20Der%20Angriff%20der%20Plastikschalen.mp3" /> | <a href="#podPressPlayerSpace_1" class="podpress_playinpopup podpress_playinpopup_audio_mp3" onclick="javascript:podPressPopupPlayer('1', 'http://eyepod.podspot.de/files/53%20Der%20Angriff%20der%20Plastikschalen.mp3', 290, 24, 'Schwindtweb 8.1', '1421', 'Angriff der Plastkschalen', 'theM'); return false;">Play in Popup</a> | <a href="http://eyepod.podspot.de/files/53%20Der%20Angriff%20der%20Plastikschalen.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a></div></div>
+<script type="text/javascript">podPressShowHidePlayer('1', 'http://eyepod.podspot.de/files/53%20Der%20Angriff%20der%20Plastikschalen.mp3', 290, 24, 'false', 'http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png', 'Angriff der Plastkschalen', 'theM');</script>
+                      <p class="tags"> Tags: <a href="http://www.schwindtweb.de/?tag=53-angriff-der-plastikschalen" rel="tag">53 Angriff der Plastikschalen</a>, <a href="http://www.schwindtweb.de/?tag=eyepod" rel="tag">EyePod</a>, <a href="http://www.schwindtweb.de/?tag=hacksteak" rel="tag">Hacksteak</a>, <a href="http://www.schwindtweb.de/?tag=neil-armstrong" rel="tag">Neil Armstrong</a>, <a href="http://www.schwindtweb.de/?tag=podcast" rel="tag">Podcast</a>, <a href="http://www.schwindtweb.de/?tag=satire" rel="tag">Satire</a>, <a href="http://www.schwindtweb.de/?tag=schnapsdrossel" rel="tag">Schnapsdrossel</a>, <a href="http://www.schwindtweb.de/?tag=tupperparty" rel="tag">Tupperparty</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1409" class="post-1409 post type-post status-publish format-standard hentry category-them-verkundet tag-eyepod tag-kleine-renovierungsarbeiten tag-kommentare tag-links tag-podcast tag-tunen tag-upgrade tag-verlinkung tag-wortpresse">
+
+          <div class="post-header">
+           <h3><a href="http://www.schwindtweb.de/?p=1409" rel="bookmark" title="Permanenter Link Kleine Renovierungsarbeiten">Kleine Renovierungsarbeiten</a></h3>
+           <p class="post-date">
+            <span class="month">Mai</span>
+            <span class="day">20</span>
+           </p>
+           <p class="post-author">
+            <span>Gepostet von <a href="http://www.schwindtweb.de/?author=2" title="Beitr&auml;ge von theM ">theM</a> in <a href="http://www.schwindtweb.de/?cat=33" title="Alle Artikel in theM verkündet ansehen" rel="category">theM verkündet</a> | <a class="comments" href="http://www.schwindtweb.de/?p=1409#comments">2 Kommentare</a>             </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic --><p style="text-align: justify;"><a href="http://www.schwindtweb.de/wp-content/uploads/2012/05/renovierung.jpg"><img class="aligncenter size-full wp-image-1410" title="Kleine Renovierungsarbeiten" src="http://www.schwindtweb.de/wp-content/uploads/2012/05/renovierung.jpg" alt="Kleine Renovierungsarbeiten" width="423" height="244" /></a>Auch wenn es nicht zur Version 8.2 reicht <del>- scheinbar ist mir 8.1 an&#8217;s Herz gewachsen -</del> habe ich doch die Wortpresse &#8220;unter der Haube&#8221; noch mal ein wenig mit nützlichen Helferlein ausgestattet. So wirst z.B. Du mein geneigter oder gerade sitzender Betrachter vielleicht beim &#8220;runterscrollen&#8221; den fluffigen kleinen blauen Pfeil in der unteren rechten Ecke gesehen haben. Dieser erspart Dir mühevolle scrollerei, <del>da wir ja alle faul sind</del> mit einem Klick bist Du wieder am oberen Seitenende. Dies und noch ein bissel mehr habe ich der Presse zugeführt.</p>
+<p style="text-align: justify;">Aber ich habe auch etwas weggenommen. Dies sind die mehr oder minder legendären Linklisten. Der Grund ist sehr simpel: Ich bin es ein wenig Leid das der/die Eine oder Andere sich auf die Füße gelatscht fühlt wenn ich ihre/seine Seite mal nicht gerade &#8220;subito&#8221; verlinkt habe (ich war sowieso in letzter Zeit anderweitig stark eingespannt). Außerdem: Es gibt so viele Seiten im weltweiten Netz die ich noch nicht einmal kenne die es m.E. wert wären verlinkt zu werden und es doch nicht sind dass das Ganze in einer gewissen Weise unfair wäre. Daher um es kurz zu machen: Keine Links als separate Liste (sehr wohl aber noch in relevanten Artikeln) und somit keinen Jubel oder Zorn. Und ganz nebenbei bemerkt: Sollte jemand wild auf meine persönlichen Empfehlungen sein (denn nichts Anderes ist es ja) so kann man mich dies auch <a title="Sprich zu mir! ;)" href="http://www.schwindtweb.de/?page_id=804" target="_blank">gerne jederzeit fragen</a>.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><em>Was gibt es sonst noch zu erwähnen?</em></p>
+<p style="text-align: justify;">Zum Einen wären da meine nicht enden wollenden Freudentänze obgleich Eurer zunehmenden Kommentierfreudigkeit. Ich gebe zu dies sorgt noch mal ein gaaanz wenig für die Prise Extramotivation. Fühlt Euch also alle daher tausendfach von mir geherzt.</p>
+<p style="text-align: justify;">Zum Anderen ist die nächste <a title="EyePod Folgenübersicht" href="http://www.schwindtweb.de/?page_id=819" target="_blank">EyePod Folge</a> im Anmarsch. Wird zwar noch &#8211; dem Speicherplatz sei es getrommelt &#8211; eine Weile dauern aber fertig ist sie schon und trägt den zauberhaften Namen &#8220;Angriff der Plastikschalen&#8221;.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">Und nun aber genug für heute &#8211; ist viel Text für ein paar kleine Renovierungsarbeiten geworden. <img src='http://www.schwindtweb.de/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<div class="shr-publisher-1409"></div><!-- Start Shareaholic LikeButtonSetBottom Automatic --><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><div class='shareaholic-like-buttonset' style='float:none;height:30px;'><a class='shareaholic-fblike' data-shr_layout='button_count' data-shr_showfaces='false' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1409' data-shr_title='Kleine+Renovierungsarbeiten'></a><a class='shareaholic-googleplusone' data-shr_size='medium' data-shr_count='true' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1409' data-shr_title='Kleine+Renovierungsarbeiten'></a><a class='shareaholic-tweetbutton' data-shr_count='horizontal' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1409' data-shr_title='Kleine+Renovierungsarbeiten'></a></div><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><!-- End Shareaholic LikeButtonSetBottom Automatic -->
+                      <p class="tags"> Tags: <a href="http://www.schwindtweb.de/?tag=eyepod" rel="tag">EyePod</a>, <a href="http://www.schwindtweb.de/?tag=kleine-renovierungsarbeiten" rel="tag">Kleine Renovierungsarbeiten</a>, <a href="http://www.schwindtweb.de/?tag=kommentare" rel="tag">Kommentare</a>, <a href="http://www.schwindtweb.de/?tag=links" rel="tag">Links</a>, <a href="http://www.schwindtweb.de/?tag=podcast" rel="tag">Podcast</a>, <a href="http://www.schwindtweb.de/?tag=tunen" rel="tag">Tunen</a>, <a href="http://www.schwindtweb.de/?tag=upgrade" rel="tag">Upgrade</a>, <a href="http://www.schwindtweb.de/?tag=verlinkung" rel="tag">Verlinkung</a>, <a href="http://www.schwindtweb.de/?tag=wortpresse" rel="tag">Wortpresse</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1396" class="post-1396 post type-post status-publish format-standard hentry category-thems-lyrics tag-dawn tag-ein-neuer-tag tag-gedicht tag-hoffnung tag-lyrics tag-lyrik tag-sonnenaufgang">
+
+          <div class="post-header">
+           <h3><a href="http://www.schwindtweb.de/?p=1396" rel="bookmark" title="Permanenter Link Ein neuer Tag">Ein neuer Tag</a></h3>
+           <p class="post-date">
+            <span class="month">Mai</span>
+            <span class="day">12</span>
+           </p>
+           <p class="post-author">
+            <span>Gepostet von <a href="http://www.schwindtweb.de/?author=2" title="Beitr&auml;ge von theM ">theM</a> in <a href="http://www.schwindtweb.de/?cat=276" title="Alle Artikel in theMs Lyrics ansehen" rel="category">theMs Lyrics</a> | <a class="no comments" href="http://www.schwindtweb.de/?p=1396#comments">Keine Kommentare</a>             </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic --><p style="text-align: justify;"><a href="http://www.schwindtweb.de/wp-content/uploads/2012/05/NewDay.jpg"><img class="aligncenter size-full wp-image-1397" title="Ein neuer Tag" src="http://www.schwindtweb.de/wp-content/uploads/2012/05/NewDay.jpg" alt="Ein neuer Tag" width="427" height="254" /></a></p>
+<p style="text-align: justify;">Sanft wie eine Feder liegt das weiße Band des Morgennebels auf der Welt</p>
+<p style="text-align: justify;">Es liegt im leichten Schlummer noch der Anbeginn der Tage</p>
+<p style="text-align: justify;"><strong>Ein Neuer Tag</strong>, eine <strong>neue Hoffnung</strong>, ein neues Leben, ein neues Feld wird bestellt</p>
+<p style="text-align: justify;"><strong>Kein</strong> <strong>Zweifel</strong> mehr, keine Zaudern, <strong>kein Schmerz</strong> und keine weitere offene Frage</p>
+<div class="shr-publisher-1396"></div><!-- Start Shareaholic LikeButtonSetBottom Automatic --><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><div class='shareaholic-like-buttonset' style='float:none;height:30px;'><a class='shareaholic-fblike' data-shr_layout='button_count' data-shr_showfaces='false' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1396' data-shr_title='Ein+neuer+Tag'></a><a class='shareaholic-googleplusone' data-shr_size='medium' data-shr_count='true' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1396' data-shr_title='Ein+neuer+Tag'></a><a class='shareaholic-tweetbutton' data-shr_count='horizontal' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1396' data-shr_title='Ein+neuer+Tag'></a></div><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><!-- End Shareaholic LikeButtonSetBottom Automatic -->
+                      <p class="tags"> Tags: <a href="http://www.schwindtweb.de/?tag=dawn" rel="tag">Dawn</a>, <a href="http://www.schwindtweb.de/?tag=ein-neuer-tag" rel="tag">Ein neuer Tag</a>, <a href="http://www.schwindtweb.de/?tag=gedicht" rel="tag">Gedicht</a>, <a href="http://www.schwindtweb.de/?tag=hoffnung" rel="tag">Hoffnung</a>, <a href="http://www.schwindtweb.de/?tag=lyrics" rel="tag">Lyrics</a>, <a href="http://www.schwindtweb.de/?tag=lyrik" rel="tag">Lyrik</a>, <a href="http://www.schwindtweb.de/?tag=sonnenaufgang" rel="tag">Sonnenaufgang</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1385" class="post-1385 post type-post status-publish format-standard hentry category-eyepod-der-podcast tag-52-dgp-vergessen-und-verloren tag-berliner-warteschleife tag-daniluna tag-der-gewundene-pfad tag-eyepod tag-frank tag-h2 tag-horspiel tag-norbert tag-silbersurfers-kosmos tag-spacemonkey tag-sukii tag-sukiiland">
+
+          <div class="post-header">
+           <h3><a href="http://www.schwindtweb.de/?p=1385" rel="bookmark" title="Permanenter Link 52 DgP Vergessen und Verloren">52 DgP Vergessen und Verloren</a></h3>
+           <p class="post-date">
+            <span class="month">Mai</span>
+            <span class="day">5</span>
+           </p>
+           <p class="post-author">
+            <span>Gepostet von <a href="http://www.schwindtweb.de/?author=2" title="Beitr&auml;ge von theM ">theM</a> in <a href="http://www.schwindtweb.de/?cat=19" title="Alle Artikel in EyePod - der Podcast ansehen" rel="category">EyePod - der Podcast</a> | <a class="comments" href="http://www.schwindtweb.de/?p=1385#comments">4 Kommentare</a>             </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic --><p style="text-align: justify;"><img class="aligncenter" title="Der gewundene Pfad" src="http://www.schwindtweb.de/wp-content/uploads/2011/03/DgP-coverpicture-300x199.jpg" alt="" width="300" height="199" />Nach der Ankündigung in der letzten Folge und dem Preview nun die sechste Folge des EyePod Hörspiels. Wer trotz der Rückschau trotzdem das Bedürfnis verspürt, sich in die Geschichte einzulesen dem sei die Hörspiel Folgenübersicht ans Herz gelegt. Mein ganz herzlicher Dank geht an meine tollen Sprecher, die auch dieses Mal unermüdlich ihren Beitrag geleistet haben:</p>
+<p>   <br class="clear" /></p>
+<p style="text-align: justify;">- Daniluna von der <a title="Berliner Warteschleife" href="http://berlinerwarteschleife.wordpress.com/" target="_blank">Berliner Warteschleife </a></p>
+<p style="text-align: justify;">- Frank von <a title="Silbersurfer's Kosmos" href="http://www.silbersurfer.de/" target="_blank">Silbersurfer&#8217;s Kosmos</a></p>
+<p style="text-align: justify;">- Norbert von <a title="H2" href="http://www.hayduk.de" target="_blank">H2</a></p>
+<p style="text-align: justify;">- Spacemonkey vom <a title="Spacemonkey Podcast" href="http://www.spacemonkey.info.ms/" target="_blank">Spacemonkey Podcast</a></p>
+<p style="text-align: justify;">- Sukii vom <a title="Sukiiland" href="http://sukiiland.podspot.de/" target="_blank">Sukiiland</a></p>
+<p>   <br class="clear" /></p>
+<p style="text-align: justify;">Und wie auch bei jeder Hörspielfolge gilt weiterhin der Tipp, das ganze mit Kopfhörer zu lauschen um in den vollen Genuß der Klangillusionen zu kommen.</p>
+<p style="text-align: justify;">&#8220;EyePod- Dinge die ins Auge springen&#8221; ist ein nichtkommerzieller, privater Podcast von http://www.schwindtweb.de</p>
+<div class="shr-publisher-1385"></div><!-- Start Shareaholic LikeButtonSetBottom Automatic --><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><div class='shareaholic-like-buttonset' style='float:none;height:30px;'><a class='shareaholic-fblike' data-shr_layout='button_count' data-shr_showfaces='false' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1385' data-shr_title='52+DgP+Vergessen+und+Verloren'></a><a class='shareaholic-googleplusone' data-shr_size='medium' data-shr_count='true' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1385' data-shr_title='52+DgP+Vergessen+und+Verloren'></a><a class='shareaholic-tweetbutton' data-shr_count='horizontal' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1385' data-shr_title='52+DgP+Vergessen+und+Verloren'></a></div><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><!-- End Shareaholic LikeButtonSetBottom Automatic --><div class="podPress_content podPress_content_audio_mp3">
+<div class="podpress_playerspace podpress_playerspace_audio_mp3"><div id="podPressPlayerSpace_2" style="display:block;" ><!-- podPress --></div></div>
+<div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://eyepod.podspot.de/files/52%20DgP%20Vergessen%20und%20Verloren.mp3" target="new" title="Download: 52 DgP Vergessen und Verloren" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://www.schwindtweb.de/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">52 DgP Vergessen und Verloren</span> <a href="#podPressPlayerSpace_2" class="podpress_playlink podpress_playlink_audio_mp3" onclick="javascript:podPressShowHidePlayer('2', 'http://eyepod.podspot.de/files/52%20DgP%20Vergessen%20und%20Verloren.mp3', 290, 24, 'false', 'http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png', '52 DgP Vergessen und Verloren', 'theM'); return false;"><span id="podPressPlayerSpace_2_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_2_OrigURL" value="http://eyepod.podspot.de/files/52%20DgP%20Vergessen%20und%20Verloren.mp3" /> | <a href="#podPressPlayerSpace_2" class="podpress_playinpopup podpress_playinpopup_audio_mp3" onclick="javascript:podPressPopupPlayer('2', 'http://eyepod.podspot.de/files/52%20DgP%20Vergessen%20und%20Verloren.mp3', 290, 24, 'Schwindtweb 8.1', '1385', '52 DgP Vergessen und Verloren', 'theM'); return false;">Play in Popup</a> | <a href="http://eyepod.podspot.de/files/52%20DgP%20Vergessen%20und%20Verloren.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a></div></div>
+<script type="text/javascript">podPressShowHidePlayer('2', 'http://eyepod.podspot.de/files/52%20DgP%20Vergessen%20und%20Verloren.mp3', 290, 24, 'false', 'http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png', '52 DgP Vergessen und Verloren', 'theM');</script>
+                      <p class="tags"> Tags: <a href="http://www.schwindtweb.de/?tag=52-dgp-vergessen-und-verloren" rel="tag">52 DgP Vergessen und Verloren</a>, <a href="http://www.schwindtweb.de/?tag=berliner-warteschleife" rel="tag">Berliner Warteschleife</a>, <a href="http://www.schwindtweb.de/?tag=daniluna" rel="tag">Daniluna</a>, <a href="http://www.schwindtweb.de/?tag=der-gewundene-pfad" rel="tag">Der gewundene Pfad</a>, <a href="http://www.schwindtweb.de/?tag=eyepod" rel="tag">EyePod</a>, <a href="http://www.schwindtweb.de/?tag=frank" rel="tag">Frank</a>, <a href="http://www.schwindtweb.de/?tag=h2" rel="tag">H2</a>, <a href="http://www.schwindtweb.de/?tag=horspiel" rel="tag">Hörspiel</a>, <a href="http://www.schwindtweb.de/?tag=norbert" rel="tag">Norbert</a>, <a href="http://www.schwindtweb.de/?tag=silbersurfers-kosmos" rel="tag">Silbersurfer's Kosmos</a>, <a href="http://www.schwindtweb.de/?tag=spacemonkey" rel="tag">Spacemonkey</a>, <a href="http://www.schwindtweb.de/?tag=sukii" rel="tag">Sukii</a>, <a href="http://www.schwindtweb.de/?tag=sukiiland" rel="tag">Sukiiland</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1370" class="post-1370 post type-post status-publish format-standard hentry category-them-rezensiert tag-aufraumen-mit-der-abrissbirne tag-bruce-springsteen tag-clarence-clemons tag-plattenkritik tag-springsteen tag-the-boss tag-wrecking-ball">
+
+          <div class="post-header">
+           <h3><a href="http://www.schwindtweb.de/?p=1370" rel="bookmark" title="Permanenter Link Aufräumen mit der Abrissbirne">Aufräumen mit der Abrissbirne</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">29</span>
+           </p>
+           <p class="post-author">
+            <span>Gepostet von <a href="http://www.schwindtweb.de/?author=2" title="Beitr&auml;ge von theM ">theM</a> in <a href="http://www.schwindtweb.de/?cat=32" title="Alle Artikel in theM rezensiert ansehen" rel="category">theM rezensiert</a> | <a class="no comments" href="http://www.schwindtweb.de/?p=1370#comments">Keine Kommentare</a>             </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic --><p style="text-align: justify;">Der <a title="Meet the boss" href="http://brucespringsteen.net/" target="_blank">Boss</a> hat wieder zugeschlagen &#8211; dieses mal mit der Abrissbirne. Das 17. Album von <a title="Meet the Boss on Wikipedia" href="http://en.wikipedia.org/wiki/Bruce_Springsteen" target="_blank">Bruce Springsteen</a> ist vergleichbar mit einem guten Whisky: Je älter desto besser. Es trägt zwar unverkennbar die Handschrift eines großartigen Musikers welcher einen Musikstil mitgeprägt hat ohne jedoch die Gegenwart aus den Augen zu verlieren. Nach Springsteens Aussage entstand das Album im Schatten der Finanzkrise 2008 und so zeugt der Grundtenor von harter (berechtigter) Kritik an den Heuschrecken welche letztendlich die Abrissbirne für das Zeitalter der Sorglosigkeit und Casino-Spekulanten wurden und den &#8220;einfachen Leuten&#8221; die pure Verwüstung hinterließen. Hier sticht insbesondere &#8220;Death To My Hometown&#8221; heraus:</p>
+<blockquote>
+<p style="text-align: justify;">They destroyed our families&#8217; factories and they took our homes<br />
+They left our bodies on the plains, the vultures picked our bones</p>
+</blockquote>
+<p style="text-align: justify;">Der Song stich neben einem für Springsteen durchaus unüblich deutlichem Text mit einem hohen Maß an musikalischem Zynismus heraus: Während der Text inhaltlich zornig und teilweise bedrückend ist begleitet eine fröhliches mit Anleihen an Irish Folk gestaltete Musiklinie den Song und stellt einen krassen Widerspruch heraus. Hierbei verlässt Springsteen jedoch nie die Pfade der guten Unterhaltung ohne den Fokus auf seine Kritik zu verlieren &#8211; der geplatzte amerikanische Traum dessen Ende mit den Sorgen, Nöten und Sehnsüchten sowie bitteren Enttäuschungen garniert ist. Als Beispiel sei hier &#8220;Jack of All Trades&#8221; genannt:</p>
+<blockquote>
+<p style="text-align: justify;">The banker man grows fatter, the working man grows thin</p>
+</blockquote>
+<p style="text-align: justify;">Auch wenn Springsteen weiterhin am Konzept seiner &#8220;Wall of sound&#8221; festhällt lässt er allerdings stets neue Einflüsse zu: Dies zeigt die neue Version von &#8220;Land Of Hope and Dreams&#8221; welche dem Drumcomputer einen Zugang erlaubt und gleichzeitig die <a title="Clarence Clemons ist tot" href="http://www.tagesschau.de/kultur/clemonstot100.html" target="_blank">furiose Verabschiedung</a> von <a title="Meet the Big Man" href="http://www.clarenceclemons.com" target="_blank">Clarence Clemons</a> ist. Seine Saxophoneinlage ist gewohnt intensiv und gefühlvoll und ihr Nachhall wird vielen Fans des Saxophonisten fehlen. Außerdem garnieren die bereits erwähnten Irish Folk Anleihen und Gospel Chöre das Album und komplettieren das Bild eines rundum gelungenen Albums welches gerne und gut ins Ohr geht ohne seine Botschaft aus den Augen zu verlieren.</p>
+<div class="shr-publisher-1370"></div><!-- Start Shareaholic LikeButtonSetBottom Automatic --><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><div class='shareaholic-like-buttonset' style='float:none;height:30px;'><a class='shareaholic-fblike' data-shr_layout='button_count' data-shr_showfaces='false' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1370' data-shr_title='Aufr%C3%A4umen+mit+der+Abrissbirne'></a><a class='shareaholic-googleplusone' data-shr_size='medium' data-shr_count='true' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1370' data-shr_title='Aufr%C3%A4umen+mit+der+Abrissbirne'></a><a class='shareaholic-tweetbutton' data-shr_count='horizontal' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1370' data-shr_title='Aufr%C3%A4umen+mit+der+Abrissbirne'></a></div><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><!-- End Shareaholic LikeButtonSetBottom Automatic -->
+                      <p class="tags"> Tags: <a href="http://www.schwindtweb.de/?tag=aufraumen-mit-der-abrissbirne" rel="tag">Aufräumen mit der Abrissbirne</a>, <a href="http://www.schwindtweb.de/?tag=bruce-springsteen" rel="tag">Bruce Springsteen</a>, <a href="http://www.schwindtweb.de/?tag=clarence-clemons" rel="tag">Clarence Clemons</a>, <a href="http://www.schwindtweb.de/?tag=plattenkritik" rel="tag">Plattenkritik</a>, <a href="http://www.schwindtweb.de/?tag=springsteen" rel="tag">Springsteen</a>, <a href="http://www.schwindtweb.de/?tag=the-boss" rel="tag">The boss</a>, <a href="http://www.schwindtweb.de/?tag=wrecking-ball" rel="tag">Wrecking Ball</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1355" class="post-1355 post type-post status-publish format-standard hentry category-eyepod-der-podcast tag-51-bei-alltag-gefahr tag-brennender-hamster tag-dgp-vorschau tag-eyepod tag-podcast tag-sprengseo tag-verkohlter-toast tag-waschmaschine">
+
+          <div class="post-header">
+           <h3><a href="http://www.schwindtweb.de/?p=1355" rel="bookmark" title="Permanenter Link 51 Bei Alltag Gefahr">51 Bei Alltag Gefahr</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">25</span>
+           </p>
+           <p class="post-author">
+            <span>Gepostet von <a href="http://www.schwindtweb.de/?author=2" title="Beitr&auml;ge von theM ">theM</a> in <a href="http://www.schwindtweb.de/?cat=19" title="Alle Artikel in EyePod - der Podcast ansehen" rel="category">EyePod - der Podcast</a> | <a class="comments" href="http://www.schwindtweb.de/?p=1355#comments">2 Kommentare</a>             </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <!-- Start Shareaholic LikeButtonSetTop Automatic --><!-- End Shareaholic LikeButtonSetTop Automatic --><p style="text-align: justify;"><a href="http://www.schwindtweb.de/wp-content/uploads/2012/04/51alltag.jpg"><img class="aligncenter size-full wp-image-1356" title="51 Bei Alltag Gefahr" src="http://www.schwindtweb.de/wp-content/uploads/2012/04/51alltag.jpg" alt="51 Bei Alltag Gefahr" width="221" height="294" /></a>Der Alltag ist voller Gefahren und Mysterien. Und so leidet man unter Waschmaschinen die Socken fressen oder Toaster welcher spontan Holzkohle erzeugt. Ach ja, ich bräuchte auch drigend noch die Telefonnummer der Feuerwehr. Oder vielleicht doch die des Hochwasserkatastrophenschutzes?!? Wer weiß das schon so genau…</p>
+<p><br class="clear" /><br />
+Linkisch: <a title="Der Kammerjäger mit knalligem Erfolg" href="http://www.express.de/panorama/im-badezimmer-spinnenjaeger-sprengt-sich-selbst-in-die-luft,2192,4613846.html" target="_blank">Der Kammerjäger mit knalligem Erfolg</a><br />
+<br class="clear" /><br />
+&#8220;EyePod- Dinge die ins Auge springen&#8221; ist ein nichtkommerzieller, privater Podcast von http://www.schwindtweb.de</p>
+<div class="shr-publisher-1355"></div><!-- Start Shareaholic LikeButtonSetBottom Automatic --><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><div class='shareaholic-like-buttonset' style='float:none;height:30px;'><a class='shareaholic-fblike' data-shr_layout='button_count' data-shr_showfaces='false' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1355' data-shr_title='51+Bei+Alltag+Gefahr'></a><a class='shareaholic-googleplusone' data-shr_size='medium' data-shr_count='true' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1355' data-shr_title='51+Bei+Alltag+Gefahr'></a><a class='shareaholic-tweetbutton' data-shr_count='horizontal' data-shr_href='http%3A%2F%2Fwww.schwindtweb.de%2F%3Fp%3D1355' data-shr_title='51+Bei+Alltag+Gefahr'></a></div><div style="clear: both; min-height: 1px; height: 3px; width: 100%;"></div><!-- End Shareaholic LikeButtonSetBottom Automatic --><div class="podPress_content podPress_content_audio_mp3">
+<div class="podpress_playerspace podpress_playerspace_audio_mp3"><div id="podPressPlayerSpace_3" style="display:block;" ><!-- podPress --></div></div>
+<div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://eyepod.podspot.de/files/51%20Bei%20Alltag%20Gefahr.mp3" target="new" title="Download: 51 Bei Alltag Gefahr" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://www.schwindtweb.de/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">51 Bei Alltag Gefahr</span> <a href="#podPressPlayerSpace_3" class="podpress_playlink podpress_playlink_audio_mp3" onclick="javascript:podPressShowHidePlayer('3', 'http://eyepod.podspot.de/files/51%20Bei%20Alltag%20Gefahr.mp3', 290, 24, 'false', 'http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png', '51 Bei Alltag Gefahr', 'theM'); return false;"><span id="podPressPlayerSpace_3_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_3_OrigURL" value="http://eyepod.podspot.de/files/51%20Bei%20Alltag%20Gefahr.mp3" /> | <a href="#podPressPlayerSpace_3" class="podpress_playinpopup podpress_playinpopup_audio_mp3" onclick="javascript:podPressPopupPlayer('3', 'http://eyepod.podspot.de/files/51%20Bei%20Alltag%20Gefahr.mp3', 290, 24, 'Schwindtweb 8.1', '1355', '51 Bei Alltag Gefahr', 'theM'); return false;">Play in Popup</a> | <a href="http://eyepod.podspot.de/files/51%20Bei%20Alltag%20Gefahr.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a></div></div>
+<script type="text/javascript">podPressShowHidePlayer('3', 'http://eyepod.podspot.de/files/51%20Bei%20Alltag%20Gefahr.mp3', 290, 24, 'false', 'http://www.schwindtweb.de/wordpress/wp-content/plugins/podpress/images/vpreview_center.png', '51 Bei Alltag Gefahr', 'theM');</script>
+                      <p class="tags"> Tags: <a href="http://www.schwindtweb.de/?tag=51-bei-alltag-gefahr" rel="tag">51 Bei Alltag Gefahr</a>, <a href="http://www.schwindtweb.de/?tag=brennender-hamster" rel="tag">Brennender Hamster</a>, <a href="http://www.schwindtweb.de/?tag=dgp-vorschau" rel="tag">DgP Vorschau</a>, <a href="http://www.schwindtweb.de/?tag=eyepod" rel="tag">EyePod</a>, <a href="http://www.schwindtweb.de/?tag=podcast" rel="tag">Podcast</a>, <a href="http://www.schwindtweb.de/?tag=sprengseo" rel="tag">Sprengseo</a>, <a href="http://www.schwindtweb.de/?tag=verkohlter-toast" rel="tag">Verkohlter Toast</a>, <a href="http://www.schwindtweb.de/?tag=waschmaschine" rel="tag">Waschmaschine</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+       <div class="navigation" id="pagenavi">
+               <div class="alignleft"><a href="http://www.schwindtweb.de/?paged=2" >&laquo; &Auml;ltere Eintr&auml;ge</a></div>
+        <div class="alignright"></div>
+        <div class="clear"></div>
+              </div>
+       
+      </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+        <li class="block">
+      <!-- sidebar menu (categories) -->
+      <ul class="menu">
+        	<li  class="cat-item cat-item-19"><a class="fadeThis" href="http://www.schwindtweb.de/?cat=19" title="Alles rund um den EyePod Podcast">EyePod &#8211; der Podcast</a><a class="rss" href="http://www.schwindtweb.de/?feed=rss2&amp;cat=19"></a>
+</li>
+	<li  class="cat-item cat-item-15"><a class="fadeThis" href="http://www.schwindtweb.de/?cat=15" title="Sprüche eben - was denn sonst?">Sprüche</a><a class="rss" href="http://www.schwindtweb.de/?feed=rss2&amp;cat=15"></a>
+</li>
+	<li  class="cat-item cat-item-32"><a class="fadeThis" href="http://www.schwindtweb.de/?cat=32" title="Rezensionen">theM rezensiert</a><a class="rss" href="http://www.schwindtweb.de/?feed=rss2&amp;cat=32"></a>
+</li>
+	<li  class="cat-item cat-item-33"><a class="fadeThis" href="http://www.schwindtweb.de/?cat=33" title="Persönliches Gerede, schlaues, weniger schlaues und vieles mehr">theM verkündet</a><a class="rss" href="http://www.schwindtweb.de/?feed=rss2&amp;cat=33"></a>
+</li>
+	<li  class="cat-item cat-item-276"><a class="fadeThis" href="http://www.schwindtweb.de/?cat=276" title="Hier stopfe ich meine kleinen lyrischen Vierzeiler hinein habe ich beschlossen. Punkt (.)">theMs Lyrics</a><a class="rss" href="http://www.schwindtweb.de/?feed=rss2&amp;cat=276"></a>
+</li>
+	<li  class="cat-item cat-item-31"><a class="fadeThis" href="http://www.schwindtweb.de/?cat=31" title="Webgrübeleien und Nachdenkliches">theMs Tiefenrausch</a><a class="rss" href="http://www.schwindtweb.de/?feed=rss2&amp;cat=31"></a>
+</li>
+
+        
+      </ul>
+      <!-- /sidebar menu -->
+    </li>
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content">			<div class="textwidget"><center>
+<img src="http://www.schwindtweb.de/Schwindtweblogo.jpg" alt="Schwindtweblogo">
+</center></div>
+		</div></div></div></div></div></div> </div></li><li class="block widget widget_calendar" id="calendar-2"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>&nbsp;</span></h4></div><div id="calendar_wrap"><table id="wp-calendar">
+	<caption>Juni 2012</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Montag">M</th>
+		<th scope="col" title="Dienstag">D</th>
+		<th scope="col" title="Mittwoch">M</th>
+		<th scope="col" title="Donnerstag">D</th>
+		<th scope="col" title="Freitag">F</th>
+		<th scope="col" title="Samstag">S</th>
+		<th scope="col" title="Sonntag">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://www.schwindtweb.de/?m=201205" title="Zeige Artikel für Mai 2012">&laquo; Mai</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="4" class="pad">&nbsp;</td><td>1</td><td><a href="http://www.schwindtweb.de/?m=20120602" title="53 Angriff der Plastikschalen">2</a></td><td>3</td>
+	</tr>
+	<tr>
+		<td>4</td><td>5</td><td>6</td><td id="today">7</td><td>8</td><td>9</td><td>10</td>
+	</tr>
+	<tr>
+		<td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+	</tr>
+	<tr>
+		<td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td>
+	</tr>
+	<tr>
+		<td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+		<td class="pad" colspan="1">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div></div></div></div></div></div> </div></li>		<li class="block widget widget_recent_entries" id="recent-posts-2"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content">		<div class="titlewrap"><h4><span>Das Letzte</span></h4></div>		<ul>
+				<li><a href="http://www.schwindtweb.de/?p=1421" title="53 Angriff der Plastikschalen">53 Angriff der Plastikschalen</a></li>
+				<li><a href="http://www.schwindtweb.de/?p=1409" title="Kleine Renovierungsarbeiten">Kleine Renovierungsarbeiten</a></li>
+				<li><a href="http://www.schwindtweb.de/?p=1396" title="Ein neuer Tag">Ein neuer Tag</a></li>
+				<li><a href="http://www.schwindtweb.de/?p=1385" title="52 DgP Vergessen und Verloren">52 DgP Vergessen und Verloren</a></li>
+				<li><a href="http://www.schwindtweb.de/?p=1370" title="Aufräumen mit der Abrissbirne">Aufräumen mit der Abrissbirne</a></li>
+				</ul>
+		</div></div></div></div></div></div> </div></li><li class="block widget widget_useronline" id="useronline-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>Wanderer aus dem weiten Netz</span></h4></div><div id="useronline-count"><a href="http://www.schwindtweb.de"><strong>1 Besucher</strong> online</a></div></div></div></div></div></div></div> </div></li><!-- Wordpress Popular Posts Plugin v2.2.1 [W] [weekly] [regular] -->
+<li class="block widget popular-posts" id="wpp-4"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content">
+<div class="titlewrap"><h4><span>Anderen Besuchern gefällt</span></h4></div><ul>
+<li><a href="http://www.schwindtweb.de/?page_id=804" title="Sprich zu theM"><span class="wpp-post-title">Sprich zu theM</span></a>  <span class="post-stats"><span class="wpp-views">1  view(s) per day</span> | <span class="wpp-date">posted on November 6, 2010</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?page_id=810" title="EyePod &#8211; der Podcast"><span class="wpp-post-title">EyePod &#8211; der Podcast</span></a>  <span class="post-stats"><span class="wpp-views">0.75  view(s) per day</span> | <span class="wpp-date">posted on November 6, 2010</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?page_id=819" title="EyePod Folgenübersicht"><span class="wpp-post-title">EyePod Folgenübersicht</span></a>  <span class="post-stats"><span class="wpp-views">0.5  view(s) per day</span> | <span class="wpp-date">posted on November 6, 2010</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?p=1194" title="Auf ein gutes Jahr 2012"><span class="wpp-post-title">Auf ein gutes Jahr 2012</span></a>  <span class="post-stats"><span class="wpp-views">0.33  view(s) per day</span> | <span class="wpp-date">posted on Dezember 31, 2011</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?p=1181" title="45 DgP: Die Schicksalsfahrt"><span class="wpp-post-title">45 DgP: Die Schicksalsfah&#8230;</span></a>  <span class="post-stats"><span class="wpp-views">0.25  view(s) per day</span> | <span class="wpp-date">posted on Dezember 22, 2011</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?page_id=54" title="theM erfreuen"><span class="wpp-post-title">theM erfreuen</span></a>  <span class="post-stats"><span class="wpp-views">0.25  view(s) per day</span> | <span class="wpp-date">posted on September 11, 2009</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?p=540" title="Lirum larum Löffelstiel, wer nicht fragt&#8230;"><span class="wpp-post-title">Lirum larum Löffelstiel, &#8230;</span></a>  <span class="post-stats"><span class="wpp-views">0.17  view(s) per day</span> | <span class="wpp-date">posted on Februar 3, 2010</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?p=1346" title="Sergio, das ist Schicksal!"><span class="wpp-post-title">Sergio, das ist Schicksal&#8230;</span></a>  <span class="post-stats"><span class="wpp-views">0.17  view(s) per day</span> | <span class="wpp-date">posted on April 4, 2012</span></span> </li>
+<li><a href="http://www.schwindtweb.de/?p=1102" title="Ich habe fertig"><span class="wpp-post-title">Ich habe fertig</span></a>  <span class="post-stats"><span class="wpp-views">0.14  view(s) per day</span> | <span class="wpp-date">posted on September 26, 2011</span></span> </li>
+
+</ul>
+</div></div></div></div></div></div> </div></li>
+<!-- End Wordpress Popular Posts Plugin v2.2.1 -->
+<li class="block widget widget_text" id="text-4"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>theM @ Twitter</span></h4></div>			<div class="textwidget"><br>
+<center><a href="http://twitter.com/the_M"><img title="Verfolge mich auf Twitter" src="http://www.schwindtweb.de/twitter-follow-me.gif" border="0" alt="" /></a>
+<br>
+<br>
+wie auch schon glückliche
+<br>
+<br>
+<script type="text/javascript" language="JavaScript" src="http://twittercounter.com/embed/The_M/FFFFFF/171f36"></script></center></div>
+		</div></div></div></div></div></div> </div></li><li class="block widget widget_wpinstagram-widget" id="wpinstagram-widget-7"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>theM knipst</span></h4></div><ul class="wpinstagram" style="width: 290px; height: 290px;"><li><a href="http://distilleryimage4.s3.amazonaws.com/2a6bf9d4acd911e1a9f71231382044a1_7.jpg" title="Locked love" rel="wpinstagram-widget-7"><img src="http://distilleryimage4.s3.amazonaws.com/2a6bf9d4acd911e1a9f71231382044a1_6.jpg" alt="Locked love" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/1258abd0a5a911e1bf341231380f8a12_7.jpg" title="Miracle" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/1258abd0a5a911e1bf341231380f8a12_6.jpg" alt="Miracle" width="290" height="290" /></a></li><li><a href="http://distilleryimage4.s3.amazonaws.com/8d59517ea4f811e192e91231381b3d7a_7.jpg" title="Brandenburger Tor" rel="wpinstagram-widget-7"><img src="http://distilleryimage4.s3.amazonaws.com/8d59517ea4f811e192e91231381b3d7a_6.jpg" alt="Brandenburger Tor" width="290" height="290" /></a></li><li><a href="http://distilleryimage7.s3.amazonaws.com/d8c4d144a4f611e188131231381b5c25_7.jpg" title="Reichstag" rel="wpinstagram-widget-7"><img src="http://distilleryimage7.s3.amazonaws.com/d8c4d144a4f611e188131231381b5c25_6.jpg" alt="Reichstag" width="290" height="290" /></a></li><li><a href="http://distilleryimage7.s3.amazonaws.com/fc358d4aa1c611e1abd612313810100a_7.jpg" title="Summertime" rel="wpinstagram-widget-7"><img src="http://distilleryimage7.s3.amazonaws.com/fc358d4aa1c611e1abd612313810100a_6.jpg" alt="Summertime" width="290" height="290" /></a></li><li><a href="http://distilleryimage2.s3.amazonaws.com/3ccd734c9f8b11e1abd612313810100a_7.jpg" title="Sundown over the river" rel="wpinstagram-widget-7"><img src="http://distilleryimage2.s3.amazonaws.com/3ccd734c9f8b11e1abd612313810100a_6.jpg" alt="Sundown over the river" width="290" height="290" /></a></li><li><a href="http://distilleryimage2.s3.amazonaws.com/df2e42b09f8611e1a92a1231381b6f02_7.jpg" title="Two churches" rel="wpinstagram-widget-7"><img src="http://distilleryimage2.s3.amazonaws.com/df2e42b09f8611e1a92a1231381b6f02_6.jpg" alt="Two churches" width="290" height="290" /></a></li><li><a href="http://distilleryimage4.s3.amazonaws.com/b66d70369f8511e1a92a1231381b6f02_7.jpg" title="The river" rel="wpinstagram-widget-7"><img src="http://distilleryimage4.s3.amazonaws.com/b66d70369f8511e1a92a1231381b6f02_6.jpg" alt="The river" width="290" height="290" /></a></li><li><a href="http://distilleryimage1.s3.amazonaws.com/073c4e6c9d7211e1a39b1231381b7ba1_7.jpg" title="Rise up" rel="wpinstagram-widget-7"><img src="http://distilleryimage1.s3.amazonaws.com/073c4e6c9d7211e1a39b1231381b7ba1_6.jpg" alt="Rise up" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/5647f6d49cd511e1af7612313813f8e8_7.jpg" title="Radio Orchid" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/5647f6d49cd511e1af7612313813f8e8_6.jpg" alt="Radio Orchid" width="290" height="290" /></a></li><li><a href="http://distilleryimage1.s3.amazonaws.com/e17c0446977811e192e91231381b3d7a_7.jpg" title="Baby you can drive my car" rel="wpinstagram-widget-7"><img src="http://distilleryimage1.s3.amazonaws.com/e17c0446977811e192e91231381b3d7a_6.jpg" alt="Baby you can drive my car" width="290" height="290" /></a></li><li><a href="http://distilleryimage5.s3.amazonaws.com/6c0c8492977311e1989612313815112c_7.jpg" title="Waiting for the summer" rel="wpinstagram-widget-7"><img src="http://distilleryimage5.s3.amazonaws.com/6c0c8492977311e1989612313815112c_6.jpg" alt="Waiting for the summer" width="290" height="290" /></a></li><li><a href="http://distilleryimage9.s3.amazonaws.com/65ad3bf0968811e1af7612313813f8e8_7.jpg" title="Black rain" rel="wpinstagram-widget-7"><img src="http://distilleryimage9.s3.amazonaws.com/65ad3bf0968811e1af7612313813f8e8_6.jpg" alt="Black rain" width="290" height="290" /></a></li><li><a href="http://distilleryimage11.s3.amazonaws.com/af7c3942922911e1abb01231381b65e3_7.jpg" title="Don&#39;t let the sun go down on me" rel="wpinstagram-widget-7"><img src="http://distilleryimage11.s3.amazonaws.com/af7c3942922911e1abb01231381b65e3_6.jpg" alt="Don&#39;t let the sun go down on me" width="290" height="290" /></a></li><li><a href="http://distilleryimage9.s3.amazonaws.com/7c3143b891f511e1abb01231381b65e3_7.jpg" title="Merry-go-round" rel="wpinstagram-widget-7"><img src="http://distilleryimage9.s3.amazonaws.com/7c3143b891f511e1abb01231381b65e3_6.jpg" alt="Merry-go-round" width="290" height="290" /></a></li><li><a href="http://distilleryimage5.s3.amazonaws.com/3291d0308d0211e180d51231380fcd7e_7.jpg" title="City names" rel="wpinstagram-widget-7"><img src="http://distilleryimage5.s3.amazonaws.com/3291d0308d0211e180d51231380fcd7e_6.jpg" alt="City names" width="290" height="290" /></a></li><li><a href="http://distilleryimage5.s3.amazonaws.com/a9e05a988c7711e192e91231381b3d7a_7.jpg" title="Heavy rain" rel="wpinstagram-widget-7"><img src="http://distilleryimage5.s3.amazonaws.com/a9e05a988c7711e192e91231381b3d7a_6.jpg" alt="Heavy rain" width="290" height="290" /></a></li><li><a href="http://distilleryimage10.s3.amazonaws.com/8a6f013289ed11e1b9f1123138140926_7.jpg" title="Broken wings" rel="wpinstagram-widget-7"><img src="http://distilleryimage10.s3.amazonaws.com/8a6f013289ed11e1b9f1123138140926_6.jpg" alt="Broken wings" width="290" height="290" /></a></li><li><a href="http://distilleryimage8.s3.amazonaws.com/24754f60870611e18cf91231380fd29b_7.jpg" title="Back to the woods" rel="wpinstagram-widget-7"><img src="http://distilleryimage8.s3.amazonaws.com/24754f60870611e18cf91231380fd29b_6.jpg" alt="Back to the woods" width="290" height="290" /></a></li><li><a href="http://distilleryimage2.s3.amazonaws.com/f51cce5682c711e1989612313815112c_7.jpg" title="Rain bird" rel="wpinstagram-widget-7"><img src="http://distilleryimage2.s3.amazonaws.com/f51cce5682c711e1989612313815112c_6.jpg" alt="Rain bird" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/56112332817f11e180d51231380fcd7e_7.jpg" title="Bring me some water" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/56112332817f11e180d51231380fcd7e_6.jpg" alt="Bring me some water" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/bc080e4879d311e181bd12313817987b_7.jpg" title="The night is comming" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/bc080e4879d311e181bd12313817987b_6.jpg" alt="The night is comming" width="290" height="290" /></a></li><li><a href="http://distilleryimage1.s3.amazonaws.com/138debf6797011e19e4a12313813ffc0_7.jpg" title="Baby I&#39;m ready to go" rel="wpinstagram-widget-7"><img src="http://distilleryimage1.s3.amazonaws.com/138debf6797011e19e4a12313813ffc0_6.jpg" alt="Baby I&#39;m ready to go" width="290" height="290" /></a></li><li><a href="http://distilleryimage5.s3.amazonaws.com/8dc31be2758a11e1989612313815112c_7.jpg" title="Spring awakes" rel="wpinstagram-widget-7"><img src="http://distilleryimage5.s3.amazonaws.com/8dc31be2758a11e1989612313815112c_6.jpg" alt="Spring awakes" width="290" height="290" /></a></li><li><a href="http://distilleryimage0.s3.amazonaws.com/bf43c4f06ecd11e181bd12313817987b_7.jpg" title="A train will come" rel="wpinstagram-widget-7"><img src="http://distilleryimage0.s3.amazonaws.com/bf43c4f06ecd11e181bd12313817987b_6.jpg" alt="A train will come" width="290" height="290" /></a></li><li><a href="http://distilleryimage3.s3.amazonaws.com/07d8b2d86c0411e1a87612313804ec91_7.jpg" title="Big girl" rel="wpinstagram-widget-7"><img src="http://distilleryimage3.s3.amazonaws.com/07d8b2d86c0411e1a87612313804ec91_6.jpg" alt="Big girl" width="290" height="290" /></a></li><li><a href="http://distilleryimage7.s3.amazonaws.com/28d449f46b7b11e180d51231380fcd7e_7.jpg" title="Lift me up" rel="wpinstagram-widget-7"><img src="http://distilleryimage7.s3.amazonaws.com/28d449f46b7b11e180d51231380fcd7e_6.jpg" alt="Lift me up" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/14fbfb866b7411e18bb812313804a181_7.jpg" title="My home is my castle" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/14fbfb866b7411e18bb812313804a181_6.jpg" alt="My home is my castle" width="290" height="290" /></a></li><li><a href="http://distilleryimage7.s3.amazonaws.com/6337eaea6ab011e180c9123138016265_7.jpg" title="Look me in the eyes" rel="wpinstagram-widget-7"><img src="http://distilleryimage7.s3.amazonaws.com/6337eaea6ab011e180c9123138016265_6.jpg" alt="Look me in the eyes" width="290" height="290" /></a></li><li><a href="http://distilleryimage2.s3.amazonaws.com/6d943414630111e180c9123138016265_7.jpg" title="Light and water" rel="wpinstagram-widget-7"><img src="http://distilleryimage2.s3.amazonaws.com/6d943414630111e180c9123138016265_6.jpg" alt="Light and water" width="290" height="290" /></a></li><li><a href="http://distilleryimage0.s3.amazonaws.com/859d1ad05be011e1b9f1123138140926_7.jpg" title="The unforgetable fire" rel="wpinstagram-widget-7"><img src="http://distilleryimage0.s3.amazonaws.com/859d1ad05be011e1b9f1123138140926_6.jpg" alt="The unforgetable fire" width="290" height="290" /></a></li><li><a href="http://distilleryimage11.s3.amazonaws.com/8417a4e25bd511e1b9f1123138140926_7.jpg" title="Carnival" rel="wpinstagram-widget-7"><img src="http://distilleryimage11.s3.amazonaws.com/8417a4e25bd511e1b9f1123138140926_6.jpg" alt="Carnival" width="290" height="290" /></a></li><li><a href="http://distilleryimage5.s3.amazonaws.com/f17285a0560f11e1b9f1123138140926_7.jpg" title="May the brick be with you" rel="wpinstagram-widget-7"><img src="http://distilleryimage5.s3.amazonaws.com/f17285a0560f11e1b9f1123138140926_6.jpg" alt="May the brick be with you" width="290" height="290" /></a></li><li><a href="http://distilleryimage8.s3.amazonaws.com/1e34df3653d411e1abb01231381b65e3_7.jpg" title="The Rock" rel="wpinstagram-widget-7"><img src="http://distilleryimage8.s3.amazonaws.com/1e34df3653d411e1abb01231381b65e3_6.jpg" alt="The Rock" width="290" height="290" /></a></li><li><a href="http://distilleryimage9.s3.amazonaws.com/5ed556e4516b11e180c9123138016265_7.jpg" title="Up Up Up!!" rel="wpinstagram-widget-7"><img src="http://distilleryimage9.s3.amazonaws.com/5ed556e4516b11e180c9123138016265_6.jpg" alt="Up Up Up!!" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/6d2910de50ab11e1b9f1123138140926_7.jpg" title="Time to relax" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/6d2910de50ab11e1b9f1123138140926_6.jpg" alt="Time to relax" width="290" height="290" /></a></li><li><a href="http://distilleryimage8.s3.amazonaws.com/6b74ea884e6211e1a87612313804ec91_7.jpg" title="Schlern" rel="wpinstagram-widget-7"><img src="http://distilleryimage8.s3.amazonaws.com/6b74ea884e6211e1a87612313804ec91_6.jpg" alt="Schlern" width="290" height="290" /></a></li><li><a href="http://distilleryimage8.s3.amazonaws.com/54d528224cb111e180c9123138016265_7.jpg" title="Cold as ice" rel="wpinstagram-widget-7"><img src="http://distilleryimage8.s3.amazonaws.com/54d528224cb111e180c9123138016265_6.jpg" alt="Cold as ice" width="290" height="290" /></a></li><li><a href="http://distilleryimage4.s3.amazonaws.com/d43d76d84cb011e1abb01231381b65e3_7.jpg" title="Alp village" rel="wpinstagram-widget-7"><img src="http://distilleryimage4.s3.amazonaws.com/d43d76d84cb011e1abb01231381b65e3_6.jpg" alt="Alp village" width="290" height="290" /></a></li><li><a href="http://distilleryimage3.s3.amazonaws.com/ebfb64544a8711e19896123138142014_7.jpg" title="Mountain view" rel="wpinstagram-widget-7"><img src="http://distilleryimage3.s3.amazonaws.com/ebfb64544a8711e19896123138142014_6.jpg" alt="Mountain view" width="290" height="290" /></a></li><li><a href="http://distilleryimage9.s3.amazonaws.com/9837b08a484211e19896123138142014_7.jpg" title="Enlightened" rel="wpinstagram-widget-7"><img src="http://distilleryimage9.s3.amazonaws.com/9837b08a484211e19896123138142014_6.jpg" alt="Enlightened" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/179ba28c3f8d11e1a87612313804ec91_7.jpg" title="Sunset" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/179ba28c3f8d11e1a87612313804ec91_6.jpg" alt="Sunset" width="290" height="290" /></a></li><li><a href="http://distilleryimage7.s3.amazonaws.com/d6c7d4683f7f11e19896123138142014_7.jpg" title="Leaving shadows behind" rel="wpinstagram-widget-7"><img src="http://distilleryimage7.s3.amazonaws.com/d6c7d4683f7f11e19896123138142014_6.jpg" alt="Leaving shadows behind" width="290" height="290" /></a></li><li><a href="http://distilleryimage4.s3.amazonaws.com/5d1947823f7f11e19e4a12313813ffc0_7.jpg" title="Grindstone" rel="wpinstagram-widget-7"><img src="http://distilleryimage4.s3.amazonaws.com/5d1947823f7f11e19e4a12313813ffc0_6.jpg" alt="Grindstone" width="290" height="290" /></a></li><li><a href="http://distilleryimage7.s3.amazonaws.com/e38f2ad039f211e1abb01231381b65e3_7.jpg" title="Waiting so long" rel="wpinstagram-widget-7"><img src="http://distilleryimage7.s3.amazonaws.com/e38f2ad039f211e1abb01231381b65e3_6.jpg" alt="Waiting so long" width="290" height="290" /></a></li><li><a href="http://distilleryimage1.s3.amazonaws.com/6faecb7c386511e1a87612313804ec91_7.jpg" title="They&#39;re comming" rel="wpinstagram-widget-7"><img src="http://distilleryimage1.s3.amazonaws.com/6faecb7c386511e1a87612313804ec91_6.jpg" alt="They&#39;re comming" width="290" height="290" /></a></li><li><a href="http://distilleryimage6.s3.amazonaws.com/610bad8c314011e1abb01231381b65e3_7.jpg" title="Eifgental" rel="wpinstagram-widget-7"><img src="http://distilleryimage6.s3.amazonaws.com/610bad8c314011e1abb01231381b65e3_6.jpg" alt="Eifgental" width="290" height="290" /></a></li><li><a href="http://distilleryimage2.s3.amazonaws.com/867b72da234611e19e4a12313813ffc0_7.jpg" title="Burning sky" rel="wpinstagram-widget-7"><img src="http://distilleryimage2.s3.amazonaws.com/867b72da234611e19e4a12313813ffc0_6.jpg" alt="Burning sky" width="290" height="290" /></a></li><li><a href="http://distilleryimage0.s3.amazonaws.com/7271df421e9411e180c9123138016265_7.jpg" title="A light in the darkness" rel="wpinstagram-widget-7"><img src="http://distilleryimage0.s3.amazonaws.com/7271df421e9411e180c9123138016265_6.jpg" alt="A light in the darkness" width="290" height="290" /></a></li><li><a href="http://distilleryimage0.s3.amazonaws.com/fbff8e881e8c11e19896123138142014_7.jpg" title="Burning hill" rel="wpinstagram-widget-7"><img src="http://distilleryimage0.s3.amazonaws.com/fbff8e881e8c11e19896123138142014_6.jpg" alt="Burning hill" width="290" height="290" /></a></li></ul><script>
+jQuery(document).ready(function($) {
+	$("#wpinstagram-widget-7 ul").cycle({fx: "fade", timeout: 8000});
+});
+</script>
+</div></div></div></div></div></div> </div></li><li class="block widget widget_tag_cloud" id="tag_cloud-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>Schlagwortgewitter</span></h4></div><div class="tagcloud"><a href='http://www.schwindtweb.de/?tag=abonnieren' class='tag-link-21' title='31 Themen' style='font-size: 18.083916083916pt;'>abonnieren</a>
+<a href='http://www.schwindtweb.de/?tag=audible' class='tag-link-308' title='4 Themen' style='font-size: 10.153846153846pt;'>Audible</a>
+<a href='http://www.schwindtweb.de/?tag=berliner-warteschleife' class='tag-link-105' title='12 Themen' style='font-size: 14.167832167832pt;'>Berliner Warteschleife</a>
+<a href='http://www.schwindtweb.de/?tag=bruce-springsteen' class='tag-link-71' title='3 Themen' style='font-size: 9.1748251748252pt;'>Bruce Springsteen</a>
+<a href='http://www.schwindtweb.de/?tag=chris' class='tag-link-129' title='2 Themen' style='font-size: 8pt;'>Chris</a>
+<a href='http://www.schwindtweb.de/?tag=daniluna' class='tag-link-106' title='10 Themen' style='font-size: 13.482517482517pt;'>Daniluna</a>
+<a href='http://www.schwindtweb.de/?tag=das-verlorene-symbol' class='tag-link-200' title='2 Themen' style='font-size: 8pt;'>Das verlorene Symbol</a>
+<a href='http://www.schwindtweb.de/?tag=der-gewundene-pfad' class='tag-link-35' title='37 Themen' style='font-size: 18.769230769231pt;'>Der gewundene Pfad</a>
+<a href='http://www.schwindtweb.de/?tag=dgp' class='tag-link-36' title='36 Themen' style='font-size: 18.671328671329pt;'>DgP</a>
+<a href='http://www.schwindtweb.de/?tag=die-wunder-jeder-zeit' class='tag-link-192' title='2 Themen' style='font-size: 8pt;'>Die Wunder jeder Zeit</a>
+<a href='http://www.schwindtweb.de/?tag=dinge-die-ins-auge-springen' class='tag-link-22' title='40 Themen' style='font-size: 19.062937062937pt;'>Dinge die ins Auge springen</a>
+<a href='http://www.schwindtweb.de/?tag=dubels-geistesblitz' class='tag-link-156' title='4 Themen' style='font-size: 10.153846153846pt;'>Dübels Geistesblitz</a>
+<a href='http://www.schwindtweb.de/?tag=eyegrishpod' class='tag-link-93' title='3 Themen' style='font-size: 9.1748251748252pt;'>EyeGrishPod</a>
+<a href='http://www.schwindtweb.de/?tag=eyepod' class='tag-link-10' title='80 Themen' style='font-size: 22pt;'>EyePod</a>
+<a href='http://www.schwindtweb.de/?tag=herbst' class='tag-link-133' title='2 Themen' style='font-size: 8pt;'>Herbst</a>
+<a href='http://www.schwindtweb.de/?tag=horbuch' class='tag-link-41' title='14 Themen' style='font-size: 14.853146853147pt;'>Hörbuch</a>
+<a href='http://www.schwindtweb.de/?tag=horspiel' class='tag-link-28' title='42 Themen' style='font-size: 19.258741258741pt;'>Hörspiel</a>
+<a href='http://www.schwindtweb.de/?tag=itunes' class='tag-link-24' title='43 Themen' style='font-size: 19.356643356643pt;'>iTunes</a>
+<a href='http://www.schwindtweb.de/?tag=lebenszeichen' class='tag-link-186' title='2 Themen' style='font-size: 8pt;'>Lebenszeichen</a>
+<a href='http://www.schwindtweb.de/?tag=leon' class='tag-link-130' title='2 Themen' style='font-size: 8pt;'>Leon</a>
+<a href='http://www.schwindtweb.de/?tag=lyrics' class='tag-link-279' title='4 Themen' style='font-size: 10.153846153846pt;'>Lyrics</a>
+<a href='http://www.schwindtweb.de/?tag=making-of' class='tag-link-321' title='4 Themen' style='font-size: 10.153846153846pt;'>Making of</a>
+<a href='http://www.schwindtweb.de/?tag=mba' class='tag-link-135' title='3 Themen' style='font-size: 9.1748251748252pt;'>MBA</a>
+<a href='http://www.schwindtweb.de/?tag=nachdenklich' class='tag-link-248' title='5 Themen' style='font-size: 10.937062937063pt;'>Nachdenklich</a>
+<a href='http://www.schwindtweb.de/?tag=nachdenkliches' class='tag-link-18' title='8 Themen' style='font-size: 12.601398601399pt;'>Nachdenkliches</a>
+<a href='http://www.schwindtweb.de/?tag=new-year' class='tag-link-162' title='2 Themen' style='font-size: 8pt;'>New Year</a>
+<a href='http://www.schwindtweb.de/?tag=ninaberlin' class='tag-link-107' title='5 Themen' style='font-size: 10.937062937063pt;'>NinaBerlin</a>
+<a href='http://www.schwindtweb.de/?tag=pbbq' class='tag-link-121' title='2 Themen' style='font-size: 8pt;'>PBBQ</a>
+<a href='http://www.schwindtweb.de/?tag=podcast' class='tag-link-20' title='63 Themen' style='font-size: 21.020979020979pt;'>Podcast</a>
+<a href='http://www.schwindtweb.de/?tag=podcast-de' class='tag-link-26' title='38 Themen' style='font-size: 18.867132867133pt;'>Podcast.de</a>
+<a href='http://www.schwindtweb.de/?tag=podster' class='tag-link-25' title='41 Themen' style='font-size: 19.160839160839pt;'>Podster</a>
+<a href='http://www.schwindtweb.de/?tag=promo' class='tag-link-34' title='2 Themen' style='font-size: 8pt;'>Promo</a>
+<a href='http://www.schwindtweb.de/?tag=rezension' class='tag-link-39' title='31 Themen' style='font-size: 18.083916083916pt;'>Rezension</a>
+<a href='http://www.schwindtweb.de/?tag=richard-morgan' class='tag-link-50' title='3 Themen' style='font-size: 9.1748251748252pt;'>Richard Morgan</a>
+<a href='http://www.schwindtweb.de/?tag=satire' class='tag-link-27' title='34 Themen' style='font-size: 18.377622377622pt;'>Satire</a>
+<a href='http://www.schwindtweb.de/?tag=simon-jager' class='tag-link-51' title='7 Themen' style='font-size: 12.111888111888pt;'>Simon Jäger</a>
+<a href='http://www.schwindtweb.de/?tag=spruche' class='tag-link-15' title='4 Themen' style='font-size: 10.153846153846pt;'>Sprüche</a>
+<a href='http://www.schwindtweb.de/?tag=talkhoch2' class='tag-link-29' title='30 Themen' style='font-size: 17.888111888112pt;'>TalkHoch2</a>
+<a href='http://www.schwindtweb.de/?tag=talk-hoch-zwei' class='tag-link-30' title='31 Themen' style='font-size: 18.083916083916pt;'>Talk Hoch Zwei</a>
+<a href='http://www.schwindtweb.de/?tag=teaser' class='tag-link-87' title='2 Themen' style='font-size: 8pt;'>Teaser</a>
+<a href='http://www.schwindtweb.de/?tag=them' class='tag-link-23' title='78 Themen' style='font-size: 21.902097902098pt;'>theM</a>
+<a href='http://www.schwindtweb.de/?tag=tiefenrausch' class='tag-link-219' title='4 Themen' style='font-size: 10.153846153846pt;'>Tiefenrausch</a>
+<a href='http://www.schwindtweb.de/?tag=umfrage' class='tag-link-171' title='3 Themen' style='font-size: 9.1748251748252pt;'>Umfrage</a>
+<a href='http://www.schwindtweb.de/?tag=weihnachten' class='tag-link-284' title='4 Themen' style='font-size: 10.153846153846pt;'>Weihnachten</a>
+<a href='http://www.schwindtweb.de/?tag=weisheiten' class='tag-link-16' title='2 Themen' style='font-size: 8pt;'>Weisheiten</a></div>
+</div></div></div></div></div></div> </div></li> </ul>
+</div>
+<!-- /2nd column -->
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+ 
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+<!-- footer widgets -->
+<ul id="footer-widgets" class="widgetcount-1">
+ <li class="block widget widget_text" id="text-6"><div class="the-content">			<div class="textwidget">Schwindtweb 8.1
+© by theM 1997 - 2012</div>
+		</div></li></ul>
+<div class="clear"></div>
+<!-- /footer widgets -->
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite Theme von  | powered by <?php if(is_home()) : ?><a href="http://emailmarketingpro.org/" title="Mass email marketing">Mass email marketing</a><?php endif; ?>     </p>
+     <p>
+
+     <!-- 48 queries. 2,336 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+<script type="text/javascript">
+<!--
+var getOptions = new Array();
+getOptions['showYear'] = 1;
+getOptions['showMonth'] = 1;
+getOptions['showWeek'] = 0;
+getOptions['showDay'] = 1;
+getOptions['showHour'] = 1;
+getOptions['showMinute'] = 1;
+getOptions['showSecond'] = 1;
+getOptions['stripZero'] = 1;
+var fergcorp_countdownTimer_js_language = new Array();
+fergcorp_countdownTimer_js_language['year'] = '%d Jahr,';
+fergcorp_countdownTimer_js_language['years'] = '%d Jahre,';
+fergcorp_countdownTimer_js_language['month'] = '%d Monat,';
+fergcorp_countdownTimer_js_language['months'] = '%d Monaten,';
+fergcorp_countdownTimer_js_language['week'] = '%d Woche,';
+fergcorp_countdownTimer_js_language['weeks'] = '%d Wochen,';
+fergcorp_countdownTimer_js_language['day'] = '%d Tag,';
+fergcorp_countdownTimer_js_language['days'] = '%d Tagen,';
+fergcorp_countdownTimer_js_language['hour'] = '%d Stunde,';
+fergcorp_countdownTimer_js_language['hours'] = '%d Stunden,';
+fergcorp_countdownTimer_js_language['minute'] = '%d Minute,';
+fergcorp_countdownTimer_js_language['minutes'] = '%d Minuten,';
+fergcorp_countdownTimer_js_language['second'] = '%d Sekunde,';
+fergcorp_countdownTimer_js_language['seconds'] = '%d Sekunden,';
+fergcorp_countdownTimer_js_language['ago'] = 'vor %s';
+fergcorp_countdownTimer_js_language['in'] = 'in %s';
+var fergcorp_countdownTimer_js_events = new Array();
+fergcorp_countdownTimer_js();
+//-->
+</script>
+<script type="text/javascript">var SHRSB_Settings = {"shr-publisher-1421":{"link":"http:\/\/www.schwindtweb.de\/?p=1421","shortener":"tinyurl","title":"53 Angriff der Plastikschalen","notes":"Eigentlich%20sind%20Partys%20ein%20erfreulicher%20Anlass.%20Au%C3%9Fer%20es%20geht%20darum%20kleine%20Plastiksch%C3%BCsselchen%20zu%20verkaufen%2C%20dann%20ger%C3%A4t%C2%A0%20man%28n%29%20schnell%20ins%20Schwitzen.%20Was%20ein%204%C2%A0%20Wochen%20altes%20Hackschnitzes%20dazu%20beizutragen%20hat%20lernen%20wir%20ebenso%20wie%20den%20Anteil%20von%20Neil%20Armstrong%20beim%20Siegeszug%20von%20kleinen%20Plasti","service":"7,5,88,74,201,39,2,191,78","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/share-german.png","bgimg_padding":"35px 0 0 20px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1","custom_link":{"after_4":{"li_class":"custom-comfeed","link":"http:\/\/www.schwindtweb.de\/?p=1421&feed=comments-rss2","tooltip":"Abonniere die Kommentare f\u00fcr diesen Beitrag","style":"background-image:url(http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/comfeed.png);"}}},"shr-publisher-1409":{"link":"http:\/\/www.schwindtweb.de\/?p=1409","shortener":"tinyurl","title":"Kleine Renovierungsarbeiten","notes":"Auch%20wenn%20es%20nicht%20zur%20Version%208.2%20reicht%20-%20scheinbar%20ist%20mir%208.1%20an%27s%20Herz%20gewachsen%20-%20habe%20ich%20doch%20die%20Wortpresse%20%22unter%20der%20Haube%22%20noch%20mal%20ein%20wenig%20mit%20n%C3%BCtzlichen%20Helferlein%20ausgestattet.%20So%20wirst%20z.B.%20Du%20mein%20geneigter%20oder%20gerade%20sitzender%20Betrachter%20vielleicht%20beim%20%22runterscrollen%22%20den%20flu","service":"7,5,88,74,201,39,2,191,78","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/share-german.png","bgimg_padding":"35px 0 0 20px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1","custom_link":{"after_4":{"li_class":"custom-comfeed","link":"http:\/\/www.schwindtweb.de\/?p=1409&feed=comments-rss2","tooltip":"Abonniere die Kommentare f\u00fcr diesen Beitrag","style":"background-image:url(http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/comfeed.png);"}}},"shr-publisher-1396":{"link":"http:\/\/www.schwindtweb.de\/?p=1396","shortener":"tinyurl","title":"Ein neuer Tag","notes":"%0D%0ASanft%20wie%20eine%20Feder%20liegt%20das%20wei%C3%9Fe%20Band%20des%20Morgennebels%20auf%20der%20Welt%0D%0AEs%20liegt%20im%20leichten%20Schlummer%20noch%20der%20Anbeginn%20der%20Tage%0D%0AEin%20Neuer%20Tag%2C%20eine%20neue%20Hoffnung%2C%20ein%20neues%20Leben%2C%20ein%20neues%20Feld%20wird%20bestellt%0D%0AKein%20Zweifel%20mehr%2C%20keine%20Zaudern%2C%20kein%20Schmerz%20und%20keine%20weitere%20offene%20Frage","service":"7,5,88,74,201,39,2,191,78","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/share-german.png","bgimg_padding":"35px 0 0 20px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1","custom_link":{"after_4":{"li_class":"custom-comfeed","link":"http:\/\/www.schwindtweb.de\/?p=1396&feed=comments-rss2","tooltip":"Abonniere die Kommentare f\u00fcr diesen Beitrag","style":"background-image:url(http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/comfeed.png);"}}},"shr-publisher-1385":{"link":"http:\/\/www.schwindtweb.de\/?p=1385","shortener":"tinyurl","title":"52 DgP Vergessen und Verloren","notes":"Nach%20der%20Ank%C3%BCndigung%20in%20der%20letzten%20Folge%20und%20dem%20Preview%20nun%20die%20sechste%20Folge%20des%20EyePod%20H%C3%B6rspiels.%20Wer%20trotz%20der%20R%C3%BCckschau%20trotzdem%20das%20Bed%C3%BCrfnis%20versp%C3%BCrt%2C%20sich%20in%20die%20Geschichte%20einzulesen%20dem%20sei%20die%20H%C3%B6rspiel%20Folgen%C3%BCbersicht%20ans%20Herz%20gelegt.%20Mein%20ganz%20herzlicher%20Dank%20geht%20an%20meine%20tollen","service":"7,5,88,74,201,39,2,191,78","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/share-german.png","bgimg_padding":"35px 0 0 20px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1","custom_link":{"after_4":{"li_class":"custom-comfeed","link":"http:\/\/www.schwindtweb.de\/?p=1385&feed=comments-rss2","tooltip":"Abonniere die Kommentare f\u00fcr diesen Beitrag","style":"background-image:url(http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/comfeed.png);"}}},"shr-publisher-1370":{"link":"http:\/\/www.schwindtweb.de\/?p=1370","shortener":"tinyurl","title":"Aufr\u00e4umen mit der Abrissbirne","notes":"Der%20Boss%20hat%20wieder%20zugeschlagen%20-%20dieses%20mal%20mit%20der%20Abrissbirne.%20Das%2017.%20Album%20von%20Bruce%20Springsteen%20ist%20vergleichbar%20mit%20einem%20guten%20Whisky%3A%20Je%20%C3%A4lter%20desto%20besser.%20Es%20tr%C3%A4gt%20zwar%20unverkennbar%20die%20Handschrift%20eines%20gro%C3%9Fartigen%20Musikers%20welcher%20einen%20Musikstil%20mitgepr%C3%A4gt%20hat%20ohne%20jedoch%20die%20Gege","service":"7,5,88,74,201,39,2,191,78","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/share-german.png","bgimg_padding":"35px 0 0 20px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1","custom_link":{"after_4":{"li_class":"custom-comfeed","link":"http:\/\/www.schwindtweb.de\/?p=1370&feed=comments-rss2","tooltip":"Abonniere die Kommentare f\u00fcr diesen Beitrag","style":"background-image:url(http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/comfeed.png);"}}},"shr-publisher-1355":{"link":"http:\/\/www.schwindtweb.de\/?p=1355","shortener":"tinyurl","title":"51 Bei Alltag Gefahr","notes":"Der%20Alltag%20ist%20voller%20Gefahren%20und%20Mysterien.%20Und%20so%20leidet%20man%20unter%20Waschmaschinen%20die%20Socken%20fressen%20oder%20Toaster%20welcher%20spontan%20Holzkohle%20erzeugt.%20Ach%20ja%2C%20ich%20br%C3%A4uchte%20auch%20drigend%20noch%20die%20Telefonnummer%20der%20Feuerwehr.%20Oder%20vielleicht%20doch%20die%20des%20Hochwasserkatastrophenschutzes%3F%21%3F%20Wer%20wei%C3%9F%20da","service":"7,5,88,74,201,39,2,191,78","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.schwindtweb.de\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/share-german.png","bgimg_padding":"35px 0 0 20px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1","custom_link":{"after_4":{"li_class":"custom-comfeed","link":"http:\/\/www.schwindtweb.de\/?p=1355&feed=comments-rss2","tooltip":"Abonniere die Kommentare f\u00fcr diesen Beitrag","style":"background-image:url(http:\/\/www.schwindtweb.de\/wp-content\/plugins\/sexybookmarks\/images\/comfeed.png);"}}}};</script><script>
+	jQuery(document).ready(function($) {
+		$("ul.wpinstagram").find("a").fancybox({
+			"transitionIn":			"elastic",
+			"transitionOut":		"elastic",
+			"easingIn":				"easeOutBack",
+			"easingOut":			"easeInBack",
+			"titlePosition":		"over",
+			"padding":				0,
+			"hideOnContentClick":	"true"
+		});
+	});
+</script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/instapress/instapress.js?ver=1.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.schwindtweb.de\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/www.schwindtweb.de\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/www.schwindtweb.de\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"stars","image_ext":"gif","max":"5","show_loading":"1","show_fading":"1","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_over."+ratingsL10n.image_ext;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.schwindtweb.de/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.63'></script>
+</body>
+</html>
+
+
+
+ 

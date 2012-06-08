@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.1//EN' 'http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+
+	<head>
+<!-- Current View: 		/home/sites/beatsuite/app/Moko/../../app/View/Site/404.php -->
+<!-- Language Code: 		en -->
+<!-- Language: 			English -->
+<!-- Public Directory: 		Site -->
+
+
+		<title>Beatsuite.com</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!-- iso-8859-1 -->
+		<meta name="author" content="Riff Raff" />
+		<meta name="publisher" content="Riff Raff" />
+		<meta name="copyright" content="Moko Framework 2012" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="1 week" />
+		<meta http-equiv="Expires" content="Thu, 16 Mar 2000 11:00:00 GMT" />
+		<meta http-equiv="pragma" content="" />
+		<link href='http://www.beatsuite.com/site/css/reset.css?1331905874' media='screen' rel='stylesheet' type='text/css' />
+		<link href='http://www.beatsuite.com/site/css/layout.css?1332860313' media='screen' rel='stylesheet' type='text/css' />
+		<link href='http://www.beatsuite.com/site/css/content.css?1335427086' media='screen' rel='stylesheet' type='text/css' />
+		<link href='http://www.beatsuite.com/site/css/navigation.css?1331905874' media='screen' rel='stylesheet' type='text/css' />
+		<link href='http://www.beatsuite.com/site/css/forms.css?1331905873' media='screen' rel='stylesheet' type='text/css' />
+		<link href='http://www.beatsuite.com/site/css/jquery.fancybox-1.3.4.css?1320251870' media='screen' rel='stylesheet' type='text/css' />
+		<!--[if lte IE 7]>
+			<link href='http://www.beatsuite.com/site/css/fix_ie7.css?1331905872' media='screen' rel='stylesheet' type='text/css' />
+		<![endif]-->
+		
+		<!--[if lt IE 7]>
+			<link href='http://www.beatsuite.com/site/css/fix_ie6.css?1331905873' media='screen' rel='stylesheet' type='text/css' />
+		<![endif]-->
+		<link href='http://www.beatsuite.com/site/css/fix_print.css?1331905872' media='print' rel='stylesheet' type='text/css' />
+		<script src='http://www.beatsuite.com/js/constants.js?1339034885' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.js?1333441730' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.easing.js?1298381456' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.dimensions.js?1298381456' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.hoverintent.js?1298381456' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.hslides.js?1298381456' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.cookie.js?1298381455' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.exists.js?1298381456' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/application.js?1333553153' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/beatsuite.js?1331905807' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/swfobject.js?1302171655' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/mokobox.js?1298381457' type="text/javascript"> </script>
+		<script src='http://www.beatsuite.com/site/js/jquery.fancybox-1.3.4.js?1320251879' type="text/javascript"> </script>
+		<!--[if lt IE 7]>
+			<script type="text/javascript">var is_ie6 = true;</script>
+		<![endif]-->
+		<!--[if lte IE 7]>
+			<script type="text/javascript">var is_ie7 = true;</script>
+		<![endif]-->
+		
+	</head>
+
+	<body class="row row">
+
+
+	<div id="header">
+		<strong id="logo"><a href="/" title="Go to www.beatsuite.com" rel="nofollow"><img src="/site/img/header/logo.png" alt="Beatsuite.com Production Music Library" /></a></strong>
+		<div id="nav-main">
+			<ul>
+				<li class="home"><a href="/" title="Return to the homepage for the Beatsuite"><span>Home</span></a></li>
+				<li class="library"><a href="/music" title="View our Royalty Free Production Music Library" ><span>Music Library</span></a></li> 
+								<li class="audio-production"><a href="/audio-production" title="Commision bespoke royalty free audio production" ><span>Audio Production</span></a></li>
+				<li class="news"><a href="/news" title="View Beastsuite news &amp; info" ><span>News &amp; Info</span></a></li>
+				<li class="help"><a href="/help" title="Get help or support with Beatsuite royalty free music" ><span>Help &amp; Support</span></a></li>
+				<li class="contact"><a href="/contact/contact-us" title="Contact the Beatsuite"><span>Contact</span></a></li>  
+			</ul>
+		</div>
+	</div>
+
+<!-- END LAYOUT (ID: header) [] -->
+<!-- START LAYOUT (ID: Toolbar) [User actions on every page] -->
+		<div id="toolbar" class="spr-02 clearfix">
+		<form id="currency-preference-form" class=" frm-currency" method="post" action="/forms/currency-preference">
+	<fieldset>
+		<legend>Select Currency</legend>
+		<select id="currency-preference-select" name="currency_id" onchange="submit(this);" title="Select Currency">
+				
+			<option value="1">$ USD</option>
+						<option value="5">AU$ AUD</option>
+						<option value="6">C$ CAD</option>
+						<option value="4">&euro; EUR</option>
+						<option value="2">&pound; GBP</option>
+						<option value="3">&yen; YEN</option>
+					</select>	
+		<input type="hidden" name="forward_to" value="podcast/tutorialpodcast.xml" />
+		<button id="currency-submit" type="submit" class="btn btn-toolbar"><span>Set Currency</span><i></i></button>
+	</fieldset>
+</form>	
+		<form id="frm-srch" method="get" action="/search/music" class="left frm-srch clearfix">
+			<fieldset class="floatL">
+			<input type="hidden" name="new" value="true" />
+				<legend class="hide">Search for Royalty Free Music</legend>
+				<label for="srch" class="hide">Search:</label>
+				<div class="textfield">
+					<input type="text" id="srch" name="q" title="Royalty Free Music Search" value="" />
+					<button type="submit" class="btn btn-search" id="frm-srch-submit" title="Search for Royalty free Music">
+						<span>Search</span>
+					</button>
+				</div>
+				<a href="/search/advanced" type="submit" class="btn btn-toolbar" title="Do an advanced search for Royalty free Music" rel="nofollow">
+					<span>Advanced Search</span><i></i>
+				</a>
+									
+			</fieldset>
+		</form>
+
+	<!-- END The Search form (Always present) -->		
+
+
+
+		<form method="post" action="https://www.beatsuite.com/account/login" id="frm-toolbar-login" class="frm-login right">
+			<input type="hidden" name="return" value="/podcast/tutorialpodcast.xml" />
+			<fieldset class="floatL">
+				<legend class="hide">Login to the Beatsuite</legend>
+				<div class="textfield first">
+					<input type="text" name="username" value="username..." title="Your username" onfocus="clearText(this);" onblur="clearText(this);" /><i></i>
+				</div>
+				<div class="textfield">
+					<input type="password" name="password" value="pass" id="login_pass" onfocus="clearText(this);" onblur="clearText(this);" title="Your Password" /><i></i>
+				</div>				
+				<button type="submit" id="frm-toolbar-login-submit" class="btn btn-acc" title="Login To Buy Royalty Free Music">
+					<span>Login</span><i></i>
+				</button>
+				<a href="/account/register" title="Register A Beatsuite Account" class="btn btn-acc" rel="nofollow"><span>Register</span><i></i></a>
+			</fieldset>
+		</form>
+		
+		
+	</div>
+
+<!-- END LAYOUT (ID: toolbar) [] --><!-- START LAYOUT (ID: Template) [All Content always sits inside the template] -->
+		
+	<div id="template" class="one-clm clearfix">
+
+		<div class="message error-msg clearfix"  id="error-notification">
+	<div class="top">
+		<div class="tr"></div>
+		<h6>An Error Occurred</h6>
+		<a href="#" title="Close this message" onclick="collapse('#error-notification'); return false;">close</a>
+	</div>
+	<div class="msg-content clearfix">
+<p>The requested category could not be found</p>	</div>
+	<div class="bottom">
+		<div class="br"></div>
+	</div>
+</div>	
+		<div class="box-white-curved clearfix">
+			<div class="top"><div class="tr"></div></div>
+				<div class="content clearfix">
+			
+					<h1>Page Not Found</h1>
+					
+					<p>
+						We're sorry, the page you requested could not be found.
+					</p>							
+
+		<!-- END The Callback form -->
+		
+				</div>
+				<div class="bottom"><div class="br"></div>
+			</div>
+		</div>	
+
+	
+	</div>
+		
+<!-- END LAYOUT (ID: Template) [All Content Must have ended by here] -->
+<div id="overlay"></div>
+<div id="new-overlay" style="visibility: hidden"></div>
+
+<!-- START LAYOUT (ID: Footer) [Copyright + Global Nav] -->
+	<div class="container clearfix"><div class="featured_music">
+      <h3>Useful Links </h3>
+      <ul class="arw-dbl">
+        <li><a href="/music" title="Latest Royalty Free Music">Royalty Free Music </a></li>
+        <li><a href="/core-pages/blanket-licenses/219" title="Enquire about a Blanket License">Blanket Licensing </a></li>
+        <li><a href="/audio-production" title="Bespoke Music Production">Bespoke Audio Production </a></li>
+        <li><a href="/core-pages/recording-studio/260" title="Latest Production Music">Recording Studio</a></li>
+      </ul>
+    </div>
+    
+<div class="featured_music">
+      <h3>Most Popular Categories </h3>
+      <ul class="arw-dbl">
+        <li><a href="/music/category/business-and-corporate/181" title="Listen to Business and Corporate Music">Business And Corporate </a></li>
+        <li><a href="/music/category/chill-out/50" title="Listen to Chill Out Music">Chill Out </a></li>
+        <li><a href="/music/category/action-and-energy/179" title="Listen to Action and Energy Music">Action And Energy </a></li>
+        <li><a href="/music/category/feel-good-vibes/234" title="Listen to Feel Good Vibes Music">Feel Good Vibes</a></li>
+      </ul>
+    </div>
+    
+    <div class="featured_music">
+      <h3>Useful Articles </h3>
+      <ul class="arw-dbl">
+        <li><a href="/articles/guide-to-recording-voice" title="Find out how">How To Record Voice</a></li>
+        <li><a href="/articles/guide-to-producing-high-quality-audio-podcasts" title="Find out how">How To Produce Podcasts</a></li>
+        <li><a href="/articles/writing-for-production-music-libraries" title="Find out how">How To Become A Composer </a></li>
+        <li><a href="/articles/a-guide-to-royalty-free-music" title="Find out how">A Guide To Royalty Free Music</a></li>
+      </ul>
+    </div>
+    
+    <div class="featured_music">
+      <h3>Useful Guides </h3>
+      <ul class="arw-dbl">
+        <li><a href="/help/the-project-manager" title="Find out how">Using The Project Manager</a></li>
+        <li><a href="/help/how-to-podcast-a-music-category" title="Find out how">Downloading Entire Categories</a></li>
+        <li><a href="/help/how-to-filter-music-tracks" title="Find out how">Filtering Music Tracks</a></li>
+        <li><a href="/help/adding-favourite-categories" title="Find out how">Add A Favourite Category</a></li>
+      </ul>
+    </div>
+    
+    <div class="featured_music">
+      <h3>Keep In Touch</h3>
+      <ul class="arw-dbl">
+        <li><a href="http://www.facebook.com/profile.php?id=100001226010090&ref=ts#!/profile.php?id=100001226010090&sk=wall" title="Become Friends on Facebook!">Join Us On Facebook</a></li>
+        <li><a href="http://twitter.com/beatsuitedotcom" title="Follow Our Tweets!">Follow Us On Twitter</a></li>
+        <li><a href="/core-pages/new-music-podcast/251" title="Subscribe">The New Music Podcast</a></li>
+        <li><a href="/contact/contact-us" title="Call Us!">Give Us A Call</a></li>
+      </ul>
+    </div></div>
+	<div id="footer" class="spr-02 clearfix">
+	
+		<ul class="foot-social">
+			<li class="fb"><a href="http://www.facebook.com/pages/The-Beat-Suite-Ltd/133103700046533" title="Add us on Facebook." target="_blank">Facebook</a></li>		
+			<li class="tw"><a href="https://twitter.com/#!/beatsuitedotcom" title="Follow us on Twitter." target="_blank">Twitter</a></li>		
+			<li  class="yt"><a href="http://www.youtube.com/beatsuitedotcom" title="Watch us on Youtube." target="_blank">Youtube</a></li>
+			<li>Follow us now</li>	
+		</ul>
+		
+		<img src="/site/img/spacer.gif" alt="Buy Music using Worldpay, Paypal, Mastercard, Maestro, JCD, Sola, Visa, Visa Debit, American Express, Direct Debit" id="cc" 	/>
+				
+		<ul class="foot-terms">
+			<li class="first">
+				<span>
+					&copy; Copyright 
+					<a href="/" title="Beatsuite: Royalty Free Production Music Library"  rel="nofollow">Beatsuite.com</a> 
+					2012 - All Rights Reserved
+				</span>
+			</li> 
+			<li>
+				<span>
+					<a href="/core-pages/terms-and-conditions/11" title="Beatsuite terms and conditions" rel="nofollow">Terms of Use</a>
+				</span>
+			</li>
+			<li class="last">
+				<span>
+					<a href="/core-pages/privacy-policy/12" title="Beatsuite Privacy Policy" rel="nofollow">Privacy Policy</a>
+				</span>
+			</li>
+		</ul>
+		
+		<p class="riffraff"><a href="http://riffraff.tv/web-design-and-build-newcastle" title="Visit http://riffraff.tv/web-design-and-build-newcastle">Web Design + Build</a> by <a href="http://www.riffraff.tv" title="Visit http://www.riffraff.tv">Riff Raff</a></p>
+	</div>
+	<img src="/site/img/footer/zbeatsuite.jpg" alt="Royalty Free Music from Beatsuite.com" class="zBeatsuite" />
+<script>var ie = false, ie7 = false, ie6 = false;</script>
+<!--[if IE]><script>ie = true</script><![endif]-->
+<!--[if lte IE 7]><script>ie7 = true</script><![endif]-->
+<!--[if lt IE 7]><script>ie6 = true;</script><![endif]-->	
+<script type="text/javascript">
+	$(document).ready( function()	{
+		if (!$.cookie('js-enabled'))	{
+			$.cookie('js-enabled', '1', {expires: 14, path:'/'});
+		}
+	});
+</script>
+
+<span class="spr-02"></span>
+<span class="spr-07"></span>
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-940062-1");
+	pageTracker._trackPageview();
+</script>
+
+	</body>
+</html>

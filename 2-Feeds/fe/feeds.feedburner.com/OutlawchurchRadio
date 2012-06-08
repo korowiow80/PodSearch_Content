@@ -1,0 +1,44 @@
+<!--
+	top.location="http://fileinxt.com/?dn=www.outlawchurch.com&fp=vl60WS%2F1Qbz2X1fhf4IMasIHCGLFq81mxmk%2BcuSF4VdXskfd2z90eSziz9Bk5%2FdYlppChESn2UXhQgNOoWBSMw%3D%3D&prvtof=S%2B5xfWCVvDsj0wwsq%2FPZqjkHbLPqOuEnB0Q9tiBpmV8%3D&poru=QsgDUwqjnrB0p263rw9fzENQseNdFh5cKhYo%2F057LYmG9fJtbjpT0NOMrRffXmmXcb6KefVmCEOilWhtYoHVtrpLlR0ExgYQVLBIGHIjVww%3D&cifr=1&flrdr=yes&nxte=xml";
+	/*
+-->
+<script type="text/javascript">
+	<!--
+	dimensionUpdated = 0;
+	function applyFrameKiller()
+	{
+		if(window.top != self)
+		{
+			cHeight = 0;
+			if( typeof( window.innerHeight ) != 'undefined' ) {
+			//Non-IE
+			cHeight = window.innerHeight;
+			dimensionUpdated = 1;
+			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )  ) {
+			//IE 6+ in 'standards compliant mode'
+			cHeight = document.documentElement.clientHeight;
+			dimensionUpdated = 1;
+			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+			//IE 4 compatible
+			cHeight = document.body.clientHeight;
+			dimensionUpdated = 1;
+			}
+			if( cHeight <= 250 && dimensionUpdated == 1)
+			{
+				window.top.location = "http://fileinxt.com/?dn=www.outlawchurch.com&fp=vl60WS%2F1Qbz2X1fhf4IMasIHCGLFq81mxmk%2BcuSF4VdXskfd2z90eSziz9Bk5%2FdYlppChESn2UXhQgNOoWBSMw%3D%3D&prvtof=2xuqDsjQHCI68n%2F304BUZUhQi4bhZVP2T8Rexq7FyHE%3D&poru=9llmJQ12so8WHdLa%2BP3NzH%2Bo%2B96ZtSqpdwHSWoi0MnlA6AJ6W4PuPGrnTyMlIXg76K5y3kGL9hmTq9eqyJt0o6vdNDr%2BLvZ5MQ%2F%2FLM%2B8poA%3D&cifr=1&flrdr=yes&nxte=xml";
+			}
+		}
+	}
+
+	applyFrameKiller();
+	// -->
+</script><frameset rows="100%,*" frameborder="no" border="0" framespacing="0">
+	<frame src="http://fileinxt.com/?dn=www.outlawchurch.com&fp=vl60WS%2F1Qbz2X1fhf4IMasIHCGLFq81mxmk%2BcuSF4VdXskfd2z90eSziz9Bk5%2FdYlppChESn2UXhQgNOoWBSMw%3D%3D&prvtof=%2Bfp%2BwEy62wPtUCFG0rZT5UVC9cOKUTFeooAQyJ7vT9o%3D&poru=Yn3L6KCwPpLmbHXDMYJEOaEZw%2FDIQ3t2TnwzeYDXNUt%2B8J1LWDt4LJnTG0ep5AVtyD5%2BaLFSYoosXFNd8vQtWELD0iFJJQVAuI9dnvPzoD4%3D&flrdr=yes&nxte=xml">
+</frameset>
+<noframes>
+	<body bgcolor="#ffffff" text="#000000">
+	<a href="http://fileinxt.com/?dn=www.outlawchurch.com&fp=vl60WS%2F1Qbz2X1fhf4IMasIHCGLFq81mxmk%2BcuSF4VdXskfd2z90eSziz9Bk5%2FdYlppChESn2UXhQgNOoWBSMw%3D%3D&prvtof=DQoUEzbvbEguQydWu7a8xu0ix4vU4Be0ohKF1GlRlqA%3D&poru=Lo9IaZVN6tQAL%2Ff8Qafa%2BSghlwG7eQyLWvmEsVKCyhwIyw5HVsVVZJV2LrIvCSMbcO4Z8enlKG7gVnPcF%2BLMhzdnvIRxBQcNZixjlPZMKXw%3D&flrdr=yes&nxte=xml">Click here to proceed</a>.
+	</body>
+</noframes><!--
+*/
+-->

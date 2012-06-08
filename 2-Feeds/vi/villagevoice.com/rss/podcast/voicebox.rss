@@ -1,0 +1,1353 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd">
+<html>
+<head>
+    <meta name='google-site-verification' content='o_D5zLzCQ84QTKtfR8P0gSeWLtxdTKuap5FkaZE83Ac' />
+<meta property="og:image" content="http://media.villagevoice.com/7919077.0.jpg"/>
+<meta property="og:image" content="http://www.villagevoice.com/img/citylogo-lg.png"/>
+  <title>New York News, Events, Restaurants, Music</title>
+  <meta name="description" content="Village Voice is the definitive source of information for news, music, movies, restaurants, reviews, and events in New York." />
+  <meta name="keywords" content="" />
+    <SCRIPT LANGUAGE="JavaScript">
+        <!--
+        //orig configuration
+        OAS_url = 'http://oascentral.villagevoice.com/';
+        OAS_listpos = 'TopLeft,TopRight,Middle,Middle3';
+        OAS_sitepage = 'www.villagevoice.com/home';
+        OAS_query = 'XE&Category=Home&Subcategory=Home&XE';
+        OAS_target = '_top';
+        //end of configuration
+        //-->
+    </SCRIPT>
+
+    <!-- for dev only, remove when rollup is corrected -->
+
+    <link rel='stylesheet' href='http://assets.villagevoice.com/load/c/default-31863.css' />
+<link rel='stylesheet' href='http://assets.villagevoice.com/load/c/index-index-31863.css' />
+    <!-- p/af/v/e/LoadJS -->
+<script language="javascript" src="http://assets.villagevoice.com/load/j/default-31863.js" type="text/javascript"></script>
+<script language="javascript" src="http://assets.villagevoice.com/load/j/index-index-31863.js" type="text/javascript"></script>
+<!-- End p/af/v/e/LoadJS -->
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-395255-23']);
+  _gaq.push(['_setDomainName', 'villagevoice.com']);
+  _gaq.push(['_setCustomVar', 4, 'OASCategories', 'Home|Home|', 1]);
+  _gaq.push(['_setSiteSpeedSampleRate', 5]);
+  _gaq.push(['_trackPageview']);
+
+  _gaq.push(['b._setAccount','UA-28661610-9']);_gaq.push(['b._trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+
+    <style>
+     .outerBody { overflow: hidden; }
+     .innerBody { overflow-x: auto; }
+    </style>
+    
+    <script type='text/javascript'>
+
+        $(document).ready(function(){
+            $toolbar_height = $('.toolbarStripe').height();
+            $adWrapper = $('<div id="adWrapper"/>');
+            var reQS = new RegExp( "[?&]Category=([^&$]*)", "i" );
+            var offset = OAS_query.search( reQS );
+            var category = ( offset >= 0 ) ? RegExp.$1 : null;
+            if (category != null) {
+                $.post(
+                    '/ads/reskins/' + category + '/',
+                    {},
+                    function(response){
+                        $adWrapper.html($("div#adWrapperLeft, div#adWrapperRight", $(response)));
+                        $('.pagecontainer').prepend($adWrapper);
+                    }
+                );
+            }
+
+            $(window).scroll(function(){
+                updateAdWrapperPosition()
+            })
+            updateAdWrapperPosition()
+        });
+
+        function updateAdWrapperPosition(){
+            $y = $(window).scrollTop();
+            if($y > $toolbar_height){
+                $adWrapper.addClass('adWrapperFixed');
+            } else {
+                $adWrapper.removeClass('adWrapperFixed');
+            }
+        }
+    </script>
+    
+</head>
+<body><!--googleoff: all--> 
+<div class='outerBody'>
+<div class='pagecontainer'>
+    <div class='vvmlb-split'>
+        <div class='splitbanner-l'>
+            <!-- NOGSA -->
+<div class="Ads" id="TopLeft">
+    <script type="text/javascript">
+        <!--
+        OAS_AD('TopLeft');
+        //-->
+    </script>
+</div>
+<!-- /NOGSA -->        </div>
+        <div class='logo'>
+                        <h1><a href="/"><img src='http://assets.villagevoice.com/img/citylogo-lg.png' alt="New York News" /></a></h1>
+                        <div class='webSubTitle'></div>
+        </div>
+        <div class='splitbanner-r'>
+            <!-- NOGSA -->
+<div class="Ads" id="TopRight">
+    <script type="text/javascript">
+        <!--
+        OAS_AD('TopRight');
+        //-->
+    </script>
+</div>
+<!-- /NOGSA -->        </div>
+
+    </div>
+
+    <div class='sitenav'>
+        <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'PT+Sans+Narrow:700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+  
+</script>
+
+ 
+ <div class="newNavBar" id="newNavBar">
+ 
+  <div class="newNav">
+    <form action="http://www.villagevoice.com/search/index/" id="navSearch" onsubmit="resetUrlContext();navSearchSubmit(event);" method="get" accept-charset="utf-8">               
+    <input name="keyword" type="text" autocomplete="off" class="text" id="searchInput" value="Search" />    <input type="submit" value="" class="submit"/>        <div class="filterSearch">
+        <input type="hidden" id="filterSearchVal" name="type" value="all" />    
+            <ul>
+                <li id="search-all" class="active">Entire Site</li>
+                <li id="search-articles">Articles & Blogs</li>
+                <li id="search-restaurants">Restaurants</li>
+                <li id="search-locations">Places</li>
+                <li id="search-events">Events</li>
+                <li id="search-music">Music</li>
+                <li id="search-images">Images</li>
+                <li id="search-ads" class="moreSearch">Ads</li>
+                <li id="search-bars" class="moreSearch">Bars</li>
+                <li id="search-bestof" class="moreSearch">Best Of</li>
+                <li id="search-movies" class="moreSearch">Movies</li>
+            </ul>
+        </div>
+   </form><a id='tn1' href='/news/' tabindex='1' data-id='news' alt=''><img src='/img/newNav-news.png' alt='NEWS'/></a><a id='tn2' href='/calendar/' tabindex='2' data-id='calendar' alt=''><img src='/img/newNav-calendar.png' alt='CALENDAR'/></a><a id='tn3' href='/music/' tabindex='3' data-id='music' alt=''><img src='/img/newNav-music.png' alt='MUSIC'/></a><a id='tn4' href='/restaurants/' tabindex='4' data-id='restaurants' alt=''><img src='/img/newNav-restaurants.png' alt='RESTAURANTS'/></a><a id='tn5' href='/arts/' tabindex='5' data-id='arts' alt=''><img src='/img/newNav-arts.png' alt='ARTS'/></a><a id='tn6' href='/movies/' tabindex='6' data-id='film' alt=''><img src='/img/newNav-film.png' alt='FILM'/></a><a id='tn7' href='/bestof/' tabindex='7' data-id='bestof' alt=''><img src='/img/newNav-bestof.png' alt='BEST OF'/></a><a id='tn8' href='/promotions/' tabindex='8' data-id='promotions' alt=''><img src='/img/newNav-promotions.png' alt='PROMOTIONS'/></a><a id='tn9' href='http://villagevoice.backpage.com' tabindex='9' data-id='classifieds' alt=''><img src='/img/newNav-classifieds.png' alt='CLASSIFIEDS'/></a>  </div>
+  
+ 
+ <div class="newSubNav" id="nsnews">
+<a href="/news/" target="_self">News Home</a><a href="http://blogs.villagevoice.com/runninscared/" target="_self">News Blog</a><a href="http://www.villagevoice.com/columns/la-dolce-musto-302317/" target="_self">Michael Musto</a><a href="http://www.villagevoice.com/authors/nat-hentoff/" target="_self">Nat Hentoff</a><a href="http://www.villagevoice.com/columns/ask-a-mexican-302459/" target="_self">Ask a Mexican</a><a href="/advice/savage-love-411/" target="_self">Dan Savage</a><a href="/search/archive_search/" target="_self">Archives Search</a><a href="/samples/readers/?source_id=8|50|344" target="_self">Weekly Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nscalendar">
+<a href="/calendar/" target="_self">Calendar Home</a><a href="/events/search/" target="_self">Top Picks</a><a href="/feedback/SubmitAnEvent/" target="_self">Submit an Event</a><a href="/samples/readers/?source_id=8|50|345" target="_self">Events Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="/adIndex/category/entertainment-77/" target="_self">Entertainment Ads</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nsmusic">
+<a href="/music/" target="_self">Music Home</a><a href="http://blogs.villagevoice.com/music/" target="_self">Music Blog</a><a href="/concerts/" target="_self">Concert Calendar</a><a href="/directory/clubs/" target="_self">Bars and Clubs</a><a href="/feedback/SubmitAnEvent/" target="_self">Submit an Event</a><a href="/samples/readers/?source_id=8|50|346" target="_self">Music Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="http://microapp.villagevoice.com/4knots/" target="">4Knots</a><a href="/pazznjop/" target="_self">Pazz & Jop</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nsrestaurants">
+<a href="/restaurants/" target="_self">Restaurants Home</a><a href="http://blogs.villagevoice.com/forkintheroad/" target="_self">Food Blog</a><a href="/restaurants/search/" target="_self">Find a Restaurant</a><a href="http://www.voiceplaces.com/restaurants/menus/market:new-york/" target="_self">Menus</a><a href="http://happyhours.villagevoice.com/nyc/find/places" target="_self">Happy Hours</a><a href="http://coupons.villagevoice.com/categories/25-restaurants/offers" target="_self">Deals</a><a href="http://choiceeats.villagevoice.com/" target="_self">Choice Eats</a><a href="/samples/readers/?source_id=8|50|347" target="_self">Dining Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="/adIndex/subcategory/restaurant-ads-416/" target="_self">Restaurant Ads</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nsarts">
+<a href="/arts/" target="_self">Arts Home</a><a href="/theater/" target="_self">Theater</a><a href="/samples/readers/?source_id=8|50|348" target="_self">Arts Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="/adIndex/category/entertainment-77/" target="_self">Entertainment Ads</a><a href="http://obies.villagevoice.com/2012/" target="">Obie Awards</a><a href="/books/" target="">Books</a><a href="/dance/" target="">Dance</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nsfilm">
+<a href="/movies/" target="_self">Film Home</a><a href="/movies/theaters/" target="_self">Showtimes</a><a href="/filmpoll/" target="_self">Film Poll 2011</a><a href="http://blogs.villagevoice.com/runninscared/sundance/" target="_self">Film Festivals</a><a href="/samples/readers/?source_id=8|50|349" target="_self">Film Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="/promotions/freestuff/" target="_self">Free Stuff</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nsbestof">
+<a href="/bestof/" target="_self">Best Of Home</a><a href="/bestOf/index/2011/" target="_self">2011</a><a href="/bestOf/index/2010/" target="_self">2010</a><a href="/bestOf/index/2009/" target="_self">2009</a><a href="/bestOf/index/2008/" target="_self">2008</a><a href="/samples/readers/?source_id=8|50|350" target="_self">Best Of Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="/adIndex/subcategory/best-of-new-york-596/" target="_self">Best Of Ads</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nspromotions">
+<a href="/promotions/" target="_self">Promotions Home</a><a href="/promotions/events" target="_self">Promotional Events</a><a href="/promotions/streetteams/" target="_self">Street Team</a><a href="/promotions/freestuff/" target="_self">Free Stuff</a><a href="/samples/readers/?source_id=8|50|351" target="_self">Promotions Newsletter</a><a href="/promotions/mobileApps/" target="_self">Get Mobile</a><a href="http://coupons.villagevoice.com/" target="_self">Deals</a><a href="http://microapp.villagevoice.com/webawards/2011/" target="">Web Awards</a><a href="http://microapp.villagevoice.com/brooklyn-pour/" target="">Brooklyn Pour</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ 
+ <div class="newSubNav" id="nsclassifieds">
+<a href="http://www.villagevoice.com/feedback/EmailAnEmployee?department=classified" target="_blank">Post an Ad</a><a href="http://www.villagevoice.com/microsites/career-fair/" target="_self">Virtual Career Fair</a><a href="http://villagevoice.backpage.com/realestate/" target="_self">Real Estate</a><a href="/adIndex/" target="_self">Advertiser Index</a><a href="http://coupons.villagevoice.com/" target="_self">Deals</a><a href="/samples/readers/?source_id=8|50|352" target="">Deals Newsletter</a><a href="/afterdark/" target="">After Dark</a><a href="http://adult.villagevoice.com" target="">Little Sexy Black Book</a><div class="socialButtons">
+    <a href="/follow/">
+     <img src="/img/icon-16-facebook.png" alt="Facebook" title="Facebook"/>
+     <img src="/img/icon-16-twitter.png" alt="Twitter" title="Twitter"/>
+     <img src="/img/icon-16-foursquare.png" alt="Foursquare" title="Foursquare"/>
+    </a>
+    </div>
+   <div class="subContent"></div>
+   <div class="sde"></div>
+  </div>
+ </div>
+ 
+<script type='text/javascript'>
+ //<![CDATA[
+   var navLoaded = [];
+   var navLoading = [];
+//   $(document).ready(function(){
+       $('.newNav a').mouseover(function() {
+           var navid = $(this).attr('data-id');
+           if(navid)
+           {
+               $(".newSubNav").hide();
+               $('.newNav a').removeClass("opened");
+               $('#ns' + navid).css('display', 'block');
+               $(this).addClass("opened");
+               if (navLoaded[navid] == undefined) {
+                   navLoaded[navid] = false;
+               }
+               if (navLoading[navid] == undefined) {
+                   navLoading[navid] = false;
+               }
+               if (!navLoaded[navid] && !navLoading[navid]) {
+                   navLoading[navid] = true;
+                   $.ajax({
+                       url:'/navigation/subNavAjax/section:'+navid+'/',
+                       success: function(data){
+                           navLoading[navid] = false;
+                           navLoaded[navid] = true;
+                           $('#ns'+navid+' .subContent').html(data);
+
+                           $('a','#ns'+navid+' .subContent').each(function(){
+                               if(/=/.test(this.href)){
+                                 this.href += '&ref=navigation';  
+                               } else {
+                                 this.href += '?ref=navigation';
+                               }
+                           })
+                       
+                           
+                       },
+                       error: function(){
+                           navLoading[navid] = false;
+                           $('#ns'+navid+' .subContent').html('Problem loading data, please try again.');
+                       }
+                   });
+               }
+           }
+      });
+      
+      $('div.newNavBar').mouseleave(function() {
+          $(".newSubNav").hide();
+          $('.newNav a').removeClass("opened");
+      });
+      
+  
+   $('a','#newNavBar').each(function(){
+       if(/=/.test(this.href)){
+         this.href += '&ref=navigation';  
+       } else {
+         this.href += '?ref=navigation';
+       }
+   })
+
+//   });
+ //]]>
+</script>
+
+<script type='text/javascript'> 
+//ipad, ipod, and iphone fix because hover don't exist in a touchscreen world
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+ var menuItems=10;
+ for(fixId=1;fixId<=menuItems;fixId++){
+    document.getElementById("tn"+fixId).href="#"; 
+ }
+}  
+</script> 
+
+ <!-- end newNavBar -->
+    </div>
+
+    <!-- NOGSA -->
+<div class="Ads" id="Middle3">
+    <script type="text/javascript">
+        <!--
+        OAS_AD('Middle3');
+        //-->
+    </script>
+</div>
+<!-- /NOGSA -->
+    <div class='Content'>
+        <div class='innerBody'>
+         <div class="natHome " ><div class="widget trackme" name="nhFeatured"><!-- nhFeaturedStories -->
+<div class="nhFeatured">
+    <ul>
+        <li>
+            <a href="http://www.villagevoice.com/2012-06-06/music/dead-sara-band/" class="nhHed">
+            <div class="theHead">Dead Sara is Weathering the Storm</div>
+            <img src="http://media.villagevoice.com/7923108.128.jpg" alt="Dead Sara is Weathering the Storm" height="215" width="315" />            </a>
+        </li>
+        <li>
+            <a href="http://www.villagevoice.com/2012-06-06/restaurants/boukies-greek-east-2nd/" class="nhHed">
+            <div class="theHead">Bouki&eacute;s Stays in the Euro Zone</div>
+            <img src="http://media.villagevoice.com/7923106.128.jpg" alt="Bouki&amp;eacute;s Stays in the Euro Zone" height="215" width="315" />            </a>
+        </li>
+        <li>
+            <a href="http://www.villagevoice.com/2012-06-06/news/jim-crow-voting-barack-obama-immigration/" class="nhHed">
+            <div class="theHead">Welcome Back, Jim Crow</div>
+            <img src="http://media.villagevoice.com/7923096.128.jpg" alt="Welcome Back, Jim Crow" height="215" width="315" />            </a>
+        </li>
+    </ul>
+</div>                              
+<!-- nhFeaturedStories --></div><div class="widget trackme" name="nhFeaturedSub"><!-- nhFeaturedSub-->
+<div class="nhLatest">
+    <h6><div class="sssb c"><div>Top Stories</div></div></h6>
+    <ul>
+                    <li>
+                <a href="http://www.villagevoice.com/2012-06-06/art/brandon-ballenge-ronald-feldman/" class="nhHed">
+                    <img alt="Stunning and Disturbing Frogs" src="http://media.villagevoice.com/7923225.75.jpg" height="125" width="125"/>
+                </a>
+                <h3>
+                    <a class="section" href="http://www.villagevoice.com/arts/">
+                        Arts                    </a>
+                </h3>
+                <h2>
+                    <a href="http://www.villagevoice.com/2012-06-06/art/brandon-ballenge-ronald-feldman/" class="nhHed">
+                        Stunning and Disturbing Frogs                    </a>
+                </h2>
+                                                            <h4><a href="/authors/robert-shuster/">
+                                Robert Shuster                            </a>
+                        </h4>
+                                    
+                            </li>
+                    <li>
+                <a href="http://www.villagevoice.com/2012-06-06/film/we-wont-grow-old-together-maurice-pialat/" class="nhHed">
+                    <img alt="'We Won't Grow Old Together'" src="http://media.villagevoice.com/7923308.75.jpg" height="125" width="125"/>
+                </a>
+                <h3>
+                    <a class="section" href="http://www.villagevoice.com/movies/">
+                        Film                    </a>
+                </h3>
+                <h2>
+                    <a href="http://www.villagevoice.com/2012-06-06/film/we-wont-grow-old-together-maurice-pialat/" class="nhHed">
+                        'We Won't Grow Old Together'                    </a>
+                </h2>
+                                                            <h4><a href="/authors/nick-pinkerton/">
+                                Nick Pinkerton                            </a>
+                        </h4>
+                                    
+                            </li>
+                    <li>
+                <a href="http://www.villagevoice.com/2012-06-06/news/NYPD-police-stop-and-frisk/" class="nhHed">
+                    <img alt="Cops by Day, Targets by Night" src="http://media.villagevoice.com/7923241.75.jpg" height="125" width="125"/>
+                </a>
+                <h3>
+                    <a class="section" href="http://www.villagevoice.com/news/">
+                        News                    </a>
+                </h3>
+                <h2>
+                    <a href="http://www.villagevoice.com/2012-06-06/news/NYPD-police-stop-and-frisk/" class="nhHed">
+                        Cops by Day, Targets by Night                    </a>
+                </h2>
+                                                            <h4><a href="/authors/sam-levin/">
+                                Sam Levin                            </a>
+                        </h4>
+                                    
+                            </li>
+            </ul>
+</div>
+<div class="triplebar bottom10"></div>
+<!-- nhLatestStories --></div><div class="widget trackme" name="nhBlogs"><!-- nhBlogs-->
+<div class="nhBlogs">
+    <ul>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/runninscared/2012/06/wig_thief_bites.php">
+                                            <img class="lazy" alt="Wig Thief Bites Store Owner, Spits Flesh In His Face (Before Biting Cops)" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/runninscared/davisbitesml.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/runninscared/"><span>news</span> | Runnin' Scared</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/runninscared/2012/06/wig_thief_bites.php" class="nhHed">Wig Thief Bites Store Owner, Spits Flesh In His Face (Before Biting Cops)</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1348">James King</a> | <span class="pubDate">3:51 pm</span> | <span class="comments">(1) <a href="http://blogs.villagevoice.com/runninscared/2012/06/wig_thief_bites.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/runninscared/2012/06/the_stonewall_summit.php">
+                                            <img class="lazy" alt="Al Sharpton Walks Into a (Gay) Bar..." src="/img/halftone.png" data-original="http://blogs.villagevoice.com/runninscared/Stonwall%20Summit100.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/runninscared/"><span>news</span> | Runnin' Scared</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/runninscared/2012/06/the_stonewall_summit.php" class="nhHed">Al Sharpton Walks Into a (Gay) Bar...</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1452">Steven Thrasher</a> | <span class="pubDate">2:51 pm</span> </h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/anthony_bourdai_21.php">
+                                            <img class="lazy" alt="Anthony Bourdain to Host Cooking Show on ABC with Nigella Lawson" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/bourdain_sm.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/anthony_bourdai_21.php" class="nhHed">Anthony Bourdain to Host Cooking Show on ABC with Nigella Lawson</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1999">Clarissa Wei</a> | <span class="pubDate">2:40 pm</span> | <span class="comments">(1) <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/anthony_bourdai_21.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/runninscared/2012/06/zombie_apocalyp.php">
+                                            <img class="lazy" alt="Zombie Apocalypse Hits The Bayou -- Louisiana Man Gnaws Neighbor's Face " src="/img/halftone.png" data-original="http://blogs.villagevoice.com/runninscared/jacquneauxsml.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/runninscared/"><span>news</span> | Runnin' Scared</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/runninscared/2012/06/zombie_apocalyp.php" class="nhHed">Zombie Apocalypse Hits The Bayou -- Louisiana Man Gnaws Neighbor's Face </a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1348">James King</a> | <span class="pubDate">2:27 pm</span> | <span class="comments">(7) <a href="http://blogs.villagevoice.com/runninscared/2012/06/zombie_apocalyp.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/runninscared/2012/06/ray_bradbury_death.php">
+                                            <img class="lazy" alt="Ray Bradbury Would Have Hated Your Blog Post, Tweet, or Facebook Status About His Death (And This Too)" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/runninscared/brad.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/runninscared/"><span>news</span> | Runnin' Scared</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/runninscared/2012/06/ray_bradbury_death.php" class="nhHed">Ray Bradbury Would Have Hated Your Blog Post, Tweet, or Facebook Status... </a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1936">Victoria Bekiempis</a> | <span class="pubDate">1:41 pm</span> | <span class="comments">(4) <a href="http://blogs.villagevoice.com/runninscared/2012/06/ray_bradbury_death.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/dailymusto/2012/06/jesus_christ_on.php">
+                                            <img class="lazy" alt="Jesus Christ On Screen: Who Played Him The Best?" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/dailymusto/dafoe_100.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/dailymusto/"><span>comment</span> | La Daily Musto</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/dailymusto/2012/06/jesus_christ_on.php" class="nhHed">Jesus Christ On Screen: Who Played Him The Best?</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=556">Michael Musto</a> | <span class="pubDate">1:27 pm</span> | <span class="comments">(9) <a href="http://blogs.villagevoice.com/dailymusto/2012/06/jesus_christ_on.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/scotts_bar-b-qu.php">
+                                            <img class="lazy" alt="What To Eat at Big Apple Barbecue Block Party: Scott's Bar-B-Que From Hemingway, SC" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/P1010855xx.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/scotts_bar-b-qu.php" class="nhHed">What To Eat at Big Apple Barbecue Block Party: Scott's Bar-B-Que From... </a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=926">Robert Sietsema</a> | <span class="pubDate">1:10 pm</span> </h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/runninscared/2012/06/hammer_official.php">
+                                            <img class="lazy" alt="Rx Drug Sweep Nets Nearly 100 Arrests" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/runninscared/drfeelgoodsml.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/runninscared/"><span>news</span> | Runnin' Scared</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/runninscared/2012/06/hammer_official.php" class="nhHed">Rx Drug Sweep Nets Nearly 100 Arrests</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1348">James King</a> | <span class="pubDate">12:58 pm</span> | <span class="comments">(1) <a href="http://blogs.villagevoice.com/runninscared/2012/06/hammer_official.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/runninscared/2012/06/best_places_to_smoke_weed_in_nyc.php">
+                                            <img class="lazy" alt="The Best Places To Smoke Weed in NYC" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/runninscared/sillyspliff.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/runninscared/"><span>news</span> | Runnin' Scared</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/runninscared/2012/06/best_places_to_smoke_weed_in_nyc.php" class="nhHed">The Best Places To Smoke Weed in NYC</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=1936">Victoria Bekiempis</a> | <span class="pubDate">11:32 am</span> | <span class="comments">(12) <a href="http://blogs.villagevoice.com/runninscared/2012/06/best_places_to_smoke_weed_in_nyc.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/sailor_jerry_to.php">
+                                            <img class="lazy" alt="Sailor Jerry to Give Away Free Tattoos, Free Rum " src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/rum_tattoo_sm.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/sailor_jerry_to.php" class="nhHed">Sailor Jerry to Give Away Free Tattoos, Free Rum </a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=3585">Tejal Rao</a> | <span class="pubDate">11:30 am</span> </h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/when_american_c.php">
+                                            <img class="lazy" alt="When American Chefs Cook Immigrant Food" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/kung_pao_sm.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/when_american_c.php" class="nhHed">When American Chefs Cook Immigrant Food</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=3585">Tejal Rao</a> | <span class="pubDate">10:45 am</span> </h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/dailymusto/2012/06/the_five_worst_10.php">
+                                            <img class="lazy" alt="The Five Worst Types Of Drivers On The Road" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/dailymusto/thisweek_driving-miss-daisy_100.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/dailymusto/"><span>comment</span> | La Daily Musto</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/dailymusto/2012/06/the_five_worst_10.php" class="nhHed">The Five Worst Types Of Drivers On The Road</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=556">Michael Musto</a> | <span class="pubDate">10:30 am</span> | <span class="comments">(8) <a href="http://blogs.villagevoice.com/dailymusto/2012/06/the_five_worst_10.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/three_good_thin_2.php">
+                                            <img class="lazy" alt="Three Good Things: Martinis, Crispy Stuff, Marrow" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/three_kittens_sm.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/three_good_thin_2.php" class="nhHed">Three Good Things: Martinis, Crispy Stuff, Marrow</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=3585">Tejal Rao</a> | <span class="pubDate">9:30 am</span> </h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/music/2012/06/barry_manilow_mandy_worst_songs.php">
+                                            <img class="lazy" alt="First Worsts: Oh &quot;Mandy,&quot; You Came And You Sounded Absolutely Terrible" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/music/mandy_100.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/music/"><span>music</span> | Sound of the City</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/music/2012/06/barry_manilow_mandy_worst_songs.php" class="nhHed">First Worsts: Oh "Mandy," You Came And You Sounded Absolutely Terrible</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=2753">Michaelangelo Matos</a> | <span class="pubDate">9:00 am</span> | <span class="comments">(3) <a href="http://blogs.villagevoice.com/music/2012/06/barry_manilow_mandy_worst_songs.php#Comments">Comments</a></span></h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/review_zuttos_j.php">
+                                            <img class="lazy" alt="Review: Zutto's Japanese-American Pub in Tribeca" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/zutto_ramen_sm.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/review_zuttos_j.php" class="nhHed">Review: Zutto's Japanese-American Pub in Tribeca</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=3585">Tejal Rao</a> | <span class="pubDate">9:00 am</span> </h4>
+            </li>
+                            <li>
+                                    <a href="http://blogs.villagevoice.com/forkintheroad/2012/06/boukies_5_to-di.php">
+                                            <img class="lazy" alt="Boukies: 5 To-Die-For Dishes" src="/img/halftone.png" data-original="http://blogs.villagevoice.com/forkintheroad/zboukies.jpg" height="95" width="100" />                    
+                                        
+                    </a>
+                                <h3><a href="http://blogs.villagevoice.com/forkintheroad/"><span>food</span> | Fork in the Road</a></h3>
+                <h2><a href="http://blogs.villagevoice.com/forkintheroad/2012/06/boukies_5_to-di.php" class="nhHed">Boukies: 5 To-Die-For Dishes</a></h2>
+                <h4><a href="http://blogs.villagevoice.com/author.php?author_id=926">Robert Sietsema</a> | <span class="pubDate">8:47 am</span> </h4>
+            </li>
+            
+        <li class="more">
+            <h4>
+                                    <a href="/latest/index/page:2/">More From the Blogs ></a>
+                            </h4>
+        </li>
+    </ul>  
+</div>
+<!-- nhBlogs --></div><div class="sidebar " ><div class="widget trackme" name="DailyDeals"><div class="VoiceDealOfTheDayImage">
+        <a href="http://www.voicedailydeals.com/new-york/?utm_source=villagevoice&utm_medium=vdd-widget-nyv&utm_campaign=vddw-nyv-home" target='_blank'>
+            <img src="http://media.villagevoice.com/7919325.0.jpg" alt="VOICE Daily Deals"/>
+        </a>
+    </div></div><div class="adContainer chisel_u " ><!-- NOGSA -->
+<div class="Ads" id="Middle">
+    <script type="text/javascript">
+        <!--
+        OAS_AD('Middle');
+        //-->
+    </script>
+</div>
+<!-- /NOGSA --></div>
+<div class="widget trackme" name="SlideshowWidget"><div class='slideshowwidget'>
+    <div class='chisel_u r_box'>
+        <div class='chisel_d white'>
+                    <h2>Slide<span>shows</span><span class='gtgt'>&raquo;</span></h2>
+                    <ul>
+                <li><a href="/slideshow/space-shuttle-enterprise-floats-to-its-home-on-the-intrepid-36974376/"><img src="http://media.villagevoice.com/space-shuttle-enterprise-floats-to-its-home-on-the-intrepid.7924052.54.jpg" class="framed" alt="" /></a> <span class='title'><a href="/slideshow/space-shuttle-enterprise-floats-to-its-home-on-the-intrepid-36974376/">Space Shuttle Enterprise Floats to its Home on the Intrepid</a></span> </li><li><a href="/slideshow/xico-artists-featured-in-crossing-the-line-36947878/"><img src="http://media.villagevoice.com/xico-artists-featured-in-crossing-the-line.7913926.54.jpg" class="framed" alt="" /></a> <span class='title'><a href="/slideshow/xico-artists-featured-in-crossing-the-line-36947878/">Xico Artists Featured in "Crossing the Line"</a></span> </li>                                <li class='more'><a href='/slideshow/index'>More Slideshows &gt;&gt;</a></li>
+                            </ul>
+        </div>
+    </div>
+</div></div><div class="calContCont " ><div class="CalContainer chisel_u " ><div class="widget trackme" name="HomeCalendarTabs"><!-- Home Calendar Tabs xx-->
+<div class='binTitle'>
+ <span class='rmBlip'><a class='button' href='/readers/register'>Email Subscribe</a></span>
+ <h2><a href='/calendar'>Calendar<span> &raquo;</span></a></h2>
+</div>
+<div class='homecalendar_tabs_holder' >
+    <ul class='tabs'>
+        <li id="CALTabHeader_events" class='tab active'>
+        Events        </li>
+                <li id="CALTabHeader_music" class='tab '>
+        Music        </li>
+                <li id="CALTabHeader_dining" class='tab '>
+        Dining        </li>
+                <li id="CALTabHeader_movies" class='tab '>
+        Movies        </li>
+                <li id="CALTabHeader_theater" class='tab '>
+        Theater        </li>
+                <li id="CALTabHeader_art" class='tab '>
+        Arts        </li>
+            </ul>
+</div>
+<div class='calBody r_box search_event'>
+ <div class='chisel_d white'>
+     <div id="CALTabData">
+        
+  <div class='chisel_u r_box search_event'>
+   <div class='chisel_d white'>
+
+   <h2><span class='monthview'><input type="hidden" id='homecal_datepicker_element' name="/events/search/date:"></span>Find a Concert</h2>
+    <div class='daymonth'>
+     <ul class='tabs'>
+<li class='tab chisel_u active todayClass'><!--<a href='/events/search/date:2012-06-06/'>-->Wed<div>6</div><!--</a>--></li><li class='tab chisel_u active '><!--<a href='/events/search/date:2012-06-07/'>-->Thu<div>7</div><!--</a>--></li><li class='tab chisel_u active '><!--<a href='/events/search/date:2012-06-08/'>-->Fri<div>8</div><!--</a>--></li><li class='tab chisel_u active '><!--<a href='/events/search/date:2012-06-09/'>-->Sat<div>9</div><!--</a>--></li><li class='tab chisel_u active '><!--<a href='/events/search/date:2012-06-10/'>-->Sun<div>10</div><!--</a>--></li><li class='tab chisel_u active '><!--<a href='/events/search/date:2012-06-11/'>-->Mon<div>11</div><!--</a>--></li><li class='tab chisel_u active '><!--<a href='/events/search/date:2012-06-12/'>-->Tue<div>12</div><!--</a>--></li>     </ul>
+        <div class='monthview'><input type="hidden" id='homecal_datepicker_element2' name="/events/search/date:"></div>
+    </div>
+
+<form action="/search/results/" method="post" id="searchFormMusic" class="searchForm" onsubmit="sfc_doSearch();return false;">
+    <label for="find">Find</label><input type="text" class="text findInput" id="find" name="keyword" value="Genre, Artist, or Venue" onclick="if ($(this).val() == 'Genre, Artist, or Venue') { $(this).val(''); }"/>
+    <label for="near">Near</label><input type="text" class="text nearInput" id="near" name="near" value="New York Metro" onclick="if ($(this).val() == 'New York Metro') { $(this).val('') };"/>
+	<input type='hidden' name='type' value='events' />
+        <input type="hidden" name="region" value="" />
+    <input type="image" src="/img/button-srSearch.png" class="searchSubmit"/>
+    </form>
+
+    <div class='lower lowermusic'>
+     <ul>
+            <li>
+<a href="http://www.voiceplaces.com/near-dark-new-york-3533919-e/"><img src="http://media.villagevoice.com/7910180.96.jpg" class="framed" alt="" /></a>           <div class='featinfo'>
+            <h4><a href="http://www.voiceplaces.com/near-dark-new-york-3533919-e/">Near Dark</a></h4>
+            <p>Where: <a href="http://www.voiceplaces.com/bam-rose-cinemas-new-york-2460340-l/">Bam Rose Cinemas</a></p>
+                       </div>
+          </li>
+
+            <li>
+<a href="http://www.voiceplaces.com/navajo-joe-new-york-3523912-e/"><img src="http://media.villagevoice.com/7899320.96.jpg" class="framed" alt="" /></a>           <div class='featinfo'>
+            <h4><a href="http://www.voiceplaces.com/navajo-joe-new-york-3523912-e/">Navajo Joe</a></h4>
+            <p>Where: <a href="http://www.voiceplaces.com/film-forum-new-york-2499948-l/">Film Forum</a></p>
+                       </div>
+          </li>
+
+            <li>
+<a href="http://www.voiceplaces.com/the-big-heat-new-york-3534145-e/"><img src="http://media.villagevoice.com/7910191.96.jpg" class="framed" alt="" /></a>           <div class='featinfo'>
+            <h4><a href="http://www.voiceplaces.com/the-big-heat-new-york-3534145-e/">The Big Heat</a></h4>
+            <p>Where: <a href="http://www.voiceplaces.com/moma-roy-and-niuta-titus-theaters-new-york-3075365-l/">MOMA, Roy and Niuta Titus Theaters</a></p>
+                       </div>
+          </li>
+
+      <li class="vp"><a href="http://www.voiceplaces.com/"><img src="/img/vp-pb-logo-lg.png" alt="Powered by VOICE Places" title="Powered by VOICE Places"/></a></li>
+      <li class='submitevent'><a href='/feedback/SubmitAnEvent'>submit an event</a></li>
+      <li class='more'><a href='/events/search/date:2012-06-06/'>513 more calendar events today >></a></li>
+
+     </ul>
+    </div><!-- end lower -->
+   </div>
+  </div>
+<script type='text/javascript'>sfc_autocomplete();</script>
+     </div>
+ </div>
+</div>
+
+<script type="text/javascript">
+    window.caltabs ={"events":{"label":"Events","name":"events","widget":"\/events\/searchEvents\/Calendar\/1\/3\/96"},"music":{"label":"Music","name":"music","widget":"\/events\/searchEvents\/Music\/1\/2\/96"},"dining":{"label":"Dining","name":"dining","widget":"\/restaurants\/searchDining\/1\/3\/96"},"movies":{"label":"Movies","name":"movies","widget":"\/films\/searchMovies\/1\/3\/96"},"theater":{"label":"Theater","name":"theater","widget":"\/events\/searchEvents\/Theater\/1\/3\/96","seoCategoryURL":"\/events\/search\/category:[296690]\/"},"art":{"label":"Art","name":"art","widget":"\/events\/searchEvents\/Arts\/1\/3\/96"}};
+</script>
+<!-- / Home Calendar Tabs --></div></div>
+</div>
+<div class="widget trackme" name="VillageRailWidget"><div class='chisel_u r_box villagerail'>
+    <div class='chisel_d white'>
+      <h2>Join My Voice Nation</h2>        <h6>for free stuff, concert and dining info & more!</h6>
+        <form action='/village/register/' method='post'>
+            <input class='text chisel_d' type='text' name='email' value='enter email' id="villagerailemail" />
+            <input type="hidden" name="sourceId" value="8|23|36" />
+            <div id="more">
+                <div id="recaptcha_rail_placeholder"></div>
+                <a href="/about/privacyPolicy" class="privacy">Privacy policy</a>
+                <input class="submit" type="submit" value="Go" />
+            </div>
+        </form>
+    </div>
+</div></div><div class="widget trackme" name="FacebookSiteWidget"><div class="chisel_u r_box facebookSite">
+    <div class="chisel_d white">
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/villagevoice&amp;width=336&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=180" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:336px; height:182px;" allowTransparency="true"></iframe>
+    </div>
+</div></div><div class="widget trackme" name="MostPopularWidget"><!-- NOGSA -->
+  <div class='chisel_u r_box mostpop'>
+   <div class='gray'>
+    <div id="mostPopular" class="mostPopular">
+    <h2>Most Popular Stories</h2>
+
+    <script language="javascript">
+var tabs = new TabSet('mostPopular');
+tabs.addTab('Viewed','mostViewed',1);
+tabs.addTab('Commented','mostCommented',0);
+tabs.addTab('eMailed','mostEmailed',0);
+</script>
+
+    <div class='mp_lower chisel_t'>
+            <div id="mostViewed">
+            <ul>
+                                                                 <li class="story">
+                <div class="popRating">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>                </div>
+                <a href="/2012-05-09/news/rikers-violence-out-of-control/" class="headline">Rikers Violence: Out Of Control</a>                <div class="subHeadline"><p>Shocking images back up what we've been reporting for years: New York City's jails are houses of horror</p></div>
+                </li>
+                                                                <li class="story">
+                <div class="popRating">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>                </div>
+                <a href="/2012-05-16/news/hacker-is-anyone-up-hunter-moore-fbi/" class="headline">"Gary Jones" Wants Your Nudes</a>                <div class="subHeadline">Is one hacker behind many of the "revenge-porn" photos that were posted on Hunter Moore's Is Anyone Up?</div>
+                </li>
+                                                                <li class="story last">
+                <div class="popRating">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>                </div>
+                <a href="/2012-05-09/film/vampires-all-of-them-on-dark-shadows-and-god-bless-america/" class="headline">Vampires, All of Them: On <i>Dark Shadows</i> and <i>God Bless America</i></a>                <div class="subHeadline"></div>
+                </li>
+                                    <li class='more'><a href='/mostPopular/'>More Most Popular>></a></li>
+            </ul>
+        </div>
+                        <div id="mostCommented" style="display: none;">
+        <ul>
+                                                                 <li class="story">
+                <a href="/2012-05-09/news/rikers-violence-out-of-control/" class="headline">Rikers Violence: Out Of Control</a> <span class="count">(61)</span>
+                <div class="subHeadline"><p>Shocking images back up what we've been reporting for years: New York City's jails are houses of horror</p></div>
+                </li>
+                                                                <li class="story">
+                <a href="/2012-05-16/news/hacker-is-anyone-up-hunter-moore-fbi/" class="headline">"Gary Jones" Wants Your Nudes</a> <span class="count">(32)</span>
+                <div class="subHeadline">Is one hacker behind many of the "revenge-porn" photos that were posted on Hunter Moore's Is Anyone Up?</div>
+                </li>
+                                                                <li class="story last">
+                <a href="/2012-05-30/columns/why-i-hate-sex-Michael-Musto/" class="headline">Why I Hate Sex! 32 Fucktastic Reasons!</a> <span class="count">(20)</span>
+                <div class="subHeadline">Stay celibate</div>
+                </li>
+                                    <li class='more'><a href='/most/commented/1/'>More Most Commented >></a></li>
+            </ul>
+        </div>
+                        <div id="mostEmailed" style="display: none;">
+            <ul>
+                                                                <li class="story">
+                <a href="/2012-05-09/news/rikers-violence-out-of-control/" class="headline">Rikers Violence: Out Of Control</a>                <div class="subHeadline"><p>Shocking images back up what we've been reporting for years: New York City's jails are houses of horror</p></div>
+                </li>
+                                                                <li class="story">
+                <a href="/2012-05-30/columns/why-i-hate-sex-Michael-Musto/" class="headline">Why I Hate Sex! 32 Fucktastic Reasons!</a>                <div class="subHeadline">Stay celibate</div>
+                </li>
+                                                                <li class="story last">
+                <a href="/2012-05-30/news/education-gay-bullying-abuse/" class="headline">Schools Ignore Gay Bullying at Their Own Peril</a>                <div class="subHeadline">An Education in Abuse</div>
+                </li>
+                                    <li class='more'><a href='/most/emailed/1/'>More Most Emailed >></a></li>
+            </ul>
+        </div>
+                <div class='microbar'>
+                </div>
+    </div>
+</div>
+
+ </div>
+</div>
+<!-- /NOGSA -->
+
+<script>
+   $('a','#mostPopular').each(function(){
+       if(/=/.test(this.href)){
+         this.href += '&ref=mp';  
+       } else {
+         this.href += '?ref=mp';
+       }
+   })
+</script></div><div class="chisel_u r_box">
+    <div class="gray">
+        <div class="nhCoversWidget">
+            <h2>Print Edition</h2>
+            <div class="left">
+                <!-- p/af/v/content/cover_story_widget -->
+<h2>Cover<span>Story</span></h2>
+<div class="CoverStoryWidget">
+<a href='/2012-06-06/news/revolution-war-on-mexicans-obama-immigration/'><img src='http://media.villagevoice.com/7919077.134.jpg' class='framed' /></a><h3 class="Title"><a href="/2012-06-06/news/revolution-war-on-mexicans-obama-immigration/">Bordering on Revolution</a></h3>
+</div>
+<!-- !p/af/v/content/cover_story_widget -->
+            </div>
+            <div class="right">
+                <h2>Special<span>Issues</span></h2>
+<div class='specialissues'>
+    <ul> 
+        <li>
+            <a href='/flipbook/summer-arts-3520122/'><img class='framed' src='http://media.villagevoice.com/7882494.134.jpg' /></a>
+            <h3><a href='/flipbook/summer-arts-3520122/'>Summer Arts</a></h3>
+        </li>
+        
+        
+    </ul>
+</div>            </div>
+        </div>
+    </div>
+</div></div>
+<div class="widget trackme" name="nhLocNat"><div class="nhLocNat">
+    <ul>
+        <li class="half local">
+            <h6><div class="sssb c"><div>New York Stories</div></div></h6>
+            <ul>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/film/prometheus-ridley-scott/">
+                                                    <img class="lazy" alt="Prometheus: The Tree of Death" src="/img/halftone.png" data-original="http://media.villagevoice.com/7919373.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/movies/">Film</a></h3>
+                        <h2><a href="/2012-06-06/film/prometheus-ridley-scott/" class="nhHed"><i>Prometheus</i>: The Tree of Death</a></h2>
+                                                <h4><a href="/authors/nick-pinkerton/">Nick Pinkerton</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/film/we-wont-grow-old-together-maurice-pialat/">
+                                                    <img class="lazy" alt="Life After Love Ain't Easy in Forgotten Gem We Won't Grow Old Together" src="/img/halftone.png" data-original="http://media.villagevoice.com/7918457.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/movies/">Film</a></h3>
+                        <h2><a href="/2012-06-06/film/we-wont-grow-old-together-maurice-pialat/" class="nhHed">Life After Love Ain't Easy in Forgotten Gem <i>We... </i></a></h2>
+                                                <h4><a href="/authors/nick-pinkerton/">Nick Pinkerton</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/art/brandon-ballenge-ronald-feldman/">
+                                                    <img class="lazy" alt="Brandon Balleng&eacute;e: Creature Discomfort" src="/img/halftone.png" data-original="http://media.villagevoice.com/7918700.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/arts/">Art</a></h3>
+                        <h2><a href="/2012-06-06/art/brandon-ballenge-ronald-feldman/" class="nhHed">Brandon Balleng&eacute;e: Creature Discomfort</a></h2>
+                                                <h4><a href="/authors/robert-shuster/">Robert Shuster</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/restaurants/boukies-greek-east-2nd/">
+                                                    <img class="lazy" alt="Bouki&eacute;s: Greek Unorthodox" src="/img/halftone.png" data-original="http://media.villagevoice.com/7918847.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/restaurants/">Dining</a></h3>
+                        <h2><a href="/2012-06-06/restaurants/boukies-greek-east-2nd/" class="nhHed">Bouki&eacute;s: Greek Unorthodox</a></h2>
+                                                <h4><a href="/authors/robert-sietsema/">Robert Sietsema</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/music/dead-sara-band/">
+                                                    <img class="lazy" alt="Dead Sara Is Weathering the Storm" src="/img/halftone.png" data-original="http://media.villagevoice.com/7918949.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/music/">Music</a></h3>
+                        <h2><a href="/2012-06-06/music/dead-sara-band/" class="nhHed">Dead Sara Is Weathering the Storm</a></h2>
+                                                <h4><a href="/authors/maura-johnston/">Maura Johnston</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/columns/the-subtle-knife-Michael-Musto-/">
+                                                    <img class="lazy" alt="Hot and Happening Plastic Surgery Tips For Your Face!" src="/img/halftone.png" data-original="http://media.villagevoice.com/7918962.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/news/">Columns</a></h3>
+                        <h2><a href="/2012-06-06/columns/the-subtle-knife-Michael-Musto-/" class="nhHed">Hot and Happening Plastic Surgery Tips For Your Face!</a></h2>
+                                                <h4><a href="/authors/michael-musto/">Michael Musto</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/news/NYPD-police-stop-and-frisk/">
+                                                    <img class="lazy" alt="Cops by Day, Targets by Night" src="/img/halftone.png" data-original="http://media.villagevoice.com/7918964.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/news/">News</a></h3>
+                        <h2><a href="/2012-06-06/news/NYPD-police-stop-and-frisk/" class="nhHed">Cops by Day, Targets by Night</a></h2>
+                                                <h4><a href="/authors/sam-levin/">Sam Levin</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="/2012-06-06/news/revolution-war-on-mexicans-obama-immigration/">
+                                                    <img class="lazy" alt="Bordering on Revolution" src="/img/halftone.png" data-original="http://media.villagevoice.com/7919032.127.jpg" height="100" width="236" />
+                                                </a>
+                        <h3><a href="/news/">News</a></h3>
+                        <h2><a href="/2012-06-06/news/revolution-war-on-mexicans-obama-immigration/" class="nhHed">Bordering on Revolution</a></h2>
+                                                <h4><a href="/authors/michael-lacey/">Michael Lacey</a></h4>
+                                            </li>
+                            </ul>
+        </li>
+        <li class="half nat">
+            <h6><div class="sssb c"><div class="invert">National Stories</div></div></h6>
+            <ul>
+                                    <li class="storyBox">
+                        <a href="http://blogs.browardpalmbeach.com/pulp/2012/06/octomom_west-palm_strip_club.php">
+                        
+                                                    <img class="lazy" alt="Octomom to Go Topless at Florida Strip Club" src="/img/halftone.png" data-original="http://media.villagevoice.com/7920770.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://blogs.browardpalmbeach.com/pulp/2012/06/octomom_west-palm_strip_club.php">New Times Broward-Palm Beach</a></h3>
+                        <h2><a href="http://blogs.browardpalmbeach.com/pulp/2012/06/octomom_west-palm_strip_club.php" class="nhHed">Octomom to Go Topless at Florida Strip Club</a></h2>
+                                                 <h4><a href="http://blogs.browardpalmbeach.com/pulp/2012/06/octomom_west-palm_strip_club.php">Rich Abdill</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://blogs.riverfronttimes.com/dailyrft/2012/06/sandra_tamari_deportation_israel.php">
+                        
+                                                    <img class="lazy" alt="Deportation Raises US-Israeli Diplomacy Questions" src="/img/halftone.png" data-original="http://media.villagevoice.com/7920752.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://blogs.riverfronttimes.com/dailyrft/2012/06/sandra_tamari_deportation_israel.php">Riverfront Times</a></h3>
+                        <h2><a href="http://blogs.riverfronttimes.com/dailyrft/2012/06/sandra_tamari_deportation_israel.php" class="nhHed">Deportation Raises US-Israeli Diplomacy Questions</a></h2>
+                                                 <h4><a href="http://blogs.riverfronttimes.com/dailyrft/2012/06/sandra_tamari_deportation_israel.php">Chad Garrison</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://blogs.houstonpress.com/hairballs/2012/06/erika_perdue_feds_bust_dallas.php">
+                        
+                                                    <img class="lazy" alt="Feds Say Socialite Peddled Child Porn for 13 Years" src="/img/halftone.png" data-original="http://media.villagevoice.com/7921034.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://blogs.houstonpress.com/hairballs/2012/06/erika_perdue_feds_bust_dallas.php">Houston Press</a></h3>
+                        <h2><a href="http://blogs.houstonpress.com/hairballs/2012/06/erika_perdue_feds_bust_dallas.php" class="nhHed">Feds Say Socialite Peddled Child Porn for 13 Years</a></h2>
+                                                 <h4><a href="http://blogs.houstonpress.com/hairballs/2012/06/erika_perdue_feds_bust_dallas.php">John Nova Lomax</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://www.miaminewtimes.com/2012-06-07/music/miami-rapper-spaceghostpurrp-releases-debut-the-chronicles-of-spaceghostpurrp-june-12/">
+                        
+                                                    <img class="lazy" alt="SpaceGhostPurrp Hates the Fakery" src="/img/halftone.png" data-original="http://media.villagevoice.com/7922968.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://www.miaminewtimes.com/2012-06-07/music/miami-rapper-spaceghostpurrp-releases-debut-the-chronicles-of-spaceghostpurrp-june-12/">Miami New Times</a></h3>
+                        <h2><a href="http://www.miaminewtimes.com/2012-06-07/music/miami-rapper-spaceghostpurrp-releases-debut-the-chronicles-of-spaceghostpurrp-june-12/" class="nhHed">SpaceGhostPurrp Hates the Fakery</a></h2>
+                                                 <h4><a href="http://www.miaminewtimes.com/2012-06-07/music/miami-rapper-spaceghostpurrp-releases-debut-the-chronicles-of-spaceghostpurrp-june-12/">S. Pajot</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://www.seattleweekly.com/2012-06-06/music/answers-advice-cash-to-roderick/">
+                        
+                                                    <img class="lazy" alt="Answers and Advice: Rosanne Cash to John Roderick" src="/img/halftone.png" data-original="http://media.villagevoice.com/7920964.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://www.seattleweekly.com/2012-06-06/music/answers-advice-cash-to-roderick/">Seattle Weekly</a></h3>
+                        <h2><a href="http://www.seattleweekly.com/2012-06-06/music/answers-advice-cash-to-roderick/" class="nhHed">Answers and Advice: Rosanne Cash to John Roderick</a></h2>
+                                                 <h4><a href="http://www.seattleweekly.com/2012-06-06/music/answers-advice-cash-to-roderick/">John Roderick</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://blogs.citypages.com/blotter/2012/06/tim_poe_americas_got_talent_lied_injuries_afghanistan.php">
+                        
+                                                    <img class="lazy" alt="Tim Poe: America's Got Talent Singer, Liar" src="/img/halftone.png" data-original="http://media.villagevoice.com/7920866.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://blogs.citypages.com/blotter/2012/06/tim_poe_americas_got_talent_lied_injuries_afghanistan.php">City Pages</a></h3>
+                        <h2><a href="http://blogs.citypages.com/blotter/2012/06/tim_poe_americas_got_talent_lied_injuries_afghanistan.php" class="nhHed">Tim Poe: <i>America's Got Talent</i> Singer, Liar</a></h2>
+                                                 <h4><a href="http://blogs.citypages.com/blotter/2012/06/tim_poe_americas_got_talent_lied_injuries_afghanistan.php">Erika Wolf</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://blogs.laweekly.com/westcoastsound/2012/06/best_edm_for_people_who_dont_know_shit_about_edm.php">
+                        
+                                                    <img class="lazy" alt="EDM Albums for People Who Don't Know Dance Music" src="/img/halftone.png" data-original="http://media.villagevoice.com/7921035.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://blogs.laweekly.com/westcoastsound/2012/06/best_edm_for_people_who_dont_know_shit_about_edm.php">LA Weekly</a></h3>
+                        <h2><a href="http://blogs.laweekly.com/westcoastsound/2012/06/best_edm_for_people_who_dont_know_shit_about_edm.php" class="nhHed">EDM Albums for People Who Don't Know Dance Music</a></h2>
+                                                 <h4><a href="http://blogs.laweekly.com/westcoastsound/2012/06/best_edm_for_people_who_dont_know_shit_about_edm.php">Andy Hermann</a></h4>
+                                            </li>
+                                    <li class="storyBox">
+                        <a href="http://blogs.sfweekly.com/thesnitch/2012/06/foxnation_your_site_for_boobs.php">
+                        
+                                                    <img class="lazy" alt="Fox Nation: Your site for Boobs, Racism" src="/img/halftone.png" data-original="http://media.villagevoice.com/7922870.127.jpg" height="100" width="236"/>
+                                                
+                        </a>
+                        <h3><a href="http://blogs.sfweekly.com/thesnitch/2012/06/foxnation_your_site_for_boobs.php">SF Weekly</a></h3>
+                        <h2><a href="http://blogs.sfweekly.com/thesnitch/2012/06/foxnation_your_site_for_boobs.php" class="nhHed">Fox Nation: Your site for Boobs, Racism</a></h2>
+                                                 <h4><a href="http://blogs.sfweekly.com/thesnitch/2012/06/foxnation_your_site_for_boobs.php">Alan Scherstuhl</a></h4>
+                                            </li>
+                            </ul>
+        </li>
+    </ul>
+</div></div><div class="widget trackme" name="nhBestOf"><div class="nhBestOf">
+    <h6><div class="sssb c"><div>Best Of...</div></div></h6>
+    <button class="blue bestOfMarketPickerToggle"><span class="selectedMarket">New York</span> &#9660;</button>
+    <div id="market-picker" class="market-picker">
+        <a href="#" class="close bestOfMarketPickerToggle">X</a>    
+                    <ul class="market-col">
+                            <li><a href="#" class="bestOf-select-market" name="atlanta">Atlanta</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="austin">Austin</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="baltimore">Baltimore</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="boston-providence">Boston</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="broward-palm-beach">Broward / Palm Beach</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="chicago">Chicago</a></li>
+                        </ul>
+                    <ul class="market-col">
+                            <li><a href="#" class="bestOf-select-market" name="cleveland">Cleveland</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="dallas-ft-worth">Dallas / Fort Worth</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="denver-boulder">Denver / Boulder</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="detroit">Detroit</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="houston">Houston</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="kansas-city">Kansas City</a></li>
+                        </ul>
+                    <ul class="market-col">
+                            <li><a href="#" class="bestOf-select-market" name="las-vegas">Las Vegas</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="los-angeles">Los Angeles</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="miami">Miami</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="minneapolis-st-paul">Minneapolis / St. Paul</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="nashville">Nashville</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="new-york">New York</a></li>
+                        </ul>
+                    <ul class="market-col">
+                            <li><a href="#" class="bestOf-select-market" name="orange-county">Orange County</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="orlando">Orlando</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="philadelphia">Philadelphia</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="phoenix">Phoenix</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="pittsburgh">Pittsburgh</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="portland">Portland</a></li>
+                        </ul>
+                    <ul class="market-col">
+                            <li><a href="#" class="bestOf-select-market" name="boston-providence">Providence</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="raleigh-durham">Raleigh / Durham</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="sacramento">Sacramento</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="san-diego">San Diego</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="san-francisco-bay-area">San Francisco / Bay Area</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="seattle">Seattle</a></li>
+                        </ul>
+                    <ul class="market-col">
+                            <li><a href="#" class="bestOf-select-market" name="st-louis">St. Louis</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="tampa-bay-st-petersburg">Tampa</a></li>
+                            <li><a href="#" class="bestOf-select-market" name="washington-dc">Washington DC</a></li>
+                        </ul>
+            </div>                
+    
+    <ul class="tsya">
+    
+        <li class="half leftHalf">
+            <div id="boResult">
+                <span class="boWinnerImg"><a href="http://bestof.voiceplaces.com/new-york/w/best-place-to-get-hammered-and-eat-a-man-2011-50013" target="_blank"><img class="framed" height="75" width="100" src="http://assets.places.gotime.com/places/43170058ce7c8b86502503cb82a324e784c74396_q.jpg" alt="Best Place To Get Hammered And Eat A Man"/></a></span>
+                <h2><span class="boWinnerName"><a href="http://bestof.voiceplaces.com/new-york/w/best-place-to-get-hammered-and-eat-a-man-2011-50013" target="_blank">Best Place To Get Hammered And Eat A Man</a></span></h2>
+                <input type="hidden" id="winnerUrl" value="http://bestof.voiceplaces.com/new-york/w/best-place-to-get-hammered-and-eat-a-man-2011-50013" />
+                <h3><span class="boAwardName"><a href="http://bestof.voiceplaces.com/new-york/w/best-place-to-get-hammered-and-eat-a-man-2011-50013" target="_blank">Barcade</a></span></h3>
+                
+                <p class="boWinnerBlurb">If it takes more than the dual promise of coin-operated Frogger and American-craft lager to convince you why Barcade is...</p>
+            </div>
+            <a class="boWinnerMoreInfo" href="http://bestof.voiceplaces.com/new-york/w/best-place-to-get-hammered-and-eat-a-man-2011-50013" target="_blank">MORE INFO ></a>
+        </li>
+        <li class="half">
+            <div class="hl">
+                <img alt="Best Of" src="/img/icon-bestof-big.png"/>
+                <h4>Mobile</h4>
+                <div>
+                    <p>Get the Best Of Mobile App</p>
+                    Find and rate the best of everything in your neighborhood, from eats to places, right in the palm of your hand.
+                </div>
+                <h5>
+                    Download for : <a href="http://itunes.apple.com/us/app/best-of/id423026446?mt=8" target="_blank">iPhone</a> 
+                    | <a href="https://market.android.com/details?id=com.gotime.bestof&feature=search_result" target="_blank">Android</a></h5>
+            </div>
+            <div class="hr">
+                <div class="nhbo">
+                    <h4>Web</h4>
+                    <p>Find the best all right here.</p>
+                    <ul class="top_bar">
+<li><a href='/bestof/2011/section/arts-and-entertainment-491640/'><div class='square' style='background-color: #990000'></div>Arts & Entertainment</a></li>
+<li><a href='/bestof/2011/section/bars-and-clubs-491611/'><div class='square' style='background-color: #006600'></div>Bars & Clubs</a></li>
+<li><a href='/bestof/2011/section/food-and-drink-491645/'><div class='square' style='background-color: #000088'></div>Food & Drink</a></li>
+<li><a href='/bestof/2011/section/people-and-places-491621/'><div class='square' style='background-color: #333399'></div>People & Places</a></li>
+<li><a href='/bestof/2011/section/shopping-and-services-491618/'><div class='square' style='background-color: #669900'></div>Shopping & Services</a></li>
+<li><a href='/bestof/2011/section/sports-and-recreation-491639/'><div class='square' style='background-color: #990066'></div>Sports & Recreation</a></li>
+</ul>                </div>                    
+            </div>
+        </li>
+    </ul>
+</div></div></div>
+<!-- /p/af/v/e/Footer -->
+<!--googleoff: all-->
+<div class='footer'>
+    <a href="http://www.villagevoice.com/about/index/">About Us</a> |
+    <a href="http://media.villagevoice.com/7834161.0.pdf">Media Kit</a> |
+    <a href="http://jobs.villagevoice.com" target="_blank">Work for Village Voice</a> |
+    <a href="http://www.villagevoice.com/village/register/">Esubscribe</a> |
+    <a href="http://villagevoice.backpage.com">Free Classifieds</a> |
+    <a href="http://www.villagevoice.com/about/index/">Village Voice Advertising</a> |
+    <a href="http://www.voicemediagroup.com">National Online Advertising</a> |
+    <a href="http://www.villagevoice.com/promotions/mobileApps/">Mobile</a> |
+    <a href="http://www.villagevoice.com/about/privacyPolicy/">Privacy Policy</a> |
+    <a href="http://www.villagevoice.com/about/terms/">Terms of Use</a> |
+    <a href="http://www.villagevoice.com/bugs/">Site Problems?</a> |
+    <a href="http://www.villagevoice.com/about/syndication/">RSS</a> |
+    <a href="http://www.villagevoice.com/about/siteMap/">Site Map</a> 
+    | <a href="http://www.villagevoice.com/livoice/">L.I. Voice</a>
+</div>
+<!-- End /p/af/v/e/Footer -->
+<script>
+   $('a','.footer').each(function(){
+       if(/=/.test(this.href)){
+         this.href += '&ref=navigation';  
+       } else {
+         this.href += '?ref=navigation';
+       }
+   })
+</script>        </div>
+    </div>
+    <div class='copyright'>&copy; 2012 Village Voice, LLC, All rights reserved.</div>
+</div><!-- /pagecontainer -->
+<script type="text/javascript">
+var redirectController = 'village';
+</script>
+<div class="toolbarStripe"></div>
+<div id="toolbar">
+    <div class="mainContent">
+
+        <div id="villages">
+            <span class="triangleOpen"></span> Browse Voice Nation
+        </div>
+
+        <div id="siteContent">
+            <a href="/mostPopular/">Most Popular</a> | <a href="/news/wire/">Most Recent</a>        </div>
+
+        <div id="loginProfile">
+            <div class="profile">
+                <div id="profile">
+                    <img src="http://media.villagevoice.com/6975012.13.jpg" alt="avatar"/>
+                    <div class="username"></div><span class="triangleOpen"></span>
+                </div>
+                                <a href="/village/newsletters/">Newsletters</a> |
+                <a href="/village/mobile/">Mobile</a>
+            </div>
+            <div id="logLink" class="login">
+                Log in <span class="triangleOpen"></span>
+            </div>
+            <div id="regLink" class="register">
+                Sign up <span class="triangleOpen"></span>
+            </div>
+        </div>
+
+        <div id="showVill">
+            <ul class="nation">
+                <li>
+                    <a href="http://www.villagevoice.com">New York Village Voice</a><br/>
+                    <a href="http://www.laweekly.com">LA Weekly</a><br/>
+                    <a href="http://www.phoenixnewtimes.com">Phoenix New Times</a><br/>
+                </li>
+                <li>
+                    <a href="http://www.westword.com">Denver Westword</a><br/>
+                    <a href="http://www.houstonpress.com">Houston Press</a><br/>
+                    <a href="http://www.dallasobserver.com">Dallas Observer</a><br/>
+                </li>
+                <li>
+                    <a href="http://www.sfweekly.com">SF Weekly</a><br/>
+                    <a href="http://www.seattleweekly.com">Seattle Weekly</a><br/>
+                    <a href="http://www.riverfronttimes.com">St. Louis RFT</a><br/>
+                </li>
+                <li>
+                    <a href="http://www.miaminewtimes.com">Miami New Times</a><br/>
+                    <a href="http://www.citypages.com">Minneapolis City Pages</a><br/>
+                    <a href="http://www.ocweekly.com">OC Weekly</a><br/>
+                </li>
+                <li>
+                    <a href="http://www.browardpalmbeach.com">Broward/Palm Beach New Times</a><br/>
+                </li>
+            </ul>
+            <ul class="other">
+                <li>
+                    <a href="http://www.voiceplaces.com"><img src="/img/clear5.png" class="placesIcon" alt="Voice Places"/></a>
+                    <h3><a href="http://www.voiceplaces.com">Voice Places</a></h3>
+                    <p>Discover restaurants, nightlife, travel, shopping...</p>
+                </li>
+                <li>
+                    <a href="http://www.voicedailydeals.com"><img src="/img/clear5.png" class="dotdIcon" alt="VOICE Daily Deals"/></a>
+                    <h3><a href="http://www.voicedailydeals.com">VOICE Daily Deals</a></h3>
+                    <p>Get 50 to 90% off every day on restaurants, movies, massages...</p>
+                </li>
+                <li>
+                    <a href="http://bestof.voiceplaces.com"><img src="/img/clear5.png" class="bestofIcon" alt="Best Of"/></a>
+                    <h3><a href="http://bestof.voiceplaces.com">Best Of...</a></h3>
+                    <p>More than 10,000 of the BEST things to eat, drink, and experience</p>
+                </li>
+                <li>
+                    <a href="http://www.myvoicenation.com"><img src="/img/clear5.png" class="mvnIcon" alt="My Voice Nation"/></a>
+                    <h3><a href="http://www.myvoicenation.com">My Voice Nation</a></h3>
+                    <p>Join the Village Voice community and get exclusive deals and info</p>
+                </li>
+                <li>
+                    <a href="http://happyhours.villagevoice.com"><img src="/img/clear5.png" class="happyhourIcon" alt="Happy Hour"/></a>
+                    <h3><a href="http://happyhours.villagevoice.com">Happy Hour</a></h3>
+                    <p>Your local Happy Hour guide at your fingertips</p>
+                </li>
+            </ul>
+        </div>
+        <div id="login">
+            <div class="or">or</div>
+            <div class="left">
+                <p class="head"><b>Log in</b> or <span>Sign up</span></p>
+                <strong>Social Connect:</strong>
+                <p>Use your favorite account to access My Voice Nation.</p>
+                <button class="facebookConnect" onclick="MVN.socialConnect(this, 'facebook', '8|22|35')"></button>
+                <button class="yahooConnect" onclick="MVN.socialConnect(this, 'yahoo', '8|22|35')"></button>
+                <br/>
+                <button class="googleConnect" onclick="MVN.socialConnect(this, 'google', '8|22|35')"></button>
+                <button class="twitterConnect" onclick="MVN.socialConnect(this, 'twitter', '8|22|35')"></button>
+            </div>
+            <div class="right">
+                <p>Use your My Voice Nation account to log in:</p>
+                <form method="post" action="/village/login/">
+                    <label for="email">E-mail</label><br/>
+                    <input type="text" name="email" id="email"/><br/>
+                    <label for="password">Password</label><br/>
+                    <input type="password" name="password" id="password"/><br/>
+                    <a href="/village/forgot/">Forgot password?</a>
+                    <input type="checkbox" name="rememberMe" id="rememberMe" checked="checked"/>
+                    <label for="rememberMe">Remember me</label>
+                    <input type="submit" value="Login" class="submit" onclick="javascript:MVN.authUser(this);return false;" />
+                </form>
+            </div>
+        </div>
+
+        <div id="register">
+            <div class="or">or</div>
+            <div class="left">
+                <p class="head"><b>Sign Up</b> or <span>Log in</span></p>
+                <strong>Social Connect:</strong>
+                <p>Sign up for My Voice Nation with your preferred network.</p>
+                <button class="facebookConnect" onclick="MVN.socialConnect(this, 'facebook', '8|22|35')"></button>
+                <button class="yahooConnect" onclick="MVN.socialConnect(this, 'yahoo', '8|22|35')"></button>
+                <br/>
+                <button class="googleConnect" onclick="MVN.socialConnect(this, 'google', '8|22|35')"></button>
+                <button class="twitterConnect" onclick="MVN.socialConnect(this, 'twitter', '8|22|35')"></button>
+            </div>
+            <div class="right">
+                <p>Sign up for a My Voice Nation account:</p>
+                <form method="post" action="/village/register/">
+                    <label for="email">E-mail</label><br />
+                    <input type="text" name="email" id="email" /><br />
+                    <div class="recaptcha_placeholder">
+                    </div>
+                    <input type="hidden" name="sourceId" value="8|22|35" />
+                    <input type="submit" value="Sign Up" class="submit" onclick="javascript:MVN.authUser(this);return false;"/>
+                    <a href="/about/privacyPolicy/" class="privacy">Privacy policy</a>
+                </form>
+            </div>
+        </div>
+        <!-- Profile Options (Hidden) -->
+        <div id="showProf">
+            <ul>
+                <li><a href="/village/settings/">Settings</a></li>
+                <li><a href="/village/logout/" onclick="javascript:MVN.logout(this); return false;">Log Out</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+	
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-a4LDpi_DEopn-"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-a4LDpi_DEopn-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+<script>
+
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035631", c3: "", c4: "http://www.villagevoice.com/" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035631&c3=&c4=http://www.villagevoice.com/&c5=&c6=&c15=&cj=1" />
+</noscript>
+
+
+<script type="text/javascript">
+	var _sf_async_config={uid:10424,domain:"villagevoice.com"};
+	(function(){
+	  function loadChartbeat() {
+		window._sf_endpt=(new Date()).getTime();
+		var e = document.createElement('script');
+		e.setAttribute('language', 'javascript');
+		e.setAttribute('type', 'text/javascript');
+		e.setAttribute('src',
+		   (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+		   "static.chartbeat.com/js/chartbeat.js");
+		document.body.appendChild(e);
+	  }
+	  var oldonload = window.onload;
+	  window.onload = (typeof window.onload != 'function') ?
+		 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+</script>
+
+
+<!-- INCK -->
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://optimize.indieclick.com/www/delivery/ajs.php':'http://optimize.indieclick.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=546102");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://optimize.indieclick.com/www/delivery/ck.php?n=ae3368ac&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://optimize.indieclick.com/www/delivery/avw.php?zoneid=546102&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ae3368ac' border='0' alt='' /></a></noscript>
+
+
+<!-- START: IndieClick Pixel -->
+<script type="text/javascript">
+(function() {
+var ic_element   = document.createElement('script');
+ic_element.type  = 'text/javascript';
+ic_element.async = true;
+ic_element.id    = 'ic_annonymous_pixel';
+ic_element.src   = 'http://pixel.indieclick.com/annonymous/domain/villagevoice.com/reach/script_ic.js';
+var ic_script    = document.getElementsByTagName('script')[0];
+ic_script.parentNode.insertBefore(ic_element, ic_script);
+})();
+</script>
+<!-- END: IndieClick Pixel --><!-- INCK -->
+
+<!-- Javascript tag: -->
+<!-- begin ZEDO for channel: Village Voice , publisher: Village Voice , Ad Dimension: Pixel/Popup - 1 x 1 -->
+<script language="JavaScript">
+var zflag_nid="305"; var zflag_cid="3279/1"; var zflag_sid="977"; var zflag_width="1"; var zflag_height="1"; var zflag_sz="15";
+</script>
+<script language="JavaScript" src="http://c5.zedo.com/jsc/c5/fo.js"></script>
+<!-- end ZEDO for channel: Village Voice , publisher: Village Voice , Ad Dimension: Pixel/Popup - 1 x 1 -->
+<!-- /p/af/v/e/PaperSiteJS -->
+
+
+
+</div><!-- outerBody -->
+<script type="text/javascript">
+ $("img.lazy").lazyload({failure_limit: 6});
+</script>
+</body>
+</html>

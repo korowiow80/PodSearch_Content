@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+    <title>Zahnarztpraxis Andreas Kanev - Zahnarztpraxis Andreas Kanev Bad Mergentheim</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="content-language" content="de" />
+
+<meta name="description" content="Startseite der Zahnarztpraxis Kanev | Ihre Zahn&auml;rzte in Bad Mergentheim; Homepage mit Informationen &uuml;ber ganzheitliche, qualitativ hochwertige Zahnheilkunde, Zahnmedizin" />
+<meta name="keywords" content="Zahnarztpraxis Bad Mergentheim, Zahnarzt Bad Mergentheim, Endodontie, Endotontologe, Parodontologe, Hypnose, Zahnarzt, Zahnmedizin, Bad Mergentheim, Akupunktur, Naturheilkunde, Inlays, Veneers, ganzheitliche Zahnmedizin, Implantologie, Implantate" />
+<meta name="generator" content="cms2day 3.9.5" />
+<meta name="page-type" content="information" />
+<meta name="doc-type" content="Web Page" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="7 days" />
+<meta name="resource-type" content="document" />
+<meta name="language" content="de" />
+
+<meta name="verify-key" content="21a6973ec2:06ef50941b" />
+
+<link rel="stylesheet" type="text/css" href="http://www.natuerlich-im-mund.de/includes/templates/zahnarztpraxis_kanev_home/css/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.natuerlich-im-mund.de/includes/misc/lytebox/lytebox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="http://www.natuerlich-im-mund.de/includes/misc/misc.css" media="screen" />
+
+<script type="text/javascript" src="http://www.natuerlich-im-mund.de/includes/misc/lytebox/lytebox.js"></script>
+
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="http://www.natuerlich-im-mund.de/includes/misc/ie6/ie6.css.php?url=http://www.natuerlich-im-mund.de" media="screen" />
+<![endif]-->
+
+    <script type="text/javascript" src="/includes/templates/zahnarztpraxis_kanev_home/script/jquery-1.7.2.js"></script>
+        <script type="text/javascript">
+
+/*** 
+    Simple jQuery Slideshow Script
+    Released by Jon Raasch (jonraasch.com) under FreeBSD license: free to use or modify, not responsible for anything, etc.  Please link out to me if you like it :)
+***/
+
+function slideSwitch() {
+    var $active = $('#slider IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slider IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slider IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+</script>
+<link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="container">
+    	<div id="header">
+    		<div id="logo" class="left">
+    			<a href="http://www.natuerlich-im-mund.de"><img src="http://www.natuerlich-im-mund.de/includes/templates/zahnarztpraxis_kanev_home/images/logo_kanev.png" alt="Zahnarztpraxis Andreas Kanev Bad Mergentheim" /></a>    		</div>
+    		<div id="nav" class="right">
+                <ul>
+
+   <li class="first"><a href="http://www.natuerlich-im-mund.de/1.startseite/" class="aktiv" target="_self" title="Zahnarztpraxis Andreas Kanev"><span>Startseite</span></a></li>
+   <li class="middle"><a href="http://www.natuerlich-im-mund.de/29.team/" target="_self" title="Team"><span>Team</span></a></li>
+   <li class="middle"><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/" target="_self" title="Behandlung von A-Z"><span>Behandlung von A-Z</span></a></li>
+   <li class="middle"><a href="http://www.natuerlich-im-mund.de/32.sprechzeiten/" target="_self" title="Sprechzeiten"><span>Sprechzeiten</span></a></li>
+   <li class="middle"><a href="http://www.natuerlich-im-mund.de/46.blog/" target="_self" title="Blog"><span>Blog</span></a></li>
+   <li class="last"><a href="http://www.natuerlich-im-mund.de/47.download/" target="_self" title="Download"><span>Download</span></a></li>
+
+</ul>
+    		</div>
+            <div class="clear"></div>
+    	</div>
+        
+        <div id="main">
+            <div id="teaser" class="left">
+            <div id="slider">
+                <img src="/includes/templates/zahnarztpraxis_kanev_home/images/slider1.png" alt="Slider1" class="active" />
+                <!--<img src="/includes/templates/zahnarztpraxis_kanev_home/images/slider2.png" alt="Slider2" />-->
+                <img src="/includes/templates/zahnarztpraxis_kanev_home/images/slider3.png" alt="Slider2" />
+                <img src="/includes/templates/zahnarztpraxis_kanev_home/images/slider4.png" alt="Slider3" />
+            </div>
+                <div id="slider_behandlung"><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/"><img src="/includes/templates/zahnarztpraxis_kanev_home/images/button_behandlung.png" alt="Unsere Behandlungen" title="Unsere Behandlungen" /></a></div>
+                <div id="slider_ueberuns"><a href="http://www.natuerlich-im-mund.de/29.team/"><img src="/includes/templates/zahnarztpraxis_kanev_home/images/button_ueberuns.png" alt="Erfahren Sie mehr über uns" title="Erfahren Sie mehr über uns" /></a></div>
+            </div>
+            <div id="content" class="right">
+                <div id="telefon_content">
+                    <div id="telefon_frage" class="left">
+                        <p>Bei Fragen rufen Sie uns doch gerne an!</p>
+                    </div>
+                    <div id="telefon_nummer" class="right">
+                        <p>07931 / 7484</p>
+                    </div>
+                </div>
+                <div id="content_inhalt">
+                    <h1> Willkommen auf <span>Natürlich im Mund!</span></h1>
+                    <p>Wirkliche Gesundheit ist mehr als das Nichtvorhandensein von Krankheit. Gesundheit ist das Vorhandensein von Lebendigkeit, Energie und Lebensfreude.</p>
+                <br />
+                <p>Unsere Philosophie leben wir.</p>
+                <p>Die Zahnheilkunde ist stetig in Bewegung.</p>
+                <br />
+                <p>Dies trifft insbesondere für den Fortschritt in unserem Fachgebiet und damit für die Verbesserung Ihrer Behandlungsmöglichkeiten zu.</p>
+                <br />
+                <p>Zahnerhaltung, Ästhetik und Vitalität bis in das hohe Alter sind heute keine utopischen Wünsche mehr, sondern im Rahmen einer qualitätsorientierten Zahnheilkunde erreichbare Ziele für alle unsere Patienten.</p>
+                    <div class="button_all"><a href="http://www.natuerlich-im-mund.de/29.team/">zum Team</a></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            
+            <div id="subcontent">
+                <div id="colum1" class="left">
+                    <h1>Unsere <span>Leistungen</span></h1>
+                    <ul>
+                        <li><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/">Hypnose</a></li>
+                        <li><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/">Bleichen</a></li>
+                        <li><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/">Akupunktur</a></li>
+                        <li><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/">Schnarchhilfen</a></li>
+                        <li><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/">Professionelle Beratung</a></li>
+                    </ul>
+                    <div class="button_all"><a href="http://www.natuerlich-im-mund.de/30.behandlung-von-a-z/">mehr Erfahren</a></div>
+                </div>
+                <div id="colum2" class="left">
+                    <h1>Aktuelle <span>Neuigkeiten</span></h1>
+                    <p><p><span style="font-size: small;"><strong>18.4.12</strong> Neue Homepage Online!</span></p>
+<p><span style="font-size: small;"><em><strong>�</strong></em></span></p>
+<p><span style="font-size: small;"><strong>18.4.12</strong> Besuchen Sie uns auch auf Facebook<strong></strong><em><strong>�</strong></em></span></p>
+<p><span style="font-size: medium;"><em><strong>�</strong></em></span></p>
+<p><span style="font-size: medium;"><em><strong><a href="http://de-de.facebook.com/pages/Zahnarztpraxis-A-Kanev/209660565773447" title="Zahnarztpraxis Kanev auf Facebook" target="_blank"><img title="Facebook" src="http://www.natuerlich-im-mund.de/includes/media/f_logo.png" width="60" height="60" alt="f_logo.png" /></a>�</strong></em></span></p></p>
+                   <!-- <div class="button_all"><a href="?PHPSESSID=b7039c5e835e08d51efc866501d660a5">weiterlesen</a></div> -->
+                </div>
+                <div id="colum3" class="right">
+				    <h1>Wir beraten <span>Sie gerne</span></h1>
+                    <div id="modul"><div id="modul_kontaktformular"><table width="100%" class="inlay" cellspacing="0" cellpadding="0" border="0" summary="text">
+<tr>
+<td align="left">
+<form name="kontaktformular" method="post" action="http://www.natuerlich-im-mund.de/1.startseite/senden/"><input type="hidden" name="PHPSESSID" value="b7039c5e835e08d51efc866501d660a5" /><input type="text" name="data_1" class="name" value="Ihr Name" onblur="if (this.value=='') this.value='Ihr Name';" onfocus="if (this.value=='Ihr Name') this.value='';" /><input type="text" name="data_2" class="email" value="Ihre eMail Adresse" onblur="if (this.value=='') this.value='Ihre eMail Adresse';" onfocus="if (this.value=='Ihre eMail Adresse') this.value='';" /><input type="text" name="data_3" class="website" value="Ihre Webseite" onblur="if (this.value=='') this.value='Ihre Webseite';" onfocus="if (this.value=='Ihre Webseite') this.value='';" /><input type="text" name="data_4" class="tel" value="Ihre Telefonnummer" onblur="if (this.value=='') this.value='Ihre Telefonnummer';" onfocus="if (this.value=='Ihre Telefonnummer') this.value='';" /><input type="text" name="data_5" class="betreff" value="Betreff Ihrer Nachricht" onblur="if (this.value=='') this.value='Betreff Ihrer Nachricht';" onfocus="if (this.value=='Betreff Ihrer Nachricht') this.value='';" /><textarea name="data_6" class="nachricht" rows="0" cols="0" onblur="if (this.value=='') this.value='Ihre Nachricht';" onfocus="if (this.value=='Ihre Nachricht') this.value='';">Ihre Nachricht</textarea><input type="hidden" name="spam_id" value="1" />
+<input type="text" name="spamschutz" class="formular" value="Kontaktanfrage" onblur="if (this.value=='') this.value='Kontaktanfrage';" onfocus="if (this.value=='Kontaktanfrage') this.value='';" />
+<table cellspacing="0" cellpadding="0" summary="text"><tr><td style="padding: 0px 10px 0px 0px;" align="left"><span class="button"><input type="image" src="/includes/templates/zahnarztpraxis_kanev_home/images/button_senden.png?PHPSESSID=b7039c5e835e08d51efc866501d660a5" value="Nachricht absenden!" class="senden" /></span></td><td style="padding: 0px;" align="left"><table cellspacing="0" cellpadding="0" summary="text"><tr><td><input type="checkbox" name="bestaetigung" value="true" title="Sendebest&auml;tigung erhalten" /></td><td>&nbsp;Sendebest&auml;tigung erhalten</td></tr></table></td></tr></table></form>&nbsp;</td>
+</tr>
+</table>
+</div></div>                </div>
+                <div class="clear"></div>
+            </div>
+    	</div>
+        
+    	<div id="footer">
+            <div id="copyright" class="left">
+                <p><span style="color: #c0c0c0; font-family: Arial, sans-serif; font-size: 11px; line-height: normal; text-align: -webkit-auto;">&copy; 2012 Nat&uuml;rlich im Mund &ndash; </span><span style="color: #c0c0c0; font-family: Arial, sans-serif; font-size: 11px; line-height: normal; text-align: -webkit-auto;">www.natuerlich-im-mund.de</span></p>
+                 <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FZahnarztpraxis-A-Kanev%2F209660565773447&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px; margin: 2px 0 0 0;" allowTransparency="true"></iframe>
+    		</div>
+    		<div id="footer_menu" class="right">
+    			<ul>
+    				<li><a href="http://www.natuerlich-im-mund.de/33.impressum/">Impressum</a></li>
+    				<li>|</li>
+    				<li><a href="#">nach oben</a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>

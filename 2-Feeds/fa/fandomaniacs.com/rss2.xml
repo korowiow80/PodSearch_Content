@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>We couldn't find it!</title>
+    <link rel="stylesheet" href="/stylesheets/mini.css">
+  </head>
+  <body>
+    <div id="mini_inner" class="centered">
+      <img src="/images/mini/alert.png" alt="" class="alert">
+      <h1>Oh no! We couldn't find your page.</h1>
+      <p>This page may not exist anymore, or the URL may have been misspelled. Either way, we are sorry. To get you back on your feet, why don't you <a href="http://examples.posterous.com/">check out some awesome Spaces</a>.</p>
+    </div>
+    <div class="bottom">
+      <a href="http://posterous.com" class="mini_logo">Posterous Spaces</a>
+    </div>
+    <script src="/javascripts/jquery/jquery-1.5.2.min.js"></script>
+    <script src="/javascripts/mini.js"></script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-4054156-1']);
+      _gaq.push(['_trackPageview', "/404.html?page=" + document.location.hostname + '/' + document.location.pathname + document.location.search + "&from=" + document.referrer]);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <script type="text/javascript">
+      var mpq = [];
+      mpq.push(["init", "9a3025103118d0cfb3f778328f140ccb"]);
+      (function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+      mpq.track("User Encountered Error", {type: "404"});
+    </script>
+  </body>
+</html>

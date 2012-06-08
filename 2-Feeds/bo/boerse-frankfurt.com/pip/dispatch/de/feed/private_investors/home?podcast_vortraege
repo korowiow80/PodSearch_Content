@@ -1,0 +1,1410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>404</title>
+		<link href="/images/favicon.ico" rel="shortcut icon"/>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<link type="text/css" rel="stylesheet" href="/css/thickbox.css?c=13"/>
+		<link type="text/css" rel="stylesheet" href="/css/100125_02.css?v=1&amp;c=13"/>
+		<link type="text/css" rel="stylesheet" href="/css/TableColumn.css?c=13"/>
+		<link type="text/css" rel="stylesheet" media="print" href="/css/print100125_01.css?c=13"/>
+		<!--[if IE 6]>
+		<link type="text/css" rel="stylesheet" href="/css/printmodeIE6.css?c=13"/>
+		<![endif]-->
+		<link type="text/css" rel="stylesheet" href="/css/redesignAdditions.css?c=13"/>
+		<!--[if IE 6]>
+		<link type="text/css" rel="stylesheet" href="/css/Template/IE6.css?c=13"/>
+		<![endif]-->
+		<!--[if IE 7]>
+		<link type="text/css" rel="stylesheet" href="/css/Template/IE7.css?c=13"/>
+		<![endif]-->
+		<!--[if IE 8]>
+		<link type="text/css" rel="stylesheet" href="/css/Template/IE8.css?c=13"/>
+		<![endif]-->
+
+		<link type="text/css" href="/css/ui-lightness/jquery-ui-1.8.16.custom.css?c=13" rel="Stylesheet" />
+        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet"/>
+        <script src="http://vjs.zencdn.net/c/video.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        var arcmslang = '1';
+        </script>
+
+		<script type="text/javascript" src="/js/jquery-1.7.1.js?c=512"></script>
+		<script type="text/javascript" src="/js/jquery-ui-1.8.16.custom.min.js?c=512"></script>
+		<script type="text/javascript" src="/js/flot/jquery.flot.js?c=512"></script>
+		<script type="text/javascript" src="/js/json2.js?c=512"></script>
+		<script type="text/javascript" src="/js/flot/jquery.flot.selection.js?c=512"></script>
+		<script type="text/javascript" src="/js/html5_chart.js?c=512"></script>
+		<!--[if lte IE 8]>
+		<script type="text/javascript" src="/js/flot/excanvas.min.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="/js/format.js?c=512&amp;lang=1"></script>
+		<script type="text/javascript" src="/js/ArivaPushCallback.js?c=512&amp;domain=ariva.de"></script>
+		<script type="text/javascript" src="/js/ArivaPush2012.js?c=512&amp;domain=ariva.de"></script>
+		<script type="text/javascript" src="/de/js/global.js?c=512"></script>
+		<script type="text/javascript" src="/de/js/search.js?c=512"></script>
+		<script type="text/javascript" src="/js/jquery.tablesorter.js?c=512" ></script>
+		<script type="text/javascript" src="/js/advancedTablesorter.js?c=512"></script>
+		<script type="text/javascript" src="/js/advancedTablesorter2.js?c=512"></script>
+
+
+		<script type="text/javascript" src="/js/flowplayer.js?c=512"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			var Ads_BA_ADIDsite="boerse-frankfurt.de"; 
+			var Ads_BA_ADIDsection="rotation"; // Rubrikkuerzel
+			var Ads_BA_keyword=''; // Targeting-Kriterium
+		/* ]]> */
+		</script>
+		<script type="text/javascript" src="/js/adlib.js?c=512"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			var ap=new ArivaPush( { 
+								domain:            "boerse-frankfurt.de"
+				,optServerLogin:   'std4bfpr'
+				,optServerPort:     80
+				,optServerPrefix:  'streaming'           // previous push with 80, streaming with 8081
+				,optColorActive:   '#666'
+				,optColorPlus:     '#060'
+				,optColorMinus:    '#c00'
+				,optColorNeutral:  '#666'
+
+				,optColorChRelPos: '#060' // '#0FF'
+				,optColorChRelNeg: '#C00' // '#00F'
+
+	,optBlinkTime: 700
+	,blink1_off: function(target) {
+		if(typeof(target)===undefined) {/*console.log("undefined");*/return;}
+		if(!target)                    {/*console.log("unset");console.log(target);*/return;}
+		target['t'].style.color = target.col || '#000000';
+	}
+	,blink1_on: function(target,value) {
+		if(typeof(target)===undefined) {/*console.log("undefined");*/return;}
+		if(!target)                    {/*console.log("unset");console.log(target);*/return;}
+		if(!target.lastValue)          {/*console.log("nolastValue");*/return;}
+		var color = value > target.lastValue ? this.optColorPlus 
+			: value < target.lastValue ? this.optColorMinus 
+			: this.optColorNeutral
+		;
+		target['t'].style.color=color;
+		return true;
+	}
+
+	,blink2_off: function(target) {
+		if(typeof(target)===undefined) {/*console.log("undefined");*/return;}
+		if(!target)                    {/*console.log("unset");console.log(target);*/return;}
+		target['t'].style.color = target.col || '#000000';
+	}
+	,blink2_on: function(target,value) {
+		if(typeof(target)===undefined) {/*console.log("undefined");*/return;}
+		if(!target)                    {/*console.log("unset");console.log(target);*/return;}
+		if(!target.lastValue)          {/*console.log("nolastValue");*/return;}
+		if(value == target.lastValue)   {/*console.log("noChange");*/return;}
+		var color = value > target.lastValue ? this.optColorPlus 
+			: value < target.lastValue ? this.optColorMinus 
+			: ''
+		;
+		target['t'].style.color=color;
+		return true;
+	}
+
+
+
+	,blink3_off: function(target) {
+		if(typeof(target)===undefined) {/*console.log("undefined");*/return;}
+		if(!target)                    {/*console.log("unset");console.log(target);*/return;}
+		$(target['t']).css("font-weight","normal");
+	}
+	,blink3_on: function(target,value) {
+		if(typeof(target)===undefined) {/*console.log("undefined");*/return;}
+		if(!target)                    {/*console.log("unset");console.log(target);*/return;}
+		if(!target.lastValue)          {/*console.log("nolastValue");*/return;}
+		if(value == target.lastValue)   {/*console.log("noChange");*/return;}
+		$(target['t']).css("font-weight","bold");
+		return true;
+	}
+	
+	
+	,blink4_on: function(target,value) {
+		var old_class   = $(target['t']).hasClass('upup')     ? 'upup'
+			:         $(target['t']).hasClass('up')       ? 'up'
+			:         $(target['t']).hasClass('nch')      ? 'nch'
+			:         $(target['t']).hasClass('down')     ? 'down'
+			:         $(target['t']).hasClass('downdown') ? 'downdown'
+			:         undefined
+		;
+		if ( old_class!==undefined ) {
+warn_debug ("computing new class for "+value, 4, 'PUSHCALLV');
+			var new_class = new Format().class_chlvl( value );
+			if (new_class!=old_class) {
+warn_debug ("deleting old class "+old_class, 2, 'PUSHCALLV');
+				$(target['t']).removeClass( old_class );
+warn_debug ("setting new class "+new_class,  2, 'PUSHCALLV');
+				$(target['t']).addClass(    new_class );
+			}else{
+warn_debug ("new class class "+new_class+" = "+old_class+" old class ==> no change",  3, 'PUSHCALLV');
+			}
+		}else{
+warn_debug ("no upup up nch down downdown in "+$(target['t']).attr('class'),  4, 'PUSHCALLV');
+		}
+
+
+		old_class = $(target['t']).hasClass('ppos') ? 'ppos'
+			:   $(target['t']).hasClass('pneg') ? 'pneg'
+			:   $(target['t']).hasClass('pnch') ? 'pnch'
+			:   undefined
+		;
+		if ( old_class!==undefined ) {
+warn_debug ("computing new class for "+value, 4, 'PUSHCALLV');
+			var new_class = new Format().class_chabs( value );
+			if (new_class!=old_class) {
+warn_debug ("deleting old class "+old_class,2, 'PUSHCALLV');
+				$(target['t']).removeClass( old_class );
+warn_debug ("setting new class "+new_class, 2, 'PUSHCALLV');
+				$(target['t']).addClass(    new_class );
+			}else{
+warn_debug ("new class class "+new_class+" = "+old_class+" old class ==> no change",  3, 'PUSHCALLV');
+			}
+		}else{
+warn_debug ("no ppos pneg pnch in "+$(target['t']).attr('class'),  4, 'PUSHCALLV');
+		}
+		return true;		
+	}
+		
+
+			} ); 
+			setTimeout(function() { location.reload() }, 60000*120);
+		/* ]]> */
+		</script>
+		<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<style type="text/css">
+			.greenNav a:hover { background: url("/images/newdesign/nav_active_green.gif") repeat-x scroll right center transparent !important; }
+			.greenNav .current { background: url("/images/newdesign/nav_active_green.gif") repeat-x scroll right center transparent !important; }
+			.customPlaceholderText { color:#aaa; }
+			.errorBorder { color:red; }
+			#axaxhauptdialog {  position: fixed; left: 20px; top: 20px; padding: 5px; z-index: 999 }
+		</style>
+	</head>
+	<body onload="window.setTimeout('if(typeof(ZeitAnzeigen)==\'function\'){ZeitAnzeigen()}',1000)" >
+
+		<div style="position:absolute; left:-1024px;">
+			<script type="text/javascript">
+			/* <![CDATA[ */
+				var IVW="http://boersefr.ivwbox.de/cgi-bin/ivw/CP/sonstiges";
+				document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&amp;d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" />");
+			/* ]]> */
+			</script>
+			<noscript>
+				<img src="http://boersefr.ivwbox.de/cgi-bin/ivw/CP/sonstiges" width="1" height="1" alt="szmtag" />
+			</noscript>
+		</div>
+
+		<script type="text/javascript" language="Javascript">
+			$(document).ready(function() {
+				$.ajaxSetup({ 
+					cache: false, 
+					timeout: 150000 });
+			});
+		</script>
+
+
+		<script type="text/javascript" language="Javascript">
+		/* <![CDATA[ */
+			var szmvars="boersefr//CP//sonstiges";
+		/* ]]> */
+		</script>
+		<script src="http://boersefr.ivwbox.de/2004/01/survey.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var patt1=/rzki.ariva.de/gi;
+	var patt2=/europa.ariva.de/gi;
+	if ( document.domain !=  'www.boerse-frankfurt.de'  
+	&&   document.domain != 'test.boerse-frankfurt.de' 
+	&&   document.domain !=   'd2.boerse-frankfurt.de' 
+	&& (! document.domain.match(patt1)) && (! document.domain.match(patt2))  
+	) {
+		window.location.href='http://www.boerse-frankfurt.de/de/seite+nicht+gefunden';
+	}
+	document.domain='boerse-frankfurt.de';
+/* ]]> */
+</script>
+
+<div class="viewport">
+	<div class="page">
+		<div class="left-area">
+			<div class="wallpaper">
+				<div id="Ads_BA_BS">
+<script type="text/javascript">
+	Ads_BA_AD('BS');
+</script>
+<noscript>
+	<a href="http://ad.de.doubleclick.net/jump/P4574.boerse-frankfurt.de/noscript;tile=1;sz=728x90,468x60;ord=1339031001.80991?"><img src="http://ad.de.doubleclick.net/ad/P4574.boerse-frankfurt.de/noscript;tile=1;sz=728x90,468x60;ord=1339031001.80991?" border="0" alt="Werbeeinblendung" /></a>
+</noscript>
+</div>
+
+
+
+
+
+			</div>
+			<div id="container">
+				<div id="header-print">
+					<img height="55" width="214" alt="B&ouml;rse Frankfurt" src="/images/newdesign/dbfr_logo.gif"/>
+				</div>
+				<div id="header">
+					<div class="headertop"></div>
+					<div class="headerbox">
+						<div class="header headerDE">
+							<div class="headerdate clock" id="clock">&nbsp;
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	function ZeitAnzeigen(){
+        var d = new Date();
+        var localTime = d.getTime();
+        var localOffset = d.getTimezoneOffset() * 60000;
+        var utc = localTime + localOffset;
+        var germanTime = utc + 3600000 + 3600000;
+        
+        var Jetzt=new Date(germanTime);
+		var Stunden=Jetzt.getHours();
+		var Minuten=Jetzt.getMinutes();
+		var Sekunden=Jetzt.getSeconds();
+		var Uhrzeit=((Stunden<10)?"0":"") + Stunden + ((Minuten<10)?":0":":") + Minuten + ((Sekunden<10)?":0":":") + Sekunden;
+		document.getElementById("clock").innerHTML=Uhrzeit+" MEZ";
+		window.setTimeout("ZeitAnzeigen()",1000);
+	}
+/* ]]> */
+</script>
+							</div>
+							<div class="headertxt">
+							Willkommen bei der B&ouml;rse Frankfurt
+							 </div>
+							<div class="headerlogo">
+								<a href="/de/start"><img style="height:55px; width:214px" alt="Xetra B&ouml;rse Frankfurt" src="/images/newdesign/dbfr_logo.gif"/></a>
+							</div>
+							<div>
+								
+
+	<div class="headerticker realpush" id="headerticker">
+			
+	<div class="tickerbox">
+		<a href="/de/aktien/indizes/dax+DE0008469008">
+			<span style="font-weight:bold">DAX</span><br/>
+			<span class="arp_290@12_p_compute=changerel_base=5969.4_format=security-change-rel_par1=IND" >2,08%</span><br/>
+			<span class="arp_290@12_p_format=security-price_par1=IND_blink_nozero">6.093,99</span>
+		</a>
+	</div>
+		
+	
+			
+	<div class="tickerbox">
+		<a href="/de/aktien/indizes/mdax+DE0008467416">
+			<span style="font-weight:bold">MDAX</span><br/>
+			<span class="arp_3491@12_p_compute=changerel_base=9733.42_format=security-change-rel_par1=IND" >3,10%</span><br/>
+			<span class="arp_3491@12_p_format=security-price_par1=IND_blink_nozero">10.036,10</span>
+		</a>
+	</div>
+		
+	
+			
+	<div class="tickerbox">
+		<a href="/de/aktien/indizes/tecdax+DE0007203275">
+			<span style="font-weight:bold">TecDAX</span><br/>
+			<span class="arp_59794@12_p_compute=changerel_base=716.38_format=security-change-rel_par1=IND" >2,76%</span><br/>
+			<span class="arp_59794@12_p_format=security-price_par1=IND_blink_nozero">736,22</span>
+		</a>
+	</div>
+		
+	
+			
+	<div class="tickerbox">
+		<a href="/de/aktien/indizes/euro+stoxx+50+EU0009658145">
+			<span style="font-weight:bold">Euro Stoxx 50</span><br/>
+			<span class="arp_5851@127_p_compute=changerel_base=2087.31_format=security-change-rel_par1=IND" >2,41%</span><br/>
+			<span class="arp_5851@127_p_format=security-price_par1=IND_blink_nozero">2.137,73</span>
+		</a>
+	</div>
+		
+	
+			
+	<div class="tickerbox">
+		<a href="/de/aktien/indizes/nasdaq+100+US6311011026">
+			<span style="font-weight:bold">NASDAQ 100</span><br/>
+			<span class="arp_5873@72_p_compute=changerel_base=2487.5_format=security-change-rel_par1=IND" >2,36%</span><br/>
+			<span class="arp_5873@72_p_format=security-price_par1=IND_blink_nozero">2.546,32</span>
+		</a>
+	</div>
+		
+	
+			
+	<div class="tickerbox">
+		<a href="/de/aktien/indizes/dow+jones+US2605661048">
+			<span style="font-weight:bold">Dow Jones </span><br/>
+			<span class="arp_4325@71_p_compute=changerel_base=12127.95_format=security-change-rel_par1=IND" >2,36%</span><br/>
+			<span class="arp_4325@71_p_format=security-price_par1=IND_blink_nozero">12.414,79</span>
+		</a>
+	</div>
+		
+	
+		<div class="tickeredit">
+		    <a class="thickbox headerTickerxx123123_sw_show_dialog" href="testindex"><img class="bttn-edit" alt="Ausw&auml;hlen" title="Ausw&auml;hlen" src="/images/newdesign/non.gif"/></a>
+		</div>
+	</div>
+	
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	$(document).ready(function() {
+	
+	var check_anzahl_mi = function () {
+		var anzahl_markindikatoren = $('#headerTickerxx123123_sw_tbl_markt_indikatoren').find('tr').length;
+		anzahl_markindikatoren -= 1; /*da tabellenueberschrift*/
+		
+		if (anzahl_markindikatoren == 6){
+			$('#headerTickerxx123123_sw_mi_suche').hide();
+		} else {
+			$('#headerTickerxx123123_sw_mi_suche').show();
+		}
+	}
+	
+	check_anzahl_mi();
+
+
+	customPlaceholderText($("#QueryInput"), "Name/ISIN/WKN");
+	customPlaceholderText($("#QueryInput2"), "Stichwort");
+
+	$(".headerTickerxx123123_sw_show_dialog").click(function() {
+
+	$(function() {
+		// a workaround for a flaw in the demo system (http://dev.jqueryui.com/ticket/4375), ignore!
+		$( "#headerTickerxx123123_sw_dialog-modal:ui-dialog" ).dialog( "destroy" );
+	
+
+	
+		$( "#headerTickerxx123123_sw_dialog-modal" ).dialog({
+			width: 800,
+			modal: true
+		});
+	
+	});
+    
+	$('.ui-widget-header').css('display','none');
+      $('.headerTickerxx123123_sw_a_close_popup').blur();
+     
+     return false;
+   });
+	
+	$(".headerTickerxx123123_sw_btn_cancel").click(function() {
+		$("#headerTickerxx123123_sw_dialog-modal").dialog('close');
+	});
+
+   	$(".headerTickerxx123123_sw_a_close_popup").click(function() {
+
+		$("#headerTickerxx123123_sw_dialog-modal").dialog('close');
+	});
+
+	var styleTable = function (){
+		check_anzahl_mi(); /*nach jeder veraenderung pruefen, ob das suchfeld noch eingeblendet werden soll*/
+		var count = 0;
+        var count_ges =  $('#headerTickerxx123123_sw_tbl_markt_indikatoren').find('tr').length;
+        $('#headerTickerxx123123_sw_tbl_markt_indikatoren').find('tr').each(function(){
+		if(count % 2 == 0){
+					$(this).addClass('odd');
+		} else {
+					$(this).removeClass('odd');
+
+		}
+		if(count == 1){
+
+			$(this).find('td').each(function(){
+				$(this).addClass('first');
+				$(this).find('.upup').remove();
+		});
+		} else if (count == count_ges - 1) {
+			$(this).find('td').each(function(){
+				$(this).find('.downdown').remove();
+			});
+		} else {
+			$(this).find('td').each(function(){
+				$(this).find('input.upup').remove();
+				$(this).find('input.downdown').remove();
+
+				
+				if ($(this).hasClass('column-up')){
+					$(this).parent().find('.column-up').append('<input type="image" title="Hoch" class="upup" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />');
+				}
+				if ($(this).hasClass('column-down')){
+					$(this).parent().find('.column-down').append('<input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />');
+				}
+				
+				$(this).removeClass('first');
+			});
+		}
+
+		count++;
+       	}); 
+	};
+
+    $("#headerTickerxx123123_sw_tbl_markt_indikatoren .upup, #headerTickerxx123123_sw_tbl_markt_indikatoren .downdown").live('click',function(){
+        var row = $(this).closest('tr');
+        if ($(this).is(".upup")) {
+            row.insertBefore(row.prev());
+        } else {
+            row.insertAfter(row.next());
+        }
+        styleTable();
+    });
+    
+    $(".removeTableRow").live('click',function(){
+		var row = $(this).parents("tr:first");
+		row.remove();
+        styleTable();
+    });
+    
+    var headerTickerxx123123_sw_AGS = '';
+    
+	var save_sorted_ags = function(){
+		$.ajax({
+				url:'/parts/boxes/marktindikatoren/process_data.m',
+				data: {
+					ag_list:		headerTickerxx123123_sw_AGS,
+					user:			'sss',
+					COMPONENT_ID:	'headerTickerxx123123_sw',
+					indicator_name: 'HeaderTicker'
+				},
+				success: function(data){
+				}
+			});	
+	};
+	
+	var do_search = function(SuchBegriff){
+		var SearchName = $('.headerTickerxx123123_sw_inpt_searchname').val();
+				$.ajax({
+				url:'/parts/boxes/marktindikatoren/process_search.m',
+				data: {
+					searchname:		SuchBegriff,
+					COMPONENT_ID:	'headerTickerxx123123_sw'
+				},
+				success: function(data){
+					var result = $.trim(data);
+					if (result == 'noMatch'){
+						$('.headerTickerxx123123_sw_dv_noresult').show('fast');
+					} else {
+						var csv_data = result.split(',');
+						 $('#headerTickerxx123123_sw_tbl_markt_indikatoren tr:eq(1)').before('<tr><td title="DAX"><a onclick="javascript:self.parent.location=&quot;/DE/index.aspx?pageID=82&amp;ISIN=DE0008469008&quot;" name="' + csv_data[0] + '">' + csv_data[1] + '</a></td><td class="column-up"></td><td class="column-down"><input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" /></td><td class="column-delete lastColOfRow"><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td></tr>');
+					}
+			        styleTable();
+				}
+			});	
+	};
+    
+	$(".headerTickerxx123123_sw_btn_submit").click(function(){
+		var z = 0;
+		$('#headerTickerxx123123_sw_tbl_markt_indikatoren').find('tr').each(function(){
+			if(z > 0){
+				if ($(this).find('a').attr('name')){
+					headerTickerxx123123_sw_AGS += $(this).find('a').attr('name') + ', ';
+				};
+			};
+			z++;
+		});
+		save_sorted_ags();
+		setTimeout(function(){this.document.location.reload();}, 4000);
+		$("#dialog-modal").dialog('close');
+
+	});
+	
+	$(".btn_search_headerTickerxx123123_sw").click(function(){
+		var SearchName = $('.headerTickerxx123123_sw_inpt_searchname').val();
+		do_search(SearchName);
+	});
+	
+	
+	
+	
+});
+/* ]]> */
+</script>
+
+	
+<div id="headerTickerxx123123_sw_dialog-modal" style = " display:none ">
+	<div id="ctl00_contentDiv" class="content modalPopup">
+		<a id="top" href="#" ></a>
+		<div id="ctl00_FullZone">
+			<div class="wrap">
+			</div>
+			<div id="TB_window" style="display: block; ">
+				<div id="TB_title" class="iframe">
+					<div id="TB_ajaxWindowTitle"></div>
+					<div id="TB_closeAjaxWindow">
+						<a href="#" id="TB_closeWindowButton" class="headerTickerxx123123_sw_a_close_popup" title="Close">Schlie&szlig;en</a>
+					</div>
+				</div>
+
+<div class="fullbox formbox search" style="background-color: #ffffff; width: 720px;">
+	<p>
+		Sie k&#246;nnen Marktindikatoren auf der Startseite nach Ihren Bed&#252;rfnissen anpassen. W&#228;hlen Sie bis zu zehn Indizes, Wertpapiere oder andere Marktindikatoren. Wenn Sie sich im Portal - kostenlos - anmelden, dann bleibt Ihre Auswahl erhalten. <a title="Zur Registrierung" href="/de/services/registrierung"><img class="bttn-more" src="/images/newdesign/non.gif" alt="Zur Registrierung" style="border-width:0px;" /></a>
+	</p>
+	<div id="headerTickerxx123123_sw_mi_suche">
+		<div class="label">
+			<label><span>ISIN, WKN oder Symbol</span></label><button class="submit btn_search_headerTickerxx123123_sw" style="margin-top: 0px; float: right; color: #FFFFFF!important"><b>Suchen</b></button><input name="searchname" type="text" class="ffield headerTickerxx123123_sw_inpt_searchname" />
+			<div class="headerTickerxx123123_sw_dv_noresult" style="display: none">
+				<span style="color: #FF0000"><br />Es wurde kein Suchergebnis gefunden.</span>
+			</div>
+		</div>
+		<div class="wrap">
+		</div>
+	</div>
+	<div id="ctl00_WebPartManager_wp465876991_wp1173877389_ctl05_GridContainer">
+
+		<table class="single" id="headerTickerxx123123_sw_tbl_markt_indikatoren">
+			<thead>
+				<tr>
+					<th class="column-name">Name</th><th class="column-up">Hoch</th><th class="column-down">Runter</th><th class="column-delete lastColOfRow">Entfernen</th>
+				</tr>
+			</thead>
+
+			<tr >
+				<td class="first" title="DAX">
+					<a onclick="javascript:self.parent.location=&quot;/de/aktien/indizes/dax+DE0008469008&quot;" name="290">DAX</a>
+				</td>
+				<td class="column-up first">
+				</td>
+				<td class="column-down first">
+						<input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-delete lastColOfRow first"><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td>
+			</tr>
+			<tr class="odd">
+				<td  title="MDAX">
+					<a onclick="javascript:self.parent.location=&quot;/de/aktien/indizes/mdax+DE0008467416&quot;" name="3491">MDAX</a>
+				</td>
+				<td class="column-up ">
+						<input type="image" title="Hoch" class="upup" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-down ">
+						<input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-delete lastColOfRow "><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td>
+			</tr>
+			<tr >
+				<td  title="TecDAX">
+					<a onclick="javascript:self.parent.location=&quot;/de/aktien/indizes/tecdax+DE0007203275&quot;" name="59794">TecDAX</a>
+				</td>
+				<td class="column-up ">
+						<input type="image" title="Hoch" class="upup" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-down ">
+						<input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-delete lastColOfRow "><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td>
+			</tr>
+			<tr class="odd">
+				<td  title="Euro Stoxx 50">
+					<a onclick="javascript:self.parent.location=&quot;/de/aktien/indizes/euro+stoxx+50+EU0009658145&quot;" name="5851">Euro Stoxx 50</a>
+				</td>
+				<td class="column-up ">
+						<input type="image" title="Hoch" class="upup" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-down ">
+						<input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-delete lastColOfRow "><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td>
+			</tr>
+			<tr >
+				<td  title="NASDAQ 100">
+					<a onclick="javascript:self.parent.location=&quot;/de/aktien/indizes/nasdaq+100+US6311011026&quot;" name="5873">NASDAQ 100</a>
+				</td>
+				<td class="column-up ">
+						<input type="image" title="Hoch" class="upup" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-down ">
+						<input type="image" title="Runter" class="downdown" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-delete lastColOfRow "><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td>
+			</tr>
+			<tr class="odd">
+				<td  title="Dow Jones Industrial">
+					<a onclick="javascript:self.parent.location=&quot;/de/aktien/indizes/dow+jones+industrial+US2605661048&quot;" name="4325">Dow Jones Industrial</a>
+				</td>
+				<td class="column-up ">
+						<input type="image" title="Hoch" class="upup" src="/images/newdesign/non.gif" style="width:10px;border-width:0px;" />
+				</td>
+				<td class="column-down ">
+				</td>
+				<td class="column-delete lastColOfRow "><input type="image" title="Entfernen" class="remove removeTableRow" src="/images/newdesign/non.gif" style="width:15px;border-width:0px;" /></td>
+			</tr>
+		</table>
+	</div>
+</div>
+			<div class="fullbox formbox search">
+					<div class="wrap"></div>
+					<div id="ctl00_WebPartManager_wp465876991_wp1173877389_ctl05_GridContainer_lower">
+						<div class="bttns">
+							<button class="headerTickerxx123123_sw_btn_submit submit"><b>Speichern</b></button>
+							<button class="headerTickerxx123123_sw_btn_cancel cancel"><b>Abbrechen</b></button>
+						</div>
+						<div class="buffer">
+						</div>
+		
+					<p>Mit den Pfeilen ver&#228;ndern Sie die Reihenfolge der ausgew&#228;hlten Werte.</p>
+					<ul class="bullet-anchor">
+						<li>Wenn Sie unsere Realtime-Services abonnieren, k&#246;nnen Sie etliche Marktindikatoren in Echtzeit sehen. </li>
+					</ul>
+					<a title="Realtime-Angebote" href="/de/services/realtime+daten"><img class="bttn-more" src="/images/newdesign/non.gif" alt="Realtime-Angebote" style="border-width:0px;" /></a>
+				</div>
+			</div>
+			<div class="wrap">
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+						
+							</div>
+						</div>
+						<div class="navbox">
+							<ul class="nav" >
+								<li class=""><a href="/de/aktien" class="w1  ">Aktien</a></li>
+								<li class=""><a href="/de/anleihen" class="w2  ">Anleihen</a></li>
+								<li class=""><a href="/de/etfs" class="w3  ">ETFs</a></li>
+								<li class=""><a href="/de/etc_etn" class="w4  ">ETCs, ETNs</a></li>
+								<li class=""><a href="/de/fonds" class="w5  ">Fonds</a></li>
+								<li class=""><a href="/de/rohstoffe" class="w6  last">Rohstoffe</a></li>
+								<li class=""><a href="/de/zertifikate" class="w7  ">Zertifikate</a></li>
+								<li class="greenNav"><a href="/de/nachhaltige+wertpapiere" class="w8  ">Nachhaltige Wertpapiere </a></li>
+								<li class=""><a href="/de/weitere+maerkte" class="w9  ">Weitere M&auml;rkte</a></li>
+							</ul>
+							<div class="line"></div>
+						</div>
+						<div class="wrap"></div>
+
+						<div class="subnavbox">
+
+						</div>
+					</div>
+				</div>
+				<div id="content">
+					<div id="contentbox">
+						<div id="sidebar">
+								<div id="LoginPanel">
+									<h3>Login</h3>
+									<form autocomplete="off" action="/pip/dispatch/de/feed/private_investors/home?podcast_vortraege&amp;req_host=boerse-frankfurt.com" method="post" accept-charset="UTF-8">
+										<input name="iehack" type="hidden" value="&#9760;"/>
+										<label for="LoginEmail">E-Mail</label>
+										<input id="LoginEmail" autocomplete="off" type="text" class="text tfield" name="login_username"/>
+										<div class="wrap"></div>
+										<label for="LoginPassword">Passwort</label>
+										<input id="LoginPassword" autocomplete="off" type="password" class="text tfield" name="login_password"/>
+										<div class="tfieldtxt">
+
+											<input type="image" src="/images/newdesign/non.gif" name="LoginButton" class="bttn-login" style="border-width:0px; margin-top:2px;"/>
+										</div>
+									</form>
+									<div class="wrap5"></div>
+									<div class="tfieldtxt left">
+										<a href="/de/services/registrierung">Registrieren</a>
+									</div>
+									<div class="tfieldtxt">
+										<a href="/de/services/passwort+vergessen">Passwort vergessen?</a>
+									</div>
+									<div class="wrap"></div>
+									<div class="line"></div>
+								</div>
+							<h3>Suche</h3>
+							<div class="box pricesearch">
+								<form id="frm_search" action="/de/suche/ergebnis">
+									<input type="hidden" name="order_by" value="wm_vbfw.name"/>
+									<label for="QueryInput">Kurs</label>
+									<input type="text" id="QueryInput" name="name_isin_wkn" class="text tfieldwide"/>
+									<div class="tfieldtxt">
+										<input type="image"  class="bttn-arrow" src="/images/newdesign/non.gif" onclick="$('#frm_search').submit();"/>
+									</div>
+								</form>
+							</div>
+							<div class="wrap"></div>
+							<div class="box keywordsearch">
+							    <form action="/de/volltextsuche">
+									<label for="QueryInput2">Themen</label>
+									<input type="text" name="suchbegriff" id="QueryInput2" class="text tfieldwide"/>
+									<div class="tfieldtxt">
+										<input type="image" name="Query2Button" class="bttn-arrow" src="/images/newdesign/non.gif"/>
+									</div>
+								</form>
+							</div>
+							<div class="wrap"></div>
+							<div class="line"></div>
+
+							<script type="text/javascript">
+	var livecam = new livecam('main_livecam');
+</script>
+
+<div>
+	<a class="imagetxt" href="javascript:livecam.openLiveCam(1);">
+		<img id="liveImage" height="144" width="195" alt="" src="http://deutscheboerse.cc.smarthouse-media.de/parkett/DAX_chart_realtime_small.jpg?random=13390310018367" />
+	</a>
+</div>
+<div>
+	<a class="imagetxt" href="javascript:livecam.openLiveCam(1);">Live vom Frankfurter Parketthandel</a>
+</div>
+<div>
+	<a class="imagetxt" href="javascript:livecam.openLiveCam();">&Uuml;berblick &uuml;ber den Handelssaal</a>
+</div>
+
+
+
+
+
+                            
+
+	<h3>Aktuelles</h3>
+	<ul class="leftnav">
+
+		<li>
+			<a
+				class=""
+				href="/de/nachrichten/uebersicht"
+			>
+				Nachrichten
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/termine/konjunktur+und+wirtschaftstermine"
+			>
+				Termine
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/marktsentiment"
+			>
+				Marktsentiment 
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/statistiken"
+			>
+				Börsenmeldungen + Statistiken
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/audio+video"
+			>
+				Audio + Video
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/meist+betrachtete+wertpapiere/Aktien"
+			>
+				Meist betrachtete Werte
+			</a>
+		</li>
+	</ul>
+	
+	
+                            <div class="line"></div>
+                            
+
+	<h3>Über uns</h3>
+	<ul class="leftnav">
+
+		<li>
+			<a
+				class=""
+				href="/de/handelsqualitaeten"
+			>
+				Handelsqualitäten
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/wissen"
+			>
+				Wissen rund um die Börse
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/einsteiger"
+			>
+				Börse für Einsteiger
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/lexikon"
+			>
+				Börsenlexikon
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/publikationen"
+			>
+				Publikationen
+			</a>
+		</li>
+
+	</ul>
+	
+	
+                            <div class="line"></div>
+                            
+
+	<h3>Services</h3>
+	<ul class="leftnav">
+
+		<li>
+			<a
+				class=""
+				href="/de/services/watchlist+portfolio"
+			>
+				Watchlist/Portfolio
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/realtime+daten"
+			>
+				Realtime-Daten
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/xetra-orderbuch"
+			>
+				Xetra-Orderbuch
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/newsletter"
+			>
+				Newsletter
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/registrierung"
+			>
+				Registrierung
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/seminare"
+			>
+				Seminare
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/mobil+app"
+			>
+				Apps/Mobilportal
+			</a>
+		</li>
+
+		<li>
+			<a
+				class=""
+				href="/de/services/rss"
+			>
+				RSS
+			</a>
+		</li>
+
+
+	</ul>
+	
+	
+
+<div class="contactbox">
+    <h3>
+        Kontakt
+    </h3>Hotline +49 (0) 69 21118310<br/>9-18 Uhr MEZ<br/><a href="mailto:redaktion@deutsche-boerse.com">redaktion@deutsche-boerse.com</a>
+</div>
+
+
+<a href="http://www.facebook.com/boersefrankfurt" target="_blank" rel="external" class="network"><img alt="facebook" src="/images/newdesign/network_facebook.gif"/></a>
+<a href="http://www.twitter.com/boersefrankfurt" target="_blank" rel="external" class="network"><img alt="twitter" src="/images/newdesign/network_twitter.gif"/></a>
+<br/>
+<a href="https://www.xing.com/net/prieb20cex/boersefrankfurt" target="_blank" rel="external" class="network"><img alt="xing" src="/images/newdesign/network_xing.png"/></a>
+<a href="http://www.youtube.com/user/BoerseFrankfurt" target="_blank" rel="external" class="network"><img alt="youtube" src="/images/newdesign/network_youtube.gif"/></a>
+<br/>
+<a href="https://plus.google.com/107307965149176384606?prsrc=3" style="text-decoration:none;float:left;" target="_blank" class="network"><img src="/images/newdesign/network_gplus.png" alt="" style="border:0;width:16px;height:16px;"/></a>
+<div id="___plusone_0" style="height: 24px; width: 106px; display: inline-block; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; "><iframe allowtransparency="true" frameborder="0" hspace="0" id="I1_1325580794884" marginheight="0" marginwidth="0" name="I1_1325580794884" scrolling="no" src="https://plusone.google.com/_/+1/fastbutton?url=http%3A%2F%2Fwww.boerse-frankfurt.de%2FDE%2Findex.aspx%3FpageID%3D120&amp;size=standard&amp;count=true&amp;annotation=&amp;hl=en-US&amp;jsh=m%3B%2F_%2Fapps-static%2F_%2Fjs%2Fwidget%2F__features__%2Frt%3Dj%2Fver%3D4Z5XvHK2Ig0.de.%2Fsv%3D1%2Fam%3D!itqi7GDL5S6I4GqN1g%2Fd%3D1%2F#id=I1_1325580794884&amp;parent=http%3A%2F%2Fwww.boerse-frankfurt.de&amp;rpctoken=140351899&amp;_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe" style="width: 106px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: 24px; position: static; left: 0px; top: 0px; visibility: visible; " tabindex="-1" vspace="0" width="100%" title="+1"></iframe></div>
+<br/>
+<br/>
+<a href="http://www.deutsche-boerse.com/" target="_blank" rel="external">
+        <img src="/images/newdesign/bttn_deutscheboerse.gif" alt="Deutsche B&ouml;rse" width="166" height="39"/>
+    </a>
+    
+<div class="flang">
+	<a class="bttn-left"  style="color:#bbbbbb;"><span class="deutsch active">Deutsch</span></a>
+	<a class="bttn-right" href="/en/11225?podcast_vortraege=req_host&amp;boerse-frankfurt.com="><span class="english ">English</span></a>
+</div>
+							
+						</div> <!-- -->
+						<div id="cols" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="contentarea">
+<h1>Herzlich willkommen bei www.boerse-frankfurt.de, Ihrem Anlegerportal</h1>
+<br/>
+
+ 
+
+
+<div style="margin-bottom: 5px">
+<div class="fliesstext absatzed">
+
+<p>Sie kommen auf diese Seite, weil Sie entweder einen Inhalt aufrufen wollen,&nbsp;der leider im Moment nicht oder grunds&auml;tzlich nicht mehr verf&uuml;gbar ist,&nbsp;weil Sie ein altes Lesezeichen verwenden oder weil Sie &uuml;ber einen&nbsp;veralteten externen Link auf&nbsp;<a href="http://www.boerse-frankfurt.de/" target="_blank">www.boerse-frankfurt.de</a>&nbsp;verwiesen worden sind.</p>
+<p>&nbsp;</p>
+<p>Wir haben das Portal technisch &uuml;berholt. Dadurch sind alle alten Lesezeichen &ndash; h&auml;ufig auch Favoriten oder Bookmarks genannt &ndash; und externen Verlinkungen nicht mehr g&uuml;ltig.</p>
+<p>&nbsp;</p>
+<p>Suchen Sie bitte zuerst das gew&uuml;nschte Thema &uuml;ber die Stichwortsuche in der linken Seitennavigation. Wenn Sie den richtigen Inhalt auch auf diesen Weg nicht finden, k&ouml;nnen Sie uns gerne anrufen unter der Telefonnummer Tel.:+49-(0) 69-2 11-1 83 10. Oder schreiben Sie uns an redaktion@deutsche-boerse.com.</p>
+<p>&nbsp;</p>
+<p>Wir freuen uns stets &uuml;ber Ihr Feedback oder Ihre Anregungen zum Portal.</p>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+								<div class="fpage">
+								    <a class="response-link-icon bttn-left">
+										<span id='create-feedback' class="contact">Feedback</span>
+									</a>
+									<span id="responseFormContent" style="display: none;">
+										<div class="wrap"></div>
+									</span>  
+								    <a href="/de/feedback" class="bttn-mid"><span class="stf">Weiterleiten</span></a>
+									<a id="print_button" class="bttn-right"><span class="print">Drucken</span></a>
+								</div>
+							</div>
+
+						<div class="wrap"></div>
+					</div>
+				</div>
+
+
+ 
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
+}
+/* ]]> */
+</script>
+
+
+
+
+				<div id="footer" class="footer">
+
+					<div class="footerbox">
+<div class="fcol1">
+  <h3> B&#246;rse Frankfurt</h3>
+  <ul class="footernav">
+    <li><a href="/de/aktien">Aktien</a></li>
+    <li><a href="/de/anleihen">Anleihen</a></li>
+    <li><a href="/de/etfs">ETFs</a></li>
+    <li><a href="/de/etc_etn">ETCs, ETNs</a></li>
+    <li><a href="/de/fonds">Fonds</a></li>
+    <li><a href="/de/rohstoffe">Rohstoffe</a></li>
+    <li><a href="/de/zertifikate">Zertifikate</a></li>
+    <li><a href="/de/nachhaltige+wertpapiere">Nachhaltige Wertpapiere </a></li>
+    <li><a href="/de/weitere+maerkte">Weitere Märkte</a></li>
+  </ul>
+  <div class="line"></div>
+</div>
+
+
+<div class="fcol2">
+  <h3>Aktuelles</h3>
+  <ul class="footernav">
+    <li><a href="/de/nachrichten/uebersicht">Nachrichten</a></li>
+    <li><a href="/de/termine/konjunktur+und+wirtschaftstermine">Termine</a></li>
+    <li><a href="/de/marktsentiment">Marktsentiment </a></li>
+    <li><a href="/de/statistiken">Börsenmeldungen + Statistiken</a></li>
+    <li><a href="/de/audio+video">Audio + Video</a></li>
+    <li><a href="/de/meist+betrachtete+wertpapiere/Aktien">Meist betrachtete Werte</a></li>
+  </ul>
+  <div class="line"></div>
+</div>
+<div class="fcol3">
+  <h3>Über uns</h3>
+  <ul class="footernav">
+    <li><a href="/de/handelsqualitaeten">Handelsqualitäten</a></li>
+    <li><a href="/de/wissen">Wissen rund um die Börse</a></li>
+    <li><a href="/de/einsteiger">Börse für Einsteiger</a></li>
+    <li><a href="/de/lexikon">Börsenlexikon</a></li>
+    <li><a href="/de/publikationen">Publikationen</a></li>
+  </ul>
+  <div class="line"></div>
+</div>
+<div class="fcol4">
+  <h3>Services</h3>
+  <ul class="footernav">
+    <li><a href="/de/services/watchlist+portfolio">Watchlist/Portfolio</a></li>
+    <li><a href="/de/services/realtime+daten">Realtime-Daten</a></li>
+    <li><a href="/de/services/xetra-orderbuch">Xetra-Orderbuch</a></li>
+    <li><a href="/de/services/newsletter">Newsletter</a></li>
+    <li><a href="/de/services/registrierung">Registrierung</a></li>
+    <li><a href="/de/services/seminare">Seminare</a></li>
+    <li><a href="/de/services/mobil+app">Apps/Mobilportal</a></li>
+    <li><a href="/de/services/rss">RSS</a></li>
+  </ul>
+  <div class="line"></div>
+</div>
+
+        <div class="wrap"></div>
+        <img height="2" width="925" alt="" src="/images/newdesign/footer_div.gif"/>
+
+
+						<div class="footercopy">
+							<a  href="/parts/autohandler/urheberrecht.m">&copy; 2012 Deutsche B&ouml;rse</a>
+						</div>
+						<ul class="footerlinks">
+                            <li><a href="/de/kontakt">Kontakt</a></li>
+                            <li><a href="/de/impressum">Impressum</a></li>
+                            <li><a href="/de/disclaimer">Disclaimer</a></li>
+                            <li><a href="/de/datenschutz">Datenschutz</a></li>
+                            <li><a href="/de/markenrechte">Markenrechte</a></li>
+                            <li><a href="/de/mediadaten">Mediadaten</a></li>
+						</ul>
+						<div class="wrap"></div>
+					</div>
+					<div class="footerbottom"></div>
+				</div>
+
+
+
+
+
+
+
+            </div>
+			
+			<div id="ctl00_ctl11_BannerBox" class="bannerbox-new">
+				<div id="ctl00_ctl11_AdvertisementText" class="txt">Anzeige</div>
+				<div class="bnnr">
+					<div id="Ads_BA_SKY">
+<script type="text/javascript">
+	Ads_BA_AD('SKY');
+</script>
+<noscript>
+	<a href="http://ad.de.doubleclick.net/jump/P4574.boerse-frankfurt.de/noscript;tile=3;sz=160x600,120x600;ord=1339031001.92246?"><img src="http://ad.de.doubleclick.net/ad/P4574.boerse-frankfurt.de/noscript;tile=3;sz=160x600,120x600;ord=1339031001.92246?" border="0" alt="Werbeeinblendung" /></a>
+</noscript>
+</div>
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="feedback-dialog-form" title="Feedback" style="background-color: #ffffff; width: 720px;">
+	<div class="content modalPopup">
+		<a id="top" href="#" ></a>
+		<div class="wrap"></div>
+		<div id="TB_window" style="display: block; ">
+			<div id="TB_title" class="iframe">
+				<div id="TB_ajaxWindowTitle"></div>
+				<div id="TB_closeAjaxWindow">
+					<a href="#" id="TB_closeWindowButton" class="feedback_a_close_popup" title="Close">Schlie&szlig;en</a>
+				</div>
+			</div>
+			<div class="fullbox formbox search" style="background-color: #ffffff; width: 720px;">
+				<h2>
+					Haben Sie Anregungen oder Fragen zu dieser Seite?
+				</h2>
+				<div id="feedback-dialog-form_wrapper" class="fullbox formbox search">
+					<p>Bitte sagen Sie uns, was wir verbessern k&ouml;nnen oder fragen Sie uns, was Sie wissen m&ouml;chten.</p>
+					<p id="feedback-dialog-form_error_general" class="error" style="display:none">Beim Ausf&uuml;llen der Felder sind folgende Fehler aufgetreten:</p>
+					<span id="feedback-dialog-form_error_firstname" class="error" style="display:none">Es wurde kein Vorname eingegeben</span>
+					<span id="feedback-dialog-form_error_surname" class="error" style="display:none">Es wurde kein Nachname eingegeben</span>
+					<span id="feedback-dialog-form_error_email" class="error" style="display:none">E-Mail Adresse fehlt oder entspricht nicht dem Muster example@example.com</span>
+					<span id="feedback-dialog-form_error_message" class="error" style="display:none">Es wurde keine Nachricht eingegeben</span>
+					<div class="buffer"></div>
+					<label>
+						<span id = "feedback-dialog-form_firstname_text">Vorname</span>
+						<input id ="feedback-dialog-form_firstname_field" type="text" maxlength="40" class="ffield"/>
+					</label>
+					<label>
+						<span id = "feedback-dialog-form_surname_text">Nachname</span>
+						<input id="feedback-dialog-form_surname_field" type="text" maxlength="40" class="ffield"/>
+					</label>
+					<label>
+						<span id = "feedback-dialog-form_email_text">E-Mail</span>
+						<input id="feedback-dialog-form_email_field" type="text" class="ffield"/>
+					</label>
+					<label>
+						<span id = "feedback-dialog-form_message_text">Ihre Mitteilung</span>
+						<textarea id="feedback-dialog-form_message_field" rows="6" cols="58" class="ffield wide"></textarea>
+					</label>
+					<div class="bttns">
+						<input id = "feedback-dialog-form_send" type="submit" value="Verschicken" class="submit"/>
+						<input id = "feedback-dialog-form_reset" type="submit" value="Zuruecksetzen" class="cancel"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+$(document).ready(function(){
+
+		$( "#print_button" ).click(function() {
+			ap.restartPushConnection();
+			window.print();
+		});
+
+		$( "#dialog:ui-dialog" ).dialog( "destroy" );
+
+		$( "#feedback-dialog-form" ).dialog({
+			autoOpen: false,
+			height: 500,
+			width: 760,
+			modal: true
+		});
+		
+		$( "#mobile-variante-dialog" ).dialog({
+			autoOpen: false,
+			height: 500,
+			width: 760,
+			modal: true
+		});
+
+		$( "#create-feedback" ).click(function() {
+
+			$("#feedback-dialog-form").dialog( "open" );
+			$('.ui-widget-header').css('display','none');
+			$('.feedback_a_close_popup').blur();
+			return false;
+		});
+
+		$( "#feedback-dialog-form_send" ).click(function(){
+			var firstname = $("#feedback-dialog-form_firstname_field").val();
+			var surname = $("#feedback-dialog-form_surname_field").val();
+			var email = $("#feedback-dialog-form_email_field").val();
+			var message = $("#feedback-dialog-form_message_field").val();
+
+
+
+			if (firstname == ''){
+				$("#feedback-dialog-form_firstname_text").css('color','#FF0000');	
+				$("#feedback-dialog-form_error_firstname").css("display", "block");
+				$("#feedback-dialog-form_error_general").css("display", "block");
+			}
+			else{
+				$("#feedback-dialog-form_firstname_text").css('color','#000000');
+				$("#feedback-dialog-form_error_firstname").css("display", "none");;
+			}
+
+			if (surname == ''){
+				$("#feedback-dialog-form_surname_text").css('color','#FF0000');	
+				$("#feedback-dialog-form_error_surname").css("display", "block");
+				$("#feedback-dialog-form_error_general").css("display", "block");
+			}
+			else{
+				$("#feedback-dialog-form_surname_text").css('color','#000000');
+				$("#feedback-dialog-form_error_surname").css("display", "none");
+			}
+
+
+			if (!validEmail(email)){
+				$("#feedback-dialog-form_email_text").css('color','#FF0000');
+				$("#feedback-dialog-form_error_email").css("display", "block");
+				$("#feedback-dialog-form_error_general").css("display", "block");	
+			}
+			else{
+				$("#feedback-dialog-form_email_text").css('color','#000000');
+				$("#feedback-dialog-form_error_email").css("display", "none");
+			}
+
+
+			if (message == ''){
+				$("#feedback-dialog-form_message_text").css('color','#FF0000');	
+				$("#feedback-dialog-form_error_message").css("display", "block");
+				$("#feedback-dialog-form_error_general").css("display", "block");
+			}
+			else{
+				$("#feedback-dialog-form_message_text").css('color','#000000');
+				$("#feedback-dialog-form_error_message").css("display", "none");
+			}
+				
+			if(!(firstname == '' || surname == '' || !validEmail(email) || message == '')){
+				$("#feedback-dialog-form_error_general").css("display", "none");
+
+				$.ajax({
+					url: "/parts/autohandler/feedbackmailer.m",
+					type: "POST",
+					data: 	{
+							firstname : firstname,
+							surname : surname,
+							email : email,
+							message : message
+						},
+					dataType: "text",
+					success: function(result){
+							if ( result.match(/email_fail/gi) )
+							$("#feedback-dialog-form_error_email").css("display", "block");
+						else{
+							$("#feedback-dialog-form_wrapper").html('<br/><label class="text"><span>Vielen Dank fÃ¼r Ihr Feedback!</span></label><br/>');
+						}
+								
+					}
+
+				});
+			}
+
+
+
+		});
+
+		function validEmail(email) {
+			var strReg = "^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$";
+			var regex = new RegExp(strReg);
+			return(regex.test(email)); 
+
+		}
+
+		$( "#feedback-dialog-form_reset" ).click(function(){
+			$("#feedback-dialog-form_wrapper > label > .ffield").val("");
+		});
+
+			
+		$('.feedback_a_close_popup').click(function(){
+			$( "#feedback-dialog-form" ).dialog( "close" );
+			return false;
+		});
+});
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	warn_debug( typeof jQuery == "function" ? ($(".realpush").each(function(){return this})) : "KEIN jQuery !!!" );
+	warn_debug( document.getElementsByClassName && document.documentElement.getElementsByClassName ? "document.getElementsByClassName OK" : "document.getElementsByClassName UNBEKANNT !!!!" );
+	ap.optServerLogin = 'std4bfpr';
+
+	$(window).load( function() {
+		ap.optServerLogin = 'std4bfpr';
+		setTimeout(
+			function () { 
+                if ( ! ap.iframe ) {
+				    ap.arhpush_init( $(".realpush").each(function(){return this}) );
+                }
+
+			}, 1000
+		);
+	});
+/* ]]> */
+</script>
+
+</body>
+
+</html>
+
+
+
+
+

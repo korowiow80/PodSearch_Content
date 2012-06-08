@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+		xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+>
+
+<channel>
+	<title>omega tau &#187; podcast (en)</title>
+	<atom:link href="http://omegataupodcast.net/category/podcast-en/feed/" rel="self" type="application/rss+xml" />
+	<link>http://omegataupodcast.net</link>
+	<description>wissenschaft und technik im kopfhoerer / science and engineering in your headphones</description>
+	<lastBuildDate>Sun, 03 Jun 2012 12:28:17 +0000</lastBuildDate>
+	<language>de</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.2</generator>
+	<copyright>2008 </copyright>
+	<managingEditor>info@omegataupodcast.net (info@omegataupodcast.net)</managingEditor>
+	<webMaster>info@omegataupodcast.net (info@omegataupodcast.net)</webMaster>
+	<category>science, technology, engineering, wissenschaft, technik</category>
+	<ttl>1440</ttl>
+	<image>
+		<url>http://omegataupodcast.net/rssimages/rssimage.jpg</url>
+		<title>omega tau</title>
+		<link>http://omegataupodcast.net</link>
+		<width>144</width>
+		<height>144</height>
+	</image>
+	<itunes:subtitle>Wissenschaft und Technik im Kopfhoerer / Science and Engineering in your Headphones</itunes:subtitle>
+	<itunes:summary>Wissenschaft und Technik im Kopfhoerer / Science and Engineering in your Headphones</itunes:summary>
+	<itunes:keywords>technology, science, aviation</itunes:keywords>
+	<itunes:category text="Science &#38; Medicine">
+		<itunes:category text="Natural Sciences" />
+	</itunes:category>
+	<itunes:category text="Science &#38; Medicine" />
+	<itunes:author>info@omegataupodcast.net</itunes:author>
+	<itunes:owner>
+		<itunes:name>info@omegataupodcast.net</itunes:name>
+		<itunes:email>info@omegataupodcast.net</itunes:email>
+	</itunes:owner>
+	<itunes:block>no</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+	<itunes:image href="http://omegataupodcast.net/rssimages/itunescover.jpg" />
+		<item>
+		<title>96 &#8211; Controlling the LHC Beam</title>
+		<link>http://omegataupodcast.net/2012/06/96-controlling-the-lhc-beam/</link>
+		<comments>http://omegataupodcast.net/2012/06/96-controlling-the-lhc-beam/#comments</comments>
+		<pubDate>Sun, 03 Jun 2012 07:30:54 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[control systems]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=1063</guid>
+		<description><![CDATA[In this fourth and (for the time being, last) episode in the series on physics at <a href="http://cern.ch">CERN</a> we look at the LHC from the perspective of the beam producers, and more specifically, from the perspective of the control system for the LHC. To this end, we first talk to Vito Baggiolini, a software engineer in the <a href="https://espace.cern.ch/be-dep/CO/default.aspx">controls group</a>, and then we talk to Felix Ehm, a technical engineer for the beam control system. In the episode we recap what the LHC does and how it does it (you may want to re-listen to <a href="http://omegataupodcast.net/2010/03/30-the-large-hadron-collider/">Episode 30 on the LHC</a>), discuss the hardware elements used for beam control, some of the safety and security systems, as well as about the software aspects of the system.]]></description>
+			<content:encoded><![CDATA[<p>In this fourth (and for the time being, last) episode in the series on physics at <a href="http://cern.ch">CERN</a> we look at the LHC from the perspective of the beam producers, and more specifically, from the perspective of the control system for the LHC. To this end, we first talk to Vito Baggiolini, a software engineer in the <a href="https://espace.cern.ch/be-dep/CO/default.aspx">controls group</a>, and then we talk to Felix Ehm, a technical engineer for the beam control system. In the episode we recap what the LHC does and how it does it (you may want to re-listen to <a href="http://omegataupodcast.net/2010/03/30-the-large-hadron-collider/">Episode 30 on the LHC</a>), discuss the hardware elements used for beam control, some of the safety and security systems, as well as about the software aspects of the system.</p>
+<p>I would like to thank Chris Mann from <a href="http://www.mannmade.co.uk/">Mannmade Productions</a> for letting me use the soundtrack of his LHC video in this episode.</p>
+<p>After recording the episode, Vito noticed a couple of errata in the conversation:</p>
+<ul>
+<li>03:35 LEP was shutdown at the end of 2000, not in 2003
+<li>04:45 CLIC study: the CLIC study facility at CERN is small (150m), only a real linear collider will be 30 km or longer
+<li>07:30 There are not 5 but 6 LHC experiments (Atlas, CMS, Alice, LHCb, TOTEM, LHCf)
+<li>28:53 Beam dump material is graphite framed in concrete, there is no copper.
+<li>30:00 Loosing the beam in an uncontrolled manner would not “destroy all our precious magnets”, but it could destroy a few magnets and other precious equipment.
+<li>53:12 Real-time feedback is given only to corrector magnets, not all. The beam is instable (like a helicopter) only during the ramp.
+<li>56:00 In 2011 we have had magnet quenches, but only at low energy levels, not at high energy.
+<li>56:50 UFOs = Unidentified Falling (not Flying) Objects
+<li>59:30 You have to take a key to show if your inside or outside the tunnel (not the inside or outside the beam)
+</ul>
+<p>And, as usual, here are some links:</p>
+<ul>
+<li><a href="http://www.cern.ch/">CERN</a>
+<li><a href="https://espace.cern.ch/be-dep/CO/default.aspx">Controls Group</a>
+<li><a href="http://www.lhc-facts.ch/">lhc-facts.ch &#8211; very good German website on the LHC</a>
+<li><a href="http://de.wikipedia.org/wiki/Large_Electron-Positron_Collider">LEP (Large Electron-Positron Collider)</a>
+<li><a href="http://www.slac.stanford.edu/">SLAC</a>
+<li><a href="http://en.wikipedia.org/wiki/Compact_Linear_Collider">CLIC (Compact Linear Collider)</a>
+<li><a href="http://en.wikipedia.org/wiki/Mass_in_special_relativity">Mass in Special Relativity</a>
+<li><a href="http://en.wikipedia.org/wiki/Right-hand_rule">Right-Hand Rule</a>
+<li><a href="http://en.wikipedia.org/wiki/Electronvolt">Electronvolt</a>
+<li><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C (programming language)</a>
+<li><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++ (programming language)</a>
+<li><a href="http://en.wikipedia.org/wiki/Linux">Linux OS</a>
+<li><a href="http://en.wikipedia.org/wiki/LynxOS">LynxOS</a>
+<li><a href="http://en.wikipedia.org/wiki/Middleware">Middleware</a>
+<li><a href="http://en.wikipedia.org/wiki/CORBA">CORBA (Common Object Request Broker Architecture)</a>
+<li><a href="http://en.wikipedia.org/wiki/Java_remote_method_invocation">Java Remote Method Invocation (RMI)</a>
+<li><a href="http://en.wikipedia.org/wiki/Java_Message_Service">Java Message Service (JMS)</a>
+<li><a href="http://en.wikipedia.org/wiki/Programmable_logic_controller">PLC</a>
+<li><a href="http://en.wikipedia.org/wiki/SCADA">SCADA</a>
+<li><a href="http://www.icalepcs.org/">ICALEPCS</a>
+<li><a href="http://en.wikipedia.org/wiki/Synchrotron_radiation">Synchrotron radiation</a>
+<li><a href="http://en.wikipedia.org/wiki/Quadrupole_magnet">Quadrupole Magnet</a>
+<li><a href="http://en.wikipedia.org/wiki/Dipole_magnet">Dipole Magnet</a>
+<li><a href="http://en.wikipedia.org/wiki/Atlas_detector">ATLAS Experiment</a>
+<li><a href="http://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/photogallery/SM18/index.html">SM-18 Pictures</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/06/96-controlling-the-lhc-beam/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-96-ControllingTheLHCBeam.mp3" length="125682676" type="audio/mpeg" />
+		<itunes:duration>2:10:54</itunes:duration>
+		<itunes:subtitle>In this fourth and (for the time being, last) episode in the series on physics at CERN we look at the LHC from the perspective of the beam producers, and more specifically, from the perspective of the control system for the LHC. To this end, we firs[...]</itunes:subtitle>
+		<itunes:summary>In this fourth and (for the time being, last) episode in the series on physics at CERN we look at the LHC from the perspective of the beam producers, and more specifically, from the perspective of the control system for the LHC. To this end, we first talk to Vito Baggiolini, a software engineer in the controls group, and then we talk to Felix Ehm, a technical engineer for the beam control system. In the episode we recap what the LHC does and how it does it (you may want to re-listen to Episode 30 on the LHC), discuss the hardware elements used for beam control, some of the safety and security systems, as well as about the software aspects of the system.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>95 &#8211; Antimatter</title>
+		<link>http://omegataupodcast.net/2012/05/95-antimatter/</link>
+		<comments>http://omegataupodcast.net/2012/05/95-antimatter/#comments</comments>
+		<pubDate>Thu, 17 May 2012 18:49:17 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[cern]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=1018</guid>
+		<description><![CDATA[This episode is a conversation with CERN's <a href="http://massen.web.cern.ch/massen/">Niels Madsen</a> about <a href="http://en.wikipedia.org/wiki/Antimatter">Antimatter</a>. We first discuss theoretical aspects about the topic, and then focus on the <a href="http://alpha-new.web.cern.ch/">ALPHA Experiment</a>. Since Niels is an experimentalist and has helped building essential parts of the experiment, we discuss the experiment in some detail.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with CERN&#8217;s <a href="http://massen.web.cern.ch/massen/">Niels Madsen</a> about <a href="http://en.wikipedia.org/wiki/Antimatter">Antimatter</a>. We first discuss theoretical aspects about the topic, and then focus on the <a href="http://alpha-new.web.cern.ch/">ALPHA Experiment</a>. Since Niels is an experimentalist and has helped building essential parts of the experiment, we discuss the experiment in some detail.</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation">Schrödinger equation</a>
+<li><a href="http://en.wikipedia.org/wiki/Paul_Dirac">Paul Dirac</a>
+<li><a href="http://en.wikipedia.org/wiki/Carl_David_Anderson">Carl David Anderson</a>
+<li><a href="http://en.wikipedia.org/wiki/Cp_Violation">CP violation</a>
+<li><a href="http://en.wikipedia.org/wiki/Electron_volt">Electronvolt</a>
+<li><a href="http://en.wikipedia.org/wiki/Super_Nova">Supernova</a>
+<li><a href="http://en.wikipedia.org/wiki/Big_bang">Big Bang</a>
+<li><a href="http://en.wikipedia.org/wiki/Alpha_Magnetic_Spectrometer#AMS-02">AMS II</a>
+<li><a href="http://alpha-new.web.cern.ch/">ALPHA Experiment</a>
+<li><a href="http://alpha-new.web.cern.ch/gallery/">ALPHA Experiment</a> (Picture Gallery)
+<li><a href="http://en.wikipedia.org/wiki/Baryogenesis">Baryogenesis</a>
+<li><a href="http://en.wikipedia.org/wiki/Bremsstrahlung">Bremsstrahlung</a>
+<li><a href="http://en.wikipedia.org/wiki/Antimatter_propulsion">Antimatter rocket</a>
+<li><a href="http://en.wikipedia.org/wiki/Antiproton_decelerator">Antiproton Decelerator</a>
+<li><a href="http://cdsweb.cern.ch/record/1352088/files/AD_image.jpg">Antiproton Decelerator</a> (Picture)
+<li><a href="http://en.wikipedia.org/wiki/Quadrupole_magnets">Quadrupole Magnet</a>
+<li><a href="http://en.wikipedia.org/wiki/Super_conductors">Superconductivity</a>
+<li><a href="http://en.wikipedia.org/wiki/Laser_cooling">Laser Cooling</a>
+<li><a href="http://en.wikipedia.org/wiki/Space_charge">Space charge</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_phase_transition">Quantum Phase Transition</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/05/95-antimatter/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-95-antimatter.mp3" length="79777773" type="audio/mpeg" />
+		<itunes:duration>1:23:05</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with CERN's Niels Madsen about Antimatter. We first discuss theoretical aspects about the topic, and then focus on the ALPHA Experiment. Since Niels is an experimentalist and has helped building essential parts of the [...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with CERN's Niels Madsen about Antimatter. We first discuss theoretical aspects about the topic, and then focus on the ALPHA Experiment. Since Niels is an experimentalist and has helped building essential parts of the experiment, we discuss the experiment in some detail.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>94 &#8211; Neutrinos</title>
+		<link>http://omegataupodcast.net/2012/05/94-neutrinos/</link>
+		<comments>http://omegataupodcast.net/2012/05/94-neutrinos/#comments</comments>
+		<pubDate>Sat, 05 May 2012 06:56:22 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[cern]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=993</guid>
+		<description><![CDATA[In this episode we discuss neutrinos. In the first part we talk with CERN's <a href="http://giudice.web.cern.ch/giudice/zeptospace/zepto-eng.html">Gian Giudice</a> about the theory of neutrinos; we also discuss what it would mean if they were actually faster than light. Part two is a conversation with Edda Gschwendtner about the <a href="http://proj-cngs.web.cern.ch/proj-cngs/">CERN Neutrinos to Gran Sasso</a> experiment and the <a href="http://operaweb.lngs.infn.it/?lang=en">OPERA</a> detector.]]></description>
+			<content:encoded><![CDATA[<p>In this episode we discuss neutrinos. In the first part we talk with CERN&#8217;s <a href="http://giudice.web.cern.ch/giudice/zeptospace/zepto-eng.html">Gian Giudice</a> about the theory of neutrinos; we also discuss what it would mean if they were actually faster than light. Part two is a conversation with Edda Gschwendtner about the <a href="http://proj-cngs.web.cern.ch/proj-cngs/">CERN Neutrinos to Gran Sasso</a> experiment and the <a href="http://operaweb.lngs.infn.it/?lang=en">OPERA</a> detector.</p>
+<ul>
+<li><a href="http://giudice.web.cern.ch/giudice/zeptospace/zepto-eng.html">Gian Giudice</a>
+<li><a href="http://en.wikipedia.org/wiki/Neutrino">Neutrino</a>
+<li><a href="http://en.wikipedia.org/wiki/Wolfgang_Pauli">Wolfgang Pauli</a>
+<li><a href="http://en.wikipedia.org/wiki/Fermi">Enrico Fermi</a>
+<li><a href="http://en.wikipedia.org/wiki/Cosmic_Microwave_Background">Cosmic Microwave Background</a>
+<li><a href="http://en.wikipedia.org/wiki/String_theory">String Theory</a>
+<li><a href="http://en.wikipedia.org/wiki/Extra_dimensions">Extra Dimensions</a>
+<li><a href="http://en.wikipedia.org/wiki/Multiverse">Parallel Universes</a>
+<li><a href="http://en.wikipedia.org/wiki/Supersymmetric">Supersymmetry</a>
+<li><a href="http://en.wikipedia.org/wiki/Supernova">Supernova</a>
+</ul>
+<ul>
+<li><a href="http://proj-cngs.web.cern.ch/proj-cngs/">CERN Neutrinos to Gran Sasso</a>
+<li><a href="http://www.lngs.infn.it/">Gran Sasso National Laboratory</a>
+<li><a href="http://www.ilgransasso.com/en/finestra/laboratori%20gran%20sasso.jpg">Gran Sasso Lab Layout</a> (Picture)
+<li><a href="http://www.sciencephoto.com/media/231/enlarge">Gran Sasso Lab Entrance</a> (Picture)
+<li><a href="http://www.aspera-eu.org/images/stories/Media/MEDIAPICTURES/HR2/gran-sasso2.jpg">OPERA Detector</a> (Picture)
+<li><a href="http://en.wikipedia.org/wiki/Neutral_current">Neutral Current</a>
+<li><a href="http://www-numi.fnal.gov/">MINOS/NuMI</a>
+<li><a href="http://en.wikipedia.org/wiki/Cherenkov_radiation">Cherenkov Radiation</a>
+<li><a href="http://de.wikipedia.org/wiki/Photomultiplier">Photomultiplier</a>
+<li><a href="http://www-sk.icrr.u-tokyo.ac.jp/sk/index-e.html">Super-Kamiokande</a>
+<li><a href="http://de.wikipedia.org/wiki/IceCube">IceCube</a>
+<li><a href="http://operaweb.lngs.infn.it/?lang=en">OPERA</a>
+<li><a href="http://operaweb.lngs.infn.it/spip.php?rubrique39&#038;lang=en">OPERA Detector</a> (Diagram)
+<li><a href="http://operaweb.lngs.infn.it/spip.php?rubrique3&#038;lang=en">OPERA Picture Gallery</a>
+<li><a href="http://icarus.lngs.infn.it/">ICARUS </a>
+<li><a href="http://en.wikipedia.org/wiki/Super_Proton_Synchrotron">CERN SPS</a>
+<li><a href="http://indico.in2p3.fr/getFile.py/access?contribId=70&#038;sessionId=9&#038;resId=0&#038;materialId=slides&#038;confId=151">Slide Deck on Cern Neutrinos to Gran Sasso Setup</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/05/94-neutrinos/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-94-neutrinos.mp3" length="102885058" type="audio/mpeg" />
+		<itunes:duration>1:47:09</itunes:duration>
+		<itunes:subtitle>In this episode we discuss neutrinos. In the first part we talk with CERN's Gian Giudice about the theory of neutrinos; we also discuss what it would mean if they were actually faster than light. Part two is a conversation with Edda Gschwendtner abo[...]</itunes:subtitle>
+		<itunes:summary>In this episode we discuss neutrinos. In the first part we talk with CERN's Gian Giudice about the theory of neutrinos; we also discuss what it would mean if they were actually faster than light. Part two is a conversation with Edda Gschwendtner about the CERN Neutrinos to Gran Sasso experiment and the OPERA detector.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>93 &#8211; The Standard Model of Particle Physics</title>
+		<link>http://omegataupodcast.net/2012/04/93-the-standard-model-of-particle-physics/</link>
+		<comments>http://omegataupodcast.net/2012/04/93-the-standard-model-of-particle-physics/#comments</comments>
+		<pubDate>Fri, 20 Apr 2012 18:32:49 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[cern]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=980</guid>
+		<description><![CDATA[This is the first episode in a series of episodes on particle physics and related research at <a href="http://public.web.cern.ch/public/">CERN</a>. In this episode  we are talking to <a href="http://en.wikipedia.org/wiki/John_Ellis_(physicist)">John Ellis</a> about the <a href="http://en.wikipedia.org/wiki/Standard_Model">standard model</a> of particle physics, which is the current "big picture" about how subatomic matter and fields work.]]></description>
+			<content:encoded><![CDATA[<p>This is the first episode in a series of episodes on particle physics and related research at <a href="http://public.web.cern.ch/public/">CERN</a>. In this episode  we are talking to <a href="http://en.wikipedia.org/wiki/John_Ellis_(physicist)">John Ellis</a> about the <a href="http://en.wikipedia.org/wiki/Standard_Model">standard model</a> of particle physics, which is the current &#8220;big picture&#8221; about how subatomic matter and fields work.</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/John_Ellis_(physicist)">John Ellis</a>
+<li><a href="http://public.web.cern.ch/public/">CERN</a>
+<li><a href="http://www.kcl.ac.uk/index.aspx">King&#8217;s College London</a>
+<li><a href="http://en.wikipedia.org/wiki/Standard_Model">Standard Model</a>
+<li><a href="http://en.wikipedia.org/wiki/Proton">Proton</a>
+<li><a href="http://en.wikipedia.org/wiki/Neutron">Neutron</a>
+<li><a href="http://en.wikipedia.org/wiki/Electron">Electron</a>
+<li><a href="http://en.wikipedia.org/wiki/Quark">Quark</a>
+<li><a href="http://en.wikipedia.org/wiki/James_Clerk_Maxwell">James Clerk Maxwell</a>
+<li><a href="http://en.wikipedia.org/wiki/Electron_magnetic_dipole_moment">Spin</a>
+<li><a href="http://en.wikipedia.org/wiki/Bosons">Boson</a>
+<li><a href="http://en.wikipedia.org/wiki/Fermions">Fermion</a>
+<li><a href="http://en.wikipedia.org/wiki/Pauli_exclusion_principle">Pauli Exclusion Principle</a>
+<li><a href="http://en.wikipedia.org/wiki/Hadron">Hadron</a>
+<li><a href="http://en.wikipedia.org/wiki/Baryon">Baryon</a>
+<li><a href="http://en.wikipedia.org/wiki/Lepton">Lepton</a>
+<li><a href="http://en.wikipedia.org/wiki/Muon">Muon</a>
+<li><a href="http://en.wikipedia.org/wiki/Tau_lepton">Tau</a>
+<li><a href="http://en.wikipedia.org/wiki/Isidor_Rabi">Isidor Isaac Rabi</a>
+<li><a href="http://en.wikipedia.org/wiki/Positron_emission_tomography">PET</a>
+<li><a href="http://en.wikipedia.org/wiki/Andrei_Dmitrievich_Sakharov">Andrei Sakharov</a>
+<li><a href="http://en.wikipedia.org/wiki/Cabibbo%E2%80%93Kobayashi%E2%80%93Maskawa_matrix">Cabibbo–Kobayashi–Maskawa matrix</a>
+<li><a href="http://en.wikipedia.org/wiki/Asymptotic_freedom">Asymptotic Freedom</a>
+<li><a href="http://en.wikipedia.org/wiki/Unified_field_theory">Unified Field Theory</a>
+<li><a href="http://en.wikipedia.org/wiki/Fine_structure_constant">Fine-structure constant</a>
+<li><a href="http://en.wikipedia.org/wiki/String_theory">String theory</a>
+<li><a href="http://en.wikipedia.org/wiki/Graviton">Graviton</a>
+<li><a href="http://en.wikipedia.org/wiki/Electronvolt">Electronvolt</a>
+<li><a href="http://en.wikipedia.org/wiki/Higgs_field">Higgs Field</a>
+<li><a href="http://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a>
+<li><a href="http://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)">Perturbation Theory</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_chromodynamics">Quantum Chromodynamics</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_electrodynamics">Quantum Electrodynamics</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/04/93-the-standard-model-of-particle-physics/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-93-theStandardModel.mp3" length="80185717" type="audio/mpeg" />
+		<itunes:duration>1:23:31</itunes:duration>
+		<itunes:subtitle>This is the first episode in a series of episodes on particle physics and related research at CERN. In this episode  we are talking to John Ellis about the standard model of particle physics, which is the current "big picture" about how subatomic ma[...]</itunes:subtitle>
+		<itunes:summary>This is the first episode in a series of episodes on particle physics and related research at CERN. In this episode  we are talking to John Ellis about the standard model of particle physics, which is the current "big picture" about how subatomic matter and fields work.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>92 &#8211; Building and Living on the ISS</title>
+		<link>http://omegataupodcast.net/2012/04/92-building-and-living-on-the-iss/</link>
+		<comments>http://omegataupodcast.net/2012/04/92-building-and-living-on-the-iss/#comments</comments>
+		<pubDate>Tue, 10 Apr 2012 08:34:58 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[esa]]></category>
+		<category><![CDATA[iss]]></category>
+		<category><![CDATA[shuttle]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=971</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://www.esa.int">ESA</a> astronaut <a href="http://www.esa.int/esaHS/ESAN0VZUMOC_astronauts_0.html">Paolo Nespoli</a> about the construction of and life on the <a href="http://en.wikipedia.org/wiki/International_Space_Station">ISS</a>. As part of the <a href="http://en.wikipedia.org/wiki/STS-120">STS-120</a> shuttle mission, Paolo was involved in installing the <a href="http://en.wikipedia.org/wiki/Harmony_(ISS_module)">Harmony Module</a> onto ISS. Later he served as a flight engineer on board ISS, as part of Expeditions <a href="http://en.wikipedia.org/wiki/Expedition_26">26</a> and <a href="http://en.wikipedia.org/wiki/Expedition_27">27</a>. In the episode we talk about his two missions and compare the experiences on the Shuttle, the ISS and the Soyuz.
+]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://www.esa.int">ESA</a> astronaut <a href="http://www.esa.int/esaHS/ESAN0VZUMOC_astronauts_0.html">Paolo Nespoli</a> about the construction of and life on the <a href="http://en.wikipedia.org/wiki/International_Space_Station">ISS</a>. As part of the <a href="http://en.wikipedia.org/wiki/STS-120">STS-120</a> shuttle mission, Paolo was involved in installing the <a href="http://en.wikipedia.org/wiki/Harmony_(ISS_module)">Harmony Module</a> onto ISS. Later he served as a flight engineer on board ISS, as part of Expeditions <a href="http://en.wikipedia.org/wiki/Expedition_26">26</a> and <a href="http://en.wikipedia.org/wiki/Expedition_27">27</a>. In the episode we talk about his two missions and compare the experiences on the Shuttle, the ISS and the Soyuz.</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Paolo_A._Nespoli">Paolo Nespoli</a> (WP)
+<li><a href="http://www.esa.int/esaHS/ESAN0VZUMOC_astronauts_0.html">Paolo Nespoli</a> (ESA)
+<li><a href="https://twitter.com/#!/astro_paolo">Paolo Nespoli</a> (Twitter)
+<li><a href="http://www.esa.int/esaHS/ESAJIE0VMOC_astronauts_0.html">ESA&#8217;s European Astronaut Center</a>
+<li><a href="http://en.wikipedia.org/wiki/International_Space_Station">ISS</a>
+<li><a href="http://en.wikipedia.org/wiki/Space_Shuttle">Space Shuttle</a>
+<li><a href="http://en.wikipedia.org/wiki/Harmony_(ISS_module)">Harmony Module</a>
+<li><a href="http://en.wikipedia.org/wiki/STS-120">STS-120</a>
+<li><a href="http://en.wikipedia.org/wiki/Pressurized_mating_adapter">Pressurized Mating Adapter</a>
+<li><a href="http://en.wikipedia.org/wiki/Canadarm">Canadarm 1 (Shuttle)</a>
+<li><a href="http://en.wikipedia.org/wiki/Canadarm2">Canadarm 2 (ISS)</a>
+<li><a href="http://www.collectspace.com/ubb/Forum30/HTML/000637.html">STS-120: Tear in solar array</a>
+<li><a href="http://en.wikipedia.org/wiki/Apollo_13">Apollo 13</a>
+<li><a href="http://en.wikipedia.org/wiki/Common_berthing_mechanism">Common Berthing Mechanism</a>
+<li><a href="http://en.wikipedia.org/wiki/Expedition_26">ISS Exp. 26</a>
+<li><a href="http://en.wikipedia.org/wiki/Expedition_27">ISS Exp. 27</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/04/92-building-and-living-on-the-iss/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-92-buildingAndLivingOnTheISS.mp3" length="53736030" type="audio/mpeg" />
+		<itunes:duration>0:55:57</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with ESA astronaut Paolo Nespoli about the construction of and life on the ISS. As part of the STS-120 shuttle mission, Paolo was involved in installing the Harmony Module onto ISS. Later he served as a flight engineer[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with ESA astronaut Paolo Nespoli about the construction of and life on the ISS. As part of the STS-120 shuttle mission, Paolo was involved in installing the Harmony Module onto ISS. Later he served as a flight engineer on board ISS, as part of Expeditions 26 and 27. In the episode we talk about his two missions and compare the experiences on the Shuttle, the ISS and the Soyuz.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>91 &#8211; Flying the SR-71 Blackbird</title>
+		<link>http://omegataupodcast.net/2012/03/91-flying-the-sr-71/</link>
+		<comments>http://omegataupodcast.net/2012/03/91-flying-the-sr-71/#comments</comments>
+		<pubDate>Sat, 31 Mar 2012 17:27:50 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=962</guid>
+		<description><![CDATA[In this episode we discuss the world's fastest and highest flying jet-powered aircraft ever built, the <a href="http://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird">Lockheed SR-71 Blackbird</a>. Our guest is <a href="http://www.habu.org/graham/graham-bio.html">Col. (Ret) Richard Graham</a>, a former SR-71 pilot. Our conversation is loosely based on his book <a href="http://www.habu.org/graham/sr71flying.html">Flying the SR-71</a>, and we discuss the challenge of flying the SR-71. As a consequence of its unique capabilities and its engine and inlet design, the aircraft posed a number of very specific challenges on the pilot.]]></description>
+			<content:encoded><![CDATA[<p>In this episode we discuss the world&#8217;s fastest and highest flying jet-powered aircraft ever built, the <a href="http://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird">Lockheed SR-71 Blackbird</a>. Our guest is <a href="http://www.habu.org/graham/graham-bio.html">Col. (Ret) Richard Graham</a>, a former SR-71 pilot. Our conversation is loosely based on his book <a href="http://www.habu.org/graham/sr71flying.html">Flying the SR-71</a>, and we discuss the challenge of flying the SR-71. As a consequence of its unique capabilities and its engine and inlet design, the aircraft posed a number of very specific challenges on the pilot.</p>
+<ul>
+<li><a href="http://www.habu.org/graham/graham-bio.html">Richard Graham</a> (at habu.org)
+<li>Book: <a href="http://www.habu.org/graham/sr71revealed.html">SR-71 Revealed: The Inside Story</a>
+<li>Book: <a href="http://www.habu.org/graham/sr71stl.html">SR-71 Blackbird: Stories, Tales and Legends</a>
+<li>Book: <a href="http://www.habu.org/graham/sr71flying.html">Flying the SR-71 Blackbird: In the Cockpit On a Secret Operational Mission</a>
+<li><a href="http://en.wikipedia.org/wiki/Lockheed_SR-71_Blackbird">Lockheed SR-71 Blackbird</a>
+<li><a href="http://de.wikipedia.org/wiki/Lockheed_YF-12">Lockheed YF-12</a>
+<li><a href="http://en.wikipedia.org/wiki/Myasishchev_M-4">Myasishchev M-4 Bison</a>
+<li><a href="http://en.wikipedia.org/wiki/Tupolev_Tu-95">Tupolev Tu-95 Bear</a>
+<li><a href="http://en.wikipedia.org/wiki/Lockheed_U-2">Lockheed U-2</a>
+<li><a href="http://en.wikipedia.org/wiki/Beale_Air_Force_Base">Beale AFB</a>
+<li><a href="http://en.wikipedia.org/wiki/RAF_Mildenhall">RAF Mildenhall</a>
+<li><a href="http://en.wikipedia.org/wiki/Kadena_Air_Base">Kadena Air Base (Okinawa)</a>
+<li><a href="http://en.wikipedia.org/wiki/Edwards_Air_Force_Base">Edwards AFB</a>
+<li><a href="http://en.wikipedia.org/wiki/JP-7">JP-7 Fuel</a>
+<li><a href="http://en.wikipedia.org/wiki/Attitude_control_(spacecraft)#Star_tracker">Star Tracker</a>
+<li><a href="http://en.wikipedia.org/wiki/Kelly_Johnson_(engineer)">Kelly Johnson</a>
+<li><a href="http://en.wikipedia.org/wiki/Ring_laser_gyroscope">Ring Laser Gyroscope</a>
+<li><a href="http://en.wikipedia.org/wiki/Inertial_navigation_system">INS</a>
+<li><a href="http://en.wikipedia.org/wiki/Equivalent_airspeed">Equivalent Airspeed</a>
+<li><a href="http://en.wikipedia.org/wiki/Shock_wave">Shock Wave</a>
+<li><a href="http://en.wikipedia.org/wiki/Elevon">Elevon</a>
+<li><a href="http://www.sr-71.org/blackbird/j-58/j58image5.jpg">SR-71 Engine Sketch</a>
+<li><a href="http://en.wikipedia.org/wiki/Flameout">Flameout</a>
+<li><a href="http://en.wikipedia.org/wiki/Compressor_stall">Compressor Stall</a>
+<li><a href="http://en.wikipedia.org/wiki/Distance_Measuring_Equipment">DME</a>
+<li><a href="http://en.wikipedia.org/wiki/Tactical_air_navigation_system">TACAN</a>
+<li><a href="http://en.wikipedia.org/wiki/G-suit">G-Suit</a>
+<li><a href="http://en.wikipedia.org/wiki/Northrop_Grumman_RQ-4_Global_Hawk">Northrop Grumman RQ-4 Global Hawk</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/03/91-flying-the-sr-71/feed/</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-91-flyingTheSR71.mp3" length="74217256" type="audio/mpeg" />
+		<itunes:duration>1:17:17</itunes:duration>
+		<itunes:subtitle>In this episode we discuss the world's fastest and highest flying jet-powered aircraft ever built, the Lockheed SR-71 Blackbird. Our guest is Col. (Ret) Richard Graham, a former SR-71 pilot. Our conversation is loosely based on his book Flying the S[...]</itunes:subtitle>
+		<itunes:summary>In this episode we discuss the world's fastest and highest flying jet-powered aircraft ever built, the Lockheed SR-71 Blackbird. Our guest is Col. (Ret) Richard Graham, a former SR-71 pilot. Our conversation is loosely based on his book Flying the SR-71, and we discuss the challenge of flying the SR-71. As a consequence of its unique capabilities and its engine and inlet design, the aircraft posed a number of very specific challenges on the pilot.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>86 &#8211; Roller Coaster Design</title>
+		<link>http://omegataupodcast.net/2012/02/86-roller-coaster-design/</link>
+		<comments>http://omegataupodcast.net/2012/02/86-roller-coaster-design/#comments</comments>
+		<pubDate>Wed, 01 Feb 2012 18:39:50 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[construction]]></category>
+		<category><![CDATA[rides]]></category>
+		<category><![CDATA[steel]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=886</guid>
+		<description><![CDATA[In this conversation with Nick Weisenberger of <a href="http://www.coaster101.com/">Coaster 101</a> we discuss some of the engineering aspects that go into coaster design. We cover accelerations, speed control, banking as well as various kinds of lifts and other launch systems.]]></description>
+			<content:encoded><![CDATA[<p>In this conversation with Nick Weisenberger of <a href="http://www.coaster101.com/">Coaster 101</a> we discuss some of the engineering aspects that go into coaster design. We cover accelerations, speed control, banking as well as various kinds of lifts and other launch systems.</p>
+<ul>
+<li><a href="http://www.amazon.de/Coasters-101-Engineering-Coaster-ebook/dp/B006G4GIBE">Nick&#8217;s Book on Coaster Design</a>
+<li><a href="http://www.coaster101.com/">Coaster 101</a>
+<li><a href="http://www.premier-rides.com/">Premier Rides</a>
+<li><a href="http://www.engineeringexcitement.com/">S&#038;S Worldwide</a>
+<li><a href="http://www.thegravitygroup.com/">Gravity Group</a>
+<li><a href="http://de.wikipedia.org/wiki/Vekoma">Vekoma</a>
+<li><a href="http://de.wikipedia.org/wiki/Intamin">Intamin</a>
+<li><a href="http://de.wikipedia.org/wiki/Bolliger_%26_Mabillard">Bolliger &#038; Mabillard</a>
+<li><a href="http://www.maurer-soehne.de/">Maurer Söhne</a>
+<li><a href="http://www.astm.org/COMMIT/COMMITTEE/F24.htm">ASTM F24</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2012/02/86-roller-coaster-design/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-86-rollerCoasterDesign.mp3" length="35467430" type="audio/mpeg" />
+		<itunes:duration>0:36:56</itunes:duration>
+		<itunes:subtitle>In this conversation with Nick Weisenberger of Coaster 101 we discuss some of the engineering aspects that go into coaster design. We cover accelerations, speed control, banking as well as various kinds of lifts and other launch systems.</itunes:subtitle>
+		<itunes:summary>In this conversation with Nick Weisenberger of Coaster 101 we discuss some of the engineering aspects that go into coaster design. We cover accelerations, speed control, banking as well as various kinds of lifts and other launch systems.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>83 &#8211; How Apollo Flew to the Moon</title>
+		<link>http://omegataupodcast.net/2011/12/83-how-apollo-flew-to-the-moon/</link>
+		<comments>http://omegataupodcast.net/2011/12/83-how-apollo-flew-to-the-moon/#comments</comments>
+		<pubDate>Thu, 15 Dec 2011 19:43:47 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[apollo]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=844</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://www.wdwoods.com/">W. David Woods</a> about his wonderful book <a href="http://www.hafttm.com/">How Apollo Flew to the Moon</a> where he describes in great length all the detail a geek wants to know about how the Apollo spacecraft and the flights to the Moon worked. In the episode, we basically go through an Apollo mission and discuss aspects such as the mission structure, the workshare between the crew and mission control, communication and telemetry, guidance and navigation, approach, landing and re-launch on the Moon as well as re-entry and landing on earth.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://www.wdwoods.com/">W. David Woods</a> about his wonderful book <a href="http://www.hafttm.com/">How Apollo Flew to the Moon</a> where he describes in great length all the detail a geek wants to know about how the Apollo spacecraft and the flights to the Moon worked. In the episode, we basically go through an Apollo mission and discuss aspects such as the mission structure, the workshare between the crew and mission control, communication and telemetry, guidance and navigation, approach, landing and re-launch on the Moon as well as re-entry and landing on earth.</p>
+<ul>
+<li><a href="http://history.nasa.gov/afj/">Apollo Flight Journal</a>
+<li>How Apollo Flew to the Moon: <a href="http://hafttm.com/">David&#8217;s Site</a>, and <a href="http://www.amazon.com/Apollo-Springer-Praxis-Books-Exploration/dp/1441971785">at Amazon</a>
+<li><a href="http://de.wikipedia.org/wiki/Saturn_(Rakete)#Saturn_V">Saturn V</a>
+<li><a href="http://en.wikipedia.org/wiki/Apollo_(spacecraft)">Apollo</a>
+<li><a href="http://en.wikipedia.org/wiki/John_Houbolt">John Houbolt</a>
+<li><a href="http://en.wikipedia.org/wiki/Hohmann_transfer_orbit">Hohmann transfer orbit</a>
+<li><a href="http://en.wikipedia.org/wiki/Inertial_measurement_unit">Inertial measurement unit</a>
+<li><a href="http://en.wikipedia.org/wiki/Apollo_Guidance_Computer">Apollo Guidance Computer</a>
+<li><a href="http://apollo.spaceborn.dk/dsky.html">DSKY</a>
+<li><a href="http://en.wikipedia.org/wiki/Unified_S-Band">Unified S-Band</a>
+<li><a href="http://en.wikipedia.org/wiki/Quindar_tones">Quindar tones</a>
+<li><a href="http://www.collectspace.com/ubb/Forum24/HTML/008311.html">8 Ball (you can buy it :-))</a>
+<li><a href="http://en.wikipedia.org/wiki/Refsmmat">REFSMAAT</a>
+<li><a href="http://www.ehartwell.com/afj/PAD_(Pre-Advisory_Data)">PAD</a>
+<li><a href="http://en.wikipedia.org/wiki/Hypergolic_propellant">Hypergolics</a>
+<li><a href="http://en.wikipedia.org/wiki/Celestial_mechanics">Celestial mechanics</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/12/83-how-apollo-flew-to-the-moon/feed/</wfw:commentRss>
+		<slash:comments>30</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-83-howApolloFlewToTheMoon.mp3" length="133389851" type="audio/mpeg" />
+		<itunes:duration>2:18:56</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with W. David Woods about his wonderful book How Apollo Flew to the Moon where he describes in great length all the detail a geek wants to know about how the Apollo spacecraft and the flights to the Moon worked. In the[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with W. David Woods about his wonderful book How Apollo Flew to the Moon where he describes in great length all the detail a geek wants to know about how the Apollo spacecraft and the flights to the Moon worked. In the episode, we basically go through an Apollo mission and discuss aspects such as the mission structure, the workshare between the crew and mission control, communication and telemetry, guidance and navigation, approach, landing and re-launch on the Moon as well as re-entry and landing on earth.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>81 &#8211; Geophysical Modeling in Oil Exploration</title>
+		<link>http://omegataupodcast.net/2011/11/81-geophysical-modeling-in-oil-exploration/</link>
+		<comments>http://omegataupodcast.net/2011/11/81-geophysical-modeling-in-oil-exploration/#comments</comments>
+		<pubDate>Wed, 23 Nov 2011 16:47:03 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[energy]]></category>
+		<category><![CDATA[oil]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=830</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://esd.lbl.gov/about/staff/michaelcommer/">Michael Commer</a> of the <a href="http://www.lbl.gov/">Berkeley Lab</a> about geophyiscal modeling in oil exploration. We start with a brief discussion about how oil gets created and in which geological formations it can be found. We then proceed to talk about various means of finding oil using various means and techniques. The majority of the episode's conversation revolves around how numerical mathematics can help interpret, refine and work with exploration results.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://esd.lbl.gov/about/staff/michaelcommer/">Michael Commer</a> of the <a href="http://www.lbl.gov/">Berkeley Lab</a> about geophyiscal modeling in oil exploration. We start with a brief discussion about how oil gets created and in which geological formations it can be found. We then proceed to talk about various means of finding oil using various means and techniques. The majority of the episode&#8217;s conversation revolves around how numerical mathematics can help interpret, refine and work with exploration results.</p>
+<ul>
+<li><a href="http://esd.lbl.gov/about/staff/michaelcommer/">Michael Commer</a>
+<li><a href="http://www.lbl.gov/">Berkeley Lab</a>
+<li><a href="http://en.wikipedia.org/wiki/Magnetotellurics">Magnetotellurics</a>
+<li><a href="http://en.wikipedia.org/wiki/Anticline">Anticline</a>
+<li><a href="http://www.netl.doe.gov/technologies/oil-gas/petroleum/projects/ep/images/ThumperTruck2.jpg">Thumper (Picture)</a>
+<li><a href="http://en.wikipedia.org/wiki/Acoustic_impedance">Acoustic impedance</a>
+<li><a href="http://en.wikipedia.org/wiki/Gaussian_elimination">Gaussian elimination</a>
+<li><a href="http://www.nersc.gov/systems/hopper-cray-xe6/">Hopper</a>
+<li><a href="http://esd.lbl.gov/about/staff/gregorynewman/">Gregory A. Newman</a>
+<li><a href="http://en.wikipedia.org/wiki/InfiniBand">InfiniBand</a>
+<li><a href="http://de.wikipedia.org/wiki/Blue_Gene">Blue Gene</a>
+<li><a href="http://de.wikipedia.org/wiki/Fpga">FPGA</a>
+<li><a href="http://de.wikipedia.org/wiki/Fortran">Fortran</a>
+<li><a href="http://mbeddr.com/">mbeddr</a>
+<li><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>
+<li><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>
+<li><a href="http://en.wikipedia.org/wiki/Fortress_(programming_language)">Fortress</a>
+<li><a href="http://www.scala-lang.org/">Scala</a>
+<li><a href="http://en.wikipedia.org/wiki/Mount_Merapi">Mount Merapi</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/11/81-geophysical-modeling-in-oil-exploration/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-81-geophysModelingOilExproation.mp3" length="60675842" type="audio/mpeg" />
+		<itunes:duration>1:03:11</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Michael Commer of the Berkeley Lab about geophyiscal modeling in oil exploration. We start with a brief discussion about how oil gets created and in which geological formations it can be found. We then proceed to [...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Michael Commer of the Berkeley Lab about geophyiscal modeling in oil exploration. We start with a brief discussion about how oil gets created and in which geological formations it can be found. We then proceed to talk about various means of finding oil using various means and techniques. The majority of the episode's conversation revolves around how numerical mathematics can help interpret, refine and work with exploration results.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>76 &#8211; The European Transonic Windtunnel</title>
+		<link>http://omegataupodcast.net/2011/09/76-the-european-transonic-windtunnel/</link>
+		<comments>http://omegataupodcast.net/2011/09/76-the-european-transonic-windtunnel/#comments</comments>
+		<pubDate>Mon, 12 Sep 2011 17:11:35 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aerodynamik]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[windkanal]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=779</guid>
+		<description><![CDATA[This episode is a conversation with Dieter Schimanski, the Manager Test &#038; Operations of the <a href="http://etw.de/">European Transonic Windtunnel</a>. In late June of 2011 I had the chance to visit the facility. The episode starts out with a one hour conversation about aerodynamics and the concepts behind the ETW. The rest of the episode is essentially an audio report of the tour I took of the facility. To better grasp the magnitude of the facility, I recommend you take a look at the <a href="http://www.etw.de/cms/index.php?site=gallery">picture gallery</a>.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with Dieter Schimanski, the Manager Test &#038; Operations of the <a href="http://etw.de/">European Transonic Windtunnel</a>. In late June of 2011 I had the chance to visit the facility. The episode starts out with a one hour conversation about aerodynamics and the concepts behind the ETW. The rest of the episode is essentially an audio report of the tour I took of the facility. To better grasp the magnitude of the facility, I recommend you take a look at the <a href="http://www.etw.de/cms/index.php?site=gallery">picture gallery</a>.</p>
+<ul>
+<li><a href="http://etw.de/">European Transonic Windtunnel</a>
+<li><a href="http://www.etw.de/cms/index.php?site=gallery">ETW Picture Gallery</a>
+<li><a href="http://omegataupodcast.net/2009/04/12-aerodynamik-und-der-windkanal-der-uni-stuttgart/">omega tau 12 &#8211; Aerodynamik und der Windkanal der Uni Stuttgart</a>
+<li><a href="http://en.wikipedia.org/wiki/Reynolds_number">Reynolds Number</a>
+<li><a href="http://en.wikipedia.org/wiki/Boundary_layer">Boundary layer</a>
+<li><a href="http://en.wikipedia.org/wiki/Laminar_flow">Laminar flow</a>
+<li><a href="http://en.wikipedia.org/wiki/Turbulent">Turbulent Flow</a>
+<li><a href="http://en.wikipedia.org/wiki/Mach_number">Mach number</a>
+<li><a href="http://en.wikipedia.org/wiki/Nitrogen">Nitrogen</a>
+<li><a href="http://en.wikipedia.org/wiki/Aerodynamic_drag">Aerodynamic drag</a>
+<li><a href="http://en.wikipedia.org/wiki/Angle_of_attack">Angle of attack</a>
+<li><a href="http://www.windtunnels.arc.nasa.gov/">NASA Ames Wind Tunnel</a>
+<li><a href="http://www.aeronautics.nasa.gov/atp/facilities/ntf/index.html">National Transsonic Facility (Langley)</a>
+<li><a href="http://windtunnel.onera.fr/capabilities">Modane S1 Wind Tunnel</a>
+<li><a href="http://www.dnw.aero/home.aspx">DNW Wind Tunnels</a>
+<li><a href="http://en.wikipedia.org/wiki/De_Laval_nozzle">Laval Nozzle</a>
+<li><a href="http://www.sensorland.com/HowPage002.html">Strain Gauge</a>
+<li><a href="http://www.ara.co.uk/services/innovation-and-technology/strain-gauge-balance-developments/">Strain Gauge Development</a>
+<li><a href="http://en.wikipedia.org/wiki/Inclinometer">Inclinometer</a>
+<li><a href="http://en.wikipedia.org/wiki/Sideslip_angle">Sideslip angle</a>
+<li><a href="http://en.wikipedia.org/wiki/Dynamic_pressure">Dynamic pressure</a>
+<li><a href="http://en.wikipedia.org/wiki/Wake_turbulence">Wake turbulence</a>
+<li><a href="http://de.wikipedia.org/wiki/Airbus_A310">A310</a>
+<li><a href="http://de.wikipedia.org/wiki/Airbus_A320">A320</a>
+<li><a href="http://de.wikipedia.org/wiki/Airbus_A340">A340</a>
+<li><a href="http://en.wikipedia.org/wiki/Dew_point">Dew point</a>
+<li><a href="http://en.wikipedia.org/wiki/Cleanroom">Cleanroom</a>
+<li><a href="http://en.wikipedia.org/wiki/Particle_counter">Particle counter</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/09/76-the-european-transonic-windtunnel/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-76-europeanTransonicWindtunnel.mp3" length="156856172" type="audio/mpeg" />
+		<itunes:duration>2:43:22</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Dieter Schimanski, the Manager Test &#038; Operations of the European Transonic Windtunnel. In late June of 2011 I had the chance to visit the facility. The episode starts out with a one hour conversation about ae[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Dieter Schimanski, the Manager Test &#038; Operations of the European Transonic Windtunnel. In late June of 2011 I had the chance to visit the facility. The episode starts out with a one hour conversation about aerodynamics and the concepts behind the ETW. The rest of the episode is essentially an audio report of the tour I took of the facility. To better grasp the magnitude of the facility, I recommend you take a look at the picture gallery.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>73 &#8211; Flight Testing at NASA Dryden</title>
+		<link>http://omegataupodcast.net/2011/08/73-flight-testing-at-nasa-dryden/</link>
+		<comments>http://omegataupodcast.net/2011/08/73-flight-testing-at-nasa-dryden/#comments</comments>
+		<pubDate>Thu, 04 Aug 2011 17:59:36 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=757</guid>
+		<description><![CDATA[In this episode I talk with NASA Dryden Test Pilot <a href="http://www.nasa.gov/centers/dryden/news/Biographies/Pilots/bd-dfrc-p025.html">Dick Ewers</a> about his work now and in the past. We start by revisiting his test pilot training at the US Navy Test Pilot School, and proceed to talking about his involvement in early F-18 flight testing. We then compare this work to the F-18 work he  does today, using the aeroelastic wing and autonomous air refuelling projects as examples. We conclude our conversation by discussing his pole overflights with the DC-8, as well as his hurricane penetration flights with that same aircraft.]]></description>
+			<content:encoded><![CDATA[<p>In this episode I talk with NASA Dryden Test Pilot <a href="http://www.nasa.gov/centers/dryden/news/Biographies/Pilots/bd-dfrc-p025.html">Dick Ewers</a> about his work now and in the past. We start by revisiting his test pilot training at the US Navy Test Pilot School, and proceed to talking about his involvement in early F-18 flight testing. We then compare this work to the F-18 work he  does today, using the aeroelastic wing and autonomous air refuelling projects as examples. We conclude our conversation by discussing his pole overflights with the DC-8, as well as his hurricane penetration flights with that same aircraft.</p>
+</ul>
+<li><a href="http://www.nasa.gov/centers/dryden/news/Biographies/Pilots/bd-dfrc-p025.html">Bio Dick Ewers</a>
+<li><a href="http://www.gpsana.org/media/images/August04SpkrPic-DickEwers.jpg">Dick and &#8220;his&#8221; F-18</a>
+<li><a href="http://www.nasa.gov/centers/dryden/home/index.html">NASA Dryden</a>
+<li><a href="http://www.youtube.com/watch?v=6XkGQm4rvK4">Very nice Video about Flight Testing at Dryden</a>
+<li><a href="http://www.nasa.gov/centers/dryden/aircraft/index.html">NASA Dryden Aircraft</a>
+<li><a href="http://www.edwards.af.mil/">Edwards AFB</a>
+<li><a href="http://de.wikipedia.org/wiki/General_Dynamics_F-16">F-16</a>
+<li><a href="http://de.wikipedia.org/wiki/McDonnell_F-4">F-4 Phantom</a>
+<li><a href="http://de.wikipedia.org/wiki/McDonnell_Douglas_F/A-18">F-18</a>
+<li><a href="http://de.wikipedia.org/wiki/AWACS">E-3 AWACS</a>
+<li><a href="http://de.wikipedia.org/wiki/Rockwell_B-1">B-1</a>
+<li><a href="http://de.wikipedia.org/wiki/Douglas_DC-8">DC-8</a>
+<li><a href="http://www.nasa.gov/centers/dryden/news/FactSheets/FS-050-DFRC.html">NASA DC-8</a>
+<li><a href="http://en.wikipedia.org/wiki/Gulfstream_III">Gulfstream G III</a>
+<li><a href="http://uavsar.jpl.nasa.gov/fieldsites/mtsthelens/mtsthelens.html">NASA G III</a>
+<li><a href="http://de.wikipedia.org/wiki/Northrop_Grumman_RQ-4">Global Hawk</a>
+<li><a href="http://de.wikipedia.org/wiki/Beechcraft_King_Air">King Air</a>
+<li><a href="http://de.wikipedia.org/wiki/Beechcraft_Bonanza">T-34</a>
+<li><a href="http://www.nasa.gov/centers/dryden/aircraft/T-34C/index.html">NASA T-34</a>
+<li><a href="http://de.wikipedia.org/wiki/Boeing_X-48">X-48</a>
+<li><a href="http://www.navair.navy.mil/USNTPS/">US Navy Test Pilot School</a>
+<li><a href="http://de.wikipedia.org/wiki/Douglas_A-4">A-4</a>
+<li><a href="http://de.wikipedia.org/wiki/Vought_A-7">A-7</a>
+<li><a href="http://de.wikipedia.org/wiki/F-15_Eagle">F-15</a>
+<li><a href="http://de.wikipedia.org/wiki/F-86">F-86</a>
+<li><a href="http://www.nasa.gov/centers/dryden/news/FactSheets/FS-061-DFRC.html">Active Aeroelastic Wing Project</a>
+<li><a href="http://de.wikipedia.org/wiki/Boeing_B-52">B-52</a>
+<li><a href="http://de.wikipedia.org/wiki/U-2">U-2</a>
+<li><a href="http://en.wikipedia.org/wiki/Aerial_refueling">Aerial Refuelling</a>
+<li><a href="http://www.nasa.gov/centers/dryden/home/darpa_handsoff.html">Autonomous Aerial Refueling</a>
+<li><a href="http://www.youtube.com/watch?v=U2JqA1fMQ0w">Autonomous Aerial Refueling: The Video</a>
+<li><a href="http://www.youtube.com/watch?v=b_2E_wbGbSA">Autonomous Aerial Refueling: Another Video</a>
+<li><a href="http://www.darpa.mil/">DARPA</a>
+<li><a href="http://www.nasa.gov/centers/dryden/history/pastprojects/AFF/index.html">Autonomous Formation Flying</a>
+<li><a href="http://brothersgrimmandgorey.blogspot.com/2009/10/why-do-geese-fly-in-v-formation.html">Why Geese fly in Formation</a>
+<li><a href="http://www.aerospaceweb.org/question/nature/q0237.shtml">V-Formation Flight of Birds</a>
+<li><a href="http://en.wikipedia.org/wiki/Pitot_tube">Pitot Tube</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/08/73-flight-testing-at-nasa-dryden/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-73-flightTestingAtNASADryden.mp3" length="70033510" type="audio/mpeg" />
+		<itunes:duration>1:12:56</itunes:duration>
+		<itunes:subtitle>In this episode I talk with NASA Dryden Test Pilot Dick Ewers about his work now and in the past. We start by revisiting his test pilot training at the US Navy Test Pilot School, and proceed to talking about his involvement in early F-18 flight test[...]</itunes:subtitle>
+		<itunes:summary>In this episode I talk with NASA Dryden Test Pilot Dick Ewers about his work now and in the past. We start by revisiting his test pilot training at the US Navy Test Pilot School, and proceed to talking about his involvement in early F-18 flight testing. We then compare this work to the F-18 work he  does today, using the aeroelastic wing and autonomous air refuelling projects as examples. We conclude our conversation by discussing his pole overflights with the DC-8, as well as his hurricane penetration flights with that same aircraft.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>71 &#8211; Oracle Racing&#8217;s USA 17</title>
+		<link>http://omegataupodcast.net/2011/07/71-oracle-racings-usa-17/</link>
+		<comments>http://omegataupodcast.net/2011/07/71-oracle-racings-usa-17/#comments</comments>
+		<pubDate>Wed, 20 Jul 2011 06:33:35 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aerodynamik]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[schifffahrt]]></category>
+		<category><![CDATA[ships]]></category>
+		<category><![CDATA[werkstoffe]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=743</guid>
+		<description><![CDATA[This episode is a conversation with Mike Drummond, the Executive Designer for <a href="http://www.americascup.com/en/Teams/ORACLE-Racing/oracle/">OracleRacing</a>. We talk about the <a href="http://en.wikipedia.org/wiki/USA_17_(yacht)">USA 17</a> yacht which won the <a href="http://en.wikipedia.org/wiki/America%27s_Cup_(33rd_edition)">33rd America's Cup</a>. We talk about the characteristics of the boat, the design process and how the boat is driven during a race.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with Mike Drummond, the Executive Designer for <a href="http://www.americascup.com/en/Teams/ORACLE-Racing/oracle/">OracleRacing</a>. We talk about the <a href="http://en.wikipedia.org/wiki/USA_17_(yacht)">USA 17</a> yacht which won the <a href="http://en.wikipedia.org/wiki/America%27s_Cup_(33rd_edition)">33rd America&#8217;s Cup</a>. We talk about the characteristics of the boat, the design process and how the boat is driven during a race.</p>
+<ul>
+<li><a href="http://www.americascup.com/en/Teams/ORACLE-Racing/oracle/">Team Oracle</a>
+<li><a href="http://www.youtube.com/watch?v=OBNnZXT6qH8">USA 17 video</a>
+<li><a href="http://www.youtube.com/watch?v=qsk0bKSpIhk">Another USA 17 video</a>
+<li><a href="http://en.wikipedia.org/wiki/USA_17_(yacht)">USA 17 at Wikipedia</a>
+<li><a href="http://www.americascup.com/">America&#8217;s Cup</a>
+<li><a href="http://en.wikipedia.org/wiki/America%E2%80%99s_Cup">America&#8217;s Cup (Wikipedia)</a>
+<li><a href="http://en.wikipedia.org/wiki/America%27s_Cup_(33rd_edition)">33rd America&#8217;s Cup (Wikipedia)</a>
+<li><a href="http://www.alinghi.com/en/">Alinghi</a>
+<li><a href="http://www.a3.org/ac2000_DeedofGift.html">Deed of Gift</a>
+<li><a href="http://www.answers.com/topic/righting-moment">Righting Moment</a>
+<li><a href="http://en.wikipedia.org/wiki/Computational_fluid_dynamics">CFD</a>
+<li><a href="http://www.cd-adapco.com/products/star_ccm_plus/index.html">Star CCM+</a>
+<li><a href="http://www.youtube.com/watch?v=J9LFsyoUDDQ">Pitch-Polling (illustrated :-))</a>
+<li><a href="http://en.wikipedia.org/wiki/Daggerboard">Daggerboard</a>
+<li><a href="http://omegataupodcast.net/2011/01/55-schiffsauslegung-bei-der-hsva/">omega tau: Schiffsauslegung/HSVA</a>
+<li><a href="http://omegataupodcast.net/2010/01/25-aerodynamic-lift-explained/">omega tau: Aerodynamic Lift</a>
+<li><a href="http://en.wikipedia.org/wiki/Flap_(aircraft)">(Fowler) Flap</a>
+<li><a href="http://en.wikipedia.org/wiki/Carbon_(fiber)">Carbon Fiber</a>
+<li><a href="http://en.wikipedia.org/wiki/Honeycomb">Honeycomb</a>
+<li><a href="http://www.toraycfa.com/pdfs/M55JDataSheet.pdf">M55J</a>
+<li><a href="http://en.wikipedia.org/wiki/Autoclave">Autoclave</a>
+<li><a href="http://en.wikipedia.org/wiki/Nomex">Nomex</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/07/71-oracle-racings-usa-17/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-71-oracleRacingsUSA17.mp3" length="63867345" type="audio/mpeg" />
+		<itunes:duration>1:06:30</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Mike Drummond, the Executive Designer for OracleRacing. We talk about the USA 17 yacht which won the 33rd America's Cup. We talk about the characteristics of the boat, the design process and how the boat is driven[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Mike Drummond, the Executive Designer for OracleRacing. We talk about the USA 17 yacht which won the 33rd America's Cup. We talk about the characteristics of the boat, the design process and how the boat is driven during a race.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>70 &#8211; Viruses, Bacteria and other Parasites</title>
+		<link>http://omegataupodcast.net/2011/07/70-viruses-bacteria-and-other-parasites/</link>
+		<comments>http://omegataupodcast.net/2011/07/70-viruses-bacteria-and-other-parasites/#comments</comments>
+		<pubDate>Sat, 09 Jul 2011 17:33:23 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[medicine]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=737</guid>
+		<description><![CDATA[In this episode we talk to <a href="http://www.twiv.tv/">fellow podcasters</a> <a href="http://en.wikipedia.org/wiki/Vincent_Racaniello">Vincent Racaniello</a> and <a href="http://en.wikipedia.org/wiki/Dickson_Despommier">Dickson Despommier</a> about viruses, bacteria and other parasites. Among other topics we discuss what each kind of parasite is made of an how they interact with the human organism (in good and bad ways). ]]></description>
+			<content:encoded><![CDATA[<p>In this episode we talk to <a href="http://www.twiv.tv/">fellow podcasters</a> <a href="http://en.wikipedia.org/wiki/Vincent_Racaniello">Vincent Racaniello</a> and <a href="http://en.wikipedia.org/wiki/Dickson_Despommier">Dickson Despommier</a> about viruses, bacteria and other parasites. Among other topics we discuss what each kind of parasite is made of an how they interact with the human organism (in good and bad ways). </p>
+<ul>
+<li><a href="http://www.twiv.tv/">This Week in Virology</a>
+<li><a href="http://www.microbeworld.org/index.php?option=com_content&#038;view=category&#038;layout=blog&#038;id=99&#038;Itemid=259">This Week in Parasitism</a>
+<li><a href="http://www.virology.ws/2011/02/23/this-week-in-microbiology/">This Week in Microbiology</a>
+<li><a href="http://en.wikipedia.org/wiki/Trichinella_spiralis">Trichinella spiralis</a>
+<li><a href="http://en.wikipedia.org/wiki/Escherichia_coli">E-Coli</a>
+<li><a href="http://en.wikipedia.org/wiki/Prion">Prion</a>
+<li><a href="http://en.wikipedia.org/wiki/Nucleic_acid">Nucleic acid</a>
+<li><a href="http://en.wikipedia.org/wiki/DNA">DNA</a>
+<li><a href="http://en.wikipedia.org/wiki/RNA">RNA</a>
+<li><a href="http://en.wikipedia.org/wiki/Polio">Polio</a>
+<li><a href="http://en.wikipedia.org/wiki/Lipid">Lipid</a>
+<li><a href="http://en.wikipedia.org/wiki/Metabolism">Metabolism</a>
+<li><a href="http://omegataupodcast.net/2009/09/18-astrobiology-at-the-nasa-astrobiology-institute/">Astrobiology at the NASA Astrobiology Institute (omega tau)</a>
+<li><a href="http://en.wikipedia.org/wiki/Virus">Virus</a>
+<li><a href="http://en.wikipedia.org/wiki/Heterotroph">Heterotroph</a>
+<li><a href="http://en.wikipedia.org/wiki/Autotroph">Autotroph</a>
+<li><a href="http://en.wikipedia.org/wiki/Hiv">HIV</a>
+<li><a href="http://en.wikipedia.org/wiki/Influenza">Influenza</a>
+<li><a href="http://en.wikipedia.org/wiki/Herpes">Herpes simplex</a>
+<li><a href="http://en.wikipedia.org/wiki/Phylogenetic_tree">Phylogenetic tree</a>
+<li><a href="http://en.wikipedia.org/wiki/Blood_clotting">Blood Clotting (Coagulation)</a>
+<li><a href="http://en.wikipedia.org/wiki/Bacteria">Bacteria</a>
+<li><a href="http://en.wikipedia.org/wiki/Immune_system">Immune system</a>
+<li><a href="http://en.wikipedia.org/wiki/Endogenous_virus">Endogenous retrovirus</a>
+<li><a href="http://en.wikipedia.org/wiki/Binary_fission">Fission (biology)</a>
+<li><a href="http://en.wikipedia.org/wiki/Probiotic">Probiotic</a>
+<li><a href="http://en.wikipedia.org/wiki/Symbiosis">Symbiosis</a>
+<li><a href="http://en.wikipedia.org/wiki/Personalized_medicine">Personalized medicine</a>
+<li><a href="http://en.wikipedia.org/wiki/Robert_koch">Robert Koch</a>
+<li><a href="http://en.wikipedia.org/wiki/Colera">Colera</a>
+<li><a href="http://en.wikipedia.org/wiki/John_Snow_(physician)">John Snow</a>
+<li><a href="http://en.wikipedia.org/wiki/Tuberculosis">Tuberculosis</a>
+<li><a href="http://en.wikipedia.org/wiki/Smallpox">Smallpox</a>
+<li><a href="http://en.wikipedia.org/wiki/Protozoan">Protozoa</a>
+<li><a href="http://en.wikipedia.org/wiki/Funghi">Fungus</a>
+<li><a href="http://en.wikipedia.org/wiki/Ectoparasites">Ectoparasites</a>
+<li><a href="http://en.wikipedia.org/wiki/Antibiotics">Antibiotics</a>
+<li><a href="http://en.wikipedia.org/wiki/MDR-TB">Multi-drug-resistant tuberculosis</a>
+<li><a href="http://cid.oxfordjournals.org/content/52/4/485.extract">New Delhi MDR TB</a>
+<li><a href="http://en.wikipedia.org/wiki/Marburg_virus">Marburg virus</a>
+<li><a href="http://en.wikipedia.org/wiki/Richard_Owen">Richard Owen</a>
+<li><a href="http://en.wikipedia.org/wiki/James_Paget">James Paget</a>
+<li><a href="http://en.wikipedia.org/wiki/Virchow">Rudolf Virchow</a>
+<li><a href="http://en.wikipedia.org/wiki/Enterobius">Enterobius</a>
+<li><a href="http://en.wikipedia.org/wiki/Immunoglobulin_e">Immunoglobulin E</a>
+<li><a href="http://www.gatesfoundation.org/Pages/home.aspx">Gates Foundation</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/07/70-viruses-bacteria-and-other-parasites/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-70-virusesBacteriaParasites.mp3" length="90321265" type="audio/mpeg" />
+		<itunes:duration>0:54:54</itunes:duration>
+		<itunes:subtitle>In this episode we talk to fellow podcasters Vincent Racaniello and Dickson Despommier about viruses, bacteria and other parasites. Among other topics we discuss what each kind of parasite is made of an how they interact with the human organism (in [...]</itunes:subtitle>
+		<itunes:summary>In this episode we talk to fellow podcasters Vincent Racaniello and Dickson Despommier about viruses, bacteria and other parasites. Among other topics we discuss what each kind of parasite is made of an how they interact with the human organism (in good and bad ways).</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>67 &#8211; Rendering the World with Outerra</title>
+		<link>http://omegataupodcast.net/2011/06/67-rendering-the-world-with-outerra/</link>
+		<comments>http://omegataupodcast.net/2011/06/67-rendering-the-world-with-outerra/#comments</comments>
+		<pubDate>Tue, 07 Jun 2011 17:16:12 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[graphics]]></category>
+		<category><![CDATA[simulation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=711</guid>
+		<description><![CDATA[In this episode we talk with Brano Kemen about his <a href="http://www.outerra.com/">Outerra</a> project, a <i>3D planetary engine for seamless planet rendering from space down to the surface.</i>. We discuss the history of the project, its most interesting features, some of the physics, as well as some details about the rendering in the system. I highly recommend taking a look at the  <a href="http://www.youtube.com/user/lhrabcak?blend=3&#038;ob=5">Outerra Youtube Channel</a>, specifically the <a href="http://www.youtube.com/watch?v=gf8YQ9WSdiw">Himalaya Trip</a> and the <a href="http://www.youtube.com/watch?v=FwtKHbl0pjs">Apache flight</a>.]]></description>
+			<content:encoded><![CDATA[<p>In this episode we talk with Brano Kemen about his <a href="http://www.outerra.com/">Outerra</a> project, a <i>3D planetary engine for seamless planet rendering from space down to the surface.</i>. We discuss the history of the project, its most interesting features, some of the physics, as well as some details about the rendering in the system. I highly recommend taking a look at the  <a href="http://www.youtube.com/user/lhrabcak?blend=3&#038;ob=5">Outerra Youtube Channel</a>, specifically the <a href="http://www.youtube.com/watch?v=gf8YQ9WSdiw">Himalaya Trip</a> and the <a href="http://www.youtube.com/watch?v=FwtKHbl0pjs">Apache flight</a>.</p>
+<ul>
+<li><a href="http://www.outerra.com">Outerra Website</a>
+<li><a href="http://outerra.blogspot.com/">Outerra Blog</a>
+<li><a href="http://www.youtube.com/user/lhrabcak?blend=3&#038;ob=5">Outerra Youtube Channel</a>
+<li><a href="http://www.google.de/intl/de/earth/index.html">Google Earth</a>
+<li><a href="http://www.moddb.com/engines/i-novae-engine">i-novae engine</a>
+<li><a href="http://www-evasion.imag.fr/Membres/Eric.Bruneton/">Eric Bruneton&#8217;s Proland</a>
+<li><a href="http://en.wikipedia.org/wiki/Fractal">Fractal</a>
+<li><a href="http://en.wikipedia.org/wiki/Recursion">Recursion</a>
+<li><a href="http://modis.gsfc.nasa.gov/">MODIS</a>
+<li><a href="http://en.wikipedia.org/wiki/Tatra_813">Tatra 813</a>
+<li><a href="http://jsbsim.sourceforge.net/">JSBSim</a> Flight Dynamics Model
+<li><a href="http://bulletphysics.org/wordpress/">Bullet Physics</a> Engine
+<li><a href="http://en.wikipedia.org/wiki/Shader">Shader</a>
+<li><a href="http://en.wikipedia.org/wiki/Directx">DirectX</a>
+<li><a href="http://en.wikipedia.org/wiki/OpenGL">OpenGL/a>
+<li><a href="http://www.nvidia.de/page/geforce8.html">NVidia GForce 8</a>
+<li><a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/06/67-rendering-the-world-with-outerra/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-67-renderingTheWorldOuterra.mp3" length="64596279" type="audio/mpeg" />
+		<itunes:duration>1:07:16</itunes:duration>
+		<itunes:subtitle>In this episode we talk with Brano Kemen about his Outerra project, a 3D planetary engine for seamless planet rendering from space down to the surface.. We discuss the history of the project, its most interesting features, some of the physics, as we[...]</itunes:subtitle>
+		<itunes:summary>In this episode we talk with Brano Kemen about his Outerra project, a 3D planetary engine for seamless planet rendering from space down to the surface.. We discuss the history of the project, its most interesting features, some of the physics, as well as some details about the rendering in the system. I highly recommend taking a look at the  Outerra Youtube Channel, specifically the Himalaya Trip and the Apache flight.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/63/ The Cassini Mission to Saturn</title>
+		<link>http://omegataupodcast.net/2011/04/63-the-cassini-mission-to-saturn/</link>
+		<comments>http://omegataupodcast.net/2011/04/63-the-cassini-mission-to-saturn/#comments</comments>
+		<pubDate>Mon, 18 Apr 2011 15:44:49 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[planets]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=589</guid>
+		<description><![CDATA[This episode is about the <a href="http://saturn.jpl.nasa.gov/index.cfm">Cassini Mission</a> to <a href="http://en.wikipedia.org/wiki/Saturn">Saturn</a>. We talk with <a href="http://www.linkedin.com/pub/nora-kelly-alonge/3/9ba/334">Nora Kelly Alonge</a>, a Project Science System Engineer and Science Planning Engineer at <a href="http://www.jpl.nasa.gov/">NASA Jet Propulsion Laboratory</a>. In the episode we cover the Cassini spacecraft's structure and sensors (and its lander, Huygens), some of the relevant science, as well as the challenge of coordinating science and engineering requirements on the mission.]]></description>
+			<content:encoded><![CDATA[<p>This episode is about the <a href="http://saturn.jpl.nasa.gov/index.cfm">Cassini Mission</a> to <a href="http://en.wikipedia.org/wiki/Saturn">Saturn</a>. We talk with <a href="http://www.linkedin.com/pub/nora-kelly-alonge/3/9ba/334">Nora Kelly Alonge</a>, a Project Science System Engineer and Science Planning Engineer at <a href="http://www.jpl.nasa.gov/">NASA Jet Propulsion Laboratory</a>. In the episode we cover the Cassini spacecraft&#8217;s structure and sensors (and its lander, Huygens), some of the relevant science, as well as the challenge of coordinating science and engineering requirements on the mission.</p>
+<ul>
+<li><a href="http://www.jpl.nasa.gov/">NASA JPL</a>
+<li><a href="http://www.caltech.edu/">Caltech</a>
+<li><a href="http://saturn.jpl.nasa.gov/index.cfm">Cassini Mission</a>
+<li><a href="http://en.wikipedia.org/wiki/Cassini%E2%80%93Huygens">Cassini Spacecraft</a>
+<li><a href="http://en.wikipedia.org/wiki/Huygens_probe">Huygens</a>
+<li><a href="http://en.wikipedia.org/wiki/Saturn">Saturn (Planet)</a>
+<li><a href="http://en.wikipedia.org/wiki/Jupiter_(Planet)">Jupiter (Planet)</a>
+<li><a href="http://en.wikipedia.org/wiki/Titan_(moon)">Titan (Moon)</a>
+<li><a href="http://en.wikipedia.org/wiki/Enceladus_(moon)">Enceladus (Moon)</a>
+<li><a href="http://en.wikipedia.org/wiki/Gravity_assist">Gravity assist</a>
+<li><a href="http://www.esa.int/esaCP/index.html">ESA</a>
+<li><a href="http://en.wikipedia.org/wiki/Titan_rocket">Titan (Rocket)</a>
+<li><a href="http://solarsystem.nasa.gov/galileo/">Galileo Mission</a>
+<li><a href="http://en.wikipedia.org/wiki/Uranus">Uranus (Planet)</a>
+<li><a href="http://en.wikipedia.org/wiki/Neptune">Neptune (Planet)</a>
+<li><a href="http://en.wikipedia.org/wiki/Doppler_effect">Doppler Effect</a>
+<li><a href="http://en.wikipedia.org/wiki/Star_tracker#Star_tracker">Star Tracker</a>
+<li><a href="http://en.wikipedia.org/wiki/Reaction_wheels">Reaction Wheel</a>
+<li><a href="http://www.youtube.com/watch?v=tD5JWnn66LU">Huygens landing (video)</a>
+<li><a href="http://www.youtube.com/watch?v=xUlr8fKI2bc">Huygens landing II (video)</a>
+<li><a href="http://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator">Radioisotope thermoelectric generator</a>
+<li><a href="http://deepspace.jpl.nasa.gov/dsn/">Deep Space Network</a>
+<li><a href="http://en.wikipedia.org/wiki/Voyager_program">Voyager program</a>
+<li><a href="http://en.wikipedia.org/wiki/Viking_program">Viking program</a>
+<li><a href="http://en.wikipedia.org/wiki/Pioneer_program">Pioneer program</a>
+<li><a href="http://lightsinthedark.wordpress.com/2010/11/16/saturns-storm-alley/">Saturn’s “Storm Alley”</a>
+<li><a href="http://www.jpl.nasa.gov/news/news.cfm?release=2006-137">Storm on Saturn</a>
+<li><a href="http://ecocosmology.blogspot.com/2009/10/saturn-home-of-hexagon-mystery.html">The Hexagon</a>
+<li><a href="http://en.wikipedia.org/wiki/Mimas_(moon)">Mimas (Moon)</a>
+<li><a href="http://pds.nasa.gov/">PDS</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/04/63-the-cassini-mission-to-saturn/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-63-cassini.mp3" length="72830449" type="audio/mpeg" />
+		<itunes:duration>1:15:51</itunes:duration>
+		<itunes:subtitle>This episode is about the Cassini Mission to Saturn. We talk with Nora Kelly Alonge, a Project Science System Engineer and Science Planning Engineer at NASA Jet Propulsion Laboratory. In the episode we cover the Cassini spacecraft's structure and se[...]</itunes:subtitle>
+		<itunes:summary>This episode is about the Cassini Mission to Saturn. We talk with Nora Kelly Alonge, a Project Science System Engineer and Science Planning Engineer at NASA Jet Propulsion Laboratory. In the episode we cover the Cassini spacecraft's structure and sensors (and its lander, Huygens), some of the relevant science, as well as the challenge of coordinating science and engineering requirements on the mission.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/59/ Bitcoin &#8211; a Digital, Decentralized Currency</title>
+		<link>http://omegataupodcast.net/2011/03/59-bitcoin-a-digital-decentralized-currency/</link>
+		<comments>http://omegataupodcast.net/2011/03/59-bitcoin-a-digital-decentralized-currency/#comments</comments>
+		<pubDate>Sat, 19 Mar 2011 07:34:49 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[economy]]></category>
+		<category><![CDATA[money]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=557</guid>
+		<description><![CDATA[This episode covers <a href="http://bitcoin.org">Bitcoin</a>, a digital, decentralized currency. In our conversation with <a href="https://profiles.google.com/gavinandresen/about">Gavin Andresen</a>, the technical lead of the project, we cover basic economics of money, the way users interact with Bitcoin, as well as the technical implementation of the system. Bitcoin uses a couple of clever ideas about implementing distributed clocks and global ordering, and is a very nice example of applied cryptography.]]></description>
+			<content:encoded><![CDATA[<p>This episode covers <a href="http://bitcoin.org">Bitcoin</a>, a digital, decentralized currency. In our conversation with <a href="https://profiles.google.com/gavinandresen/about">Gavin Andresen</a>, the technical lead of the project, we cover basic economics of money, the way users interact with Bitcoin, as well as the technical implementation of the system. Bitcoin uses a couple of clever ideas about implementing distributed clocks and global ordering, and is a very nice example of applied cryptography.</p>
+<ul>
+<li><a href="https://profiles.google.com/gavinandresen/about">Gavin Andresen</a>
+<li><a href="http://en.wikipedia.org/wiki/Money">Money</a>
+<li><a href="http://bitcoin.org">Bitcoin</a>
+<li><a href="http://en.wikipedia.org/wiki/Public-key_cryptography">Public-key cryptography</a>
+<li><a href="http://en.wikipedia.org/wiki/Https">https</a>
+<li><a href="http://en.wikipedia.org/wiki/Hashing_algorithm">Hashing Algorithm</a>
+<li><a href="https://en.bitcoin.it/wiki/Category:Exchanges">Bitcoin Exchanges</a>
+<li><a href="https://en.bitcoin.it/wiki/Trade">Bitcoin Accepting Sites</a>
+<li><a href="https://www.eff.org/helpout">EFF Donation Page</a>
+<li><a href="http://www.bitcoinminer.com/">Bitcoin Mining (Hardware)</a>
+<li><a href="http://www.bitcoin.org/bitcoin.pdf">Bitcoin Technical Paper</a>
+<li><a href="http://en.wikipedia.org/wiki/Domain_Name_System">DNS</a>
+<li><a href="http://en.wikipedia.org/wiki/Clock_synchronization">Clock Synchronization</a>
+<li><a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+<li><a href="http://freebitcoins.appspot.com/">Bitcoin Faucet</a>
+<li><a href="http://code.google.com/p/bitcoinj/">Google&#8217;s Java Bitcoin Implementation</a>
+<li><a href="https://chrome.google.com/extensions/detail/hhbhfoohbnjkdcndbhjlicijccioklea">Bitcoin Chrome Extension</a>
+<li><a href="http://twit.tv/sn">Security Now Podcast</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/03/59-bitcoin-a-digital-decentralized-currency/feed/</wfw:commentRss>
+		<slash:comments>28</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-59-bitcoin.mp3" length="85444789" type="audio/mpeg" />
+		<itunes:duration>1:28:59</itunes:duration>
+		<itunes:subtitle>This episode covers Bitcoin, a digital, decentralized currency. In our conversation with Gavin Andresen, the technical lead of the project, we cover basic economics of money, the way users interact with Bitcoin, as well as the technical implementati[...]</itunes:subtitle>
+		<itunes:summary>This episode covers Bitcoin, a digital, decentralized currency. In our conversation with Gavin Andresen, the technical lead of the project, we cover basic economics of money, the way users interact with Bitcoin, as well as the technical implementation of the system. Bitcoin uses a couple of clever ideas about implementing distributed clocks and global ordering, and is a very nice example of applied cryptography.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/54/ Quantum Computing</title>
+		<link>http://omegataupodcast.net/2011/01/54-quantum-computing/</link>
+		<comments>http://omegataupodcast.net/2011/01/54-quantum-computing/#comments</comments>
+		<pubDate>Fri, 21 Jan 2011 15:49:12 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[quantum theory]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=496</guid>
+		<description><![CDATA[In this Episode, we talk about quantum computing. Our guest is <a href="http://www.iqc.ca/people/person.php?id=41">Martin Laforest</a> from the <a href="http://new.iqc.ca/">Institute for Quantum Computing</a> at the <a href="http://uwaterloo.ca/">University of Waterloo</a>, Canada. We start with some physics basics, and then cover topics ranging from how quantum computing works, which different models of quantum computing are explored, current and future uses of the approach as well as the current state of the art. This is one of the more propellerhead-oriented episodes, so make sure you listen carefully :-)
+]]></description>
+			<content:encoded><![CDATA[<p>In this Episode, we talk about quantum computing. Our guest is <a href="http://www.iqc.ca/people/person.php?id=41">Martin Laforest</a> from the <a href="http://new.iqc.ca/">Institute for Quantum Computing</a> at the <a href="http://uwaterloo.ca/">University of Waterloo</a>, Canada. We start with some physics basics, and then cover topics ranging from how quantum computing works, which different models of quantum computing are explored, current and future uses of the approach as well as the current state of the art. This is one of the more propellerhead-oriented episodes, so make sure you listen carefully :-)</p>
+<ul>
+<li><a href="http://new.iqc.ca/">Institute for Quantum Computing</a>
+<li><a href="http://www.iqc.ca/people/person.php?id=41">Martin Laforest</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_information_science">Quantum information science</a>
+<li><a href="http://en.wikipedia.org/wiki/Double-slit_experiment">Double-slit experiment</a>
+<li><a href="http://en.wikipedia.org/wiki/Interference_(wave_propagation)">Interference</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_superposition">Quantum Superposition</a>
+<li><a href="http://en.wikipedia.org/wiki/Maxwell_equation">Maxwell&#8217;s Equations</a>
+<li><a href="http://en.wikipedia.org/wiki/Relativity">Relativity</a>
+<li><a href="http://en.wikipedia.org/wiki/Spin_(physics)">Spin</a>
+<li><a href="http://en.wikipedia.org/wiki/Qubit">Qubit</a>
+<li><a href="http://en.wikipedia.org/wiki/Josephson_Junction">Josephson effect</a>
+<li><a href="http://en.wikipedia.org/wiki/Polarization_(waves)">Polarization</a>
+<li><a href="http://en.wikipedia.org/wiki/Beam_splitter">Beam Splitter</a>
+<li><a href="http://en.wikipedia.org/wiki/Complex_numbers">Complex Number</a>
+<li><a href="http://en.wikipedia.org/wiki/Fuzzy_logic">Fuzzy Logic</a>
+<li><a href="http://en.wikipedia.org/wiki/Amplitude_amplification">Amplitude Amplification</a>
+<li><a href="http://en.wikipedia.org/wiki/Transistor">Transistor</a>
+<li><a href="http://en.wikipedia.org/wiki/Semiconductor">Semiconductor</a>
+<li><a href="http://en.wikipedia.org/wiki/Superconductor">Superconductivity</a>
+<li><a href="http://en.wikipedia.org/wiki/Ion_trap">Ion Trap</a>
+<li><a href="http://en.wikipedia.org/wiki/NMR">NMR</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_operation">Quantum Operation</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_entanglement">Entanglement</a>
+<li><a href="http://en.wikipedia.org/wiki/Quantum_circuit">Circuit Model</a>
+<li><a href="http://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics">Measurement-based Model</a>
+<li><a href="http://en.wikipedia.org/wiki/Adiabatic_quantum_computation">Adiabatic Model</a>
+<li><a href="http://en.wikipedia.org/wiki/EPR_paradox">EPR</a>
+<li><a href="http://en.wikipedia.org/wiki/Turing_machine">Turing Machine</a>
+<li><a href="http://en.wikipedia.org/wiki/Church_Turing_Thesis">Church–Turing Thesis</a>
+<li><a href="http://en.wikipedia.org/wiki/Factorization">Factorization</a>
+<li><a href="http://en.wikipedia.org/wiki/Shor's_algorithm">Shor&#8217;s Algorithm</a>
+<li><a href="http://en.wikipedia.org/wiki/Introduction_to_Boolean_algebra">Boolean Algebra</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2011/01/54-quantum-computing/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-54-quantumComputing.mp3" length="68635829" type="audio/mpeg" />
+		<itunes:duration>1:11:29</itunes:duration>
+		<itunes:subtitle>In this Episode, we talk about quantum computing. Our guest is Martin Laforest from the Institute for Quantum Computing at the University of Waterloo, Canada. We start with some physics basics, and then cover topics ranging from how quantum computin[...]</itunes:subtitle>
+		<itunes:summary>In this Episode, we talk about quantum computing. Our guest is Martin Laforest from the Institute for Quantum Computing at the University of Waterloo, Canada. We start with some physics basics, and then cover topics ranging from how quantum computing works, which different models of quantum computing are explored, current and future uses of the approach as well as the current state of the art. This is one of the more propellerhead-oriented episodes, so make sure you listen carefully :-)</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/49/ Chip Production and Waferscanners</title>
+		<link>http://omegataupodcast.net/2010/11/49-chip-production-and-waferscanners/</link>
+		<comments>http://omegataupodcast.net/2010/11/49-chip-production-and-waferscanners/#comments</comments>
+		<pubDate>Tue, 30 Nov 2010 07:22:17 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[microchip]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=457</guid>
+		<description><![CDATA[In this episode we take a look at microchip production, with a special focus on waferscanners. To do this, we talked with Wilbert Albers of <a href="http://www.asml.com">ASML</a>, the leading waferscanner manufacturer in the world. In the episode, we talk about the overall chip production process (from silicon sand over wafer cutting to lithography and etching), and then we talk about the challenges of building high-precision, high-throughput waferscanners.]]></description>
+			<content:encoded><![CDATA[<p>In this episode we take a look at microchip production, with a special focus on waferscanners. To do this, we talked with Wilbert Albers of <a href="http://www.asml.com">ASML</a>, the leading waferscanner manufacturer in the world. In the episode, we talk about the overall chip production process (from silicon sand over wafer cutting to lithography and etching), and then we talk about the challenges of building high-precision, high-throughput waferscanners.</p>
+<ul>
+<li><a href="http://www.asml.com">ASML</a>
+<li><a href="http://www.asml.com/asml/show.do?ctx=6717">ASML TwinScan</a>
+<li><a href="http://www.asml.com/asml/show.do?ctx=6644">ASML PAS</a>
+<li><a href="http://www.asml.com/asml/show.do?ctx=41905&#038;rid=41906">ASML eUV</a>
+<li><a href="http://www.zeiss.com/c12567b0003bdcdd/Contents-Frame/e865fbe968ac022dc125745f003a0e24">Zeiss Optics for Waferscanners</a>
+<li><a href="http://en.wikipedia.org/wiki/Wafer_%28electronics%29">Wafer</a>
+<li><a href="http://en.wikipedia.org/wiki/Transmeta">Transmeta</a>
+<li><a href="http://en.wikipedia.org/wiki/Integrated_circuit">Integrated Circuit (IC)</a>
+<li><a href="http://en.wikipedia.org/wiki/Transistor">Transistor</a>
+<li><a href="http://en.wikipedia.org/wiki/Semiconductor">Semiconductor</a>
+<li><a href="http://en.wikipedia.org/wiki/Mercury-vapor_lamp">Mercury-vapor Lamp</a>
+<li><a href="http://en.wikipedia.org/wiki/Excimer_laser">Excimer Laser</a>
+<li><a href="http://en.wikipedia.org/wiki/Plasma_source">Plasma Source</a>
+<li><a href="http://en.wikipedia.org/wiki/Etching_(microfabrication)">Etching</a>
+<li><a href="http://en.wikipedia.org/wiki/Hydraulics">Hydraulics</a>
+<li><a href="http://en.wikipedia.org/wiki/Linear_motor">Linear Motor</a>
+<li><a href="http://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek">Antonie van Leeuwenhoek</a>
+<li><a href="http://en.wikipedia.org/wiki/Diffraction">Diffraction</a>
+<li><a href="http://en.wikipedia.org/wiki/Control_theory">Control Theory</a>
+<li><a href="http://en.wikipedia.org/wiki/Interferometry">Interferometry</a>
+<li><a href="http://en.wikipedia.org/wiki/Real-time_computing">Real-Time computing</a>
+<li><a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a>
+<li><a href="http://en.wikipedia.org/wiki/Java_(software_platform)">Java </a>
+<li><a href="http://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>
+<li><a href="http://en.wikipedia.org/wiki/Fab_(semiconductors)">Fab</a>
+<li><a href="http://en.wikipedia.org/wiki/Semiconductor_fabrication_plant">Foundry</a>
+<li><a href="http://en.wikipedia.org/wiki/Metrology">Metrology</a>
+<li><a href="http://en.wikipedia.org/wiki/EUV">EUV</a>
+<li><a href="http://en.wikipedia.org/wiki/Moore's_law">Moore&#8217;s Law</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/11/49-chip-production-and-waferscanners/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-49-chipProductionAndWaferscanners.mp3" length="85707468" type="audio/mpeg" />
+		<itunes:duration>0:59:31</itunes:duration>
+		<itunes:subtitle>In this episode we take a look at microchip production, with a special focus on waferscanners. To do this, we talked with Wilbert Albers of ASML, the leading waferscanner manufacturer in the world. In the episode, we talk about the overall chip prod[...]</itunes:subtitle>
+		<itunes:summary>In this episode we take a look at microchip production, with a special focus on waferscanners. To do this, we talked with Wilbert Albers of ASML, the leading waferscanner manufacturer in the world. In the episode, we talk about the overall chip production process (from silicon sand over wafer cutting to lithography and etching), and then we talk about the challenges of building high-precision, high-throughput waferscanners.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/46/ The NASA TC4 Project</title>
+		<link>http://omegataupodcast.net/2010/10/46-the-nasa-tc4-project/</link>
+		<comments>http://omegataupodcast.net/2010/10/46-the-nasa-tc4-project/#comments</comments>
+		<pubDate>Sat, 23 Oct 2010 15:57:35 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[meteorologie]]></category>
+		<category><![CDATA[meteorology]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=425</guid>
+		<description><![CDATA[This is a conversation with <a href="http://atoc.colorado.edu/people/toon.php">Brian Toon</a> about the NASA <a href="http://www.espo.nasa.gov/tc4/">TC4</a> project. TC4 stands for "Tropical Composition, Cloud and Climate Coupling" and deals with the chemical, dynamic, and physical processes occurring in the tropical upper troposphere and tropopause transitional layer. In our conversation we cover some of the scientific goals of the project, the tools and technologies used (aircraft and satellites) as well as the general project organization. A later episode will cover the project from the perspective of an ER-2 pilot.]]></description>
+			<content:encoded><![CDATA[<p>This is a conversation with <a href="http://atoc.colorado.edu/people/toon.php">Brian Toon</a> about the NASA <a href="http://www.espo.nasa.gov/tc4/">TC4</a> project. TC4 stands for &#8220;Tropical Composition, Cloud and Climate Coupling&#8221; and deals with the chemical, dynamic, and physical processes occurring in the tropical upper troposphere and tropopause transitional layer. In our conversation we cover some of the scientific goals of the project, the tools and technologies used (aircraft and satellites) as well as the general project organization. A later episode will cover the project from the perspective of an ER-2 pilot.</p>
+<ul>
+<li><a href="http://atoc.colorado.edu/people/toon.php">Brian Toon&#8217;s Website</a>
+<li><a href="http://www.espo.nasa.gov/tc4/">Tropical Composition, Cloud and Climate Coupling Project</a>
+<li><a href="http://www.espo.nasa.gov/index.php">NASA Earth Sciences Program Office</a>
+<li><a href="http://www.nsf.gov/">National Sciene Foundation</a>
+<li><a href="http://www.noaa.gov/">National Oceanic and Athmospheric Administration</a>
+<li><a href="http://en.wikipedia.org/wiki/Troposphere">Troposphere</a>
+<li><a href="http://en.wikipedia.org/wiki/Tropopause">Tropopause</a>
+<li><a href="http://en.wikipedia.org/wiki/Stratosphere">Stratosphere</a>
+<li><a href="http://en.wikipedia.org/wiki/Ozone_Layer">Ozone Layer</a>
+<li><a href="http://en.wikipedia.org/wiki/Chlorine">Chlorine</a>
+<li><a href="http://en.wikipedia.org/wiki/Bromine">Bromine</a>
+<li><a href="http://en.wikipedia.org/wiki/Greenhouse_effect">Greenhouse Effect</a>
+<li><a href="http://en.wikipedia.org/wiki/Cirrus_clouds">Cirrus Cloud</a>
+<li><a href="http://en.wikipedia.org/wiki/Intertropical_convergence_zone">Intertropical Convergence Zone</a>
+<li><a href="http://en.wikipedia.org/wiki/List_of_cloud_types">Cloud Types</a>
+<li><a href="http://blogthebeach.best-of-st-pete-beach.com/wp-content/uploads/2009/12/IMG_4700.JPG">Cb with a nice Cirrus Anvil</a>
+<li><a href="http://en.wikipedia.org/wiki/Lockheed_U-2">U-2/ER-2</a>
+<li><a href="http://en.wikipedia.org/wiki/Remote_sensing">Remote Sensing</a>
+<li><a href="http://www-calipso.larc.nasa.gov/">Calipse Satellite</a>
+<li><a href="http://trmm.gsfc.nasa.gov/">TRIMM Satellite</a>
+<li><a href="http://en.wikipedia.org/wiki/WB-57F">WB-57F</a>
+<li><a href="http://en.wikipedia.org/wiki/DC-8">DC-8</a>
+<li><a href="http://en.wikipedia.org/wiki/Mesoscale_convective_complex">Mesoscale Convective Complex</a>
+<li><a href="http://en.wikipedia.org/wiki/C-5_Galaxy">C-5A</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/10/46-the-nasa-tc4-project/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://traffic.libsyn.com/omegataupodcast/omegatau-46-NASA-TC4.mp3" length="65647493" type="audio/mpeg" />
+		<itunes:duration>1:08:22</itunes:duration>
+		<itunes:subtitle>This is a conversation with Brian Toon about the NASA TC4 project. TC4 stands for "Tropical Composition, Cloud and Climate Coupling" and deals with the chemical, dynamic, and physical processes occurring in the tropical upper troposphere and tropopa[...]</itunes:subtitle>
+		<itunes:summary>This is a conversation with Brian Toon about the NASA TC4 project. TC4 stands for "Tropical Composition, Cloud and Climate Coupling" and deals with the chemical, dynamic, and physical processes occurring in the tropical upper troposphere and tropopause transitional layer. In our conversation we cover some of the scientific goals of the project, the tools and technologies used (aircraft and satellites) as well as the general project organization. A later episode will cover the project from the perspective of an ER-2 pilot.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/43/ Flying the Space Shuttle</title>
+		<link>http://omegataupodcast.net/2010/09/43-flying-the-space-shuttle/</link>
+		<comments>http://omegataupodcast.net/2010/09/43-flying-the-space-shuttle/#comments</comments>
+		<pubDate>Fri, 10 Sep 2010 19:17:17 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[shuttle]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=398</guid>
+		<description><![CDATA[In this episode we talk with <a href="http://astronautbiker.com/">Duane "Digger" Carey</a> about flying the US Space Shuttle. We cover all the major phases of a shuttle flight (countdown, launch, orbit insertion, on orbit, breaking, reentry and landing) and discuss the activities of the pilot and commander. We also cover briefly some of the Shuttle's systems. We conclude the episode with a brief look at Shuttle pilot and commander training.]]></description>
+			<content:encoded><![CDATA[<p>In this episode we talk with <a href="http://astronautbiker.com/">Duane &#8220;Digger&#8221; Carey</a> about flying the US Space Shuttle. We cover all the major phases of a shuttle flight (countdown, launch, orbit insertion, on orbit, breaking, reentry and landing) and discuss the activities of the pilot and commander. We also cover briefly some of the Shuttle&#8217;s systems. We conclude the episode with a brief look at Shuttle pilot and commander training.</p>
+<ul>
+<li><a href="http://astronautbiker.com/">Duane&#8217;s website</a>
+<li>Duane &#8220;Digger&#8221; Carey at <a href="http://en.wikipedia.org/wiki/Duane_G._Carey">Wikipedia</a> and <a href="http://www.jsc.nasa.gov/Bios/htmlbios/carey.html">Official NASA Bio</a>
+<li>Digger&#8217;s flight, <a href="http://de.wikipedia.org/wiki/STS-109">STS-109</a>
+<li>The US Space Shuttle at <a href="http://www.nasa.gov/mission_pages/shuttle/main/index.html">NASA</a> and at <a href="http://en.wikipedia.org/wiki/Space_Shuttle">Wikipedia</a>
+<li>Book: <a href="http://www.amazon.com/Space-Shuttle-National-Transportation-Missions/dp/0963397451">Jenkins, Space Shuttle</a>, The History of the National Space Transportation System
+<li>MIT Open Courseware, <a href="http://ocw.mit.edu/courses/aeronautics-and-astronautics/16-885j-aircraft-systems-engineering-fall-2005/">Lecture Series on the Space Shuttle</a>
+<li><a href="http://en.wikipedia.org/wiki/Auxiliary_power_unit">APU</a>
+<li><a href="http://en.wikipedia.org/wiki/Launch_Control_Center">Launch Control Center</a>
+<li><a href="http://en.wikipedia.org/wiki/Mission_Control">Mission Control Center</a>
+<li><a href="http://en.wikipedia.org/wiki/Open-loop_controller">Open Loop Controller</a>
+<li><a href="http://en.wikipedia.org/wiki/SSME">SSME</a> (Space Shuttle Main Engines)
+<li><a href="http://en.wikipedia.org/wiki/Solid_rocket_booster">SRB</a> (Solid Rocket Booster)
+<li><a href="http://en.wikipedia.org/wiki/Space_Shuttle_abort_modes">Shuttle Abort Modes</a>
+<li><a href="http://en.wikipedia.org/wiki/Orbital_mechanics">Orbital Mechanics</a>
+<li><a href="http://en.wikipedia.org/wiki/Delta_v">delta-v</a>
+<li><a href="http://en.wikipedia.org/wiki/Orbital_Maneuvering_System">OMS</a> (Orbital Maneuvering System)
+<li><a href="http://en.wikipedia.org/wiki/Reaction_control_system">RCS</a> (Reaction Control System)
+<li><a href="http://en.wikipedia.org/wiki/Vernier_thruster">Vernier Thruster</a>
+<li><a href="http://en.wikipedia.org/wiki/Hubble_Space_Telescope">Hubble Space Telescope</a>
+<li><a href="http://en.wikipedia.org/wiki/Horizontal_situation_indicator">HSI</a> (Horizontal Situation Indicator)
+<li><a href="http://en.wikipedia.org/wiki/Artificial_horizon">Artificial Horizon</a> (Attitude Indicator)
+<li><a href="http://en.wikipedia.org/wiki/Fly_by_wire">Fly-by-Wire</a>
+<li><a href="http://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system">TPS</a> (Thermal Protection System)
+<li><a href="http://en.wikipedia.org/wiki/Instrument_landing_system">ILS</a> (Instrument Landing System)
+<li><a href="http://en.wikipedia.org/wiki/Microwave_landing_system">MLS</a> (Microwave Landing System)
+<li><a href="http://en.wikipedia.org/wiki/Head_up_display">Head-Up Display</a>
+<li><a href="http://en.wikipedia.org/wiki/Shuttle_Training_Aircraft">STA</a> (Shuttle Training Aircraft)
+<li><a href="http://omegataupodcast.net/2009/10/19-the-vertical-motion-simulator-at-nasa-ames/">omega tau episode</a> on the <a href="http://www.aviationsystemsdivision.arc.nasa.gov/facilities/vms/index.shtml">Vertical Motion Simulator</a>
+<li><a href="http://en.wikipedia.org/wiki/Boeing_KC-135_Stratotanker">KC-135</a>, and NASA&#8217;s version, the <a href="http://en.wikipedia.org/wiki/Vomit_comet">Vomit Comet</a>
+<li><a href="http://en.wikipedia.org/wiki/T-38_Talon">T-38 Talon</a>
+<li>Duane&#8217;s commander, <a href="http://en.wikipedia.org/wiki/Scott_Altman">Scott Altman</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/09/43-flying-the-space-shuttle/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-43-flyingTheSpaceShuttle.mp3" length="67203854" type="audio/mpeg" />
+		<itunes:duration>1:10:00</itunes:duration>
+		<itunes:subtitle>In this episode we talk with Duane "Digger" Carey about flying the US Space Shuttle. We cover all the major phases of a shuttle flight (countdown, launch, orbit insertion, on orbit, breaking, reentry and landing) and discuss the activities of the pi[...]</itunes:subtitle>
+		<itunes:summary>In this episode we talk with Duane "Digger" Carey about flying the US Space Shuttle. We cover all the major phases of a shuttle flight (countdown, launch, orbit insertion, on orbit, breaking, reentry and landing) and discuss the activities of the pilot and commander. We also cover briefly some of the Shuttle's systems. We conclude the episode with a brief look at Shuttle pilot and commander training.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/39/ Electron Microscopes</title>
+		<link>http://omegataupodcast.net/2010/07/39-electron-microscopes/</link>
+		<comments>http://omegataupodcast.net/2010/07/39-electron-microscopes/#comments</comments>
+		<pubDate>Thu, 29 Jul 2010 14:11:20 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[electron microscopy]]></category>
+		<category><![CDATA[microscopy]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[radiation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=343</guid>
+		<description><![CDATA[This is an episode about <a href="http://en.wikipedia.org/wiki/Electron_microscope">electron microscopes</a> with Bernard van Vlimmeren and Kees Kooijman of <a href="http://fei.com">FEI Company</a>. Among other things, we talk about the various kinds of electron microscopes, the components that go into electron microscopes, the important role of the sensors and a couple of example applications.]]></description>
+			<content:encoded><![CDATA[<p>This is an episode about <a href="http://en.wikipedia.org/wiki/Electron_microscope">electron microscopes</a> with Bernard van Vlimmeren and Kees Kooijman of <a href="http://fei.com">FEI Company</a>. Among other things, we talk about the various kinds of electron microscopes, the components that go into electron microscopes, the important role of the sensors and a couple of example applications.</p>
+<ul>
+<li><a href="http://fei.com">FEI Company</a>
+<li><a href="http://en.wikipedia.org/wiki/Electron_microscope">Electron Microscopes</a> (WP)
+<li><a href="http://de.wikipedia.org/wiki/Focused_Ion_Beam">Focused Ion Beam</a> (WP)
+<li><a href="http://en.wikipedia.org/wiki/Atomic_force_microscopy">Atomic Force Microscopy</a> (WP)
+<li><a href="http://en.wikipedia.org/wiki/Scanning_probe_microscopy">Scanning Probe Microscopy</a> (WP)
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/07/39-electron-microscopes/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-39-electronMicroscopes.mp3" length="72699719" type="audio/mpeg" />
+		<itunes:duration>1:15:43</itunes:duration>
+		<itunes:subtitle>This is an episode about electron microscopes with Bernard van Vlimmeren and Kees Kooijman of FEI Company. Among other things, we talk about the various kinds of electron microscopes, the components that go into electron microscopes, the important r[...]</itunes:subtitle>
+		<itunes:summary>This is an episode about electron microscopes with Bernard van Vlimmeren and Kees Kooijman of FEI Company. Among other things, we talk about the various kinds of electron microscopes, the components that go into electron microscopes, the important role of the sensors and a couple of example applications.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/36/ The 360 World Record</title>
+		<link>http://omegataupodcast.net/2010/06/36-the-360-world-record/</link>
+		<comments>http://omegataupodcast.net/2010/06/36-the-360-world-record/#comments</comments>
+		<pubDate>Sat, 19 Jun 2010 08:00:48 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=307</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://fly-sea.com/record/?page_id=12&#038;page=3">Flavien Guderzo</a> (First Officer) and <a href="http://fly-sea.com/record/?page_id=12&#038;page=4">Tom Zorman</a> (Operations) about the <a href="http://360worldrecord.com/">360 World Record</a>, where a crew of three and a couple of journalists flew around the world in a <a href="http://en.wikipedia.org/wiki/North_American_Sabreliner">North American Sabreliner</a>, establishing a new world record. In the episode we talk about the preparations for the flight as well as the flight itself from the perspective of the flight crew, as well as from the perspective of the operations on the ground.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://fly-sea.com/record/?page_id=12&#038;page=3">Flavien Guderzo</a> (First Officer) and <a href="http://fly-sea.com/record/?page_id=12&#038;page=4">Tom Zorman</a> (Operations) about the <a href="http://360worldrecord.com/">360 World Record</a>, where a crew of three and a couple of journalists flew around the world in a <a href="http://en.wikipedia.org/wiki/North_American_Sabreliner">North American Sabreliner</a>, establishing a new world record. In the episode we talk about the preparations for the flight as well as the flight itself from the perspective of the flight crew, as well as from the perspective of the operations on the ground.</p>
+<ul>
+<li><a href="http://360worldrecord.com/">360 World Record</a>
+<li><a href="http://fly-sea.com/record/?page_id=12&#038;page=3">Flavien Guderzo</a>
+<li><a href="http://fly-sea.com/record/?page_id=12&#038;page=4">Tom Zorman</a>
+<li><a href="http://sonnig.com">Sonnig SA</a>
+<li><a href="http://www.jetex.aero">JetEx</a>
+<li><a href="http://en.wikipedia.org/wiki/North_American_Sabreliner">North American Sabreliner</a>
+<li><a href="http://de.wikipedia.org/wiki/North_American_F-86">F-86 Figher</a>
+<li><a href="http://www.airliners.net/search/photo.search?keywords=HB-VCN">Images of the plane</a> at <a href="http://www.airliners.net">airliners.net</a>
+<li><a href="http://www.fai.org/">FAI</a>
+<li><a href="http://en.wikipedia.org/wiki/Steve_Fossett">Steve Fossett</a> and his <a href="http://de.wikipedia.org/wiki/Virgin_Atlantic_GlobalFlyer">Global Flyer</a> record plane
+<li><a href="http://en.wikipedia.org/wiki/Supercritical_airfoil">Supercritical wing</a>
+<li><a href="http://en.wikipedia.org/wiki/Radio_navigation">Radio Navigation</a>
+<li><a href="http://en.wikipedia.org/wiki/VHF_omnidirectional_range">VOR</a> (Very High Frequency Omni-Directional Range)
+<li><a href="http://en.wikipedia.org/wiki/Non-directional_beacon">NDB</a> (Non Directional Beacon)
+<li><a href="http://en.wikipedia.org/wiki/LORAN">LORAN</a> (Long Range Navigation)
+<li><a href="http://en.wikipedia.org/wiki/Flight_management_system">FMS</a> (Flight Management System)
+<li><a href="http://en.wikipedia.org/wiki/Great_circle">Great Circle</a>
+<li><a href="http://en.wikipedia.org/wiki/GPS">GPS</a>
+<li><a href="http://en.wikipedia.org/wiki/Instrument_landing_system">ILS</a> (Instrument Landing System)
+</ul>
+<p>The music in this episode is taken from X, the new album by <a href="http://www.spocksbeard.com/">Spock&#8217;s Beard</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/06/36-the-360-world-record/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-36-the360WorldRecord.mp3" length="79605240" type="audio/mpeg" />
+		<itunes:duration>1:22:55</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Flavien Guderzo (First Officer) and Tom Zorman (Operations) about the 360 World Record, where a crew of three and a couple of journalists flew around the world in a North American Sabreliner, establishing a new wo[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Flavien Guderzo (First Officer) and Tom Zorman (Operations) about the 360 World Record, where a crew of three and a couple of journalists flew around the world in a North American Sabreliner, establishing a new world record. In the episode we talk about the preparations for the flight as well as the flight itself from the perspective of the flight crew, as well as from the perspective of the operations on the ground.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/34/ Space Medicine and Telemedicine</title>
+		<link>http://omegataupodcast.net/2010/05/34-space-medicine-and-telemedicine/</link>
+		<comments>http://omegataupodcast.net/2010/05/34-space-medicine-and-telemedicine/#comments</comments>
+		<pubDate>Tue, 18 May 2010 19:43:59 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[medicine]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[telemedicine]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=289</guid>
+		<description><![CDATA[This episode is a conversation with NASA "space doctor"  <a href="http://www.drjimlogan.com/">Jim Logan</a> about space medicine and telemedicine. We start by defining the two concepts and how they relate. We then delve deeper into various specific medical issues in space (such as fluid shifts, bone mass loss and radiation). Next up is a discussion of the history of telemedicine and its relationship to space medicine, which leads us to looking astronauts can be treated for "normal" diseases from ground. We concluse the episode with an outlook on how telemedicine might develop in the future.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with NASA &#8220;space doctor&#8221;  <a href="http://www.drjimlogan.com/">Jim Logan</a> about space medicine and telemedicine. We start by defining the two concepts and how they relate. We then delve deeper into various specific medical issues in space (such as fluid shifts, bone mass loss and radiation). Next up is a discussion of the history of telemedicine and its relationship to space medicine, which leads us to looking astronauts can be treated for &#8220;normal&#8221; diseases from ground. We concluse the episode with an outlook on how telemedicine might develop in the future.</p>
+<ul>
+<li><a href="http://www.drjimlogan.com">Jim Logan&#8217;s website</a>
+<li><a href="http://www.nasa.gov/centers/johnson/home/index.html">NASA Johnson space center</a>
+<li><a href="http://en.wikipedia.org/wiki/Space_medicine">Space Medicine @ Wikipedia</a>
+<li><a href="http://en.wikipedia.org/wiki/Telemedicine">Telemedine @ Wikipedia</a>
+<li><a href="http://www.intuitivesurgical.com/products/davinci_surgicalsystem/index.aspx">DaVinci surgical system</a>
+<li><a href="http://www.physorg.com/news3544.html">DARPA&#8217;s traumapod</a>
+<li><a href="http://www.americantelemed.org/i4a/pages/index.cfm?pageid=1">American Telemedicine Association</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/05/34-space-medicine-and-telemedicine/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-34-spaceMedicineAndTelemedicine.mp3" length="91959716" type="audio/mpeg" />
+		<itunes:duration>1:35:47</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with NASA "space doctor"  Jim Logan about space medicine and telemedicine. We start by defining the two concepts and how they relate. We then delve deeper into various specific medical issues in space (such as fluid sh[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with NASA "space doctor"  Jim Logan about space medicine and telemedicine. We start by defining the two concepts and how they relate. We then delve deeper into various specific medical issues in space (such as fluid shifts, bone mass loss and radiation). Next up is a discussion of the history of telemedicine and its relationship to space medicine, which leads us to looking astronauts can be treated for "normal" diseases from ground. We concluse the episode with an outlook on how telemedicine might develop in the future.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/33/ Deep Wreck Diving</title>
+		<link>http://omegataupodcast.net/2010/05/33-deep-wreck-diving/</link>
+		<comments>http://omegataupodcast.net/2010/05/33-deep-wreck-diving/#comments</comments>
+		<pubDate>Thu, 06 May 2010 19:38:31 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[diving]]></category>
+		<category><![CDATA[ships]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=282</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://johnchatterton.com/">John Chatterton</a> about <a href="http://en.wikipedia.org/wiki/Wreck_diving">deep wreck diving</a>. We cover some of the dangers and challenges, as well as the fascination of the sport. We also talk about the discovery of <a href="http://en.wikipedia.org/wiki/U_869">U 869</a>, which was mainly John Chatterton's achievement (as documented in the book <a href="http://www.amazon.com/Shadow-Divers-Robert-Kurson/dp/B001E1E2AI/">Shadow Divers</a>).]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://johnchatterton.com/">John Chatterton</a> about <a href="http://en.wikipedia.org/wiki/Wreck_diving">deep wreck diving</a>. We cover some of the dangers and challenges, as well as the fascination of the sport. We also talk about the discovery of <a href="http://en.wikipedia.org/wiki/U_869">U 869</a>, which was mainly John Chatterton&#8217;s achievement (as documented in the book <a href="http://www.amazon.com/Shadow-Divers-Robert-Kurson/dp/B001E1E2AI/">Shadow Divers</a>).</p>
+<ul>
+<li><a href="http://johnchatterton.com/">John Chatterton</a>&#8216;s website
+<li><a href="http://en.wikipedia.org/wiki/Wreck_diving">Deep Wreck Diving</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/U_869">U 869</a> (Wikipedia)
+<li>Shadow Divers <a href="http://www.amazon.com/Shadow-Divers-Robert-Kurson/dp/B001E1E2AI/">book</a>, <a href="http://www.audible.com/adbl/site/products/ProductDetail.jsp?productID=BK_BKOT_000231">audio book</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/05/33-deep-wreck-diving/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-33-deepWreckDiving.mp3" length="52158690" type="audio/mpeg" />
+		<itunes:duration>0:54:19</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with John Chatterton about deep wreck diving. We cover some of the dangers and challenges, as well as the fascination of the sport. We also talk about the discovery of U 869, which was mainly John Chatterton's achievem[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with John Chatterton about deep wreck diving. We cover some of the dangers and challenges, as well as the fascination of the sport. We also talk about the discovery of U 869, which was mainly John Chatterton's achievement (as documented in the book Shadow Divers).</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/31/ The Millennium Simulation</title>
+		<link>http://omegataupodcast.net/2010/04/31-the-millennium-simulation/</link>
+		<comments>http://omegataupodcast.net/2010/04/31-the-millennium-simulation/#comments</comments>
+		<pubDate>Sun, 11 Apr 2010 18:12:49 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[computer science]]></category>
+		<category><![CDATA[cosmology]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[simulation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=264</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://www.mpa-garching.mpg.de/~volker/">Volker Springel</a> about the <a href="http://www.mpa-garching.mpg.de/galform/press/">Millenium Simulation</a>, which at the time was the <i>largest simulation of the growth of cosmic structure, including a detailed model for the formation of galaxies and supermassive black holes</i>. In the episode we talk about the physical/cosmological background, the simulation process and approach as well as some details about the hard- and software.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://www.mpa-garching.mpg.de/~volker/">Volker Springel</a> about the <a href="http://www.mpa-garching.mpg.de/galform/press/">Millenium Simulation</a>, which at the time was the <i>largest simulation of the growth of cosmic structure, including a detailed model for the formation of galaxies and supermassive black holes</i>. In the episode we talk about the physical/cosmological background, the simulation process and approach as well as some details about the hard- and software.</p>
+<ul>
+<li><a href="http://www.mpa-garching.mpg.de/~volker/">Volker Springel&#8217;s Website</a>
+<li><a href="http://en.wikipedia.org/wiki/Millennium_simulation">The Millenium Simulation </a> (Wikipedia)
+<li><a href="http://www.virgo.dur.ac.uk/">VIRGO consortium</a>
+<li><a href="http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation">Cosmic Background Radiation</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/Cosmic_Background_Explorer">COBE Satellite</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/Wmap">WMAP Satellite</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/Dark_matter">Dark Matter</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/Dark_energy">Dark Energy</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/Numerical_simulation">Numerical Simulations</a> (Wikipedia)
+<li><a href="http://en.wikipedia.org/wiki/Fortran">Fortran</a> and <a href="http://en.wikipedia.org/wiki/C_%28programming_language%29">C</a> programming languages (Wikipedia)
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/04/31-the-millennium-simulation/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-31-theMillenniumSimulation.mp3" length="64472397" type="audio/mpeg" />
+		<itunes:duration>1:07:09</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Volker Springel about the Millenium Simulation, which at the time was the largest simulation of the growth of cosmic structure, including a detailed model for the formation of galaxies and supermassive black holes[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Volker Springel about the Millenium Simulation, which at the time was the largest simulation of the growth of cosmic structure, including a detailed model for the formation of galaxies and supermassive black holes. In the episode we talk about the physical/cosmological background, the simulation process and approach as well as some details about the hard- and software.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/30/ The Large Hadron Collider</title>
+		<link>http://omegataupodcast.net/2010/03/30-the-large-hadron-collider/</link>
+		<comments>http://omegataupodcast.net/2010/03/30-the-large-hadron-collider/#comments</comments>
+		<pubDate>Sun, 28 Mar 2010 09:38:07 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[accelerator]]></category>
+		<category><![CDATA[cern]]></category>
+		<category><![CDATA[matter]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[radiation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=253</guid>
+		<description><![CDATA[This episode is a conversation with CERN's <a href="http://athena-positrons.web.cern.ch/ATHENA-positrons/wwwathena/landua.html">Rolf Landua</a> about the <a href="http://lhc.web.cern.ch/lhc">Large Hadron Collider</a>. We start out by discussing the science and theory behind the LHC what the LHC aims to research, including the higgs boson, the standard model, super symmetry and extra dimensions. We then talked about how the LHC works (proton source, acceleration, superconducting magnets). We conclude the conversation by looking at the LHC experiments and discussing in some detail how the ATLAS detector works.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with CERN&#8217;s <a href="http://athena-positrons.web.cern.ch/ATHENA-positrons/wwwathena/landua.html">Rolf Landua</a> about the <a href="http://lhc.web.cern.ch/lhc">Large Hadron Collider</a>. We start out by discussing the science and theory behind the LHC what the LHC aims to research, including the higgs boson, the standard model, super symmetry and extra dimensions. We then talked about how the LHC works (proton source, acceleration, superconducting magnets). We conclude the conversation by looking at the LHC experiments and discussing in some detail how the ATLAS detector works.</p>
+<ul>
+<li>Rolf Landua <a href="http://athena-positrons.web.cern.ch/ATHENA-positrons/wwwathena/landua.html">website</a> and at <a href="http://www.spiegel.de/wissenschaft/mensch/0,1518,547841,00.html">spiegel.de</a>
+<li>CERN<a href="http://public.web.cern.ch/public/">website</a> and info at <a href="http://de.wikipedia.org/wiki/CERN">Wikipedia</a>
+<li>The Large Hadron Collider <a href="http://lhc.web.cern.ch/lhc/">website</a> and at <a href="http://de.wikipedia.org/wiki/Large_Hadron_Collider">Wikipedia</a>
+<li><a href="http://atlas.ch/">ATLAS</a> Experiment
+<li><a href="http://cms.web.cern.ch/cms/index.html">CMD</a> Experiment
+<li><a href="http://aliceinfo.cern.ch/Collaboration/index.html">ALICE</a> Experiment
+<li><a href="http://lhcb.web.cern.ch/lhcb/">LHCb</a> Experiment
+<li><a href="http://en.wikipedia.org/wiki/Big_Bang">Big Bang</a>
+<li><a href="http://en.wikipedia.org/wiki/Peter_Higgs">Peter Higgs</a>
+<li><a href="http://en.wikipedia.org/wiki/Higgs_boson">Higgs Boson</a>
+<li><a href="http://en.wikipedia.org/wiki/Spin_%28physics%29">Spin</a>
+<li><a href="http://en.wikipedia.org/wiki/Boson">Boson</a>
+<li><a href="http://en.wikipedia.org/wiki/Fermion">Fermion</a>
+<li><a href="http://en.wikipedia.org/wiki/Standard_Model">Standard Model</a>
+<li><a href="http://en.wikipedia.org/wiki/Charm_quark">Charm Quark</a>
+<li><a href="http://en.wikipedia.org/wiki/W_and_Z_bosons">W and Z bosons</a>
+<li><a href="http://en.wikipedia.org/wiki/Weak_interaction">Weak Interaction</a>
+<li><a href="http://en.wikipedia.org/wiki/Tauon">Tau Lepton</a>
+<li><a href="http://en.wikipedia.org/wiki/Neutrino">Neutrino</a>
+<li><a href="http://en.wikipedia.org/wiki/Supersymmetry">Super Symmetry</a>
+<li><a href="http://en.wikipedia.org/wiki/Planck_energy">Planck Energy</a>
+<li><a href="http://en.wikipedia.org/wiki/Graviton">Graviton</a>
+<li><a href="http://en.wikipedia.org/wiki/Grand_unification_theory">Grand Unified Theory</a>
+<li>Superstring theory <a href="http://www.superstringtheory.com/">website</a>, and at <a href="http://en.wikipedia.org/wiki/Superstring_theory">Wikipedia</a>
+<li><a href="http://en.wikipedia.org/wiki/Planck_length">Planck Length</a>
+<li><a href="http://en.wikipedia.org/wiki/Large_Electron%E2%80%93Positron_Collider">LEP collider</a>
+<li><a href="http://en.wikipedia.org/wiki/Quark">Quarks</a>
+<li><a href="http://en.wikipedia.org/wiki/Gluon">Gluons</a>
+<li><a href="http://en.wikipedia.org/wiki/CP_violation">CP Violation</a>
+<li><a href="http://hepwww.rl.ac.uk/OpenDays98/Detectors/silicon.htm">Silicon Strip Detectors</a> in ATLAS
+<li><a href="http://en.wikipedia.org/wiki/Calorimeter">Calorimeter</a>
+<li><a href="http://en.wikipedia.org/wiki/Particle_shower#Hadronic_showers">Hadronic Shower</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/03/30-the-large-hadron-collider/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-30-theLargeHadronCollider.mp3" length="58717322" type="audio/mpeg" />
+		<itunes:duration>1:01:09</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with CERN's Rolf Landua about the Large Hadron Collider. We start out by discussing the science and theory behind the LHC what the LHC aims to research, including the higgs boson, the standard model, super symmetry and[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with CERN's Rolf Landua about the Large Hadron Collider. We start out by discussing the science and theory behind the LHC what the LHC aims to research, including the higgs boson, the standard model, super symmetry and extra dimensions. We then talked about how the LHC works (proton source, acceleration, superconducting magnets). We conclude the conversation by looking at the LHC experiments and discussing in some detail how the ATLAS detector works.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/28/ Neutron Science at the ILL</title>
+		<link>http://omegataupodcast.net/2010/03/28-neutron-science-at-the-ill/</link>
+		<comments>http://omegataupodcast.net/2010/03/28-neutron-science-at-the-ill/#comments</comments>
+		<pubDate>Fri, 05 Mar 2010 16:38:18 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[nuclear]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=231</guid>
+		<description><![CDATA[This episode covers neutron science at the <a href="http://www.ill.eu">Institut Laue Langevin</a> in Grenoble. Helmut Schober and Ulli Köster cover what neutron science is used for, some interesting scientific experiments conducted at ILL as well as the physical fundamentals and the workings of the reactor and the detectors. We conclude the epsiode with a discussion of the ILL as a "research service facility" that offers all-around research support to visiting scientists.]]></description>
+			<content:encoded><![CDATA[<p>This episode covers neutron science at the <a href="http://www.ill.eu">Institut Laue Langevin</a> in Grenoble. Helmut Schober and Ulli Köster cover what neutron science is used for, some interesting scientific experiments conducted at ILL as well as the physical fundamentals and the workings of the reactor and the detectors. We conclude the epsiode with a discussion of the ILL as a &#8220;research service facility&#8221; that offers all-around research support to visiting scientists.</p>
+<ul>
+<li><a href="http://www.ill.eu">Institut Laue Langevin</a>
+<li><a href="http://en.wikipedia.org/wiki/Neutron_source">Neutron Sources</a>
+<li><a href="http://en.wikipedia.org/wiki/Nuclear_fission">The principle of Nuclear Fission</a>
+<li><a href="http://en.wikipedia.org/wiki/Spallation_source">Spallation Sources</a>
+<li><a href="http://en.wikipedia.org/wiki/Scanning_tunneling_microscope">Scanning Tunnelling Microscope</a>
+<li><a href="http://en.wikipedia.org/wiki/Atomic_force_microscope">Atomic Force Microscope</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/03/28-neutron-science-at-the-ill/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-28-neutronScienceAtTheILL-b.mp3" length="90528197" type="audio/mpeg" />
+		<itunes:duration>1:34:17</itunes:duration>
+		<itunes:subtitle>This episode covers neutron science at the Institut Laue Langevin in Grenoble. Helmut Schober and Ulli Köster cover what neutron science is used for, some interesting scientific experiments conducted at ILL as well as the physical fundamentals and t[...]</itunes:subtitle>
+		<itunes:summary>This episode covers neutron science at the Institut Laue Langevin in Grenoble. Helmut Schober and Ulli Köster cover what neutron science is used for, some interesting scientific experiments conducted at ILL as well as the physical fundamentals and the workings of the reactor and the detectors. We conclude the epsiode with a discussion of the ILL as a "research service facility" that offers all-around research support to visiting scientists.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/26/ Satellite Buses</title>
+		<link>http://omegataupodcast.net/2010/02/26-satellite-buses/</link>
+		<comments>http://omegataupodcast.net/2010/02/26-satellite-buses/#comments</comments>
+		<pubDate>Tue, 02 Feb 2010 16:53:53 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[satellites]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=176</guid>
+		<description><![CDATA[This is an episode on how satellites work with James Penson from <a href="http://www.sstl.co.uk/">Surrey Satellite Technology</a>.  Specifically we talk about satellite buses, the infrastructure part of the satellite on which the (typically scientific) payload is mounted. The conversation covers structure, thermal protection, energy supply, communication, guidance and attitude control as well as propulsion. This will be the last episode on space related topics for the time being :-)]]></description>
+			<content:encoded><![CDATA[<p>This is an episode on how satellites work with James Penson from <a href="http://www.sstl.co.uk/">Surrey Satellite Technology</a>.  Specifically we talk about satellite buses, the infrastructure part of the satellite on which the (typically scientific) payload is mounted. The conversation covers structure, thermal protection, energy supply, communication, guidance and attitude control as well as propulsion. This will be the last episode on space related topics for the time being :-)</p>
+<ul>
+<li><a href="http://www.sstl.co.uk/">Surrey Satellite Technology</a>
+<li><a href="http://en.wikipedia.org/wiki/Satellite_bus">Satellite Buses</a>
+<li><a href="http://en.wikipedia.org/wiki/Momentum_wheel">Reaction Wheels</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/02/26-satellite-buses/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-26-satelliteBuses.mp3" length="71047098" type="audio/mpeg" />
+		<itunes:duration>1:14:00</itunes:duration>
+		<itunes:subtitle>This is an episode on how satellites work with James Penson from Surrey Satellite Technology.  Specifically we talk about satellite buses, the infrastructure part of the satellite on which the (typically scientific) payload is mounted. The conversat[...]</itunes:subtitle>
+		<itunes:summary>This is an episode on how satellites work with James Penson from Surrey Satellite Technology.  Specifically we talk about satellite buses, the infrastructure part of the satellite on which the (typically scientific) payload is mounted. The conversation covers structure, thermal protection, energy supply, communication, guidance and attitude control as well as propulsion. This will be the last episode on space related topics for the time being :-)</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/25/ Aerodynamic Lift Explained</title>
+		<link>http://omegataupodcast.net/2010/01/25-aerodynamic-lift-explained/</link>
+		<comments>http://omegataupodcast.net/2010/01/25-aerodynamic-lift-explained/#comments</comments>
+		<pubDate>Thu, 28 Jan 2010 19:42:54 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=171</guid>
+		<description><![CDATA[This episode is a bit different. I produced it together with Joe D'Eon from the wonderful <a href="http://flywithjoe.com/">Fly With Me</a> podcast. Together, we explored the question of how aerodynamic lift really works - in other words: why airplanes fly. He went out and asked a fellow pilot about what he thinks how lift works. I went to the <a href="http://www.iag.uni-stuttgart.de/IAG/index.html">University of Stuttgart's Intitute for Aero- and Gasdynamics</a> and talked with <a href="http://www.iag.uni-stuttgart.de/~iaglutz/">Thorsten Lutz</a>. He explained the details of how it works. If his explanation still doesn't do it for you, take a look at <a href="http://en.wikipedia.org/wiki/Lift_%28force%29">Wikipedia</a>. They have a couple of nice illustrations.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a bit different. I produced it together with Joe D&#8217;Eon from the wonderful <a href="http://flywithjoe.com/">Fly With Me</a> podcast. Together, we explored the question of how aerodynamic lift really works &#8211; in other words: why airplanes fly. He went out and asked a fellow pilot about what he thinks how lift works. I went to the <a href="http://www.iag.uni-stuttgart.de/IAG/index.html">University of Stuttgart&#8217;s Intitute for Aero- and Gasdynamics</a> and talked with <a href="http://www.iag.uni-stuttgart.de/~iaglutz/">Thorsten Lutz</a>. He explained the details of how it works. If his explanation still doesn&#8217;t do it for you, take a look at <a href="http://en.wikipedia.org/wiki/Lift_%28force%29">Wikipedia</a>. They have a couple of nice illustrations.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/01/25-aerodynamic-lift-explained/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-25-aerodynamicLift.mp3" length="29815734" type="audio/mpeg" />
+		<itunes:duration>0:31:03</itunes:duration>
+		<itunes:subtitle>This episode is a bit different. I produced it together with Joe D'Eon from the wonderful Fly With Me podcast. Together, we explored the question of how aerodynamic lift really works - in other words: why airplanes fly. He went out and asked a fello[...]</itunes:subtitle>
+		<itunes:summary>This episode is a bit different. I produced it together with Joe D'Eon from the wonderful Fly With Me podcast. Together, we explored the question of how aerodynamic lift really works - in other words: why airplanes fly. He went out and asked a fellow pilot about what he thinks how lift works. I went to the University of Stuttgart's Intitute for Aero- and Gasdynamics and talked with Thorsten Lutz. He explained the details of how it works. If his explanation still doesn't do it for you, take a look at Wikipedia. They have a couple of nice illustrations.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/23/ Ares Orion and Small Satellites at NASA Ames</title>
+		<link>http://omegataupodcast.net/2010/01/23-ares-orion-and-small-satellites-at-nasa-ames/</link>
+		<comments>http://omegataupodcast.net/2010/01/23-ares-orion-and-small-satellites-at-nasa-ames/#comments</comments>
+		<pubDate>Fri, 01 Jan 2010 19:19:24 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[satellites]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=133</guid>
+		<description><![CDATA[This is the third and final episode covering the interviews I did when I was visiting <a href="http://www.nasa.gov/centers/ames/home/index.html">NASA Ames</a>. It consits of two interviews. The first one is about Ames' involvement in the Ares/Orion projects which are part of the <a href="http://www.nasa.gov/mission_pages/constellation/main/index.html">Constellation</a> moon/mars exploration programme. I talk about this with Dr. George Sarver. The second part of the episode covers small satellites and why they are becoming more and more important (compared to traditional, larger satellites). In this part, my guest is Elwood Agasid. ]]></description>
+			<content:encoded><![CDATA[<p>This is the third and final episode covering the interviews I did when I was visiting <a href="http://www.nasa.gov/centers/ames/home/index.html">NASA Ames</a>. It consits of two interviews. The first one is about Ames&#8217; involvement in the Ares/Orion projects which are part of the <a href="http://www.nasa.gov/mission_pages/constellation/main/index.html">Constellation</a> moon/mars exploration programme. I talk about this with Dr. George Sarver. The second part of the episode covers small satellites and why they are becoming more and more important (compared to traditional, larger satellites). In this part, my guest is Elwood Agasid. </p>
+<ul>
+<li><a href="http://www.nasa.gov/centers/ames/home/index.html">NASA Ames Research Center</a>
+<li>The <a href="http://www.nasa.gov/mission_pages/constellation/orion/index.html">Orion CEV</a>
+<li><a href="http://www.nasa.gov/mission_pages/smallsats/index.html">NASA&#8217;s Small Satellites</a> program
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2010/01/23-ares-orion-and-small-satellites-at-nasa-ames/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-23-aresOrionAndSmallSatsAtNASAAmes.mp3" length="57036328" type="audio/mpeg" />
+		<itunes:duration>0:59:24</itunes:duration>
+		<itunes:subtitle>This is the third and final episode covering the interviews I did when I was visiting NASA Ames. It consits of two interviews. The first one is about Ames' involvement in the Ares/Orion projects which are part of the Constellation moon/mars explorat[...]</itunes:subtitle>
+		<itunes:summary>This is the third and final episode covering the interviews I did when I was visiting NASA Ames. It consits of two interviews. The first one is about Ames' involvement in the Ares/Orion projects which are part of the Constellation moon/mars exploration programme. I talk about this with Dr. George Sarver. The second part of the episode covers small satellites and why they are becoming more and more important (compared to traditional, larger satellites). In this part, my guest is Elwood Agasid.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/22/ Nuclear Fusion at MPI für Plasmaphysik</title>
+		<link>http://omegataupodcast.net/2009/12/22-nuclear-fusion-at-mpi-fur-plasmaphysik/</link>
+		<comments>http://omegataupodcast.net/2009/12/22-nuclear-fusion-at-mpi-fur-plasmaphysik/#comments</comments>
+		<pubDate>Tue, 15 Dec 2009 17:06:10 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[energy]]></category>
+		<category><![CDATA[fusion]]></category>
+		<category><![CDATA[nuclear]]></category>
+		<category><![CDATA[physics]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=124</guid>
+		<description><![CDATA[This episode covers my visit to the <a href="http://www.ipp.mpg.de/ippcms/de/index.html">Max Plack Institut for Plasmaphysik</a> where I spent a couple of hours with Matthias Reich talking about nuclear fusion. The episode has three parts. In part one we talk about the scienfic and physical basics of nuclear fusion. Part two covers some of the ways the MPI facilities work, and part three discusses the <a href="http://www.ipp.mpg.de/de/for/projekte/asdex/for_proj_asdex.html">ASDEX Upgrade</a> experiment at IPP in Garching.]]></description>
+			<content:encoded><![CDATA[<p>This episode covers my visit to the <a href="http://www.ipp.mpg.de/ippcms/de/index.html">Max Plack Institut for Plasmaphysik</a> where I spent a couple of hours with Matthias Reich talking about nuclear fusion. The episode has three parts. In part one we talk about the scienfic and physical basics of nuclear fusion. Part two covers some of the ways the MPI facilities work, and part three discusses the <a href="http://www.ipp.mpg.de/de/for/projekte/asdex/for_proj_asdex.html">ASDEX Upgrade</a> experiment at IPP in Garching.</p>
+<ul>
+<li>Nuclear Fusion explained at <a href="http://en.wikipedia.org/wiki/Nuclear_fusion">Wikipedia</a>
+<li><a href="http://www.ipp.mpg.de/">Max-Planck-Institut für Plasmaphysik</a>
+<li><a href="http://www.ipp.mpg.de/ippcms/de/pr/exptypen/tokamak/index.html">The Tokamak</a>
+<li><a href="http://www.ipp.mpg.de/ippcms/de/pr/exptypen/stellarator/index.html">The Stellarator</a>
+<li><a href="http://www.zdf.de/ZDFmediathek/content/833664?inPopup=true">ZDFmediathek</a> zu Kernfusion (German)
+<li><a href="http://www.jet.efda.org/">The JET facility</a>
+<li><a href="http://www.iter.org/">ITER</a>, and its <a href="http://www.iterfan.org/">fan club</a>
+<li><a href="https://lasers.llnl.gov/">The NIF</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/12/22-nuclear-fusion-at-mpi-fur-plasmaphysik/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-22-nuclearFusionAtMPP.mp3" length="100467709" type="audio/mpeg" />
+		<itunes:duration>1:44:39</itunes:duration>
+		<itunes:subtitle>This episode covers my visit to the Max Plack Institut for Plasmaphysik where I spent a couple of hours with Matthias Reich talking about nuclear fusion. The episode has three parts. In part one we talk about the scienfic and physical basics of nucl[...]</itunes:subtitle>
+		<itunes:summary>This episode covers my visit to the Max Plack Institut for Plasmaphysik where I spent a couple of hours with Matthias Reich talking about nuclear fusion. The episode has three parts. In part one we talk about the scienfic and physical basics of nuclear fusion. Part two covers some of the ways the MPI facilities work, and part three discusses the ASDEX Upgrade experiment at IPP in Garching.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/21/ Space Mission Control at ESA&#8217;s ESOC</title>
+		<link>http://omegataupodcast.net/2009/11/21-space-mission-control-at-esas-esoc/</link>
+		<comments>http://omegataupodcast.net/2009/11/21-space-mission-control-at-esas-esoc/#comments</comments>
+		<pubDate>Sun, 22 Nov 2009 18:25:47 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[satellites]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=115</guid>
+		<description><![CDATA[This episode covers my visit at the European Space Agency's (ESA) European Space Operations Centre (ESOC) in Darmstadt,Germany. After a short tour of the facilities with Andreas Schepers I had the chance to interview Uwe Feucht (Head of Flight Dynamics Division) on space flight dynamics and Paolo Ferri (Headof the Solar and Planetary Missions Division) on Mars Express, Venus Express and Rosetta.]]></description>
+			<content:encoded><![CDATA[<p>This episode covers my visit at the <a href="http://www.esa.int">European Space Agency&#8217;s (ESA)</a> <a href="http://www.esa.int/SPECIALS/ESOC/SEM62CW4QWD_0.html">European Space Operations Centre (ESOC)</a> in Darmstadt,Germany. After a short tour of the facilities with <a href="http://twitter.com/AndreasSchepers">Andreas Schepers</a> I had the chance to interview Uwe Feucht (Head of Flight Dynamics Division) on space flight dynamics and Paolo Ferri (Headof the Solar and Planetary Missions Division) on Mars Express, Venus Express and Rosetta.</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion">Keplers Law of Planetary Motion</a></li>
+<li><a href="http://en.wikipedia.org/wiki/List_of_orbits">Orbital Classifications</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Escape_velocity">Escape Velocity</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gravity_assist">Gravity Assist/Swing-By</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Special_relativity">Special Relativity</a></li>
+<li>Rosetta at <a href="http://sci.esa.int/science-e/www/area/index.cfm?fareaid=13">ESA</a> and at <a href="http://en.wikipedia.org/wiki/Rosetta_%28spacecraft%29">Wikipedia</a></li>
+<li>Mars Express at <a href="http://www.esa.int/SPECIALS/Mars_Express/index.html">ESA</a> and at <a href="http://de.wikipedia.org/wiki/Mars_Express">Wikipedia</a></li>
+<li>Venus Express at <a href="http://sci.esa.int/science-e/www/area/index.cfm?fareaid=64">ESA</a> and at <a href="http://de.wikipedia.org/wiki/Venus_Express">Wikipedia</a></li>
+<li>Ulysses at <a href="http://sci.esa.int/science-e/www/area/index.cfm?fareaid=11">ESA</a> and at <a href="http://en.wikipedia.org/wiki/Ulysses_%28spacecraft%29">Wikipedia</a></li>
+<li>Cluster Mission at <a href="http://sci.esa.int/science-e/www/area/index.cfm?fareaid=8">ESA</a> and at <a href="http://en.wikipedia.org/wiki/Cluster_mission">Wikipedia</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/11/21-space-mission-control-at-esas-esoc/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-21-spaceMissionControlAtESAsESOC.mp3" length="99574697" type="audio/mpeg" />
+		<itunes:duration>1:43:43</itunes:duration>
+		<itunes:subtitle>This episode covers my visit at the European Space Agency's (ESA) European Space Operations Centre (ESOC) in Darmstadt,Germany. After a short tour of the facilities with Andreas Schepers I had the chance to interview Uwe Feucht (Head of Flight Dynam[...]</itunes:subtitle>
+		<itunes:summary>This episode covers my visit at the European Space Agency's (ESA) European Space Operations Centre (ESOC) in Darmstadt,Germany. After a short tour of the facilities with Andreas Schepers I had the chance to interview Uwe Feucht (Head of Flight Dynamics Division) on space flight dynamics and Paolo Ferri (Headof the Solar and Planetary Missions Division) on Mars Express, Venus Express and Rosetta.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/19/ The Vertical Motion Simulator at NASA Ames</title>
+		<link>http://omegataupodcast.net/2009/10/19-the-vertical-motion-simulator-at-nasa-ames/</link>
+		<comments>http://omegataupodcast.net/2009/10/19-the-vertical-motion-simulator-at-nasa-ames/#comments</comments>
+		<pubDate>Tue, 13 Oct 2009 07:38:28 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=103</guid>
+		<description><![CDATA[This episode is a conversation with <a href="http://www.aviationsystemsdivision.arc.nasa.gov/about/bios/aponso_bimal.shtml">Bimal Aponso</a> (branch chief for the Aerospace Simulation Research and Development Branch) about the NASA Vertical Motion Simulator at Ames. The VMS is the world's largest flight simulator, and provides unrivaled realism regarding the accelerations and "feeling of real flight" it can create. 
+In the episode we first talk about how the VMS works, and how it is different from other flight simulators. We then cover some of the use cases for VMS (research, astronaut training) and discuss a couple of past research projects where VMS has been used. Finally, we take a tour of the actual simulator, and I get to see the cabin for the cockpits of the <a href="http://en.wikipedia.org/wiki/Space_Shuttle_orbiter">Space Shuttle</a> and the <a href="http://en.wikipedia.org/wiki/Altair_%28spacecraft%29">Altair Lunar Surface Access Module</a>]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with <a href="http://www.aviationsystemsdivision.arc.nasa.gov/about/bios/aponso_bimal.shtml">Bimal Aponso</a> (branch chief for the Aerospace Simulation Research and Development Branch) about the NASA Vertical Motion Simulator at Ames. The VMS is the world&#8217;s largest flight simulator, and provides unrivaled realism regarding the accelerations and &#8220;feeling of real flight&#8221; it can create.<br />
+In the episode we first talk about how the VMS works, and how it is different from other flight simulators. We then cover some of the use cases for VMS (research, astronaut training) and discuss a couple of past research projects where VMS has been used. Finally, we take a tour of the actual simulator, and I get to see the cabin for the cockpits of the <a href="http://en.wikipedia.org/wiki/Space_Shuttle_orbiter">Space Shuttle</a> and the <a href="http://en.wikipedia.org/wiki/Altair_%28spacecraft%29">Altair Lunar Surface Access Module</a></p>
+<ul>
+<li><a href="http://www.aviationsystemsdivision.arc.nasa.gov/facilities/vms/index.shtml">VMS Website</a>
+<li><a href="http://www.aviationsystemsdivision.arc.nasa.gov/about/bios/aponso_bimal.shtml">Bimal Aponso&#8217;s bio</a>
+<li><a href="http://en.wikipedia.org/wiki/Flight_simulator">Flight Simulation @ Wikipedia</a>
+<li><a href="http://en.wikipedia.org/wiki/Flight_dynamics">Flight Dynamics @ Wikipedia</a>, explains a number of the concepts and terms referred to in the episode
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/10/19-the-vertical-motion-simulator-at-nasa-ames/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-19-theVerticalMotionSimulatorAtNASAAmes.mp3" length="49625295" type="audio/mpeg" />
+		<itunes:duration>0:51:41</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Bimal Aponso (branch chief for the Aerospace Simulation Research and Development Branch) about the NASA Vertical Motion Simulator at Ames. The VMS is the world's largest flight simulator, and provides unrivaled re[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Bimal Aponso (branch chief for the Aerospace Simulation Research and Development Branch) about the NASA Vertical Motion Simulator at Ames. The VMS is the world's largest flight simulator, and provides unrivaled realism regarding the accelerations and "feeling of real flight" it can create. 
+In the episode we first talk about how the VMS works, and how it is different from other flight simulators. We then cover some of the use cases for VMS (research, astronaut training) and discuss a couple of past research projects where VMS has been used. Finally, we take a tour of the actual simulator, and I get to see the cabin for the cockpits of the Space Shuttle and the Altair Lunar Surface Access Module</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/18/ Astrobiology at the NASA Astrobiology Institute</title>
+		<link>http://omegataupodcast.net/2009/09/18-astrobiology-at-the-nasa-astrobiology-institute/</link>
+		<comments>http://omegataupodcast.net/2009/09/18-astrobiology-at-the-nasa-astrobiology-institute/#comments</comments>
+		<pubDate>Sun, 20 Sep 2009 07:35:35 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[astrobiology]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[life]]></category>
+		<category><![CDATA[NASA]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=69</guid>
+		<description><![CDATA[This episode is a conversation with Dr. Carl Pilcher, the director of the <a href="http://astrobiology.nasa.gov/nai/about/">NASA Astrobiology Insititute</a> at <a href="http://www.nasa.gov/centers/ames/home/index.html">NASA Ames Research Center</a>. The conversation comes in two parts. Part one covers the conceptual basics of astrobiology and life: what is life, what are the preconditions for life to exist, how to recognize it, etc. Part two looks at the process of trying to find places in the universe that could host life, primarily astronomical observations and missions to other planets.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with Dr. Carl Pilcher, the director of the <a href="http://astrobiology.nasa.gov/nai/about/">NASA Astrobiology Insititute</a> at <a href="http://www.nasa.gov/centers/ames/home/index.html">NASA Ames Research Center</a>. The conversation comes in two parts. Part one covers the conceptual basics of astrobiology and life: what is life, what are the preconditions for life to exist, how to recognize it, etc. Part two looks at the process of trying to find places in the universe that could host life, primarily astronomical observations and missions to other planets.</p>
+<ul>
+<li>About the <a href="http://astrobiology.nasa.gov/nai/about/">NASA Astrobiology Insititute</a> and Carl Pilcher, its director (at the bottom)
+<li>The <a href="http://astrobiology.nasa.gov/nai/seminars/">NAI Director&#8217;s Seminar</a>, a collection of video presentations on astrobiology
+<li>Wikipedia&#8217;s pages on <a href="http://en.wikipedia.org/wiki/Life">life</a> and <a href="http://en.wikipedia.org/wiki/Astrobiology">astrobiology</a>
+<li>The <a href="http://www.seti.org/Page.aspx?pid=1366">SETI Institute</a> and their <a href="http://podcast.seti.org/">Podcast</a>
+<li><a href="http://astronomycast.com">Astronomycast</a>, the podcast about astronomy
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/09/18-astrobiology-at-the-nasa-astrobiology-institute/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-18-astrobiologyAtNasaAmes.mp3" length="46405672" type="audio/mpeg" />
+		<itunes:duration>0:48:19</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Dr. Carl Pilcher, the director of the NASA Astrobiology Insititute at NASA Ames Research Center. The conversation comes in two parts. Part one covers the conceptual basics of astrobiology and life: what is life, w[...]</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Dr. Carl Pilcher, the director of the NASA Astrobiology Insititute at NASA Ames Research Center. The conversation comes in two parts. Part one covers the conceptual basics of astrobiology and life: what is life, what are the preconditions for life to exist, how to recognize it, etc. Part two looks at the process of trying to find places in the universe that could host life, primarily astronomical observations and missions to other planets.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/16/ Radio Astronomy and the ALMA Telescope</title>
+		<link>http://omegataupodcast.net/2009/08/16-radio-astronomy-and-the-alma-telescope/</link>
+		<comments>http://omegataupodcast.net/2009/08/16-radio-astronomy-and-the-alma-telescope/#comments</comments>
+		<pubDate>Mon, 10 Aug 2009 17:04:12 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[space]]></category>
+		<category><![CDATA[telescope]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/2009/08/10/16-radio-astronomy-and-the-alma-telescope/</guid>
+		<description><![CDATA[This episode is a discussion about radio astronomy and the <a href="http://www.almaobservatory.org/">ALMA observatory</a> with <a href="http://www.eso.org/">ESO's</a> Robert Laing, the European instrument scientist for ALMA. The episode has three parts. The first part talks about the science of radio astronomy: current challenges and physical basics. The second part adresses how observing with radio astronomy actually works: the principles behind telescopes and how they are built and operated. Part three then looks at the ALMA observatory specifically, a new, large sub-millimeter radio interferometer currently built in the Atacama Desert in Chile.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a discussion about radio astronomy and the <a href="http://www.almaobservatory.org/">ALMA observatory</a> with <a href="http://www.eso.org/">ESO&#8217;s</a> Robert Laing, the European instrument scientist for ALMA. The episode has three parts. The first part talks about the science of radio astronomy: current challenges and physical basics. The second part adresses how observing with radio astronomy actually works: the principles behind telescopes and how they are built and operated. Part three then looks at the ALMA observatory specifically, a new, large sub-millimeter radio interferometer currently built in the Atacama Desert in Chile.</p>
+<ul>
+<li><a href="http://www.eso.org/">ESO, the European Southern Observatory</a>
+<li><a href="http://www.almaobservatory.org/">The ALMA Observatory</a>
+<li><a href="http://en.wikipedia.org/wiki/Atacama_Large_Millimeter_Array">Wikipedia on ALMA</a>
+<li><a href="http://www.vla.nrao.edu/">The Very Large Array in New Mexico, USA</a>
+<li><a href="http://en.wikipedia.org/wiki/Radio_astronomy">Wikipedia on Radio Astronomy</a>
+<li><a href="http://en.wikipedia.org/wiki/Radio_telescope">Wikipedia on Radio Telescopes</a>
+<li><a href="http://en.wikipedia.org/wiki/Astronomical_interferometer">Wikipedia on Interferometry</a>
+<li><a href="http://www.astronomycast.com/">Astronomycast, *the* podcast on astronomy</a> (episodes on <a href="http://www.astronomycast.com/astronomy/observing-astronomy/ep-129-interferometry/">interferometry</a> and <a href="http://www.astronomycast.com/astronomy/observing-astronomy/episode-131-submillimeter-astronomy/">submillimeter astronomy</a>)
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/08/16-radio-astronomy-and-the-alma-telescope/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-16-radioastronomyAndAlma.mp3" length="89478953" type="audio/mpeg" />
+		<itunes:duration>1:33:12</itunes:duration>
+		<itunes:subtitle>This episode is a discussion about radio astronomy and the ALMA observatory with ESO's Robert Laing, the European instrument scientist for ALMA. The episode has three parts. The first part talks about the science of radio astronomy: current challeng[...]</itunes:subtitle>
+		<itunes:summary>This episode is a discussion about radio astronomy and the ALMA observatory with ESO's Robert Laing, the European instrument scientist for ALMA. The episode has three parts. The first part talks about the science of radio astronomy: current challenges and physical basics. The second part adresses how observing with radio astronomy actually works: the principles behind telescopes and how they are built and operated. Part three then looks at the ALMA observatory specifically, a new, large sub-millimeter radio interferometer currently built in the Atacama Desert in Chile.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/11/ Synchrotron Radiation Science at ESRF</title>
+		<link>http://omegataupodcast.net/2009/03/11-synchrotron-radiation-science-at-esrf/</link>
+		<comments>http://omegataupodcast.net/2009/03/11-synchrotron-radiation-science-at-esrf/#comments</comments>
+		<pubDate>Sat, 28 Mar 2009 12:42:57 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[particle science]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[radiation]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=37</guid>
+		<description><![CDATA[This episode is an interesting discussion about the <a href="http://www.esrf.eu">European Synchrotron Radiation Facility (ESRF)</a> in Grenoble, France. I had a chance to talk to Claus Habfast, physicist and head of communications for ESRF. ESRF is an accelerator facility the creates high-energy x-rays that are used for experiments in various areas of science, from biology to physics to materials science and chemistry. In the episode, Claus talks about how ESRF works, highlights a couple of interesting recent experiments and puts ESRF into the context of other accelerator laboratories.]]></description>
+			<content:encoded><![CDATA[<p>This episode is an interesting discussion about the <a href="http://www.esrf.eu">European Synchrotron Radiation Facility (ESRF)</a> in Grenoble, France. I had a chance to talk to Claus Habfast, physicist and head of communications for ESRF. ESRF is an accelerator facility the creates high-energy x-rays that are used for experiments in various areas of science, from biology to physics to materials science and chemistry. In the episode, Claus talks about how ESRF works, highlights a couple of interesting recent experiments and puts ESRF into the context of other accelerator laboratories.</p>
+<ul>
+<li><a href="http://www.esrf.eu">ESRF website</a>
+<li><a href="http://www.youtube.com/lightforscience">ESRF YouTube channel</a>
+<li><a href="http://en.wikipedia.org/wiki/Synchrotron">Synchrotrons @ Wikipedia</a>
+<li><a href="http://en.wikipedia.org/wiki/Synchrotron#List_of_installations">List of Synchrotrons world wide</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/03/11-synchrotron-radiation-science-at-esrf/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-11-synchrotronRadiationScienceAtESRF.mp3" length="67911417" type="audio/mpeg" />
+		<itunes:duration>1:10:44</itunes:duration>
+		<itunes:subtitle>This episode is an interesting discussion about the European Synchrotron Radiation Facility (ESRF) in Grenoble, France. I had a chance to talk to Claus Habfast, physicist and head of communications for ESRF. ESRF is an accelerator facility the creat[...]</itunes:subtitle>
+		<itunes:summary>This episode is an interesting discussion about the European Synchrotron Radiation Facility (ESRF) in Grenoble, France. I had a chance to talk to Claus Habfast, physicist and head of communications for ESRF. ESRF is an accelerator facility the creates high-energy x-rays that are used for experiments in various areas of science, from biology to physics to materials science and chemistry. In the episode, Claus talks about how ESRF works, highlights a couple of interesting recent experiments and puts ESRF into the context of other accelerator laboratories.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/10/ (Marillion) Music Production</title>
+		<link>http://omegataupodcast.net/2009/03/10-marillion-music-production/</link>
+		<comments>http://omegataupodcast.net/2009/03/10-marillion-music-production/#comments</comments>
+		<pubDate>Fri, 06 Mar 2009 17:53:42 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[production]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=36</guid>
+		<description><![CDATA[This episode is a discussion with <a href="http://www.marillion.com/band/other.htm#hunter">Mike Hunter</a>, the producer of <a href="http://www.marillion.com">Marillion</a>. We discuss various aspects of modern music production, from recording to sudio quality, to effects to mastering and live performances. ]]></description>
+			<content:encoded><![CDATA[<p>This episode is a discussion with <a href="http://www.marillion.com/band/other.htm#hunter">Mike Hunter</a>, the producer of <a href="http://www.marillion.com">Marillion</a>. We discuss various aspects of modern music production, from recording to sudio quality, to effects to mastering and live performances. </p>
+<ul>
+<li>Marillion&#8217;s <a href="http://www.marillion.com/studio/index.htm">studio</a>
+<li>Effects: <a href="http://en.wikipedia.org/wiki/Audio_level_compression">compression</a>, <a href="http://en.wikipedia.org/wiki/Reverb">reverb</a>, <a href="http://en.wikipedia.org/wiki/Echoplex">echo/delay</a>, <a href="http://en.wikipedia.org/wiki/Equalization">EQ</a>, <a href="http://en.wikipedia.org/wiki/Limiting">limiting</a>
+<li>Software: <a href="http://en.wikipedia.org/wiki/Pro_Tools">ProTools</a>, <a href="http://en.wikipedia.org/wiki/Melodyne">Melodyne</a>
+<li><a href="http://en.wikipedia.org/wiki/Loudness_war">Loudness War</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2009/03/10-marillion-music-production/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-10-musicProductionMarillion.mp3" length="73808386" type="audio/mpeg" />
+		<itunes:duration>1:16:52</itunes:duration>
+		<itunes:subtitle>This episode is a discussion with Mike Hunter, the producer of Marillion. We discuss various aspects of modern music production, from recording to sudio quality, to effects to mastering and live performances.</itunes:subtitle>
+		<itunes:summary>This episode is a discussion with Mike Hunter, the producer of Marillion. We discuss various aspects of modern music production, from recording to sudio quality, to effects to mastering and live performances.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/7/ Flight in a Motorglider (English Only!)</title>
+		<link>http://omegataupodcast.net/2008/12/7-flight-in-a-motorglider-english-only/</link>
+		<comments>http://omegataupodcast.net/2008/12/7-flight-in-a-motorglider-english-only/#comments</comments>
+		<pubDate>Wed, 31 Dec 2008 08:36:31 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[soaring]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=27</guid>
+		<description><![CDATA[This episode is the English version of <a href="http://omegataupodcast.net/2008/08/15/1-mitlflug-im-motorsegler/">Episode 1</a>, the flight in the motorglider.
+
+<b>Deutsch-Sprechende: Diese Episode nicht runterladen, es ist dasselbe wie in <a href="http://omegataupodcast.net/2008/08/15/1-mitlflug-im-motorsegler/">Episode 1</a>, nur auf English!</b>]]></description>
+			<content:encoded><![CDATA[<p>This episode is the English version of <a href="http://omegataupodcast.net/2008/08/15/1-mitlflug-im-motorsegler/">Episode 1</a>, the flight in the motorglider.</p>
+<p><b>Deutsch-Sprechende: Diese Episode nicht runterladen, es ist dasselbe wie in <a href="http://omegataupodcast.net/2008/08/15/1-mitlflug-im-motorsegler/">Episode 1</a>, nur auf English!</b></p>
+<p>The episode is a flight in a self-launching sailplane. I mainly describe take-off and landing. The episode is a mix between narration and live recordings from the cockpit.</p>
+<table>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_1.jpg"><img src="/wp-content/uploads/2008/08/ot1_1tn.jpg"/></a> </td>
+<td>DS during landing. You can clearly see the positively extended flaps and the extended air brakes. </td>
+</tr>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_2.jpg"><img src="/wp-content/uploads/2008/08/ot1_2tn.jpg"/></a> </td>
+<td>Before take of, at dawn.</td>
+</tr>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_3.jpg"><img src="/wp-content/uploads/2008/08/ot1_3tn.jpg"/></a> </td>
+<td>Detail shot of the 50 hp AE50R rotary engine. The engine stays in the fuselage during operation, only the prop and cooler are extended. </td>
+</tr>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_4.jpg"><img src="/wp-content/uploads/2008/08/ot1_4tn.jpg"/></a> </td>
+<td> The cockpit.</td>
+</tr>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_5.jpg"><img src="/wp-content/uploads/2008/08/ot1_5tn.jpg"/></a> </td>
+<td> After landing at dawn.</td>
+</tr>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_6.jpg"><img src="/wp-content/uploads/2008/08/ot1_6tn.jpg"/></a> </td>
+<td> During climb.</td>
+</tr>
+<tr valign="top">
+<td> <a href="http://omegataupodcast.net/wp-content/uploads/2008/08/ot1_7.jpg"><img src="/wp-content/uploads/2008/08/ot1_7tn.jpg"/></a> </td>
+<td> In front of the trailer, elevator already removed. </td>
+</tr>
+</table>
+<p>Please ignore this:<br />
+<font color="white"><a href="http://www.podcastalley.com/"> My Podcast Alley feed!</a> {pca-19d037b535124bd167f88aadfdb9d0a3}</font></p>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2008/12/7-flight-in-a-motorglider-english-only/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-7-motorglider-englishOnly.mp3" length="38969389" type="audio/mpeg" />
+		<itunes:duration>0:40:35</itunes:duration>
+		<itunes:subtitle>This episode is the English version of Episode 1, the flight in the motorglider.
+
+Deutsch-Sprechende: Diese Episode nicht runterladen, es ist dasselbe wie in Episode 1, nur auf English!</itunes:subtitle>
+		<itunes:summary>This episode is the English version of Episode 1, the flight in the motorglider.
+
+Deutsch-Sprechende: Diese Episode nicht runterladen, es ist dasselbe wie in Episode 1, nur auf English!</itunes:summary>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/6/ Computational Thinking</title>
+		<link>http://omegataupodcast.net/2008/12/6-computational-thinking/</link>
+		<comments>http://omegataupodcast.net/2008/12/6-computational-thinking/#comments</comments>
+		<pubDate>Sun, 21 Dec 2008 08:13:47 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[computational thinking]]></category>
+		<category><![CDATA[computer science]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=25</guid>
+		<description><![CDATA[This episode is a discussion with <a href="http://www.cs.cmu.edu/~wing/">Jeannette Wing</a> on Computational Thinking. Citing the website of <a href="http://www.cs.cmu.edu/~CompThink/">Carnegie Mellon's Center for Computational Thinking</a> website, <i>"computational thinking is a way of solving problems, designing systems, and understanding human behavior that draws on concepts fundamental to computer science."</i>.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a discussion with <a href="http://www.cs.cmu.edu/~wing/">Jeannette Wing</a> on Computational Thinking. Citing the website of <a href="http://www.cs.cmu.edu/~CompThink/">Carnegie Mellon&#8217;s Center for Computational Thinking</a> website, <i>&#8220;computational thinking is a way of solving problems, designing systems, and understanding human behavior that draws on concepts fundamental to computer science.&#8221;</i>. As a consequence of computing being more and more important for today&#8217;s science, <i>&#8220;computational thinking has to be a fundamental part of the way people think and understand the world.&#8221;</i>. Jeannette is a leader in this field, and we discuss various aspect of the topic in this show: what computational thinking is, examples of its importance in various fields of science and strategies about how it can be taught to pupils, students and scientists.</p>
+<ul>
+<li>Jeannette&#8217;s <a href="http://www.cs.cmu.edu/~wing/">website</a>
+<li>The <a href="http://www.cs.cmu.edu/afs/cs/usr/wing/www/publications/Wing06.pdf">original CACM article</a> that made me (Markus) aware of the topic
+<li><a href="http://www.cs.cmu.edu/~CompThink/">Carnegie Mellon&#8217;s Center for Computational Thinking</a>
+<li><a href="http://www.csta.acm.org/">Computer Science Teachers Association</a>
+<li><a href="http://csunplugged.org/">Computer Science Unplugged</a>
+<li>Peter Denning&#8217;s <a href="http://cs.gmu.edu/cne/pjd/GP/GP-site/welcome.html">Great Principles of Computing</a>
+<li>Markus&#8217; presentation on <a href="http://www.voelter.de/data/presentations/FundamentalsOfSoftwareArchitecture.pdf">Fundamentals of Software Architecture</a>
+</ul>
+<p>&#8230; and if you liked the music: <a href="http://bloodredtape.com">Portal &#8211;  Blood Red Tape</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2008/12/6-computational-thinking/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-6-computationalThinking.mp3" length="41149080" type="audio/mpeg" />
+		<itunes:duration>0:42:51</itunes:duration>
+		<itunes:subtitle>This episode is a discussion with Jeannette Wing on Computational Thinking. Citing the website of Carnegie Mellon's Center for Computational Thinking website, "computational thinking is a way of solving problems, designing systems, and understanding[...]</itunes:subtitle>
+		<itunes:summary>This episode is a discussion with Jeannette Wing on Computational Thinking. Citing the website of Carnegie Mellon's Center for Computational Thinking website, "computational thinking is a way of solving problems, designing systems, and understanding human behavior that draws on concepts fundamental to computer science.".</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/5/ Earthrace &#8211; Around the World in a Powerboat</title>
+		<link>http://omegataupodcast.net/2008/11/5-earthrace-around-the-world-in-a-powerboat/</link>
+		<comments>http://omegataupodcast.net/2008/11/5-earthrace-around-the-world-in-a-powerboat/#comments</comments>
+		<pubDate>Sat, 29 Nov 2008 09:02:54 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[environment]]></category>
+		<category><![CDATA[schifffahrt]]></category>
+		<category><![CDATA[ships]]></category>
+		<category><![CDATA[umwelt]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=20</guid>
+		<description><![CDATA[This episode is a conversation with Pete Bethune, the skipper of <a href="http://www.earthrace.net">Earthrace</a>. Earthrace has broken the world record for circumnavigation of the world with a powerboat.]]></description>
+			<content:encoded><![CDATA[<p>This episode is a conversation with Pete Bethune, the skipper of <a href="http://www.earthrace.net">Earthrace</a>. Earthrace has broken the world record for circumnavigation of the world with a powerboat. They did it being CO2-neutral and by using as many eco-friendly resources as possible, spreading the message that being ecological doesn&#8217;t mean to go back to the stone age and not have fun anymore. In the episode, Pete talks about the environmental background as well as the fun, challenges and scares of circumnavigating the globe in a powerboat; he also describes the boat itself, with its special &#8220;wave-piercing&#8221; hull.</p>
+<ul>
+<li><a href="http://www.earthrace.net/">Official Earthrace Website</a>
+<li><a href="http://en.wikipedia.org/wiki/Earthrace">Earthrace at Wikipedia</a>
+<li><a href="http://en.wikipedia.org/wiki/Wave-piercing">Wave Piercing</a> at Wikipedia
+<li><a href="http://www.youtube.com/watch?v=AwgaLSF03gk">Earthrace Wave Piercing Video</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2008/11/5-earthrace-around-the-world-in-a-powerboat/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-5-earthrace_aroundTheWorldInAPowerboat.mp3" length="40392992" type="audio/mpeg" />
+		<itunes:duration>0:42:04</itunes:duration>
+		<itunes:subtitle>This episode is a conversation with Pete Bethune, the skipper of Earthrace. Earthrace has broken the world record for circumnavigation of the world with a powerboat.</itunes:subtitle>
+		<itunes:summary>This episode is a conversation with Pete Bethune, the skipper of Earthrace. Earthrace has broken the world record for circumnavigation of the world with a powerboat.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+		<item>
+		<title>/4/ Commercial Space and SpaceShipOne</title>
+		<link>http://omegataupodcast.net/2008/10/4-commercial-space-and-space-ship-one/</link>
+		<comments>http://omegataupodcast.net/2008/10/4-commercial-space-and-space-ship-one/#comments</comments>
+		<pubDate>Tue, 28 Oct 2008 21:17:24 +0000</pubDate>
+		<dc:creator>MaNo</dc:creator>
+				<category><![CDATA[podcast]]></category>
+		<category><![CDATA[podcast (en)]]></category>
+		<category><![CDATA[aviation]]></category>
+		<category><![CDATA[fliegerei]]></category>
+		<category><![CDATA[space]]></category>
+
+		<guid isPermaLink="false">http://omegataupodcast.net/?p=19</guid>
+		<description><![CDATA[In this episode Markus discusses commercial suborbital space flight and <a href="http://www.scaled.com/projects/tierone/">SpaceShipOne</a> with <a href="http://www.dslinehan.com/">Dan Linehan</a>, author of <a href="http://www.amazon.com/SpaceShipOne-Illustrated-History-Dan-Linehan/dp/076033188X">SpaceShipOne - An Illustrated History</a>, a beautiful book explaing all aspects of this magnificient flying machine. 
+
+]]></description>
+			<content:encoded><![CDATA[<p>In this episode Markus discusses commercial suborbital space flight and <a href="http://www.scaled.com/projects/tierone/">SpaceShipOne</a> with <a href="http://www.dslinehan.com/">Dan Linehan</a>, author of <a href="http://www.amazon.com/SpaceShipOne-Illustrated-History-Dan-Linehan/dp/076033188X">SpaceShipOne &#8211; An Illustrated History</a>, a beautiful book explaing all aspects of this magnificient flying machine. </p>
+<p>In the episode we cover history, technical background, flight testing and the (successful!) record attempt of SpaceShipOne as part of the <a href="http://space.xprize.org/ansari-x-prize">Ansari X-Prize</a>. We also talk about commercial suborbital space flight in general.</p>
+<ul>
+<li><a href="http://images.google.com/images?q=spaceshipone">Pictures on SpaceShipOne @ Google</a>
+<li><a href="http://www.scaled.com/projects/tierone/">Space Ship One Homepage</a>
+<li><a href="http://en.wikipedia.org/wiki/Burt_Rutan">Burt Rutan</a>, the brain behind SpaceShipOne
+<li><a href="http://www.scaled.com">Scaled Composites</a>, the company who built SpaceShipOne
+<li><a href="http://space.xprize.org/ansari-x-prize">The Ansari X-Prise</a>
+<li><a href="http://www.dslinehan.com/">Dan&#8217;s Homepage</a>
+<li><a href="http://www.amazon.com/SpaceShipOne-Illustrated-History-Dan-Linehan/dp/076033188X">Dan&#8217;s Book on SpaceShipOne</a>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://omegataupodcast.net/2008/10/4-commercial-space-and-space-ship-one/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+			<enclosure url="http://media.libsyn.com/media/omegataupodcast/omegatau-4-spaceShipOne.mp3" length="50645091" type="audio/mpeg" />
+		<itunes:duration>0:52:45</itunes:duration>
+		<itunes:subtitle>In this episode Markus discusses commercial suborbital space flight and SpaceShipOne with Dan Linehan, author of SpaceShipOne - An Illustrated History, a beautiful book explaing all aspects of this magnificient flying machine.</itunes:subtitle>
+		<itunes:summary>In this episode Markus discusses commercial suborbital space flight and SpaceShipOne with Dan Linehan, author of SpaceShipOne - An Illustrated History, a beautiful book explaing all aspects of this magnificient flying machine.</itunes:summary>
+		<itunes:keywords>podcast</itunes:keywords>
+		<itunes:author>info@omegataupodcast.net</itunes:author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</item>
+	</channel>
+</rss>

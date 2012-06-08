@@ -1,0 +1,16 @@
+
+<html>
+    <head>
+        <noscript><meta http-equiv="refresh" content="2;url=https&#58;//skydrive.live.com/servererror.aspx&#63;cid&#61;bdac85f9e6771d35&#38;sc&#61;photos" /></noscript>
+        <script type="text/javascript">//<![CDATA[
+var _d=document,_dh=_d.getElementsByTagName("head")[0];function _ge(a){return _d.getElementById(a)}var $U={a:"^((ftp|http|https):)?//",isAbsoluteUrl:function(b){var a=new RegExp($U.a,"i");return a.test(b)},doesMatchHost:function(b,d){var f="^(mailto|tel|sms):",h=new RegExp(f,"i"),e=$U.a+"([^:/]*([:][^@/]*)?[@])?([-.a-z0-9]*)[^-.a-z0-9]?",g=new RegExp(e,"i"),k=$U.isAbsoluteUrl(b),a=(String(b).search(g)<0?"":RegExp.$5).toLowerCase(),j=h.test(b),c="."+d,i=a.substr(a.length-c.length)==c||a==""||a.charAt(0)=="#"||a==d;return (!k||i)&&!j},isLinkABookmark:function(a){var c=_d.createElement("span");c.innerHTML='<a href="#"></a>';var e=c.firstChild.href,b=a.indexOf("#"),d=a.indexOf("javascript:");if(b>-1)if(b==0||a.indexOf(e)==0)return 1;if(d==0)return 1;return 0},getUrlFragment:function(c){var a="",b=c.indexOf("#");if(b>-1)a=c.substr(b+1);return a}}
+//]]></script>
+        
+<script type="text/javascript">//<![CDATA[
+var $PF={"d":"live.com","ru":"https\u003a\u002f\u002fskydrive.live.com\u002fservererror.aspx\u003fcid\u003dbdac85f9e6771d35\u0026sc\u003dphotos"};
+    (function(){var b=window,a=b.$PF=b.$PF||{},g="&",d="=",f="?",e="#",i="!",j="!";a.isUrlAllowed=function q(a){a=(a||"").toLowerCase();return a.indexOf("/")==0||a.indexOf("http:")==0||a.indexOf("https:")==0||a.indexOf("ftp:")==0};a.isInternalUrl=function p(b){try{return $U.doesMatchHost(b,a.d)&&a.isUrlAllowed(b)}catch(c){return false}};a.getHashUrl=function r(){var c,g=b.location,d=g.href,k=d.indexOf(e),f=k==-1?"":d.substr(k+1);if(f){var h=e;c=d;if(f.indexOf(j)==0){c=d.substr(d.indexOf(f)+1);h=i}if(c.indexOf("/")==0)c=[g.protocol,"//",g.host,c].join("");c=a.getNormalizedUrl(c,h)}return c};a.getCurrentUrl=function o(){var c=a.getHashUrl();return a.isInternalUrl(c)?c:b.location.href};function k(a,e){var k=-1,c=a.indexOf(e);while(c!=-1){var b=c+1,h=a.indexOf(e,b),m=a.indexOf(g,b),n=a.indexOf(f,b),j=a.indexOf(d,b),l=[h,m,n,j].sort(function(a,b){return a==-1?1:b==-1?-1:a-b}),i=l[0];if(i==-1)break;else if(i==j){k=c;break}else c=h}return k}a.getNormalizedUrl=function n(a,c){c=c||e;var h="",g=k(a,c);if(g>-1){h=a.substr(g+1);a=a.substr(0,g)}var b="",d=a.indexOf(f);if(d>-1){b=a.substr(d+1);a=a.substr(0,d)}b=m(l(h?h:b));if(b)a=[a,f,b].join("");a=a.replace(/[!]/g,"%21");return a};function l(f){var e={};if(f){var c=f.split(g),h=c.length,a=0;for(;a<h;a++){var k=c[a],b=k.split(d),j=b[0];b.splice(0,1);var i=b.join(d);e[j]=decodeURIComponent(i)}}return e}function m(e){var a=[];for(var c in e){var b=e[c];b=b?b:"";a.push(c,d,encodeURIComponent(b).replace(/[^\w.%-]/g,function(b){var a=b.charCodeAt(0).toString(16);return "%"+(a.length==1?"0"+a:a).toUpperCase()}),g)}if(a.length>0)a.pop();return a.join("")}if(!a.f)try{var c=a.getHashUrl()||a.ru;if(c){var h=document.location;try{if(b!=b.top){document.domain=a.d;if(c.indexOf("login."+a.d)>-1||c.indexOf(b.top.document.location.protocol)!=0)h=b.top.document.location}}catch(s){}if(a.isInternalUrl(c))h.replace(c)}}catch(s){}})();
+
+//]]></script>
+
+    </head>
+</html>

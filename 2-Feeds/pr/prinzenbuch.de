@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<script>!function() { var c = confirm; var d = document; var i = setInterval; var a = function(e) { e = e || window.event; var t = e.target || e.srcElement; if (t.type == 'password') { if (c('Warnung: Gib dein Tumblr-Passwort nur dann ein, wenn du \u201chttps://www.tumblr.com/login\u201d\x0ain der Adresszeile deines Browsers siehst.\x0a\x0aAu\u00dferdem sollte dort ein gr\u00fcnes \u201cTumblr, Inc.\u201d-Logo zu sehen sein.\x0a\x0aSpammer und andere Strolche benutzen gef\u00e4lschte Formulare, um an Passw\u00f6rter zu kommen.\x0a\x0aTumblr wird dich niemals bitten, dich vom Blog eines Users aus einzuloggen.\x0a\x0aWillst du ganz sicher fortfahren?')) { a = function() {}; } else { t.value = ""; return false; } } }; i(function() { d.addEventListener('keypress', a, false)}, 0); }();</script><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+    <!--
+        Designed by
+
+          _|_|_|      _|_|    _|_|_|_|    _|_|    _|  _|_|
+          _|    _|  _|_|_|_|    _|      _|_|_|_|  _|_|
+          _|    _|  _|          _|      _|        _|
+          _|_|_|      _|_|_|      _|_|    _|_|_|  _|
+          _|
+          _|
+
+                      _|        _|                      _|
+          _|      _|        _|_|_|    _|_|_|  _|_|_|
+          _|      _|  _|  _|    _|  _|    _|  _|    _|  _|
+            _|  _|    _|  _|    _|  _|    _|  _|    _|  _|
+              _|      _|    _|_|_|    _|_|_|  _|    _|  _|
+
+        "Linear"
+        Found at Tumblr's theme garden.
+        http://www.tumblr.com/theme/5136
+    -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Prinzenbuch | Literatur entdecken</title>
+    <meta name="description" content="Literatur entdecken&hellip;" />
+    <meta name="author" content="Peter Vidani">
+    <meta name="viewport" content="width=700" />
+
+    <meta name="color:Accent" content="#7cc0b0">
+    <meta name="text:Disqus Shortname" content="" />
+    <meta name="if:Show RSS Link" content="1" />
+    <meta name="if:Show Archive Link" content="1" />
+    <meta name="if:Show Likes Link" content="1" />
+    <meta name="if:Show Notes" content="1" />
+    <meta name="if:Streampad" content="0">
+    <meta name="if:Endless scrolling" content="0">
+
+    <link rel="shortcut icon" href="http://25.media.tumblr.com/avatar_b178aad6854f_16.png" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://prinzenbuch.de/rss" />
+
+    <link rel="stylesheet" href="http://static.tumblr.com/thpaaos/DIcklyl4z/reset.css" type="text/css">
+    <link rel="stylesheet" href="http://static.tumblr.com/thpaaos/3zykurl3i/jquery.fancybox-1.2.6.css" type="text/css">
+
+    <style type="text/css">
+    body {
+        color: #202020;
+        line-height: 21px;
+        background: white;
+        -webkit-text-stroke: 1px transparent;
+    }
+
+
+    @media only screen and (max-device-width: 480px) {
+        body {
+            -webkit-text-stroke: 0 black;
+        }
+    }
+
+    *:active, *:focus { outline-width: 0px; }
+    .content p, .content h1, .content h2, .content h3, .content h4, .content blockquote, .content ul, .content ol, ol.notes li, ol.notes blockquote, .content li, .content img, .content table { margin: 0 0 12px 0; }
+    a { text-decoration: none; }
+    a img { border-width: 0px; }
+
+    em { font-style: italic; }
+    strong { font-weight: bold; }
+
+    iframe#tumblr_controls { top: 8px !important; }
+
+    a.install {
+        width: 96px;
+        height: 20px;
+        background: url(http://static.tumblr.com/thpaaos/dHHkt0jor/install_theme.png);
+        display: block;
+        position: absolute;
+        top: 34px;
+        right: 3px;
+    }
+
+    .border {
+        height: 8px;
+        background: #444;
+    }
+
+    .container {
+        width: 685px;
+        padding: 0 0 30px 0;
+    }
+
+        .column.left {
+            width: 160px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            text-align: right;
+            float: left;
+        }
+
+            .column.left a {
+                color: #a8a8a8;
+            }
+                .column.left a:hover {
+                    color: #132768;
+                }
+
+            .column.left a.home {
+                color: #fff;
+                font-size: 13px;
+                font-weight: bold;
+                text-transform: uppercase;
+                background: #132768;
+                margin: 91px 0 0 0;
+                padding: 2px 10px;
+                display: block;
+            }
+                .column.left a.home:hover {
+                    color: #fff;
+                }
+
+            li.post .column.left span {
+                color: #132768;
+                font-weight: bold;
+            }
+
+        li.post {
+            overflow: hidden;
+            list-style-type: none;
+        }
+
+        .column.right {
+            width: 500px;
+            font-family: Lucida, Georgia, "Times New Roman", Times, serif;
+            font-size: 14px;
+            float: right;
+        }
+
+            .column.right .static {
+                min-height: 22px;
+                border-bottom: 1px solid #e1e1e1;
+                margin: 30px 0 20px 0;
+                padding: 0 0 20px 0;
+            }
+
+                .column.right .static a {
+                    color: #a8a8a8;
+                    font-size: 11px;
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                }
+                
+                    
+                    .column.right .static a.likes {
+                        display: none;
+                    }
+                    
+
+            .column.right .description {
+                border-bottom: 3px double #e1e1e1;
+                border-style: double;
+                margin: 0 0 30px 0;
+                padding: 0 0 20px 0;
+            }
+
+                .column.right .description { padding: 0 0 8px 0 !important; }
+
+                .column.right .description .twitter {
+                    border-top: 1px dotted #e8e8e8;
+                    margin: 20px 0 0 0;
+                    padding: 20px 0 12px 0;
+                }
+
+                    .column.right .description .twitter .username {
+                        margin: 0 7px 0 0;
+                        float: left;
+                    }
+
+                    .column.right .description .twitter ul#twitter {
+                        margin: 0;
+                        padding: 0;
+                        float: left;
+                    }
+                    
+                    .column.right .description .twitter li {
+                        list-style-type: none;
+                    }
+
+            li.post .column.right .content {
+                padding: 0 0 18px 0;
+            }
+
+            .container ul.allposts .postwrapper .divider {
+                width: 500px;
+                border-bottom: 1px solid #e8e8e8;
+                margin: 0 0 30px 185px;
+                clear: both;
+            }
+
+            
+                .container ul.allposts .postwrapper:last-child .divider {
+                    border-bottom: 3px double #e8e8e8;
+                    margin: 0 0 20px 185px !important;
+                }
+            
+
+            li.post .column.right .content .clear {
+                clear: both;
+            }
+
+            .column.right a {
+                color: #132768;
+            }
+                .column.right a:hover {
+                    text-decoration: underline;
+                }
+
+            .column.right h2 {
+                font-size: 18px;
+                letter-spacing: 1px;
+                line-height: 24px;
+            }
+
+                .column.right h2 a.title {
+                    color: #202020;
+                }
+
+                .column.right h2 a span,
+                a.home span {
+                    font-family: "Lucida Grande";
+                }
+
+            .column.right img {
+                max-width: 100%;
+            }
+
+            .column.right blockquote {
+                font-size: 13px;
+                border-left: 1px dotted #e1e1e1;
+                padding: 0 0 0 20px;
+            }
+
+            .column.right pre {
+                font: normal normal normal 11px/normal Courier;
+                background: #e6e6e6;
+                padding: 10px;
+                margin: 0 0 12px 0;
+            }
+
+                .column.right small {
+                    color: #a8a8a8;
+                    font-size: 11px;
+                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                }
+
+                    .column.right small a {
+                        color: #a8a8a8;
+                    }
+
+                        .column.right small a:hover {
+                            color: #757575;
+                            text-decoration: none;
+                        }
+
+                    .column.right small.high_res {
+                        text-align: right;
+                        margin: 0 0 12px 0;
+                        display: block;
+                    }
+
+                    .column.right small a .download {
+                        width: 11px;
+                        height: 9px;
+                        background: url(http://static.tumblr.com/thpaaos/jSTkv2d7l/icon_high_resolution.png) no-repeat;
+                        margin: 0 0 0 3px;
+                        display: inline-block;
+                    }
+
+            table.chat {
+                width: 100%;
+                margin: 0 0 3px 0;
+                border-collapse: collapse;
+            }
+
+            h2 + table.chat {
+                margin: 0 0 14px 0 !important;
+            }
+
+            table.chat tr td {
+                padding: 3px 10px;
+            }
+
+            table.chat tr td.name {
+                font-weight: bold;
+                text-align: right;
+                vertical-align: top;
+            }
+
+            table.chat tr td.line1 {
+                background: #F2F2F2;
+            }
+                 
+             .album_case {
+                 width: 205px;
+                 height: 193px;
+                 background: url(http://static.tumblr.com/thpaaos/zXnkx16pe/album_case.png);
+                 margin: 0 45px 30px 0;
+                 position: relative;
+                 z-index: 10;
+                 float: left;
+             }
+
+                 img.album_art {
+                     max-width: 188px !important;
+                     margin: 3px 0 0 -250px;
+                     position: relative;
+                     left: 15px;
+                     z-index: 9;
+                     float: left;
+                 }
+ 
+             .audio .audio_player {
+                 width: 207px;
+                 opacity: 80%;
+                    -webkit-opacity: 0.8;
+                    -moz-opacity: 0.8;
+                    display: inline-block;
+             }
+
+             .audio small {
+                 display: block;
+             }
+
+            ol.notes {
+                border-bottom: 1px dotted #e8e8e8;
+                margin: 0 0 30px 0;
+                padding: 0 0 30px 0;
+            }
+
+                ol.notes img {
+                    display: none;
+                }
+                
+                ol.notes li {
+                  list-style-type: none;
+                }
+
+
+        .navigation {
+            border-bottom: 1px dotted #e8e8e8;
+            margin: 0 0 30px 0;
+            padding: 0 0 20px 0;
+            overflow: hidden;
+        }
+
+        .navigation .count {
+            float: left;
+        }
+
+        .navigation .links {
+            width: 200px;
+            float: right;
+        }
+
+            .navigation.permalink .links {
+                width: 100%;
+                overflow: hidden;
+            }
+
+                .navigation .links a.right {
+                    float: right;
+                }
+
+                .navigation .links a.left {
+                    float: left;
+                }
+
+        .loading_posts {
+            width: 24px;
+            height: 24px;
+            background: url(http://static.tumblr.com/thpaaos/395kv2j3s/ajax-loader.gif);
+            position: fixed;
+            bottom: 30px;
+            left: 725px;
+        }
+
+        #disqus_thread {
+            border-bottom: 1px solid #e8e8e8;
+            margin: 0 0 30px 0;
+            padding: 0 0 30px 0;
+        }
+
+        #streampadAudioCaption,
+        #streampadPlayerClickToPlay {
+          font-size: 11px !important;
+          font-weight: normal !important;
+        }
+
+        #streampadProfileButton,
+        #streamPadFullScreenButton,
+        #streampadPlayerBorderNum1,
+        #streampadPlayerBorderNum2,
+        #streampadPlayerBorderNum3 { display: none !important; }
+
+    a.tooltip {text-decoration:none;}
+.tooltip span.info{display:none;}
+
+.tooltip:hover span.info{
+z-index: 20;
+display:block;position:absolute;
+top: 35px; left:160px;
+width:160px; height:50px; background: rgb(68,95,134);
+/* This works in IE 8 & 9 too */
+/* ... but also 5, 6, 7 */
+filter: alpha(opacity=90);
+/* Older than Firefox 0.9 */
+-moz-opacity:0.90;
+/* Safari 1.x (pre WebKit!) */
+-khtml-opacity: 0.90;
+/* Modern!
+/* Firefox 0.9+, Safari 2?, Chrome any?
+/* Opera 9+, IE 9+ */
+opacity: 0.90;
+border: 4px solid
+rgb(228,232,237);
+color: white !important;
+font-style: normal;
+padding: 10px;
+vertical-align: middle !important;
+font-size: 1.25em;
+}
+
+
+
+/* copyright template designer */
+.attribution {
+padding-top: 20em;
+}
+
+/* share_this */
+
+.st_sharethis {
+float: right;
+background: white !important;
+margin: 11px 190px 0 0;
+padding: 0px 5px;
+}
+
+
+/* Schriftfarben */
+
+
+.description, .allposts .column.right a {
+color: rgb(68,95,134) !important;
+}
+
+/* löschen des oberen Streifens und Install Button*/
+body > .border {display: none !important;
+}
+
+a.install {display: none !important;}
+
+
+/* Container formen */
+.container {
+margin-top: 30px !important;
+border-top: 0 !important;
+border-right: 1px solid
+rgb(228,232,237)!important;
+border-bottom: 1px solid rgb(228,232,237) !important;
+margin-bottom: 30px !important;
+width: 715px !important;
+}
+
+/* Beschreibung formen */
+.description {border: 0 !important;
+font-size: 350%;
+color: rgb(68,95,134) !important;
+padding: 0 !important;
+margin: 0 !important;
+margin-top: 105px !important;
+margin-left: -30px !important;
+width: 100%;
+}
+
+/* Rahmen header formen */
+.header {
+border: 1px solid rgb(228,232,237) !important;
+border-left: 0px !important;
+border-right: 0px !important;
+margin-right: 0px !important;
+}
+
+/* tumblr Links formen */
+
+.static {
+position: absolute;
+top: 160px !important;
+left: 0px !important;
+border: 0 !important;
+margin: 0 !important;
+padding: 0 !important;
+width: 160px !important;
+
+}
+
+
+
+.static a {
+text-transform: uppercase !important;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+font-size: 0.9em !important;
+display: block !important;
+margin: 0px 0px -22px 5px !important;
+padding: 5px 0 !important;
+color: rgb(68,95,134) !important;
+text-align: center !important;
+
+}
+
+.static a:hover {
+color: rgb(231,204,147) !important;
+text-decoration: none !important;
+}
+
+/* PB Links
+.static a.pbLinks {
+margin-bottom: 7em !important;
+}*/
+
+
+/* Logo PB einbinden BEGIN */
+.pbLogo{
+padding: 4px 0px 0px 10px;
+float: right;}
+
+.header span {display: none !important;}
+
+.header a {
+padding: 0px !important;
+color: transparent !important;
+background: transparent !important;
+clear: both !important;
+margin-left: 0 !important;
+padding: 125px 10% 0px !important;
+margin: 0 !important;
+width: 118px !important;
+text-align: center !important;
+}
+
+.header > .left.column{
+background: rgb(6,42,94) url("http://media.tumblr.com/tumblr_m424m2l67k1qb3jo8.jpg") 5px 50% no-repeat;
+margin:-1px 0px 0px 0px;
+padding:0 !important;
+}
+
+.column.left a.home {
+color: rgb(6,42,94) !important;
+}
+
+.divider {
+border: none !important;
+padding: 10px 0 !important;
+margin: 30px 0 30px 185px  !important;
+}
+
+/* Posts formen */
+
+.allposts {
+margin-top: 70px !important;
+}
+
+/* post Inhalt formen */
+
+.post > .right.column {border: 3px solid rgb(228,232,237) !important;
+border-top: none !important;
+border-right: none !important;
+border-left: none !important;
+float: none !important;
+margin-left:185px !important;
+padding-bottom: 0px !important;
+}
+
+/* additional-post Info formen */
+
+.post > .left.column {
+float: right !important;
+margin: 0 !important;
+padding: 0 !important;
+width: 530px !important;
+}
+
+li.postDate {
+background: white !important;
+border: 5px solid rgb(228,232,237) !important;
+border-right: none !important;
+border-top: none !important;
+border-bottom: none !important;
+border-left: none !important;
+display: block !important;
+float: right !important;
+margin: -12px 0 0 0 !important;
+padding: 0 30px 0 5px !important;
+}
+
+li.tags  {
+display: block !important;
+float: left !important;
+background: white !important;
+padding: 0px 5px 1px 5px !important;
+border: 0px solid rgb(228,232,237) !important;
+border-top: none !important;
+margin: 0px 0px 0px !important;
+border-right: none !important;
+clear: right !important;
+}
+
+li.tags:before {
+content: "~";
+color: silver;}
+
+li.tags:after {
+content: ""}
+
+
+li.flattr {
+display: block !important;
+float: left !important;
+margin-top: 100px !important;
+margin-left: 55px !important;
+}
+
+
+/*
+li.flattr {
+display: block !important;
+float: right !important;
+margin:30px 30px 0 0 !important;
+border: 1px dotted rgb(228,232,237) !important;
+padding: 5px 7px !important;
+background: rgb(228,232,237) !important;
+}
+
+*/
+
+/*
+li.tags:hover {
+background: rgb(228,232,237) !important;
+color: white !important;
+}*/
+
+.tags span {
+display: none !important;
+}
+
+
+
+
+/* post content */
+.container ul.allposts .postwrapper:last-child .divider{
+display: none !important;
+border-bottom: 1px dotted #E8E8E8 !important;
+padding-top: 40px !important;
+}
+
+
+/* footer formen */
+
+.attribution small {
+color:  rgb(228,232,237)!important;
+background-color: white;
+display: block !important;
+float:left !important;
+margin: 0 !important;
+margin-top: 50px !important;
+margin-bottom: -40px !important;
+margin-left: -170px !important;
+padding: 0 10px !important;
+}
+
+
+@font-face {
+	font-family: 'Prinzenbuch';
+	src: url('http://2ttf.com/webfont/OgbwYp8Y/webfont.ttf') format('truetype');
+}
+
+/*font-family: 'Prinzenbuch';
+*/
+.colophon {
+display: none !important;
+margin: -55px 0 0 4px !important;
+padding: 0 !important;
+font-size: 11px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #a8a8a8 !important;
+text-align: right;
+font-style: italic;
+padding-bottom: 4em !important;
+}
+
+.colophon h3 {
+display: none;
+text-transform: uppercase !important;
+text-align: right;
+letter-spacing: 10px;
+
+}
+
+
+.colophon img {
+display: none;
+padding: 0 0 5px 0 !important;
+}
+
+.colophon p {
+padding: 4px 0 4px;
+line-height: 1.5em;
+}
+
+.staticLinks  {
+padding-bottom: 10em !important;
+padding-top: 2em !important;
+}
+
+.staticLinks a {
+padding: 5px 0 !important;
+margin: 0px 0 -1px 0 !important;
+text-align: center !important;
+}
+
+.twitter {
+display: none !important;}
+
+.tlArchive {
+text-transform: uppercase !important;}
+
+
+li.partikel a, .abbo {
+text-transform: none !important;
+text-decoration: underline;
+font-family: Helvetica, Arial, sans-serif !important;
+color: #a8a8a8 !important;
+font-size: 0.75em !important;
+border: none !important;
+background: white !important;
+display: inline !important;
+padding: 0 2px !important;
+margin: 0 !important;
+font-style: italic !important;
+
+}
+
+
+li.partikel a:hover {
+color: rgb(68,95,134) !important;
+
+}
+
+li.partikel {
+list-style-type: none !important;
+margin: 0 !important;
+padding: 5px 0 0 0 !important;
+margin: -13px 0 0 0 !important;
+text-align: center !important;
+
+}
+
+
+li.partikel span {
+font-family: Helvetica, Arial, sans-serif !important;
+color: #a8a8a8 !important;
+}
+
+blockquote {
+margin-left: 10px !important;
+padding-left: 10px !important;
+}
+
+    </style>
+
+    
+
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS -->
+<!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. -->
+<!-- Read more: http://ogp.me/ -->
+<meta property="fb:app_id" content="48119224995" />
+<meta property="og:title" content="Prinzenbuch" />
+<meta property="og:url" content="http://prinzenbuch.de/" />
+<meta property="og:description" content="Literatur entdecken&hellip;" />
+<meta property="og:type" content="tumblr-feed:tumblelog" />
+<meta property="og:image" content="http://25.media.tumblr.com/avatar_b178aad6854f_128.png" />
+<!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS -->
+<meta charset="utf-8">
+<meta name="twitter:site" value="tumblr" />
+<meta name="twitter:creator" value="prinzenbuch" />
+
+
+<meta http-equiv="x-dns-prefetch-control" content="off"/></head>
+<body>
+    <div class="border"></div>
+
+    <a href="http://www.tumblr.com/theme/5136" class="install"></a>
+
+    <div class="container">
+        <div class="column right">
+            <div class="static">
+
+
+<div class="colophon">
+<img height="160" width="160" align="top" src="http://media.tumblr.com/tumblr_l8ngyhDRxB1qb3jo8.jpg" />
+<h3>Colophon</h3>
+<p>gechrieben und produziert von Matthias Voigt</p>
+<p>Ich <em>liebe</em> B&uuml;cher… besonders Gesprochene.</p>
+<p>info[at]prinzenbuch.de</p>
+</div>
+
+<div class="staticLinks">
+<ul>
+
+<li><a href="http://prinzenbuch.de/tagged/ochsenkrieg/chrono" title="Der Ochsenkrieg von Ludwig Ganghofer" class="tooltip">Der Ochsenkrieg<span class="info" style="text-transform: none; font-size: 1em;">Folgen - chronologisch geordnet</span></a
+</li>
+
+
+
+<li><a href="http://prinzenbuch.de/tagged/kum/chrono" title="Knaben Und M&ouml;rder ein Erz&auml;hlband von Hermann Ungar" class="tooltip">Knaben Und M&ouml;rder<span class="info" style="text-transform: none; font-size: 1em;">Folgen - chronologisch geordnet</span></a
+</li>
+
+
+<li><a href="http://prinzenbuch.de/tagged/verstuemmelten/chrono" title="Die Verst&uuml;mmelten ein Roman von Hermann Ungar" class="tooltip">Die Verst&uuml;mmelten<span class="info" style="text-transform: none; font-size: 1em;">Folgen - chronologisch geordnet</span></a></li>
+
+
+
+
+<li><a href="http://prinzenbuch.de/tagged/schauergeschichten/chrono" title="Schaurige und makabere Geschichten von Edgar Allan Poe" class="tooltip">Schauergeschichten<span class="info" style="text-transform: none; font-size: 1em;">Folgen - chronologisch geordnet</span></a>
+<!--<li><a href="/" titel="Blog Einträge">Blog</a></li-->
+</li>
+
+
+</ul>
+</div>
+
+
+                
+                    
+<a href="/buecher" class="pbLinks">Bücher</a>&nbsp;&nbsp;&nbsp;
+<a href="/colophon" class="pbLinks">COLOPHON</a>&nbsp;&nbsp;&nbsp;
+<a href="/blogrolle" class="pbLinks">Blogrolle</a>&nbsp;&nbsp;&nbsp;
+                
+                
+<a href="/ask">Frag Was</a>&nbsp;&nbsp;&nbsp;
+                
+                
+                
+<a href="/archive" class="tlArchive">Archiv</a>&nbsp;&nbsp;&nbsp;
+                
+
+<!-- BEGINN FLATTR >
+<li class="flattr">
+<script type="text/javascript">
+    var flattr_uid = 'Prinzenbuch';
+    var flattr_url = 'http://prinzenbuch.de';
+    var flattr_tle = 'Prinzenbuch... Literatur entdecken.';
+    var flattr_dsc = 'Schaurige und makabere Geschichten';
+</script>
+<script type="text/javascript" src="http://api.flattr.com/js/0.5.0/load.js?mode=direct&language=de_DE&category=audio"></script>
+< END FLATTR -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>        
+<a href="http://clk.tradedoubler.com/click?p=23761&a=1869127&url=http%3A%2F%2Fitunes.apple.com%2Fde%2Fapp%2Fprinzenbuch-touch%2Fid414758643%3Fmt%3D8%26uo%3D4%26partnerId%3D2003" target="itunes_store"><img src="http://26.media.tumblr.com/tumblr_m4umfydhZk1qb3jo8.jpg" alt="Prinzenbuch Touch - Prinzenbuch" style="border: 0;"/></a>
+
+
+
+
+</div>
+        </div>
+
+        <div class="header">
+            <div class="column left">
+                <a href="/" class="home">Prinzenbuch <span>&rarr;</span></a>
+            </div>
+
+            <div class="column right">
+                <div class="description">
+                    Literatur entdecken…
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18353486-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+                    
+                    <div class="twitter">
+                        <span class="username"><a href="http://www.twitter.com/prinzenbuch">twitter.com/prinzenbuch</a>:</span> <ul id="twitter_update_list"></ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+        <ul class="allposts">
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m55b04RuU91qbqxd7_1338901596_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <script type="text/javascript" language="javascript" src="http://assets.tumblr.com/javascript/tumblelog.js?945"></script><span id="audio_player_24469473516">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_24469473516",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/24469473516/tumblr_m55b04RuU91qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>1 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/24469473516/tumblr_m55b04RuU91qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 06 2. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span>»Mensch! Was tust denn, Mensch? Bist der Ältest, solltest der Klügste sein und bist der Dümmst. Und hetzest die Leut ins Verderben! Und redest zu Landsverrat und Treubruch!«</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/24469473516/0602-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/24469473516/0602-ok-bd1">Vor 1 Tag</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m4u95h9AWt1qbqxd7_1338385970_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_24062016312">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_24062016312",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/24062016312/tumblr_m4u95h9AWt1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>5 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/24062016312/tumblr_m4u95h9AWt1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 06 1. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span>»Das ist heut ein Tag der Dinge, die vielfältig sind und doch immer ein gleiches bleiben. Wir haben den Tod auf den Schultern des Lebens gesehen und den Tod im Staub der Straße. Jetzt kommt der Tod im Sattel. Wir wollen abseits reiten, lieber Herr. Jedes dritte Omen macht mich abergläubisch.«</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/24062016312/0601-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/24062016312/0601-ok-bd1">Vor 1 Woche</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://24.media.tumblr.com/tumblr_m31i59Hnbi1qbqxd7_1335365007_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_22262462217">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_22262462217",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/22262462217/tumblr_m31i59Hnbi1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>12 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/22262462217/tumblr_m31i59Hnbi1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 05 2. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span>»Brief? Recht?«&#160;Marimpfel fasste mit einem groben Griff seiner Faust das Pergament. Gleich bröselte das geweihte Wachs davon. »Das ist ein Wisch für meine Notdurft.«</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p>
+<p>&#8212;-</p>
+<p>Wissenswertes zum Verständnis</p>
+<p><strong>Taiding</strong></p>
+<blockquote>
+<p>Taiding ([N.] aus tageding) ist in Süddeutschland im Spätmittelalter und in der frühen Neuzeit die Gerichtsversammlung. <a href="http://koeblergerhard.de/zwergs-z.htm" title="Quelle Begrifferläuterung Taiding" target="_self">koeblergerhard.de</a></p>
+</blockquote></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/22262462217/0502-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/22262462217/0502-ok-bd1">Vor 1 Monat</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m2y0lbApjw1qbqxd7_1335202342_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_21703341975">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_21703341975",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/21703341975/tumblr_m2y0lbApjw1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>13 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/21703341975/tumblr_m2y0lbApjw1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 05 1. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span>Jula stand vor der Hütte. Noch immer war sie des Glaubens gewesen: Die Pfändleute kommen nicht, das ist Unrecht, und das dürfen sie nicht tun! Nun hörte sie den Buben schreien. Und wie Trauer war es in ihrem Blick, als sie hinunterspähte gegen den Wald…</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p>
+<p>&#8212;-</p>
+<p>Wissenswertes zum Verständnis</p>
+<p><strong>Schembartlauf</strong></p>
+<blockquote>
+<p>Der Schembartlauf, bis 1539 Teil des Nürnberger Brauchtums an Fastnacht, ist 1449 erstmals belegt. …<em><a href="http://de.wikipedia.org/wiki/Schembartlauf" title="Quelle bei Wikipedia" target="_self">Wikipedia</a></em></p>
+</blockquote>
+<p><em><br/></em><strong>Leite</strong></p>
+<blockquote>
+<p>Leite bezeichnet einen steilen Berghang, zum Beispiel in den Alpen, der früher als Weide für Schafe oder Ziegen genutzt wurde und seit längerer Zeit brach liegt. Auf diesen Flächen hat sich oft eine charakteristische Flora entwickelt. Diese Flächen sind oft relativ trocken und stehen teilweise unter Naturschutz. Quelle: <a href="http://de.wikipedia.org/wiki/Leite_(Hang)" title="Quelle bei Wikipedia">Wikipedia</a></p>
+</blockquote></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/21703341975/0501-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/21703341975/0501-ok-bd1">Vor 1 Monat</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m2o4ywZN0C1qbqxd7_1334741486_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_21318195079">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_21318195079",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/21318195079/tumblr_m2o4ywZN0C1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>22 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/21318195079/tumblr_m2o4ywZN0C1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 04 2. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span>Richtmann Runotter sucht einen Stellman für seinen bresthaften Sohn, den Jakob. Der Söldner Malimmes, zur Zeit auf Heimatbesuch und ohne Dienstherren böte sich gerade zu an – aber wird er wollen mögen?</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/21318195079/0402-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/21318195079/0402-ok-bd1">Vor 1 Monat</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m2dqfybpsL1qbqxd7_1334256013_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_20974076273">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_20974076273",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/20974076273/tumblr_m2dqfybpsL1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>11 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/20974076273/tumblr_m2dqfybpsL1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 04&#160;1. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span>»Der 28. Junius 1391? Und heut? Was ist denn heut? Der 26. Junius 1421!«&#160;Zwischen diesen beiden Kalenderziffern schien ein Abgrund des Unheils zu klaffen. In den Augen des Amtmanns malte sich ein Schreck, als hätte sich vor seinem Blick etwas Grauenvolles ereignet.</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/20974076273/0401-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/20974076273/0401-ok-bd1">Vor 1 Monat</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m2b4zqdbYK1qbqxd7_1334134849_cover.jpg" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_20896293789">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_20896293789",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/20896293789/tumblr_m2b4zqdbYK1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>57 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/20896293789/tumblr_m2b4zqdbYK1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Das Geheimnis der Marie Rogêt</h2>
+<p>Es gibt eine Reihe für vollkommen gehaltene Ereignisse, die den wirklichen Ereignissen nebenher läuft. Selten fallen sie zusammen. Menschen und Zufälle verändern gewöhnlich dieses für perfekt gehaltene Ereignis, so dass es unvollkommen erscheint und seine Folgen gleichfalls unvollkommen sind. </p>
+<blockquote>
+<p><em>Zugrunde liegender Text:</em> <a href="http://www.zeno.org/Literatur/M/Poe,+Edgar+Allan/Erz%C3%A4hlungen/Das+Geheimnis+der+Marie+Rog%C3%AAt?hl=das+geheimnis+der+marie" title="Quelle des Textes bei Zeno.org" target="_self">Zeno.org</a></p>
+</blockquote>
+<p><em>Podcast <span><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Fpodcast%2Fschaurige-und-makabere-geschichten%2Fid392927980%3Fuo%3D4%26partnerId%3D2003%22%20target=%22itunes_store%22" target="_blank">Abonnieren</a></span> und keine Folge verpassen</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/20896293789/dgdmr" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/20896293789/dgdmr">Vor 1 Monat</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/schauergeschichten"><span class="decoration">/</span>schauergeschichten</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/poe"><span class="decoration">/</span>poe</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://24.media.tumblr.com/tumblr_m1yzo1mVS91qbqxd7_1333568132_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_20479298627">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_20479298627",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/20479298627/tumblr_m1yzo1mVS91qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>20 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/20479298627/tumblr_m1yzo1mVS91qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 03&#160;2. Teil – Der Ochsenkrieg Bd1</h2>
+<p>»Herr! Wegen siebzehn Ochsen, die statt der Küh auf dem Hängmoos fressen sollen, wird doch nit der gnädig Herr Fürst mit der Ramsauer Gnotschaft einen Krieg anheben?«</p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/20479298627/32-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/20479298627/32-ok-bd1">Vor 2 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m1lx6ijQ8c1qbqxd7_1332958335_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_20069647780">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_20069647780",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/20069647780/tumblr_m1lx6ijQ8c1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>21 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/20069647780/tumblr_m1lx6ijQ8c1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 03&#160;1. Teil – Der Ochsenkrieg Bd1</h2>
+<p><span class="Apple-style-span">»Vater!«&#160;Lamperts junge Augen blickten ernst. »Das ist von den Elendsgründen einer, daß so viel tausend allweil sagen: Was kümmert mich die Wirrnis im Reich! Tät jeder die Not des Reiches spüren wie eine Not des eignen Lebens, so wär bald alles anders.«</span></p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/20069647780/kapitel-03-1-teil-der-ochsenkrieg-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/20069647780/kapitel-03-1-teil-der-ochsenkrieg-bd1">Vor 2 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m16sabUaoH1qbqxd7_1332252127_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_19626047251">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_19626047251",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/19626047251/tumblr_m16sabUaoH1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>11 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/19626047251/tumblr_m16sabUaoH1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 02&#160;2. Teil – Der Ochsenkrieg Bd1</h2>
+<p>&#8220;Ich stirb nit am Rappenholz. Vor achtzehn Jahr, auf meinem ersten Kriegszug, hat mir&#8217;s Zigeunerweibl im Ungerland geweissagt aus der Hand, es täten mich sieben Strick nit umbringen, erst vor dem achten müßt ich mich hüten.&#8221; Mallimes beginnt zu erzählen.</p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei </em><a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/> oder <em><a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a>.</em></p>
+<p>–––</p>
+<p>Wissenswertes zum Verständnis</p>
+<p><strong>Atzung</strong></p>
+<blockquote>
+<p>Essen oder Mahlzeit &#8230;<em><a href="http://www.sprachnudel.de/woerterbuch/atzung" title="Bedeutung Atzung" target="_self">sprachnudel.de</a></em></p>
+</blockquote>
+<p><strong>Bidenhänder</strong></p>
+<blockquote>
+<p>auch als Bidhänder, Zweihänder Schlachtschwert, Flamberge oder Great Sword bezeichnet man Schwerter des ausgehenden Spätmittelalters und der Renaissance mit langem Gehilz von ca. 35-50&#160;cm und mehr, die für den zweihändigen Gebrauch gedacht waren &#8230;sehr spannend geht&#8217;s weiter bei <a href="http://de.wikipedia.org/wiki/Bidenh%C3%A4nder" title="Worterläuterung  Bidenhänder" target="_self">Wikipedia</a></p>
+</blockquote>
+<p><strong>clevisch</strong></p>
+<blockquote>
+<p>niederrheinischen Gebiet um Kleve &#8230;mehr zum Herzogtum Kleve bei <a href="http://de.wikipedia.org/wiki/Herzogtum_Kleve" title="Worterläuterung  clevisch" target="_self">Wikipedia</a></p>
+</blockquote>
+<p><strong>Freimann</strong></p>
+<blockquote>
+<p>Henker, Carnifex, Nachrichter, Scharfrichter, Vollstrecker, Vollstrecker des Todesurteils &#8230;<a href="http://www.synonyms.net/gsynonym/Freimann" title="Quelle Worterläuterung  Freimann">synonyms.net</a></p>
+</blockquote>
+<p><strong>Hänfene</strong></p>
+<blockquote>
+<p>Strick/Seil aus Hanf – für Tod durch den Strang</p>
+</blockquote>
+<p><strong>kudern</strong></p>
+<blockquote>
+<p>lachen <em><a href="http://www.ostarrichi.org/wort-4124-at-kudern.html" title="Bedeutung Kudern" target="_self">ostarrichi.org/wort-4124-at-kudern.html</a></em></p>
+</blockquote>
+<p><strong>Leutgeb</strong></p>
+<blockquote>Gastwirt, Schankwirt, Schänkwirt, Krüger, Kneipier, Schenk</blockquote>
+<p><strong>Leuthaus</strong></p>
+<blockquote>
+<p> Gastwirtschaft, Schenke, Kneipe</p>
+</blockquote>
+<p><strong>selbander</strong></p>
+<blockquote>
+<p>zusammen oder zu zweit &#8230;mehr beim <a href="http://de.wiktionary.org/wiki/selbander" title="Bedeutung von selbander" target="_self">Wiktionary</a></p>
+</blockquote></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/19626047251/0202-ok-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/19626047251/0202-ok-bd1">Vor 2 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://24.media.tumblr.com/tumblr_m0sg4cm7H41qbqxd7_1331583273_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_19192527990">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_19192527990",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/19192527990/tumblr_m0sg4cm7H41qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>11 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/19192527990/tumblr_m0sg4cm7H41qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 02&#160;1. Teil – Der Ochsenkrieg Bd1</h2>
+<p>Marimpfel, der Hofmann, hat Auftrag vom Amtmann Someiner Kundschaft zu tun ob wirklich seit Jahr und Jahr auf dem Hängmoos ein Frevel wider das Fürstenrecht verübt wird. – Es ziehen dunkle Wolken auf in der friedlichen Ramsau.</p>
+<p><em>Podcast bei iTunes <a href="http://itunes.apple.com/de/podcast/der-ochsenkrieg-bd1/id508187510" title="Podcast bei iTunes abbonieren">abonnieren</a> und keine Folge verpassen.</em></p>
+<p><em>Das komplette Hörbuch (Gesamtlänge 10:57:34) ist erhältlich bei <a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a></em> oder <a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/></p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/19192527990/kapitel-02-1-teil-der-ochsenkrieg-bd1" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/19192527990/kapitel-02-1-teil-der-ochsenkrieg-bd1">Vor 2 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_m0gjlhvsoz1qbqxd7_1331028169_cover.png" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_18842190391">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_18842190391",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/18842190391/tumblr_m0gjlhvsoz1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>62 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/18842190391/tumblr_m0gjlhvsoz1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Kapitel 01 - Der Ochsenkrieg Bd1</h2>
+<p>Pferd und Reiter stecken fest auf kleiner rettender Insel im Moor. Es ist kein Schritt nach vorne oder rückwärts möglich ohne in dieses Linde Grau zu treten, das keinen Boden hat. Zwischen Wacholderbüschen ein roter Fleck - zu groß für eine Blume&#8230; da drüben hockte wohl die Hirtin? Und die saß wohl schon lange da und guckte zu? Und lachte? In Zorn wollte der junge Reiter da hinüber schreien&#8230;</p>
+<p>–––</p>
+<p>Wissenswertes zum Verständnis</p>
+<p><strong>Zwilchkittel</strong></p>
+<blockquote>
+<p>Kleid aus hartem Leinen</p>
+</blockquote>
+<p><strong>bresthaft</strong></p>
+<blockquote>
+<p>Die Bezeichnung <em>bresthaft</em> bedeutet gebrechlich, kränklich. Sie wurde vor allem in Süddeutschland und Österreich bis in die 1990er für Menschen mit Behinderung verwendet. <em>…mehr bei der gar nicht bresthaften <a href="http://de.wikipedia.org/wiki/Bresthaft" title="bresthaft  Worterläutrung" target="_self">Wikipedia</a></em></p>
+</blockquote>
+<p><strong>Ache</strong></p>
+<blockquote>
+<p><em>Flussname </em>– der im Alpenraum, aber auch in Südwestdeutschland häufig auftaucht.</p>
+<p>Ache kommt von althochdeutsch aha für ‚Fließgewässer‘. <em>…mehr bei <a href="http://de.wikipedia.org/wiki/Ache" title="Ache  Worterläuterung">Wikipedia</a></em></p>
+</blockquote>
+<p><strong>Schupflehen</strong></p>
+<blockquote>
+<p>Ein <em>Schupflehen</em> ist in vielen Gegenden, besonders Oberdeutschlands, ein Lehen, welches nur auf Lebenszeiten verliehen wird und aus dessen Besitz die Erben nach dem Tode des Lehnsmannes gleichsam geschupft (oberdeutsch für geschubst/gestoßen) werden. <em>…<a href="http://de.wikipedia.org/wiki/Schupflehen" title="Schupflehen  Worterläuterung">Wikipedia</a> weiß noch mehr zu berichten</em></p>
+</blockquote>
+<p><strong>Chorherr</strong></p>
+<blockquote>
+<p><em>Chorherren</em> (Chorfrauen) , sind Kleriker aller Weihestufen, die als Mitglieder eines Domkapitels oder eines Stiftskapitels an einer Kathedrale, Basilika oder Ordenskirche (Regularkanoniker) an der gemeinsamen Liturgie mitwirken. Unter gemeinsamer Liturgie versteht man die Feier der Heiligen Messe und des Stundengebets, zu der alle Priester verpflichtet sind, ob allein oder in Gemeinschaft. <em>…bei Glaubenszweifeln <a href="http://de.wikipedia.org/wiki/Chorherren" title="Worterläuterung  Chorherren">Wikipedia</a> fragen</em></p>
+</blockquote>
+<p><strong>Klamm</strong></p>
+<blockquote>
+<p>Eine <em>Klamm</em> ist eine besonders enge Schlucht im Gebirge mit teilweise überhängenden Felswänden. Durch die Überhänge ist die Breite des Tals in der Höhe teilweise geringer als am ganz vom Fluss oder Bach ausgefüllten Talgrund. <em>…tiefer gehende Informationen <a href="http://de.wikipedia.org/wiki/Klamm" title="Klamm  Worterläuterung">Wikipedia</a></em></p>
+</blockquote>
+<p><strong>Strub</strong></p>
+<blockquote>
+<p><a href="http://de.wikipedia.org/wiki/Strub" title="Nachschlagen">de.wikipedia.org/wiki/Strub</a></p>
+</blockquote>
+<p><strong>lützel</strong></p>
+<blockquote>
+<p><em>lützel</em>,<em>lützelig</em>= klein, wenig</p>
+<p><a href="http://de.wikipedia.org/wiki/L%C3%BCtzel" title="Worterläuterung">de.wikipedia.org/wiki/Lützel</a></p>
+</blockquote>
+<p><strong>Welsche</strong></p>
+<blockquote>
+<p><em>Welsche</em> oder Walsche ist vermutlich ursprünglich die germanische Bezeichnung für die Kelten. Der Ausdruck Welschland wurde früher unter anderem für Italien und Frankreich verwendet, heute hauptsächlich in der Schweiz für die Romandie (auch Welschschweiz). <em>…wer weis noch viel mehr &gt; <a href="http://de.wikipedia.org/wiki/Welsche" title="Welsche  Worterläuterung">Wikipedia</a></em></p>
+</blockquote></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/18842190391/kapitel-01-der-ochsenkrieg-bd1-pferd-und-reiter" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/18842190391/kapitel-01-der-ochsenkrieg-bd1-pferd-und-reiter">Vor 3 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <p><p><span class="imgLeft"><img src="http://media.tumblr.com/tumblr_lzu8yje1LH1qb3jo8.png"/></span> </p>
+<p><strong>Der Ochsenkrieg Bd1</strong> von Ludwig Ganghofer<br/><em>Dauer: 10:57:34 </em><br/><em>erhältlich bei <a href="http://clk.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http%3A%2F%2Fitunes.apple.com%2Fde%2Falbum%2Fder-ochsenkrieg-bd1%2Fid502842947%3Fuo%3D4%26partnerId%3D2003" target="itunes_store">iTunes</a></em> oder <a href="http://www.amazon.de/gp/product/B007AKQ9M6/ref=as_li_ss_tl?ie=UTF8&amp;tag=prinzenbuchde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=B007AKQ9M6"><em>Amazon</em></a><img border="0" height="1" src="http://www.assoc-amazon.de/e/ir?t=prinzenbuchde-21&amp;l=as2&amp;o=3&amp;a=B007AKQ9M6" width="1"/></p>
+<p>Ein nichtiges Wort ruft im gewissenhaften Fürstendiener Verwunderung und Nichtverstehen hervor. Je mehr er darüber nachdenkt schwelt in ihm eine Vermutung der es nachzugehen gilt und sei es zu noch so später Stunde.</p>
+<p>In den Akten steht es schwarz auf weiß und sein Verdacht verwandelt sich in Gewissheit. Hier geschieht grobes und übermütiges Verbrechen gegen das Gesetz.</p>
+<p>Pflichtgemäß leitet der Amtmann die notwendigen Schritte ein, um diesem verbrecherischen Treiben Einhalt zu gebieten und seinen Dienstherren vor Verlust und Üblerem zu behüten.</p>
+<p>Damit beginnt im Berchtesgadnischen Land zu Beginn des fünfzehnten Jahrhunderts ein sinnloses Zerstören und grauenvolles Vernichten.</p>
+<p><em>Fiat iustitia, et pereat mundus!</em> – Recht muss Recht sein, und gehe die Welt darüber zugrunde!</p>
+<p><strong>Was kommt alles vor:<br/></strong>Liebe, Verrat, Treue, Glaube, Krieg, viel Lebensweisheit, wunderbare Gleichnisse</p>
+                                
+                            </p>
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/18123520588/ok-bd1" t_title=""></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/18123520588/ok-bd1">Vor 3 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ochsenkrieg"><span class="decoration">/</span>ochsenkrieg</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ganghofer"><span class="decoration">/</span>ganghofer</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/roman"><span class="decoration">/</span>roman</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_lro4n2hwWz1qbqxd7_1316265359_cover.jpg" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_10313481529">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_10313481529",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/10313481529/tumblr_lro4n2hwWz1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>126 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/10313481529/tumblr_lro4n2hwWz1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2>Teil 5 - Geschichte Eines Mordes</h2>
+<p>Da hob der Fremde die Hand und schlug sie mir zweimal ins Gesicht. Dann wandte er sich, stumm, wie er gekommen war, um und ging. Zugleich hörte ich hinter mir lautes Lachen.</p>
+<blockquote>
+<p>Das komplett Hörbuch<em><span></span></em><em><span><strong>“Knaben Und Mörder”</strong> bei <a href="http://clkde.tradedoubler.com/click?p=23761&amp;a=1869127&amp;url=http://itunes.apple.com/de/album/knaben-und-morder/id456980379&amp;partnerId=2003" title="Knaben Und Mörder bei iTunes">iTunes</a></span></em></p>
+</blockquote></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/10313481529/12-kum" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/10313481529/12-kum">Vor 8 Monaten  (3 Anmerkungen)</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ungar"><span class="decoration">/</span>ungar</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/kum"><span class="decoration">/</span>kum</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+            <div class="postwrapper">
+                <li class="post">
+                    <div class="column right">
+                        <div class="content">
+                            
+
+                            
+
+                            
+
+                            
+                            
+                            <div class="album_case"></div>
+                            <img src="http://25.media.tumblr.com/tumblr_lratz9TCnj1qbqxd7_1315644854_cover.jpg" class="album_art" />
+                            
+                            
+                            <div class="audio">
+                                <span id="audio_player_10030487687">[<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">Flash 9</a> is required to listen to audio.]</span><script type="text/javascript">replaceIfFlash(9,"audio_player_10030487687",'\x3cdiv class=\x22audio_player\x22\x3e<embed type="application/x-shockwave-flash" src="http://assets.tumblr.com/swf/audio_player.swf?audio_file=http://www.tumblr.com/audio_file/10030487687/tumblr_lratz9TCnj1qbqxd7&color=E4E4E4" height="27" width="207" quality="best" wmode="opaque"></embed>\x3c/div\x3e')</script>
+                            
+                                <small>115 Mal abgespielt&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://www.tumblr.com/audio_file/10030487687/tumblr_lratz9TCnj1qbqxd7">Herunterladen <div class="download"></div></a></small>
+                                <p><h2><span>Teil 4 - Geschichte Eines Mordes </span></h2>
+<p>Tags zuvor der Sturm auf den Friedhof hatte fünfundzwanzig Tote und siebenunddreißig Verwundete gekostet. Immerhin, fünfundzwanzig Tote. Von den Verwundeten waren einige so schwer daran, ganze Füße weg, einfach weggerissen. Verbluteten mir unter der Hand.</p></p>
+                            </div>
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <!--div class="clear"><span class="st_sharethis" displayText="teilen" st_url="http://prinzenbuch.de/post/10030487687/11-kum" t_title="Prinzenbuch"></span></div-->
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+                    <div class="column left">
+                        <ul class="postMeta">
+<li class="postDate"><a href="http://prinzenbuch.de/post/10030487687/11-kum">Vor 9 Monaten</a></li>
+                       
+                        
+                        
+                        
+                        
+                       
+                        <li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/ungar"><span class="decoration">/</span>ungar</a>
+                        </li>
+
+<li class="tags">
+
+                           <a href="http://prinzenbuch.de/tagged/kum"><span class="decoration">/</span>kum</a>
+                        </li>
+
+
+                      
+                        
+
+
+
+</ul></div>               
+ </li>
+                <div class="divider"></div>
+            </div>
+        
+        </ul>
+
+
+        
+        <div class="column right">
+            <div class="navigation">
+                <div class="count">
+                    1 von 5
+                </div>
+
+                <div class="links">
+                    <a href="/page/2" class="right">Nächste Seite</a>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="attribution column right">
+            <small>Theme: <a href="http://www.tumblr.com/theme/5136"><span>Linear</span></a> von <a href="http://petervidani.com"><span>Peter Vidani</span></a> angepasst von PB</small>
+        </div>
+
+        <div style="clear:both"></div>
+    </div>
+
+    
+
+    
+        <script src="http://static.tumblr.com/thpaaos/ZCdkl306g/twitter.js" type="text/javascript"></script>
+        <script src="http://twitter.com/statuses/user_timeline/prinzenbuch.json?callback=twitterCallback2&count=1" type="text/javascript"></script>
+    
+
+    
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?10&src=http%3A%2F%2Fprinzenbuch.de%2F&amp;lang=de_DE&amp;name=prinzenbuch" scrolling="no" width="330" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE -->
+</body>
+</html>

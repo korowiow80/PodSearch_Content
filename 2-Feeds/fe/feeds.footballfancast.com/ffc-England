@@ -1,0 +1,841 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+
+
+<title>England | FootballFanCast.com</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/ffc-theme/style.css?v=1.8" />
+<link rel="stylesheet" type="text/css" href="http://www.footballfancast.com/wp-content/themes/ffc-theme/css/buddypress.css?v=1" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed" />
+<link href="/wp-content/themes/ffc-theme/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/themes/ffc-theme/js/teamloader.js'></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+//rail test
+
+function rail_check(){
+$('#ve_ce_tgt').addClass('ve_ce_tgt');
+
+if($('#ve_ce_tgt').hasClass('ve_ce_tgt')){
+var rail_message = 'there is a rail!';
+} else {
+var rail_message = 'there is no rail!';
+}
+
+$('body').append('<!--'+rail_message+'-->');
+}
+
+setTimeout(rail_check,10000);
+
+$('#scorecast_nav li.current_league ul').show();
+
+$('.sc_navheader').click(function(){
+if($(this).parent().hasClass('current_league')){
+} else {
+$('#scorecast_nav li').removeClass('current_league');
+var theli = $(this).attr('rel');
+$('#' +theli).addClass('current_league');
+$('ul#scorecast_nav li ul').hide();
+$('#' +theli + ' ul').show();
+}
+return false;
+});
+});
+</script>
+
+
+<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.3/jquery.tools.min.js"></script>  
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+$(".team_dd_select").change(function(){
+var slug = $(this).val();
+window.location = "/"+slug;
+});
+
+$(".newspost").click(function(){
+var news_click = $(".newstitle a").attr('href');
+window.location = news_click;
+});
+
+
+});
+</script>
+
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-4121406740932347");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleAddAttr("pageURL", "-international-england");
+</script>
+<script type='text/javascript'>
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_FoxPop");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Gallery_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_InBlog_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_LDB");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_SKY");
+GA_googleAddSlot("ca-pub-4121406740932347", "Budwiser_Test_1x1");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_Promo");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Overlay");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_MEC-Tracker");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Article_MPU");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_SKY_2");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_LocalAds");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Wallpaper");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_1");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_2");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_3");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_4");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_Writer_MPU_5");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFancast_ROS_LDB2");
+GA_googleAddSlot("ca-pub-4121406740932347", "FootballFanCast_MGID");
+</script>
+<script type='text/javascript'>
+GA_googleFetchAds();
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="FootballFanCast.com &raquo; England Comments Feed" href="http://www.footballfancast.com/international/england/feed" />
+<link rel='stylesheet' id='bp-css-css'  href='http://www.footballfancast.com/wp-content/plugins/bp-template-pack/bp.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.footballfancast.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='rr_styles-css'  href='http://www.footballfancast.com/wp-content/plugins/rss-reader/css/rr_style.css?ver=3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='subzane_youtube_plugin-css'  href='http://www.footballfancast.com/wp-content/plugins/subzane-youtube-recent-videos-widget/style.css?ver=3.3' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js?ver=3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BP_DTheme = {"my_favs":"My Favorites","accepted":"Accepted","rejected":"Rejected","show_all_comments":"Show all comments for this thread","show_all":"Show all","comments":"comments","close":"Close","mention_explain":"@ is a unique identifier for  that you can type into any message on this site.  will be sent a notification and a link to your message any time you use it."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/plugins/buddypress/bp-themes/bp-default/_inc/global.js?ver=3.3'></script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/plugins/rss-reader/js/rr_script.js?ver=3.3'></script>
+<link rel='prev' title='World Cup 2010' href='http://www.footballfancast.com/world-cup-2010' />
+<link rel='next' title='Italy' href='http://www.footballfancast.com/international/italy' />
+
+<!-- Start Of AW CSS -->
+<link rel="stylesheet" href="http://www.footballfancast.com/wp-content/plugins/affiliatewindow/affiliatewindow.css" type="text/css" media="screen" />
+<!-- End Of AW CSS -->
+
+<!-- All in One SEO Pack 1.6.13.8 by Michael Torbert of Semper Fi Web Design[256,297] -->
+<meta name="description" content="This is the page for all things England ahead of the 2010 World Cup. Check out the England 2009/11 Home Football Shirt here." />
+<meta name="keywords" content="england, 2010 world cup" />
+<link rel="canonical" href="http://www.footballfancast.com/international/england" />
+<!-- /all in one seo pack -->
+
+	<script type="text/javascript">var ajaxurl = "http://www.footballfancast.com/wp-load.php";</script>
+
+<link rel="stylesheet" href="http://www.footballfancast.com/wp-content/plugins/digg-digg/include/../css/diggdigg-style.css?ver=4.5.3.4" type="text/css" media="screen" /><style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background: #008000;
+	border: 1px solid #333333;
+}
+</style>
+
+	<script type="text/javascript"> jQuery(document).ready( function() { jQuery("a.confirm").click( function() { if ( confirm( 'Are you sure?' ) ) return true; else return false; }); });</script>
+
+<!-- wp thread comment 1.4.9.4.002 -->
+<style type="text/css" media="screen">
+.editComment, .editableComment, .textComment{
+	display: inline;
+}
+.comment-childs{
+	border: 1px solid #999;
+	margin: 5px 2px 2px 4px;
+	padding: 4px 2px 2px 4px;
+	background-color: white;
+}
+.chalt{
+	background-color: #E2E2E2;
+}
+#newcomment{
+	border:1px dashed #777;width:90%;
+}
+#newcommentsubmit{
+	color:red;
+}
+.adminreplycomment{
+	border:1px dashed #777;
+	width:99%;
+	margin:4px;
+	padding:4px;
+}
+.mvccls{
+	color: #999;
+}
+			
+</style>
+
+<script type="text/javascript" src="/wp-content/themes/ffc-theme/js/ffc.js"></script>
+<script type="text/javascript" src="/wp-content/themes/ffc-theme/js/captify.tiny.js"></script>
+
+<link rel="stylesheet" href="/wp-content/themes/ffc-theme/js/prettyphoto/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+<script src="/wp-content/themes/ffc-theme/js/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" src="/wp-content/themes/ffc-theme/js/ffc_colated_js.js"></script>
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.must_be_logged_in').click(function(){
+//alert('test');
+$('.mbli_message').html('You must be logged in to do that!<br />Please either <a href="http://www.footballfancast.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.footballfancast.com%2Finternational%2Fengland" title="Login">Login</a> or <a href="http://www.footballfancast.com/wp-login.php?action=register">Register</a>.');
+$('.mbli_message').show(300);
+return false;
+});
+});
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1313722-1']);
+  _gaq.push(['_setDomainName', 'footballfancast.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="page page-id-6834 page-child parent-pageid-80704 page-template page-template-team_page_no_news-php">
+
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "12294186" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=12294186&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_Wallpaper");
+</script>
+
+<div id="header_ads">
+<div id="header_ads_inner">
+
+
+
+<div id="leaderboard">
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_LDB");
+</script>
+
+</div>
+
+
+<div style="width:266px; float:right;">
+
+<!-- FootballFancast_ROS_Promo -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_Promo");
+</script>
+
+</div>
+
+
+</div>
+</div>
+
+
+<div class="rap">
+<div class="rap_inner">
+<div id="header">
+
+<div id="header_left">
+<a href="/"><img src="/wp-content/themes/ffc-theme/images/FFC_logo.png" alt="Football FanCast - Real Fans, Real Opinions" width="600" height="64" /></a>
+</div>
+
+<div id="header_right">
+
+<form action="http://www.footballfancast.com/search-results" id="cse-search-box">
+<table cellspacing="0" cellpadding="0" width="100%"><tbody><tr><td>
+    <input type="hidden" name="cx" value="017867473193801014068:8neqymgaaqe" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="32" />
+</td><td align="right">
+    <input type="submit" name="sa" value="Search" />
+</td></tr></tbody></table>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+
+<div style="height: 20px;" class="clearer"></div>
+
+
+<a id="team_list_button" href="/teams">Leagues &amp; Teams</a>
+</div>
+
+</div>
+
+</div>
+
+<div id="nav_clearer"></div>
+
+
+<div id="team_loader"></div>
+
+<div id="pagetab">
+
+<ul id="dropnav" class="clearfix"><li><a href="/football-news">News</a><ul><li><a href="/premiership">Premier League</a></li><li><a href="/championship">Championship</a></li><li><a href="/league-one">League 1</a></li><li><a href="/league-two">League 2</a></li><li><a href="/scottish-premier-league">SPL</a></li><li><a href="/champions-league">Champions League</a></li><li><a href="/europa-league">Europa League</a></li><li><a href="/fa-cup">FA Cup</a></li><li><a href="/carling-cup">Carling Cup</a></li><li><a href="/serie-a">Serie A</a></li><li><a href="/la-liga">La Liga</a></li><li><a href="/bundesliga">Bundesliga</a></li><li><a href="/euro-2012">Euro 2012</a></li></ul></li><li><a href="/football-blogs">Blogs</a><ul>
+<li><a href="http://www.footballfancast.com/author/editor/">Editor's Blog</a></li>
+<li><a href="http://www.footballfancast.com/football-business">Football Business</a></li>
+<li><a href="http://www.footballfancast.com/goal-of-the-week">Goal of the Week</a></li>
+<li><a href="http://www.footballfancast.com/play-of-the-week">Play of the Week</a></li>
+<li><a href="http://www.footballfancast.com/caption-competition">Caption Competition</a></li>
+<li><a href="http://www.footballfancast.com/wag-of-the-week">Wag of the Week</a></li>
+<li><a href="http://www.footballfancast.com/the-boy-has-got-skills">The Boy Has Got Skills</a></li>
+<li><a href="http://www.footballfancast.com/top-10s">Top Tens</a></li>
+<li><a href="http://www.footballfancast.com/5-things-we-learned">5 Things We Learned</a></li>
+<li><a href="http://www.footballfancast.com/said-and-done">Said and Done</a></li>
+<li><a href="http://www.footballfancast.com/whatever-happened-to">Whatever Happened To&hellip;</a></li>
+<li><a href="http://www.footballfancast.com/billy-batts-headline-round-up">Billy Batts' Headline Round Up</a></li>
+<li><a href="http://www.footballfancast.com/great-games">Great Games</a></li>
+<li><a href="http://www.footballfancast.com/best-of-partner-blogs">Best of Partner Blogs</a></li>
+</ul></li><li><a href="/euro-2012">Euro 2012</a></li><li><a href="/scorecast">ScoreCast</a><ul><li><a href="/scorecast">Live Scores</a></li><li><a href="/league-tables">League Tables</a></li><li><a href="/results">Results</a></li></ul></li><li><a href="http://podcasts.footballfancast.com/">Podcasts</a></li>
+
+<li><a href="/football-videos">Videos</a></li>
+
+<li><a href="/gallery">Gallery</a></li>
+
+<li><a href="/vip-lounge">VIP Lounge</a>
+<ul>
+<li><a href="/activity">Latest</a></li>
+<li><a href="/groups">Fans Groups</a></li>
+<li><a href="/members">Members</a></li>
+<li><a href="/achievements">Medals &amp; Tropies</a></li>
+<li><a href="http://www.footballfancast.com/wp-login.php" title="Login">Login</a></li><li><a href="http://www.footballfancast.com/wp-login.php?action=register">Register</a></li>
+</ul>
+</li>
+
+<li><a href="/stadium-guide">Stadium Guide</a></li>
+
+<li><a href="http://twitter.footballfancast.com/">Tweets</a></li>
+
+<li><a href="/competitions">Competitions</a><ul><li><a href="http://www.footballfancast.com/competitions">Prize Wall</a></li><li><a href="http://www.footballfancast.com/trivia">Trivia</a></li><li><a href="http://www.footballfancast.com/caption-competition">Caption Competition</a></li></ul></li>
+
+<li><a href="/football-tickets">Tickets</a></li><li><a href="/football-shirts">Shirts</a><ul>
+<li><a href="/football-shirts/retro-football-shirts">Retro Shirts</a></li>
+</ul></li><li><a href="/tv-guide">TV Guide</a></li>
+
+
+
+<li><a href="/contact-us">Write</a></li></ul>
+</div><!-- end PAGETAB -->
+</div><!--end header-->
+
+<div class="clearer"></div>
+
+<div class="rap">
+<div class="rap_inner" style="padding-top: 0px;">
+
+
+
+<div id="content">
+
+<div class="clearer" style="height: 9px;"></div>
+<div class="post">
+	 <h1 class="storytitle3" id="post-6834">England</h1>
+<div class="meta" style="clear: both;">
+</div><!-- end META -->
+<div class="storycontent" style="float: left; width: 370px;">
+		<p><img src="http://www.footballfancast.com/wp-content/uploads/2009/10/Flag-of-England.jpg" alt="Flag-of-England" title="Flag-of-England" width="150" height="150" class="alignnone size-full wp-image-27059" />This is the page for all things England ahead of the 2010 <a href="http://www.footballfancast.com/world-cup-2010" class="kblinker" title="More about World Cup &raquo;">World Cup</a>. Check out the England 2009/11 Home Football Shirt <a href="http://www.footballfancast.com/football-blogs/england-200911-home-football-shirt-200810-away-football-shirt" target="_blank">here</a>.</p>
+	</div>
+
+<div class="team_links">
+<div style="text-align: center; padding: 4px 0 4px 0; background: #008000; color: #ffffff;">England Links</div>
+<ul>
+<li><a href="#blogs">England Blogs</a></li>
+	<li><a href="http://footballfancast.com/wiki/index.php/England">England Fans Wiki</a></li>
+	<li><a href="/football-tickets">England Tickets</a></li>
+	<li><a href="/football-shirts">England Shirts</a></li>
+	<li><a href="/category/england/feed">England RSS Feed <img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/rss.png" style="padding: 0; margin: 0; border: 0; float: none;" alt="England feed" /></a></li>
+</ul>
+
+
+
+</div>
+
+<div class="clearer"></div>	
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+
+<div class="green_line"></div>
+
+<a name="blogs"></a>
+<h1 class="storytitle3">England Blogs</h1>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-169921"><a href="http://www.footballfancast.com/2012/06/football-blogs/an-ideal-way-for-uefa-to-refresh-the-euro-qualifiers" rel="bookmark">An ideal way for UEFA to Refresh the Euro Qualifiers?</a></h2>
+<div class="meta" style="clear: both;">
+Date: 6th June 2012 at 3:33 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/czech-republic" title="View all posts in Czech Republic" rel="category tag">Czech Republic</a>,<a href="http://www.footballfancast.com/category/international-teams/denmark" title="View all posts in Denmark" rel="category tag">Denmark</a>,<a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/international-teams/france" title="View all posts in France" rel="category tag">France</a>,<a href="http://www.footballfancast.com/category/international-teams/germany" title="View all posts in Germany" rel="category tag">Germany</a>,<a href="http://www.footballfancast.com/category/international-teams/greece" title="View all posts in Greece" rel="category tag">Greece</a>,<a href="http://www.footballfancast.com/category/international-teams" title="View all posts in International Teams" rel="category tag">International Teams</a>,<a href="http://www.footballfancast.com/category/international-teams/italy" title="View all posts in Italy" rel="category tag">Italy</a>,<a href="http://www.footballfancast.com/category/international-teams/netherlands" title="View all posts in Netherlands" rel="category tag">Netherlands</a>,<a href="http://www.footballfancast.com/category/international-teams/poland" title="View all posts in Poland" rel="category tag">Poland</a>,<a href="http://www.footballfancast.com/category/international-teams/portugal" title="View all posts in Portugal" rel="category tag">Portugal</a>,<a href="http://www.footballfancast.com/category/international-teams/republic-of-ireland" title="View all posts in Republic of Ireland" rel="category tag">Republic of Ireland</a>,<a href="http://www.footballfancast.com/category/international-teams/russia" title="View all posts in Russia" rel="category tag">Russia</a>,<a href="http://www.footballfancast.com/category/international-teams/serbia" title="View all posts in Serbia" rel="category tag">Serbia</a>,<a href="http://www.footballfancast.com/category/international-teams/slovakia" title="View all posts in Slovakia" rel="category tag">Slovakia</a>,<a href="http://www.footballfancast.com/category/international-teams/slovenia" title="View all posts in Slovenia" rel="category tag">Slovenia</a>,<a href="http://www.footballfancast.com/category/international-teams/spain" title="View all posts in Spain" rel="category tag">Spain</a>,<a href="http://www.footballfancast.com/category/international-teams/sweden" title="View all posts in Sweden" rel="category tag">Sweden</a>,<a href="http://www.footballfancast.com/category/international-teams/switzerland" title="View all posts in Switzerland" rel="category tag">Switzerland</a>,<a href="http://www.footballfancast.com/category/international-teams/ukraine" title="View all posts in Ukraine" rel="category tag">Ukraine</a> | Author: <a href="http://www.footballfancast.com/author/alex-churcher" title="Posts by Alex Churcher" rel="author">Alex Churcher</a> | Tags: <a href="http://www.footballfancast.com/tag/euro-2012" rel="tag">Euro 2012</a>, <a href="http://www.footballfancast.com/tag/european-championships" rel="tag">European Championships</a>, <a href="http://www.footballfancast.com/tag/fifa-world-cup" rel="tag">FIFA World Cup</a>, <a href="http://www.footballfancast.com/tag/michel-platini" rel="tag">Michel Platini</a>, <a href="http://www.footballfancast.com/tag/qualifying" rel="tag">qualifying</a>, <a href="http://www.footballfancast.com/tag/uefa" rel="tag">UEFA</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/06/football-blogs/an-ideal-way-for-uefa-to-refresh-the-euro-qualifiers">
+<img src="http://www.footballfancast.com/wp-content/uploads/2010/01/Platini1-300x187.jpg" style="width: 100px; height: 100px" /></a> 
+
+<p>With <a href="http://www.footballfancast.com/euro-2012" class="kblinker" title="More about Euro 2012 &raquo;">Euro 2012</a> fast approaching, attention shifts toward the latest prestigious tournament to grace International football. As it stands there is a major competition every two years but the qualifying campaigns for both the UEFA European <a href="http://www.footballfancast.com/championship" class="kblinker" title="More about championship &raquo;">Championships</a> and the FIFA <a href="http://www.footballfancast.com/world-cup-2010" class="kblinker" title="More about World Cup &raquo;">World Cup</a> have become dreary and predicable.</p>
+<p>Given the World Cup &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/06/football-blogs/an-ideal-way-for-uefa-to-refresh-the-euro-qualifiers">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-169949"><a href="http://www.footballfancast.com/2012/06/football-blogs/forget-rio-this-is-the-duo-england-will-miss" rel="bookmark">Forget Rio, this is the duo England will miss</a></h2>
+<div class="meta" style="clear: both;">
+Date: 6th June 2012 at 2:53 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/premiership/liverpool-premiership" title="View all posts in Liverpool" rel="category tag">Liverpool</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-city-premiership" title="View all posts in Manchester City" rel="category tag">Manchester City</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-united-premiership" title="View all posts in Manchester United" rel="category tag">Manchester United</a>,<a href="http://www.footballfancast.com/category/premiership" title="View all posts in Premier League" rel="category tag">Premier League</a> | Author: <a href="http://www.footballfancast.com/author/tom-webber" title="Posts by Tom Webber" rel="author">Tom Webber</a> | Tags: <a href="http://www.footballfancast.com/tag/frank-lampard" rel="tag">Frank Lampard</a>, <a href="http://www.footballfancast.com/tag/jordan-henderson" rel="tag">Jordan Henderson</a>, <a href="http://www.footballfancast.com/tag/micah-richards" rel="tag">Micah Richards</a>, <a href="http://www.footballfancast.com/tag/rio-ferdinand" rel="tag">Rio Ferdinand</a>, <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/06/football-blogs/forget-rio-this-is-the-duo-england-will-miss">
+<img src="http://www.footballfancast.com/wp-content/uploads/2012/05/Roy-Hodgson-300x300.jpg" style="width: 100px; height: 100px" /></a> 
+<p>Roy Hodgson has only been England manager for 23 days yet criticism of the man has been rife since day one. Despite securing a pair of victories from his first two games, whilst keeping a clean sheet in both, the former <a href="http://www.footballfancast.com/team/liverpool" class="kblinker" title="More about Liverpool &raquo;">Liverpool</a> boss has come under heavy scrutiny for the &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/06/football-blogs/forget-rio-this-is-the-duo-england-will-miss">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-169779"><a href="http://www.footballfancast.com/2012/06/football-blogs/euro-2012-only-distracts-from-what-really-matters" rel="bookmark">Euro 2012 Only Distracts From What Really Matters</a></h2>
+<div class="meta" style="clear: both;">
+Date: 5th June 2012 at 10:10 am | 
+Filed under: <a href="http://www.footballfancast.com/category/championship" title="View all posts in Championship" rel="category tag">Championship</a>,<a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/exclude" title="View all posts in exclude" rel="category tag">exclude</a>,<a href="http://www.footballfancast.com/category/featured-blog" title="View all posts in Featured Blog" rel="category tag">Featured Blog</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/league-one" title="View all posts in League One" rel="category tag">League One</a>,<a href="http://www.footballfancast.com/category/league-two" title="View all posts in League Two" rel="category tag">League Two</a>,<a href="http://www.footballfancast.com/category/premiership/liverpool-premiership" title="View all posts in Liverpool" rel="category tag">Liverpool</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-city-premiership" title="View all posts in Manchester City" rel="category tag">Manchester City</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-united-premiership" title="View all posts in Manchester United" rel="category tag">Manchester United</a>,<a href="http://www.footballfancast.com/category/premiership/newcastle-united" title="View all posts in Newcastle United" rel="category tag">Newcastle United</a>,<a href="http://www.footballfancast.com/category/league-two/oxford-united" title="View all posts in Oxford United" rel="category tag">Oxford United</a>,<a href="http://www.footballfancast.com/category/premiership" title="View all posts in Premier League" rel="category tag">Premier League</a>,<a href="http://www.footballfancast.com/category/the-fa" title="View all posts in The FA" rel="category tag">The FA</a> | Author: <a href="http://www.footballfancast.com/author/andrew-cherrie" title="Posts by Andrew Cherrie" rel="author">Andrew Cherrie</a> | Tags: <a href="http://www.footballfancast.com/tag/england" rel="tag">England</a>, <a href="http://www.footballfancast.com/tag/euro-2012" rel="tag">Euro 2012</a>, <a href="http://www.footballfancast.com/tag/football-league" rel="tag">Football League</a>, <a href="http://www.footballfancast.com/tag/premier-league" rel="tag">Premier League</a>, <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a>, <a href="http://www.footballfancast.com/tag/wembley" rel="tag">Wembley</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/06/football-blogs/euro-2012-only-distracts-from-what-really-matters">
+<img width="100" height="100" src="http://www.footballfancast.com/wp-content/uploads/2012/06/41749404_glossop416-100x100.jpg" class="attachment-thumbnail" alt="English nationalism" title="England flags" /></a> 
+<p>Whilst <a href="http://www.footballfancast.com/euro-2012" class="kblinker" title="More about Euro 2012 &raquo;">Euro 2012</a> may be the highlight of the year for many football fans, I for one am anticipating that start of something much more pivotal, far more crucial later in the year. Something that has taken meticulous levels of preparation and leaves football fans across the country frothing with &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/06/football-blogs/euro-2012-only-distracts-from-what-really-matters">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-169534"><a href="http://www.footballfancast.com/2012/06/football-blogs/why-belgiums-poor-performance-is-no-real-mystery" rel="bookmark">Why Belgium’s poor performance is no real mystery</a></h2>
+<div class="meta" style="clear: both;">
+Date: 2nd June 2012 at 9:29 am | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a> | Author: <a href="http://www.footballfancast.com/author/archie-rhind-tutt" title="Posts by Archie Rhind-Tutt" rel="author">Archie Rhind-Tutt</a> | Tags: <a href="http://www.footballfancast.com/tag/belgium" rel="tag">Belgium</a>, <a href="http://www.footballfancast.com/tag/eden-hazard" rel="tag">Eden Hazard</a>, <a href="http://www.footballfancast.com/tag/moussa-dembele" rel="tag">Moussa Dembele</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/06/football-blogs/why-belgiums-poor-performance-is-no-real-mystery">
+<img src="http://www.footballfancast.com/wp-content/uploads/2012/04/Eden-Hazard1-300x186.jpg" style="width: 100px; height: 100px" /></a> 
+<p>Look down a list of famous Belgians. Somewhere you’ll find detective Hercule Poirot. Now the character, created by Agatha Christie, was in the business of mystery solving.</p>
+<p>Should Dame Agatha still be writing today, perhaps a new challenge for Poirot would be to manage the Belgium, who travel to Wembley on &hellip;</p> 
+<p>1 comment | <a href="http://www.footballfancast.com/2012/06/football-blogs/why-belgiums-poor-performance-is-no-real-mystery">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-169375"><a href="http://www.footballfancast.com/2012/06/premiership/tottenham-premiership/teddy-sheringham-talks-to-football-fancast" rel="bookmark">Teddy Sheringham talks to Football FanCast</a></h2>
+<div class="meta" style="clear: both;">
+Date: 2nd June 2012 at 8:20 am | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/exclude" title="View all posts in exclude" rel="category tag">exclude</a>,<a href="http://www.footballfancast.com/category/featured-blog" title="View all posts in Featured Blog" rel="category tag">Featured Blog</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-united-premiership" title="View all posts in Manchester United" rel="category tag">Manchester United</a>,<a href="http://www.footballfancast.com/category/championship/millwall-league-one" title="View all posts in Millwall" rel="category tag">Millwall</a>,<a href="http://www.footballfancast.com/category/the-fa" title="View all posts in The FA" rel="category tag">The FA</a>,<a href="http://www.footballfancast.com/category/premiership/tottenham-premiership" title="View all posts in Tottenham Hotspur" rel="category tag">Tottenham Hotspur</a>,<a href="http://www.footballfancast.com/category/international-teams/ukraine" title="View all posts in Ukraine" rel="category tag">Ukraine</a>,<a href="http://www.footballfancast.com/category/premiership/west-ham-premiership" title="View all posts in West Ham United" rel="category tag">West Ham United</a> | Author: <a href="http://www.footballfancast.com/author/hamish-mackay" title="Posts by Hamish Mackay" rel="author">Hamish Mackay</a> | Tags: <a href="http://www.footballfancast.com/tag/alex-oxlade-chamberlain" rel="tag">Alex Oxlade-Chamberlain</a>, <a href="http://www.footballfancast.com/tag/ashley-young" rel="tag">Ashley Young</a>, <a href="http://www.footballfancast.com/tag/england" rel="tag">England</a>, <a href="http://www.footballfancast.com/tag/euro-2012" rel="tag">Euro 2012</a>, <a href="http://www.footballfancast.com/tag/european-championships" rel="tag">European Championships</a>, <a href="http://www.footballfancast.com/tag/fabio-capello" rel="tag">Fabio Capello</a>, <a href="http://www.footballfancast.com/tag/man-utd" rel="tag">Man Utd</a>, <a href="http://www.footballfancast.com/tag/manchester-united" rel="tag">Manchester United</a>, <a href="http://www.footballfancast.com/tag/michael-carrick" rel="tag">Michael Carrick</a>, <a href="http://www.footballfancast.com/tag/millwall" rel="tag">millwall</a>, <a href="http://www.footballfancast.com/tag/rio-ferdinand" rel="tag">Rio Ferdinand</a>, <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a>, <a href="http://www.footballfancast.com/tag/spurs" rel="tag">Spurs</a>, <a href="http://www.footballfancast.com/tag/teddy-sheringham" rel="tag">Teddy Sheringham</a>, <a href="http://www.footballfancast.com/tag/tottenham-hotspur" rel="tag">Tottenham Hotspur</a>, <a href="http://www.footballfancast.com/tag/uefa" rel="tag">UEFA</a>, <a href="http://www.footballfancast.com/tag/ukraine-2" rel="tag">ukraine</a>, <a href="http://www.footballfancast.com/tag/wayne-rooney" rel="tag">Wayne Rooney</a>, <a href="http://www.footballfancast.com/tag/west-ham" rel="tag">West Ham</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/06/premiership/tottenham-premiership/teddy-sheringham-talks-to-football-fancast">
+<img width="100" height="100" src="http://www.footballfancast.com/wp-content/uploads/2012/06/Teddy-Sheringham-100x100.jpg" class="attachment-thumbnail" alt="Teddy Sheringham - Ladbrokes" title="Teddy Sheringham" /></a> 
+<p>“It’s not about looking at how far we can go. You either win it or you lose it. There’s gonna be fifteen losers but there’s only one winner,” was the frank and honest analysis of the realities of international tournaments voiced by Teddy Sheringham. A motto that reminds us of &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/06/premiership/tottenham-premiership/teddy-sheringham-talks-to-football-fancast">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-169401"><a href="http://www.footballfancast.com/2012/06/football-blogs/time-for-english-football-to-break-away-from-tradition" rel="bookmark">Time for English football to break away from tradition?</a></h2>
+<div class="meta" style="clear: both;">
+Date: 1st June 2012 at 4:48 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/premiership/arsenal-premiership" title="View all posts in Arsenal" rel="category tag">Arsenal</a>,<a href="http://www.footballfancast.com/category/premiership/chelsea-premiership" title="View all posts in Chelsea" rel="category tag">Chelsea</a>,<a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/international-teams/italy" title="View all posts in Italy" rel="category tag">Italy</a>,<a href="http://www.footballfancast.com/category/premiership/liverpool-premiership" title="View all posts in Liverpool" rel="category tag">Liverpool</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-city-premiership" title="View all posts in Manchester City" rel="category tag">Manchester City</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-united-premiership" title="View all posts in Manchester United" rel="category tag">Manchester United</a>,<a href="http://www.footballfancast.com/category/international-teams/spain" title="View all posts in Spain" rel="category tag">Spain</a>,<a href="http://www.footballfancast.com/category/premiership/tottenham-premiership" title="View all posts in Tottenham Hotspur" rel="category tag">Tottenham Hotspur</a> | Author: <a href="http://www.footballfancast.com/author/alex-churcher" title="Posts by Alex Churcher" rel="author">Alex Churcher</a> | Tags: <a href="http://www.footballfancast.com/tag/england" rel="tag">England</a>, <a href="http://www.footballfancast.com/tag/fabio-capello" rel="tag">Fabio Capello</a>, <a href="http://www.footballfancast.com/tag/frank-lampard" rel="tag">Frank Lampard</a>, <a href="http://www.footballfancast.com/tag/gareth-barry" rel="tag">Gareth Barry</a>, <a href="http://www.footballfancast.com/tag/gary-lewin" rel="tag">Gary Lewin</a>, <a href="http://www.footballfancast.com/tag/owen-hargreaeves" rel="tag">Owen Hargreaeves</a>, <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a>, <a href="http://www.footballfancast.com/tag/scott-parker" rel="tag">Scott Parker</a>, <a href="http://www.footballfancast.com/tag/sven-goran-eriksson" rel="tag">Sven Goran Eriksson</a>, <a href="http://www.footballfancast.com/tag/the-fa" rel="tag">The FA</a>, <a href="http://www.footballfancast.com/tag/the-fa-cup" rel="tag">The FA Cup</a>, <a href="http://www.footballfancast.com/tag/winter-break" rel="tag">Winter Break</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/06/football-blogs/time-for-english-football-to-break-away-from-tradition">
+<img width="100" height="100" src="http://www.footballfancast.com/wp-content/uploads/2012/06/David-Bernstein-100x100.jpg" class="attachment-thumbnail" alt="The FA&#039;s chief David Bernstein" title="David Bernstein" /></a> 
+<p>England’s preparations for <a href="http://www.footballfancast.com/euro-2012" class="kblinker" title="More about Euro 2012 &raquo;">Euro 2012</a> have been hampered by the news that Frank Lampard will join fellow midfielder Gareth Barry in missing the tournament through injury while Scott Parker is doubtful to be fit.</p>
+<p>This summer isn’t the first time England enter a major tournament at a disadvantage to their rivals &hellip;</p> 
+<p>1 comment | <a href="http://www.footballfancast.com/2012/06/football-blogs/time-for-english-football-to-break-away-from-tradition">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-168802"><a href="http://www.footballfancast.com/2012/05/football-blogs/changes-to-english-football-mean-nothing-in-the-wrong-hands" rel="bookmark">Changes to English football mean nothing in the wrong hands</a></h2>
+<div class="meta" style="clear: both;">
+Date: 30th May 2012 at 5:15 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/premiership/arsenal-premiership" title="View all posts in Arsenal" rel="category tag">Arsenal</a>,<a href="http://www.footballfancast.com/category/premiership/chelsea-premiership" title="View all posts in Chelsea" rel="category tag">Chelsea</a>,<a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/exclude" title="View all posts in exclude" rel="category tag">exclude</a>,<a href="http://www.footballfancast.com/category/featured-blog" title="View all posts in Featured Blog" rel="category tag">Featured Blog</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/international-teams" title="View all posts in International Teams" rel="category tag">International Teams</a>,<a href="http://www.footballfancast.com/category/premiership/liverpool-premiership" title="View all posts in Liverpool" rel="category tag">Liverpool</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-city-premiership" title="View all posts in Manchester City" rel="category tag">Manchester City</a>,<a href="http://www.footballfancast.com/category/premiership/manchester-united-premiership" title="View all posts in Manchester United" rel="category tag">Manchester United</a>,<a href="http://www.footballfancast.com/category/premiership/newcastle-united" title="View all posts in Newcastle United" rel="category tag">Newcastle United</a>,<a href="http://www.footballfancast.com/category/premiership/tottenham-premiership" title="View all posts in Tottenham Hotspur" rel="category tag">Tottenham Hotspur</a>,<a href="http://www.footballfancast.com/category/premiership/west-ham-premiership" title="View all posts in West Ham United" rel="category tag">West Ham United</a> | Author: <a href="http://www.footballfancast.com/author/sam-antrobus" title="Posts by Sam-Antrobus" rel="author">Sam-Antrobus</a> | Tags: <a href="http://www.footballfancast.com/tag/gareth-southgate" rel="tag">Gareth Southgate</a>, <a href="http://www.footballfancast.com/tag/jim-cassell" rel="tag">Jim Cassell</a>, <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a>, <a href="http://www.footballfancast.com/tag/sir-trevor-brooking" rel="tag">Sir Trevor Brooking</a>, <a href="http://www.footballfancast.com/tag/the-fa" rel="tag">The FA</a>, <a href="http://www.footballfancast.com/tag/tony-carr" rel="tag">Tony Carr</a>, <a href="http://www.footballfancast.com/tag/wembley" rel="tag">Wembley</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/05/football-blogs/changes-to-english-football-mean-nothing-in-the-wrong-hands">
+<img src="http://www.footballfancast.com/wp-content/uploads/2011/11/St-Georges-Park-007-300x180.jpg" style="width: 100px; height: 100px" /></a> 
+<p>It seems strangely amusing that so many already have the knives out for Roy Hodgson. As the current England team prepare to deal with another summer of unrealistic expectation, in all likelihood, it will be the England manager who will take the flack for a poor performance. Like the referee &hellip;</p> 
+<p>2 comments | <a href="http://www.footballfancast.com/2012/05/football-blogs/changes-to-english-football-mean-nothing-in-the-wrong-hands">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-168997"><a href="http://www.footballfancast.com/2012/05/football-blogs/sponsored-video-a-case-of-what-if-for-england" rel="bookmark">Sponsored Video: A Case of &#8216;What If&#8217; for England?</a></h2>
+<div class="meta" style="clear: both;">
+Date: 30th May 2012 at 3:49 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/premiership" title="View all posts in Premier League" rel="category tag">Premier League</a> | Author: <a href="http://www.footballfancast.com/author/david-donnelly" title="Posts by David-Donnelly" rel="author">David-Donnelly</a> | Tags: <a href="http://www.footballfancast.com/tag/ian-wright" rel="tag">Ian Wright</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/05/football-blogs/sponsored-video-a-case-of-what-if-for-england">
+<img src="http://www.footballfancast.com/wp-content/uploads/2011/04/Ian-Wright-300x208.gif" style="width: 100px; height: 100px" /></a> 
+<p>Usually, in the build up to a major football tournament, as a nation we like nothing better than to get behind our team. England shirts are in every sports shop, flags hang from houses and every England fan begins to believe that maybe, just maybe, this will be the year &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/05/football-blogs/sponsored-video-a-case-of-what-if-for-england">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-168800"><a href="http://www.footballfancast.com/2012/05/football-blogs/the-biggest-challenge-facing-roy-hodgson" rel="bookmark">The Biggest Challenge Facing Roy Hodgson?</a></h2>
+<div class="meta" style="clear: both;">
+Date: 30th May 2012 at 2:13 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/euro-2012" title="View all posts in Euro 2012" rel="category tag">Euro 2012</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/premiership" title="View all posts in Premier League" rel="category tag">Premier League</a> | Author: <a href="http://www.footballfancast.com/author/david-donnelly" title="Posts by David-Donnelly" rel="author">David-Donnelly</a> | Tags: <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/05/football-blogs/the-biggest-challenge-facing-roy-hodgson">
+<img src="http://www.footballfancast.com/wp-content/uploads/2012/05/Roy-Hodgson-300x300.jpg" style="width: 100px; height: 100px" /></a> 
+<p>As the new England manager, many questions are being asked of Roy Hodgson prior to his leading of the team into <a href="http://www.footballfancast.com/euro-2012" class="kblinker" title="More about Euro 2012 &raquo;">Euro 2012</a>. Who will lead the line of attack in the absence of Wayne Rooney against France and Sweden? Will Gerrard and Lampard be given another chance together in &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/05/football-blogs/the-biggest-challenge-facing-roy-hodgson">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+<div class="post">
+	 <h2 class="storytitle" id="post-168594"><a href="http://www.footballfancast.com/2012/05/football-blogs/sir-trevor-brooking-talks-to-football-fancast" rel="bookmark">Sir Trevor Brooking talks to Football FanCast</a></h2>
+<div class="meta" style="clear: both;">
+Date: 28th May 2012 at 3:50 pm | 
+Filed under: <a href="http://www.footballfancast.com/category/international-teams/england" title="View all posts in England" rel="category tag">England</a>,<a href="http://www.footballfancast.com/category/football-blogs" title="View all posts in Football Blogs" rel="category tag">Football Blogs</a>,<a href="http://www.footballfancast.com/category/the-fa" title="View all posts in The FA" rel="category tag">The FA</a> | Author: <a href="http://www.footballfancast.com/author/hamish-mackay" title="Posts by Hamish Mackay" rel="author">Hamish Mackay</a> | Tags: <a href="http://www.footballfancast.com/tag/england" rel="tag">England</a>, <a href="http://www.footballfancast.com/tag/euro-2012" rel="tag">Euro 2012</a>, <a href="http://www.footballfancast.com/tag/fa-tesco-skills-programme" rel="tag">fa tesco skills programme</a>, <a href="http://www.footballfancast.com/tag/roy-hodgson" rel="tag">Roy Hodgson</a>, <a href="http://www.footballfancast.com/tag/sir-trevor-brooking" rel="tag">Sir Trevor Brooking</a>, <a href="http://www.footballfancast.com/tag/tesco" rel="tag">Tesco</a>, <a href="http://www.footballfancast.com/tag/the-fa" rel="tag">The FA</a>, <a href="http://www.footballfancast.com/tag/youth-coaching" rel="tag">youth coaching</a> | image &copy; Action Images
+	</div><!-- end META -->
+
+	<div class="storycontent">
+<a href="http://www.footballfancast.com/2012/05/football-blogs/sir-trevor-brooking-talks-to-football-fancast">
+<img width="100" height="100" src="http://www.footballfancast.com/wp-content/uploads/2012/05/Tesco-Skills002-100x100.jpg" class="attachment-thumbnail" alt="The FA Tesco Skills - London" title="The FA Tesco Skills - London" /></a> 
+<p></p>
+<p>Helenio Herrera, the former Inter, Roma and Barcelona manager, said in 1960: “You in England…are playing in the style we continentals used so many years ago with much physical strength, but no method, no technique.” The situation in England may have progressed slightly from the days of ‘kick-and-rush’ that were &hellip;</p> 
+<p>0 comments | <a href="http://www.footballfancast.com/2012/05/football-blogs/sir-trevor-brooking-talks-to-football-fancast">Read more &raquo;</a></p>
+</div><!-- end STORYCONTENT -->
+	
+	<div class="clearer"></div>
+
+
+</div><!-- end POST -->
+
+
+<div class="clearer"></div>
+
+
+
+
+
+<div class="green_line"></div>
+
+<a href="/category/england">More England news &amp; blogs &raquo;</a>
+
+</div><!--end content-->
+<!-- SIDEBAR LINKS -->
+<div id="nav">
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_MPU");
+</script>
+
+<div style="clear:both; height:10px;"></div>
+
+    <a href="https://twitter.com/FootballFanCast" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @FootballFanCast</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<div style="clear:both; height:10px;"></div>
+
+<div style="width: 119px; float: left;">
+
+<div style="background: #000; text-align:center; padding: 0 0 9px 0;font-size:10px;">
+<a href="http://www.newsnow.co.uk/h/Sport/Football" style="text-decoration:none;color:#fff" target="_blank"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/newsnow_ab.gif" style="width:119px;height:47px;border:0;display:block;padding-bottom:2px; outline:0;" alt="As featured on NewsNow: Football news" title="Click here for more Football news from NewsNow"/>Football News 24/7</a>
+</div>
+
+
+<div class="clearer" style="height: 2px;"></div>
+
+</div>
+
+<div style="width:178px;float:right;">
+<a href="http://www.footballfancast.com/activity"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/ffc-vip-banner-70.jpg" alt="VIP Lounge" title="Become a VIP member of FootballFanCast.com" /></a>
+</div>
+
+<div style="clear:both; height:10px;"></div>
+
+<div class="arrowlistmenu">
+
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FFootballFanCast&amp;width=300&amp;colorscheme=light&amp;connections=10&amp;stream=false&amp;header=true&amp;height=287" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:287px;"></iframe>
+
+<div style="clear:both; height:20px;"></div>
+
+<iframe src="http://www.footballfancast.com/euro-2012-widget" width="300" height="390" frameborder="0" scrolling="no"></iframe>
+
+
+
+
+
+<div class="clearer" style="width: 40px; height: 20px;"></div>
+
+<div class="blog_banners">
+<a href="/football-news"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_news.jpg" alt="Football News" height="45" width="150" /></a>
+<a href="/football-blogs"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_blogs.jpg" alt="Football Blogs" height="45" width="150" /></a>
+<a href="/gallery"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_gallery.jpg" alt="Football Galleries" height="45" width="150" /></a>
+<a href="http://podcasts.footballfancast.com/"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_podcast.jpg" alt="Football Podcasts" height="45" width="150" /></a>
+<a href="/football-videos"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_videos.jpg" alt="Football Videos" height="45" width="150" /></a>
+<a href="/tv-guide"><img src="http://images.footballfancast.com.s3.amazonaws.com/section_banners/150px/banners_tv.jpg" alt="Football On TV" height="45" width="150" /></a>
+</div>
+
+<div class="clearer" style="width: 40px; height: 20px;"></div>
+
+
+</div><!-- end arrowlistmenu -->
+
+
+
+
+
+<div style="width: 160px; float: right;">
+
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_SKY");
+</script>
+
+<div style="height:10px;"></div>
+
+
+</div>
+<div style="width: 130px; float: left; padding: 0;">
+
+<div class="arrowlistmenu">
+
+
+
+
+<h3 class="grey_title" style="margin:0;">Weekly Poll</h3>
+<div class="tabbox2">
+<div id="polls-283" class="wp-polls">
+	<form id="polls_form_283" class="wp-polls-form" action="/international/england" method="post">
+		<p style="display: none;"><input type="hidden" name="poll_id" value="283" /></p>
+		<p class="poll_question"><a href="/poll/283" rel="283"><strong>Are Liverpool fans happy with Rodgers appointment?</strong></a></p><div id="polls-283-ans" class="wp-polls-ans">
+		<input type="radio" id="poll-answer-1452" name="poll_283" value="1452" /> <label for="poll-answer-1452">Definitely</label><br />
+		<input type="radio" id="poll-answer-1453" name="poll_283" value="1453" /> <label for="poll-answer-1453">Not at all</label><br />
+		<p><input type="button" name="vote" value="   Vote   " class="Buttons" onclick="poll_vote(283);" /></p><p><a href="#ViewPollResults" onclick="poll_result(283); return false;" title="View Results Of This Poll">View Results</a></p></div>
+	</form>
+</div>
+<p><a href="http://www.footballfancast.com/fan-polls">Polls Archive</a></p> 
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+<h3 class="grey_title" style="margin:0;">Popular Searches</h3>
+<div class="tabbox2">
+  <ul>
+    <li><a href="http://www.footballfancast.com/2012/06/football-news/arsenal-left-waiting-as-frenchman-puts-transfer-talks-on-hold" title="arsenal">arsenal</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/premiership/arsenals-12-8m-bid-on-hold-wenger-face-transfer-battle-for-french-ace-best-of-afc" title="arsenal">arsenal</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/premiership/arsenals-12-8m-bid-on-hold-wenger-face-transfer-battle-for-french-ace-best-of-afc" title="arsenal transfer">arsenal transfer</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/football-news/manchester-city-line-up-triple-transfer-swoop" title="manchester city">manchester city</a></li>
+    <li><a href="http://www.footballfancast.com/2012/06/premiership/blues-look-to-hijack-fergies-6m-move-united-face-transfer-battle-for-spaniard-best-of-mufc" title="manchester united transfer">manchester united transfer</a></li>
+  </ul>
+</div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+
+
+
+</div></div>
+
+<div class="clearer" style="height: 10px;"></div>
+
+</div>
+</div><!-- end NAV -->
+<div class="clearer"></div>
+
+
+<!--86 queries--><div class="clearer">&nbsp;</div>
+</div><!-- end RAP Inner -->
+</div><!-- end RAP -->
+
+<!-- betting strip -->
+<div style="width: 1000px; background: #cccccc; padding: 5px 0; margin: 0 auto;">
+<div style="width: 728px; background: #cccccc; margin: 0 auto;">
+
+<!-- FootballFancast_ROS_LDB2 -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_ROS_LDB2");
+</script>
+
+</div></div>
+
+<div id="wide_footer"><div id="inner_wide_footer">
+<div class="clearer"></div>
+
+<div id="footer">
+
+<p><a href="/about-us">About Us</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/contact-us">Contact Us</a> &nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/advertise">Advertise</a> &nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/faqs">FAQ's</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/privacy-policy">Privacy Statement</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/terms-and-conditions">Terms &amp; Conditions</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="/football-forum-rules">Forum Rules</a>&nbsp;&nbsp;|
+        &nbsp;&nbsp;<a href="http://www.footballfancast.com/feed/rss">RSS Feed</a></p>
+
+<p>&copy; 2012 <a href="/">FootballFanCast.com</a> | &copy; 2012 <a href="http://www.snack-media.com" target="_blank">Snack Media Ltd</a> <span id="star">*</span></p>
+
+<div class="clearer" style="height: 10px;"></div>
+</div><!-- end FOOTER -->
+</div></div>
+<div id="wp-admin-bar"><div class="padder"><ul class="main-nav"><li class="vip_logo" id="ffc_vip_logo"><a href="/vip-lounge/"><img src="http://www.footballfancast.com/wp-content/themes/ffc-theme/images/FFC-VIP.png" /></a></li>  
+<li class="admin-bar-login" id="ffc-admin-bar-login">
+<table cellspacing="0" cellpadding="0" align="right"><tbody><tr>
+<td style="height:18px;line-height:18px;"><a class="login" href="http://www.footballfancast.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.footballfancast.com">Login</a> | <a href="http://www.footballfancast.com/wp-login.php?action=register">Register</a></td>
+</tr></tbody></table></li>        
+  </ul></div></div><!-- #wp-admin-bar -->
+
+
+<!-- Generated in 4.603 seconds. -->
+
+	<script type='text/javascript' src='http://w.sharethis.com/button/buttons.js?ver=3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.footballfancast.com\/wp-content\/plugins\/wp-polls\/wp-polls.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"0","show_fading":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.footballfancast.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.50'></script>
+
+
+
+
+<!-- FootballFancast_FoxPop -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_FoxPop");
+</script>
+
+
+
+<!--86 queries-->
+<script type='text/javascript'>
+GA_googleFillSlot("Budwiser_Test_1x1");
+</script>
+
+<!-- FootballFancast_Overlay -->
+<script type='text/javascript'>
+GA_googleFillSlot("FootballFancast_Overlay");
+</script>
+
+
+
+</body>
+</html>
+<!-- Dynamic page generated in 4.596 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-06-07 01:22:10 -->
+<!-- Compression = gzip -->

@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base href="http://www.zawatzky.de/cms/" />
+    <title>mobilcenter Zawatzky » Ihr Spezialist für Behindertenfahrzeuge und Fahrhilfen | Behindertenfahrzeuge, Fahrzeugumbauten, Behindertenfahrschule</title>
+
+    <meta name="author" content="Bernd Schulz" />
+    <meta name="publisher" content="mobilcenter Zawatzky GmbH" />
+    <meta name="distribution" content="global" />
+    <meta name="Language" content="de, German , Deutsch , at , ch , es" />
+    <meta name="ABSTRACT" content="Behindertenfahrzeuge, Fahrzeugumbauten" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="robots" content="index,follow" /> 
+    <meta name="description" content="Ihr Spezialist für Behindertenfahrzeuge und Fahrhilfen" />
+    <meta name="keywords" content="Behindertenfahrzeuge, Fahrzeugumbauten, Kräftemessung, Behindertenfahrschule, CenterVan, Rollstuhltransport, Behindertentransport, Bewegungseinschränkung, Fußlenkung, Fahrschule, Fahrzeugumbauer, Umbau für Behinderte" />
+    <meta name="google-site-verification" content="YrCW9xzETnr7E33e5U9Ws6SzGSVxNnNREQp8zkyGbNo" />
+
+    <link href="css/style.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="css/forms.css" rel="stylesheet" media="screen" type="text/css" />
+    <link href="css/print.css" rel="stylesheet" media="print" type="text/css" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+    <script type="text/javascript" src="js/lib/prototype.js"></script>
+    <script type="text/javascript" src="js/src/scriptaculous.js?load=effects"></script>
+    <style type="text/css" media="screen">
+        @import url(gallerystyle/mygallery.css);
+    </style>
+    <script type="text/javascript">
+        var fileLoadingImage = 'gallerystyle/loading.gif';
+        var fileBottomNavCloseImage = 'gallerystyle/closelabel.gif';
+    </script>
+    <script type="text/javascript" src="gallerystyle/lightbox.js"></script>
+    <style type="text/css" media="screen">
+        @import url(gallerystyle/lightbox.css);
+    </style>
+       
+    <script type="text/javascript" src="js/forms.js"></script>
+    
+   
+    <script  type="text/javascript" src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAbYiqSSh-SIVKpsdf90p5PRSLL0b0gwP-cWl2mq4l3Og4mEBUlxS6woEV37cGVIfK4uLDnrT_-p9HDA"></script>
+
+<meta name="generator" content="CMS Contenido 4.8" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-1" />
+<meta name="date" content="2012-04-16 10:01:07" />
+
+</head><body onload="load()" onunload="GUnload()"><!-- ## Schnellanfrage ## -->
+<div id="schnell" style="display:none;">
+
+    <div class="padder">
+    
+        <div id="adressen">
+        
+        <a href="#" class="anfrageschliessen" onclick="Effect.toggle('schnell', 'blind',{ duration: 0.5 }); return false;"><img src="images/close.gif" title="Formular schließen" alt="Formular schließen" /></a>
+
+            <address>
+                <strong>Stammhaus Meckesheim</strong><br />
+                Bemannsbruch 2 - 4<br />
+                74909 Meckesheim bei Heidelberg<br />
+                Telefon: 06226 92170
+            </address>
+            <address>
+                <strong>Niederlassung Köln</strong><br />
+                Frankfurter Str. 200<br />
+                51065 Köln - Mülheim<br />
+                Telefon: 0221 29720411
+            </address>
+        </div>        
+        <div id="schnellformular">
+        <form action="/behindertenfahrzeuge.html" method="post">
+            <input type="hidden" name="send" value="1" />
+            
+            <fieldset>
+                    <legend>Schnellanfrage</legend>
+                    <label id="sprytextfield20"><span>Name</span><input name="Name" type="text" id="Name" size="20"  class="feld" /></label>
+                    <label id="sprytextfield22"><span>E-Mail</span><input autocomplete="off" name="Email" id="Email" size="20" class="feld" type="text"></label>
+                    <span id="betreffspry">
+                    <label>
+                        <select name="ihrbetreff" id="ihrbetreff" class="txtwid">
+                            <option value="-1">- Betreff wählen -</option>
+                            <optgroup label="Fahrzeugumbau">
+                                <option value="Material">Bitte übersenden Sie mir Ihre Broschüre</option>
+                                <option value="Beratung">Ich wünsche ein Beratungsgespräch</option>
+                                <option value="Angebot">Bitte übersenden Sie uns ein Angebot</option>
+                            </optgroup>
+                            <optgroup label="Fahrschule">
+                                <option value="Material">Bitte übersenden Sie mir Ihre Broschüre</option>
+                                <option value="Beratung">Ich wünsche ein Beratungsgespräch</option>
+                                <option value="Angebot">Bitte übersenden Sie uns ein Angebot</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                    </span>
+                    <label id="sprytextfield21" style="width:130px;"><span>Telefonnummer</span><input style="width:130px;" autocomplete="off" name="Telefon" id="Telefon" size="20" class="feld" type="text"></label>
+                    <label class="rueckruf" style="width:125px;float:right;position:relative;right:38px;top:0"><input name="Rueckruf" id="Rueckruf" value="ja bitte" type="checkbox"> Bitte um Rückruf</label>
+                    <br style="clear:both" />
+                    <label><span>Ihre Nachricht</span><textarea style="height:62px;" name="Nachricht" id="Nachricht" cols="45" rows="5" class="textfeld"></textarea></label>
+                    <br style="clear:both" />
+                    <!--<img src="http://www.zawatzky.de/contenido/includes/rechen-captcha.php" style="position:relative;left:0;top:3px;"><input style="position:relative;top:-4px;left:4px;" type="text" name="sicherheitscode" size="5">
+                    <br style="clear:both;margin-bottom:3px;" />-->
+                    
+                    <img id="captcha" src="http://www.zawatzky.de/contenido/includes/securimage/securimage_show.php" alt="CAPTCHA Image" /><input type="text" name="captcha_code" size="10" maxlength="6" style="position:relative;top:-8px;" />
+   <a href="#" onclick="document.getElementById('captcha').src = 'http://www.zawatzky.de/contenido/includes/securimage/securimage_show.php?' + Math.random(); return false" class="button" style="position:relative;top:-8px;">Neu laden</a>
+                    <br />
+                    
+                    <div style="margin-top:5px;"><input type="reset" value="zurücksetzen" class="button" />&nbsp;&nbsp;<input type="submit" value="Anfrage absenden" class="button" /></div>
+                    <div class="unterlagen"><a href="/kontakt/anfrageformular/index.html">» Unterlagen anfordern?</a></div>
+            </fieldset>
+            <input type="hidden" name="Zielseite" value="/behindertenfahrzeuge.html" />
+        </form>
+        <script type="text/javascript">
+        <!--
+            var sprytextfield20 = new Spry.Widget.ValidationTextField("sprytextfield20", "none", { hint:"Ihr Name", minChars:7, maxChars:100} );
+            var sprytextfield21 = new Spry.Widget.ValidationTextField("sprytextfield21", "none", { hint:"Telefonnummer", minChars:8, maxChars:100, isRequired:true} );
+            var betreffspry = new Spry.Widget.ValidationSelect("betreffspry", {invalidValue:"-1", isRequired:false});
+            var sprytextfield22 = new Spry.Widget.ValidationTextField("sprytextfield22" , "email", {hint:"E-Mail", minChars:5, maxChars:100,isRequired:false });
+           
+            
+        
+//-->
+        </script>
+        </div>
+    </div>
+</div><div id="page">
+<div id="fixform">
+<ul id="metanavi">
+    <li class="homeon"><a href="/behindertenfahrzeuge.html">Startseite</a></li>
+    <li class="schnellbutton"><a href="/kontakt/index.html" onmouseover="Effect.toggle('schnell', 'blind',{ duration: 0.5 }); return false;"><span>Schnellanfrage</span></a></li>
+</ul>
+<div id="sprache_suche">
+<ul>
+    <li><a href="/?changelang=4"><img src="images/uk.png" alt="english" title="english" /> english</a></li>
+    <li>&nbsp&nbsp;|&nbsp;&nbsp;</li>
+        <li><a href="/begriffsuebersicht.html"><b>Begriffsübersicht</b></a></li>
+    <li>&nbsp&nbsp;|&nbsp;&nbsp;</li>
+        <li><a href="/volltextsuche.html"><b>Suche</b></a></li>
+    <li>&nbsp&nbsp;|&nbsp;&nbsp;</li>
+    <li><a href="javascript:window.print()">Seite drucken</a></li>
+</ul>
+</div>
+</div>
+<div id="kopf"><div id="facebook"><a href="http://www.facebook.com/pages/Mobilcenter-Zawatzky/172459549451569" target="_blank"><img src="images/button_facebook.png" alt="Facebook" /></a></div><h1><a href="/behindertenfahrzeuge.html"><img src="images/logo-mobilcenter_zawatzky.png" alt="mobilcenter Zawatzky" width="250" height="97" /></a></h1>
+<ul id="topnavi"><li><a href="/unternehmen/index.html" title="Unternehmen" class=""><span>Unternehmen</span></a></li><li><a href="/fahrzeugumbauten/index.html" title="Fahrzeugumbauten" class=""><span>Fahrzeugumbauten</span></a></li><li><a href="/service/index.html" title="Service" class=""><span>Service</span></a></li><li><a href="/fahrschule-fuer-menschen-mit-behinderung/index.html" title="Fahrschule" class=""><span>Fahrschule</span></a></li><li><a href="/kontakt/index.html" title="Kontakt" class=""><span>Kontakt</span></a></li></ul><br /></div><div id="emopic" style="background:url(http://www.zawatzky.de/cms/upload/bildstreifen/weitesland.jpg) repeat-x top center; height:250px"><div class="streifentext"><span></span></div></div><div id="separator"><div id="spalter"><div id="right"><div class="spmodul standort">
+    <h3><a href="/kontakt/index.html" title="Standorte Zawatzky">Zawatzky vor Ort</a></h3>
+        
+       
+        <div id="box_standorte">
+            <a href="/kontakt/index.html" class="karte"></a>     
+            <ul id="liste_standorte">    
+                <li><a href="http://www.zawatzky.de/unternehmen/standort-koeln/index.html" title="Standort Köln">Niederlassung<br />Köln</a></li>
+                <li><a href="http://www.zawatzky.de/unternehmen/standort-meckesheim/index.html" title="Standort Meckesheim">Stammhaus<br />Meckesheim</a></li>
+            </ul>
+        </div>
+</div>
+<div class="spacer"></div>
+
+<div class="spmodul newsb">
+<h3><a href="/unternehmen/aktuelle-meldungen/index.html">Aktuelle Meldungen</a></h3>
+<div class="content"><ul>
+
+	<li><a href="/unternehmen/aktuelle-meldungen/zawatzky-feierte-50ig-jaehriges-jubilaeum.html">Zawatzky feierte 50 jähriges Jubiläum</a></li>
+
+	<li><a href="/unternehmen/aktuelle-meldungen/suchen-mitarbeiter-im-verkauf.html">Wir suchen Verstärkung</a></li>
+
+</ul></div></div><div class="spacer"></div><div class="spmodul termb">
+<h3><a href="/service/veranstaltungen/index.html">Aktuelle Veranstaltungen</a></h3>
+<div class="content"><ul>
+
+	<li><a href="/service/veranstaltungen/hausmesse-2012-in-koeln.html"><strong>Samstag, 12. Mai 2012</strong><br/><u>Hausmesse in Köln zum 50 jährigen Jubiläum</u></a></li>
+
+	<li><a href="/service/veranstaltungen/fahrsicherheitstraining-im-motordrom-von-hockenheim-2012.html"><strong>Samstag, 22. September 2012</strong><br/><u> Fahrsicherheitstraining im Motodrom von Hockenheim</u></a></li>
+
+</ul></div></div><div class="spacer"></div>
+
+
+                    </div><div id="crump"><h5 class="weiss">
+Sie befinden sich hier: <a href="/index.html">Startseite</a> » </h5></div>
+</div></div><div id="inhalte"><div class="padder">
+
+    <h2 class="shead">Ihr Spezialist für Behindertenfahrzeuge und Fahrhilfen</h2>
+    
+
+<div id="startblock">    
+    <div id="stb3">
+                <div class="pdr">
+<div id="highlightpic" style="background:url(upload/highlightbox/joysteer_2-Wege-joystick_2.jpg) no-repeat top center;">
+    <a class="highlink" href="/fahrzeugumbauten/lenkung/joysteer-lenksystem/joysteer.html?changelang=1">
+        <span class="highlighttext" style="width:390px;">Joysteer – Elektronische Lenkung
+mit einem Joystick</span>
+     </a>
+</div>
+</div>
+
+    </div>
+    <div id="stb1"><div class="pdr"><div class="startvideobox"><iframe width="250" height="199" src="http://www.youtube.com/embed/qrFxrISv-CQ" frameborder="0" allowfullscreen></iframe></div></div></div>
+    <div id="stb2">
+                <div class="pdr"><div id="gebrauchtwagenteaser">
+<h3><a href="/service/behindertenfahrzeuge-gebraucht/index.html">Umgebaute Gebrauchtwagen</a></h3>
+
+    
+    <h4><a href="/service/behindertenfahrzeuge-gebraucht/passivfahrer-mitfahrer/81-chrysler-voyager-heckeinstieg.html"><span class="bildchen"><img src="http://www.zawatzky.de/cms/cache/429a9e88601da971bb9f12c8d9a70ce5.jpg" width="90" height="60" alt="Article Thumb" /></span><span class="pink">» </span>#81 Chrysler Voyager Heckeinstieg</a></h4>
+    <p><a href="/service/behindertenfahrzeuge-gebraucht/passivfahrer-mitfahrer/81-chrysler-voyager-heckeinstieg.html">Chrysler Voyager Heckeinstieg</a></p>
+
+    <img src="images/gradbox.png" class="blender" alt="" />
+    
+
+</div></div>
+    </div>
+</div>
+
+
+    <p>Das Mobilcenter Zawatzky besteht seit 50 Jahren als <strong>Fahrzeugumbauer</strong>
+ und Spezialist f&uuml;r <strong>Fahrzeuganpassungen</strong>, <strong>Behindertenumbauten</strong>
+ und <strong>Fahrzeugumbauten</strong>. <br />Von der elektronischen Joystick-Lenkung (Drive by Wire) bis zur Pedalverl&auml;ngerung, vom Schwenksitz bis zur <a href="/fahrschule/behindertenfahrschule/behindertenfahrschule.html"><strong>Behindertenfahrschule</strong></a> - wir
+ decken das gesamte Spektrum zur Mobilit&auml;t eines Menschen mit 
+Behinderung ab. Auch f&uuml;r die &auml;lter werdenden Autofahrer haben wir bei Bewegungseinschr&auml;nkungen komfortable L&ouml;sungen. Rufen Sie an und nutzen unserer Beratung. Pers&ouml;nlich stehen wir in K&ouml;ln und Meckesheim zu Ihrer Verf&uuml;gung.&nbsp; </p>
+
+</div></div></div><hr class="trenner" /><div id="footer"><div class="padder"><p class="copy">
+    © 2001-2012 Mobilcenter Zawatzky GmbH
+    <span class="printer"><br />Bemannsbruch 2-4 • 74909 Meckesheim • Fon: 06226-92170 • Fax: 06226-921792 • www.mobilcenter.de</span>
+    </p>  
+
+<p class="abschluss">
+    <a href="/service/behindertenfahrzeuge-gebraucht/index.html"><strong>Behindertenfahrzeuge</strong></a>, 
+    <a href="/fahrzeugumbauten/fahrzeugkomplett-und-teilumbauten.html"><strong>Fahrzeugteilumbauten</strong></a>, 
+    <a href="/fahrzeugumbauten/selbst-auto-fahren-im-rollstuhl/lancia-centervan/grand-voyager-behindertenfahrzeug-umbau-centervan.html"><strong>Komplettumbau</strong></a>, 
+    <a href="/fahrschule/behindertenfahrschule/index.html"><strong>Behindertenfahrschule</strong></a>
+<br />
+<span id="metas">
+    <a href="/impressum.html">Impressum</a>, 
+    <a href="/datenschutz.html">Datenschutz</a>
+</span>
+</p>
+</div></div>
+
+<script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9599751-2']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
+
+</body></html>

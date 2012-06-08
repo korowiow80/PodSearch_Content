@@ -1,0 +1,720 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Der Sonntagssoziologe  </title>
+
+<meta name="generator" content="WordPress 3.2.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://soziologe.square7.ch/wp/wp-content/themes/coffee-chick-10/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Der Sonntagssoziologe RSS Feed" href="http://soziologe.square7.ch/wp/feed/" />
+<link rel="pingback" href="http://soziologe.square7.ch/wp/xmlrpc.php" />
+
+<style type="text/css" media="screen">
+/*	To accomodate differing install paths of WordPress, images are referred only here, and not in the style.css file. If you prefer to use only CSS for colors then delete the following lines, and the image files. */
+		
+	body { background: url("http://soziologe.square7.ch/wp/wp-content/themes/coffee-chick-10/images/tile.jpg"); }	
+	#page { background: url("http://soziologe.square7.ch/wp/wp-content/themes/coffee-chick-10/images/background.jpg") repeat-y top; border: none; }
+	#header { background: url("http://soziologe.square7.ch/wp/wp-content/themes/coffee-chick-10/images/header.jpg") no-repeat bottom center; }
+	#footer { background: url("http://soziologe.square7.ch/wp/wp-content/themes/coffee-chick-10/images/footer.jpg") no-repeat bottom; border: none;}
+
+/*	If you don't want to use the template's images, you can also delete the following two lines. */
+		
+	#header 	{ height: 200px; width: 760px; }
+	#header-image 	{ height: 200px; width: 760px; } 
+
+/* 	To ease the insertion of a personal header image, just simply drop in an image called 'header.jpg' into your /images/ directory. Dimensions should be at least 760px x 200px. Anything above that will be cropped off. */
+</style>
+
+<link rel='stylesheet' id='wp-polls-css'  href='http://soziologe.square7.ch/wp/wp-content/plugins/wp-polls/polls-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://soziologe.square7.ch/wp/wp-content/plugins/podpress/podpress.css?ver=3.2.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://soziologe.square7.ch/wp/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"E5E5E5", text:"333333", leftbg:"CCCCCC", lefticon:"333333", volslider:"666666", voltrack:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", righticon:"333333", righticonhover:"FFFFFF", loader:"009900", track:"FFFFFF", border:"CCCCCC", tracker:"DDDDDD", skip:"666666", slider:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://soziologe.square7.ch/wp/";
+var podPressBackendURL = "http://soziologe.square7.ch/wp/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://soziologe.square7.ch/wp/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://soziologe.square7.ch/wp/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=3.2.1'></script>
+<script type='text/javascript' src='http://soziologe.square7.ch/wp/wp-content/plugins/podpress/js/podpress.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://soziologe.square7.ch/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://soziologe.square7.ch/wp/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Der Sonntagssoziologe' href='http://soziologe.square7.ch/wp/' />
+<meta name="generator" content="WordPress 3.2.1" />
+<!-- WALL= --><script type="text/javascript">
+function limitChars(textid, limit, infodiv)
+{
+	var text = jQuery('#'+textid).val();	
+	var textlength = text.length;
+	if(textlength > limit)
+	{
+		jQuery('#' + infodiv).html('Du kannst nicht mehr als '+limit+' Zeichen verwenden!');
+		jQuery('#'+textid).val(text.substr(0,limit));
+		return false;
+	}
+	else
+	{
+		jQuery('#' + infodiv).html('Du hast noch '+ (limit - textlength) +' Zeichen frei.');
+		return true;
+	}
+}
+function displayVals() {
+      var t3 = jQuery("#t3").val();
+      var amount = jQuery("#amount").val();
+      if(t3 != 0){
+	    jQuery('#a3').val(amount);
+	    jQuery('#p3').val(1);
+		jQuery('#cmd').val('_xclick-subscriptions')
+	  }else{
+	  	jQuery('#a3').val(0);
+	  	jQuery('#p3').val(0);
+	  	jQuery('#cmd').val('_donations');
+	  }
+	  if( !t3 ) jQuery('#cmd').val('_donations');
+	  
+}
+
+jQuery(function(){
+ 	jQuery('#donor_comment').keyup(function(){
+ 		limitChars('donor_comment', 199, 'charinfo');
+ 	})
+
+ 	jQuery("#amount").change(displayVals);
+ 	jQuery("#t3").change(displayVals);
+ 	displayVals();
+ 	
+ 	var WallOps1 = '<p class="show_onwall" id="wallops"><input type="hidden" name="item_number" value="0:0" /></p>';
+ 	var WallOps2 = '<p class="show_onwall" id="wallops"><label for="show_onwall">Auf Spenderliste anzeigen:</label><br /><select name="item_number"><option value="1:0">Spendensumme, Benutzerdetails &amp; Kommentar</option><option value="2:0">Nur Benutzerdetails &amp; Kommentar</option></select></p>';
+
+ 	if( jQuery('#recognize').is(':checked') == false){ 
+ 		jQuery('#wallinfo').hide();
+ 		jQuery("#wallops").html(WallOps1);
+ 	}
+ 	
+ 	jQuery("#recognize").click(function(){
+ 		jQuery("#wallinfo").toggle('slow');
+ 		if(jQuery('#wallops input').val() == '0:0'){ 
+ 			jQuery("#wallops").html(WallOps2);
+ 		}else{
+ 			jQuery("#wallops").html(WallOps1);
+ 		}
+ 	})
+ 	
+		
+});
+
+</script>
+        
+			<link rel="stylesheet" type="text/css" href="http://soziologe.square7.ch/wp/index.php?ak_action=aktt_css&v=2.4" />
+			<script type="text/javascript" src="http://soziologe.square7.ch/wp/index.php?ak_action=aktt_js&v=2.4"></script>
+		<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://soziologe.square7.ch/wp/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://soziologe.square7.ch/wp/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"E5E5E5", text:"333333", leftbg:"CCCCCC", lefticon:"333333", volslider:"666666", voltrack:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", righticon:"333333", righticonhover:"FFFFFF", loader:"009900", track:"FFFFFF", border:"CCCCCC", tracker:"DDDDDD", skip:"666666", slider:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://soziologe.square7.ch/wp/";
+var podPressBackendURL = "http://soziologe.square7.ch/wp/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+		<link rel="stylesheet" href="http://soziologe.square7.ch/wp/wp-content/plugins/nktagcloud/css/page.css?v=0.9.0" type="text/css" media="all" /> 
+<link rel="alternate" type="application/rss+xml" title="Der Sonntagssoziologe &#187; Podcast Feed" href="http://soziologe.square7.ch/wp/feed/podcast/" />
+</head>
+<body><script type="text/javascript" src="http://www.bplaced.net/pub/bpa.js"></script>
+<div id="page">
+
+
+<div id="header">
+	<div id="header-image">
+		<h1><a href="http://soziologe.square7.ch/wp/">Der Sonntagssoziologe</a></h1>
+		<div class="description">&#8230;&#8230;&#8230;&#8230;. Interviews über Mensch und Gesellschaft</div>
+	</div>
+</div>
+<hr />
+
+	<div id="content" class="layout">
+
+			
+						
+			<div class="post" id="post-3295">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/05/sendepause-bis-juli/" rel="bookmark" title="Permanent Link to Sendepause bis Juli">Sendepause bis Juli</a></h2>
+				<small>Mai 9th, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p style="text-align: justify;">Vor dem Sommerloch kommt die Frühjahrsmüdigkeit. Auch bei Soziologen und Soziologinnen. Darum gehen wir jetzt in Frühjahresputzpause. Die nächste Podcastfolge hört Ihr dann wieder am 1. Juli.</p>
+<p><img class="alignleft" src="http://www7.pic-upload.de/09.05.12/ngw7nsuylag.jpg" alt="" width="264" height="210" /></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F05%2Fsendepause-bis-juli%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3295&amp;md5=0c8eac931f1d55ac93c7cce52b19a8d8" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/blog/" title="Alle Artikel in Ankündigungen ansehen" rel="category tag">Ankündigungen</a> |   <a href="http://soziologe.square7.ch/wp/2012/05/sendepause-bis-juli/#respond" title="Kommentiere Sendepause bis Juli">No Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-3284">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/05/bob-der-baumeister-und-der-moderne-kapitalismus/" rel="bookmark" title="Permanent Link to Bob der Baumeister und der moderne Kapitalismus">Bob der Baumeister und der moderne Kapitalismus</a></h2>
+				<small>Mai 1st, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><img class="alignnone" src="http://www7.pic-upload.de/01.05.12/zhyoloipjdg.jpg" alt="" width="263" height="199" /></p>
+<p style="text-align: justify;">Mein <del>sonntagssozialistischer</del> sonntagssoziologischer Beitrag zum 1. Mai, dem Tag der Arbeit. Bob der Baumeister aus der gleichnahmigen Kinderserie ist ja selbständiger Unternehmer, immer tatkräftig und das ist auch gut so. Wikipedia schreibt:</p>
+<blockquote>
+<p style="text-align: justify;">Dabei stehen Konfliktauflösung, Teamarbeit, soziales Verhalten und verschiedene Lernfähigkeiten im Vordergrund. Die Vermittlung dieser Kompetenzen geschieht durch Geschichten vom Reparieren, Bauen, Baggern, Malern, Klempnern bis hin zum Gartenbau. Bob und sein Team sind immer zur Stelle, wenn sie gebraucht werden.</p>
+</blockquote>
+<p style="text-align: justify;">Bob vermittelt das sehr gut, er packt an, er organisiert, ruft er „Can we fix it?“, rufen alle zurück: „Yes we can!“, inclusive Obama. Doch nun zu meinem Problem: Was ist mit seinen anthropomorphen sprechenden Maschinen? Haben die eine Wahl? Schließlich sind die als Arbeitsmaschinen konstruiert. Können die der sprechende Bagger Buddel und der Betonmischer Mixie einfach auf Büroangestellte umschulen? Die Aussichten auf eine Arbeitsstelle wären doch ziemlich schlecht. Wie soll ein Bagger bei seiner Grobmotorik einen PC bedienen? In Folge 24 &#8221; Wie kommt Bob da wieder runter?&#8221;, wird das Problem ab Minute 2:23 ganz offensichtlich, als der unter Höhenangst leidende Kran Heppo seinem Chef Bob einen Werkzeugkasten hinaufreichen soll. An der ganzen Karosserie zitternd wimmert er: &#8220;ich mag es doch nunmal nicht, wenn irgendwas so hoch oben ist.&#8221; In Minute 3:22 beginnt er sogar zu weinen. Eine Umschulung wäre hier wirklich angebracht. Doch was soll ein Kran anderes tun als Dinge hochheben? Er könnte vielleicht noch als Lastenzieher arbeiten, doch dafür gibt es weit qualifiziertere Mitbewerber auf dem Arbeitsmarkt.</p>
+<p style="text-align: justify;">Bob der Baumeister vermittelt pädagogisch vor allem eines: <a href="http://soziologe.square7.ch/wp/2012/03/max-weber-kapitalismus-und-protestantische-ethik/">Max Webers These vom modernen Berufsmenschen</a>, dessen ganze Existenz und Daseinssinn über seine Arbeit definiert wird.Zugleich werden Klassengegensätze verfestigt, du bist, was du bist, Prolet, daran kannst du nichts ändern! Könnte der Betonmischer Mixie selbst Unternehmer werden? Wohl kaum, er würde schließlich alles durcheinander schütteln. Nun könnte man entgegnen, es können halt nicht alle Menschen Unternehmer werden, manchne fehlt dazu einfach das Talent. Aber hier kann Mixie deshalb nicht Unternehmer werden, weil er duch sein ganzes Sein als Betonmischmaschine bereits durch und durch als Proletarier konzipiert ist. die gesellschaftliche Ausdifferenzierung der Arbeitsteilung ist in der Fernsehserie nicht nur in horizontal im Sinne &#8220;Ich mische Beton und du buddelst Löcher!&#8221; ins Extrem übersteigert, auch vertikal als &#8220;Ich bin Kapitalist und du Prolet&#8221; maximal determiniert.</p>
+<p style="text-align: justify;">Wie würde eine 1. Mai-Folge von Bob dem Baumeister aussehen? Bagger Buddel würde mit der roten Fahne wehen und zur gesellschaftlichen Umwäzung aufrufen mit: „Can we fix it?“ und alle riefen zurück: &#8220;Yes we can&#8230;but How and When?&#8221;</p>
+<p><iframe src="http://www.youtube.com/embed/6BZjCx64Nqg" frameborder="0" width="320" height="230"></iframe></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F05%2Fbob-der-baumeister-und-der-moderne-kapitalismus%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3284&amp;md5=ee6169205e18e1a61ff28010f95a540b" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/gewalt-disziplinen/" title="Alle Artikel in --- Gewalt, Ungleichheit ansehen" rel="category tag">--- Gewalt, Ungleichheit</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/wirtschaft/" title="Alle Artikel in --- Wirtschaft ansehen" rel="category tag">--- Wirtschaft</a>, <a href="http://soziologe.square7.ch/wp/category/blog/" title="Alle Artikel in Ankündigungen ansehen" rel="category tag">Ankündigungen</a> |   <a href="http://soziologe.square7.ch/wp/2012/05/bob-der-baumeister-und-der-moderne-kapitalismus/#comments" title="Kommentiere Bob der Baumeister und der moderne Kapitalismus">2 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-3278">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/04/darwin-freud-und-max-weber/" rel="bookmark" title="Permanent Link to Darwin, Freud und Max Weber">Darwin, Freud und Max Weber</a></h2>
+				<small>April 21st, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><iframe src="http://www.youtube.com/embed/R_qlkhJ6qvY" frameborder="0" width="330" height="230"></iframe></p>
+<p style="text-align: justify;">Die letzten zwei Folgen hatten wir es mit <a href="http://soziologe.square7.ch/wp/2012/03/max-weber-kapitalismus-und-protestantische-ethik/">Max Weber</a> zu tun, doch aller guten Weber sind drei. In der Sendereihe &#8220;<a href="http://www.br.de/fernsehen/br-alpha/sendungen/denker-des-abendlandes/denker-des-abendlandes102.html">Denker des Abendlandes</a>&#8221; unterhalten sich der Physiker Harald Lesch und der Philosoph Wilhelm Vossenkuhl in leicht verständlicher Weise das geistige Erbe Europas. In diesem dreht es sich ab Minute 21:00 wiederum um Max Weber.</p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F04%2Fdarwin-freud-und-max-weber%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3278&amp;md5=c22dcac09c681edf65837c0cb1edc628" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/religion/" title="Alle Artikel in --- Religion ansehen" rel="category tag">--- Religion</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/theorien/" title="Alle Artikel in --- Soziologische Klassiker ansehen" rel="category tag">--- Soziologische Klassiker</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/wirtschaft/" title="Alle Artikel in --- Wirtschaft ansehen" rel="category tag">--- Wirtschaft</a>, <a href="http://soziologe.square7.ch/wp/category/psychologie-gehirn/" title="Alle Artikel in Psychologie ansehen" rel="category tag">Psychologie</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/" title="Alle Artikel in Soziologie ansehen" rel="category tag">Soziologie</a>, <a href="http://soziologe.square7.ch/wp/category/videos/" title="Alle Artikel in Videos ansehen" rel="category tag">Videos</a> |   <a href="http://soziologe.square7.ch/wp/2012/04/darwin-freud-und-max-weber/#respond" title="Kommentiere Darwin, Freud und Max Weber">No Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-3138">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/04/kleine-fruhgeschichte-der-soziologie/" rel="bookmark" title="Permanent Link to Kleine Frühgeschichte der Soziologie">Kleine Frühgeschichte der Soziologie</a></h2>
+				<small>April 12th, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><img src="http://desmond.imageshack.us/Himg194/scaled.php?server=194&amp;filename=soziologischefruehgesch.png&amp;res=landing" alt="" /></p>
+<p style="text-align: justify;">Soziologisches Hörhäppchen: Im Galopp durch Frühgeschichte der Soziologie: Darüber, was die Gesellschaft im Innersten zusammenhält. Von Aristoteles, Thomas Hobbes, Adam Smith, Karl Marx, Auguste Comte, Emilé Durkheim, Max Weber bis George Herbert Mead. Über Gesellschaft und Staatstheorie, Vernunft und Aufklärung, Rational Choice, Sozialphysik, Positivismus, Funktionalismus, Sozialisierung und kapitalistische Klassengesellschaft.</p>
+<p style="text-align: justify;"><span style="color: #ff0000;">Korrektur: Auguste Comté lebte natürlich im 19. und nicht im 18. Jahrhundert. (Danke Nicolas, der dne Fehler bemerkte).</span></p>
+<pre>Musik unter Creative Commons Licence
+Walter Mazzaccaro: "Amadeus in Jazz"
+Kevin MacLeod: "Wallpaper"
+Introsprecher: Tobias Diakow</pre>
+<p><img src="../../wpbilder/fsk_leicht.png" alt="" /></p>
+<p><cite>Nicolas</cite></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F04%2Fkleine-fruhgeschichte-der-soziologie%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_1"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"><a href="http://sonntagssoziologe.podspot.de/files/soso_fruehgeschichte.mp3" target="new" title="Download: Fr&uuml;hgeschichte der Soziologie"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon" alt="" /></a> <span class="podpress_mediafile_title">Fr&uuml;hgeschichte der Soziologie</span> <span class="podpress_mediafile_dursize">[ 7:14 | 3.96 MB ]</span> <a href="#podPressPlayerSpace_1" onclick="javascript:podPressShowHidePlayer('1', 'http://sonntagssoziologe.podspot.de/files/soso_fruehgeschichte.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Fr&uuml;hgeschichte der Soziologie', 'René Lehnert'); return false;"><span id="podPressPlayerSpace_1_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_1_OrigURL" value="http://sonntagssoziologe.podspot.de/files/soso_fruehgeschichte.mp3" /> | <a href="#podPressPlayerSpace_1" onclick="javascript:podPressPopupPlayer('1', 'http://sonntagssoziologe.podspot.de/files/soso_fruehgeschichte.mp3', 290, 24, 'Der Sonntagssoziologe', '3138', 'Fr&uuml;hgeschichte der Soziologie', 'René Lehnert'); return false;">Play in Popup</a> | <a href="http://sonntagssoziologe.podspot.de/files/soso_fruehgeschichte.mp3" target="new">Download</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('1', 'http://sonntagssoziologe.podspot.de/files/soso_fruehgeschichte.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Fr&uuml;hgeschichte der Soziologie', 'René Lehnert');
+-->
+</script>
+<!-- End: podPress -->
+<p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3138&amp;md5=159eb289c6c0ea76dd6122cfc8186556" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/hoerhaeppchen/" title="Alle Artikel in -- Soziologisches Hörhäppchen ansehen" rel="category tag">-- Soziologisches Hörhäppchen</a>, <a href="http://soziologe.square7.ch/wp/category/anspruch/leicht/" title="Alle Artikel in --- leicht verständlich ansehen" rel="category tag">--- leicht verständlich</a>, <a href="http://soziologe.square7.ch/wp/category/philosophie/philosophieklassiker/" title="Alle Artikel in --- Philosophische Klassiker ansehen" rel="category tag">--- Philosophische Klassiker</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/theorien/" title="Alle Artikel in --- Soziologische Klassiker ansehen" rel="category tag">--- Soziologische Klassiker</a> |   <a href="http://soziologe.square7.ch/wp/2012/04/kleine-fruhgeschichte-der-soziologie/#comments" title="Kommentiere Kleine Frühgeschichte der Soziologie">4 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-3181">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/03/max-weber-kapitalismus-und-protestantische-ethik/" rel="bookmark" title="Permanent Link to Max Weber &#8211; Kapitalismus und protestantische Ethik">Max Weber &#8211; Kapitalismus und protestantische Ethik</a></h2>
+				<small>März 23rd, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><img src="http://desmond.imageshack.us/Himg163/scaled.php?server=163&amp;filename=gquocnkij9k8.jpg&amp;res=medium" alt="" width="208" height="150" /></p>
+<p style="text-align: justify;">Wieso ist unser Lebenslauf so stark von Arbeit und Beruf geprägt? Führten die frühen Jäger- und Sammlerkulturen vielleicht ein angenehmeres Dasein als der moderne Berufsmensch? Warum werden arbeitslose Hartz 4 Empfänger und Obdachlose eines geringeren sozialen Status bedacht als mancher Kriminelle? Wieso befinden sich viele Menschen der Moderne und Postmoderne in einer Sinnkrise? Welche Rolle spielt dabei die Religion? Um diese Fragen zu beantworten, habe ich heute den Max-Weber-Experten <a href="http://www.uni-due.de/soziologie/compagna.php">Diego Compagna</a> eingeladen. Denn in Webers soziologischem Klassiker finden wir eingie interessante Antworten. Der Soziologe, Jurist und Ökonom Max Weber (1864 &#8211; 1929), wurde mit seiner Schrift <em>„Die protestantische Ethik und der Geist des Kapitalismus“</em> zum Star weit über seine Fachgrenzen hinaus. Weber gehört zu den Gründungsvätern der Soziologie und seine Theorie zur Entstehungsgeschichte des modernen Kapitalismus zu jeder ordentlichen Allgemeinbildung auch von Nicht-Soziologen. In seinem Werk stellt Weber die These auf, dass die Eigenheit des Protestantismus, seine Schäfchen zu fleißiger und lustfeindlicher Arbeit anzuspornen, dem modernen Kapitalismus erst zur Blüte getrieben und den Typus des modernen Berufsmenschen herausgebildet hat.</p>
+<pre>Musik unter Creative Commons Licence
+Walter Mazzaccaro: "Amadeus in Jazz"
+Kevin MacLeod: "Wallpaper"
+Introsprecher: Tobias Diakow</pre>
+<p><img src="../../wpbilder/fsk_leicht.png" alt="" /></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F03%2Fmax-weber-kapitalismus-und-protestantische-ethik%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_2"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"><a href="http://sonntagssoziologe.podcaster.de/download/soso_weberkapitalism.mp3" target="new" title="Download: Max Weber und der Kapitalismus"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon" alt="" /></a> <span class="podpress_mediafile_title">Max Weber und der Kapitalismus</span> <span class="podpress_mediafile_dursize">[ 37:26 | 20.41 MB ]</span> <a href="#podPressPlayerSpace_2" onclick="javascript:podPressShowHidePlayer('2', 'http://sonntagssoziologe.podcaster.de/download/soso_weberkapitalism.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Max Weber und der Kapitalismus', 'René Lehnert'); return false;"><span id="podPressPlayerSpace_2_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_2_OrigURL" value="http://sonntagssoziologe.podcaster.de/download/soso_weberkapitalism.mp3" /> | <a href="#podPressPlayerSpace_2" onclick="javascript:podPressPopupPlayer('2', 'http://sonntagssoziologe.podcaster.de/download/soso_weberkapitalism.mp3', 290, 24, 'Der Sonntagssoziologe', '3181', 'Max Weber und der Kapitalismus', 'René Lehnert'); return false;">Play in Popup</a> | <a href="http://sonntagssoziologe.podcaster.de/download/soso_weberkapitalism.mp3" target="new">Download</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('2', 'http://sonntagssoziologe.podcaster.de/download/soso_weberkapitalism.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Max Weber und der Kapitalismus', 'René Lehnert');
+-->
+</script>
+<!-- End: podPress -->
+<p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3181&amp;md5=e0a8cfa55a956299dfa839b14766d052" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/religion/" title="Alle Artikel in --- Religion ansehen" rel="category tag">--- Religion</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/theorien/" title="Alle Artikel in --- Soziologische Klassiker ansehen" rel="category tag">--- Soziologische Klassiker</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/wirtschaft/" title="Alle Artikel in --- Wirtschaft ansehen" rel="category tag">--- Wirtschaft</a>, <a href="http://soziologe.square7.ch/wp/category/blog/" title="Alle Artikel in Ankündigungen ansehen" rel="category tag">Ankündigungen</a>, <a href="http://soziologe.square7.ch/wp/category/interviews/" title="Alle Artikel in Interviews ansehen" rel="category tag">Interviews</a> |   <a href="http://soziologe.square7.ch/wp/2012/03/max-weber-kapitalismus-und-protestantische-ethik/#comments" title="Kommentiere Max Weber &#8211; Kapitalismus und protestantische Ethik">18 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-3221">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/03/niklas-luhmann-interview-systemtheorie/" rel="bookmark" title="Permanent Link to Niklas Luhmann Interview Systemtheorie">Niklas Luhmann Interview Systemtheorie</a></h2>
+				<small>März 11th, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p>Einstündiges Interview mit Niklas Luhmann über Systemtheorie:</p>
+<p><iframe width="330" height="230" src="http://www.youtube.com/embed/Bzq4BG9i9mA" frameborder="0" allowfullscreen></iframe></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F03%2Fniklas-luhmann-interview-systemtheorie%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3221&amp;md5=5c235f32c1767bb5b149249cd553f26b" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/internet-2/" title="Alle Artikel in --- Internet, Kommunikation ansehen" rel="category tag">--- Internet, Kommunikation</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/theorien/" title="Alle Artikel in --- Soziologische Klassiker ansehen" rel="category tag">--- Soziologische Klassiker</a>, <a href="http://soziologe.square7.ch/wp/category/videos/" title="Alle Artikel in Videos ansehen" rel="category tag">Videos</a> |   <a href="http://soziologe.square7.ch/wp/2012/03/niklas-luhmann-interview-systemtheorie/#comments" title="Kommentiere Niklas Luhmann Interview Systemtheorie">3 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-3099">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/03/das-blog-spenden-dilemma/" rel="bookmark" title="Permanent Link to Das Blog-Spenden-Dilemma">Das Blog-Spenden-Dilemma</a></h2>
+				<small>März 3rd, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="RMHB2462293EG" />
+<input type="image" name="submit" src="http://www10.pic-upload.de/01.03.12/33khmlvuw6.png" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal." /> <img src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" alt="" width="1" height="1" border="0" /></form>
+<p style="text-align: justify;">Eigentlich wollte ich mich heute mit dem Soziologen Diego Compagna über Kapitalismus und Max Weber unterhalten. die Diskussion über die Spende eines Hörers, sprengte aber alle zeitlichen Schranken, so dass wir Herrn Weber auf nächste Woche vertrösten mussten. Denn die Frage ist doch: Wenn jemand meinem Blog etwas spendet, darf ich dann anderen Blogs ebenfalls etwas spenden? Ist es nicht so, dass ich dann lediglich das Geld weiterreiche und dies an einen Blog, dessen Inhalt mein Spender vielleicht sogar ablehnt?</p>
+<pre>Musik unter Creative Commons Licence
+Walter Mazzaccaro: "Amadeus in Jazz"
+Nelson Jenstad: "Penny Here, Penny There"
+Introsprecher: Tobias Diakow</pre>
+<p><img src="http://soziologe.square7.ch/wpbilder/fsk_leicht.png" alt="" /></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F03%2Fdas-blog-spenden-dilemma%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_3"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"><a href="http://sonntagssoziologe.podspot.de/files/soso_spenden.mp3" target="new" title="Download: Das Blog-Spenden-Dilemma"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon" alt="" /></a> <span class="podpress_mediafile_title">Das Blog-Spenden-Dilemma</span> <span class="podpress_mediafile_dursize">[ 11:08 | 0.06 MB ]</span> <a href="#podPressPlayerSpace_3" onclick="javascript:podPressShowHidePlayer('3', 'http://sonntagssoziologe.podspot.de/files/soso_spenden.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Das Blog-Spenden-Dilemma', 'René Lehnert'); return false;"><span id="podPressPlayerSpace_3_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_3_OrigURL" value="http://sonntagssoziologe.podspot.de/files/soso_spenden.mp3" /> | <a href="#podPressPlayerSpace_3" onclick="javascript:podPressPopupPlayer('3', 'http://sonntagssoziologe.podspot.de/files/soso_spenden.mp3', 290, 24, 'Der Sonntagssoziologe', '3099', 'Das Blog-Spenden-Dilemma', 'René Lehnert'); return false;">Play in Popup</a> | <a href="http://sonntagssoziologe.podspot.de/files/soso_spenden.mp3" target="new">Download</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('3', 'http://sonntagssoziologe.podspot.de/files/soso_spenden.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Das Blog-Spenden-Dilemma', 'René Lehnert');
+-->
+</script>
+<!-- End: podPress -->
+<p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=3099&amp;md5=49f5acc9e67a07b6c9fc880a2ccdce01" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/philosophie/ethik/" title="Alle Artikel in --- Ethik ansehen" rel="category tag">--- Ethik</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/internet-2/" title="Alle Artikel in --- Internet, Kommunikation ansehen" rel="category tag">--- Internet, Kommunikation</a>, <a href="http://soziologe.square7.ch/wp/category/anspruch/leicht/" title="Alle Artikel in --- leicht verständlich ansehen" rel="category tag">--- leicht verständlich</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/wirtschaft/" title="Alle Artikel in --- Wirtschaft ansehen" rel="category tag">--- Wirtschaft</a>, <a href="http://soziologe.square7.ch/wp/category/interviews/" title="Alle Artikel in Interviews ansehen" rel="category tag">Interviews</a>, <a href="http://soziologe.square7.ch/wp/category/philosophie/" title="Alle Artikel in Philosophie ansehen" rel="category tag">Philosophie</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/" title="Alle Artikel in Soziologie ansehen" rel="category tag">Soziologie</a> |   <a href="http://soziologe.square7.ch/wp/2012/03/das-blog-spenden-dilemma/#comments" title="Kommentiere Das Blog-Spenden-Dilemma">2 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-2669">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/02/korperfresser-filmbesprechung/" rel="bookmark" title="Permanent Link to Körperfresser Filmsoziologie">Körperfresser Filmsoziologie</a></h2>
+				<small>Februar 26th, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><img src="http://desmond.imageshack.us/Himg263/scaled.php?server=263&amp;filename=29171.jpg&amp;res=medium" alt="Körperfresser" /></p>
+<p style="text-align: justify;">Anhand von Gruselfilmen der Körperfresser- und Körperfresserinnen-Thematik (Die Dämonischen, Die Körperfresser kommen und The Invasion) diksutieren wir heute Nacht sozialkonstruktivistische und strukturdeterministische Ansätze der Soziologie. Als Gast ist wieder der Techniksoziologe <a title="Diego Compagnas Webseite" href="http://www.uni-due.de/soziologie/compagna.php">Diego Compagna</a> dabei. Wir sprechen über Identität, fragen, was uns als Menschen ausmacht, Glück oder Sinn? Wir reden über Gefühle (auch das muss manchmal sein), über Ervin Goffman und Rollentheorie, über Strukturfunktionalismus über die Funktion von Kriminellen und Gefängnissen in unserer Gesellschaft nach Emile Durkheim.</p>
+<pre style="text-align: justify;">Musik unter Creative Commons License
+Walter Mazzaccaro "Amadeus in Jazz"
+Renadi Santoso, Marion von Tilzer, Hans van Eck und
+Mark van Kempen: "Wondering"
+Introsprecher: Tobias Diakow</pre>
+<p><img src="http://soziologe.square7.ch/wpbilder/fsk_hardcore.png" alt="" /></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F02%2Fkorperfresser-filmbesprechung%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_4"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"><a href="http://sonntagssoziologe.podcaster.de/download/soso_koerperfresser.mp3" target="new" title="Download: Die K&ouml;rperfresser kommen"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon" alt="" /></a> <span class="podpress_mediafile_title">Die K&ouml;rperfresser kommen</span> <span class="podpress_mediafile_dursize">[ 1:07:00 | 36.91 MB ]</span> <a href="#podPressPlayerSpace_4" onclick="javascript:podPressShowHidePlayer('4', 'http://sonntagssoziologe.podcaster.de/download/soso_koerperfresser.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Die K&ouml;rperfresser kommen', 'René Lehnert'); return false;"><span id="podPressPlayerSpace_4_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_4_OrigURL" value="http://sonntagssoziologe.podcaster.de/download/soso_koerperfresser.mp3" /> | <a href="#podPressPlayerSpace_4" onclick="javascript:podPressPopupPlayer('4', 'http://sonntagssoziologe.podcaster.de/download/soso_koerperfresser.mp3', 290, 24, 'Der Sonntagssoziologe', '2669', 'Die K&ouml;rperfresser kommen', 'René Lehnert'); return false;">Play in Popup</a> | <a href="http://sonntagssoziologe.podcaster.de/download/soso_koerperfresser.mp3" target="new">Download</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('4', 'http://sonntagssoziologe.podcaster.de/download/soso_koerperfresser.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Die K&ouml;rperfresser kommen', 'René Lehnert');
+-->
+</script>
+<!-- End: podPress -->
+<p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=2669&amp;md5=92eea302b4ae563c3adb878c9b297bdd" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/filmbesprechungen/" title="Alle Artikel in --- Filmsoziologie ansehen" rel="category tag">--- Filmsoziologie</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/gewalt-disziplinen/" title="Alle Artikel in --- Gewalt, Ungleichheit ansehen" rel="category tag">--- Gewalt, Ungleichheit</a>, <a href="http://soziologe.square7.ch/wp/category/anspruch/hardcore/" title="Alle Artikel in --- hardcore intellektuell ansehen" rel="category tag">--- hardcore intellektuell</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/theorien/" title="Alle Artikel in --- Soziologische Klassiker ansehen" rel="category tag">--- Soziologische Klassiker</a>, <a href="http://soziologe.square7.ch/wp/category/interviews/" title="Alle Artikel in Interviews ansehen" rel="category tag">Interviews</a> |   <a href="http://soziologe.square7.ch/wp/2012/02/korperfresser-filmbesprechung/#comments" title="Kommentiere Körperfresser Filmsoziologie">4 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-2659">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/02/filmbesprechung-the-watchmen-die-wachter/" rel="bookmark" title="Permanent Link to The Watchmen Filmbesprechung">The Watchmen Filmbesprechung</a></h2>
+				<small>Februar 19th, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><img src="http://desmond.imageshack.us/Himg3/scaled.php?server=3&amp;filename=watchmen5.jpg&amp;res=medium" alt="" width="173" height="220" /></p>
+<p style="text-align: justify;">Der Film &#8220;The Watchmen &#8211; Die Wächter&#8221; (2009) <a href="http://www.youtube.com/watch?v=R3orQKBxiEg">Trailer &gt;&gt;</a> wirft die Frage nach Gut und Böse auf, denn unklar bleibt, wer ist hier Schurke, wer ist Held? Dies versuchen wir zu klären, mit ein bisschen Psychologie und ein bißchen Immanuel Kant. Außerdem sprechen wir über Tachyonenstrahlen und ein Zeitreiseparadoxon.</p>
+<pre>Musik unter Creative Commons License
+Walter Mazzaccaro "Amadeus in Jazz"
+Introsprecher: Tobias Diakow</pre>
+<p><img src="http://soziologe.square7.ch/wpbilder/fsk_hardcore.png" alt="" /></p>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F02%2Ffilmbesprechung-the-watchmen-die-wachter%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_5"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"><a href="http://soziologe.square7.ch/audio/soso_watchmen.mp3" target="new" title="Download: The Watchmen"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon" alt="" /></a> <span class="podpress_mediafile_title">The Watchmen</span> <span class="podpress_mediafile_dursize">[ 15:17 | 0.01 MB ]</span> <a href="#podPressPlayerSpace_5" onclick="javascript:podPressShowHidePlayer('5', 'http://soziologe.square7.ch/audio/soso_watchmen.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'The Watchmen', 'René Lehnert'); return false;"><span id="podPressPlayerSpace_5_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_5_OrigURL" value="http://soziologe.square7.ch/audio/soso_watchmen.mp3" /> | <a href="#podPressPlayerSpace_5" onclick="javascript:podPressPopupPlayer('5', 'http://soziologe.square7.ch/audio/soso_watchmen.mp3', 290, 24, 'Der Sonntagssoziologe', '2659', 'The Watchmen', 'René Lehnert'); return false;">Play in Popup</a> | <a href="http://soziologe.square7.ch/audio/soso_watchmen.mp3" target="new">Download</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('5', 'http://soziologe.square7.ch/audio/soso_watchmen.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'The Watchmen', 'René Lehnert');
+-->
+</script>
+<!-- End: podPress -->
+<p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=2659&amp;md5=157240d09d6a62bf9eb25cb01b498ec1" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/filmbesprechungen/" title="Alle Artikel in --- Filmsoziologie ansehen" rel="category tag">--- Filmsoziologie</a>, <a href="http://soziologe.square7.ch/wp/category/anspruch/hardcore/" title="Alle Artikel in --- hardcore intellektuell ansehen" rel="category tag">--- hardcore intellektuell</a>, <a href="http://soziologe.square7.ch/wp/category/interviews/" title="Alle Artikel in Interviews ansehen" rel="category tag">Interviews</a> |   <a href="http://soziologe.square7.ch/wp/2012/02/filmbesprechung-the-watchmen-die-wachter/#comments" title="Kommentiere The Watchmen Filmbesprechung">4 Comments &#187;</a></p>
+			</div>
+	
+						
+			<div class="post" id="post-2464">
+				<h2><a href="http://soziologe.square7.ch/wp/2012/02/nr-69-soziale-netzwerke-und-die-piratenpartei/" rel="bookmark" title="Permanent Link to Soziale Netzwerke und die Piratenpartei">Soziale Netzwerke und die Piratenpartei</a></h2>
+				<small>Februar 12th, 2012 <!-- by Sonntagssoziologe --></small>
+				
+				<div class="entry">
+					<p><img src="http://desmond.imageshack.us/Himg406/scaled.php?server=406&amp;filename=piratenpartei.jpg&amp;res=medium" alt="" /></p>
+<p style="text-align: justify;">Im dritten und letzten Teil meines Interviews mit dem Netzwerkforscher <a title="Zur Homepage des Gastes" href="http://www.mpifg.de/people/lk/index_de.asp">Dr. Lothar Krempel</a> unterhalten wir uns noch einmal über soziale Netzwerke, Facebook, Datenschutz und die Piratenpartei.</p>
+<pre>Musik unter Creative Commons License
+Walter Mazzaccaro "Amadeus in Jazz"
+Agnus "Brasileira"
+Introsprecher: Tobias Diakow</pre>
+<p><img src="http://soziologe.square7.ch/wpbilder/fsk_leicht.png" alt="" /></p>
+<pre></pre>
+<div id="facebook_like"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoziologe.square7.ch%2Fwp%2F2012%2F02%2Fnr-69-soziale-netzwerke-und-die-piratenpartei%2F&amp;layout=standard&amp;show_faces=true&amp;width=500&amp;action=like&amp;font=segoe+ui&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:80px;" allowTransparency="true"></iframe></div><!-- Begin: podPress -->
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_6"><!-- podPress --></div></div>
+<!-- Begin: podPress download link line -->
+<div class="podPress_downloadlinks"><a href="http://sonntagssoziologe.podspot.de/files/soso_piratenpartei.mp3" target="new" title="Download: Facebook und Piratenpartei"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon" alt="" /></a> <span class="podpress_mediafile_title">Facebook und Piratenpartei</span> <span class="podpress_mediafile_dursize">[ 15:15 | 0.01 MB ]</span> <a href="#podPressPlayerSpace_6" onclick="javascript:podPressShowHidePlayer('6', 'http://sonntagssoziologe.podspot.de/files/soso_piratenpartei.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Facebook und Piratenpartei', 'René Lehnert'); return false;"><span id="podPressPlayerSpace_6_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_6_OrigURL" value="http://sonntagssoziologe.podspot.de/files/soso_piratenpartei.mp3" /> | <a href="#podPressPlayerSpace_6" onclick="javascript:podPressPopupPlayer('6', 'http://sonntagssoziologe.podspot.de/files/soso_piratenpartei.mp3', 290, 24, 'Der Sonntagssoziologe', '2464', 'Facebook und Piratenpartei', 'René Lehnert'); return false;">Play in Popup</a> | <a href="http://sonntagssoziologe.podspot.de/files/soso_piratenpartei.mp3" target="new">Download</a></div>
+<!-- End: podPress download link line -->
+</div>
+<script type="text/javascript">
+<!--
+podPressShowHidePlayer('6', 'http://sonntagssoziologe.podspot.de/files/soso_piratenpartei.mp3', 290, 24, 'false', 'http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/vpreview_center.png', 'Facebook und Piratenpartei', 'René Lehnert');
+-->
+</script>
+<!-- End: podPress -->
+<p class="wp-flattr-button"><a href="http://soziologe.square7.ch/wp/?flattrss_redirect&amp;id=2464&amp;md5=da31136e6a6df0f1596ce8b8894058ef" title="Flattr" target="_blank"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/flattr/img/flattr-badge-large.png" alt="flattr this!"/></a></p>				</div>
+		
+				<p class="postmetadata">Posted in <a href="http://soziologe.square7.ch/wp/category/soziologie/internet-2/" title="Alle Artikel in --- Internet, Kommunikation ansehen" rel="category tag">--- Internet, Kommunikation</a>, <a href="http://soziologe.square7.ch/wp/category/anspruch/leicht/" title="Alle Artikel in --- leicht verständlich ansehen" rel="category tag">--- leicht verständlich</a>, <a href="http://soziologe.square7.ch/wp/category/soziologie/netzwerkforschung/" title="Alle Artikel in --- Netzwerkforschung ansehen" rel="category tag">--- Netzwerkforschung</a>, <a href="http://soziologe.square7.ch/wp/category/anspruch/akademisch/" title="Alle Artikel in --- von leicht bis anspruchsvoll ansehen" rel="category tag">--- von leicht bis anspruchsvoll</a>, <a href="http://soziologe.square7.ch/wp/category/interviews/" title="Alle Artikel in Interviews ansehen" rel="category tag">Interviews</a>, <a href="http://soziologe.square7.ch/wp/category/politik/" title="Alle Artikel in Politik &amp; Geschichte ansehen" rel="category tag">Politik &amp; Geschichte</a> |   <a href="http://soziologe.square7.ch/wp/2012/02/nr-69-soziale-netzwerke-und-die-piratenpartei/#comments" title="Kommentiere Soziale Netzwerke und die Piratenpartei">1 Comment &#187;</a></p>
+			</div>
+	
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="http://soziologe.square7.ch/wp/page/2/" >&laquo; Previous Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+		
+	
+	</div>
+
+<p>
+<p>
+<p align="center"><a href='http://soziologe.square7.ch/wp/feed/' target='_parent'><img src='http://soziologe.square7.ch/wpbilder/rss-icon.png' border='0' title='RSS Feed' alt='RSS Feed'></a>
+
+<align="center"><a href='https://twitter.com/#!/Sonntagssozio' target='_blank'><img src='http://soziologe.square7.ch/wpbilder/twitter-icon.png' border='0' title='Twitter' alt='Twitter'></a>
+
+<align="center"><a href='http://www.facebook.com/pages/Sonntagssoziologe/373186819368616'  target='_blank'><img src='http://soziologe.square7.ch/wpbilder/facebook-icon.png' border='0' title='Facebook' alt='Facebook'></a>
+
+<align="center"><a href='http://www.youtube.com/user/Sonntagssoziologe?feature=mhee' target='_blank'><img src='http://soziologe.square7.ch/wpbilder/youtube-icon.png' border='0' title='Youtube' alt='Youtube'></a>
+
+
+	<div id="sidebar">
+		<ul>
+<li id="pages-4" class="widget widget_pages"><h2 class="widgettitle">Infos</h2>
+		<ul>
+			<li class="page_item page-item-851"><a href="http://soziologe.square7.ch/wp/willkommen/" title="Was gibt&#8217;s hier?">Was gibt&#8217;s hier?</a></li>
+<li class="page_item page-item-2927"><a href="http://soziologe.square7.ch/wp/download-2/" title="Download">Download</a></li>
+<li class="page_item page-item-2944"><a href="http://soziologe.square7.ch/wp/fsk/" title="Akademische FSK">Akademische FSK</a></li>
+<li class="page_item page-item-2991"><a href="http://soziologe.square7.ch/wp/leute/" title="Mitwirkende">Mitwirkende</a></li>
+<li class="page_item page-item-770"><a href="http://soziologe.square7.ch/wp/impressum/" title="Kontakt">Kontakt</a></li>
+		</ul>
+		</li>
+<li id="podpress_xspfplayer-5" class="widget podpress_xspfplayer">
+<h2 class="widgettitle">Audio Player</h2>
+
+<object type="application/x-shockwave-flash" classid="CLSID:D27CDB6E-AE6D-11cf-96B8-444553540000" width="175" height="200" id="podpress_xspf_player">
+	<param name="movie" value="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/players/xspf_jukebox/xspf_jukebox.swf?playlist_url=http://soziologe.square7.ch/wp/wp-content/plugins/podpress/podpress_xspfplaylist.php&amp;skin_url=http://soziologe.square7.ch/wp/wp-content/plugins/podpress/podpress_xspfskinfile.php&amp;autoload=true&amp;autoplay=false&amp;loaded=true&amp;format=-title" />
+	<param name="bgcolor" value="#FFFFFF" />
+	<param name="menu" value="true" />
+	<param name="wmode" value="transparent" />
+	<param name="quality" value="high" />
+	<embed src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/players/xspf_jukebox/xspf_jukebox.swf?playlist_url=http://soziologe.square7.ch/wp/wp-content/plugins/podpress/podpress_xspfplaylist.php&amp;skin_url=http://soziologe.square7.ch/wp/wp-content/plugins/podpress/podpress_xspfskinfile.php&amp;autoload=true&amp;autoplay=false&amp;loaded=true&amp;format=-title" type="application/x-shockwave-flash" width="175" height="200" wmode="transparent" quality="high" />
+</object>
+</li>
+<li id="categories-8" class="widget widget_categories"><h2 class="widgettitle">Rubriken</h2>
+		<ul>
+	<li class="cat-item cat-item-414"><a href="http://soziologe.square7.ch/wp/category/anspruch/" title="Alle unter Akademische FSK abgelegten Artikel ansehen">Akademische FSK</a>
+<ul class='children'>
+	<li class="cat-item cat-item-416"><a href="http://soziologe.square7.ch/wp/category/anspruch/hardcore/" title="Kompliziertes noch komplizierter gemacht.">&#8212; hardcore intellektuell</a>
+</li>
+	<li class="cat-item cat-item-415"><a href="http://soziologe.square7.ch/wp/category/anspruch/leicht/" title="Komplizierte Themen nicht einfach nur, sondern explizit einfach erklärt.">&#8212; leicht verständlich</a>
+</li>
+	<li class="cat-item cat-item-417"><a href="http://soziologe.square7.ch/wp/category/anspruch/akademisch/" title="Die goldene Mitte.">&#8212; von leicht bis anspruchsvoll</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://soziologe.square7.ch/wp/category/blog/" title="Alle unter Ankündigungen abgelegten Artikel ansehen">Ankündigungen</a>
+</li>
+	<li class="cat-item cat-item-433"><a href="http://soziologe.square7.ch/wp/category/interviews/" title="Alle unter Interviews abgelegten Artikel ansehen">Interviews</a>
+</li>
+	<li class="cat-item cat-item-399"><a href="http://soziologe.square7.ch/wp/category/paedagogik/" title="Alle unter Pädagogik abgelegten Artikel ansehen">Pädagogik</a>
+<ul class='children'>
+	<li class="cat-item cat-item-425"><a href="http://soziologe.square7.ch/wp/category/paedagogik/kindheit-paedagogik/" title="Alle unter &#8212; Jugend &amp; Kindheit abgelegten Artikel ansehen">&#8212; Jugend &amp; Kindheit</a>
+</li>
+	<li class="cat-item cat-item-424"><a href="http://soziologe.square7.ch/wp/category/paedagogik/padagogikklassiker/" title="Alle unter &#8212; Pädagogische Klassiker abgelegten Artikel ansehen">&#8212; Pädagogische Klassiker</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-393"><a href="http://soziologe.square7.ch/wp/category/philosophie/" title="Alle unter Philosophie abgelegten Artikel ansehen">Philosophie</a>
+<ul class='children'>
+	<li class="cat-item cat-item-418"><a href="http://soziologe.square7.ch/wp/category/philosophie/ethik/" title="Alle unter &#8212; Ethik abgelegten Artikel ansehen">&#8212; Ethik</a>
+</li>
+	<li class="cat-item cat-item-420"><a href="http://soziologe.square7.ch/wp/category/philosophie/philosophieklassiker/" title="Alle unter &#8212; Philosophische Klassiker abgelegten Artikel ansehen">&#8212; Philosophische Klassiker</a>
+</li>
+	<li class="cat-item cat-item-419"><a href="http://soziologe.square7.ch/wp/category/philosophie/technikphilosophie/" title="Alle unter &#8212; Technikphilosophie abgelegten Artikel ansehen">&#8212; Technikphilosophie</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://soziologe.square7.ch/wp/category/politik/" title="Alle unter Politik &amp; Geschichte abgelegten Artikel ansehen">Politik &amp; Geschichte</a>
+</li>
+	<li class="cat-item cat-item-398"><a href="http://soziologe.square7.ch/wp/category/psychologie-gehirn/" title="Alle unter Psychologie abgelegten Artikel ansehen">Psychologie</a>
+</li>
+	<li class="cat-item cat-item-392"><a href="http://soziologe.square7.ch/wp/category/soziologie/" title="Alle unter Soziologie abgelegten Artikel ansehen">Soziologie</a>
+<ul class='children'>
+	<li class="cat-item cat-item-428"><a href="http://soziologe.square7.ch/wp/category/soziologie/hoerhaeppchen/" title="Alle unter &#8211; Soziologisches Hörhäppchen abgelegten Artikel ansehen">&#8211; Soziologisches Hörhäppchen</a>
+</li>
+	<li class="cat-item cat-item-397"><a href="http://soziologe.square7.ch/wp/category/soziologie/partnerschaft/" title="Alle unter &#8212; Familie und Partnerschaft abgelegten Artikel ansehen">&#8212; Familie und Partnerschaft</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://soziologe.square7.ch/wp/category/soziologie/filmbesprechungen/" title="Alle unter &#8212; Filmsoziologie abgelegten Artikel ansehen">&#8212; Filmsoziologie</a>
+</li>
+	<li class="cat-item cat-item-400"><a href="http://soziologe.square7.ch/wp/category/soziologie/gewalt-disziplinen/" title="Alle unter &#8212; Gewalt, Ungleichheit abgelegten Artikel ansehen">&#8212; Gewalt, Ungleichheit</a>
+</li>
+	<li class="cat-item cat-item-395"><a href="http://soziologe.square7.ch/wp/category/soziologie/internet-2/" title="Alle unter &#8212; Internet, Kommunikation abgelegten Artikel ansehen">&#8212; Internet, Kommunikation</a>
+</li>
+	<li class="cat-item cat-item-401"><a href="http://soziologe.square7.ch/wp/category/soziologie/statistik-disziplinen/" title="Alle unter &#8212; Methoden &amp; Statistik abgelegten Artikel ansehen">&#8212; Methoden &amp; Statistik</a>
+</li>
+	<li class="cat-item cat-item-321"><a href="http://soziologe.square7.ch/wp/category/soziologie/netzwerkforschung/" title="Alle unter &#8212; Netzwerkforschung abgelegten Artikel ansehen">&#8212; Netzwerkforschung</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://soziologe.square7.ch/wp/category/soziologie/organisation/" title="Alle unter &#8212; Organisationsforschung abgelegten Artikel ansehen">&#8212; Organisationsforschung</a>
+</li>
+	<li class="cat-item cat-item-155"><a href="http://soziologe.square7.ch/wp/category/soziologie/religion/" title="Alle unter &#8212; Religion abgelegten Artikel ansehen">&#8212; Religion</a>
+</li>
+	<li class="cat-item cat-item-344"><a href="http://soziologe.square7.ch/wp/category/soziologie/theorien/" title="Alle unter &#8212; Soziologische Klassiker abgelegten Artikel ansehen">&#8212; Soziologische Klassiker</a>
+</li>
+	<li class="cat-item cat-item-318"><a href="http://soziologe.square7.ch/wp/category/soziologie/stadtforschung/" title="Alle unter &#8212; Stadtforschung abgelegten Artikel ansehen">&#8212; Stadtforschung</a>
+</li>
+	<li class="cat-item cat-item-403"><a href="http://soziologe.square7.ch/wp/category/soziologie/techniksoziologie/" title="Alle unter &#8212; Techniksoziologie abgelegten Artikel ansehen">&#8212; Techniksoziologie</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://soziologe.square7.ch/wp/category/soziologie/wirtschaft/" title="Alle unter &#8212; Wirtschaft abgelegten Artikel ansehen">&#8212; Wirtschaft</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-354"><a href="http://soziologe.square7.ch/wp/category/geschichten/" title="Alle unter Stories &amp; Kunst abgelegten Artikel ansehen">Stories &amp; Kunst</a>
+<ul class='children'>
+	<li class="cat-item cat-item-339"><a href="http://soziologe.square7.ch/wp/category/geschichten/fakes/" title="Alle unter &#8212; Fiktive Interviews abgelegten Artikel ansehen">&#8212; Fiktive Interviews</a>
+</li>
+	<li class="cat-item cat-item-422"><a href="http://soziologe.square7.ch/wp/category/geschichten/geschichten-geschichten/" title="Alle unter &#8212; Geschichten abgelegten Artikel ansehen">&#8212; Geschichten</a>
+</li>
+	<li class="cat-item cat-item-423"><a href="http://soziologe.square7.ch/wp/category/geschichten/poesie/" title="Alle unter &#8212; Poesie abgelegten Artikel ansehen">&#8212; Poesie</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-220"><a href="http://soziologe.square7.ch/wp/category/videos/" title="Alle unter Videos abgelegten Artikel ansehen">Videos</a>
+</li>
+		</ul>
+</li>
+<li id="search-3" class="widget widget_search"><h2 class="widgettitle">Suche</h2>
+<form method="get" id="searchform" action="http://soziologe.square7.ch/wp/">
+<div><input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+</li>
+<li id="podpress_feedbuttons-4" class="widget podpress_feedbuttons"><h2 class="widgettitle">Feeds</h2>
+<ul class="podpress_feed_buttons_list">
+ <li><a href="itpc://soziologe.square7.ch/wp/?feed=podcast" title="den Podcast Feed mit iTunes abonnieren"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/itunes.png" class="podpress_feed_buttons" alt="mit iTunes abonnieren" /></a></li>
+	<li><a href="http://soziologe.square7.ch/wp/feed/podcast/" title="Soziologie der Stadt - Stadforschung"><img src="http://soziologe.square7.ch/wp/wp-content/plugins/podpress/images/feed_button-podcast.png" class="podpress_feed_buttons" alt="Podcast Feed" /></a></li>
+</ul>
+</li>
+<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.uni-due.de/soziologie/compagna.php">Diego Compagna</a></li>
+<li><a href="http://www.youtube.com/user/Mayhemghost?feature=g-all-f">Philosophiekanal</a></li>
+<li><a href="http://www.soziobloge.de/" title="Privater Soziologieblog">Soziobloge</a></li>
+<li><a href="http://soziologie-forum.com/index.php" title="Diskussionsforum für Soziologie">Soziologie-Forum</a></li>
+<li><a href="http://www.soziologiemagazin.de/">Soziologiemagazin</a></li>
+<li><a href="http://wissenschaft.wanhoff.de/">Wannhoffs Wissenschaft</a></li>
+
+	</ul>
+</li>
+
+<li id="meta-6" class="widget widget_meta"><h2 class="widgettitle">Registrieren</h2>
+			<ul>
+			<li><a href="http://soziologe.square7.ch/wp/wp-login.php?action=register">Registrieren</a></li>			<li><a href="http://soziologe.square7.ch/wp/wp-login.php">Anmelden</a></li>
+			<li><a href="http://soziologe.square7.ch/wp/feed/" title="Abonniere diese Website mit RSS 2.0">Artikel-Feed (<abbr title="Really Simple Syndication">RSS</abbr>)</a></li>
+			<li><a href="http://soziologe.square7.ch/wp/comments/feed/" title="Die neuesten Kommentare zu allen Beiträgen als RSS">Kommentare als <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</li>
+<li id="archives-6" class="widget widget_archive"><h2 class="widgettitle">Archive</h2>
+		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Wähle den Monat</option> 	<option value='http://soziologe.square7.ch/wp/2012/05/'> Mai 2012 </option>
+	<option value='http://soziologe.square7.ch/wp/2012/04/'> April 2012 </option>
+	<option value='http://soziologe.square7.ch/wp/2012/03/'> März 2012 </option>
+	<option value='http://soziologe.square7.ch/wp/2012/02/'> Februar 2012 </option>
+	<option value='http://soziologe.square7.ch/wp/2012/01/'> Januar 2012 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/12/'> Dezember 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/11/'> November 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/10/'> Oktober 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/08/'> August 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/05/'> Mai 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/04/'> April 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2011/03/'> März 2011 </option>
+	<option value='http://soziologe.square7.ch/wp/2010/03/'> März 2010 </option>
+	<option value='http://soziologe.square7.ch/wp/2010/02/'> Februar 2010 </option>
+	<option value='http://soziologe.square7.ch/wp/2009/01/'> Januar 2009 </option>
+	<option value='http://soziologe.square7.ch/wp/2008/12/'> Dezember 2008 </option>
+	<option value='http://soziologe.square7.ch/wp/2008/11/'> November 2008 </option>
+	<option value='http://soziologe.square7.ch/wp/2008/10/'> Oktober 2008 </option>
+	<option value='http://soziologe.square7.ch/wp/2008/08/'> August 2008 </option>
+ </select>
+</li>
+			
+		</ul>
+
+<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="RMHB2462293EG">
+<input type="image" src="http://soziologe.square7.ch/wpbilder/donate.png" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+<img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+</form></center>
+
+
+<p align="center"><a href="http://www.podcast.at/?feed=317898" target="_blank"><img src="http://www.podcast.at/images/sticker_podcast.gif" alt="Gelistet bei Podcast.at" border="0" width="80" height="15"/></a>
+
+<p align="center"><a href='http://podster.de/view/12466' target='_blank'><img src='http://soziologe.square7.ch/wpbilder/podster.jpg' border='0' title='BlogVerzeichnis' alt='Blog Verzeichnis'></a>
+
+<p align="center"><a href='http://www.podcast.de/podcast/11259/Der_Stadtsoziologe' target='_blank'><img src='http://soziologe.square7.ch/wpbilder/podcastde.gif' border='0' title='BlogVerzeichnis' alt='Blog Verzeichnis'></a>
+
+<a href="http://www.bloggeramt.de/" title="BloggerAmt" target="_blank"><img src="http://www.bloggeramt.de/images/blog_button13.gif" style="border:0px;" alt="Blogverzeichnis" /></a>
+
+<a href="http://www.bloggerei.de/rubrik_22_Wissenschaftsblogs" title="Blog-Verzeichnis"><img src="http://www.bloggerei.de/bgpublicon.jpg" width="80" height="15" border="0" alt="Blogverzeichnis - Blog Verzeichnis bloggerei.de" /></a>
+
+<a href='http://www.bloggeralarm.com' target='_blank'><img src='http://www.bloggeralarm.com/buttons/bloggeralarm.png' border='0' title='BlogVerzeichnis' alt='Blog Verzeichnis'>
+
+<a href="http://www.blog-feed.de/verzeichnis/sonstige-blogs/" title="Sonstige Blogs im RSS Verzeichnis"><img src="http://www.blog-feed.de/publicon.png" alt="Sonstige Blogs im RSS Verzeichnis" title="Sonstige Blogs im RSS Verzeichnis" border="0" width="80" height="15"/></a>
+
+<center><a href="http://soziologe.square7.ch/wpbilder/impressum.htm">
+Impressum & Haftungsausschluss</a><center>
+
+	</div>
+
+<hr />
+<div id="footer">
+<!-- If you'd like to support Frisky Wife then please leave the link below intact. It's our only promotion or advertising and helps make it possible for us to provide free Wordpress themes for others to use. -->
+	<p>
+		Der Sonntagssoziologe is powered by
+		<a href="http://wordpress.org/">WordPress</a><br />&copy; 2007 - Designed by <a href="http://www.friskywife.com/archives/269">Frisky Wife</a>
+		<br /><!-- <a href="http://soziologe.square7.ch/wp/feed/">Entries (RSS)</a>
+		and <a href="http://soziologe.square7.ch/wp/comments/feed/">Comments (RSS)</a>. -->
+		<!-- 33 queries. 0,223 seconds. -->
+	</p>
+</div>
+</div>
+
+<!-- Theme designed by Frisky Wife - http://www.friskywife.com/ & heavily based on Michael Heilemann's Kubrick theme - http://binarybonsai.com/kubrick/ -->
+
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {
+	ajax_url: "http://soziologe.square7.ch/wp/wp-content/plugins/wp-polls/wp-polls.php",
+	text_wait: "Your last request is still being processed. Please wait a while ...",
+	text_valid: "Please choose a valid poll answer.",
+	text_multiple: "Maximum number of choices allowed: ",
+	show_loading: "1",
+	show_fading: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://soziologe.square7.ch/wp/wp-content/plugins/wp-polls/polls-js.js?ver=2.50'></script>
+</body>
+</html>

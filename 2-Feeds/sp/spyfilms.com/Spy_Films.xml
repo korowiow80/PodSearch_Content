@@ -1,0 +1,90 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html lang=en-us class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]>   <html lang=en-us class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]>   <html lang=en-us class="no-js ie8"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang=en-us class=no-js> <!--<![endif]-->
+<head>
+  <meta charset=utf-8>
+        <meta name="language" content="en" />
+        <meta name="charset" content="utf-8" />
+        <meta name="keywords" content="Spy Films, commercials, production, vfx, digital content" />
+        <meta name="google-site-verification" content="nMFc84yndBIupYI5rrEiu1tXcFUBPo3PjO8PvXRQA98" />
+        <title>spy films</title>
+        <link href="/min/f=/lib/css/style.css,/lib/css/css3buttons.css,/lib/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="/blog/feed/atom" rel="alternate" type="application/atom+xml" title="Spy Blog" />
+        <link href="/feed/home" rel="alternate" type="application/atom+xml" title="Spy Films: Latest Work (Desktop)" />
+        <link href="/feed/home/iphone" rel="alternate" type="application/atom+xml" title="Spy Films: Latest Work (iPhone)" />
+		<script>
+            // turn path into hash for clients with javascript and flash enabled: /foo/bar -> /#/foo/bar
+            // redirects page to indexController
+            var url   = window.location,
+                flash = false,
+                host  = '//' + url.hostname,
+                path  = '/#' + url.pathname;
+
+            try {
+                var fo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
+                if (fo) flash = true;
+            }
+            catch(e) {
+                flash = (navigator.mimeTypes["application/x-shockwave-flash"] != undefined);
+            }
+
+        </script>
+    </head>
+    <body id="">
+        <div id="flash">
+            <div id="container">
+                <nav>                    <ul class="navigation">
+                        <li>
+                            <a title="spy" href="/" target="_self">home</a>
+                        </li>
+                        <li>
+                            <a title="directors" href="/directors" target="_self">directors</a>
+                        </li>
+                        <li>
+                            <a title="news" href="/blog" target="_blank">news</a>
+                        </li>
+                        <li>
+                            <a title="spy3d" href="//spy3d.com" target="_blank">spy3d</a>
+                        </li>
+                        <li>
+                            <a title="digital" href="/digital" target="_blank">digital</a>
+                        </li>
+                        <li>
+                            <a title="the spies" href="/contact" target="_self">contact</a>
+                        </li>
+                    </ul>
+</nav>
+                <div id="content" class="clearfix">
+    <div id="error">
+    <h1>An error occurred</h1>
+    <h2>Page not found</h2>
+
+</div>
+
+                </div>
+                <h1 id="page_label">spying on <span></span></h1>
+            </div>
+        </div>
+        <script src="/lib/js/LAB.min.js"></script>
+        <script>
+            $LAB
+                .script('//google-analytics.com/ga.js').wait(function(){
+                    _gaq.push(['_setAccount', 'UA-2977173-1']);
+                    _gaq.push(['_trackPageview']);
+                });
+
+            if(flash) {
+            }
+            else {
+                $LAB
+                    .script('http://platform.twitter.com/widgets.js')
+                    .script('http://connect.facebook.net/en_US/all.js#xfbml=1')
+                    .script('//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js').wait(function(){
+                        $("#container").fadeIn();
+                    });
+            }
+        </script>
+    </body>
+</html>

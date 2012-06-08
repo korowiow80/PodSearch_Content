@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>CocoaCast (AppleTV HD)</title>
+    <link>http://www.cocoacast.com</link>
+    <description>CocoaCast Podcast - Starting Point for Cocoa Developers (starting with Episode 33 in Apple TV HD format)</description>
+    <generator>Feeder 1.5.7(628) http://reinventedsoftware.com/feeder/</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <language>en</language>
+    <copyright>Copyright 2006 Boris Klaydman</copyright>
+    <managingEditor>cocoacast@gmail.com (Boris Klaydman)</managingEditor>
+    <webMaster>cocoacast@gmail.com (Boris Klaydman)</webMaster>
+    <pubDate>Mon, 25 Dec 2006 15:40:00 -0600</pubDate>
+    <lastBuildDate>Thu, 28 Dec 2006 00:32:02 -0600</lastBuildDate>
+    <image>
+      <url>http://www.cocoacast.com/cocoacastLogo5-nocorners144.png</url>
+      <title>CocoaCast</title>
+      <link>http://www.cocoacast.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <atom:link href="http://www.cocoacast.com/files/CocoaCast.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Boris Klaydman</itunes:author>
+    <itunes:subtitle>Starting Point for Cocoa Developers</itunes:subtitle>
+    <itunes:summary>Starting with Episode 33 offered in Apple TV HD format. A Podcast for people who want to learn Cocoa, Objective-C, share their experience and resources. I would like to introduce myself and tell you what this Podcast is all about. Also, I would like to invite you to join me in learning Cocoa and Objective-C. If you have been trying to learn Cocoa and Objective-C look no further. I do not claim to be an expert in neither Cocoa nor Objective-C however I want to master both and I hope many of you do too. This Podcast will be a starting point for learning Cocoa and a central place for tips, tricks, user discussions, and much more. </itunes:summary>
+    <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming,learn</itunes:keywords>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:image href="http://www.cocoacast.com/cocoacastLogo5-nocorners.png"/>
+    <itunes:owner>
+      <itunes:name>Boris Klaydman</itunes:name>
+      <itunes:email>cocoacast@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:block>no</itunes:block>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+      <itunes:category text="Tech News"/>
+      <itunes:category text="Podcasting"/>
+    </itunes:category>
+    <item>
+      <title>Episode 46 - Properties in Objective-C 2.0</title>
+      <link>http://www.cocoacast.com/?q=node/135</link>
+      <description><![CDATA[<p><a href="http://cocoacast.meshsys.com/?q=node/135"><img ALIGN="left" HSPACE="10" alt="Multithreading" src="http://www.cocoacast.com/images/episode46.jpg" width="120" height="120" class="pic"/></a>In this <a href="http://media.libsyn.com/media/cocoacast/ccp_episode46.mov" rel="self">Episode</a> we look at Properties in Cocoa. Properties have only appeared in Objective-C recently, with the 2.0 release. They are kind of virtual member variables. If you think about it, there are only two things you can do to a variable: assign a value and extract a value. You can make variable a constant to prevent it from being set, or hide it by making it private or protected, but in no way does setting a member variable’s value affect the behavior of an object. Properties do not have to do that but they can. In Object Oriented Languages, member variables describe the state of an object, while functions (methods, messages) describe its behavior. Properties allow us to morph together the state and the behavior. An overview of the subject can be found in <a href="http://www.cocoacast.com/?q=node/103"><b>Properties in Objective-C 2.0</b></a>.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode46.mov" rel="self">View the Podcast</a></p>]]></description>
+      <pubDate>Wed, 05 Nov 2008 00:07:37 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode46.mov" length="37896330" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-45-free-preview-of-pro-show-advanced-s-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Properties in Objective-C 2.0</itunes:subtitle>
+      <itunes:summary>In this Episode we look at Properties in Cocoa. Properties have only appeared in Objective-C recently, with the 2.0 release. They are kind of virtual member variables. If you think about it, there are only two things you can do to a variable: assign a value and extract a value. You can make variable a constant to prevent it from being set, or hide it by making it private or protected, but in no way does setting a member variable’s value affect the behavior of an object. Properties do not have to do that but they can. In Object Oriented Languages, member variables describe the state of an object, while functions (methods, messages) describe its behavior. Properties allow us to morph together the state and the behavior. An overview of the subject can be found in Properties in Objective-C 2.0.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>16:45</itunes:duration>
+      <media:thumbnail url="http://www.cocoacast.com/images/cocoacastProEpisode1.jpg"/>
+    </item>
+    <item>
+      <title>CocoaCast Business Episode 1 - Promotional Episode SOA on the Mac OS</title>
+      <link>http://www.cocoacast.com/?q=node/102</link>
+      <description><![CDATA[<p><a href="?q=node/102"><img src="http://www.cocoacast.com/images/ccb_episode1.jpg" alt="CocoaCast Business" title="CocoaCast Business" align="left" /></a>Welcome to the first ever <a href="http://media.libsyn.com/media/cocoacast/ccb_episode1.mp3" title="SOA on the Mac OS">Episode</a> of Cocoacast Business (promotional episode until the iTunes subscription is set): the podcast for the business and about the business of developing Mac Software. In this Episode, you will hear how Boris and Vlad break spears on the SOA and how to implement SOA on the Mac (Do not worry, they will also tell you what it is in case you don't know). An article on <a href="?q=node/102">SOA-on-Mac Primer</a> will help you get better understanding of the SOA.</p>
+
+<p><a href="http://media.libsyn.com/media/cocoacast/ccb_episode1.mp3" title="SOA on the Mac OS">Listen to this Episode</a></p>]]></description>
+      <pubDate>Tue, 28 Oct 2008 10:43:03 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccb_episode1.mp3" length="16084814" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-45-free-preview-of-pro-show-advanced-s</guid>
+      <itunes:author>Boris Klaydman and Vlad Pasman</itunes:author>
+      <itunes:subtitle>Promotional Episode SOA on the Mac OS</itunes:subtitle>
+      <itunes:summary>Welcome to the first ever Episode of Cocoacast Business (promotional episode until the iTunes subscription is set): the podcast for the business and about the business of developing Mac Software. In this Episode, you will hear how Boris and Vlad break spears on the SOA and how to implement SOA on the Mac (Do not worry, they will also tell you what it is in case you don&apos;t know). An article on SOA-on-Mac Primer will help you get better understanding of the SOA.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>26:48</itunes:duration>
+      <media:thumbnail url="http://www.cocoacast.com/images/cocoacastLogo_Business.png"/>
+    </item>
+    <item>
+      <title>Episode 45 - Free preview of Pro show - Advanced Strings in Cocoa</title>
+      <link>http://www.cocoacast.com/?q=node/95</link>
+      <description><![CDATA[<p><a href="http://cocoacast.meshsys.com/?q=node/95"><img ALIGN="left" HSPACE="10" alt="Multithreading" src="http://www.cocoacast.com/images/cocoacastProEpisode1.jpg" width="120" height="120" class="pic"/></a>This <a href="http://media.libsyn.com/media/cocoacast/ccpro_episode1.mov" rel="self">Episode</a> is a preview of the new subscription-only podcast that we are preparing to release very soon. In this episode we look into Advanced Strings in Cocoa. Please watch our <a href="http://www.cocoacast.com">site</a> for more details. A brief overview of the subject can be found in <a href="http://www.cocoacast.com/?q=node/87"><b>Advanced Strings in Cocoa</b></a>.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccpro_episode1.mov" rel="self">View the Podcast</a></p>]]></description>
+      <pubDate>Thu, 23 Oct 2008 22:49:03 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccpro_episode1.mov" length="42528965" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-44-introduction-to-networking-part-2-wit</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle> Free preview of Pro show - Advanced Strings in Cocoa</itunes:subtitle>
+      <itunes:summary>This Episode is a preview of the new subscription-only podcast that we are preparing to release very soon. In this episode we look into Advanced Strings in Cocoa. Please watch our site for more details. A brief overview of the subject can be found in Advanced Strings in Cocoa.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>21:31</itunes:duration>
+      <media:thumbnail url="http://www.cocoacast.com/images/cocoacastProEpisode1.jpg"/>
+    </item>
+    <item>
+      <title>Episode 44 - Introduction to Networking Part 2 with Vlad Pasman</title>
+      <link>http://www.cocoacast.com/?q=node/248</link>
+      <description><![CDATA[<p><a href="http://www.cocoacast.com/?q=node/248"><img ALIGN="left" HSPACE="10" alt="Multithreading" src="http://www.cocoacast.com/images/episode43.jpg" width="122" height="122" /></a>This <a href="http://media.libsyn.com/media/cocoacast/ccp_episode44.mov" rel="self">Episode</a> Continues two part episode series covering basic networking on MacOS X and iPhone OS platforms. The second show introduces and demoes the NetSocket, NSStream, SOAP, etc. The show is prepared and presented by my Partner at <a href="http://www.meshsys.com">Mesh Systems</a> Vlad Pasman.
+<br />Here are the show notes for this Episode: <span style="font:12px 'Lucida Grande', LucidaGrande, Verdana, sans-serif;"><a href="http://www.cocoacast.com/shownotes/Episode43.pdf" rel="self">Show Notes</a>
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode43.mov" rel="self">View the Podcast</a></p>]]></description>
+      <pubDate>Sun, 12 Oct 2008 22:59:02 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode44.mov" length="93797157" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-43-introduction-to-networking-part-1-wit</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Introduction to Networking Part 2 with Vlad Pasman</itunes:subtitle>
+      <itunes:summary>This Episode Continues two part episode series covering basic networking on MacOS X and iPhone OS platforms. The second show introduces and demoes the NetSocket, NSStream, SOAP, etc. The show is prepared and presented by my Partner at Mesh Systems Vlad Pasman.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>37:23</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 43 - Introduction to Networking Part 1 with Vlad Pasman</title>
+      <link>http://www.cocoacast.com/?q=node/247</link>
+      <description><![CDATA[<p><a href="http://www.cocoacast.com/?q=node/247"><img ALIGN="left" HSPACE="10" alt="Multithreading" src="http://www.cocoacast.com/images/episode43.jpg" width="122" height="122" /></a>This <a href="http://media.libsyn.com/media/cocoacast/ccp_episode43.mov" rel="self">Episode</a> Begins two part episode series covering basic networking on MacOS X and iPhone OS platforms. The first show introduces and demoes the basic sockets. The show is prepared and presented by my Partner at <a href="http://www.meshsys.com">Mesh Systems</a> Vlad Pasman.
+<br />Here are the show notes for this Episode: <span style="font:12px 'Lucida Grande', LucidaGrande, Verdana, sans-serif;"><a href="http://www.cocoacast.com/shownotes/Episode43.pdf" rel="self">Show Notes</a>
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode43.mov" rel="self">View the Podcast</a></p>]]></description>
+      <pubDate>Sun, 05 Oct 2008 17:08:28 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode43.mov" length="66446723" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-42-introduction-to-multithreading-with-v</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Introduction to Networking Part 1 with Vlad Pasman</itunes:subtitle>
+      <itunes:summary>This Episode Begins two part episode series covering basic networking on MacOS X and iPhone OS platforms. The first show introduces and demoes the basic sockets. The show is prepared and presented by my Partner at Mesh Systems Vlad Pasman.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>24:54</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 42 - Introduction to Multithreading with Vlad Pasman</title>
+      <link>http://www.cocoacast.com/?q=node/244</link>
+      <description><![CDATA[<p><a href="http://www.cocoacast.com/?q=node/244"><img ALIGN="left" HSPACE="10" alt="Multithreading" src="http://www.cocoacast.com/images/episode42.jpg" width="122" height="122" /></a>This <a href="http://media.libsyn.com/media/cocoacast/ccp_episode42.mov" rel="self">Episode</a> Introduces the concept of multithreading to Cocoa programming. We start with basic concept coverage and move to advanced topics of thread detachment and NSOperation. We will also show the benefits of threading on the real example. The show is prepared and presented by my Partner at <a href="http://www.meshsys.com">Mesh Systems</a> Vlad Pasman.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode42.mov" rel="self">View the Podcast</a></p>]]></description>
+      <pubDate>Thu, 18 Sep 2008 19:15:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode42.mov" length="85994883" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-41-macfuse-with-philippe-guitard</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Introduction to Multithreading with Vlad Pasman</itunes:subtitle>
+      <itunes:summary>This Episode Introduces the concept of multithreading to Cocoa programming. We start with basic concept coverage and move to advanced topics of thread detachment and NSOperation. We will also show the benefits of threading on the real example. The show is prepared and presented by my Partner at Mesh Systems  -- Vlad Pasman.
+</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>29:39</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 15 - Let&apos;s Rock</title>
+      <link>http://www.cocoacastexpress.com/?q=node/25</link>
+      <description><![CDATA[<a href="http://www.cocoacastexpress.com/?q=node/25"><img ALIGN="left" HSPACE="10" alt="CocoaCast Talk" src="http://www.cocoacastexpress.com/images/episode15.jpg" width="122" height="122" /></a> In this <a href="http://media.libsyn.com/media/cocoacast/cct_episode15.m4a" rel="self">Episode</a> we cover the announcements made during Apple's "Let's Rock" event on September 5, 2008. In addition to discussion about iPhone OS, SDK, and new devices Apple released, we also taking about Objective-J.]]></description>
+      <pubDate>Wed, 10 Sep 2008 21:47:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode15.m4a" length="21972666" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-14-iphone-sdk-and-the-nda</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Let&apos;s Rock</itunes:subtitle>
+      <itunes:summary>In this Episode we cover the announcements made during Apple&apos;s &quot;Let&apos;s Rock&quot; event on September 5, 2008. In addition to discussion about iPhone OS, SDK, and new devices Apple released, we also taking about Objective-J.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>26:22</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 14 - iPhone SDK and the NDA</title>
+      <link>http://www.cocoacastexpress.com/?q=node/24</link>
+      <description><![CDATA[<a href="http://www.cocoacastexpress.com/?q=node/24"><img ALIGN="left" HSPACE="10" alt="CocoaCast Talk" src="http://www.cocoacastexpress.com/images/episode14.jpg" width="122" height="122" /></a> In this <a href="http://media.libsyn.com/media/cocoacast/cct_episode14.m4a" rel="self">Episode</a> we talk about the SDK 2.1, Apps Store issues and NDA limitations that prevent the developers from sharing the info and making the iPhone OS platform development more enjoyable.]]></description>
+      <pubDate>Tue, 05 Aug 2008 21:45:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode14.m4a" length="27965955" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-13-apps-store-and-iphone</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>iPhone SDK and the NDA</itunes:subtitle>
+      <itunes:summary>In this Episode we talk about the SDK 2.1, Apps Store issues and NDA limitations that prevent the developers from sharing the info and making the iPhone OS platform development more enjoyable.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>33:43</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 13 - Apps Store and iPhone 2.0</title>
+      <link>http://www.cocoacastexpress.com/?q=node/23</link>
+      <description><![CDATA[<a href="http://www.cocoacastexpress.com/?q=node/23"><img ALIGN="left" HSPACE="10" alt="CocoaCast Talk" src="http://www.cocoacastexpress.com/images/episode13.jpg" width="122" height="122" /></a> In this <a href="http://media.libsyn.com/media/cocoacast/cct_episode13.m4a" rel="self">Episode</a> we will concentrate on iPhone OS 2.0 and iPhone SDK-related topics. We discuss iPhone 2.0, MobileMe, Notification SDK, iPhone Application Deployment, and App Store Listings.]]></description>
+      <pubDate>Wed, 16 Jul 2008 21:36:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode13.m4a" length="40648649" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-12-rumors-and-wwdc-2008-p</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Apps Store and iPhone 2.0</itunes:subtitle>
+      <itunes:summary>In this Episode we will concentrate on iPhone OS 2.0 and iPhone SDK-related topics. We discuss iPhone 2.0, MobileMe, Notification SDK, iPhone Application Deployment, and App Store Listings.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>49:05</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 12 - Rumors and WWDC 2008 Predictions</title>
+      <link>http://www.cocoacastexpress.com/?q=node/22</link>
+      <description><![CDATA[<a href="http://www.cocoacastexpress.com/?q=node/22"><img ALIGN="left" HSPACE="10" alt="CocoaCast Talk" src="http://www.cocoacastexpress.com/images/episode12.jpg" width="122" height="122" /></a> In this <a href="http://media.libsyn.com/media/cocoacast/cct_episode12.m4a" rel="self">Episode</a> we go wild and talk about rumors and predictions that floating around the Web with respect to WWDC 2008. Will there be a new OS released? Will Apple kill Power PC Macs? Will iPhone 2.0 be available only as software upgrade or hardware as well? What about Mac Tablet, is there a room and need for such device? We discuss all of these and more in this last show before WWDC 2008.]]></description>
+      <pubDate>Wed, 04 Jun 2008 21:45:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode12.m4a" length="34207571" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-5-multi-touch-interfaces</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Rumors and WWDC 2008 Predictions</itunes:subtitle>
+      <itunes:summary>In this Episode we go wild and talk about rumors and predictions that floating around the Web with respect to WWDC 2008. Will there be a new OS released? Will Apple kill Power PC Macs? Will iPhone 2.0 be available only as software upgrade or hardware as well? What about Mac Tablet, is there a room and need for such device? We discuss all of these and more in this last show before WWDC 2008.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>40:47</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 41 - MacFuse with Philippe Guitard</title>
+      <link>http://www.cocoacast.com/?q=node/212</link>
+      <description><![CDATA[<p><a href="http://www.cocoacast.com/?q=node/212"><img ALIGN="left" HSPACE="10" alt="Aquatic Prime" src="http://www.cocoacast.com/images/episode41.jpg" width="122" height="122" /></a>This <a href="http://media.libsyn.com/media/cocoacast/ccp_episode41.m4v" rel="self">Episode</a> covers the MacFuse Framework developed by Amit Singh from Google. MacFuse is an Objective-C Framework  that let you build you own file system in a user-space program. This screencast reviews the few steps required.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode41.m4v" title="Episode 41 - MacFuse with Philippe Guitard">View this Episode</a></p>]]></description>
+      <pubDate>Thu, 13 Mar 2008 15:19:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode41.m4v" length="63175765" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-40-fscript-demo-with-philippe-guitard</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>MacFuse with Philippe Guitard</itunes:subtitle>
+      <itunes:summary>This Episode covers the MacFuse Framework developed by Amit Singh from Google. MacFuse is an Objective-C Framework  that let you build you own file system in a user-space program. This screencast reviews the few steps required.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>23:57</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 5 - Multi touch interfaces</title>
+      <link>http://www.cocoacastexpress.com/?q=node/14</link>
+      <description><![CDATA[<p><img src="http://www.cocoacastexpress.com/images/episode5.jpg" alt="CocoaCast Talk" title="CocoaCast Talk" align="left" />Apple had just filed for a new <a href="http://www.macrumors.com/2008/02/19/apple-depicts-advanced-multitouch-gesturing-control-panel-in-mac-os-x/">patent</a> covering the multi touch interface. Also, the iPhone SDK is just around the corner. This <a href="http://media.libsyn.com/media/cocoacast/cct_episode5.m4a" rel="self">Episode</a> will discuss all of these topics. In addition, we are going to be talking about Russ's brewery and History channel. Look at the <a href="http://www.flickr.com/photos/rhomsy/sets/72157603929987291/detail/">Pictures from Russ's basement brewery here</a>.
+<br /><a href="http://media.libsyn.com/media/cocoacast/cct_episode5.m4a" title="Episode 5 - Multi touch interfaces">Listen to this Episode</a></p>]]></description>
+      <pubDate>Tue, 19 Feb 2008 21:28:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode5.m4a" length="21441830" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-4-microsoft-yahoo-apple</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Multi touch interfaces</itunes:subtitle>
+      <itunes:summary>Apple had just filed for a new patent covering the multi touch interface. Also, the iPhone SDK is just around the corner. This Episode will discuss all of these topics. In addition, we are going to be talking about Russ&apos;s brewery and History channel. Look at the Pictures from Russ&apos;s basement brewery here.
+Listen to this Episode</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>23:59</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 4 - Microsoft, Yahoo, Apple TV, Mac Heist and more</title>
+      <link>http://www.cocoacastexpress.com/?q=node/14</link>
+      <description><![CDATA[<p><img src="http://www.cocoacastexpress.com/images/episode4.jpg" alt="CocoaCast Talk" title="CocoaCast Talk" align="left" />Microsoft wants to buy Yahoo in order to compete with Google, will it affect you as a developer? Would you write a plugin of Apple TV is Apple would let you? Is Mac Heist a good or not for independent developers?
+<br />All of these topics and more (plus Boris's MacBook Air) are discussed in this episode.
+<br /><a href="http://media.libsyn.com/media/cocoacast/cct_episode4.m4a" title="Episode 4 - Microsoft, Yahoo, Apple TV, Mac Heist and more">Listen to this Episode</a></p>]]></description>
+      <pubDate>Wed, 06 Feb 2008 21:28:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode4.m4a" length="20169180" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-3-apple-and-the-it-world</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Microsoft, Yahoo, Apple TV, Mac Heist and more</itunes:subtitle>
+      <itunes:summary>Microsoft wants to buy Yahoo in order to compete with Google, will it affect you as a developer? Would you write a plugin of Apple TV is Apple would let you? Is Mac Heist a good or not for independent developers?
+All of these topics and more (plus Boris&apos;s MacBook Air) are discussed in this episode.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>23:59</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 3 - Apple and the IT World</title>
+      <link>http://www.cocoacastexpress.com/?q=node/12</link>
+      <description><![CDATA[<p><img src="http://www.cocoacastexpress.com/images/episode3.jpg" alt="CocoaCast Talk" title="CocoaCast Talk" align="left" />Apple market share is growing rapidly. Everyone knows about iPods, iPhone is making news splashes, even Macs are more common. However, the IT World still ignores the Apple and Macs as a platform. In this Episode we talk about current state of the Apple in IT and its future.
+<br /><a href="http://media.libsyn.com/media/cocoacast/cct_episode3.m4a" title="Episode 3 - Apple and the IT World">Listen to this Episode</a></p>]]></description>
+      <pubDate>Tue, 29 Jan 2008 22:30:22 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode3.m4a" length="33363280" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-2-cocoa-programming-for-m</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Apple and the IT World</itunes:subtitle>
+      <itunes:summary>Apple market share is growing rapidly. Everyone knows about iPods, iPhone is making news splashes, even Macs are more common. However, the IT World still ignores the Apple and Macs as a platform. In this Episode we talk about current state of the Apple in IT and its future.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>40:06</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 2 - Cocoa Programming for Mac OS X 3rd Edition, Virtualization, Apple GUI</title>
+      <link>http://www.cocoacastexpress.com/?q=node/11</link>
+      <description><![CDATA[<p><img src="http://www.cocoacastexpress.com/images/episode2.jpg" alt="CocoaCast Talk" title="CocoaCast Talk" align="left" />There is a new "Cocoa Programming for Mac OS X 3rd edition" book available for pre-order and Amazon, we have a virtualization solution coming to Mac OS X Server, and Apple GUI design and availability for developers topics that we would like to discuss in this episode.
+<br /><a href="http://media.libsyn.com/media/cocoacast/cct_episode2.m4a" title="Episode 2 - Cocoa Programming for Mac OS X 3rd Edition, Virtualization, Apple GUI">Listen to this Episode</a></p>]]></description>
+      <pubDate>Tue, 22 Jan 2008 21:57:49 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode2.m4a" length="25864203" type="audio/mpeg"/>
+      <guid isPermaLink="false">cocoacast-talk-episode-1-macworld-2008-developer</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>Cocoa Programming for Mac OS X 3rd Edition, Virtualization, Apple GUI</itunes:subtitle>
+      <itunes:summary>There is a new &quot;Cocoa Programming for Mac OS X 3rd edition&quot; book available for pre-order and Amazon, we have a virtualization solution coming to Mac OS X Server, and Apple GUI design and availability for developers topics that we would like to discuss in this episode.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>31:33</itunes:duration>
+    </item>
+    <item>
+      <title>CocoaCast Talk Episode 1 - MacWorld 2008 Developer&apos;s Review</title>
+      <link>http://www.cocoacast.com/?q=node/192</link>
+      <description><![CDATA[<p><img src="http://www.cocoacast.com/images/cocoacastTalk110.png" alt="CocoaCast Talk" title="CocoaCast Talk" align="left" />We are proud to present first Episode in new Podcast called CocoaCast Talk. There a few news sites out there, however, no news are covered from the developer's perspective. Our show will fill that void. We are going to discuss news and other topics from the Developer's point of view. In this episode, we are talking about the MacWorld 2008 keynote and its implications for developers and hidden messages. Join Boris Klaydman, Russell Homsy and Philippe Guitard in a discussion.
+<br />The podcast does not have a website yet, but we are working on it and should have it up and running soon.
+<br /><a href="http://media.libsyn.com/media/cocoacast/cct_episode1.m4a" title="CocoaCast Talk Episode 1 - MacWorld 2008 Developer's Review">Listen to this Episode</a></p>]]></description>
+      <pubDate>Tue, 15 Jan 2008 22:33:12 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/cct_episode1.m4a" length="21996370" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-29-wwdc-2007-express-episode-3</guid>
+      <itunes:author>Boris Klaydman, Russ Homsy, and Philippe Guitard</itunes:author>
+      <itunes:subtitle>CocoaCast Talk Episode 1 - MacWorld 2008 Developer&apos;s Review</itunes:subtitle>
+      <itunes:summary>We are proud to present first Episode in new Podcast called CocoaCast Talk. There a few news sites out there, however, no news are covered from the developer&apos;s perspective. Our show will fill that void. We are going to discuss news and other topics from the Developer&apos;s point of view. In this episode, we are talking about the MacWorld 2008 keynote and its implications for developers and hidden messages. Join Boris Klaydman, Russell Homsy and Philippe Guitard in a discussion.
+The podcast does not have a website yet, but we are working on it and should have it up and running soon.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:43</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 40 - F-Script Demo with Philippe Guitard</title>
+      <link>http://www.cocoacast.com/?q=node/188</link>
+      <description><![CDATA[<p>This is an Express Episode provided to us by Philippe Guitard which covers the support of F-Script in a Cocoa. F-Script is a Cocoa framework developed by Philippe Mougin that provides scripting to Cocoa applications. This screencast reviews the few steps required to use F-Script in Cocoa and includes a demo showing how to build an application supporting F-Script from scratch.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode40.m4v" title="Episode 40 - F-Script Demo with Philippe Guitard">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 13 Jan 2008 15:19:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode40.m4v" length="60954819" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-39-nstextview</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>F-Script Demo with Philippe Guitard</itunes:subtitle>
+      <itunes:summary>This is an Express Episode provided to us by Philippe Guitard which covers the support of F-Script in a Cocoa. F-Script is a Cocoa framework developed by Philippe Mougin that provides scripting to Cocoa applications. This screencast reviews the few steps required to use F-Script in Cocoa and includes a demo showing how to build an application supporting F-Script from scratch.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>22:46</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 39 - NSTextView</title>
+      <link>http://www.cocoacast.com/?q=node/183</link>
+      <description><![CDATA[<p>NSTextView is one of the complex yet powerful classes in Cocoa. In this Episode we will explore this class and actually build a small XML editor using only the NSTextView class with some small extensions. We will also talk about plists and contextual menus.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode39.m4v" title="Episode 39 - NSTextView">View this Episode</a></p>]]></description>
+      <pubDate>Mon, 07 Jan 2008 23:45:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode39.m4v" length="54574321" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-38-aquaticprime-with-philippe-guitard</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>NSTextView</itunes:subtitle>
+      <itunes:summary>NSTextView is one of the complex yet powerful classes in Cocoa. In this Episode we will explore this class and actually build a small XML editor using only the NSTextView class with some small extensions. We will also talk about plists and contextual menus.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Programing</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>20:25</itunes:duration>
+      <media:thumbnail url="http://www.cocoacast.com/cocoacastLogo5-nocorners.png"/>
+    </item>
+    <item>
+      <title>Episode 38 - AquaticPrime with Philippe Guitard</title>
+      <link>http://www.cocoacast.com/?q=node/179</link>
+      <description><![CDATA[<p>This is an Express Episode provided to us by Philippe Guitard and covers the support of the AquaticPrime software registration framework in Cocoa.
+<br />AquaticPrime is a Cocoa framework developed by Lucas Newman to provide simple software registration to Cocoa applications. This screencast reviews the few steps required to use AquaticPrime in Cocoa and includes a demo showing how to build an application supporting AquaticPrime from scratch.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode38.m4v" title="Episode 38 - AquaticPrime with Philippe Guitard">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 23 Dec 2007 19:25:41 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode38.m4v" length="64994426" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-37-updating-menus</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>AquaticPrime with Philippe Guitard</itunes:subtitle>
+      <itunes:summary>This is an Express Episode provided to us by Philippe Guitard and covers the support of the AquaticPrime software registration framework in Cocoa.
+AquaticPrime is a Cocoa framework developed by Lucas Newman to provide simple software registration to Cocoa applications. This screencast reviews the few steps required to use AquaticPrime in Cocoa and includes a demo showing how to build an application supporting AquaticPrime from scratch.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>23:25</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 37 - Updating Menus</title>
+      <link>http://www.cocoacast.com/?q=node/175</link>
+      <description><![CDATA[<p>Menu system in Mac OS X is incredibly flexible. As programmers we can easily enable, disable, modify, and create menus. This Episode will show exactly how it is done.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode37.m4v" title="Episode 37 - Updating Menus">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 16 Dec 2007 20:45:17 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode37.m4v" length="17861988" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-36-obejectivec-20-part-1-introduct</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Updating Menus (Enabling, Disabling, Creating, Changing)</itunes:subtitle>
+      <itunes:summary>Menu system in Mac OS X is incredibly flexible. As programmers we can easily enable, disable, modify, and create menus. This Episode will show exactly how it is done.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>8:22</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 36 - Obejective-C 2.0 - Part 1 - Introduction to Fast Enumeration, Garbage Collection, and Properties</title>
+      <link>http://www.cocoacast.com/?q=node/167</link>
+      <description><![CDATA[<p>Some consider Objective-C 2.0 a brand new language. There are many additions to Objective-C that we need to take a look at such as Properties, New Loops, Garbage Collection, etc. This is exactly what we will do in this Episode. We will introduce the following concepts: Changes to Categories and Protocols, Fast Enumeration, Garbage Collection, and Properties. There will be more episodes in the future dealing with Objective-C 2.0. This is Part 1 of this series of episodes.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode36.m4v" title="Episode 36 - Obejective-C 2.0 - Part 1 - Introduction to Fast Enumeration, Garbage Collection, and Properties">View this Episode</a></p>]]></description>
+      <pubDate>Tue, 11 Dec 2007 23:56:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode36.m4v" length="76585164" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-35-xcode-30-new-editor-run-debug-d</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Obejective-C 2.0 - Part 1 - Introduction to Fast Enumeration, Garbage Collection, and Properties</itunes:subtitle>
+      <itunes:summary>Some consider Objective-C 2.0 a brand new language. There are many additions to Objective-C that we need to take a look at such as Properties, New Loops, Garbage Collection, etc. This is exactly what we will do in this Episode. We will introduce the following concepts: Changes to Categories and Protocols, Fast Enumeration, Garbage Collection, and Properties. There will be more episodes in the future dealing with Objective-C 2.0. This is Part 1 of this series of episodes.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>28:37</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 35 - Xcode 3.0 - New Editor, Run, Debug, Documentation, and Sharing</title>
+      <link>http://www.cocoacast.com/?q=node/164</link>
+      <description><![CDATA[<p>There tons of new things in Xcode 3.0 and we need to know them in order to code faster, better, and be more productive. This Episode take a deep look at Xcode 3.0 from developer perspective.We will talk about the new editing features like code folding, new debugger, snapshots, and more.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode35.m4v" title="Episode 35 -- Xcode 3.0 - New Editor, Run, Debug, Documentation, and Sharing">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 02 Dec 2007 19:55:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode35.m4v" length="106687431" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-34-interface-builder-30-new-features</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Xcode 3.0 - New Editor, Run, Debug, Documentation, and Sharing</itunes:subtitle>
+      <itunes:summary>There tons of new things in Xcode 3.0 and we need to know them in order to code faster, better, and be more productive. This Episode take a deep look at Xcode 3.0 from developer perspective.We will talk about the new editing features like code folding, new debugger, snapshots, and more.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>39:26</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 34 - Interface Builder 3.0 - new features, tips and tricks</title>
+      <link>http://www.cocoacast.com/?q=node/163</link>
+      <description><![CDATA[<p>With Leopard out of the cage, it is time we take a look at how to get the usual tasks done in Interface Buolder 3.0 and what are the tips and tricks one may want to know. We will talk about Library in IB 3.0, Smart Groups, New Toolbar, Inspector, a new way to make connections between controls and  Synchronization with Xcode and a lot more.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode34.m4v" title="Episode 34 -- Interface Builder 3.0">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 25 Nov 2007 23:15:38 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode34.m4v" length="92658231" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-33-printing</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Interface Builder 3.0 - new features, tips and tricks</itunes:subtitle>
+      <itunes:summary>With Leopard out of the cage, it is time we take a look at how to get the usual tasks done in Interface Buolder 3.0 and what are the tips and tricks one may want to know. We will talk about Library in IB 3.0, Smart Groups, New Toolbar, Inspector, a new way to make connections between controls and  Synchronization with Xcode and a lot more.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>34:44</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 33 - Printing</title>
+      <link>http://www.cocoacast.com/?q=node/161</link>
+      <description><![CDATA[<p>This Episode shows how Mac OS X had simplified the printing process for us, we will see how easy it is to add printing support to your applications.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode33.m4v" title="Episode 33 -- Printing">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 18 Nov 2007 19:43:13 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode33.m4v" length="55791265" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-32-nsformater</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Printing</itunes:subtitle>
+      <itunes:summary>This Episode shows how Mac OS X had simplified the printing process for us, we will see how easy it is to add printing support to your applications.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>19:50</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 32 - NSFormater</title>
+      <link>http://www.cocoacast.com/?q=node/157</link>
+      <description><![CDATA[<p>In this Episode we will talk about converting strings to objects and back using NSFormater class. We had done this before, so for the most part it will be a review for you. There are however some new topics covered.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode32.m4v" title="Episode 32 -- NSFormater">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 11 Nov 2007 22:00:27 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode32.m4v" length="78201170" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-31-sheets</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>NSFormater</itunes:subtitle>
+      <itunes:summary>In this Episode we will talk about converting strings to objects and back using NSFormater class. We had done this before, so for the most part it will be a review for you. There are however some new topics covered.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>18:47</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 31 - Sheets</title>
+      <link>http://www.cocoacast.com/?q=node/143</link>
+      <description><![CDATA[<p>In this episode we will talk about dialog boxes on the MacOS X. Dialog boxes on Mac OS are usually implemented as sheets or windows that are attached to other windows. It is really easy to distinguish a window to which the sheet is attached to. Learn how to create that kind of dialogs in this episode.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode31.mov" title="Episode 31 -- Sheets">View this Episode</a></p>]]></description>
+      <pubDate>Tue, 31 Jul 2007 02:28:08 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode31.mov" length="34992740" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-26-nstimer-and-the-project-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Sheets</itunes:subtitle>
+      <itunes:summary>In this episode we will talk about dialog boxes on the MacOS X. Dialog boxes on Mac OS are usually implemented as sheets or windows that are attached to other windows. It is really easy to distinguish a window to which the sheet is attached to. Learn how to create that kind of dialogs in this episode.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>15:31</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 30 - Sparkle Framework</title>
+      <link>http://www.cocoacast.com/?q=node/138</link>
+      <description><![CDATA[<p>This is an Express Episode 2 provided to us by Philippe Guitard and covers the support of the Sparkle self-update framework in Cocoa.
+<br />Sparkle is a Cocoa framework developed by Andy Matushack to provide over the web self-update functionality to Cocoa applications. This screencast reviews the few steps required to use Sparkle in Cocoa and includes a demo showing how to build an application supporting Sparkle from scratch.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode30.mov" title="Episode 30 -- Add Growl Support to your Cocoa Applications">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 22 Jul 2007 18:57:58 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode30.mov" length="28075305" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-25-add-growl-support-to-your-cocoa-appli-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy &amp; Philippe Guitard</itunes:author>
+      <itunes:subtitle>Sparkle Framework for Automatic Application Updates</itunes:subtitle>
+      <itunes:summary>This is an Express Episode 2 provided to us by Philippe Guitard and covers the support of the Sparkle self-update framework in Cocoa.
+Sparkle is a Cocoa framework developed by Andy Matushack to provide over the web self-update functionality to Cocoa applications. This screencast reviews the few steps required to use Sparkle in Cocoa and includes a demo showing how to build an application supporting Sparkle from scratch.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12:09</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 29 - WWDC 2007 Express Episode 3</title>
+      <link>http://www.cocoacast.com/?q=node/127</link>
+      <description><![CDATA[<p>This is special express episode 3 from WWDC 2007 which concludes our coverage of the WWDC. We reflect on the WWDC, Leopard, and Developer tools. Objective-C 2.0, Xcode 3.0, Xray are just a few topics we want to address.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode29.m4a" title="Episode 29 -- WWDC 2007 Express Episode 3">Listen to this Episode</a></p>]]></description>
+      <pubDate>Thu, 14 Jun 2007 22:26:52 -0700</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode29.m4a" length="13403747" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-27-wwdc-2007-express-episode-1-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>WWDC 2007 Express Episode 3</itunes:subtitle>
+      <itunes:summary>This is special express episode 3 from WWDC 2007 which concludes our coverage of the WWDC. We reflect on the WWDC, Leopard, and Developer tools. Objective-C 2.0, Xcode 3.0, Xray are just a few topics we want to address.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>13:43</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 28 - WWDC 2007 Express Episode 2</title>
+      <link>http://www.cocoacast.com/?q=node/126</link>
+      <description><![CDATA[<p>This Episode is the second part of our coverage of the of the WWDC. We will discuss the keynote and new announcements like Xcode 3.0, Objective-C 2.0, etc.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode28.mp3" title="Episode 28 -- WWDC 2007 Express Episode 2">Listen to this Episode</a></p>]]></description>
+      <pubDate>Mon, 11 Jun 2007 21:28:40 -0700</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode28.mp3" length="60310240" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-27-wwdc-2007-express-episode-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy &amp; Philippe Guitard</itunes:author>
+      <itunes:subtitle>WWDC 2007 Express Episode 1</itunes:subtitle>
+      <itunes:summary>This Episode is the second part of our coverage of the of the WWDC. We will discuss the keynote and new announcements like Xcode 3.0, Objective-C 2.0, etc.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:02:46</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 27 - WWDC 2007 Express Episode 1</title>
+      <link>http://www.cocoacast.com/?q=node/125</link>
+      <description><![CDATA[<p>This is special express episode 1 from WWDC 2007 with our predictions and impressions from San Francisco on the night before the Keynote. We are excited and hope you are too.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode27.m4a" title="Episode 27 -- WWDC 2007 Express Episode 1">Listen to this Episode</a></p>]]></description>
+      <pubDate>Sun, 10 Jun 2007 21:02:56 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode27.m4a" length="18621715" type="audio/mpeg"/>
+      <guid isPermaLink="false">episode-26-nstimer-and-the-project</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>WWDC 2007 Express Episode 1</itunes:subtitle>
+      <itunes:summary>This is special express episode 1 from WWDC 2007 with our predictions and impressions from San Francisco on the night before the Keynote. We are excited and hope you are too.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>12:46</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 26 - NSTimer and The Project</title>
+      <link>http://www.cocoacast.com/?q=node/124</link>
+      <description><![CDATA[<p>For some of the things that you would want to accomplish time is required, some of the tasks you want to delay, some you want to schedule. In this Episode, we will talk about Timers and how to use them in Cocoa. Also, we will discuss and finalize the Open source project we are going to work on as part of the podcast.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode26.mov" title="Episode 26 -- NSTimer and The Project">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 10 Jun 2007 00:29:59 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode26.mov" length="81231252" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-25-add-growl-support-to-your-cocoa-appli</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>NSTimer and The Project</itunes:subtitle>
+      <itunes:summary>For some of the things that you would want to accomplish time is required, some of the tasks you want to delay, some you want to schedule. In this Episode, we will talk about Timers and how to use them in Cocoa. Also, we will discuss and finalize the Open source project we are going to work on as part of the podcast.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>41:44</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 25 - Add Growl Support to your Cocoa Applications</title>
+      <link>http://www.cocoacast.com/?q=node/121</link>
+      <description><![CDATA[<p>This is an Express Episode provided to us by Philippe Guitard and covers the support of Growl notifications in Cocoa. 
+<br />Growl is a Mac OS X service developed by the Adium team to provide cool looking on screen notifications to Cocoa applications. This screencast reviews the few steps required to use Growl in Cocoa and includes a demo showing how to build a Growl compliant application from scratch.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode25.mov" title="Episode 25 -- Add Growl Support to your Cocoa Applications">View this Episode</a></p>]]></description>
+      <pubDate>Sat, 02 Jun 2007 13:41:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode25.mov" length="30753571" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-24-categories-and-drag-and-drop</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy &amp; Philippe Guitard</itunes:author>
+      <itunes:subtitle>Add Growl Support to your Cocoa Applications</itunes:subtitle>
+      <itunes:summary>This is an Express Episode provided to us by Philippe Guitard and covers the support of Growl notifications in Cocoa. 
+Growl is a Mac OS X service developed by the Adium team to provide cool looking on screen notifications to Cocoa applications. This screencast reviews the few steps required to use Growl in Cocoa and includes a demo showing how to build a Growl compliant application from scratch.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>39:18</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 24 - Categories and Drag and Drop</title>
+      <link>http://www.cocoacast.com/?q=node/115</link>
+      <description><![CDATA[<p>Cocoa does not provide a method (standard method) to hind interfaces and make things private. Categories is a way not only to extend classes dynamically, but also to provide private methods. In addition, this Episode will talk about Drag-And-Drop, which is something that every Mac user is accustomed to, but we yet to master.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode24.mov" title="Episode 24 -- Categories and Drag and Drop">View this Episode</a></p>]]></description>
+      <pubDate>Wed, 23 May 2007 23:43:21 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode24.mov" length="79403771" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-23-pasteboards-and-niltargeted-actions</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Categories and Drag and Drop</itunes:subtitle>
+      <itunes:summary>Cocoa does not provide a method (standard method) to hind interfaces and make things private. Categories is a way not only to extend classes dynamically, but also to provide private methods. In addition, this Episode will talk about Drag-And-Drop, which is something that every Mac user is accustomed to, but we yet to master.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>39:18</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 23 - Pasteboards and Nil-Targeted Actions</title>
+      <link>http://www.cocoacast.com/?q=node/113</link>
+      <description><![CDATA[<p>We will continue to work on the Typing Tutor application and this time we will add the ability to cut, copy, and paste letters. This Episode with show how to deal with Pasteboards and Nil-Targeted actions. As always, we will provide the solutions for challenges in previous episode as well as pose new challenges. We will also continue the discussion about the open source project.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode23.mov" title="Episode 23 -- Pasteboards and Nil-Targeted Actions">View this Episode</a></p>]]></description>
+      <pubDate>Wed, 16 May 2007 23:44:22 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode23.mov" length="86776475" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-22-working-with-fonts-and-nsattributedst</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Pasteboards and Nil-Targeted Actions</itunes:subtitle>
+      <itunes:summary>We will continue to work on the Typing Tutor application and this time we will add the ability to cut, copy, and paste letters. This Episode with show how to deal with Pasteboards and Nil-Targeted actions. As always, we will provide the solutions for challenges in previous episode as well as pose new challenges. We will also continue the discussion about the open source project.
+</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>42:14</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 22 - Working with Fonts and NSAttributedString</title>
+      <link>http://www.cocoacast.com/?q=node/107</link>
+      <description><![CDATA[<p>We will continue to work on the Typing Tutor application and this time we will add the ability to display some characters in the custom view. This Episode will take a look into the topic of working with Fonts and Attributed strings. We will also touch on the topic of getting your view to generate PDF data which we may need for the open souse project we are about to begin.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode22.mov" title="Episode 22 -- Working with Fonts and NSAttributedString">View this Episode</a></p>]]></description>
+      <pubDate>Sat, 05 May 2007 08:29:38 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode22.mov" length="102227683" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-21-responders-and-keyboard-events</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Working with Fonts and NSAttributedString</itunes:subtitle>
+      <itunes:summary>We will continue to work on the Typing Tutor application and this time we will add the ability to display some characters in the custom view. This Episode will take a look into the topic of working with Fonts and Attributed strings. We will also touch on the topic of getting your view to generate PDF data which we may need for the open souse project we are about to begin.
+</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>49:34</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 21 - Responders and Keyboard Events</title>
+      <link>http://www.cocoacast.com/?q=node/105</link>
+      <description><![CDATA[<p>We continue our talk about view customization with discussion about Responders and Keyboard Events. We will learn how to read what user types using the keyboard and more info about the Responders will be covered in order to understand mechanisms used by cocoa for keyboard input.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode21.mov" title="Episode 21 -- Responders and Keyboard Events">View this Episode</a></p>]]></description>
+      <pubDate>Fri, 27 Apr 2007 23:54:00 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode21.mov" length="119693935" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-19-image-and-mouse-events-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Responders and Keyboard Events</itunes:subtitle>
+      <itunes:summary>We continue our talk about view customization with discussion about Responders and Keyboard Events. We will learn how to read what user types using the keyboard and more info about the Responders will be covered in order to understand mechanisms used by cocoa for keyboard input.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>55:29</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 20 - Special Audio Interview</title>
+      <link>http://www.cocoacast.com/?q=node/80</link>
+      <description><![CDATA[<p>In this episode, we have Daniel Jalkut of Red-Sweater software and Jon Trainer of Outer Level software in studio.  We discuss topics related to our opensource cocoa application, and the delay in Leopard.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode20.m4a" title="Episode 20 -- Special Audio Interview">Listen to this Episode</a></p>]]></description>
+      <pubDate>Thu, 19 Apr 2007 22:00:55 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode20.m4a" length="45988382" type="application/octet-stream"/>
+      <guid isPermaLink="false">episode-19-image-and-mouse-events</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Special Audio Interview</itunes:subtitle>
+      <itunes:summary>In this episode, we have Daniel Jalkut of Red-Sweater software and Jon Trainer of Outer Level software in studio.  We discuss topics related to our opensource cocoa application, and the delay in Leopard.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>41:21</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 19 - Image and Mouse Events</title>
+      <link>http://www.cocoacast.com/?q=node/80</link>
+      <description><![CDATA[<p>In previous episode we learned how to create a custom view, in this Episode we will take it further and place images on the screen, handle mouse events, and create a simple drawing application. In addition, we will discuss forum topics and answer your questions.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode19.mov" title="Episode 19 -- Image and Mouse Events">View this Episode</a></p>]]></description>
+      <pubDate>Mon, 26 Mar 2007 01:57:45 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode19.mov" length="95535023" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-18-custom-views</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Image and Mouse Events</itunes:subtitle>
+      <itunes:summary>In previous episode we learned how to create a custom view, in this Episode we will take it further and place images on the screen, handle mouse events, and create a simple drawing application. In addition, we will discuss forum topics and answer your questions.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>41:21</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 18 - Custom Views</title>
+      <link>http://www.cocoacast.com/?q=node/80</link>
+      <description><![CDATA[<p>In this Episode we will explore NSView class which you need to understand in order create custom views. We will talk about the view hierarchy, subclassing of NSView, drawing the view and drawRect: method, and many more topics. In addition, we will talk about forum discussions and general topics.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode18.mov" title="Episode 18 -- Custom Views">View this Episode</a></p>]]></description>
+      <pubDate>Tue, 13 Mar 2007 05:15:32 -0500</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode18.mov" length="68510830" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-17-localization</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Custom Views</itunes:subtitle>
+      <itunes:summary>In this Episode we will explore NSView class which you need to understand in order create custom views. We will talk about the view hierarchy, subclassing of NSView, drawing the view and drawRect: method, and many more topics. In addition, we will talk about forum discussions and general topics.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>32:18</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 17 - Localization</title>
+      <link>http://www.cocoacast.com/?q=node/76</link>
+      <description><![CDATA[<p>Our community is truly multinational, which makes the Episode 17 even more appropriate. We will talk about Localization and its implementation in Cocoa. We will discuss Localizing of Nib files, String Tables, and some advanced topics.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode17.mov" title="Episode 17 -- Localization">View this Episode</a></p>]]></description>
+      <pubDate>Tue, 06 Mar 2007 22:17:31 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode17.mov" length="74038292" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-16-using-notifications-and-alert-panels</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Localization</itunes:subtitle>
+      <itunes:summary>Our community is truly multinational, which makes the Episode 17 even more appropriate. We will talk about Localization and its implementation in Cocoa. We will discuss Localizing of Nib files, String Tables, and some advanced topics.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>34:17</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 16 - Using Notifications and Alert Panels</title>
+      <link>http://www.cocoacast.com/?q=node/63</link>
+      <description><![CDATA[<p>Since the next couple of chapters are small, we will try to cover two chapters in one Episode. This episode will cover Notifications (Chapter 11) and Alert Panels (Chapter 12). We will answer user's questions and both pose and solve challenges.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode16.mov" title="Episode 16 -- Using Notifications and Alert Panels">View this Episode</a></p>]]></description>
+      <pubDate>Tue, 27 Feb 2007 01:54:18 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode16.mov" length="59095818" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-15-user-defaults</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Using Notifications and Alert Panels</itunes:subtitle>
+      <itunes:summary>Since the next couple of chapters are small, we will try to cover two chapters in one Episode. This episode will cover Notifications (Chapter 11) and Alert Panels (Chapter 12). We will answer user&apos;s questions and both pose and solve challenges.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>25:59</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 15 - User Defaults</title>
+      <link>http://www.cocoacast.com/?q=node/61</link>
+      <description><![CDATA[<p>Continuing with the subject of previous episode, we will Talk about User Defaults (Chapter 10). Subjects covered will include Setting the Identifier for the Application, Registering Defaults, Using and Editing Defaults, and much more... We will also discuss future projects that we could do as a community with the Podcast as the driving and sharing force behind the development effort.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode15.mov" title="Episode 15 -- User Defaults">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 25 Feb 2007 23:04:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode15.mov" length="88915062" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-14-nib-files-and-nswindowcontroller</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>User Defaults</itunes:subtitle>
+      <itunes:summary>Continuing with the subject of previous episode, we will Talk about User Defaults (Chapter 10). Subjects covered will include Setting the Identifier for the Application, Registering Defaults, Using and Editing Defaults, and much more... We will also discuss future projects that we could do as a community with the Podcast as the driving and sharing force behind the development effort.
+View this Episode</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>43:22</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 14 - Nib Files and NSWindowController</title>
+      <link>http://www.cocoacast.com/?q=node/35</link>
+      <description><![CDATA[<p>We will Talk about Chapter 9 of the textbook "Nib Files and NSWindowController" and learn show to load nib files using NSWindowController in order to make applications launch faster. During the podcast we will create a Preference panel that will be update in future podcast. Also, we will discuss challenges and your involvement in the podcast.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode14.mov" title="Episode 14 -- Nib Files and NSWindowController">View this Episode</a></p>]]></description>
+      <pubDate>Wed, 14 Feb 2007 00:24:26 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode14.mov" length="73999160" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-13-archiving</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Nib Files and NSWindowController</itunes:subtitle>
+      <itunes:summary>We will Talk about Chapter 9 of the textbook &quot;Nib Files and NSWindowController&quot; and learn show to load nib files using NSWindowController in order to make applications launch faster. During the podcast we will create a Preference panel that will be update in future podcast. Also, we will discuss challenges and your involvement in the podcast.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>33:32</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 13 - Archiving</title>
+      <link>http://www.cocoacast.com/?q=node/26</link>
+      <description><![CDATA[<p>In previous episodes we pointed out that even though the document based applications know when changes are made if undo is implemented, we could not save the changes. In this episode we will talk about how Archiving is used for saving files (Chapter 8 of the test book). In addition, we will discuss the Value Transformers and how they can be used with Cocoa Binding.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode13.mov" title="Episode 13 -- Archiving">View this Episode</a></p>]]></description>
+      <pubDate>Tue, 06 Feb 2007 05:03:09 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode13.mov" length="117903110" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-12-nsundomanager</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Archiving</itunes:subtitle>
+      <itunes:summary>In previous episodes we pointed out that even though the document based applications know when changes are made if undo is implemented, we could not save the changes. In this episode we will talk about how Archiving is used for saving files (Chapter 8 of the test book). In addition, we will discuss the Value Transformers and how they can be used with Cocoa Binding.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>56:09</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 12 - NSUndoManager</title>
+      <link>http://www.cocoacast.com/?q=node/23</link>
+      <description><![CDATA[<p>The Undo is a powerful tool that is easy to add to your application. We will show how to add the Undo to Cocoa Applications using NSUndoManager and NSInvocation. We will modify the Advanced RaiseMan application created in previous podcast and give some new challenges for you to work on. We will also talk about MacWorld 2007, iPhone, and other mac-related topics.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode12.mov" title="Episode 12 -- NSUndoManager">View this Episode</a></p>]]></description>
+      <pubDate>Mon, 29 Jan 2007 01:00:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode12.mov" length="71732859" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-11-advanced-bindings-and-core-data-1</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Adding Undo to your Applications</itunes:subtitle>
+      <itunes:summary>The Undo is a powerful tool that is easy to add to your application. We will show how to add the Undo to Cocoa Applications using NSUndoManager and NSInvocation. We will modify the Advanced RaiseMan application created in previous podcast and give some new challenges for you to work on. We will also talk about MacWorld 2007, iPhone, and other mac-related topics.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>33:05</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 11 - Advanced Bindings and Core Data</title>
+      <link>http://www.cocoacast.com/?q=node/22</link>
+      <description><![CDATA[<p>We finally feel strong enough to deviate from the Textbook and cover more advanced topics. We introduced two advanced topics in this episode -- Advanced Bindings with multiple Array Controllers and Core Data. We showed how to create an application with multiple windows (a window and drawer) and connect multiple NSArrayControllers. Finally, RaiseMan application is replicated with Core Data and zero lines of code.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode11.mov" title="Episode 11 -- Advanced Bindings and Core Data">View this Episode</a></p>]]></description>
+      <pubDate>Sun, 07 Jan 2007 21:32:00 -0600</pubDate>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode11.mov" length="130139399" type="video/quicktime"/>
+      <guid isPermaLink="false">episode-11-advanced-bindings-and-core-data</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Advanced Bindings and Core Data</itunes:subtitle>
+      <itunes:summary>We finally feel strong enough to deviate from the Textbook and cover more advanced topics. We introduced two advanced topics in this episode -- Advanced Bindings with multiple Array Controllers and Core Data. We showed how to create an application with multiple windows (a window and drawer) and connect multiple NSArrayControllers. Finally, RaiseMan application is replicated with Core Data and zero lines of code.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1:00:13</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 10 - Bindings and NSController (Cont).</title>
+      <link>http://www.cocoacast.com/?q=node/21</link>
+      <description><![CDATA[<p>This podcast is the second part of the two podcasts that will cover Key-Value Coding (KVC) and Cocoa bindings. We will start working on the RaiseMan application and take a look at how bindings are set in Interface Builder. We will cover the remainder of the chapter including Sorting Key Path, and solutions to challenges.
+<br /><a href="http://media.libsyn.com/media/cocoacast/ccp_episode10.mov" title="Episode 10 -- Bindings and NSController (Cont).">View this Episode</a></p>]]></description>
+      <pubDate>Mon, 25 Dec 2006 03:40:00 -0600</pubDate>
+      <category>Screencast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode10.mov" length="38930683" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/7c80949e5f2ec8c444ec6ca5ec5186e3-18.html#unique-entry-id-18</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>Bindings and NSController (Cont).</itunes:subtitle>
+      <itunes:summary>This podcast is the second part of the two podcasts that will cover Key-Value Coding (KVC) and Cocoa bindings. We will start working on the RaiseMan application and take a look at how bindings are set in Interface Builder. We will cover the remainder of the chapter including Sorting Key Path, and solutions to challenges.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>21:09</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 9 - New Co-Host</title>
+      <link>http://www.cocoacast.com/?q=node/20</link>
+      <description><![CDATA[The CocoaCast is proud to add a Co-Host to the show -- Russ.  We are working on resolving some technical issues with viewing the screen on both ends of the podcast and at the same time capturing clear audio.  We should record the show shortly and have the new format of the podcast ready for you soon.  We apologize for quality of the sound on my end (Russ sounds great :)) and will have this resolved as soon as possible.]]></description>
+      <pubDate>Sat, 16 Dec 2006 14:35:00 -0600</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/Episode9.m4a" length="411001" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/ff992c7125b6ae45e5e1bc7894591bd9-16.html#unique-entry-id-16</guid>
+      <itunes:author>Boris Klaydman &amp; Russ Homsy</itunes:author>
+      <itunes:subtitle>New Co-Host</itunes:subtitle>
+      <itunes:summary>The CocoaCast is proud to add a Co-Host to the show -- Russ. We are working on resolving some technical issues with viewing the screen on both ends of the podcast and at the same time capturing clear audio. We should record the show shortly and have the new format of the podcast ready for you soon. We apologize for quality of the sound on my end (Russ sounds great :)) and will have this resolved as soon as possible.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>0:53</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 8 - Bindings and NSController</title>
+      <link>http://www.cocoacast.com/?q=node/19</link>
+      <description><![CDATA[This podcast is the first of the two podcasts that will cover Key-Value Coding (KVC) and Cocoa bindings. We will start working on the RaiseMan application and take a look at how bindings are set in Interface Builder. The next podcast will cover the remainder of the chapter including Sorting, Key Paths, and solutions to challenges.]]></description>
+      <pubDate>Sun, 03 Dec 2006 14:52:25 -0600</pubDate>
+      <category>Screencast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode8.mov" length="49402338" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/b33e0ff6c34d1c08d75bbd439ea650d7-17.html#unique-entry-id-17</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Bindings and NSController</itunes:subtitle>
+      <itunes:summary>This podcast is the first of the two podcasts that will cover Key-Value Coding (KVC) and Cocoa bindings. We will start working on the RaiseMan application and take a look at how bindings are set in Interface Builder. The next podcast will cover the remainder of the chapter including Sorting, Key Paths, and solutions to challenges.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>22:10</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 8 - Shownotes</title>
+      <link>http://www.cocoacast.com/files/70686f6dac192e27668d31bf69ac066b-14.html#unique-entry-id-14</link>
+      <pubDate>Sun, 03 Dec 2006 14:43:24 -0600</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/Episode8.pdf" length="3028623" type="application/pdf"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/70686f6dac192e27668d31bf69ac066b-14.html#unique-entry-id-14</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Starting Point for Cocoa Developers</itunes:subtitle>
+      <itunes:summary>These are the slides used in presentation of Episode 8 in PDF format</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 7 - Shownotes</title>
+      <link>http://www.cocoacast.com/files/914a818c3aab47a9ec3594ade7f98fe6-13.html#unique-entry-id-13</link>
+      <pubDate>Sun, 26 Nov 2006 10:21:54 -0600</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/Episode7.pdf" length="2035515" type="application/pdf"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/914a818c3aab47a9ec3594ade7f98fe6-13.html#unique-entry-id-13</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Starting Point for Cocoa Developers</itunes:subtitle>
+      <itunes:summary>These are the slides used in presentation of Episode 7 in PDF format</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 7 - Helper Objects</title>
+      <link>http://www.cocoacast.com/?q=node/18</link>
+      <description><![CDATA[The main goal of this podcast is to discuss the major difference between subclassing and use of helper objects.  We will start to talk about is-a vs. has-a relationship and continue this topic in the next podcast.  We will talk about Delegates and NSTableView and how it is different from the table views used by other frameworks.  We finish with more advanced topic of responding to a selector and how it is used by delegates.]]></description>
+      <pubDate>Sun, 26 Nov 2006 10:09:00 -0600</pubDate>
+      <category>Screencast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode7.mov" length="54138735" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/11c00f6e906816a336af8126c1d4cf65-12.html#unique-entry-id-12</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Helper Objects</itunes:subtitle>
+      <itunes:summary>The main goal of this podcast is to discuss the major difference between subclassing and use of helper objects. We will start to talk about is-a vs. has-a relationship and continue this topic in the next podcast. We will talk about Delegates and NSTableView and how it is different from the table views used by other frameworks. We finish with more advanced topic of responding to a selector and how it is used by delegates.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>23:14</itunes:duration>
+    </item>
+    <item>
+      <title>We are BACK</title>
+      <link>http://www.cocoacast.com/files/6302495de84895f6b6fa7ff8e42a28cf-11.html#unique-entry-id-11</link>
+      <description><![CDATA[Sorry for the long delay.  We will be back shortly.  Next episode is due by the end of the week.
+
+There a few things that I could not handle as well I though I should and as a result you all had suffered.  I let you down and there is no excuse for that.  I'm resuming the regular schedule effective immediately and try to stay on it as much as humanly possible.
+
+Note: We have a small baby in the family and as a result I cannot turn the heater off at night when I'll be recording the show.  Please forgive me for quality of the podcast, I'll do my best to keep the qualify as high as possible.]]></description>
+      <pubDate>Tue, 21 Nov 2006 10:40:57 -0600</pubDate>
+      <category>Announcement</category>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/6302495de84895f6b6fa7ff8e42a28cf-11.html#unique-entry-id-11</guid>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 6 - Shownotes</title>
+      <link>http://www.cocoacast.com/files/d026c270902f42200659194a01a8d260-9.html#unique-entry-id-9</link>
+      <pubDate>Sun, 06 Aug 2006 20:57:49 -0500</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/Episode6.pdf" length="1620548" type="application/pdf"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/d026c270902f42200659194a01a8d260-9.html#unique-entry-id-9</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Starting Point for Cocoa Developers</itunes:subtitle>
+      <itunes:summary>These are the slides used in presentation of Episode 6 in PDF format</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 6 - Controls - intro to MVC</title>
+      <link>http://www.cocoacast.com/?q=node/16</link>
+      <description><![CDATA[This posdcast introduces some basic Control and Model View Controller Pattern. We will discuss NSTextField, NSSlider,and NSButton classes and use them to create a GUI application that speaks a like that user types. In addition, we will talk about NSCollorWell and way to change the color of objects. The target and action concepts will be covered.  We will spend a lot of time in Interface Builder stetting the targets and actions. Finally, we will see how to set the target and action programmatically using @selector directive.]]></description>
+      <pubDate>Sun, 06 Aug 2006 20:58:00 -0500</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode6.mov" length="115324880" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/fe0dd8ce241e90d35791e63ca576c60f-10.html#unique-entry-id-10</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Controls - intro to MVC</itunes:subtitle>
+      <itunes:summary>This posdcast introduces some basic Control and Model View Controller Pattern. We will discuss NSTextField, NSSlider,and NSButton classes and use them to create a GUI application that speaks a like that user types. In addition, we will talk about NSCollorWell and way to change the color of objects. The target and action concepts will be covered.  We will spend a lot of time in Interface Builder stetting the targets and actions. Finally, we will see how to set the target and action programmatically using @selector directive.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>47:40</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 5 - Memory Management</title>
+      <link>http://www.cocoacast.com/?q=node/15</link>
+      <description><![CDATA[In this podcast we will finish our discussion of Chapter 3 of Cocoa Programming for Mac OS X. The main discussion of this podcast is about memory management. We will briefly review C-style memory management, garbage collection, and reference counting. We also will talk in details about autoreleased objects and memory pools.  In addition, we will talk about NSCalendarDate and Custom Initializers. The discussion will be finished with Demos of NSCalendarDate, Custom Initializers, and the Debugger. I will show how to set up a break point in your code and beefy demo the power of the Fix and Continue feature of Xcode.  In this podcast the first challenge would be discussed the solution would be posted on the next podcast.]]></description>
+      <pubDate>Mon, 31 Jul 2006 02:19:00 -0500</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode5.mov" length="124932890" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/afac000eb6613d7d5c1671ddb788b01d-8.html#unique-entry-id-8</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Memory Management</itunes:subtitle>
+      <itunes:summary>In this podcast we will finish our discussion of Chapter 3 of Cocoa Programming for Mac OS X. The main discussion of this podcast is about memory management. We will briefly review C-style memory management, garbage collection, and reference counting. We also will talk in details about autoreleased objects and memory pools.  In addition, we will talk about NSCalendarDate and Custom Initializers. The discussion will be finished with Demos of NSCalendarDate, Custom Initializers, and the Debugger. I will show how to set up a break point in your code and beefy demo the power of the Fix and Continue feature of Xcode.  In this podcast the first challenge would be discussed the solution would be posted on the next podcast.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>56:17</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 5 - Shownotes</title>
+      <link>http://www.cocoacast.com/files/ea12757220c666e523dd9f7b2512a4a5-7.html#unique-entry-id-7</link>
+      <pubDate>Mon, 31 Jul 2006 02:10:53 -0500</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/Episode5.pdf" length="2300564" type="application/pdf"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/ea12757220c666e523dd9f7b2512a4a5-7.html#unique-entry-id-7</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Starting Point for Cocoa Developers</itunes:subtitle>
+      <itunes:summary>These are the slides used in presentation of Episode 5 in PDF format</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
+      <title>Episode 4 - Objective-C</title>
+      <link>http://www.cocoacast.com/?q=node/14</link>
+      <description><![CDATA[This podcast will cover the Introduction to Objective-C as described in Cocoa Programming for Mac OS X by Aaron Hillegass. This is the first part of the podcast that covers the chapter 3. There a lot of things I needed to say about Objective-C and even while trying to make it as short as possible I was still unable to fit within 30 minutes. I have already recorded most of the 2nd part of this chapter podcast so in a few days expect to see the conclusion. Topics covered today include Foundation tool, Memory management, and some basic Foundation classes.]]></description>
+      <pubDate>Tue, 25 Jul 2006 12:21:46 -0500</pubDate>
+      <category>Screencast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode4.mov" length="93300538" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/dd32049f13b858dcd294cb092761064f-4.html#unique-entry-id-4</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Objective-C</itunes:subtitle>
+      <itunes:summary>This podcast will cover the Introduction to Objective-C as described in Cocoa Programming for Mac OS X by Aaron Hillegass. This is the first part of the podcast that covers the chapter 3. There a lot of things I needed to say about Objective-C and even while trying to make it as short as possible I was still unable to fit within 30 minutes. I have already recorded most of the 2nd part of this chapter podcast so in a few days expect to see the conclusion. Topics covered today include Foundation tool, Memory management, and some basic Foundation classes.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>42:03</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 3 - First Cocoa Application</title>
+      <link>http://www.cocoacast.com/?q=node/13</link>
+      <description><![CDATA[This is a first screencast that covers Chapter 2 of Cocoa Programming for Mac OS X (second edition) book. We will talk about Apple Developer Tools including Xcode and Interface Builder. We will cover topics like code editing in Xcode, basic preferences, getting around in Xcode and editing modes. Then we will talk about Interface Builder and give an example of simple application that was build entirely in Interface Builder. The main demo of the day is a Cocoa application given as an example in Chapter 2 of the textbook.]]></description>
+      <pubDate>Fri, 14 Jul 2006 21:34:27 -0500</pubDate>
+      <category>Screencast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/podcast_3.mov" length="80208469" type="video/quicktime"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/4693c99dcae1210f77935455c8747e96-3.html#unique-entry-id-3</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>First Cocoa Application</itunes:subtitle>
+      <itunes:summary>This is a first screencast that covers Chapter 2 of Cocoa Programming for Mac OS X (second edition) book. We will talk about Apple Developer Tools including Xcode and Interface Builder. We will cover topics like code editing in Xcode, basic preferences, getting around in Xcode and editing modes. Then we will talk about Interface Builder and give an example of simple application that was build entirely in Interface Builder. The main demo of the day is a Cocoa application given as an example in Chapter 2 of the textbook.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>33:09</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 2 - History of Cocoa and Objective-C</title>
+      <link>http://www.cocoacast.com/?q=node/12</link>
+      <description><![CDATA[This podcast is all about History of Cocoa and Objective-C. Cocoa was invented long time ago. Even though its the name has changed recently, it is still a revolutionary while still in process of refinement.  Objective-C is the main language which drives the success of Cocoa.  We will talk about NeXT, NeXTSTEP, OPENSTEP, and other historical landmarks in Cocoa evolution.  I will share some thoughts on the subject of why Cocoa and Objective-C are preferred combination for MacOS X programming.]]></description>
+      <pubDate>Wed, 21 Jun 2006 18:47:16 -0500</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode2.m4a" length="8405717" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/49611ce4cbd4194ba3782cb2de431765-2.html#unique-entry-id-2</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>History of Cocoa and Objective-C</itunes:subtitle>
+      <itunes:summary>This podcast is all about History of Cocoa and Objective-C. Cocoa was invented long time ago. Even though its the name has changed recently, it is still a revolutionary while still in process of refinement.  Objective-C is the main language which drives the success of Cocoa.  We will talk about NeXT, NeXTSTEP, OPENSTEP, and other historical landmarks in Cocoa evolution.  I will share some thoughts on the subject of why Cocoa and Objective-C are preferred combination for MacOS X programming.</itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>16:18</itunes:duration>
+    </item>
+    <item>
+      <title>Episode 1 - Introduction</title>
+      <link>http://www.cocoacast.com/?q=node/5</link>
+      <description><![CDATA[This Podcast is meant to serve two purposes: introduction and invitation. First, I would like to introduce myself and tell you what this Podcast is all about. Second, I would like to invite you to join me in learning Cocoa and Objective-C. If you have been trying to learn Cocoa and Objective-C look no further. I do not claim to be an expert in neither Cocoa nor Objective-C, however, I want to master both, and I hope many of you do too. This Podcast will be a starting point for learning Cocoa and a central place for tips, tricks, user discussions, and much more. ]]></description>
+      <pubDate>Wed, 14 Jun 2006 01:10:15 -0500</pubDate>
+      <category>Podcast</category>
+      <enclosure url="http://media.libsyn.com/media/cocoacast/ccp_episode1.m4a" length="6077441" type="audio/mpeg"/>
+      <guid isPermaLink="true">http://www.cocoacast.com/files/ccp001_06052006.html#unique-entry-id-0</guid>
+      <itunes:author>Boris Klaydman</itunes:author>
+      <itunes:subtitle>Introduction</itunes:subtitle>
+      <itunes:summary>This Podcast is meant to serve two purposes: introduction and invitation. First, I would like to introduce myself and tell you what this Podcast is all about. Second, I would like to invite you to join me in learning Cocoa and Objective-C. If you have been trying to learn Cocoa and Objective-C look no further. I do not claim to be an expert in neither Cocoa nor Objective-C, however, I want to master both, and I hope many of you do too. This Podcast will be a starting point for learning Cocoa and a central place for tips, tricks, user discussions, and much more. </itunes:summary>
+      <itunes:keywords>Cocoa,Objective-C,Obj-C,Xcode,Developer,Code,Porgraming</itunes:keywords>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>11:19</itunes:duration>
+    </item>
+  </channel>
+</rss>

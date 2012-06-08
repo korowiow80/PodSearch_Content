@@ -1,0 +1,651 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700" rel="stylesheet" type="text/css">
+    <link href="/templates/default/css/reset.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/base.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/layout.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="/templates/default/ui-lightness/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="/templates/default/css/vendor/orbit-1.3.0.css" rel="stylesheet" type="text/css" media="screen">
+
+    <link href="/templates/default/css/modules/btn.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/menu.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/src.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/ttl.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/prd.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/prv.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/pmt.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/facebox.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/content-objects.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/recaptcha.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/rsform.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/news-sidebar.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/home.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/header-slider.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="/templates/default/css/modules/topbar.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/modules/coverflow.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/templates/default/css/anime.css" rel="stylesheet" type="text/css" media="all">
+<!--[if lt IE 9]>
+    <link href="/templates/default/css/ie8.css" rel="stylesheet" type="text/css" media="all">
+<![endif]-->
+
+    <script type="text/javascript">var _trans=new Array();_trans['MESSAGE']='Nachricht';_trans['ERROR_LOGIN']='Benutzername und Passwort falsch oder das Benutzerkonto existiert noch nicht!';_trans['BTN_BACK_LOGIN']='Zum Login';_trans['TPL_PATH']='/templates/default';</script>
+
+    <script src="/templates/default/js/vendor/underscore-1.2.1.min.js"></script>
+    <script src="/templates/default/js/vendor/jquery-1.7.1.min.js"></script>
+    <script src="/templates/default/js/vendor/jquery.cycle.all.js"></script>
+    <script src="/templates/default/js/vendor/contentflow/contentflow.js"></script>
+    <script src="/templates/default/js/vendor/jquery.isotope.min.js"></script>
+    <script src="/templates/default/js/vendor/jquery.viewport.js"></script>
+    <script src="/templates/default/js/vendor/jquery.lazyload.js"></script>
+    <script src="/templates/default/js/vendor/jquery.facebox.js"></script>
+    <script src="/templates/default/js/vendor/jquery.orbit-1.3.0.js"></script>
+    <script src="/templates/default/js/vendor/jwplayer.js"></script>
+    <script src="/templates/default/js/vendor/jquery.dotdotdot-1.4.0-packed.js"></script>
+
+    <script src="/templates/default/js/vendor/jquery-ui-1.8.18.custom.min.js"></script>
+    <script src="/templates/default/js/vendor/coverflow/ui.coverflow.js"></script>
+    <script src="/templates/default/js/vendor/coverflow/sylvester.js"></script>
+    <script src="/templates/default/js/vendor/coverflow/transformie.js"></script>
+    <script src="/templates/default/js/vendor/coverflow/jquery.mousewheel.min.js"></script>
+    <script src="/templates/default/js/vendor/coverflow/app.js"></script>
+
+    <script src="/templates/default/js/modules/menu.js"></script>
+    <script src="/templates/default/js/modules/filter.js"></script>
+    <script src="/templates/default/js/modules/lazyload.js"></script>
+    <script src="/templates/default/js/modules/facebox.js"></script>
+    <script src="/templates/default/js/modules/home-slider.js"></script>
+    <script src="/templates/default/js/modules/header-slider.js"></script>
+    <script src="/templates/default/js/modules/product.js"></script>
+    <script src="/templates/default/js/modules/ellipsis.js"></script>
+
+      <base href="http://www.universumanime.de/anime.html"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="keywords" content="Universum Film GmbH, Filmverleih, Home Entertainment, Kino, Film, Trailer, Universum Anime, Universum Kids, offizielle Websites, Kinofilme, Filmstarts"/>
+  <meta name="description" content="Willkommen auf der offiziellen Seite von Universum Anime! Hier findest du Informationen zu unseren Neuerscheinungen sowie bereits in der Vergangenheit veröffentlichten DVDs und Blu-rays. Viel Spaß beim Stöbern!"/>
+  <title>Universum Film GmbH - Anime</title>
+  <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+  <link href="http://www.universumanime.de/component/search/?Itemid=159&amp;format=opensearch" rel="search" title="Suchen Universum Film GmbH" type="application/opensearchdescription+xml"/>
+  <script type="text/javascript">function keepAlive(){var myAjax=new Request({method:"get",url:"index.php"}).send();}window.addEvent("domready",function(){keepAlive.periodical(840000);});</script>
+
+  </head>
+  <body>
+    <div id="topbar" class="l-wrapper">
+      <div style="display: none;">
+<div id="loginBox">
+<form action="/anime.html" method="post" id="login-form">
+  <h2>Händler / Presse Login</h2>
+  <p class="intro">Geben Sie hier Ihre E-Mail Adresse und <br/>Ihr Passwort ein.</p>
+  <fieldset class="userdata">
+  <p id="form-login-username">
+    <input id="modlgn-username" placeholder="E-Mail Adresse" type="text" name="username" class="inputbox" size="18"/>
+  </p>
+  <p id="form-login-password">
+    <input id="modlgn-passwd" placeholder="Passwort" type="password" name="password" class="inputbox" size="18"/>
+  </p>
+    <p id="form-login-remember">
+    <label for="modlgn-remember">Passwort speichern</label>
+    <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox" value="yes"/>
+    <br/>
+  </p>
+    <a class="button submitbutton btn-dark no-img" href="#">Login</a>
+  <input type="hidden" name="option" value="com_users"/>
+  <input type="hidden" name="task" value="user.login"/>
+  <input type="hidden" name="return" value="aW5kZXgucGhwP2Zvcm1hdD1odG1sJm9wdGlvbj1jb21fY29udGVudCZ2aWV3PWZpbHRlciZJdGVtaWQ9MTU5" id="returnValue"/>
+  <input type="hidden" name="f0bc72e503696494b3c9602c6ba32c69" value="1"/>  </fieldset>
+  <p class="links">
+    <input type="submit" style="display: none;"/>
+        Sie haben noch keinen Account? <a href="registrierung.html">Jetzt registrieren.</a>
+        Passwort vergessen? <a href="neues-passwort.html">Hier klicken.</a>
+  </p>
+</form>
+</div>
+</div>
+<script type="text/javascript">function showLoginBox(r){if(r){jQuery('#returnValue').val(r);}
+jQuery.facebox({div:'#loginBox'},'login-box');$('#facebox a.submitbutton').click(function(){$(this).parents('form:first').submit();});}
+$(document).ready(function(){$('.showLoginBox').click(function(event){event.preventDefault();event.stopPropagation();showLoginBox();});});</script>
+
+    </div>
+    <div id="header" class="l-wrapper">
+      <div class="l-container">
+        <div class="l-grid-column">
+          <a href="/" id="logo">
+            <img src="templates/default/images/anime/xlogo.png.pagespeed.ic.5xt-bDUiM3.png" alt="Universum Anime">
+          </a>
+        </div>
+        <div class="l-grid-column-2">
+            
+<ul class="menu">
+<li class="item-157"><a href="http://www.universum-film.de/">Weiter zu Universum Film</a></li><li class="item-154"><a href="universum-film/ueber-uns.html">Über uns</a></li></ul>
+
+        </div>
+        <div class="l-grid-column">
+          <div class="src">
+            <form action="/anime.html" method="post">
+  <div class="search">
+    <button class="src-add-on" type="submit"></button>
+    <input name="searchword" maxlength="256" class="src-input-field" type="text" size="20" placeholder="Suchen">
+    <input type="hidden" name="task" value="search"/>
+    <input type="hidden" name="option" value="com_search"/>
+    <input type="hidden" name="Itemid" value="0"/>
+    <input type="hidden" name="limit" value="0"/>
+  </div>
+</form>
+
+          </div>
+        </div>
+
+          <div class="l-grid-row header-slider">
+  <div class="header-slider-wrapper">
+    <div id="header-slider">
+              <div class="slide-item">
+
+
+  <a class="header-slider-video youtube-link" href="http://youtu.be/3LhIQ1CwGqo">
+
+  
+    <div class="video-overlay"></div>
+  
+  <img src="http://i.universumfilm.cwerk.com/resources/titles/338456/title/madocamagica.jpg" alt="" data-caption="#orbit-338456-caption">
+  <a class="orbit-caption" id="orbit-338456-caption" href="filme/114504/madoka-magica-dvd-1.html">
+    <h2>Madoka Magica DVD 1 - <span org-date="2012-03-30">Jetzt im Handel</span></h2>
+    <span class="header-slider-more">mehr</span>
+  </a>
+</a></div>
+              <div class="slide-item">
+
+
+  <a class="header-slider-video youtube-link" href="http://youtu.be/MLwPZjlITfI">
+
+  
+    <div class="video-overlay"></div>
+  
+  <img src="http://i.universumfilm.cwerk.com/resources/titles/308694/title/arietty.jpg" alt="" data-caption="#orbit-308694-caption">
+  <a class="orbit-caption" id="orbit-308694-caption" href="filme/117688/arrietty-die-wundersame-welt-der-borger.html">
+    <h2>Arrietty - Die wundersame Welt der Borger - <span org-date="2011-11-11">Jetzt im Handel</span></h2>
+    <span class="header-slider-more">mehr</span>
+  </a>
+</a></div>
+              <div class="slide-item">
+
+
+  <a class="header-slider-video">
+
+  
+  <img src="http://i.universumfilm.cwerk.com/resources/titles/282767/title/angelbeats.jpg" alt="" data-caption="#orbit-282767-caption">
+  <a class="orbit-caption" id="orbit-282767-caption" href="filme/115384/angel-beats-1.html">
+    <h2>Angel Beats! 1 - <span org-date="2011-12-16">Jetzt im Handel</span></h2>
+    <span class="header-slider-more">mehr</span>
+  </a>
+</a></div>
+            <div class="hs-left"><div class="button"></div></div>
+      <div class="hs-right"><div class="button"></div></div>
+    </div>
+  </div>
+  </div>
+  <div id="orbit-captions" style="display: none;"></div>
+
+      </div>
+    </div>
+    <div id="content" class="l-wrapper">
+      <div class="l-container">
+        <div class="l-grid-row visual">
+          
+        </div>
+        
+<div id="system-message-container">
+</div>
+        
+        
+<div class="filters">
+  <div class="l-grid-column-all prv-filter-tabs">
+    <ul>
+      <li><a href="#prv-a-z">Filme A-Z</a></li>
+      <li class="s-active"><a href="#prv-filter">Filter</a></li>
+    </ul>
+  </div>
+  <div id="prv-a-z" class="prv-filter-content l-grid-column-all l-grid-nested">
+    <div class="l-grid-column-all">
+      <ul>
+        <li><a href="#title-begins-with-#">#</a></li>
+        <li><a href="#title-begins-with-a">a</a></li>
+        <li><a href="#title-begins-with-b">b</a></li>
+        <li><a href="#title-begins-with-c">c</a></li>
+        <li><a href="#title-begins-with-d">d</a></li>
+        <li><a href="#title-begins-with-e">e</a></li>
+        <li><a href="#title-begins-with-f">f</a></li>
+        <li><a href="#title-begins-with-g">g</a></li>
+        <li><a href="#title-begins-with-h">h</a></li>
+        <li><a href="#title-begins-with-i">i</a></li>
+        <li><a href="#title-begins-with-j">j</a></li>
+        <li><a href="#title-begins-with-k">k</a></li>
+        <li><a href="#title-begins-with-l">l</a></li>
+        <li><a href="#title-begins-with-m">m</a></li>
+        <li><a href="#title-begins-with-n">n</a></li>
+        <li><a href="#title-begins-with-o">o</a></li>
+        <li><a href="#title-begins-with-p">p</a></li>
+        <li><a href="#title-begins-with-q">q</a></li>
+        <li><a href="#title-begins-with-r">r</a></li>
+        <li><a href="#title-begins-with-s">s</a></li>
+        <li><a href="#title-begins-with-t">t</a></li>
+        <li><a href="#title-begins-with-u">u</a></li>
+        <li><a href="#title-begins-with-v">v</a></li>
+        <li><a href="#title-begins-with-w">w</a></li>
+        <li><a href="#title-begins-with-x">x</a></li>
+        <li><a href="#title-begins-with-y">y</a></li>
+        <li><a href="#title-begins-with-z">z</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="prv-filter" class="prv-filter-content l-grid-column-all l-grid-nested s-active">
+            <div class="l-grid-column-1 s-first">
+          <h3>WO</h3>
+          <ul>
+            <li>
+              <input id="filter-im-handel" type="checkbox" name="rental-video-kauf">
+              <label for="filter-im-handel">Im Handel</label></li>
+            <li>
+              <input id="filter-in-der-videothek" type="checkbox" name="rental-video-rental">
+              <label for="filter-in-der-videothek">In der Videothek</label>
+            </li>
+          </ul>
+        </div>
+        <div class="l-grid-column-1">
+      <h3>WANN</h3>
+      <ul>
+        <li>
+          <input id="filter-neu" type="checkbox" name="release_date-neu">
+          <label for="filter-neu">Neu</label>
+        </li>
+        <li>
+          <input id="filter-demnaechst" type="checkbox" name="release_date-demnaechst">
+          <label for="filter-demnaechst">Demnächst</label>
+        </li>
+        <li>
+          <input id="filter-katalog" type="checkbox" name="release_date-katalog">
+          <label for="filter-katalog">Katalog</label>
+        </li>
+      </ul>
+    </div>
+    <div class="l-grid-column-1">
+      <h3>WAS</h3>
+      <ul>
+        <li>
+          <input id="filter-dvd" type="checkbox" name="product_type-dvd">
+          <label for="filter-dvd">DVD</label>
+        </li>
+        <li>
+          <input id="filter-bd" type="checkbox" name="product_type-bd">
+          <label for="filter-bd">BD</label>
+        </li>
+        <li>
+          <input id="filter-cd" type="checkbox" name="product_type-cd">
+          <label for="filter-cd">CD</label>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <input id="filter-mc" type="checkbox" name="product_type-mc">
+          <label for="filter-mc">MC</label>
+        </li>
+        <li>
+          <input id="filter-vod" type="checkbox" name="product_type-vod">
+          <label for="filter-vod">VoD</label>
+        </li>
+        <li>
+          <input id="filter-kino" type="checkbox" name="product_type-kino">
+          <label for="filter-kino">Mit Kinostart</label>
+        </li>
+      </ul>
+    </div>
+
+    <div class="l-grid-column-1 s-last">
+      <h3>Alterseinstufung</h3>
+      <ul>
+        <li>
+          <input id="filter-fsk-0" type="checkbox" name="fsk-0">
+          <label for="filter-fsk-0">FSK 0</label>
+        </li>
+        <li>
+          <input id="filter-fsk-6" type="checkbox" name="fsk-6">
+          <label for="filter-fsk-6">FSK 6</label>
+        </li>
+        <li>
+          <input id="filter-fsk-12" type="checkbox" name="fsk-12">
+          <label for="filter-fsk-12">FSK 12</label>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <input id="filter-fsk-16" type="checkbox" name="fsk-16">
+          <label for="filter-fsk-16">FSK 16</label>
+        </li>
+        <li>
+          <input id="filter-fsk-18" type="checkbox" name="fsk-18">
+          <label for="filter-fsk-18">FSK 18</label>
+        </li>
+      </ul>
+    </div>
+      </div>
+</div>
+<div class="items">
+      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/105712/mein-nachbar-totoro.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/6577/products/20077/totoro_dvd_vs_300.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2007-10-15">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Mein Nachbar Totoro
+    </h4>
+    <p class="prv-text">
+      
+        Japan, Ende der 50er Jahre: Die elfjährige Satsuki und ihre vierjährige Schwester Mei ziehen mit ihrem Vater in ein altes Bauernhäuschen auf dem Land. Die Familie möchte näher bei ihrer Mutter sein, die sich in einem Krankenhaus in der Nähe von einer schweren Krankheit erholt. Einige Tage nach dem Einzug entdeckt die kleine Mei beim Spielen im Wald eine verborgene Höhle. Hier lebt eine riesige Kreatur, die einer Mischung aus Eule und Katze ähnelt. Mei freundet sich mit dem seltsamen, aber gutherzigen Wesen an, das sie auf den Namen "Totoro" tauft. Wenig später begegnet auch ihre Schwester Satsuki Totoro zum ersten Mal. Für die Mädchen ist es der Beginn eines Sommers voller phantastischer Abenteuer mit dem freundlichen Waldwesen...
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2007-10-15">15.10.2007</span>
+    
+    <a href="filme/105712/mein-nachbar-totoro.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/110920/chihiros-reise-ins-zauberland.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/6901/products/19352/chihirosreise_dvd_vs_300.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2009-04-03">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Chihiros Reise ins Zauberland
+    </h4>
+    <p class="prv-text">
+      
+        Die zehnjährige Chihiro und ihre Eltern verfahren sich auf dem Weg in ihr neues Zuhause in einem kleinen Vorort von Tokio. Plötzlich stehen sie vor einem Gebäude mit einem geheimnisvollen Tunnel. Dahinter liegt eine verlassene Stadt. In einem Restaurant machen Chihiros Eltern sich gierig über das bereitstehende köstliche Essen her  und werden in Schweine verwandelt. Um ihre Eltern zu retten, muss Chihiro sich auf eine abenteuerliche Reise begeben, auf der sie ungeahnten Mut und eine bisher nicht gekannte Willenskraft und Ausdauer beweisen muss. <br><br>Eine Zeichentrick-Reise in eine wundervoll opulente und liebevoll gezeichnete Welt, der sich weder Klein noch Groß entziehen kann!
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2009-04-03">03.04.2009</span>
+    
+    <a href="filme/110920/chihiros-reise-ins-zauberland.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/117420/ponyo-das-groe-abenteuer-am-meer.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/225322/products/315487/ponyo_dvd_vs_300.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2011-03-18">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Ponyo - Das große Abenteuer am Meer
+    </h4>
+    <p class="prv-text">
+      
+        Das Goldfischmädchen Ponyo träumt davon, ein Mensch zu werden  sehr zum Missfallen ihres Vaters, einem Unterwasserzauberer. Mit Hilfe magischer Kräfte gelingt es Ponyo tatsächlich, aus der bunten Wasserwelt auszubüchsen. Als sie an der Küste in Gefahr gerät, wird sie in letzter Sekunde von dem kleinen Sosuke gerettet. Mit ihm entdeckt Ponyo die Überwasserwelt und mit der Freundschaft wächst ihr Wunsch, ein Mensch zu werden und bei ihm zu bleiben. Doch Ponyos Kräfte scheinen die Ozeane zu entfesseln und lösen damit Naturkatastrophen aus, die Sosukes Heimatdorf bedrohen. Wird es Ponyo und Sosuke gelingen, das Gleichgewicht der Welt wieder herzustellen und die Dorfbewohner zu retten?
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2011-03-18">18.03.2011</span>
+    
+    <a href="filme/117420/ponyo-das-groe-abenteuer-am-meer.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/114688/welcome-to-the-space-show.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/248379/products/350841/2d_welcometothespaceshow_dvd.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2011-10-28">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Welcome to the Space Show
+    </h4>
+    <p class="prv-text">
+      
+        Bevor die fünf Grundschulkinder Natsuki, Amane, Kiyoshi, Noriko und Kji ihren fünf-tägigen Klassenausflug antreten, begeben sie sich auf die Suche nach ihrem entlaufenen Zwerghasen Pyon-Kichi. Stattdessen finden sie jedoch einen verletzten Hund, den sie in ihre Schule bringen, um seine Wunden zu versorgen. Wie sich herausstellt handelt es sich bei dem Hund um einen Außerirdischen, der den Kindern als Dankeschön für ihre Hilfe eine Reise ins Weltall anbietet, die sie mit großer Freude annehmen. Kaum auf dem Mond angekommen, berichtet der Außerirdische von den Vorkommnissen auf der Erde: Unter anderem davon, dass er von Wilderern verletzt wurde. Daraufhin wird die Reiseroute zwischen Erde und Mond mit sofortiger Wirkung gesperrt. Doch wie sollen die Kinder nun zurück zur Erde kommen? Ihnen bleiben fünf Tage, bis der Klassenausflug zu Ende ist und ihre Eltern feststellen werden, dass sie verschwunden sind. Eine spannende und abenteuerreiche Weltall-Odyssee und der Wettlauf gegen die Zeit beginnen...
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2011-10-28">28.10.2011</span>
+    
+    <a href="filme/114688/welcome-to-the-space-show.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/107072/evangelion-10-you-are-not-alone.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/57138/products/177263/evangelion_1-01_dvd_vs_300.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2010-07-16">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Evangelion: 1.0 You Are (Not) Alone
+    </h4>
+    <p class="prv-text">
+      
+        Als der 14-jährige Shinji Ikari von seinem entfremdeten Vater in die Stadt TOKYO-3 befohlen wird, muss er feststellen, dass ihm kein versöhnliches Wiedersehen bevorsteht, welches er sich nach dem Tod seiner Mutter so sehr gewünscht hat. Sein Vater hat andere Pläne für ihn: In dem NERV-Hauptquartier lernt er, dass er einer der wenigen Jugendlichen ist, die die Fähigkeiten besitzen die EVANGELION-Roboter (EVAs) zu steuern und in den Kampf gegen die furchterregenden ANGELS zu ziehen, dessen Ziel es ist, die menschliche Rasse ganz auszurotten. Von dieser Verantwortung vorerst entmutigt, entscheidet Shinji, sich seinem Schicksal zu stellen und somit dem entscheidenden Kampf um das Überleben der Menschheit! Evangelion: 1.01 You Are (Not) Alone ist der erste von 4 Filmen, welche in beeindruckender Neugestaltung die weltweit bekannte Serie Neon Genesis Evangelion wieder auferstehen lassen. Dank neuster 3-D-Animationen hat Hideaki Anno, Schöpfer der Neon-Genesis-Reihe, ein neues Meisterwerk vollbracht.
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2010-07-16">16.07.2010</span>
+    
+    <a href="filme/107072/evangelion-10-you-are-not-alone.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/110384/prinzessin-mononoke.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/6617/products/19391/prinzmononoke_dvd_vs_300.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2006-11-13">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Prinzessin Mononoke
+    </h4>
+    <p class="prv-text">
+      
+        Vor langer, langer Zeit, als in Japan noch die Götter regieren, lebt in einem riesigen Wald die wilde Prinzessin Mononoke bei den Wölfen. <br>Doch das friedliche Miteinander von Mensch und Tier ist bedroht: Immer weiter frisst sich die Zivilisation in die Natur hinein. Erstmals werden Waffen aus Eisen geschmiedet, Gewehre, deren Kugeln bereits den Panzer einer Samurai-Rüstung durchschlagen können. Nun wollen die Menschen die alte Ordnung endgültig umstürzen und machen Jagd auf den mächtigen Waldgott. <br>Die Tiere aber wollen sich nicht kampflos ergeben und sammeln sich zu einer letzten großen Schlacht. Mittenhinein in diesen tödlichen Konflikt gerät der junge Krieger Ashitaka. Er und Mononoke finden sich zwischen den Fronten wieder - und nur in ihren Händen liegt die Macht, die drohende Katastrophe abzuwenden...
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2006-11-13">13.11.2006</span>
+    
+    <a href="filme/110384/prinzessin-mononoke.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/104608/appleseed.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/4885/products/20054/appleseed_dvd_vs_300.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2009-12-18">
+        Jetzt im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Appleseed
+    </h4>
+    <p class="prv-text">
+      
+        Im Jahr 2131 liegt die Welt in Trümmern. Die junge Kriegerin Deunan kämpft noch immer in den Ruinen, als sie plötzlich entführt und in die Metropole Olympus verschleppt wird. Sie erwacht inmitten einer futuristischen Gesellschaft, in der Menschen und Bioroids, genetisch veränderte Klone, harmonisch und friedlich zusammenleben. Hier begegnet sie bald ihrem früheren Freund Briareos, dessen Körper mittlerweile durch Roboterteile ersetzt wurde. Von der freundlichen Hitomi in die Abläufe der Stadt eingeweiht, ist sie, obwohl der Mix aus Menschen und kontrollierten Klonen als Gesellschaftsform tatsächlich zu funktionieren scheint, von Anfang an skeptisch. Nicht zu unrecht, wie sich schon sehr bald herausstellt. Haben die 7 Ältesten, die mit dem Supercomputer GAIA die Regierung Olympus stellen, wirklich so edle Absichten? Ist das scheinbar so ausgeklügelte System wirklich in der Lage, das selbstzerstörerische Potential des Menschen durch das Zusammenleben mit perfekten Bioroids zu überwinden?
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2009-12-18">18.12.2009</span>
+    
+    <a href="filme/104608/appleseed.html">mehr</a>
+  </div>
+</div>      <div class="l-grid-column-1 prv-wrapper">
+  <a class="prv-image-wrapper" href="filme/114480/madoka-magica-dvd-2.html">
+    <div class="prv-image-inner-wrapper">
+      <img class="prv-image lazy" src="http://i.universumfilm.cwerk.com/templates/default/images/title-loading.png" data-original="http://i.universumfilm.cwerk.com/resources/titles/389974/products/389999/2d_packshot_madoka_vol_2.310x310.jpg ">
+  </div>
+  </a>
+
+
+    <strong class="prv-label" org-date="2012-04-27">
+        Ab 27.04. im Handel
+    </strong>
+
+  <div class="prv-text-wrapper">
+    <h4 class="prv-headline">
+      Madoka Magica DVD 2
+    </h4>
+    <p class="prv-text">
+      
+        Als die Junge Schülerin Madoka Kaname eines Morgens von ihrem kleinen Bruder aus einem merkwürdigen Traum gerissen wird, geht sie wie gewöhnlich mit Ihren Freundinnen zur Schule. Dort stellt sie jedoch fest, dass das Mädchen, das ihr kurz zuvor im Traum begegnete, ihre neue Mitschülerin Homura Akemi ist. Als sie am Nachmittag mit ihrer Freundin Sayaka in einen Musikladen geht, hört sie plötzlich eine um Hilfe bittende Stimme. Als sie der Stimme folgt, findet sie ein verwundetes, magisches Wesen namens Kyubey, das von der neuen Mitschülerin gejagt wurde. Als sie Homura das magische Wesen nicht übergeben will, schlittert Madoka nach und nach weiter in mysteriöse Parallelwelten, in denen Magical Girls gegen böse Hexen kämpfen. Werden sich Madoka und ihre Freundin Sayaka an den Rat ihrer Beschützerin halten und darauf verzichten, ebenfalls Magical Girls zu werden, oder entgegen der Empfehlung das verlockende Angebot annehmen? <br><br>Die Episoden 5-8 der TV-Serie auf dieser DVD.<br>
+      
+    </p>
+  </div>
+  <div class="prv-detail">
+    
+        <span org-date="2012-04-27">27.04.2012</span>
+    
+    <a href="filme/114480/madoka-magica-dvd-2.html">mehr</a>
+  </div>
+</div>  </div>
+
+<div class="l-grid-column-all prv-load-more">
+  <span class="prv-load-limit">39</span>
+  <strong>weitere Filme laden</strong>
+</div>
+
+        <div class="clearfix"></div>
+<div class="l-grid-column-wrapper-4 news-bottombar">
+  <div class="l-grid-column-1 viewlevel-link-box">
+    <a href="service/newsletter/form/4-newsletter.html">
+      <div class="viewlevel-link-image viewlevel-link-image-newsletter"></div>
+      <h2>Newsletter Anmeldung</h2>
+    </a>
+  </div>
+
+  <div class="l-grid-column-1 viewlevel-link-box">
+    <a href="http://www.universum-film.de/">
+      <div class="viewlevel-link-image viewlevel-link-image-film"></div>
+      <h2>Weiter zu <br/>Universum Film</h2>
+    </a>
+  </div>
+
+  <div class="l-grid-column-1 viewlevel-link-box">
+    <a target="_blank" href="http://facebook.com/UniversumAnime">
+      <div class="viewlevel-link-image viewlevel-link-image-fb"></div>
+      <h2>Universum Anime auf Facebook</h2>
+    </a>
+  </div>
+
+  <div class="l-grid-column-1 viewlevel-link-box">
+    <a target="_blank" href="http://youtube.com/universumfilm">
+      <div class="viewlevel-link-image viewlevel-link-image-youtube"></div>
+      <h2>Weiter zu <br/>Youtube</h2>
+    </a>
+  </div>
+</div>
+        
+      </div>
+    </div>
+    <div id="footer" class="l-wrapper">
+      
+<div class="l-container">
+
+  <div class="l-grid-column">
+    <h5>UNIVERSUM FILM</h5>
+    <ul>
+      <li><a href="universum-film/ueber-uns.html">Über uns</a></li>
+      <li><a href="universum-film/jobs.html">Jobs</a></li>
+      <li><a href="universum-film/vertrieb.html">Vertrieb</a></li>
+      <li><a href="universum-film/kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
+  <div class="l-grid-column">
+    <h5>SERVICE</h5>
+    <ul>
+      <li><a href="service/newsletter.html">Newsletter</a></li>
+    </ul>
+  </div>
+  <div class="l-grid-column">
+    <h5>RECHTLICHES</h5>
+    <ul>
+      <li><a href="rechtliches/impressum.html">Impressum</a></li>
+      <li><a href="rechtliches/datenschutz.html">Datenschutz</a></li>
+      <li><a href="rechtliches/nutzungsbedingungen.html">Nutzungsbedingungen</a></li>
+    </ul>
+  </div>
+  <div class="l-grid-column">
+    <h5>PRESSE UND HÄNDLER</h5>
+    <ul>
+      <li><a href="https://universumfilm.medianetworx.de/" target="_blank">Presse- / Händler-Service</a></li>
+    </ul>
+  </div>
+  <div class="l-grid-column-4">
+    <hr>
+    <div class="copyright">
+      Copyright &copy; 2012 Universum Film GmbH - Alle Rechte vorbehalten.
+    </div>
+    <hr>
+  </div>
+</div>
+
+    </div>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-10925972-4']);_gaq.push(['_gat._anonymizeIp']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+  </body>
+</html>

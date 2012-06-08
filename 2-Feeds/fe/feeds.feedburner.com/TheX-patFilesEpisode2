@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="http://rdf.data-vocabulary.org/#" xml:lang="en" dir="ltr">
+<head>
+<title>Podcast-directory.co.uk - your podcast directory with English video and audio podcasts</title>
+<link media="screen" rel="stylesheet" href="http://cdn.webstatics.net/podcast/themes/default/podcast.css" type="text/css" />
+<!--[if lte IE 6]>
+  <link media="screen" rel="stylesheet" href="http://cdn.webstatics.net/podcast/themes/default/podcast_ie5.css" type="text/css" />
+<![endif]-->
+<!--[if lte IE 7]>
+  <link media="screen" rel="stylesheet" href="http://cdn.webstatics.net/podcast/themes/default/podcast_ie6.css" type="text/css" />
+<![endif]-->
+<!--[if IE]>
+  <link media="screen" rel="stylesheet" href="http://cdn.webstatics.net/podcast/themes/default/ie-fix.css" type="text/css">
+<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Language" content="en" />
+<meta name="language" content="en" />
+<meta name="keywords" content="podcasts,rss,rdf,opml,videopodcasts,audiopodcasts, video, audio, vodcast, webcast, video-podcast, audio-podcast, directory, podcast directory" />
+<meta name="description" content="podcast-directory.co.uk is a podcast directory with podcast recommendations and useful podcasting functions for enjoying podcasts and learn how to podcast" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<meta name="distribution" content="Global" />
+<meta name="rating" content="General" />
+<meta name="revisit-after" content="1 days" />
+<meta name="author" content="podcast-directory.co.uk" />
+<meta name="publisher" content="podcast-directory.co.uk" />
+<meta http-equiv="reply-to" content="podcast-directory.co.uk" />
+<meta http-equiv="copyright" content="(c) copyright 2011 podcast-directory.co.uk" />
+<link rel="shortcut icon" href="http://www.podcast-directory.co.uk/favicon.ico" type="image/x-icon" />
+<meta name="google-site-verification" content="UfAIfyYjvJBlRztnDDAM4Gk-PAFPKhwiABWDLsmfP48" />
+<meta http-equiv="imagetoolbar" content="no" /> 
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<script type="text/javascript" src="http://cdn.webstatics.net/podcast/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.webstatics.net/podcast/js/webkit_version_xl.js"></script>
+<script type="text/javascript" src="http://cdn.webstatics.net/podcast/js/jquery-ui-1.8.2.search.min.js"></script>
+<script type="text/javascript" src="http://cdn.webstatics.net/podcast/js/jquery.tabswitch.js"></script>
+<script type="text/javascript" src="http://cdn.webstatics.net/podcast/js/scrollable.min.js"></script>
+<script type="text/javascript" src="http://cdn.webstatics.net/podcast/js/jquery.tools.min.js"></script>
+<link media="screen" rel="stylesheet" href="http://cdn.webstatics.net/podcast/themes/default/scrollable-navig.css" type="text/css" />
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+
+$("#main").scrollable({
+	vertical: true,
+	circular: true,
+	clickable: false ,
+	keyboard: 'static',
+	onSeek: function(event, i) 
+	{
+		horizontal.eq(i).data("scrollable").focus();
+	}
+}).navigator("#main_navi").autoscroll(4000);
+
+$('#main_navi li').click(function()
+{
+ window.location.href=$(this).find('a').attr('href');
+}
+); 
+
+var horizontal = $(".scrollable").scrollable({ circular: true }).navigator();
+horizontal.eq(0).data("scrollable").focus();
+    });
+
+      var version = get_webkit_version();
+            
+      var iPhone_regex = /iPhone|iPod/;
+      var result = version['browser'].search(iPhone_regex);
+      
+      if (result != -1) {
+        window.location = "http://ip.podcast-directory.co.uk";
+      }
+
+</script>
+</head>
+<body>
+<div id="header" >
+<div id="logo">
+<a href="http://www.podcast-directory.co.uk/" rel="home"><img src="/images/podcasters_logo_small_tv.png" alt="Podcast-directory.co.uk - your podcast directory with English video and audio podcasts" /></a>
+</div>	 
+
+
+<div id="search-box">
+<form action="/podcast-search.html" id="main_search" method="post">
+  <p><input class="round-left" id="searchform_q" name="q" size="30" type="text" value="" /><input class="submit round-right" id="searchform_submit" name="commit" tabindex="9" type="submit" value="Search" /></p>
+</form>
+</div>
+<div id="microbar">
+ <span class="left">
+  </span>
+  <span class="inner">
+</span>
+      <span class="right">
+
+      </span>
+    </div>
+    
+    <div id="tabsJ">
+<ul>
+<li id="active"><a href="/" title="podcast-directory.co.uk home "><span>Home</span></a></li>
+<li><a href="http://www.podcast-directory.co.uk/submit-your-podcast.html" title="Submit your podcast"><span>Submit your podcast</span></a></li>        
+	
+</ul> 
+</div>
+</div>
+<ul id="subnavi">
+ <li><a href="http://www.podcast-directory.co.uk/podcast-directory.html"  rel="directory" title="Podcast directory">Directory</a></li>
+ <li><a href="http://www.podcast-directory.co.uk/podcasts.html"  title="Podcasts">Podcasts</a></li>
+ <li><a href="http://www.podcast-directory.co.uk/high-definition-podcasts.html"  title="High definition podcasts">HD-Podcasts</a></li>
+ <li><a href="http://www.podcast-directory.co.uk/episodes.html"  title="Episodes">Episodes</a></li>
+ <li><a href="http://www.podcast-directory.co.uk/podcast-recommendations.html"  title="Podcast recommendation">Recommendations</a></li>
+ <li><a href="http://www.podcast-directory.co.uk/podcast-charts.html"  title="Podcast Charts">Charts</a></li>
+</ul>
+<div class="container_20">
+
+<div id="teasertitle" class="grid_20">
+</div>
+<div id="breadcrumbs" class="grid_20" >
+</div>
+
+ <div id="middle" class="grid_13">
+	<div class="moreteaser">
+  	<div class="top">
+  	<h2>
+    <a href="/podcasts.html" title="Latest Podcasts ">Latest Podcasts </a>
+    <span><a href="/podcasts.html" target="_self" title="Latest Podcasts "><img src="http://cdn.webstatics.net/podcast/images/boxed_layout/arrow_more.png" alt="Latest Podcasts "/></a></span><span class="clearer"></span>
+    </h2>
+    <div class="clearer"></div>
+	</div>
+	<div class="inner">
+	<!-- main navigator -->
+<ul id="main_navi">
+<li class="active">
+<a href="/podcasts/quartercirclepunch-net-podcast-340630.html" target="_self" title="Quartercirclepunch.net Podcast"><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastthumbnail_340630.gif" width="50" height="50" alt="Quartercirclepunch.net Podcast" /></a>
+  <span class="bottom"><strong>Quartercirclepunch.net Podcast</strong></span>
+  Quartercirclepunch.net&#039;s official podcast channel. Subscribe to our feed for up-to-date video game ...</li>
+<li>
+<a href="/podcasts/the-donkey-show-comedy-328679.html" target="_self" title="The Donkey Show Comedy"><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastthumbnail_328679.gif" width="50" height="50" alt="The Donkey Show Comedy" /></a>
+  <span class="bottom"><strong>The Donkey Show Comedy</strong></span>
+  Jay West and friends are talking funny talk and you get to ...</li>
+<li>
+<a href="/podcasts/surreal-l-a-328680.html" target="_self" title="Surreal L.A."><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastthumbnail_328680.gif" width="50" height="50" alt="Surreal L.A." /></a>
+  <span class="bottom"><strong>Surreal L.A.</strong></span>
+  Everything Surreal, Strange and Unusual in Los Angeles, ...</li>
+<li>
+<a href="/podcasts/taylor-made-328685.html" target="_self" title="Taylor Made"><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastthumbnail_328685.gif" width="50" height="50" alt="Taylor Made" /></a>
+  <span class="bottom"><strong>Taylor Made</strong></span>
+  Join Sam, Robert and Laurence Taylor; three handsome brothers, on Taylor ...</li>
+</ul>
+
+<!-- root element for the main scrollable -->
+<div id="main">
+	<div id="pages">
+
+<div class="page">
+			<div class="scrollable">
+				<div class="items">
+					<div class="item">
+<a href="/podcasts/quartercirclepunch-net-podcast-340630.html" target="_self" title="Quartercirclepunch.net Podcast"><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastimage_340630.gif" width="300" height="300" alt="Quartercirclepunch.net Podcast" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="page">
+			<div class="scrollable">
+				<div class="items">
+					<div class="item">
+<a href="/podcasts/the-donkey-show-comedy-328679.html" target="_self" title="The Donkey Show Comedy"><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastimage_328679.gif" width="300" height="300" alt="The Donkey Show Comedy" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="page">
+			<div class="scrollable">
+				<div class="items">
+					<div class="item">
+<a href="/podcasts/surreal-l-a-328680.html" target="_self" title="Surreal L.A."><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastimage_328680.gif" width="300" height="300" alt="Surreal L.A." /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="page">
+			<div class="scrollable">
+				<div class="items">
+					<div class="item">
+<a href="/podcasts/taylor-made-328685.html" target="_self" title="Taylor Made"><img class="img_caru_home" src="http://cdn.webstatics.net/podcast/podcastimage_328685.gif" width="300" height="300" alt="Taylor Made" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+</div>
+</div>
+</div>
+   <div class="bottom"></div>
+   </div>
+	<div class="moreteaser">
+  	<div class="top">
+  	<h2>
+  	<a href="/podcast-directory.html" target="_self" title="All podcast directory categories">Podcast-categories</a>
+    <span><a href="/podcast-directory.html" target="_self" title="All podcast directory categories"><img src="http://cdn.webstatics.net/podcast/images/boxed_layout/arrow_more.png" alt="All podcast directory categories"/></a></span>
+    <span class="clearer"></span>
+    </h2>
+    <div class="clearer"></div>
+	</div>
+	<div class="inner">
+	<div class="cat_col"><ul class="catalog">
+<li><a class="catlnk_1" href="/podcast-directory/category-arts-1.html" target="_self" rel="directory" title="Podcasts in directory category Arts">Arts</a></li>
+<li><a class="catlnk_2" href="/podcast-directory/category-business-2.html" target="_self" rel="directory" title="Podcasts in directory category Business">Business</a></li>
+<li><a class="catlnk_3" href="/podcast-directory/category-comedy-3.html" target="_self" rel="directory" title="Podcasts in directory category Comedy">Comedy</a></li>
+<li><a class="catlnk_4" href="/podcast-directory/category-education-4.html" target="_self" rel="directory" title="Podcasts in directory category Education">Education</a></li>
+<li><a class="catlnk_5" href="/podcast-directory/category-games+and+hobbies-5.html" target="_self" rel="directory" title="Podcasts in directory category Games and Hobbies">Games and Hobbies</a></li>
+<li><a class="catlnk_6" href="/podcast-directory/category-government+and+organizations-6.html" target="_self" rel="directory" title="Podcasts in directory category Government and Organizations">Government and Organizations</a></li>
+</ul></div><div class="cat_col"><ul class="catalog"><li><a class="catlnk_7" href="/podcast-directory/category-health-7.html" target="_self" rel="directory" title="Podcasts in directory category Health">Health</a></li>
+<li><a class="catlnk_8" href="/podcast-directory/category-kids+and+family-8.html" target="_self" rel="directory" title="Podcasts in directory category Kids and Family">Kids and Family</a></li>
+<li><a class="catlnk_9" href="/podcast-directory/category-music-9.html" target="_self" rel="directory" title="Podcasts in directory category Music">Music</a></li>
+<li><a class="catlnk_10" href="/podcast-directory/category-news+and+politics-10.html" target="_self" rel="directory" title="Podcasts in directory category News and Politics">News and Politics</a></li>
+<li><a class="catlnk_11" href="/podcast-directory/category-religion+and+spirituality-11.html" target="_self" rel="directory" title="Podcasts in directory category Religion and Spirituality">Religion and Spirituality</a></li>
+<li><a class="catlnk_12" href="/podcast-directory/category-science+and+medicine-12.html" target="_self" rel="directory" title="Podcasts in directory category Science and Medicine">Science and Medicine</a></li>
+</ul></div><div class="cat_col"><ul class="catalog"><li><a class="catlnk_13" href="/podcast-directory/category-society+and+culture-13.html" target="_self" rel="directory" title="Podcasts in directory category Society and Culture">Society and Culture</a></li>
+<li><a class="catlnk_14" href="/podcast-directory/category-sports+and+recreation-14.html" target="_self" rel="directory" title="Podcasts in directory category Sports and Recreation">Sports and Recreation</a></li>
+<li><a class="catlnk_15" href="/podcast-directory/category-technology-15.html" target="_self" rel="directory" title="Podcasts in directory category Technology">Technology</a></li>
+<li><a class="catlnk_16" href="/podcast-directory/category-tv+and+film-16.html" target="_self" rel="directory" title="Podcasts in directory category TV and Film">TV and Film</a></li>
+</ul>
+</div>
+<span class="morelnk"><a href="/podcast-directory.html" target="_self" title="All podcast directory categories">&raquo;&nbsp;All podcast directory categories</a></span>
+</div>
+
+<div class="bottom"></div>
+</div>
+	
+</div>
+
+  <div id="left" class="grid_4" >
+   <div class="teaserbox">
+  <div class="top">
+    <h2><a href="http://www.podcast-directory.co.uk/podcast-recommendations.html"  title="Podcast recommendation">Recommendations</a></h2>
+  </div>
+  <div class="inner">
+<a href="/podcasts/noodle-scar-daily-hd-apple-tv-66443.html" target="_self" title="Noodle Scar Daily HD (Apple TV)"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_66443.gif" alt="Podcast: Noodle Scar Daily HD (Apple TV)Noodle Scar Daily in High Definition. Noodle Scar Daily HD is a daily 15 second comically satirical ..." width="50" height="50" /></a>
+<a href="/podcasts/chakra-meditation-106842.html" target="_self" title="Chakra Meditation "><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_106842.gif" alt="Audio-podcast: Chakra Meditation http://www.chakra-balance.com presents a complete chakra meditation. A mix of sound frequencies and ..." width="50" height="50" /></a>
+<a href="/podcasts/dayve-dean-video-podcast-high-definition-173330.html" target="_self" title="Dayve Dean video podcast (high definition)"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_173330.gif" alt="Video podcast: Dayve Dean video podcast (high definition)Live performances from singer/songwriter Dayve Dean" width="50" height="50" /></a>
+<a href="/podcasts/sqpn-secrets-of-harry-potter-32601.html" target="_self" title="SQPN: Secrets of Harry Potter"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_32601.gif" alt="Audio-podcast: SQPN: Secrets of Harry PotterUnlock the secrets of the Harry Potter series! Explore the symbols and themes in the books of ..." width="50" height="50" /></a>
+<a href="/podcasts/the-world-of-lamborghini-67565.html" target="_self" title="The World of Lamborghini"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_67565.gif" alt="Video podcast: The World of LamborghiniCome to Sant’Agata Bolognese, where every Lamborghini is made by hand. From the Gallardo Superleggera to ..." width="50" height="50" /></a>
+<a href="/podcasts/comic-vine-podcast-187667.html" target="_self" title="Comic Vine Podcast"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_187667.gif" alt="Audio-podcast: Comic Vine PodcastThe Comic Vine staff discuss the latest comic book news and new releases in this weekly ..." width="50" height="50" /></a>
+<a href="/podcasts/nasa-aeronautics-research-technical-seminars-67644.html" target="_self" title="NASA Aeronautics Research Technical Seminars"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_67644.gif" alt="Video podcast: NASA Aeronautics Research Technical SeminarsNASA&#039;s Aeronautics Research Mission Directorate is proud to present a series of technical seminars ..." width="50" height="50" /></a>
+<a href="/podcasts/mugglecast-the-harry-potter-podcast-49462.html" target="_self" title="MuggleCast: the Harry Potter podcast"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_49462.gif" alt="Audio-podcast: MuggleCast: the Harry Potter podcastMuggleCast is the most-listened to Harry Potter podcast online, and the only one to release on a ..." width="50" height="50" /></a>
+<a href="/podcasts/elementality-productions-podcast-291513.html" target="_self" title="Elementality Productions Podcast"><img class="edt_img" src="http://cdn.webstatics.net/podcast/podcastthumbnail_291513.gif" alt="Audio-podcast: Elementality Productions PodcastThe official Elementality Productions podcast. Subscribe to hear interviews and exclusive ..." width="50" height="50" /></a>
+<span class="morelnk"><a href="http://www.podcast-directory.co.uk/podcast-recommendations.html"  title="Podcast recommendation">&raquo;&nbsp;more recommendations</a></span>
+  </div>
+  <div class="bottom"></div>
+</div>
+<div class="teaserbox">
+  <div class="top">
+    <h2>Recently updated podcasts</h2>
+  </div>
+  <div class="inner">
+    <ol>
+	<li><a class="feed_refresh" href="/podcasts/victory-fellowship-sermons-258809.html" title="Podcast: Victory Fellowship Sermons" target="_self">Victory Fellowship  ...</a></li>
+	<li><a class="feed_refresh" href="/podcasts/swinecast-33038.html" title="Audio-podcast: SwineCast" target="_self">SwineCast</a></li>
+	<li><a class="feed_refresh" href="/podcasts/sunnybrook-sunnyview-behind-the-scenes-231665.html" title="Podcast: Sunnybrook SunnyView - Behind the Scenes" target="_self">Sunnybrook SunnyView -  ...</a></li>
+	<li><a class="feed_refresh" href="/podcasts/the-vine-community-church-cumming-ga-251128.html" title="Audio-podcast: The Vine Community Church - Cumming, GA" target="_self">The Vine Community Church ...</a></li>
+	<li><a class="feed_refresh" href="/podcasts/lancaster-baptist-church-video-podcast-249886.html" title="Podcast: Lancaster Baptist Church Video Podcast" target="_self">Lancaster Baptist Church  ...</a></li>
+	</ol>
+  </div>
+  <div class="bottom"></div>
+</div>
+</div>
+</div>
+<div id="footer" class="grid_20">
+<p>
+<a class="footer_link"  title="Imprint " href="http://www.podcast-directory.co.uk/imprint.html">Imprint </a> | 
+<a class="footer_link"  title="Terms of use for podcast producers" href="http://www.podcast-directory.co.uk/terms-of-use-for-podcast-producer.html">Terms of use for podcast producers</a> | 
+<a class="footer_link"  title="Terms of use" href="http://www.podcast-directory.co.uk/terms-of-use.html">Terms of use</a> | 
+<a class="footer_link"  title="Advertisement" href="http://www.podcast-directory.co.uk/advertisement.html">Advertisement</a> | 
+<a class="footer_link"  title="Mobile" href="http://m.podcast-directory.co.uk">Mobile</a> |
+<a class="footer_link"  title="Mobile version of this website optimized for iPod and iPhone" href="http://ip.podcast-directory.co.uk">iPhone</a> |
+<a class="footer_link"  title="Submit your podcast" href="http://www.podcast-directory.co.uk/submit-your-podcast.html">Submit your podcast</a> 
+<br/><br/>&copy; Copyright 2011 Podcast-directory.co.uk</p>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15224330-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></body>
+</html>

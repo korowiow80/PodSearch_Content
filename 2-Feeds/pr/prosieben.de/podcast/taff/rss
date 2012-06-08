@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+  
+  <head>
+    <title>ProSieben Fehlerseite: 404 - Resource not found</title>
+    
+    <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.prosieben.de/static/aktions_css/temp.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.prosieben.de/static/p7redesign/css/home.css" type="text/css" />
+    <style type="text/css">
+      #p7_fw {
+        position: relative;
+      }
+      #header {
+        display: none;
+      }  
+    </style>
+    <script type="text/javascript" src="http://www.prosieben.de/secure-static/sim.ad/prod/simad.min.js"></script>
+    <script type="text/javascript" src="http://www.prosieben.de/secure-static/sim.tracker/prod/simtracker.min.js"></script>    
+  </head>
+
+  <body>
+<!-- Initialize Variables -->
+<!-- Script must be included directly behind body Tag -->
+<!-- The Name P7_CONFIG is choosen by CMS. Should be -->
+<!-- in CMS Namespace e.g. P7.CONFIG -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+    
+  P7_CONFIG = {
+  /**
+   * CONTENT CATEGORISATION
+   */
+    "brand":             "Prosieben"
+    ,
+    "channel": "error" 
+    ,
+    "subchannel1": "error" 
+    ,
+    "subchannel2":             undefined 
+    ,
+    "subchannel3":             undefined 
+    ,
+    "subchannel4":             undefined 
+    ,
+    "subchannel5":             undefined 
+    ,
+    "domain":             "Prosieben.de"
+    ,
+    "breadcrumb":             "Home\/"
+    , 
+    "contentType" :             "error"
+    ,
+    "globalAdTagsLoading" : SIMAD.Loading.INSTREAM, 
+  /**
+   * AD EXCLUSION
+   */
+    "adFree": false,
+  /**
+   * AD RELOAD
+   */
+    "adInIFrame" : false,
+  /**
+   * VIDEO ADS
+   */
+    "video" : {
+      /**
+       * VIDEO AD INCLUSION
+       */
+      "availableAdTags": {
+        "videoAds" : false,
+        "preroll" : false,
+        "postroll": false,
+        "midroll" : false,
+        "overlay" : false,
+        "sponsor" : false
+      },
+
+      /**
+       * VIDEO METADATA
+       */
+      "path":             undefined 
+    ,
+      "type":             undefined 
+    ,
+      "player" :             undefined 
+        },
+  /**
+   * AD TAG INFORMATION
+   */
+        "adTagList" : [
+                                     {
+                    "id":             "rectangle"
+    ,
+                    "loading": SIMAD.Loading.INSTREAM,
+                    "adTag": SIMAD.AdTag.MEDIUMRECTANGLE,
+                    "onLoadCallback":             undefined
+    ,
+                    "onRenderCallback":             undefined
+                    }
+                                ,
+                                            {
+                    "id":             "fullbanner"
+    ,
+                    "loading": SIMAD.Loading.INSTREAM,
+                    "adTag": SIMAD.AdTag.FULLBANNER,
+                    "onLoadCallback":             undefined
+    ,
+                    "onRenderCallback":             undefined
+                    }
+
+                                    ],
+
+    "includedAdTypes": {
+      "sowefo" : false,
+      "popup" : false,
+      "wallpaper" : false,
+      "powerlayer" : false,
+      "powerrectangle" : false,
+      "powerpling" : false
+    },
+
+
+  /**
+   * ADSERVER RELATED
+   */
+    "adserverSpecific":{
+      "UPC" : "",
+      "passthroughToAdserver" : ""
+    },
+  /**
+   * CMS SPECIFIC VALUES
+   */
+    "cmsSpecific": {
+      "marketingCluster" :             "error"
+    ,
+            "preset":             "home"
+        },
+  /**
+   * DEBUG SETTINGS
+   */
+    "debugLog": true
+  };
+
+  /* ]]> */
+</script>
+  
+      <!-- Load the Config -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  SIMAD.CmsAdapter.config(P7_CONFIG);
+  /* ]]> */
+</script>
+
+<!-- The following init() function calls must be in seperate script tags because of IE js Loading issues -->
+<script type="text/javascript">
+  /* <![CDATA[ */
+  SIMAD.CmsAdapter.init();
+  /* ]]> */
+</script>
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  SIMAD.CmsAdapter.init();
+  /* ]]> */
+</script>
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  SIMAD.CmsAdapter.init();
+  /* ]]> */
+</script>
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  SIMAD.CmsAdapter.init();
+  /* ]]> */
+</script>
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  SIMAD.CmsAdapter.init();
+  /* ]]> */
+</script>
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var errorPath = window.location.pathname;
+  errorPath = errorPath.toLowerCase();
+  errorPath = errorPath.replace(/-[0-9]+\.[0-9]*/, "");
+  errorPath = errorPath.replace(/-/g, "_");
+  document.simTrackerMetainfo = {
+    type: simTracker.DOCUMENT,
+    id: "error",
+    contentType: "content",
+    isTrackable: true,
+    tvBrand: "Prosieben",
+    channel: "error",
+    subchannel1: "error",
+    subchannel2: undefined,
+    subchannel3: undefined,
+    subchannel4: undefined,
+    subchannel5: undefined,
+    marketingCluster: undefined,
+    domain: "prosieben.de",
+    subdomain: undefined,
+    title: "ProSieben Fehlerseite: 404 - Resource not found",
+    agofCode: "1d01pro7erro",
+    ivwPath: "\/fehlerseite" + errorPath,
+    url: undefined,
+    referrerUrl: undefined,
+    keyword: undefined,
+    keywordType: undefined,
+    searchEngine: undefined 
+  };
+  /* ]]> */
+</script>
+<script type="text/javascript">
+  /* <![CDATA[ */
+    simTracker.track();
+  /* ]]> */  
+</script>
+<noscript>
+  <img src="http://pro7.ivwbox.de/cgi-bin/ivw/CP/1d01pro7erro;/fehlerseite?d=1336635894923/" width="1" height="1" alt="" />
+</noscript>
+  <div id="p7_hw" class="facelift">
+      <div id="p7_topheader">
+          <script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.doAdInstream("popup"); /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finishAdInstream("popup"); /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ 
+var GantTracker = {a:"http://cdntest.gand.de/null.gif?",b:"",c:{systemInfo:escape(navigator.userAgent+"&"+navigator.platform),session:escape(new String("d"+new Date().getTime()+"_r"+Math.round(Math.random()*100000000))),eventname:"ad_popup_execution",domain:window.location.host.toString(),marketingcluster:undefined,event_count:0},d:function(_d){try {if(GantTracker.e()){GantTracker.b=GantTracker.a;if (typeof(_d)!="undefined"){GantTracker.c.eventname=_d;}for(var i in GantTracker.c){GantTracker.b+=i+"="+GantTracker.c[i]+"&";}var da=document.createElement("img");var db=document.createAttribute("src");db.nodeValue=GantTracker.b;var dc=document.createAttribute("style");dc.nodeValue="display:none;";da.setAttributeNode(db);da.setAttributeNode(dc);document.getElementsByTagName('body')[0].appendChild(da);GantTracker.c.event_count++;}} catch(e){}},e:function(){var P7_CONFIG=typeof(window.P7_CONFIG)=="undefined"?{channel:'o',subchannel1:'o',cmsSpecific:{marketingCluster:undefined}}:window.P7_CONFIG;GantTracker.c.marketingcluster=P7_CONFIG.cmsSpecific.marketingCluster;return (typeof(P7_CONFIG.channel)=="undefined"&&typeof(P7_CONFIG.subchannel1)=="undefined");},d1:function(){GantTracker.d('ad_popup_execution');},d2:function(){GantTracker.d('ivw_count');}}; GantTracker.d2();  /* ]]> */ </script>
+
+        <div id="ad-top">
+      <script type="text/javascript"> /* <![CDATA[ */
+  SIMAD.CmsAdapter.doAdInstream("fullbanner");/* ]]> */
+ </script>
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finishAdInstream("fullbanner"); /* ]]> */ </script>
+
+    </div>
+    <div class="clear"></div>
+          
+        <div id="nav-top">
+          <div class="navlogo">
+        <a href="/" title="Zur Startseite"><img src="/img/facelift/p7logo.png" width="40" height="40" alt="Prosieben.de" /></a>
+      </div>  
+      <div class="home">
+        <a href="/" title="Zur Startseite">Home</a>
+      </div>      
+        <div class="navsearch">
+      <form method="get" action="/suche/" accept-charset="utf-8">
+        <fieldset>          
+          <input type="text" class="searchfield" onblur="if(this.value=='')this.value='SUCHE ...';" onfocus="if(this.value=='SUCHE ...')this.value='';" value="SUCHE ..." name="s" />          
+        </fieldset>  
+       </form>    
+    </div>
+    <div class="navmeta">
+      <a  href="/icq/" class="" title="icq"  onclick="">icq</a>                       
+      <a  href='http://meinecommunity.prosieben.de' class=''  onclick="" title="Community">Community</a>                               
+      <a  href='http://www.prosieben-fanshop.de/' class='last'  target="_blank" title="Shop" onclick="">Shop</a>   
+    </div>
+  <div class="navmain">
+      <ul id="menu">
+        <li><a href="/tv/">Sendungen A-Z</a></li>            
+        <li><a href="/tv-programm/">TV Programm</a></li>            
+        <li><a href="/video/">Ganze Folgen</a></li>            
+        <li><a href="/stars-lifestyle/">Stars</a></li>            
+        <li><a href="/kino-dvd/">Kino</a></li>            
+        <li><a href="http://www.sevengames.de/" target="_blank">Games</a></li>
+        <li><a href="/musik/">Musik</a></li> 
+      </ul>
+  </div>
+  </div>    
+
+  <div id="p7_cw_error404" class="facelift">
+    <div id="p7_main">
+      <div id="ad-right" class="ad-right">
+        <script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.doAdInstream("skyscraper"); /* ]]> */ </script>
+        <script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finishAdInstream("skyscraper"); /* ]]> */ </script>
+      </div>
+      <div id="ad-performanceBox1"></div>
+      <div id="p7_bglayer"></div>
+      <div id="header">
+        <div id="nav-sub">
+          <div class="wrap"></div>
+        </div>
+        <div id="breadcrumb">
+          <div class="wrap">
+            <div class="item">Home</div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="content" style="padding-left: 6px;">
+        <div class="row-2">
+          <div class="container-slot-3-3">
+            <div class="slot-3-3">
+              <div class="modulefix module-error404">
+                <div class="module-title">
+                  <h3>Sorry, Seite wurde nicht gefunden</h3>
+                </div>
+                <div class="module-body">
+                  <img src="/img/error404/error404.jpg" width="486" height="255" alt="Sorry, Seite wurde nicht gefunden" />
+                  <p>Die Seite konnte leider nicht gefunden werden oder ist momentan nicht erreichbar.</p>
+                  <p><img src="/img/error404/line.jpg" width="471" height="1" border="0" alt="" /></p>
+                  <p>Auf unserer <a href="http://www.prosieben.de/">Startseite</a> findest Du aktuelle Inhalte.<br />
+                    Wenn Du einen defekten Link melden m&ouml;chtest, hinterlasse uns hier eine <a href="http://www.prosieben.de/service/kontakt/">Nachricht</a>.</p>
+                  <p><b>Oder nutze die Suche, um Deine gew&uuml;nschte Seite zu finden:</b></p>
+                  <fieldset>
+                    <form method="get" action="/suche/">
+                      <input type="text" class="searchfield" onblur="if(this.value=='')this.value='Suche';" onfocus="if(this.value=='Suche')this.value='';" value="Suche" name="s" /><input type="image" src="/img/nav/form-submit.png" name="submit" />
+                    </form>
+                  </fieldset>
+                </div>
+              </div>
+              <img src="/img/module/image_text_mirroring.png" width="100%" height="24" border="0" alt="" />
+            </div>
+          </div>
+  
+          <div class="container-slot-2-3">
+            
+            <!-- Ad -->
+            <div class="slot-2-2">
+              <div class="module ad-teaser">
+
+        <script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.doAdInstream("rectangle"); /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finishAdInstream("rectangle"); /* ]]> */ </script>
+              </div>
+              <img src="/img/module/image_text_mirroring.png" width="100%" height="24" border="0" alt="" />
+            </div>
+            
+            <!-- image text teaser 1 -->
+            <div class="slot-1-1">
+              <div class="module module-image-text-teaser">
+                <div class="module-title">
+                  <h3><a title="ProSieben Tv-Programm" href="http://www.prosieben.de/tv-programm/">TV-Programm</a></h3>
+                </div>
+                <div class="module-caption">
+                  <a title="ProSieben Tv-Programm" href="http://www.prosieben.de/tv-programm/">
+                  <img height="88" width="154" alt="Prosieben Tv-Programm" src="/img/error404/stefan_raab.jpg" title="Prosieben"/>
+                  </a>
+                </div>
+                <div class="module-footer">
+                  <div class="link">
+                    <a title="Prosieben" href="http://www.prosieben.de/tv-programm/">Zum TV-Programm</a>
+                  </div>
+                </div>
+              </div>
+              <img src="/img/module/image_text_mirroring.png" width="100%" height="24" border="0" alt="" />
+            </div>
+            
+            <!-- image text teaser 2 -->
+            <div class="slot-1-1 last-slot">
+              <div class="module module-image-text-teaser">
+                <div class="module-title">
+                  <h3><a title="ProSieben Videos ohne Ende" href="http://www.prosieben.de/video/">Videos ohne Ende</a></h3>
+                </div>
+                <div class="module-caption">
+                  <a title="ProSieben Videos ohne Ende" href="http://www.prosieben.de/video/">
+                  <img height="88" width="154" alt="Prosieben Videos ohne Ende" src="/img/error404/404_video.jpg" title="Prosieben Videos ohne Ende"/>
+                  </a>
+                </div>
+                <div class="module-footer">
+                  <div class="link">
+                    <a title="Prosieben: Ganze Folgen ansehen" href="http://www.prosieben.de/video/">Ganze Folgen ansehen</a>
+                  </div>
+                </div>
+              </div>
+              <img src="/img/module/image_text_mirroring.png" width="100%" height="24" border="0" alt="" />
+            </div>
+            
+          </div>  
+          
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="p7_fw">
+  <div id="p7_footer">
+    <div>
+      <ul>
+        <li><a href="http://www.prosieben.de/service/media/">Media</a></li>
+        <li><a href="http://www.prosieben.de/service/datenschutz/">Datenschutz</a></li>
+        <li><a href="http://www.prosieben.de/service/impressum/">Impressum</a></li>
+        <li><a href="http://www.prosieben.de/service/faq/">FAQ</a></li>
+        <li><a href="http://www.prosieben.de/service/jobs/">Jobs</a></li>
+        <li><a href="http://www.prosieben.de/service/nutzungsbedingungen/">Nutzungsbedingungen</a></li>
+        <li><a href="http://www.prosieben.de/service/kontakt/">Kontakt</a></li>
+        <li><a href="http://www.prosieben.de/service/programminformationen/">Aktuelle Programminformationen</a></li>        
+        <li><a href="http://www.prosieben.de/prosieben-mobile/">ProSieben Mobile</a></li>
+        <li><a href="http://www.prosiebensat1.de/">ProSiebenSat.1 Media AG</a></li>
+        <li><a href="/sitemap-7.103/">Sitemap</a></li>
+      </ul>
+      <p class="copyright">                    <a href="http://www.sevenoneintermedia.de" target="_blank">© 2011 ProSiebenSat.1 Digital GmbH - alle Rechte vorbehalten</a>
+      </p><br />
+       <ul>        
+          <li>ProSiebenSat1 Networld:</li>
+          <li><a href="http://www.sat1.de" target="_blank">Sat.1</a></li>
+          <li><a href="http://www.kabeleins.de" target="_blank">kabel eins</a></li>
+          <li><a href="http://www.reise.com/" target="_blank">Reise.com</a></li>
+          <li><a href="http://www.brokencomedy.de" target="_blank">brokencomedy.de</a></li>
+          <li><a href="http://www.wetter.com" target="_blank">wetter.com</a></li>
+          <li><a href="http://browsergames.de/" target="_blank">browsergames.de</a>            </li>
+          <li><a href="http://www.wer-weiss-was.de" target="_blank">wer-weiss-was</a>            </li>
+          <li><a href="http://www.myvideo.de" target="_blank">myvideo.de</a></li>
+          <li><a href="http://www.sixx.de" target="_blank">sixx.de</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<!-- The following poststream-init() function calls must be in seperate script tags because of IE js loading issues -->
+<script type="text/javascript"> /* <![CDATA[ */ if (window.SIMAD) { SIMAD.CmsAdapter.init(); } /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ if (window.SIMAD) { SIMAD.CmsAdapter.init(); } /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ if (window.SIMAD) { SIMAD.CmsAdapter.init(); } /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ if (window.SIMAD) { SIMAD.CmsAdapter.init(); } /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ if (window.SIMAD) { SIMAD.CmsAdapter.init(); } /* ]]> */ </script>
+
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.doAdPoststream("fullbanner"); /* ]]> */</script>
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finishAdPoststream("fullbanner"); /* ]]> */</script>
+
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.doAdPoststream("rectangle"); /* ]]> */ </script>
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finishAdPoststream("rectangle"); /* ]]> */ </script>
+
+<script type="text/javascript"> /* <![CDATA[ */ SIMAD.CmsAdapter.finalize(); /* ]]> */</script>
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  simTracker.finalize_tracking(); 
+  /* ]]> */
+</script>
+
+<script type="text/javascript">
+  window.setTimeout("location.href='/'", 5000);
+</script>
+
+    
+  </body>
+  
+</html>

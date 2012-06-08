@@ -1,0 +1,689 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>wr.ong</title>
+	<link rel="shortcut icon" href="http://wr.ong.li/wp-content/themes/atahualpa/images/favicon/favicon.ico" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://wr.ong.li/xmlrpc.php" />
+	<!--Start GeoSmart by Samuel Folkes-->
+	<script src="http://maps.google.com/maps?file=api&v=2&sensor=false&key=ABQIAAAAzplTAY4mh_fyeNtVy9H1sRSJszbAixsGTS_Os7kq-lwnJObsTRTvqq4lwzpnZt-JM0pDGMj8qq7B6w" type="text/javascript"></script>
+	<script type="text/javascript">
+	var single = false;
+var widget = true;
+var wpCache = true;
+		var url = 'http://wr.ong.li/wp-content/plugins/geosmart/';
+		var mapLat = 18;
+		var mapLong = -76.800003;
+		var markerColor = 'green';
+			var widgetInstances = new Array();
+		</script>
+	<!--End GeoSmart by Samuel Folkes-->
+	<link rel="alternate" type="application/rss+xml" title="wr.ong &raquo; Feed" href="http://wr.ong.li/feed" />
+<link rel="alternate" type="application/rss+xml" title="wr.ong &raquo; Comments Feed" href="http://wr.ong.li/comments/feed" />
+<link rel='stylesheet' id='GeoSmart-css'  href='http://wr.ong.li/wp-content/plugins/geosmart/css/wp-geosmart-style.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://wr.ong.li/wp-content/plugins/podpress/podpress.css?ver=3.3.2' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://wr.ong.li/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "008000";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["volslider"] = "008000";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["loader"] = "008000";
+	podPressPopupPlayerOpt["track"] = "006600";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "008000";
+	podPressPopupPlayerOpt["righticon"] = "008000";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://wr.ong.li/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"008000", leftbg:"CCCCCC", volslider:"008000", voltrack:"FFFFFF", text:"333333", tracker:"DDDDDD", slider:"666666", loader:"008000", track:"006600", border:"CCCCCC", bg:"E5E5E5", skip:"008000", righticon:"008000", righticonhover:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://wr.ong.li/";
+var podPressBackendURL = "http://wr.ong.li/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://wr.ong.li/pix/wrong144.jpg";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5sec = "76f203c253";
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-includes/js/prototype.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-includes/js/scriptaculous/wp-scriptaculous.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-includes/js/scriptaculous/effects.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-content/plugins/lightbox-2/lightbox.js?ver=1.8'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-content/themes/atahualpa/js/DD_roundies.js?ver=0.0.2a'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-content/plugins/stray-quotes/inc/stray_ajax.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-content/plugins/podpress/js/podpress.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wr.ong.li/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wr.ong.li/wp-includes/wlwmanifest.xml" /> 
+<!-- 2-Click Social Media Buttons by H.-Peter Pfeufer -->
+<link rel="stylesheet" id="twoclick-socialshar-buttons"  href="http://wr.ong.li/wp-content/plugins/2-click-socialmedia-buttons/css/socialshareprivacy.css" type="text/css" media="all" />
+<style type="text/css">.trolldesc { position: relative; font-size: 10px; font-weight: normal; color: #666; } .trolldesctext { position: absolute; top: 0; left: 0; background: #EEE; border: 1px solid #CCC; width: 250px; display: none; padding: 10px; font: normal 1em/1.5 Arial, Helvetica, sans-serif; color: #666; } .trolldesc:hover .trolldesctext, .trolldesctext:hover { display: block; }</style>
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://wr.ong.li/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<style type="text/css">body{text-align:center;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;font-size:0.8em;color:#999;background-image:url(../pix/klowand.gif);background-attachment:fixed}a:link,a:visited,a:active{color:#999999;font-weight:normal;text-decoration:underline;}a:hover{color:#999999;font-weight:normal;text-decoration:underline}ul,ol,dl,p,h1,h2,h3,h4,h5,h6{margin-top:10px;margin-bottom:10px;padding-top:0;padding-bottom:0;}ul ul,ul ol,ol ul,ol ol{margin-top:0;margin-bottom:0}code,pre{font-family:"Courier New",Courier,monospace;font-size:1em}pre{overflow:auto;word-wrap:normal;padding-bottom:1.5em;overflow-y:hidden;width:99%}abbr[title],acronym[title]{border-bottom:1px dotted}hr{display:block;height:2px;border:none;margin:0.5em auto;color:#cccccc;background-color:#cccccc}table{font-size:1em;}div.post,ul.commentlist li,ol.commentlist li{word-wrap:break-word;}pre,.wp_syntax{word-wrap:normal;}div#wrapper{text-align:center;margin-left:auto;margin-right:auto;display:block;width:920px}div#container{position:relative;*/padding-left:10px;padding-right:10px;width:auto;margin-left:auto;margin-right:auto;text-align:left;display:block}table#layout{font-size:100%;width:100%;table-layout:fixed}.colone{width:200px}.colone-inner{width:200px}.coltwo{width:100% }.colthree-inner{width:200px}.colthree{width:220px}td#header{width:auto;padding:0}table#logoarea,table#logoarea tr,table#logoarea td{margin:0;padding:0;background:none;border:0}table#logoarea{width:100%;border-spacing:0px;height:150px;background-image:url(../pix/blatrans80.png)}img.logo{display:block;margin:0 0 0 316px}td.logoarea-logo{width:1%}h1.blogtitle,h2.blogtitle{ display:block;margin:0;padding:0;letter-spacing:-1px;line-height:1.0em;font-size:200%;text-transform:uppercase;margin-right:740px;font-smooth:always}h1.blogtitle a:link,h1.blogtitle a:visited,h1.blogtitle a:active,h2.blogtitle a:link,h2.blogtitle a:visited,h2.blogtitle a:active{ text-decoration:none;color:#000000;font-weight:normal;font-smooth:always}h1.blogtitle a:hover,h2.blogtitle a:hover{ text-decoration:none;color:#AC161B;font-weight:normal}p.tagline{margin:0;padding:0;font-size:1.2em;font-weight:normal;color:#444;margin-right:740px}td.feed-icons{white-space:nowrap;}div.rss-box{height:1%;display:block;padding:10px 0 10px 10px;margin:0;width:280px}a.comments-icon{height:22px;line-height:22px;margin:0 5px 0 5px;padding-left:22px;display:block;text-decoration:none;float:right;white-space:nowrap}a.comments-icon:link,a.comments-icon:active,a.comments-icon:visited{background:transparent url(http://wr.ong.li/wp-content/themes/atahualpa/images/comment-gray.png) no-repeat scroll center left}a.comments-icon:hover{background:transparent url(http://wr.ong.li/wp-content/themes/atahualpa/images/comment.png) no-repeat scroll center left}a.posts-icon{height:22px;line-height:22px;margin:0 5px 0 0;padding-left:20px;display:block;text-decoration:none;float:right;white-space:nowrap}a.posts-icon:link,a.posts-icon:active,a.posts-icon:visited{background:transparent url(http://wr.ong.li/wp-content/themes/atahualpa/images/rss-gray.png) no-repeat scroll center left}a.posts-icon:hover{background:transparent url(http://wr.ong.li/wp-content/themes/atahualpa/images/rss.png) no-repeat scroll center left}a.email-icon{height:22px;line-height:22px;margin:0 5px 0 5px;padding-left:24px;display:block;text-decoration:none;float:right;white-space:nowrap}a.email-icon:link,a.email-icon:active,a.email-icon:visited{background:transparent url(http://wr.ong.li/wp-content/themes/atahualpa/images/email-gray.png) no-repeat scroll center left}a.email-icon:hover{background:transparent url(http://wr.ong.li/wp-content/themes/atahualpa/images/email.png) no-repeat scroll center left}td.search-box{height:1%}div.searchbox{height:35px;width:200px;margin:0 0 0 0;padding:0}div.searchbox-form{margin:5px 10px 5px 10px}div.horbar1,div.horbar2{font-size:1px;clear:both;display:block;position:relative;padding:0;margin:0;width:100%;}div.horbar1{height:5px;background:#ffffff;border-top:dashed 1px #cccccc}div.horbar2{height:5px;background:#ffffff;border-bottom:dashed 1px #cccccc}div.clickable{position:absolute;top:0;left:0;z-index:3;margin:0;padding:0;width:100%;height:80px;}a.divclick:link,a.divclick:visited,a.divclick:active,a.divclick:hover{width:100%;height:100%;display:block;text-decoration:none}td#left{vertical-align:top;padding:0 10px}td#left-inner{vertical-align:top;padding:0 10px}td#right{vertical-align:top;padding:0 10px;background-image:url(../pix/blatrans80.png)}td#right-inner{vertical-align:top;padding:0 10px}td#middle{vertical-align:top;width:100%;padding:0 20px 30px 20px;background-image:url(../pix/blatrans80.png)}td#footer{width:auto;padding:10px;text-align:center;color:#999;font-size:11px;background-image:url(../pix/blatrans80.png)}td#footer a:link,td#footer a:visited,td#footer a:active{text-decoration:none;color:#999;font-weight:normal}td#footer a:hover{text-decoration:underline;color:#999;font-weight:normal}div.widget{display:block;width:auto;font-size:1em;line-height:1.2;padding:10px 0 20px 0;margin-bottom:10px}div.widget-title{display:block;width:auto}div.widget-title h3,td#left h3.tw-widgettitle,td#right h3.tw-widgettitle,td#left ul.tw-nav-list,td#right ul.tw-nav-list{padding:0;margin:0;font-size:1em;font-weight:normal;color:#008000;margin-bottom:15px;text-transform:uppercase;letter-spacing:1px}div.widget ul,div.textwidget{display:block;width:auto}div.widget select{width:98%;margin-top:5px;}div.widget ul{list-style-type:none;margin:0;padding:0;width:auto}div.widget ul li{display:block;margin:2px 0 2px 0px;padding:0 0 0 0px;border-left:solid 0px #CCCCCC}div.widget ul li:hover,div.widget ul li.sfhover{display:block;width:auto;border-left:solid 0px #000000;}div.widget ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 0px;border-left:solid 0px #CCCCCC;}div.widget ul li ul li:hover,div.widget ul li ul li.sfhover{border-left:solid 0px #000000;}div.widget ul li ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 0px;border-left:solid 0px #CCCCCC;}div.widget ul li ul li ul li:hover,div.widget ul li ul li ul li.sfhover{border-left:solid 0px #000000;}div.widget a:link,div.widget a:visited,div.widget a:active,div.widget td a:link,div.widget td a:visited,div.widget td a:active,div.widget ul li a:link,div.widget ul li a:visited,div.widget ul li a:active{text-decoration:none;font-weight:normal;color:#999999;font-weight:normal;}div.widget ul li ul li a:link,div.widget ul li ul li a:visited,div.widget ul li ul li a:active{color:#999999;font-weight:normal;}div.widget ul li ul li ul li a:link,div.widget ul li ul li ul li a:visited,div.widget ul li ul li ul li a:active{color:#999999;font-weight:normal;}div.widget a:hover,div.widget ul li a:hover{color:#999999;}div.widget ul li ul li a:hover{color:#999999;}div.widget ul li ul li ul li a:hover{color:#999999;}div.widget ul li a:link,div.widget ul li a:visited,div.widget ul li a:active,div.widget ul li a:hover{display:inline}* html div.widget ul li a:link,* html div.widget ul li a:visited,* html div.widget ul li a:active,* html div.widget ul li a:hover{height:1%; } div.widget_nav_menu ul li,div.widget_pages ul li,div.widget_categories ul li{border-left:0 !important;padding:0 !important}div.widget_nav_menu ul li a:link,div.widget_nav_menu ul li a:visited,div.widget_nav_menu ul li a:active,div.widget_pages ul li a:link,div.widget_pages ul li a:visited,div.widget_pages ul li a:active,div.widget_categories ul li a:link,div.widget_categories ul li a:visited,div.widget_categories ul li a:active{padding:0 0 0 0px;border-left:solid 0px #CCCCCC}div.widget_nav_menu ul li a:hover,div.widget_pages ul li a:hover,div.widget_categories ul li a:hover{border-left:solid 0px #000000;}div.widget_nav_menu ul li ul li a:link,div.widget_nav_menu ul li ul li a:visited,div.widget_nav_menu ul li ul li a:active,div.widget_pages ul li ul li a:link,div.widget_pages ul li ul li a:visited,div.widget_pages ul li ul li a:active,div.widget_categories ul li ul li a:link,div.widget_categories ul li ul li a:visited,div.widget_categories ul li ul li a:active{padding:0 0 0 0px;border-left:solid 0px #CCCCCC}div.widget_nav_menu ul li ul li a:hover,div.widget_pages ul li ul li a:hover,div.widget_categories ul li ul li a:hover{border-left:solid 0px #000000;}div.widget_nav_menu ul li ul li ul li a:link,div.widget_nav_menu ul li ul li ul li a:visited,div.widget_nav_menu ul li ul li ul li a:active,div.widget_pages ul li ul li ul li a:link,div.widget_pages ul li ul li ul li a:visited,div.widget_pages ul li ul li ul li a:active,div.widget_categories ul li ul li ul li a:link,div.widget_categories ul li ul li ul li a:visited,div.widget_categories ul li ul li ul li a:active{padding:0 0 0 0px;border-left:solid 0px #CCCCCC}div.widget_nav_menu ul li ul li ul li a:hover,div.widget_pages ul li ul li ul li a:hover,div.widget_categories ul li ul li ul li a:hover{border-left:solid 0px #000000;}div.widget_nav_menu ul li a:link,div.widget_nav_menu ul li a:active,div.widget_nav_menu ul li a:visited,div.widget_nav_menu ul li a:hover,div.widget_pages ul li a:link,div.widget_pages ul li a:active,div.widget_pages ul li a:visited,div.widget_pages ul li a:hover{display:block !important}div.widget_categories ul li a:link,div.widget_categories ul li a:active,div.widget_categories ul li a:visited,div.widget_categories ul li a:hover{display:inline !important}table.subscribe{width:100%}table.subscribe td.email-text{padding:0 0 5px 0;vertical-align:top}table.subscribe td.email-field{padding:0;width:100%}table.subscribe td.email-button{padding:0 0 0 5px}table.subscribe td.post-text{padding:7px 0 0 0;vertical-align:top}table.subscribe td.comment-text{padding:7px 0 0 0;vertical-align:top}div.post,div.page{display:block;margin:0 0 10px 0;padding:10px 0 30px 0}div.sticky{background:#eee url('<?php bloginfo('template_directory');?>/images/sticky.gif') 99% 5% no-repeat;padding:10px}div.post-kicker{margin:0 0 5px 0}div.post-kicker a:link,div.post-kicker a:visited,div.post-kicker a:active{color:#999;text-decoration:none;text-transform:uppercase;letter-spacing:1px}div.post-kicker a:hover{color:#cc0000}div.post-headline{font-family:'Arial Black',Gadget,sans-serif;color:#336633}div.post-headline h1,div.post-headline h2{ margin:0; padding:0;padding:0;margin:0;font-size:1.4em;line-height:1.2;font-weight:normal;color:#008000;text-shadow:1px 1px 0px #000}div.post-headline h2 a:link,div.post-headline h2 a:visited,div.post-headline h2 a:active,div.post-headline h1 a:link,div.post-headline h1 a:visited,div.post-headline h1 a:active{text-decoration:none;color:#008000;text-shadow:1px 1px 0px #000}div.post-headline h2 a:hover,div.post-headline h1 a:hover{text-decoration:none;color:#008000;text-shadow:1px 1px 0px #fff}div.post-byline{margin:5px 0 10px 0;color:#999;letter-spacing:1px;font-size:10px}div.post-byline a:link,div.post-byline a:visited,div.post-byline a:active{text-decoration:none}div.post-byline a:hover{}div.post-bodycopy{}div.post-bodycopy p{margin:1em 0;padding:0;display:block}div.post-pagination{}div.post-footer{clear:both;display:block;color:#999;text-transform:uppercase;letter-spacing:1px;font-size:11px;text-align:right}div.post-footer a:link,div.post-footer a:visited,div.post-footer a:active{color:#999;font-weight:normal;text-decoration:none;text-align:right}div.post-footer a:hover{color:#333;font-weight:normal;text-decoration:underline;text-align:right}div.post-kicker img,div.post-byline img,div.post-footer img{border:0;padding:0;margin:0 0 -1px 0;background:none}span.post-ratings{display:inline-block;width:auto;white-space:nowrap}div.navigation-top{padding:5px;margin:5px;font-size:0.8em}div.navigation-middle{padding:5px;margin:5px 0;font-size:0.8em}div.navigation-bottom{padding:5px;margin:5px 0;font-size:0.8em}div.navigation-comments-above{padding:10px;margin:5px 0;border-bottom:solid 5px #fafafa}div.navigation-comments-below{padding:10px;margin:5px 0;border-bottom:solid 5px #fafafa}div.older{float:left;width:48%;text-align:left;margin:0;padding:0}div.newer{float:right;width:48%;text-align:right;margin:0;padding:0;}div.older-home{float:left;width:44%;text-align:left;margin:0;padding:0}div.newer-home{float:right;width:44%;text-align:right;margin:0;padding:0;}div.home{float:left;width:8%;text-align:center;margin:0;padding:0}form,.feedburner-email-form{margin:0;padding:0;}fieldset{border:1px solid #cccccc;width:auto;padding:0.35em 0.625em 0.75em;display:block;}legend{color:#000000;background:#f4f4f4;border:1px solid #cccccc;padding:2px 6px;margin-bottom:15px;}form p{margin:5px 0 0 0;padding:0;}div.xhtml-tags p{margin:0}label{margin-right:0.5em;font-family:arial;cursor:pointer;}input.text,input.textbox,input.password,input.file,input.TextField,textarea{padding:3px;color:#000000;border:solid 3px #eee}textarea{width:96%;}input.inputblur{color:#777777;width:95%}input.inputfocus{color:#000000;width:95%}input.highlight,textarea.highlight{background:#e8eff7;border-color:#37699f}.button,.Button,input[type=submit]{padding:0 2px;height:24px;line-height:16px;background-color:#777777;color:#ffffff;border:solid 2px #555555}input.buttonhover{padding:0 2px;cursor:pointer;background-color:#6b9c6b;color:#ffffff;border:solid 2px #496d49}form#commentform input#submit{ padding:0 .25em; overflow:visible}form#commentform input#submit[class]{width:auto}form#commentform input#submit{padding:4px 10px 4px 10px;font-size:1.2em;line-height:1.5em;height:36px}table.searchform{width:100%}table.searchform td.searchfield{padding:0;width:100%}table.searchform td.searchbutton{padding:0 0 0 5px}table.searchform td.searchbutton input{padding:0 0 0 5px}blockquote{height:1%;display:block;clear:both;font-style:italic;padding:1em 1em;background:#000;border:solid 1px #000}blockquote blockquote{height:1%;display:block;clear:both;color:#444444;padding:1em 1em;background:#e1e1e1;border:solid 1px #d3d3d3}div.post table{border-collapse:collapse;margin:10px 0}div.post table caption{width:auto;margin:0 auto;background:#eeeeee;border:#999999;padding:4px 8px;color:#666666}div.post table th{background:#888888;color:#ffffff;font-weight:bold;font-size:90%;padding:4px 8px;border:solid 1px #ffffff;text-align:left}div.post table td{padding:4px 8px;background-color:#ffffff;border-bottom:1px solid #dddddd;text-align:left}div.post table tfoot td{}div.post table tr.alt td{background:#f4f4f4}div.post table tr.over td{background:#e2e2e2}#calendar_wrap{padding:0;border:none}table#wp-calendar{width:100%;font-size:90%;border-collapse:collapse;background-color:#ffffff;margin:0 auto}table#wp-calendar caption{width:auto;background:#eeeeee;border:none;;padding:3px;margin:0 auto;font-size:1em}table#wp-calendar th{border:solid 1px #eeeeee;background-color:#999999;color:#ffffff;font-weight:bold;padding:2px;text-align:center}table#wp-calendar td{padding:0;line-height:18px;background-color:#ffffff;border:1px solid #dddddd;text-align:center}table#wp-calendar tfoot td{border:solid 1px #eeeeee;background-color:#eeeeee}table#wp-calendar td a{display:block;background-color:#eeeeee;width:100%;height:100%;padding:0}div#respond{margin:7px 0;padding:30px 20px}p.thesetags{margin:10px 0}h3.reply,h3#reply-title{margin:0;padding:0 0 10px 0}ol.commentlist{margin:15px 0 25px 0;list-style-type:none;padding:0;display:block;border-top:dotted 1px #000}ol.commentlist li{padding:15px 10px;display:block;height:1%;margin:0;background-color:#000000;border-bottom:dotted 1px #000}ol.commentlist li.alt{display:block;height:1%;background-color:#444444;border-bottom:dotted 1px #000}ol.commentlist li.authorcomment{display:block;height:1%;background-color:#008000}ol.commentlist span.authorname{font-weight:bold;font-size:110%}ol.commentlist span.commentdate{color:#666666;font-size:90%;margin-bottom:5px;display:block}ol.commentlist span.editcomment{display:block}ol.commentlist li p{margin:2px 0 5px 0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px 0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number a:visited,div.comment-number a:active{color:#ccc}textarea#comment{width:98%;margin:10px 0;display:block}ul.commentlist{margin:15px 0 15px 0;list-style-type:none;padding:0;display:block;border-top:dotted 1px #000}ul.commentlist ul{margin:0;border:none;list-style-type:none;padding:0}ul.commentlist li{padding:0; margin:0;display:block;clear:both;height:1%;}ul.commentlist ul.children li{ margin-left:30px}ul.commentlist div.comment-container{padding:10px;margin:0}ul.children div.comment-container{background-color:transparent;border:dotted 1px #ccc;padding:10px;margin:0 10px 8px 0; border-radius:5px}ul.children div.bypostauthor{}ul.commentlist li.thread-even{background-color:#000000;border-bottom:dotted 1px #000}ul.commentlist li.thread-odd{background-color:#444444;border-bottom:dotted 1px #000}ul.commentlist div.bypostauthor{background-color:#008000}ul.children div.bypostauthor{border:dotted 1px #008800}ul.commentlist span.authorname{font-size:110%}div.comment-meta a:link,div.comment-meta a:visited,div.comment-meta a:active,div.comment-meta a:hover{font-weight:normal}div#cancel-comment-reply{margin:-5px 0 10px 0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px 0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number a:visited,div.comment-number a:active{color:#ccc}.page-numbers{padding:2px 6px;border:solid 1px #000000;border-radius:6px}span.current{background:#ddd}a.prev,a.next{border:none}a.page-numbers:link,a.page-numbers:visited,a.page-numbers:active{text-decoration:none;color:#999999;border-color:#999999}a.page-numbers:hover{text-decoration:none;color:#999999;border-color:#999999}div.xhtml-tags{display:none}abbr em{border:none !important;border-top:dashed 1px #aaa !important;display:inline-block !important;background:url(http://wr.ong.li/wp-content/themes/atahualpa/images/commentluv.gif) 0% 90% no-repeat;margin-top:8px;padding:5px 5px 2px 20px !important;font-style:normal}p.subscribe-to-comments{margin-bottom:10px}div#gsHeader{display:none;}div.g2_column{margin:0 !important;width:100% !important;font-size:1.2em}div#gsNavBar{border-top-width:0 !important}p.giDescription{font-size:1.2em;line-height:1 !important}p.giTitle{margin:0.3em 0 !important;font-size:1em;font-weight:normal;color:#666}div#wp-email img{border:0;padding:0}div#wp-email input,div#wp-email textarea{margin-top:5px;margin-bottom:2px}div#wp-email p{margin-bottom:10px}input#wp-email-submit{ padding:0; font-size:30px; height:50px; line-height:50px; overflow:visible;}img.WP-EmailIcon{ vertical-align:text-bottom !important}.tw-accordion .tw-widgettitle,.tw-accordion .tw-widgettitle:hover,.tw-accordion .tw-hovered,.tw-accordion .selected,.tw-accordion .selected:hover{ background:transparent !important; background-image:none !important}.tw-accordion .tw-widgettitle span{ padding-left:0 !important}.tw-accordion h3.tw-widgettitle{border-bottom:solid 1px #ccc}.tw-accordion h3.selected{border-bottom:none}td#left .without_title,td#right .without_title{ margin-top:0;margin-bottom:0}ul.tw-nav-list{border-bottom:solid 1px #999;display:block;margin-bottom:5px !important}td#left ul.tw-nav-list li,td#right ul.tw-nav-list li{padding:0 0 1px 0;margin:0 0 -1px 5px; border:solid 1px #ccc;border-bottom:none;border-radius:5px;border-bottom-right-radius:0;border-bottom-left-radius:0;background:#eee}td#left ul.tw-nav-list li.ui-tabs-selected,td#right ul.tw-nav-list li.ui-tabs-selected{ background:none;border:solid 1px #999;border-bottom:solid 1px #fff !important}ul.tw-nav-list li a:link,ul.tw-nav-list li a:visited,ul.tw-nav-list li a:active,ul.tw-nav-list li a:hover{padding:0 8px !important;background:none;border-left:none !important;outline:none}td#left ul.tw-nav-list li.ui-tabs-selected a,td#left li.ui-tabs-selected a:hover,td#right ul.tw-nav-list li.ui-tabs-selected a,td#right li.ui-tabs-selected a:hover{ color:#000000; text-decoration:none;font-weight:bold;background:none !important;outline:none}td#left .ui-tabs-panel,td#right .ui-tabs-panel{ margin:0; padding:0}img{border:0}#dbem-location-map img{ background:none !important}.post img{}.post img.size-full{margin:5px 0 5px 0}.post img.alignleft{float:left;margin:10px 10px 5px 0;}.post img.alignright{float:right;margin:10px 0 5px 10px;}.post img.aligncenter{display:block;margin:10px auto}.aligncenter,div.aligncenter{ display:block; margin-left:auto; margin-right:auto}.alignleft,div.alignleft{float:left;margin:10px 10px 5px 0}.alignright,div.alignright{ float:right; margin:10px 0 5px 10px}div.archives-page img{border:0;padding:0;background:none;margin-bottom:0;vertical-align:-10%}.wp-caption{max-width:96%;width:auto 100%;height:auto;display:block}* html .wp-caption{height:100%;}.wp-caption img{ margin:0 !important; padding:0 !important; border:0 none !important}.wp-caption p.wp-caption-text{font-size:0.8em;line-height:13px;padding:2px 4px 5px;margin:0;color:#666666}img.wp-post-image{float:left;border:0;padding:0;background:none;margin:0 10px 5px 0}img.wp-smiley{ float:none;border:none !important;margin:0 1px -1px 1px;padding:0 !important;background:none !important}img.avatar{float:left;display:block;margin:0 15px 15px 0}#comment_quicktags{text-align:left;padding:10px 0 2px 0;display:block}#comment_quicktags input.ed_button{background:#f4f4f4;border:2px solid #cccccc;color:#444444;margin:2px 4px 2px 0;width:auto;padding:0 4px;height:24px;line-height:16px}#comment_quicktags input.ed_button_hover{background:#dddddd;border:2px solid #666666;color:#000000;margin:2px 4px 2px 0;width:auto;padding:0 4px;height:24px;line-height:16px;cursor:pointer}#comment_quicktags #ed_strong{font-weight:bold}#comment_quicktags #ed_em{font-style:italic}.wp-pagenavi{clear:both}.wp-pagenavi a,.wp-pagenavi span{text-decoration:none;border:1px solid #BFBFBF;padding:3px 5px;margin:2px}.wp-pagenavi a:hover,.wp-pagenavi span.current{border-color:#000}.wp-pagenavi span.current{font-weight:bold}.wp-pagenavi a:link,.wp-pagenavi a:visited,.wp-pagenavi a:active{color:#999999;border:solid 1px #999999;}.wp-pagenavi a:hover{color:#999999;border:solid 1px #999999;}@media print{body{background:white;color:black;margin:0;font-size:10pt !important;font-family:arial,sans-serif;}div.post-footer{line-height:normal !important;color:#555 !important;font-size:9pt !important}a:link,a:visited,a:active,a:hover{text-decoration:underline !important;color:#000}h2{color:#000;font-size:14pt !important;font-weight:normal !important}h3{color:#000;font-size:12pt !important;}#header,#footer,.colone,.colthree,.navigation,.navigation-top,.navigation-middle,.navigation-bottom,.wp-pagenavi-navigation,#comment,#respond,.remove-for-print{display:none}td#left,td#right,td#left-inner,td#right-inner{width:0;display:none}td#middle{width:100% !important;display:block}*:lang(en) td#left{ display:none}*:lang(en) td#right{ display:none}*:lang(en) td#left-inner{ display:none}*:lang(en) td#right-inner{ display:none}td#left:empty{ display:none}td#right:empty{ display:none}td#left-inner:empty{ display:none}td#right-inner:empty{ display:none}}ul.rMenu,ul.rMenu ul,ul.rMenu li,ul.rMenu a{display:block;margin:0;padding:0}ul.rMenu,ul.rMenu li,ul.rMenu ul{list-style:none}ul.rMenu ul{display:none}ul.rMenu li{position:relative;z-index:1}ul.rMenu li:hover{z-index:999}ul.rMenu li:hover > ul{display:block;position:absolute}ul.rMenu li:hover{background-position:0 0} ul.rMenu-hor li{float:left;width:auto}ul.rMenu-hRight li{float:right}ul.sub-menu li,ul.rMenu-ver li{float:none}.clearfix:after{ content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{min-width:0;display:inline-block;display:block}* html .clearfix{height:1%;}.clearboth{clear:both;height:1%;font-size:1%;line-height:1%;display:block;padding:0;margin:0}div.searchbox{position:absolute;top:130px;right:25px}div.searchbox input.text{border:none;padding:2px 15px 2px 3px;background:#fff url('<?php bloginfo('template_directory');?>/images/search2.gif') no-repeat right center;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;height:15px;bolder:solid 1px #e7e7e7;font-size:11px}a.posts-icon{position:absolute;top:163px;right:140px;font-weight:normal;color:#fff;font-size:11px}a.comments-icon{position:absolute;top:163px;right:30px;font-weight:normal;color:#fff;font-size:11px}div.widget ul li{padding:1px 5px 1px 14px !important;background:url('<?php bloginfo('template_directory');?>/images/bullets/gray-arrow.gif') no-repeat 0 4px}div.widget ul li a:hover{text-decoration:underline}div#menu1{border:none}div#menu2{border:none}ul.rMenu-hor ul,ul.rMenu-hRight ul{margin-top:0px;}ul.rMenu-hor li{margin-bottom:0px;margin-top:0px;margin-left:0px;}ul.rMenu-hor{padding-left:0px;}ul.rMenu-ver li{margin-top:0xp;}div#menu1 ul.rMenu li a,div#menu2 ul.rMenu li a{padding:8px 10px} div#menu1 ul.rMenu li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand a{padding:8px 22px 8px 10px !important;background-position:97% 50% !important} div#menu1 ul.rMenu li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li a{padding:5px 22px 5px 10px !important;background-position:97% 50% !important}div#menu2{background:#666666}div#menu1{background:#eee}h3#comments{margin:10px 0;padding:10px;font-weight:normal;background:#000}ul.commentlist{border-top:0;margin:0;line-height:1.4;font-size:12px}ul.commentlist li.thread-odd,ul.commentlist li.thread-even{margin:5px 0;padding:10px;border-bottom:solid 5px #000;background:#000}span.authorname,span.authorname a{font-weight:normal;font-size:17px !important}div.commentmetadata a{color:#999;font-size:10px;text-transform:uppercase;letter-spacing:1px}</style>
+<script type="text/javascript">
+//<![CDATA[
+
+
+
+/* JQUERY */
+jQuery(document).ready(function(){ 
+    
+   
+  
+
+	/* jQuery('ul#rmenu').superfish(); */
+	/* jQuery('ul#rmenu').superfish().find('ul').bgIframe({opacity:false}); */
+ 
+	/* For IE6 */
+	if (jQuery.browser.msie && /MSIE 6\.0/i.test(window.navigator.userAgent) && !/MSIE 7\.0/i.test(window.navigator.userAgent) && !/MSIE 8\.0/i.test(window.navigator.userAgent)) {
+
+		/* Max-width for images in IE6 */		
+		var centerwidth = jQuery("td#middle").width(); 
+		
+		/* Images without caption */
+		jQuery(".post img").each(function() { 
+			var maxwidth = centerwidth - 10 + 'px';
+			var imgwidth = jQuery(this).width(); 
+			var imgheight = jQuery(this).height(); 
+			var newimgheight = (centerwidth / imgwidth * imgheight) + 'px';	
+			if (imgwidth > centerwidth) { 
+				jQuery(this).css({width: maxwidth}); 
+				jQuery(this).css({height: newimgheight}); 
+			}
+		});
+		
+		/* Images with caption */
+		jQuery("div.wp-caption").each(function() { 
+			var captionwidth = jQuery(this).width(); 
+			var maxcaptionwidth = centerwidth + 'px';
+			var captionheight = jQuery(this).height();
+			var captionimgwidth =  jQuery("div.wp-caption img").width();
+			var captionimgheight =  jQuery("div.wp-caption img").height();
+			if (captionwidth > centerwidth) { 
+				jQuery(this).css({width: maxcaptionwidth}); 
+				var newcaptionheight = (centerwidth / captionwidth * captionheight) + 'px';
+				var newcaptionimgheight = (centerwidth / captionimgwidth * captionimgheight) + 'px';
+				jQuery(this).css({height: newcaptionheight}); 
+				jQuery("div.wp-caption img").css({height: newcaptionimgheight}); 
+				}
+		});
+		
+		/* sfhover for LI:HOVER support in IE6: */
+		jQuery("ul li").
+			hover( function() {
+					jQuery(this).addClass("sfhover")
+				}, 
+				function() {
+					jQuery(this).removeClass("sfhover")
+				} 
+			); 
+
+	/* End IE6 */
+	}
+	
+	jQuery(".post table tr").
+		mouseover(function() {
+			jQuery(this).addClass("over");
+		}).
+		mouseout(function() {
+			jQuery(this).removeClass("over");
+		});
+
+	
+	jQuery(".post table tr:even").
+		addClass("alt");
+
+	
+	jQuery("input.text, input.TextField, input.file, input.password, textarea").
+		focus(function () {  
+			jQuery(this).addClass("highlight"); 
+		}).
+		blur(function () { 
+			jQuery(this).removeClass("highlight"); 
+		})
+	
+	jQuery("input.inputblur").
+		focus(function () {  
+			jQuery(this).addClass("inputfocus"); 
+		}).
+		blur(function () { 
+			jQuery(this).removeClass("inputfocus"); 
+		})
+
+		
+
+	
+	jQuery("input.button, input.Button, input#submit").
+		mouseover(function() {
+			jQuery(this).addClass("buttonhover");
+		}).
+		mouseout(function() {
+			jQuery(this).removeClass("buttonhover");
+		});
+
+	/* toggle "you can use these xhtml tags" */
+	jQuery("a.xhtmltags").
+		click(function(){ 
+			jQuery("div.xhtml-tags").slideToggle(300); 
+		});
+
+	/* For the Tabbed Widgets plugin: */
+	jQuery("ul.tw-nav-list").
+		addClass("clearfix");
+
+		
+	/* Strech short pages to full height, keep footer at bottom. */
+	
+	/* Set a compensation value to fix browser differences and an overall 
+	misalignment with this method */
+	if (jQuery.browser.msie || jQuery.browser.safari) { 
+		var bfacompensate = 41; 
+	} else { 
+		var bfacompensate = 21; 
+	}
+	
+	/* Fix a jQuery/Opera 9.5+ bug with determining the window height */
+	var windowheight = jQuery.browser.opera && jQuery.browser.version > "9.5" &&
+    jQuery.fn.jquery <= "1.2.6" ? document.documentElement["clientHeight"] : jQuery(window).height();
+	
+	/* Top and bottom padding may have been set on the BODY */
+	var paddingtop = parseInt(jQuery("body").css("padding-top"));
+	var paddingbottom = parseInt(jQuery("body").css("padding-bottom"));
+	
+	/* Get the height of the header, footer, and the layout as a whole */
+	var headerheight = jQuery("td#header").height();
+	var footerheight = jQuery("td#footer").height();
+	var layoutheight = jQuery("div#wrapper").height();
+	
+	/* Adjust height of middle column if (layout height + body padding-top + body padding-bottom) is smaller than 
+	height of browser viewport */
+	if ( windowheight > (layoutheight + paddingtop + paddingbottom) ) {
+		var newmiddleheight = windowheight - paddingtop - headerheight - footerheight - paddingbottom - bfacompensate;
+		jQuery("td#middle").css({height: newmiddleheight + "px"});
+	}  
+	
+});
+
+//]]>
+</script>
+
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!--[if IE 6]>
+<script type="text/javascript">DD_roundies.addRule("a.posts-icon, a.comments-icon, a.email-icon, img.logo");</script>
+<![endif]-->
+<?php if ( function_exists( 'get_sliding_panel' ) ) get_sliding_panel(); ?></head>
+<body class="home blog">
+<?php if ( function_exists( 'get_sliding_panel' ) ) get_sliding_panel(); ?><div id="wrapper">
+<div id="container">
+<table id="layout" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col class="coltwo" />
+<col class="colthree" /></colgroup> 
+	<tr>
+
+		<!-- Header -->
+		<td id="header" colspan="2">
+
+		<table id="logoarea" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td valign="middle" class="logoarea-logo"><a href="http://wr.ong.li/"><img class="logo" src="http://wr.ong.li/wp-content/themes/atahualpa/images/wrong_logo_green.png" alt="wr.ong" /></a></td><td valign="bottom" class="search-box" align="right"><div class="searchbox">
+					<form method="get" class="searchform" action="http://wr.ong.li/">
+					<div class="searchbox-form"><input type="text" class="text inputblur" onfocus="this.value=''" 
+						value="" onblur="this.value=''" name="s" /></div>
+					</form>
+				</div>
+				</td></tr></table>
+<div id="header" class="bfa_widget_area"></div>
+		</td>
+		<!-- / Header -->
+
+	</tr>
+
+	<!-- Main Body -->	
+	<tr id="bodyrow">
+
+		
+				
+
+		<!-- Main Column -->
+		<td id="middle">
+
+		
+		
+								<div class="post-1002 post type-post status-publish format-standard hentry category-clips tag-weekend-at-bernies odd" id="post-1002">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/1002" rel="bookmark" title="Permanent Link to Moving like Bernie">
+				Moving like Bernie</a></h2></div>		<div class="post-byline">25.05.12 | <a href="http://wr.ong.li/1002#respond" class="comments-link"  title="Comment on Moving like Bernie">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p><iframe src="http://www.youtube.com/embed/BPAcXnWWt0c" frameborder="0" width="640" height="360"></iframe></p>
+<p><a href="http://www.youtube.com/watch?v=YCTgcZ6ImsQ" target="_blank">Und falls ihr Bernie nicht kennt&#8230;</a>
+<div class="twoclick_social_bookmarks_post_1002 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_1002')){$('.twoclick_social_bookmarks_post_1002').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Moving%20like%20Bernie","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Moving%20like%20Bernie","the_excerpt":"%0D%0A%0D%0AUnd%20falls%20ihr%20Bernie%20nicht%20kennt...","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Moving%20like%20Bernie","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/1002"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-995 post type-post status-publish format-standard hentry category-android tag-alpharev tag-htc-desire tag-revolutionary tag-s-off tag-speicher-pb99img even" id="post-995">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/995" rel="bookmark" title="Permanent Link to HTC Desire mit mehr internem Speicher versorgen">
+				HTC Desire mit mehr internem Speicher versorgen</a></h2></div>		<div class="post-byline">06.05.12 | <a href="http://wr.ong.li/995#respond" class="comments-link"  title="Comment on HTC Desire mit mehr internem Speicher versorgen">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Wer &#8211; wie ich &#8211; ständig Probleme mit dem winzigen internen Speicher hat (und eh kein HTC Sense mehr nutzt) könnte Folgendes machen:</p>
+<ul>
+<li><a href="http://revolutionary.io/" target="_blank">revolutionary</a> drüber laufen lassen (für Root und S-Off, habt ihr aber evtl schon gemacht)</li>
+<li>bei <a href="http://alpharev.nl//" target="_blank">AlphaRev</a> das passende PB99IMG runterladen. Damit könnt ihr die Partitionen ändern. Habe &#8220;Bravo Oxygen r2&#8243;, damit ist man so ziemlich auf der sicheren Seite. Die Datei in &#8220;PB99IMG.zip&#8221; umbenennen und ins Hauptverzeichnis der SD-Karte kopieren.</li>
+<li>ein Nandroid Backup im Recovery-Modus machen (!)</li>
+<li>dann im Fastboot das Update laufen lassen</li>
+<li>das Backup zurückspielen</li>
+<li>fertig</li>
+</ul>
+<p>&nbsp;</p>
+<p>(Falls ihr euren Androiden bei der Bastelei in einen Klumpen Elektroschrott verwandelt, kann ich nix dafür. Also bitte Obacht.)<br />
+(Eigentlich is das hier eh nur eine Gedankestütze für mich.)</p>
+<p>Und wenn ich irgendwann mal motiviert genug bin, mache ich noch den Wechsel von Redux auf Cyanogen&#8230;</p>
+<p>Und ein dickes &#8220;Thx!&#8221; an den ollen <a href="https://twitter.com/#!/largewhiteguy" target="_blank">@largewhiteguy</a> für die Tips.
+<div class="twoclick_social_bookmarks_post_995 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_995')){$('.twoclick_social_bookmarks_post_995').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"HTC%20Desire%20mit%20mehr%20internem%20Speicher%20versorgen","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"HTC%20Desire%20mit%20mehr%20internem%20Speicher%20versorgen","the_excerpt":"Wer%20-%20wie%20ich%20-%20st%C3%A4ndig%20Probleme%20mit%20dem%20winzigen%20internen%20Speicher%20hat%20%28und%20eh%20kein%20HTC%20Sense%20mehr%20nutzt%29%20k%C3%B6nnte%20Folgendes%20machen%3A%0D%0A%0D%0A%09revolutionary%20dr%C3%BCber%20laufen%20lassen%20%28f%C3%BCr%20Root%20und%20S-Off%2C%20habt%20ihr%20aber%20evtl%20schon%20gemacht%29%0D%0A%09bei%20AlphaRev%20das%20passende%20PB99IMG%20runterladen.%20Damit%20k%C3%B6nnt%20ihr%20die%20Partitionen%20%C3%A4ndern.%20Habe%20%22Bravo%20Oxygen%20r2%22%2C%20damit%20ist%20man%20so%20ziemlich%20auf%20der%20sicheren%20Seite.%20Die%20Dat%20...","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"HTC%20Desire%20mit%20mehr%20internem%20Speicher%20versorgen","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/995"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-993 post type-post status-publish format-standard hentry category-links tag-contentindustrie tag-offener-brief tag-rant odd" id="post-993">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/993" rel="bookmark" title="Permanent Link to Offener Brief an die Contentindustrie">
+				Offener Brief an die Contentindustrie</a></h2></div>		<div class="post-byline">06.04.12 | <a href="http://wr.ong.li/993#respond" class="comments-link"  title="Comment on Offener Brief an die Contentindustrie">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p><a href="http://www.scilogs.de/wblogs/blog/sprachlog/sprachwandel/2012-04-06/offener-brief-an-die-contentindustrie" target="_blank">Und zwar drüben beim Anatol.</a></p>
+<p>Jaja, sind viele Buchstaben und ganz ohne Bilder. Aber ich habe größtes Vertrauen in meine Leser. Lange nicht mehr so viel Wahrheit auf einmal gelesen.</p>
+<p>&nbsp;</p>
+<p><a href="http://www.schockwellenreiter.de/blog/2012/04/06/was-fur-ein-rant-2/" target="_blank">Gefunden beim Schockwellenreiter</a>.
+<div class="twoclick_social_bookmarks_post_993 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_993')){$('.twoclick_social_bookmarks_post_993').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Offener%20Brief%20an%20die%20Contentindustrie","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Offener%20Brief%20an%20die%20Contentindustrie","the_excerpt":"Und%20zwar%20dr%C3%BCben%20beim%20Anatol.%0D%0A%0D%0AJaja%2C%20sind%20viele%20Buchstaben%20und%20ganz%20ohne%20Bilder.%20Aber%20ich%20habe%20gr%C3%B6%C3%9Ftes%20Vertrauen%20in%20meine%20Leser.%20Lange%20nicht%20mehr%20so%20viel%20Wahrheit%20auf%20einmal%20gelesen.%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0AGefunden%20beim%20Schockwellenreiter.","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Offener%20Brief%20an%20die%20Contentindustrie","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/993"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-991 post type-post status-publish format-standard hentry category-android tag-android tag-password tag-passwort tag-root tag-wifi tag-wlan even" id="post-991">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/991" rel="bookmark" title="Permanent Link to Gespeicherte WLAN-Passwörter auf Androiden auslesen">
+				Gespeicherte WLAN-Passwörter auf Androiden auslesen</a></h2></div>		<div class="post-byline">05.04.12 | <a href="http://wr.ong.li/991#respond" class="comments-link"  title="Comment on Gespeicherte WLAN-Passwörter auf Androiden auslesen">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Falls ihr mal nachschauen wollt, welches Passwort ihr für ein bestimmtes WLAN-Netzwerk gespeichert habt:</p>
+<ul>
+<li>Androiden rooten</li>
+<li>vernünftigen Datei-Explorer besorgen (z.B. <a href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop" target="_blank">den hier</a>)</li>
+<li>Lese-Zugriff auf Root-Ebene aktivieren</li>
+<li>die Datei /data/misc/wifi/wpa_supplicant.conf öffnen</li>
+<li>tadaa!</li>
+</ul>
+<p>(Hatte ich <a href="http://www.addictivetips.com/mobile/how-to-view-passwords-for-wi-fi-access-points-saved-on-your-android-device/" target="_blank">hier</a> gefunden und mich gefreut.)
+<div class="twoclick_social_bookmarks_post_991 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_991')){$('.twoclick_social_bookmarks_post_991').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Gespeicherte%20WLAN-Passw%C3%B6rter%20auf%20Androiden%20auslesen","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Gespeicherte%20WLAN-Passw%C3%B6rter%20auf%20Androiden%20auslesen","the_excerpt":"Falls%20ihr%20mal%20nachschauen%20wollt%2C%20welches%20Passwort%20ihr%20f%C3%BCr%20ein%20bestimmtes%20WLAN-Netzwerk%20gespeichert%20habt%3A%0D%0A%0D%0A%09Androiden%20rooten%0D%0A%09vern%C3%BCnftigen%20Datei-Explorer%20besorgen%20%28z.B.%20den%20hier%29%0D%0A%09Lese-Zugriff%20auf%20Root-Ebene%20aktivieren%0D%0A%09die%20Datei%C2%A0%2Fdata%2Fmisc%2Fwifi%2Fwpa_supplicant.conf%20%C3%B6ffnen%0D%0A%09tadaa%21%0D%0A%0D%0A%28Hatte%20ich%20hier%20gefunden%20und%20mich%20gefreut.%29","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Gespeicherte%20WLAN-Passw%C3%B6rter%20auf%20Androiden%20auslesen","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/991"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-985 post type-post status-publish format-standard hentry category-android tag-android tag-apps odd" id="post-985">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/985" rel="bookmark" title="Permanent Link to aplicaciones esenciales para Android!">
+				aplicaciones esenciales para Android!</a></h2></div>		<div class="post-byline">31.03.12 | <a href="http://wr.ong.li/985#comments" class="comments-link"  title="Comment on aplicaciones esenciales para Android!">2 Kommentare</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Da ich meinen kleinen Androiden in den nächsten Tagen mal wieder neu machen werde, hier als kleine Gedächtnisstütze meine Lieblingsapps:</p>
+<p><a title="3G Watchdog" href="https://play.google.com/store/apps/details?id=net.rgruet.android.g3watchdog">3G Watchdog</a> überwacht euren Traffic</p>
+<p><a title="aCalendar - Android Kalender" href="https://play.google.com/store/apps/details?id=org.withouthat.acalendar">aCalendar</a> Kalender-Ersatz</p>
+<p><a title="AlarmDroid" href="https://play.google.com/store/apps/details?id=com.splunchy.android.alarmclock">AlarmDroid</a> netter Ersatz-Wecker mit vielen Funktionen (liest z.B. das Wetter vor)</p>
+<p><a title="Audioboo" href="https://play.google.com/store/apps/details?id=fm.audioboo.application">Audioboo</a></p>
+<p><a title="Barcode Scanner" href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android">Barcode Scanner</a> scannt Strich- und QR-Codes</p>
+<p><a title="Barcode Scanner barcoo" href="https://play.google.com/store/apps/details?id=de.barcoo.android">barcoo</a> scannt Codes und schaut Vergleichspreise im Internetz nach (aka &#8220;Kistenschubsers Albtraum&#8221;)</p>
+<p><a title="DoggCatcher Podcast Player" href="https://play.google.com/store/apps/details?id=com.snoggdoggler.android.applications.doggcatcher.v1_0">DoggCatcher Podcast Player</a> quasi die wichtigste App. Podcatcher halt.</p>
+<p><a title="Dropbox" href="https://play.google.com/store/apps/details?id=com.dropbox.android">Dropbox</a> weil praktisch</p>
+<p><a title="Equalizer" href="https://play.google.com/store/apps/details?id=com.smartandroidapps.equalizer">Equalizer</a> endlich hübsche(re) Audio-Qualität</p>
+<p><a title="ES Datei Explorer" href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop">ES Datei Explorer</a> Datei-Manager</p>
+<p><a title="iMediaShare Lite" href="https://play.google.com/store/apps/details?id=com.bianor.ams">iMediaShare Lite</a> nutze ich eigentlich nur wegen UPnP</p>
+<p><a title="Kamera Multikamera" href="https://play.google.com/store/apps/details?id=com.forgottensystems.multicamerafree">Kamera Multikamera</a> hatte ich <a href="http://wr.ong.li/856" target="_blank">hier</a> schon mal vorgestellt</p>
+<p><a title="Locale" href="https://play.google.com/store/apps/details?id=com.twofortyfouram.locale">Locale</a> setzt Einstellungen (Lautstärke, WLAN, Helligkeit, usw. abhängig vom Bedingungen wie Aufenthaltsort, Zeit oder so)</p>
+<p><a title="Miso" href="https://play.google.com/store/apps/details?id=com.bazaarlabs.miso">Miso</a> aus Gründen</p>
+<p><a title="Move2SD Enabler (root only)" href="https://play.google.com/store/apps/details?id=com.leinardi.setinstalllocation">Move2SD Enabler</a> (root) app2sd für alle Apps.</p>
+<p><a title="Multicon Widget" href="https://play.google.com/store/apps/details?id=com.h9kdroid.multicon">Multicon Widget</a> 4 Icons brauchen nur noch den Platz von 1 Icon auf dem Homescreen</p>
+<p><a title="Öffi - ÖPNV Auskunft" href="https://play.google.com/store/apps/details?id=de.schildbach.oeffi">Öffi</a> ÖPNV-Auskunft of Epicness</p>
+<p><a title="Programm Manager" href="https://play.google.com/store/apps/details?id=de.telekom.android.epg">Programm Manager</a> &#8220;Fernsehzeitung&#8221; mit Aufnahmeoption (letzteres nur mit T-Online Entertain-Login)</p>
+<p><a title="Smooth Calendar" href="https://play.google.com/store/apps/details?id=se.catharsis.android.calendar">Smooth Calendar</a> hübsches und gut konfigurierbares Termin-Widget</p>
+<p><a title="twicca" href="https://play.google.com/store/apps/details?id=jp.r246.twicca">twicca</a> Twitter-Client.</p>
+<p><a title="WhatsApp Messenger" href="https://play.google.com/store/apps/details?id=com.whatsapp">WhatsApp</a> Messenger</p>
+<p><a title="WordPress" href="https://play.google.com/store/apps/details?id=org.wordpress.android">WordPress</a></p>
+<p>&nbsp;</p>
+<p>[Update: File Expert durch ES Datei Explorer ersetzt. Weils besser is.]
+<div class="twoclick_social_bookmarks_post_985 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_985')){$('.twoclick_social_bookmarks_post_985').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"aplicaciones%20esenciales%20para%20Android%21","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"aplicaciones%20esenciales%20para%20Android%21","the_excerpt":"Da%20ich%20meinen%20kleinen%20Androiden%20in%20den%20n%C3%A4chsten%20Tagen%20mal%20wieder%20neu%20machen%20werde%2C%20hier%20als%20kleine%20Ged%C3%A4chtnisst%C3%BCtze%20meine%20Lieblingsapps%3A%0D%0A%0D%0A3G%20Watchdog%20%C3%BCberwacht%20euren%20Traffic%0D%0A%0D%0AaCalendar%20Kalender-Ersatz%0D%0A%0D%0AAlarmDroid%20netter%20Ersatz-Wecker%20mit%20vielen%20Funktionen%20%28liest%20z.B.%20das%20Wetter%20vor%29%0D%0A%0D%0AAudioboo%0D%0A%0D%0ABarcode%20Scanner%20scannt%20Strich-%20und%20QR-Codes%0D%0A%0D%0Abarcoo%20scannt%20Codes%20und%20schaut%20Vergleichspre%20...","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"aplicaciones%20esenciales%20para%20Android%21","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/985"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-982 post type-post status-publish format-standard hentry category-rl tag-heuschnupfen tag-pollen even" id="post-982">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/982" rel="bookmark" title="Permanent Link to *schnief*">
+				*schnief*</a></h2></div>		<div class="post-byline">18.03.12 | <a href="http://wr.ong.li/982#respond" class="comments-link"  title="Comment on *schnief*">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Hiermit begrüße ich die diesjährige Pollenflugsaison mit einem herzlichen HATSCHI!</p>
+<p>&nbsp;</p>
+<p>Mir tut jetzt schon alles weh. Blöder Scheiss.
+<div class="twoclick_social_bookmarks_post_982 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_982')){$('.twoclick_social_bookmarks_post_982').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"%2Aschnief%2A","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"%2Aschnief%2A","the_excerpt":"Hiermit%20begr%C3%BC%C3%9Fe%20ich%20die%20diesj%C3%A4hrige%20Pollenflugsaison%20mit%20einem%20herzlichen%20HATSCHI%21%0D%0A%0D%0A%26nbsp%3B%0D%0A%0D%0AMir%20tut%20jetzt%20schon%20alles%20weh.%20Bl%C3%B6der%20Scheiss.","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"%2Aschnief%2A","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/982"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-980 post type-post status-publish format-standard hentry category-wr-ong tag-2011 tag-jahresruckblick odd" id="post-980">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/980" rel="bookmark" title="Permanent Link to Mein Jahresrückblick 2011">
+				Mein Jahresrückblick 2011</a></h2></div>		<div class="post-byline">30.12.11 | <a href="http://wr.ong.li/980#respond" class="comments-link"  title="Comment on Mein Jahresrückblick 2011">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Meh.
+<div class="twoclick_social_bookmarks_post_980 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_980')){$('.twoclick_social_bookmarks_post_980').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Mein%20Jahresr%C3%BCckblick%202011","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Mein%20Jahresr%C3%BCckblick%202011","the_excerpt":"Meh.","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Mein%20Jahresr%C3%BCckblick%202011","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/980"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-978 post type-post status-publish format-standard hentry category-links tag-23-12 tag-amham tag-boo tag-festivus tag-freitag tag-seinfeld even" id="post-978">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/978" rel="bookmark" title="Permanent Link to Happy Festivus!">
+				Happy Festivus!</a></h2></div>		<div class="post-byline">23.12.11 | <a href="http://wr.ong.li/978#respond" class="comments-link"  title="Comment on Happy Festivus!">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p><a href="http://en.wikipedia.org/wiki/Festivus" target="_blank">Wiki-Link für die Planlosen</a>.</p>
+<p><a href="http://audioboo.fm/boos/552160-it-sfriday" target="_blank">Ach und Freitag is ja auch noch</a>&#8230;
+<div class="twoclick_social_bookmarks_post_978 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_978')){$('.twoclick_social_bookmarks_post_978').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Happy%20Festivus%21","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Happy%20Festivus%21","the_excerpt":"Wiki-Link%20f%C3%BCr%20die%20Planlosen.%0D%0A%0D%0AAch%20und%20Freitag%20is%20ja%20auch%20noch...","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Happy%20Festivus%21","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/978"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-972 post type-post status-publish format-standard hentry category-internetz tag-ausmisten tag-feeds tag-google-reader tag-rss odd" id="post-972">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/972" rel="bookmark" title="Permanent Link to Die Lahmen und die Toten">
+				Die Lahmen und die Toten</a></h2></div>		<div class="post-byline">13.11.11 | <a href="http://wr.ong.li/972#respond" class="comments-link"  title="Comment on Die Lahmen und die Toten">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>vorher:</p>
+<p><img class="aligncenter size-full wp-image-973" title="reader1" src="http://wr.ong.li/wp-content/uploads/2011/11/reader1.png" alt="" width="325" height="90" />nachher:</p>
+<p><img class="aligncenter size-full wp-image-974" title="reader2" src="http://wr.ong.li/wp-content/uploads/2011/11/reader2.png" alt="" width="325" height="90" /></p>
+<p>Hätte ich schon viel früher machen sollen&#8230;
+<div class="twoclick_social_bookmarks_post_972 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_972')){$('.twoclick_social_bookmarks_post_972').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Die%20Lahmen%20und%20die%20Toten","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Die%20Lahmen%20und%20die%20Toten","the_excerpt":"vorher%3A%0D%0A%0D%0Anachher%3A%0D%0A%0D%0A%0D%0A%0D%0AH%C3%A4tte%20ich%20schon%20viel%20fr%C3%BCher%20machen%20sollen...","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Die%20Lahmen%20und%20die%20Toten","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":"http:\/\/wr.ong.li\/wp-content\/uploads\/2011\/11\/reader1.png"}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/972"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-961 post type-post status-publish format-standard hentry category-howto tag-ausblenden tag-cape tag-einblenden tag-helm tag-macro tag-makro tag-umhang tag-world-of-warcraft tag-wow even" id="post-961">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/961" rel="bookmark" title="Permanent Link to WoW Helm/Umhang Toggle">
+				WoW Helm/Umhang Toggle</a></h2></div>		<div class="post-byline">29.10.11 | <a href="http://wr.ong.li/961#respond" class="comments-link"  title="Comment on WoW Helm/Umhang Toggle">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Falls Ihr WoW spielt und nach ner einfachen Möglichkeit sucht, schnell Helm und Umhang ein/aus zu schalten:</p>
+<p>Makro anlegen, Icon und Name eurer Wahl wählen und folgendes in den Makrobefehl:</p>
+<blockquote><p>/run if SecureCmdOptionParse(&#8220;[btn:2]&#8220;) then ShowCloak(not ShowingCloak()) else ShowHelm(not ShowingHelm()) end</p></blockquote>
+<p>Mit der linken Maustaste schaltet Ihr dann den Helm und mit der rechten den Umhang aus bzw. ein.</p>
+<p><a href="http://eu.battle.net/wow/en/forum/topic/1951406861" target="_blank">Hier gefunden</a>.
+<div class="twoclick_social_bookmarks_post_961 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_961')){$('.twoclick_social_bookmarks_post_961').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"WoW%20Helm%2FUmhang%20Toggle","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"WoW%20Helm%2FUmhang%20Toggle","the_excerpt":"Falls%20Ihr%20WoW%20spielt%20und%20nach%20ner%20einfachen%20M%C3%B6glichkeit%20sucht%2C%20schnell%20Helm%20und%20Umhang%20ein%2Faus%20zu%20schalten%3A%0D%0A%0D%0AMakro%20anlegen%2C%20Icon%20und%20Name%20eurer%20Wahl%20w%C3%A4hlen%20und%20folgendes%20in%20den%20Makrobefehl%3A%0D%0A%2Frun%20if%20SecureCmdOptionParse%28%22%5Bbtn%3A2%5D%22%29%20then%20ShowCloak%28not%20ShowingCloak%28%29%29%20else%20ShowHelm%28not%20ShowingHelm%28%29%29%20end%0D%0AMit%20der%20linken%20Maustaste%20schaltet%20Ihr%20dann%20den%20Helm%20und%20mit%20der%20rechten%20den%20Umhang%20aus%20bzw%20...","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"WoW%20Helm%2FUmhang%20Toggle","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/961"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-958 post type-post status-publish format-standard hentry category-wr-ong tag-2-click tag-buttons tag-plugin tag-social-media tag-wordpress odd" id="post-958">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/958" rel="bookmark" title="Permanent Link to 2-Click Social Media Buttons">
+				2-Click Social Media Buttons</a></h2></div>		<div class="post-byline">22.10.11 | <a href="http://wr.ong.li/958#comments" class="comments-link"  title="Comment on 2-Click Social Media Buttons">ein Kommentar</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Jetzt neu hier bei mir: die <a href="http://blog.ppfeufer.de/wordpress-plugin-2-click-social-media-buttons/" target="_blank">2-Click Social Media Buttons</a>.</p>
+<p>Find ich gut und auch hübsch genug.</p>
+<p>Und ihr habt endlich was zum verlinken.</p>
+<p>So.
+<div class="twoclick_social_bookmarks_post_958 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_958')){$('.twoclick_social_bookmarks_post_958').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"2-Click%20Social%20Media%20Buttons","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"2-Click%20Social%20Media%20Buttons","the_excerpt":"Jetzt%20neu%20hier%20bei%20mir%3A%20die%202-Click%20Social%20Media%20Buttons.%0D%0A%0D%0AFind%20ich%20gut%20und%20auch%20h%C3%BCbsch%20genug.%0D%0A%0D%0AUnd%20ihr%20habt%20endlich%20was%20zum%20verlinken.%0D%0A%0D%0ASo.","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"2-Click%20Social%20Media%20Buttons","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/958"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-956 post type-post status-publish format-standard hentry category-zitate even" id="post-956">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/956" rel="bookmark" title="Permanent Link to Zitat">
+				Zitat</a></h2></div>		<div class="post-byline">21.10.11 | <a href="http://wr.ong.li/956#respond" class="comments-link"  title="Comment on Zitat">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><blockquote><p>Man gebe mir sechs Zeilen, geschrieben von dem redlichsten Menschen, und ich werde darin etwas finden, um ihn aufhängen zu lassen.</p></blockquote>
+<p>- Armand-Jean I. du Plessis de Richelieu, genannt Kardinal Richelieu
+<div class="twoclick_social_bookmarks_post_956 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_956')){$('.twoclick_social_bookmarks_post_956').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Zitat","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Zitat","the_excerpt":"Man%20gebe%20mir%20sechs%20Zeilen%2C%20geschrieben%20von%20dem%20redlichsten%20Menschen%2C%20und%20ich%20werde%20darin%20etwas%20finden%2C%20um%20ihn%20aufh%C3%A4ngen%20zu%20lassen.%0D%0A-%20Armand-Jean%20I.%20du%20Plessis%20de%20Richelieu%2C%20genannt%20Kardinal%20Richelieu","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Zitat","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/956"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+		
+								<div class="post-955 post type-post status-publish format-standard hentry category-uncategorized tag-abzocke tag-call-center odd" id="post-955">
+						<div class="post-headline"><h2>				<a href="http://wr.ong.li/955" rel="bookmark" title="Permanent Link to Telefonische Geschäfte">
+				Telefonische Geschäfte</a></h2></div>		<div class="post-byline">08.10.11 | <a href="http://wr.ong.li/955#respond" class="comments-link"  title="Comment on Telefonische Geschäfte">bitte nicht kommentieren!</a> &nbsp; </div>		<div class="post-bodycopy clearfix"><p>Kleiner Tip von einem langjährigen CallCenter-Mitarbeiter (mir):</p>
+<p>Nie nie nie nie nie nie niiiiiiiiieeeeee irgendwas per Telefon kaufen.<br />
+Auch nix zubuchen.<br />
+Nie!</p>
+<p>Egal was für einen guten Ruf die Firma hat, es gibt immer einen subunternehmerischen Abzocker, der euch mit einem breiten Grinsen über mehrere Tische ziehen möchte.</p>
+<div class="twoclick_social_bookmarks_post_955 social_share_privacy clearfix"></div>
+<p><script type="text/javascript">// WP-Language: en_US
+jQuery(document).ready(function($){if($('.twoclick_social_bookmarks_post_955')){$('.twoclick_social_bookmarks_post_955').socialSharePrivacy({"services":{"facebook":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/facebook-dummy-image-like.png","dummy_img_width":"72","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","action":"like","language":"en_US"},"twitter":{"reply_to":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/twitter-dummy-image.png","dummy_img_width":"62","dummy_img_height":"20","tweet_text":"Telefonische%20Gesch%C3%A4fte","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en"},"gplus":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/googleplus-dummy-image.png","dummy_img_width":"32","dummy_img_height":"20","status":"on","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"flattr":{"uid":"der_sema","dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/flattr-dummy-image.png","dummy_img_width":"54","dummy_img_height":"20","status":"on","the_title":"Telefonische%20Gesch%C3%A4fte","the_excerpt":"Kleiner%20Tip%20von%20einem%20langj%C3%A4hrigen%20CallCenter-Mitarbeiter%20%28mir%29%3A%0ANie%20nie%20nie%20nie%20nie%20nie%20niiiiiiiiieeeeee%20irgendwas%20per%20Telefon%20kaufen.%0AAuch%20nix%20zubuchen.%0ANie%21%0AEgal%20was%20f%C3%BCr%20einen%20guten%20Ruf%20die%20Firma%20hat%2C%20es%20gibt%20immer%20einen%20subunternehmerischen%20Abzocker%2C%20der%20euch%20mit%20einem%20breiten%20Grinsen%20%C3%BCber%20mehrere%20Tische%20ziehen%20m%C3%B6chte.","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Flattr senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off"},"xing":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/xing-dummy-image.png","dummy_img_width":"55","dummy_img_height":"20","status":"off","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Xing senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","language":"en","xing_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/xing.php"},"pinterest":{"dummy_img":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/images\/pinterest-dummy-image.png","dummy_img_width":"63","dummy_img_height":"20","status":"off","the_excerpt":"Telefonische%20Gesch%C3%A4fte","txt_info":"2 Klicks f\u00fcr mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k\u00f6nnen Ihre Empfehlung an Pinterest senden. Schon beim Aktivieren werden Daten an Dritte \u00fcbertragen - siehe <em>i<\/em>.","perma_option":"off","pinterest_lib":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/libs\/pinterest.php","media":false}},"txt_help":"Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter, Flattr oder Google ins Ausland \u00fcbertragen und unter Umst\u00e4nden auch dort gespeichert. N\u00e4heres erfahren Sie durch einen Klick auf das <em>i<\/em>.","settings_perma":"Dauerhaft aktivieren und Daten\u00fcber-tragung zustimmen:","info_link":"http:\/\/www.heise.de\/ct\/artikel\/2-Klicks-fuer-mehr-Datenschutz-1333879.html","css_path":"http:\/\/wr.ong.li\/wp-content\/plugins\/2-click-socialmedia-buttons\/css\/socialshareprivacy.css","uri":"http:\/\/wr.ong.li\/955"});}});</script></p>
+</div>						<div class="post-footer"><?php the_flattr_permalink() ?></div>		</div><!-- / Post -->	
+						
+	
+					<div class="wp-pagenavi-navigation"><div class='wp-pagenavi'>
+<span class='pages'>Seite 1 von 23</span><span class='current'>1</span><a href='http://wr.ong.li/page/2' class='page larger'>2</a><a href='http://wr.ong.li/page/3' class='page larger'>3</a><a href='http://wr.ong.li/page/4' class='page larger'>4</a><a href='http://wr.ong.li/page/5' class='page larger'>5</a><span class='extend'>...</span><a href='http://wr.ong.li/page/10' class='larger page'>10</a><a href='http://wr.ong.li/page/20' class='larger page'>20</a><span class='extend'>...</span><a href='http://wr.ong.li/page/2' class='nextpostslink'>»</a><a href='http://wr.ong.li/page/23' class='last'>Letzte »</a>
+</div></div>
+
+</td>
+<!-- / Main Column -->
+
+<!-- Right Inner Sidebar -->
+
+<!-- Right Sidebar -->
+<td id="right">
+
+	<div id="linkcat-66" class="widget widget_links"><div class="widget-title"><h3>Feeds</h3></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://itunes.apple.com/de/podcast/id400505982?uo=4" target="_blank"><img src="http://wr.ong.li/anti/itunes_anti.gif"  alt="iTunes Podcast"  /></a></li>
+<li><a href="http://wr.ong.li/category/wc/feed" target="_blank"><img src="http://wr.ong.li/anti/rsspod_anti.gif"  alt="Podcast Feed"  /></a></li>
+<li><a href="http://wr.ong.li/feed" target="_blank"><img src="http://wr.ong.li/anti/rsskompl_anti.gif"  alt="RSS komplett"  /></a></li>
+
+	</ul>
+</div>
+<div id="pages-3" class="widget widget_pages"><div class="widget-title"><h3>Seiten</h3></div>		<ul>
+			<li class="page_item page-item-86"><a href="http://wr.ong.li/credits">Credits</a></li>
+<li class="page_item page-item-195"><a href="http://wr.ong.li/der-blog-wtf">DER Blog? WTF?</a></li>
+<li class="page_item page-item-256"><a href="http://wr.ong.li/kontakt">Kontakt</a></li>
+<li class="page_item page-item-142"><a href="http://wr.ong.li/themeverwirrung">Themeverwirrung</a></li>
+<li class="page_item page-item-963"><a href="http://wr.ong.li/trinkgeld">Trinkgeld</a></li>
+<li class="page_item page-item-93"><a href="http://wr.ong.li/uber-den-autor">über den Autor</a></li>
+<li class="page_item page-item-100"><a href="http://wr.ong.li/vernetzung">Vernetzung</a></li>
+		</ul>
+		</div><div id="flattr-widget" class="widget new_flattrwidget_widget"><div class="widget-title"><h3>Flattr</h3></div><p align="center"><a class='FlattrButton' style='display:none;' href="http://wr.ong.li" title="wr.ong" data-flattr-uid="der_sema" data-flattr-tags="blog,wordpress,widget" data-flattr-button="compact" data-flattr-category="text">Some men just want to watch the world burn.</a></p><p>Karmischer Energieausgleich durch nur einen Klick!</p></div><div id="categories-3" class="widget widget_categories"><div class="widget-title"><h3>kategorische Kategorisierung</h3></div>		<ul>
+	<li class="cat-item cat-item-432"><a href="http://wr.ong.li/category/android" title="View all posts filed under Android">Android</a> (5)
+</li>
+	<li class="cat-item cat-item-238"><a href="http://wr.ong.li/category/bilder" title="View all posts filed under Bilder">Bilder</a> (11)
+</li>
+	<li class="cat-item cat-item-231"><a href="http://wr.ong.li/category/brockchen" title="View all posts filed under Bröckchen">Bröckchen</a> (6)
+</li>
+	<li class="cat-item cat-item-219"><a href="http://wr.ong.li/category/clips" title="View all posts filed under Clips">Clips</a> (19)
+</li>
+	<li class="cat-item cat-item-68"><a href="http://wr.ong.li/category/fiktion" title="View all posts filed under Fiktion">Fiktion</a> (1)
+</li>
+	<li class="cat-item cat-item-293"><a href="http://wr.ong.li/category/filmreviews" title="View all posts filed under Filmreviews">Filmreviews</a> (2)
+</li>
+	<li class="cat-item cat-item-44"><a href="http://wr.ong.li/category/fremdficken" title="View all posts filed under fremdficken">fremdficken</a> (3)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://wr.ong.li/category/gedanken" title="View all posts filed under Gedanken">Gedanken</a> (29)
+</li>
+	<li class="cat-item cat-item-306"><a href="http://wr.ong.li/category/howto" title="View all posts filed under HowTo">HowTo</a> (6)
+</li>
+	<li class="cat-item cat-item-125"><a href="http://wr.ong.li/category/internetz" title="View all posts filed under Internetz">Internetz</a> (2)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://wr.ong.li/category/links" title="View all posts filed under Links">Links</a> (66)
+</li>
+	<li class="cat-item cat-item-36"><a href="http://wr.ong.li/category/rezepte" title="View all posts filed under Rezepte">Rezepte</a> (2)
+</li>
+	<li class="cat-item cat-item-22"><a href="http://wr.ong.li/category/rl" title="View all posts filed under RL">RL</a> (10)
+</li>
+	<li class="cat-item cat-item-270"><a href="http://wr.ong.li/category/serientips" title="View all posts filed under Serientips">Serientips</a> (4)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://wr.ong.li/category/uncategorized" title="View all posts filed under Uncategorized">Uncategorized</a> (11)
+</li>
+	<li class="cat-item cat-item-213"><a href="http://wr.ong.li/category/wr-ong" title="View all posts filed under wr.ong">wr.ong</a> (11)
+</li>
+	<li class="cat-item cat-item-65"><a href="http://wr.ong.li/category/wc" title="View all posts filed under wrongcast">wrongcast</a> (100)
+</li>
+	<li class="cat-item cat-item-41"><a href="http://wr.ong.li/category/zitate" title="View all posts filed under Zitate">Zitate</a> (8)
+</li>
+	<li class="cat-item cat-item-179"><a href="http://wr.ong.li/category/zocken" title="View all posts filed under Zocken">Zocken</a> (6)
+</li>
+		</ul>
+</div><div id="linkcat-2" class="widget widget_links"><div class="widget-title"><h3>Blogrolle</h3></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://aheadwork.de/" target="_blank">aHeadwork</a></li>
+<li><a href="http://blog.beetlebum.de/" target="_blank">Beetlebum</a></li>
+<li><a href="http://contentisfortheweak.com/" target="_blank">content.is.for.the.weak</a></li>
+<li><a href="http://www.derbastard.com/" target="_blank">Der Bastard</a></li>
+<li><a href="http://dmn.luagsh.ch/" target="_blank">DMN.LUAGSH</a></li>
+<li><a href="http://blog.fefe.de/" target="_blank">Fefe</a></li>
+<li><a href="http://blog.gilly.ws/" target="_blank">Gilly&#039;s Playground</a></li>
+<li><a href="http://www.herzdamengeschichten.de/" target="_blank">Herzdamegeschichten</a></li>
+<li><a href="http://hurkunde.wordpress.com/" target="_blank">Hurkunde</a></li>
+<li><a href="http://interweb3000.blogspot.com/" target="_blank">Interweb3000</a></li>
+<li><a href="http://www.kotzendes-einhorn.de/blog/" target="_blank">Kotzendes Einhorn</a></li>
+<li><a href="http://magdeblog.de/" target="_blank">Magdeblog</a></li>
+<li><a href="http://www.mindsdelight.de/" target="_blank">Minds Delight</a></li>
+<li><a href="http://www.misterhonk.de/blog/" target="_blank">Mister Honk</a></li>
+<li><a href="http://www.nerdcore.de/wp/" target="_blank">Nerdcore</a></li>
+<li><a href="http://blog.pantoffelpunk.de/" target="_blank">Pantoffelpunk</a></li>
+<li><a href="http://www.polaroidmedchen.de/" target="_blank">Polaroidmedchen</a></li>
+<li><a href="http://www.rainbowzombiesatemyunicorn.de/wp/" target="_blank">rainbowzombies</a></li>
+<li><a href="http://reality-sucks.org/" target="_blank">reality sucks</a></li>
+<li><a href="http://holgi.blogger.de/" target="_blank">stackenblochen</a></li>
+<li><a href="http://stadt-bremerhaven.de/" target="_blank">Stadt Bremerhaven</a></li>
+<li><a href="http://thelarsen.de/" target="_blank">TheLarsen</a></li>
+<li><a href="http://xkcd.com/" target="_blank">xkcd</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-212" class="widget widget_links"><div class="widget-title"><h3>Podrolle</h3></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://alternativlos.org/" target="_blank">Alternativlos</a></li>
+<li><a href="http://audioboo.fm/AmHamShow" target="_blank">AmHamBoo</a></li>
+<li><a href="http://chaosradio.ccc.de/chaosradio_express.html" target="_blank">CRE</a></li>
+<li><a href="http://www.derbastard.com/" target="_blank">Der Bastard</a></li>
+<li><a href="http://diehoppeshow.de/" target="_blank">Die Hoppe Show</a></li>
+<li><a href="http://www.fahrenheit404.com/" target="_blank">Fahrenheit 404</a></li>
+<li><a href="http://tim.geekheim.de/not-safe-for-work/" target="_blank">NSFW</a></li>
+<li><a href="http://podcastination.de/" target="_blank">Podcastination</a></li>
+<li><a href="http://podschnack.wordpress.com/" target="_blank">Podschnack</a></li>
+<li><a href="http://web.me.com/ch.petzold/Web-Site/Podcast/Podcast.html" target="_blank">PSID</a></li>
+<li><a href="http://tacklemania.de/" target="_blank">Tacklemania</a></li>
+<li><a href="http://wellenformen.blogspot.com/" target="_blank">Wellenformen</a></li>
+
+	</ul>
+</div>
+<div id="meta-3" class="widget widget_meta"><div class="widget-title"><h3>Metastasen</h3></div>			<ul>
+						<li><a href="http://wr.ong.li/wp-login.php">Log in</a></li>
+			<li><a href="http://wr.ong.li/feed" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wr.ong.li/comments/feed" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</div>
+</td>
+<!-- / Right Sidebar -->
+
+</tr>
+<!-- / Main Body -->
+<tr>
+
+<!-- Footer -->
+<td id="footer" colspan="2">
+    <table id="footer" class="bfa_widget_area" style="table-layout:fixed;width:100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td id="footer_1" align="left" valign="top"><div id=\"text-3\" class=\"header-widget widget_text\"><div class="widget-title"><h3>Raptr</h3></div>			<div class="textwidget"><iframe src="http://raptr.com/badges/last-most/der_sema" style="height:349px; width: 300px;" scrolling="no" frameborder="0"></iframe></div>
+		</div>
+</td>
+<td id="footer_2" align="center" valign="top"><div id=\"text-4\" class=\"header-widget widget_text\"><div class="widget-title"><h3>Proud Member of</h3></div>			<div class="textwidget"><a href="http://www.kotzendes-einhorn.de/blog/lethargie/ein-gebrochenes-herz-fur-blogs/"><img src="http://wr.ong.li/pix/kehs.png" border="0"></a> </div>
+		</div>
+</td>
+<td id="footer_3" align="right" valign="top">
+</td>
+</tr></table>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />Powered by <a href="http://wordpress.org/">WordPress</a> &amp; <a href="http://forum.bytesforall.com/">Atahualpa</a>        <p>
+    76 queries. 1.003 seconds.    </p>
+    
+    
+    <!-- 2-Click Social Media Buttons by H.-Peter Pfeufer -->
+<script type="text/javascript" src="http://wr.ong.li/wp-content/plugins/2-click-socialmedia-buttons/js/social_bookmarks-min.js"></script><script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'back to:',
+	theblog : 'the blog',
+	close : 'close',
+	playbutton : 'Play &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://wr.ong.li/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "008000";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["volslider"] = "008000";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["loader"] = "008000";
+	podPressPopupPlayerOpt["track"] = "006600";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "008000";
+	podPressPopupPlayerOpt["righticon"] = "008000";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://wr.ong.li/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"008000", leftbg:"CCCCCC", volslider:"008000", voltrack:"FFFFFF", text:"333333", tracker:"DDDDDD", slider:"666666", loader:"008000", track:"006600", border:"CCCCCC", bg:"E5E5E5", skip:"008000", righticon:"008000", righticonhover:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://wr.ong.li/";
+var podPressBackendURL = "http://wr.ong.li/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://wr.ong.li/pix/wrong144.jpg";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5sec = "76f203c253";
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Play Now";
+var podPressText_HidePlayer = "Hide Player";
+//]]></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?aa&#038;ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wr.ong.li/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.3.2'></script>
+	<div style="display:none">
+	</div>
+<div id="podPress_footer">Podcast powered by <a href="http://wordpress.org/extend/plugins/podpress/" title="podPress, a plugin for podcasting with WordPress">podPress</a></div><script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=0.6'></script>
+<script type='text/javascript' src='http://wr.ong.li/wp-content/plugins/geosmart/js/wp-geosmart-script.js?ver=1.5'></script>
+
+	<script src="http://stats.wordpress.com/e-201223.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:1.3',blog:'16252721',post:'0'});
+	var load_cmc = function(){linktracker_init(16252721,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+<style type='text/css'>img#wpstats{display:none}</style></td>
+
+
+</tr>
+</table><!-- / layout -->
+</div><!-- / container -->
+</div><!-- / wrapper -->
+<a id="ueberlag" href="http://zombiemutantendodopingp.ong.li/"></a></body>
+</html>

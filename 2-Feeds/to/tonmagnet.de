@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE">
+<head>
+<meta property="fb:admins" content="100000542753794" />
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */
+</script><meta charset="UTF-8" />
+<title>Tonmagnet | Free Music Blog</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.tonmagnet.de/wp-content/themes/twentyten/style.css" />
+<link rel="pingback" href="http://www.tonmagnet.de/xmlrpc.php" />
+
+<!-- META Tags added by Add-Meta-Tags WordPress plugin. Get it at: http://www.g-loaded.eu/ -->
+<meta name="description" content="Hier gibt es Kurzreviews und ausgewählte Links zu kostenloser Musik, genannt Netaudio, aus den Bereichen 8bit/rock/alternative/noise/electronica/indie." />
+<meta name="keywords" content="netaudio, review, musikreview, musicreview, netaudioreview, cc, creative, common, ccl, musik, tonmagnet, free, frei, idm, electro, blog, rock, alternative, alternativ, metal, core, 8bit, 8-bit, netlabel, music, twitter, facebook, feed, downloads, download, netaudio" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Tonmagnet &raquo; Feed" href="http://www.tonmagnet.de/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Tonmagnet &raquo; Kommentar Feed" href="http://www.tonmagnet.de/?feed=comments-rss2" />
+<link rel='stylesheet' id='TwitterBadgeStyle-css'  href='http://www.tonmagnet.de/wp-content/plugins/twitter-badge-widget/twitterbadge.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-shortcode-css'  href='http://www.tonmagnet.de/wp-content/plugins/author-avatars/css/shortcode.css?ver=1.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-widget-css'  href='http://www.tonmagnet.de/wp-content/plugins/author-avatars/css/widget.css?ver=1.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.tonmagnet.de/wp-content/plugins/contact-form-7/styles.css?ver=3.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='really_simple_share_style-css'  href='http://www.tonmagnet.de/wp-content/plugins/really-simple-facebook-twitter-share-buttons/style.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://www.tonmagnet.de/wp-content/plugins/podpress/podpress.css?ver=3.3.2' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://www.tonmagnet.de/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://www.tonmagnet.de/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {lefticon:"333333", leftbg:"CCCCCC", volslider:"666666", voltrack:"FFFFFF", text:"333333", tracker:"DDDDDD", slider:"666666", loader:"009900", track:"FFFFFF", border:"CCCCCC", bg:"E5E5E5", skip:"666666", righticon:"333333", righticonhover:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.tonmagnet.de/";
+var podPressBackendURL = "http://www.tonmagnet.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.tonmagnet.de/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = false;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://www.tonmagnet.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var RelTimeL10n = {"RelTSeconds":"less than a minute ago","RelTMinute":"about a minute ago","RelTMinutes":"%s minutes ago","RelTHour":"about an hour ago","RelTHours":"%s hours ago","RelTDay":"yesterday","RelTDays":"%s days ago"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.tonmagnet.de/wp-content/plugins/twitter-badge-widget/loc_relative_time.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=3.3.2#038;ver=0.6'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.tonmagnet.de/wp-content/plugins/podpress/js/podpress.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.tonmagnet.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.tonmagnet.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+
+<link rel="stylesheet" href="http://www.tonmagnet.de/wp-content/plugins/count-per-day/counter.css" type="text/css" />
+<link href="https://plus.google.com/102262079327625829425/" rel="publisher" /><script type="text/javascript">
+		  window.___gcfg = {lang: "de"};
+		  (function() {
+		    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+		    po.src = "https://apis.google.com/js/plusone.js";
+		    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+		  })();
+		</script><style type="text/css">
+body.custom-background { background-color: #808080; background-image: url('http://www.tonmagnet.de/wp-content/uploads/2011/05/tmt-back6.jpg'); background-repeat: no-repeat; background-position: top left; background-attachment: scroll; }
+</style>
+
+<link rel="alternate" type="application/rss+xml" title="Podcast Feed" href="http://www.tonmagnet.de/?feed=podcast" />
+</head>
+
+<body class="home blog custom-background">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<h1 id="site-title">
+					<span>
+						<a href="http://www.tonmagnet.de/" title="Tonmagnet" rel="home">Tonmagnet</a>
+					</span>
+				</h1>
+				<div id="site-description">Free Music Blog</div>
+
+										<img src="http://www.tonmagnet.de/wp-content/uploads/2012/05/tonmagnet-kopf.jpg" width="940" height="198" alt="" />
+								</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Springe zum Inhalt">Springe zum Inhalt</a></div>
+								<div class="menu-header"><ul id="menu-menu" class="menu"><li id="menu-item-3704" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3704"><a href="http://www.tonmagnet.de/">Reviews</a></li>
+<li id="menu-item-3703" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3703"><a href="http://www.tonmagnet.de/?cat=224">Podcast</a></li>
+<li id="menu-item-2668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2668"><a href="http://www.tonmagnet.de/?cat=1">Anderes</a></li>
+<li id="menu-item-3701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3701"><a href="http://www.tonmagnet.de/?page_id=2973">Team</a></li>
+<li id="menu-item-2671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2671"><a href="http://www.tonmagnet.de/?page_id=67">Kontakt</a></li>
+<li id="menu-item-2670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2670"><a href="http://www.tonmagnet.de/?page_id=2">Impressum</a></li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+	<div id="nav-above" class="navigation">
+		<div class="nav-previous"><a href="http://www.tonmagnet.de/?paged=2" ><span class="meta-nav">&larr;</span> Ältere Beiträge</a></div>
+		<div class="nav-next"></div>
+	</div><!-- #nav-above -->
+
+
+
+
+			<div id="post-4039" class="post-4039 post type-post status-publish format-standard hentry category-potcast tag-alex-senge tag-besuch tag-gast tag-gleichtakt tag-interview tag-podcast">
+			<h2 class="entry-title"><a href="http://www.tonmagnet.de/?p=4039" title="Permalink zu TMP007 &#8211; Gleichtakt zu Gast" rel="bookmark">TMP007 &#8211; Gleichtakt zu Gast</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.tonmagnet.de/?p=4039" title="09:36" rel="bookmark"><span class="entry-date">02/06/2012</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.tonmagnet.de/?author=1" title="Zeige alle Beiträge von dw">dw</a></span>			</div><!-- .entry-meta --> 
+
+	  			<div class="entry-content">
+				<div id="attachment_4041" class="wp-caption aligncenter" style="width: 594px"><img class="size-full wp-image-4041" title="tmp007logo" src="http://www.tonmagnet.de/wp-content/uploads/2012/06/tmp007logo1.jpg" alt="" width="584" height="318" /><p class="wp-caption-text">Foto gesponsert von Alex Senge</p></div>
+<p style="text-align: justify;">Diesmal hatten Jens und ich Besuch von Alex Senge. Wir reden unter anderem über sein Netlabel <a href="http://gleichtakt.net/" target="_blank">Gleichtakt</a>, wie es ist ein Netlabel zu betreiben und wie wir die Zukunft von Netaudio sehen. Natürlich hören wir uns auch Musik an und reden etwas über die Künstler. <a href="http://www.tonmagnet.de/?p=4039#more-4039" class="more-link">Weiterlesen <span class="meta-nav">&rarr;</span></a></p>
+<script type='text/javascript'>
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.tonmagnet.de/?p=4039";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="stars";var OB_recMode="rec";var OBITm="1258034419";var OB_Script=true;var OB_langJS="http://widgets.outbrain.com/lang_en.js";document.write(unescape("%3Cscript src='http://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script>
+		<div style="height:33px;" class="really_simple_share robots-nocontent snap_nopreview"><div class="really_simple_share_facebook_like" style="width:130px;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tonmagnet.de%2F%3Fp%3D4039&amp;layout=button_count&amp;show_faces=false&amp;width=&amp;action=like&amp;colorscheme=light&amp;send=false&amp;height=27" 
+						scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:px; height:27px;" allowTransparency="true"></iframe></div><div class="really_simple_share_google1" style="width:90px;"><div class="g-plusone" data-size="medium" data-href="http://www.tonmagnet.de/?p=4039" ></div></div><div class="really_simple_share_flattr" style="width:120px;"><a class="FlattrButton" style="display:none;" href="http://www.tonmagnet.de/?p=4039" title="TMP007 &#8211; Gleichtakt zu Gast" rev="flattr;uid:haudegen0815;language:de_DE;category:text;tags:Alex Senge,Besuch,Gast,Gleichtakt,Interview,podcast;button:compact;">TMP007 &#8211; Gleichtakt zu Gast</a></div><div class="really_simple_share_twitter" style="width:110px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" 
+						data-text="TMP007 &#8211; Gleichtakt zu Gast" data-url="http://www.tonmagnet.de/?p=4039" 
+						data-via="" data-lang="de" ></a></div></div>
+		<div style="clear:both;"></div>				  
+			</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Veröffentlicht unter</span> <a href="http://www.tonmagnet.de/?cat=224" title="Alle Artikel in Podcast ansehen" rel="category">Podcast</a>					</span>
+					<span class="meta-sep">|</span>
+													<span class="tag-links">
+						<span class="entry-utility-prep entry-utility-prep-tag-links">Verschlagwortet mit</span> <a href="http://www.tonmagnet.de/?tag=alex-senge" rel="tag">Alex Senge</a>, <a href="http://www.tonmagnet.de/?tag=besuch" rel="tag">Besuch</a>, <a href="http://www.tonmagnet.de/?tag=gast" rel="tag">Gast</a>, <a href="http://www.tonmagnet.de/?tag=gleichtakt" rel="tag">Gleichtakt</a>, <a href="http://www.tonmagnet.de/?tag=interview" rel="tag">Interview</a>, <a href="http://www.tonmagnet.de/?tag=podcast" rel="tag">podcast</a>					</span>
+					<span class="meta-sep">|</span>
+								<span class="comments-link"><a href="http://www.tonmagnet.de/?p=4039#respond" title="Kommentiere TMP007 &#8211; Gleichtakt zu Gast">Hinterlasse einen Kommentar</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-4025" class="post-4025 post type-post status-publish format-standard hentry category-releasereviews tag-acoustic tag-alternative tag-folk">
+			<h2 class="entry-title"><a href="http://www.tonmagnet.de/?p=4025" title="Permalink zu Violeta Päivänkakkara &#8211; Kuu" rel="bookmark">Violeta Päivänkakkara &#8211; Kuu</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.tonmagnet.de/?p=4025" title="14:46" rel="bookmark"><span class="entry-date">29/05/2012</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.tonmagnet.de/?author=2" title="Zeige alle Beiträge von jens">jens</a></span>			</div><!-- .entry-meta --> 
+
+	  			<div class="entry-content">
+				<p><img class="aligncenter size-medium wp-image-4026" title="kuu" src="http://www.tonmagnet.de/wp-content/uploads/2012/05/kuu-300x300.jpg" alt="" width="300" height="300" /></p>
+<p style="text-align: justify;">Ganz langsam steigt die Sonne zum Himmel auf und wärmt Mensch und Tier. Die Natur erwacht und fühlt sich voller Kraft und entfaltet seine tiefe und intensive Farbenpracht. So in etwa könnte man die EP von Violeta Päivänkakkara beschreiben. Eine interessante EP mit insgesamt 5 Tracks, die  <a href="http://www.tonmagnet.de/?p=4025#more-4025" class="more-link">Weiterlesen <span class="meta-nav">&rarr;</span></a></p>
+<script type='text/javascript'>
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.tonmagnet.de/?p=4025";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="stars";var OB_recMode="rec";var OBITm="1258034419";var OB_Script=true;var OB_langJS="http://widgets.outbrain.com/lang_en.js";document.write(unescape("%3Cscript src='http://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script>
+		<div style="height:33px;" class="really_simple_share robots-nocontent snap_nopreview"><div class="really_simple_share_facebook_like" style="width:130px;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tonmagnet.de%2F%3Fp%3D4025&amp;layout=button_count&amp;show_faces=false&amp;width=&amp;action=like&amp;colorscheme=light&amp;send=false&amp;height=27" 
+						scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:px; height:27px;" allowTransparency="true"></iframe></div><div class="really_simple_share_google1" style="width:90px;"><div class="g-plusone" data-size="medium" data-href="http://www.tonmagnet.de/?p=4025" ></div></div><div class="really_simple_share_flattr" style="width:120px;"><a class="FlattrButton" style="display:none;" href="http://www.tonmagnet.de/?p=4025" title="Violeta Päivänkakkara &#8211; Kuu" rev="flattr;uid:haudegen0815;language:de_DE;category:text;tags:acoustic,alternative,folk;button:compact;">Violeta Päivänkakkara &#8211; Kuu</a></div><div class="really_simple_share_twitter" style="width:110px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" 
+						data-text="Violeta Päivänkakkara &#8211; Kuu" data-url="http://www.tonmagnet.de/?p=4025" 
+						data-via="" data-lang="de" ></a></div></div>
+		<div style="clear:both;"></div>				  
+			</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Veröffentlicht unter</span> <a href="http://www.tonmagnet.de/?cat=8" title="Alle Artikel in Reviews ansehen" rel="category">Reviews</a>					</span>
+					<span class="meta-sep">|</span>
+													<span class="tag-links">
+						<span class="entry-utility-prep entry-utility-prep-tag-links">Verschlagwortet mit</span> <a href="http://www.tonmagnet.de/?tag=acoustic" rel="tag">acoustic</a>, <a href="http://www.tonmagnet.de/?tag=alternative" rel="tag">alternative</a>, <a href="http://www.tonmagnet.de/?tag=folk" rel="tag">folk</a>					</span>
+					<span class="meta-sep">|</span>
+								<span class="comments-link"><a href="http://www.tonmagnet.de/?p=4025#respond" title="Kommentiere Violeta Päivänkakkara &#8211; Kuu">Hinterlasse einen Kommentar</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-3938" class="post-3938 post type-post status-publish format-standard hentry category-releasereviews tag-8bit tag-chiptune tag-gameboy">
+			<h2 class="entry-title"><a href="http://www.tonmagnet.de/?p=3938" title="Permalink zu ZEF &#8211; Ground Zero" rel="bookmark">ZEF &#8211; Ground Zero</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.tonmagnet.de/?p=3938" title="19:36" rel="bookmark"><span class="entry-date">21/05/2012</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.tonmagnet.de/?author=1" title="Zeige alle Beiträge von dw">dw</a></span>			</div><!-- .entry-meta --> 
+
+	  			<div class="entry-content">
+				<p><img class="aligncenter size-medium wp-image-3939" title="500164909-1" src="http://www.tonmagnet.de/wp-content/uploads/2012/05/500164909-1-300x300.jpg" alt="" width="300" height="300" /></p>
+<p style="text-align: justify;">Dieser DMG-Chiptune erzählt Geschichten. Wahnsinnig stimmige Stereoeffekte, hier wird wirklich alles aus dem grauen Kasten heraus geholt. Ganz anders als der Titel es vermuten lässt, sind die Tracks mit schönen Melodien bestückt und treiben zur Heiterkeit und Tanzwut an. Die Vielseitigkeit lässt mich immer wieder neue Parts entdecken. Eine vortreffliche EP seines Genres. Ich brauche mehr davon. <a href="http://www.tonmagnet.de/?p=3938#more-3938" class="more-link">Weiterlesen <span class="meta-nav">&rarr;</span></a></p>
+<script type='text/javascript'>
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.tonmagnet.de/?p=3938";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="stars";var OB_recMode="rec";var OBITm="1258034419";var OB_Script=true;var OB_langJS="http://widgets.outbrain.com/lang_en.js";document.write(unescape("%3Cscript src='http://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script>
+		<div style="height:33px;" class="really_simple_share robots-nocontent snap_nopreview"><div class="really_simple_share_facebook_like" style="width:130px;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tonmagnet.de%2F%3Fp%3D3938&amp;layout=button_count&amp;show_faces=false&amp;width=&amp;action=like&amp;colorscheme=light&amp;send=false&amp;height=27" 
+						scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:px; height:27px;" allowTransparency="true"></iframe></div><div class="really_simple_share_google1" style="width:90px;"><div class="g-plusone" data-size="medium" data-href="http://www.tonmagnet.de/?p=3938" ></div></div><div class="really_simple_share_flattr" style="width:120px;"><a class="FlattrButton" style="display:none;" href="http://www.tonmagnet.de/?p=3938" title="ZEF &#8211; Ground Zero" rev="flattr;uid:haudegen0815;language:de_DE;category:text;tags:8bit,chiptune,gameboy;button:compact;">ZEF &#8211; Ground Zero</a></div><div class="really_simple_share_twitter" style="width:110px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" 
+						data-text="ZEF &#8211; Ground Zero" data-url="http://www.tonmagnet.de/?p=3938" 
+						data-via="" data-lang="de" ></a></div></div>
+		<div style="clear:both;"></div>				  
+			</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Veröffentlicht unter</span> <a href="http://www.tonmagnet.de/?cat=8" title="Alle Artikel in Reviews ansehen" rel="category">Reviews</a>					</span>
+					<span class="meta-sep">|</span>
+													<span class="tag-links">
+						<span class="entry-utility-prep entry-utility-prep-tag-links">Verschlagwortet mit</span> <a href="http://www.tonmagnet.de/?tag=8bit" rel="tag">8bit</a>, <a href="http://www.tonmagnet.de/?tag=chiptune" rel="tag">chiptune</a>, <a href="http://www.tonmagnet.de/?tag=gameboy" rel="tag">gameboy</a>					</span>
+					<span class="meta-sep">|</span>
+								<span class="comments-link"><a href="http://www.tonmagnet.de/?p=3938#comments" title="Kommentiere ZEF &#8211; Ground Zero">1 Kommentar</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-3988" class="post-3988 post type-post status-publish format-standard hentry category-potcast tag-klassisch tag-mai tag-podcast">
+			<h2 class="entry-title"><a href="http://www.tonmagnet.de/?p=3988" title="Permalink zu TMP006 &#8211; Zeittunnel im Mai" rel="bookmark">TMP006 &#8211; Zeittunnel im Mai</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.tonmagnet.de/?p=3988" title="14:28" rel="bookmark"><span class="entry-date">19/05/2012</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.tonmagnet.de/?author=1" title="Zeige alle Beiträge von dw">dw</a></span>			</div><!-- .entry-meta --> 
+
+	  			<div class="entry-content">
+				<div id="attachment_3995" class="wp-caption aligncenter" style="width: 594px"><a href="http://www.flickr.com/photos/narcotic303/"><img class="size-full wp-image-3995" title="TMP006_logo" src="http://www.tonmagnet.de/wp-content/uploads/2012/05/TMP006_logo.jpg" alt="" width="584" height="344" /></a><p class="wp-caption-text">Foto gesponsert von Alex Senge</p></div>
+<p>Diesmal betreten Jens und Daniel den Zeittunnel und spielen sich gegenseitig Tracks aus vergangenen Tagen vor. Reviews, die im Archiv verschollen sind und nur darauf warten von Euch neu entdeckt zu werden. <a href="http://www.tonmagnet.de/?p=3988#more-3988" class="more-link">Weiterlesen <span class="meta-nav">&rarr;</span></a></p>
+<script type='text/javascript'>
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.tonmagnet.de/?p=3988";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="stars";var OB_recMode="rec";var OBITm="1258034419";var OB_Script=true;var OB_langJS="http://widgets.outbrain.com/lang_en.js";document.write(unescape("%3Cscript src='http://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script>
+		<div style="height:33px;" class="really_simple_share robots-nocontent snap_nopreview"><div class="really_simple_share_facebook_like" style="width:130px;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tonmagnet.de%2F%3Fp%3D3988&amp;layout=button_count&amp;show_faces=false&amp;width=&amp;action=like&amp;colorscheme=light&amp;send=false&amp;height=27" 
+						scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:px; height:27px;" allowTransparency="true"></iframe></div><div class="really_simple_share_google1" style="width:90px;"><div class="g-plusone" data-size="medium" data-href="http://www.tonmagnet.de/?p=3988" ></div></div><div class="really_simple_share_flattr" style="width:120px;"><a class="FlattrButton" style="display:none;" href="http://www.tonmagnet.de/?p=3988" title="TMP006 &#8211; Zeittunnel im Mai" rev="flattr;uid:haudegen0815;language:de_DE;category:text;tags:klassisch,Mai,podcast;button:compact;">TMP006 &#8211; Zeittunnel im Mai</a></div><div class="really_simple_share_twitter" style="width:110px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" 
+						data-text="TMP006 &#8211; Zeittunnel im Mai" data-url="http://www.tonmagnet.de/?p=3988" 
+						data-via="" data-lang="de" ></a></div></div>
+		<div style="clear:both;"></div>				  
+			</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Veröffentlicht unter</span> <a href="http://www.tonmagnet.de/?cat=224" title="Alle Artikel in Podcast ansehen" rel="category">Podcast</a>					</span>
+					<span class="meta-sep">|</span>
+													<span class="tag-links">
+						<span class="entry-utility-prep entry-utility-prep-tag-links">Verschlagwortet mit</span> <a href="http://www.tonmagnet.de/?tag=klassisch" rel="tag">klassisch</a>, <a href="http://www.tonmagnet.de/?tag=mai" rel="tag">Mai</a>, <a href="http://www.tonmagnet.de/?tag=podcast" rel="tag">podcast</a>					</span>
+					<span class="meta-sep">|</span>
+								<span class="comments-link"><a href="http://www.tonmagnet.de/?p=3988#respond" title="Kommentiere TMP006 &#8211; Zeittunnel im Mai">Hinterlasse einen Kommentar</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-3949" class="post-3949 post type-post status-publish format-standard hentry category-releasereviews tag-acoustic tag-indie">
+			<h2 class="entry-title"><a href="http://www.tonmagnet.de/?p=3949" title="Permalink zu Afternoon Talk &#8211; Afternoon Talk EP" rel="bookmark">Afternoon Talk &#8211; Afternoon Talk EP</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.tonmagnet.de/?p=3949" title="15:14" rel="bookmark"><span class="entry-date">16/05/2012</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.tonmagnet.de/?author=2" title="Zeige alle Beiträge von jens">jens</a></span>			</div><!-- .entry-meta --> 
+
+	  			<div class="entry-content">
+				<p><img class="aligncenter size-medium wp-image-3950" title="Hujan023_Artwork" src="http://www.tonmagnet.de/wp-content/uploads/2012/05/Hujan023_Artwork-300x300.jpg" alt="" width="300" height="300" /></p>
+<div id="attachment_3954" class="wp-caption alignright" style="width: 160px"><img class="size-thumbnail wp-image-3954 " title="298162_216368375089585_141458055913951_601455_1301818174_n" src="http://www.tonmagnet.de/wp-content/uploads/2012/05/298162_216368375089585_141458055913951_601455_1301818174_n-150x150.jpg" alt="" width="150" height="150" /><p class="wp-caption-text">Sie beweisen uns, Musik ist schön.</p></div>
+<p style="text-align: justify;">Willkommen bei Afternoon Talk. Willkommen bei bezaubernder, akustischer und musikalischer<br />
+Offenbarung. Aber zu erst einmal. Bezauberndes Cover, was ja bei mir zunehmend eine wichtige Rolle spielt. Denn dieses spielt eine ebenso wichtige Rolle, wie der Inhalt, welcher sich dahinter verbirgt. Und das, was sich hier dahinter verbirgt, ist großartig. Wie schon oben beschrieben, wunderbare Musik. Mit einer, zwei oder auch drei Gitarren wird uns das Leben in Tönen dargestellt. Voller Liebe und Hingabe versteht sich. Die Band aus Indonesien hat sehr großes Potenzial und verdient wie viele andere Künstler mehr Gehör. Und ich behaupte jetzt mal, nach diesem Lied werdet ihr verliebt sein.</p>
+<p style="text-align: justify;"> <a href="http://www.tonmagnet.de/?p=3949#more-3949" class="more-link">Weiterlesen <span class="meta-nav">&rarr;</span></a></p>
+<script type='text/javascript'>
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.tonmagnet.de/?p=3949";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="stars";var OB_recMode="rec";var OBITm="1258034419";var OB_Script=true;var OB_langJS="http://widgets.outbrain.com/lang_en.js";document.write(unescape("%3Cscript src='http://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script>
+		<div style="height:33px;" class="really_simple_share robots-nocontent snap_nopreview"><div class="really_simple_share_facebook_like" style="width:130px;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tonmagnet.de%2F%3Fp%3D3949&amp;layout=button_count&amp;show_faces=false&amp;width=&amp;action=like&amp;colorscheme=light&amp;send=false&amp;height=27" 
+						scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:px; height:27px;" allowTransparency="true"></iframe></div><div class="really_simple_share_google1" style="width:90px;"><div class="g-plusone" data-size="medium" data-href="http://www.tonmagnet.de/?p=3949" ></div></div><div class="really_simple_share_flattr" style="width:120px;"><a class="FlattrButton" style="display:none;" href="http://www.tonmagnet.de/?p=3949" title="Afternoon Talk &#8211; Afternoon Talk EP" rev="flattr;uid:haudegen0815;language:de_DE;category:text;tags:acoustic,indie;button:compact;">Afternoon Talk &#8211; Afternoon Talk EP</a></div><div class="really_simple_share_twitter" style="width:110px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" 
+						data-text="Afternoon Talk &#8211; Afternoon Talk EP" data-url="http://www.tonmagnet.de/?p=3949" 
+						data-via="" data-lang="de" ></a></div></div>
+		<div style="clear:both;"></div>				  
+			</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Veröffentlicht unter</span> <a href="http://www.tonmagnet.de/?cat=8" title="Alle Artikel in Reviews ansehen" rel="category">Reviews</a>					</span>
+					<span class="meta-sep">|</span>
+													<span class="tag-links">
+						<span class="entry-utility-prep entry-utility-prep-tag-links">Verschlagwortet mit</span> <a href="http://www.tonmagnet.de/?tag=acoustic" rel="tag">acoustic</a>, <a href="http://www.tonmagnet.de/?tag=indie" rel="tag">indie</a>					</span>
+					<span class="meta-sep">|</span>
+								<span class="comments-link"><a href="http://www.tonmagnet.de/?p=3949#respond" title="Kommentiere Afternoon Talk &#8211; Afternoon Talk EP">Hinterlasse einen Kommentar</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-3957" class="post-3957 post type-post status-publish format-standard hentry category-releasereviews tag-alternative tag-electronica tag-indie tag-pop">
+			<h2 class="entry-title"><a href="http://www.tonmagnet.de/?p=3957" title="Permalink zu Shortcuts &#8211; Thanks, I Feel Fine" rel="bookmark">Shortcuts &#8211; Thanks, I Feel Fine</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Publiziert am</span> <a href="http://www.tonmagnet.de/?p=3957" title="15:02" rel="bookmark"><span class="entry-date">14/05/2012</span></a> <span class="meta-sep">von</span> <span class="author vcard"><a class="url fn n" href="http://www.tonmagnet.de/?author=2" title="Zeige alle Beiträge von jens">jens</a></span>			</div><!-- .entry-meta --> 
+
+	  			<div class="entry-content">
+				<p style="text-align: justify;"><img class="aligncenter size-medium wp-image-3958" title="shortcuts_cover" src="http://www.tonmagnet.de/wp-content/uploads/2012/05/shortcuts_cover-300x300.jpg" alt="" width="300" height="300" /></p>
+<p style="text-align: justify;">Jetzt wo ich wieder das bezaubernde Cover sehe, frage ich mich, ob sich der Junge meldet oder ob er zu den Sternen zeigen möchte. Zu etwas ihm Unbekannten oder doch bekannten, was er seinen Mitmenschen zeigen möchte. Oder berührt er das was zwischen ihm und dem Betrachter liegt? Die Antwort befindet sich in dem Kommentar von Sebastian.</p>
+<p style="text-align: justify;">Aber zurück zum eigentlichen der Musik, die sich hinter dem Cover befindet. Ganze 11 Tracks werden dem geneigten Hörer geliefert und laden ein, zu einer langen Reise inmitten verschiedener Genres.  <a href="http://www.tonmagnet.de/?p=3957#more-3957" class="more-link">Weiterlesen <span class="meta-nav">&rarr;</span></a></p>
+<script type='text/javascript'>
+		<!--
+		//OBSTART:do_NOT_remove_this_comment
+		var OutbrainPermaLink="http://www.tonmagnet.de/?p=3957";
+		if(typeof(OB_Script)!='undefined'){OutbrainStart();} else {
+		var OB_PlugInVer="7.0.0.0_Regular";;var OB_raterMode="stars";var OB_recMode="rec";var OBITm="1258034419";var OB_Script=true;var OB_langJS="http://widgets.outbrain.com/lang_en.js";document.write(unescape("%3Cscript src='http://widgets.outbrain.com/OutbrainRater.js' type='text/javascript'%3E%3C/script%3E"));}
+		//OBEND:do_NOT_remove_this_comment
+		//-->
+		</script>
+		<div style="height:33px;" class="really_simple_share robots-nocontent snap_nopreview"><div class="really_simple_share_facebook_like" style="width:130px;"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.tonmagnet.de%2F%3Fp%3D3957&amp;layout=button_count&amp;show_faces=false&amp;width=&amp;action=like&amp;colorscheme=light&amp;send=false&amp;height=27" 
+						scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:px; height:27px;" allowTransparency="true"></iframe></div><div class="really_simple_share_google1" style="width:90px;"><div class="g-plusone" data-size="medium" data-href="http://www.tonmagnet.de/?p=3957" ></div></div><div class="really_simple_share_flattr" style="width:120px;"><a class="FlattrButton" style="display:none;" href="http://www.tonmagnet.de/?p=3957" title="Shortcuts &#8211; Thanks, I Feel Fine" rev="flattr;uid:haudegen0815;language:de_DE;category:text;tags:alternative,electronica,indie,pop;button:compact;">Shortcuts &#8211; Thanks, I Feel Fine</a></div><div class="really_simple_share_twitter" style="width:110px;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" 
+						data-text="Shortcuts &#8211; Thanks, I Feel Fine" data-url="http://www.tonmagnet.de/?p=3957" 
+						data-via="" data-lang="de" ></a></div></div>
+		<div style="clear:both;"></div>				  
+			</div><!-- .entry-content -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Veröffentlicht unter</span> <a href="http://www.tonmagnet.de/?cat=8" title="Alle Artikel in Reviews ansehen" rel="category">Reviews</a>					</span>
+					<span class="meta-sep">|</span>
+													<span class="tag-links">
+						<span class="entry-utility-prep entry-utility-prep-tag-links">Verschlagwortet mit</span> <a href="http://www.tonmagnet.de/?tag=alternative" rel="tag">alternative</a>, <a href="http://www.tonmagnet.de/?tag=electronica" rel="tag">electronica</a>, <a href="http://www.tonmagnet.de/?tag=indie" rel="tag">indie</a>, <a href="http://www.tonmagnet.de/?tag=pop" rel="tag">pop</a>					</span>
+					<span class="meta-sep">|</span>
+								<span class="comments-link"><a href="http://www.tonmagnet.de/?p=3957#comments" title="Kommentiere Shortcuts &#8211; Thanks, I Feel Fine">3 Kommentare</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://www.tonmagnet.de/?paged=2" ><span class="meta-nav">&larr;</span> Ältere Beiträge</a></div>
+					<div class="nav-next"></div>
+				</div><!-- #nav-below -->
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="text-8" class="widget-container widget_text">			<div class="textwidget"><div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'de',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></div>
+		</li><li id="search-3" class="widget-container widget_search"><form role="search" method="get" id="searchform" action="http://www.tonmagnet.de/" >
+	<div><label class="screen-reader-text" for="s">Suche nach:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Suchen" />
+	</div>
+	</form></li><li id="text-3" class="widget-container widget_text">			<div class="textwidget">Tonmagnet ist ein unkommerzieller Blog mit Netaudioreviews und Podcast.
+Durch eine Spende mit <a href="http://flattr.com/thing/62303/Tonmagnet-de" target="_blank">Flattr</a> oder einen Klick bei <a href="http://www.facebook.com/tonmagnet.de" target="_blank">Facebook</a> lässt sich unsere Motivation weiter anheizen.
+</div>
+		</li><li id="text-7" class="widget-container widget_text">			<div class="textwidget"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Ftonmagnet.de&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe></div>
+		</li><li id="text-6" class="widget-container widget_text">			<div class="textwidget"><a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://www.tonmagnet.de/"></a>
+<noscript><a href="http://flattr.com/thing/62303/Tonmagnet-de" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript></div>
+		</li><li id="text-5" class="widget-container widget_text">			<div class="textwidget"><a href="http://www.bloggerei.de/rubrik_13_Musikblogs" title="Blog-Verzeichnis"><img src="http://www.bloggerei.de/bgpublicon.jpg" width="80" height="15" border="0" alt="Blogverzeichnis - Blog Verzeichnis bloggerei.de" /></a></div>
+		</li><li id="wdgpo_gplus_widgetpage-2" class="widget-container Wdgpo_Gplus_WidgetPage"><div class='wdgpo wdgpo_gplus_page wdgpo_gplus_page_medium_icon' ><a href="https://plus.google.com/102262079327625829425/?prsrc=3" style="text-decoration: none;"><img src="https://ssl.gstatic.com/images/icons/gplus-32.png" width="32" height="32" style="border: 0;"></img></a></div></li><li id="tag_cloud-2" class="widget-container widget_tag_cloud"><h3 class="widget-title">Tag-Suche</h3><div class="tagcloud"><a href='http://www.tonmagnet.de/?tag=8bit' class='tag-link-110' title='20 Themen' style='font-size: 15.1147540984pt;'>8bit</a>
+<a href='http://www.tonmagnet.de/?tag=acoustic' class='tag-link-149' title='6 Themen' style='font-size: 9.72131147541pt;'>acoustic</a>
+<a href='http://www.tonmagnet.de/?tag=alternative' class='tag-link-49' title='55 Themen' style='font-size: 20.0491803279pt;'>alternative</a>
+<a href='http://www.tonmagnet.de/?tag=ambient' class='tag-link-179' title='16 Themen' style='font-size: 14.0819672131pt;'>ambient</a>
+<a href='http://www.tonmagnet.de/?tag=breakbeat' class='tag-link-174' title='6 Themen' style='font-size: 9.72131147541pt;'>breakbeat</a>
+<a href='http://www.tonmagnet.de/?tag=breakcore' class='tag-link-52' title='13 Themen' style='font-size: 13.1639344262pt;'>breakcore</a>
+<a href='http://www.tonmagnet.de/?tag=chillout' class='tag-link-109' title='8 Themen' style='font-size: 10.868852459pt;'>chillout</a>
+<a href='http://www.tonmagnet.de/?tag=chiptune' class='tag-link-139' title='13 Themen' style='font-size: 13.1639344262pt;'>chiptune</a>
+<a href='http://www.tonmagnet.de/?tag=dance' class='tag-link-157' title='8 Themen' style='font-size: 10.868852459pt;'>dance</a>
+<a href='http://www.tonmagnet.de/?tag=disco' class='tag-link-138' title='9 Themen' style='font-size: 11.4426229508pt;'>disco</a>
+<a href='http://www.tonmagnet.de/?tag=downtempo' class='tag-link-100' title='6 Themen' style='font-size: 9.72131147541pt;'>downtempo</a>
+<a href='http://www.tonmagnet.de/?tag=drone' class='tag-link-12' title='5 Themen' style='font-size: 8.91803278689pt;'>drone</a>
+<a href='http://www.tonmagnet.de/?tag=drumbass' class='tag-link-221' title='7 Themen' style='font-size: 10.2950819672pt;'>drum&amp;bass</a>
+<a href='http://www.tonmagnet.de/?tag=dub' class='tag-link-194' title='6 Themen' style='font-size: 9.72131147541pt;'>dub</a>
+<a href='http://www.tonmagnet.de/?tag=electro' class='tag-link-112' title='55 Themen' style='font-size: 20.0491803279pt;'>electro</a>
+<a href='http://www.tonmagnet.de/?tag=electronica' class='tag-link-113' title='83 Themen' style='font-size: 22pt;'>electronica</a>
+<a href='http://www.tonmagnet.de/?tag=experimental' class='tag-link-144' title='20 Themen' style='font-size: 15.1147540984pt;'>experimental</a>
+<a href='http://www.tonmagnet.de/?tag=flac' class='tag-link-61' title='8 Themen' style='font-size: 10.868852459pt;'>flac</a>
+<a href='http://www.tonmagnet.de/?tag=folk' class='tag-link-121' title='11 Themen' style='font-size: 12.3606557377pt;'>folk</a>
+<a href='http://www.tonmagnet.de/?tag=glitch' class='tag-link-85' title='5 Themen' style='font-size: 8.91803278689pt;'>glitch</a>
+<a href='http://www.tonmagnet.de/?tag=hiphop' class='tag-link-93' title='14 Themen' style='font-size: 13.5081967213pt;'>hiphop</a>
+<a href='http://www.tonmagnet.de/?tag=house' class='tag-link-91' title='12 Themen' style='font-size: 12.7049180328pt;'>house</a>
+<a href='http://www.tonmagnet.de/?tag=idm' class='tag-link-32' title='42 Themen' style='font-size: 18.6721311475pt;'>IDM</a>
+<a href='http://www.tonmagnet.de/?tag=indie' class='tag-link-38' title='71 Themen' style='font-size: 21.3114754098pt;'>indie</a>
+<a href='http://www.tonmagnet.de/?tag=industrial' class='tag-link-11' title='4 Themen' style='font-size: 8pt;'>industrial</a>
+<a href='http://www.tonmagnet.de/?tag=instrumental' class='tag-link-108' title='9 Themen' style='font-size: 11.4426229508pt;'>instrumental</a>
+<a href='http://www.tonmagnet.de/?tag=klassik' class='tag-link-230' title='4 Themen' style='font-size: 8pt;'>klassik</a>
+<a href='http://www.tonmagnet.de/?tag=metal' class='tag-link-98' title='8 Themen' style='font-size: 10.868852459pt;'>metal</a>
+<a href='http://www.tonmagnet.de/?tag=minimal' class='tag-link-28' title='21 Themen' style='font-size: 15.3442622951pt;'>minimal</a>
+<a href='http://www.tonmagnet.de/?tag=mix' class='tag-link-70' title='5 Themen' style='font-size: 8.91803278689pt;'>MIX</a>
+<a href='http://www.tonmagnet.de/?tag=netaudio' class='tag-link-226' title='6 Themen' style='font-size: 9.72131147541pt;'>netaudio</a>
+<a href='http://www.tonmagnet.de/?tag=noise' class='tag-link-10' title='7 Themen' style='font-size: 10.2950819672pt;'>noise</a>
+<a href='http://www.tonmagnet.de/?tag=podcast' class='tag-link-80' title='8 Themen' style='font-size: 10.868852459pt;'>podcast</a>
+<a href='http://www.tonmagnet.de/?tag=pop' class='tag-link-59' title='40 Themen' style='font-size: 18.4426229508pt;'>pop</a>
+<a href='http://www.tonmagnet.de/?tag=postrock' class='tag-link-14' title='14 Themen' style='font-size: 13.5081967213pt;'>postrock</a>
+<a href='http://www.tonmagnet.de/?tag=produzieren' class='tag-link-51' title='5 Themen' style='font-size: 8.91803278689pt;'>produzieren</a>
+<a href='http://www.tonmagnet.de/?tag=progressive' class='tag-link-37' title='7 Themen' style='font-size: 10.2950819672pt;'>progressive</a>
+<a href='http://www.tonmagnet.de/?tag=punk' class='tag-link-162' title='8 Themen' style='font-size: 10.868852459pt;'>punk</a>
+<a href='http://www.tonmagnet.de/?tag=rap' class='tag-link-104' title='8 Themen' style='font-size: 10.868852459pt;'>rap</a>
+<a href='http://www.tonmagnet.de/?tag=rock' class='tag-link-15' title='64 Themen' style='font-size: 20.737704918pt;'>rock</a>
+<a href='http://www.tonmagnet.de/?tag=stream' class='tag-link-36' title='8 Themen' style='font-size: 10.868852459pt;'>stream</a>
+<a href='http://www.tonmagnet.de/?tag=techno' class='tag-link-140' title='16 Themen' style='font-size: 14.0819672131pt;'>techno</a>
+<a href='http://www.tonmagnet.de/?tag=tool' class='tag-link-4' title='8 Themen' style='font-size: 10.868852459pt;'>tool</a>
+<a href='http://www.tonmagnet.de/?tag=triphop' class='tag-link-99' title='8 Themen' style='font-size: 10.868852459pt;'>triphop</a>
+<a href='http://www.tonmagnet.de/?tag=xmas' class='tag-link-181' title='6 Themen' style='font-size: 9.72131147541pt;'>xmas</a></div>
+</li><li id="rss-2" class="widget-container widget_rss"><h3 class="widget-title"><a class='rsswidget' href='http://feeds.feedburner.com/Tonmagnetde' title='Den Inhalt auslesen'><img style='border:0' width='14' height='14' src='http://www.tonmagnet.de/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.tonmagnet.de' title='Free Music Blog'>Blog-Feed</a></h3><ul><li><a class='rsswidget' href='http://feedproxy.google.com/~r/Tonmagnetde/~3/3EsGQWu1YJM/' title='Diesmal hatten Jens und ich Besuch von Alex Senge. Wir reden unter anderem über sein Netlabel Gleichtakt, wie es ist ein Netlabel zu betreiben und wie wir die Zukunft von Netaudio sehen. Natürlich hören wir uns auch Musik an und … Weiterlesen → [&hellip;]'>TMP007 – Gleichtakt zu Gast</a></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/Tonmagnetde/~3/9EvvtmOUBuA/' title='Ganz langsam steigt die Sonne zum Himmel auf und wärmt Mensch und Tier. Die Natur erwacht und fühlt sich voller Kraft und entfaltet seine tiefe und intensive Farbenpracht. So in etwa könnte man die EP von Violeta Päivänkakkara beschreiben. Eine … Weiterlesen → [&hellip;]'>Violeta Päivänkakkara – Kuu</a></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/Tonmagnetde/~3/akCLRN35Mes/' title='Dieser DMG-Chiptune erzählt Geschichten. Wahnsinnig stimmige Stereoeffekte, hier wird wirklich alles aus dem grauen Kasten heraus geholt. Ganz anders als der Titel es vermuten lässt, sind die Tracks mit schönen Melodien bestückt und treiben zur Heiterkeit und Tanzwut an. Die … Weiterlesen → [&hellip;]'>ZEF – Ground Zero</a></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/Tonmagnetde/~3/wOswkvSgoHE/' title='Diesmal betreten Jens und Daniel den Zeittunnel und spielen sich gegenseitig Tracks aus vergangenen Tagen vor. Reviews, die im Archiv verschollen sind und nur darauf warten von Euch neu entdeckt zu werden. Tracks: V.A – Mit Freunden tanzen, Horses from Shellville … Weiterlesen → [&hellip;]'>TMP006 – Zeittunnel im Mai</a></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/Tonmagnetde/~3/TogcBEIMIuM/' title='Willkommen bei Afternoon Talk. Willkommen bei bezaubernder, akustischer und musikalischer Offenbarung. Aber zu erst einmal. Bezauberndes Cover, was ja bei mir zunehmend eine wichtige Rolle spielt. Denn dieses spielt eine ebenso wichtige Rolle, wie der Inhalt, welcher sich dahinter verbirgt. … Weiterlesen → [&hellip;]'>Afternoon Talk – Afternoon Talk EP</a></li></ul></li><li id="rss-3" class="widget-container widget_rss"><h3 class="widget-title"><a class='rsswidget' href='http://www.tonmagnet.de/?feed=podcast' title='Den Inhalt auslesen'><img style='border:0' width='14' height='14' src='http://www.tonmagnet.de/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.tonmagnet.de' title='Audiojunkies'>Podcast-Feed</a></h3><ul><li><a class='rsswidget' href='http://www.tonmagnet.de/?p=4039' title='Diesmal hatten Jens und ich Besuch von Alex Senge. Wir reden unter anderem über sein Netlabel Gleichtakt, wie es ist ein Netlabel zu betreiben und wie wir die Zukunft von Netaudio sehen. Natürlich hören wir uns auch Musik an und … Weiterlesen → [&hellip;]'>TMP007 – Gleichtakt zu Gast</a></li><li><a class='rsswidget' href='http://www.tonmagnet.de/?p=3988' title='Diesmal betreten Jens und Daniel den Zeittunnel und spielen sich gegenseitig Tracks aus vergangenen Tagen vor. Reviews, die im Archiv verschollen sind und nur darauf warten von Euch neu entdeckt zu werden. Tracks: V.A – Mit Freunden tanzen, Horses from Shellville … Weiterlesen → [&hellip;]'>TMP006 – Zeittunnel im Mai</a></li><li><a class='rsswidget' href='http://www.tonmagnet.de/?p=3887' title='Ganz unpünktlich zum neuen Monat gibt es hier unseren Podcast. Wie immer gibt es Musik auf die Ohren und unsere sexy Stimmen gratis dazu. Mit Outtakes!!! Tracklist: Arcade Island – Travelers Thriftworks – Blazer Tag mmpsuf – God Retina Raphael … Weiterlesen → [&hellip;]'>TMP005 – April 2012</a></li><li><a class='rsswidget' href='http://www.tonmagnet.de/?p=3791' title='Es ist wirklich wahr, ein neuer Podcast ist da! Diesmal sogar wieder zu zweit. Ihr könnt hier mit uns in Kontakt treten. Angespielte Interpreten: Dean The Plastic Jazz Orchestra Keep Tidy Two.Seconds.Per.Sonar MeDo’s Little Trap [&hellip;]'>TMP004 – März 2012</a></li><li><a class='rsswidget' href='http://www.tonmagnet.de/?p=3706' title='Ich wollte kein ganzes Jahr vergehen lassen, bevor hier der nächste Podcast erscheint. Der Inhalt beschränkt sich auf bereits vorgestelltes Netaudio. Diesmal sitz ich allerdings ganz alleine da. Falls sich jemand berufen fühlt mal Gast zu sein, bitte in die … Weiterlesen → [&hellip;]'>TMP003 – Februar 2012</a></li></ul></li><li id="twitterbadgewidget-2" class="widget-container TwitterBadgeWidget"><div class="TBW_Narrow"><a href="http://www.twitter.com/tonmagnet" title="Follow @tonmagnet"><div class="TBW_Picture"><img alt="Latest on twitter from tonmagnet" src="http://www.tonmagnet.de/wp-content/plugins/twitter-badge-widget/spacer.gif" />&nbsp;</div></a><div class="TBW_Status"><ul id="TBW_twitterbadgewidget-2" class="TBW_Data" data-TBWjsonurl="http://api.twitter.com/1/statuses/user_timeline.json?screen_name=tonmagnet&amp;callback=?&amp;trim_user=false&amp;include_entities=false&amp;nocache=81db37eb63" data-TBWtwitterid="tonmagnet" data-TBWcount="4"><li class="TBW_Loading">loading...</li></ul></div><div class="TBW_Follow"><a href="http://www.twitter.com/tonmagnet"  class="twitter-follow-button" data-lang="de_DE">Follow @tonmagnet</a></div></div></li><li id="archives-2" class="widget-container widget_archive"><h3 class="widget-title">Archive</h3>		<ul>
+			<li><a href='http://www.tonmagnet.de/?m=201206' title='Juni 2012'>Juni 2012</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201205' title='Mai 2012'>Mai 2012</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201204' title='April 2012'>April 2012</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201203' title='März 2012'>März 2012</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201202' title='Februar 2012'>Februar 2012</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201201' title='Januar 2012'>Januar 2012</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201112' title='Dezember 2011'>Dezember 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201111' title='November 2011'>November 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201110' title='Oktober 2011'>Oktober 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201109' title='September 2011'>September 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201108' title='August 2011'>August 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201107' title='Juli 2011'>Juli 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201106' title='Juni 2011'>Juni 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201105' title='Mai 2011'>Mai 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201104' title='April 2011'>April 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201103' title='März 2011'>März 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201102' title='Februar 2011'>Februar 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201101' title='Januar 2011'>Januar 2011</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201012' title='Dezember 2010'>Dezember 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201011' title='November 2010'>November 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201010' title='Oktober 2010'>Oktober 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201009' title='September 2010'>September 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201008' title='August 2010'>August 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201007' title='Juli 2010'>Juli 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201006' title='Juni 2010'>Juni 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201005' title='Mai 2010'>Mai 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201004' title='April 2010'>April 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201003' title='März 2010'>März 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201002' title='Februar 2010'>Februar 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=201001' title='Januar 2010'>Januar 2010</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200912' title='Dezember 2009'>Dezember 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200911' title='November 2009'>November 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200910' title='Oktober 2009'>Oktober 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200909' title='September 2009'>September 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200908' title='August 2009'>August 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200907' title='Juli 2009'>Juli 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200906' title='Juni 2009'>Juni 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200905' title='Mai 2009'>Mai 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200903' title='März 2009'>März 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200902' title='Februar 2009'>Februar 2009</a></li>
+	<li><a href='http://www.tonmagnet.de/?m=200901' title='Januar 2009'>Januar 2009</a></li>
+		</ul>
+</li><li id="text-4" class="widget-container widget_text">			<div class="textwidget"><a href="http://www.adfreeblog.org/" target="_blank"> <img src="http://www.adfreeblog.org/adfreebutton2.jpg"></a></div>
+		</li><li id="creativecommons-license" class="widget-container widget_ccLicense"><h3 class="widget-title"></h3>			<!--Creative Commons License-->
+				<div style="text-align: center; font-size: xx-small;">
+                                Blog under the 
+                                <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"> Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License<br/>
+				<img alt="Creative Commons License" border="0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"/></a>
+				</div>
+			<!--/Creative Commons License-->
+		</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="http://www.tonmagnet.de/" title="Tonmagnet" rel="home">
+					Tonmagnet				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="http://wordpress.org/"
+						title="Semantic Personal Publishing Platform" rel="generator">
+					Proudly powered by WordPress.				</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: "de"}</script><script type='text/javascript' src='http://www.tonmagnet.de/wp-content/plugins/twitter-badge-widget/twitterbadgescript.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.tonmagnet.de/wp-content/plugins/twitter-badge-widget/jstorage.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://www.tonmagnet.de/wp-content/plugins/contact-form-7/jquery.form.js?ver=3.08'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.tonmagnet.de\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Senden ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.tonmagnet.de/wp-content/plugins/contact-form-7/scripts.js?ver=3.1.2'></script>
+<script type="text/javascript">
+          (function() {
+            var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+            t.parentNode.insertBefore(s, t);
+          })();
+        </script></body>
+</html>

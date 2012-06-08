@@ -1,0 +1,1851 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	YAML for TemplaVoila - Version 2.1.0
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2010 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+
+
+
+<meta name="generator" content="TYPO3 4.4 CMS" />
+
+<script src="/typo3/ext/dg_content/res/ajax.js" type="text/javascript"></script>
+<script src="/typo3/ext/ik_dgf_mm/resources/scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/fileadmin/scripts/sliding/jquery.cookie.js" type="text/javascript"></script>
+<script src="/fileadmin/scripts/sliding/theme-js.js" type="text/javascript"></script>
+<script src="/fileadmin/knowledge/scripts/message_close.js" type="text/javascript"></script>
+<script src="/typo3/ext/dg_ik_up/scripts/managecontacts.js" type="text/javascript"></script>
+<script src="/typo3/ext/dg_content/res/dialog/jquery-ui-custom.js" type="text/javascript"></script>
+<script src="/typo3temp/javascript_cb4fa77fa3.js" type="text/javascript"></script>
+
+
+<script language="JavaScript" src="/fileadmin/knowledge/scripts/bubble.js" type="text/javascript"></script><title>Zunia.org</title><meta name="DESCRIPTION" content="Zunia is a portal for knowledge exchange among development professionals worldwide. News, events, best practices and publications on a wide range of international development topics." /><meta name="KEYWORDS" content="european union,greenhouse gas emissions,sub-saharan africa,food production,food security,energy,millennium development goals,oecd,human rights,food prices" /><div id="dgcontent_taxonomy_popup" style="text-align:left;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;font-size: 12px;display:none">
+	<div id="dgcontent_taxonomy_error" style="display:none;" class="error_message_400"></div>
+	<div id="dgcontent_taxonomy_success" style="display:none;" class="success_message_400"></div>
+    <div id="dgcontent_taxonomy_placeholder"></div>
+        <div id="dgcontent_taxonomy_category_select">
+     	<div class="taxonomy-section-title">Categories<span style="font-weight:normal;font-size:10px;color:#999999" id="taxonomy-cat-max"> (max:1)</span></div>
+        <div style="padding-left:5px">
+        	<input type="text" id="dgcontent_taxonomy_cat_search" onclick="clearchSearchPlaceholder('dgcontent_taxonomy_cat_search', this.value, 'Search')" onkeyup="taxCatSearch(this.value)" style="color:#CCCCCC; width:295px" value="Search"/>
+            <div id="dgcontent_taxonomy_cat_sug" class="taxonomy-suggestion">
+                <div style="text-align:right;"><span class="taxonomy-close" onclick="taxHide('dgcontent_taxonomy_cat_sug');">x</span></div>
+                <div id="dgcontent_taxonomy_cat_sug_inner" style="padding:5px; padding-top:0px"></div>
+            </div>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top"><div id="dgcontent_taxonomy_category_sel" class="dtree_sel"></div></td>
+                <td valign="top">
+                	<select id="dgcontent_taxonomy_selected_categories" name="categories[]" multiple="multiple" class="dtree_selected"></select>
+                	<div onclick="taxClearOptionList('dgcontent_taxonomy_selected_categories', 'selected')" class="taxonomy_remove_selected"><a href="#" onclick="return false">Remove selected</a></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+            <div id="dgcontent_taxonomy_geography_select">
+     	<div class="taxonomy-section-title">Geography<span style="font-weight:normal;font-size:10px;color:#999999" id="taxonomy-geo-max"> (max:1)</span></div>
+        <div style="padding-left:5px">
+        	<input type="text" id="dgcontent_taxonomy_geo_search" onclick="clearchSearchPlaceholder('dgcontent_taxonomy_geo_search', this.value, 'Search')" onkeyup="taxGeoSearch(this.value)" style="color:#CCCCCC; width:295px" value="Search"/>
+            <div id="dgcontent_taxonomy_geo_sug" class="taxonomy-suggestion">
+                <div style="text-align:right;"><span class="taxonomy-close" onclick="taxHide('dgcontent_taxonomy_geo_sug');">x</span></div>
+                <div id="dgcontent_taxonomy_geo_sug_inner" style="padding:5px; padding-top:0px"></div>
+            </div>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top"><div id="dgcontent_taxonomy_geography_sel" class="dtree_sel"></div></td>
+                <td valign="top">
+                	<select id="dgcontent_taxonomy_selected_geo" name="geo[]" multiple="multiple" class="dtree_selected"></select>
+                	<div onclick="taxClearOptionList('dgcontent_taxonomy_selected_geo', 'selected')" class="taxonomy_remove_selected"><a href="#" onclick="return false">Remove selected</a></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+            <div id="dgcontent_taxonomy_tag_select">
+     	<div class="taxonomy-section-title">Custom tags</div>
+        <div style="padding-left:5px">
+        	<input type="text" id="dgcontent_taxonomy_tag_search" onclick="clearchSearchPlaceholder('dgcontent_taxonomy_tag_search', this.value, 'Search')" onkeyup="taxTagSearch(this.value)" style="color:#CCCCCC; width:295px" value="Search"/>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td valign="top"><div id="dgcontent_taxonomy_tag_sel" class="dtree_sel"></div></td>
+                <td valign="top">
+                	<select id="dgcontent_taxonomy_selected_tag" name="tag[]" multiple="multiple" class="dtree_selected"></select>
+                	<div onclick="taxClearOptionList('dgcontent_taxonomy_selected_tag', 'selected')" class="taxonomy_remove_selected"><a href="#" onclick="return false">Remove selected</a></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+        </div><base href="http://trade.zunia.org/" /><script language="JavaScript" src="/typo3/ext/dg_plugin_ajax_loader/res/js/plugin_ajax_loader.js" type="text/javascript"></script>
+<script type="text/javascript" src="/typo3/sysext/cms/tslib/media/scripts/jsfunc.layermenu.js"></script>
+
+<script type="text/javascript">
+	/*<![CDATA[*/
+<!--
+
+GLV_curLayerWidth["28ddd2"]=0;
+GLV_curLayerHeight["28ddd2"]=0;
+GLV_curLayerX["28ddd2"]=0;
+GLV_curLayerY["28ddd2"]=0;
+GLV_menuOn["28ddd2"] = null;
+GLV_gap["28ddd2"]=2;
+GLV_currentLayer["28ddd2"] = null;
+GLV_currentROitem["28ddd2"] = null;
+GLV_hasBeenOver["28ddd2"]=0;
+GLV_doReset["28ddd2"]=false;
+GLV_lastKey["28ddd2"] = "Menu28ddd29";
+GLV_onlyOnLoad["28ddd2"] = 0;
+GLV_dontHideOnMouseUp["28ddd2"] = 0;
+GLV_dontFollowMouse["28ddd2"] = 0;
+GLV_date = new Date();
+GLV_timeout["28ddd2"] = GLV_date.getTime();
+GLV_timeoutRef["28ddd2"] = 0;
+GLV_menuXY["28ddd2"] = new Array();
+GLV_menuXY["28ddd2"]["Menu28ddd20"] = new Array(0,0,"itemID0aba3bcbc9","anchorID0aba3bcbc9");
+GLV_menuXY["28ddd2"]["Menu28ddd21"] = new Array(0,0,"itemIDfd1555bb3c","anchorIDfd1555bb3c");
+GLV_menuXY["28ddd2"]["Menu28ddd22"] = new Array(0,0,"itemID1aaae7419e","anchorID1aaae7419e");
+GLV_menuXY["28ddd2"]["Menu28ddd23"] = new Array(0,0,"itemID97b5ea3d2c","anchorID97b5ea3d2c");
+GLV_menuXY["28ddd2"]["Menu28ddd24"] = new Array(0,0,"itemID4e2f98f425","anchorID4e2f98f425");
+GLV_menuXY["28ddd2"]["Menu28ddd25"] = new Array(0,0,"itemID811ac0d175","anchorID811ac0d175");
+GLV_menuXY["28ddd2"]["Menu28ddd26"] = new Array(0,0,"itemID03427c840a","anchorID03427c840a");
+GLV_menuXY["28ddd2"]["Menu28ddd27"] = new Array(0,0,"itemIDcbf4ef1c01","anchorIDcbf4ef1c01");
+GLV_menuXY["28ddd2"]["Menu28ddd28"] = new Array(0,0,"itemID77053b5cb9","anchorID77053b5cb9");
+GLV_menuXY["28ddd2"]["Menu28ddd29"] = new Array(0,0,"itemID05603807d0","anchorID05603807d0");
+
+function GL28ddd2_getMouse(e) {
+	if (GLV_menuOn["28ddd2"]!=null && !GLV_dontFollowMouse["28ddd2"]){
+
+	}
+	GL_mouseMoveEvaluate("28ddd2");
+}
+function GL28ddd2_hideCode() {
+
+	GL_getObjCss("Menu28ddd21").visibility = "hidden";
+	GL_getObjCss("Menu28ddd22").visibility = "hidden";
+	GL_getObjCss("Menu28ddd23").visibility = "hidden";
+	GL_getObjCss("Menu28ddd24").visibility = "hidden";
+	GL_getObjCss("Menu28ddd25").visibility = "hidden";
+	GL_getObjCss("Menu28ddd26").visibility = "hidden";
+	GL_getObjCss("Menu28ddd27").visibility = "hidden";
+	GL_getObjCss("Menu28ddd28").visibility = "hidden";
+	GL_getObjCss("Menu28ddd29").visibility = "hidden";
+}
+function GL28ddd2_doTop(WMid,id) {
+var parentObject = GL_getObj(GLV_menuXY[WMid][id][2]);
+		var TI_width = parentObject.width;
+		var TI_height = parentObject.height;
+		var anchorObj = GL_getObj(GLV_menuXY[WMid][id][3]);
+		var TI_x = anchorObj.x;
+		var TI_y = anchorObj.y;
+			
+GLV_menuOn["28ddd2"].left = (TI_x+-3)+"px";
+GLV_menuOn["28ddd2"].top =  (TI_y+20)+"px";
+}
+function GL28ddd2_restoreMenu() {
+
+}
+function GL28ddd2_resetSubMenus() {
+	var resetSubMenu=1;
+
+	return resetSubMenu;
+}
+
+GLV_timeout_pointers[GLV_timeout_count] = "28ddd2";
+GLV_timeout_count++;
+
+var rpxJsHost = (("https:" == document.location.protocol) ? "https://" : "http://static.");
+var rpxJsHost = document.write(unescape("%3Cscript src='" + rpxJsHost + "rpxnow.com/js/lib/rpx.js' type='text/javascript'%3E%3C/script%3E"));
+// -->
+	/*]]>*/
+</script>
+
+<script type="text/javascript" src="http://ict.zunia.org/typo3/ext/dg_content/pi1/res/js/taxonomy_popup.js"></script><script type="text/javascript" src="/fileadmin/treeMenu/dtree.js"></script><script type="text/javascript">
+var taxCategoryTreeLoaded = false;
+var taxCategoryTree = null;
+var taxCatSearchTimeoutHandler = null;
+
+var taxGeographyTreeLoaded = false;
+var taxGeographyTree = null;
+var taxGeoSearchTimeoutHandler = null;
+
+var taxTagSearchTimeoutHandler = null;
+
+
+$(document).ready(
+	function(){
+		var taxonomy_link = $('.taxonomy_popup');
+	
+		//if(taxonomy_link && (taxonomy_link.length > 0)){
+			var taxonomy_popup = $("#dgcontent_taxonomy_popup");
+			$("#dgcontent_taxonomy_popup").css('display', 'block');
+			
+			if(taxonomy_popup && (taxonomy_popup.length > 0)){
+				taxonomy_popup.dialog({
+					autoOpen: false,
+					modal: true,
+					width: 700,
+					height: 600,
+					title: 'Create a new filter',
+					buttons:{
+						"Cancel": function(){$(this).dialog("close");},
+						"Add": function(){taxSubmit($(this));}
+					},
+                    open:function(){taxOnDialogOpen();},
+					close:function(){}
+				});
+				
+                taxonomy_popup.bind('scroll',function(){
+					taxHide('dgcontent_taxonomy_cat_sug');
+                    taxHide('dgcontent_taxonomy_geo_sug');
+				});
+                
+				taxonomy_link.live('click', function(){
+					taxonomy_popup.dialog("open");
+					return false;
+				});
+			}
+		//}
+	}
+);
+
+function taxOnDialogOpen(){
+	taxCleanControls();
+	taxHideMessages();
+    
+    
+    if(!taxCategoryTreeLoaded){
+    	taxLoadCategoryTree();
+    }
+	
+    
+    
+    if(!taxGeographyTree){
+    	taxLoadGeographyTree();
+    }
+	
+}
+
+
+function taxLoadCategoryTree(){
+	taxSetDivContentToLoader('dgcontent_taxonomy_category_sel');
+    $.ajax({
+		type: 'POST',
+		url: 'index.php?eID=dg_content_ajax&lang_uid=0&lang=',
+		data: {fnc_name:'taxonomy',mode:'catTree',pidList:'11464'},
+		success: function(data){
+					taxProcessCatTree(data);
+				},
+		error: function(request,error){
+					taxSetDivContentToError('dgcontent_taxonomy_category_sel', error);
+				},
+		dataType: "json"
+	});
+}
+
+function taxProcessCatTree(data){
+	if(data.result == 'error'){
+    	taxSetDivContentToError('dgcontent_taxonomy_category_sel', '');
+    }
+    else if(data.result == 'ok'){
+    	taxCategoryTreeLoaded = true;
+        taxBuildCategoryTree(data.nodes);
+        document.getElementById('dgcontent_taxonomy_category_sel').innerHTML = taxCategoryTree;
+    }
+    else{
+    	$("#dgcontent_taxonomy_category_sel").html('');
+    }
+}
+
+function taxBuildCategoryTree(nodes){
+	taxCategoryTree = new dTree('taxCategoryTree');
+	taxCategoryTree.icon = {
+		root : '/fileadmin/treeMenu/img/base.gif',
+		folder : '/fileadmin/treeMenu/img/folder.gif',
+		folderOpen : '/fileadmin/treeMenu/img/folderopen.gif',
+		node : '/fileadmin/treeMenu/img/page.gif',
+		empty : '/fileadmin/treeMenu/img/empty.gif',
+		line : '/fileadmin/treeMenu/img/line.gif',
+		join : '/fileadmin/treeMenu/img/join.gif',
+		joinBottom : '/fileadmin/treeMenu/img/joinbottom.gif',
+		plus : '/fileadmin/treeMenu/img/plus.gif',
+		plusBottom : '/fileadmin/treeMenu/img/plusbottom.gif',
+		minus : '/fileadmin/treeMenu/img/minus.gif',
+		minusBottom	: '/fileadmin/treeMenu/img/minusbottom.gif',
+		nlPlus : '/fileadmin/treeMenu/img/nolines_plus.gif',
+		nlMinus : '/fileadmin/treeMenu/img/nolines_minus.gif'
+	};
+	
+	taxCategoryTree.config.useIcons = false;
+	taxCategoryTree.config.useLines = true;
+
+	taxCategoryTree.add(0,-1,'');
+	
+	var nodeCount = nodes.length;
+	for(var i = 0; i < nodeCount; i++){
+		if(nodes[i].selectable){
+			taxCategoryTree.add(nodes[i].uid, nodes[i].pid, '<span class="contrib-tree-select">'+nodes[i].name+'</span>',"javascript:taxAddOption('dgcontent_taxonomy_selected_categories' ,'"+nodes[i].clean_name+"', '"+nodes[i].uid+"');");
+		}
+		else{
+			taxCategoryTree.add(nodes[i].uid, nodes[i].pid, '<span class="contrib-tree-nonselect">'+nodes[i].name+'</span>', '');
+		}
+	}
+}
+
+
+
+function taxLoadGeographyTree(){
+	taxSetDivContentToLoader('dgcontent_taxonomy_geography_sel');
+    $.ajax({
+		type: 'POST',
+		url: 'index.php?eID=dg_content_ajax&lang_uid=0&lang=',
+		data: {fnc_name:'taxonomy',mode:'geoTree'},
+		success: function(data){
+					taxProcessGeoTree(data);
+				},
+		error: function(request,error){
+					taxSetDivContentToError('dgcontent_taxonomy_geography_sel', error);
+				},
+		dataType: "json"
+	});
+}
+
+function taxProcessGeoTree(data){
+	if(data.result == 'error'){
+    	taxSetDivContentToError('dgcontent_taxonomy_geography_sel', '');
+    }
+    else if(data.result == 'ok'){
+    	taxGeographyTreeLoaded = true;
+        taxBuildGeographyTree(data.nodes);
+        document.getElementById('dgcontent_taxonomy_geography_sel').innerHTML = taxGeographyTree;
+    }
+    else{
+    	$("#dgcontent_taxonomy_geography_sel").html('');
+    }
+}
+
+function taxBuildGeographyTree(nodes){
+	taxGeographyTree = new dTree('taxGeographyTree');
+	taxGeographyTree.icon = {
+		root : '/fileadmin/treeMenu/img/base.gif',
+		folder : '/fileadmin/treeMenu/img/folder.gif',
+		folderOpen : '/fileadmin/treeMenu/img/folderopen.gif',
+		node : '/fileadmin/treeMenu/img/page.gif',
+		empty : '/fileadmin/treeMenu/img/empty.gif',
+		line : '/fileadmin/treeMenu/img/line.gif',
+		join : '/fileadmin/treeMenu/img/join.gif',
+		joinBottom : '/fileadmin/treeMenu/img/joinbottom.gif',
+		plus : '/fileadmin/treeMenu/img/plus.gif',
+		plusBottom : '/fileadmin/treeMenu/img/plusbottom.gif',
+		minus : '/fileadmin/treeMenu/img/minus.gif',
+		minusBottom	: '/fileadmin/treeMenu/img/minusbottom.gif',
+		nlPlus : '/fileadmin/treeMenu/img/nolines_plus.gif',
+		nlMinus : '/fileadmin/treeMenu/img/nolines_minus.gif'
+	};
+	
+	taxGeographyTree.config.useIcons = false;
+	taxGeographyTree.config.useLines = true;
+
+	taxGeographyTree.add(0,-1,'');
+    taxGeographyTree.add(999999,0,'<span class="contrib-tree-select">Worldwide</span>',"javascript:taxAddOption('dgcontent_taxonomy_selected_geo' ,'Worldwide', '999999');");
+	
+	var nodeCount = nodes.length;
+	for(var i = 0; i < nodeCount; i++){
+		if(nodes[i].selectable){
+			taxGeographyTree.add(nodes[i].uid, nodes[i].pid, '<span class="contrib-tree-select">'+nodes[i].name+'</span>',"javascript:taxAddOption('dgcontent_taxonomy_selected_geo' ,'"+nodes[i].clean_name+"', '"+nodes[i].uid+"');");
+		}
+		else{
+			taxGeographyTree.add(nodes[i].uid, nodes[i].pid, '<span class="contrib-tree-nonselect">'+nodes[i].name+'</span>', '');
+		}
+	}
+}
+
+
+function taxSubmit(taxDialogDiv){
+	var error = taxCheckError();
+    
+    if(error){
+    	$("#dgcontent_taxonomy_error").html(error);
+		$("#dgcontent_taxonomy_error").show('fast');
+		$("#dgcontent_taxonomy_popup").animate({scrollTop: 0},'fast');
+    }
+    else{
+    	taxHideMessages();
+        taxSetDivContentToLoader('dgcontent_taxonomy_placeholder');
+        
+        var catArray;
+        var geoArray;
+        var tagArray;
+        var keywords;
+        
+        
+        catArray = taxGetOptionListValues('dgcontent_taxonomy_selected_categories');
+        
+        
+        
+        geoArray = taxGetOptionListValues('dgcontent_taxonomy_selected_geo');
+        
+        
+        
+        tagArray = taxGetOptionListValues('dgcontent_taxonomy_selected_tag');
+        
+        
+        
+        keywords = '';
+        
+       
+        if((catArray.length > 0) || (geoArray.length > 0) || (tagArray.length > 0) || keywords){
+        	$("#dgcontent_taxonomy_popup").animate({scrollTop: 0},'fast');
+        	var taxData = {'categories': catArray, 'geography': geoArray, 'tags':tagArray, 'keywords':keywords};
+        	submitCreateFilter(taxData, taxDialogDiv);
+        }
+        else{
+        	$("#dgcontent_taxonomy_placeholder").html("");
+        	$("#dgcontent_taxonomy_error").html("Empty selection");
+			$("#dgcontent_taxonomy_error").show('fast');
+			$("#dgcontent_taxonomy_popup").animate({scrollTop: 0},'fast');
+        }
+    }
+}
+
+function taxCheckError(){
+	var error = "";
+    var optionList;
+    var catLength = 0;
+    var tagLength = 0;
+    
+    
+    optionList = document.getElementById('dgcontent_taxonomy_selected_categories');
+    catLength = optionList.length;
+    
+	
+    
+    
+    if(catLength > 1){
+		error = error + "Maximum allowed categories:1" + "<br />";	
+    }
+    
+
+    
+    
+    
+    optionList = document.getElementById('dgcontent_taxonomy_selected_geo');
+    var geoLength = optionList.length;
+    
+	
+    
+    
+    if(geoLength > 1){
+		error = error + "Maximum allowed regions/countries:1" + "<br />";	
+    }
+    
+
+    
+    
+    
+    optionList = document.getElementById('dgcontent_taxonomy_selected_tag');
+    tagLength = optionList.length;
+    
+	
+    
+    
+    if(tagLength > 1){
+		error = error + "Maximum allowed tags:1" + "<br />";	
+    }
+    
+
+    
+    
+    
+    if((catLength > 0) && (tagLength > 0)){
+    	error = error + "Category and tag cannot be selected together" + "<br />";	
+    }
+    
+    
+    
+    
+    return error;
+}
+
+function taxCleanControls(){
+    
+    taxClearOptionList('dgcontent_taxonomy_selected_categories', 'all');
+    
+	$("#dgcontent_taxonomy_cat_sug").css('display', 'none');
+	$("#dgcontent_taxonomy_cat_search").css('color', '#CCCCCC');
+	$("#dgcontent_taxonomy_cat_search").attr('value', 'Search');
+    
+    
+    
+    taxClearOptionList('dgcontent_taxonomy_selected_geo', 'all');
+    
+	$("#dgcontent_taxonomy_geo_sug").css('display', 'none');
+	$("#dgcontent_taxonomy_geo_search").css('color', '#CCCCCC');
+	$("#dgcontent_taxonomy_geo_search").attr('value', 'Search');
+    
+    
+    
+    taxClearOptionList('dgcontent_taxonomy_selected_tag', 'all');
+    
+	$("#dgcontent_taxonomy_tag_sel").html('');
+	$("#dgcontent_taxonomy_tag_search").css('color', '#CCCCCC');
+	$("#dgcontent_taxonomy_tag_search").attr('value', 'Search');
+    
+    
+    
+}
+
+function taxHideMessages(){
+	$("#dgcontent_taxonomy_error").html('');
+	$("#dgcontent_taxonomy_error").css('display', 'none');
+		
+	$("#dgcontent_taxonomy_success").html('');
+	$("#dgcontent_taxonomy_success").css('display', 'none');
+		
+	$("#dgcontent_taxonomy_placeholder").html('');
+}
+
+function taxCatSearch(val){
+	if(val.length < 3) return;
+	
+	if(taxCatSearchTimeoutHandler){
+		clearTimeout(taxCatSearchTimeoutHandler);
+	}
+
+	taxCatSearchTimeoutHandler = setTimeout(function(){taxCatSearchSubmit(val)},500);
+}
+
+function taxCatSearchSubmit(val){
+	if(val != document.getElementById('dgcontent_taxonomy_cat_search').value){
+		return;
+	}
+	
+    taxSetDivContentToLoader('dgcontent_taxonomy_cat_sug_inner');
+	$("#dgcontent_taxonomy_cat_sug").show('fast');
+	
+    $.ajax({
+		type: 'POST',
+		url: 'index.php?eID=dg_content_ajax&lang_uid=0&lang=',
+		data: {fnc_name:'taxonomy',mode:'catSearch',cat_search:val,pidList:'11464'},
+		success: function(data){
+					if(data.result == 'error'){
+                        taxSetDivContentToError('dgcontent_taxonomy_cat_sug_inner', '');
+                    }
+                    else if(data.result == 'ok'){
+                        document.getElementById('dgcontent_taxonomy_cat_sug_inner').innerHTML = data.out;
+                    }
+                    else{
+                        $("#dgcontent_taxonomy_cat_sug_inner").html('');
+                    }
+				},
+		error: function(request,error){
+					taxSetDivContentToError('dgcontent_taxonomy_cat_sug_inner', error);
+				},
+        dataType: "json"
+	});
+}
+
+function taxGeoSearch(val){
+	if(val.length < 3) return;
+	
+	if(taxGeoSearchTimeoutHandler){
+		clearTimeout(taxGeoSearchTimeoutHandler);
+	}
+
+	taxGeoSearchTimeoutHandler = setTimeout(function(){taxGeoSearchSubmit(val)},500);
+}
+
+function taxGeoSearchSubmit(val){
+	if(val != document.getElementById('dgcontent_taxonomy_geo_search').value){
+		return;
+	}
+	
+    taxSetDivContentToLoader('dgcontent_taxonomy_geo_sug_inner');
+	$("#dgcontent_taxonomy_geo_sug").show('fast');
+	
+    $.ajax({
+		type: 'POST',
+		url: 'index.php?eID=dg_content_ajax&lang_uid=0&lang=',
+		data: {fnc_name:'taxonomy',mode:'geoSearch',geo_search:val},
+		success: function(data){
+					if(data.result == 'error'){
+                        taxSetDivContentToError('dgcontent_taxonomy_geo_sug_inner', '');
+                    }
+                    else if(data.result == 'ok'){
+                        document.getElementById('dgcontent_taxonomy_geo_sug_inner').innerHTML = data.out;
+                    }
+                    else{
+                        $("#dgcontent_taxonomy_geo_sug_inner").html('');
+                    }
+				},
+		error: function(request,error){
+					taxSetDivContentToError('dgcontent_taxonomy_geo_sug_inner', error);
+				},
+        dataType: "json"
+	});
+}
+
+function taxTagSearch(val){
+	if(val.length < 3) return;
+	
+	if(taxTagSearchTimeoutHandler){
+		clearTimeout(taxTagSearchTimeoutHandler);
+	}
+
+	taxTagSearchTimeoutHandler = setTimeout(function(){taxTagSearchSubmit(val)},500);
+}
+
+function taxTagSearchSubmit(val){
+	if(val != document.getElementById('dgcontent_taxonomy_tag_search').value){
+		return;
+	}
+	
+    taxSetDivContentToLoader('dgcontent_taxonomy_tag_sel');
+	
+    $.ajax({
+		type: 'POST',
+		url: 'index.php?eID=dg_content_ajax&lang_uid=0&lang=',
+		data: {fnc_name:'taxonomy',mode:'tagSearch',tag_search:val},
+		success: function(data){
+					if(data.result == 'err'){
+                         $("#dgcontent_taxonomy_tag_sel").html(data.message);
+                    }
+                    else if(data.result == 'ok'){
+                        document.getElementById('dgcontent_taxonomy_tag_sel').innerHTML = data.out;
+                    }
+                    else{
+                        $("#dgcontent_taxonomy_tag_sel").html('');
+                    }
+				},
+		error: function(request,error){
+					taxSetDivContentToError('dgcontent_taxonomy_tag_sel', error);
+				},
+        dataType: "json"
+	});
+}
+
+</script>
+<script type="text/javascript">
+
+function submitCreateFilter(taxData, taxDialogDiv){
+	var categoryID = 0;
+	var geographyID = 0;
+	var tagsID = '';
+	var redirectLink = 'http://zunia.org/my-zunia/alertsfilters/?pageID=11680&save=1';
+	if(taxData.categories.length > 0) 
+		categoryID = taxData.categories[0];
+	if(taxData.geography.length > 0) 
+		geographyID = taxData.geography[0]; 
+	if(taxData.tags.length > 0) 
+		tagsID = taxData.tags[0]; 
+ 
+	//alert(taxData.geography[0]);
+	
+	//taxDialogDiv.dialog("close");
+	if(categoryID == 0 && geographyID == 0 &&  tagsID == '')
+	{
+		document.getElementById('dgcontent_taxonomy_placeholder').innerHTML = '';
+		$("#dgcontent_taxonomy_error").html('One of the options must be chosen');
+		$("#dgcontent_taxonomy_error").show('fast');
+		$("#dgcontent_taxonomy_popup").animate({scrollTop: $("#dgcontent_taxonomy_error").offset().top},'slow');
+
+		return false;
+	}
+
+	 $.ajax({
+		type: 'POST',
+		url: 'index.php?eID=dg_content_ajax&lang_uid=0&lang_iso=',
+		data: {fnc_name:'getFilterLink',category:categoryID,geography:geographyID,tags:tagsID,catPidList:11464},
+		success: function(data){
+					var locationLink = redirectLink + data;
+					location.href=locationLink;
+				},
+		error: function (data, status, e)
+			{
+				alert(status);
+				alert(e);
+			}
+	});
+}
+
+</script>
+
+<script type="text/javascript">var fld="tx_indexedsearch[sword]";var sr=11651;var sh="7548481";var mr=5;var ph="40cd750bba9870f18aada2478b24840a";</script>
+	<link rel="stylesheet" type="text/css" media="all" href="/typo3temp/scriptmerger/compressed/head-f0f9e39c3c05d5afa7835b1a38b9471b.merged.gz.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://ict.zunia.org/typo3/ext/dg_content/pi1/res/css/taxonomy.css" />
+<!--[if lte IE 7]><link href="/fileadmin/knowledge/css/01_layouts_basics/css/patches/patch_3col_standard.css" rel="stylesheet" type="text/css" /><![endif]-->
+</head>
+<body onload="T3_onloadWrapper();"><script type="text/javascript">
+//<![CDATA[
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+var pageTracker = _gat._getTracker("UA-7902695-1");
+pageTracker._initData();
+//]]>
+</script>
+<div id="Menu28ddd21" style="z-index:9999; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/political-institutions/">Political institutions</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/law/">Law</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/public-administration/">Public administration</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/e-government/">E-government</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/international-relations/">International relations</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/peace-and-security/">Peace and security</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/human-rights/">Human rights</a></li></ul></div>
+<div id="Menu28ddd22" style="z-index:9998; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/monetary-and-fiscal-policy/">Monetary and fiscal policy</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/financial-sector/">Financial sector</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/trade/">Trade</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/business-development/">Business development</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/urban-development/">Urban development</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/rural-development/">Rural Development</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/public-sector/">Public sector</a></li></ul></div>
+<div id="Menu28ddd23" style="z-index:9997; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/agriculture-food/">Agriculture &amp; Food</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/mining/">Mining</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/manufacturing/">Manufacturing</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/construction/">Construction</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/energy/">Energy</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/transport/">Transport</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/services/">Services</a></li></ul></div>
+<div id="Menu28ddd24" style="z-index:9996; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/environmental-policy-management/">Environmental policy &amp; management</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/pollution-1/">Pollution</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/water/">Water</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/natural-resources/">Natural resources</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/ecosystems-1/">Ecosystems</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/climate-change/">Climate Change</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/natural-disasters/">Natural Disasters</a></li></ul></div>
+<div id="Menu28ddd25" style="z-index:9995; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/education-policy-management-1/">Education policy &amp; management</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/education-for-all/">Education for all</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/higher-education/">Higher education</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/technical-training/">Technical training</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/e-learning-1/">E-learning</a></li></ul></div>
+<div id="Menu28ddd26" style="z-index:9994; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/health-policy-management/">Health policy &amp; management</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/health-services/">Health services</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/food-and-nutrition/">Food and nutrition</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/people-with-disabilities/">People with disabilities</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/reproduction-health/">Reproduction health</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/communicable-diseases/">Communicable Diseases</a></li></ul></div>
+<div id="Menu28ddd27" style="z-index:9993; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/social-protection/">Social protection</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/social-development/">Social development</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/poverty/">Poverty</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/aid-and-relief/">Aid and relief</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/civil-society/">Civil society</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/ethnic-groups/">Ethnic groups</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/housing-migration/">Housing &amp; migration</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/population/">Population</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/gender/">Gender</a></li></ul></div>
+<div id="Menu28ddd28" style="z-index:9992; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/cultural-development/">Cultural development</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/arts/">Arts</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/philosophy-and-religion/">Philosophy and religion</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/leisure-and-entertainment/">Leisure and entertainment</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/sports-and-recreation/">Sports and recreation</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/mass-media-1/">Mass media</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/tourism/">Tourism</a></li></ul></div>
+<div id="Menu28ddd29" style="z-index:9991; position:absolute;visibility:hidden;"><ul class="dropdown_menu"><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/technology-innovation/">Technology innovation</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/technology-transfer/">Technology transfer</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/natural-science-1/">Natural science</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/engineering/">Engineering</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/ict/">ICT</a></li><li><a target="_self" onfocus="blurLink(this);" href="http://zunia.org/cat/social-science/">Social science</a></li></ul></div>
+
+
+<div id="nav_outer">
+	<div id="nav">
+		<div id="maintabs"><a id="navigation" name="navigation"></a><div id="nav_main"><ul><li id="current"><a href="http://zunia.org/" target="_self"><span>Main</span></a></li><li><a href="http://zunia.org/groups/" target="_self"><span>Groups</span></a></li><li><a href="http://zunia.org/my-zunia/updates/" target="_self"><span>My Zunia</span></a></li></ul></div></div>
+		<div id="contextmenu"></div>
+		<div id="topnav">
+	<a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fict.zunia.org%2F" target="_self" >Member Log In</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://zunia.org/join-now/?redirect_url=http%3A%2F%2Fict.zunia.org%2F" target="_self" >Join Now</a>
+&nbsp;<div class="tx-rpx-pi1">
+		
+	<span id="tx_rpx_login_link">
+		<a class="rpxnow" onclick="return false;" href="https://zunia.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Fict.zunia.org%2F%3Flogintype%3Dlogin%26user%3Drpx%26pass%3Drpx%26verify%3D6b41b849e5e555e38153bb6b202ce4d9%26pid%3D11653%26fe_groups%3D3%26redirect%3Dhttp%3A%2F%2Fict.zunia.org%2F%26profilePid%3D%26error%3D"><img src="/typo3/ext/rpx/res/images/facebook.png" alt="Sign in using Facebook" title="Sign in using Facebook" class="rpx-icon" width="16" height="16"></a>
+		<!-- a class="rpxnow" onclick="return false;" href="https://zunia.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Fict.zunia.org%2F%3Flogintype%3Dlogin%26user%3Drpx%26pass%3Drpx%26verify%3D6b41b849e5e555e38153bb6b202ce4d9%26pid%3D11653%26fe_groups%3D3%26redirect%3Dhttp%3A%2F%2Fict.zunia.org%2F%26profilePid%3D%26error%3D"><img src="/typo3/ext/rpx/res/images/twitter.png" alt="Sign in using Twitter" title="Sign in using Twitter" class="rpx-icon" width="16" height="16"></a-->
+		<a class="rpxnow" onclick="return false;" href="https://zunia.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Fict.zunia.org%2F%3Flogintype%3Dlogin%26user%3Drpx%26pass%3Drpx%26verify%3D6b41b849e5e555e38153bb6b202ce4d9%26pid%3D11653%26fe_groups%3D3%26redirect%3Dhttp%3A%2F%2Fict.zunia.org%2F%26profilePid%3D%26error%3D"><img src="/typo3/ext/rpx/res/images/google.png" alt="Sign in using Google" title="Sign in using Google" class="rpx-icon" width="16" height="16"></a>
+		<a class="rpxnow" onclick="return false;" href="https://zunia.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Fict.zunia.org%2F%3Flogintype%3Dlogin%26user%3Drpx%26pass%3Drpx%26verify%3D6b41b849e5e555e38153bb6b202ce4d9%26pid%3D11653%26fe_groups%3D3%26redirect%3Dhttp%3A%2F%2Fict.zunia.org%2F%26profilePid%3D%26error%3D"><img src="/typo3/ext/rpx/res/images/yahoo.png" alt="Sign in using Yahoo" title="Sign in using Yahoo" class="rpx-icon" width="16" height="16"></a>
+	</span>
+
+	</div>
+	<span id="topnavlinks"><a href="http://zunia.org/help/" target="FEopenLink" onclick="vHWin=window.open('http://zunia.org/help/','FEopenLink','width=650,height=730');vHWin.focus();return false;" title="Help">Help</a></span><div class="tx-srlanguagemenu-pi1">
+		
+		
+				
+			
+				<a href="/fr/">fr</a>
+			
+	
+	</div>
+	</div>
+	</div>
+</div>
+<div id="page_margins">
+	<div id="page">		
+		<div id="header">
+			<div id="logo"><a href="http://zunia.org/" target="_self"><img class="headImg1" src="/fileadmin/knowledge/images/zunia_logo.gif" width="209" height="73" alt="" title="" /></a></div>
+			<div id="banners"><table id="banners_table_3">
+	<tbody>
+	<tr>
+					<td id="banners_td_0_3">
+				<a href="http://zunia.org/post/interview-shenggen-fan-talks-about-food-policy-and-global-food-security/?rank=c" target="_self">
+				<div style="cursor:hand; background: transparent url('http://ict.zunia.org/uploads/pics/highlight_200x120_1338699207_33.jpg') repeat scroll 0% 0%; - moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline- policy: -moz-initial; width: 200px; height: 120px;">
+					<div class="overlay">
+						<p>Interview: Shenggen Fan talks about food policy and global...</p>
+					</div>
+				</div>
+				</a>
+			</td>
+					<td id="banners_td_1_3">
+				<a href="http://zunia.org/post/africa-human-development-report-2012/?rank=c" target="_self">
+				<div style="cursor:hand; background: transparent url('http://ict.zunia.org/uploads/pics/highlight_200x120_1337840782_57.jpg') repeat scroll 0% 0%; - moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline- policy: -moz-initial; width: 200px; height: 120px;">
+					<div class="overlay">
+						<p>Africa Human Development Report 2012</p>
+					</div>
+				</div>
+				</a>
+			</td>
+					<td id="banners_td_2_3">
+				<a href="http://zunia.org/post/the-state-of-worlds-human-rights/?rank=c" target="_self">
+				<div style="cursor:hand; background: transparent url('http://ict.zunia.org/uploads/pics/highlight_200x120_1338712091_43.jpg') repeat scroll 0% 0%; - moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline- policy: -moz-initial; width: 200px; height: 120px;">
+					<div class="overlay">
+						<p>The state of world's human rights</p>
+					</div>
+				</div>
+				</a>
+			</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+			<div id="second_logo"><span style="color:#010101">by</span>&nbsp<a href="http://www.developmentgateway.org" target="_blank"><img class="headImg2" src="/fileadmin/knowledge/images/dgf-logo.gif" width="104" height="38" alt="DG Foundation" title="www.developmentgateway.org" /></a></div>
+		</div>
+		<div id="nav2"><div id="nav_main"><table><tr><td id="current"><div id="anchorID0aba3bcbc9" style="position:absolute;visibility:hidden;"></div><div id="itemID0aba3bcbc9" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_hideAll(&quot;28ddd2&quot;);" onmouseout="GL_resetAll(&quot;28ddd2&quot;);" href="http://zunia.org/">All</a></div></td><td class="has_submenu"><div id="anchorIDfd1555bb3c" style="position:absolute;visibility:hidden;"></div><div id="itemIDfd1555bb3c" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd21');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/governance/">Governance</a></div></td><td class="has_submenu"><div id="anchorID1aaae7419e" style="position:absolute;visibility:hidden;"></div><div id="itemID1aaae7419e" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd22');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/economy/">Economy</a></div></td><td class="has_submenu"><div id="anchorID97b5ea3d2c" style="position:absolute;visibility:hidden;"></div><div id="itemID97b5ea3d2c" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd23');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/sectors/">Sectors</a></div></td><td class="has_submenu"><div id="anchorID4e2f98f425" style="position:absolute;visibility:hidden;"></div><div id="itemID4e2f98f425" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd24');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/environment/">Environment</a></div></td><td class="has_submenu"><div id="anchorID811ac0d175" style="position:absolute;visibility:hidden;"></div><div id="itemID811ac0d175" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd25');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/education/">Education</a></div></td><td class="has_submenu"><div id="anchorID03427c840a" style="position:absolute;visibility:hidden;"></div><div id="itemID03427c840a" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd26');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/health/">Health</a></div></td><td class="has_submenu"><div id="anchorIDcbf4ef1c01" style="position:absolute;visibility:hidden;"></div><div id="itemIDcbf4ef1c01" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd27');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/society/">Society</a></div></td><td class="has_submenu"><div id="anchorID77053b5cb9" style="position:absolute;visibility:hidden;"></div><div id="itemID77053b5cb9" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd28');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/culture/">Culture</a></div></td><td class="has_submenu"><div id="anchorID05603807d0" style="position:absolute;visibility:hidden;"></div><div id="itemID05603807d0" style="width:100%; height:100%;"><a target="_self" onmouseover="GL_doTop('28ddd2', 'Menu28ddd29');" onmouseout="GL_stopMove('28ddd2');" href="http://zunia.org/cat/science-tech/">Science & Tech</a></div></td></tr></table></div></div>
+		<div id="main">
+			<div id="teaser1" class="clearfix">
+				<div id="teaser"></div>
+				<div id="join_remove"></div>
+			</div>
+			<div id="teaser2" class="clearfix">
+				<div id="breadcrumb"></div>		
+			</div>
+			<div id="col1">
+				<div id="col1_content" class="clearfix">
+					<div class="topContent_col1"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+					<div class="ts_objects_col1"><div class="tx-dgchildcategories-pi1">
+		
+	</div>
+	<!-- seconds: 0-->
+	<div id="sidebar">
+		<ul>
+			<li class="widget" id="geo_filter"><h2 class="widgettitle"><span>Region/Country</span></h2>
+				<ul>
+					<li>
+						<div id="dgcontent_geofilter_select"><select class="select4" onchange="location=this.value;" name="tx_dgcontent_pi1[geo]"><option value="http://zunia.org/">All</option>
+<option value="http://zunia.org/geo/1007/">Africa</option>
+<option value="http://zunia.org/geo/1001/">East Asia and Pacific</option>
+<option value="http://zunia.org/geo/1002/">Europe and Central Asia</option>
+<option value="http://zunia.org/geo/1003/">Latin America and Caribbean</option>
+<option value="http://zunia.org/geo/1004/">Middle East and North Afric...</option>
+<option value="http://zunia.org/geo/1005/">North America</option>
+<option value="http://zunia.org/geo/1006/">South Asia</option>
+<option value="" disabled="disabled">--------------</option><option value="http://zunia.org/geo/afghanistan/">Afghanistan</option>
+<option value="http://zunia.org/geo/aaland-islands/">Åland Islands</option>
+<option value="http://zunia.org/geo/albania/">Albania</option>
+<option value="http://zunia.org/geo/algeria/">Algeria</option>
+<option value="http://zunia.org/geo/american-samoa/">American Samoa</option>
+<option value="http://zunia.org/geo/andorra/">Andorra</option>
+<option value="http://zunia.org/geo/angola/">Angola</option>
+<option value="http://zunia.org/geo/anguilla/">Anguilla</option>
+<option value="http://zunia.org/geo/antarctica/">Antarctica</option>
+<option value="http://zunia.org/geo/antigua-and-barbuda/">Antigua and Barbuda</option>
+<option value="http://zunia.org/geo/argentina/">Argentina</option>
+<option value="http://zunia.org/geo/armenia/">Armenia</option>
+<option value="http://zunia.org/geo/aruba/">Aruba</option>
+<option value="http://zunia.org/geo/australia/">Australia</option>
+<option value="http://zunia.org/geo/austria/">Austria</option>
+<option value="http://zunia.org/geo/azerbaijan/">Azerbaijan</option>
+<option value="http://zunia.org/geo/bahamas/">Bahamas</option>
+<option value="http://zunia.org/geo/bahrain/">Bahrain</option>
+<option value="http://zunia.org/geo/bangladesh/">Bangladesh</option>
+<option value="http://zunia.org/geo/barbados/">Barbados</option>
+<option value="http://zunia.org/geo/belarus/">Belarus</option>
+<option value="http://zunia.org/geo/belgium/">Belgium</option>
+<option value="http://zunia.org/geo/belize/">Belize</option>
+<option value="http://zunia.org/geo/benin/">Benin</option>
+<option value="http://zunia.org/geo/bermuda/">Bermuda</option>
+<option value="http://zunia.org/geo/bhutan/">Bhutan</option>
+<option value="http://zunia.org/geo/bolivia/">Bolivia</option>
+<option value="http://zunia.org/geo/bosnia-and-herzegovina/">Bosnia and Herzegovina</option>
+<option value="http://zunia.org/geo/botswana/">Botswana</option>
+<option value="http://zunia.org/geo/brazil/">Brazil</option>
+<option value="http://zunia.org/geo/brunei-darussalam/">Brunei Darussalam</option>
+<option value="http://zunia.org/geo/bulgaria/">Bulgaria</option>
+<option value="http://zunia.org/geo/burkina-faso/">Burkina Faso</option>
+<option value="http://zunia.org/geo/burundi/">Burundi</option>
+<option value="http://zunia.org/geo/cambodia/">Cambodia</option>
+<option value="http://zunia.org/geo/cameroon/">Cameroon</option>
+<option value="http://zunia.org/geo/canada/">Canada</option>
+<option value="http://zunia.org/geo/cape-verde/">Cape Verde</option>
+<option value="http://zunia.org/geo/cayman-islands/">Cayman Islands</option>
+<option value="http://zunia.org/geo/central-african-republic/">Central African Republic</option>
+<option value="http://zunia.org/geo/chad/">Chad</option>
+<option value="http://zunia.org/geo/chile/">Chile</option>
+<option value="http://zunia.org/geo/china/">China</option>
+<option value="http://zunia.org/geo/christmas-island/">Christmas Island</option>
+<option value="http://zunia.org/geo/colombia/">Colombia</option>
+<option value="http://zunia.org/geo/comoros/">Comoros</option>
+<option value="http://zunia.org/geo/congo-democratic-republic/">Congo</option>
+<option value="http://zunia.org/geo/cook-islands/">Cook Islands</option>
+<option value="http://zunia.org/geo/costa-rica/">Costa Rica</option>
+<option value="http://zunia.org/geo/cote-divoire/">Côte d’Ivoire</option>
+<option value="http://zunia.org/geo/croatia/">Croatia</option>
+<option value="http://zunia.org/geo/cuba/">Cuba</option>
+<option value="http://zunia.org/geo/cyprus/">Cyprus</option>
+<option value="http://zunia.org/geo/czech-republic/">Czech Republic</option>
+<option value="http://zunia.org/geo/denmark/">Denmark</option>
+<option value="http://zunia.org/geo/djibouti/">Djibouti</option>
+<option value="http://zunia.org/geo/dominica/">Dominica</option>
+<option value="http://zunia.org/geo/dominican-republic/">Dominican Republic</option>
+<option value="http://zunia.org/geo/congo/">DRC</option>
+<option value="http://zunia.org/geo/ecuador/">Ecuador</option>
+<option value="http://zunia.org/geo/egypt/">Egypt</option>
+<option value="http://zunia.org/geo/el-salvador/">El Salvador</option>
+<option value="http://zunia.org/geo/equatorial-guinea/">Equatorial Guinea</option>
+<option value="http://zunia.org/geo/eritrea/">Eritrea</option>
+<option value="http://zunia.org/geo/estonia/">Estonia</option>
+<option value="http://zunia.org/geo/ethiopia/">Ethiopia</option>
+<option value="http://zunia.org/geo/falkland-islands-malvinas/">Falkland Islands (Malvinas)</option>
+<option value="http://zunia.org/geo/faroes-islands/">Faroes Islands</option>
+<option value="http://zunia.org/geo/fiji/">Fiji</option>
+<option value="http://zunia.org/geo/finland/">Finland</option>
+<option value="http://zunia.org/geo/france/">France</option>
+<option value="http://zunia.org/geo/french-guiana/">French Guiana</option>
+<option value="http://zunia.org/geo/french-polynesia/">French Polynesia</option>
+<option value="http://zunia.org/geo/gabon/">Gabon</option>
+<option value="http://zunia.org/geo/gambia/">Gambia</option>
+<option value="http://zunia.org/geo/georgia/">Georgia</option>
+<option value="http://zunia.org/geo/germany/">Germany</option>
+<option value="http://zunia.org/geo/ghana/">Ghana</option>
+<option value="http://zunia.org/geo/gibraltar/">Gibraltar</option>
+<option value="http://zunia.org/geo/greece/">Greece</option>
+<option value="http://zunia.org/geo/greenland/">Greenland</option>
+<option value="http://zunia.org/geo/grenada/">Grenada</option>
+<option value="http://zunia.org/geo/guadeloupe/">Guadeloupe</option>
+<option value="http://zunia.org/geo/guam/">Guam</option>
+<option value="http://zunia.org/geo/guatemala/">Guatemala</option>
+<option value="http://zunia.org/geo/guernsey/">Guernsey</option>
+<option value="http://zunia.org/geo/guinea/">Guinea</option>
+<option value="http://zunia.org/geo/guinea-bissau/">Guinea-Bissau</option>
+<option value="http://zunia.org/geo/guyana/">Guyana</option>
+<option value="http://zunia.org/geo/haiti/">Haiti</option>
+<option value="http://zunia.org/geo/heard-and-mcdonald-islands/">Heard and McDonald Islands</option>
+<option value="http://zunia.org/geo/honduras/">Honduras</option>
+<option value="http://zunia.org/geo/hong-kong-china/">Hong Kong, China</option>
+<option value="http://zunia.org/geo/hungary/">Hungary</option>
+<option value="http://zunia.org/geo/iceland/">Iceland</option>
+<option value="http://zunia.org/geo/india/">India</option>
+<option value="http://zunia.org/geo/indonesia/">Indonesia</option>
+<option value="http://zunia.org/geo/iran/">Iran</option>
+<option value="http://zunia.org/geo/iraq/">Iraq</option>
+<option value="http://zunia.org/geo/ireland/">Ireland</option>
+<option value="http://zunia.org/geo/israel/">Israel</option>
+<option value="http://zunia.org/geo/italy/">Italy</option>
+<option value="http://zunia.org/geo/jamaica/">Jamaica</option>
+<option value="http://zunia.org/geo/japan/">Japan</option>
+<option value="http://zunia.org/geo/jordan/">Jordan</option>
+<option value="http://zunia.org/geo/kazakhstan/">Kazakhstan</option>
+<option value="http://zunia.org/geo/kenya/">Kenya</option>
+<option value="http://zunia.org/geo/kiribati-1/">Kiribati</option>
+<option value="http://zunia.org/geo/korea-north/">Korea, North</option>
+<option value="http://zunia.org/geo/korea-south/">Korea, South</option>
+<option value="http://zunia.org/geo/kosovo/">Kosovo</option>
+<option value="http://zunia.org/geo/kuwait/">Kuwait</option>
+<option value="http://zunia.org/geo/kyrgyzstan/">Kyrgyzstan</option>
+<option value="http://zunia.org/geo/laos/">Laos</option>
+<option value="http://zunia.org/geo/latvia/">Latvia</option>
+<option value="http://zunia.org/geo/lebanon/">Lebanon</option>
+<option value="http://zunia.org/geo/lesotho-1/">Lesotho</option>
+<option value="http://zunia.org/geo/liberia/">Liberia</option>
+<option value="http://zunia.org/geo/libya/">Libya</option>
+<option value="http://zunia.org/geo/liechtenstein/">Liechtenstein</option>
+<option value="http://zunia.org/geo/lithuania/">Lithuania</option>
+<option value="http://zunia.org/geo/luxembourg/">Luxembourg</option>
+<option value="http://zunia.org/geo/macao-china/">Macao, China</option>
+<option value="http://zunia.org/geo/macedonia/">Macedonia</option>
+<option value="http://zunia.org/geo/madagascar-1/">Madagascar</option>
+<option value="http://zunia.org/geo/malawi/">Malawi</option>
+<option value="http://zunia.org/geo/malaysia/">Malaysia</option>
+<option value="http://zunia.org/geo/maldives/">Maldives</option>
+<option value="http://zunia.org/geo/mali/">Mali</option>
+<option value="http://zunia.org/geo/malta/">Malta</option>
+<option value="http://zunia.org/geo/marshall-islands/">Marshall Islands</option>
+<option value="http://zunia.org/geo/martinique/">Martinique</option>
+<option value="http://zunia.org/geo/mauritania-1/">Mauritania</option>
+<option value="http://zunia.org/geo/mauritius/">Mauritius</option>
+<option value="http://zunia.org/geo/mayotte/">Mayotte</option>
+<option value="http://zunia.org/geo/mexico/">Mexico</option>
+<option value="http://zunia.org/geo/micronesia/">Micronesia</option>
+<option value="http://zunia.org/geo/moldova/">Moldova</option>
+<option value="http://zunia.org/geo/monaco/">Monaco</option>
+<option value="http://zunia.org/geo/mongolia/">Mongolia</option>
+<option value="http://zunia.org/geo/montenegro/">Montenegro</option>
+<option value="http://zunia.org/geo/montserrat-1/">Montserrat</option>
+<option value="http://zunia.org/geo/morocco/">Morocco</option>
+<option value="http://zunia.org/geo/mozambique/">Mozambique</option>
+<option value="http://zunia.org/geo/myanmar/">Myanmar</option>
+<option value="http://zunia.org/geo/namibia/">Namibia</option>
+<option value="http://zunia.org/geo/nauru-1/">Nauru</option>
+<option value="http://zunia.org/geo/nepal/">Nepal</option>
+<option value="http://zunia.org/geo/netherlands/">Netherlands</option>
+<option value="http://zunia.org/geo/netherlands-antilles/">Netherlands Antilles</option>
+<option value="http://zunia.org/geo/new-caledonia-1/">New Caledonia</option>
+<option value="http://zunia.org/geo/new-zealand/">New Zealand</option>
+<option value="http://zunia.org/geo/nicaragua/">Nicaragua</option>
+<option value="http://zunia.org/geo/niger/">Niger</option>
+<option value="http://zunia.org/geo/nigeria/">Nigeria</option>
+<option value="http://zunia.org/geo/niue/">Niue</option>
+<option value="http://zunia.org/geo/norfolk-island/">Norfolk Island</option>
+<option value="http://zunia.org/geo/northern-mariana-islands-1/">Northern Mariana Islands</option>
+<option value="http://zunia.org/geo/norway/">Norway</option>
+<option value="http://zunia.org/geo/oman/">Oman</option>
+<option value="http://zunia.org/geo/pakistan/">Pakistan</option>
+<option value="http://zunia.org/geo/palau/">Palau</option>
+<option value="http://zunia.org/geo/palestine/">Palestine</option>
+<option value="http://zunia.org/geo/panama/">Panama</option>
+<option value="http://zunia.org/geo/papua-new-guinea-1/">Papua New Guinea</option>
+<option value="http://zunia.org/geo/paraguay/">Paraguay</option>
+<option value="http://zunia.org/geo/peru/">Peru</option>
+<option value="http://zunia.org/geo/philippines-1/">Philippines</option>
+<option value="http://zunia.org/geo/pitcairn/">Pitcairn</option>
+<option value="http://zunia.org/geo/poland/">Poland</option>
+<option value="http://zunia.org/geo/portugal/">Portugal</option>
+<option value="http://zunia.org/geo/puerto-rico/">Puerto Rico</option>
+<option value="http://zunia.org/geo/qatar/">Qatar</option>
+<option value="http://zunia.org/geo/reunion/">Réunion</option>
+<option value="http://zunia.org/geo/romania/">Romania</option>
+<option value="http://zunia.org/geo/russian-federation/">Russian Federation</option>
+<option value="http://zunia.org/geo/rwanda/">Rwanda</option>
+<option value="http://zunia.org/geo/saint-helena/">Saint Helena</option>
+<option value="http://zunia.org/geo/saint-kitts-and-nevis/">Saint Kitts and Nevis</option>
+<option value="http://zunia.org/geo/saint-lucia/">Saint Lucia</option>
+<option value="http://zunia.org/geo/saint-pierre-and-miquelon/">Saint Pierre and Miquelon</option>
+<option value="http://zunia.org/geo/saint-vincent-and-grenadines/">Saint Vincent and Grenadine...</option>
+<option value="http://zunia.org/geo/samoa/">Samoa</option>
+<option value="http://zunia.org/geo/san-marino/">San Marino</option>
+<option value="http://zunia.org/geo/sao-tome-and-principe/">Sao Tome and Principe</option>
+<option value="http://zunia.org/geo/saudi-arabia/">Saudi Arabia</option>
+<option value="http://zunia.org/geo/senegal/">Senegal</option>
+<option value="http://zunia.org/geo/serbia/">Serbia</option>
+<option value="http://zunia.org/geo/seychelles/">Seychelles</option>
+<option value="http://zunia.org/geo/sierra-leone/">Sierra Leone</option>
+<option value="http://zunia.org/geo/singapore/">Singapore</option>
+<option value="http://zunia.org/geo/slovakia/">Slovakia</option>
+<option value="http://zunia.org/geo/slovenia/">Slovenia</option>
+<option value="http://zunia.org/geo/solomon-islands/">Solomon Islands</option>
+<option value="http://zunia.org/geo/somalia/">Somalia</option>
+<option value="http://zunia.org/geo/south-africa/">South Africa</option>
+<option value="http://zunia.org/geo/south-sudan/">South Sudan</option>
+<option value="http://zunia.org/geo/spain/">Spain</option>
+<option value="http://zunia.org/geo/sri-lanka/">Sri Lanka</option>
+<option value="http://zunia.org/geo/sudan-1/">Sudan</option>
+<option value="http://zunia.org/geo/suriname/">Suriname</option>
+<option value="http://zunia.org/geo/svalbard-and-jan-mayen/">Svalbard and Jan Mayen</option>
+<option value="http://zunia.org/geo/swaziland/">Swaziland</option>
+<option value="http://zunia.org/geo/sweden/">Sweden</option>
+<option value="http://zunia.org/geo/switzerland/">Switzerland</option>
+<option value="http://zunia.org/geo/syrian-arab-republic/">Syrian Arab Republic</option>
+<option value="http://zunia.org/geo/taiwan-province-of-china/">Taiwan, Province of China</option>
+<option value="http://zunia.org/geo/tajikistan/">Tajikistan</option>
+<option value="http://zunia.org/geo/tanzania-1/">Tanzania</option>
+<option value="http://zunia.org/geo/thailand/">Thailand</option>
+<option value="http://zunia.org/geo/timor-leste/">Timor-Leste</option>
+<option value="http://zunia.org/geo/togo/">Togo</option>
+<option value="http://zunia.org/geo/tokelau/">Tokelau</option>
+<option value="http://zunia.org/geo/tonga/">Tonga</option>
+<option value="http://zunia.org/geo/trinidad-and-tobago/">Trinidad and Tobago</option>
+<option value="http://zunia.org/geo/tunisia/">Tunisia</option>
+<option value="http://zunia.org/geo/turkey/">Turkey</option>
+<option value="http://zunia.org/geo/turkmenistan/">Turkmenistan</option>
+<option value="http://zunia.org/geo/turks-and-caicos-islands/">Turks and Caicos Islands</option>
+<option value="http://zunia.org/geo/tuvalu/">Tuvalu</option>
+<option value="http://zunia.org/geo/uganda/">Uganda</option>
+<option value="http://zunia.org/geo/ukraine-1/">Ukraine</option>
+<option value="http://zunia.org/geo/united-arab-emirates/">United Arab Emirates</option>
+<option value="http://zunia.org/geo/united-kingdom/">United Kingdom</option>
+<option value="http://zunia.org/geo/united-states/">United States</option>
+<option value="http://zunia.org/geo/uruguay/">Uruguay</option>
+<option value="http://zunia.org/geo/us-minor-outlying-islands/">US Minor Outlying Islands</option>
+<option value="http://zunia.org/geo/uzbekistan/">Uzbekistan</option>
+<option value="http://zunia.org/geo/vanuatu/">Vanuatu</option>
+<option value="http://zunia.org/geo/vatican-city-state/">Vatican City State</option>
+<option value="http://zunia.org/geo/venezuela/">Venezuela</option>
+<option value="http://zunia.org/geo/viet-nam/">Viet Nam</option>
+<option value="http://zunia.org/geo/virgin-islands-british/">Virgin Islands, British</option>
+<option value="http://zunia.org/geo/virgin-islands-us-1/">Virgin Islands, US</option>
+<option value="http://zunia.org/geo/wallis-and-futuna/">Wallis and Futuna</option>
+<option value="http://zunia.org/geo/western-sahara/">Western Sahara</option>
+<option value="http://zunia.org/geo/yemen/">Yemen</option>
+<option value="http://zunia.org/geo/zambia/">Zambia</option>
+<option value="http://zunia.org/geo/zimbabwe/">Zimbabwe</option>
+</select></div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			<li class="widget" id="sort_by"><h2 class="widgettitle"><span>Filter by</span></h2>
+						<ul id="dgcontent_sortby_ul">
+							
+							<li id="dgcontent_sortby_li"><B>All</B></li>
+
+							<li id="dgcontent_sortby_li"><a href="http://zunia.org/?tx_dgcontent_pi1%5Btype%5D=0&amp;cHash=fe50cf65d4dcfe947f005036dab6e9e4" target="_self" >News</a></li>
+
+							<li id="dgcontent_sortby_li"><a href="http://zunia.org/?tx_dgcontent_pi1%5Btype%5D=9&amp;cHash=6857a7053c179ade7e649066e2f42dfe" target="_self" >Events</a></li>
+
+							<li id="dgcontent_sortby_li"><a href="http://zunia.org/?tx_dgcontent_pi1%5Btype%5D=11&amp;cHash=0b790a5956bdf0893327cea2ed933db8" target="_self" >Posts</a></li>
+
+						</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div id="sidebar">
+		<ul>
+			<li class="widget" id="sort_by"><h2 class="widgettitle"><span>Sort by</span></h2>
+						<ul id="dgcontent_sortby_ul">
+							<li id="dgcontent_sortby_li"><a href="http://zunia.org/?tx_dgcontent_pi1%5Bsort%5D=comm&amp;cHash=8436492dbd0e1d88dbcf5a7b087b0adc" target="_self">New comments</a></li>
+							<li id="dgcontent_sortby_li"><a href="http://zunia.org/?tx_dgcontent_pi1%5Bsort%5D=date&amp;cHash=77de47b28393eae58a65a7fea20bd98c" target="_self">New posts</a></li>
+							<!--li id="dgcontent_sortby_li"></li-->
+							<li id="dgcontent_sortby_li"><span id="dgcontent_sortby_selected">Most popular</span></li>
+						</ul>
+			</li>
+		</ul>
+	</div>
+<div class="tx-dgcountrystats-pi6">
+		
+<script type="text/javascript" language="JavaScript">
+function changeImageSize(param)
+{
+	document.getElementById('featured_country_profile_image_id').width = param;
+}
+</script>
+
+<div id="sidebar">
+	<ul>
+		<li class="widget" id="geo_filter">
+			<h2 class="widgettitle">
+				<span>Featured country</span>
+			</h2>
+			<ul>
+				<li>
+					<div id="featured_country">
+												<a href="http://zunia.org/geo/cambodia/"><img src="/typo3/ext/dg_country_stats/graphics/flags/cb-lgflag.gif" alt="Cambodia" title="Cambodia" width="80" id="featured_country_flag" /></a>
+												<div><a href="http://zunia.org/geo/cambodia/" class="featured_country_name">Cambodia</a> </div>
+																					<div class="country_stats_subtitle">People</div>
+								<div id="featured_country_div">
+																												<div class="featured_country_row">
+										<span class="featured_country_stats">Population</span>
+										<span class="featured_country_key">14.45 mln</span>
+										</div>
+																																					<div class="featured_country_row">
+										<span class="featured_country_stats">Population growth</span>
+										<span class="featured_country_key">2%</span>
+										</div>
+																																					<div class="featured_country_row">
+										<span class="featured_country_stats">Life expectancy</span>
+										<span class="featured_country_key">60 years</span>
+										</div>
+																																					<div class="featured_country_row">
+										<span class="featured_country_stats">Net migration</span>
+										<span class="featured_country_key">10,000</span>
+										</div>
+																										</div>
+															<div class="country_stats_subtitle">Economy</div>
+								<div id="featured_country_div">
+																												<div class="featured_country_row">
+										<span class="featured_country_stats">GDP</span>
+										<span class="featured_country_key">$8.35 bln</span>
+										</div>
+																																					<div class="featured_country_row">
+										<span class="featured_country_stats">- per capita</span>
+										<span class="featured_country_key">$578</span>
+										</div>
+																																					<div class="featured_country_row">
+										<span class="featured_country_stats"> - growth rate</span>
+										<span class="featured_country_key">10%</span>
+										</div>
+																																					<div class="featured_country_row">
+										<span class="featured_country_stats">FDI, net inflows</span>
+										<span class="featured_country_key">$0.87 bln</span>
+										</div>
+																										</div>
+															<div class="country_stats_subtitle">Infrastructure</div>
+								<div id="featured_country_div">
+																												<div class="featured_country_row">
+										<span class="featured_country_stats">Cellphone users</span>
+										<span class="featured_country_key">18%</span>
+										</div>
+																																																														</div>
+																			<img src="/typo3/ext/dg_country_stats/graphics/maps/cb-map.gif" alt="Cambodia" title="Cambodia" width="160" onmouseover="setTimeout('changeImageSize(329)',1000)" onmouseout="setTimeout('changeImageSize(160)',1000)" id="featured_country_profile_image_id" />						<div id="featured_country_profile_link"><a href="http://zunia.org/geo/cambodia/" target="_self" >See country profile and 327 posts for Cambodia</a></div>
+					</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	</div>
+	</div>
+					<div class="bottomContent_col1"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+				</div>
+			</div>
+			<div id="col2">
+				<div id="col2_content" class="clearfix">
+						<div class="topContent_col2"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+						<div class="ts_objects_col2"><div class="tx-macinasearchbox-pi1">
+		
+<script src="/typo3/ext/cb_indexedsearch_autocomplete/res/cb_indexedsearch_autocomplete.js" type="text/javascript"></script>
+		<form action="http://zunia.org/search/" method="get" name="searchform" id="searchform">
+			<div id="macinasearch">
+				<div id="macinasearch_input">
+						<input id="msb_text" name="tx_indexedsearch[sword]" type="text" />
+						<input id="msb_image" type="submit" value="Go" onclick="changeThisSearchParams();" />
+				</div>
+				<div id="macinasearch_radio" style="display:none">
+						<input id="macinasearch_button2" value="Search all" type="radio" name="msb_type" />
+						<label for="macinasearch_button2" title="Search all"><span class="macinasearch_radio_knowledge">zunia.org</span></label>
+						&nbsp;&nbsp;<input id="macinasearch_button1" value="Search here" type="radio" name="msb_type" checked="checked" />
+						<label for="macinasearch_button1" title="Search here"><span class="macinasearch_radio_here">here</span></label>
+				</div>
+				<div id="macinasearch_advanced"><a href="/#" onclick="goAdvancedSearchPage();return false;">more</a></div>
+			</div>
+			<input type="hidden" name="id" value="11681" />
+			<input type="hidden" name="L" value="0" />
+			<input type="hidden" id="_catFilter_types" name="tx_indexedsearch[catFilter_types.]" value="0" />
+			<input type="hidden" id="_geo" name="tx_indexedsearch[geo]" value="0" />
+			<input type="hidden" name="tx_indexedsearch[_sections]" value="0" />
+			<input type="hidden" name="tx_indexedsearch[pointer]" value="0" />
+			<input type="hidden" name="tx_indexedsearch[ext]" id="hidden_ext" value="0" />	
+			<input type="hidden" id="tx_msb_tag_filter" name="tx_indexedsearch[msb_tag_filter]" value="" />
+			<input type="hidden" id="tx_msb_domainsrc_filter" name="tx_indexedsearch[msb_domainsrc_filter]" value="" />
+			<input type="hidden" id="tx_msb_type_filter" name="tx_indexedsearch[msb_type_filter]" value="" />
+		</form>
+    <input type="hidden" id="msb_cat_filter" name="msb_cat_filter" value="" />
+    <input type="hidden" id="msb_geo_filter" name="msb_geo_filter" value="" />
+    <input type="hidden" id="msb_tag_filter" name="msb_tag_filter" value="" />
+    <input type="hidden" id="msb_domainsrc_filter" name="msb_domainsrc_filter" value="" />
+    <input type="hidden" id="msb_type_filter" name="msb_type_filter" value="" />
+    <input type="hidden" id="advansed_link" name="advanced_link" value="http://zunia.org/search/?tx_indexedsearch%5Bext%5D=1&amp;tx_indexedsearch%5Bgeo%5D=&amp;tx_indexedsearch%5BcatFilter_types.%5D=&amp;tx_indexedsearch%5Btag%5D=" />
+    <input type="hidden" id="all_link" name="all_link" value="http://zunia.org/search/?tx_indexedsearch%5Bext%5D=1" />
+<script type="text/javascript">
+function changeThisSearchParams()
+{
+	document.getElementById('hidden_ext').value = '1';
+		
+	if(document.getElementById("macinasearch_button1") && document.getElementById("macinasearch_button1").checked)
+	{
+		document.getElementById('_catFilter_types').value = document.getElementById('msb_cat_filter').value;
+		document.getElementById('_geo').value = document.getElementById('msb_geo_filter').value;
+		document.getElementById('tx_msb_tag_filter').value = document.getElementById('msb_tag_filter').value;
+		document.getElementById('tx_msb_domainsrc_filter').value = document.getElementById('msb_domainsrc_filter').value;
+		document.getElementById('tx_msb_type_filter').value = document.getElementById('msb_type_filter').value;
+	}
+
+	document.getElementById('searchform').submit();
+}
+function goAdvancedSearchPage()
+{
+	var link;
+	if(document.getElementById("macinasearch_button1").checked)
+		link = document.getElementById("advansed_link").value
+	else link = document.getElementById("all_link").value
+
+	location.href=link
+}
+</script>
+
+	</div>
+	<ul id="contribute"><li><a href="http://zunia.org/new-post/" target="_self"><img src="/fileadmin/knowledge/images/contribute.gif" alt="" /></a></li></ul><div class="tx-ikdgfmm-pi4">
+		  	<div id="sidebar">
+		<ul>
+			<li class="widget" id="summary_contacts"><h2 class="widgettitle"><span class="summary_contacts">Popular groups</span></h2>
+				<ul id="ikdgfmm_pi4_ul">
+					 
+	<div id="ikdgfmm_pi4_div">
+		<div class="ikdgfmm_pi4_image"><a href="http://aideffectiveness.zunia.org?L=0"><img src="http://trade.zunia.org/uploads/media/aideff_logow50h50.jpg" title="Aid Effectiveness" style="display:" alt="" /></a></div>
+		<div class="ikdgfmm_pi4_name">
+			<a href="http://aideffectiveness.zunia.org?L=0">Aid Effectiveness</a><br />
+			<span id="ikdgfmm_pi4_text">Members (<span id="members_count">17914</span>) | Posts (5228)</span>
+		</div>
+	</div>
+ 
+	<div id="ikdgfmm_pi4_div">
+		<div class="ikdgfmm_pi4_image"><a href="http://jobs.zunia.org?L=0"><img src="http://trade.zunia.org/uploads/media/logo-jobsw50h50.gif" title="Development Jobs" style="display:" alt="" /></a></div>
+		<div class="ikdgfmm_pi4_name">
+			<a href="http://jobs.zunia.org?L=0">Development Jobs</a><br />
+			<span id="ikdgfmm_pi4_text">Members (<span id="members_count">60</span>) | Posts (2839)</span>
+		</div>
+	</div>
+
+					 
+		<span id="ikdgfmm_pi4_viewall"><a href="http://zunia.org/groups/">View all</a></span>
+
+
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	</div>
+	<div class="tx-danptagcloud-taglist">
+		
+<div id="sidebar">
+<ul>
+<li class="widget_closed" id="summary_tagcloud"><h2 class="widgettitle"><span>Tags</span></h2>
+<ul id="tx_danptagcloud_ul">
+<table cellpading="0" celspacing="0" width="100%">
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/food%20security/" target="_self">food security</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">971</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/poverty/" target="_self">poverty</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">526</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/climate%20change/" target="_self">climate change</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">504</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/hiv%20prevention/" target="_self">hiv prevention</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">500</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/european%20union/" target="_self">european union</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">491</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/africa/" target="_self">africa</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">467</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/greenhouse%20gas%20emissions/" target="_self">greenhouse gas emissions</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">467</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/health%20services/" target="_self">health services</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">464</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/united%20nations/" target="_self">united nations</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">442</td></tr>
+
+<tr><td class="danp_tagcloud_taglist_name"><a href="http://zunia.org/tag/education/" target="_self">education</a>&nbsp;
+</td><td class="danp_tagcloud_taglist_count">419</td></tr>
+
+</table>
+</ul>
+</li>
+</ul>
+</div>
+
+	</div>
+	<div id="sidebar">
+		<ul>
+			<li id="sort_by" class="widget"><h2 class="widgettitle active"><span>Recent activity</span></h2>
+   				<ul>
+					             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=508644&amp;cHash=7cbf22232620a8ad53866fbdfbe18c96" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=508644&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=508644&amp;cHash=7cbf22232620a8ad53866fbdfbe18c96" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=508644&mode=member_bubble" target_div_id="user_bubble_dropdown">CTA Brussels office</a> added <a href="http://zunia.org/post/actualites-acp-ue-lapp-des-crises-en-afrique-et-le-potentiel-de-la-sadc/" target="" class="">Actualités ACP-UE: l'APP, des crises en Afrique, et le potentiel de l...</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=504684&amp;cHash=ebb141e6b777677b333bfc47b4c45072" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=504684&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/mturner@solucionespracticas.org.pe_MT_photo_776011a524_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=504684&amp;cHash=ebb141e6b777677b333bfc47b4c45072" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=504684&mode=member_bubble" target_div_id="user_bubble_dropdown">Mark Turner</a> added <a href="http://zunia.org/post/ella-guide-improving-small-farmers-adaptive-capacity-in-semi-arid-regions/" target="" class="">ELLA GUIDE: Improving Small Farmers' Adaptive Capacity in Semi-arid Regions</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> added <a href="http://zunia.org/post/information-technology-organization-and-productivity-in-the-public-sector-evidence-from-police-de/" target="" class="">Information Technology, Organization, and Productivity in the Public Sector: Ev...</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> shared <a href="http://zunia.org/post/measuring-socio-economic-digitization-a-paradigm-shift/" target="" class="">Measuring Socio-Economic Digitization: A Paradigm Shift</a> post - <a href="http://evaluation.zunia.org">Monitoring and Evaluation</a></div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> added <a href="http://zunia.org/post/measuring-socio-economic-digitization-a-paradigm-shift/" target="" class="">Measuring Socio-Economic Digitization: A Paradigm Shift</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=510310&amp;cHash=45712f47c7d8c7b4bbcda88360ae577f" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=510310&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=510310&amp;cHash=45712f47c7d8c7b4bbcda88360ae577f" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=510310&mode=member_bubble" target_div_id="user_bubble_dropdown">Andrew Pazzy</a> edited <a href="http://openeducation.zunia.org/wiki/?tx_drwiki_pi1%5Bkeyword%5D=Homepage&cHash=64c6e1e96cea162c9f4da57417a13939">Homepage</a> wiki article - <a href="http://openeducation.zunia.org">Open Educational Resources</a></div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> added <a href="http://zunia.org/post/internet-trends/" target="" class="">Internet Trends</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> added <a href="http://zunia.org/post/comparing-real-wages/" target="" class="">Comparing Real Wages</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> added <a href="http://zunia.org/post/the-roots-of-global-wage-gaps-evidence-from-randomized-processing-of-us-visas/" target="" class="">The Roots of Global Wage Gaps: Evidence from Randomized Processing of U.S. Visa...</a> post</div>
+             <div class="dg_history_row"><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> added <a href="http://zunia.org/post/the-big-mac-theory-of-development/" target="" class="">The Big Mac Theory of Development</a> post</div>
+
+     			</ul>
+			</li>
+		</ul>
+	</div></div>
+						<div class="bottomContent_col2"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+				</div>
+			</div>
+			<div id="col3">
+				<div id="col3_content" class="clearfix">
+					<div class="floatbox">
+						<div id="page_title"></div>
+						<div id="dgcontent_breadcrumb"></div>
+						<div class="topContent_col3"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+						<div class="ts_objects_col3">
+<div>
+	<div id="dgcontent_pi1_rss"></div>	
+	<div id="dgcontent_pi1_addfilter"></div>
+	<div><!--***PLUGIN SUCCESSFUL***-->
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/actualites-acp-ue-lapp-des-crises-en-afrique-et-le-potentiel-de-la-sadc/" target="_self" class="vert_gras">Actualités ACP-UE: l'APP, des crises en Afrique, et le potentiel de la SADC</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466581"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466581"></span><span class="post-rating" id="rate-466581">0</span><img id="loader_post-466581" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466581"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/actualites-acp-ue-lapp-des-crises-en-afrique-et-le-potentiel-de-la-sadc/" target="" class=""><img src="/uploads/pics/1339027731_73.jpg" width="94" height="50" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/bruxelles.cta.int/" target="_self" >bruxelles.cta.int</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/actualites-acp-ue-lapp-des-crises-en-afrique-et-le-potentiel-de-la-sadc/" target="_self" class="single_post_text">La dernière assemblée parlementaire de l’ACP-UE&nbsp; (APP) s´est tenue à Horsens, au Danemark. Mis à part les sujets fréquemment abordés par les députés européens et leurs homologues des pays ACP au cours des réunions précédentes, ils ont également procédé à des échanges de vues sur les conséquences de l'instabilité en Afrique. Louis Michel, qui est le coprésident de l’Assemblée, a notamment parlé des conséquences dévastatrices potentielles que pourrait avoir l’instabilité politique malienne</a> <a href="http://zunia.org/post/actualites-acp-ue-lapp-des-crises-en-afrique-et-le-potentiel-de-la-sadc/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=508644&amp;cHash=7cbf22232620a8ad53866fbdfbe18c96" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=508644&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=508644&amp;cHash=7cbf22232620a8ad53866fbdfbe18c96" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=508644&mode=member_bubble" target_div_id="user_bubble_dropdown">CTA Brussels office</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/internet-trends/" target="_self" class="vert_gras">Internet Trends</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466564"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466564"></span><span class="post-rating" id="rate-466564">0</span><img id="loader_post-466564" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466564"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/internet-trends/" target="" class=""><img src="/typo3temp/pics/29de293bc3.jpg" width="119" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/scribd.com/" target="_self" >scribd.com</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/internet-trends/" target="_self" class="single_post_text">Outline1)Basic Stats – Internet Growth Remains Robust,Rapid Mobile Adoption Still in Early Stages2)Re-Imagination – of Nearly Everything3)Economy – Mixed Trends, With Negative Bias4)‘USA, Inc.’ – A Lot to be Excited About in Tech, ALot to be Worried about in Other Areas 5)Bubble – or Not?INTERNET TRENDS D10 CONFERENCE5/30/2012 Mary Meeker</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/ella-guide-improving-small-farmers-adaptive-capacity-in-semi-arid-regions/" target="_self" class="vert_gras">ELLA GUIDE: Improving Small Farmers' Adaptive Capacity in Semi-arid Regions</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466571"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466571"></span><span class="post-rating" id="rate-466571">0</span><img id="loader_post-466571" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466571"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/ella-guide-improving-small-farmers-adaptive-capacity-in-semi-arid-regions/" target="" class=""><img src="/typo3temp/pics/87d03e0045.jpg" width="150" height="60" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/ella.practicalaction.org/" target="_self" >ella.practicalaction.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/ella-guide-improving-small-farmers-adaptive-capacity-in-semi-arid-regions/" target="_self" class="single_post_text">Brazilian Community-Based Adaptation (CBA) strategies work to improve farmers' quality of life, earning power and overall resiliency to adapt as conditions worsen due to climate change. Brazil's creative and successful approach benefits the 23 million people living in its semi-arid region.</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=504684&amp;cHash=ebb141e6b777677b333bfc47b4c45072" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=504684&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/mturner@solucionespracticas.org.pe_MT_photo_776011a524_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=504684&amp;cHash=ebb141e6b777677b333bfc47b4c45072" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=504684&mode=member_bubble" target_div_id="user_bubble_dropdown">Mark Turner</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/big-data-for-development-challenges-opportunities/" target="_self" class="vert_gras">Big Data for Development: Challenges & Opportunities</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466133"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466133"></span><span class="post-rating" id="rate-466133">0</span><img id="loader_post-466133" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466133"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/big-data-for-development-challenges-opportunities/" target="" class=""><img src="/typo3temp/pics/182e5d0851.jpg" width="111" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/unglobalpulse.org/" target="_self" >unglobalpulse.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/big-data-for-development-challenges-opportunities/" target="_self" class="single_post_text">Turning Big Data - call logs, mobile-banking transactions, online user-generated content such as blog posts and Tweets, online searches, satellite images, etc. - into actionable information requires using computational techniques to unveil trends and patterns within and between these extremely large socioeconomic datasets. New insights gleaned from such data mining should complement official statistics, survey data, and information generated by Early Warning Systems, adding depth and nuances on</a> <a href="http://zunia.org/post/big-data-for-development-challenges-opportunities/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown">D C</a> on June 04, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/towards-a-new-policy-model-for-media-and-communication-in-post-conflict-and-fragile-states/" target="_self" class="vert_gras">Towards a New Policy Model for Media and Communication in Post-Conflict and Fragile States</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466144"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466144"></span><span class="post-rating" id="rate-466144">0</span><img id="loader_post-466144" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466144"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/towards-a-new-policy-model-for-media-and-communication-in-post-conflict-and-fragile-states/" target="" class=""><img src="/typo3temp/pics/e410f3e3a2.jpg" width="116" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/siteresources.worldbank.org/" target="_self" >siteresources.worldbank.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/towards-a-new-policy-model-for-media-and-communication-in-post-conflict-and-fragile-states/" target="_self" class="single_post_text">The media and communication sector plays a complex role in post-conflict and fragile states. In states experiencing conflict, violent political upheaval or complete collapse, the media can provide important, reliable, and timely humanitarian and political information in the midst of chaos, helping people to navigate their tumultuous surroundings. Moving toward the longer term, media and communication processes can enable citizens to engage in dialogue, serve as platforms for debate and</a> <a href="http://zunia.org/post/towards-a-new-policy-model-for-media-and-communication-in-post-conflict-and-fragile-states/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown">D C</a> on June 04, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/information-technology-organization-and-productivity-in-the-public-sector-evidence-from-police-de/" target="_self" class="vert_gras">Information Technology, Organization, and Productivity in the Public Sector: Evidence from Police Departments</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466570"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466570"></span><span class="post-rating" id="rate-466570">0</span><img id="loader_post-466570" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466570"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/information-technology-organization-and-productivity-in-the-public-sector-evidence-from-police-de/" target="" class=""><img src="/typo3temp/pics/23a067281b.jpg" width="150" height="107" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/rand.org/" target="_self" >rand.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/information-technology-organization-and-productivity-in-the-public-sector-evidence-from-police-de/" target="_self" class="single_post_text">We examine the relationship between information technology (IT), productivity, and organization using a new panel data set of police departments that covers 1987–2003. When considered alone, increases in IT are not associated with reductions in crime rates, increases in clearance rates, or other productivity measures, and computing technology that increases reported crime actually generates the appearance of lower productivity. These results persist across various samples, specifications, and</a> <a href="http://zunia.org/post/information-technology-organization-and-productivity-in-the-public-sector-evidence-from-police-de/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/measuring-socio-economic-digitization-a-paradigm-shift/" target="_self" class="vert_gras">Measuring Socio-Economic Digitization: A Paradigm Shift</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466569"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466569"></span><span class="post-rating" id="rate-466569">0</span><img id="loader_post-466569" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466569"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/measuring-socio-economic-digitization-a-paradigm-shift/" target="" class=""><img src="/typo3temp/pics/3af0a49b5d.jpg" width="150" height="122" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/papers.ssrn.com/" target="_self" >papers.ssrn.com</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/measuring-socio-economic-digitization-a-paradigm-shift/" target="_self" class="single_post_text">Abstract: Digitization is defined as the social transformation triggered by the massive adoption of digital technologies to generate, process, share and transact information. Unlike other technological innovations, digitization builds on the evolution of network access technologies, semiconductor technologies, software engineering and the spillover effects resulting from their use. This paper introduces the Digitization Index, a measure of country level of digitization. This index consists of</a> <a href="http://zunia.org/post/measuring-socio-economic-digitization-a-paradigm-shift/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/a-review-of-target-population-estimates-and-implied-infant-mortality-rates-from-national-epi-program/" target="_self" class="vert_gras">A review of target population estimates and implied infant mortality rates from national EPI programmes during 2000-2010</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466520"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466520"></span><span class="post-rating" id="rate-466520">0</span><img id="loader_post-466520" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466520"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/a-review-of-target-population-estimates-and-implied-infant-mortality-rates-from-national-epi-program/" target="" class=""><img src="/typo3temp/pics/4acd4d5de3.jpg" width="150" height="100" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/sites.google.com/" target="_self" >sites.google.com</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/a-review-of-target-population-estimates-and-implied-infant-mortality-rates-from-national-epi-program/" target="_self" class="single_post_text">As a matter of practice, immunization programme managers routinely monitor the number of children that are immunized.  In addition, they must also estimate the target population size when planning services, managing stocks and supplies and targeting interventions.  An estimate of the target population is also necessary for computing immunization coverage, an important measure used to monitor immunization programme performance.&nbsp;This working paper presents information on the estimated number</a> <a href="http://zunia.org/post/a-review-of-target-population-estimates-and-implied-infant-mortality-rates-from-national-epi-program/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=509325&amp;cHash=9cd4463779e3ab534a49031d1cf5d3eb" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=509325&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=509325&amp;cHash=9cd4463779e3ab534a49031d1cf5d3eb" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=509325&mode=member_bubble" target_div_id="user_bubble_dropdown">Charles Horlacher</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/mobile-learning-for-teachers-in-africa-and-the-middle-east-exploring-the-potential-of-mobile-techno/" target="_self" class="vert_gras">Mobile Learning for Teachers in Africa and the Middle East: Exploring the Potential of Mobile Technologies to Support Teachers and Improve Practice</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-465678"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-465678">+</span><span class="post-rating" id="rate-465678">1</span><img id="loader_post-465678" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-465678"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/mobile-learning-for-teachers-in-africa-and-the-middle-east-exploring-the-potential-of-mobile-techno/" target="" class=""><img src="/typo3temp/pics/bb74c2aa41.jpg" width="115" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/unesdoc.unesco.org/" target="_self" >unesdoc.unesco.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/mobile-learning-for-teachers-in-africa-and-the-middle-east-exploring-the-potential-of-mobile-techno/" target="_self" class="single_post_text">The paper looks closely at how a handful of programs have employed mobile devices to support teachers and enhance their professional development.This paper describes several projects that use mobile technologies to support teaching and learning as well as educational administration.  The paper argues that basic mobile phones (often referred to as “feature” phones) are not especially conducive for tasks beyond rudimentary communication.  While a number of projects have assisted teachers and</a> <a href="http://zunia.org/post/mobile-learning-for-teachers-in-africa-and-the-middle-east-exploring-the-potential-of-mobile-techno/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown">D C</a> on May 30, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/school-drop-out-patterns-causes-changes-and-policies/" target="_self" class="vert_gras">School Drop out: Patterns, Causes, Changes and Policies</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466450"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466450"></span><span class="post-rating" id="rate-466450">0</span><img id="loader_post-466450" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466450"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/school-drop-out-patterns-causes-changes-and-policies/" target="" class=""><img src="/typo3temp/pics/d412ec3ade.jpg" width="150" height="100" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/unesdoc.unesco.org/" target="_self" >unesdoc.unesco.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/school-drop-out-patterns-causes-changes-and-policies/" target="_self" class="single_post_text">Policies to improve school progression and reduce the numbers of children dropping out of school are critical if Universal Primary Education (UPE) is to be achieved. This background paper for the UNESCO GMR team draws on a range of resources to provide a synthesis on drop out. The paper focuses on patterns of participation, age-specific drop out rates, equity in drop out rates, and the link between over age enrollment and drop out rates. The paper outlines the main causes of drop out and</a> <a href="http://zunia.org/post/school-drop-out-patterns-causes-changes-and-policies/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=500195&amp;cHash=439273e020c1300ee73d93d18f9cfae7" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=500195&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/sonia_da129129be_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=500195&amp;cHash=439273e020c1300ee73d93d18f9cfae7" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=500195&mode=member_bubble" target_div_id="user_bubble_dropdown">Sonia Hossain</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/inferring-patterns-of-internal-migration-from-mobile-phone-call-records-evidence-from-rwanda/" target="_self" class="vert_gras">Inferring Patterns of Internal Migration from Mobile Phone Call Records: Evidence from Rwanda</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466351"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466351"></span><span class="post-rating" id="rate-466351">0</span><img id="loader_post-466351" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466351"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/inferring-patterns-of-internal-migration-from-mobile-phone-call-records-evidence-from-rwanda/" target="" class=""><img src="/typo3temp/pics/5503afec62.jpg" width="150" height="100" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/mobileactive.org/" target="_self" >mobileactive.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/inferring-patterns-of-internal-migration-from-mobile-phone-call-records-evidence-from-rwanda/" target="_self" class="single_post_text">Understanding the causes and effects of internal migration is critical to the effective design and implementation of policies that promote human development. However, a major impediment to deepening this understanding is the lack of reliable data on the movement of individuals within a country.  In this paper, we describe how mobile phones can provide a new source of data on internal migration. As these technologies quickly proliferate throughout the developing world, billions of individuals</a> <a href="http://zunia.org/post/inferring-patterns-of-internal-migration-from-mobile-phone-call-records-evidence-from-rwanda/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown">D C</a> on June 05, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/the-big-mac-theory-of-development/" target="_self" class="vert_gras">The Big Mac Theory of Development</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466561"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466561"></span><span class="post-rating" id="rate-466561">0</span><img id="loader_post-466561" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466561"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/the-big-mac-theory-of-development/" target="" class=""><img src="/typo3temp/pics/5711263c6d.jpg" width="150" height="135" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/businessweek.com/" target="_self" >businessweek.com</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/the-big-mac-theory-of-development/" target="_self" class="single_post_text">"Why do people in the U.S. earn so much more doing the exact same jobs as people in India? One reason is infrastructure: physical infrastructure such as (comparatively) good road and electricity networks, alongside economic infrastructure including a (somewhat) robust banking system. Institutions such as a (passable) set of commercial laws and (not completely capricious) regulatory regimes are another factor. The higher quality of these public goods allows the same amount of effort by the same</a> <a href="http://zunia.org/post/the-big-mac-theory-of-development/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/photo_1400_25x25" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=1400&amp;cHash=ae2e5384cbe0394229e796e6c408155c" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=1400&mode=member_bubble" target_div_id="user_bubble_dropdown">John Daly</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/the-united-states-and-latin-america-and-the-caribbean-highlights-of-economics-and-trade/" target="_self" class="vert_gras">The United States and Latin America and the Caribbean: Highlights of economics and trade</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466333"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466333"></span><span class="post-rating" id="rate-466333">0</span><img id="loader_post-466333" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466333"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/the-united-states-and-latin-america-and-the-caribbean-highlights-of-economics-and-trade/" target="" class=""><img src="/typo3temp/pics/5f222a684f.jpg" width="148" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/eclac.org/" target="_self" >eclac.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/the-united-states-and-latin-america-and-the-caribbean-highlights-of-economics-and-trade/" target="_self" class="single_post_text">The early years of this new decade have brought good news for Latin America and the Caribbean. The region weathered the international crisis with unprecedented resilience and emerged from it sooner and more strongly than the developed economies. It grew by 6% in 2010, and is expected to grow by over 4% in 2011. The region's economic reforms of past decades, its fiscal and macroeconomic prudence and its sound financial supervision, together with ever closer commercial ties with China and other</a> <a href="http://zunia.org/post/the-united-states-and-latin-america-and-the-caribbean-highlights-of-economics-and-trade/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown">D C</a> on June 05, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/risk-and-responsibility-in-a-hyperconnected-world-pathways-to-global-cyber-resilience/" target="_self" class="vert_gras">Risk and Responsibility in a Hyperconnected World: Pathways to Global Cyber Resilience</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466174"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466174"></span><span class="post-rating" id="rate-466174">0</span><img id="loader_post-466174" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466174"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/risk-and-responsibility-in-a-hyperconnected-world-pathways-to-global-cyber-resilience/" target="" class=""><img src="/typo3temp/pics/888d8117b8.jpg" width="125" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/www3.weforum.org/" target="_self" >www3.weforum.org</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/risk-and-responsibility-in-a-hyperconnected-world-pathways-to-global-cyber-resilience/" target="_self" class="single_post_text">This publication examines some of the key threats posed by hyperconnectivity and what should be done about them. Produced in collaboration with Deloitte, the report provides a multistakeholder perspective on ways to deal with increasing cyber attacks and to improve corporate governance.Aimed at executives, non-specialists and experienced practitioners alike, the report discusses key aspects of cyber resilience such as information sharing, trust and the economics of cyber security. It offers a</a> <a href="http://zunia.org/post/risk-and-responsibility-in-a-hyperconnected-world-pathways-to-global-cyber-resilience/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/portrait_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=505314&amp;cHash=8cb99910cb7ea7b23be8078fad6e9e22" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=505314&mode=member_bubble" target_div_id="user_bubble_dropdown">D C</a> on June 04, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div id="dgcontent_pi1_browser_separator"></div>
+
+<div id="dgcontent_pi1_browser">
+	<div id="dgcontent_pi1_browser_col_r">
+			<div id="dgcontent_pi1_browser_1">
+				<div id="dgcontent_pi1_singlepost_title"><a href="http://zunia.org/post/the-impact-of-maternal-educationliteracy-on-child-health-in-the-developed-world/" target="_self" class="vert_gras">The impact of maternal education/literacy on child health in the developed world</a></div>
+				<div id="dgcontent_pi1_adminacts"><span id="dgcontent_pi1_singlepost_rating">
+	<div class="post_rate_icons">	
+				<span class="post-rating-down" id="down-466447"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-down-active-16x16.gif" width="16" height="16" title="I dislike this" alt="I dislike this"></a></span>
+				<span class="post-rating-number"><span id="sign-466447"></span><span class="post-rating" id="rate-466447">0</span><img id="loader_post-466447" src="/typo3/ext/dg_content/img/rate-loader.gif" class="comment-rating-loader-img"/></span>	
+				<span class="post-rating-up" id="up-466447"><a href="http://zunia.org/member-log-in/?redirect_url=http%3A%2F%2Fzunia.org%2F%3Fno_cache%3D1" rel="nofollow"><img src="/fileadmin/knowledge/images/thumb-up-active-16x16.gif" width="16" height="16" title="I like this" alt="I like this"></a></span>
+	</div>	
+</span></div>
+				<div style="clear:both"></div>
+				<div id="dgcontent_pi1_singlepost_img"><a href="http://zunia.org/post/the-impact-of-maternal-educationliteracy-on-child-health-in-the-developed-world/" target="" class=""><img src="/typo3temp/pics/48be324c87.jpg" width="120" height="150" border="0" alt="" title="" /></a></div>
+				<div id="dgcontent_pi1_singlepost_text">
+					<div id="tx_dgcontentpi1_domainsource"><a href="http://zunia.org/source/childpovertysolutions.org.uk/" target="_self" >childpovertysolutions.org.uk</a><span id="tx_dgcontentpi1_domainsource_dash">&nbsp;&ndash;&nbsp;</span></div> 
+					<a href="http://zunia.org/post/the-impact-of-maternal-educationliteracy-on-child-health-in-the-developed-world/" target="_self" class="single_post_text">This report explores the importance of maternal education on child health and ways in which improving maternal education will close the child health disparity existing between the richest and the poorest. Maternal education, in this report, is linked to maternal literacy as a lower reading ability is likely to be indicative of a lower education and child health and welfare are adversely affected when mothers have both a low literacy and low educational attainment (Kutner et al, 2006). This</a> <a href="http://zunia.org/post/the-impact-of-maternal-educationliteracy-on-child-health-in-the-developed-world/" target="" class="">more...</a> 
+				</div>
+			</div>
+			<div style="clear:both"></div>
+			<div id="dgcontent_pi1_browser_2">	
+				<div id="dgcontent_pi1_singlepost_cont_l">Added by <a href="http://zunia.org/directory/profile/?profuserid=500195&amp;cHash=439273e020c1300ee73d93d18f9cfae7" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=500195&mode=member_bubble" target_div_id="user_bubble_dropdown"><img src="http://ict.zunia.org//uploads/tx_srfeuserregister/sonia_da129129be_25x25.jpg" style="border: 0pt none; padding: 0pt 5px; vertical-align: middle; outline: medium none; margin: 0pt;"></a><a href="http://zunia.org/directory/profile/?profuserid=500195&amp;cHash=439273e020c1300ee73d93d18f9cfae7" target="_self" target="_self" class="bubble" alt_href="/ajax-bubble/?profuserid=500195&mode=member_bubble" target_div_id="user_bubble_dropdown">Sonia Hossain</a> on June 06, 2012 &nbsp;&nbsp;&nbsp;&nbsp;</div>
+				<!--div id="dgcontent_pi1_singlepost_4">
+		        	<span id="dgcontent_pi1_singlepost_popularity_l"></span> <span id="dgcontent_pi1_popularity"></span> | <span id="dgcontent_pi1_singlepost_comm_l">Comments:</span> <span id="dgcontent_pi1_singlepost_comms"></span>
+		        </div-->
+			</div>
+			<!--div id="dgcontent_pi1_acts">&nbsp; &nbsp;|&nbsp; &nbsp;|&nbsp;</div-->
+	</div>
+</div>
+
+<div class="rez_recherche_cadre_2" style="margin: 10px 0px;">
+	<div id="pagination">
+		<div id="disp_res">Displaying results 1 to 15 out of 87498</div>
+			<div class="pagination_num">
+				 <span>&nbsp;&nbsp;<span class="page_on">1</span>
+	 <a href="http://zunia.org/p/1/" target="_self" ><span class="gris">2</span></a>	 
+
+	 <a href="http://zunia.org/p/2/" target="_self" ><span class="gris">3</span></a>	 
+
+	 <a href="http://zunia.org/p/3/" target="_self" ><span class="gris">4</span></a>	 
+
+	 <a href="http://zunia.org/p/4/" target="_self" ><span class="gris">5</span></a>	 
+
+	 <a href="http://zunia.org/p/5/" target="_self" ><span class="gris">6</span></a>	 
+
+	 <a href="http://zunia.org/p/6/" target="_self" ><span class="gris">7</span></a>	 
+&nbsp;
+	<a href="http://zunia.org/p/1/" target="_self"><span class="pagination_icons"><img src="/fileadmin/knowledge/images/next_page.gif" width="15" height="15" alt=""></span></a>
+ 	<a href="http://zunia.org/p/5833/" target="_self"><span class="pagination_icons"><img src="/fileadmin/knowledge/images/last_page.gif" width="15" height="15" alt=""></span></a>
+</span>
+			</div>
+	</div>
+</div>
+</div>
+	<div id="dgcontent_pi1_addfilter"></div>
+	<div id="dgcontent_pi1_rsslink">
+<span>
+<a href="http://zunia.org/posts-rss/?pid=11656&cHash=bd0bc12af38514f673f8a58e6c84560d"><img src="/fileadmin/knowledge/images/rssicon.gif" width="15" height="15"></a>&nbsp;<a href="http://zunia.org/posts-rss/?pid=11656&cHash=bd0bc12af38514f673f8a58e6c84560d"></a>
+</span>
+</div>
+</div>
+</div>
+						<div class="bottomContent_col3"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--></div>
+					</div>
+				</div>
+				<div id="ie_clearing">&nbsp;</div>
+			</div>
+		</div>
+		<div id="footer"><div id="footer_links"><a href="http://zunia.org/terms-and-conditions/" target="_self">Terms and conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://zunia.org/privacy/" target="_self">Privacy</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://zunia.org/contact-development-gateway/" target="_self">Contact Development Gateway</a></div><div id="dgMarket">Affiliated services&nbsp;<a href="http://www.dgmarket.com" target="_blank"><img src="/fileadmin/knowledge/images/logoDGM.gif" width="150" height="47" alt="dgmarket.com" title="dgmarket.com" /></a>&nbsp;<a href="http://www.aiddata.org" target="_blank"><img src="/fileadmin/knowledge/images/aiddata_logo.png" width="95" height="47" alt="aiddata.org" title="aiddata.org" /></a>&nbsp;<a href="http://www.monde.org" target="_blank"><img src="/fileadmin/knowledge/images/monde.gif" width="99" height="47" alt="monde.org" title="monde.org" /></a></div></div>
+	</div>
+</div>
+<div class="bubblemenu" id="bubblemenu"></div><div class="bubblemenu" id="account_dropdown"></div><div class="bubblemenu" id="my_posts_dropdown"></div><div class="bubblemenu" id="my_filters_dropdown"></div><div class="bubblemenu" id="my_groups_dropdown"></div><div class="bubblemenu" id="user_bubble_dropdown"></div><div id="connect"><a href="http://www.facebook.com/pages/Washington-DC/Development-Gateway/104900753640?ref=ts" target="_blank"><img src="/fileadmin/knowledge/images/facebook.png" title="Facebook" alt="Facebook" /></a><br /><a href="http://www.twitter.com/dgateway" target="_blank"><img src="/fileadmin/knowledge/images/twitter.png" target="_blank" title="Twitter" alt="Twitter" /></a><br />
+	<a href="http://zunia.org/posts-rss/"><img src="/fileadmin/knowledge/images/rss.png" title="RSS" alt="RSS" /></a><a href="http://zunia.org/posts-rss/"></a>
+<br /><a href="http://zunia.org/feedback/" target="FEopenLink" onclick="vHWin=window.open('http://zunia.org/feedback/','FEopenLink','resizable=0,scrollbars=1,location=0,width=500,height=730');vHWin.focus();return false;"><img src="/fileadmin/knowledge/images/feedback.png" title="Feedback" alt="Feedback" /></a></div>
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+pageTracker._trackPageview();
+//]]>
+</script>
+</body>
+</html>

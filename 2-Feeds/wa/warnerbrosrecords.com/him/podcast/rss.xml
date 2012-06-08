@@ -1,0 +1,91 @@
+<?
+header("Content-type: application/xml");
+
+ini_set('include_path', '.:/opt/php/lib/php'); 
+
+// include the DB abstraction layer
+require_once("/websites/PHP_COMMON/db_connect.php");
+require_once("/websites/PHP_COMMON/russ_pear.php");
+require_once("/websites/PHP_COMMON/lib/stripper.inc");
+
+function get_headers($url)
+{
+	$headers = array();
+	$url_info=parse_url($url);
+	$fp=fsockopen($url_info['host'], 80, $errno, $errstr, 30);
+	if($fp) {
+		$head = "HEAD ".$url_info['path']."?".$url_info['query']." HTTP/1.0\r\n" .
+			"Host: ".$url_info['host']."\r\n\r\n";
+		fputs( $fp, $head );
+		while(!feof($fp)) {
+			if($header=trim(fgets($fp, 1024))) {
+				if (preg_match("/^Content-Type: (.+)$/", $header, $matches))
+				{
+					$headers['type'] = $matches[1];
+				}
+				else if (preg_match("/^Content-Length: (\d+)$/", $header, $matches))
+				{
+					$headers['length'] = $matches[1];
+				}
+			}
+		}
+	}
+	return $headers;
+}
+
+
+// define the feed defaults
+$feed_id=468;
+//$feed_name = "The Used Raw Feed";
+//$feed_url  = "http://www.theused.net.com";
+
+// lookup feed name
+$sql = "SELECT first, last, url FROM artist WHERE id = '".$feed_id."'";
+if (DB::isError($result = $dbh->query($sql))) {
+	die($result->getUserInfo());
+}
+if($row = $result->fetchRow(DB_FETCHMODE_ASSOC))
+{
+	$feed_name = trim(stripslashes($row['first']).' '.stripslashes($row['last']));
+	$feed_url = $row['url'];
+}
+
+// execute query
+$sql = "SELECT id, title, body, UNIX_TIMESTAMP(thedate) as thedate, rss_url FROM artistnews WHERE aid='".$feed_id."' AND alive='1' ORDER BY thedate DESC LIMIT 0,15";
+if (DB::isError($result = $dbh->query($sql))) {
+	die($result->getUserInfo());
+}
+
+// output the data
+echo "<".'?xml version="1.0"?'.">\n";
+?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title><?=$feed_name?></title>
+		<link><?=$feed_url?></link>
+		<description>Hear Karri's Weekly Report On HIM About The Making Of Their New Album And More.</description>
+		<language>en-us</language>
+		<copyright>2004 Warner Bros Records</copyright>
+<?
+	while($row = $result->fetchRow(DB_FETCHMODE_ASSOC))
+	{
+		$title = clean_rss(stripslashes($row['title']));
+		$body = clean_rss(stripslashes($row['body']));
+		$pubDate = gmstrftime("%a, %d %b %Y %H:%M:%S GMT", $row['thedate']);
+		$rss_url = $row['rss_url'];
+		$headers = get_headers($rss_url);
+		$type = $headers['type'];
+		$length = $headers['length'];
+?>
+		<item>
+			<title><?=$title;?></title>
+			<link><?=$rss_url;?></link>
+			<description><?=$body;?></description>
+			<pubDate><?=$pubDate;?></pubDate>
+			<enclosure url="<?=$rss_url;?>" length="<?=$length;?>" type="<?=$type;?>" />
+		</item>
+<?
+	}
+?>
+    </channel>
+</rss>

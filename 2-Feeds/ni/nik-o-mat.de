@@ -1,0 +1,664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- JSN_Epic_PRO 4.2.3 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" dir="ltr">
+<head>
+	  <base href="http://www.nik-o-mat.de/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="freie Software, Joomla, Übersetzungen, Computertipps, Freeware, OpenSource, Kubuntu, Tipps, Niko Winckel" />
+  <meta name="description" content="nik-o-mat - Nikos Wissen Online, Tipps und Tricks rund um den Computer, Joomla!, freier Software und kostenlosen Programmen bzw. Alternativen zu kostenpflichtigen Programmen" />
+  <meta name="generator" content="nik-o-mat.de" />
+  <title>nik-o-mat - Nikos Wissen Online (...weil es geht!) - freie Software und Alternativen zu kostenpflichtigen Programmen</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/jsn_epic_pro/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?v=1014" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?version=1014" type="text/css" />
+  <link rel="stylesheet" href="/components/com_jcomments/tpl/default/style.css?v=12" type="text/css" />
+  <link rel="stylesheet" href="http://www.nik-o-mat.de/tmp/jsn_epic_pro_css_483ad11cb0954fe3b15409d46c07093c.php" type="text/css" />
+  <link rel="stylesheet" href="/templates/jsn_epic_pro/css/print.css" type="text/css" media="Print"  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play:regular,bold" type="text/css" />
+  <link rel="stylesheet" href="http://www.nik-o-mat.de//components/com_rokdownloads/css/rokdownloads-modules.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/css/rokajaxsearch.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/themes/blue/rokajaxsearch-theme.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_tweetdisplayback/media/css/construct-css3.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_2clicksocialbuttons/2clicksocialbuttons.css" type="text/css" />
+  <style type="text/css">
+    <!--
+ul.jclistbox-yellow icon-user { padding: 0; list-style-image: none; list-style-type: none; }
+ul.jclistbox-yellow icon-user li {background-image: none; list-style: none; list-style-image: none; margin-left: 5px !important; margin-left: 0; display: block; overflow: hidden; }
+ul.jclistbox-yellow icon-user span img {width: auto; height: auto; float: none;}
+
+    -->
+  </style>
+  <script type="text/javascript" src="http://www.nik-o-mat.de/tmp/jsn_epic_pro_javascript_525c66bd1747fa06f6198531f0cae777.php"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/jcemediabox.js?v=1014"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/mediaobject.js?v=1014"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/addons/default.js?v=1014"></script>
+  <script type="text/javascript" src="/modules/mod_rokajaxsearch/js/rokajaxsearch-mt1.2.js"></script>
+  <script type="text/javascript" src="/modules/mod_2clicksocialbuttons/2clicksocialbuttons.js"></script>
+  <script type="text/javascript">
+	JCEMediaObject.init('/', {flash:"10,0,22,87",windowmedia:"5,1,52,701",quicktime:"6,0,2,0",realmedia:"7,0,0,0",shockwave:"8,5,1,0"});JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrolling:"fixed",close:2,labels:{'close':'Close','next':'Next','previous':'Previous','cancel':'Cancel','numbers':'{$current} of {$total}'}},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});
+			var templateParams				= {};
+			templateParams.templatePath		= "/templates/jsn_epic_pro";
+			templateParams.enableRTL		= false;
+			templateParams.enableMMFX		= true;
+			templateParams.enableSMFX		= true;
+			templateParams.enableGotopLink	= true;
+			templateParams.enableMobile		= false;
+			templateParams.mobileDevice		= false;
+			templateParams.enableJQuery		= false;
+
+			JSNTemplate.initTemplate(templateParams);
+			
+			window.addEvent("domready", function() {
+				SqueezeBox.initialize({});
+				$$("a.modal").each(function(el) {
+					el.addEvent("click", function(e) {
+						new Event(e).stop();
+						SqueezeBox.fromElement(el);
+					});
+				});
+			}); 			
+			
+	window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': ' Ergebnisse',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'MEDIUM',
+					'safesearch': 'OFF',
+					'search': ' Suche...',
+					'readmore': ' Weiterlesen...',
+					'noresults': ' Keine Ergebnisse',
+					'advsearch': ' Erweiterte Suche',
+					'page': ' Seite',
+					'page_of': ' von',
+					'searchlink': 'http://www.nik-o-mat.de/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'http://www.nik-o-mat.de/index.php?option=com_search&amp;view=search',
+					'uribase': 'http://www.nik-o-mat.de/',
+					'limit': '3',
+					'perpage': '5',
+					'ordering': 'newest',
+					'phrase': 'exact',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': ' Alle Ergebnisse anzeigen',
+					'estimated': ' erwartet',
+					'showestimated': 1,
+					'showpagination': 1,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 1
+				});
+			});/* <![CDATA[ */ var twittername = "nikomatoriginal"; /* ]]> */
+  </script>
+  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+	<style type="text/css">
+		#jsn-page {
+			width: 1024px;
+		}
+			
+		#jsn-pos-promo-left {
+			float: left;
+			width: 23%;
+		}
+		#jsn-pos-promo {
+			width: 100%;
+		}
+		#jsn-pos-promo-right {
+			float: right;
+			width: 23%;
+		}
+		
+		#jsn-content_inner {
+			right: 77%;
+		}
+		#jsn-content_inner1 {
+			left: 77%;
+		}
+			
+		#jsn-content_inner2 {
+			left: 77%;
+		}
+		#jsn-content_inner3 {
+			right: 77%;
+		}
+			
+		#jsn-leftsidecontent {
+			float: left;
+			width: 23%;
+			left: -54%;
+		}
+		#jsn-maincontent {
+			float: left;
+			width: 54%;
+			left: 23%;
+		}
+		#jsn-rightsidecontent {
+			float: right;
+			width: 23%;
+		}
+		
+		#jsn-pos-innerleft {
+			float: left;
+			width: 25%;
+			left: -100%;
+		}
+		#jsn-centercol {
+			float: left;
+			width: 100%;
+			left: 0;
+		}
+		#jsn-pos-innerright {
+			float: right;
+			width: 25%;
+		}
+		
+		#jsn-master.jsn-textstyle-business {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		#jsn-master.jsn-textstyle-business h1,
+		#jsn-master.jsn-textstyle-business h2,
+		#jsn-master.jsn-textstyle-business h3,
+		#jsn-master.jsn-textstyle-business h4,
+		#jsn-master.jsn-textstyle-business h5,
+		#jsn-master.jsn-textstyle-business h6,
+		#jsn-master.jsn-textstyle-business ul.menu-mainmenu a,
+		#jsn-master.jsn-textstyle-business ul.menu-mainmenu span,
+		#jsn-master.jsn-textstyle-business .componentheading,
+		#jsn-master.jsn-textstyle-business .contentheading {
+			font-family: 'Play', Verdana, Geneva, Arial, Helvetica, sans-serif;
+		}
+	
+		#jsn-master.jsn-textstyle-business.jsn-textsize-medium {
+			font-size: 75%;
+		}
+	
+		#jsn-pos-mainmenu div.jsn-modulecontainer ul.menu-mainmenu ul,
+		#jsn-pos-mainmenu div.jsn-modulecontainer ul.menu-mainmenu ul li {
+			width: 185px;
+		}
+		#jsn-pos-mainmenu div.jsn-modulecontainer ul.menu-mainmenu ul ul {
+			margin-left: 184px;
+		}
+		
+		div.jsn-modulecontainer ul.menu-sidemenu ul,
+		div.jsn-modulecontainer ul.menu-sidemenu ul li {
+			width: 185px;
+		}
+		div.jsn-modulecontainer ul.menu-sidemenu ul ul {
+			margin-left: 184px;
+		}
+		</style></head>
+<body id="jsn-master" class="jsn-textstyle-business jsn-textsize-medium jsn-color-blue jsn-direction-ltr jsn-specialfont jsn-css3 jsn-mmtransparency jsn-smtransparency">
+	<a name="top" id="top"></a>
+	<div id="jsn-page">
+			<div id="jsn-pos-stick-rightmiddle">
+			<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-5709295566898282";
+/* nikomat-rechts */
+google_ad_slot = "2495466462";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script><script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div class="clearbreak"></div></div></div></div>
+		</div>
+			<div id="jsn-header">
+			<div id="jsn-logo">
+			<h1 class="jsn-topheading">nik-o-mat - Nikos Wissen Online (...weil es geht!) - freie Software und Alternativen zu kostenpflichtigen Programmen - nik-o-mat - Nikos Wissen Online (...weil es geht!) - freie Software und Alternativen zu kostenpflichtigen Programmen</h1><a href="/index.php" title="nik-o-mat - Nikos Wissen Online (...weil es geht!) - freie Software und Alternativen zu kostenpflichtigen Programmen">				<img src="/templates/jsn_epic_pro/images/logo.png" alt="nik-o-mat - Nikos Wissen Online (...weil es geht!) - freie Software und Alternativen zu kostenpflichtigen Programmen" />
+			</a>				<div id="logo-right"><div class="bannergroup">
+
+<div class="banneritem"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-5709295566898282";
+/* 468x60, Erstellt 11.01.08 */
+google_ad_slot = "2309355910";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div class="clr"></div>
+	</div>
+
+</div></div>
+						</div>
+			<div id="jsn-headerright">
+									</div>
+		</div>
+		<div id="jsn-body">
+					<div id="jsn-content" class="jsn-hasleft jsn-hasright ">
+				<div id="jsn-content_inner"><div id="jsn-content_inner1"><div id="jsn-content_inner2"><div id="jsn-content_inner3"><div id="jsn-content_inner4"><div id="jsn-content_inner5"><div id="jsn-content_inner6"><div id="jsn-content_inner7">
+					<div id="jsn-maincontent">
+						<div id="jsn-centercol">
+							<div id="jsn-centercol_inner">
+										<div id="jsn-pos-breadcrumbs">
+									<span class="breadcrumbs pathway clearafter">
+<span class="current">Start</span></span>
+								</div>
+										
+										<div id="jsn-mainbody-content">
+											<div id="jsn-mainbody">
+										<div class="com-content ">
+<div class="front-page-blog">
+	<div class="jsn-leading">
+					<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/joomlafan/31/273-joomla-erweiterungen-die-empfehlungsliste.html" class="contentpagetitle">
+			Joomla!-Erweiterungen - Die Empfehlungsliste</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=31&amp;id=273:joomla-erweiterungen-die-empfehlungsliste&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=31&amp;id=273:joomla-erweiterungen-die-empfehlungsliste&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvam9vbWxhZmFuLzMxLzI3My1qb29tbGEtZXJ3ZWl0ZXJ1bmdlbi1kaWUtZW1wZmVobHVuZ3NsaXN0ZS5odG1s" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+Liebe JoomlaFANs,<br /><a href="/joomlafan/31/273-joomla-erweiterungen-die-empfehlungsliste.html" title="Joomla!-Erweiterungen - Die Empfehlungsliste"><img src="/images/stories/joomla-logo.png" width="120" height="120" alt="joomla-logo" style="float: right;" /></a><br />oft werde ich gefragt, welche Joomla!-Erweiterungen ich empfehlen würde. Dieser Frage möchte ich nun mit einer Antwort nachkommen und mal eine offizielle nik-o-mat-Empfehlungsliste vorstellen. Sie erhebt keinen Anspruch auf Vollständigkeit und wird sicher im Laufe der Zeit erweitert und verändert. Gern möchte ich auch eure Vorschläge aufnehmen! Kommentiert also diesen Artikel und schlagt eure Lieblingserweiterung vor. Der Schwerpunkt liegt auch hier auf kostenfreien Erweiterungen für euer Joomla!.<br /><div class="jcomments-links"><a class="readmore-link" href="/joomlafan/31/273-joomla-erweiterungen-die-empfehlungsliste.html" title="Joomla!-Erweiterungen - Die Empfehlungsliste">Weiterlesen...</a> <a href="/joomlafan/31/273-joomla-erweiterungen-die-empfehlungsliste.html#comments" class="comments-link">Kommentare (2)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+		</div>
+			<div class="jsn-articlecols" style="width:100%">
+				<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/joomlafan/31/274-joomla-25-ist-da.html" class="contentpagetitle">
+			Joomla 2.5 ist da!</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=31&amp;id=274:joomla-25-ist-da&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=31&amp;id=274:joomla-25-ist-da&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvam9vbWxhZmFuLzMxLzI3NC1qb29tbGEtMjUtaXN0LWRhLmh0bWw%3D" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+<a href="/joomlafan/31/274-joomla-25-ist-da.html" title="Joomla! 2.5 ist da"><img src="/images/stories/joomla25-200x200.png" width="159" height="101" alt="Joomla! 2.5 ist da" style="float: right;" /></a>Liebe Joomla!-Gemeinde. Das lang ersehnte Joomla! 2.5 ist heute erschienen. Die ersten Erfahrungen und Stolpersteine sind auch schon gesichtet. Dieser kleine Artikel soll einen kurzen Überblick über die Stolpersteine geben und gleichzeitig die Aktualisierungsmöglichkeiten aufzeigen.<br /><div class="jcomments-links"><a class="readmore-link" href="/joomlafan/31/274-joomla-25-ist-da.html" title="Joomla 2.5 ist da!">Weiterlesen...</a> <a href="/joomlafan/31/274-joomla-25-ist-da.html#comments" class="comments-link">Kommentare (6)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/hardware/272-netzwerkspeicher-ts-412-nicht-nur-datenspeicher.html" class="contentpagetitle">
+			Netzwerkspeicher TS-412 - Nicht nur Datenspeicher</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=13&amp;id=272:netzwerkspeicher-ts-412-nicht-nur-datenspeicher&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=13&amp;id=272:netzwerkspeicher-ts-412-nicht-nur-datenspeicher&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvaGFyZHdhcmUvMjcyLW5ldHp3ZXJrc3BlaWNoZXItdHMtNDEyLW5pY2h0LW51ci1kYXRlbnNwZWljaGVyLmh0bWw%3D" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+<a href="/hardware/272-netzwerkspeicher-ts-412-nicht-nur-datenspeicher.html"><img src="/images/stories/TS-412_kl.png" width="128" height="112" alt="Netzwerkspeicher TS-412 - Nicht nur Datenspeicher" style="float: right;" /></a>Liebe Gemeinde,<br />schon oft habe ich überlegt, wie ich meine Datenmenge speichern kann. Schließlich habe ich jetzt eine kleine Tochter und es entstehen viele tolle Fotos und kleine Videos, die auf keinen Fall verloren gehen dürfen. Gleichzeitig habe ich eine Menge Musik und natürlich auch viele geschriebene Dokumente, die ich noch einige Zeit aufbewahren muss. Die Musik möchte ich aber auch an meine PlayStation 3 weitergeben, ohne dass ständig mein Desktoprechner laufen soll. Die Lösung: QNAP TS-412 - ein Netzwerkspeicher mit Streaming-Server.<br /><div class="jcomments-links"><a class="readmore-link" href="/hardware/272-netzwerkspeicher-ts-412-nicht-nur-datenspeicher.html" title="Netzwerkspeicher TS-412 - Nicht nur Datenspeicher">Weiterlesen...</a> <a href="/hardware/272-netzwerkspeicher-ts-412-nicht-nur-datenspeicher.html#comments" class="comments-link">Kommentare (6)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/joomlafan/31/271-das-templateclub-dilemma-oder-wie-es-sein-sollte.html" class="contentpagetitle">
+			Das Templateclub-Dilemma oder wie es sein sollte!</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=31&amp;id=271:das-templateclub-dilemma-oder-wie-es-sein-sollte&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=31&amp;id=271:das-templateclub-dilemma-oder-wie-es-sein-sollte&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvam9vbWxhZmFuLzMxLzI3MS1kYXMtdGVtcGxhdGVjbHViLWRpbGVtbWEtb2Rlci13aWUtZXMtc2Vpbi1zb2xsdGUuaHRtbA%3D%3D" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+<a href="/joomlafan/31/271-das-templateclub-dilemma-oder-wie-es-sein-sollte.html" title="Das TemplateClub-Dilemma oder wie es sein sollte"><img src="/images/stories/templates.png" width="128" height="128" alt="Das Templateclub-Dilemma oder wie es sein sollte!" style="float: right;" /></a>Meiner Meinung nach,<br />startet ja jeder&nbsp;der ein Joomla! betreibt oder für einen Kunden einrichtet meist mit einer Idee im Kopf, wie das Ganze aussehen soll. Zur Gestaltung der Seite gibt es nun mehrere Ansätze: Entweder ist man nun so ein grafischer Meister wie Alexander Schmidt und bastelt mit Hilfe eines Grundgerüstes (z.B. dem <a href="http://www.blank.vc" target="_blank">Blank Template</a>) das Design selbst, wählt aus vielen kostenfreien Templates aus (z.B. bei <a href="http://www.templates4all.de" target="_blank">www.templates4all.de</a>) oder man kauft ein Template aus einer Templateschmiede. In der Regel erhält man mit dem Abonemment auch gleich einen gewissen Zeitraum Unterstützung zur Einrichtung bzw. bei Problemen mit dem Template.<br /><div class="jcomments-links"><a class="readmore-link" href="/joomlafan/31/271-das-templateclub-dilemma-oder-wie-es-sein-sollte.html" title="Das Templateclub-Dilemma oder wie es sein sollte!">Weiterlesen...</a> <a href="/joomlafan/31/271-das-templateclub-dilemma-oder-wie-es-sein-sollte.html#comments" class="comments-link">Kommentare (7)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/joomlafan/31/269-joomla-mit-admintools-absichern.html" class="contentpagetitle">
+			Joomla! mit AdminTools absichern</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=31&amp;id=269:joomla-mit-admintools-absichern&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=31&amp;id=269:joomla-mit-admintools-absichern&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvam9vbWxhZmFuLzMxLzI2OS1qb29tbGEtbWl0LWFkbWludG9vbHMtYWJzaWNoZXJuLmh0bWw%3D" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+<a title="Joomla mit AdminTools absichern" href="/joomlafan/31/269-joomla-mit-admintools-absichern.html"><img style="float: right;" title="Joomla mit AdminTools absichern" alt="Joomla mit AdminTools absichern" src="/images/stories/admintools-logo.png" height="128" width="128" /></a>Jede Seite im Netz wird regelmäßig von Angriffen heimgesucht. Egal ob es böse, ungewollte Bots, gekaperte Server-Zombies, ScriptKiddies oder gewiefte Hacker sind. Der JoomlaFAN sichert sein Joomla!-Projekt ab. AdminTools ist hier ein großer Helfer für die Joomla!-Sicherheit.<br /><br />AdminTools kommt in zwei Varianten daher. Dieser Artikel beschäftigt sich mit der freien Version. An geeigneter Stelle zeige ich die Möglichkeiten der kostenpflichtigen Variante auf, so dass jeder selbst entscheiden kann, ob er eine Pro-Version kaufen möchte. <br /><div class="jcomments-links"><a class="readmore-link" href="/joomlafan/31/269-joomla-mit-admintools-absichern.html" title="Joomla! mit AdminTools absichern">Weiterlesen...</a> <a href="/joomlafan/31/269-joomla-mit-admintools-absichern.html#comments" class="comments-link">Kommentare (9)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/joomlafan/31/268-joomla-17-ist-da-wie-aktualisiere-ich-richtig-oder-wie-migriere-ich-von-joomla-15.html" class="contentpagetitle">
+			Joomla 1.7 ist da - Wie aktualisiere ich richtig oder wie migriere ich von Joomla 1.5?!</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=31&amp;id=268:joomla-17-ist-da-wie-aktualisiere-ich-richtig-oder-wie-migriere-ich-von-joomla-15&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=31&amp;id=268:joomla-17-ist-da-wie-aktualisiere-ich-richtig-oder-wie-migriere-ich-von-joomla-15&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvam9vbWxhZmFuLzMxLzI2OC1qb29tbGEtMTctaXN0LWRhLXdpZS1ha3R1YWxpc2llcmUtaWNoLXJpY2h0aWctb2Rlci13aWUtbWlncmllcmUtaWNoLXZvbi1qb29tbGEtMTUuaHRtbA%3D%3D" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+<p><a title="Joomla 1.7 ist da - Wie aktualisiere ich richtig oder wie migriere ich von Joomla 1.5?!" href="/joomlafan/31/268-joomla-17-ist-da-wie-aktualisiere-ich-richtig-oder-wie-migriere-ich-von-joomla-15.html"><img title="Auf Joomla! 1.7 migrieren oder aktualisieren" style="float: right;" alt="Auf Joomla! 1.7 migrieren oder aktualisieren" src="/images/stories/version-17.png" height="125" width="180" /></a>Die neue Joomla! 1.7 Version ist da. Gleichzeitig gilt diese Version als Sicherheitsaktualisierung für Joomla! 1.6.5. Jeder, der eine 1.6er Version einsetzt sollte sein Joomla! aktualisieren. Doch wie läuft das genau? Und wenn man eine Joomla 1.5er Version hat, wie kommt man dann zu neuen Version? Dieser Artikel soll eine kleine Hilfestellung dazu geben.</p>
+<div class="jcomments-links"><a class="readmore-link" href="/joomlafan/31/268-joomla-17-ist-da-wie-aktualisiere-ich-richtig-oder-wie-migriere-ich-von-joomla-15.html" title="Joomla 1.7 ist da - Wie aktualisiere ich richtig oder wie migriere ich von Joomla 1.5?!">Weiterlesen...</a> <a href="/joomlafan/31/268-joomla-17-ist-da-wie-aktualisiere-ich-richtig-oder-wie-migriere-ich-von-joomla-15.html#comments" class="comments-link">Kommentare (6)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+<div class="jsn-article">
+	<h2 class="contentheading">
+					<a href="/joomlafan/31/267-joomla-fuer-handys-lesbar-machen.html" class="contentpagetitle">
+			Joomla für Handys lesbar machen</a>
+				</h2>
+	<div class="jsn-article-toolbar">
+				<ul class="jsn-article-tools">
+							<li><a href="/index.php?view=article&amp;catid=31&amp;id=267:joomla-fuer-handys-lesbar-machen&amp;format=pdf" class="jsn-article-pdf-button" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/index.php?view=article&amp;catid=31&amp;id=267:joomla-fuer-handys-lesbar-machen&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" class="jsn-article-print-button" title="Druckbutton anzeigen?" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow">&nbsp;</a></li>
+										<li><a href="/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5uaWstby1tYXQuZGUvam9vbWxhZmFuLzMxLzI2Ny1qb29tbGEtZnVlci1oYW5keXMtbGVzYmFyLW1hY2hlbi5odG1s" class="jsn-article-email-button" title="E-Mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;">&nbsp;</a></li>
+								</ul>
+						<div class="jsn-article-info">
+						<p class="small author">
+				Geschrieben von: Niko Winckel			</p>
+								</div>
+			</div>
+<p><a href="/joomlafan/31/267-joomla-fuer-handys-lesbar-machen.html"><img title="Joomla für Handys lesbar machen" style="float: right;" alt="Joomla für Handys lesbar machen" src="/images/stories/mobilejoomla/mobile-joomla.png" height="128" width="128" /></a>Liebe JoomlaFANs,<br /><br />die Nutzung der mobilen Geräte für den kleinen Blick unterwegs ins Netz wächst stetig. Dies bestätigen die Umfrage und <a target="_blank" href="http://www.destatis.de/jetspeed/portal/cms/Sites/destatis/Internet/DE/Presse/pm/2011/02/PD11__060__63931,templateId=renderPrint.psml">Statistiken</a>. Grund genug, sein Joomla-Projekt auf "Mobil-Fähigkeit" zu prüfen. Denn im Prinzip gibt es mehrere Möglichkeiten und Hilfen, die man nutzen kann. Lest weiter, wie der geneigte Administrator leicht seine Jomla-Seite "mobilisiert".</p>
+<div class="jcomments-links"><a class="readmore-link" href="/joomlafan/31/267-joomla-fuer-handys-lesbar-machen.html" title="Joomla für Handys lesbar machen">Weiterlesen...</a> <a href="/joomlafan/31/267-joomla-fuer-handys-lesbar-machen.html#comments" class="comments-link">Kommentare (4)</a> </div>
+</div>
+<span class="article_separator">&nbsp;</span>
+			</div>
+			<div class="clearbreak"></div>
+	<div class="blog_more clearafter">
+		<h2>
+	Weitere Beiträge...</h2>
+<ul>
+	<li><a class="blogsection" href="/internet/15/265-mediatheken-anzapfen-mit-mediathekview.html">Mediatheken anzapfen mit MediathekView</a></li>
+	<li><a class="blogsection" href="/joomlafan/31/260-webseiten-sichern-mit-akeebabackup.html">Webseiten sichern mit AkeebaBackup</a></li>
+	<li><a class="blogsection" href="/joomlafan/31/257-rockettheme-einige-erweiterungen-uebersetzt.html">Rockettheme - Einige Erweiterungen übersetzt</a></li>
+</ul>	</div>
+</div>
+</div>
+									</div>
+										</div>
+										<div id="jsn-pos-user-bottom" class="jsn-modulescontainer jsn-horizontallayout jsn-modulescontainer1 clearafter">
+									<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Weitersagen...</span></h3><div class="jsn-modulecontent"><!-- 2CSB - 2 Click Social Buttons for Joomla 1.5 by Kubik-Rubik.de - Viktor Vogel --><div id="social_bookmarks"><ul class="social_share"><li id="facebook_button"><span class="switch off"></span><img alt="Facebook Like Button" src="http://www.nik-o-mat.de/modules/mod_2clicksocialbuttons/images/f_off.png" /></li><li id="twitter_button"><span class="switch off"></span><img alt="Twitter Tweet Button" src="http://www.nik-o-mat.de/modules/mod_2clicksocialbuttons/images/t_off.png" /></li><li id="googleplus_button"><span class="switch off"></span><img alt="Google Plus One Button" src="http://www.nik-o-mat.de/modules/mod_2clicksocialbuttons/images/gp_off.png" /></li><li id="loadall_button"><span class="switch off"></span><img alt="Load all Button" src="http://www.nik-o-mat.de/modules/mod_2clicksocialbuttons/images/all_off.png" /></li><li id="info_button"><span class="info_tooltip" title="Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter oder Google in die USA übertragen und unter Umständen auch dort gespeichert."><img alt="Info Button" src="http://www.nik-o-mat.de/modules/mod_2clicksocialbuttons/images/info_button.png" /></span></li></ul></div><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div>
+								</div>
+									</div>
+						</div>
+							<div class="clearbreak"></div></div>
+							<div id="jsn-leftsidecontent">
+						<div id="jsn-leftsidecontent_inner">
+										<div id="jsn-leftside-middle" class="jsn-positionscontainer jsn-positionscontainer1">
+					                            <div id="jsn-pos-left">
+	                             	<div class="box-blue icon-home jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Hauptmenü</span></h3><div class="jsn-modulecontent"><ul class="menu-treemenu menu-iconmenu menu-richmenu"><li class="active item100001 order1 icon-home first current"><a href="http://www.nik-o-mat.de/" class="current"><span>Startseite</span></a></li><li class="item103 order2 icon-hardware"><a href="/hardware.html"><span>Hardware</span></a></li><li class="parent item36 order3 icon-software"><a href="/software.html"><span>Software</span></a></li><li class="item28 order4 icon-internet"><a href="/internet.html"><span>Internet</span></a></li><li class="item29 order5 icon-netzwerk"><a href="/netzwerk.html"><span>Netzwerk</span></a></li><li class="parent item48 order6 icon-joomla"><a href="/joomlafan.html"><span>JoomlaFAN</span></a></li><li class="item31 order7 icon-mikro"><a href="/meine-meinung.html"><span>Meine Meinung...</span></a></li><li class="item91 order8 icon-rss"><a href="/podcast.html"><span>Podcast</span></a></li><li class="item106 order9 icon-search"><a href="/suche.html"><span>Suche</span></a></li><li class="parent item39 order10 icon-mail"><a href="/kontakt.html"><span>Kontakt</span></a></li><li class="item108 order11 icon-download"><a href="/downloads.html"><span>Downloads</span></a></li><li class="item109 order12 icon-sitemap"><a href="/sitemap.html"><span>Sitemap</span></a></li><li class="parent item90 order13 icon-nlogo last"><a href="/impressum.html"><span>Impressum</span></a></li></ul><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="box-yellow icon-comment jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">nik-o-mat Twitter</span></h3><div class="jsn-modulecontent">    <div class="TDB-tweet TDB-tweetavatar">
+		<div class="TDB-tweet-container TDB-tweet-align-left">
+					<div class="TDB-tweet-user">
+				<b><a href="http://twitter.com/intent/user?screen_name=nikomatoriginal" rel="nofollow">nikomatoriginal</a></b>			</div>
+					<span class="TDB-tweet-avatar-left">
+				<img align="left" alt="nikomatoriginal" src="http://a0.twimg.com/profile_images/368209403/n-logo_normal.png" width="32px"/>			</span>
+				<div class='TDB-tweet-text'>#<a class="hashlink" href="http://twitter.com/search?q=Firefox" target="_blank" rel="nofollow">Firefox</a> und #<a class="hashlink" href="http://twitter.com/search?q=Thunderbird" target="_blank" rel="nofollow">Thunderbird</a> in Version 13 erschienen --&gt; <a href="http://t.co/bcwX42R6" target="_blank" rel="nofollow">heise.de/newsticker/mel…</a> #<a class="hashlink" href="http://twitter.com/search?q=update" target="_blank" rel="nofollow">update</a></div>
+					<p class="TDB-tweet-time"><a href="http://twitter.com/nikomatoriginal/status/210406638698496003" rel="nofollow">9 Stunden her</a> &bull; 1 retweet</p>
+					<div class="TDB-tweet-actions"><span class="TDB-action TDB-reply"><a href="http://twitter.com/intent/tweet?in_reply_to=210406638698496003" title="Reply" rel="nofollow"></a></span><span class="TDB-action TDB-retweet"><a href="http://twitter.com/intent/retweet?tweet_id=210406638698496003" title="Retweet" rel="nofollow"></a></span><span class="TDB-action TDB-favorite"><a href="http://twitter.com/intent/favorite?tweet_id=210406638698496003" title="Favorite" rel="nofollow"></a></span></div>
+				</div>
+	</div>
+	<div class="clr"></div>
+	    <div class="TDB-tweet TDB-tweetavatar">
+		<div class="TDB-tweet-container TDB-tweet-align-left">
+					<div class="TDB-tweet-user">
+				<b><a href="http://twitter.com/intent/user?screen_name=joomla_magazin" rel="nofollow">joomla_magazin</a></b>			</div>
+					<span class="TDB-tweet-avatar-left">
+				<img align="left" alt="joomla_magazin" src="http://a0.twimg.com/profile_images/1683909581/zeitungen02-140_normal.jpg" width="32px"/>			</span>
+				<div class='TDB-tweet-text'>Die neue Ausgabe ist da: Joomla!Magazin 2/2012 <a href="http://t.co/dxfDibNn" target="_blank" rel="nofollow">bit.ly/MeNgLy</a> #<a class="hashlink" href="http://twitter.com/search?q=joomla" target="_blank" rel="nofollow">joomla</a></div>
+					<p class="TDB-tweet-time">Retweeted <a href="http://twitter.com/nikomatoriginal/status/210232138497396736" rel="nofollow">20 Stunden her</a> &bull; 4 retweets</p>
+					<div class="TDB-tweet-actions"><span class="TDB-action TDB-reply"><a href="http://twitter.com/intent/tweet?in_reply_to=210232138497396736" title="Reply" rel="nofollow"></a></span><span class="TDB-action TDB-retweet"><a href="http://twitter.com/intent/retweet?tweet_id=210232138497396736" title="Retweet" rel="nofollow"></a></span><span class="TDB-action TDB-favorite"><a href="http://twitter.com/intent/favorite?tweet_id=210232138497396736" title="Favorite" rel="nofollow"></a></span></div>
+				</div>
+	</div>
+	<div class="clr"></div>
+	    <div class="TDB-tweet TDB-tweetavatar TDB-last-tweet">
+		<div class="TDB-tweet-container TDB-tweet-align-left">
+					<div class="TDB-tweet-user">
+				<b><a href="http://twitter.com/intent/user?screen_name=nikomatoriginal" rel="nofollow">nikomatoriginal</a></b>			</div>
+					<span class="TDB-tweet-avatar-left">
+				<img align="left" alt="nikomatoriginal" src="http://a0.twimg.com/profile_images/368209403/n-logo_normal.png" width="32px"/>			</span>
+				<div class='TDB-tweet-text'>Wieder mal eine tolle Erweiterung von @<a class="userlink" href="http://twitter.com/intent/user?screen_name=viktorvogel" rel="nofollow">viktorvogel</a> - Author Info Box - Released Version 2.5-2 - <a href="http://t.co/aw52HPuS" target="_blank" rel="nofollow">joomla-extensions.kubik-rubik.de/aib-author-inf…</a> #<a class="hashlink" href="http://twitter.com/search?q=joomla" target="_blank" rel="nofollow">joomla</a> #<a class="hashlink" href="http://twitter.com/search?q=jpositiv" target="_blank" rel="nofollow">jpositiv</a></div>
+					<p class="TDB-tweet-time"><a href="http://twitter.com/nikomatoriginal/status/210006024864808960" rel="nofollow">vor 1 Tag</a> in reply to <a href="http://twitter.com/viktorvogel/status/209772411275591681" rel="nofollow">viktorvogel</a></p>
+					<div class="TDB-tweet-actions"><span class="TDB-action TDB-reply"><a href="http://twitter.com/intent/tweet?in_reply_to=210006024864808960" title="Reply" rel="nofollow"></a></span><span class="TDB-action TDB-retweet"><a href="http://twitter.com/intent/retweet?tweet_id=210006024864808960" title="Retweet" rel="nofollow"></a></span><span class="TDB-action TDB-favorite"><a href="http://twitter.com/intent/favorite?tweet_id=210006024864808960" title="Favorite" rel="nofollow"></a></span></div>
+				</div>
+	</div>
+	<div class="clr"></div>
+	<div class="TDB-footer-follow-img"><a href="http://twitter.com/intent/user?screen_name=nikomatoriginal" rel="nofollow"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-b.png" alt="Follow nikomatoriginal on Twitter" align="middle" /></a></div><div id="pixel">&nbsp;</div>
+<div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="box-blue icon-star jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Beliebteste Artikel</span></h3><div class="jsn-modulecontent"><ul class="mostreadbox-blue icon-star">
+	<li class="mostreadbox-blue icon-star">
+		<a href="/joomlafan/31/175-update-joomla-backup.html" class="mostreadbox-blue icon-star">
+			[Update:] Joomla Backup</a>
+	</li>
+	<li class="mostreadbox-blue icon-star">
+		<a href="/joomlafan/31/260-webseiten-sichern-mit-akeebabackup.html" class="mostreadbox-blue icon-star">
+			Webseiten sichern mit AkeebaBackup</a>
+	</li>
+	<li class="mostreadbox-blue icon-star">
+		<a href="/meine-meinung/18/258-der-download-adventskalender-vom-nik-o-mat.html" class="mostreadbox-blue icon-star">
+			Der Download-Adventskalender vom nik-o-mat</a>
+	</li>
+	<li class="mostreadbox-blue icon-star">
+		<a href="/internet/15/150-emailadressen-fuer-einmalige-nutzung.html" class="mostreadbox-blue icon-star">
+			Emailadressen für einmalige Nutzung</a>
+	</li>
+	<li class="mostreadbox-blue icon-star">
+		<a href="/joomlafan/31/241-eigene-fehlerseiten-in-joomla-15-.html" class="mostreadbox-blue icon-star">
+			Eigene Fehlerseiten in Joomla 1.5 und 1.7</a>
+	</li>
+</ul><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div>
+	                            </div>
+	            	                            <div class="clearbreak"></div>
+							</div>
+									</div>
+					</div>
+							<div id="jsn-rightsidecontent">
+						<div id="jsn-rightsidecontent_inner">
+				                        <div id="jsn-pos-right-top">
+	                          	<div class="box-blue jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><div class="jsn-modulecontent"><form name="rokajaxsearch" id="rokajaxsearch" class="blue" action="http://www.nik-o-mat.de/" method="get">
+<div class="rokajaxsearch box-blue">
+	<div class="roksearch-wrapper">
+		<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Suche..." />
+	</div>
+	<input type="hidden" name="searchphrase" value="exact"/>
+	<input type="hidden" name="limit" value="10" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="Itemid" value="99999999" />
+	<input type="hidden" name="option" value="com_search" />
+
+	
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div>
+	                        </div>
+	        							<div id="jsn-rightside-middle" class="jsn-positionscontainer jsn-positionscontainer1">
+					                            <div id="jsn-pos-right">
+	                            	<div class="box-blue jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">nik-o-mat.de</span></h3><div class="jsn-modulecontent"><div style="text-align: center;"><img alt="n-logo" src="/images/stories/n-logo.png" height="135" width="135" /><br/><br/><a href="http://www.joomla-toplist.de/"><img src="http://www.joomla-toplist.de/button.php?u=jamfx" alt="Joomla Toplist" border="0"></a> </div><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="box-green icon-rss jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">nik-o-mat - Infos</span></h3><div class="jsn-modulecontent"><table style="width: 80%;" align="center" border="0" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td><a href="/index2.php?option=com_podcast&amp;feed=RSS2.0&amp;no_html=1" target="_blank">nik-o-mat PodCast abonnieren</a></td>
+<td><a href="/index2.php?option=com_podcast&amp;feed=RSS2.0&amp;no_html=1" target="_blank"><img onmouseout="this.src='/images/stories/podcast/nikomat-podcast48.png';" onmouseover="this.src='/images/stories/itunes-podcast-48.png';" src="/images/stories/podcast/nikomat-podcast48.png" title="nik-o-mat PodCast abonnieren" style="margin: 5px;" alt="nik-o-mat PodCast abonnieren" height="30" width="32" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><hr /></td>
+</tr>
+<tr>
+<td><a href="http://www.twitter.com/nikomatoriginal" target="_blank">nik-o-mat Twitter folgen</a></td>
+<td><a href="http://www.twitter.com/nikomatoriginal" target="_blank"><img onmouseout="this.src='/images/stories/twitter05.png';" onmouseover="this.src='/images/stories/twitter01.png';" src="/images/stories/twitter05.png" alt="nik-o-mat Twitter folgen" title="nik-o-mat Twitter folgen" style="margin: 5px; float: left;" height="32" width="32" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><hr /></td>
+</tr>
+<tr>
+<td><a href="/index.php?format=feed&amp;type=rss" target="_blank">nik-o-mat RSS abonnieren</a></td>
+<td><a href="/index.php?format=feed&amp;type=rss" target="_blank"><img onmouseout="this.src='/images/stories/rss-blue-48.png';" onmouseover="this.src='/images/stories/rss-red-48.png';" src="/images/stories/rss-blue-48.png" alt="nik-o-mat - RSS abonnieren" title="nik-o-mat - RSS abonnieren" style="margin: 5px; float: left;" height="32" width="32" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><hr /></td>
+</tr>
+<tr>
+<td><a href="http://www.facebook.com/pages/nik-o-matde/200597213292902" target="_blank">nik-o-mat Facebook - Fanseite</a></td>
+<td><a href="http://www.facebook.com/pages/nik-o-matde/200597213292902" target="_blank"><img onmouseover="this.src='/images/stories/facebook32b.png';" onmouseout="this.src='/images/stories/facebook32a.png';" src="/images/stories/facebook32a.png" alt="nik-o-mat Facebook - Fanseite" title="nik-o-mat Facebook - Fanseite" style="margin: 5px; float: left;" height="32" width="32" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><hr /></td>
+</tr>
+<tr>
+<td><a href="https://plus.google.com/b/112883481883027885653/" target="_blank">nik-o-mat.de auf Google+</a></td>
+<td><a href="https://plus.google.com/b/112883481883027885653/" target="_blank"><img onmouseover="this.src='/images/stories/gplus-blue-48';" onmouseout="this.src='/images/stories/g-plus-icon-48.png';" src="/images/stories/g-plus-icon-48.png" alt="Niko Winckel auf Google+" title="Niko Winckel auf Google+" style="margin: 5px; float: left;" height="32" width="32" /></a></td>
+</tr>
+<tr>
+<td colspan="2"><hr /></td>
+</tr>
+<tr>
+<td><a href="http://www.youtube.com/user/nikowinckel" target="_blank">nik-o-mat Youtube-Kanal ansehen</a></td>
+<td><a href="http://www.youtube.com/user/nikowinckel" target="_blank"><img onmouseover="this.src='/images/stories/youtube-blue-48.png';" onmouseout="this.src='/images/stories/youtube_48.png';" src="/images/stories/youtube_48.png" alt="nik-o-mat Youtube-Kanal ansehen" title="nik-o-mat Youtube-Kanal ansehen" style="margin: 5px; float: left;" height="32" width="32" /></a></td>
+</tr>
+</tbody>
+</table><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="box-green icon-info jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">AkeebaBackup</span></h3><div class="jsn-modulecontent"><center> <a href="/joomlafan/31/260-webseiten-sichern-mit-akeebabackup.html"><img src="/images/stories/akeebabackup.png" alt="Webseiten sichern mit AkeebaBackup" title="Webseiten sichern mit AkeebaBackup" height="41" width="160" /><br /> Alle Infos zu AkeebaBackup</a>, <a href="/joomlafan/31/260-webseiten-sichern-mit-akeebabackup.html?start=1">Kickstart und AkeebaRemoteControl </a><br /> </center><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="box-yellow icon-user jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Neueste Kommentare</span></h3><div class="jsn-modulecontent"><ul class="jclistbox-yellow icon-user">
+<li><a class="jcl_objtitle" href="/joomlafan/31/267-joomla-fuer-handys-lesbar-machen.html#comment-473" title="Joomla für Handys lesbar mache...">Joomla für Handys lesbar mache...</a><br /><span class="jcl_comment">:lol: SEEEEEEhr Hilfreich! Danke!</span></li>
+<li><a class="jcl_objtitle" href="/joomlafan/31/260-webseiten-sichern-mit-akeebabackup.html#comment-472" title="Webseiten sichern mit AkeebaBa...">Webseiten sichern mit AkeebaBa...</a><br /><span class="jcl_comment"> Ja, ich habe Akeeba auch mit 2.5.4 am laufen, fun...</span></li>
+<li><a class="jcl_objtitle" href="/joomlafan/31/260-webseiten-sichern-mit-akeebabackup.html#comment-471" title="Webseiten sichern mit AkeebaBa...">Webseiten sichern mit AkeebaBa...</a><br /><span class="jcl_comment">Funktioniert Akiba auch mit Joomla 2.5?</span></li>
+<li><a class="jcl_objtitle" href="/joomlafan/31/274-joomla-25-ist-da.html#comment-468" title="Joomla 2.5 ist da!">Joomla 2.5 ist da!</a><br /><span class="jcl_comment">Hi Nico, eine Frage zu Deiner .htaccess. Welche Zm...</span></li>
+<li><a class="jcl_objtitle" href="/joomlafan/31/271-das-templateclub-dilemma-oder-wie-es-sein-sollte.html#comment-463" title="Das Templateclub-Dilemma oder ...">Das Templateclub-Dilemma oder ...</a><br /><span class="jcl_comment">Hi Nico, danke für deine hervorragende Arbeit und ...</span></li>
+</ul>
+<div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="icon-online jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Wer ist da?</span></h3><div class="jsn-modulecontent">Wir haben&nbsp;41 Gäste&nbsp;online<div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="icon-display jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Anzeige</span></h3><div class="jsn-modulecontent"><a href="http://australienblog.com/kostenlose-kreditkarte" target="_blank">Kreditkarte kostenlos</a><br/><br/>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-5709295566898282";
+/* 125x125, Erstellt 30.08.09 */
+google_ad_slot = "0308168369";
+google_ad_width = 125;
+google_ad_height = 125;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div><div class="box-grey jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">QR-Code dieser Seite</span></h3><div class="jsn-modulecontent"><div style="text-align:center">
+<img src="http://api.qrserver.com/v1/create-qr-code/?data=http://www.nik-o-mat.de/&amp;size=120x120&amp;color=323232&amp;bgcolor=FFFFFF&amp;margin=1" alt="QR-Code dieser Seite" title="QR-Code dieser Seite" />
+</div>
+<div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div>
+	                            </div>
+					                            <div class="clearbreak"></div>
+							</div>
+									</div>
+					</div>
+						<div class="clearbreak"></div></div></div></div></div></div></div></div></div>
+			</div>
+					<div id="jsn-content-bottom">
+							<div id="jsn-usermodules3" class="jsn-modulescontainer jsn-modulescontainer2">
+									<div id="jsn-pos-user5">
+						<div class="box-blue icon-star jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Beliebteste Downloads</span></h3><div class="jsn-modulecontent">
+<div class="rd-modulebox-blue icon-star"> 
+	<ul class="rd-mostdownloaded" >
+					<li>
+				<a href="/downloads/hardware/15-codetabelle-der-medionfernbedienung-41169-.html">
+				Codetabelle der Medionfernbedienung 41169 </a> <span>(13849)</span>
+			</li>
+					<li>
+				<a href="/downloads/sonstiges/29-.html">
+				.htaccess-Datei</a> <span>(5567)</span>
+			</li>
+					<li>
+				<a href="/downloads/software/22-latex-vorlage-diplom--examensarbeit.html">
+				LaTex - Vorlage - Diplom / Examensarbeit</a> <span>(3085)</span>
+			</li>
+					<li>
+				<a href="/downloads/joomla-1/module/35-page-qr-code.html">
+				Page QR-Code</a> <span>(2683)</span>
+			</li>
+					<li>
+				<a href="/downloads/joomla-1/sprachpakete/20-rokdownloads-sprachdateien.html">
+				RokDownloads - Sprachdateien</a> <span>(2206)</span>
+			</li>
+			</ul>
+</div><div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div>
+					</div>
+									<div id="jsn-pos-user6">
+						<div class="box-blue icon-download jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-top"><div class="jsn-top_inner"></div></div><div class="jsn-middle"><div class="jsn-middle_inner"><h3 class="jsn-moduletitle"><span class="jsn-moduleicon">Neueste Downloads</span></h3><div class="jsn-modulecontent">
+
+<div class="rd-modulebox-blue icon-download"> 
+	<ul class="rd-latestdownloads" >
+					<li>
+				<a href="/downloads/joomla-1/komponenten/37-comjupgrade.html">
+				com_jupgrade</a> <span>(08.10.2011)</span>
+			</li>
+					<li>
+				<a href="/downloads/sonstiges/36-datenschutzerklaerung-der-fsm-zur-altersklassifizierung.html">
+				Datenschutzerklärung der FSM zur Altersklassifizierung</a> <span>(19.09.2011)</span>
+			</li>
+					<li>
+				<a href="/downloads/joomla-1/module/35-page-qr-code.html">
+				Page QR-Code</a> <span>(20.07.2011)</span>
+			</li>
+					<li>
+				<a href="/downloads/joomla-1/module/32-rokdownloads-modulanpassung.html">
+				RokDownloads Modulanpassung</a> <span>(10.04.2011)</span>
+			</li>
+					<li>
+				<a href="/downloads/joomla-2/module/31-rokajaxsearch.html">
+				RokAjaxSearch</a> <span>(20.03.2011)</span>
+			</li>
+			</ul>
+</div> <div class="clearbreak"></div></div></div></div><div class="jsn-bottom"><div class="jsn-bottom_inner"></div></div></div></div>
+					</div>
+									<div class="clearbreak"></div>
+				</div>
+			            </div>
+				</div>
+			<div id="jsn-footer" class="jsn-positionscontainer jsn-positionscontainer2 clearafter">
+					<div id="jsn-footerleft">
+				<div id="jsn-pos-footer">
+					<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent"> <a class="markupchooser" href="http://www.nik-o-mat.de/?device=xhtml" rel="nofollow">Mobile Version</a><span class="markupchooser"> | </span><a class="markupchooser" href="http://www.nik-o-mat.de/?device=desktop" rel="nofollow">Standard Version</a><div class="clearbreak"></div></div></div></div>
+				</div>
+			</div>
+					<div id="jsn-footerright">
+				<div id="jsn-pos-bottom">
+					<div class=" jsn-modulecontainer"><div class="jsn-modulecontainer_inner"><div class="jsn-modulecontent"><a href="/index.php?format=feed&amp;type=rss">
+	<img src="/images/M_images/livemarks.png" alt="feed-image"  /> <span>RSS</span></a><div class="clearbreak"></div></div></div></div>
+				</div>
+			</div>
+				</div>
+		</div>
+			<a id="jsn-gotoplink" href="http://www.nik-o-mat.de/#top">
+			<span>Zum Anfang</span>
+		</a>
+		
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1791609-3']);
+  _gaq.push (['_gat._anonymizeIp']);
+  _gaq.push (['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></body>
+</html>

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+  <!-- HTML5 und CSS3 im Einsatz -->
+  <!-- Title -->
+  <title></title>
+
+  <!-- Charset -->
+  <meta charset="utf-8">
+
+  <!-- description -->
+  <meta name="description" content="">
+
+  <!-- keywords -->
+  <meta name="keywords" content="">
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" href="/favicon.ico" title="Landeshauptstadt Stuttgart" />
+
+  
+  <!-- CSS -->
+  
+  <link rel="stylesheet" type="text/css" href="/min/?g=css2&amp;1338803712" />
+  <link type="text/css" rel="stylesheet" href="/css2/netformic_print.css" media="print" />
+
+  <script type="text/javascript">var newSDE = {}; newSDE.path = "/"; newSDE.language = "de"; newSDE.limit = new Array(0); newSDE.translate = {hs_table_infotxt:'Klicken Sie auf das Bild, um sich die Tabelle anzusehen.',hs_table_mouseovertxt:'Klicken Sie auf das Bild, um sich die Tabelle anzusehen.'}</script>
+
+  <!-- IE Browser-Compatibility -->
+  <!--[if IE]><link href="/css2/netformic_lhs_m_ie.css" type="text/css" rel="stylesheet" /><![endif]-->
+  <!--[if IE 9]><link href="/css2/netformic_lhs_m_ie9.css" type="text/css" rel="stylesheet" /><![endif]-->
+  <!--[if IE 8]><link href="/css2/netformic_lhs_m_ie8.css" type="text/css" rel="stylesheet" /><![endif]-->
+  <!--[if IE 7]><link href="/css2/netformic_lhs_m_ie7.css" type="text/css" rel="stylesheet" /><![endif]-->
+  <!--[if IE 6]><link href="/css2/netformic_lhs_m_ie6.css" type="text/css" rel="stylesheet" /><![endif]-->
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    
+  <!-- ******************************************Usability Navigation - only without CSS****************************************** -->
+  <ul id="skiplinks" class="usability">
+    <li><a accesskey="0" href="#nav">Navigation</a></li>
+    <li><a accesskey="1" href="#quick-navigation">Schnell-Navigation</a></li>
+    <li><a accesskey="2" href="#language-selection">Sprachen</a></li>
+    <li><a accesskey="3" href="#search">Suche</a></li>
+    <li><a accesskey="4" href="#content">Inhalt</a></li>
+  </ul>
+
+  <!-- ******************************************Website****************************************** -->
+  <div id="website-wrapper"  >
+    <div id="website">
+      <div id="header">
+        <!-- Logo -->
+        <a id="logo" href="/"><img src="/img2/logo_stuttgart.gif" alt="Stuttgart.de" title="Stuttgart.de" /></a>
+
+        <!-- Header Navigation -->
+        <ul id="header-nav">
+                    <li><a class="intxt external" href="http://newsroom.stuttgart.de/presse" target="extpage_httpnewsroom.stuttgart.depresse" title="Link öffnet sich in einem neuen Fenster">Presse</a></li>
+          <li class="divider">&#124;</li>
+          <li><a class="intxt" href="/item/show/416745">RSS</a></li>
+          <li class="divider">&#124;</li>
+          <li><a class="intxt" href="/item/show/27197">Stadtplan</a></li>
+          <li class="divider">&#124;</li>
+          <li><a class="intxt external" href="http://www2.vvs.de/vvs/XSLT_TRIP_REQUEST2?sessionID=0&amp;language=de" target="extpage_httpwww2.vvs.devvsXSLT_TRIP_REQUEST2?sessionID=0&amp;language=de" title="Link öffnet sich in einem neuen Fenster">Fahrplan</a></li>
+          <li class="divider">&#124;</li>
+          <li><a class="intxt" href="/kontakt">Kontakt</a></li>
+        </ul>
+
+        <!-- Language Selection - CSS-Klasse active muss in der Programmierung gesetzt werden! -->
+        <ul id="language-selection">
+          <li>
+            <span id="language-selection-label">Sprache</span>
+            <ul>
+              <li><a id="english" href="/en/" hreflang="en"><span class="usability">English</span></a></li>              <li><a class="active" id="german" hreflang="de"><span class="usability">Deutsch</span></a></li>            </ul>
+          </li>
+        </ul>
+
+        <!-- Contrast Selection - CSS-Klasse active wird per Javascript gesetzt (Auslesen des aktuellen Wertes aus dem Cookie 'contrast'): muss also nicht gesetzt werden -->
+        <ul id="contrast-selection">
+          <li>
+            <span id="contrast-selection-label">Kontrast</span>
+            <ul>
+              <li><a id="contrast-normal" class="active" href="?contrast=normal"><span class="usability">Kontrast normal</span></a></li>
+              <li><a id="contrast-plus" href="?contrast=plus"><span class="usability">Kontrast plus</span></a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Font-Size Selection - CSS-Klasse active wird per Javascript gesetzt (Auslesen des aktuellen Wertes aus dem Cookie 'fontsize'): muss also nicht gesetzt werden -->
+        <ul id="fontsize-selection">
+          <li>
+            <span id="fontsize-selection-label">Schriftgröße</span>
+            <ul>
+              <li><a id="fontsize-normal" class="active" href="?font=normal"><span class="usability">Schriftgröße normal</span></a></li>
+              <li><a id="fontsize-plus" href="?font=plus"><span class="usability">Schriftgröße groß</span></a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Search -->
+        <div id="search-wrapper">
+                              <a id="search-extended-link" href="/suche?mode=extended">Erweiterte Suche</a>
+          <form id="search" action="/suche">
+            <label class="usability" for="search-input">Geben Sie Ihre Suchbegriffe ein</label>
+            <input id="search-input" type="text" value="Suchbegriff eingeben..." title="Suchbegriff eingeben..." maxlength="50" name="text">
+            <input class="btn-search" type="submit" value="">
+            <input class="usability" type="submit" value="Suchen">
+          </form>
+                  </div>
+
+        <!-- Audience Selection -->
+        <form id="quicklinks" action="/item/showid/1" method="get">
+  <fieldset>
+  <label class="usability" for="schnelleinstieg">Stuttgart für:</label>
+  <select id="schnelleinstieg" class="onchange-submit" name="itemid">
+    <option value="">Zielgruppe wählen…</option>
+        <option value="273263">Familien</option>
+        <option value="273417">Frauen</option>
+        <option value="439867">Junge Leute</option>
+        <option value="273265">Kinder</option>
+        <option value="439871">Menschen mit Behinderungen</option>
+        <option value="439873">Migranten</option>
+        <option value="439875">Senioren</option>
+        <option value="439877">Studenten und Wissenschaftler</option>
+      </select>
+  <input class="noscript" type="submit" value="Absenden">
+  </fieldset>
+</form>
+      </div>
+
+      <!-- Header Image - Pfad einfach austauschbar -->
+      <div id="header-img" style="background-image: url(/img2/bsp/header-img-1.png);">&nbsp;</div>
+      
+      <!-- Alles innerhalb des crontrast-wrapper bekommt Veränderung durch klicken des Kontrast-Buttons -->
+      <div class="contrast-wrapper">
+
+        <!-- Schnell-Navigation -->
+                <ul id="quick-navigation">
+          <li>
+            <span id="quick-navigation-label">B&uuml;rgerservice</span>
+            <ul>
+              <li><a class="intxt" href="/buergerbueros">B&uuml;rgerb&uuml;ros</a></li>
+              <li><a class="intxt" href="/item/show/307873">Verwaltungsleistungen</a></li>
+              <li><a class="intxt external" href="http://service.stuttgart.de" target="extpage_httpservice.stuttgart.de" title="Link öffnet sich in einem neuen Fenster">Online-Dienste</a></li>
+              <li><a class="intxt" href="/statistik">Daten / Fakten</a></li>
+              <li><a class="intxt external" href="http://verkehrslage.stuttgart.de/ivl/app.html?map=ilvLos&amp;layers=Raster,LOS,&amp;overlay=default&amp;extents=3512167,5403934,3514138,5405312" target="extpage_httpverkehrslage.stuttgart.deivlapp.html?map=ilvLos&amp;layers=Raster,LOS,&amp;overlay=default&amp;extents=3512167,5403934,3514138,5405312" title="Link öffnet sich in einem neuen Fenster">Verkehrslage</a></li>
+              <li><a class="intxt" href="/item/show/378609">&Ouml;ffnungszeiten</a></li>
+              <li><a class="ebsalink" data-ebsa="aws_kalender" href="/hilfe/javascript">Abfallkalender</a></li>
+              <li><a class="intxt" href="/gemeinderat">Gemeinderat</a></li>
+              <li><a class="intxt" href="/veranstaltungen">Veranstaltungen</a></li>
+              <li><a class="intxt" href="/item/show/1121">Notdienste</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Breadcrumb -->
+        <div id="breadcrumb">
+          <div id="breadcrumb-label">Sie befinden sich hier:</div>
+          <ul>
+            <li><a href="/">Startseite</a></li>
+                                                            <li class="divider">&gt;</li>
+                        <li><a href="/suche">Suche</a></li>
+                                    <li class="divider">&gt;</li>
+                        <li></li>
+                                              </ul>
+        </div>
+
+        <!-- Wrapper des Inhaltsbereiches -->
+        <div id="content-wrapper" class="clearfix">
+
+          <!-- Zusatzspalte mit Navigation und Boxen -->
+          <aside>
+
+            <!-- Haupnavigation -->
+            <nav>
+              <ul id="nav">
+                <li>
+    <a class="nav-link" href="/rathaus">Rathaus<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Rathaus</h1>
+      <ul>
+                      <li><a href="/oberbuergermeister">Oberb&uuml;rgermeister Dr. Wolfgang Schuster</a></li>
+                      <li><a href="/buergerbueros">B&uuml;rgerb&uuml;ros in Stuttgart</a></li>
+                      <li><a href="/item/show/378609">&Ouml;ffnungszeiten der &Auml;mter und B&uuml;rgerb&uuml;ros (&Auml;mter A-Z)</a></li>
+                      <li><a href="/item/show/56444">Welche &Auml;mter und Einrichtungen haben geschlossen?</a></li>
+                      <li><a href="/item/show/307865">Verwaltungsleistungen</a></li>
+                      <li><a href="/item/show/440562">Online-Dienste</a></li>
+                      <li><a href="/item/show/279875">Stadtverwaltung</a></li>
+                      <li><a href="/item/show/448758">Stadtpolitik</a></li>
+                      <li><a href="/item/show/11193">Internationales Stuttgart</a></li>
+                      <li><a href="/item/show/1121">Notdienste</a></li>
+                    </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>B&uuml;rgerb&uuml;ros</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/item/show/473380">Neue &Ouml;ffnungszeiten ab Juni!</a></h2>
+<p>
+Ab Juni gibt es in den B&uuml;rgerb&uuml;ros neue &Ouml;ffnungszeiten. Au&szlig;erdem k&ouml;nnen Sie individuelle Termine mit Ihrem B&uuml;rgerb&uuml;ro vereinbaren.</p>
+<a class="btn-right-link intxt" href="/item/show/473380">mehr...</a></div>
+<a class="intxt" href="/item/show/473380"><img src="http://www.stuttgart.de/img/images/item/439362/4fbf530417622.jpg" class = "media-flyout" alt="Foto: ccVision" title="Foto: ccVision" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/leben-stuttgart">Leben in Stuttgart<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Leben in Stuttgart</h1>
+      <ul>
+                      <li><a href="/stadtbezirke">Stadtbezirke</a></li>
+                      <li><a href="/buergerengagement">B&uuml;rgerengagement</a></li>
+                      <li><a href="/gesundheit">Gesundheit &amp; Soziales</a></li>
+                      <li><a href="/sicherheit-ordnung">Sicherheit &amp; Ordnung</a></li>
+                      <li><a href="/umwelt">Umwelt &amp; Entsorgung</a></li>
+                      <li><a href="/stadtwerke">Stadtwerke Stuttgart</a></li>
+                      <li><a href="/bauen-wohnen">Bauen &amp; Wohnen</a></li>
+                      <li><a href="/integration">Integrationspolitik</a></li>
+                      <li><a href="/demografischerwandel">Demografischer Wandel</a></li>
+                      <li><a href="/item/show/322309">Kinderfreundliches Stuttgart</a></li>
+                      <li><a href="/item/show/448581">Religion und Weltanschauung</a></li>
+                      <li><a href="/item/show/448633">Stadtportrait</a></li>
+                    </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Stadtbezirke</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/event/show/82253">B&uuml;rgerversammlung in Stuttgart-M&ouml;hringen</a></h2>
+<p>
+Die Einwohnerinnen und Einwohner des Stadtbezirks M&ouml;hringen sind am Montag, 11. Juni 2012, 19:30 Uhr, zu einer B&uuml;rgerversammlung in das B&uuml;rgerhaus M&ouml;hringen, herzlich eingeladen. Auf der Tagesordnung steht eine allgemeine Aussprache zu wichtigen Angelegenheiten des Bezirkes und der Gesamtstadt.</p>
+<a class="btn-right-link intxt" href="/event/show/82253">mehr...</a></div>
+<a class="intxt" href="/event/show/82253"><img src="http://www.stuttgart.de/img/images/item/439809/4fb3bffb63d11.jpg" class = "media-flyout" alt="Spielplatz in M&ouml;hringen. Foto: Hass" title="Spielplatz in M&ouml;hringen. Foto: Hass" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/bildung">Bildung<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Bildung</h1>
+      <ul>
+                      <li><a href="/bildungspartnerschaft">Stuttgarter Bildungspartnerschaft</a></li>
+                      <li><a href="/kits">Kindertageseinrichtungen (KiTS)</a></li>
+                      <li><a href="/item/show/448237">Schulbildung</a></li>
+                      <li><a href="/item/show/448241">Studium und Forschung</a></li>
+                      <li><a href="/item/show/448243">Weiterbildung</a></li>
+                    </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Mehr Chancengerechtigkeit</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/bildungspartnerschaft">Stuttgarter Bildungspartnerschaft</a></h2>
+<p>
+Stuttgart hat ein ganzheitliches aufeinander abgestimmtes Betreuungs- , Erziehungs- und Bildungskonzept entwickelt - die Stuttgarter Bildungspartnerschaft.</p>
+<a class="btn-right-link intxt" href="/bildungspartnerschaft">mehr...</a></div>
+<a class="intxt" href="/bildungspartnerschaft"><img src="http://www.stuttgart.de/img/mdb/item/359464/72366.jpg" class = "media-flyout" alt="Themenfoto Bildungspaten" title="Themenfoto Bildungspaten" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/wirtschaft-arbeit">Wirtschaft &amp; Arbeit<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Wirtschaft &amp; Arbeit</h1>
+      <ul>
+                      <li><a href="/wirtschaftsfoerderung">Wirtschaftsf&ouml;rderung Stuttgart</a></li>
+                      <li><a href="/item/show/186213">Wirtschaftsstandort Stuttgart</a></li>
+                      <li><a href="/service-international">Service International</a></li>
+                      <li><a href="/item/show/296113">Arbeit</a></li>
+                      <li><a href="/item/show/56305">Statistik Wirtschaft</a></li>
+                    </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Immobilien-Dialog</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/immobiliendialog">Treffen der Akteure der Immobilienwirtschaft</a></h2>
+<p>
+Zum 5. "Immobilien-Dialog Region Stuttgart" l&auml;dt die Wirtschaftsf&ouml;rderung Stuttgart Akteure der Immobilienwirtschaft am am 17.Juli 2012 ins Rathaus ein. Thema: "Die Zukunft im Visier - Die Stuttgarter Immobilienbranche gibt Gas!" </p>
+<a class="btn-right-link intxt" href="/immobiliendialog">mehr...</a></div>
+<a class="intxt" href="/immobiliendialog"><img src="http://www.stuttgart.de/img/images/item/439813/4f292f14bea94.jpg" class = "media-flyout" alt="Immobilien Dialog Region Stuttgart" title="Immobilien Dialog Region Stuttgart" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/stadtentwicklung">Stadtentwicklung<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Stadtentwicklung</h1>
+      <ul>
+                      <li><a href="/bauprojekte">Bauprojekte auf einen Blick</a></li>
+                      <li><a href="/stuttgart21">Bahnprojekt Stuttgart - Ulm</a></li>
+                      <li><a href="/item/show/284514">Stadtplanung und Stadterneuerung</a></li>
+                      <li><a href="/baustellenkalender">Baustellenkalender</a></li>
+                      <li><a href="/item/show/283355">Aktuelle Termine, Bebauungspl&auml;ne und Wettbewerbe</a></li>
+                      <li><a href="/geoservice">GeoService</a></li>
+                    </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Bauprojekte in Stuttgart</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/bauprojekte">&Uuml;bersichtskarte der gr&ouml;&szlig;ten Baustellen</a></h2>
+<p>
+Eine Karte gibt Ihnen Überblick über die größten Bauprojekte in Stuttgart. Aufgelistet werden neben großen Projekten wie das Europaviertel auch Verkehrsprojekte und Projekte der Ver- und Entsorgung.</p>
+<a class="btn-right-link intxt" href="/bauprojekte">mehr...</a></div>
+<a class="intxt" href="/bauprojekte"><img src="http://www.stuttgart.de/img/mdb/item/449873/71337.jpg" class = "media-flyout" alt="Bauprojekte" title="Bauprojekte" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/verkehr-mobilitaet">Verkehr &amp; Mobilit&auml;t<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Verkehr &amp; Mobilit&auml;t</h1>
+      <ul>
+                      <li><a href="/item/show/16724">Mobilit&auml;tsprojekte</a></li>
+                      <li><a href="/mobilitaetsberatung">Mobilit&auml;ts-Beratung</a></li>
+                      <li><a href="/item/show/160072">Mobil mit dem Auto</a></li>
+                      <li><a href="/fahrrad">Mobil mit dem Fahrrad</a></li>
+                      <li><a href="/item/show/327071">Mit Behinderung mobil</a></li>
+                      <li><a href="/item/show/160399">Mobil mit &Ouml;ffentlichen Verkehrsmitteln</a></li>
+                      <li><a href="/item/show/160274">Fernverkehr: Bahn, Flugzeug, Fernstra&szlig;en</a></li>
+                      <li><a href="/item/show/351359">Stra&szlig;en: Beleuchtung, Signalanlagen, L&auml;rmschutz</a></li>
+                      <li><a href="/verkehrsplanung">Verkehrssteuerung- und Planung</a></li>
+                      <li><a href="/ivlz">IVLZ - Integrierte Verkehrsleitzentrale Stuttgart</a></li>
+                    </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>E-Mobilit&auml;t</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/item/show/473221">Discounter er&ouml;ffnet f&uuml;nf Elektro-Ladestationen</a></h2>
+<p>
+An f&uuml;nf Lidl-M&auml;rkten k&ouml;nnen Besitzer von Elektromobilen ab sofort ihre Fahrzeuge aufladen. OB Wolfgang Schuster nahm gemeinsam mit Lidl-Gesch&auml;ftsf&uuml;hrer Andr&eacute; Schr&ouml;ter und dem Gesch&auml;ftsf&uuml;hrer der EnBW, Uwe Fritz, die Ladestation in Zuffenhausen in Betrieb.</p>
+<a class="btn-right-link intxt" href="/item/show/473221">mehr...</a></div>
+<a class="intxt" href="/item/show/473221"><img src="http://www.stuttgart.de/img/mdb/item/473221/76829.jpg" class = "media-flyout" alt="Discounter eröffnet fünf Elektro-Ladestationen" title="Discounter eröffnet fünf Elektro-Ladestationen" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/kultur">Kultur<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Kultur</h1>
+      <ul>
+                      <li><a href="/item/show/440448">Archive und Bibliotheken</a></li>
+                      <li><a href="/kunst">Bildende Kunst, Design</a></li>
+                      <li><a href="/film">Film &amp; Medien</a></li>
+                      <li><a href="/interkultur">Internationale Kulturstadt</a></li>
+                      <li><a href="/item/show/141021">Kultur - Festivals und Highlights</a></li>
+                      <li><a href="/kulturservice">Kulturservice</a></li>
+                      <li><a href="/literatur">Literatur</a></li>
+                      <li><a href="/museen">Museen</a></li>
+                      <li><a href="/musik">Musik</a></li>
+                              <li><a href="/item/show/13822">Stadtgeschichte</a></li>
+                      <li><a href="/item/show/137282">Tanz</a></li>
+                      <li><a href="/theater">Theater</a></li>
+                      <li><a href="/item/show/440489">Zielgruppen</a></li>
+            </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Jugend musiziert</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/event/show/72187">Die ganze Stadt klingt</a></h2>
+<p>
+Zum ersten Mal ist Stuttgart Gastgeber f&uuml;r den bundeswettbewerb "Jugend musiziert". Vom 25. Mai bis 1. Juni dreht sich hier alles um die Musik. Alle Wertungsspiele des Wettbewerbs sind &ouml;ffentlich, der Eintritt kostenlos.</p>
+<a class="btn-right-link intxt" href="/event/show/72187">mehr...</a></div>
+<a class="intxt" href="/event/show/72187"><img src="http://www.stuttgart.de/img/images/item/439822/4fbc832edb65e.jpg" class = "media-flyout" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/sport">Sport<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Sport</h1>
+      <ul>
+                              <li><a href="/item/show/164863">Sport- und Bewegungsangebote</a></li>
+                      <li><a href="/item/show/428586">Sportanbieter</a></li>
+                      <li><a href="/item/show/164939">Sportveranstaltungen</a></li>
+                      <li><a href="/item/show/164846">Sportst&auml;tten</a></li>
+                      <li><a href="/item/show/202413">Sportentwicklung Stuttgart</a></li>
+                      <li><a href="/sportfoerderung">Sportf&ouml;rderung und Vereinsservice</a></li>
+                      <li><a href="/item/show/309068">Sportehrungen</a></li>
+                      <li><a href="/sportmobil">SPORTmobil</a></li>
+                      <li><a href="/sportwegweiser">Sportwegweiser</a></li>
+            </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Sport im Park</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="/item/show/472002">Mitmachprogramm startet</a></h2>
+<p>
+Das Amt für Sport und Bewegung bietet in Kooperation mit dem Sportkreis Stuttgart, dem Unternehmen SportCodex und einigen Sportvereinen von Sonntag, 6. Mai, bis 23. September mit "Sport im Park" ein abwechslungsreiches Mitmachprogramm für alle Bewegungsfreudigen unter freiem Himmel an.</p>
+<a class="btn-right-link intxt" href="/item/show/472002">mehr...</a></div>
+<a class="intxt" href="/item/show/472002"><img src="http://www.stuttgart.de/img/images/item/439824/4f9e9435cc6ac.jpg" class = "media-flyout" alt="Sport im Park. Foto: Amt f&uuml;r Sport und Bewegung " title="Sport im Park. Foto: Amt f&uuml;r Sport und Bewegung " /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+<li>
+    <a class="nav-link" href="/tourismus">Tourismus<span class="nav-hover-box">&nbsp;</span></a>
+    <div class="nav-content-wrapper">
+  <div class="nav-content clearfix">
+    <section class="nav-content-links">
+      <h1>Tourismus</h1>
+      <ul>
+                      <li><a href="/item/show/320458">&Uuml;bernachten in Stuttgart</a></li>
+                      <li><a href="/item/show/149785">Sehensw&uuml;rdigkeiten</a></li>
+                      <li><a href="/item/show/11689">Stadtf&uuml;hrungen, -rundfahrten und - rundg&auml;nge</a></li>
+                            </ul>
+    </section>
+    <section class="nav-content-news">
+      <!-- itemfulldecription_flyout -->
+<h1>Stuttgart Marketing</h1><div class="nav-content-news-text">
+<h2 class="first-header"><a href="http://www.stuttgart-tourist.de">Stuttgart und die Region erleben</a></h2>
+<p>
+Hier finden Sie einen umfangreichen Service rund um Stuttgart: Informationen &uuml;ber zahlreiche Stadtf&uuml;hrungen und Rundfahrten, &Uuml;bernachtungangebote f&uuml;r kleines und gro&szlig;es Geld, Veranstaltungstipps, Sehensw&uuml;rdigkeiten, verschiedene Kulturangebote, Vorschl&auml;ge f&uuml;r Freizeitaktivit&auml;ten und Ausflugsziele und vieles mehr.</p>
+<a class="btn-right-link intxt external" href="http://www.stuttgart-tourist.de" target="extpage_httpwww.stuttgart-tourist.de" title="Link öffnet sich in einem neuen Fenster">www.stuttgart-tourist.de</a></div>
+<a class="intxt external" href="http://www.stuttgart-tourist.de" target="extpage_httpwww.stuttgart-tourist.de" title="Link öffnet sich in einem neuen Fenster"><img src="http://www.stuttgart.de/img/images/item/439826/4ef33df5a0ece.jpg" class = "media-flyout" alt="Logo Regio Stuttgart Marketing- und Tourismus GmbH" title="Logo Regio Stuttgart Marketing- und Tourismus GmbH" /></a><!-- itemfulldecription_flyout / -->
+    </section>
+  </div>
+  </div>
+    </li>
+              </ul>
+
+                          </nav>
+            <div class="nav_additional_content">
+                            </div>
+          </aside>
+          <!-- Eigentlicher Inhaltsbereich -->
+          <div id="content">
+            <!-- Inhaltsspalten -->
+            <div class="content-col-box">
+              <div class="content-col-box-inner clearfix">
+
+                <!-- CONTENT erste Spalte -->
+                <div class="content-col-box-col1">
+                  <h1>Seite nicht gefunden</h1>
+<p>Die von Ihnen angeforderten Inhalte stehen nicht (mehr) zur Verf&uuml;gung. Bitte verwenden Sie die Suche um die gesuchten Inhalte unter www.stuttgart.de zu finden.</p>
+                                                    </div>
+
+                <!-- CONTENT zweite Spalte -->
+                <div class="content-col-box-col2">&nbsp;
+
+                                                      
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div id="footer">
+
+        <!-- Footer Meta-Nav mit Spezial-Links und Bookmark-Optionen -->
+        <div id="footer-meta-nav" class="footer-cols clearfix">
+          <div class="footer-col1">
+            <a href="/"><img src="/img2/logo_stuttgart_footer.gif" alt="Stuttgart.de" title="Stuttgart.de" /></a>
+          </div>
+          <div class="footer-col2">
+            <ul>
+              <li><span class="print-image">&nbsp;</span><a onclick="window.print(); return false;">Drucken</a></li>
+                            <li class="divider">&#124;</li>
+              <li><span class="send-image">&nbsp;</span>
+              <a href="/item/recommend/0?xobjecttype=item&amp;xobjectid=0&amp;xkontextid=">
+              Weiterempfehlen              </a>
+              </li>
+              <li class="divider">&#124;</li>
+              <li><span class="feedback-image">&nbsp;</span>
+              <a href="/item/feedback/0?xobjecttype=item&amp;xobjectid=0&amp;xkontextid=">
+              Feedback              </a>
+              </li>
+                            <li class="divider">&#124;</li>
+              <li><span class="gototop-image">&nbsp;</span><a href="#website-wrapper">Nach oben</a></li>
+            </ul>
+
+
+           <div id="socialshareprivacy" class="clearfix"></div>
+
+          </div>
+        </div>
+
+        <!-- Footer-Links Box - beliebig wiederholbar -->
+                <div class="footer-links footer-cols clearfix">
+          <div class="footer-col1">
+            Nützliche Links          </div>
+          <div class="footer-col2">
+            <ul>
+              <li>
+  <a href="/kontakt">Kontakt</a>
+</li>
+<li class="divider">&#124;</li><li>
+  <a href="/item/show/273283/1">Inhalts&uuml;bersicht</a>
+</li>
+<li class="divider">&#124;</li><li>
+  <a href="/impressum">Impressum</a>
+</li>
+<li class="divider">&#124;</li><li>
+  <a href="/datenschutzerklaerung">Datenschutzerkl&auml;rung</a>
+</li>
+<li class="divider">&#124;</li><li>
+  <a href="/hilfe">Hilfe</a>
+</li>
+<li class="divider">&#124;</li><li>
+  <a href="/schlagworte">Schlagw&ouml;rter  A-Z</a>
+</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Rathaus  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/oberbuergermeister">Oberb&uuml;rgermeister Dr. Wolfgang Schuster</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/buergerbueros">B&uuml;rgerb&uuml;ros in Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/378609">&Ouml;ffnungszeiten der &Auml;mter und B&uuml;rgerb&uuml;ros (&Auml;mter A-Z)</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/56444">Welche &Auml;mter und Einrichtungen haben geschlossen?</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/307865">Verwaltungsleistungen</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/440562">Online-Dienste</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/279875">Stadtverwaltung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/448758">Stadtpolitik</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/11193">Internationales Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/1121">Notdienste</a></li>
+                    </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Leben in Stuttgart  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/stadtbezirke">Stadtbezirke</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/buergerengagement">B&uuml;rgerengagement</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/gesundheit">Gesundheit &amp; Soziales</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/sicherheit-ordnung">Sicherheit &amp; Ordnung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/umwelt">Umwelt &amp; Entsorgung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/stadtwerke">Stadtwerke Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/bauen-wohnen">Bauen &amp; Wohnen</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/integration">Integrationspolitik</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/demografischerwandel">Demografischer Wandel</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/322309">Kinderfreundliches Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/448581">Religion und Weltanschauung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/448633">Stadtportrait</a></li>
+                    </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Bildung  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/bildungspartnerschaft">Stuttgarter Bildungspartnerschaft</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/kits">Kindertageseinrichtungen (KiTS)</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/448237">Schulbildung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/448241">Studium und Forschung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/448243">Weiterbildung</a></li>
+                    </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Wirtschaft &amp; Arbeit  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/wirtschaftsfoerderung">Wirtschaftsf&ouml;rderung Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/186213">Wirtschaftsstandort Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/service-international">Service International</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/296113">Arbeit</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/56305">Statistik Wirtschaft</a></li>
+                    </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Stadtentwicklung  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/bauprojekte">Bauprojekte auf einen Blick</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/stuttgart21">Bahnprojekt Stuttgart - Ulm</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/284514">Stadtplanung und Stadterneuerung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/baustellenkalender">Baustellenkalender</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/283355">Aktuelle Termine, Bebauungspl&auml;ne und Wettbewerbe</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/geoservice">GeoService</a></li>
+                    </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Verkehr &amp; Mobilit&auml;t  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/item/show/16724">Mobilit&auml;tsprojekte</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/mobilitaetsberatung">Mobilit&auml;ts-Beratung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/160072">Mobil mit dem Auto</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/fahrrad">Mobil mit dem Fahrrad</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/327071">Mit Behinderung mobil</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/160399">Mobil mit &Ouml;ffentlichen Verkehrsmitteln</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/160274">Fernverkehr: Bahn, Flugzeug, Fernstra&szlig;en</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/351359">Stra&szlig;en: Beleuchtung, Signalanlagen, L&auml;rmschutz</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/verkehrsplanung">Verkehrssteuerung- und Planung</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/ivlz">IVLZ - Integrierte Verkehrsleitzentrale Stuttgart</a></li>
+                    </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Kultur  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/item/show/440448">Archive und Bibliotheken</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/kunst">Bildende Kunst, Design</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/film">Film &amp; Medien</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/interkultur">Internationale Kulturstadt</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/141021">Kultur - Festivals und Highlights</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/kulturservice">Kulturservice</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/literatur">Literatur</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/museen">Museen</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/musik">Musik</a></li>
+                            <li class="divider">&#124;</li>      <li><a href="/item/show/13822">Stadtgeschichte</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/137282">Tanz</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/theater">Theater</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/440489">Zielgruppen</a></li>
+              </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Sport  </div>
+    <div class="footer-col2">
+    <ul>
+                                    <li><a href="/item/show/164863">Sport- und Bewegungsangebote</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/428586">Sportanbieter</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/164939">Sportveranstaltungen</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/164846">Sportst&auml;tten</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/202413">Sportentwicklung Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/sportfoerderung">Sportf&ouml;rderung und Vereinsservice</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/309068">Sportehrungen</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/sportmobil">SPORTmobil</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/sportwegweiser">Sportwegweiser</a></li>
+              </ul>
+  </div>
+</div>
+<div class="footer-links footer-cols clearfix">
+  <div class="footer-col1">
+    Tourismus  </div>
+    <div class="footer-col2">
+    <ul>
+                              <li><a href="/item/show/320458">&Uuml;bernachten in Stuttgart</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/149785">Sehensw&uuml;rdigkeiten</a></li>
+                      <li class="divider">&#124;</li>      <li><a href="/item/show/11689">Stadtf&uuml;hrungen, -rundfahrten und - rundg&auml;nge</a></li>
+                          </ul>
+  </div>
+</div>
+        
+        <div class="footer-links footer-cols clearfix last">
+          <div class="footer-col1">
+            &nbsp;
+          </div>
+          <div class="footer-col2">
+            <ul>
+              <li><strong>© 
+              <a href="/kontakt?&#109;&#x61;&#105;&#x6C;&#116;&#x6F;&#x3D;&#x69;&#x6E;&#x74;&#101;&#x72;&#x6E;&#101;&#116;&#x72;&#101;&#100;&#x61;&#x6B;&#x74;&#105;&#x6F;&#x6E;&#64;&#x73;&#x74;&#117;&#x74;&#x74;&#103;&#x61;&#114;&#x74;&#x2E;&#x64;&#101;&amp;fromPageTitle=&amp;fromPageURL=http%3A%2F%2Fwww.stuttgart.de%2Fvorgestellt">&#76;&#97;&#x6E;&#100;&#101;&#x73;&#x68;&#97;&#x75;&#x70;&#x74;&#115;&#116;&#97;&#x64;&#116;&#x20;&#83;&#x74;&#x75;&#116;&#116;&#x67;&#97;&#114;&#x74;</a>
+            </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer für den Druck = .print (nur Web = .web) -->
+  <p id="footer_print" class="print">
+    Quelle: Landeshauptstadt Stuttgart - Startseite<br/>
+    Ihr Pfad: stuttgart.de<br/>
+    [Stand: 07.06.2012, 02:59 Uhr]
+  </p>
+
+  <!-- ******************************************javascript****************************************** -->
+  <!-- standard JS -->
+  <script type="text/javascript" src="/min/?g=js2&amp;1338803712"></script>
+  
+            
+  <script>
+  $(document).ready(function(){
+    
+  $('#socialshareprivacy').socialSharePrivacy({
+       settings_perma:'Dauerhaft übertragen und Datenübertragung zustimmen',
+       txt_help:'Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter oder Google in die USA übertragen und unter Umständen auch dort gespeichert. Näheres erfahren Sie durch einen Klick auf das i.',
+       info_link: newSDE.path+'datenschutz/2-klick-verfahren',
+       services : {
+         facebook : {
+          'dummy_img' : newSDE.path+'img2/dummy_facebook.png',
+          'txt_info': 'Wenn Sie den Schalter durch einen Klick aktivieren, werden Informationen an Facebook  in die USA übertragen und eventuell dort gespeichert - Näheres erfahren Sie durch einen Klick auf das i.',
+          'txt_fb_off'    : 'nicht mit Google+ verbunden',
+          'txt_fb_on'     : 'mit Google+ verbunden'
+         },
+         twitter : {
+          'dummy_img' : newSDE.path+'img2/dummy_twitter.png',
+          'txt_info': 'Wenn Sie den Schalter durch einen Klick aktivieren, werden Informationen an Twitter in die USA übertragen und eventuell dort gespeichert - Näheres erfahren Sie durch einen Klick auf das i.',
+          'txt_twitter_off'    : 'nicht mit Google+ verbunden',
+          'txt_twitter_on'     : 'mit Google+ verbunden'
+
+         },
+         gplus : {
+          'dummy_img' : newSDE.path+'img2/dummy_gplus.png',
+          'txt_info': 'Wenn Sie den Schalter durch einen Klick aktivieren, werden Informationen an Google in die USA übertragen und eventuell dort gespeichert - Näheres erfahren Sie durch einen Klick auf das i.',
+          'txt_gplus_off'    : 'nicht mit Google+ verbunden',
+          'txt_plus_on'     : 'mit Google+ verbunden'
+          }
+       },
+       'css_path' : false
+    });
+    /* Sidebar social media. */
+    $(document.body).socialmedia({
+      services: {
+      'twitter': {
+          security_text:'Wenn Sie den Schalter durch einen Klick aktivieren, werden Informationen an Twitter in die USA übertragen und eventuell dort gespeichert - siehe Informationen zum <a href="/datenschutz/2-klick-verfahren">2-Klick-Verfahren</a>. <ul class="social_share_privacy_area"><li class="twitter help_info"><span class="info"></span><span class="switch off">nicht mit Twitter verbunden</span></li></ul>'
+      },
+      'facebook': {
+          security_text:'Wenn Sie den Schalter durch einen Klick aktivieren, werden Informationen an Facebook in die USA übertragen und eventuell dort gespeichert - siehe Informationen zum  <a href="/datenschutz/2-klick-verfahren">2-Klick-Verfahren</a>. <ul class="social_share_privacy_area"><li class="facebook help_info"><span class="info"></span><span class="switch off">nicht mit Facebook verbunden</span></li></ul>'
+      },
+      'google': {
+          security_text:'Wenn Sie den Schalter durch einen Klick aktivieren, werden Informationen an Google in die USA übertragen und eventuell dort gespeichert - siehe Informationen zum <a href="/datenschutz/2-klick-verfahren">2-Klick-Verfahren</a>. <ul class="social_share_privacy_area"><li class="gplus help_info"><span class="info"></span><span class="switch off">nicht mit Google+ verbunden</span></li></ul>'
+      }
+    }
+    });
+  });
+  </script>
+    <script type="text/javascript">var pkBaseURL = (("https:" == document.location.protocol) ? "https://service.stuttgart.de/piwik/" : "http://service.stuttgart.de/piwik/");
+  document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+  </script><script type="text/javascript">try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 21);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+  } catch( err ) {}
+  </script><noscript><p><img src="http://service.stuttgart.de/piwik/piwik.php?idsite=21" style="border:0" alt="" /></p></noscript> <!--//-->
+  </body>
+</html>

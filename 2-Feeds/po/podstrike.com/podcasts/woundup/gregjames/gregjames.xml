@@ -1,0 +1,26 @@
+<?php session_start(); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>PodStrike!&#8482; Podcast Manager | World Net Services, Inc.</title>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<?php include("include_javascripts.php"); ?>
+<?php include("include_google_analytics.php"); ?>
+</head>
+<body>
+<div id="main">
+<?php include("include_header.php"); ?>
+    <div id="content">
+	  <div id="hidden">
+	  <h1>PodStrike!&#8482; Podcast Manager 404 Error</h1>
+	  <p>The page your are attempting to view has moved or does not exist.</p>
+	  <p><a href="javascript:history.go(-1);">Return to the previous page you were viewing</a> or click the button below to return to PodStrike!&#8482;'s homepage.</p>
+		<a href="/"><img src="images/return_home.jpg" alt="Return Home" width="110" height="35" border="0"  /></a>
+		<p><a href="/"><img src="images/404.jpg" alt="" width="499" height="344" border="0" /></a></p>
+    </div>
+  </div>
+  <?php include("include_profile_footer.php"); ?>
+</div>
+</body>
+</html>

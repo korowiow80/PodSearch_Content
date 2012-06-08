@@ -1,0 +1,1972 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<!-- portal2 -->
+<title>Video/Audio | Presseportal.de </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="search" type="application/opensearchdescription+xml" title="Presseportal Volltextsuche" href="http://www.presseportal.de/presseportal_vts.xml" />
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/ico" />
+<link rel="alternate" type="application/rss+xml" title="Presseportal als Videocast" href="http://www.presseportal.de/rss/videocast.rss" /><meta http-equiv="pragma" content="no-cache" /><meta name="language" content="de" /><meta name="robots" content="index,follow" />
+<meta name="keywords" content="Video,Audio,Youtube,Film" />
+<meta name="description" content="Videos und Audios von Unternehmen als multimediale Presseinformation. Material als Download zur redaktionellen Verwendung im Bereich Web-Radio, Web-TV oder Podcast." />
+<script type="text/javascript">var api_url = '/api/';var isNav = (navigator.appName.indexOf("Netscape") !=-1);var _LANG = 'de';var _TLD = 'DE';var _ROOT = '/';var _BROWSER = '';if(navigator.userAgent.indexOf('iPad')!=-1) {_BROWSER = 'IPAD';}if(navigator.userAgent.indexOf('iPad')!=-1) {_BROWSER = 'IPHONE';}var _FLASH = (_BROWSER=='IPHONE'||_BROWSER=='IPAD') ? false : true;var _RENDER = 'portal';var _ROOT_POL = false;rurl = false;var redir_timer = (rurl) ? window.setTimeout('this.location.href=rurl',600000) : false;var pp_config = {self_base : 'index.htx',base_url  : 'http://www.presseportal.de',story_id  : '0',tld : 'de'}</script><link rel="stylesheet" type="text/css" href="/css/screen_v4.css?v=15" media="screen, projection, print" /><link rel="stylesheet" type="text/css" href="/css/jquery/jquery.ui.css" media="screen, projection" /><link rel="stylesheet" type="text/css" href="/dyn.htx?socialmedia" media="screen, projection" />
+
+</head>
+
+<body>
+<div id="video_save_container" class="help_container"></div><div id="pps_tv_container" class="help_container"></div><div id="video_container" class="help_container">
+        <img title="schließen" src="/images/bumper.gif" id="video_container_img" alt="" />
+        <span id="video_container_title"></span>
+        <div>
+        <a href=""  id="video_container_data"></a>
+        </div>
+        
+        <div id="video_container_bottom"></div></div><div id="darth_fader" style="background-color:black;display:none;position:absolute;z-index:99;left:0px;top:0px"></div><div id="generic_container" class="help_container" style="display:none"></div>
+  <div id="object1" class="popuplayer"  onmouseout="setTimeout('hideLayer()',1000)"></div><div id="logo">
+  <a href="/"><img src="/images/logos/logo_napresseportal.gif" width="273" height="63" title="Alle Pressemitteilungen" alt="Alle Pressemitteilungen" /></a>
+</div>
+
+<div id="container">
+<div id="header">
+    <div id="service_label">
+                    <a href="http://www.newsaktuell.de">Ein Service von news aktuell</a>
+            </div>
+    <ul id="second_navi">
+                <li><a href="/extra/galerie/highlight/">Highlights</a></li>
+                <li><a href="/katalog.htx">A-Z</a></li>
+
+        <li><a href="/m/app">App/Mobil</a></li>
+        <li><a href="/text/">Text</a></li>
+        <li><a href="" id="linkLanguageSelector">Land/Sprache</a></li>
+             </ul>
+
+    <div id="lang_layer">
+        <ul>
+                            <li><a href="http://www.presseportal.de">Deutschland</a></li>
+                <li><a href="http://www.presseportal.ch/de/">Schweiz (deutsch)</a></li>
+                <li><a href="http://www.presseportal.ch/fr/">Suisse (fran&ccedil;ais)</a></li>
+                    </ul>
+    </div>
+  
+  <div id="searchbox">
+            <form action="/suche.htx" method="get" id="search_form">
+        <p style="display:inline;margin:0;">
+        <input class="input_grey autoSearch" type="text" name="q" id="search" size="15" value="" />
+    <input type="submit" class="button_grey" id="search_button" value="Suche" />
+    </p>
+    </form>
+  </div>
+</div>
+<div id="search_suggest"></div>
+<div id="navi_top" class="" style="z-index:30;">
+    <div class="navi_top_sub_container">
+        <ul id="ressort">
+            <li class="ressortSubNavi" style="padding-left:6px">
+                <a href="/" class="ressort_navi">HOME</a>
+            </li>
+            <li id="SubNavi_Branchen_Container" class="ressortSubNavi" onmouseover="hideAudioPreview();pr_elem = new Array('link','view_select','int_select','branche_select_container');"  onmouseout="hideAudioPreview();">
+                <a id="subNaviBranche" href="/arbeit" class="ressort_navi">BRANCHEN</a>
+                    <div style="display:inline"><div class="SubNavi navi_auto_hide" id="SubNavi_Branchen">
+                        <ul id="SubNavi2_container" class="SubNavi2" style="z-index:100"><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Arbeit</span><a href="/arbeit">Arbeit</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Auto</span><a href="/auto">Auto</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Banken</span><a href="/banken">Banken</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Bauwesen</span><a href="/bauwesen">Bauwesen</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Bildung</span><a href="/bildung">Bildung</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Celebrities</span><a href="/celebrities">Celebrities</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Chemie</span><a href="/chemie">Chemie</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen IT/Computer</span><a href="/computer">IT/Computer</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Energie</span><a href="/energie">Energie</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Fernsehen</span><a href="/fernsehen">Fernsehen</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Fussball</span><a href="/fussball">Fussball</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Gesundheit/Medizin</span><a href="/gesundheit">Gesundheit/Medizin</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Handel</span><a href="/handel">Handel</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Immobilien</span><a href="/immobilien">Immobilien</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Kinder</span><a href="/kinder">Kinder</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Lebensmittel</span><a href="/lebensmittel">Lebensmittel</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Lifestyle</span><a href="/lifestyle">Lifestyle</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Logistik</span><a href="/logistik">Logistik</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Maschinenbau</span><a href="/maschinenbau">Maschinenbau</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Medien</span><a href="/medien">Medien</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Motorsport</span><a href="/motorsport">Motorsport</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Ratgeber</span><a href="/ratgeber">Ratgeber</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Recht</span><a href="/recht">Recht</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Soziales</span><a href="/soziales">Soziales</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Telekommunikation</span><a href="/telekommunikation">Telekommunikation</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Touristik</span><a href="/touristik">Touristik</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Umwelt/Natur</span><a href="/umwelt">Umwelt/Natur</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Unterhaltung</span><a href="/unterhaltung">Unterhaltung</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Versicherungen</span><a href="/versicherungen">Versicherungen</a></li><li class="SubNavi2"><span class="alt_text">Alle Pressemitteilungen Wissenschaft</span><a href="/wissenschaft">Wissenschaft</a></li></ul>
+                    </div><img src="/images/bumper.gif" width="0" height="0" alt="" /></div>
+            </li>
+                        <li class="ressortSubNavi">
+                <a href="/auftrag" class="ressort_navi">MELDUNG EINSTELLEN</a>
+            </li>
+                        <li class="ressortSubNavi">
+                <a href="/ueber_pp.htx" class="ressort_navi">ÜBER UNS</a>
+            </li>
+            <li class="ressortSubNavi" id="ressortSubNavi_rss">
+                <a id="my_rss_feed" href="/feeds/" class="ressort_navi">
+                <img style="margin-bottom:-2px" src="/images/icons/mini/rss_navi.gif" width="12" height="12" alt="FEEDS" />
+                 <img style="margin-bottom:-2px" src="/images/icons/mini/twitter_navi.gif" width="12" height="12" alt="FEEDS" /> FEEDS</a>
+            </li>
+            
+        </ul>
+    </div>
+            <div class="ressortSubNavi">
+            <a class="naviAboLink" style="text-transform:uppercase" href="/services/login.htx">Inhalte kostenlos abonnieren</a>
+        </div>
+    </div><!--br class="clear" /-->
+<ul class="ressortNavi">        
+    <li><a href="/" class="">Alle Ressorts</a></li>
+    	<li><a href="/Wirtschaft" class="">Wirtschaft</a></li>
+    	<li><a href="/Finanzen" class="">Finanzen</a></li>
+    	<li><a href="/Politik" class="">Politik</a></li>
+    	<li><a href="/Vermischtes" class="">Vermischtes</a></li>
+    	<li><a href="/Kultur" class="">Kultur</a></li>
+    	<li><a href="/Sport" class="">Sport</a></li>
+    <li><a href="/polizeipresse/" class="">Polizei</a></li>  <li><a href="/obs/" class="">Bilddatenbank</a></li>
+  <li><a href="/video/" class="hilite ">Video/Audio</a></li>
+    <li><a href="http://footage.presseportal.de">Footage</a></li>
+
+</ul>
+<div id="main">
+<div class="content_top_wide"></div>
+<div id="sm_loader" style="display:none">
+<img class="sm_loader" src="/images/misc/loader.gif" alt="Wird geladen" title="Wird geladen" />
+</div>
+<a name="video"></a>
+<div class="content_wide" id="socialmediacontent">
+	
+  <h1 id="title_video" class="storylist_title">
+  	Videos
+  </h1>
+  <div style="float:right">
+  	<!--
+	Aktuelles Videomaterial aus Unternehmenskommunikation und Marketing
+	-->
+	</div>
+	<br class="clear" />
+	<div class="seperator"></div>
+	<div class="kg_navi">
+	<span id="video_hit_counter">&nbsp; Aktuellste 50 Videos</span>
+		<div style="" class="toolbox"><a class="sprite_img" title="Folgen..." href="" id="toolbox_sm"></a><div id="tollbox_sm_items" style="min-width:146px;display:none"><div class="toolbox_label" >Folgen: </div><a title="Auf Facebook teilen" class="sprite_img shareFacebookLink" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.presseportal.de%2Fvideo%2F"></a> <a rel="pp_1" href="na_presseportal" class="sprite_img hi twitter_tracker tf_twitter_feed"></a> <a class="hi" href="/services/services.htx?from=otsemail&amp;action=add&amp;id=2620"><img alt="Icon E-Mail" title="E-Mail" src="/images/icons/mail_20.gif" width="20" height="20" /></a> <!-- AddThis Button BEGIN --><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script><script type="text/javascript">var addthis_pub="newsaktuell";var addthis_brand="Presseportal";var addthis_logo="http://www.presseportal.DE/images/logos/logo_napresseportal.gif";var addthis_logo_color="#575755";var addthis_options="digg,delicious,google,facebook,friendfeed,furl,linkedin,magnolia,misterwong,myspace,slashdot,spurl,stumbleupon,technorati,twitter,more";</script><a class="hi" href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><span class="sprite_img" id="icon_delicious" title="Delicious"></span></a><!-- AddThis Button END --></div></div>
+	</div><!-- // kg_navi -->
+	<br class="clear" />
+		<img src="/images/css/socialmediaboxheader.gif" alt="" />
+	<div id="video_outer_box">
+		<div id="video_box">
+								<!-- Videoplayer -->
+<div class="media_box">
+	<div class="inner_media_box">
+				<div style="height:309px">
+			<object id="pp_217794" width="550" height="309" data="/video/player/217794/" type="application/x-shockwave-flash">
+				<param name="movie" value="/video/player/217794/" />
+				<param name="allowfullscreen" value="true" />
+				<param name="flashvars" value='config=/video/embed/presseportal/217794/big/' />
+			</object>
+		</div>
+				<br />
+		30.05.12
+		<span class="trenner">|</span>
+		12:18
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/105530/kommunikationssicher">
+		Kommunikationssicher
+		</a>
+		<br />
+		<strong>
+		So werden Lehramtsstudenten kommunikationssicher f&uuml;r ihren Unterricht (VIDEO)
+		</strong>
+		
+		<a class="hi" href="/pm/105530/2262194/so-werden-lehramtsstudenten-kommunikationssicher-fuer-ihren-unterricht-video" title="">weiter zur Meldung von  Kommunikationssicher  </a>
+		<br />
+		<br />
+		<br />
+	</div><!-- // inner_media_box -->
+	<div class="free_img_toolbar">
+		<a class="social_action" id="social_video_embed_217794" href=""><img src="/images/icons/forward.gif" alt="einbinden" width="20" height="20" title="Video einbinden" /></a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_video_download_217794" href=""><img src="/images/icons/save.gif" alt="speichern" width="20" height="20" title="Video speichern" /></a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_video_mail_217794" href=""><img src="/images/icons/mail.gif" alt="versenden" width="20" height="20" title="Per E-Mail versenden" /></a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<!--
+		<iframe id="fb_recommend_video" src="http://www.facebook.com/plugins/like.php?href=%2Fpm%2F105530%2F2262194%2Fso-werden-lehramtsstudenten-kommunikationssicher-fuer-ihren-unterricht-video&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=recommend&amp;font=verdana&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true">
+		</iframe>
+		-->
+		<a title="Auf Facebook teilen" id="fb_recommend_video" href="http://www.facebook.com/sharer.php?u=%2Fpm%2F105530%2F2262194%2Fso-werden-lehramtsstudenten-kommunikationssicher-fuer-ihren-unterricht-video">
+		<img src="http://b.static.ak.fbcdn.net/images/share/facebook_share_icon.gif?8:26981" alt="" />
+		</a>
+		<img style="margin-left:4px" class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_video_tweet_2262194" href="">
+		<img src="/images/icons/twitter_20.gif" alt="twittern" width="20" height="20" title="Twittern" />
+		</a>
+		
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_video_link_217794" href="/video/display/217794"><img src="/images/icons/link.gif" alt="video" width="20" height="20" title="Link zum Video" /></a>
+	</div>
+</div><!-- //media_box -->				</div><!-- // video_box -->
+
+	</div><!-- // video_outer_box -->
+	
+		<div id="video_nav">
+						<span id="ajax_result_video" style="display:none">
+
+</span>
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_217794" href="/video/display/217794">
+        <img alt="So werden Lehramtsstudenten kommunikationssicher f&uuml;r ihren Unterricht (VIDEO)" title="So werden Lehramtsstudenten kommunikationssicher f&uuml;r ihren Unterricht (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/914_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			30.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/105530/kommunikationssicher" title="Kommunikationssicher">Kommunikation...</a>
+		<br />
+		<strong class="title"><a title="So werden Lehramtsstudenten kommunikationssicher f&uuml;r ihren Unterricht (VIDEO)" class="social_action" id="social_video_load_217794_01" 
+            href="/pm/105530/2262194/so-werden-lehramtsstudenten-kommunikationssicher-fuer-ihren-unterricht-video">So werden Lehramtsstudenten kommunikationssicher f&uuml;r ihren Unterricht (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_217504" href="/video/display/217504">
+        <img alt="Stage Entertainment Touring Productions pr&auml;sentiert brandneue Show VOCA PEOPLE: Notlandung in Deutschland! (VIDEO)" title="Stage Entertainment Touring Productions pr&auml;sentiert brandneue Show VOCA PEOPLE: Notlandung in Deutschland! (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/910_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			25.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/104171/stage-entertainment-touring-productions" title="Stage Entertainment Touring Productions">Stage...</a>
+		<br />
+		<strong class="title"><a title="Stage Entertainment Touring Productions pr&auml;sentiert brandneue Show VOCA PEOPLE: Notlandung in Deutschland! (VIDEO)" class="social_action" id="social_video_load_217504_01" 
+            href="/pm/104171/2259707/stage-entertainment-touring-productions-praesentiert-brandneue-show-voca-people-notlandung-in">Stage Entertainment Touring Productions pr&auml;sentiert brandneue Show VOCA PEOPLE: Notlandung in Deutschland! (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_217400" href="/video/display/217400">
+        <img alt="Br&uuml;ssel listet Google-Verst&ouml;&szlig;e auf (VIDEO)" title="Br&uuml;ssel listet Google-Verst&ouml;&szlig;e auf (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/903_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			24.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/102999/albatros-media-gmbh" title="Albatros Media GmbH">Albatros...</a>
+		<br />
+		<strong class="title"><a title="Br&uuml;ssel listet Google-Verst&ouml;&szlig;e auf (VIDEO)" class="social_action" id="social_video_load_217400_01" 
+            href="/pm/102999/2258838/bruessel-listet-google-verstoesse-auf-video">Br&uuml;ssel listet Google-Verst&ouml;&szlig;e auf (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_217135" href="/video/display/217135">
+        <img alt="Wanderung &uuml;ber die Schweizer Alpen in HD / Der l&auml;ngste Wanderfilm der Welt" title="Wanderung &uuml;ber die Schweizer Alpen in HD / Der l&auml;ngste Wanderfilm der Welt"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/902_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			22.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/105417/rhaetische-bahn" title="Rh&auml;tische Bahn">Rh&auml;tisch...</a>
+		<br />
+		<strong class="title"><a title="Wanderung &uuml;ber die Schweizer Alpen in HD / Der l&auml;ngste Wanderfilm der Welt" class="social_action" id="social_video_load_217135_01" 
+            href="/pm/105417/2256928/wanderung-ueber-die-schweizer-alpen-in-hd-der-laengste-wanderfilm-der-welt">Wanderung &uuml;ber die Schweizer Alpen in HD / Der l&auml;ngste Wanderfilm der Welt</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_217054" href="/video/display/217054">
+        <img alt="Die frechste Werbeaktion Deutschlands: EURONICS nutzt das Bundeskanzleramt als Werbefl&auml;che" title="Die frechste Werbeaktion Deutschlands: EURONICS nutzt das Bundeskanzleramt als Werbefl&auml;che"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/901_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			22.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/72510/euronics-deutschland-eg" title="EURONICS Deutschland eG">EURONICS...</a>
+		<br />
+		<strong class="title"><a title="Die frechste Werbeaktion Deutschlands: EURONICS nutzt das Bundeskanzleramt als Werbefl&auml;che" class="social_action" id="social_video_load_217054_01" 
+            href="/pm/72510/2256885/die-frechste-werbeaktion-deutschlands-euronics-nutzt-das-bundeskanzleramt-als-werbeflaeche">Die frechste Werbeaktion Deutschlands: EURONICS nutzt das Bundeskanzleramt als Werbefl&auml;che</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_216724" href="/video/display/216724">
+        <img alt="Highend-Sportger&auml;t - das Audi e-bike W&ouml;rthersee (VIDEO)" title="Highend-Sportger&auml;t - das Audi e-bike W&ouml;rthersee (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/899_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			16.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6730/audi-ag" title="Audi AG">Audi AG</a>
+		<br />
+		<strong class="title"><a title="Highend-Sportger&auml;t - das Audi e-bike W&ouml;rthersee (VIDEO)" class="social_action" id="social_video_load_216724_01" 
+            href="/pm/6730/2254117/highend-sportgeraet-das-audi-e-bike-woerthersee-video">Highend-Sportger&auml;t - das Audi e-bike W&ouml;rthersee (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_216431" href="/video/display/216431">
+        <img alt="Unfallforschung der Versicherer (UDV): Mit Tuning setzen Rollerfahrer ihr Leben aufs Spiel (VIDEO)" title="Unfallforschung der Versicherer (UDV): Mit Tuning setzen Rollerfahrer ihr Leben aufs Spiel (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/898_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			14.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/39279/gdv-gesamtverband-der-deutschen-versicherungswirtschaft-e-v" title="GDV - Gesamtverband der Deutschen Versicherungswirtschaft e.V.">GDV -...</a>
+		<br />
+		<strong class="title"><a title="Unfallforschung der Versicherer (UDV): Mit Tuning setzen Rollerfahrer ihr Leben aufs Spiel (VIDEO)" class="social_action" id="social_video_load_216431_01" 
+            href="/pm/39279/2252359/unfallforschung-der-versicherer-udv-mit-tuning-setzen-rollerfahrer-ihr-leben-aufs-spiel-video">Unfallforschung der Versicherer (UDV): Mit Tuning setzen Rollerfahrer ihr Leben aufs Spiel (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215922" href="/video/display/215922">
+        <img alt="Wissen z&auml;hlt! Unsere Haut vergisst nichts / Kurzfilm &uuml;ber die Risikofaktoren von schwarzem Hautkrebs (VIDEO)" title="Wissen z&auml;hlt! Unsere Haut vergisst nichts / Kurzfilm &uuml;ber die Risikofaktoren von schwarzem Hautkrebs (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/886_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			09.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6703/bristol-myers-squibb-gmbh-co-kg-aa" title="Bristol-Myers Squibb GmbH &amp; Co.KG aA">Bristol-Myers...</a>
+		<br />
+		<strong class="title"><a title="Wissen z&auml;hlt! Unsere Haut vergisst nichts / Kurzfilm &uuml;ber die Risikofaktoren von schwarzem Hautkrebs (VIDEO)" class="social_action" id="social_video_load_215922_01" 
+            href="/pm/6703/2249337/wissen-zaehlt-unsere-haut-vergisst-nichts-kurzfilm-ueber-die-risikofaktoren-von-schwarzem-hautkrebs">Wissen z&auml;hlt! Unsere Haut vergisst nichts / Kurzfilm &uuml;ber die Risikofaktoren von schwarzem Hautkrebs (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215910" href="/video/display/215910">
+        <img alt="KFZ Unfallskizze - Wenn es gekracht hat z&auml;hlt jedes Detail (VIDEO)" title="KFZ Unfallskizze - Wenn es gekracht hat z&auml;hlt jedes Detail (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/893_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			09.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/81384/finzel-internetmarketing" title="Finzel Internetmarketing">Finzel...</a>
+		<br />
+		<strong class="title"><a title="KFZ Unfallskizze - Wenn es gekracht hat z&auml;hlt jedes Detail (VIDEO)" class="social_action" id="social_video_load_215910_01" 
+            href="/pm/81384/2249285/kfz-unfallskizze-wenn-es-gekracht-hat-zaehlt-jedes-detail-video">KFZ Unfallskizze - Wenn es gekracht hat z&auml;hlt jedes Detail (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215703" href="/video/display/215703">
+        <img alt="Londoner Theatersensation kommt 2013 in das Stage Theater des Westens / Vorverkauf startet am 7. Mai 2012 / WAR HORSE feiert Deutschlandpremiere in Berlin (VIDEO)" title="Londoner Theatersensation kommt 2013 in das Stage Theater des Westens / Vorverkauf startet am 7. Mai 2012 / WAR HORSE feiert Deutschlandpremiere in Berlin (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/891_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			07.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/104657/stage-entertainment-gmbh-berlin" title="Stage Entertainment GmbH/Berlin">Stage...</a>
+		<br />
+		<strong class="title"><a title="Londoner Theatersensation kommt 2013 in das Stage Theater des Westens / Vorverkauf startet am 7. Mai 2012 / WAR HORSE feiert Deutschlandpremiere in Berlin (VIDEO)" class="social_action" id="social_video_load_215703_01" 
+            href="/pm/104657/2247772/londoner-theatersensation-kommt-2013-in-das-stage-theater-des-westens-vorverkauf-startet-am-7-mai">Londoner Theatersensation kommt 2013 in das Stage Theater des Westens / Vorverkauf startet am 7. Mai 2012 / WAR HORSE feiert...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215680" href="/video/display/215680">
+        <img alt="Jetzt geht der Ouzo 12 Sirtaki Weltrekordversuch zum Guinness Buch:
+Griechisch-deutscher Regentanz: Costa Cordalis tanzt mit rund 1.100 guten Freunden (BILD / VIDEO)" title="Jetzt geht der Ouzo 12 Sirtaki Weltrekordversuch zum Guinness Buch:
+Griechisch-deutscher Regentanz: Costa Cordalis tanzt mit rund 1.100 guten Freunden (BILD / VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/890_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			07.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/105296/ouzo-12" title="Ouzo 12">Ouzo 12</a>
+		<br />
+		<strong class="title"><a title="Jetzt geht der Ouzo 12 Sirtaki Weltrekordversuch zum Guinness Buch:
+Griechisch-deutscher Regentanz: Costa Cordalis tanzt mit rund 1.100 guten Freunden (BILD / VIDEO)" class="social_action" id="social_video_load_215680_01" 
+            href="/pm/105296/2247667/jetzt-geht-der-ouzo-12-sirtaki-weltrekordversuch-zum-guinness-buch-griechisch-deutscher-regentanz">Jetzt geht der Ouzo 12 Sirtaki Weltrekordversuch zum Guinness Buch:
+Griechisch-deutscher Regentanz: Costa Cordalis tanzt mit...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215604" href="/video/display/215604">
+        <img alt="Care-Energy General Meeting in Hamburg / Im Hamburger East Hotel feierten das Backoffice und die Vertriebsmitarbeiter nach dem 1.Quartal den 35.000 Kunden (VIDEO)" title="Care-Energy General Meeting in Hamburg / Im Hamburger East Hotel feierten das Backoffice und die Vertriebsmitarbeiter nach dem 1.Quartal den 35.000 Kunden (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/889_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			04.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/80959/mk-group-holding-gmbh" title="mk-group Holding GmbH">mk-group...</a>
+		<br />
+		<strong class="title"><a title="Care-Energy General Meeting in Hamburg / Im Hamburger East Hotel feierten das Backoffice und die Vertriebsmitarbeiter nach dem 1.Quartal den 35.000 Kunden (VIDEO)" class="social_action" id="social_video_load_215604_01" 
+            href="/pm/80959/2247043/care-energy-general-meeting-in-hamburg-im-hamburger-east-hotel-feierten-das-backoffice-und-die">Care-Energy General Meeting in Hamburg / Im Hamburger East Hotel feierten das Backoffice und die Vertriebsmitarbeiter nach dem...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215582" href="/video/display/215582">
+        <img alt="AGRAVIS &uuml;berspringt 6 Mrd.-Euro-Linie und will weiter wachsen" title="AGRAVIS &uuml;berspringt 6 Mrd.-Euro-Linie und will weiter wachsen"  
+            style="margin-top:13px" width="110" src="http://otsvideo.presseportal.de/887_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			03.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/104520/agravis-raiffeisen-ag" title="AGRAVIS Raiffeisen AG">AGRAVIS...</a>
+		<br />
+		<strong class="title"><a title="AGRAVIS &uuml;berspringt 6 Mrd.-Euro-Linie und will weiter wachsen" class="social_action" id="social_video_load_215582_01" 
+            href="/pm/104520/2245759/agravis-ueberspringt-6-mrd-euro-linie-und-will-weiter-wachsen">AGRAVIS &uuml;berspringt 6 Mrd.-Euro-Linie und will weiter wachsen</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215360" href="/video/display/215360">
+        <img alt="Mobile Medien m&uuml;ssen flexibel sein - Beitrag aus MM flash vom 3.5.2012 (VIDEO)" title="Mobile Medien m&uuml;ssen flexibel sein - Beitrag aus MM flash vom 3.5.2012 (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/885_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			03.05.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/102999/albatros-media-gmbh" title="Albatros Media GmbH">Albatros...</a>
+		<br />
+		<strong class="title"><a title="Mobile Medien m&uuml;ssen flexibel sein - Beitrag aus MM flash vom 3.5.2012 (VIDEO)" class="social_action" id="social_video_load_215360_01" 
+            href="/pm/102999/2245705/mobile-medien-muessen-flexibel-sein-beitrag-aus-mm-flash-vom-3-5-2012-video">Mobile Medien m&uuml;ssen flexibel sein - Beitrag aus MM flash vom 3.5.2012 (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215093" href="/video/display/215093">
+        <img alt="Bundeskanzlerin Angela Merkel w&uuml;rdigt Genossenschaften als Organisationsmodell f&uuml;r die Zukunft (VIDEO)" title="Bundeskanzlerin Angela Merkel w&uuml;rdigt Genossenschaften als Organisationsmodell f&uuml;r die Zukunft (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/878_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			27.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/40550/bvr-bundesverband-der-dt-volksbanken-und-raiffeisenbanken" title="BVR Bundesverband der dt. Volksbanken und Raiffeisenbanken">BVR...</a>
+		<br />
+		<strong class="title"><a title="Bundeskanzlerin Angela Merkel w&uuml;rdigt Genossenschaften als Organisationsmodell f&uuml;r die Zukunft (VIDEO)" class="social_action" id="social_video_load_215093_01" 
+            href="/pm/40550/2243067/bundeskanzlerin-angela-merkel-wuerdigt-genossenschaften-als-organisationsmodell-fuer-die-zukunft">Bundeskanzlerin Angela Merkel w&uuml;rdigt Genossenschaften als Organisationsmodell f&uuml;r die Zukunft (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_215092" href="/video/display/215092">
+        <img alt="Volksbanken und Raiffeisenbanken erm&ouml;glichen mit 150.000 VR-BankCards das kontaktlose Bezahlen girogo (VIDEO)" title="Volksbanken und Raiffeisenbanken erm&ouml;glichen mit 150.000 VR-BankCards das kontaktlose Bezahlen girogo (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/877_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			27.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/40550/bvr-bundesverband-der-dt-volksbanken-und-raiffeisenbanken" title="BVR Bundesverband der dt. Volksbanken und Raiffeisenbanken">BVR...</a>
+		<br />
+		<strong class="title"><a title="Volksbanken und Raiffeisenbanken erm&ouml;glichen mit 150.000 VR-BankCards das kontaktlose Bezahlen girogo (VIDEO)" class="social_action" id="social_video_load_215092_01" 
+            href="/pm/40550/2243057/volksbanken-und-raiffeisenbanken-ermoeglichen-mit-150-000-vr-bankcards-das-kontaktlose-bezahlen">Volksbanken und Raiffeisenbanken erm&ouml;glichen mit 150.000 VR-BankCards das kontaktlose Bezahlen girogo (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_214971" href="/video/display/214971">
+        <img alt="Warten auf ein neues Leben - Infokampagne zur Organspende erregt Aufsehen auf Bahnsteigen (VIDEO)" title="Warten auf ein neues Leben - Infokampagne zur Organspende erregt Aufsehen auf Bahnsteigen (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/876_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			27.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/71568/stiftung-fuers-leben" title="Stiftung F&Uuml;RS LEBEN">Stiftung...</a>
+		<br />
+		<strong class="title"><a title="Warten auf ein neues Leben - Infokampagne zur Organspende erregt Aufsehen auf Bahnsteigen (VIDEO)" class="social_action" id="social_video_load_214971_01" 
+            href="/pm/71568/2242484/warten-auf-ein-neues-leben-infokampagne-zur-organspende-erregt-aufsehen-auf-bahnsteigen-video">Warten auf ein neues Leben - Infokampagne zur Organspende erregt Aufsehen auf Bahnsteigen (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_214907" href="/video/display/214907">
+        <img alt="Helm abnehmen, aber richtig: Erste Hilfe bei Motorradfahrern / R+V24-Initiative &quot;Sei ein Retter!&quot; (VIDEO)" title="Helm abnehmen, aber richtig: Erste Hilfe bei Motorradfahrern / R+V24-Initiative &quot;Sei ein Retter!&quot; (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/874_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			26.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/73568/r-v24" title="R+V24">R+V24</a>
+		<br />
+		<strong class="title"><a title="Helm abnehmen, aber richtig: Erste Hilfe bei Motorradfahrern / R+V24-Initiative &quot;Sei ein Retter!&quot; (VIDEO)" class="social_action" id="social_video_load_214907_01" 
+            href="/pm/73568/2242143/helm-abnehmen-aber-richtig-erste-hilfe-bei-motorradfahrern-r-v24-initiative-sei-ein-retter-video">Helm abnehmen, aber richtig: Erste Hilfe bei Motorradfahrern / R+V24-Initiative &quot;Sei ein Retter!&quot; (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_214644" href="/video/display/214644">
+        <img alt="Olympiamannschaft setzt in London Modetrends / Mit adidas, Bogner und Sioux bei Olympischen und Paralympischen Spielen (VIDEO)" title="Olympiamannschaft setzt in London Modetrends / Mit adidas, Bogner und Sioux bei Olympischen und Paralympischen Spielen (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/873_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			25.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/64977/deutscher-olympischer-sportbund-dosb" title="Deutscher Olympischer Sportbund (DOSB)">Deutscher...</a>
+		<br />
+		<strong class="title"><a title="Olympiamannschaft setzt in London Modetrends / Mit adidas, Bogner und Sioux bei Olympischen und Paralympischen Spielen (VIDEO)" class="social_action" id="social_video_load_214644_01" 
+            href="/pm/64977/2240811/olympiamannschaft-setzt-in-london-modetrends-mit-adidas-bogner-und-sioux-bei-olympischen-und">Olympiamannschaft setzt in London Modetrends / Mit adidas, Bogner und Sioux bei Olympischen und Paralympischen Spielen (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_214324" href="/video/display/214324">
+        <img alt="Care-Energy ist mit Care-Load beim Clean Tech Media Award 2012 nominiert (VIDEO)" title="Care-Energy ist mit Care-Load beim Clean Tech Media Award 2012 nominiert (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/870_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			20.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/80959/mk-group-holding-gmbh" title="mk-group Holding GmbH">mk-group...</a>
+		<br />
+		<strong class="title"><a title="Care-Energy ist mit Care-Load beim Clean Tech Media Award 2012 nominiert (VIDEO)" class="social_action" id="social_video_load_214324_01" 
+            href="/pm/80959/2238378/care-energy-ist-mit-care-load-beim-clean-tech-media-award-2012-nominiert-video">Care-Energy ist mit Care-Load beim Clean Tech Media Award 2012 nominiert (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_214116" href="/video/display/214116">
+        <img alt="(Studie) Europa Konsumbarometer 2012: Mittelschicht fr&uuml;her und heute (VIDEO/BILD)" title="(Studie) Europa Konsumbarometer 2012: Mittelschicht fr&uuml;her und heute (VIDEO/BILD)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/864_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			19.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/78451/commerz-finanz-gmbh" title="Commerz Finanz GmbH">Commerz...</a>
+		<br />
+		<strong class="title"><a title="(Studie) Europa Konsumbarometer 2012: Mittelschicht fr&uuml;her und heute (VIDEO/BILD)" class="social_action" id="social_video_load_214116_01" 
+            href="/pm/78451/2237224/-studie-europa-konsumbarometer-2012-mittelschicht-frueher-und-heute-video-bild">(Studie) Europa Konsumbarometer 2012: Mittelschicht fr&uuml;her und heute (VIDEO/BILD)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_214104" href="/video/display/214104">
+        <img alt="Wie wichtig sind Magazine im Mediamix? / Beitrag aus MM flash vom 19.4.2012 (VIDEO)" title="Wie wichtig sind Magazine im Mediamix? / Beitrag aus MM flash vom 19.4.2012 (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/869_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			19.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/102999/albatros-media-gmbh" title="Albatros Media GmbH">Albatros...</a>
+		<br />
+		<strong class="title"><a title="Wie wichtig sind Magazine im Mediamix? / Beitrag aus MM flash vom 19.4.2012 (VIDEO)" class="social_action" id="social_video_load_214104_01" 
+            href="/pm/102999/2237197/wie-wichtig-sind-magazine-im-mediamix-beitrag-aus-mm-flash-vom-19-4-2012-video">Wie wichtig sind Magazine im Mediamix? / Beitrag aus MM flash vom 19.4.2012 (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_213982" href="/video/display/213982">
+        <img alt="Das BERGERGUT****s erobert mit Hollywood-Glamour &amp; Eros-Faktor die Herzen &ouml;sterreichischer Kinofans! (VIDEO)" title="Das BERGERGUT****s erobert mit Hollywood-Glamour &amp; Eros-Faktor die Herzen &ouml;sterreichischer Kinofans! (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/868_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			18.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/70646/bergergut-s-romantik-resort-spa" title="BERGERGUT ****S Romantik Resort &amp; Spa">BERGERGUT...</a>
+		<br />
+		<strong class="title"><a title="Das BERGERGUT****s erobert mit Hollywood-Glamour &amp; Eros-Faktor die Herzen &ouml;sterreichischer Kinofans! (VIDEO)" class="social_action" id="social_video_load_213982_01" 
+            href="/pm/70646/2236474/das-bergergut-s-erobert-mit-hollywood-glamour-eros-faktor-die-herzen-oesterreichischer-kinofans">Das BERGERGUT****s erobert mit Hollywood-Glamour &amp; Eros-Faktor die Herzen &ouml;sterreichischer Kinofans! (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_213977" href="/video/display/213977">
+        <img alt="AVIVA goes Hollywood - Mit AVIVA****s der Film &amp; AVIVA****s der Spot! (VIDEO)" title="AVIVA goes Hollywood - Mit AVIVA****s der Film &amp; AVIVA****s der Spot! (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/867_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			18.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/76571/hotel-aviva-make-friends" title="Hotel AVIVA**** make friends">Hotel...</a>
+		<br />
+		<strong class="title"><a title="AVIVA goes Hollywood - Mit AVIVA****s der Film &amp; AVIVA****s der Spot! (VIDEO)" class="social_action" id="social_video_load_213977_01" 
+            href="/pm/76571/2236461/aviva-goes-hollywood-mit-aviva-s-der-film-aviva-s-der-spot-video">AVIVA goes Hollywood - Mit AVIVA****s der Film &amp; AVIVA****s der Spot! (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_213834" href="/video/display/213834">
+        <img alt="Sparen oder Ausgeben - Europ&auml;er w&auml;gen ab (BILD/VIDEO)" title="Sparen oder Ausgeben - Europ&auml;er w&auml;gen ab (BILD/VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/864_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			17.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/78451/commerz-finanz-gmbh" title="Commerz Finanz GmbH">Commerz...</a>
+		<br />
+		<strong class="title"><a title="Sparen oder Ausgeben - Europ&auml;er w&auml;gen ab (BILD/VIDEO)" class="social_action" id="social_video_load_213834_01" 
+            href="/pm/78451/2235583/sparen-oder-ausgeben-europaeer-waegen-ab-bild-video">Sparen oder Ausgeben - Europ&auml;er w&auml;gen ab (BILD/VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_213815" href="/video/display/213815">
+        <img alt="Deutsche Bank erh&ouml;ht F&ouml;rderung f&uuml;r Spitzensportler mit eigenem &quot;Deutsche Bank Sport-Stipendium&quot; (VIDEO)" title="Deutsche Bank erh&ouml;ht F&ouml;rderung f&uuml;r Spitzensportler mit eigenem &quot;Deutsche Bank Sport-Stipendium&quot; (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/866_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			17.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/51413/stiftung-deutsche-sporthilfe" title="Stiftung Deutsche Sporthilfe">Stiftung...</a>
+		<br />
+		<strong class="title"><a title="Deutsche Bank erh&ouml;ht F&ouml;rderung f&uuml;r Spitzensportler mit eigenem &quot;Deutsche Bank Sport-Stipendium&quot; (VIDEO)" class="social_action" id="social_video_load_213815_01" 
+            href="/pm/51413/2235523/deutsche-bank-erhoeht-foerderung-fuer-spitzensportler-mit-eigenem-deutsche-bank-sport-stipendium">Deutsche Bank erh&ouml;ht F&ouml;rderung f&uuml;r Spitzensportler mit eigenem &quot;Deutsche Bank Sport-Stipendium&quot; (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_213685" href="/video/display/213685">
+        <img alt="Au&szlig;ergew&ouml;hnliche Aktion beim Heimspiel des FC Bayern M&uuml;nchen / BiFi verteilte 30.000 T-Shirts der besonderen Art (VIDEO)" title="Au&szlig;ergew&ouml;hnliche Aktion beim Heimspiel des FC Bayern M&uuml;nchen / BiFi verteilte 30.000 T-Shirts der besonderen Art (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/863_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			16.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/81690/bifi" title="BiFi">BiFi</a>
+		<br />
+		<strong class="title"><a title="Au&szlig;ergew&ouml;hnliche Aktion beim Heimspiel des FC Bayern M&uuml;nchen / BiFi verteilte 30.000 T-Shirts der besonderen Art (VIDEO)" class="social_action" id="social_video_load_213685_01" 
+            href="/pm/81690/2234780/aussergewoehnliche-aktion-beim-heimspiel-des-fc-bayern-muenchen-bifi-verteilte-30-000-t-shirts-der">Au&szlig;ergew&ouml;hnliche Aktion beim Heimspiel des FC Bayern M&uuml;nchen / BiFi verteilte 30.000 T-Shirts der besonderen...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_213520" href="/video/display/213520">
+        <img alt="ots.Video: Sinnliches 6-Punkte-Programm zur neuen Home- &amp; Bodywear Kollektion / Marcus Schenkenberg zeigt mit Freundin Dorin: &quot;M&auml;nner, so verw&ouml;hnt ihr eure Frauen!&quot; (mit Bild)" title="ots.Video: Sinnliches 6-Punkte-Programm zur neuen Home- &amp; Bodywear Kollektion / Marcus Schenkenberg zeigt mit Freundin Dorin: &quot;M&auml;nner, so verw&ouml;hnt ihr eure Frauen!&quot; (mit Bild)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/862_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			13.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6333/qvc-deutschland-inc-co-kg" title="QVC Deutschland Inc. &amp; Co. KG">QVC...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Sinnliches 6-Punkte-Programm zur neuen Home- &amp; Bodywear Kollektion / Marcus Schenkenberg zeigt mit Freundin Dorin: &quot;M&auml;nner, so verw&ouml;hnt ihr eure Frauen!&quot; (mit Bild)" class="social_action" id="social_video_load_213520_01" 
+            href="/pm/6333/2233694/ots-video-sinnliches-6-punkte-programm-zur-neuen-home-bodywear-kollektion-marcus-schenkenberg-zeigt">ots.Video: Sinnliches 6-Punkte-Programm zur neuen Home- &amp; Bodywear Kollektion / Marcus Schenkenberg zeigt mit Freundin...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_212965" href="/video/display/212965">
+        <img alt="Akustische Innovation: Der e-Sound von Audi (VIDEO)" title="Akustische Innovation: Der e-Sound von Audi (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/861_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			05.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6730/audi-ag" title="Audi AG">Audi AG</a>
+		<br />
+		<strong class="title"><a title="Akustische Innovation: Der e-Sound von Audi (VIDEO)" class="social_action" id="social_video_load_212965_01" 
+            href="/pm/6730/2230015/akustische-innovation-der-e-sound-von-audi-video">Akustische Innovation: Der e-Sound von Audi (VIDEO)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_212614" href="/video/display/212614">
+        <img alt="Rollentausch am Polarkreis: BMW DTM-Piloten vermitteln Rodel-Weltmeister und Bob-Olympiasieger Drift-Perfektion auf dem Eis (VIDEO)" title="Rollentausch am Polarkreis: BMW DTM-Piloten vermitteln Rodel-Weltmeister und Bob-Olympiasieger Drift-Perfektion auf dem Eis (VIDEO)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/860_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			02.04.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/28255/bmw-group" title="BMW Group">BMW Group</a>
+		<br />
+		<strong class="title"><a title="Rollentausch am Polarkreis: BMW DTM-Piloten vermitteln Rodel-Weltmeister und Bob-Olympiasieger Drift-Perfektion auf dem Eis (VIDEO)" class="social_action" id="social_video_load_212614_01" 
+            href="/pm/28255/2227990/rollentausch-am-polarkreis-bmw-dtm-piloten-vermitteln-rodel-weltmeister-und-bob-olympiasieger-drift">Rollentausch am Polarkreis: BMW DTM-Piloten vermitteln Rodel-Weltmeister und Bob-Olympiasieger Drift-Perfektion auf dem Eis...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_212200" href="/video/display/212200">
+        <img alt="ots.Video: Media-Analyse: Gewinnen ist gratis" title="ots.Video: Media-Analyse: Gewinnen ist gratis"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/859_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			29.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/102999/albatros-media-gmbh" title="Albatros Media GmbH">Albatros...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Media-Analyse: Gewinnen ist gratis" class="social_action" id="social_video_load_212200_01" 
+            href="/pm/102999/2225709/ots-video-media-analyse-gewinnen-ist-gratis">ots.Video: Media-Analyse: Gewinnen ist gratis</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_211917" href="/video/display/211917">
+        <img alt="ots.Video: Opel Ampera gewinnt Rallye Monte Carlo (mit Bild)" title="ots.Video: Opel Ampera gewinnt Rallye Monte Carlo (mit Bild)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/858_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			26.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/59486/adam-opel-ag" title="Adam Opel AG">Adam Opel AG</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Opel Ampera gewinnt Rallye Monte Carlo (mit Bild)" class="social_action" id="social_video_load_211917_01" 
+            href="/pm/59486/2223771/ots-video-opel-ampera-gewinnt-rallye-monte-carlo-mit-bild">ots.Video: Opel Ampera gewinnt Rallye Monte Carlo (mit Bild)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_211711" href="/video/display/211711">
+        <img alt="ots.Video: Viral-Spot mit Markenerlebnis: Veltins Kronkorken einfach mit Bikinischnalle oder Kettenss&auml;ge &ouml;ffnen" title="ots.Video: Viral-Spot mit Markenerlebnis: Veltins Kronkorken einfach mit Bikinischnalle oder Kettenss&auml;ge &ouml;ffnen"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/857_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			23.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/24351/brauerei-c-a-veltins-gmbh" title="Brauerei C. &amp; A. Veltins GmbH">Brauerei C....</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Viral-Spot mit Markenerlebnis: Veltins Kronkorken einfach mit Bikinischnalle oder Kettenss&auml;ge &ouml;ffnen" class="social_action" id="social_video_load_211711_01" 
+            href="/pm/24351/2222162/ots-video-viral-spot-mit-markenerlebnis-veltins-kronkorken-einfach-mit-bikinischnalle-oder">ots.Video: Viral-Spot mit Markenerlebnis: Veltins Kronkorken einfach mit Bikinischnalle oder Kettenss&auml;ge &ouml;ffnen</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_211603" href="/video/display/211603">
+        <img alt="ots.Video: Schock f&uuml;rs Leben: Erste Hilfe mit dem Defibrillator / R+V24-Initiative &quot;Sei ein Retter!&quot;" title="ots.Video: Schock f&uuml;rs Leben: Erste Hilfe mit dem Defibrillator / R+V24-Initiative &quot;Sei ein Retter!&quot;"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/856_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			22.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/73568/r-v24" title="R+V24">R+V24</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Schock f&uuml;rs Leben: Erste Hilfe mit dem Defibrillator / R+V24-Initiative &quot;Sei ein Retter!&quot;" class="social_action" id="social_video_load_211603_01" 
+            href="/pm/73568/2221635/ots-video-schock-fuers-leben-erste-hilfe-mit-dem-defibrillator-r-v24-initiative-sei-ein-retter">ots.Video: Schock f&uuml;rs Leben: Erste Hilfe mit dem Defibrillator / R+V24-Initiative &quot;Sei ein Retter!&quot;</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_210354" href="/video/display/210354">
+        <img alt="ots.Video: Aufkl&auml;rungsfilm: Rotaviren - Wenn bei Babys Magen und Darm rebellieren" title="ots.Video: Aufkl&auml;rungsfilm: Rotaviren - Wenn bei Babys Magen und Darm rebellieren"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/854_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			12.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/39763/glaxosmithkline-gmbh-co-kg" title="GlaxoSmithKline GmbH &amp; Co. KG">GlaxoSmithKli...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Aufkl&auml;rungsfilm: Rotaviren - Wenn bei Babys Magen und Darm rebellieren" class="social_action" id="social_video_load_210354_01" 
+            href="/pm/39763/2214442/ots-video-aufklaerungsfilm-rotaviren-wenn-bei-babys-magen-und-darm-rebellieren">ots.Video: Aufkl&auml;rungsfilm: Rotaviren - Wenn bei Babys Magen und Darm rebellieren</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_210127" href="/video/display/210127">
+        <img alt="ots.Video: Das R&auml;tsel von G&eacute;vaudan / Historischer Thriller von Nina Blazon" title="ots.Video: Das R&auml;tsel von G&eacute;vaudan / Historischer Thriller von Nina Blazon"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/842_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			08.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/33603/ravensburger-buchverlag" title="Ravensburger Buchverlag">Ravensburger...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Das R&auml;tsel von G&eacute;vaudan / Historischer Thriller von Nina Blazon" class="social_action" id="social_video_load_210127_01" 
+            href="/pm/33603/2212780/ots-video-das-raetsel-von-g-vaudan-historischer-thriller-von-nina-blazon">ots.Video: Das R&auml;tsel von G&eacute;vaudan / Historischer Thriller von Nina Blazon</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_210053" href="/video/display/210053">
+        <img alt="ots.Video: AGRAVIS Raiffeisen AG mit dynamischem Wachstum" title="ots.Video: AGRAVIS Raiffeisen AG mit dynamischem Wachstum"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/853_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			08.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/104520/agravis-raiffeisen-ag" title="AGRAVIS Raiffeisen AG">AGRAVIS...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: AGRAVIS Raiffeisen AG mit dynamischem Wachstum" class="social_action" id="social_video_load_210053_01" 
+            href="/pm/104520/2212296/ots-video-agravis-raiffeisen-ag-mit-dynamischem-wachstum">ots.Video: AGRAVIS Raiffeisen AG mit dynamischem Wachstum</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_209989" href="/video/display/209989">
+        <img alt="ots.Video: AIDA Neubauten f&uuml;r Ganzjahres-Einsatz im Norden konzipiert / Luft-Teppich macht neue AIDA Schiffe noch sparsamer" title="ots.Video: AIDA Neubauten f&uuml;r Ganzjahres-Einsatz im Norden konzipiert / Luft-Teppich macht neue AIDA Schiffe noch sparsamer"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/849_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			07.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/55827/aida-cruises" title="AIDA Cruises">AIDA Cruises</a>
+		<br />
+		<strong class="title"><a title="ots.Video: AIDA Neubauten f&uuml;r Ganzjahres-Einsatz im Norden konzipiert / Luft-Teppich macht neue AIDA Schiffe noch sparsamer" class="social_action" id="social_video_load_209989_01" 
+            href="/pm/55827/2211834/ots-video-aida-neubauten-fuer-ganzjahres-einsatz-im-norden-konzipiert-luft-teppich-macht-neue-aida">ots.Video: AIDA Neubauten f&uuml;r Ganzjahres-Einsatz im Norden konzipiert / Luft-Teppich macht neue AIDA Schiffe noch sparsamer</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_209839" href="/video/display/209839">
+        <img alt="ots.Video: Der neue Audi A3 - Innovation mit Stil" title="ots.Video: Der neue Audi A3 - Innovation mit Stil"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/848_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			06.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6730/audi-ag" title="Audi AG">Audi AG</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Der neue Audi A3 - Innovation mit Stil" class="social_action" id="social_video_load_209839_01" 
+            href="/pm/6730/2210895/ots-video-der-neue-audi-a3-innovation-mit-stil">ots.Video: Der neue Audi A3 - Innovation mit Stil</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_209401" href="/video/display/209401">
+        <img alt="ots.Video: Audi Konzern im Gesch&auml;ftsjahr 2011: Bestmarken bei Auslieferungen, Umsatz und Ergebnis (mit Bild)" title="ots.Video: Audi Konzern im Gesch&auml;ftsjahr 2011: Bestmarken bei Auslieferungen, Umsatz und Ergebnis (mit Bild)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/841_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			01.03.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6730/audi-ag" title="Audi AG">Audi AG</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Audi Konzern im Gesch&auml;ftsjahr 2011: Bestmarken bei Auslieferungen, Umsatz und Ergebnis (mit Bild)" class="social_action" id="social_video_load_209401_01" 
+            href="/pm/6730/2207931/ots-video-audi-konzern-im-geschaeftsjahr-2011-bestmarken-bei-auslieferungen-umsatz-und-ergebnis-mit">ots.Video: Audi Konzern im Gesch&auml;ftsjahr 2011: Bestmarken bei Auslieferungen, Umsatz und Ergebnis (mit Bild)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_209038" href="/video/display/209038">
+        <img alt="ots.Video: Erfolgreiche Spotpremiere als MovieMob / &Uuml;ber 80 Carrotmobber beim MovieMob im ACUDkino / Kampagnenspot ist Wegweiser zu praktischen Energiespar-Ratgebern" title="ots.Video: Erfolgreiche Spotpremiere als MovieMob / &Uuml;ber 80 Carrotmobber beim MovieMob im ACUDkino / Kampagnenspot ist Wegweiser zu praktischen Energiespar-Ratgebern"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/839_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			27.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/58889/co2online-ggmbh" title="co2online gGmbH">co2online gGmbH</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Erfolgreiche Spotpremiere als MovieMob / &Uuml;ber 80 Carrotmobber beim MovieMob im ACUDkino / Kampagnenspot ist Wegweiser zu praktischen Energiespar-Ratgebern" class="social_action" id="social_video_load_209038_01" 
+            href="/pm/58889/2205726/ots-video-erfolgreiche-spotpremiere-als-moviemob-ueber-80-carrotmobber-beim-moviemob-im-acudkino">ots.Video: Erfolgreiche Spotpremiere als MovieMob / &Uuml;ber 80 Carrotmobber beim MovieMob im ACUDkino / Kampagnenspot ist...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_208744" href="/video/display/208744">
+        <img alt="Sozialpartnerveranstaltung zum neuen LePha-TV in Schwarzheide / Die Umsetzung hat begonnen" title="Sozialpartnerveranstaltung zum neuen LePha-TV in Schwarzheide / Die Umsetzung hat begonnen"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/836_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			23.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/83136/arbeitgeberverband-nordostchemie-e-v" title="Arbeitgeberverband Nordostchemie e.V.">Arbeitgeberve...</a>
+		<br />
+		<strong class="title"><a title="Sozialpartnerveranstaltung zum neuen LePha-TV in Schwarzheide / Die Umsetzung hat begonnen" class="social_action" id="social_video_load_208744_01" 
+            href="/pm/83136/2203725/sozialpartnerveranstaltung-zum-neuen-lepha-tv-in-schwarzheide-die-umsetzung-hat-begonnen">Sozialpartnerveranstaltung zum neuen LePha-TV in Schwarzheide / Die Umsetzung hat begonnen</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_208133" href="/video/display/208133">
+        <img alt="ots.Video: Wiederbelebung: Jede Sekunde z&auml;hlt / R+V24-Initiative &quot;Sei ein Retter!&quot;" title="ots.Video: Wiederbelebung: Jede Sekunde z&auml;hlt / R+V24-Initiative &quot;Sei ein Retter!&quot;"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/835_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			16.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/73568/r-v24" title="R+V24">R+V24</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Wiederbelebung: Jede Sekunde z&auml;hlt / R+V24-Initiative &quot;Sei ein Retter!&quot;" class="social_action" id="social_video_load_208133_01" 
+            href="/pm/73568/2199983/ots-video-wiederbelebung-jede-sekunde-zaehlt-r-v24-initiative-sei-ein-retter">ots.Video: Wiederbelebung: Jede Sekunde z&auml;hlt / R+V24-Initiative &quot;Sei ein Retter!&quot;</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_208070" href="/video/display/208070">
+        <img alt="Die Fehler der Top-Journalisten - VIDEO" title="Die Fehler der Top-Journalisten - VIDEO"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/834_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			16.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/102999/albatros-media-gmbh" title="Albatros Media GmbH">Albatros...</a>
+		<br />
+		<strong class="title"><a title="Die Fehler der Top-Journalisten - VIDEO" class="social_action" id="social_video_load_208070_01" 
+            href="/pm/102999/2199510/die-fehler-der-top-journalisten-video">Die Fehler der Top-Journalisten - VIDEO</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_207901" href="/video/display/207901">
+        <img alt="EANS-News: GESCO hebt die Planung erneut an und stellt deutliche
+Dividendenerh&ouml;hung in Aussicht (mit Video)" title="EANS-News: GESCO hebt die Planung erneut an und stellt deutliche
+Dividendenerh&ouml;hung in Aussicht (mit Video)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/832_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			15.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/13481/gesco-ag" title="GESCO AG">GESCO AG</a>
+		<br />
+		<strong class="title"><a title="EANS-News: GESCO hebt die Planung erneut an und stellt deutliche
+Dividendenerh&ouml;hung in Aussicht (mit Video)" class="social_action" id="social_video_load_207901_01" 
+            href="/pm/13481/2198674/eans-news-gesco-hebt-die-planung-erneut-an-und-stellt-deutliche-dividendenerhoehung-in-aussicht-mit">EANS-News: GESCO hebt die Planung erneut an und stellt deutliche
+Dividendenerh&ouml;hung in Aussicht (mit Video)</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_207216" href="/video/display/207216">
+        <img alt="ots.Video: Bundeskanzlerin &uuml;bergibt &quot;Gro&szlig;en Stern des Sports&quot; in Gold an Essener Verein" title="ots.Video: Bundeskanzlerin &uuml;bergibt &quot;Gro&szlig;en Stern des Sports&quot; in Gold an Essener Verein"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/823_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			07.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/64977/deutscher-olympischer-sportbund-dosb" title="Deutscher Olympischer Sportbund (DOSB)">Deutscher...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Bundeskanzlerin &uuml;bergibt &quot;Gro&szlig;en Stern des Sports&quot; in Gold an Essener Verein" class="social_action" id="social_video_load_207216_01" 
+            href="/pm/64977/2194506/ots-video-bundeskanzlerin-uebergibt-grossen-stern-des-sports-in-gold-an-essener-verein">ots.Video: Bundeskanzlerin &uuml;bergibt &quot;Gro&szlig;en Stern des Sports&quot; in Gold an Essener Verein</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_207244" href="/video/display/207244">
+        <img alt="ots.Video: Neue App von news aktuell schickt individuelle Unternehmensmeldungen aufs iPhone" title="ots.Video: Neue App von news aktuell schickt individuelle Unternehmensmeldungen aufs iPhone"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/822_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			07.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/6344/news-aktuell-gmbh" title="news aktuell GmbH">news aktuell...</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Neue App von news aktuell schickt individuelle Unternehmensmeldungen aufs iPhone" class="social_action" id="social_video_load_207244_01" 
+            href="/pm/6344/2194144/ots-video-neue-app-von-news-aktuell-schickt-individuelle-unternehmensmeldungen-aufs-iphone">ots.Video: Neue App von news aktuell schickt individuelle Unternehmensmeldungen aufs iPhone</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_206665" href="/video/display/206665">
+        <img alt="ots.Video: Barbie&reg;-Unikat f&uuml;r Sylvie van der Vaart / Auf der N&uuml;rnberger Spielwarenmesse wurden Lebensfreude und Stil mit einer eigenen One of a Kind Barbie&reg; ausgezeichnet" title="ots.Video: Barbie&reg;-Unikat f&uuml;r Sylvie van der Vaart / Auf der N&uuml;rnberger Spielwarenmesse wurden Lebensfreude und Stil mit einer eigenen One of a Kind Barbie&reg; ausgezeichnet"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/821_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			02.02.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/25598/mattel-gmbh" title="Mattel GmbH">Mattel GmbH</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Barbie&reg;-Unikat f&uuml;r Sylvie van der Vaart / Auf der N&uuml;rnberger Spielwarenmesse wurden Lebensfreude und Stil mit einer eigenen One of a Kind Barbie&reg; ausgezeichnet" class="social_action" id="social_video_load_206665_01" 
+            href="/pm/25598/2191625/ots-video-barbie-unikat-fuer-sylvie-van-der-vaart-auf-der-nuernberger-spielwarenmesse-wurden">ots.Video: Barbie&reg;-Unikat f&uuml;r Sylvie van der Vaart / Auf der N&uuml;rnberger Spielwarenmesse wurden Lebensfreude und...</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_206505" href="/video/display/206505">
+        <img alt="ots.Video: Quietschende Reifen und aufheulende Motoren / redaktioneller Beitrag" title="ots.Video: Quietschende Reifen und aufheulende Motoren / redaktioneller Beitrag"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/820_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			31.01.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/25598/mattel-gmbh" title="Mattel GmbH">Mattel GmbH</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Quietschende Reifen und aufheulende Motoren / redaktioneller Beitrag" class="social_action" id="social_video_load_206505_01" 
+            href="/pm/25598/2190803/ots-video-quietschende-reifen-und-aufheulende-motoren-redaktioneller-beitrag">ots.Video: Quietschende Reifen und aufheulende Motoren / redaktioneller Beitrag</a></strong>
+	</div>
+
+</div>
+<br />
+<div class="video_box">
+	<div class="thumbnail">
+		<a class="social_action" id="social_video_load_206481" href="/video/display/206481">
+        <img alt="ots.Video: Quietschende Reifen und aufheulende Motoren / Auf der N&uuml;rnberger Spielwarenmesse 2012 feierte das legend&auml;re Team Hot Wheels mit einer actionreichen B&uuml;hnenshow seine Deutschlandpremiere (mit Bild)" title="ots.Video: Quietschende Reifen und aufheulende Motoren / Auf der N&uuml;rnberger Spielwarenmesse 2012 feierte das legend&auml;re Team Hot Wheels mit einer actionreichen B&uuml;hnenshow seine Deutschlandpremiere (mit Bild)"  
+            style="margin-top:24px" width="110" src="http://otsvideo.presseportal.de/819_1_1_small.jpg" />
+		</a>
+	</div>
+
+	<div class="info">
+		<strong>
+			31.01.12
+		</strong>
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/25598/mattel-gmbh" title="Mattel GmbH">Mattel GmbH</a>
+		<br />
+		<strong class="title"><a title="ots.Video: Quietschende Reifen und aufheulende Motoren / Auf der N&uuml;rnberger Spielwarenmesse 2012 feierte das legend&auml;re Team Hot Wheels mit einer actionreichen B&uuml;hnenshow seine Deutschlandpremiere (mit Bild)" class="social_action" id="social_video_load_206481_01" 
+            href="/pm/25598/2190693/ots-video-quietschende-reifen-und-aufheulende-motoren-auf-der-nuernberger-spielwarenmesse-2012">ots.Video: Quietschende Reifen und aufheulende Motoren / Auf der N&uuml;rnberger Spielwarenmesse 2012 feierte das...</a></strong>
+	</div>
+
+</div>
+<br />
+<a class="hi" id="older_videos" title="&auml;ltere Videos" href="/storyliste.htx?start=50&amp;keygroup=video">&auml;ltere Videos</a>
+<br class="clear" />
+
+	</div>
+	<div id="video_search">
+		<div id="video_search_form_box">
+			<form action="/video/" method="get" id="video_search_form">
+				<div>
+					<input type="text" class="input_grey" name="q" value="" id="video_search_form_q" />
+					<input type="hidden" name="type" value="video" />
+					<input type="hidden" name="output" value="ajax" />
+					<input id="video_search_form_submit" type="submit" class="button_small" value="Suchen" />
+				</div>
+			</form>
+		</div>
+	</div><!-- // video_search -->
+	
+	<br class="clear" />
+	<div id="social_media_video_container" style="display:none"></div>
+
+  
+	<a name="audio"></a>
+	<br />
+	<br />
+
+		<h1 id="title_audio" class="storylist_title">
+  	Audios
+  </h1>
+  <div style="float:right">
+  <!--Aktuelle O-T&ouml;ne, Beitr&auml;ge und Podcasts aus Unternehmenskommunikation und Marketing
+	-->
+	</div>
+	<br class="clear" />
+	<div class="seperator"></div>
+	<div class="kg_navi">
+			<span id="audio_hit_counter">&nbsp; Aktuellste 25 Audios</span>
+			<div style="" class="toolbox"><a class="sprite_img" title="Folgen..." href="" id="toolbox_sm"></a><div id="tollbox_sm_items" style="min-width:146px;display:none"><div class="toolbox_label" >Folgen: </div><a title="Auf Facebook teilen" class="sprite_img shareFacebookLink" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.presseportal.de%2Fvideo%23audio"></a> <a rel="pp_1" href="na_presseportal" class="sprite_img hi twitter_tracker tf_twitter_feed"></a> <a class="hi" href="/services/services.htx?from=otsemail&amp;action=add&amp;id=201"><img alt="Icon E-Mail" title="E-Mail" src="/images/icons/mail_20.gif" width="20" height="20" /></a> <!-- AddThis Button BEGIN --><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script><script type="text/javascript">var addthis_pub="newsaktuell";var addthis_brand="Presseportal";var addthis_logo="http://www.presseportal.DE/images/logos/logo_napresseportal.gif";var addthis_logo_color="#575755";var addthis_options="digg,delicious,google,facebook,friendfeed,furl,linkedin,magnolia,misterwong,myspace,slashdot,spurl,stumbleupon,technorati,twitter,more";</script><a class="hi" href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><span class="sprite_img" id="icon_delicious" title="Delicious"></span></a><!-- AddThis Button END --></div></div>
+	</div> <!-- // kg_navi -->
+	<br class="clear" />
+
+		<div id="audio_left">
+		<img src="/images/css/socialmediaboxheader.gif" alt="" />
+		<div id="audio_outer_box">
+			<div id="audio_container_left">
+			<img src="/images/icons/audio_110.gif" alt="Abspielen" title="Abspielen" />
+			</div>
+
+			<div id="audio_container_right" >
+				<div id="audio_player_container" style="float:left">
+										<div id="ep_player">Please update your <a href="http://www.adobe.com/go/getflashplayer/">Flash Player</a>.</div>
+									</div>
+				<div>
+				<table>
+					<tr>
+						<td>Dateigr&ouml;&szlig;e:</td>
+						<td><span id="audio_fs">2.1 MB</span></td>
+					</tr>
+					<tr>
+						<td>Beitragsl&auml;nge:</td>
+						<td> <span id="audio_pl">02:17 min</span></td>
+					</tr>
+				</table>
+				</div>
+				<br />
+										
+				<div id="audio_box">
+																	<div class="media_box">
+	<div style="display:none" id="a_audio_fs">2.1 MB</div>
+	<div style="display:none" id="a_audio_pl">02:17 min</div>
+	<div class="inner_media_box">
+		<br /><br />
+		06.06.12
+		<span class="trenner">|</span>
+		09:15
+		<span class="trenner">|</span>
+		<a class="hi" href="/pm/43064/bitburger">
+		Bitburger
+		</a>
+		<br />
+		<strong>
+		ots.Audio: Freudentaumel, Jubelschreie, Hupkonzerte - die Zeit der Autocorsos steht vor der T&uuml;r: Tipps f&uuml;r sicheres Feiern in der Innenstadt w&auml;hrend der Fu&szlig;ball-EM
+
+MANUSKRIPT MIT O-T&Ouml;NEN
+		</strong>
+		Bitburg (ots) - Anmoderation: Fiebern Sie auch so auf den Anpfiff der Fu&szlig;ball-EM hin? Selten wurde einer deutschen Nationalmannschaft vor einem gro&szlig;en Turnier von den Experten so viel zugetraut wie dieses Mal. Und wenn die Prognosen eintreffen, ...
+		<a class="hi" href="/pm/43064/2266140/ots-audio-freudentaumel-jubelschreie-hupkonzerte-die-zeit-der-autocorsos-steht-vor-der-tuer-tipps">weiter zur Meldung von  Bitburger  </a>
+		<br />
+	</div><!--//inner_media_box-->
+	<div class="free_img_toolbar">
+		<a class="social_action" id="social_audio_aembed_218396" href=""><img src="/images/icons/forward.gif" alt="einbinden" width="20" height="20" title="Audio einbinden" /></a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a rel="bitburger_nationalmannschaft-autocorso.mp3" class="social_action" id="social_audio_adownload_218396" href=""><img src="/images/icons/save.gif" alt="speichern" width="20" height="20" title="Audio speichern" /></a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_audio_amail_218396" href=""><img src="/images/icons/mail.gif" alt="versenden" width="20" height="20" title="Per E-Mail versenden" /></a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a title="Auf Facebook teilen" id="fb_recommend_audio" href="http://www.facebook.com/sharer.php?u=%2Fpm%2F43064%2F2266140%2Fots-audio-freudentaumel-jubelschreie-hupkonzerte-die-zeit-der-autocorsos-steht-vor-der-tuer-tipps">
+		<img src="http://b.static.ak.fbcdn.net/images/share/facebook_share_icon.gif?8:26981" alt="" />
+		</a>
+		<img style="margin-left:4px" class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_audio_tweet_2266140" href="">
+		<img src="/images/icons/twitter_20.gif" alt="twittern" width="20" height="20" title="Twittern" />
+		</a>
+		<img class="nav_trenner" src="/images/css/pic_nav_deko.gif" alt = "" />
+		<a class="social_action" id="social_audio_alink_218396" href="/video/display/218396"><img src="/images/icons/link.gif" alt="video" width="20" height="20" title="Link zum Audio" /></a>
+	</div>
+</div> <!--//media_box-->									</div>
+		  </div> 	<!-- // audio_container_right -->
+		</div> <!-- // audio_outer_box -->
+		<div id="social_media_audio_container" style="display:none"></div>
+		
+	</div><!-- // audio_left -->
+	
+
+
+		<div id="audio_right">
+		<div id="audio_nav">
+							<span id="ajax_result_audio" style="display:none">
+	
+	</span>
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218396" href="/pm/43064/bitburger">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Freudentaumel, Jubelschreie, Hupkonzerte - die Zeit der Autocorsos steht vor der T&uuml;r: Tipps f&uuml;r sicheres Feiern in der Innenstadt w&auml;hrend der Fu&szlig;ball-EM
+
+MANUSKRIPT MIT O-T&Ouml;NEN" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				06.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/43064/bitburger" title="Bitburger">Bitburger</a>
+			<br />
+			<strong><a title="ots.Audio: Freudentaumel, Jubelschreie, Hupkonzerte - die Zeit der Autocorsos steht vor der T&uuml;r: Tipps f&uuml;r sicheres Feiern in der Innenstadt w&auml;hrend der Fu&szlig;ball-EM
+
+MANUSKRIPT MIT O-T&Ouml;NEN" class="social_action" id="social_audio_aload_218396_1" href="/pm/43064/2266140/ots-audio-freudentaumel-jubelschreie-hupkonzerte-die-zeit-der-autocorsos-steht-vor-der-tuer-tipps">ots.Audio: Freudentaumel, Jubelschreie, Hupkonzerte - die Zeit der Autocorsos steht vor der T&uuml;r: Tipps f&uuml;r sicheres Feiern in der...</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218358" href="/pm/28486/mercedes-benz">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: MercedesCup: Tommy Haas feiert Stuttgart-Comeback - Mercedes-Benz verl&auml;ngert das Engagement beim ATP-Turnier auf dem Stuttgarter Weissenhof bis 2015
+
+MANUSKRIPT MIT O-T&Ouml;NEN" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				05.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/28486/mercedes-benz" title="Mercedes-Benz">Mercedes-Benz</a>
+			<br />
+			<strong><a title="ots.Audio: MercedesCup: Tommy Haas feiert Stuttgart-Comeback - Mercedes-Benz verl&auml;ngert das Engagement beim ATP-Turnier auf dem Stuttgarter Weissenhof bis 2015
+
+MANUSKRIPT MIT O-T&Ouml;NEN" class="social_action" id="social_audio_aload_218358_1" href="/pm/28486/2265797/ots-audio-mercedescup-tommy-haas-feiert-stuttgart-comeback-mercedes-benz-verlaengert-das-engagement">ots.Audio: MercedesCup: Tommy Haas feiert Stuttgart-Comeback - Mercedes-Benz verl&auml;ngert das Engagement beim ATP-Turnier auf dem Stuttgarter...</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218211" href="/pm/76192/bundesvereinigung-der-erzeugerorganisationen-obst-und-gemuese-e-v-bveo">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Nervennahrung f&uuml;r Fu&szlig;ball-Fans - Gesunde, leckere Snacks zur EM" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				04.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/76192/bundesvereinigung-der-erzeugerorganisationen-obst-und-gemuese-e-v-bveo" title="Bundesvereinigung der Erzeugerorganisationen Obst und Gem&uuml;se e.V. BVEO">Bundesvereinigung der...</a>
+			<br />
+			<strong><a title="ots.Audio: Nervennahrung f&uuml;r Fu&szlig;ball-Fans - Gesunde, leckere Snacks zur EM" class="social_action" id="social_audio_aload_218211_1" href="/pm/76192/2264755/ots-audio-nervennahrung-fuer-fussball-fans-gesunde-leckere-snacks-zur-em">ots.Audio: Nervennahrung f&uuml;r Fu&szlig;ball-Fans - Gesunde, leckere Snacks zur EM</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218212" href="/pm/76192/bundesvereinigung-der-erzeugerorganisationen-obst-und-gemuese-e-v-bveo">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Nervennahrung f&uuml;r Fu&szlig;ball-Fans - Gesunde, leckere Snacks zur EM" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				04.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/76192/bundesvereinigung-der-erzeugerorganisationen-obst-und-gemuese-e-v-bveo" title="Bundesvereinigung der Erzeugerorganisationen Obst und Gem&uuml;se e.V. BVEO">Bundesvereinigung der...</a>
+			<br />
+			<strong><a title="ots.Audio: Nervennahrung f&uuml;r Fu&szlig;ball-Fans - Gesunde, leckere Snacks zur EM" class="social_action" id="social_audio_aload_218212_1" href="/pm/76192/2264755/ots-audio-nervennahrung-fuer-fussball-fans-gesunde-leckere-snacks-zur-em">ots.Audio: Nervennahrung f&uuml;r Fu&szlig;ball-Fans - Gesunde, leckere Snacks zur EM</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218202" href="/pm/7840/zdf">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Kommentator B&eacute;la R&eacute;thy: &quot;Bei der Nationalmannschaft kann man sein Herz ruhig mal auf der Zunge haben&quot;" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				04.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/7840/zdf" title="ZDF">ZDF</a>
+			<br />
+			<strong><a title="ots.Audio: Kommentator B&eacute;la R&eacute;thy: &quot;Bei der Nationalmannschaft kann man sein Herz ruhig mal auf der Zunge haben&quot;" class="social_action" id="social_audio_aload_218202_1" href="/pm/7840/2264712/ots-audio-kommentator-b-la-r-thy-bei-der-nationalmannschaft-kann-man-sein-herz-ruhig-mal-auf-der">ots.Audio: Kommentator B&eacute;la R&eacute;thy: &quot;Bei der Nationalmannschaft kann man sein Herz ruhig mal auf der Zunge haben&quot;</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218197" href="/pm/57284/haema-blutspendedienst">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Blutsbr&uuml;der gesucht - Weltblutspendetag am 14. Juni" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				04.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/57284/haema-blutspendedienst" title="Haema Blutspendedienst">Haema Blutspendedienst</a>
+			<br />
+			<strong><a title="ots.Audio: Blutsbr&uuml;der gesucht - Weltblutspendetag am 14. Juni" class="social_action" id="social_audio_aload_218197_1" href="/pm/57284/2264701/ots-audio-blutsbrueder-gesucht-weltblutspendetag-am-14-juni">ots.Audio: Blutsbr&uuml;der gesucht - Weltblutspendetag am 14. Juni</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218198" href="/pm/57284/haema-blutspendedienst">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Blutsbr&uuml;der gesucht - Weltblutspendetag am 14. Juni" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				04.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/57284/haema-blutspendedienst" title="Haema Blutspendedienst">Haema Blutspendedienst</a>
+			<br />
+			<strong><a title="ots.Audio: Blutsbr&uuml;der gesucht - Weltblutspendetag am 14. Juni" class="social_action" id="social_audio_aload_218198_1" href="/pm/57284/2264701/ots-audio-blutsbrueder-gesucht-weltblutspendetag-am-14-juni">ots.Audio: Blutsbr&uuml;der gesucht - Weltblutspendetag am 14. Juni</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218190" href="/pm/52678/wort-und-bild-apotheken-umschau">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Fit in den Urlaub und zur&uuml;ck: wie Sie die sch&ouml;nste Zeit im Jahr gesund verbringen" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				04.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/52678/wort-und-bild-apotheken-umschau" title="Wort und Bild - Apotheken Umschau">Wort und Bild - Apotheken...</a>
+			<br />
+			<strong><a title="ots.Audio: Fit in den Urlaub und zur&uuml;ck: wie Sie die sch&ouml;nste Zeit im Jahr gesund verbringen" class="social_action" id="social_audio_aload_218190_1" href="/pm/52678/2264665/ots-audio-fit-in-den-urlaub-und-zurueck-wie-sie-die-schoenste-zeit-im-jahr-gesund-verbringen">ots.Audio: Fit in den Urlaub und zur&uuml;ck: wie Sie die sch&ouml;nste Zeit im Jahr gesund verbringen</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218158" href="/pm/73128/andechser-molkerei-scheitz-gmbh">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Natur pur - Mehr Power durch Ziegenmilch" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				01.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/73128/andechser-molkerei-scheitz-gmbh" title="Andechser Molkerei Scheitz GmbH">Andechser Molkerei Scheitz...</a>
+			<br />
+			<strong><a title="ots.Audio: Natur pur - Mehr Power durch Ziegenmilch" class="social_action" id="social_audio_aload_218158_1" href="/pm/73128/2264153/ots-audio-natur-pur-mehr-power-durch-ziegenmilch">ots.Audio: Natur pur - Mehr Power durch Ziegenmilch</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218159" href="/pm/73128/andechser-molkerei-scheitz-gmbh">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Natur pur - Mehr Power durch Ziegenmilch" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				01.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/73128/andechser-molkerei-scheitz-gmbh" title="Andechser Molkerei Scheitz GmbH">Andechser Molkerei Scheitz...</a>
+			<br />
+			<strong><a title="ots.Audio: Natur pur - Mehr Power durch Ziegenmilch" class="social_action" id="social_audio_aload_218159_1" href="/pm/73128/2264153/ots-audio-natur-pur-mehr-power-durch-ziegenmilch">ots.Audio: Natur pur - Mehr Power durch Ziegenmilch</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_218072" href="/pm/6647/dekra-se">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Die Gefahr kommt von hinten: Die meisten Anschnallmuffel sitzen auf dem R&uuml;cksitz - Jedes 10. Kind ist nicht richtig gesichert - Aktuelle DEKRA Studie zur Gurtanlegequote in PKW" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				01.06.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/6647/dekra-se" title="Dekra SE">Dekra SE</a>
+			<br />
+			<strong><a title="ots.Audio: Die Gefahr kommt von hinten: Die meisten Anschnallmuffel sitzen auf dem R&uuml;cksitz - Jedes 10. Kind ist nicht richtig gesichert - Aktuelle DEKRA Studie zur Gurtanlegequote in PKW" class="social_action" id="social_audio_aload_218072_1" href="/pm/6647/2263696/ots-audio-die-gefahr-kommt-von-hinten-die-meisten-anschnallmuffel-sitzen-auf-dem-ruecksitz-jedes-10">ots.Audio: Die Gefahr kommt von hinten: Die meisten Anschnallmuffel sitzen auf dem R&uuml;cksitz - Jedes 10. Kind ist nicht richtig gesichert -...</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217984" href="/pm/28486/mercedes-benz">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Philipp Lahm: &quot;Wir wollen gegen Israel gewinnen und dann top vorbereitet ins Turnier gehen&quot; - Leipzig ist bereit f&uuml;r den letzten EM-Test" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				31.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/28486/mercedes-benz" title="Mercedes-Benz">Mercedes-Benz</a>
+			<br />
+			<strong><a title="ots.Audio: Philipp Lahm: &quot;Wir wollen gegen Israel gewinnen und dann top vorbereitet ins Turnier gehen&quot; - Leipzig ist bereit f&uuml;r den letzten EM-Test" class="social_action" id="social_audio_aload_217984_1" href="/pm/28486/2263169/ots-audio-philipp-lahm-wir-wollen-gegen-israel-gewinnen-und-dann-top-vorbereitet-ins-turnier-gehen">ots.Audio: Philipp Lahm: &quot;Wir wollen gegen Israel gewinnen und dann top vorbereitet ins Turnier gehen&quot; - Leipzig ist bereit f&uuml;r den...</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217867" href="/pm/52678/wort-und-bild-apotheken-umschau">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Schrittz&auml;hler, Herzfrequenzmesser, Bewegungs-Tagebuch: pfiffige Hilfen, um mehr Bewegung in den Alltag zu bringen" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				31.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/52678/wort-und-bild-apotheken-umschau" title="Wort und Bild - Apotheken Umschau">Wort und Bild - Apotheken...</a>
+			<br />
+			<strong><a title="ots.Audio: Schrittz&auml;hler, Herzfrequenzmesser, Bewegungs-Tagebuch: pfiffige Hilfen, um mehr Bewegung in den Alltag zu bringen" class="social_action" id="social_audio_aload_217867_1" href="/pm/52678/2262621/ots-audio-schrittzaehler-herzfrequenzmesser-bewegungs-tagebuch-pfiffige-hilfen-um-mehr-bewegung-in">ots.Audio: Schrittz&auml;hler, Herzfrequenzmesser, Bewegungs-Tagebuch: pfiffige Hilfen, um mehr Bewegung in den Alltag zu bringen</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217865" href="/pm/15264/e-plus-gruppe">
+			<img src="/images/icons/audio_mini_sm.gif" alt="Unbeschwert mobil surfen - auch im Ausland (AUDIO)" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				31.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/15264/e-plus-gruppe" title="E-Plus Gruppe">E-Plus Gruppe</a>
+			<br />
+			<strong><a title="Unbeschwert mobil surfen - auch im Ausland (AUDIO)" class="social_action" id="social_audio_aload_217865_1" href="/pm/15264/2262618/unbeschwert-mobil-surfen-auch-im-ausland-audio">Unbeschwert mobil surfen - auch im Ausland (AUDIO)</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217866" href="/pm/15264/e-plus-gruppe">
+			<img src="/images/icons/audio_mini_sm.gif" alt="Unbeschwert mobil surfen - auch im Ausland (AUDIO)" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				31.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/15264/e-plus-gruppe" title="E-Plus Gruppe">E-Plus Gruppe</a>
+			<br />
+			<strong><a title="Unbeschwert mobil surfen - auch im Ausland (AUDIO)" class="social_action" id="social_audio_aload_217866_1" href="/pm/15264/2262618/unbeschwert-mobil-surfen-auch-im-ausland-audio">Unbeschwert mobil surfen - auch im Ausland (AUDIO)</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217724" href="/pm/38406/tuev-sued-ag">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Andere L&auml;nder, andere Sitten, andere Verkehrsregeln" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				30.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/38406/tuev-sued-ag" title="T&Uuml;V S&Uuml;D AG">T&Uuml;V S&Uuml;D AG</a>
+			<br />
+			<strong><a title="ots.Audio: Andere L&auml;nder, andere Sitten, andere Verkehrsregeln" class="social_action" id="social_audio_aload_217724_1" href="/pm/38406/2261788/ots-audio-andere-laender-andere-sitten-andere-verkehrsregeln">ots.Audio: Andere L&auml;nder, andere Sitten, andere Verkehrsregeln</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217683" href="/pm/52439/vattenfall-europe-ag">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Danke, liebe Algen! - Wie der Klimakiller CO2 zum Rohstoff wird" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				29.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/52439/vattenfall-europe-ag" title="Vattenfall Europe AG">Vattenfall Europe AG</a>
+			<br />
+			<strong><a title="ots.Audio: Danke, liebe Algen! - Wie der Klimakiller CO2 zum Rohstoff wird" class="social_action" id="social_audio_aload_217683_1" href="/pm/52439/2261460/ots-audio-danke-liebe-algen-wie-der-klimakiller-co2-zum-rohstoff-wird">ots.Audio: Danke, liebe Algen! - Wie der Klimakiller CO2 zum Rohstoff wird</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217684" href="/pm/52439/vattenfall-europe-ag">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Danke, liebe Algen! - Wie der Klimakiller CO2 zum Rohstoff wird" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				29.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/52439/vattenfall-europe-ag" title="Vattenfall Europe AG">Vattenfall Europe AG</a>
+			<br />
+			<strong><a title="ots.Audio: Danke, liebe Algen! - Wie der Klimakiller CO2 zum Rohstoff wird" class="social_action" id="social_audio_aload_217684_1" href="/pm/52439/2261460/ots-audio-danke-liebe-algen-wie-der-klimakiller-co2-zum-rohstoff-wird">ots.Audio: Danke, liebe Algen! - Wie der Klimakiller CO2 zum Rohstoff wird</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217630" href="/pm/43064/bitburger">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Oliver Bierhoff: &quot;Echte Partnerschaft hei&szlig;t, zu einander stehen!&quot; - Bitburger ist seit 20 Jahren Partner des DFB-Teams
+
+MANUSKRIPT MIT O-T&Ouml;NEN" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				29.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/43064/bitburger" title="Bitburger">Bitburger</a>
+			<br />
+			<strong><a title="ots.Audio: Oliver Bierhoff: &quot;Echte Partnerschaft hei&szlig;t, zu einander stehen!&quot; - Bitburger ist seit 20 Jahren Partner des DFB-Teams
+
+MANUSKRIPT MIT O-T&Ouml;NEN" class="social_action" id="social_audio_aload_217630_1" href="/pm/43064/2260891/ots-audio-oliver-bierhoff-echte-partnerschaft-heisst-zu-einander-stehen-bitburger-ist-seit-20">ots.Audio: Oliver Bierhoff: &quot;Echte Partnerschaft hei&szlig;t, zu einander stehen!&quot; - Bitburger ist seit 20 Jahren Partner des DFB-Teams...</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217498" href="/pm/100325/travelplus-group-gmbh">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Auf zu den Kiwis - Neuseeland hautnah erleben mit Work &amp; Travel" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				25.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/100325/travelplus-group-gmbh" title="Travelplus Group GmbH">Travelplus Group GmbH</a>
+			<br />
+			<strong><a title="ots.Audio: Auf zu den Kiwis - Neuseeland hautnah erleben mit Work &amp; Travel" class="social_action" id="social_audio_aload_217498_1" href="/pm/100325/2259686/ots-audio-auf-zu-den-kiwis-neuseeland-hautnah-erleben-mit-work-travel">ots.Audio: Auf zu den Kiwis - Neuseeland hautnah erleben mit Work &amp; Travel</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217499" href="/pm/100325/travelplus-group-gmbh">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Auf zu den Kiwis - Neuseeland hautnah erleben mit Work &amp; Travel" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				25.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/100325/travelplus-group-gmbh" title="Travelplus Group GmbH">Travelplus Group GmbH</a>
+			<br />
+			<strong><a title="ots.Audio: Auf zu den Kiwis - Neuseeland hautnah erleben mit Work &amp; Travel" class="social_action" id="social_audio_aload_217499_1" href="/pm/100325/2259686/ots-audio-auf-zu-den-kiwis-neuseeland-hautnah-erleben-mit-work-travel">ots.Audio: Auf zu den Kiwis - Neuseeland hautnah erleben mit Work &amp; Travel</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217478" href="/pm/7840/zdf">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Nur noch wenige Tage bis zur EM: Wer sind die Gastgeber? &quot;Rendezvous im Wilden Osten&quot;: ZDF-Korrespondenten Armin Coerper und Anne Gellinek unterwegs in Polen und der Ukraine
+
+MANUSKRIPT MIT O-T&Ouml;NEN" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				25.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/7840/zdf" title="ZDF">ZDF</a>
+			<br />
+			<strong><a title="ots.Audio: Nur noch wenige Tage bis zur EM: Wer sind die Gastgeber? &quot;Rendezvous im Wilden Osten&quot;: ZDF-Korrespondenten Armin Coerper und Anne Gellinek unterwegs in Polen und der Ukraine
+
+MANUSKRIPT MIT O-T&Ouml;NEN" class="social_action" id="social_audio_aload_217478_1" href="/pm/7840/2259535/ots-audio-nur-noch-wenige-tage-bis-zur-em-wer-sind-die-gastgeber-rendezvous-im-wilden-osten-zdf">ots.Audio: Nur noch wenige Tage bis zur EM: Wer sind die Gastgeber? &quot;Rendezvous im Wilden Osten&quot;: ZDF-Korrespondenten Armin Coerper und...</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217359" href="/pm/28486/mercedes-benz">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Das &quot;K&ouml;lsche Traum-Duo&quot; Schumi und Poldi
+
+DOPPEL-INTERVIEW" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				24.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/28486/mercedes-benz" title="Mercedes-Benz">Mercedes-Benz</a>
+			<br />
+			<strong><a title="ots.Audio: Das &quot;K&ouml;lsche Traum-Duo&quot; Schumi und Poldi
+
+DOPPEL-INTERVIEW" class="social_action" id="social_audio_aload_217359_1" href="/pm/28486/2258584/ots-audio-das-koelsche-traum-duo-schumi-und-poldi-doppel-interview">ots.Audio: Das &quot;K&ouml;lsche Traum-Duo&quot; Schumi und Poldi
+
+DOPPEL-INTERVIEW</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217358" href="/pm/52760/wort-und-bild-apotheken-umschau-de">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Der Sommer naht und das Deo sollte nicht versagen - alles rund ums Thema Antitranspirantien" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				24.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/52760/wort-und-bild-apotheken-umschau-de" title="Wort und Bild - apotheken-umschau.de">Wort und Bild -...</a>
+			<br />
+			<strong><a title="ots.Audio: Der Sommer naht und das Deo sollte nicht versagen - alles rund ums Thema Antitranspirantien" class="social_action" id="social_audio_aload_217358_1" href="/pm/52760/2258572/ots-audio-der-sommer-naht-und-das-deo-sollte-nicht-versagen-alles-rund-ums-thema-antitranspirantien">ots.Audio: Der Sommer naht und das Deo sollte nicht versagen - alles rund ums Thema Antitranspirantien</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+		<div class="audio_box">
+		<div class="thumbnail">
+			<a class="social_action" id="social_audio_aload_217357" href="/pm/33221/sky">
+			<img src="/images/icons/audio_mini_sm.gif" alt="ots.Audio: Futter f&uuml;r Serienfans - neuer Sender hat sie alle! (OTP)" />
+			</a>
+		</div>
+		<div class="info">
+			<strong>
+				24.05.12
+			</strong>
+			<span class="trenner">|</span>
+			<a class="hi" href="/pm/33221/sky" title="Sky">Sky</a>
+			<br />
+			<strong><a title="ots.Audio: Futter f&uuml;r Serienfans - neuer Sender hat sie alle! (OTP)" class="social_action" id="social_audio_aload_217357_1" href="/pm/33221/2258567/ots-audio-futter-fuer-serienfans-neuer-sender-hat-sie-alle-otp">ots.Audio: Futter f&uuml;r Serienfans - neuer Sender hat sie alle! (OTP)</a></strong>
+		</div>
+	</div>
+	<br class="clear" />
+	<a class="hi" id="older_videos" title="&auml;ltere Videos" href="/storyliste.htx?start=25&amp;keygroup=audio">&auml;ltere Audios</a>
+<br class="clear" />
+		</div>
+
+		<div id="audio_search">
+			<div id="audio_search_form_box">
+				<form action="/audio/" method="get" id="audio_search_form">
+					<div>
+						<input type="text" class="input_grey" name="q" value="" id="audio_search_form_q" />
+						<input type="hidden" name="type" value="audio" />
+						<input type="hidden" name="output" value="ajax" />
+						<input id="audio_search_form_submit" type="submit" class="button_small" value="Suchen" />
+					</div>
+				</form>
+			</div>
+		</div><!--  //audio_search -->
+	</div><!-- // Audio right -->
+	<br class="clear" />
+</div>
+
+<br class="clear" /><div class="content_bottom_wide"></div>
+</div><!--ende main -->
+<br class="clear" />
+<div id="footer">
+<a href="http://www.newsaktuell.de">news aktuell</a> ist ein Tochterunternehmen der <a href="http://www.dpa.de"><img src="/images/logos/logo_dpa.gif" width="39" height="13" alt="dpa" style="border:0;vertical-align:middle" /></a> | Presseportal: 3,17 Mio Visits im Mai Quelle: <a href="http://www.ivw.de"><img src="/images/logos/logo_ivw.gif" width="15" height="16" alt="IVW" style="border:0;vertical-align:middle" /></a>
+<br /><br />
+OTS (Originaltextservice), OTS.Bild, OTS.Audio und OTS.Video sowie <a href="http://www.euroadhoc.com">euro adhoc</a> sind Dienste der
+<a href="http://www.newsaktuell.de">news&nbsp;aktuell</a>&nbsp;GmbH, 2012 news&nbsp;aktuell&nbsp;GmbH, alle Rechte vorbehalten. Diese Inhalte
+dienen ausschlie&szlig;lich zur redaktionellen Nutzung und zur individuellen
+Information des Nutzers. Eine Speicherung in Datenbanken sowie jegliche
+Weitergabe an Dritte im Rahmen gewerblicher Nutzung oder zur
+gewerblichen Nutzung sind nur mit schriftlicher Genehmigung durch news&nbsp;aktuell&nbsp;GmbH gestattet. news aktuell haftet nicht bei Fehlern oder
+St&ouml;rungen im Dienstbetrieb, bei Lieferschwierigkeiten, inhaltlichen
+oder textlichen Fehlern, au&szlig;er in F&auml;llen groben Verschuldens. Im &Uuml;brigen gelten unsere <a href="/agb.htx">AGB</a>.
+F&uuml;r den Fall, dass Sie die Inhalte der news aktuell GmbH weitergeben, speichern oder gewerblich nutzen
+m&ouml;chten, bieten wir Ihnen an, <a href="/services">Content-Partner</a> zu werden.
+Weitere Online-Angebote:
+<a href="http://www.epicrelations.com">epic relations</a>,
+<a href="http://newsaktuell.de/blog">news aktuell blog</a> und
+<a href="http://www.mediacoffee.de">mediacoffee</a><br />Internationale Kooperationen: <a href="http://www.newsaktuell.ch">news aktuell schweiz</a>, <a href="http://www.presseportal.ch">presseportal.ch</a>, <a href="http://www.ots.at">ots.at</a>, <a href="http://www.prnewswire.co.uk">PR Newswire</a>
+<br/><br/>
+<a href="http://www.newsaktuell.de">news aktuell GmbH</a> &nbsp; <a href="/kontakt/">Kontakt</a> &nbsp; <a href="/impressum.htx">Impressum / Datenschutzerkl&auml;rung</a> <!--&nbsp; <a href="/sitemap.htx">Sitemap</a--> &nbsp; <a href="/mediadaten.htx">Mediadaten</a> &nbsp; <a href="http://api.presseportal.de">API</a>
+
+</div>
+<!-- container -->
+</div>
+        	    <div style="position:fixed;left:980px;top:10px">
+    	    <script type="text/javascript"><!--
+            google_ad_client = "pub-0856262046593211";
+            /* 160x600, Presseportal */
+            google_ad_slot = "9475630525";
+            google_ad_width = 160;
+            google_ad_height = 600;
+            //-->
+            </script>
+            <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+            </div>
+            
+
+
+<script src="/js/jquery/jquery-1.6.2.min.js?v=62" type="text/javascript"></script>
+<script src="/js/jquery/jquery-ui.autocomplete.min.js?v=62" type="text/javascript"></script>
+<script src="/js/jquery/jquery.scrollable-1.0.1.min.js?v=41" type="text/javascript"></script>
+<script src="/js/jquery/jquery.livequery.js" type="text/javascript"></script>
+
+<script src="/js/player.js?v=1" type="text/javascript"></script>
+<script src="/js/socialmedia.js?v=1" type="text/javascript"></script>
+<script src="/js/jquery/jquery.form.js?v=1" type="text/javascript"></script>
+<script src="/js/ep/swfobject.js?v=1" type="text/javascript"></script>
+<script src="/js/ep/ep_player.js?v=1" type="text/javascript"></script>
+<script src="/js/flash_detection.js" type="text/javascript"></script>
+<script src="/js/basic.js?v=2" type="text/javascript"></script>
+<script src="/dynamic_js.htx?story" type="text/javascript"></script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+function handlerMM(e){}Presseportal = function() {return {get: function(label){if (this.Label[label]) {return this.Label[label];}return '';}};}();					social_params = {};social_params.base_url				= '/socialmedia/';socialmedia_base_url					= '/socialmedia/';social_params.init_video_text =	'Video suchen';social_params.init_audio_text =	'Audio suchen';if(location.href.indexOf('#audio')==-1) {location.href=location.href+'#audio';}if(_FLASH) {var player_obj = 'ep_player';var flashvars = {};flashvars.skin 		= '/flash/ep/skin.css';flashvars.playlistxml = '<track><location>/socialmedia/audio.htx?id=218396</location></track>';flashvars.autoplay 	= 'false';flashvars.volume 	= '80';flashvars.shuffle 	= 'false';flashvars.key = 'WM82GEG1S0M4GW4GGJF1';var params = {};params.allowScriptAccess = 'always';var attributes = {};attributes.id = player_obj;daPlayer = swfobject.embedSWF('/flash/ep/ep_player.swf',player_obj,'200', '50','10.0.0',false,flashvars,params,attributes);} else {var nf_act_audio = '218396';}
+					
+jQuery(document).ready(function($) {
+
+});
+
+/* ]]> */
+
+</script>
+<script src="/js/lang/presseportal.de.js" type="text/javascript"></script>	<!-- IVW VERSION="1.5" -->
+<script type="text/javascript">
+
+<!--
+var IVW="http://presspor.ivwbox.de/cgi-bin/ivw/CP/de_0002";
+document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"&d="+(Math.random()*100000)+"\" width=\"1\" height=\"1\" alt=\"\" />");
+// -->
+</script>
+<noscript>
+<div style="width:1px;height:1px;display:inline;">
+  <img src="http://presspor.ivwbox.de/cgi-bin/ivw/CP/de_0002" width="1" height="1" alt="" />
+</div>
+</noscript>
+
+<script type="text/javascript">
+<!-- //
+var guid = ((new Date()).getTime() + "" + Math.floor(Math.random() * 1000000)).substr(0, 18);
+var count = function(event){
+  try {
+      var click_href = Event.element(event).href;
+      if(click_href == undefined && Event.element(event).src != undefined) {
+          click_href = Event.element(event).ancestors()[0].href;
+      }
+      if(click_href == undefined && Event.element(event).parentNode != undefined) {
+          click_href = Event.element(event).parentNode.href;
+      }
+      var ancs = Event.element(event).ancestors();
+      var ancs_len = ancs.length;
+      var box_title = false;
+      for (var j = 0; j < ancs.length; ++j) {
+        if(ancs[j].className == "box") {
+          box_title = ancs[j].down(0).innerHTML.stripTags();
+          continue;
+        }
+      }
+      if(box_title && click_href != undefined) {
+          var my_img = document.createElement('img');
+          my_img.src = _ROOT+'api/counter.htx?guid='+guid+'&box_title='+encodeURI(box_title)+'&href='+encodeURI(click_href)+'&from='+encodeURI(window.location.href);
+          my_img.width = "1";
+          my_img.height= "1";
+          $('footer').appendChild(my_img);
+      }
+   } catch(e) {
+   }
+}
+// -->
+</script>
+                    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1010397-5']);
+    _gaq.push (['_gat._anonymizeIp']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_trackPageLoadTime']);
+
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    /** Tracking externer Links ueber Google Analytics **/
+    function recordOutboundLink(link, category, action) {
+      try {
+        var pageTracker=_gat._getTracker("UA-1010397-5");
+        pageTracker._trackEvent(category, action);
+        setTimeout('document.location = "' + link + '"', 100)
+      }catch(err){
+         document.location = link;
+      }
+    }
+</script></body>
+</html>

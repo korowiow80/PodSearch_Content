@@ -1,0 +1,696 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>DreamTeam Laupheim</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="content-language" content="de">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="content-style-type" content="text/css">
+<meta name="author" content="Moritz Kollmann">
+<meta name="generator" content="Ulli Meybohms HTML EDITOR">
+<link href="/design/style.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<bgsound src="/audio/eine_borussia.mp3" loop="0"></head>
+<body>
+
+<!--Netscape/mozilla -->
+<embed type="application/x-mplayer2" pluginspage="http://www.microsoft.com/Windows/MediaPlayer/" name="mediaplayer1" autostart="true" width="0" height="0" transparentstart="1" SHOWSTATUSBAR="1" loop="0" controller="true" src="http://www.dreamteam-laupheim.de/audio/eine_borussia.mp3" stretchToFit="true" ></embed>
+
+
+<center>
+
+<table style="border: none; height: 100%; margin: 0px; padding: 0px;">
+ <colgroup>
+  <col width="140">
+  <col width="755">
+  <col width="140">
+ </colgroup>
+ <tr>
+  <td align="right" valign="top" style="padding-top: 70px; padding-right: 15px;">
+  </td>
+  <td valign="top">
+
+   <div id="center">
+
+    <div id="main_bg">
+     <div id="middle_top_bg">
+     </div>
+
+     <div style="padding: 0px; position: relative; left: 105px; width: 545px; min-height: 400px; overflow: visible;">
+     <img src="/design/blind.gif" style="padding: 0px; margin: 0px; width: 0px; height: 400px;" align="right">
+     <center><a href="/news.php">News</a> | <a href="/dates.php">Termine</a> | <a href="/ueberuns.php">Wir</a> | <a href="/mitglieder.php">Mitglieder</a> | <a href="/gallery.php">Fotos</a> | <a href="/guestbook.php">G&auml;stebuch</a> | <a href="/links.php">Links</a> | <a href="/forum">Medienschau</a> | <a href="/merchandise.php">Fanartikel</a> | <a href="http://dreamteampod.podspot.de/">Podcast</a> | <a href="/login.php">Login</a></center>
+     <br>
+     <br>
+<a href="http://www.skf-reisen.de/" target="_blank"><img src="/pics/skf_ad.png" align="right" alt="SKF Reisen" style="position: relative; top: -15px; padding: 10px;"></a>
+<br>
+
+<h1>News</h1>
+
+<p style="margin-top: 15px; margin-bottom: 15px"><b><font color="green">Hallo, liebe Besucherin, lieber Besucher!</b></font><br />
+<br />
+Dir gefällt unsere Seite? Gut!!! Und uns gefällt es, wenn wir wissen, mit wem wir es zu tun haben!<font color="green"> <b>Und daher sind Einträge in unser Gästebuch immer gerne gesehen!!!</b></font><br />
+<br />
+Ein schwarz-weiß-grüner Dank geht an die Band <i><b><a href="http://www.bo-mg.de" target="_blank"> B.O.</i></b></a>, die uns die Verwendung eines Song-Intros erlaubt hat.<br />
+<br />
+Wir sehen uns im Stadion oder am ersten Mittwoch des Monats um 20 Uhr in der  Olympia-Gaststätte (Hasenstr. 51) in Laupheim!<br />
+<br />
+ Bis dann, dein <font color="green"><b>DreamTeam Laupheim.</font></b><br />
+<br />
+<br />
+Hier geht's zum <font color="green"><b><a href="http://www.dreamteam-laupheim.de/mitgliedsantrag.php" target="_blank"> MITGLIEDSANTRAG</font></b></a>.</p>
+
+<form action="/news.php" method="GET">
+ <table width="45%" style="border: 1px solid white; background: #102010;">
+ <colgroup>
+  <col width="43%">
+  <col width="26%">
+  <col width="31%">
+ </colgroup>
+  <tr>
+   <td colspan="3"><b>Auswahl einschr&auml;nken:</b><br></td>
+  </tr>
+  <tr>
+   <td>
+    <select name="range_m">
+     <option selected value="0">Alle News</option>
+     <option  value="1">Januar</option>
+     <option  value="2">Februar</option>
+     <option  value="3">März</option>
+     <option  value="4">April</option>
+     <option  value="5">Mai</option>
+     <option  value="6">Juni</option>
+     <option  value="7">Juli</option>
+     <option  value="8">August</option>
+     <option  value="9">September</option>
+     <option  value="10">Oktober</option>
+     <option  value="11">November</option>
+     <option  value="12">Dezember</option>
+    </select>
+   </td>
+   <td>
+    <select name="range_y">
+     <option  value="2005">2005</option>
+     <option  value="2006">2006</option>
+     <option  value="2007">2007</option>
+     <option  value="2008">2008</option>
+     <option  value="2009">2009</option>
+     <option  value="2010">2010</option>
+     <option  value="2011">2011</option>
+     <option selected value="2012">2012</option>
+    </select>
+   </td>
+   <td>
+    <input type="submit" value="Anzeigen">
+   </td>
+  </tr>
+ </table>
+</form>
+
+<a name="3161"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="#FF4545" style="font-size: 8px">WICHTIG</font> <font color="lightgreen">Nächster Stammtisch im Juli</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">24.05.2012 08:06 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2">Auch die Fans machen Sommerpause!<br />
+<br />
+Unser Stammtisch im Juni entfällt, wir treffen uns wieder am 4. Juli um 20 Uhr in der Olympia-Gaststätte in Laupheim.<br />
+<br />
+Gute Erholung wünscht<br />
+<br />
+der Vorstand.</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3161">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3159"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="#FF4545" style="font-size: 8px">WICHTIG</font> <font color="lightgreen">Audio zur bevorstehenden CL-Quali</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">23.05.2012 16:45 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Hier geht's lang:</u> <i><b><a href="http://dreamteampod.podspot.de/post/dreamteam-podcast-81/" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3159">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3155"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="#FF4545" style="font-size: 8px">WICHTIG</font> <font color="lightgreen">Quiz Mai 2012</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">07.05.2012 23:49 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2">Hier kommt unser monatliches DreamTeam-Quiz. Schickt eure  Antwort bis zum  31.5.2012 unter Angabe einer Adresse an info@dreamteam-laupheim.de. Bei mehreren richtigen Einsendungen wird der Gewinner gezogen, der Rechtsweg ist ausgeschlossen.<br />
+<br />
+Hier die Frage für den Monat Mai 2012:<br />
+<br />
+Falls sie im endgültigen Kader der EM dabei sind, sind Marc-André ter Stegen und Marco Reus die wievielten Gladbacher, die bei einer Europameisterschaft das Nationaltrikot tragen:<br />
+<br />
+a) 12 und 13<br />
+b) 22 und 23<br />
+c) 32 und 33<br />
+<br />
+<b><font color="green">Zu gewinnen gibt es einen originalen Strandball von der Abschluss-Choreo in Mainz.</b></font><br />
+<br />
+Viel Spaß!<br />
+<br />
+(Die richitge Antwort des April-Quiz lautete: am 26.11.1966 feierte BORUSSIA den ersten Bundesliga-Derby-Sieg. Gewonnen hat Markus Maucher. Der Preis geht ihm in Kürze zu.)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3155">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3160"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Mlapa ist BORUSSE</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">23.05.2012 16:44 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2">Borussia Mönchengladbach hat den deutschen U21-Nationalspieler Peniel Mlapa von 1899 Hoffenheim verpflichtet. Der 21 Jahre alte Stürmer erhält beim VfL einen Vierjahresvertrag (bis 30. Juni 2016).<br />
+<br />
+Mlapa absolvierte bisher 54 Bundesligaspiele (5 Tore) für 1899 Hoffenheim und 23 Zweitligaspiele (6 Tore) für 1860 München. In der deutschen U21-Nationalmannschaft kam er in 14 Länderspielen (8 Tore) zum Einsatz. „Peniel Mlapa ist ein junger Spieler mit Bundesligaerfahrung und großem Potenzial, der unsere Offensive bereichern wird“, so Borussias Sportdirektor Max Eberl.<br />
+<br />
+Mlapa, der im Alter von drei Jahren mit seiner Familie aus Togo nach Deutschland kam, machte seine ersten fußballerischen Schritte beim FC Unterföhring. Mit acht Jahren wechselte er zu 1860 München, wo er bis zur U19 alle Jugendmannschaften durchlief. Sein Profidebüt feierte er am 17. Mai 2009, als ihn der damalige Löwen-Coach Ewald Lienen im Spiel gegen Alemannia Aachen (1:1) erstmals ins Aufgebot berief und kurz vor Schluss einwechselte. Im darauf folgenden Sommer bestritt Mlapa die Vorbereitung mit den Profis und wurde endgültig in den Lizenzspielkader übernommen. Sein erstes Zweitligator für die Löwen erzielte er am 4. Oktober 2009 beim FC St. Pauli (1:3). Insgesamt absolvierte Mlapa in der damaligen Saison 23 Partien für 1860 und traf sechsmal.<br />
+<br />
+Auf Grund seiner starken Leistungen wurde er 2010 vom DFB mit der goldenen Fritz-Walter-Medaille des Jahrgangs 1991 ausgezeichnet. Kurz zuvor war Mlapa in die Erste Bundesliga zu 1899 Hoffenheim gewechselt, wo er auf Anhieb den Sprung in die Stammformation schaffte. Und dass, obwohl Mlapa im Kraichgau ein vollkommen anderes Spielsystem vorfand als in München. Bei den Löwen agierte er meist als zweite Spitze neben Sturmkollege Benjamin Lauth, bei 1899 hingegen fand er sich im 4-3-3 meist in der Rolle des rechten Außenstürmers wieder. Zu Gute kamen ihm dabei seine offensiven Allrounder-Qualitäten. Trotz seines schlaksigen Körperbaus ist Mlapa sehr wendig und reaktionsschnell. Zudem verfügt er über eine ausgezeichnete Schusstechnik und großes Durchsetzungsvermögen.<br />
+<br />
+Das blieb auch U21-Nationaltrainer Rainer Adrion nicht verborgen, unter dem Mlapa am 11. Oktober 2010 gegen die Ukraine (2:1) in der deutschen U21-Nationalmannschaft debütierte. Zuvor hatte Mlapa eine Einladung des togolesischen Nationalteams ausgeschlagen. Insgesamt bestritt der Stürmer für die DFB-Auswahl 14 Spiele und war dabei achtmal erfolgreich. Für 1899 Hoffenheim lief er in den beiden vergangenen Spielzeiten 54-mal auf und erzielte fünf Treffer.<br />
+<br />
+(borussia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3160">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3158"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Xhaka ist BORUSSE</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">18.05.2012 20:24 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Berichterstattung über den Wechsel:</u> <i><b><a href="http://www.dreamteam-laupheim.de/forum/thread.php?threadid=5116&sid=" target="_blank">KLICK</a></b></i><br />
+<br />
+Der Transfer des Schweizer Nationalspielers vom FC Basel zu Borussia Mönchengladbach ist perfekt.<br />
+<br />
+Der 19 Jahre alte Mittelfeldspieler absolvierte heute in Mönchengladbach die sportärztlichen Untersuchungen und unterschrieb im Anschluss einen Fünfjahresvertrag bis zum 30. Juni 2017 bei Borussia. Xhaka ist mit dem FC Basel 2011 und 2012 Schweizer Meister und in dieser Saison auch nationaler Pokalsieger geworden. Für die Schweizer Nationalmannschaft kam er bislang in sieben Länderspielen zum Einsatz. Mit der U17-Auswahl der Eidgenossen gewann er 2009 den WM-Titel.<br />
+<br />
+„Bei unseren Bemühungen um Granit Xhaka standen wir in Konkurrenz zu einer ganzen Reihe von europäischen Topclubs und freuen uns, dass es uns gelungen ist, ihn zu Borussia zu holen“, so Sportdirektor Max Eberl. „Ich bin überglücklich, dass der Vertrag jetzt unterschrieben ist", sagt Xhaka, der bei Borussia die Rückennummer 34 erhält. „Die Entscheidung ist mir nicht schwer gefallen. Ich habe mich von Anfang an für Borussia entschieden, weil es ein fantastischer Verein ist.“<br />
+<br />
+Xhaka wurde am 27. September 1992 im Kosovo geboren und kam mit seinen Eltern schon früh nach Basel. Dort begann er beim FC Concordia das Fußballspielen. 2003 wechselte der Mittelfeldspieler zu den Junioren des FC Basel. Seit der Saison 2010/2011 gehört er zum Kader der Profimannschaft. Sein Debüt feierte Xhaka Ende Juli 2010 im Qualifikationsspiel zur Champions League beim VSC Debrecen. Beim 2:0-Sieg in Ungarn steuerte er den zweiten Treffer bei. In der Liga gab er seinen Einstand beim 1:1-Unentschieden am sechsten Spieltag beim FC Thun. Gegen Thun gelang ihm im Mai 2011 beim 5:1-Erfolg auch sein erstes Tor. In dieser Spielzeit kam Xhaka bislang auf 23 Spiele und erzielte dabei einen Treffer. In der Champions League bestritt Xhaka acht Partien, ehe der FC Basel im Achtelfinale am FC Bayern München scheiterte. Hinzu kommen sechs Spiele im Schweizer Pokalwettbewerb.<br />
+<br />
+Der 1,86 Meter große Mittelfeldakteur durchlief ab der U17 alle Auswahlmannschaften der Schweiz. Im Mai vergangenen Jahres wurde Xhaka erstmals von Trainer Ottmar Hitzfeld in die Nationalmannschaft berufen. Beim 2:2 im EM-Qualifikationsspiel in England kam er 90 Minuten im zentralen Mittelfeld zum Einsatz. Beim 1:0-Auswärtssieg in Luxemburg Mitte November 2011 erzielte er sein erstes Länderspieltor.<br />
+<br />
+(borussia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3158">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3157"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Saisonabschluss-Audio zum Spiel in Mainz</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">13.05.2012 19:56 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Das letzte Audio für diese Saison:</u> <i><b><a href="http://dreamteampod.podspot.de/post/dreamteam-podcast-80/" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3157">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3156"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">1. Hanauer FC - BORUSSIA 1:10 (Freundschaftsspiel)</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">10.05.2012 22:55 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Nachberichterstattung:</u> <i><b><a href="http://www.dreamteam-laupheim.de/forum/thread.php?threadid=5105&sid=" target="_blank">KLICK</a></b></i><br />
+<br />
+Borussia hat zum Abschluss der Saison am heutigen Donnerstagabend in einem Freundschaftsspiel beim 1. Hanauer FC 1893 mit 10:1 gewonnen.<br />
+<br />
+Nach neun Minuten kam der VfL das erste Mal gefährlich vor das Tor des Siebtligisten, aber Patrick Herrmann zögerte nach einem langen Pass von Juan Arango etwas zu lange. Zwei Minuten später lag der Ball dann das erste Mal im Netz. Juan Arango leitete das Spielgerät mit der Hacke zu Yuki Otsu weiter und der Japaner zog aus gut 13 Metern ab. Hanaus Keeper konnte den ersten Schuss noch parieren, war dann aber bei Otsus Nachschuss machtlos. Nach 20 Minuten schoss Hanau das erste Mal auf das von Christofer Heimeroth gehütete Tor. Der Schuss ging knapp drüber. Kurze Zeit später gleich die nächste Möglichkeit für den FC. Nach einem langen Ball setzte sich Salif Jaiteh gegen Dante durch, spitzelte den Ball aber knapp am VfL-Tor vorbei.<br />
+<br />
+Anschließend nahm Borussia wieder das Heft in die Hand und kam in der 27. Minute zum 2:0. Otsu zog aus 18 Metern ab. Hanaus Torwart konnte den Ball nur klatschen lassen und Leckie hatte keine Mühe den Nachschuss über die Linie zu drücken. Eine Viertelstunde vor der Pause probierte es Leckie mit einem Schuss aus 17 Metern, scheiterte aber am Torwart.<br />
+<br />
+Vier Treffer in acht Minuten<br />
+<br />
+In der Halbzeit wurde Dante unter großem Applaus ausgewechselt und damit endgültig verabschiedet. Für den Brasilianer, für den Roel Brouwers in die Partie kam, war es ebenso der letzte Auftritt im VfL-Dress, wie für Roman Neustädter, der zur Pause für Martin Stranzl eingewechselt wurde. Zudem kamen Torwart Janis Blaswich, Tony Jantschke und Igor de Camargo in die Partie. Bei den Gastgebern ließen nun die Kräfte nach und Borussia kam binnen acht Minuten zu vier weiteren Treffern: Zuerst legte sich Leckie den Ball selbst mit der Hacke vor und schob die Kugel anschließend ein (53.). Drei Minuten später traf Jantschke nach schönem Pass von Neustädter und erneut drei Minuten später staubte de Camargo zum 5:0 ab, bevor abermals Leckie das halbe Dutzend voll machte.<br />
+<br />
+Anschließend ließ es der VfL etwas ruhiger angehen. Bis zur 76. Minute: Da bediente de Camargo mit einem Pass aus dem Fußgelenk Otsu, der den Ball ins Tor spitzelte. Zwei Minuten später schlug de Camargo wieder selbst zu, als er den gegnerischen Torwart überlupfte. Neun Minuten vor dem Ende wurde es dann noch mal richtig laut im Stadion. Hanaus Domeneque Boateng setzte sich auf der linken Seite durch, scheiterte an Blaswich, doch dann staubte Dario Strinavic zum Ehrentreffer ab. Danach kam Borussia noch zu zwei Treffern. Drei Minuten vor dem Ende traf Jantschke mit einem Schuss aus 18 Metern und in der vorletzten Minute erzielte Brouwers den zehnten VfL-Treffer.<br />
+<br />
+Borussia: Heimeroth (46. Blaswich) – Zimmermann, Dante (46. Brouwers), Stranzl (46. Neustädter), Daems (46. Jantschke) – Korb, Cigerci – Herrmann, Arango (46. de Camargo) – Otsu, Leckie.<br />
+<br />
+Tore: 0:1 Otsu (11.), 0:2 Leckie (27.), 0:3 Leckie (53.), 0:4 Jantschke (57.), 0:5 de Camargo (60.), 0:6 Leckie (61.), 0:7 Otsu (76.), 0:8 de Camargo (78.), 1:8 Strinavic (81.), 1:9 Jantschke (87.), 1:10 Brouwers (89.).<br />
+<br />
+(borussia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3156">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3154"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Herzlich willkommen, Thommy!</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">06.05.2012 16:01 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2">Wir begrüßen unser Neumitglied Thomas und wünschen viele spannende und entspannende Stunden mit dem DreamTeam Laupheim!</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3154">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3153"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">FSV Mainz - BORUSSIA 0:3</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">06.05.2012 14:02 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Nachberichterstattung:</u> <i><b><a href="http://www.dreamteam-laupheim.de/forum/thread.php?threadid=5098&sid=" target="_blank">KLICK</a></b></i><br />
+<br />
+Zwei Treffer von Marco Reus und einer von Igor de Camargo bereiteten Borussia einen perfekten Saisonausklang.<br />
+<br />
+Vier Umstellungen nahm Trainer Lucien Favre in der Startelf des VfL vor. Für die verletzten Mike Hanke und Havard Nordtveit rückten Igor de Camargo und Tolga Cigerci in die Startelf, zudem begannen Alexander Ring und Martin Stranzl auf den Positionen, die zuletzt Roel Brouwers und Patrick Herrmann eingenommen hatten. Die erste Chance des Spiels hatten nach knapp zwei Minuten die Gastgeber, als Eric-Maxim Choupo-Moting nach einer Flanke von Adam Szalai an den Ball kam, das Tor jedoch verfehlte. Ohnehin gehörte die Startphase eher den Gastgebern, bis sich auch Borussia erste Möglichkeiten erspielte. Bei einem Schuss des aufgerückten Filip Daems, den ihm de Camargo aufgelegt hatte, musste Mainz-Keeper Heinz Müller noch einmal nachfassen.<br />
+<br />
+Nach einer ausgeglichenen Phase, in der sich viel im Mittelfeld abspielte, erarbeitete sich Borussia Mitte der ersten Hälfte ein leichtes Übergewicht. Zunächst kam Marco Reus nur knapp zu spät im Laufduell mit Heinz Müller an den Ball (24.), eine Minute später folgte dann ein sehenswerter Angriff des VfL, als Cigerci den Ball auf Ring nach rechts legte, dessen Flanke Igor de Camargo nicht entscheidend erreichen konnte. Zwar hatte danach auch Mainz eine Großchance, als Choupo-Moting einen Fehler von Dante nicht zu nutzen wusste (29.), doch Borussia ließ nicht nach und schlug wenig später zu. Cigerci lupfte den Ball diesmal auf der linken Seite auf Filip Daems, der das Spielgerät geschickt auf Marco Reus zurücklegte, der mit aller Routine und technischen Befähigung sein 17. Saisontor erzielte (31.). Eine echte Mainzer Antwort auf den Rückstand blieb zunächst aus, wobei Borussia auch einmal Glück hatte, als Schiedsrichter Stark eine Aktion von Szalai gegen Dante abpfiff, die man auch hätte laufen lassen können. Vier Minuten vor der Pause hätte der VfL die Führung allerdings auch ausbauen können, als Tony Jantschke eine Flanke in den Strafraum brachte und sowohl Ring als auch de Camargo diese nur knapp verpassten.<br />
+<br />
+Reus und de Camargo schrauben Ergebnis nach oben<br />
+<br />
+Nach dem Seitenwechsel wollten die Mainzer das Ergebnis so natürlich nicht stehen lassen, doch es waren weiterhin die Borussen, die Druck auf das Mainzer Tor machten. Martin Stranzl hatte mit einem Kopfball nach einer Ecke die erste Chance zum 2:0 (52.), eine Minute später lief Reus auf Heinz Müller zu, wurde von Nicolce Noveski jedoch sauber von Ball getrennt. Danach traf Roman Neustädter aus kurzer Distanz einen Volleyschuss nicht richtig, machte es aber schon in der 61. Minute wesentlich besser , als er mit einem Traumpass Reus einsetzte, der den Ball locker zum 2:0 in die rechte, lange Ecke schob. Es war nicht nur sein 18.Treffer, sondern Borussias 1000. Auswärtstor in der Bundesliga-Geschichte.<br />
+<br />
+Die Borussen hatten jedoch weiterhin Lust, das Ergebnis noch auszubauen. Zwar vergab zunächst Alexander Ring eine Riesenchance zum 3:0 (67.), doch zwei Minuten später war es schon wieder passiert. Diesmal fungierte Reus als Vorbereiter, steckte den Ball auf Igor de Camargo durch, der ebenso lässig zum 3:0 traf (69.). Auch danach machte der VfL zwar weiter, doch die Mainzer wirkten in der Folge wieder ein wenig konzentrierter, auch wenn ihnen nach vorne nur wenig gelingen wollte. Immerhin kam in der Schlussviertelstunde Julian Korb noch zu seinem ersten Bundesligaspiel.<br />
+<br />
+Mit dem klaren abschließenden Sieg in Mainz setzte Borussia einen starken Schlusspunkt unter eine überragende Saison und erreichte zudem noch die Marke von 60 Punkten.<br />
+<br />
+Mainz 05: H. Müller – Pospech. Kirchhoff, Noveski, M. Caligiuri (64. Ivanschitz) – Baumgartlinger (64. Polanski), Fathi, Soto – N. Müller, Szalai, Choupo-Moting (57. Malli).<br />
+<br />
+Borussia: ter Stegen – Jantschke, Stranzl, Dante, Daems, Cigerci (73. Korb), Neustädter – Ring (74. Wendt), Arango (79. Herrmann) – Reus, de Camargo.<br />
+<br />
+Tore: 0:1 Reus (31.), 0:2 Reus (61.), 0:3 de Camargo (69.).<br />
+<br />
+Zuschauer: 34.000 (ausverkauft).<br />
+<br />
+Schiedsrichter: Wolfgang Stark.<br />
+<br />
+(borussia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3153">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3152"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Fotos Mainz online</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">06.05.2012 13:51 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Teil 1:</u> <i><b><a href="http://www.dreamteam-laupheim.de/gallery.php?action=show&id=364" target="_blank">KLICK</a></b></i><br />
+<br />
+<u>Teil 2:</u> <i><b><a href="http://www.dreamteam-laupheim.de/gallery.php?action=show&id=365" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3152">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3151"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Vorberichte Mainz</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">04.05.2012 21:38 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Vorberichte Mainz:</u> <i><b><a href="http://www.dreamteam-laupheim.de/dates.php?action=detail&id=668" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3151">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3150"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Mittwoch. 20 Uhr. Olympia-Gaststätte.</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">01.05.2012 21:39 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Infos hier:</u> <i><b><a href="http://www.dreamteam-laupheim.de/dates.php?action=detail&id=679" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3150">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3149"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Audio zum letzten Heimspiel</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">30.04.2012 13:33 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Hier geht's zum vorletzten Audio für diese Saison:</u> <i><b><a href="http://dreamteampod.podspot.de/post/dreamteam-podcast-79/" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3149">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3148"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">BORUSSIA - FC Augsburg 0:0</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">29.04.2012 17:45 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Nachberichterstattung:</u> <i><b><a href="http://www.dreamteam-laupheim.de/forum/thread.php?threadid=5090&sid=" target="_blank">KLICK</a></b></i><br />
+<br />
+Borussia ist im letzten Heimspiel dieser Saison nicht über ein torloses Remis gegen den FC Augsburg hinausgekommen. Der VfL wird die Saison damit auf Platz vier beenden.<br />
+<br />
+Borussias Präsidium verabschiedete vor dem Anpfiff Dante, Roman Neustädter und Marco Reus, die den VfL nach dieser Saison verlassen und gegen Augsburg ihr letztes Heimspiel im BORUSSIA-PARK bestritten. Und Reus hatte nach drei Minuten gleich die erste Chance für die Favre-Elf, die erstmals im neuen Heimdress auflief. Der Stürmer zog mit links von der Strafraumgrenze ab, den Schuss konnte Simon Jentzsch aber problemlos parieren. In der 18. Minute hätte Reus beinahe von einem Fehler von Axel Bellinghausen profitiert. Der Augsburger konnte aber im letzten Moment noch klären.<br />
+<br />
+Borussia bestimmte das Spielgeschehen und hatte deutlich mehr Ballbesitz als der Aufsteiger. Die Augsburger standen aber sehr kompakt und ließen den Offensivkräften des VfL kaum Raum zur Entfaltung. Mike Hanke hatte in der 30. Minute die größte Möglichkeit im ersten Durchgang. Nach schöner Kombination passte Filip Daems an den Fünfmeterraum. Hanke versuchte, den Ball mit dem rechten Außenrist zu verwerten, setzte die Kugel aber über das Tor. Kurz darauf kam Havard Nordtveit im Strafraum der Gäste an den Ball, wurde beim Schussversuch aber von Gibril Sankoh gestört.<br />
+<br />
+Dabei verletzte sich der Norweger an der Schulter und konnte nicht mehr weiterspielen. Alexander Ring ersetzte Nordtveit fortan im defensiven Mittelfeld. Die Gäste kamen in der ersten Halbzeit lediglich durch Distanzschüsse zu Tormöglichkeiten. Paul Verhaegh scheiterte mit seinem Versuch aber an VfL-Keeper Marc-André ter Stegen. Und Ja-Cheol Koos Schuss wurde abgeblockt. Ansonsten war die Partie recht ereignisarm und beide Teams gingen mit einem torlosen Remis in die Kabine.<br />
+<br />
+Wenige Torchancen im zweiten Durchgang<br />
+<br />
+Im zweiten Durchgang blieb die Partie zunächst auf mäßigem Niveau. Borussia mühte sich weiter im Spiel nach vorne, agierte aber nicht durchschlagskräftig genug. Nach einer Flanke von Arango hatte Hanke mit einem Kopfball die erste Chance der zweiten Hälfte. Der Ball ging aber rechts am Kasten der Gäste vorbei. Es sollte für lange Zeit die einzig nennenswerte Aktion nach dem Seitenwechsel bleiben. Die Begegnung plätscherte vor sich hin, Torchancen waren auf beiden Seiten Mangelware.<br />
+<br />
+Erst in der 77. Minute gab es wieder eine Gelegenheit für Borussia. Der eingewechselte Igor de Camargo legte den Ball am Rand des Strafraums mit der Brust ab. Herrmann traf den Ball bei seiner Direktabnahme aber nicht richtig. Vier Minuten vor Schluss versuchte es Reus nach einem langen Ball noch einmal mit einem Volleyschuss. Jentzsch hatte aber keine Mühe, die Kugel aufzunehmen. Kurz darauf war Reus erneut frei vor dem FCA-Schlussmann, scheiterte aber wieder. Neustädter hatte dann die letzte Chance der Partie. Aber auch seinen Schuss nach Reus-Vorlage parierte Jentzsch.<br />
+<br />
+Während Augsburg durch das torlose Remis den Klassenerhalt sicherte, fuhr die Favre-Elf den letzten nötigen Zähler ein, um den vierten Tabellenplatz zu sichern. Borussia spielt damit in der kommenden Saison um die Qualifikation zur Champions League.<br />
+<br />
+Borussia: ter Stegen - Jantschke, Brouwers, Dante, Daems - Nordtveit (40. Ring), Neustädter - Herrmann (84. Wendt), Arango - Hanke (66. de Camargo), Reus.<br />
+<br />
+Bank: Heimeroth, Zimmermann, Cigerci, Otsu<br />
+<br />
+FC Augsburg: Jentzsch - Verhaegh, Sankoh, Langkamp, Ostrzolek - Callsen-Bracker, Baier (77. Reinhardt) - Ndjeng (63. Moravek), Koo, Bellinghausen (32. Sinkala) - Oehrl.<br />
+<br />
+Tore: Fehlanzeige<br />
+<br />
+Gelbe Karten: - Ndjeng, Moravek<br />
+<br />
+Schiedsrichter: Michael Weiner<br />
+<br />
+Zuschauer: 53.306<br />
+<br />
+(borussia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3148">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3147"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Fotos Augsburg online</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">29.04.2012 13:55 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Teil 1:</u> <i><b><a href="http://www.dreamteam-laupheim.de/gallery.php?action=show&id=362" target="_blank">KLICK</a></b></i><br />
+<br />
+<u>Teil 2:</u> <i><b><a href="http://www.dreamteam-laupheim.de/gallery.php?action=show&id=363" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3147">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3146"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Vorberichte Augsburg</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">27.04.2012 08:26 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Alles Wissenswerte vor dem letzten Heimspiel:</u> <i><b><a href="http://www.dreamteam-laupheim.de/dates.php?action=detail&id=667" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3146">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3145"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Audio zum Spiel in Dormund</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">26.04.2012 15:24 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Episode 78 widmet sich dem Spiel beim Meister:</u> <i><b><a href="http://dreamteampod.podspot.de/post/dreamteam-podcast-78/" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3145">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3144"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Dante wechselt nach München</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">26.04.2012 11:13 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2">Bis zuletzt hat Borussia gehofft, dass er sich anders entscheidet, doch nun ist es amtlich: Innenverteidiger Dante wechselt im Sommer zum FC Bayern München.<br />
+<br />
+Anfang dieser Woche informierte der Brasilianer Borussias Sportdirektor Max Eberl über seine Entscheidung. „Bayern München ist einer der drei, vier größten Clubs der Welt. Bei den Bayern habe ich die Chance, auf allerhöchstem Niveau zu spielen und Titel zu gewinnen. Ich bin jetzt 28 Jahre alt und möchte diesen Schritt in meiner Karriere noch machen“, so Dante. „Borussia hat alles versucht, um mich zu halten und meinen Vertrag noch einmal zu verlängern. Ich habe jetzt dreieinhalb Jahre hier gespielt und eine wunderbare Zeit erlebt. Dafür möchte ich mich bei allen im Verein und bei den wunderbaren Fans bedanken. Es tut mir weh, hier wegzugehen, aber solche Entscheidungen gehören in der Laufbahn eines Fußballers nun einmal dazu.“<br />
+<br />
+Für Borussia kam Dantes Entscheidung letztlich nicht mehr überraschend. „Dennoch hatten wir bis zuletzt Hoffnung, dass sich Dante dafür entscheidet, hier als Topstar und Publikumsliebling den eingeschlagenen Weg weiterzugehen und in Mönchengladbach Geschichte zu schreiben. Natürlich bleibt bei allem Verständnis für seine Entscheidung bei uns jetzt auch eine Spur Enttäuschung“, so Max Eberl. „Wir sollten uns aber nicht allzu sehr grämen. Als wir Dante im Januar 2009 aus Belgien geholt haben, hatten wir mit ihm Ziele vor Augen: Klassenerhalt, Stabilisierung der Mannschaft. Europa war für uns damals noch weit weg und es war äußerst schwierig, ihn im letzten Jahr nach dem Klassenerhalt davon zu überzeugen, weiter bei uns zu bleiben und seinen Vertrag noch einmal zu verlängern. Er war dreieinhalb Jahre bei uns, für einen ausländischen Spieler ist das schon eine längere Zeit. Und dass er jetzt zu einem der größten Clubs der Welt wechselt, hat letztendlich auch mit unserem großen sportlichen Erfolg in dieser Saison zu tun.“<br />
+<br />
+In Martin Stranzl und Roel Brouwers hat Borussia auch ohne Dante zwei Innenverteidiger von gehobenem Bundesliga-Niveau. Dennoch wird der Verein sich auf dem Transfermarkt auch für diese Position umschauen. „Diese Situation trifft uns ja nicht unvorbereitet“, so Eberl. „Wir wollen auch in der nächsten Saison drei starke Innenverteidiger haben. Aber da mache ich mir keine Sorgen. Wir haben Dante gefunden, also werden wir auch jemanden finden, der ihn ersetzen kann.“<br />
+<br />
+Dante Bonfim Costa Santos, kurz „Dante“ genannt, kam im Winter 2009 von Standard Lüttich zu Borussia und wurde schnell zu einer festen Größe in der Abwehr. In seiner ersten Halbserie im VfL-Trikot trug er mit seinen Toren in Cottbus und gegen Dortmund an den letzten Spieltagen erheblich zum Klassenerhalt bei. Insgesamt absolvierte er 91 Bundesligaspiele für Borussia und erzielte dabei acht Treffer.<br />
+<br />
+Borussia wünscht Dante für seine sportliche Zukunft alles Gute!<br />
+<br />
+(borussia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3144">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3143"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Dortmund - BORUSSIA 2:0</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">22.04.2012 13:55 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Nachberichterstattung:</u> <i><b><a href="http://www.dreamteam-laupheim.de/forum/thread.php?threadid=5078&sid=" target="_blank">KLICK</a></b></i><br />
+<br />
+Keine Punkte nahm der VfL beim alten und neuen Deutschen Meister Borussia Dortmund mit. Beim Dortmunder 2:0 trafen Perisic vor und Kagawa nach dem Seitenwechsel.<br />
+<br />
+Nachdem die bereits vor dem Anpfiff mögliche Titelfeier des BVB durch das 2:1 des FC Bayern in Bremen zunächst verschoben war, legten die Hausherren zunächst so forsch los, als wollen sie keinen Zweifel daran aufkommen lassen, die Meisterschaft selbst entscheiden zu wollen. Allerdings geriet die Defensive der Gladbacher, in der Martin Stranzl wieder auf der rechten Seite begann und Tony Jantschke für den verletzten Roman Neustädter vor der Abwehr begann, zunächst nicht wirklich in Bedrängnis. In der achten Minute gaben Mike Hanke und Marco Reus eine erste Kostprobe des schnellen Gladbacher Angriffsspiels ab. Reus wäre frei auf BVB-Keeper Roman Weidenfeller zugelaufen, stand aber wohl haarscharf im Abseits. Eine Minute später wurde es erstmals für Marc-André ter Stegen gefährlich, als er einen Schuss von Robert Lewandowski mit den Fingerspitzen zur Ecke ablenkte. In der 14. Minute war es dann Shinji Kagawa, der das Tor knapp verfehlte.<br />
+<br />
+Nach 20 Minuten waren die Gladbacher im Glück, als bei einer konfusen Situation im Strafraum zunächst Kagawa aus kurzer Distanz den Pfosten traf und Lewandowski im Anschluss an ter Stegen scheiterte. Drei Minuten später ging die Borussia in Schwarz-Gelb aber doch in Führung. Marcel Schmelzer brachte einen Freistoß von der rechten Seite herein, und dieser fand genau den Kopf von Ivan Perisic, der unbedrängt zum 1:0 einköpfte (23.). Die Gastgeber blieben nun die bestimmende Mannschaft, hatten nach 33 Minuten durch Kagawa eine Möglichkeit, das zweite Tor nachzulegen. Die Gladbacher blieben überwiegend um die defensive Ordnung bemüht, hatten allerdings in der 34. Minute auch Pech, als Hanke das vermeintliche 1:1 erzielte, der Linienrichter zuvor jedoch den Vorlagengeber Filip Daems im Abseits sah. In der Phase bis zur Pause entwickelte sich das Spiel dann ausgeglichener als zuvor, wobei den Gladbachern die Präzision beim letzten Pass noch fehlte.<br />
+<br />
+Reus vergibt Ausgleichschance<br />
+<br />
+Das Bild nach der Pause war zunächst unverändert. Der BVB dominierte, die Gladbacher standen tiefer als gewohnt. In der 55. Minute zeigte Reus jedoch, wie schnell sich das Blatt hätte wenden können. Er legte den Ball stark an Schmelzer vorbei, umkurvte dann auch Weidenfeller, sein Schuss blieb jedoch auf der Linie an dem wieder eingerückten Schmelzer hängen. Im Gegenzug rettete Brouwers in höchster Not gegen Kagawa. Der stand jedoch zwei Minuten später wieder im Mittelpunkt – leider aus VfL-Sicht diesmal mit dem 2:0. Auf der linken Seite passte Schmelzer stark auf Lewandowski, der den Japaner einsetzte. Kagawa ließ ter Stegen aussteigen und vollendete den Konter zum 2:0.<br />
+<br />
+Dortmund spielte weiter nach vorne, und nach einem neuerlichen Freistoß scheiterte Mats Hummels mit dem Kopf am glänzenden ter Stegen (62.). Nach 67 Minuten hatte Reus dann noch einmal die Gelegenheit, gegen seinen zukünftigen Arbeitgeber zu treffen. Doch im Laufduell mit Schmelzer blieb er zweiter Sieger. Zwei Minuten später kam Stranzl nach einer Ecke zum Kopfball, der Ball ging jedoch über die Latte (69.). In der Schlussphase verflachte das Spiel zunehmend. Die letzte große Chance vergab Lewandowski in der Nachspielzeit.<br />
+<br />
+Dortmund gewann das Spiel unter dem Strich verdient und so geht der Glückwunsch an den Deutschen Meister. Vom VfL kam nach vorne zu wenig, um daran an diesem Abend etwas bewegen zu können.<br />
+<br />
+Dortmund: Weidenfeller – Piszczek, Subotic, Hummels, Schmelzer – Gündogan (73. Leitner), Kehl – Blaszczykowski (88. S. Bender), Kagawa (73. Götze), Perisic – Lewandowski<br />
+<br />
+Borussia: ter Stegen – Stranzl, Brouwers, Dante, Daems – Nordtveit, Jantschke – Herrmann (64. Ring), Arango (69. Wendt) – Reus, Hanke<br />
+<br />
+Tore: 1:0 Perisic (23.), 2:0 Kagawa (58.)<br />
+<br />
+Gelbe Karten: Kagawa - Stranzl<br />
+<br />
+Zuschauer: 80.720 (ausverkauft)<br />
+<br />
+Schiedsrichter: Florian Meyer<br />
+<br />
+(borusssia.de)</td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3143">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<a name="3142"></a>
+<table width="100%" style="border: 1px white solid;">
+ <colgroup>
+  <col width="70%">
+  <col width="30%">
+ </colgroup>
+ <tr>
+  <td><b><font color="lightgreen">Fotos Dortmund online</font></b><!-- <font size="1">by <b><a href="/mitglieder.php?action=detail&id=2">Petersohn, Ulf (1. Vorstand; Homepage)</a></b></font>---></td>
+  <td align="right">22.04.2012 13:39 Uhr</td>
+ </tr>
+ <tr>
+  <td colspan="2"><u>Fotos Dortmund:</u> <i><b><a href="http://www.dreamteam-laupheim.de/gallery.php?action=show&id=361" target="_blank">KLICK</a></b></i></td>
+ </tr>
+ <tr>
+  <td colspan="2">
+   <br>
+   <a href="/news.php?action=newcomment&id=3142">Es sind leider noch keine Kommentare vorhanden</a>  </td>
+ </tr>
+</table>
+<br>
+<br><br><center> | <b style="color: lightgreen;">1</b> | <a href="/news.php?page=1">2</a> | <a href="/news.php?page=2">3</a> | <a href="/news.php?page=3">4</a> | <a href="/news.php?page=4">5</a> | <a href="/news.php?page=5">6</a> | <a href="/news.php?page=6">7</a> | <a href="/news.php?page=7">8</a> | <a href="/news.php?page=8">9</a> | <a href="/news.php?page=9">10</a> | <a href="/news.php?page=10">11</a> | <a href="/news.php?page=11">12</a> | <a href="/news.php?page=12">13</a> | <a href="/news.php?page=13">14</a> | <a href="/news.php?page=14">15</a> | <a href="/news.php?page=15">16</a> | <a href="/news.php?page=16">17</a> | <a href="/news.php?page=17">18</a> | <a href="/news.php?page=18">19</a> | <a href="/news.php?page=19">20</a> | <a href="/news.php?page=20">21</a> | <a href="/news.php?page=21">22</a> | <a href="/news.php?page=22">23</a> | <a href="/news.php?page=23">24</a> | <a href="/news.php?page=24">25</a> | <a href="/news.php?page=25">26</a> | <a href="/news.php?page=26">27</a> | <a href="/news.php?page=27">28</a> | <a href="/news.php?page=28">29</a> | <a href="/news.php?page=29">30</a> | <a href="/news.php?page=30">31</a> | <a href="/news.php?page=31">32</a> | <a href="/news.php?page=32">33</a> | <a href="/news.php?page=33">34</a> | <a href="/news.php?page=34">35</a> | <a href="/news.php?page=35">36</a> | <a href="/news.php?page=36">37</a> | <a href="/news.php?page=37">38</a> | <a href="/news.php?page=38">39</a> | <a href="/news.php?page=39">40</a> | <a href="/news.php?page=40">41</a> | <a href="/news.php?page=41">42</a> | <a href="/news.php?page=42">43</a> | <a href="/news.php?page=43">44</a> | <a href="/news.php?page=44">45</a> | <a href="/news.php?page=45">46</a> | <a href="/news.php?page=46">47</a> | <a href="/news.php?page=47">48</a> | <a href="/news.php?page=48">49</a> | <a href="/news.php?page=49">50</a> | <a href="/news.php?page=50">51</a> | <a href="/news.php?page=51">52</a> | <a href="/news.php?page=52">53</a> | <a href="/news.php?page=53">54</a> | <a href="/news.php?page=54">55</a> | <a href="/news.php?page=55">56</a> | <a href="/news.php?page=56">57</a> | <a href="/news.php?page=57">58</a> | <a href="/news.php?page=58">59</a> | <a href="/news.php?page=59">60</a> | <a href="/news.php?page=60">61</a> | <a href="/news.php?page=61">62</a> | <a href="/news.php?page=62">63</a> | <a href="/news.php?page=63">64</a> | <a href="/news.php?page=64">65</a> | <a href="/news.php?page=65">66</a> | <a href="/news.php?page=66">67</a> | <a href="/news.php?page=67">68</a> | <a href="/news.php?page=68">69</a> | <a href="/news.php?page=69">70</a> | <a href="/news.php?page=70">71</a> | <a href="/news.php?page=71">72</a> | <a href="/news.php?page=72">73</a> | <a href="/news.php?page=73">74</a> | <a href="/news.php?page=74">75</a> | <a href="/news.php?page=75">76</a> | <a href="/news.php?page=76">77</a> | <a href="/news.php?page=77">78</a> | <a href="/news.php?page=78">79</a> | <a href="/news.php?page=79">80</a> | <a href="/news.php?page=80">81</a> | <a href="/news.php?page=81">82</a> | <a href="/news.php?page=82">83</a> | <a href="/news.php?page=83">84</a> | <a href="/news.php?page=84">85</a> | <a href="/news.php?page=85">86</a> | <a href="/news.php?page=86">87</a> | <a href="/news.php?page=87">88</a> | <a href="/news.php?page=88">89</a> | <a href="/news.php?page=89">90</a> | <a href="/news.php?page=90">91</a> | <a href="/news.php?page=91">92</a> | <a href="/news.php?page=92">93</a> | <a href="/news.php?page=93">94</a> | <a href="/news.php?page=94">95</a> | <a href="/news.php?page=95">96</a> | <a href="/news.php?page=96">97</a> | <a href="/news.php?page=97">98</a> | <a href="/news.php?page=98">99</a> | <a href="/news.php?page=99">100</a> | <a href="/news.php?page=100">101</a> | <a href="/news.php?page=101">102</a> | <a href="/news.php?page=102">103</a> | <a href="/news.php?page=103">104</a> | <a href="/news.php?page=104">105</a> | <a href="/news.php?page=105">106</a> | <a href="/news.php?page=106">107</a> | <a href="/news.php?page=107">108</a> | <a href="/news.php?page=108">109</a> | <a href="/news.php?page=109">110</a> | <a href="/news.php?page=110">111</a> | <a href="/news.php?page=111">112</a> | <a href="/news.php?page=112">113</a> | <a href="/news.php?page=113">114</a> | <a href="/news.php?page=114">115</a> | <a href="/news.php?page=115">116</a> | <a href="/news.php?page=116">117</a> | <a href="/news.php?page=117">118</a> | <a href="/news.php?page=118">119</a> | <a href="/news.php?page=119">120</a> | <a href="/news.php?page=120">121</a> | <a href="/news.php?page=121">122</a> | <a href="/news.php?page=122">123</a> | <a href="/news.php?page=123">124</a> | <a href="/news.php?page=124">125</a> | <a href="/news.php?page=125">126</a> | <a href="/news.php?page=126">127</a> | <a href="/news.php?page=127">128</a> | <a href="/news.php?page=128">129</a> | <a href="/news.php?page=129">130</a> | <a href="/news.php?page=130">131</a> | <a href="/news.php?page=131">132</a> | <a href="/news.php?page=132">133</a> | <a href="/news.php?page=133">134</a> | <a href="/news.php?page=134">135</a> |</center>
+<p style="margin-top: 15px; margin-bottom: 15px"></p>     <br>
+     <br>
+     </div>
+
+     <div id="middle_bottom_bg">
+      <center style="position: relative; top: -10px;">321553 Besucher   |   20 Besucher heute <a href="/impressum.php">Impressum</a></center><br>
+      
+     </div>
+
+    </div>
+
+   </div>
+
+  </td>
+  <td></td>
+ </tr>
+</table>
+
+</center>
+
+</body>
+
+</html>

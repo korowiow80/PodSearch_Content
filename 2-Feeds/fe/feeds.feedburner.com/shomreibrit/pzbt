@@ -1,0 +1,1262 @@
+<HTML>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Магазин Холодильников</title>
+
+<meta name="Description" content="Магазин Холодильников">
+<meta name="KeyWords" content="Магазин Холодильников" >
+
+
+<script language="javascript">
+<!--
+
+
+	function open_window(link,w,h) //opens new window
+	{
+		var win = "width="+w+",height="+h+",menubar=no,location=no,resizable=yes,scrollbars=yes";
+		newWin = window.open(link,'newWin',win);
+		newWin.focus();
+	}
+
+	function open_printable_version(link) //opens new window
+	{
+		var win = "menubar=no,location=no,resizable=yes,scrollbars=yes";
+		newWin = window.open(link,'perintableWin',win);
+		newWin.focus();
+	}
+
+	function confirmDelete(id, ask, url) //confirm order delete
+	{
+		temp = window.confirm(ask);
+		if (temp) //delete
+		{
+			window.location=url+id;
+		}
+	}
+
+	
+
+	function confirmUnsubscribe() //unsubscription confirmation
+	{
+		temp = window.confirm('Вы уверены, что хотите отменить регистрацию в магазине?');
+		if (temp) //delete
+		{
+			window.location="index.php?killuser=yes";
+		}
+	}
+
+	function validate() // newsletter subscription form validation
+	{
+		if (document.subscription_form.email.value.length<1)
+		{
+			alert("Пожалуйста, вводите email правильно");
+			return false;
+		}
+		if (document.subscription_form.email.value == 'Email')
+		{
+			alert("Пожалуйста, вводите email правильно");
+			return false;
+		}
+		return true;
+	}
+	function validate_disc() // review form verification
+	{
+		if (document.formD.nick.value.length<1)
+		{
+			alert("Пожалуйста, введите Ваш псевдоним");
+			return false;
+		}
+
+		if (document.formD.topic.value.length<1)
+		{
+			alert("Пожалуйста, введите тему сообщения");
+			return false;
+		}
+
+		return true;
+	}
+	function validate_search()
+	{
+
+		if (document.Sform.price1.value!="" && ((document.Sform.price1.value < 0) || isNaN(document.Sform.price1.value)))
+		{
+			alert("Цена должна быть положительным числом");
+			return false;
+		}
+		if (document.Sform.price2.value!="" && ((document.Sform.price2.value < 0) || isNaN(document.Sform.price2.value)))
+		{
+			alert("Цена должна быть положительным числом");
+			return false;
+		}
+
+		return true;
+	}
+
+-->
+</script>
+
+<script language="JavaScript">
+<!--
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+ -->
+</script>
+
+</head>
+<BODY BGCOLOR=#FFFFFF leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" link="#000000">
+
+
+<div id="Layer1" style="position:absolute; left:21px; top:30px; width:636px; height:69px; z-index:1"><font face="Arial, Helvetica, sans-serif" size="6" color="#81ABE5">
+Магазин Холодильников SlavyanSkiy.BiZ
+  </font></div>  
+
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0>
+  <TR>
+    <TD width="17%"> <IMG SRC="images/spacer.gif" WIDTH=175 HEIGHT=1></TD>
+    <TD width="57%"> <IMG SRC="images/spacer.gif" WIDTH=550 HEIGHT=1></TD>
+    <TD width="26%"> <IMG SRC="images/spacer.gif" WIDTH=15 HEIGHT=1></TD>
+  </TR>
+    <TR>
+    <TD COLSPAN=3>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="97">
+        <tr>
+          <td valign="top" width="65%"><a href="/"><img src="images/top_bar.gif" width="725" height="97" border="0"></a></td>
+          <td valign="top" background="images/top_holder.gif" width="35%">&nbsp;</td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+  
+  <TR>
+    <TD width="250" bgcolor="#660000" valign="top">
+      <table width="100%" border="0" cellspacing="6" cellpadding="4">
+        <tr>
+          <td>
+        	 
+<table cellspacing=0 cellpadding=1 border=0>
+
+	<form action="index.php" method=get>
+
+
+	
+
+	<tr>
+		<td>
+			<font class="light" color="#FFFFFF">Поиск:</font>
+		</td>
+		<td>
+			<input type="text" name="searchstring" size=7 
+				value="">
+		</td>
+		<td>
+			<nobr>&nbsp;<input type="image" border=0 src="images/search.gif">&nbsp;&nbsp;&nbsp;</nobr>
+		</td>
+	</tr>
+
+		<!--
+				-->
+
+	<tr>
+		<td colspan=3>
+			<input type="checkbox" name="inside" 
+				>
+					<font class=light color="#FFFFFF">
+						искать в найденном
+					</font>
+		</td>
+	</tr>
+
+	</form>
+
+</table>
+  	
+        	
+        </td>
+        </tr>
+      <tr>
+          <td>
+              
+			<table cellspacing=0 cellpadding=2 width=100% border=0>
+ 				<tr>
+					<td bgcolor=black>
+						<table>
+							<tr>
+		 						<td>
+									<img src="images/c.gif">
+								</td>
+		 						<td>
+									&nbsp;&nbsp;
+									<a class=light 
+										href="javascript:open_window('cart.php',400,300);"><font color=white>Корзина</font></a>
+		 						</td>
+							</tr>
+						</table>
+					</td>
+ 				</tr>
+ 				<tr>
+					<td bgcolor=#8A4D4D>
+						<p>
+							<table>
+				<tr>
+			<td>
+
+ 									<div class="cart" id="shpcrtgc">(нет товаров)</div>
+					<div class="cart" id="shpcrtca"><br /></div>
+ 				
+			</td>
+		</tr>
+		</table>					</td>
+ 				</tr>
+			</table>
+			<br>
+		          </td>
+        </tr>
+        <tr>
+          <td>
+<div align="left"><b><font face="Arial, Helvetica, sans-serif" color="#FFFFFF" size="2"> 
+                  Каталог
+</font></b></div>
+          </td>
+        </tr>
+       <tr>
+          <td>
+<div align="left"><font face="Arial, Helvetica, sans-serif" color="#FFFFFF" size="2">
+                  
+
+	
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=54" 
+									class=light
+				>Бирюса</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=55" 
+									class=light
+				>AEG</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=56" 
+									class=light
+				>Akai</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=57" 
+									class=light
+				>Amana </a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=58" 
+									class=light
+				>Атлант</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=59" 
+									class=light
+				>Ardo</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=60" 
+									class=light
+				>Baumatic</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=61" 
+									class=light
+				>BEKO</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=62" 
+									class=light
+				>Blomberg</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=63" 
+									class=light
+				>Bosch</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=64" 
+									class=light
+				>Candy</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=65" 
+									class=light
+				>Climadiff</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=66" 
+									class=light
+				>Daewoo</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=67" 
+									class=light
+				>Electrolux </a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=68" 
+									class=light
+				>Elenberg</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=69" 
+									class=light
+				>Ellemme</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=70" 
+									class=light
+				>Exqvisit</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=71" 
+									class=light
+				>Frigidaire</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=72" 
+									class=light
+				>Gaggenau</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=73" 
+									class=light
+				>General Electric</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=74" 
+									class=light
+				>Gorenje</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=75" 
+									class=light
+				>Haier</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=76" 
+									class=light
+				>Hansa</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=77" 
+									class=light
+				>Hitachi</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=78" 
+									class=light
+				>Hotpoint-Ariston</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=79" 
+									class=light
+				>ILVE</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=80" 
+									class=light
+				>Indesit</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=81" 
+									class=light
+				>IP</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=82" 
+									class=light
+				>Kaiser</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=83" 
+									class=light
+				>Kuppersbusch</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=84" 
+									class=light
+				>LG</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=85" 
+									class=light
+				>Liebherr</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=86" 
+									class=light
+				>Mabe</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=87" 
+									class=light
+				>Maytag</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=88" 
+									class=light
+				>Miele</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=89" 
+									class=light
+				>Nardi</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=90" 
+									class=light
+				>Neff</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=91" 
+									class=light
+				>NORD</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=92" 
+									class=light
+				>OAK</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=93" 
+									class=light
+				>Panasonic</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=94" 
+									class=light
+				>Pozis</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=95" 
+									class=light
+				>Samsung</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=96" 
+									class=light
+				>Sanyo</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=97" 
+									class=light
+				>Sharp</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=98" 
+									class=light
+				>Siemens</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=99" 
+									class=light
+				>Smeg</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=100" 
+									class=light
+				>Snaige</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=101" 
+									class=light
+				>Toshiba</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=102" 
+									class=light
+				>Vestel</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=103" 
+									class=light
+				>Vestfrost</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=104" 
+									class=light
+				>Whirlpool</a>
+			<br>
+  			
+	
+
+		
+  								<a style="color: #FFFFFF" href="index.php?categoryID=105" 
+									class=light
+				>Zanussi</a>
+			<br>
+  			</font></div>
+            </td>
+        </tr>
+        <tr>
+          <td><font face="Arial, Helvetica, sans-serif" color="#FFFFFF" size="2">
+        
+
+	
+	<font class=middle><b>Вход для пользователей</b></font>
+	<table cellspacing=0>
+	<form action="index.php" method=post>
+	<tr>
+	 <td>
+		<table border=0>
+		 <input type="hidden" name="enter" value="1">
+		 <tr>
+			<td align=right><font class=light>Логин:</font></td>
+			<td><input type="text" class=ss name="user_login" size=10></td>
+		 </tr>
+		 <tr>
+			<td align=right><font class=light>Пароль:</font></td>
+			<td><input name="user_pw" class=ss type="password" size=10></td>
+		 </tr>
+		</table>
+	 </td>
+	 <td>
+		<input type="submit" value="OK"><br>
+		<a href="index.php?logging=yes" class=lightsmall>забыли пароль?</a>
+	 </td>
+	</tr>
+
+				
+	</form>
+	</table>
+
+
+</font>
+          </td>
+        </tr>
+
+      </table>
+    </TD>
+    <TD COLSPAN=2 ROWSPAN=2 valign="top">
+      <table width="90%" border="0" cellspacing="3" cellpadding="3">
+        <tr>
+          <td>
+<p><font face="Verdana" size="2"><div style="text-align:justify;">
+
+
+
+
+<center>
+<table border=0 width="500" cellspacing=1 cellpadding=5>
+ <div align="center"><b><a href="index.php?categoryID="></a></b></div>
+<td valign=top>
+ <table border=0 bgcolor=white width=100%>
+    </table>
+</td>
+</table>
+</center>
+
+<p>
+<table width="100%" border="0" cellpadding="5">
+<tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=54" class="cat">Бирюса</a> 
+		
+
+     <a href="index.php?catID=54&page=1">(30)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=55" class="cat">AEG</a> 
+		
+
+     <a href="index.php?catID=55&page=1">(50)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=56" class="cat">Akai</a> 
+		
+
+     <a href="index.php?catID=56&page=1">(12)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=57" class="cat">Amana </a> 
+		
+
+     <a href="index.php?catID=57&page=1">(28)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=58" class="cat">Атлант</a> 
+		
+
+     <a href="index.php?catID=58&page=1">(166)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=59" class="cat">Ardo</a> 
+		
+
+     <a href="index.php?catID=59&page=1">(137)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=60" class="cat">Baumatic</a> 
+		
+
+     <a href="index.php?catID=60&page=1">(14)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=61" class="cat">BEKO</a> 
+		
+
+     <a href="index.php?catID=61&page=1">(112)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=62" class="cat">Blomberg</a> 
+		
+
+     <a href="index.php?catID=62&page=1">(15)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=63" class="cat">Bosch</a> 
+		
+
+     <a href="index.php?catID=63&page=1">(153)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=64" class="cat">Candy</a> 
+		
+
+     <a href="index.php?catID=64&page=1">(13)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=65" class="cat">Climadiff</a> 
+		
+
+     <a href="index.php?catID=65&page=1">(31)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=66" class="cat">Daewoo</a> 
+		
+
+     <a href="index.php?catID=66&page=1">(32)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=67" class="cat">Electrolux </a> 
+		
+
+     <a href="index.php?catID=67&page=1">(154)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=68" class="cat">Elenberg</a> 
+		
+
+     <a href="index.php?catID=68&page=1">(3)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=69" class="cat">Ellemme</a> 
+		
+
+     <a href="index.php?catID=69&page=1">(13)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=70" class="cat">Exqvisit</a> 
+		
+
+     <a href="index.php?catID=70&page=1">(84)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=71" class="cat">Frigidaire</a> 
+		
+
+     <a href="index.php?catID=71&page=1">(25)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=72" class="cat">Gaggenau</a> 
+		
+
+     <a href="index.php?catID=72&page=1">(32)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=73" class="cat">General Electric</a> 
+		
+
+     <a href="index.php?catID=73&page=1">(3)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=74" class="cat">Gorenje</a> 
+		
+
+     <a href="index.php?catID=74&page=1">(124)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=75" class="cat">Haier</a> 
+		
+
+     <a href="index.php?catID=75&page=1">(27)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=76" class="cat">Hansa</a> 
+		
+
+     <a href="index.php?catID=76&page=1">(55)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=77" class="cat">Hitachi</a> 
+		
+
+     <a href="index.php?catID=77&page=1">(12)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=78" class="cat">Hotpoint-Ariston</a> 
+		
+
+     <a href="index.php?catID=78&page=1">(84)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=79" class="cat">ILVE</a> 
+		
+
+     <a href="index.php?catID=79&page=1">(10)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=80" class="cat">Indesit</a> 
+		
+
+     <a href="index.php?catID=80&page=1">(79)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=81" class="cat">IP</a> 
+		
+
+     <a href="index.php?catID=81&page=1">(36)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=82" class="cat">Kaiser</a> 
+		
+
+     <a href="index.php?catID=82&page=1">(14)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=83" class="cat">Kuppersbusch</a> 
+		
+
+     <a href="index.php?catID=83&page=1">(53)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=84" class="cat">LG</a> 
+		
+
+     <a href="index.php?catID=84&page=1">(183)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=85" class="cat">Liebherr</a> 
+		
+
+     <a href="index.php?catID=85&page=1">(246)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=86" class="cat">Mabe</a> 
+		
+
+     <a href="index.php?catID=86&page=1">(9)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=87" class="cat">Maytag</a> 
+		
+
+     <a href="index.php?catID=87&page=1">(26)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=88" class="cat">Miele</a> 
+		
+
+     <a href="index.php?catID=88&page=1">(58)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=89" class="cat">Nardi</a> 
+		
+
+     <a href="index.php?catID=89&page=1">(12)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=90" class="cat">Neff</a> 
+		
+
+     <a href="index.php?catID=90&page=1">(15)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=91" class="cat">NORD</a> 
+		
+
+     <a href="index.php?catID=91&page=1">(81)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=92" class="cat">OAK</a> 
+		
+
+     <a href="index.php?catID=92&page=1">(14)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=93" class="cat">Panasonic</a> 
+		
+
+     <a href="index.php?catID=93&page=1">(5)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=94" class="cat">Pozis</a> 
+		
+
+     <a href="index.php?catID=94&page=1">(15)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=95" class="cat">Samsung</a> 
+		
+
+     <a href="index.php?catID=95&page=1">(139)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=96" class="cat">Sanyo</a> 
+		
+
+     <a href="index.php?catID=96&page=1">(4)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=97" class="cat">Sharp</a> 
+		
+
+     <a href="index.php?catID=97&page=1">(103)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=98" class="cat">Siemens</a> 
+		
+
+     <a href="index.php?catID=98&page=1">(78)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=99" class="cat">Smeg</a> 
+		
+
+     <a href="index.php?catID=99&page=1">(160)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=100" class="cat">Snaige</a> 
+		
+
+     <a href="index.php?catID=100&page=1">(43)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=101" class="cat">Toshiba</a> 
+		
+
+     <a href="index.php?catID=101&page=1">(42)</a>
+  		
+						</td>
+
+</tr><tr><td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=102" class="cat">Vestel</a> 
+		
+
+     <a href="index.php?catID=102&page=1">(31)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=103" class="cat">Vestfrost</a> 
+		
+
+     <a href="index.php?catID=103&page=1">(66)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=104" class="cat">Whirlpool</a> 
+		
+
+     <a href="index.php?catID=104&page=1">(130)</a>
+  		
+						</td>
+
+<td width="1%" align="center" valign="top">
+	</td>
+<td width="24%" valign="top">
+		<a href="index.php?categoryID=105" class="cat">Zanussi</a> 
+		
+
+     <a href="index.php?catID=105&page=1">(54)</a>
+  		
+						</td>
+
+</tr></table>
+</div></font></p>
+          </td>
+        </tr>
+      </table>
+    </TD>
+  </TR>
+  <TR>
+    <TD width="250"> <IMG SRC="images/blue2.gif" WIDTH=250 HEIGHT=216></TD>
+  </TR>
+</TABLE>
+<table width="100%" border="0" cellspacing="3" cellpadding="3">
+  <tr>
+    <td>
+      <div align="center">
+<a href="index.php" style="color: #660000">Главная</a> | <a href="index.php?show_price=yes" style="color: #660000">Прайс-лист</a>
+        	 | 																			<a href="index.php?register=yes" style="color: #660000">
+											Регистрация
+										</a>
+									 | <a href="index.php?feedback=yes" style="color: #660000">
+										Обратная связь
+									</a> | <a href="index.php?show_aux_page=1" style="color: #660000">Статьи</a>
+              </div>
+              <br>
+              2009 © <a href="http://slavyanskiy.biz/" style="color: #000000"><u>Магазин Холодильников</u></a>. 
+    </td>
+  </tr>
+</table>
+</BODY>
+</HTML>

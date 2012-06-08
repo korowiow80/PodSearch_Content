@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE" prefix="og: http://ogp.me/ns#" >
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>cams21</title>
+
+
+<link rel="pingback" href="http://cams21.de/xmlrpc.php" />
+
+
+
+<link rel="shortcut icon" href="http://cams21.de/favicon.ico" />
+
+<meta name="viewport" content="width=1000" />
+
+
+
+
+			<!-- Added by Counterize for IE6-8 gradients support -->
+			<!--[if (gte IE 6)&(lte IE 8)]>
+				<style type="text/css">
+					/* IE6-8 filters */
+					.counterize_chart_bar_horizontal.blue {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003399', endColorstr='#006699',GradientType=1 );
+					}
+					.counterize_chart_bar_vertical.blue {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006699', endColorstr='#003399',GradientType=0 );
+					}
+
+					.counterize_chart_bar_horizontal.red {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#ff0000',GradientType=1 );
+					}
+					.counterize_chart_bar_vertical.red {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#cc0000',GradientType=0 );
+					}
+
+					.counterize_chart_bar_horizontal.green {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009900', endColorstr='#00dc00',GradientType=1 );
+					}
+					.counterize_chart_bar_vertical.green {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dc00', endColorstr='#009900',GradientType=0 );
+					}
+
+					.counterize_chart_bar_horizontal.yellow {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccc00', endColorstr='#ffff00',GradientType=1 );
+					}
+					.counterize_chart_bar_vertical.yellow {
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff00', endColorstr='#cccc00',GradientType=0 );
+					}
+				</style>
+			<![endif]-->
+
+			<!-- Added by Counterize for IE9+ gradients support -->
+			<!--[if IE 9]>
+				<style type="text/css">
+					/* IE9 SVG */
+					.counterize_chart_bar_horizontal.blue {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMzM5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDY2OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+					.counterize_chart_bar_vertical.blue {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNjY5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDMzOTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+
+					.counterize_chart_bar_horizontal.red {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+					.counterize_chart_bar_vertical.red {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYzAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+
+
+					.counterize_chart_bar_horizontal.green {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOTkwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGRjMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+					.counterize_chart_bar_vertical.green {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwZGMwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDk5MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+
+
+					.counterize_chart_bar_horizontal.yellow {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2MwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+					.counterize_chart_bar_vertical.yellow {
+						background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					}
+
+				</style>
+			<![endif]-->
+
+			<link rel="alternate" type="application/rss+xml" title="cams21 &raquo; Feed" href="http://cams21.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="cams21 &raquo; Kommentar Feed" href="http://cams21.de/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="cams21 &raquo;  Kommentar Feed" href="http://cams21.de/startseite/feed/" />
+<link rel='stylesheet' id='slc-css-css'  href='http://cams21.de/wp-content/plugins/site-layout-customizer/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slcb-css-css'  href='http://cams21.de/site-layout-customizer.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='arras-layout-css'  href='http://cams21.de/wp-content/themes/arras/css/layouts/3c-r-fixed.css?ver=2011-12-12' type='text/css' media='all' />
+<link rel='stylesheet' id='arras-css'  href='http://cams21.de/wp-content/themes/arras/css/styles/default.css?ver=2011-12-12' type='text/css' media='all' />
+<link rel='stylesheet' id='arras-user-css'  href='http://cams21.de/wp-content/themes/arras/user.css?ver=2011-12-12' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://cams21.de/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rps-style-css'  href='http://cams21.de/wp-content/plugins/recent-posts-slider/css/style.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='counterize_stylesheet-css'  href='http://cams21.de/wp-content/plugins/counterize/counterize.css.php?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://cams21.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://cams21.de/wp-includes/js/json2.js?ver=2011-02-23'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var live_blogging = {"ajaxurl":"http:\/\/cams21.de\/wp-admin\/admin-ajax.php","update_effect":"top"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cams21.de/wp-content/plugins/live-blogging/live-blogging.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://cams21.de/wp-content/themes/arras/js/superfish/superfish.js?ver=2011-12-01'></script>
+<script type='text/javascript' src='http://cams21.de/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://cams21.de/wp-content/themes/arras/js/jquery.validate.min.js'></script>
+<script type='text/javascript' src='http://cams21.de/wp-content/plugins/counterize/counterize.js.php?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cams21.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cams21.de/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Blog' href='http://cams21.de/blog/' />
+<link rel='next' title='über cams21' href='http://cams21.de/uber-cams21/' />
+<meta name="generator" content="WordPress 3.3.2" />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){if(a2a.type=='page'){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();}},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el)a2a.init('page',{target:el});wpa2a.done=true;}}};a2a_config.tracking_callback=['ready',wpa2a.script_onready];a2a_localize = {
+	Share: "Empfehlen",
+	Save: "Speichern",
+	Subscribe: "Abonnieren",
+	Email: "E-Mail",
+    Bookmark: "Bookmark",
+	ShowAll: "zeige alle",
+	ShowLess: "Zeige weniger",
+	FindServices: "Finden Dienstleistung(en)",
+	FindAnyServiceToAddTo: "Um weitere Dienste ergänzen",
+	PoweredBy: "Powered by",
+	ShareViaEmail: "per E-Mail empfehlen",
+	SubscribeViaEmail: "per E-Mail abonnieren",
+	BookmarkInYourBrowser: "Seite den Bookmarks hinzufügen",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Zu Ihren Favoriten hinzufügen",
+	SendFromWebOrProgram: "Von E-Mail-Adresse oder E-Mail-Programm senden",
+    EmailProgram: "E-Mail-Programm"
+};
+
+//--></script>
+
+<!-- All in One SEO Pack 1.6.14.3 by Michael Torbert of Semper Fi Web Design[333,346] -->
+<meta name="description" content="Die Stuttgarter Plattform für Livestreams und freie unabhängige Medien, mit Informationen, Nachrichten, Hintergründen, Blog, Mediensammlung, Links und Fotos." />
+<meta name="keywords" content="Stuttgart 21, S21, Stuttgart, Livestream, Video, Blog, Kamera, mobil, Presse, TV, Übertragung, Webcam, cam, cams21" />
+<link rel="canonical" href="http://cams21.de/" />
+<!-- /all in one seo pack -->
+<style type="text/css" media="screen"></style><!-- Wordbooker generated tags --><meta property="og:locale" content="de_DE" /> <meta property="og:site_name" content="cams21 - " /> <meta property="fb:admins" content="100001816671180" /> <meta property="og:type" content="blog" /> <meta name="description" content="Player im extra Fenster öffnen
+
+
+// 
+" /> <meta property="og:description" content="Player im extra Fenster öffnen
+
+
+// 
+" /> <!-- End Wordbooker og tags --> 
+	<script type="text/javascript">
+	 //<![CDATA[ 
+	function toggleLinkGrp(id) {
+	   var e = document.getElementById(id);
+	   if(e.style.display == 'block')
+			e.style.display = 'none';
+	   else
+			e.style.display = 'block';
+	}
+	// ]]>
+	</script> 
+	
+
+        <meta name='Xxternal-RSS' content='0.1.12' />
+        <meta name='Xxternal-RSS-Build' content='#136' />
+        <meta name='Xxternal-RSS-URL' content='http://www.pretzlaff.info/wp/wordpress-plugins/xxternal-rss/' />
+        <meta name='Xxternal-RSS-Author' content='Ruediger Pretzlaff' />
+        <meta name='Xxternal-RSS-Builddate' content='Mi  2 Feb 2011 00:08:14 CET' />
+
+<style type="text/css">.youtube_sc{background-color:#000;color:#fff;font-size:12px}.youtube_sc a{color:blue;text-decoration:underline}.youtube_sc,.youtube_sc img,.youtube_sc iframe,.youtube_sc object,.youtube_sc embed{max-width:100%;_width:100%}.youtube_sc.fluid{position:relative;height:0;padding-top:25px;padding-left:0;padding-right:0}.youtube_sc.fluid .inner.block{display:block}.youtube_sc.fluid .inner,.youtube_sc.fluid iframe.yp,.youtube_sc.fluid object.yp,.youtube_sc.fluid embed.yp{position:absolute;width:100%;height:100%;left:0;top:0}.youtube_sc.fluid.widescreen{padding-bottom:56.25%}.youtube_sc.fluid.fourthree{padding-bottom:75%}</style><link rel='stylesheet' href='http://cams21.de/wp-content/plugins/youtube-sidebar-widget/style.css' /><!-- Generated by Arras WP Theme -->
+<style type="text/css">
+	.posts-default .entry  { width: 205px; }
+	.posts-default img, .posts-default .entry-thumbnails-link { width: 195px; height: 110px; }
+	.posts-default .entry-meta { width: 195px; }
+	.posts-default .entry-thumbnails { width: 205px; height: 120px; }
+			.posts-quick .entry-thumbnails img { width: 115px; height: 115px; }
+		.posts-quick .entry-meta { width: 115px; }
+			.featured { height: 310px; }
+	.featured-article { width: 640px; height: 300px; }
+	.featured-article img { width: 640px; height: 300px; }
+	#controls { width: 610px; top: 135px; }
+	#controls .next { left: 610px; }
+	.featured-entry { height: 100px; top: -100px; }
+	.featured-slideshow-inner { height: 300px }
+		.featured-stories-summary  { margin-left: 51px; }
+	.single .post .entry-photo img, .single-post .entry-photo img  { width: 200px; height: 150px; }
+	.blog-name a { background: url(http://cams21.de/wp-content/uploads/2012/04/cams213.jpg) no-repeat; text-indent: -9000px; width: 444px; height: 44px; display: block; }
+	.footer-sidebar  { width: 307px; }
+	body{ background:  url(http://cams21.de/wp-content/uploads/2012/04/ytk_bg_23.jpg) center top scroll repeat #F3F3F3 !important; }</style>
+	<script type="text/javascript">
+	jQuery(document).ready( function($) {
+		$('.sf-menu').superfish({autoArrows: true, speed: 'fast', dropShadows: 'true'});
+					} );
+	</script>
+	
+	<!-- Clean Archives Reloaded v3.2.0 | http://www.viper007bond.com/wordpress-plugins/clean-archives-reloaded/ -->
+	<style type="text/css">.car-collapse .car-yearmonth { cursor: s-resize; } </style>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+			jQuery(document).ready(function() {
+				jQuery('.car-collapse').find('.car-monthlisting').hide();
+				jQuery('.car-collapse').find('.car-monthlisting:first').show();
+				jQuery('.car-collapse').find('.car-yearmonth').click(function() {
+					jQuery(this).next('ul').slideToggle('fast');
+				});
+				jQuery('.car-collapse').find('.car-toggler').click(function() {
+					if ( 'Alle aufklappen' == jQuery(this).text() ) {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').show();
+						jQuery(this).text('Alle einklappen');
+					}
+					else {
+						jQuery(this).parent('.car-container').find('.car-monthlisting').hide();
+						jQuery(this).text('Alle aufklappen');
+					}
+					return false;
+				});
+			});
+		/* ]]> */
+	</script>
+
+<!--[if IE]>
+<style type="text/css">
+.addtoany_list a img{filter:alpha(opacity=70)}
+.addtoany_list a:hover img,.addtoany_list a.addtoany_share_save img{filter:alpha(opacity=100)}
+</style>
+<![endif]-->
+<script type="text/javascript">
+<!--
+function PopUp()
+{
+window.open('html/popup_player.html','titel','height=800,width=370,dependent= no,location=no,menubar=no,resizable=yes,status=no, toolbar=no')
+}
+//-->
+</script>
+</head>
+
+<body class="home page page-id-1072 page-template-default layout-3c-r-fixed no-js style-default">
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+var c = document.body.className;
+c = c.replace(/no-js/, 'js');
+document.body.className = c;
+})();
+//]]>
+</script>
+
+<div id="top-menu" class="clearfix">
+	
+
+
+</div><!-- #top-menu -->
+
+<div id="header">
+	<div id="branding" class="clearfix">
+	<div class="logo">
+				<h1 class="blog-name"><a href="http://cams21.de">cams21</a></h1>
+		<h2 class="blog-description"></h2>
+			</div>
+	<div id="searchbar"><form method="get" class="searchform clearfix" action="http://cams21.de/">
+	<input type="text" value="Seite durchsuchen" name="s" class="s" onfocus="if ( this.value == 'Seite durchsuchen' ) this.value = ''" onblur="if ( this.value == '' ) this.value = 'Search this site'" />
+	<input type="submit" class="searchsubmit" value="Search" title="Search cams21" />
+</form></div>
+	</div><!-- #branding -->
+</div><!-- #header -->
+
+<div id="nav">
+	<div id="nav-content" class="clearfix">
+	<div class="menu-seitennavigation-container"><ul id="menu-seitennavigation" class="sf-menu menu clearfix"><li id="menu-item-1842" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1842"><a href="http://cams21.de">startseite</a></li>
+<li id="menu-item-1750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1750"><a>streams</a>
+<ul class="sub-menu">
+	<li id="menu-item-2248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2248"><a href="http://cams21.de/alle-cams/">alle cams</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1858"><a href="http://cams21.de/berlin/">alle cams berlin</a></li>
+		<li id="menu-item-1857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1857"><a href="http://cams21.de/hamburg/">alle cams hamburg</a></li>
+		<li id="menu-item-1867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1867"><a href="http://cams21.de/stuttgart/">alle cams stuttgart</a></li>
+	</ul>
+</li>
+	<li id="menu-item-2479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2479"><a target="_blank" href="http://cams21.de/open-cams-stuttgart/">open cams</a></li>
+	<li id="menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138"><a href="http://cams21.de/streamarchiv/">streamarchiv</a></li>
+</ul>
+</li>
+<li id="menu-item-1800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1800"><a>artikel</a>
+<ul class="sub-menu">
+	<li id="menu-item-1802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802"><a href="http://cams21.de/blog/">cams21 blog</a></li>
+	<li id="menu-item-1815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1815"><a>themenübersicht</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1087"><a href="http://cams21.de/category/stuttgart-21/">stuttgart 21</a></li>
+		<li id="menu-item-1807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1807"><a href="http://cams21.de/category/occupy/">occupy</a></li>
+		<li id="menu-item-1806" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1806"><a href="http://cams21.de/category/fundstuck/">fundstücke aus dem netz</a></li>
+		<li id="menu-item-1827" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1827"><a href="http://cams21.de/category/uberregional/">überregional</a></li>
+		<li id="menu-item-1808" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1808"><a href="http://cams21.de/category/allgemein/">allgemeine themen</a></li>
+		<li id="menu-item-2091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2091"><a href="http://cams21.de/alle-artikel-von-cams21/">alle artikel von cams21</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1813" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1813"><a href="http://cams21.de/category/cams21-pressemitteilung/">cams21 pressemitteilung</a></li>
+	<li id="menu-item-3734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3734"><a href="http://cams21.de/frisch-aus-dem-netz-gefischt/">frisch aus dem netz gefischt</a></li>
+</ul>
+</li>
+<li id="menu-item-1768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1768"><a>bildarchiv</a>
+<ul class="sub-menu">
+	<li id="menu-item-1176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1176"><a href="http://cams21.de/cams21-auf-picasa/">cams21 auf picasa</a></li>
+	<li id="menu-item-2200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2200"><a href="http://cams21.de/alexander-schafer/">alexander schäfer</a></li>
+	<li id="menu-item-2081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2081"><a href="http://cams21.de/fotografen/">fotografen</a></li>
+</ul>
+</li>
+<li id="menu-item-1739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1739"><a>medien</a>
+<ul class="sub-menu">
+	<li id="menu-item-1744" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1744"><a target="_blank" href="http://www.youtube.com/user/Cams21Kanal">cams21 auf youtube</a></li>
+	<li id="menu-item-1965" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1965"><a href="http://cams21.de/cams21-tweetspiegel/">cams21 tweetspiegel</a></li>
+	<li id="menu-item-1738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1738"><a target="_blank" href="http://video.twitterwall.me/19931795/cams21">cams21 video twitterwall</a></li>
+	<li id="menu-item-2925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2925"><a href="http://cams21.de/blog/twitter/">twitter übersicht</a></li>
+	<li id="menu-item-1968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1968"><a target="_blank" href="http://3c5x9.de/ablage/s21.html">#s21 Monitor</a></li>
+</ul>
+</li>
+<li id="menu-item-1766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1766"><a>netzwerk</a>
+<ul class="sub-menu">
+	<li id="menu-item-1432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1432"><a href="http://cams21.de/blogs/">blogs</a></li>
+	<li id="menu-item-2172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2172"><a href="http://cams21.de/links/">links</a></li>
+</ul>
+</li>
+<li id="menu-item-1067" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1067"><a>cams21</a>
+<ul class="sub-menu">
+	<li id="menu-item-1154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1154"><a href="http://cams21.de/uber-cams21/">über cams21</a></li>
+	<li id="menu-item-1615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1615"><a href="http://cams21.de/mitmachen/">mitmachen</a></li>
+	<li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1153"><a href="http://cams21.de/how2livestream/">how2livestream</a></li>
+	<li id="menu-item-1212" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1212"><a href="http://cams21.de/spenden/">spenden</a></li>
+	<li id="menu-item-1155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155"><a href="http://cams21.de/pressematerial/">pressematerial</a></li>
+</ul>
+</li>
+<li id="menu-item-1211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1211"><a href="http://cams21.de/kontakt/">kontakt</a></li>
+</ul></div>	<ul class="quick-nav clearfix">
+		<li><a id="rss" title="cams21 RSS Feed" href="http://cams21.de/feed/">RSS Feed</a></li>
+		
+							<li><a id="twitter" title="cams21 Twitter" href="http://www.twitter.com/cams21de/" target="_blank">Twitter</a></li>
+				
+							<li><a id="facebook" title="cams21 Facebook" href="http://facebook.com/www.cams21.de" target="_blank">Facebook</a></li>
+				
+			</ul>
+	</div><!-- #nav-content -->
+</div><!-- #nav -->
+
+<div id="wrapper">
+	
+	  
+	<div id="main" class="clearfix">
+    <div id="container" class="clearfix">
+
+
+<div id="content" class="section">
+
+
+
+		<div id="post-1072" class="post-1072 page type-page status-publish hentry clearfix single-post">
+        <h1 class="entry-title"><a href="http://cams21.de/" rel="bookmark"></a></h1>        
+        <div class="entry-content clearfix">
+		<p><span style="font-family: verdana,geneva;"><strong><a onclick="window.open('/html/popup_player.html','Popup PLayer','width=370,height=880,left='+(screen.availWidth/2-185)+',top='+(screen.availHeight/2-440)+'');return false;" onmouseup="Player im extra Fenster" onmouseover="Player im extra Fenster" onfocus="Player im extra Fenster" href="/html/popup_player.html">Player im extra Fenster öffnen</a></strong><br /><object id="bplayer" width="460" height="840" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" class="mceItemMedia mceItemFlash"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://static.bambuser.com/r/player.swf?username=www.cams21.de,tilman36,HanSolo,peterpstuttgart,kephren,herr-der-mails,Zwuckelmann,airjibeer,drehstrom,cadenas,LoB,ernst21,Blacky-Stuttgart,stefan1531,bettybouu,rhs_1,quox,pennyche13,3c5x9" /><param name="wmode" value="opaque" /><embed id="bplayer" width="460" height="840" type="application/x-shockwave-flash" src="http://static.bambuser.com/r/player.swf?username=www.cams21.de,tilman36,HanSolo,peterpstuttgart,kephren,herr-der-mails,Zwuckelmann,airjibeer,drehstrom,cadenas,LoB,ernst21,Blacky-Stuttgart,stefan1531,bettybouu,rhs_1,quox,pennyche13,3c5x9" allowfullscreen="true" allowscriptaccess="always" wmode="opaque" class="mceItemMedia mceItemFlash" /></object></span></p>
+<div id="slc-clear" class="c"><table style="width:100% !important;" id="slc-vpostspace"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100% !important;"    class="c"><a  id="slc-title-layout4"  class="c" style="display:block !important;" href="http://cams21.de/stuttgart-21-personenstrom-spult-wahrheit-zutage/">Stuttgart 21 - Personenstrom spült Wahrheit zutage</a><table style="width:100% !important;" id="slc-clear"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100px !important;"    class="c"><a id ="slc-clear" href="http://cams21.de/stuttgart-21-personenstrom-spult-wahrheit-zutage/" ><img id="slc-img" class="c" src="http://cams21.de/wp-content/uploads/2012/06/christophstrecker_seite-start-150x150.jpg"  style="width:100px !important;height:100px !important;"></a></td><td id="slc-hpostspace"    class="c"></td><td id="slc-clear"    class="c"><a  id="slc-excerpt-layout4"  class="c" style="display:block !important;" href="http://cams21.de/stuttgart-21-personenstrom-spult-wahrheit-zutage/">Von Christoph Strecker [27.05.2012]
+1. Gedränge im Tiefbahnhof ?
+ Die Einschätzung der Bahn beruht auf einer soliden Basis. Es gibt wissenschaftliche Methoden, um Verkehrsflüsse abzubilden, zu quantifizieren und das Ergebnis zu bewerten. Sie sind dargestellt im Handbuch zur Bemessung von Straßenverkehrsanlagen. Dabei wird mit Qualitätsstufen gearbeitet. Sie reichen von der Stufe A für ung...</a></td></tr></table></td></tr></table><table style="width:100% !important;" id="slc-vpostspace"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100% !important;"    class="c"><a  id="slc-title-layout4"  class="c" style="display:block !important;" href="http://cams21.de/cams21-geht-in-die-oper-zu-besuch-bei-don-giovanni-regie-waltraud-lehner-wilhelma-theater/">cams21 geht in die Oper:  Zu Besuch bei "Don Giovanni" –  Regie Waltraud Lehner - Wilhelma Theater</a><table style="width:100% !important;" id="slc-clear"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100px !important;"    class="c"><a id ="slc-clear" href="http://cams21.de/cams21-geht-in-die-oper-zu-besuch-bei-don-giovanni-regie-waltraud-lehner-wilhelma-theater/" ><img id="slc-img" class="c" src="http://cams21.de/wp-content/uploads/2012/03/cams21de-150x150.jpg"  style="width:100px !important;height:100px !important;"></a></td><td id="slc-hpostspace"    class="c"></td><td id="slc-clear"    class="c"><a  id="slc-excerpt-layout4"  class="c" style="display:block !important;" href="http://cams21.de/cams21-geht-in-die-oper-zu-besuch-bei-don-giovanni-regie-waltraud-lehner-wilhelma-theater/">Mit dem Relaunch im April erweiterte cams21 seinen thematischen Rahmen über das Geschehen rund um S21 hinaus. Immerhin bietet unsere Stadt neben Autoindustrie und Ingenieursausbildung ja bekanntlich ebenso allerhand kulturell Herrausragendes, das auch über die Region hinaus sehr große Beachtung findet. 
+Den Auftakt zu dieser neuen Reihe über ungewöhnliche Produktionen in und rund um Stuttgar...</a></td></tr></table></td></tr></table><table style="width:100% !important;" id="slc-vpostspace"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100% !important;"    class="c"><a  id="slc-title-layout4"  class="c" style="display:block !important;" href="http://cams21.de/bahn-alternativen-fur-stuttgart-und-die-fildern-prof-dipl-ing-karl-dieter-bodack/">Bahn-Alternativen für Stuttgart und die Fildern - Prof. Dipl.-Ing. Karl-Dieter Bodack</a><table style="width:100% !important;" id="slc-clear"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100px !important;"    class="c"><a id ="slc-clear" href="http://cams21.de/bahn-alternativen-fur-stuttgart-und-die-fildern-prof-dipl-ing-karl-dieter-bodack/" ><img id="slc-img" class="c" src="http://cams21.de/wp-content/uploads/2012/05/bild-150x150.jpg"  style="width:100px !important;height:100px !important;"></a></td><td id="slc-hpostspace"    class="c"></td><td id="slc-clear"    class="c"><a  id="slc-excerpt-layout4"  class="c" style="display:block !important;" href="http://cams21.de/bahn-alternativen-fur-stuttgart-und-die-fildern-prof-dipl-ing-karl-dieter-bodack/">"Bahn-Alternativen für Stuttgart und die Fildern, die kostengünstig und ab sofort realisierbar sind"
+Verfasst von Prof. Dipl.-Ing. Karl-Dieter Bodack, M.S.
+ A. Ziele
+Die Fixierung auf Fahrzeitverkürzungen erscheint unsinnig: Die derzeit von der DB geplanten Anlagen „Stuttgart21“ und die Neubaustrecke nach Ulm verkürzen die Fahrzeit von, nach oder über Stuttgart im Durchschnitt der tä...</a></td></tr></table></td></tr></table><table style="width:100% !important;" id="slc-vpostspace"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100% !important;"    class="c"><a  id="slc-title-layout4"  class="c" style="display:block !important;" href="http://cams21.de/offener-brief-an-die-lbbw-beschaftigten-von-hannes-rockenbauch/">Offener Brief an die LBBW Beschäftigten von Hannes Rockenbauch</a><table style="width:100% !important;" id="slc-clear"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100px !important;"    class="c"><a id ="slc-clear" href="http://cams21.de/offener-brief-an-die-lbbw-beschaftigten-von-hannes-rockenbauch/" ><img id="slc-img" class="c" src="http://cams21.de/wp-content/uploads/2012/05/Hannes-Rockenbauch-200x150-150x150.jpg"  style="width:100px !important;height:100px !important;"></a></td><td id="slc-hpostspace"    class="c"></td><td id="slc-clear"    class="c"><a  id="slc-excerpt-layout4"  class="c" style="display:block !important;" href="http://cams21.de/offener-brief-an-die-lbbw-beschaftigten-von-hannes-rockenbauch/">
+&nbsp;
+Solidarität mit den Mitarbeitern der LBBW!
+Sehr geehrte Beschäftigte der LBBW,Heute streiken in Stuttgart auch viele LBBW-Kolleginnen und -Kollegen. SÖS undLINKE unterstützt ihre Forderung und die von Verdi nach sechs Prozent mehrGehalt, tariflichen Schutzregelungen für Beraterinnen und Berater, die unbefristeteÜbernahme von Auszubildenden, die Verlängerung der Vorruhestandsregel...</a></td></tr></table></td></tr></table><table style="width:100% !important;" id="slc-vpostspace"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100% !important;"    class="c"><a  id="slc-title-layout4"  class="c" style="display:block !important;" href="http://cams21.de/parkschutzer-geht-freiwillig-ins-gefangnis/">Parkschützer geht freiwillig ins Gefängnis</a><table style="width:100% !important;" id="slc-clear"    class="c" cellspacing="0" cellpadding="0" border="0"><tr id="slc-clear" class="c" ><td id="slc-clear"  style="width:100px !important;"    class="c"><a id ="slc-clear" href="http://cams21.de/parkschutzer-geht-freiwillig-ins-gefangnis/" ><img id="slc-img" class="c" src="http://cams21.de/wp-content/uploads/2012/05/Nordfluegel-150x150.jpg"  style="width:100px !important;height:100px !important;"></a></td><td id="slc-hpostspace"    class="c"></td><td id="slc-clear"    class="c"><a  id="slc-excerpt-layout4"  class="c" style="display:block !important;" href="http://cams21.de/parkschutzer-geht-freiwillig-ins-gefangnis/">Presseerklärung vom 25. Mai 2012
+10 Tage Ersatzfreiheitsstrafe für Nordflügel Besetzung
+Stuttgart, 25. Mai 2012: Am heutigen Freitag um 11 Uhr tritt Parkschützer Mark Pollmann seine Ersatzfreiheitsstrafe in der Justizvollzugsanstalt Rottenburg an. Er wurde am 17. Februar 2011 vom Amtsgericht Stuttgart zu 10 Tagessätzen verurteilt, weil er zusammen mit 54 weiteren Parkschützern am 26. Juli ...</a></td></tr></table></td></tr></table><hr id="slc-layoutspace"  class="c" ></hr></div>
+<p>
+<script type="text/javascript">// <![CDATA[
+if(typeof(networkedblogs)=="undefined"){networkedblogs = {};networkedblogs.blogId=1121484;networkedblogs.shortName="cams21";}
+// ]]&gt;</script></p>
+<fb:like href=http://cams21.de/ font=></fb:like><div class='wb_fb_comment'><br/></div><div class="addtoany_share_save_container"><div class="a2a_kit a2a_target addtoany_list" id="wpa2a_1"><a class="a2a_dd addtoany_share_save" href="http://www.addtoany.com/share_save"><img src="http://cams21.de/wp-content/plugins/add-to-any/share_save_171_16.png" width="171" height="16" alt="Share"/></a></div>
+<script type="text/javascript"><!--
+wpa2a.script_load();
+//--></script>
+</div>  
+        		</div>
+        
+		
+            </div>
+    
+		<a name="comments"></a>
+    		
+	    
+
+  
+</div><!-- #content -->
+
+</div><!-- #container -->
+
+
+<div id="primary" class="aside main-aside sidebar">
+  
+	<ul class="xoxo">
+				<li id="recent-posts-4" class="widgetcontainer clearfix">		<h5 class="widgettitle">Letzte Artikel</h5>		<ul>
+				<li><a href="http://cams21.de/stuttgart-21-personenstrom-spult-wahrheit-zutage/" title="Stuttgart 21 &#8211; Personenstrom spült Wahrheit zutage">Stuttgart 21 &#8211; Personenstrom spült Wahrheit zutage</a></li>
+				<li><a href="http://cams21.de/cams21-geht-in-die-oper-zu-besuch-bei-don-giovanni-regie-waltraud-lehner-wilhelma-theater/" title="cams21 geht in die Oper:  Zu Besuch bei &#8220;Don Giovanni&#8221; –  Regie Waltraud Lehner &#8211; Wilhelma Theater">cams21 geht in die Oper:  Zu Besuch bei &#8220;Don Giovanni&#8221; –  Regie Waltraud Lehner &#8211; Wilhelma Theater</a></li>
+				<li><a href="http://cams21.de/bahn-alternativen-fur-stuttgart-und-die-fildern-prof-dipl-ing-karl-dieter-bodack/" title="Bahn-Alternativen für Stuttgart und die Fildern &#8211; Prof. Dipl.-Ing. Karl-Dieter Bodack">Bahn-Alternativen für Stuttgart und die Fildern &#8211; Prof. Dipl.-Ing. Karl-Dieter Bodack</a></li>
+				<li><a href="http://cams21.de/offener-brief-an-die-lbbw-beschaftigten-von-hannes-rockenbauch/" title="Offener Brief an die LBBW Beschäftigten von Hannes Rockenbauch">Offener Brief an die LBBW Beschäftigten von Hannes Rockenbauch</a></li>
+				<li><a href="http://cams21.de/parkschutzer-geht-freiwillig-ins-gefangnis/" title="Parkschützer geht freiwillig ins Gefängnis">Parkschützer geht freiwillig ins Gefängnis</a></li>
+				</ul>
+		</li><li id="text-6" class="widgetcontainer clearfix"><h5 class="widgettitle">cams21 auf twitter</h5>			<div class="textwidget"><script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 25,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#ffffff',
+      color: '#000000'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#880000'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    behavior: 'all'
+  }
+}).render().setUser('cams21de').start();
+</script></div>
+		</li><li id="text-15" class="widgetcontainer clearfix">			<div class="textwidget"><a href="http://cams21.de/blog/twitter/"><b>>> zur twitterübersicht</b></a>
+<br>
+<a href="http://video.twitterwall.me/19931795/cams21" target="blank"><b>>> zur video twitterwall</b></a></div>
+		</li><li id="text-19" class="widgetcontainer clearfix">			<div class="textwidget"><div align="center"><b>Unterstütze cams21</b> <a href="http://cams21.de/spenden/"><h1>Hier spenden!</h1></a></div></div>
+		</li><li id="text-10" class="widgetcontainer clearfix"><h5 class="widgettitle">aktuelle fotos</h5>			<div class="textwidget"><embed pluginspage = "http://www.macromedia.com/go/getflashplayer" wmode="transparent" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" flashvars="host=picasaweb.google.com&amp;RGB=0xFFFFFF&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F102312444829271982174%2Falbumid%2F5633439574242942529%3Fkind%3Dphoto%26alt%3Drss" type ="application/x-shockwave-flash" height ="150" width="200"></embed><br /></div>
+		</li><li id="text-17" class="widgetcontainer clearfix">			<div class="textwidget"><a href="http://openpetition.de/petition/online/stuttgarter-erklaerung-zur-fortfuehrung-des-widerstandes-gegen-stuttgart-21" target="_blank"><b>Jetzt unterzeichnen!<br>Stuttgarter Erklärung zur Fortführung des Widerstandes gegen Stuttgart 21</b></a>
+
+</div>
+		</li><li id="widget_sp_image-2" class="widgetcontainer clearfix"><h5 class="widgettitle">mitmachen bei cams21</h5><a class="widget_sp_image-image-link" href="http://cams21.de/mitmachen/" target="_self"><img src="http://cams21.de/wp-content/uploads/2012/02/support_cams21.jpg" style="max-width: 190px;max-height: 150px;" class="aligncenter" alt="(c) www.schaeferweltweit.de" /></a><div class="widget_sp_image-description" ><p><strong> Filmer, Blogger, Redakteure, Fotografen, aufgepasst:<br />
+cams21 ist ständig auf der Suche nach freien, ehrenamtlichen Mitarbeitern.</p>
+<p>Interesse? Klick das Foto hier!</strong></p>
+</div></li>	</ul>		
+</div><!-- #primary -->
+<div id="secondary" class="aside main-aside sidebar">
+    <ul class="xoxo">
+        <!-- Widgetized sidebar, if you have the plugin installed.  -->
+        <li id="global-translator" class="widgetcontainer clearfix"><h5 class="widgettitle">Translator</h5>
+<!--FLAG_BAR_BEGIN--><div id="translation_bar"><map id="gltr_flags_map" name="gltr_flags_map"><area shape='rect' coords='0,0,16,11' href='http://cams21.de/' id='flag_de'   title='German'/><area shape='rect' coords='20,0,36,11' href='http://cams21.de/it/' id='flag_it'   title='Italian'/><area shape='rect' coords='40,0,56,11' href='http://cams21.de/ko/' id='flag_ko'   title='Korean'/><area shape='rect' coords='60,0,76,11' href='http://cams21.de/zh-CN/' id='flag_zh-CN'   title='Chinese (Simplified)'/><area shape='rect' coords='80,0,96,11' href='http://cams21.de/en/' id='flag_en'   title='English'/><area shape='rect' coords='100,0,116,11' href='http://cams21.de/fr/' id='flag_fr'   title='French'/><area shape='rect' coords='120,0,136,11' href='http://cams21.de/es/' id='flag_es'   title='Spanish'/><area shape='rect' coords='140,0,156,11' href='http://cams21.de/ar/' id='flag_ar'   title='Arabic'/><area shape='rect' coords='160,0,176,11' href='http://cams21.de/tr/' id='flag_tr'   title='Turkish'/></map><img style='border:0px;' src='http://cams21.de/wp-content/plugins/global-translator/gltr_image_map.png' usemap='#gltr_flags_map'/></div><div id="transl_sign"></div><!--FLAG_BAR_END-->
+</li><li id="twitter-1" class="widgetcontainer clearfix"><h5 class="widgettitle"><a href="http://twitter.com/cams21aktuell" class="twitter_title_link">aktuelle meldungen</a></h5><div id="twitwrapper"><ul class="twitter"><li class="twitter-item"> Hamburg, 2.6.2012: mehr als 10.000 Menschen demonstrieren gegen Neonazi-Aufmarsch und für Toleranz - cams21 berichtet live.  <span class="twitter-timestamp"><br /><abbr title="2012/06/02 09:47:53">02.06.2012</abbr></span></li><li class="twitter-item"> 16.- 19. Mai BLOCKUPY FRANKFURT
+Sonderseite mit gesammelten Livestreams hier unter <a href="http://t.co/4n0T6SxI" class="twitter-link">http://t.co/4n0T6SxI</a>  <span class="twitter-timestamp"><br /><abbr title="2012/05/16 14:10:20">16.05.2012</abbr></span></li><li class="twitter-item"> 10.05.12 ab 17:30 Uhr, Liveübertragung Gemeinderatssitzung Stuttgart Rathaus mit Hannes Rockenbauch  <span class="twitter-timestamp"><br /><abbr title="2012/05/10 15:11:31">10.05.2012</abbr></span></li></ul><div class="designed" style="font-size:9px; text-align: center;"></div></div></li><li id="widget_sp_image-3" class="widgetcontainer clearfix"><h5 class="widgettitle">alle cams</h5><a class="widget_sp_image-image-link" href="http://cams21.de/alle-cams/" target="_self"><img src="http://cams21.de/wp-content/uploads/2012/03/allecams4.jpg" style="max-width: 190px;max-height: 119px;" class="alignleft" alt="alle cams" /></a></li><li id="youtubesidebarwidget-4" class="widgetcontainer clearfix"><h5 class="widgettitle">cams21 auf youtube</h5><div id='youtube-sidebar-widget' data-url='http://gdata.youtube.com/feeds/api/playlists/8770EAC9F35353BC?v=2&key=AI39si4egIgiaFaxxolUNjk1Iw4ip4GHWJMt44ZpnWXidiFLjlX1_kSwUYUI-bhtK9oW3bvZ7CFe7syG__AtokRmrTMDYHdXvA'>
+<ul>
+<li id='YxG-ciLV4nY'><img src='http://i2.ytimg.com/vi/YxG-ciLV4nY/0.jpg' alt='Zu Besuch bei "Don Giovanni" -- Regie Waltraud Lehner -- Wilhelma Theater' desc='Zu Besuch bei "Don Giovanni" -- Regie Waltraud Lehner -- Wilhelma Theater' style='width:166px;' /><div class='play_arrow' style='width:166px; height: 124.5px; margin-top: -124.5px;'></div>
+<a href='' style='width: 166px;'>Zu Besuch bei "Don Giovanni" -- Regie Waltraud Lehner -- Wilhelma Theater</a><li id='FCZUJbmNcH0'><img src='http://i2.ytimg.com/vi/FCZUJbmNcH0/0.jpg' alt='Helfen ist so einfach: www.helfen-kostet-nix.de' desc='Helfen ist so einfach: www.helfen-kostet-nix.de' style='width:166px;' /><div class='play_arrow' style='width:166px; height: 124.5px; margin-top: -124.5px;'></div>
+<a href='' style='width: 166px;'>Helfen ist so einfach: www.helfen-kostet-nix.de</a><li id='_4MbJRTpjJE'><img src='http://i2.ytimg.com/vi/_4MbJRTpjJE/0.jpg' alt='Hannes Rockenbauch kandidiert als OB' desc='Hannes Rockenbauch kandidiert als OB' style='width:166px;' /><div class='play_arrow' style='width:166px; height: 124.5px; margin-top: -124.5px;'></div>
+<a href='' style='width: 166px;'>Hannes Rockenbauch kandidiert als OB</a></ul>
+</div>
+</li><li id="text-12" class="widgetcontainer clearfix">			<div class="textwidget"><a href="http://www.youtube.com/user/Cams21Kanal" target="blank"><b>>> zum cams21kanal auf youtube </b></a></div>
+		</li><li id="text-18" class="widgetcontainer clearfix"><h5 class="widgettitle">cams21 powered by</h5>			<div class="textwidget"><a href="http://bambuser.com" target="_blank">
+<img src="http://cams21.de/wp-content/uploads/2012/04/logotype_bambuser_200.jpg" alt="Bambuser" >
+</a> 
+</div>
+		</li><div><h6>Eintragen um bei neuen Beiträgen eine Email zu erhalten!</h6><div><form method="post" action="http://cams21.de/blog/"><input type="hidden" name="ip" value="95.208.43.194" /><p><label for="s2email">Your email:</label><br /><input type="text" name="email" id="s2email" value="Enter email address..." size="20" onfocus="if (this.value == 'Enter email address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email address...';}" /></p><p><input type="submit" name="subscribe" value="Subscribe" />&nbsp;<input type="submit" name="unsubscribe" value="Unsubscribe" /></p></form>
+</div></div><li id="meta-3" class="widgetcontainer clearfix"><h5 class="widgettitle">login</h5>			<ul>
+						<li><a href="http://cams21.de/wp-login.php">Anmelden</a></li>
+			<li><a href="http://cams21.de/feed/" title="Abonniere diese Website mit RSS 2.0">Artikel-Feed (<abbr title="Really Simple Syndication">RSS</abbr>)</a></li>
+			<li><a href="http://cams21.de/comments/feed/" title="Die neuesten Kommentare zu allen Beiträgen als RSS">Kommentare als <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</li>    </ul>
+	  
+</div><!-- #secondary -->
+	</div><!-- #main -->
+	
+	    
+    <div id="footer">
+		<div class="footer-sidebar-container clearfix">
+							<ul id="footer-sidebar-1" class="footer-sidebar clearfix xoxo">
+					<li id="text-11" class="widgetcontainer clearfix">			<div class="textwidget"><span style="text-decoration: none;"><strong><a title="impressum" href="http://cams21.de/?page_id=1202">impressum</a></strong></span></div>
+		</li>				</ul>
+							<ul id="footer-sidebar-2" class="footer-sidebar clearfix xoxo">
+										<li></li>
+									</ul>
+							<ul id="footer-sidebar-3" class="footer-sidebar clearfix xoxo">
+										<li></li>
+									</ul>
+					</div>
+		
+		<div class="footer-message">
+		<p class="floatright"><a class="arras" href="http://www.arrastheme.com/"><strong>About Arras WordPress Theme</strong></a></p>
+		<p>Copyright 2012 by cams21. All Rights Reserved.</p>		
+		</div><!-- .footer-message -->
+    </div>
+</div><!-- #wrapper -->
+
+<script type="text/javascript"><!--
+wpa2a.targets=[
+{title:'',url:'http://cams21.de/'}];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+
+        <div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '$com', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+     <div id="fb-root"></div>
+     <script type="text/javascript">
+      window.fbAsyncInit = function() {
+	FB.init({
+	 appId  : '254577506873',
+	  status : true, // check login status
+	  cookie : true, // enable cookies to allow the server to access the session
+	  xfbml  : true,  // parse XFBML
+	  oauth:true
+	});
+      };
+
+      (function() {
+	var e = document.createElement('script');e.src = document.location.protocol + '//connect.facebook.net/de_DE/all.js';	e.async = true;
+	document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+<!-- Wordbooker code revision : 2.1.12 R00 - My Recovery Injection -->
+<script type='text/javascript' src='http://cams21.de/wp-content/plugins/youtube-sidebar-widget/script.js'></script>	<script type="text/javascript">
+	jQuery(document).ready( function($) {
+				$('#featured-slideshow').cycle({
+			fx: 'fade',
+			speed: 250,
+			next: '#controls .next',
+			prev: '#controls .prev',
+			timeout: 6000,
+			pause: 1,
+			slideExpr: '.featured-slideshow-inner',
+			height: '300px'
+		});
+			} );
+	</script>
+	<script type='text/javascript' src='http://cams21.de/wp-includes/js/hoverIntent.js?ver=20090102'></script>
+<script type='text/javascript' src='http://cams21.de/wp-content/themes/arras/js/jquery.cycle.min.js'></script>
+
+</body>
+
+</html>
+   
+<!-- Dynamic page generated in 0.885 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-06-06 19:52:33 -->
+<!-- Compression = gzip -->

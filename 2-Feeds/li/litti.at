@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>Litti</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="site.css">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="FP_preloadImgs(/*url*/'button27.jpg', /*url*/'button26.jpg', /*url*/'buttonC.jpg', /*url*/'buttonB.jpg', /*url*/'button15.jpg', /*url*/'button14.jpg', /*url*/'button34.jpg', /*url*/'button35.jpg', /*url*/'buttonB2.jpg', /*url*/'buttonC2.jpg', /*url*/'buttonC3.jpg', /*url*/'buttonD3.jpg', /*url*/'buttonF3.jpg', /*url*/'button47.jpg', /*url*/'button51.jpg', /*url*/'button52.jpg')">
+<!-- ImageReady Slices (template_03.psd) -->
+<table width="780" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#4D4D4D">
+  <tr>
+    <td><table width="780" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="16"></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>&nbsp;</td>
+            <td width="720" align="center"><table width="720" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td background="h_bg.jpg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="81">
+					<img src="h_1.jpg" width="81" height="169" alt=""></td>
+                    <td valign="top" background="h_bg.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="54">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td><span class="style8">Litti's Homepage</span></td>
+                      </tr>
+                      <tr>
+                        <td><span class="style9">&nbsp;Reisen, Podcast and more</span></td>
+                      </tr>
+                    </table></td>
+                    <td width="368" align="right">
+					<img border="0" src="Sonnenunteragang_HP.jpg" width="352" height="116"></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><img src="box_top.jpg" width="720" height="12" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td background="box_bg.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="193" align="center" valign="top">
+						<table width="169"  border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="25">
+							<a href="Der_Sonne_entgegen.htm">
+							<img border="0" id="img10" src="buttonB3.jpg" height="20" width="190" alt="Podcast  &quot;Der Sonne entgegen&quot;" onmouseover="FP_swapImg(1,0,/*id*/'img10',/*url*/'buttonC3.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img10',/*url*/'buttonB3.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img10',/*url*/'buttonD3.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img10',/*url*/'buttonC3.jpg')" fp-style="fp-btn: Glass Rectangle 4; fp-proportional: 0" fp-title="Podcast  &quot;Der Sonne entgegen&quot;"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="24">
+							<a href="Podcast_Info.htm">
+								<img border="0" id="img5" src="button25.jpg" height="20" width="190" alt="Thema Podcast - so geht's" fp-style="fp-btn: Glass Rectangle 4; fp-proportional: 0; fp-orig: 0" fp-title="Thema Podcast - so geht's" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button26.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button25.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button27.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button26.jpg')"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="24">
+							<a href="http://podcast.bboard.de">
+												<img border="0" id="img1" src="buttonA.jpg" height="20" width="190" alt="Podcast Forum" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonB.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonA.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'buttonC.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'buttonB.jpg')" fp-style="fp-btn: Glass Rectangle 4; fp-proportional: 0; fp-orig: 0" fp-title="Podcast Forum"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="25">
+									<a href="Triathlon_Sport.htm">
+									<img border="0" id="img7" src="button36.jpg" height="20" width="190" alt="Triathlon / Sport" onmouseover="FP_swapImg(1,0,/*id*/'img7',/*url*/'button34.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img7',/*url*/'button36.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img7',/*url*/'button35.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img7',/*url*/'button34.jpg')" fp-style="fp-btn: Glass Rectangle 1; fp-proportional: 0" fp-title="Triathlon / Sport"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="24">
+								<a href="Segeln_Tauchen.htm">
+								<img border="0" id="img8" src="buttonA1.jpg" height="20" width="190" alt="Segeln / Tauchen" onmouseover="FP_swapImg(1,0,/*id*/'img8',/*url*/'buttonB2.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img8',/*url*/'buttonA1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img8',/*url*/'buttonC2.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img8',/*url*/'buttonB2.jpg')" fp-style="fp-btn: Glass Rectangle 2; fp-proportional: 0" fp-title="Segeln / Tauchen"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="26">
+							<a href="Links.htm">
+							<img border="0" id="img11" src="buttonE3.jpg" height="20" width="190" alt="Links &amp; Infoseiten" onmouseover="FP_swapImg(1,0,/*id*/'img11',/*url*/'buttonF3.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img11',/*url*/'buttonE3.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img11',/*url*/'button47.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img11',/*url*/'buttonF3.jpg')" fp-style="fp-btn: Glass Rectangle 3; fp-proportional: 0" fp-title="Links &amp; Infoseiten"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="25">
+									<a href="mailto:podcast@litti.at">
+									<img border="0" id="img4" src="button13.jpg" height="20" width="190" alt="Kontakt Litti" fp-style="fp-btn: Glass Rectangle 5; fp-proportional: 0; fp-orig: 0" fp-title="Kontakt Litti" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button14.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button13.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button15.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button14.jpg')"></a></td>
+                          </tr>
+                          <tr>
+                            <td height="44"><script></script>
+									<p align="center">
+								<img border="0" id="img12" src="button53.jpg" height="20" width="100" alt="Latest News" onmouseover="FP_swapImg(1,0,/*id*/'img12',/*url*/'button51.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img12',/*url*/'button53.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img12',/*url*/'button52.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img12',/*url*/'button51.jpg')" fp-style="fp-btn: Jewel 4" fp-title="Latest News"></td>
+                          </tr>
+                          <tr>
+                            <td height="48">
+							<p align="center">
+						<span class="style3">
+						<span style="background-color: #FFFF00">
+						<font size="2" color="#DD2D00"><b>
+						<font color="#DD2D00"><a href="Zeitfahrtabelle.htm"><u>
+						<font color="#DD2D00">Zeifahrtabelle Donauinsel</font></u></a></font></b></font></span></span></td>
+                          </tr>
+                          <tr>
+                            <td height="94">
+								<p align="center" style="margin-bottom: -12px">
+								<span class="style3">
+								<font color="#FFFF00"><b>Podcast Abo</b></font></span><p align="center" style="margin-bottom: -12px">
+								<a href="itpc://litti.podspot.de/rss+all">
+								<img border="0" src="itunes.gif" width="100" height="28"></a></td>
+                          </tr>
+                        </table>
+								<p align="center" style="margin-bottom: -12px"><b><span class="style3">
+								<font color="#FFFF00">Download der aktuellen 
+								</font></span></b></p>
+						<p align="center" style="margin-bottom: -12px">
+						<b><span class="style3">
+								<font color="#FFFF00">Episode 077</font></span></b></p>
+						<p align="center" style="margin-bottom: -12px">
+						<span class="style3"><font color="#FFFF00" size="2"><b>
+						&quot;Litti in Kolumbien Teil1&quot;</b></font></span></p>
+						<p align="center" style="margin-bottom: -12px">
+						<span class="style3"><font size="1"><b>(Klick auf's 
+						Bild)</b></font></span></p>
+						<p align="center" style="margin-bottom: -12px">
+						<a href="http://litti.podspot.de/files/Episode_077%20-%20Litti%20in%20Kolumbien%20Teil%201.mp3">
+						<img border="0" src="Litti_podcast_logo.jpg" width="83" height="78"></a><a href="http://litti.podspot.de/files/Episode_014%20-%20Kaputte%20Batterien%20und%20Reifen.mp3">&nbsp;&nbsp;
+						</a>
+						</p>
+						</td>
+                        <td align="center" valign="top"><table width="92%"  border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td height="35">
+							<p align="center"><span class="style5">
+							<font color="#FFFF00" style="font-size: 15pt">Willkommen auf 
+							Litti's Homepage</font></span></td>
+                          </tr>
+                          <tr>
+                            <td>
+							<div align="justify"><div align="justify">
+								<p class="MsoNormal" align="center"><b>
+								<span lang="DE-AT">
+								<font face="Verdana" style="font-size: 11pt" color="#F9FFD1">
+								Was erwa</font><font face="Verdana" color="#FFFFFF" style="font-size: 11pt">rtet 
+								euch hier?</font></span></b></p>
+								<p class="MsoNormal" align="center">
+								<font face="Verdana" color="#FFFFFF" style="font-size: 9pt">
+								<span lang="DE-AT">Unter <b><u>
+								<a href="Der_Sonne_entgegen.htm">
+								<u>Podcast &#8222;Der Sonne entgegen&#8220;</u></a></u></b> 
+								könnt ihr euch immer akustisch auf&nbsp; den 
+								neuesten Stand unseres &quot;Stellvertretendem 
+								Weltreisendem Franz&quot; bringen, indem ihr euch den 
+								Podcast anhört und sogar abonniert.</span></font></p>
+								<p class="MsoNormal" align="center">
+								<font face="Verdana" color="#FFFFFF" style="font-size: 9pt">
+								<span lang="DE-AT">Wenn ihr wissen wollt wie 
+								dies funktioniert, dann klickt euch einfach bei
+								<b><u>
+								<a href="Podcast_Info.htm">
+								<u>Thema Podcast &#8211; so geht´s</u></a></u></b> 
+								rein. Lauter nützliche Tipps für 
+								Podcasteinsteiger.</span></font></p>
+								<p class="MsoNormal" align="center">
+								<span lang="DE-AT">
+								<font face="Verdana" color="#FFFFFF" style="font-size: 9pt">
+								Etwas mehr über meine Hobbies und Interessen 
+								und zusätzlich einige nützliche Checklisten findet ihr unter </font>
+								<font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#FFFFFF">
+								<u>
+								<a href="Triathlon_Sport.htm"><u>Triathlon/Sport</u></a></a></u></font><font face="Verdana" color="#FFFFFF" style="font-size: 9pt"> 
+								und <b><u>
+								<a href="Segeln_Tauchen.htm">
+								<u>Segeln/Tauchen</u></a></u></b>.</font></span></p>
+								<p class="MsoNormal" align="center">
+								<span lang="DE-AT">
+								<font face="Verdana" color="#FFFFFF" style="font-size: 9pt">
+								Wenn eure Neugier noch nicht 
+								ganz gestillt ist, könnt ihr euch noch meine
+								</font>
+								<font face="Verdana" style="font-size: 9pt; font-weight: 700" color="#FFFF00">
+								<u>
+								<a href="Links.htm"><u>Links &amp; Infoseiten</u></a></a></u></font><font face="Verdana" color="#FFFFFF" style="font-size: 9pt"> 
+								anschauen.</font></span></p>
+								<p class="MsoNormal" align="center">
+								<font face="Verdana" color="#FFFFFF" style="font-size: 9pt">
+								<span lang="DE-AT">Wer direkt mit mir in Kontakt 
+								treten will, warum auch immer, kann dies unter
+								<b><u><a href="mailto:podcast@litti.at"><u>
+								Kontakt Litti</u></a></u></b> tun.</span></font><p class="MsoNormal" align="center">
+								&nbsp;</div>
+							<div align="justify">
+      <br>
+      							<span class="style1">In eigener Sache:</span></div>
+								<div align="justify">
+      <br>
+      							<span class="style3">Alle vorkommenden Personen 
+								und Handlungen auf dieser Homepage sind nicht 
+								frei erfunden sondern real. Aus diesem Grund 
+								kann eine Nachahmung nur ausdrücklich empfohlen 
+								werden. Dies natürlich auf eigene Rechnung und 
+								Gefahr. </span>
+                            </div>
+							<div align="justify">&nbsp;</div>
+							</div>
+  <br></td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>
+					<img src="box_bottom.jpg" width="720" height="12" alt=""></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="30" align="center">
+		<blockquote>
+			<span class="style7">Letzte Änderung: Sa 10.Jän.2009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copyright &copy; 2009 
+		Litti. All rights reserved.&nbsp; </span><!-- Begin webstats4U code -->
+<!-- Title: Litti's Homepage -->
+<!-- URL: http://www.litti.at/ -->
+<script language="JavaScript" type="text/javascript" src="http://m1.webstats4u.com/m.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+  webstats4u("AD5lhAVQNkEckGOdPpPBi1lr/wXw", 0);
+// -->
+</script>
+			<noscript><a target="_blank" href="http://www.webstats4u.com/stats?AD5lhAVQNkEckGOdPpPBi1lr/wXw">
+<img src="http://m1.webstats4u.com/n?id=AD5lhAVQNkEckGOdPpPBi1lr/wXw" border="0" width="18" height="18" alt="Webstats4U - Kostenlose web site statistiken Persönliche Homepage webseite Zähler">
+</a><br>
+			</noscript>
+<!-- End webstats4U code -->
+		</blockquote>
+</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- End ImageReady Slices -->
+</body>
+</html>

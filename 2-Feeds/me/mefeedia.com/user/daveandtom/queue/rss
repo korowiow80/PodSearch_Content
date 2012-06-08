@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>404 - page not found</title>
+	<meta name="description" content="MeFeedia 404 Page" />
+	<link rel="shortcut icon" href="http://www.mefeedia.com/favicon.ico" type="image/x-icon" />
+
+	<!--<link rel="stylesheet" type="text/css" media="screen" href="/m.1.0.8-min.css" />-->
+	<link rel="stylesheet" href="/apps/colorbox.css" type="text/css" media="screen" />
+	<style type="text/css">
+		* { margin: 0; padding: 0; }		
+		.empty_page {
+		background: url("/images/bg404.jpg") repeat-x #6a9be4;
+		}
+
+		.empty_page-in {
+		width: 485px; 
+		padding: 376px 41px 0 484px;
+		margin: 0 auto;
+		background: url("/images/bg4042.png") 0 75px no-repeat;
+		height: 164px;
+		font-weight: bold;
+		font-family: "Myriad Pro";
+		font-size: 16pt;
+		color: #fff;
+		text-align: left;
+		}
+
+		.empty_page-in p {
+		padding: 0 0 15px 0;
+		}
+
+		.empty_page a { 
+		color: #f96;
+		text-decoration: none;
+		border-bottom: 1px dashed #f96;
+		}
+
+		.empty_page a:hover { 
+		border-bottom: none;
+		}
+
+		.empty_page .blue-link { 
+		color: #6cf;
+		border-bottom: 1px dashed #6cf;
+		}
+	</style>
+
+</head>
+<body class="empty_page">
+	<div class="empty_page-in">
+		<p>Head back down to <a href="/">Earth</a> or <a href="/treytitone/adds" class="blue-link">view some or our favs.</a></p>
+	</div>
+	<!-- Start of StatCounter Code for Default Guide -->
+	<script type="text/javascript">
+		var sc_project=7763375;
+		var sc_invisible=1;
+		var sc_security="f8f2c767";
+		var sc_https=1;
+		var scJsHost = (("https:" == document.location.protocol) ?
+						"https://secure." : "http://www.");
+						document.write("<sc"+"ript type='text/javascript' src='" +
+						scJsHost +
+						"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript>
+		<div class="statcounter">
+			<a title="godaddy web stats" href="http://statcounter.com/godaddy_website_tonight/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/7763375/0/f8f2c767/1/" alt="godaddy web stats"></a>
+		</div>
+	</noscript>
+	<!-- End of StatCounter Code for Default Guide -->
+</body>
+</html>

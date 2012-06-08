@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+	<link type="text/css" rel="stylesheet" media="screen" src="http://stratus.heroku.com/css/stratus.css"></script>
+
+	<title>Page not found &laquo;  Wichita Recordings</title>
+	<link rel="pingback" href="http://www.wichita-recordings.com/xmlrpc.php" />
+
+	<!-- Blueprint CSS -->
+	<link rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/blueprint/print.css" type="text/css" media="print"> 
+	<!--[if lt IE 8]>
+	  <link rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/blueprint/ie.css" type="text/css" media="screen, projection">
+	<![endif]-->
+	
+	<!-- Theme CSS -->
+	<link rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/style.css" type="text/css" media="screen" />
+	
+	<!-- Feed autodiscovery -->
+	<link rel="alternate" type="application/rss+xml" title="Wichita Recordings RSS Feed" href="http://www.wichita-recordings.com/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="Wichita Recordings Atom Feed" href="http://www.wichita-recordings.com/feed/atom/" />
+
+<!-- scripts -->
+<!--<link type="text/css" rel="stylesheet" href="http://stratus.heroku.com/css/stratus.css"/>-->
+<link type="text/css" rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/stratus_style.css"/>
+<script type="text/javascript" src="http://stratus.heroku.com/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://stratus.heroku.com/js/jquery-ui-1.8.6.custom.min.js"></script>
+<script type="text/javascript" src="http://stratus.heroku.com/js/soundcloud.player.api.js"></script>
+<script type="text/javascript" src="http://stratus.heroku.com/js/stratus.js"></script>
+				
+<script type="text/javascript">
+$j=jQuery.noConflict();
+	$j(document).ready(function(){
+		$j.stratus({
+			color: 'fff',
+			links: [ { url: 'http://soundcloud.com/wichita-recordings' } ],
+			randomize: true
+		});
+	})
+</script>
+
+<script type="text/javascript">
+$new=jQuery.noConflict();
+$new(document).ready(function(){
+
+	$new(".btn-slide").click(function(){
+		$new("#panel").slideToggle("slow");
+		$new(this).toggleClass("active"); return false;
+	});
+	
+	 
+});
+</script>
+<!-- end scripts -->
+
+
+
+    <script type="text/javascript">
+        function RefreshIframe() {
+            var frm = document.getElementById('iframe1');
+            frm.src = frm.src
+            //alert(frm.src);
+            return true;
+        }
+       
+    </script>
+<!--
+    <style type="text/css">
+        a
+        {
+            color: White;
+            text-decoration:none;
+        }
+        a:hover
+        {
+            color: White;
+        }
+    </style>
+-->
+    <style type="text/css">
+        .sideproduct-box1
+        {
+            float: left;
+            height: 210;
+            width: 127px;
+            margin: 20px 21px 0 0;
+            padding: 0px;
+        }
+        .sideproduct-box1 .dwnloadimg1
+        {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            height: auto;
+            width: 125px;
+            text-align: center;
+        }
+        .sideproduct-box1 .sideproduct-text
+        {
+            margin: 0px;
+            float: left;
+            width: 105px;
+            padding: 5px 10px 0 10px;
+        }
+        .sideproduct-text p
+        {
+            font-family: Georgia, "Times New Roman" , Times, serif;
+            font-size: 11px;
+            line-height: 14px;
+            font-weight: normal;
+            color: #040404;
+            text-decoration: none;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+        .sideproduct-text p a
+        {
+            color: #006699;
+        }
+        .sideproduct-box1 .more-btn
+        {
+            margin: 0px;
+            padding: 5px 0 0 0;
+            text-align: center;
+            float: left;
+            width: 125px;
+        }
+iframe {
+	border: 0px;
+	overflow: hidden;
+}
+        
+        .addtocart
+        {
+            background-image: url(http://shop.wichita-recordings.com/images/addtocart.png);
+            height: 16px;
+            width: 74px;
+            text-indent: -9000px;
+            display: block;
+            margin: auto;
+            padding: 0;
+            border: none;
+        }
+        .addtocart:hover
+        {
+            background-image: url(http://shop.wichita-recordings.com/images/addtocart-hover.png);
+            height: 16px;
+            width: 74px;
+            text-indent: -9000px;
+            display: block;
+            margin: auto;
+            padding: 0;
+        }
+        
+        #header
+        {
+        }
+        #header .mid
+        {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            width: 960px;
+        }
+        #header .mid .logo
+        {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            height: 61px;
+            width: 117px;
+        }
+        #header .mid .basket
+        {
+            padding: 6px;
+            float: right;
+            height: 38px;
+            width: 213px;
+            margin-top: 10px;
+            margin-right: 10px;
+            background-color: #FFF;
+        }
+        .basket .top
+        {
+            margin: 0px;
+            padding: 5px 0 0 0;
+            float: left;
+            width: 213px;
+            text-align: left;
+        }
+        .top .baskettext
+        {
+            float: left;
+            width: 100px;
+            font-family: Georgia, "Times New Roman" , Times, serif;
+            font-size: 11px;
+            color: #000;
+            margin-left:7px;
+        }
+        
+        .checkoutnbut
+        {
+            background-image: url(http://shop.wichita-recordings.com/images/checkout.png);
+            height: 16px;
+            width: 63px;
+            text-indent: -9000px;
+            display: block;
+            margin-right:-7px;
+            padding: 0;
+            float: right;
+            text-align: left;
+        }
+        .checkoutnbut:hover
+        {
+            background-image: url(http://shop.wichita-recordings.com/images/checkout-hover.png);
+            height: 16px;
+            width: 63px;
+            text-indent: -9000px;
+            display: block;
+             margin-right:-7px;
+            padding: 0;
+        }
+        .basket .bottom-rt
+        {
+            float: left;
+            height: 16px;
+            width: 86px;
+            border-right-width: 1px;
+            border-right-style: dotted;
+            border-right-color: #000;
+            margin-top: 5px;
+            font-family: Georgia, "Times New Roman" , Times, serif;
+            font-size: 10px;
+            color: #000;
+            text-decoration: none;
+        }
+        .bottom-rt span
+        {
+            padding-left: 40px;
+        }
+        
+        .basket .bottom-lt
+        {
+            margin: 0px;
+            float: left;
+            width: 115px;
+            height: 16px;
+            padding: 5px 0 0 10px;
+            font-family: Georgia, "Times New Roman" , Times, serif;
+            font-size: 10px;
+            color: #000;
+            text-decoration: none;
+        }
+        .bottom-lt span
+        {
+            padding-left: 10px;
+            float: right;
+            text-align: right;
+        }
+    </style>
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.1.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-2565710-6']);
+	_gaq.push(['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+	<!-- Shopp dynamic catalog styles -->
+	<style type="text/css">
+	#shopp ul.products li.product { width: 25%; } /* For grid view */
+	</style>
+	<!-- END Shopp dynamic catalog styles -->
+<link rel='stylesheet' id='shopp.catalog-css'  href='http://www.wichita-recordings.com/wp-content/plugins/shopp/core/ui/styles/catalog.css?ver=1.1.4.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='shopp-css'  href='http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/shopp/shopp.css?ver=1.1.4.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='shopp.colorbox-css'  href='http://www.wichita-recordings.com/wp-content/plugins/shopp/core/ui/styles/colorbox.css?ver=1.1.4.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp_dlmp_styles-css'  href='http://www.wichita-recordings.com/wp-content/plugins/download-monitor/page-addon/styles.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-paginate-css'  href='http://www.wichita-recordings.com/wp-content/plugins/wp-paginate/wp-paginate.css?ver=1.2.3' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.wichita-recordings.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.wichita-recordings.com/wp-content/plugins/gigpress/scripts/gigpress.js?ver=3.0.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wichita-recordings.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.wichita-recordings.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Wichita Recordings' href='http://www.wichita-recordings.com/' />
+<meta name="generator" content="WordPress 3.0.4" />
+
+<!-- Start Of Script Generated By cforms v11.7.1 [Oliver Seidel | www.deliciousdays.com] -->
+<link rel="stylesheet" type="text/css" href="http://www.wichita-recordings.com/wp-content/plugins/cforms/styling/minimal.css" />
+<script type="text/javascript" src="http://www.wichita-recordings.com/wp-content/plugins/cforms/js/cforms.js"></script>
+<!-- End Of Script Generated By cforms -->
+
+<link type="text/css" rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/plugins/gigpress/css/gigpress.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.wichita-recordings.com/wp-content/themes/room-34-baseline/gigpress.css" media="all" />
+<link href="http://www.wichita-recordings.com/?feed=gigpress" rel="alternate" type="application/rss+xml" title="Upcoming shows" />
+		
+<link rel='alternate' type="application/rss+xml" title="Wichita Recordings Catalog Products RSS Feed" href="http://www.wichita-recordings.com/shop/category/catalog/feed/" />
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var pricetags = {};
+/* ]]> */
+</script>
+
+</head>
+<body class="error404">
+
+
+<div id="page" class="container">
+
+<div class="span-24 last">
+<div class="span-24 last" style="background-color:#000; color:#fff; text-align: right;padding-top:3px!important; padding-bottom:5px;">
+<span style="padding-right: 10px;" id="top_nav"><a href="http://www.wichita-recordings.com/about-us">about</a> | <a href="http://www.wichita-recordings.com/contact">contact</a> | <a class="btn-slide" href="http://www.wichita-recordings.com/signup">sign up</a> | <a href="http://www.wichita-recordings.com/faq">faq</a>
+</span>
+<div id="panel" style="margin-top:-30px!important;">
+<!-- sign up stuff -->
+<div class="span-24 last" style="text-align:left!important;" class="signup">
+		<!-- start contact form -->
+<!-- Begin MailChimp Signup Form -->
+<!--[if IE]>
+<style type="text/css" media="screen">
+	#mc_embed_signup fieldset {position: relative;}
+	#mc_embed_signup legend {position: absolute; top: -1em; left: .2em;}
+</style>
+<![endif]--> 
+<!--[if IE 7]>
+<style type="text/css" media="screen">
+	.mc-field-group {overflow:visible;}
+</style>
+<![endif]-->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>-->
+<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.validate.js"></script>
+<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form.js"></script>
+
+<form action="http://wichita-recordings.us1.list-manage.com/subscribe/post?u=34eaaa9f6ebefcafcf8f3f26d&amp;id=3266939b37" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
+<div class="indicate-required" style="text-align: right;font-style: italic;overflow: hidden;color: #000;margin: 0 9% 0 0;">* indicates required</div>
+	
+	<div class="span-8">
+		<div class="span-8 last" style="padding:10px;">
+			<label for="mce-EMAIL" class="sign-up-one">Email Address <strong class="note-required">*</strong></label>
+			<input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+			<label for="mce-FNAME" class="sign-up-one" >First Name </label>
+			<input type="text" value="" name="FNAME" class="" id="mce-FNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+			<label for="mce-LNAME" class="sign-up-one">Last Name </label>
+			<input type="text" value="" name="LNAME" class="" id="mce-LNAME" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+		</div>
+	</div>
+
+	<div class="span-8">
+		<div class="span-8 last" style="padding:10px;">
+			<label for="mce-COUNTRY" class="sign-up-one">Country </label>
+			<input type="text" value="" name="COUNTRY" class="" id="mce-COUNTRY" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+			<label for="mce-MMERGE6" class="sign-up-one">Postcode </label>
+			<input type="text" value="" name="MMERGE6" class="" id="mce-MMERGE6" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
+		</div>
+	</div>
+
+	<div class="span-8 last">
+		<div class="span-8 last" style="padding:10px;">
+		<div style="margin-top:40px!important; padding-left:10px;">Would you like to subscribe to any artist lists?</div>
+			<div class="scroll">
+    <ul style="margin: 0;padding: 0;"><li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="1" name="group[1]" id="mce-group-1-0" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-0" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Best Coast</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="2" name="group[2]" id="mce-group-1-1" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-1" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Bloc Party</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="4" name="group[4]" id="mce-group-1-2" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-2" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Cloud Nothings</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="8" name="group[8]" id="mce-group-1-3" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-3" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Conor Oberst</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="16" name="group[16]" id="mce-group-1-4" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-4" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Espers</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="32" name="group[32]" id="mce-group-1-5" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-5" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Euros Childs</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="64" name="group[64]" id="mce-group-1-6" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-6" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">First Aid Kit</label></li>
+
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="128" name="group[128]" id="mce-group-1-7" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-7" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Greg Weeks</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="256" name="group[256]" id="mce-group-1-8" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-8" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Kele</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="512" name="group[512]" id="mce-group-1-9" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-9" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Les Savy Fav</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="1024" name="group[1024]" id="mce-group-1-10" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-10" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Lissy Trullie</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="2048" name="group[2048]" id="mce-group-1-11" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-11" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Los Campesinos!</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="4096" name="group[4096]" id="mce-group-1-12" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-12" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Lovvers</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="8192" name="group[8192]" id="mce-group-1-13" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-13" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Mariachi El Bronx</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="16384" name="group[16384]" id="mce-group-1-14" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-14" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Meg Baird</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="32768" name="group[32768]" id="mce-group-1-15" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-15" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Peggy Sue</label></li>
+
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="65536" name="group[65536]" id="mce-group-1-16" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-16" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Peter, Bjorn and John</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="131072" name="group[131072]" id="mce-group-1-17" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-17" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Simian Mobile Disco</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="262144" name="group[262144]" id="mce-group-1-18" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-18" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Sky Larkin</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="524288" name="group[524288]" id="mce-group-1-19" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-19" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">The Bronx</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="1048576" name="group[1048576]" id="mce-group-1-20" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-20" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">The Cribs</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="2097152" name="group[2097152]" id="mce-group-1-21" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-21" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">The Dodos</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="4194304" name="group[4194304]" id="mce-group-1-22" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-22" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Those Dancing Days</label></li>
+<li style="list-style: none;overflow: hidden;padding: .2em 0;clear: left;display: block;margin: 0;"><input type="checkbox" value="8388608" name="group[8388608]" id="mce-group-1-23" style="margin-right: 2%;padding: .2em .3em;width: auto;float: left;z-index: 999;"><label for="mce-group-1-23" style="display: block;margin: .4em 0 0 0;line-height: 1em;font-weight: bold;width: auto;float: left;text-align: left;">Veronica Falls</label></li>
+</ul>
+
+    </div>
+		</div>
+	</div>
+
+
+	</div>
+
+	<div class="span-24 last" style="padding-bottom:20px!important;">
+		<div style="padding:10px;">
+		<!-- button -->
+			<div id="mce-responses">
+				<div class="response" id="mce-error-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em .5em;float: left;top: -1.5em;z-index: 1;width: 80%;background: 000;color: #ff0000;"></div>
+				<div class="response" id="mce-success-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em .5em;float: left;top: -1.5em;z-index: 1;width: 80%;background: #000;color: #fff;"></div>
+			</div>
+			<div style="border-top:1px dotted #fff; padding-top:10px;"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="clear: both;width: auto;display: block; float:right;"></div>
+				<a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a>
+			</div>
+		<!-- submit button -->
+		</div>
+	</div>
+	
+</form>
+</div>
+<script type="text/javascript">
+var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='COUNTRY';ftypes[3]='text';fnames[6]='MMERGE6';ftypes[6]='text';var err_style = '';
+try{
+    err_style = mc_custom_error_style;
+} catch(e){
+    err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: FFEEEE none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: FF0000;';
+}
+var mce_jQuery = jQuery.noConflict();
+mce_jQuery(document).ready( function($) {
+  var options = { errorClass: 'mce_inline_error', errorElement: 'div', errorStyle: err_style, onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}};
+  var mce_validator = mce_jQuery("#mc-embedded-subscribe-form").validate(options);
+  options = { url: 'http://wichita-recordings.us1.list-manage1.com/subscribe/post-json?u=34eaaa9f6ebefcafcf8f3f26d&id=3266939b37&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                beforeSubmit: function(){
+                    mce_jQuery('#mce_tmp_error_msg').remove();
+                    mce_jQuery('.datefield','#mc_embed_signup').each(
+                        function(){
+                            var txt = 'filled';
+                            var fields = new Array();
+                            var i = 0;
+                            mce_jQuery(':text', this).each(
+                                function(){
+                                    fields[i] = this;
+                                    i++;
+                                });
+                            mce_jQuery(':hidden', this).each(
+                                function(){
+                                	if ( fields[0].value=='MM' && fields[1].value=='DD' && fields[2].value=='YYYY' ){
+                                		this.value = '';
+									} else if ( fields[0].value=='' && fields[1].value=='' && fields[2].value=='' ){
+                                		this.value = '';
+									} else {
+	                                    this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+	                                }
+                                });
+                        });
+                    return mce_validator.form();
+                }, 
+                success: mce_success_cb
+            };
+  mce_jQuery('#mc-embedded-subscribe-form').ajaxForm(options);
+
+});
+function mce_success_cb(resp){
+    mce_jQuery('#mce-success-response').hide();
+    mce_jQuery('#mce-error-response').hide();
+    if (resp.result=="success"){
+        mce_jQuery('#mce-'+resp.result+'-response').show();
+        mce_jQuery('#mce-'+resp.result+'-response').html(resp.msg);
+        mce_jQuery('#mc-embedded-subscribe-form').each(function(){this.reset();});
+    } else {
+        var index = -1;
+        var msg;
+        try {
+            var parts = resp.msg.split(' - ',2);
+            if (parts[1]==undefined){
+                msg = resp.msg;
+            } else {
+                i = parseInt(parts[0]);
+                if (i.toString() == parts[0]){
+                    index = parts[0];
+                    msg = parts[1];
+                } else {
+                    index = -1;
+                    msg = resp.msg;
+                }
+            }
+        } catch(e){
+            index = -1;
+            msg = resp.msg;
+        }
+        try{
+            if (index== -1){
+                mce_jQuery('#mce-'+resp.result+'-response').show();
+                mce_jQuery('#mce-'+resp.result+'-response').html(msg);            
+            } else {
+                err_id = 'mce_tmp_error_msg';
+                html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+                
+                var input_id = '#mc_embed_signup';
+                var f = mce_jQuery(input_id);
+                if (ftypes[index]=='address'){
+                    input_id = '#mce-'+fnames[index]+'-addr1';
+                    f = mce_jQuery(input_id).parent().parent().get(0);
+                } else if (ftypes[index]=='date'){
+                    input_id = '#mce-'+fnames[index]+'-month';
+                    f = mce_jQuery(input_id).parent().parent().get(0);
+                } else {
+                    input_id = '#mce-'+fnames[index];
+                    f = mce_jQuery().parent(input_id).get(0);
+                }
+                if (f){
+                    mce_jQuery(f).append(html);
+                    mce_jQuery(input_id).focus();
+                } else {
+                    mce_jQuery('#mce-'+resp.result+'-response').show();
+                    mce_jQuery('#mce-'+resp.result+'-response').html(msg);
+                }
+            }
+        } catch(e){
+            mce_jQuery('#mce-'+resp.result+'-response').show();
+            mce_jQuery('#mce-'+resp.result+'-response').html(msg);
+        }
+    }
+}
+</script>
+<!--End mc_embed_signup
+</div>
+</div>-->
+
+
+
+<div class="span-24 last">
+<div class="span-18">
+<img src="http://www.wichita-recordings.com/wp-content/uploads/2010/12/wichita_header.png">
+</div>
+<div class="span-6 last" style="text-align:right; padding-top:10px; height: 56px; overflow: hidden;">
+<div class="span-6 last" style="background-color:#fff;">
+<div style="padding-right: 5px;">
+
+
+<div class="basket" style="float: left;">
+    <div class="top">
+        <div class="baskettext">
+            BASKET</div>
+        <a href="http://shop.wichita-recordings.com/Checkout.aspx" class="checkoutnbut">CHECKOUT</a></div>
+    <iframe id="iframe1" style="border:0px;" src="http://shop.wichita-recordings.com/Iframe/Cart.aspx">
+    </iframe>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="span-24 last" style="color:#fff; padding-top:10px; margin-bottom:20px;">
+<span class="twitter_row">Latest Tweet:  RT <a href="http://twitter.com/peakinglights" class="twitter-user">@peakinglights</a>: RT <a href="http://twitter.com/chrisroberts72" class="twitter-user">@chrisroberts72</a>: <a href="http://twitter.com/peakinglights" class="twitter-user">@peakinglights</a> shaking the foundations of XOYO <a href="http://twitter.com/#search?q=dubwiser" class="twitter-link">#dubwiser</a> <a href="http://twitter.com/#search?q=bass" class="twitter-link">#bass</a>  <a href="http://t.co/uhA88u8x" class="twitter-link">http://t.co/uhA88u8x</a> <a href="http://twitter.com/wichitarecs/statuses/210538086747213825" class="twitter-link">#</a> <span class="twitter-timestamp"><abbr title="2012/06/07 01:06:06">3 mins ago</abbr></span></span>
+</div>
+<div class="span-24 last" style="background-color:#000; color:#fff;padding-top:5px!important; padding-bottom:3px; margin-bottom:10px; border-bottom:1px solid #00ccff;">
+<div id="nav" class="span-16">
+<ul>
+<li><a href="http://www.wichita-recordings.com">HOME</a></li>
+<li><a href="http://www.wichita-recordings.com/section/news">NEWS</a></li>
+<li><a href="http://shop.wichita-recordings.com/">SHOP</a></li>
+<li><a href="http://www.wichita-recordings.com/artists">ARTISTS</a></li>
+<!--<li><a href="http://www.wichita-recordings.com/releases">RELEASES</a></li>-->
+<li><a href="http://www.wichita-recordings.com/live-dates">LIVE</a></li>
+<li><a href="http://www.wichita-recordings.com/section/blog">BLOG</a></li> 
+<li><a href="http://www.wichita-recordings.com/management">MANAGEMENT</a></li>
+</ul>
+</div>
+<div class="span-8 last" style="text-align:right;"><div class="searchform" style="margin-top:0px!important; margin-bottom:0px!important; padding-right: 5px;">
+<form method="get" id="searchform" action="http://www.wichita-recordings.com/">
+<input type="text" class="inputbox" value="" name="s" id="s" />
+<button class="btn" title="submit search" id="searchsubmit" value="Search" />Search</button>
+</form></div>
+</div>
+</div>
+
+
+	<div id="content" role="main" class="span-17 colborder">
+
+		<h1>Error 404: File Not Found</h1>
+
+	</div>
+
+	<div class="span-8 last">
+	
+        <div style="float: left; width: 310px;">
+            <div style="background-color: #000000; color: #FFFFFF; font-family: Georgia; font-size: 18px;
+                font-weight: normal; height:25px; margin: 0; padding: 5px 0 0 10px; text-decoration: none; text-align:left;">
+                
+                    SALE & DISCOUNT
+            </div>
+            <div style="width: 310px; float: left;">
+                <iframe id="iframe3" src="http://shop.wichita-recordings.com/Iframe/DiscountReleases.aspx"
+                    style="width: 310px; height: 500px; background-color: #FFFFFF; float: left;"
+                    onload="javascript:RefreshIframe();"></iframe>
+            </div>
+            <div style="width: 300px; height: 19px; float: left; background-color: #000000; color: #ffffff;
+                text-align: left; padding: 5px 0 0 10px; font-size: 14px;">
+                <a style="text-align:left" href="http://shop.wichita-recordings.com">VISIT THE SHOP >></a>
+            </div>
+        </div>
+        
+        <br style="clear: both;">
+        <br style="clear: both;">
+
+        <div style="float: left; width: 310px;">
+            <div style="background-color: #000000; color: #FFFFFF; font-family: Georgia; font-size: 18px;
+                font-weight: normal; height:25px; margin: 0; padding: 5px 0 0 10px; text-decoration: none; text-align:left;">
+LATEST RELEASE
+            </div>
+            <div style="width: 310px; float: left;">
+                <iframe id="iframe2" src="http://shop.wichita-recordings.com/Iframe/Default.aspx" style="width: 310px;
+                    height: 500px; background-color: #FFFFFF; float: left;" onload="javascript:RefreshIframe();">
+                </iframe>
+            </div>
+            <div style="width: 300px; height: 19px; float: left; background-color: #000000; color: #ffffff;
+                text-align: left;padding: 5px 0 0 10px; font-size: 14px;">
+                <a style="text-align:left" href="http://shop.wichita-recordings.com">VISIT THE SHOP >></a>
+            </div>
+        </div>
+        
+        <br style="clear: both;">
+        <br style="clear: both;">
+
+
+        <div style="float: left; width: 310px;">
+            <div style="background-color: #000000; color: #FFFFFF; font-family: Georgia; font-size: 18px;
+                font-weight: normal; height:25px; margin: 0; padding: 5px 0 0 10px; text-decoration: none; text-align:left;">
+             
+                    PRE-ORDER
+            </div>
+            <div style="width: 310px; float: left;">
+                <iframe id="iframe6" src="http://shop.wichita-recordings.com/Iframe/PreOrderRelease.aspx"
+                    style="width: 310px; height: 500px; background-color: #FFFFFF; float: left;"
+                    onload="javascript:RefreshIframe();"></iframe>
+            </div>
+            <div style="width: 300px; height: 19px; float: left; background-color: #000000; color: #ffffff;
+                text-align: left;padding: 5px 0 0 10px; font-size: 14px;">
+                <a style="text-align:left" href="http://shop.wichita-recordings.com">VISIT THE SHOP >></a>
+            </div>
+        </div>
+
+
+<!-- shop search widget -->
+<!-- end shop search widget -->
+
+<!--
+	<div class="span-8 last" style="background-color:#fff; margin-top:20px;">
+		<img src="http://www.wichita-recordings.com/wp-content/uploads/2010/12/out_now.jpg">
+		
+
+	
+		<div id="secondary" class="widget-area" role="complementary" style="margin-bottom:-10px!important;">
+			<ul class="xoxo" >
+				<li id="shoppproductwidget-3" class="widget widget_shoppproductwidget"><h2 class="widgettitle">Latest</h2>	<div class="sideproduct">
+	<a href="http://www.wichita-recordings.com/shop/simian-mobile-disco-gizzard-12/"><img src="http://www.wichita-recordings.com/shop/images/7370/?125,125,-313582386" alt="original" width="125" height="125"  /></a>
+
+	<h3>Simian Mobile Disco<br><a href="http://www.wichita-recordings.com/shop/simian-mobile-disco-gizzard-12/">Simian Mobile Disco - Gizzard (12")</a></h3>
+
+			<p class="price"><big>£5.49</big></p>
+		<form action="http://www.wichita-recordings.com/shop/cart/" method="post" class="shopp product validate">
+		<input type="hidden" name="products[454][product]" value="454" /><input type="hidden" name="products[454][price]" value="593" /><input type="hidden" name="products[454][category]" value="music" /><input type="hidden" name="cart" value="add" /><input type="hidden" name="ajax" value="true" /><input type="button" name="addtocart"  value="Add to Cart" class="addtocart ajax-html" /></p>
+		</form>
+		</div>
+
+	<div class="sideproduct">
+	<a href="http://www.wichita-recordings.com/shop/daydreams-nightmares-limited-edition-lp-on-black-vinyl/"><img src="http://www.wichita-recordings.com/shop/images/7355/?125,125,-1557296708" alt="original" width="125" height="125"  /></a>
+
+	<h3>Those Dancing Days<br><a href="http://www.wichita-recordings.com/shop/daydreams-nightmares-limited-edition-lp-on-black-vinyl/">Daydreams &#038; Nightmares (Limited Edition LP On Black Vinyl)</a></h3>
+
+			<p class="price"><big>£13.99</big></p>
+		<form action="http://www.wichita-recordings.com/shop/cart/" method="post" class="shopp product validate">
+		<input type="hidden" name="products[453][product]" value="453" /><input type="hidden" name="products[453][price]" value="592" /><input type="hidden" name="products[453][category]" value="music" /><input type="hidden" name="cart" value="add" /><input type="hidden" name="ajax" value="true" /><input type="button" name="addtocart"  value="Add to Cart" class="addtocart ajax-html" /></p>
+		</form>
+		</div>
+
+	<div class="sideproduct">
+	<a href="http://www.wichita-recordings.com/shop/dancer-equired-lp/"><img src="http://www.wichita-recordings.com/shop/images/6917/?125,125,-46525013" alt="original" width="125" height="125"  /></a>
+
+	<h3>Times New Viking<br><a href="http://www.wichita-recordings.com/shop/dancer-equired-lp/">Dancer Equired (LP)</a></h3>
+
+			<p class="price"><big>£12.99</big></p>
+		<form action="http://www.wichita-recordings.com/shop/cart/" method="post" class="shopp product validate">
+		<input type="hidden" name="products[444][product]" value="444" /><input type="hidden" name="products[444][price]" value="583" /><input type="hidden" name="products[444][category]" value="music" /><input type="hidden" name="cart" value="add" /><input type="hidden" name="ajax" value="true" /><input type="button" name="addtocart"  value="Add to Cart" class="addtocart ajax-html" /></p>
+		</form>
+		</div>
+
+	<div class="sideproduct">
+	<a href="http://www.wichita-recordings.com/shop/dancer-equired-cd/"><img src="http://www.wichita-recordings.com/shop/images/6909/?125,125,-633690873" alt="original" width="125" height="125"  /></a>
+
+	<h3>Times New Viking<br><a href="http://www.wichita-recordings.com/shop/dancer-equired-cd/">Dancer Equired (CD)</a></h3>
+
+			<p class="price"><big>£7.99</big></p>
+		<form action="http://www.wichita-recordings.com/shop/cart/" method="post" class="shopp product validate">
+		<input type="hidden" name="products[443][product]" value="443" /><input type="hidden" name="products[443][price]" value="582" /><input type="hidden" name="products[443][category]" value="music" /><input type="hidden" name="cart" value="add" /><input type="hidden" name="ajax" value="true" /><input type="button" name="addtocart"  value="Add to Cart" class="addtocart ajax-html" /></p>
+		</form>
+		</div>
+
+</li>			</ul>
+					<a href="http://www.wichita-recordings.com/shop"><img src="http://www.wichita-recordings.com/wp-content/uploads/2011/01/visit.jpg" style="border-top:#ff6699 1px solid; border-bottom:1px solid #000;margin-top:10px;""></a>
+				</div>
+
+	</div>
+-->
+	<!---->
+	</div>
+
+	<div id="footer" class="span-24 last" style="margin-top:10px; margin-bottom:30px;">
+		<ul style="padding-left:5px; padding-top:5px; padding-right:5px; padding-bottom:5px;">
+			<li>Powered by &#9829;</li>
+			<li>Site designed / developed by <a href="http://www.radarmaker.co.uk">Radar Maker Ltd.</a></li>
+			<li><a href="http://www.wichita-recordings.com/feed/">Entries RSS</a></li>
+			<li><a href="http://www.wichita-recordings.com/comments/feed/">Comments RSS</a></li>
+		</ul>
+	</div><!-- id="footer" -->
+
+</div><!-- id="page" -->
+
+<!-- 47 queries. 0.624 seconds. -->
+
+<script type='text/javascript' src='http://www.wichita-recordings.com/wp-includes/js/jquery/ui.core.js?ver=1.7.3'></script>
+<script type='text/javascript' src='http://www.wichita-recordings.com?sjsl=colorbox,shopp,catalog,cart&amp;c=1&amp;ver=98239bb061a58639408323699680ad0e'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ShoppSettings = {
+	ajaxurl: "http://www.wichita-recordings.com/wp-admin/admin-ajax.php",
+	cp: "1",
+	c: "£",
+	p: "2",
+	t: ",",
+	d: ".",
+	g: "3",
+	nocache: "",
+	opdef: "",
+	opreq: "You must select the options for this item before you can add it to your shopping cart.",
+	LOGIN_NAME_REQUIRED: "You did not enter a login.",
+	LOGIN_PASSWORD_REQUIRED: "You did not enter a password to login with.",
+	REQUIRED_FIELD: "Your %s is required.",
+	INVALID_EMAIL: "The e-mail address you provided does not appear to be a valid address.",
+	MIN_LENGTH: "The %s you entered is too short. It must be at least %d characters long.",
+	PASSWORD_MISMATCH: "The passwords you entered do not match. They must match in order to confirm you are correctly entering the password you want to use.",
+	REQUIRED_CHECKBOX: "%s must be checked before you can proceed.",
+	UNSAVED_CHANGES_WARNING: "There are unsaved changes that will be lost if you continue.",
+	month_jan: "January",
+	month_feb: "February",
+	month_mar: "March",
+	month_apr: "April",
+	month_may: "May",
+	month_jun: "June",
+	month_jul: "July",
+	month_aug: "August",
+	month_sep: "September",
+	month_oct: "October",
+	month_nov: "November",
+	month_dec: "December",
+	weekday_sun: "Sun",
+	weekday_mon: "Mon",
+	weekday_tue: "Tue",
+	weekday_wed: "Wed",
+	weekday_thu: "Thu",
+	weekday_fri: "Fri",
+	weekday_sat: "Sat"
+};
+	var pricetags = {};
+/* ]]> */
+</script>
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2565710-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

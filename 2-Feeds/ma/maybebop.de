@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+
+<title>maybebop.de: Extrem nah dran</title>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+<link rel="stylesheet" type="text/css" href="_css/main.css"/>
+<link rel="stylesheet" type="text/css" href="_css/layout.css"/>
+<link rel="stylesheet" type="text/css" href="_css/contentheader.css"/>
+
+<link rel="alternate" type="application/rss+xml" title="MaybeNews abonnieren" href="news/rss.php" />
+<link rel="alternate" type="application/rss+xml" title="MaybeBlog abonnieren" href="fans/blog_rss.php" />
+<link rel="alternate" type="application/rss+xml" title="Maybebop Podcast abonnieren" href="http://maybebop.podspot.de/rss" />
+
+<!--[if IE]>
+<link rel="stylesheet" href="_css/ie_override.css" type="text/css"/>
+<![endif]-->
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="_css/ie7_override.css" type="text/css"/>
+<![endif]-->
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="_js/ticker.js"></script>
+<script type="text/javascript" src="_js/popupwindow.js"></script>
+<script type="text/javascript" src="_js/blocktoggle.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$("#bandmain").mouseover(function () {
+				var targetArray = ["mediennavi","maybeshopnavi","fansnavi","veranstalternavi"];
+				$.each(targetArray, function() {
+						if($("#" + this).attr('className') != "anaus"){
+							$("#" + this).slideUp(350);
+						}
+				   });
+				if($("#bandnavi").css("display") != "block"){
+					$("#bandnavi").slideDown(350);
+				}			
+			});
+			
+			
+			$("#medienmain").mouseover(function () {
+				var targetArray = ["bandnavi","maybeshopnavi","fansnavi","veranstalternavi"];
+				$.each(targetArray, function() {
+					if($("#" + this).attr('className') != "anaus"){
+						$("#" + this).slideUp(350);
+					}
+				   });
+				if($("#mediennavi").css("display") != "block"){
+					$("#mediennavi").slideDown(350);
+				}			
+			});
+			
+			
+			$("#maybeshopmain").mouseover(function () {
+				var targetArray = ["bandnavi","mediennavi","fansnavi","veranstalternavi"];
+				$.each(targetArray, function() {
+				      if($("#" + this).attr('className') != "anaus"){
+				      	$("#" + this).slideUp(350);
+				      }
+				   });
+				if($("#maybeshopnavi").css("display") != "block"){
+					$("#maybeshopnavi").slideDown(350);
+				}			
+			});
+
+
+			$("#fansmain").mouseover(function () {
+				var targetArray = ["bandnavi","mediennavi","maybeshopnavi","veranstalternavi"];
+				$.each(targetArray, function() {
+				      if($("#" + this).attr('className') != "anaus"){
+				      	$("#" + this).slideUp(350);
+				      }
+				   });
+				if($("#fansnavi").css("display") != "block"){
+					$("#fansnavi").slideDown(350);
+				}			
+			});
+
+			$("#veranstaltermain").mouseover(function () {
+				var targetArray = ["bandnavi","mediennavi","maybeshopnavi","fansnavi"];
+				$.each(targetArray, function() {
+				      if($("#" + this).attr('className') != "anaus"){
+				      	$("#" + this).slideUp(350);
+				      }
+				   });
+				if($("#veranstalternavi").css("display") != "block"){
+					$("#veranstalternavi").slideDown(350);
+				}			
+			});	
+			
+			$('#headnews').list_ticker({
+					speed:5000,
+					effect:'fade'
+				})
+		});
+</script><link rel="stylesheet" type="text/css" href="_css/start.css"/>
+<link rel="stylesheet" href="_css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+
+
+</head>
+<body>
+<div id="container" class="container">
+
+<div id="head" class="head">
+	<a href="./">
+		<img src="_images/kopf.png" border="0" height="138px" width="928px" alt="header image"/>
+	</a>
+	<div class="headnews" id="headnews">
+		<li>+++ 09.06.2012 18:00 Uhr in  60311 Frankfurt: MAYBEBOP beim Deutschen Chorfest +++ </li>
+	<li>+++ 17.06.2012 20:30 Uhr in  99423 Weimar: Extrem nah dran, leider schon ausverkauft +++ </li>
+	<li>+++ 22.06.2012 20:00 Uhr in  NDR Kultur, MAYBEBOP im Radio: MAYBEBOP mit dem NDR Pops Orchestra +++ </li>
+	<li>+++ 28.06.2012 20:45 Uhr in  8400 Winterthur, CH: Extrem nah dran +++ </li>
+	<li>+++ 29.06.2012 20:00 Uhr in  97355 Castell: Extrem nah dran +++ </li>
+	<li>+++ 30.06.2012 20:00 Uhr in  70174 Stuttgart: Extrem nah dran, special, fast ausverkauft +++ </li>
+	<li>+++ 01.07.2012 18:00 Uhr in  31582 Nienburg: Extrem nah dran +++ </li>
+	<li>+++ 05.07.2012 20:00 Uhr in  27572 Bremerhaven: Extrem nah dran, special, fast ausverkauft +++ </li>
+	<li>+++ 06.07.2012 21:00 Uhr in  57072 Siegen : Extrem nah dran +++ </li>
+	<li>+++ 07.07.2012 20:00 Uhr in  64732 Bad König: Extrem nah dran +++ </li>
+	</div>	
+	
+	
+</div>
+<!--[if IE]>
+<div id="iehack" class="iehack">
+<![endif]-->
+
+
+<div id="navigation" class="navigation">
+
+<div id="navtopplayer" class="navbar">
+	<a href="medien/musik_spieler.php" alt="Maybebop Music Player" title="Maybebop Music Player" onclick="return popup(this,320,260)"><img src="_images/player-button.png" alt="Maybebop Music Player" border="0"/></a>
+</div>
+<ul class="navigation" id="navigation-ul">
+
+
+
+	<li class="navigation"><a href="news/" class="navlink">News</a></li> 
+ 	
+	<li class="navigation" id="bandmain"> 
+		<a href="band/" class="navlink">Die Band</a>	
+		<div class="ausan" id="bandnavi"> 
+			<ul class="subnavigation"> 
+				<li class="subnavigation_item"><a href="band/jan.php" class="navlink">Jan</a></li> 
+				<li class="subnavigation_item"><a href="band/lukas.php" class="navlink">Lukas</a></li> 
+				<li class="subnavigation_item"><a href="band/sebastian.php" class="navlink">Sebastian</a></li> 
+				<li class="subnavigation_item"><a href="band/olli.php" class="navlink">Olli</a></li> 
+				<li class="subnavigation_item"><a href="band/interview.php" class="navlink">Interview</a></li>		
+			</ul> 
+		</div>
+	</li>
+	 
+	<li class="navigation"><a href="termine/" class="navlink">Termine</a></li> 
+	
+	<li class="navigation" id="medienmain">
+		<a href="medien/" class="navlink">Medien</a>	
+		<div class="ausan" id="mediennavi"> 
+			<ul class="subnavigation"> 
+				<li class="subnavigation_item"><a href="medien/downloads.php" class="navlink">Downloads</a></li> 
+				<li class="subnavigation_item"><a href="medien/diskografie.php" class="navlink">Diskografie</a></li> 
+				<li class="subnavigation_item"><a href="medien/podcast.php" class="navlink">Podcast</a></li> 
+				<li class="subnavigation_item"><a href="medien/lyrics.php" class="navlink">Songtexte</a></li> 
+				<li class="subnavigation_item"><a href="medien/fotostrecken.php" class="navlink">Fotostrecken</a></li> 
+			</ul> 
+		</div>
+	</li> 
+ 
+	<li class="navigation" id="maybeshopmain">
+		<a href="maybeshop/" class="navlink">MaybeShop</a>
+		<div class="ausan" id="maybeshopnavi"> 
+			<ul class="subnavigation"> 
+				<li class="subnavigation_item"><a href="maybeshop/shop.php?aktiv=CD" class="navlink">CDs & DVDs</a></li> 
+				<li class="subnavigation_item"><a href="maybeshop/shop.php?aktiv=Songbook" class="navlink">Songbooks</a></li> 
+				<li class="subnavigation_item"><a href="maybeshop/shop.php?aktiv=Shirt" class="navlink">T-Shirts</a></li> 
+				<li class="subnavigation_item"><a href="maybeshop/shop.php?aktiv=mehr" class="navlink">Mehr</a></li> 
+				<li class="subnavigation_item"><a href="maybeshop/warenkorb.php" class="navlink">Warenkorb</a></li> 
+			</ul> 
+		</div>
+	</li> 
+ 
+	<li class="navigation" id="fansmain">
+		<a href="fans/" class="navlink">Fans</a>
+		<div class="ausan" id="fansnavi"> 
+			<ul class="subnavigation"> 
+				<li class="subnavigation_item"><a href="fans/blog.php" class="navlink">Blog</a></li> 
+				<li class="subnavigation_item"><a href="fans/faq.php" class="navlink">F.A.Q.</a></li>					
+			</ul> 
+		</div>
+	</li> 
+ 
+	<li class="navigation"><a href="gaestebuch/" class="navlink">Gästebuch</a></li> 
+
+	<li class="navigation"><a href="newsletter/" class="navlink">Newsletter</a></li> 
+
+	<li class="navigation" id="veranstaltermain">
+		<a href="veranstalter/" class="navlink">Veranstalter</a>
+		<div class="ausan" id="veranstalternavi"> 
+			<ul class="subnavigation"> 
+				<li class="subnavigation_item"><a href="veranstalter/pressetexte.php" class="navlink">Pressetexte</a></li> 
+				<li class="subnavigation_item"><a href="veranstalter/pressestimmen.php" class="navlink">Pressestimmen</a></li> 
+				<li class="subnavigation_item"><a href="veranstalter/rider.php" class="navlink">technische Rider</a></li>		
+				<li class="subnavigation_item"><a href="veranstalter/pressefotos.php" class="navlink">Pressefotos</a></li> 
+				<li class="subnavigation_item"><a href="veranstalter/videos.php" class="navlink">Video</a></li>				
+			</ul> 
+		</div>
+	</li> 	
+</ul> 
+
+<div class="navbar">
+	<a href="rss_ueberblick.php"><img src="_images/rss.png" alt="RSS Feeds" border="0" /></a>
+	<a href="http://www.facebook.com/maybebop"><img src="_images/facebook.png" alt="Facebook" border="0" /></a>
+	<a href="http://www.twitter.com/maybebop"><img src="_images/twitter.png" alt="Twitter" border="0" /></a>
+	<a href="http://www.youtube.com/user/maybebop"><img src="_images/youtube.png" alt="Youtube" border="0" /></a>
+	<a href="http://www.myspace.com/maybebop"><img src="_images/myspace.png" alt="Myspace" border="0" /></a>
+	<a href="http://www.lastfm.de/music/MayBeBop"><img src="_images/lastfm.png" alt="LastFM" border="0" /></a>
+</div>
+
+
+<div class="shopteaser">
+	<p class="shopteaserkopf">Das Album</p>
+	<a href="maybeshop/shop.php?aktiv=CD">
+		<img class="shopteaser" src="_images/extremnahdran.png" alt="Extrem nah dran CD"/>
+	</a>
+	<p class="shopteasertext">Mit einem fantastischen Album voller Ohrwürmer melden sich MAYBEBOP zurück!<br/>
+	Jetzt <a href="medien/musik_spieler.php" onclick="return popup(this,320,260)" class="shopteaser">reinhören</a> oder <a href="maybeshop/shop.php?aktiv=CD" class="shopteaser">kaufen</a>.</p>
+</div>
+
+</div>
+
+	
+ <div class="sbr-start">
+ 	<div class="sbr-teaser">
+ 		<p class="sbr-teaser">Anzeige</p><a href="band/sebastian.php"><img src="_images/werbung_basti_klein.jpg" alt="Sebastian" class="sbr-teaser" /></a>
+ 	</div>
+ 
+ 	<hr class="sidebarstart" />
+ 	<div class="breitbild">
+ 		<a href="mitarbeiter/">
+ 			<img src="_files/1335342375/Brodowy_klein.png" alt="Mitarbeiter des Monats" class="breitbild" />
+ 			<p class="breitbild"><span class="breitbild">Mitarbeiter des Monats</span></p>
+ 		</a>
+ 	</div>
+ 	<h1 class="sbr-start">Fotostrecken</h1>
+ 	<div class="sbr-startbildundtext">
+ 		<p class="sbr-bildundtexthead">Die Band</p>
+ 		<a href="medien/fotostrecken.php"><img src="_images/sidebar-bildundtext-beispiel.png" alt="" class="sbr-startbildundtext" /></a>
+ 		<p class="sbr-startbildundtext">Markante Stillleben und LIVE-Impressionen von den Konzerten und dem Leben nebenher...</p>
+ 	</div>
+ 	<h1 class="sbr-start">Band-Blog</h1>
+ 		<div class="sbr-startbildundtext"><p class="sbr-startbildundtexthead">29.08.2011</p>
+<a href="fans/show.php?blog=0044"  ><img src="_files/1268123245/thumb/bilderraetsel.jpg" alt="Teaser0044" class="sbr-startbildundtext" /><h1 class="sbr-text">Fan Geschenke</h1></a><p class="sbr-startbildundtext">Wir bekommen in regelmäßigen Abständen Geschenke von Euch und wolle...</p>
+	</div>
+	<div class="sbr-startbildundtext"><p class="sbr-startbildundtexthead">08.02.2011</p>
+<a href="fans/show.php?blog=0079"  ><img src="_files/1292059660/thumb/IMG_0656.jpg" alt="Teaser0079" class="sbr-startbildundtext" /><h1 class="sbr-text">Karges Land ...</h1></a><p class="sbr-startbildundtext">... gilt es hier zu bestellen. 
+Wir haben die Blog-Sektion ja in letz...</p>
+	</div>
+
+ </div>	
+ 	<div class="bottomline">
+<div class="bottomleft">&copy; Maybebop 2011</div>
+<div class="bottomright"><a href="impressum/">Impressum</a> | <a href="impressum/datenschutz.php">Datenschutz</a> | <a href="impressum/agb.php">AGB</a></div>
+</div>
+<div class="footer">
+	<a href="http://resort.a-rosa.de/scharmuetzelsee/willkommen/"><img src="_images/LOGO_arosa_frei.png" alt="arosa Scharmützelsee" class="footer" /></a>
+	<a href="http://www.klemm-music.de/motu/index.htm"><img src="_images/LOGO_Motu_frei.png" alt="Motu" class="footer" /></a>
+	<a href="http://www.klemm-music.de/coda/index.htm"><img src="_images/LOGO_finale_frei.png" alt="finale" class="footer" /></a>
+	<a href="http://www.klemm-media.de/"><img src="_images/LOGO_klemm_frei.png" alt="Klemm Media" class="footer" /></a>
+	<a href="http://www.ndschorverband.de/"><img src="_images/LOGO_nds_chor_frei.png" alt="Chorverband Niedersachsen" class="footer" /></a>
+
+	<p class="footerlinks"><a href="news/">News</a> | <a href="story/">Story of the week</a> | <a href="mitarbeiter/">Mitarbeiter des Monats</a> | <a href="termine/">Termine</a> | <a href="gaestebuch/">Gästebuch</a> | <a href="newsletter/">Newsletter</a> | <a href="rss_ueberblick.php">RSS Feeds</a><br/>
+	<a href="band/">Band</a> : <a href="band/jan.php">Jan</a> | <a href="band/lukas.php">Lukas</a> | <a href="band/sebastian.php">Sebastian</a> | <a href="band/olli.php">Olli</a> | <a href="band/interview.php">Interview</a> <br/>
+	<a href="medien/">Medien</a> : <a href="medien/downloads.php">Downloads</a> | <a href="medien/diskografie.php">Diskografie</a> | <a href="medien/podcast.php">Podcast</a> | <a href="medien/lyrics.php">Songtexte</a> | <a href="medien/fotostrecken.php">Fotostrecken</a><br/>
+	<a href="maybeshop/">Maybeshop</a> : <a href="maybeshop/shop.php?aktiv=CD">CDs & DVDs</a> | <a href="maybeshop/shop.php?aktiv=Songbook">Songbooks</a> | <a href="maybeshop/shop.php?aktiv=Shirt">T-Shirts</a> | <a href="maybeshop/shop.php?aktiv=mehr">Mehr</a> | <a href="maybeshop/warenkorb.php">Warenkorb</a> <br />
+	<a href="fans/">Fans</a> : <a href="fans/blog.php">Blog</a> | <a href="fans/faq.php">FAQ</a> <br/>
+	<a href="veranstalter/">Veranstalter</a> : <a href="veranstalter/pressetexte.php">Pressetexte</a> | <a href="veranstalter/pressefotos.php">Pressefotos</a> | <a href="veranstalter/rider.php">Technische Rider</a> | <a href="veranstalter/pressestimmen.php">Pressestimmen</a> | <a href="veranstalter/videos.php">Video</a> <br/>	
+	</p>
+</div>
+<div id="contentheader" class="contentheader">
+	<a href="story/index.php?sotw=0192"><img class="ch-img-rechts" src="_files/1337851459/2012_05_21.jpg" border="0" alt="Story of the week" /></a>
+	<div class="ch-text-links">
+		<p class="ch-klein">Story of the week</p>
+		<p class="ch-ueber" id="contentitem" name="0192"><a href="story/index.php?sotw=0192">Deutsches Chorfest 2012 in Frankfurt</a></p>
+		<p class="ch-text">
+		Wir haben ja immer wieder das große Vergnügen an a cappella-Massenveranstaltungen teilzunehmen und in Kürze ist es wieder so weit. Am 09. Juni sind wir beim Deutschen Chorfest in Frankfurt dabei und werden neben einem Konzert auf dem Römerberg in Frankfurt mit 200 Sängern einen ganzen Tag Workshops machen...
+		</p>
+	</div>
+	<div class="storydatum"><p class="ch-text">24.05.2012</p></div></div>
+<div id="content" class="content">
+<!-- Inhalt hier einfügen -->
+
+<div id="news" class="contentblock">
+<h1 class="contentblockheader">News</h1>
+	<div class="cb-item"><p class="cb-imgheader">27.05.2012</p>
+<a href="news/show.php?news=0193"  ><img src="_files/1338100686/thumb/2012_05_12.jpg" alt="Teaser0193"  /><h1 >Prix Pantheon 2012 - Das Voting</h1></a><p >Das Voting für den Publikumspreis "Beklatscht & Gevotet" der diesjäh...</p>
+	</div>
+	<div class="cb-item"><p class="cb-imgheader">12.05.2012</p>
+<a href="news/show.php?news=0190"  ><img src="_files/1336814374/thumb/mbb_monumental.jpg" alt="Teaser0190"  /><h1 >Neue Fotostrecken online</h1></a><p >Unsere Haus-und Hof-Live-Fotografin Jasmin war von Anfang bis Ende von...</p>
+	</div>
+</div>
+<div id="konzerte" class="contentblock">
+<!--<a href=""><img src="_images/home_element_papier.png" alt="Konzerte Background" border="0"/></a>-->
+<h1 class="contentblockheader">Termine</h1>
+<p class="konzerte">
+	09.06.2012 18:00 Uhr in <a class="konzerte" href="termine/index.php?termin=00715"> 60311 Frankfurt </a> <br/> 
+	17.06.2012 20:30 Uhr in <a class="konzerte" href="termine/index.php?termin=00659"> 99423 Weimar </a> <br/> 
+	22.06.2012 20:00 Uhr in <a class="konzerte" href="termine/index.php?termin=00727"> NDR Kultur, MAYBEBOP im Radio </a> <br/> 
+	28.06.2012 20:45 Uhr in <a class="konzerte" href="termine/index.php?termin=00698"> 8400 Winterthur, CH </a> <br/> 
+	29.06.2012 20:00 Uhr in <a class="konzerte" href="termine/index.php?termin=00680"> 97355 Castell </a> <br/> 
+	30.06.2012 20:00 Uhr in <a class="konzerte" href="termine/index.php?termin=00676"> 70174 Stuttgart </a> <br/> 
+	01.07.2012 18:00 Uhr in <a class="konzerte" href="termine/index.php?termin=00710"> 31582 Nienburg </a> <br/> 
+	05.07.2012 20:00 Uhr in <a class="konzerte" href="termine/index.php?termin=00678"> 27572 Bremerhaven </a> <br/> 
+</p>
+
+</div>
+
+<!-- Inhalt Ende -->
+</div>
+<!--[if IE]>
+</div> 
+<![endif]-->
+</div>
+</body>
+</html>

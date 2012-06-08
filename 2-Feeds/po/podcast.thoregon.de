@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+ <title>Thoregon M&uuml;nster e.V. - Herzlich Willkommen auf unserer Webseite</title>
+<link rel="stylesheet" type="text/css" href="http://www.thoregon.de/themes/scifi/theme.css">
+ <link rel="alternate" type="application/rss+xml" title="RDF-Datei" href="http://www.thoregon.de/rssfeednews.php">
+ <meta name="publisher" content="Thoregon M&uuml;nster e.V.">
+ <meta name="keywords" content="Science Fiction, Babylon 5, Battletech, Crusade, Enterprise, Galaxy Quest, Perry Rhodan, Stargate SG-1, Star Trek, Star Wars, Fantasy, Harry Potter, Herkules, Herr der Ringe, Scheibenwelt, Xena, Mystery, Akte X, Angel, Buffy, Rollenspiele, Shadowrun, Verein, Dinner, Fantreffen, Forum, Grillevent, Stammtisch">
+ <meta name="description" content="Herlich willkommen auf der Homepage des Thoregon M&uuml;nster e.V.">
+ <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
+
+
+ <link rel="stylesheet" href="http://www.thoregon.de/themes/common/litebox/lightbox.css" type="text/css" media="screen">
+ <script type="text/javascript" src="http://www.thoregon.de/js/slider.js"></script>
+ <script type="text/javascript" src="http://www.thoregon.de/js/common.js"></script>
+ <script type="text/javascript" src="http://www.thoregon.de/js/litebox/prototype.lite.js"></script>
+ <script type="text/javascript" src="http://www.thoregon.de/js/litebox/moo.fx.js"></script>
+ <script type="text/javascript" src="http://www.thoregon.de/js/litebox/litebox-1.0.js"></script>
+ <script type="text/javascript">
+  <!--
+   if (top.location != self.location) top.location = self.location;
+  //-->
+ </script>
+</head>
+<body onload="initLightbox(); setfocus('getfocus'); carpeInit();">
+<div id="header">
+<table class="noborder" style="width: 980px; margin: 0px auto; ">
+ <tr>
+  <td class="loginout left" style="width:558px;">&nbsp;&nbsp;Willkommen Gast [<a href="http://forum.thoregon.de/login.php?redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0" id="loginButton">Anmelden</a> 
+  <div class="hidden" id="quickloginbox">
+	 <form method="post" action="http://forum.thoregon.de/login.php?sid=b498d1f60777bc80ce64c28c883575f0" class="loginbox">
+		<div>	
+		 <div>
+		  <input class="loginform" tabindex="1" type="text" id="quickloginusername" name="l_username" value="Benutzername" title="Benutzername">
+			<input class="loginform" tabindex="2" type="password" name="l_password" title="Kennwort">
+			<input type="hidden" name="redirto" value="http%3A%2F%2Fpodcast.thoregon.de%2Findex.php">
+  		<input type="hidden" name="send" value="1">
+      <input class="loginform" tabindex="4" type="submit" value="Anmelden">
+		 </div>
+    <a href="http://forum.thoregon.de/forgetpw.php?sid=b498d1f60777bc80ce64c28c883575f0">Passwort vergessen</a>
+	 </div>
+	</form>
+ </div>
+| <a href="http://forum.thoregon.de/register.php?sid=b498d1f60777bc80ce64c28c883575f0">Registrieren</a>]</td>
+  <td class="socialbm center" style="width: 137px;"><a href="#" id="socialbmbutton">Social Bookmarks</a>
+  <div class="hidden" id="socialbmselect"><span class="center">
+   <a href="http://www.facebook.com/" onclick="window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(location.href)+'&amp;t='+encodeURIComponent(document.title)); return false;" title="Teilen bei Facebook" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/facebook_com.png" alt="Teilen bei Facebook" style="border:0;"></a>
+   <a href="http://www.webnews.de/" onclick="window.open('http://www.webnews.de/einstellen?url='+encodeURIComponent(document.location)+'&amp;title='+encodeURIComponent(document.title)); return false;" title="Webnews einstellen" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/webnews_de.png" alt="Webnews einstellen" style="border:0;"></a>
+   <a href="http://www.mister-wong.de/" onclick="window.open('http://www.mister-wong.de/index.php?action=addurl&amp;bm_url='+encodeURIComponent(location.href)+'&amp;bm_notice=&amp;bm_description='+encodeURIComponent(document.title)); return false;" title="Diese Seite zu Mister Wong hinzuf&uuml;gen" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/misterwong_de.png" alt="Diese Seite zu Mister Wong hinzuf&uuml;gen" style="border:0;"></a>
+   <a href="http://www.favoriten.de/" onclick="window.open('http://www.favoriten.de/url-hinzufuegen.html?bm_url='+encodeURIComponent(location.href)+'&amp;bm_title='+encodeURIComponent(document.title)); return false;" title="Diese Seite zu Favoriten.de hinzuf&uuml;gen" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/favoriten_de.png" alt="Diese Seite zu Favoriten.de hinzuf&uuml;gen" style="border:0;"></a>
+   <a href="http://www.oneview.de/" onclick="window.open('http://www.oneview.de/add/?URL='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)); return false;" title="oneview - das merk ich mir!" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/oneview_de.png" alt="oneview - das merk ich mir!" style="border:0;"></a>
+   <a href="http://www.google.com/bookmarks/" onclick="window.open('http://www.google.com/bookmarks/mark?op=edit&amp;bkmk='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)); return false;" title="Bookmarken bei Google" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/google_com.png" alt="Bookmarken bei Google" style="border:0;"></a>
+   <a href="http://twitter.com/" onclick="window.open('http://twitter.com/share?url='+encodeURIComponent(location.href)+'&amp;text='+encodeURIComponent(document.title)); return false;" title="Twittern" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/twitter_com.png" alt="Twittern" style="border:0;"></a>
+   <a href="http://platform-redirect.vz-modules.net/r/" onclick="window.open('http://platform-redirect.vz-modules.net/r/Link/Share/?url='+encodeURIComponent(location.href)+'&amp;text='+encodeURIComponent(document.title)); return false;" title="Teilen bei MeinVZ/StudiVZ/Sch&uuml;erVZ" rel="nofollow"><img src="http://www.thoregon.de/images/bookmarks/vz_netzwerke.png" alt="Teilen bei MeinVZ/StudiVZ/Sch&uuml;erVZ" style="border:0;"></a>
+  </span></div></td>
+  <td class="stylesel right" style="width: 175px; white-space:nowrap;">Anzeige-Stil:</td>
+  <td class="stylesel right" style="width: 100px; white-space:nowrap;"><a href="http://www.thoregon.de/style.php?redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0" id="styleselectButton">Science Fiction</a>
+    <div class="hidden" id="styleselect"><a href="http://www.thoregon.de/style.php?styleid=5&amp;redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0">Fantasy</a><br><a href="http://www.thoregon.de/style.php?styleid=7&amp;redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0">Horror</a><br><a href="http://www.thoregon.de/style.php?styleid=6&amp;redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0">Mystery</a><br><a href="http://www.thoregon.de/style.php?styleid=4&amp;redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0">Science Fiction</a><hr class="linecolor"><a href="http://www.thoregon.de/style.php?action=reset&amp;redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0">zur&uuml;cksetzen</a></div>
+	<script type="text/javascript">
+		//<![CDATA[
+		var styleFormVisible = false;
+		var loginFormVisible = false;
+		var socialBMsVisible = false;
+		function showLoginForm() {
+			var loginBox = document.getElementById("quickloginbox");
+			var styleBox = document.getElementById("styleselect");
+			var socialBM = document.getElementById("socialbmselect");
+			
+			if (loginBox) {
+				if (!loginFormVisible) {
+					loginBox.className = "loginPopup";
+					loginFormVisible = true;
+					if (styleBox) {
+                           styleBox.className = "hidden";
+					  styleFormVisible = false;
+					}
+					if (socialBM) {
+                           socialBM.className = "hidden";
+					  socialBMsVisible = false;
+					}
+				}
+				else {
+					loginBox.className = "hidden";
+					loginFormVisible = false;
+				}
+			}
+			
+			return false;
+		}
+		function showStyleForm() {
+			var loginBox = document.getElementById("quickloginbox");
+			var styleBox = document.getElementById("styleselect");
+			var socialBM = document.getElementById("socialbmselect");
+			
+			if (styleBox) {
+				if (!styleFormVisible) {
+					styleBox.className = "stylePopup";
+					styleFormVisible = true;
+					if (loginBox) {
+                           loginBox.className = "hidden";
+					  loginFormVisible = false;
+					}
+					if (socialBM) {
+                           socialBM.className = "hidden";
+					  socialBMsVisible = false;
+					}
+				}
+				else {
+					styleBox.className = "hidden";
+					styleFormVisible = false;
+				}
+			}
+			
+			return false;
+		}
+		function showSocialBMForm() {
+			var loginBox = document.getElementById("quickloginbox");
+			var styleBox = document.getElementById("styleselect");
+			var socialBM = document.getElementById("socialbmselect");
+			
+			if (socialBM) {
+				if (!socialBMsVisible) {
+					socialBM.className = "socialBMPopup";
+					socialBMsVisible = true;
+					if (loginBox) {
+                           loginBox.className = "hidden";
+					  loginFormVisible = false;
+					}
+					if (styleBox) {
+                           styleBox.className = "hidden";
+					  styleFormVisible = false;
+					}
+				}
+				else {
+					socialBM.className = "hidden";
+					socialBMsVisible = false;
+				}
+			}
+			
+			return false;
+		}
+		if (document.getElementById('loginButton')) {
+            document.getElementById('loginButton').onclick = function() { return showLoginForm(); };
+		  document.getElementById('loginButton').ondblclick = function() { document.location.href = fixURL('http://forum.thoregon.de/login.php?redirto=http%3A%2F%2Fpodcast.thoregon.de%2Findex.php&amp;sid=b498d1f60777bc80ce64c28c883575f0'); };
+		  document.getElementById('quickloginusername').onfocus = function() { if (this.value == 'Benutzername') this.value=''; };
+		  document.getElementById('quickloginusername').onblur = function() { if (this.value == '') this.value = 'Benutzername'; };
+		}
+		
+		document.getElementById('styleselectButton').onclick = function() { return showStyleForm(); };
+		document.getElementById('socialbmbutton').onclick = function() { return showSocialBMForm(); };
+		//]]>
+	</script>
+&nbsp;&nbsp;</td>
+ </tr>
+ <tr>
+  <td class="center" colspan=4>
+ <a href="http://www.thoregon.de/index2.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Home</a><a href="http://forum.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Forum</a><a href="http://www.thoregon.de/verein/themenabend.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Themenabende</a><a href="http://www.thoregon.de/rezis/index.html?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Rezensionen</a><a href="http://www.thoregon.de/sff/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">SF &amp; Fantasy</a><a href="http://www.thoregon.de/newsletter.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Newsletter</a><a href="http://www.thoregon.de/verein/index.html?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Verein</a><br>
+ <a href="http://news.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">News</a><a href="http://kalender.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Kalender</a><a href="http://www.thoregon.de/verein/stammtisch.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Stammtische</a><a href="http://www.thoregon.de/artikel/index.html?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Berichte</a><a href="http://www.thoregon.de/personen/index.html?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Personen</a><a href="http://podcast.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="sbutton137-20">Podcasts</a><a href="http://www.thoregon.de/kontakt.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Kontakt</a><br>
+ <a href="http://suche.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Suche</a><a href="http://galerie.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Bilder-Gallerie</a><a href="http://rpg.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Unsere Rollenspiele</a><a href="http://fanfiction.thoregon.de/index.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Fanfictions</a><a href="http://www.thoregon.de/links/index.html?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Surftipps</a><a href="http://forum.thoregon.de/misc.php?action=rssform&amp;sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">RSS-Feeds</a><a href="http://www.thoregon.de/impressum.php?sid=b498d1f60777bc80ce64c28c883575f0" class="button137-20">Impressum</a>
+  </td>
+ </tr>
+</table>
+</div>
+
+<div id="main"><div class="content">
+
+ <div class="columns" style="width:200px;">
+  <div class="center"><img src="http://www.thoregon.de/images/thoregonlogo.png" width="180" height="180" alt="Thoregon M&uuml;nster e.V."></div>
+  <br>
+ <div class="annboxhead">Stammtisch/Dinner</div>
+ <div class="annboxtext">N&auml;chster Stammtisch am 16. Juni 2012 um 19:30 Uhr im <a href="http://www.sf-fantasy.info/dereferer.php?http://www.haus-broecker.de/" target="_blank">Haus Br&ouml;cker</a></div>
+ <div class="annboxhead">Themenabend: &quot;Alcatraz&quot;</div>
+ <div class="annboxtext">Der Thoregon M&uuml;nster e.V. stellt diese von LOST-Macher J.J.Abrams produzierte Serie im Rahmen eines Themenabends am 15.09.2012 vor.<br />
+<a href="http://www.thoregon.de/verein/themenabend.php?sid=b498d1f60777bc80ce64c28c883575f0" target="_self">Weitere Infos</a></div>
+ <div class="annboxhead">Newsletter</div>
+ <div class="annboxtext">Im <a href="http://www.thoregon.de/newsletter.php?sid=b498d1f60777bc80ce64c28c883575f0" target="_self">Newsletter-Bereich</a> k&ouml;nnt Ihr unseren regelm&auml;&szlig;igen Newsletter bestellen.</div>
+
+<br>
+<div class="boxtitle smallfont center">Werbung</div>
+<div class="boxa center"><iframe src="http://rcm-de.amazon.de/e/cm?t=thoremunstevv-21&amp;o=3&amp;p=20&amp;l=ez&amp;f=ifr&amp;f=ifr&amp;lt1=_blank" style="border:none; margin:0px; width:120px; height:90px; overflow:hidden;"></iframe></div>
+
+<br>
+<div class="boxtitle smallfont center">Folge uns:</div>
+<div class="boxa center">
+<a href="http://www.sf-fantasy.info/dereferer.php?https://www.facebook.com/thoregon" target="_blank" title="Folge uns bei Facebook"><img src="http://www.thoregon.de/images/facebook.png" alt="Folge uns bei Facebook" style="border:0;"></a>
+<a href="http://www.sf-fantasy.info/dereferer.php?https://plus.google.com/110632064230187111039" target="_blank" title="Folge uns bei Google+"><img src="http://www.thoregon.de/images/gplus.png" alt="Folge uns bei Google+" style="border:0;"></a>
+<a href="http://www.sf-fantasy.info/dereferer.php?http://twitter.com/ThoregonMS" target="_blank" title="Folge uns bei Twitter"><img src="http://www.thoregon.de/images/twitter.png" alt="Folge uns bei Twitter" style="border:0;"></a><br>
+<a href="http://www.sf-fantasy.info/dereferer.php?http://www.youtube.com/user/thoregonms" target="_blank" title="Unser Youtube-Kanal"><img src="http://www.thoregon.de/images/youtube.png" alt="Unser Youtube-Kanal" style="border:0;"></a>
+<a href="http://www.thoregon.de/newsletter.php?sid=b498d1f60777bc80ce64c28c883575f0" target="_self" title="Abonniere unsere Newsletter"><img src="http://www.thoregon.de/images/newsletter.png" alt="Abonniere unsere Newsletter" style="border:0;"></a>
+<a href="http://forum.thoregon.de/misc.php?action=rssform&amp;sid=b498d1f60777bc80ce64c28c883575f0" target="_self" title="Abonniere unseren RSS-Feed"><img src="http://www.thoregon.de/images/rss-feed.png" alt="Abonniere unseren RSS-Feed" style="border:0;"></a>
+</div>
+
+<br><div class="navbar"><a href="index.php?action=setashome&amp;sid=b498d1f60777bc80ce64c28c883575f0">Diese Seite als Startseite f&uuml;r www.thoregon.de verwenden?</a></div>
+ </div>
+ <div class="columns" style="width:750px;">
+<div class="navbar"><b><a href="http://www.thoregon.de/?sid=b498d1f60777bc80ce64c28c883575f0">Thoregon M&uuml;nster e.V.</a> &raquo; Podcasts</b></div>
+<br>
+  <h1 class="center">Thoregon M&uuml;nster e.V.</h1>
+  <h2 class="center">Unsere Podcasts</h2>
+<table class="table" style="width:100%;">
+ <tr>
+  <td class="tabletitlebtn" colspan="2">
+   <a href="channel.php?channel=interstellarthoregonnews&amp;sid=b498d1f60777bc80ce64c28c883575f0"><img src="/images/channel_interstellarthoregonnews.png" alt="Interstellar Thoregon News" style="float:right;"></a>
+   <div class="bigfont"><a href="channel.php?channel=interstellarthoregonnews&amp;sid=b498d1f60777bc80ce64c28c883575f0">Interstellar Thoregon News</a></div><br><a href="channel.php?channel=interstellarthoregonnews&amp;sid=b498d1f60777bc80ce64c28c883575f0">Neuigkeiten f&uuml;r das ganze Universum</a>
+  </td>
+ </tr>
+ <tr>
+  <td class="tablelinea" colspan="2">In regelm&auml;&szlig;igen Abst&auml;nden ver&ouml;ffentlicht der Thoregon M&uuml;nster e.V. seine im Forum geposteten News rund um das gesamte Phantastischen Genre hier als Podcast.</td>
+ </tr>
+ <tr>
+  <td class="tablelineb">
+   <a href="podcast.php?feed=interstellarthoregonnews"><img src="/images/rss-feed.png" alt="Podcast abonnieren"></a>
+   <a href="podcast.php?feed=interstellarthoregonnews">Podcast abonnieren</a>
+  </td>
+  <td class="tablelineb smallfont right">Letztes Update: 27.05.2012 <span class="time">13:54</span></td>
+ </tr>
+    <tr>
+  <td class="tabletitlebtn" colspan="2">
+   <a href="channel.php?channel=tavernenplausch&amp;sid=b498d1f60777bc80ce64c28c883575f0"><img src="/images/channel_tavernenplausch.png" alt="Thoregons Tavernenplausch" style="float:right;"></a>
+   <div class="bigfont"><a href="channel.php?channel=tavernenplausch&amp;sid=b498d1f60777bc80ce64c28c883575f0">Thoregons Tavernenplausch</a></div><br><a href="channel.php?channel=tavernenplausch&amp;sid=b498d1f60777bc80ce64c28c883575f0">Ein Plausch rund um das Phantastische Genre</a>
+  </td>
+ </tr>
+ <tr>
+  <td class="tablelinea" colspan="2">Der Thoregon M&uuml;nster e.V. begibt sich vor das Mikrofon. Im lockeren Plausch erz&auml;hlen wir euch an dieser Stelle in unregelm&auml;&szlig;igen Abst&auml;nden interessantes rund um Filme, Serie und B&uuml;cher des phantastischen Genre.</td>
+ </tr>
+ <tr>
+  <td class="tablelineb">
+   <a href="podcast.php?feed=tavernenplausch"><img src="/images/rss-feed.png" alt="Podcast abonnieren"></a>
+   <a href="podcast.php?feed=tavernenplausch">Podcast abonnieren</a>
+  </td>
+  <td class="tablelineb smallfont right">Letztes Update: 13.05.2012 <span class="time">16:21</span></td>
+ </tr>
+   
+</table><br>
+<table class="table center" style="width:100%;">
+ <tr>
+  <td colspan=5 class="tablecat">Aktuelle Kinofilme, die in dieser Woche gestartet sind bzw. den n&auml;chsten 2 Wochen starten</td>
+ </tr> 
+ <tr>
+  <th class="tablehead smallfont">Startdatum</th>
+  <th class="tablehead smallfont">Filmtitel</th>
+  <th class="tablehead smallfont">Genre</th>
+  <th class="tablehead smallfont">Diskussionsthema</th>
+  <th class="tablehead smallfont">Webseite</th>
+ </tr> 
+     <tr>
+      <td class="tablelineb smallfont">21.06.2012</td>
+      <td class="tablelineb smallfont"><a href="http://forum.thoregon.de/cinema.php?action=detail&amp;id=500&amp;sid=b498d1f60777bc80ce64c28c883575f0">Jack The Giant Killer</a></td>
+      <td class="tablelineb smallfont">Fantasy</td>
+      <td class="tablelineb smallfont">&nbsp;</td>
+      <td class="tablelinebbtn">&nbsp;</td>
+     </tr>
+
+ <tr>
+  <td colspan=5 class="tablecat"><a href="http://forum.thoregon.de/cinema.php?sid=b498d1f60777bc80ce64c28c883575f0">Weitere Kinofilm-Starttermine anzeigen</a></td>
+ </tr> 
+</table>
+
+ </div>
+</div></div>
+
+</body>
+</html>

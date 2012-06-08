@@ -1,0 +1,926 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-ch" lang="de-ch">
+<!-- LP-CLUSTERID 14621 /LP-CLUSTERID -->
+<head>
+<base href="http://www.post.ch/" ></base>
+
+<!-- LP-TITLE --><title>Die Schweizerische Post - DirectPoint</title>
+<meta  name="description" content="Gezielt Kunden gewinnen - Kunden dauerhaft an Ihr Unternehmen binden." />
+<meta  name="keywords" content="direct marketing,dialogmarketing" />
+<meta  name="author" content="PostMail" />
+<meta  name="DCSext.CustomerSegment" content="Konzern" />
+<meta  name="timestamp" content="07.06.2012" />
+<meta  name="dc.date.modified" content="20120524" />
+<meta  name="subject" content="post.ch" />
+<meta  name="verify-v1" content="aTnE+Fr9s3I13eX88PEhesb95FFy28dd5hIjAyxTSJM=" />
+<meta  name="DCS.dcsuri" content="/post-startseite/post-directpoint.htm" />
+<meta  name="DCSext.Cluster" content="post.ch" />
+<meta  name="DCSext.Language" content="de" />
+<meta  name="language" content="de" />
+<meta  name="DCSext.Territory" content="NATIONAL" />
+<meta  name="DCSext.Group" content="PM" />
+<meta  name="DC.identifier" content="post-themencluster-directpoint" />
+<meta  name="DC.Collection" content="post-themencluster-directpoint" />
+<meta  name="DSCext.CustomerSegment" content="Corporate" />
+<meta  name="DCSext.subcluster" content="Direct Point" />
+<!-- /LP-TITLE -->
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<!-- LP-HEADER -->
+<link rel="shortcut icon" href="http://www.post.ch/favicon.ico" />
+<!-- yaml - main (integrates every needed CSS -->
+<link href="post-yaml-inhalt.css" type="text/css" rel="stylesheet" media="all" />
+
+
+
+
+<!-- Patch IE -->
+<!--[if lte IE 7]>
+<link href="post-yaml-main-iehacks.css" type="text/css" rel="stylesheet" media="all" />
+<![endif]-->
+<!--[if gte IE 8]>
+<link href="post-yaml-main-ie8-hacks.css" type="text/css" rel="stylesheet" media="all" />
+<![endif]-->
+
+<!-- Patch Safari -->
+<!--[if !IE]<!-->
+<link href="post-yaml-main-safarihacks.css" type="text/css" rel="stylesheet" media="all" />
+<!--<![endif]-->
+
+
+<script type="text/javascript" src="yaml-javascript-head-default.js"></script>
+
+
+
+
+<!--[if lt IE 7]>
+<script type="text/javascript">
+	try {
+ 		document.execCommand('BackgroundImageCache', false, true);
+	} catch(e) {}
+	
+	window.onload = function(){
+	   $$('div.hasOverlay').each(function(node){
+			Event.observe(node, 'mouseover', function() {
+				node.addClassName('showOverlay');
+				try {
+					node.down('.overlaydiv2').insert('<iframe class="iframe" frameborder="0"></iframe>');
+				} catch(e) {}
+				try {
+					node.down('.overlay').insert('<iframe class="iframe" frameborder="0"></iframe>');
+				} catch(e) {}
+			});
+			Event.observe(node, 'mouseout', function() {
+				try {
+					node.removeClassName('showOverlay');
+					node.down('.iframe').remove();
+				} catch(e) {}
+			});
+		});
+	}
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+// <![CDATA[
+   var GaFunnel = "";
+   Event.observe(window, "load", function() {
+		// For the PAG schedule teaser
+	   	if ($('scheduleDetailsLinkDiv') && $('schedule_detail')) {
+	   		$('scheduleDetailsLinkDiv').removeClassName('hidden');
+			//$('schedule_detail').addClassName('hidden');
+	   	}
+	   
+	   	// For the company_choice teaser
+	   	if ($('company_choice_data')) {
+	   		//$('company_choice_data').addClassName('company_data_js');
+			//$('company_choice_data').addClassName('overlay');
+			
+			var aUl = $$('div.zonelist');
+			for (var iCounter=0; iCounter<aUl.length; ++iCounter) {
+				aUl[iCounter].setStyle({display: 'none'});
+			}
+	   	}
+	   
+		if ($('aushangfahrplaene-search-form') || $('pag_aushangfahrplaene')) {
+		
+			$$('.autosuggest').each(function(el) {
+		        var context = autosuggest_context(el);
+		        var type = autosuggest_type(el);
+		        var resultsContainer = context + "_autocomplete_results";
+		        var url = "pag-aushangfahrplaene-autosuggest";
+		        var spinner = autosuggest_indicator(el);
+		        
+		        var a = new Ajax.Autocompleter(el.id, resultsContainer, url, {
+		            parameters: type,
+		            minChars: 1,
+		            indicator: spinner,
+		            callback: autosuggest_before,
+		            afterUpdateElement : set_autosuggest_choice
+		        });
+				
+				if (el.name == "stop") {
+					var k = context + "_autosuggest_dropdown";
+					postautoAutosuggests[k] = a;
+				}
+				
+				if (Prototype.Browser.IE) {
+					$(resultsContainer).observe('mousedown', (function(e) {
+						a.dontBlur = true;
+						e.stop();
+					}));	
+					
+					$(resultsContainer).observe('blur', (function(e) {
+						setTimeout((function() {
+							if (!$(el).focused) {
+								this.onBlur(e);
+							}
+						}).bind(this), 100);
+						e.stop();
+					}).bindAsEventListener(a));
+					
+					$(el).observe('focus', function() { $(el).focused = true; });
+					$(el).observe('blur', function() { $(el).focused = false; });
+				}
+				else {
+					$(resultsContainer).observe('mousedown', (function(e) {
+						e.stop();
+					}));
+				}
+		        
+		    });
+			
+			$$('.autosuggestDropdown').each(function(el) {
+				el.observe('click', function(ev) {
+					var context = autosuggest_context(el);
+					
+					var stop = $(context + "_stop");
+					var city = $(context + "_city");
+					var stopValue = "";
+					var cityValue = city.value;
+					if (stop.value == asciiToText("Haltestelle")) {
+						stopValue = "";
+					}
+					if (city.value == asciiToText("Ort")) {
+						cityValue = "";
+					}
+					stopValue = stop.value;
+					
+					if (cityValue != "" || stopValue != "") {	
+						stop.focus();	
+						if (stopValue == "") {
+							stop.value = "";
+						}
+						postautoAutosuggests[el.id].activate();
+					}
+				});
+			});
+		}
+   
+	   	EventSelectors.start(Rules);
+		
+		focusFirstFormField();		
+	});
+	
+	
+	Shadowbox.init({
+    	language: 'de',
+		adapter: 'prototype',
+    	players:  ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'],
+		ext: {
+                img:        ['png', 'jpg', 'jpeg', 'gif', 'bmp'],
+                swf:        ['swf'],
+				flv:        ['flv'],
+                qt:         ['dv', 'mov', 'moov', 'movie', 'mp4'],
+                wmp:        ['asf', 'wm', 'wmv'],
+                qtwmp:      ['avi', 'mpg', 'mpeg'],
+                iframe:     ['asp', 'aspx', 'cgi', 'cfm', 'htm', 'html', 'jsp',
+                    'pl', 'php', 'php3', 'php4', 'php5', 'phtml', 'rb', 'rhtml',
+                    'shtml', 'txt', 'vbs','pdf', 'pr_main', 'do']
+            },
+			
+		overlayOpacity: 0.7	
+	});
+// ]]>
+</script>
+
+
+<!-- LP-HEAD --><!-- /LP-HEAD -->
+<!-- /LP-HEADER -->
+</head>
+
+<body>
+	<!-- LP-BODY -->
+	<a id="top" name="top" class="anchor"></a>
+	<div id="header-bg"> </div>
+	<div id="page_margins">
+		<div id="page">
+			<div id="header" role="banner">
+				<div id="topnav">
+					<!--googleoff: all-->
+				    <!-- Start: Skiplink-Navigation -->
+<h1 class="hidden">Navigations- und Servicebereich</h1>
+<ul id="skiplinks">
+	<li><a class="skip" accesskey="0" href="http://www.post.ch/de" title="Direkt zur Startseite springen">Direkt zur Startseite springen</a></li>
+	<li><a class="skip" accesskey="1" href="post-startseite/post-directpoint.htm#navigation" title="Direkt zur Navigation springen">Direkt zur Navigation springen</a></li>
+	<li><a class="skip" accesskey="2" href="post-startseite/post-directpoint.htm#content" title="Direkt zum Inhalt springen">Direkt zum Inhalt springen</a></li>
+	<li><a class="skip" accesskey="3" href="http://www.post.ch/de/post-startseite/post-privatkunden/post-pk-kontakt.htm" title="Direkt zur Kontakt-Seite springen">Direkt zur Kontakt-Seite springen</a></li>
+	<li><a class="skip" accesskey="4" href="http://www.post.ch/de/post-startseite/post-sitemap.htm" title="Direkt zur Sitemap springen">Direkt zur Sitemap springen</a></li>
+	<li><a class="skip" accesskey="5" href="http://www.post.ch/de/post-startseite/post-suchcenter.htm" title="Direkt zur Suche springen">Direkt zur Suche springen</a></li>
+</ul>
+<!-- Ende: Skiplink-Navigation -->
+<!-- LP-LANGUAGESWITCH -->
+<ul id="nav-lang"><li class="current"><a href="/de/post-startseite/post-directpoint.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint">DE</a></li><li><a href="/fr/post-startseite/post-directpoint.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint">FR</a></li><li><a href="/it/post-startseite/post-directpoint.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint">IT</a></li></ul>
+<!-- /LP-LANGUAGESWITCH -->
+					<!--googleon: all-->
+				</div>
+				<!--googleoff: all-->
+				<div id="logo">
+	<a href="http://www.post.ch/de">
+		<img src="post-logo.gif" width="173" height="62" alt="" />
+	</a>
+</div>
+
+<div class="header-img">&nbsp;</div>
+<div class="header-img header-img-right">&nbsp;</div>
+
+<div class="header-stuff">
+	<div id="clustername" class="noprint">Die Schweizerische Post</div>
+	<h2 class="hidden" id="label_nav-head">Servicenavigation</h2>
+	
+		<ul class="noprint nav-meta" role="navigation">
+	
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-dp-sitemap.htm" title="Sitemap"><span class="link">Sitemap</span></a>
+		</li>	
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-geschaeftskunden/post-gk-kontakt.htm" title="Kontakt"><span class="link">Kontakt</span></a>
+		</li>	
+		
+		</ul>
+	
+	<div id="nav-head" class="noprint">
+		
+
+<ul role="navigation" aria-label="label_nav-head">
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern.htm" target="_self" title="Konzern"><span class="arrowlink">&nbsp;</span><span class="link">Konzern</span></a>
+		</li>	
+		
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern/post-jobs-und-karriere.htm" target="_self" title="Jobs und Karriere"><span class="arrowlink">&nbsp;</span><span class="link">Jobs und Karriere</span></a>
+		</li>	
+		
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern/post-medien.htm" target="_self" title="Medien"><span class="arrowlink">&nbsp;</span><span class="link">Medien</span></a>
+		</li>	
+		
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern/post-medien/post-medienmitteilungen.htm" target="_self" title="News"><span class="arrowlink">&nbsp;</span><span class="link">News</span></a>
+		</li>	
+		
+			<li class="right"><a href="http://www.swisspost.com/de" target="_self" title="weltweit" rel="external"><span class="arrowlink">&nbsp;</span><span class="link">weltweit</span></a></li>
+		
+			
+		
+			
+		
+			
+		</ul>
+	</div>
+	
+	<h2 class="hidden" id="label_nav-breadcrumb">Breadcrumbnavigation</h2>
+	
+<ul id="nav-breadcrumb" role="navigation" aria-label="label_nav-breadcrumb">
+
+
+	
+	
+	
+	<li><a href="post-startseite.htm">&gt;&nbsp;<span class="link">Home</span></a></li>
+	
+	
+	
+	<li><a href="post-startseite/post-directpoint.htm"><span class="link">DirectPoint</span></a></li>
+	
+	
+</ul>
+
+	
+</div>
+				<!--googleon: all-->
+			</div>
+			<hr class="hidden" />
+		
+			<!-- #nav: Hauptnavigation -->
+			<div id="nav">
+				<!--googleoff: all-->
+				<h2 class="hidden" id="label_navigation">Hauptnavigation</h2>
+<a id="navigation" name="navigation" class="anchor"></a> <!-- Skiplink-Anker: Navigation -->
+
+
+
+
+	<ul role="navigation" aria-label="label_navigation">
+	
+		
+		<li>
+			<a href="post-startseite/post-privatkunden.htm" target="_blank" title="Privatkunden"><span><span><span class="arrowlink">&nbsp;</span><span class="link">Privatkunden</span></span></span></a>
+		</li>	
+		
+		
+		<li class="current">
+			<a href="post-startseite/post-geschaeftskunden.htm" target="_blank" title="Geschäftskunden"><span><span><span class="arrowlink">&nbsp;</span><span class="link">Geschäftskunden</span></span></span></a>
+		</li>	
+		
+	</ul>
+	
+
+
+				<h2 class="hidden" id="label_search">Suche</h2>
+
+<div id="search" role="search" aria-label="label_search">
+	<form action="http://www.post.ch/de/post-startseite/post-suchcenter.htm" method="get" name="frmsearch">
+		<input type="hidden" name="requiredfields" value="post-themencluster-directpoint"/>
+		<label for="query" class="hidden">suchen</label>
+		<input autocomplete="off" onkeyup="getSuggestions(this, event);" type="text" class="text" name="query" id="query" value="Suchbegriff(e)" />
+		<div id="search-suggest-top" class="suggestions" style="display:none;"><div id="suggestions-top"></div><a class="close" href="#"><span class="link">schliessen</span></a></div>
+		<input type="submit" class="submit" value="suchen" />
+	</form>
+</div>
+				<!--googleon: all-->
+			</div>
+			<!-- #nav: - Ende -->
+		
+			<!-- #main: Beginn Inhaltsbereich -->
+			<div id="main">
+			
+				<!-- #col1: Erste Float-Spalte des Inhaltsbereiches -->
+				<hr class="hidden" />
+			    <div id="col1">
+					<div id="col1_content" class="clearfix">
+						<!--googleoff: all-->
+						<h3 class="hidden">Unternavigation</h3>
+
+
+<ul id="nav-sub">
+			<li><a class="current" href="post-startseite/post-directpoint.htm"><span class="arrowlink">&nbsp;</span><span class="link">DirectPoint</span></a>
+		<ul>
+			<li><a href="post-startseite/post-directpoint/post-dp-aktuell.htm"><span class="arrowlink">&nbsp;</span><span class="link">Aktuell</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-mailing-guide.htm"><span class="arrowlink">&nbsp;</span><span class="link">Mailing-Guide</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-kurse-und-seminare.htm"><span class="arrowlink">&nbsp;</span><span class="link">Kurse &amp; Seminare</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-wissen.htm"><span class="arrowlink">&nbsp;</span><span class="link">DM-Wissen</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-publikationen.htm"><span class="arrowlink">&nbsp;</span><span class="link">DM-Publikationen</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-branchenloesungen.htm"><span class="arrowlink">&nbsp;</span><span class="link">Branchenlösungen</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-checklisten-und-vorlagen.htm"><span class="arrowlink">&nbsp;</span><span class="link">Checklisten &amp; Vorlagen</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-tipps-und-tricks.htm"><span class="arrowlink">&nbsp;</span><span class="link">Tipps &amp; Tricks</span></a></li>
+		
+			<li><a href="post-startseite/post-directpoint/post-dp-dm-tools.htm"><span class="arrowlink">&nbsp;</span><span class="link">DM-Tools</span></a></li>
+		
+	 </ul></li>
+ 	</ul>
+
+						<!--googleon: all-->
+					</div>
+			    </div>
+				<!-- #col1: - Ende -->
+			
+				<!-- content -->
+				<!-- #col2: zweite Flaot-Spalte des Inhaltsbereiches -->
+				<hr class="hidden" />
+			    <div id="col2">
+				  <h2 class="hidden">Weiterführende Inhalte</h2>
+			      <div id="col2_content" class="clearfix" role="complementary">
+				  	
+<!-- LP-TEASER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="links_box" class="teaser-box linksBoxBox">
+
+
+
+
+<div class="linksBoxTitleBoarder"><div id="teaserLinksBoxTitle_continuative_links" class="linksBoxTitleOpened">Weiterführende Links</div></div><div id="teaserLinksBoxContent_continuative_links" class="linksBoxContent"><div>
+			<ul class="downloads">
+				
+			<li class="first">
+				
+			<a href="post-startseite/post-geschaeftskunden/post-direct-marketing/post-direct-marketing-national.htm" title="National" class="contentlink ilink"><span class="arrowlink">&nbsp;</span><span class="link">Direct Marketing national</span></a>
+		
+			</li>
+		
+			<li class="lastlink">
+				
+			<a href="post-startseite/post-geschaeftskunden/post-direct-marketing/post-direct-marketing-international.htm" title="International" class="contentlink ilink"><span class="arrowlink">&nbsp;</span><span class="link">Direct Marketing international</span></a>
+		
+			</li>
+		
+			</ul>
+		
+</div></div>
+
+
+<div class="linksBoxTitleBoarder"><div id="teaserLinksBoxTitle_downloads" class="linksBoxTitleOpened">Downloads</div></div><div id="teaserLinksBoxContent_downloads" class="linksBoxContent"><div>
+			<ul class="downloads">
+				
+			<li class="first">
+				
+			<a href="http://www.post.ch/post-startseite/post-directpoint/post-direct-marketing-broschuere.pdf" target="_blank" title="post-direct-marketing-broschuere.pdf" class="contentlink linkicon ilink"><span class="icon icon_pdf">&nbsp;</span><span class="arrowlink">&nbsp;</span><span class="link">Broschüre «Direct Marketing»<span class="hidden">Link wird in einem neuen Fenster geöffnet; Die PDF-Dateien auf unserem Portal sind barrierefrei. Sollten Sie trotzdem auf eine PDF-Datei stossen, 
+die nicht zugänglich ist, melden Sie dies bitte per E-Mail an unsere Fachstelle: accessibility@post.ch. 
+Für entsprechende Hinweise sind wir dankbar.</span></span><span class="size"> (PDF, 1 MB)</span></a>
+		
+			</li>
+		
+			<li class="lastlink">
+				
+			<a href="http://www.post.ch/post-startseite/post-directpoint/post-pm-briefe-schweiz.pdf" target="_blank" title="post-pm-briefe-schweiz.pdf" class="contentlink linkicon ilink"><span class="icon icon_pdf">&nbsp;</span><span class="arrowlink">&nbsp;</span><span class="link">Broschüre «Briefe Schweiz»<span class="hidden">Link wird in einem neuen Fenster geöffnet; Die PDF-Dateien auf unserem Portal sind barrierefrei. Sollten Sie trotzdem auf eine PDF-Datei stossen, 
+die nicht zugänglich ist, melden Sie dies bitte per E-Mail an unsere Fachstelle: accessibility@post.ch. 
+Für entsprechende Hinweise sind wir dankbar.</span></span><span class="size"> (PDF, 1 MB)</span></a>
+		
+			</li>
+		
+			</ul>
+		
+</div></div>
+
+
+
+	
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="promoBoxContent imageTeaser promoBoxFirst">
+	<a target="_self" href="http://directpoint.post.ch/u/register.php?CID=750845334&amp;f=1563&amp;WT.ac=DE%20Midi-Teaser%20NL%20abonnieren" title="Newsletter abonnieren" rel="shadowbox;player=iframe;width=700;height=650"><img src="post-dp-miniteaser-newsletter-directpoint-192x80.02.11.gif" width="192" height="80" alt="Newsletter abonnieren" /></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="promoBoxContent imageTeaser ">
+	<a target="_self" href="http://www.post.ch/post-startseite/post-directpoint/post-dp-wissen/post-dp-glossar.htm?WT.ac=DirectPoint-Teaser-DirectGlossary%20-%20DE" title="DirectGlossary - Marketing-Fachbegriffe einfach erklärt"><img src="post-dp-miditeaser-directglossary.jpg" width="192" height="176" alt="DirectGlossary - Marketing-Fachbegriffe einfach erklärt" /></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /LP-TEASER -->
+				  </div>
+			    </div>
+				<!-- #col2: - Ende -->
+			
+				<!-- #col3: Statische Spalte des Inhaltsbereiches -->
+				<hr class="hidden" />
+			    <div id="col3">
+			      	<div id="col3_content" class="clearfix" role="main">
+						<a id="content" name="content" class="anchor"></a> <!-- Skiplink-Anker: Content -->
+						<!-- LP-CONTENT -->
+
+
+
+<div class="keyvisual">
+
+<img src="post-direct-point-544-240.jpg" width="544" height="240" alt="" class="fullwidth" />
+
+
+
+
+
+
+
+</div>
+
+<div class="subcolumns">
+	<div class="Textc73l">
+		<div class="subcl">
+			<h1>DirectPoint</h1>
+			<span class="claim">Die Plattform für Direct Marketing, adressierte Mailings und unadressierte Werbung<br />  </span>
+<h2>Gibt es heute noch Zielgruppen?</h2>
+ <span class="img img-left"><img src="post-dp-gibt-es-heute-noch-zielgruppen-176x112.jpg" width="176" height="112" alt="" /></span>
+<p>Nie wussten Unternehmen mehr über das Kaufverhalten ihrer Kunden, deren Kanalpräferenzen und Kaufentscheidungsprozesse. Und noch nie gab es mehr Medienkanäle, die als Kontaktpunkt zu potenziellen Kunden in Frage kommen. Trotzdem war es noch nie so schwierig, Zielgruppen – also Personen mit hoher Ähnlichkeit – zu bestimmen. </p>
+<p><a href="post-startseite/post-directpoint/post-dp-wissen/post-dp-fokusartikel/post-dp-touchpoint-management.htm" title="Touchpoint-Management" class="contentlink ilink"><span class="arrowlink">&nbsp;</span><span class="link">Hintergründe und Lösungsansätze</span></a></p>
+<h2>10 Ansätze für die Segmentierung von Zielgruppen</h2>
+ <span class="img img-left"><img src="post-dp-10-ansaetze-fuer-die-segmentierung-von-zielgruppen-176x112.jpg" width="176" height="112" alt="" /></span>
+<p>Um neue Kunden zu gewinnen, müssen Sie sich mit Kaufmotiven, Einstellungen und Vorlieben der potenziellen Kunden auseinandersetzen. Unsere zehn Segmentierungsansätze zeigen Ihnen, wie unterschiedlich das Vorgehen hier sein kann. </p>
+<p><a href="http://www.post.ch/post-startseite/post-directpoint/pm-so-finden-sie-ihre-zielgruppe.pdf" target="_blank" title="So finden Sie Ihre Zielgruppe" class="contentlink linkicon ilink"><span class="icon icon_pdf">&nbsp;</span><span class="arrowlink">&nbsp;</span><span class="link">Wie Sie zielsicher neue Kunden aufspüren<span class="hidden">Link wird in einem neuen Fenster geöffnet; Die PDF-Dateien auf unserem Portal sind barrierefrei. Sollten Sie trotzdem auf eine PDF-Datei stossen, 
+die nicht zugänglich ist, melden Sie dies bitte per E-Mail an unsere Fachstelle: accessibility@post.ch. 
+Für entsprechende Hinweise sind wir dankbar.</span></span><span class="size"> (PDF, 401 KB)</span></a></p>
+
+			
+<div id="ce-liste" class="noprint listRightMargin">
+
+
+
+
+
+
+<!-- OneLevelLinklistTwoCols -->
+
+
+
+	<div class="list-OneLeveLinklistTwoCols">
+	<ul>
+	
+
+	<li class="left">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-aktuell.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="Aktuell"  ><span class="arrowlink">&nbsp;</span><span class="link">Aktuell</span></a>
+	
+	</li>
+
+	<li class="right">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-branchenloesungen.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="Branchenlösungen"  ><span class="arrowlink">&nbsp;</span><span class="link">Branchenlösungen</span></a>
+	
+	</li>
+
+	<li class="left">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-mailing-guide.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="Mailing-Guide"  ><span class="arrowlink">&nbsp;</span><span class="link">Mailing-Guide</span></a>
+	
+	</li>
+
+	<li class="right">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-checklisten-und-vorlagen.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="Checklisten &amp; Vorlagen"  ><span class="arrowlink">&nbsp;</span><span class="link">Checklisten &amp; Vorlagen</span></a>
+	
+	</li>
+
+	<li class="left">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-kurse-und-seminare.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="Kurse &amp; Seminare"  ><span class="arrowlink">&nbsp;</span><span class="link">Kurse &amp; Seminare</span></a>
+	
+	</li>
+
+	<li class="right">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-tipps-und-tricks.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="Tipps &amp; Tricks"  ><span class="arrowlink">&nbsp;</span><span class="link">Tipps &amp; Tricks</span></a>
+	
+	</li>
+
+	<li class="left">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-wissen.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="DM-Wissen"  ><span class="arrowlink">&nbsp;</span><span class="link">DM-Wissen</span></a>
+	
+	</li>
+
+	<li class="right borderbottom">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-dm-tools.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="DM-Tools"  ><span class="arrowlink">&nbsp;</span><span class="link">DM-Tools</span></a>
+	
+	</li>
+
+	<li class="left borderbottom">
+	
+	<a class="link" href="post-startseite/post-directpoint/post-dp-publikationen.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" title="DM-Publikationen"  ><span class="arrowlink">&nbsp;</span><span class="link">DM-Publikationen</span></a>
+	
+	</li>
+
+	</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+		</div>
+	</div>
+	<div class="Textc27r">
+		<div class="subcr"> </div>
+	</div>
+</div>
+
+
+<div id="nav-contentfooter" class="noprint">
+	<ul class="right">
+		<li>
+			<a title="Seitenanfang" href="post-startseite/post-directpoint.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint#top"><img src="layout-nav-contentfooter-top.gif" width="16" height="16" alt="Seitenanfang" /></a>
+		</li>
+		<li>
+			<a title="Diese Seite senden" href="http://www.post.ch/de/post-startseite/seite-senden.htm?pageID=33301&amp;validate=68406E039DB3CEC860F46390A8984FEE&amp;DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint" rel="shadowbox;width=640;height=720" target="_blank"><img src="nav-contentfooter-send.gif" width="16" height="16" alt="Diese Seite senden" /></a>
+		</li>
+		<li>
+			<a title="Diese Seite drucken" href="post-startseite/post-directpoint.htm?DCSext.wt_shortcut=directpoint&amp;WT.mc_id=shortcut_directpoint&amp;browser=print" class="printpopup" target="_blank"><img src="nav-contentfooter-print.gif" width="16" height="16" alt="Diese Seite drucken" /></a>
+		</li>
+		
+
+
+	<li>
+		<a title="Diese Seite in Ihrem Delicious-Profil hinzufügen" href="http://del.icio.us/post?url=http%3a%2f%2fwww.post.ch%2fvt-11369&amp;title=Die%20Schweizerische%20Post%20-%20DirectPoint" target="_blank"><img src="delicious-share.png" width="16" height="16" alt="Diese Seite in Ihrem Delicious-Profil hinzufügen" /></a>
+	</li>
+	<li>
+		<a title="Diese Seite auf Ihrem Twitter-Profil publizieren" href="http://twitter.com/?status=Die%20Schweizerische%20Post%20-%20DirectPoint+http%3a%2f%2fwww.post.ch%2fvt-11369" target="_blank"><img src="twitter-share.png" width="16" height="16" alt="Diese Seite auf Ihrem Twitter-Profil publizieren" /></a>
+	</li>
+	<li>
+		<a title="Diese Seite auf Ihrem Facebook-Profil publizieren" href="http://www.facebook.com/share.php?u=http%3a%2f%2fwww.post.ch%2fvt-11369" target="_blank"><img src="facebook-share.png" width="16" height="16" alt="Diese Seite auf Ihrem Facebook-Profil publizieren" /></a>
+	</li>
+
+		
+	</ul>
+</div>
+
+<!-- /LP-CONTENT -->
+			     	</div>
+				   	<!-- IE Column Clearing -->
+			        <div id="ie_clearing">&nbsp;</div>
+			      	<!-- Ende: IE Column Clearing -->
+				</div>
+				<!-- #col3: - Ende -->
+				<!-- /content -->
+			
+			</div>
+			<!-- #main: - Ende -->
+			
+			<!-- #Footer: Beginn Fußzeile -->
+			<hr class="hidden" />
+			<div id="footer">
+				<!--googleoff: all-->
+				<h1 class="hidden">Weitere Informationen</h1>
+<div class="row noprint">
+	<div id="footer-title">
+		©&nbsp;2012&nbsp;Die Schweizerische Post
+	</div>
+	
+		<ul class="noprint right" role="navigation">
+	
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-dp-sitemap.htm" title="Sitemap"><span class="link">Sitemap</span></a>
+		</li>	
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-geschaeftskunden/post-gk-kontakt.htm" title="Kontakt"><span class="link">Kontakt</span></a>
+		</li>	
+		
+		</ul>
+	
+	
+
+	
+		<ul class="noprint nav-middle" role="navigation">
+	
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern.htm" target="_self" title="Konzern"><span class="link">Konzern</span></a>
+		</li>	
+		
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern/post-jobs-und-karriere.htm" target="_self" title="Jobs und Karriere"><span class="link">Jobs und Karriere</span></a>
+		</li>	
+		
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern/post-medien.htm" target="_self" title="Medien"><span class="link">Medien</span></a>
+		</li>	
+		
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-konzern/post-medien/post-medienmitteilungen.htm" target="_self" title="News"><span class="link">News</span></a>
+		</li>	
+		
+			
+		
+			<li class="right"><a href="http://www.post.ch/de/post-startseite/post-preise.htm" title="Preise" rel="external"><span class="link">Preise</span></a></li>
+		
+			<li class="right"><a href="http://www.post.ch/de/post-mobile.htm" title="Mobile" rel="external"><span class="link">Mobile</span></a></li>
+		
+			<li class="right"><a href="http://www.post.ch/de/post-social-media.htm" title="Social Media" rel="external"><span class="link">Social Media</span></a></li>
+		</ul>				
+</div>
+<div class="row noprint" role="contentinfo">
+	<div id="footer-sites">
+	<a href="http://www.post.ch/de/post-startseite/post-webseiten.htm" target="_blank" title="weitere Post-Webseiten">
+		<span class="link">weitere Post-Webseiten</span>
+		<span class="hidden">Link wird in einem neuen Fenster geöffnet</span>
+	</a>
+</div>
+	
+		<ul class="noprint right" role="navigation">
+	
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-zugang-fuer-alle.htm" target="_blank" title="Barrierefreiheit"><span class="link">Barrierefreiheit<span class="hidden">Link wird in einem neuen Fenster geöffnet</span></span></a>
+		</li>	
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-agb.htm" target="_blank" title="Allgemeine Geschäftsbedingungen"><span class="link">Allgemeine Geschäftsbedingungen<span class="hidden">Link wird in einem neuen Fenster geöffnet</span></span></a>
+		</li>	
+		
+		<li>
+			<a href="http://www.post.ch/de/post-startseite/post-disclaimer.htm" target="_blank" title="Rechtlicher Hinweis"><span class="link">Rechtlicher Hinweis<span class="hidden">Link wird in einem neuen Fenster geöffnet</span></span></a>
+		</li>	
+		
+		</ul>
+	
+	<div id="footer-countries">
+		
+
+<form id="form_country_dropdown" name="form_country_dropdown" action="post-startseite/post-directpoint/post-dp-publikationen/post-dp-directfacts.htm?WT.ac=DirectPoint-DE&amp;teaser_links_box_opened=downloads%2Crelated_links%2Ccontinuative_links&amp;teaser_links_box=true" method="post">
+	<label for="clusterchoice">
+	Länderseiten:
+	</label>
+	<select id="clusterchoice" name="clusterchoice">	
+
+		<option value="1">Bitte auswählen</option>
+
+		<option value="2">Schweiz</option>
+
+		<option value="3">Belgien</option>
+
+		<option value="4">Dänemark</option>
+
+		<option value="5">Deutschland</option>
+
+		<option value="6">Finnland</option>
+
+		<option value="7">Frankreich</option>
+
+		<option value="8">Grossbritannien</option>
+
+		<option value="9">Hongkong</option>
+
+		<option value="10">Indien</option>
+
+		<option value="11">Italien</option>
+
+		<option value="12">Niederlande</option>
+
+		<option value="13">Norwegen</option>
+
+		<option value="14">Österreich</option>
+
+		<option value="15">Schweden</option>
+
+		<option value="16">Singapur</option>
+
+		<option value="17">Spanien</option>
+
+		<option value="18">Vereinigte Staaten von Amerika</option>
+
+	</select>
+	<noscript>
+		<input class="submit" type="submit" value="starten"/>
+	</noscript>
+</form>
+
+	</div>
+
+</div>
+
+				<!--googleon: all-->
+			</div>
+			<!-- #Footer: Ende -->
+		</div>
+	</div>
+	<!--googleoff: all-->
+	
+
+
+<script src="webtrends.js" type="text/javascript"></script>
+<!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+<!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+<script type="text/javascript">
+//<![CDATA[	
+	var _tag = new WebTrends();
+	
+	_tag.dcsid = "dcs674dhm10000kbu26l8tn6u_4i9j";
+	_tag.domain = "statse.webtrendslive.com";
+	_tag.timezone = 1;   // Timezone CET
+	_tag.fpcdom = ""; // set domain here with preceding . (parameter needed if subdomains are used)
+	_tag.fpc = "WT_FPC";   // cookie name
+	_tag.onsitedoms = "www.post.ch,www1.post.ch,www2.post.ch,www.poste.ch,www.posta.ch,www.swisspost.ch,www.postauto.ch,www.carpostal.ch,www.autopostale.ch,www.postbus.ch,www.swisspost.com,www.mds-media.ch,www.edsag.ch,www.swisspost-gls.ch,www.fm-verzollung.ch,www.swisspostsolutions.com,www.brandingnet.ch,net.post.ch,mobile.swisspost.ch,mobile.swisspost.com,mobile.swisspostsolutions.com,mobile.postauto.ch";
+	_tag.downloadtypes = "pdf,exe, zip,wav,wmv,avi,mov,txt,mp3,mpg,mpeg,mp4,dotx,docx,doc,dot,mmp,potx,ppsx,pptx,ppt,pot,xltx,xlsx,xls";
+	_tag.adclickparam = "WT.ac";
+	
+	_tag.dcsGetId();
+	
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+// Add custom parameters here.
+	
+	_tag.dcsCollect();	
+//]]>
+</script>
+<noscript>
+<div>
+<img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://statse.webtrendslive.com/dcs674dhm10000kbu26l8tn6u_4i9j/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=8.0.2"/>
+</div>
+</noscript>
+
+<!-- END OF SmartSource Data Collector  TAG -->              
+<!-- WT End -->
+
+
+
+	<!--googleon: all-->
+	<!-- /LP-BODY -->
+</body>
+</html>

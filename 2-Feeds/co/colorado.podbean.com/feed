@@ -1,0 +1,118 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="utf-8" />
+<META name="verify-v1" content="c4/pDaOOoKLnTbQICD5KP1Hnsp4Bey33zHuFjZ5bxLM=" />
+<LINK REL="SHORTCUT ICON" href="/favicon.ico" type="image/x-icon" />
+
+<title>Error 404 - Page Not Found</title>
+<link href="/home/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/home/css/style_x.css" rel="stylesheet" type="text/css" media="screen" />
+
+</head>
+<body class="grey">
+<!-- staging -->
+<div id="all">
+<div id="bg">
+	<div id="header">
+		<table width="938px" cellpadding=5 cellspacing=0>
+		<tr height="53px">
+		<td width="237px" align="left">
+		<div id="logo">
+		</div>
+		</td>
+		<td valign="bottom" align="left">
+		<div style="vertical-align:bottom; margin-bottom:5px;"> <h2 class="sitetag">
+		Podcast hosting, <br />Social subscribing</h2>
+		</div>
+		</td>
+		<td width="330px" align="right">
+		<div id="login">
+    <td width="330px" align="right">
+		<div id="login">
+    <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="http://www.podbean.com/podcast_hosting_audio_video_blog_hosting"><strong>Sign Up</strong></a></span> 
+	 <span style="font-size:12px;padding-left:3px;">|</span>
+	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="http://www.podbean.com/podbean-help"><strong>Help</strong></a></span> 
+	  <span style="font-size:12px;padding-left:3px;">|</span>
+	 <span style="font-size:12px;padding-left:3px;"><a class="defaultunderline" href="https://www.podbean.com/login?redirect_to=http%3A%2F%2Fwww.podbean.com%2F" ><strong>Log In</strong></a></span> 
+ <div id="login1">
+
+ 	<form name="searchForm" id="searchForm" method="get" action="/search">
+ 		<input type="hidden" name="k" value="all">
+		<input type="text" name="v" maxlength="50" class="searchField" value="">
+		&nbsp;
+		<input type="submit" name="search" value="Search">
+	</form>
+ </div>
+ </div>
+ </td>
+
+ </tr>
+</table>	
+      
+	</div>
+	
+	<!-- tabs -->
+		<div class="rb_tabs">
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="/">Home</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcasts">Podcasts</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcast-directory-tag">Tags</a></div>
+		<div class="rb_tab_l off_l"></div><div class="rb_tab_r off_r"><a href="http://www.podbean.com/podcast-directory-add-feed">Add a Podcast</a></div>
+		<div class="rb_tab_l off_l_b"></div><div class="rb_tab_r off_r_b"><a href="http://www.podbean.com/pb-signup-publisher.php">Publish a podcast</a></div>
+		</div>
+		<!-- /tabs -->
+		
+		
+		<div class="rb_body_bg"><!-- shadow bg -->
+			<div class="rb_body"><!-- margins for shadow -->
+				<div class="rb_content"><!-- white background -->
+					<div class="rb_subnav">
+					                    </div>
+
+
+				</div><!-- /rb_content -->
+			</div><!-- /rb_body -->
+		</div><!-- /rb_body_bg -->
+
+ <!-- cobr header --><div id="content" style="height:500px;">
+<center>
+<br />
+<div class="bluetitle16">Error 404 - Page Not Found</div>
+</center>
+</div>
+</div>
+</div>
+	<div id="footer">
+		<div id="copyright">
+			<p class="small" style="color:#666">Copyright&copy;2006-2011		&nbsp;
+		<b>Podbean.com</b></p>
+		<ul class="site">
+			<li class="site"><a href="/podbean-privacy" title="Privacy Policy">Privacy Policy</a></li>
+			<li class="site">&nbsp;|&nbsp;</li>
+			<li class="site"><a href="/podbean-terms" title="Terms Of Use">Terms Of Use</a></li>
+		</ul>
+		</div>
+		<div id="subnav">
+		<ul class="site">
+			<li class="site"><h2><a href="/" title="about us">Home</a></h2></li>
+			<li class="site"><h2><a href="http://news.podbean.com" title="news">News</a></h2></li>
+			<li class="site"><h2><a href="/podcast_hosting_audio_video_blog_hosting_features_main" title="features">Features</a></h2></li>
+			<li class="site"><h2><a href="/podcast_hosting_audio_video_blog_hosting_features" title="pricing">Pricing</a></h2></li>
+			<li class="site"><h2><a href="http://www.podbeans.com/business-podcast-solution" title="business solution">Business Solutions</a></h2></li>
+			<li class="site"><h2><a href="http://m.podbeans.com" title="mobile">Mobile</a></h2></li>
+			<li class="site"><h2><a href="/contact" title="contact us">Contact us</a></h2></li>
+			<li class="site"><h2><a href="/podcast-blog-embeddable-mp3-flash-player" title="Free Podbean Player">Embeddable Player</a></h2></li>
+			<li class="site"><h2><a href="/podbean-banners" title="Podbean Banners">Link to us</a></h2></li>
+			<li class="site"><h2><a href="http://faq.podbean.com/podcast-faq-index/" title="faq">FAQ</a></h2></li>
+			<li class="site"><h2><a href="/podcast_resources" title="Podcast resources">Resources</a></h2></li>
+				</ul>
+		</div>
+	</div>
+	
+</body>
+</html>

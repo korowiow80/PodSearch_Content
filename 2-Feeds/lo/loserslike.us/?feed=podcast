@@ -1,0 +1,612 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="fb:admins" content="" />
+<meta property="og:site_name" content="Losers Like Us" />
+<meta content="front" about="/front" property="dc:title" />
+<meta about="/front" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes" />
+<link rel="shortcut icon" href="http://loserslike.us/sites/default/files/favicon2_0.png" type="image/png" />
+<meta property="og:url" content="http://loserslike.us/front" />
+<meta property="og:title" content="front" />
+<link rel="canonical" href="/front" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/1" />
+<link rel="alternate" type="application/rss+xml" title="Latest Articles" href="http://loserslike.us/latest-articles.xml?feed=podcast" />
+<link rel="alternate" type="application/rss+xml" title="Latest Blog Entries" href="http://loserslike.us/latest-blogs.xml?feed=podcast" />
+<meta property="og:type" content="activity" />
+  <title>Losers Like Us | It Takes One To Know One</title>  
+  <style type="text/css" media="all">@import url("http://loserslike.us/modules/system/system.base.css?lzl2cf");
+@import url("http://loserslike.us/modules/system/system.menus.css?lzl2cf");
+@import url("http://loserslike.us/modules/system/system.messages.css?lzl2cf");
+@import url("http://loserslike.us/modules/system/system.theme.css?lzl2cf");</style>
+<style type="text/css" media="all">@import url("http://loserslike.us/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?lzl2cf");</style>
+<style type="text/css" media="screen">@import url("http://loserslike.us/sites/all/modules/qtip/library/jquery.qtip.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/qtip/css/qtip.css?lzl2cf");</style>
+<style type="text/css" media="all">@import url("http://loserslike.us/modules/comment/comment.css?lzl2cf");
+@import url("http://loserslike.us/modules/field/theme/field.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/logintoboggan/logintoboggan.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/mollom/mollom.css?lzl2cf");
+@import url("http://loserslike.us/modules/node/node.css?lzl2cf");
+@import url("http://loserslike.us/modules/poll/poll.css?lzl2cf");
+@import url("http://loserslike.us/modules/search/search.css?lzl2cf");
+@import url("http://loserslike.us/modules/user/user.css?lzl2cf");
+@import url("http://loserslike.us/modules/forum/forum.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/views/css/views.css?lzl2cf");</style>
+<style type="text/css" media="all">@import url("http://loserslike.us/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/ctools/css/ctools.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/panels/css/panels.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/modules/purr_messages/purrcss/purr.css?lzl2cf");
+@import url("http://loserslike.us/modules/openid/openid.css?lzl2cf");</style>
+<style type="text/css" media="all">@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/alpha-reset.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/alpha-mobile.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/alpha-alpha.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/omega/omega/css/formalize.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/omega/omega/css/omega-text.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/omega/omega/css/omega-branding.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/omega/omega/css/omega-menu.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/omega/omega/css/omega-forms.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/omega/omega/css/omega-visuals.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/global.css?lzl2cf");</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default-normal.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?lzl2cf");</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/grid/alpha_default/fluid/alpha-default-fluid-12.css?lzl2cf");</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 140px) and (min-device-width: 140px), (max-device-width: 700px) and (min-width: 700px) and (orientation:landscape)">@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default-narrow.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?lzl2cf");</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default-normal.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?lzl2cf");</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/optimus_reborn/css/optimus-reborn-alpha-default-wide.css?lzl2cf");
+@import url("http://loserslike.us/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?lzl2cf");</style>
+<!--<![endif]-->
+  <script type="text/javascript" src="http://loserslike.us/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://loserslike.us/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://loserslike.us/misc/drupal.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/qtip/library/jquery.qtip.js?v=2.0.0pre"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/qtip/js/qtip.js?v=2.0.0pre"></script>
+<script type="text/javascript" src="http://loserslike.us/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript" src="http://loserslike.us/misc/jquery.form.js?v=2.52"></script>
+<script type="text/javascript" src="http://loserslike.us/misc/ajax.js?v=7.9"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/mollom/mollom.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/libraries/colorbox/colorbox/jquery.colorbox-min.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/colorbox/js/colorbox.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_stockholmsyndrome.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/colorbox/js/colorbox_load.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/colorbox/js/colorbox_inline.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/image_attribution/image_attribution.min.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/image_caption/image_caption.min.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/panels/js/panels.js?lzl2cf"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  var rwd_images = {
+		widthBreakPoint: 960,
+	};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/libraries/responsive_images/rwd-images/rwd-images.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/disqus/disqus.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/mediaelement/mediaelement.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/views/js/base.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/misc/progress.js?1339033107"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/views/js/ajax_view.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/modules/logintoboggan/logintoboggan.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/modules/openid/openid.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/themes/optimus_reborn/js/captify.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/themes/omega/omega/omega/js/jquery.formalize.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/themes/omega/omega/omega/js/omega-mediaqueries.js?lzl2cf"></script>
+<script type="text/javascript" src="http://loserslike.us/sites/all/themes/omega/omega/omega/js/omega-equalheights.js?lzl2cf"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"optimus_reborn","theme_token":"tlkjlV_8LOpHQ2BEso7BJ3RN7s02L210v--spZqTjzw","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/modules\/qtip\/library\/jquery.qtip.js":1,"sites\/all\/modules\/qtip\/js\/qtip.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/mollom\/mollom.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/stockholmsyndrome\/colorbox_stockholmsyndrome.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/image_attribution\/image_attribution.min.js":1,"sites\/all\/modules\/image_caption\/image_caption.min.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"0":1,"sites\/all\/libraries\/responsive_images\/rwd-images\/rwd-images.js":1,"sites\/all\/modules\/disqus\/disqus.js":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.js":1,"modules\/openid\/openid.js":1,"sites\/all\/themes\/optimus_reborn\/js\/captify.js":1,"sites\/all\/themes\/omega\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/omega\/omega\/omega\/js\/omega-equalheights.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/qtip\/library\/jquery.qtip.css":1,"sites\/all\/modules\/qtip\/css\/qtip.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/player\/jplayer\/jplayer.css":1,"sites\/all\/modules\/colorbox\/styles\/stockholmsyndrome\/colorbox_stockholmsyndrome.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/purr_messages\/purrcss\/purr.css":1,"modules\/openid\/openid.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/omega\/css\/omega-visuals.css":1,"sites\/all\/themes\/optimus_reborn\/css\/global.css":1,"ie::normal::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default.css":1,"ie::normal::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"fluid::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/fluid\/alpha-default-fluid-12.css":1,"narrow::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default.css":1,"narrow::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default.css":1,"normal::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default.css":1,"wide::sites\/all\/themes\/optimus_reborn\/css\/optimus-reborn-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%","initialWidth":"300","initialHeight":"100","fixed":true,"__drupal_alter_by_ref":["stockholmsyndrome"]},"mediaelementAll":true,"qtip":{"target_position":"bottom_center","tooltip_position":"top_center","show_speech_bubble_tip":1,"show_speech_bubble_tip_side":1,"speech_bubble_size":"12","show_speech_bubble_tip_solid":0,"show_shadow":1,"rounded_corners":1,"color":"ui-tooltip-tipsy","custom_color":"tooltip","show_event_type":"mouseenter","hide_event_type":"mouseleave","show_webform_descriptions":0,"additional_elements":".user-menu li a"},"disqusComments":"loserslikeus","mediaelement":{".mediaelement-formatter-identifier-1339033108-0":{"opts":{"audioHeight":30,"audioWidth":500},"controls":true}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:0fe4aa6c98a55049431020d024d17939":{"view_name":"asshole_quotes","view_display_id":"block","view_args":"","view_path":"node\/1","view_base_path":null,"view_dom_id":"0fe4aa6c98a55049431020d024d17939","pager_element":0}}},"omega":{"layouts":{"primary":"normal","order":["fluid","narrow","normal","wide"],"queries":{"fluid":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","narrow":"all and (min-width: 140px) and (min-device-width: 140px), (max-device-width: 700px) and (min-width: 700px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in page-node page-node- page-node-1 node-type-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix">  
+  <div id="zone-user" class="container-12 zone zone-user clearfix">
+    <div class="grid-8 region region-user-first" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <section class="block block-views  contextual-links-region block-podcast-player-block block-views-podcast-player-block odd" id="block-views-podcast-player-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Podcast Player</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-podcast-player view-id-podcast_player view-display-id-block view-dom-id-0d64211daf22dd64547377d31281b6b4">
+        
+  
+  
+      <div class="view-content">
+        <h3><div class="mediaelement-audio"><audio  src="http://loserslike.us/sites/default/files/podcast/ogg/LosersLikeUs_Episode12.ogg" class="mediaelement-formatter-identifier-1339033108-0" controls="controls" ></audio></div></h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-ogg">        <div class="field-content"><div class="mediaelement-audio"><audio  src="http://loserslike.us/sites/default/files/podcast/ogg/LosersLikeUs_Episode12.ogg" class="mediaelement-formatter-identifier-1339033108-0" controls="controls" ></audio></div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-4 region region-user-second" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <section class="block block-user  contextual-links-region block-login block-user-login odd" id="block-user-login">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">User login</h2>
+            
+    <div class="content clearfix">
+      <form action="/front?destination=node/1%3Ffeed%3Dpodcast" method="post" id="user-login-form" accept-charset="UTF-8"><div><div id="toboggan-container" class="toboggan-container"><div id="toboggan-login-link-container" class="toboggan-login-link-container"><a href="/user/login?destination=node/1%3Ffeed%3Dpodcast" id="toboggan-login-link" class="toboggan-login-link">Log in/Register</a></div><div id="toboggan-login" class="user-login-block"><div class="form-item form-type-textfield form-item-openid-identifier">
+  <label for="edit-openid-identifier">Log in using OpenID </label>
+ <input type="text" id="edit-openid-identifier" name="openid_identifier" value="" size="15" maxlength="255" class="form-text" />
+<div class="description"><a href="http://openid.net/">What is OpenID?</a></div>
+</div>
+<div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Username or e-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="15" maxlength="60" class="form-text required" />
+</div>
+<input type="hidden" name="form_build_id" value="form-wkSSr9FTiVc-svotfwxqrKkCUk1LZ57-b3nHuIYHRkY" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<input type="hidden" name="openid.return_to" value="http://loserslike.us/openid/authenticate?destination=node/1%3Ffeed%3Dpodcast" />
+<div class="item-list"><ul class="openid-links"><li class="openid-link first"><a href="#openid-login">Log in using OpenID</a></li><li class="user-link last"><a href="#">Cancel OpenID login</a></li></ul></div><div class="item-list"><ul><li class="first"><a href="/user/register" title="Create a new user account.">Create new account</a></li><li class="last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li></ul></div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Log in" class="form-submit" /></div></div></div></div></form>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="container-12 zone zone-branding clearfix">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title="Losers Like Us" class="active"><img src="http://loserslike.us/sites/default/files/llu-logo.png" alt="Losers Like Us" id="logo" /></a>      </div>
+                        <hgroup class="site-name-slogan element-invisible">        
+                                
+        <h1 class="site-name element-invisible"><a href="/" rel="home" title="Home" class="active">Losers Like Us</a></h1>
+                                        <h6 class="site-slogan element-invisible">It Takes One To Know One</h6>
+              </hgroup>
+          </div>
+          </div>
+</div>  </div>
+</div><div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="container-12 zone zone-menu clearfix menu">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <nav class="navigation">
+      <h2 class="element-invisible">Main menu</h2><ul id="main-menu" class="links inline clearfix main-menu"><li class="menu-227 first active"><a href="/" class="active">Home</a></li><li class="menu-693"><a href="/comics" title="">Comics</a></li><li class="menu-699"><a href="/science" title="">Science</a></li><li class="menu-703"><a href="/computers" title="">Computers</a></li><li class="menu-696"><a href="/internet" title="">Internet</a></li><li class="menu-705"><a href="/movies" title="">Movies</a></li><li class="menu-701 last"><a href="/games" title="">Games</a></li></ul>      <h2 class="element-invisible">Secondary menu</h2><ul id="secondary-menu" class="links inline clearfix secondary-menu"><li class="menu-590 first"><a href="/team">Team</a></li><li class="menu-646"><a href="/blog" title="User Blogs">Blogs</a></li><li class="menu-987"><a href="/videos">Videos</a></li><li class="menu-649"><a href="/podcast">Podcast</a></li><li class="menu-917"><a href="/galleries">Galleries</a></li><li class="menu-393"><a href="/forum" title="">Forums</a></li><li class="menu-378 last"><a href="/contact" title="">Contact</a></li></ul>    </nav>
+        <div class="block block-search site-search contextual-links-region block-form block-search-form odd block-without-title" id="block-search-form">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <form action="/?feed=podcast" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-Vzx7Uwf-2M_Bp9hKjJxTfiOfD6-0SgGkbnF9DyJUrTI" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="container-12 zone zone-content clearfix">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">front</h1>
+                <div class="tabs clearfix"></div>        <div class="block block-system  block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/front" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-sean odd clearfix" id="node-page-1">
+    
+    
+    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><!--smart_paging_filter_done--> <p> </p><p> </p> </div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>    </div>
+  </div>
+</div><section class="block block-views absolute-latest-article contextual-links-region block-absolute-latest-article-block block-views-absolute-latest-article-block even" id="block-views-absolute-latest-article-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">absolute latest article</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-absolute-latest-article view-id-absolute_latest_article view-display-id-block view-dom-id-e56da8922fd73df08b084f0edcb8d04d">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/reviews/games/tue-10252011-1818/batman-arkham-city-real-batman-simulator"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/absolute_latest_article/public/10-Batman-Arkham-City-posters.jpg" width="300" height="300" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/reviews/games/tue-10252011-1818/batman-arkham-city-real-batman-simulator">Batman: Arkham City: A Real Batman Simulator</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/71" href="/reviews/games/tue-10252011-1818/batman-arkham-city-real-batman-simulator#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Tuesday, October 25, 2011 - 18:18</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/andy-seidel" title="View user profile." class="username" xml:lang="" about="/users/andy-seidel" typeof="sioc:UserAccount" property="foaf:name">Andy Seidel</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> After two years of waiting, Batman: Arkham city is here! Check out or in-depth review of this long-awaited title. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/batman" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Batman</a>, <a href="/seo-tags/arkham-city" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Arkham City</a></span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section><section class="block block-views latest-articles contextual-links-region block-latest-articles-block block-views-latest-articles-block odd" id="block-views-latest-articles-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">absolute latest article</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-latest-articles view-id-latest_articles view-display-id-block view-dom-id-c25ebf941feb7d0eeb1bffaac91d942c">
+            <div class="view-header">
+      <!--smart_paging_filter--> LATEST ARTICLES     </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/articles/fri-10142011-0041/game-play-super-nintendo-games-your-pc-or-mac"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/field/image/emulatorlogo_0.png" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/fri-10142011-0041/game-play-super-nintendo-games-your-pc-or-mac">Game On: Play Super Nintendo Games on Your PC or Mac</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Friday, October 14, 2011 - 00:41</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/69" href="/articles/fri-10142011-0041/game-play-super-nintendo-games-your-pc-or-mac#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> We're delving into the miracle that is game emulation. Soon you, too, will be able to play all of your childhood favorites with this guide. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/zsnes" typeof="skos:Concept" property="rdfs:label skos:prefLabel">ZSNES</a>, <a href="/seo-tags/super-nintendo" typeof="skos:Concept" property="rdfs:label skos:prefLabel">super nintendo</a>, <a href="/seo-tags/emulation" typeof="skos:Concept" property="rdfs:label skos:prefLabel">emulation</a>, <a href="/seo-tags/snes" typeof="skos:Concept" property="rdfs:label skos:prefLabel">SNES</a></span>  </span>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/articles/wed-09282011-2122/ubuntu-opens-shop-app-developers"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/field/image/ubuntuhammer.png" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/wed-09282011-2122/ubuntu-opens-shop-app-developers">Ubuntu Opens Up Shop For App Developers</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Wednesday, September 28, 2011 - 21:22</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/61" href="/articles/wed-09282011-2122/ubuntu-opens-shop-app-developers#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Ubuntu, a linux-based open source operating system, has recently opened a site to help facilitate the creation and submission of 3rd-party apps. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/ubuntu" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Ubuntu</a>, <a href="/seo-tags/developer" typeof="skos:Concept" property="rdfs:label skos:prefLabel">developer</a>, <a href="/seo-tags/coding" typeof="skos:Concept" property="rdfs:label skos:prefLabel">coding</a>, <a href="/seo-tags/apps" typeof="skos:Concept" property="rdfs:label skos:prefLabel">apps</a></span>  </span>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/articles/wed-09282011-0342/dropping-ball-goodbye-meego-hello-tizen"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/field/image/meegothumb.png" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/wed-09282011-0342/dropping-ball-goodbye-meego-hello-tizen">Dropping the Ball: Goodbye, MeeGo. Hello, Tizen.</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Wednesday, September 28, 2011 - 03:42</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/60" href="/articles/wed-09282011-0342/dropping-ball-goodbye-meego-hello-tizen#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Poor corporate management has doomed the MeeGo project to failure, and now The Linux Foundation is trying to pick up the pieces again. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/meego" typeof="skos:Concept" property="rdfs:label skos:prefLabel">meego</a>, <a href="/seo-tags/linux" typeof="skos:Concept" property="rdfs:label skos:prefLabel">linux</a>, <a href="/seo-tags/intel" typeof="skos:Concept" property="rdfs:label skos:prefLabel">intel</a>, <a href="/seo-tags/nokia" typeof="skos:Concept" property="rdfs:label skos:prefLabel">nokia</a></span>  </span>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/articles/fri-09232011-0017/look-timeline-new-facebook-profile"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/field/image/facebookwatch.png" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/fri-09232011-0017/look-timeline-new-facebook-profile">A Look at TimeLine: The New Facebook Profile</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Friday, September 23, 2011 - 00:17</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/57" href="/articles/fri-09232011-0017/look-timeline-new-facebook-profile#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Facebook announced earlier today at their F8 developer conference a new feature coming to Facebook profiles called "Timelines". We go hands-on. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/facebook" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Facebook</a>, <a href="/seo-tags/design" typeof="skos:Concept" property="rdfs:label skos:prefLabel">design</a>, <a href="/seo-tags/ux" typeof="skos:Concept" property="rdfs:label skos:prefLabel">UX</a></span>  </span>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/reviews/games/sat-05212011-2332/were-not-azeroth-anymore-we-sure-are-close"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/Rift-Your-Guide-To-The-24-Different-Classes.jpg" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/reviews/games/sat-05212011-2332/were-not-azeroth-anymore-we-sure-are-close">We&#039;re Not in Azeroth anymore, But We Sure Are Close</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Saturday, May 21, 2011 - 23:32</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/zach-berkshier" title="View user profile." class="username" xml:lang="" about="/users/zach-berkshier" typeof="sioc:UserAccount" property="foaf:name">Zach Berkshier</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/39" href="/reviews/games/sat-05212011-2332/were-not-azeroth-anymore-we-sure-are-close#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Today, we delve into one of the competitors to World of Warcraft, Rift. But is it any good? Zach goes hands on. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/rift" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Rift</a>, <a href="/seo-tags/wow" typeof="skos:Concept" property="rdfs:label skos:prefLabel">WoW</a>, <a href="/seo-tags/mmorpg" typeof="skos:Concept" property="rdfs:label skos:prefLabel">MMORPG</a></span>  </span>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/articles/sat-05072011-0950/bitcoin-currency-internet"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/field/image/bitcoin-225.png" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/sat-05072011-0950/bitcoin-currency-internet">BitCoin, the Currency of the Internet</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Saturday, May 7, 2011 - 09:50</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/40" href="/articles/sat-05072011-0950/bitcoin-currency-internet#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> As it turns out, the Internet actually does indeed have a currency...several, as a matter of fact. But what makes BitCoin so special? </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/bitcoin" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Bitcoin</a>, <a href="/seo-tags/anonymous" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Anonymous</a>, <a href="/seo-tags/decentralization" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Decentralization</a>, <a href="/seo-tags/p2p" typeof="skos:Concept" property="rdfs:label skos:prefLabel">P2P</a></span>  </span>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/reviews/tech/sat-05072011-0430/windows-7-phone-all-your-friends-will-be-jelly"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/lg-quantum.jpg" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/reviews/tech/sat-05072011-0430/windows-7-phone-all-your-friends-will-be-jelly">The Windows 7 Phone. All Your Friends will be Jelly.</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Saturday, May 7, 2011 - 04:30</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/zach-berkshier" title="View user profile." class="username" xml:lang="" about="/users/zach-berkshier" typeof="sioc:UserAccount" property="foaf:name">Zach Berkshier</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/42" href="/reviews/tech/sat-05072011-0430/windows-7-phone-all-your-friends-will-be-jelly#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Recently I made the switch from the iPhone 3GS to the LG Quantum which is currently running the new Windows 7 phone operating system. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/microsoft" typeof="skos:Concept" property="rdfs:label skos:prefLabel">microsoft</a>, <a href="/seo-tags/windows-phone" typeof="skos:Concept" property="rdfs:label skos:prefLabel">windows phone</a>, <a href="/seo-tags/win7" typeof="skos:Concept" property="rdfs:label skos:prefLabel">win7</a></span>  </span>  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/articles/wed-05042011-1731/9-secret-burdens-being-linux-user"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/front_article_thumbnail/public/field/image/broken-monitor.jpg" width="75" height="75" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/articles/wed-05042011-1731/9-secret-burdens-being-linux-user">The 9 Secret Burdens of Being a Linux User</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Wednesday, May 4, 2011 - 17:31</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/6" href="/articles/wed-05042011-1731/9-secret-burdens-being-linux-user#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Nine gripping reasons as to why being a Linux user is more difficult than you'd think. In fact, it can be downright painful. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/linux" typeof="skos:Concept" property="rdfs:label skos:prefLabel">linux</a>, <a href="/seo-tags/operating-systems" typeof="skos:Concept" property="rdfs:label skos:prefLabel">operating systems</a>, <a href="/seo-tags/free-software" typeof="skos:Concept" property="rdfs:label skos:prefLabel">free software</a></span>  </span>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <!--smart_paging_filter--> <p><a href="articles">READ MORE -&gt;</a></p>     </div>
+  
+      <div class="feed-icon">
+      <a href="http://loserslike.us/latest-articles.xml?feed=podcast" class="feed-icon" title="Subscribe to Latest Articles"><img typeof="foaf:Image" src="http://loserslike.us/misc/feed.png" width="16" height="16" alt="Subscribe to Latest Articles" /></a>    </div>
+  
+</div>    </div>
+  </div>
+</section><section class="block block-views  contextual-links-region block-frontpage-blog-entries-block block-views-frontpage-blog-entries-block even" id="block-views-frontpage-blog-entries-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">absolute latest article</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-frontpage-blog-entries view-id-frontpage_blog_entries view-display-id-block view-dom-id-6f39b6fe8602e85e3f58b70e43b92e65">
+            <div class="view-header">
+      <!--smart_paging_filter--> RECENT BLOG ENTRIES     </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blog/sean-tilley/sat-02182012-0522/weve-been-naughty"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/freaky_fred_by_rammsteinfanno1-d33fjhz.png" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/sean-tilley/sat-02182012-0522/weve-been-naughty">We&#039;ve Been Naughty</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Saturday, February 18, 2012 - 05:22</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/sean-tilley" title="View user profile." class="username" xml:lang="" about="/users/sean-tilley" typeof="sioc:UserAccount" property="foaf:name">Sean Tilley</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Aw, feck. Look what I did. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"><a href="/seo-tags/site" typeof="skos:Concept" property="rdfs:label skos:prefLabel">site</a></span>  </span>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/78" href="http://loserslike.us/blog/sean-tilley/sat-02182012-0522/weve-been-naughty#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blog/cameron-fields/thu-10132011-2153/most-hardcore-fist-fights-film"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/ip-man%5B1%5D.jpg" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/cameron-fields/thu-10132011-2153/most-hardcore-fist-fights-film">The Most Hardcore Fist Fights In Film</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Thursday, October 13, 2011 - 21:53</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/cameron-fields" title="View user profile." class="username" xml:lang="" about="/users/cameron-fields" typeof="sioc:UserAccount" property="foaf:name">Cameron Fields</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> As I was reading Tyler's article the other day about the most badass fight scenes in movies, I thought to myself that I should type on about the most hardcore Fist Fights in movies. No weapons, just bare knuckle brawling. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"></span>  </span>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/68" href="http://loserslike.us/blog/cameron-fields/thu-10132011-2153/most-hardcore-fist-fights-film#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blog/tyler-pompa/mon-10102011-0007/greatest-battle-scenes-ever-put-film"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/TMN32.jpg" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/tyler-pompa/mon-10102011-0007/greatest-battle-scenes-ever-put-film">The Greatest Battle Scenes Ever Put On Film</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Monday, October 10, 2011 - 00:07</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/tyler-pompa" title="View user profile." class="username" xml:lang="" about="/users/tyler-pompa" typeof="sioc:UserAccount" property="foaf:name">Tyler Pompa</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Who doesn't love a good action scene?  I sure as hell do.  In fact, everytime I watch an action movie, im constantly looking forward to a big battle. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"></span>  </span>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/67" href="http://loserslike.us/blog/tyler-pompa/mon-10102011-0007/greatest-battle-scenes-ever-put-film#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/blog/cameron-fields/fri-10072011-1242/real-steel-puts-real-really-awesome"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/2011-real-steel-036_288x288.jpg" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/cameron-fields/fri-10072011-1242/real-steel-puts-real-really-awesome">Real Steel Puts the &#039;Real&#039; Into Really Awesome</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Friday, October 7, 2011 - 12:42</span>  </div>  
+  <div class="views-field views-field-name">    <span class="views-label views-label-name">by</span>    <span class="field-content"><a href="/users/cameron-fields" title="View user profile." class="username" xml:lang="" about="/users/cameron-fields" typeof="sioc:UserAccount" property="foaf:name">Cameron Fields</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> Wow. I dont even know where to begin with this. I guess first I will start out with what my expectations of the film were. I remembered reading about this movie being made back in the summer of 2010. </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"></span>  </span>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/64" href="http://loserslike.us/blog/cameron-fields/fri-10072011-1242/real-steel-puts-real-really-awesome#disqus_thread">0</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <!--smart_paging_filter--> <p><a href="blog">READ MORE -&gt;</a></p>     </div>
+  
+      <div class="feed-icon">
+      <a href="http://loserslike.us/latest-blogs.xml?feed=podcast" class="feed-icon" title="Subscribe to Latest Blog Entries"><img typeof="foaf:Image" src="http://loserslike.us/misc/feed.png" width="16" height="16" alt="Subscribe to Latest Blog Entries" /></a>    </div>
+  
+</div>    </div>
+  </div>
+</section><section class="block block-views  contextual-links-region block-latest-podcast-episode-block block-views-latest-podcast-episode-block odd" id="block-views-latest-podcast-episode-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">absolute latest podcast</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-latest-podcast-episode view-id-latest_podcast_episode view-display-id-block view-dom-id-75de4c3b9cd7a3346ab465681088790f">
+            <div class="view-header">
+      <p>LATEST PODCAST EPISODE</p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/podcast/wed-09282011-2209/episode-12-summer-cinema"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/latest_podcast_episode/public/drive_in_voting.jpg" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/podcast/wed-09282011-2209/episode-12-summer-cinema">Episode 12: Summer Cinema</a></span>  </div>  
+  <div class="views-field views-field-created">        <span class="field-content">Wednesday, September 28, 2011 - 22:09</span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> <p>We're back! And we're here to talk about all the great summer movies of 2011. We had a great time getting back to podcasting, and we hope to do it more often in the future!</p> </div>  </div>  
+  <span class="views-field views-field-field-seotags">        <span class="field-content"></span>  </span>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/62" href="/podcast/wed-09282011-2209/episode-12-summer-cinema#disqus_thread">0</a></span>  </div>  
+  <div class="views-field views-field-disqus-comment-count">        <span class="field-content"><a href="/podcast/wed-09282011-2209/episode-12-summer-cinema#disqus_thread" data-disqus-identifier="node/62">Comments</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p>More Episodes -&gt;</p>
+    </div>
+  
+  
+</div>    </div>
+  </div>
+</section><section class="block block-views  contextual-links-region block-frontpage-videos-block block-views-frontpage-videos-block even" id="block-views-frontpage-videos-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">frontpage videos</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-frontpage-videos view-id-frontpage_videos view-display-id-block view-dom-id-ef454bb8a60e9a429a2a628cdf48d5c3">
+            <div class="view-header">
+      <p>Latest Videos</p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/videos/marvel-vs-dc"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/marvel-dc.png" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/marvel-vs-dc">Marvel Vs. DC</a></span>  </div>  
+  <div class="views-field views-field-field-actors">        <div class="field-content"><a href="/users/cameron-fields">Cameron Fields</a>, <a href="/users/sean-tilley">Sean Tilley</a>, <a href="/users/tyler-pompa">Tyler Pompa</a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>An age-old feud between two factions in comic-book geekdom come between a friendship. But this begs the question: who really is the better man?</p>
+</div>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/48" href="/videos/marvel-vs-dc#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/videos/transformers-bro"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/transformerscover.png" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/transformers-bro">Transformers, Bro</a></span>  </div>  
+  <div class="views-field views-field-field-actors">        <div class="field-content"><a href="/users/andy-seidel">Andy Seidel</a>, <a href="/users/cameron-fields">Cameron Fields</a>, <a href="/users/sean-tilley">Sean Tilley</a>, <a href="/users/tyler-pompa">Tyler Pompa</a>, <a href="/users/zach-berkshier">Zach Berkshier</a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> We briefly went to the movies and watched Transformers: Dark of the Moon. Here's some in-theater antics. </div>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/65" href="/videos/transformers-bro#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/videos/free-comic-book-day-2011"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/comicbookday.png" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/free-comic-book-day-2011">Free Comic Book Day 2011!</a></span>  </div>  
+  <div class="views-field views-field-field-actors">        <div class="field-content"><a href="/users/andy-seidel">Andy Seidel</a>, <a href="/users/cameron-fields">Cameron Fields</a>, <a href="/users/sean-tilley">Sean Tilley</a>, <a href="/users/tyler-pompa">Tyler Pompa</a>, <a href="/users/zach-berkshier">Zach Berkshier</a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"> So, we ended up all going to Free Comic Book Day at Acme comics in Peoria. We also celebrated the geekiness of the day by going to Toys R Us and we topped it all off with some ice cream from Emo's. </div>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/66" href="/videos/free-comic-book-day-2011#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/videos/exclusive-interview-man-who-netflix"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/reed-hastings.png" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/exclusive-interview-man-who-netflix">Exclusive Interview: The Man Who Is Netflix</a></span>  </div>  
+  <div class="views-field views-field-field-actors">        <div class="field-content"><a href="/users/andy-seidel">Andy Seidel</a>, <a href="/users/sean-tilley">Sean Tilley</a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Andy sits down with Melvin P. Netflix (Reed Hastings), and discusses the history, inspiration, and legacy of online digital content.</p>
+</div>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/44" href="/videos/exclusive-interview-man-who-netflix#disqus_thread">0</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/videos/introduction-losers-us"><img typeof="foaf:Image" src="http://loserslike.us/sites/default/files/styles/frontpage_thumbnails_wide/public/andypose.png" width="200" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/videos/introduction-losers-us">Introduction to Losers Like Us</a></span>  </div>  
+  <div class="views-field views-field-field-actors">        <div class="field-content"><a href="/users/andy-seidel">Andy Seidel</a>, <a href="/users/sean-tilley">Sean Tilley</a>, <a href="/users/tyler-pompa">Tyler Pompa</a>, <a href="/users/zach-berkshier">Zach Berkshier</a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>A brief introduction to our podcast and website. Yeah, it's a little bit stupid. This video was mainly done for camera-work tests, and we figured it was lulzy enough to upload.</p>
+</div>  </div>  
+  <div class="views-field views-field-comment-count">        <span class="field-content"><a data-disqus-identifier="node/43" href="/videos/introduction-losers-us#disqus_thread">0</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="videos">More Videos -&gt;</a></p>
+    </div>
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="container-12 zone zone-footer clearfix">
+    <div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-block dsh-logo contextual-links-region block-2 block-block-2 odd block-without-title" id="block-block-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!--smart_paging_filter--> <p><a href="http://www.deadsuperhero.com" title="DeadSuperHero, Uncorporated"><img src="/sites/default/files/dshlogofooter.png" alt="DeadSuperHero, Uncorporated" title="DeadSuperHero, Uncorporated" width="550" height="161" /></a></p>     </div>
+  </div>
+</div><div class="block block-block footer-info contextual-links-region block-1 block-block-1 even block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <!--smart_paging_filter--> <p>Losers Like Us is a creation of DeadSuperHero, Uncorporated. All written content and produced videos are licensed under a CC-BY-SA 3.0 Unported License unless otherwise explicity stated, such as in the case of citing written or produced materials, logos, characters, music, videos, and other content that has not been produced by members of the Losers Like Us staff or DeadSuperHero affiliates. This site was produced entirely using Free Software.</p>     </div>
+  </div>
+</div><section class="block block-menu  contextual-links-region block-menu-footer-menu block-menu-menu-footer-menu odd" id="block-menu-menu-footer-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Footer Menu</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first expanded"><a href="/donate" title="">Donate</a><ul class="menu"><li class="first last leaf"><a href="http://www.youtipit.org/en/t/J3837#" title="">BitCoin</a></li>
+</ul></li>
+<li class="leaf"><a href="/articles" title="">Topics</a></li>
+<li class="expanded"><a href="/" title="" class="active">Community</a><ul class="menu"><li class="first leaf"><a href="https://diasp.org/u/loserslikeus" title="">Diaspora</a></li>
+<li class="leaf"><a href="http://www.facebook.com/LosersLikeUsPodcast" title="">Facebook</a></li>
+<li class="leaf"><a href="/forum" title="">Forums</a></li>
+<li class="leaf"><a href="http://identi.ca/loserslikeus" title="">Identica</a></li>
+<li class="last leaf"><a href="http://twitter.com/loserslikeus" title="">Twitter</a></li>
+</ul></li>
+<li class="last expanded"><a href="/contact" title="">Contact</a><ul class="menu"><li class="first leaf"><a href="/contact/advertising" title="">Advertising</a></li>
+<li class="leaf"><a href="/contact/fanmail" title="">Fan Mail</a></li>
+<li class="leaf"><a href="/contact/feedback" title="">Feedback</a></li>
+<li class="last leaf"><a href="/contact/tip" title="">Submit a Tip</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-views  contextual-links-region block-asshole-quotes-block block-views-asshole-quotes-block even" id="block-views-asshole-quotes-block">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Asshole Quotes</h2>
+            
+    <div class="content clearfix">
+      <div class="view view-asshole-quotes view-id-asshole_quotes view-display-id-block view-dom-id-0fe4aa6c98a55049431020d024d17939">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-quote">        <div class="field-content">Let&#039;s be honest. Only the first Matrix film was good.</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</section>  </div>
+</div>  </div>
+</div></footer>  </div>  </body>
+</html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="description" content="West Midlands Police. Serving our communities and protecting them from harm." />
+<meta name="keywords" content="West Midlands Police,Wolverhampton,Walsall,Sandwell,Solihull,Dudley,Coventry,LPU,police,crime,drugs,neighbourhood policing,pctv,news,appeals,help and advice,press releases,facebook,youtube,domestic violence,racism,firearms,police dog,equal opportunities,auctions,Police Authority" />
+<meta name="rating" content="general"/>
+<meta name="language" content="english, en" />
+<meta name="subject" content="Police, Public Service, UK" />
+<meta name="publisher" content="West Midlands Police" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="3 days" />
+<meta name="expires" content="never" />
+<meta name="DC.Date" content="2010-04-01" />
+<meta name="DC.Creator" content="West Midlands Police" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="stylesheet" href="/styles/style.css" type="text/css" />
+<link rel="stylesheet" href="/styles/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/scripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+  <link href='http://fonts.googleapis.com/css?family=Syncopate:700' rel='stylesheet' type='text/css'>
+<!--[if (gte IE 6)]><link rel="stylesheet" type="text/css" href="/styles/ie7-8.css" /><![endif]-->
+<!--Jquery files-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.3/jquery-ui.min.js" ></script> 
+<script type="text/javascript" src="/scripts/js/jquery-cookie.js"></script>
+<script type="text/javascript" src="/scripts/js/jquery.hoverintent.minified.js"></script>
+<script type="text/javascript" src="/scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="/scripts/fancybox/jquery.easing-1.3.pack.js"></script>
+<script type="text/javascript" src="/scripts/js/updateie6.js"></script>
+<script type="text/javascript" src="/scripts/js/cookie-info.js"></script>
+
+
+<!--Calls to action-->
+
+<!--jquery-->
+<script language="javascript" type="text/javascript">
+  $(document).ready(function() {
+  });
+</script>
+
+<!--Fancy box-->
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+$(".youtubepop").click(function() {
+	$.fancybox({
+			'padding'		: 10,
+			'autoScale'		: false,
+			'transitionIn'	: 'fade',
+			'transitionOut'	: 'fade',
+			'overlayOpacity': 0.7,
+			'title'			: this.title,
+			'titleShow'		: false,
+			'width'		: 492,
+			'height'		: 288,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			   	 'wmode'		: 'transparent',
+				'allowfullscreen'	: 'true'
+			}
+		});
+
+	return false;
+});
+});
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+$("a[rel=gallery]").fancybox({
+
+		'autoScale'     	: true,
+        'transitionIn'		: 'none',
+		'transitionOut'		: 'none',
+		'title'				: this.title,
+		'titleShow'			: true,			
+		'titlePosition' 	: 'over',
+		'titleFormat'       : function(title, currentArray, currentIndex, currentOpts) {
+		    return '<span id="fancybox-title-over">Image ' +  (currentIndex + 1) + ' / ' + currentArray.length + '</span>';
+		}
+	});
+		
+	});
+	
+	
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+$("a[rel=gallery_id]").fancybox({
+
+		'titlePosition' 	: 'over'
+	});
+		
+	});
+	
+	
+</script>	
+
+<!--Hovermenu-->
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	//On Hover Over
+function megaHoverOver(){
+    $(this).find(".sub_l,.sub_r").stop().fadeTo('fast', 1).show(); //Find sub and fade it in
+    (function($) {
+        //Function to calculate total width of all ul's
+        jQuery.fn.calcSubWidth = function() {
+            rowWidth = 0;
+            //Calculate row
+            $(this).find("ul").each(function() { //for each ul...
+                rowWidth += $(this).width(); //Add each ul's width together
+            });
+        };
+    })(jQuery); 
+
+    if ( $(this).find(".row").length > 0 ) { //If row exists...
+
+        var biggestRow = 0;	
+
+        $(this).find(".row").each(function() {	//for each row...
+            $(this).calcSubWidth(); //Call function to calculate width of all ul's
+            //Find biggest row
+            if(rowWidth > biggestRow) {
+                biggestRow = rowWidth;
+            }
+        });
+
+        $(this).find(".sub_l,.sub_r").css({'width' :biggestRow}); //Set width
+        $(this).find(".row:last").css({'margin':'0'});  //Kill last row's margin
+
+    } else { //If row does not exist...
+
+        $(this).calcSubWidth();  //Call function to calculate width of all ul's
+        $(this).find(".sub_l,.sub_r").css({'width' : rowWidth}); //Set Width
+    }
+}
+//On Hover Out
+function megaHoverOut(){
+  $(this).find(".sub_l,.sub_r").stop().fadeTo('fast', 0, function() { //Fade to 0 opactiy
+      $(this).hide();  //after fading, hide it
+  });
+}
+
+//Set custom configurations
+var config = {
+     sensitivity: 2, // number = sensitivity threshold (must be 1 or higher)
+     interval: 100, // number = milliseconds for onMouseOver polling interval
+     over: megaHoverOver, // function = onMouseOver callback (REQUIRED)
+     timeout: 500, // number = milliseconds delay before onMouseOut
+     out: megaHoverOut // function = onMouseOut callback (REQUIRED)
+};
+
+$("ul#nav_top li .sub_l,ul#nav_top li .sub_r").css({'opacity':'0'}); //Fade sub nav to 0 opacity on default
+$("ul#nav_top li").hoverIntent(config); //Trigger Hover intent with custom configurations
+});
+</script>
+
+<!--Box slider-->
+
+<script language="javascript" type="text/javascript">
+
+$(document).ready(function(){  
+$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 12000, true);  
+});  
+
+</script>
+<script type="text/javascript" src="/scripts/js/html5.js"></script>
+<script type="text/javascript" src="/flash/scripts/ienoscript.js"></script>
+<script type="text/javascript" src="http://m.west-midlands.police.uk/mobify/redirect.js"></script>
+<script type="text/javascript">try{_mobify("http://m.west-midlands.police.uk/");} catch(err) {};</script>
+<!--js-pack-min is compressed and combines JS files for styleswitcher.js, sbookmarks_2_0_1.js-->
+<script type="text/javascript" src="/scripts/js/js-pack-min.js"></script>
+
+<style type="text/css">
+.nav_l1 a# { font-weight: bold; }
+</style>
+
+<script type="text/javascript">
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+
+
+        
+<title></title>
+
+</head>
+
+<body>
+<div id="container_main">
+	<div id="container_white_border">
+		<div id="container_banner">
+            <div id="content_skip_home">
+                <ul>
+                    <li id="home"><a href="/index.asp">Home</a></li>
+                    <!--<li id="skip"><a href="#nav">Skip Menu</a></li>-->
+                </ul>
+            </div>
+       	  	<img src="/images/banner.jpg" alt="West Midlands Police" border="0" usemap="#Map" width="768" height="180"/>
+            <p>Serving our communities, protecting them from harm</p>
+            <div class="main_search">
+           	  <div class="container_search">
+	<form method="get" action="http://search.west-midlands.police.uk/search" class="wmpsearch">
+		<div class="search_box">
+			<input class="rounded" name="q" type="text" size="15" maxlength="200" value="Search the site:" onfocus="value=''"/>
+		</div>
+		<div class="search_go">
+			<input type="image" src="/images/go.gif" class="wmpsearchbutton" alt="Go" />
+		</div>
+	<input type="hidden" name="site" value="default_collection"/>
+    <input type="hidden" name="client" value="default_frontend"/>
+    <input type="hidden" name="proxystylesheet" value="default_frontend"/>
+    <input type="hidden" name="output" value="xml_no_dtd"/>
+    </form>
+</div>
+            </div>
+			<map name="Map" id="crest_link">
+  				<area shape="rect" coords="15,65,96,169" href="/index.asp" alt="West Midlands Police &trade; home" title="West Midlands Police &trade; home" />
+		 	</map>
+            </div>
+		<div id="inc_nav_top">
+				<div id="container_top_nav">
+	  <ul id="nav_top">
+	    <li class="nc"><a class="home" href="/index.asp">Home</a></li>
+	    <li class="hc"><a href="/np/index.asp">Neighbourhood Policing</a>
+        	<div class="sub_l">
+            	<p>Enter your postcode to find your neighbourhood:</p>
+                <div id="nav_postcode">
+                    <form id="ocusearch" name="ocusearch" method="post" action="/postcode/search.asp">
+                        <input type="text" class="postcode" size="12" maxlength="8" name="postcode" value="" />
+                        <input type="image" src="/images/go-sml.jpg" class="go-sml" alt="Go" />
+                       
+                    </form>
+                </div>
+                <ul>
+                    <li><a href="/np/birminghameast/">Birmingham East</a></li>
+                    <li><a href="/np/birminghamnorth/">Birmingham North</a></li>
+                    <li><a href="/np/birminghamsouth/">Birmingham South</a></li>
+                    <li><a href="/np/birminghamwestandcentral/">Birmingham West and Central</a></li>
+                    <li><a href="/np/coventry/">Coventry</a></li>
+                    <li><a href="/np/dudley/">Dudley</a></li>
+                    <li><a href="/np/sandwell/">Sandwell</a></li>
+                    <li><a href="/np/solihull/">Solihull</a></li>
+                    <li><a href="/np/walsall/">Walsall</a></li>
+                    <li><a href="/np/wolverhampton/">Wolverhampton</a></li>
+                </ul>
+            </div>
+        </li>
+	    <li class="hc"><a href="/latest-news/index.asp">Latest News</a>
+        	<div class="sub_l">
+                <ul>
+                    <li><a href="/latest-news/appeals.asp">Appeals</a></li>
+                    <li><a href="/latest-news/press-releases.asp">Press Releases</a></li>
+                    <li><a href="/latest-news/mispers.asp">Missing Persons</a></li>
+                    <li><a href="/pctv/">PCTV</a></li>
+                    <li><a href="/latest-news/media-room/login.asp">Media Room<br/><span class="small">registered journalists only</span></a></li>
+              </ul>
+            </div>
+        </li>
+	    <li class="hc"><a href="/contact-us/index.asp">Contact Us</a>
+        	<div class="sub_r">
+                <ul>
+                    <li><a href="/contact-us/reporting-crime/">Reporting Crime and Getting in Touch</a></li>
+                    <li><a href="/contact-us/contact-police-station/">Contact Your Police Station</a></li>
+                    <li><a href="/contact-us/rylp/">Rate Your Local Police</a></li>
+                    <li><a href="/contact-us/contact-card/">Contact Card</a></li>
+                    <li><a href="/contact-us/email-us/">Email Us</a></li>
+                	<li><a href="/contact-us/social-networks/">Social Networks</a></li>
+                	<li><a href="/contact-us/complaints/">Making a Complaint</a></li>
+                    <li><a href="/contact-us/quality-of-service-commitment/">Quality of Service Commitment</a></li>
+                  	<li><a href="/contact-us/lang-info/">Foreign Language Information</a></li>
+                  <li><a href="/wmprrecruit/">Join Us</a></li>
+                    <li><a href="/feeds/">RSS Feeds</a></li>
+                </ul>
+          </div>
+        </li>
+	    <li class="hc"><a href="#">More About Us</a>
+            <div class="sub_r">
+                <ul>
+                    <li><a href="/help-advice/">Help and Advice</a></li>
+                    <li><a href="/foi/">Freedom of Information</a></li>
+                    <li><a href="/about-us/">About Us</a></li>
+                    <li><a href="/information/">Information</a></li>
+                    <li><a href="/crime-reduction/">Crime Reduction</a></li>
+                    <li><a href="/specialist-crime/">Specialist Crime Units</a></li>
+                	<li><a href="/victims-witnesses/">Victims and Witnesses</a></li>
+                	<li><a href="/misc/">Miscellaneous</a></li>
+                </ul>
+              </div>
+    	  </li>
+	  </ul>
+    </div>
+		</div>
+        <div id="inc_contact_access">
+            <div id="container_contact_access">
+	<p class="contact">Call <em>101</em> for all non-emergencies and enquiries </p><a class="about" href="/contact-us/reporting-crime/" title="More about 101" ><img src="/images/footer_qm.gif" height="12" width="7" alt="More about 101"/></a>
+<div id="container_access_right">
+        <p><a href="/information/accessible/index.asp">Accessibility</a></p>
+        <div id="container_colour_control">
+            <a href="/scripts/qs.asp?colour=2" title="Black on white"><img src="/images/blk_wht.gif" alt="Black on White" width="17" height="17" border="0" class="colour_control" /></a>
+            <a href="/scripts/qs.asp?colour=3" title="Black on yellow"><img src="/images/blk_yll.gif" alt="Black on Yellow" width="17" height="17" border="0" class="colour_control" /></a>
+            <a href="/scripts/qs.asp?colour=7" title="Black on pink"><img src="/images/blk_pnk.gif" alt="Black on Pink" width="17" height="17" border="0" class="colour_control" /></a>
+            <a href="/scripts/qs.asp?colour=1" title="Default colours"><img src="/images/default.gif" alt="Default" width="17" height="17" border="0" class="colour_control" /></a> 
+        </div>
+        <div id="container_text_size">
+            <div id="content_text_size_left">
+                <p>Text Size:</p>
+            </div>
+        <div id="content_text_size_right">
+            <p id="small"><a href="/scripts/qs.asp?size=1" title="Default text size">A</a></p>
+            <p id="medium"><a href="/scripts/qs.asp?size=2" title="Medium text size">A</a></p>
+            <p id="large"><a href="/scripts/qs.asp?size=3" title="Large text size">A</a></p>
+        </div>
+    </div>
+  </div>	
+</div>		
+        </div>
+    
+      <div id="container_black_border">
+          <div id="container_content">
+              <div id="float_content">
+                  <div id="page_content">
+                  	  <h2 class="title_page">Recruitment - Current Vacancies</h2>
+                      
+                      <ul>
+                        <li><a href="#com">Comunications Manager</a></li>
+                        <li><a href="#int">Intelligence Officer</a></li>
+                      </ul>
+                      <div class="hr">
+                        <hr/>
+               		</div>
+                        
+                        
+                  <p><span style="font-weight: bold"><a name="com"></a>Communications Manager<br>
+                      Fixed temporary nine month contract<br>
+                      Business Partnering for Police Programme, Central Birmingham<br>
+                      Post Ref: LPC0203SS015<br>
+                      £26,394 per annum</span></p>
+                    <p>Description: Applications are invited from individuals with a solid communications background for the role of Communications Manager for the force Business Partnering for Police (BPP) programme.</p>
+                      <p>The post is a fixed temporary nine month contract.</p>
+                      <p>West Midlands Police, together with Surrey Police, have embarked on a project to look at whether it can work with the private sector to transform the way policing is delivered and to ultimately improve services to the public.</p>
+                      <p>This post sits within the West Midlands Police Business Partnering Programme, working alongside the project team to ensure the effective delivery of communications internally and externally.</p>
+                      <p>Communications plays a vital role in managing the delivering of key messages for the programme. The role is wide ranging, encompassing the timely co-ordination of communication through a range of channels to ensure ease of access, clarity and consistency for an internal and external audience. </p>
+                      <p>Reporting to the BPP Programme Manager applicants will need to demonstrate excellent verbal, written and communication skills and ideally have a sound understanding of the political landscape.</p>
+                      <p>Duties will include:</p>
+                      <ul>
+                        <li>To lead on the development and implementation of an internal and external communications strategy</li>
+                        <li>To execute a strategy across all stakeholders to raise awareness and understanding of the programme</li>
+                        <li>To take responsibility for the development and management of a internal and external website</li>
+                        <li> To lead on the development and monitoring of key messages as the programme develops</li>
+                        <li>To research and write copy for external articles and press releases</li>
+                        <li>To respond to media enquiries</li>
+                      </ul>
+                      <p>The successful candidate should have experience of the proactive use of social media and the ability to develop the force’s BPP external website and internal intranet site. They should also be able to demonstrate successful design and/or marketing skills.</p>
+                      <p>Completed Application forms should be returned to hr_ssc_recruitment@west-midlands.pnn.police.uk </p>
+                      <p>Please note, CV's will not be accepted.</p>
+                      <p style="font-weight: bold">Closing date for the above vacancy is 7 June 2012</p>
+                      <ul>
+                        <li><a href="documents/Comms Manager JD.doc">Download Role Profile</a> (.doc)</li>
+                        <li><a href="documents/staff-application-form.doc">Download Application Form</a> (.doc)</li>
+                      </ul>
+                  <div class="hr">
+                        <hr/>
+                   		</div>
+                        
+                        <p><span style="font-weight: bold"><a name="int"></a>Intelligence Officer<br>
+                        Intelligence Department <br>
+                        Counter Terrorism Unit (CTU)<br>
+                        £26,394 - £32,226 Plus Shift Allowance (TBC)</span></p>
+                        <p>The intelligence department within the CTU covers 24/7 and is responsible for receiving, assessing and developing all intelligence entering the CTU in relation to International Counter Terrorism and Domestic Extremism.</p>
+                        <p>The successful applicant will be working within the intelligence department of the CTU, working with highly sensitive covertly obtained material, you will use your current knowledge of intelligence handling to appropriately deal with the receipt, assessment and development of intelligence, your good communication skills will be utilised working with regional CTU's, CTIUs, partner agencies and LPUs and providing an excellent intelligence response which is based on a high level of customer focused service.</p>
+                        <p>The post is subject to successful completion of the DV vetting process. This is a full time post consisting of 36.5 hours per week.</p>
+                        <p>Interviews will be taking place on the 12th / 14th June 2012.</p>
+                        <p>For further information about the role please email: <a href="mailto:ct_personnel@west-midlands.pnn.police.uk">ct_personnel@west-midlands.pnn.police.uk</a> or phone 0345 113 5000, Ext: 7960 6023 and we will be able to answer any queries.</p>
+                        <p>Completed application forms should be returned to: <a href="mailto:ct_personnel@west-midlands.pnn.police.uk">ct_personnel@west-midlands.pnn.police.uk</a>. Please note, CV's will not be accepted.</p>
+                        <p>Closing date for the above vacancy is Midday (12:00 hrs) on Monday 11 June 2012.</p>
+                        <ul>
+                          <li><a href="documents/Intell Officer CTU.doc">Download Role Profile</a> (.doc)</li>
+                          <li><a href="documents/staff-application-form.doc">Download Application Form</a> (.doc)<br>
+                          </li>
+                        </ul>
+                        <div class="hr">
+                        <hr/>
+                   		</div>
+
+                      
+                    <p>For more information about  recruitment please email <a href="mailto:hr_ssc_recruitment@west-midlands.pnn.police.uk">hr_ssc_recruitment@west-midlands.pnn.police.uk</a>.</p>
+                </div>
+<div id="container_footer_search">
+                      <div id="footer_search_left">
+                      <div id="footer_image"></div>
+                      <p><em>Need more information on the above subject?</em><br />
+                      Try the <a href="https://www.askthe.police.uk/content/@1.htm?forceid=52" target="_blank" title="Ask the Police: this link will open in a new window">Ask the Police</a> external website.</p></div>
+                      <div id="footer_search_right">
+                      <form method="get" action="http://search.west-midlands.police.uk/search" class="wmpsearch">
+		
+		<div class="search_box">
+			<input name="q" type="text" size="36" maxlength="200" value="..or search the West Midlands Police site" onclick="this.value=''"/>
+		</div>
+		<div class="search_go">
+			<input type="image" src="/images/go_alt.gif" class="wmpsearchbutton" alt="Go search" />
+		</div>
+	<input type="hidden" name="site" value="default_collection"/>
+    <input type="hidden" name="client" value="default_frontend"/>
+    <input type="hidden" name="proxystylesheet" value="default_frontend"/>
+    <input type="hidden" name="output" value="xml_no_dtd"/>
+    </form>
+                      </div>
+                </div>
+                  <!--<div id="container_linked_content">
+                      <h2 class="title_linked">Further and related Information on this subject:</h2>
+                      <ul>
+                          <li></li>
+                      </ul>
+                  </div>-->
+              </div>         
+        </div>
+        <div id="float_left_nav">
+               <div id="inc_left_nav">
+               		<div id="leftmenu">
+<ul><li class='parent'><a href='/np/index.asp' target='_parent' title='Neighbourhood Policing'>Neighbourhood Policing</a></li>
+<li class='parent'><a href='/about-us/index.asp' target='_parent' title='About Us'>About Us</a></li>
+<li class='parent'><a href='/contact-us/index.asp' target='_parent' title='Contact Us'>Contact Us</a></li>
+<li class='parent'><a href='/crime-reduction/index.asp' target='_parent' title='Crime Reduction'>Crime Reduction</a></li>
+<li class='parent'><a href='/specialist-crime/index.asp' target='_parent' title='Specialist Crime Units'>Specialist Crime Units</a></li>
+<li class='parent'><a href='/victims-witnesses/index.asp' target='_parent' title='Victims and Witnesses'>Victims and Witnesses</a></li>
+<li class='stop'><a href='http://www.west-midlands.police.uk/wmprrecruit/' target='_blank' title='Join the Force (new window)'>Join the Force</a></li>
+<li class='parent'><a href='/foi/index.asp' target='_parent' title='Freedom of Information'>Freedom of Information</a></li>
+<li class='parent'><a href='/help-advice/index.asp' target='_parent' title='Help and Advice'>Help and Advice</a></li>
+<li class='stop'><a href='/pctv/index.asp' target='_parent' title='PCTV'>PCTV</a></li>
+<li class='parent'><a href='/latest-news/index.asp' target='_parent' title='Latest News'>Latest News</a></li>
+<li class='stop'><a href='/police-auction/index.asp' target='_parent' title='Police Auctions'>Police Auctions</a></li>
+<li class='parent'><a href='/misc/index.asp' target='_parent' title='Miscellaneous'>Miscellaneous</a></li>
+<li class='parent'><a href='/information/index.asp' target='_parent' title='Information'>Information</a></li>
+<li class='stop'><a href='/sitemap/index.asp' target='_parent' title='Site Map'>Site Map</a></li>
+</ul>
+</div>
+               </div>
+               <div id="left_nav_fade">
+               </div>
+          </div>
+          <div id="content_fix">
+          </div>
+          
+                    
+        </div>
+        <!--<div id="container_cookie_info">
+        	<img src="/images/ie6/triangle.gif" alt="Important information about our use of Cookies" width="20" height="18"/>
+            <a class="link" href="/information/cookies/">View information about how this website uses Cookies to store data</a>
+            <div class="close rounded"title="Close">X</div>
+        </div>-->
+        <div id="container_footer" class="clearfix">
+            <div id="content_footer_left">
+                <div class="main_search">
+				  <div class="container_search">
+	<form method="get" action="http://search.west-midlands.police.uk/search" class="wmpsearch">
+		<div class="search_box">
+			<input class="rounded" name="q" type="text" size="15" maxlength="200" value="Search the site:" onfocus="value=''"/>
+		</div>
+		<div class="search_go">
+			<input type="image" src="/images/go.gif" class="wmpsearchbutton" alt="Go" />
+		</div>
+	<input type="hidden" name="site" value="default_collection"/>
+    <input type="hidden" name="client" value="default_frontend"/>
+    <input type="hidden" name="proxystylesheet" value="default_frontend"/>
+    <input type="hidden" name="output" value="xml_no_dtd"/>
+    </form>
+</div>
+                </div>
+                <p>&#169; Copyright 2012 West Midlands Police</p>
+          </div>
+            
+            <div id="content_footer_right">
+            	<ul id="one">
+                	<li><a href="/">Home</a></li>
+                    <li><a href="/np/">Neighbourhood Policing</a></li>
+            	    <li><a href="/contact-us/">Contact Us</a></li>
+            	    <li><a href="/wmprrecruit/">Join Us</a></li>
+            	    <li><a href="/foi/">Freedom of Information</a></li>
+            	    <li><a href="/help-advice/">Help &amp; Advice</a></li>
+            	    <li><a href="/pctv/">PCTV</a></li>
+            	    <li><a href="/latest-news/">Latest News</a> </li>
+            	</ul>
+                <ul id="two">
+                	<li><a href="/about-us/">About Us</a></li>
+                    <li><a href="/crime-reduction/">Crime Reduction</a></li>
+                    <li><a href="/specialist-crime/">Specialist Crime Units</a></li>
+                    <li><a href="/victims-witnesses/">Victims &amp; Witnesses</a></li>
+                    <li><a href="/police-auction/">Police Auctions</a></li>
+                    <li><a href="/misc/">Miscellaneous</a></li>
+                    <li><a href="/sitemap/">Site Map </a></li>
+                </ul>
+                <ul id="three">
+                	<li class="foot_rss"><a href="/feeds/">RSS Feeds</a></li>
+                    <li class="foot_access"><a href="/information/">Information</a></li>
+                    <li class="foot_mobile"><a href="http://m.west-midlands.police.uk/">Mobile Site</a></li>
+                  <li class="foot_faqs"><a href="https://www.askthe.police.uk/default.mth" target="_blank">FAQs</a></li>
+                </ul>
+          </div>
+        </div>			
+    </div>
+</div>
+<!--GOOGLE ANALYTICS TRACKING-->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17331027-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!-- END GOOGLE ANALYTICS TRACKING-->
+
+<!-- GOOGLE+ CODE -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'en-GB'}
+</script>
+<!-- END GOOGLE+ CODE -->
+</body>
+
+</html>
+<script type="text/javascript" src="/scripts/js/titleswitcher.js"></script>

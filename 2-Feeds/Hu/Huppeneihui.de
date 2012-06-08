@@ -1,0 +1,366 @@
+<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Huppeneihui </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="keywords" content="Weblog, Blog, Pat Possible, Podcast, Postings, download, internetseite" />
+    <meta name="language" content="de" />
+    <meta name="author" content="Pat Possible" />
+    <meta name="abstract" content="Pat Possible" />
+    <meta name="copyright" content="Pat Possible" />
+    <meta name="designer" content="Pat Possible" />
+    <meta name="publisher" content="Pat Possible" />
+    <meta name="revisit-After" content="30 days" />
+    <meta name="distribution" content="global" />   
+    
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/prototype/1.7/prototype.js'></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js'></script>
+    <script type='text/javascript' src='wp-content/themes/Museum2/lightview/js/lightview.js'></script>
+    <script type='text/javascript' src='wp-content/themes/Museum2/PostFixes.js'></script>
+    
+    <link rel="stylesheet" href="http://huppeneihui.de/wp-content/themes/Museum2/style.css?20110929" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="wp-content/themes/Museum/lightview/css/lightview.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Blog" href="?feed=rss2" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Kommentare" href="?feed=comments-rss2" />
+    <link rel="pingback" href="http://huppeneihui.de/xmlrpc.php" />
+	
+	<style type="text/css">
+	img, div {
+	  behavior: url(wp-content/themes/Museum/iepngfix.htc);
+	}
+    </style>
+	<link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://huppeneihui.de/wp-content/plugins/podpress/podpress.css?ver=3.2.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://huppeneihui.de/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "F8F8F8";
+	podPressPopupPlayerOpt["leftbg"] = "EEEEEE";
+	podPressPopupPlayerOpt["rightbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["lefticon"] = "666666";
+	podPressPopupPlayerOpt["righticon"] = "666666";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "9FFFB8";
+	podPressPopupPlayerOpt["border"] = "666666";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://huppeneihui.de/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"F8F8F8", leftbg:"EEEEEE", rightbg:"CCCCCC", rightbghover:"999999", lefticon:"666666", righticon:"666666", righticonhover:"FFFFFF", text:"666666", slider:"666666", track:"FFFFFF", loader:"9FFFB8", border:"666666", volslider:"666666", voltrack:"FFFFFF", tracker:"DDDDDD", skip:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://huppeneihui.de/";
+var podPressBackendURL = "http://huppeneihui.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://huppeneihui.de/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://huppeneihui.de/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://huppeneihui.de/wp-content/plugins/podpress/js/podpress.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://huppeneihui.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://huppeneihui.de/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Huppeneihui' href='http://huppeneihui.de' />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel='shortlink' href='http://wp.me/1W5KG' />
+
+<link rel="alternate" type="application/rss+xml" title="Huppeneihui » Podcast" href="http://huppeneihui.de/?feed=podcast" />
+
+<!--[if IE 6]>
+<style type="text/css">
+.post,#navigation,.meta{background:#010101;}
+.photo,.quote,.link,.conversation,.video,.audio,.regular{min-height:350px;overflow:visible;}
+body#index .fade{z-index:100;position:absolute;bottom:8px;}
+</style>
+<script type="text/javascript" src="wp-content/themes/Museum/supersleight-min.js"></script>
+<![endif]-->
+</head><body id="index">
+
+
+<div align="center">
+    <div class="main" align="left">
+        <div class="header">
+            <div class="image"><a href="http://huppeneihui.de/"><img src="wp-content/themes/Museum2/images/title.png" alt="Huppeneihui" border="0" /></a></div>
+            <div class="navi">
+        		<a href='#archiv' class='lightview' title="Archiv :: :: autosize: true, closeButton: 'small'">Archiv</a>
+	<a href="http://cid-31118398ccc55a37.profile.live.com/">Profil</a>
+	<a href="http://twitter.com/PatPossible">Twitter</a>
+	<!--<a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=286106651">iTunes</a>-->
+	<a href="?feed=rss2">RSS</a>            </div>
+        </div>
+
+<div id="container">
+
+
+
+
+        <!--video POST-->
+		<div id="p_id598" class="post ">
+		   <div class="video">
+			  <div class="morewrap"><!--MOREWRAP TRIGGERED BY TAGGING POST 'more'-->
+			     <a href="http://huppeneihui.de/?p=598" class="morelink">more +</a>
+				 <div class="fade"></div>
+			  </div><!--END MOREWRAP-->  
+              <div id="v_id598" class="videobox"><object width="248" height="222"><param name="movie" id="vsrc_id598" value="http://www.youtube.com/v/5XhDHJNuyXw&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed id="vsrc2_id598" src="http://www.youtube.com/v/WIZVyCRgCI4&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="248" height="222" allowFullScreen="true" wmode="transparent"></embed></object></div>
+			  <div class="caption"><p><p>Passing Hearts</p>
+</p></div>
+              <a href="http://huppeneihui.de/?p=598" class="permalink">06.11.2011</a>
+				<a href="http://huppeneihui.de/?p=598#comments" class="disquscount">no comments</a>            </div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--video POST-->
+		<div id="p_id594" class="post ">
+		   <div class="video">
+			  <div class="morewrap"><!--MOREWRAP TRIGGERED BY TAGGING POST 'more'-->
+			     <a href="http://huppeneihui.de/?p=594" class="morelink">more +</a>
+				 <div class="fade"></div>
+			  </div><!--END MOREWRAP-->  
+              <div id="v_id594" class="videobox"><object width="248" height="222"><param name="movie" id="vsrc_id594" value="http://www.youtube.com/v/5XhDHJNuyXw&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1"></param><param name="wmode" value="transparent"></param><param name="allowFullScreen" value="true"></param><embed id="vsrc2_id594" src="http://www.youtube.com/v/srmqqbpg4TA&amp;rel=0&amp;egm=0&amp;showinfo=0&amp;fs=1" type="application/x-shockwave-flash" width="248" height="222" allowFullScreen="true" wmode="transparent"></embed></object></div>
+			  <div class="caption"><p><p>This Is Halloween</p>
+</p></div>
+              <a href="http://huppeneihui.de/?p=594" class="permalink">31.10.2011</a>
+				<a href="http://huppeneihui.de/?p=594#comments" class="disquscount">no comments</a>            </div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--Gadgets POST-->
+        <div id="p_id593" class="post "> <!-- more -->
+		   <div class="regular">
+		      <div class="morewrap"><!--MOREWRAP TRIGGERED BY TAGGING POST 'more'-->
+			     <a href="http://huppeneihui.de/?p=593" class="morelink">more +</a>
+			     <div class="fade"></div>
+			  </div><!--END MOREWRAP-->
+              <div class="pad"><!--PAD BUMPS INDEX PAGE TEXT-->
+                 <h1><a href="http://huppeneihui.de/?p=593">Mein Wetter 4</a></h1>
+                 <p id="id593"><p><img alt="image" src="http://huppeneihui.de/wp-content/uploads/image8.png" width="250" height="219" /><br />
+<h2><a href="http://patpossible.de/?p=228">Download +</a>&#160;</h2>
+</p>
+				</div>
+				<a href="http://huppeneihui.de/?p=593" class="permalink">23.10.2011</a>
+				<a href="http://huppeneihui.de/?p=593#comments" class="disquscount">no comments</a>				<!--PASTE DISQUS PERMALINK BLOCK FOR REGULAR COMMENTS-->
+			</div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--Photo POST-->
+        <div id="p_id590" class="post ">
+           <div class="photo">
+              <a href="http://huppeneihui.de/?p=590" class="permalink">+</a>
+              <div id="id590" class="photobox"><a href="http://huppeneihui.de/?p=590"><p><img name="Ein Wochenende in Weimar" alt="" src="https://byfiles.storage.live.com/y1pJP4s_P3x4U6fbSiawFiO4Lo_dnk1iC_NNkweq-X6YAjfxCj45L7gJTafxSQcJ8R69uQwWOC3xcQ/DSC00029.jpg?psid=1" height="350" /> </p>
+<p>Mehr Fotos gibt es <a href="https://skydrive.live.com/?cid=31118398CCC55A37&amp;id=31118398CCC55A37%213399" target="_blank">hier</a>.</p>
+</a></div>
+              <div id="caption_id590" class="caption" style="display: none;"><p>
+              <b id="caption_id590_title"></b></p>
+              <p id="caption_id590_caption"></p></div>
+              <script language="javascript" type="text/javascript">photocaption('id590');</script>
+           </div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--Text POST-->
+        <div id="p_id588" class="post "> <!-- more -->
+		   <div class="regular">
+		      <div class="morewrap"><!--MOREWRAP TRIGGERED BY TAGGING POST 'more'-->
+			     <a href="http://huppeneihui.de/?p=588" class="morelink">more +</a>
+			     <div class="fade"></div>
+			  </div><!--END MOREWRAP-->
+              <div class="pad"><!--PAD BUMPS INDEX PAGE TEXT-->
+                 <h1><a href="http://huppeneihui.de/?p=588">Schön</a></h1>
+                 <p id="id588"><p>So stressig der Tag heute auch war, ich fand ihn sehr schön. Es ist immer wieder aufregend zu bemerken, wie gut Frankfurt mir tut und wie es mich verändert hat.</p>
+</p>
+				</div>
+				<a href="http://huppeneihui.de/?p=588" class="permalink">11.10.2011</a>
+				<a href="http://huppeneihui.de/?p=588#comments" class="disquscount">no comments</a>				<!--PASTE DISQUS PERMALINK BLOCK FOR REGULAR COMMENTS-->
+			</div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--Text POST-->
+        <div id="p_id584" class="post more"> <!-- more -->
+		   <div class="regular">
+		      <div class="morewrap"><!--MOREWRAP TRIGGERED BY TAGGING POST 'more'-->
+			     <a href="http://huppeneihui.de/?p=584" class="morelink">more +</a>
+			     <div class="fade"></div>
+			  </div><!--END MOREWRAP-->
+              <div class="pad"><!--PAD BUMPS INDEX PAGE TEXT-->
+                 <h1><a href="http://huppeneihui.de/?p=584">&#8230;und Zeitung zum verweilen!</a></h1>
+                 <p id="id584"><p>Seit vergangener Woche hängt ein Zettel an der Eingangstür, dass der Gemeinschafts-Waschraum mit einer Waschmaschine ausgestattet wurde.</p>
+<p><img class="alignnone size-full" alt="20111007-093403.jpg" src="http://huppeneihui.de/wp-content/uploads/20111007-093403.jpg" /></p>
+<p>Ein pfiffiger Nachbar hing einen weiteren Zettel dazu, mit der Bitte um einen Trockner. Er und ich fanden das so lustig, dass wir noch weitere Utensilien dazu schrieben.</p>
+<p><img class="alignnone size-full" alt="20111007-093505.jpg" src="http://huppeneihui.de/wp-content/uploads/20111007-093505.jpg" /></p>
+</p>
+				</div>
+				<a href="http://huppeneihui.de/?p=584" class="permalink">07.10.2011</a>
+				<a href="http://huppeneihui.de/?p=584#comments" class="disquscount">no comments</a>				<!--PASTE DISQUS PERMALINK BLOCK FOR REGULAR COMMENTS-->
+			</div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--Photo POST-->
+        <div id="p_id572" class="post ">
+           <div class="photo">
+              <a href="http://huppeneihui.de/?p=572" class="permalink">+</a>
+              <div id="id572" class="photobox"><a href="http://huppeneihui.de/?p=572"><p><img class="alignnone size-full" alt="20111007-072202.jpg" src="http://huppeneihui.de/wp-content/uploads/20111007-072202.jpg" /></p>
+<p>(via <a href="http://twitter.com/Chris0Cross">@Chris0Cross</a>)</p>
+</a></div>
+              <div id="caption_id572" class="caption" style="display: none;"><p>
+              <b id="caption_id572_title"></b></p>
+              <p id="caption_id572_caption"></p></div>
+              <script language="javascript" type="text/javascript">photocaption('id572');</script>
+           </div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+        <!--quote POST-->
+        <div id="p_id569" class="post more">
+		   <div class="quote">
+		      <div class="morewrap"><!--MOREWRAP TRIGGERED BY TAGGING POST 'more'-->
+			     <a href="http://huppeneihui.de/?p=569" class="morelink">more +</a>
+				 <div class="fade"></div>
+			  </div><!--END MOREWRAP-->
+              <div id="id569" title="Bill Gates" class="quotetext"><p>The world rarely sees someone who has had the profound impact Steve has had, the effects of which will be felt for many generations to come. For those of us lucky enough to get to work with him, it&#8217;s been an insanely great honor. I will miss Steve immensely.</p>
+</div>
+              <div class="source">&mdash; Bill Gates</div>
+			  <a href="http://huppeneihui.de/?p=569" class="permalink">06.10.2011</a>
+			  <a href="http://huppeneihui.de/?p=569#comments" class="disquscount">no comments</a>			</div>
+        </div>
+        <!--CLOSE POST-->
+                            
+
+
+
+
+<div id="navigation"><!--NAVIGATION ONLY APPEARS ON INDEX PAGES-->
+   <div id="pagetab">page</div>
+   <div class="pages">
+<span>1</span> of <span class="total">24</span>   </div>   
+    &nbsp;&nbsp;
+   <a href="http://huppeneihui.de/?paged=2" >Next Page +</a></div>
+
+
+
+
+<div id="footer">
+   &copy; 2011-2001: <a href="http://huppeneihui.de/">huppeneihui.de</a> | <a href="http://huppeneihui.de/?page_id=15">Copyright</a> | <a href="http://huppeneihui.de/?page_id=8">Impressum</a> | <a href="http://huppeneihui.de/?page_id=2">Nutzungsbestimmungen</a> | <a href="http://huppeneihui.de/?page_id=20">Credits</a>
+</div>
+</div><!--CLOSE CONTAINER-->  
+
+
+      </div>
+</div>
+<div class="halfright"></div> 
+<div style="display: none">
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://huppeneihui.de/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "F8F8F8";
+	podPressPopupPlayerOpt["leftbg"] = "EEEEEE";
+	podPressPopupPlayerOpt["rightbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["lefticon"] = "666666";
+	podPressPopupPlayerOpt["righticon"] = "666666";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["text"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "9FFFB8";
+	podPressPopupPlayerOpt["border"] = "666666";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://huppeneihui.de/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"F8F8F8", leftbg:"EEEEEE", rightbg:"CCCCCC", rightbghover:"999999", lefticon:"666666", righticon:"666666", righticonhover:"FFFFFF", text:"666666", slider:"666666", track:"FFFFFF", loader:"9FFFB8", border:"666666", volslider:"666666", voltrack:"FFFFFF", tracker:"DDDDDD", skip:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://huppeneihui.de/";
+var podPressBackendURL = "http://huppeneihui.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://huppeneihui.de/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://huppeneihui.de/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?w&#038;ver=3.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {
+	my_hash: ""
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://huppeneihui.de/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.2.1'></script>
+	<div style="display:none">
+	</div>
+
+	<script src="http://stats.wordpress.com/e-201223.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1',blog:'28621474',post:'0'});
+	var load_cmc = function(){linktracker_init(28621474,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></div>
+<div id="archiv" style="display: none;color:#000000;">
+<div style="width:200px;height:1px;"></div>
+<ul>
+<li><a href='http://huppeneihui.de/?m=201206' title='Juni 2012'>Juni 2012</a></li><li><a href='http://huppeneihui.de/?m=201205' title='Mai 2012'>Mai 2012</a></li><li><a href='http://huppeneihui.de/?m=201204' title='April 2012'>April 2012</a></li><li><a href='http://huppeneihui.de/?m=201203' title='M&auml;rz 2012'>M&auml;rz 2012</a></li><li><a href='http://huppeneihui.de/?m=201202' title='Februar 2012'>Februar 2012</a></li><li><a href='http://huppeneihui.de/?m=201201' title='Januar 2012'>Januar 2012</a></li><li><a href='http://huppeneihui.de/?m=201112' title='Dezember 2011'>Dezember 2011</a></li><li><a href='http://huppeneihui.de/?m=201111' title='November 2011'>November 2011</a></li><li><a href='http://huppeneihui.de/?m=201110' title='Oktober 2011'>Oktober 2011</a></li><li><a href='http://huppeneihui.de/?m=201109' title='September 2011'>September 2011</a></li><li><a href='http://huppeneihui.de/?m=201108' title='August 2011'>August 2011</a></li><li><a href='http://huppeneihui.de/?m=201107' title='Juli 2011'>Juli 2011</a></li><li><a href='http://huppeneihui.de/?m=201106' title='Juni 2011'>Juni 2011</a></li><li><a href='http://huppeneihui.de/?m=201105' title='Mai 2011'>Mai 2011</a></li><li><a href='http://huppeneihui.de/?m=201104' title='April 2011'>April 2011</a></li><li><a href='http://huppeneihui.de/?m=201103' title='M&auml;rz 2011'>M&auml;rz 2011</a></li><li><a href='http://huppeneihui.de/?m=201102' title='Februar 2011'>Februar 2011</a></li><li><a href='http://huppeneihui.de/?m=201101' title='Januar 2011'>Januar 2011</a></li><li><a href='http://huppeneihui.de/?m=201012' title='Dezember 2010'>Dezember 2010</a></li><li><a href='http://huppeneihui.de/?m=201011' title='November 2010'>November 2010</a></li><li><a href='http://huppeneihui.de/?m=201010' title='Oktober 2010'>Oktober 2010</a></li><li><a href='http://huppeneihui.de/?m=201009' title='September 2010'>September 2010</a></li><li><a href='http://huppeneihui.de/?m=201008' title='August 2010'>August 2010</a></li><li><a href='http://huppeneihui.de/?m=201007' title='Juli 2010'>Juli 2010</a></li><li><a href='http://huppeneihui.de/?m=201006' title='Juni 2010'>Juni 2010</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=4&amp;jahr=2010' title='April 2010'>April 2010</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=3&amp;jahr=2010' title='M&auml;rz 2010'>M&auml;rz 2010</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=2&amp;jahr=2010' title='Februar 2010'>Februar 2010</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=1&amp;jahr=2010' title='Januar 2010'>Januar 2010</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=12&amp;jahr=2009' title='Dezember 2009'>Dezember 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=11&amp;jahr=2009' title='November 2009'>November 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=10&amp;jahr=2009' title='Oktober 2009'>Oktober 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=9&amp;jahr=2009' title='September 2009'>September 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=8&amp;jahr=2009' title='August 2009'>August 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=7&amp;jahr=2009' title='Juli 2009'>Juli 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=6&amp;jahr=2009' title='Juni 2009'>Juni 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=5&amp;jahr=2009' title='Mai 2009'>Mai 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=4&amp;jahr=2009' title='April 2009'>April 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=3&amp;jahr=2009' title='M&auml;rz 2009'>M&auml;rz 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=2&amp;jahr=2009' title='Februar 2009'>Februar 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=1&amp;jahr=2009' title='Januar 2009'>Januar 2009</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=12&amp;jahr=2008' title='Dezember 2008'>Dezember 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=11&amp;jahr=2008' title='November 2008'>November 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=10&amp;jahr=2008' title='Oktober 2008'>Oktober 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=9&amp;jahr=2008' title='September 2008'>September 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=8&amp;jahr=2008' title='August 2008'>August 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=7&amp;jahr=2008' title='Juli 2008'>Juli 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=6&amp;jahr=2008' title='Juni 2008'>Juni 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=5&amp;jahr=2008' title='Mai 2008'>Mai 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=4&amp;jahr=2008' title='April 2008'>April 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=3&amp;jahr=2008' title='M&auml;rz 2008'>M&auml;rz 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=2&amp;jahr=2008' title='Februar 2008'>Februar 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=1&amp;jahr=2008' title='Januar 2008'>Januar 2008</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=12&amp;jahr=2007' title='Dezember 2007'>Dezember 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=11&amp;jahr=2007' title='November 2007'>November 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=10&amp;jahr=2007' title='Oktober 2007'>Oktober 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=9&amp;jahr=2007' title='September 2007'>September 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=8&amp;jahr=2007' title='August 2007'>August 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=7&amp;jahr=2007' title='Juli 2007'>Juli 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=6&amp;jahr=2007' title='Juni 2007'>Juni 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=5&amp;jahr=2007' title='Mai 2007'>Mai 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=4&amp;jahr=2007' title='April 2007'>April 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=3&amp;jahr=2007' title='M&auml;rz 2007'>M&auml;rz 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=2&amp;jahr=2007' title='Februar 2007'>Februar 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=1&amp;jahr=2007' title='Januar 2007'>Januar 2007</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=12&amp;jahr=2006' title='Dezember 2006'>Dezember 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=11&amp;jahr=2006' title='November 2006'>November 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=10&amp;jahr=2006' title='Oktober 2006'>Oktober 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=9&amp;jahr=2006' title='September 2006'>September 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=8&amp;jahr=2006' title='August 2006'>August 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=7&amp;jahr=2006' title='Juli 2006'>Juli 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=6&amp;jahr=2006' title='Juni 2006'>Juni 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=5&amp;jahr=2006' title='Mai 2006'>Mai 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=4&amp;jahr=2006' title='April 2006'>April 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=3&amp;jahr=2006' title='M&auml;rz 2006'>M&auml;rz 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=2&amp;jahr=2006' title='Februar 2006'>Februar 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=1&amp;jahr=2006' title='Januar 2006'>Januar 2006</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=12&amp;jahr=2005' title='Dezember 2005'>Dezember 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=11&amp;jahr=2005' title='November 2005'>November 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=10&amp;jahr=2005' title='Oktober 2005'>Oktober 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=9&amp;jahr=2005' title='September 2005'>September 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=8&amp;jahr=2005' title='August 2005'>August 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=7&amp;jahr=2005' title='Juli 2005'>Juli 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=6&amp;jahr=2005' title='Juni 2005'>Juni 2005</a></li><li><a href='archiv/archiv.php?page=archiv&amp;monat=5&amp;jahr=2005' title='Mai 2005'>Mai 2005</a></li><li><a href='http://huppeneihui.de/?m=200504' title='April 2005'>April 2005</a></li><li><a href='http://huppeneihui.de/?m=200503' title='M&auml;rz 2005'>M&auml;rz 2005</a></li><li><a href='http://huppeneihui.de/?m=200502' title='Februar 2005'>Februar 2005</a></li><li><a href='http://huppeneihui.de/?m=200501' title='Januar 2005'>Januar 2005</a></li><li><a href='http://huppeneihui.de/?m=200412' title='Dezember 2004'>Dezember 2004</a></li><li><a href='http://huppeneihui.de/?m=200411' title='November 2004'>November 2004</a></li><li><a href='http://huppeneihui.de/?m=200410' title='Oktober 2004'>Oktober 2004</a></li><li><a href='http://huppeneihui.de/?m=200409' title='September 2004'>September 2004</a></li><li><a href='http://huppeneihui.de/?m=200408' title='August 2004'>August 2004</a></li><li><a href='http://huppeneihui.de/?m=200407' title='Juli 2004'>Juli 2004</a></li><li><a href='http://huppeneihui.de/?m=200406' title='Juni 2004'>Juni 2004</a></li><li><a href='http://huppeneihui.de/?m=200405' title='Mai 2004'>Mai 2004</a></li><li><a href='http://huppeneihui.de/?m=200404' title='April 2004'>April 2004</a></li><li><a href='http://huppeneihui.de/?m=200403' title='M&auml;rz 2004'>M&auml;rz 2004</a></li><li><a href='http://huppeneihui.de/?m=200402' title='Februar 2004'>Februar 2004</a></li><li><a href='http://huppeneihui.de/?m=200401' title='Januar 2004'>Januar 2004</a></li><li><a href='http://huppeneihui.de/?m=200312' title='Dezember 2003'>Dezember 2003</a></li><li><a href='http://huppeneihui.de/?m=200311' title='November 2003'>November 2003</a></li><li><a href='http://huppeneihui.de/?m=200310' title='Oktober 2003'>Oktober 2003</a></li><li><a href='http://huppeneihui.de/?m=200309' title='September 2003'>September 2003</a></li><li><a href='http://huppeneihui.de/?m=200308' title='August 2003'>August 2003</a></li><li><a href='http://huppeneihui.de/?m=200307' title='Juli 2003'>Juli 2003</a></li><li><a href='http://huppeneihui.de/?m=200306' title='Juni 2003'>Juni 2003</a></li><li><a href='http://huppeneihui.de/?m=200305' title='Mai 2003'>Mai 2003</a></li><li><a href='http://huppeneihui.de/?m=200304' title='April 2003'>April 2003</a></li>
+
+
+<li><a href='archiv/patrick/maerz03.html' title='M&auml;rz 2003'>M&auml;rz 2003</a></li><li><a href='archiv/patrick/februar03.html' title='Februar 2003'>Februar 2003</a></li><li><a href='archiv/patrick/januar03.html' title='Januar 2003'>Januar 2003</a></li><li><a href='archiv/patrick/dezember02.html' title='Dezember 2002'>Dezember 2002</a></li><li><a href='archiv/patrick/november02.html' title='November 2002'>November 2002</a></li><li><a href='archiv/patrick/oktober02.html' title='Oktober 2002'>Oktober 2002</a></li><li><a href='archiv/patrick/september02.html' title='September 2002'>September 2002</a></li><li><a href='archiv/patrick/august02.html' title='August 2002'>August 2002</a></li><li><a href='archiv/patrick/juli02.html' title='Juli 2002'>Juli 2002</a></li><li><a href='archiv/patrick/juni02.html' title='Juni 2002'>Juni 2002</a></li><li><a href='archiv/patrick/mai02.html' title='Mai 2002'>Mai 2002</a></li><li><a href='archiv/patrick/april02.html' title='April 2002'>April 2002</a></li><li><a href='archiv/patrick/maerz02.html' title='M&auml;rz 2002'>M&auml;rz 2002</a></li><li><a href='archiv/patrick/februar02.html' title='Februar 2002'>Februar 2002</a></li><li><a href='archiv/patrick/januar02.html' title='Januar 2002'>Januar 2002</a></li><li><a href='archiv/patrick/dezember01.html' title='Dezember 2001'>Dezember 2001</a></li><li><a href='archiv/patrick/november01.html' title='November 2001'>November 2001</a></li><li><a href='archiv/patrick/oktober01.html' title='Oktober 2001'>Oktober 2001</a></li><li><a href='archiv/patrick/september01.html' title='September 2001'>September 2001</a></li></ul>
+</div>	<!-- Statistik/Analyse-Tool einbauen -->
+<script type='text/javascript' src='http://www.pinmywebsite.com/script/v1.0/634529915412059356.js'></script>
+</body>
+</html>

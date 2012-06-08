@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Podcast, Videocast</title>
+
+<link rel="stylesheet" href="http://www.letalk.de/wp-content/themes/wp-brown/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="whatever" href="link" />
+
+<!--[If IE 6]><link rel="stylesheet" href="http://www.letalk.de/wp-content/themes/wp-brown/ie6.css" type="text/css" media="screen" /><![endif]-->
+
+<!--[if lte IE 7]><link rel="stylesheet" href="http://www.letalk.de/wp-content/themes/wp-brown/ie.css" type="text/css" media="screen" /><![endif]-->
+
+<link rel="stylesheet" type="text/css" href="http://www.letalk.de/wp-content/plugins/fixed-social-buttons/stylehortop.css" /> 
+			<a href="feed/podcast" target="_blank"  title="Subscribe" class="buttonfixed" style="right:5px;">
+				<div class="feed2">Rss Feed</div></a> 
+				<a href="http://twitter.com/#!/Le_Talk" target="_blank"  class="buttonfixed" title="Follow me" style="right:32px;">
+					<div class="twit2">Tweeter button</div></a>
+			<a href="http://www.facebook.com/pages/Letalk/320333798004872?sk=wall" target="_blank"  class="buttonfixed" title="Facebook profile" style="right:59px;">
+				<div class="face2">Facebook button</div></a><link rel='stylesheet' id='podpress_frontend_styles-css'  href='http://www.letalk.de/wp-content/plugins/podpress/podpress.css?ver=3.3.1' type='text/css' media='all' />
+<script type="text/javascript">
+//<![CDATA[
+var podpressL10 = {
+	openblogagain : 'zur&uuml;ck zu:',
+	theblog : 'zum Blog',
+	close : 'schlie&szlig;en',
+	playbutton : 'Abspielen &gt;'
+}
+//]]>
+</script>
+<script type="text/javascript" src="http://www.letalk.de/wp-content/plugins/podpress/players/1pixelout/1pixelout_audio-player.js"></script>
+<script type="text/javascript">//<![CDATA[
+	var podPressPlayerFile = "1pixelout_player.swf";
+	var podPressPopupPlayerOpt = new Object();
+	podPressPopupPlayerOpt["bg"] = "E5E5E5";
+	podPressPopupPlayerOpt["text"] = "333333";
+	podPressPopupPlayerOpt["leftbg"] = "CCCCCC";
+	podPressPopupPlayerOpt["lefticon"] = "333333";
+	podPressPopupPlayerOpt["volslider"] = "666666";
+	podPressPopupPlayerOpt["voltrack"] = "FFFFFF";
+	podPressPopupPlayerOpt["rightbg"] = "B4B4B4";
+	podPressPopupPlayerOpt["rightbghover"] = "999999";
+	podPressPopupPlayerOpt["righticon"] = "333333";
+	podPressPopupPlayerOpt["righticonhover"] = "FFFFFF";
+	podPressPopupPlayerOpt["loader"] = "009900";
+	podPressPopupPlayerOpt["track"] = "FFFFFF";
+	podPressPopupPlayerOpt["border"] = "CCCCCC";
+	podPressPopupPlayerOpt["tracker"] = "DDDDDD";
+	podPressPopupPlayerOpt["skip"] = "666666";
+	podPressPopupPlayerOpt["slider"] = "666666";
+	podPressPopupPlayerOpt["initialvolume"] = "70";
+	podPressPopupPlayerOpt["buffer"] = "5";
+	podPressPopupPlayerOpt["checkpolicy"] = "no";
+	podpressAudioPlayer.setup("http://www.letalk.de/wp-content/plugins/podpress/players/1pixelout/" + podPressPlayerFile, {bg:"E5E5E5", text:"333333", leftbg:"CCCCCC", lefticon:"333333", volslider:"666666", voltrack:"FFFFFF", rightbg:"B4B4B4", rightbghover:"999999", righticon:"333333", righticonhover:"FFFFFF", loader:"009900", track:"FFFFFF", border:"CCCCCC", tracker:"DDDDDD", skip:"666666", slider:"666666", initialvolume:"70", buffer:"5", checkpolicy:"no",  pagebg:"FFFFFF", transparentpagebg:"yes", encode: "no"} );
+//]]></script>
+<script type="text/javascript">//<![CDATA[
+var podPressBlogURL = "http://www.letalk.de/";
+var podPressBackendURL = "http://www.letalk.de/wp-content/plugins/podpress/";
+var podPressDefaultPreviewImage = "http://www.letalk.de/wp-content/plugins/podpress/images/vpreview_center.png";
+var podPressMP3PlayerWrapper = false;
+var podPress_cortado_signed = false;
+var podPressOverwriteTitleandArtist = false;
+var podPressHTML5 = true;
+var podPressHTML5sec = "959ef87159";
+var podPressHTML5_showplayersdirectly = false;
+var podPressText_PlayNow = "Jetzt abspielen";
+var podPressText_HidePlayer = "Player verbergen";
+//]]></script>
+<script type='text/javascript' src='http://www.letalk.de/wp-content/plugins/podpress/js/podpress.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.letalk.de/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.letalk.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.letalk.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1" />
+
+<!-- All in One SEO Pack 1.6.14.3 by Michael Torbert of Semper Fi Web Design[311,356] -->
+<meta name="description" content="Podcast, Videocast, Linux, Ubuntu, Tutorial" />
+<meta name="keywords" content="Podcast, Linux, Ubuntu, Videocast, 12.04 LTS, Tux, Tutorial, Einführung, Anwendungen, Programme" />
+<link rel="canonical" href="http://www.letalk.de/" />
+<!-- /all in one seo pack -->
+
+
+
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://www.letalk.de/analytics/piwik/" : "http://www.letalk.de/analytics/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://www.letalk.de/analytics/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+
+
+
+
+</head>
+
+<body>
+
+<center>
+
+<div class="wrap">
+
+	<div class="header">
+
+		<div class="logo">
+
+			<h1><a href="http://www.letalk.de" title="http://www.letalk.de">LE TALK</a></h1>
+
+			<span>Der neue Pod- und Videocast</span>
+
+		</div>
+
+		
+
+		<div class="clear"></div>
+
+	</div>
+
+	<div class="menu">
+
+		<ul>
+
+			<li class="page_item current_page_item"><a href="http://www.letalk.de">Podcast</a></li>
+
+			<li class="page_item page-item-16"><a href="http://www.letalk.de/tutorials">Videocast</a></li>
+
+		</ul>
+
+		  
+		<div class="clear"></div>
+
+	</div>
+
+	
+
+	
+
+<div class="content">
+
+	<div class="leftcontent">
+
+		
+			
+			<div class="article">
+
+				<h2><a href="http://www.letalk.de/letalk-podcast-folge-001" title="LeTalk Podcast Folge 001">LeTalk Podcast Folge 001</a></h2>
+
+				<span class="postmeta date">Mai 22, 2012	 - Author: andrec</span>
+
+				<div class="postcontent">
+
+					<p>Heute habe ich die erste Folge des LeTalk &#8211; Podcasts aufgenommen.<br />
+Ich denke die Audioqualität ist vertretbar. Das Setup hat auch etwas gedauert &#8230;<br />
+Nun schaue ich mal, ob ich meinen Feed in einigen Podcast &#8211; Verzeichnissen einstellen kann.<br />
+<code><!-- http://www.podcast.de/pod_691751gUOBAAnOcsM4OUX79188/ --></code><br />
+<!-- http://www.podcast.de/pod_691751gUOBAAnOcsM4OUX79188/ --><br />
+<a href="http://podster.de/claim/1dl8du3G13dL0de9dg ">Mein Podcast bei podster</a></p>
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_1"><!-- podPress --></div></div>
+<div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://www.letalk.de/podpress_trac/web/41/0/letalk001.mp3" target="new" title="Download: letalk001" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://www.letalk.de/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">letalk001</span> <a href="#podPressPlayerSpace_1" class="podpress_playlink podpress_playlink_audio_mp3" onclick="javascript:podPressShowHidePlayer('1', 'http://www.letalk.de/podpress_trac/play/41/0/letalk001.mp3', 290, 24, 'false', 'http://www.letalk.de/wp-content/plugins/podpress/images/vpreview_center.png', 'letalk001', 'LE TALK'); return false;"><span id="podPressPlayerSpace_1_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_1_OrigURL" value="http://letalk.de/wp-content/uploads/letalk001.mp3" /> | <a href="#podPressPlayerSpace_1" class="podpress_playinpopup podpress_playinpopup_audio_mp3" onclick="javascript:podPressPopupPlayer('1', 'http://www.letalk.de/podpress_trac/play/41/0/letalk001.mp3', 290, 24, 'LE TALK', '41', 'letalk001', 'LE TALK'); return false;">Play in Popup</a> | <a href="http://www.letalk.de/podpress_trac/web/41/0/letalk001.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a> (38)</div></div>
+<script type="text/javascript">podPressShowHidePlayer('1', 'http://www.letalk.de/podpress_trac/play/41/0/letalk001.mp3', 290, 24, 'false', 'http://www.letalk.de/wp-content/plugins/podpress/images/vpreview_center.png', 'letalk001', 'LE TALK');</script>
+				</div>
+
+				<div class="postmeta">
+
+					<span class="mcategories">Categories: <a href="http://www.letalk.de/category/podcast" title="Alle Artikel in Podcast ansehen" rel="category tag">Podcast</a></span>
+
+					<span class="mcomments"><span>Kommentare deaktiviert</span></span>
+
+					<div style="clear: both;"></div>
+
+					
+				</div>
+
+			</div>
+
+			
+			<div class="article">
+
+				<h2><a href="http://www.letalk.de/ankundigung-podcast" title="Ankündigung Podcast">Ankündigung Podcast</a></h2>
+
+				<span class="postmeta date">Mai 21, 2012	 - Author: andrec</span>
+
+				<div class="postcontent">
+
+					<p>Nach über 100 Youtube &#8211; Aufrufen in ungefähr zwei Wochen, was meine Erwartungen doch weit übertroffen hat, werde ich versuchen in den nächsten Tagen meine erste Podcast &#8211; Folge an den Start zu bringen. In dieser beabsichtige ich einiges zum Thema Linux zu erzählen, und dabei auch auf den Videocast einzugehen. Aber sicher werde ich auch noch das eine oder andere drum herum anbringen.</p>
+
+				</div>
+
+				<div class="postmeta">
+
+					<span class="mcategories">Categories: <a href="http://www.letalk.de/category/podcast" title="Alle Artikel in Podcast ansehen" rel="category tag">Podcast</a></span>
+
+					<span class="mcomments"><span>Kommentare deaktiviert</span></span>
+
+					<div style="clear: both;"></div>
+
+					
+				</div>
+
+			</div>
+
+			
+			<div class="article">
+
+				<h2><a href="http://www.letalk.de/videocast-zum-thema-linux" title="Videocast zum Thema Linux">Videocast zum Thema Linux</a></h2>
+
+				<span class="postmeta date">Mai 7, 2012	 - Author: andrec</span>
+
+				<div class="postcontent">
+
+					<p>In diesem Videocast gebe ich einen Einblick in die Linux Distribution Ubuntu 12.04 LTS.<br />
+Die Audioqualität ist noch ausbaufähig. Hier muss ich mich doch noch etwas mit meinem Samson Mikrofon beschäftigen. Und bevor ich das nicht qualitativ verbessert habe, bringt auch die Podcastaufnahme nichts.<br />
+Geplant ist auf jeden Fall ein Podcast in Ergänzung zu diesem Videocast. Dieser wird dann noch etwas ausführlicher sein.</p>
+
+				</div>
+
+				<div class="postmeta">
+
+					<span class="mcategories">Categories: <a href="http://www.letalk.de/category/podcast" title="Alle Artikel in Podcast ansehen" rel="category tag">Podcast</a></span>
+
+					<span class="mcomments"><span>Kommentare deaktiviert</span></span>
+
+					<div style="clear: both;"></div>
+
+					
+				</div>
+
+			</div>
+
+			
+			<div class="article">
+
+				<h2><a href="http://www.letalk.de/test-podcast" title="Test &#8211; Podcast">Test &#8211; Podcast</a></h2>
+
+				<span class="postmeta date">Januar 31, 2012	 - Author: andrec</span>
+
+				<div class="postcontent">
+
+					<p>&nbsp;</br></p>
+<p>Das ist ein technischer Test. Ein erster richtiger Podcast demnächst an dieser Stelle &#8230;</p>
+<div class="podPress_content">
+<div class="podpress_playerspace podpress_mp3player" style="display:block;" ><div id="podPressPlayerSpace_2"><!-- podPress --></div></div>
+<div class="podPress_downloadlinks podPress_downloadlinks_audio_mp3"><a href="http://www.letalk.de/podpress_trac/web/8/0/pod01.mp3" target="new" title="Download: Test" class="podpress_downloadimglink podpress_downloadimglink_audio_mp3"><img src="http://www.letalk.de/wp-content/plugins/podpress/images/audio_mp3_button.png" class="podPress_imgicon podpress_imgicon_audio_mp3" alt="" /></a> <span class="podpress_mediafile_title podpress_mediafile_title_audio_mp3">Test</span> <a href="#podPressPlayerSpace_2" class="podpress_playlink podpress_playlink_audio_mp3" onclick="javascript:podPressShowHidePlayer('2', 'http://www.letalk.de/podpress_trac/play/8/0/pod01.mp3', 290, 24, 'false', 'http://www.letalk.de/wp-content/plugins/podpress/images/vpreview_center.png', 'Test', 'LE TALK'); return false;"><span id="podPressPlayerSpace_2_PlayLink" class="podPress_playerspace_playlink">Jetzt abspielen</span></a><input type="hidden" id="podPressPlayerSpace_2_OrigURL" value="http://letalk.de/wp-content/uploads/pod01.mp3" /> | <a href="#podPressPlayerSpace_2" class="podpress_playinpopup podpress_playinpopup_audio_mp3" onclick="javascript:podPressPopupPlayer('2', 'http://www.letalk.de/podpress_trac/play/8/0/pod01.mp3', 290, 24, 'LE TALK', '8', 'Test', 'LE TALK'); return false;">Play in Popup</a> | <a href="http://www.letalk.de/podpress_trac/web/8/0/pod01.mp3" target="new" class="podpress_downloadlink podpress_downloadlink_audio_mp3">Download</a> (31)</div></div>
+<script type="text/javascript">podPressShowHidePlayer('2', 'http://www.letalk.de/podpress_trac/play/8/0/pod01.mp3', 290, 24, 'false', 'http://www.letalk.de/wp-content/plugins/podpress/images/vpreview_center.png', 'Test', 'LE TALK');</script>
+				</div>
+
+				<div class="postmeta">
+
+					<span class="mcategories">Categories: <a href="http://www.letalk.de/category/podcast" title="Alle Artikel in Podcast ansehen" rel="category tag">Podcast</a></span>
+
+					<span class="mcomments"><span>Kommentare deaktiviert</span></span>
+
+					<div style="clear: both;"></div>
+
+					
+				</div>
+
+			</div>
+
+			
+		
+		
+		<div class="navigation">
+
+			<div class="alignleft"></div>
+
+			<div class="alignright"></div>
+
+		</div>
+
+	</div>
+
+<div class="rightcontent">
+	<div class="advertising">
+		<div class="item">
+			<a href="#"><img src="http://www.letalk.de/wp-content/themes/wp-brown/images/125ad.jpg" alt="Advertising 1" /></a>
+			<a href="#"><img src="http://www.letalk.de/wp-content/themes/wp-brown/images/125ad.jpg" alt="Advertising 2" /></a>
+			 		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="sidebar">
+
+	<div class="item latest">			<div class="textwidget"><html>
+
+<p>
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p><p>
+&nbsp;
+</p><p>
+&nbsp;
+</p><p>
+&nbsp;
+</p><p>
+&nbsp;
+</p><p>
+&nbsp;
+</p></div>
+		</div><div class="item latest"><h3>Podcast Feeds</h3><ul class="podpress_feed_buttons_list">
+	<li><a href="http://www.letalk.de/feed/podcast" title="Podcast"><img src="http://www.letalk.de/wp-content/plugins/podpress/images/feed_button-audio.png" class="podpress_feed_buttons" alt="Podcast Feed" /></a></li>
+	<li><a href="http://www.letalk.de/feed" title="den Artikel RSS Feed mit einem beliebigen Feed Reader abonnieren"><img src="http://www.letalk.de/wp-content/plugins/podpress/images/feed_button-rss-blog.png" class="podpress_feed_buttons" alt="den Artikel RSS Feed abonnieren" /></a></li>
+</ul>
+</div>		<div class="item latest">		<h3>Letzte Artikel</h3>		<ul>
+				<li><a href="http://www.letalk.de/letalk-podcast-folge-001" title="LeTalk Podcast Folge 001">LeTalk Podcast Folge 001</a></li>
+				<li><a href="http://www.letalk.de/ankundigung-podcast" title="Ankündigung Podcast">Ankündigung Podcast</a></li>
+				<li><a href="http://www.letalk.de/videocast-zum-thema-linux" title="Videocast zum Thema Linux">Videocast zum Thema Linux</a></li>
+				<li><a href="http://www.letalk.de/test-podcast" title="Test &#8211; Podcast">Test &#8211; Podcast</a></li>
+				</ul>
+		</div><div class="item latest">			<div class="textwidget"><html>
+<head>
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */</script>
+</head>
+<body>
+<p>
+</p>
+<p>
+&nbsp;
+</p>
+
+
+<p>
+</p>
+<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="http://letalk.de/"></a>
+<noscript><a href="http://flattr.com/thing/474060/letalk" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a></noscript>
+</body>
+</html></div>
+		</div>	</div>
+</div>
+
+			<div class="clear"></div>
+		</div>
+	<div class="footer">
+			<div class="footer1">
+				<a href="http://andrecit.com/" target="_blank"> andrec it</a>
+				Theme by - <a href="http://www.themespluginswp.com" target="_blank">ThemesPluginsWP</a>
+				<a href="http://www.letalk.de/feed" class="footer_rss">RSS</a>				
+				<a href="http://letalk.de/impressum">Impressum</a>
+				<a href="http://www.letalk.de/wp-admin/" class="footer_login">Log In</a>
+
+			</div>
+
+
+			
+	</div> 
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><title>Innovation Engineering Labs</title><link rel="stylesheet" href="http://innovationengineeringlabs.com/bootstrap/css/bootstrap.css" type="text/css" media="screen" /><link rel="stylesheet" href="http://innovationengineeringlabs.com/css/eureka.css?reload"><link rel="stylesheet" href="http://innovationengineeringlabs.com/css/tseries.css?reload"><link rel="stylesheet" href="http://innovationengineeringlabs.com/css/styles.css?reload"><script type="text/javascript" src="http://innovationengineeringlabs.com/js/innovationengineeringlabs.js"></script><script type="text/javascript" src="http://innovationengineeringlabs.com/js/masks.js"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script><script type="text/javascript" src="http://innovationengineeringlabs.com/js/ajax.js"></script><script type="text/javascript" src="http://innovationengineeringlabs.com/js/autoresize.jquery.js"></script><script type="text/javascript" src="http://innovationengineeringlabs.com/js/flash_media_player/swfobject.js"></script>		<script>
+			function showMyAccountMenu() {
+				$('#overlay').show();
+				$('#my_account_menu').fadeIn();
+			}
+
+			function hideMyAccountMenu() {
+				$('#overlay').hide();
+				$('#my_account_menu').fadeOut();
+			}
+
+			function showDougLinks() {
+				$('#overlay').show();
+				$('#dougs_links').show();
+			}
+
+			function hideDougLinks() {
+				$('#overlay').hide();
+				$('#dougs_links').hide();
+			}
+		</script>
+
+		<style media="print">
+			.body {
+				background:#ffffff;	
+			 }
+		</style>
+
+		<script type="text/javascript">
+		  var __lc = {};
+		  __lc.license = 1187401;
+
+		  (function() {
+			var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+			lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+		  })();
+		</script>
+		</head><body class="body" ><div id="eureka_site_container"><div id="eureka_menu" ><div id="eureka_menu_logo"><a href="http://innovationengineeringlabs.com/"><img src="http://innovationengineeringlabs.com/images/labslogo.png"></a></div><div id="eureka_menu_headline">Tools to help <strong><em>Increase Innovation SPEED and Decrease RISK</em></strong></div><div id="eureka_menu_login"><form id="loginForm" method="post" action="" ><table><tr><td style="vertical-align:middle;"><span style="font-size:11px; line-height:12px">Login </span><br><input type="text" name="loginName" id="top_loginName" onFocus="clear_email();" value="email address" style="color:#777777;"> </td><td style="vertical-align:middle; padding-left:8px;"><span style="font-size:11px; line-height:12px;">Password</span><br><input type="text" id="top_loginPasswordText" onFocus="clear_password();" value="password"> <input type="password" name="loginPassword" id="top_loginPassword"></td><td style="padding-left:8px; vertical-align:bottom;"><input type="submit" value="Go" class="submit_button" style="width:40px; font-size:11px"><input type="hidden" name="loginProcess" value="1"> </td><td style="padding-left:8px; vertical-align:middle;"><span style="font-size:11px; line-height:12px"><a style="color:#ffffff; text-decoration:none;" href="http://innovationengineeringlabs.com/getpassword/">forgot password?</a></span><br></td></tr></table></form></div><div id="eureka_menu_links"><ol id="eureka_menu_ol"><li><a class="" href="http://innovationengineeringlabs.com/news/">News</a></li><li><a class="" href="http://innovationengineeringlabs.com/innovationrequests/">Requests</a></li><li><a class="menu_off" href="http://innovationengineeringlabs.com/projects/create/playlists/">Sessions</a></li><li><a class="" href="http://innovationengineeringlabs.com/projects/">Projects</a></li><li><a class="" href="http://innovationengineeringlabs.com/tools/">Tools</a></li><li><a class="" href="http://innovationengineeringlabs.com/newclassroom/">Classroom</a></li></ol></div><div id="eureka_menu_livechat">					<div id="LiveChat_1334781880"></div>
+
+					<script type="text/javascript">
+					 var __lc_buttons = __lc_buttons || [];
+					 __lc_buttons.push({
+					  elementId: 'LiveChat_1334781880',
+					  skill: '0'
+					 });
+					</script>
+					</div></div><div id="main_content"><style>
+#content {
+	width: 100%;
+}
+
+.wide {
+	width: 100%;
+}
+
+#commentForm input {
+	width: 50%;
+}
+.response input {
+width:50%;
+}
+
+.sidebar {
+	width: 40%;
+	float: left;
+}
+
+.subcomment {
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+.main {
+	width: 55%;
+	margin: 15px;
+	float: left;
+}
+
+.border {
+	border: 1px solid #CCCCCC;
+	border-radius:5px;
+}
+
+.margin {
+	margin-top: 5px;
+}
+#listofbenefits {
+	margin-top:5px;
+	margin-left:25px;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.lotsofpadding {
+	padding: 10px;
+}
+
+.center {
+	text-align: center;
+}
+
+.small {
+	font-size: 0.8em;
+}
+a.delete, a.edit, a.abuse {
+	font-size: 0.8em;
+	font-weight:normal;
+	color:#7ea5d7;
+}
+#clips a {
+	display:block;
+	padding:8px;
+	border-bottom:1px solid #96adda;
+	background:#334466;
+	text-decoration:none;
+	color:#ffffff;
+	font-size:12px;
+}
+#clips a:hover {
+	background:#9e9e9e;
+}
+#clips a .active {
+	background:#9e9e9e;
+}
+
+</style>
+<!--<script type="text/javascript" src="http://innovationengineeringlabs.com/js/jquery-1.4.2.min.js"></script>-->
+<script type="text/javascript" src="http://innovationengineeringlabs.com/js/fancybox/jquery.fancybox-1.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="http://innovationengineeringlabs.com/js/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+<script type="text/javascript" src="http://innovationengineeringlabs.com/js/flowplayer-3.2.8/flowplayer/flowplayer-3.2.8.min.js"></script>
+<script>
+
+function replyTo(responseID) {
+	$('#response_'+responseID).show();
+}
+$(document).ready(function() {
+	$(".response").hide();
+	$("a.deletepost").fancybox({
+		'height':400,
+		'width':550,
+		'overlayShow':true
+	});
+	$("a.subscribe").fancybox({
+		'height':400,
+		'width':550,
+		'overlayShow':true
+	});
+	
+	$("a.edit").fancybox({
+		'height':500,
+		'width':550,
+		'overlayShow':true
+	});
+	$("a.abuse").fancybox({
+		'height':400,
+		'width':550,
+		'overlayShow':true
+	});
+	$("a.signup").fancybox({
+		'height':600,
+		'width':550,
+		'overlayShow':true
+	});
+	$("a.subscribe").fancybox({
+		'height':250,
+		'width':500,
+		'overlayShow':true
+	});	
+	$("a.contact").fancybox({
+		'height':500,
+		'width':650,
+		'overlayShow':true
+	});	
+});
+</script>
+<div id="content"><div class="main"><div style="float:left; font-weight:bold; color:#10416b; font-size:1.5em; text-align:center; padding-left:20px;"><img src="http://innovationengineeringlabs.com/images/InnovationEngineering_125x73.jpg" /><br />Leadership Blog</div><div style="float:left; padding-left:20px; padding-top:20px; font-size:0.9em;"><em>by Doug Hall & Graduates of the<br />Innovation Engineering Leadership Institute</em></div><div style="clear:both; font-size:0.9em; padding:5px;">Where Innovation Leaders Share Ideas & Advice for creating and sustaining an innovation culture</div><table style="width:100%;"><tr style="background:#e5e5e5;"><td colspan="2" style="background:#0f416d; height:8px;"></td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=59">Ask Doug Questions from Wichita Kansas</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Here&#39;s the recording from yesterday. &nbsp;Lots of good questions - deep thinking and a couple laughs.&nbsp;Click on link to go to Innovation Engineering Labs.com to listen.Great story.During the Leadership Institute I share data on how creativity grows with age. &nbsp;Basically as people age they have more experiences -- i.e.. stimulus --- in their brain to work with. &nbsp; &nbsp;I recently learned from someone who attended - the 40 something president of an organization that has mostly tw...<a href="http://innovationengineeringlabs.com/blog/view.php?id=59">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Wed May 23, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=55">How to Create a Transformation of Mindset in Companies, Government &amp; Academics  </a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Pioneers, I&#39;m in Wichita Kansas - getting ready for an Innovation Engineering Leadership Institute. &nbsp;I wrote this on the plane trip out. &nbsp;It details what I&#39;ve been thinking about for the past week.&nbsp;The ProblemAt least 85%+ of USA Companies, Government programs, Colleges and Universities do not have sustainable business or success models.
+The leadership of these companies, government agencies, colleges and universities are reactively cost cutting th...<a href="http://innovationengineeringlabs.com/blog/view.php?id=55">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun May 20, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=37">Latest News on Innovation Engineering</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Leaders,&nbsp;I am very excited about the momentum our Innovation Engineering Movement is generating.&nbsp;May 16th in Canada at 9:00 p.m. a new TV show called Backyard Inventors featuring the Innovation Engineering system will go on air on the W Network. &nbsp;It features myself, Maggie Nichols and Maggie Slovonick of the Ranch will air. &nbsp; What I&#39;m most proud of is that the show is incredibly "Real." &nbsp; The small group of people you see - were the ones who m...<a href="http://innovationengineeringlabs.com/blog/view.php?id=37">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Apr 22, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=36">Ask Doug from VERMONT</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Sorry for late posting. &nbsp; Here&#39;s the questions and answers from the Great State of VermontDoug</div></td><td style="padding:12px 2px; font-size:9pt;">Thu Apr 12, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=35">Definitions of the Innovation Engineering Management System Roles &amp; Responsibilities</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hello Innovation Engineering Leaders,This responds to a recent request from an Innovation Leader for a more detailed description of each of the Innovation Engineering Management System roles. &nbsp;Innovation Engineering Management System Project Roles&nbsp;
+Project Leader:&nbsp; The &ldquo;Energy Source&rdquo; &amp; Leader of the Innovation Project.Project Leader is the role that is both the most fun and the most work in the process.&nbsp;&nbsp; They provide the energy, vision and direction fo...<a href="http://innovationengineeringlabs.com/blog/view.php?id=35">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Mar 25, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=33">Best Ask Doug Questions Ever</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">From Freeport Maine - a new record .... 44 Cards -- the audio is fast and full of wicked good questions. &nbsp;The group this week really stretched me. &nbsp; I felt like I was in a Lateral Thinking exercise -- being challenged to think, think, think. &nbsp;&nbsp;Enjoy the questions and my attempts at answers from the wonderful world of Freeport Maine. Next up is Vermont -- I&#39;m really excited to get back to the Innovation Pioneers of the Green Mountain State.Doug</div></td><td style="padding:12px 2px; font-size:9pt;">Wed Mar 07, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=32">Ask Doug from Freeport Maine Day 1</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Leaders,&nbsp;Here&#39;s the Ask Doug questions from Freeport Maine. It&#39;s the single largest collection of cards on Day 1 ever -- and from one of the most HIGHLY PROACTIVE groups &nbsp;ever.The audio is long - but there are tons of great "nuggets" in it - I think you&#39;ll enjoy it. As always - if you click on the link it will take you to the blog where you can play the audio in your web browser or you can download the audio for playing later. &nbsp;As many of you kn...<a href="http://innovationengineeringlabs.com/blog/view.php?id=32">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Wed Mar 07, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=31">Change the Conversation Today -- Bring Buying Opportunties to US Manufacturers</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Today is a great day to sell Innovation!Use the&nbsp;skills&nbsp;learned in the Leadership Institute and bring a Buying Opportunity (or several) to a manufactuer.Try these:
+Rawlings Sporting Goods CompanyRawlings&nbsp;is looking for U.S.-based manufacturers that are capable of making production quantities for seven new product ideas. These products will be sold as Rawlings products through its distribution channels. This is the third &ldquo;call for manufacturers&rdquo; from the Edison Nation&r...<a href="http://innovationengineeringlabs.com/blog/view.php?id=31">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Thu Feb 16, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=30">Innovation Engineering - ask Doug Day 2 Cincinnati</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hi folksThere have been requests for the day two recording from the Cincinnati Innovation Engineering Leadership Institute. I was really not in the best of health - it pains me to listen to it - but here it is.&nbsp;You can click on the link to IE Labs to get it or you can subscribe on I TunesDoug&nbsp;</div></td><td style="padding:12px 2px; font-size:9pt;">Thu Feb 09, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=29">Live from Powell Wyoming - Ask Doug</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Pioneers,&nbsp;If you click through to the Innovation Engineering Labs.com site - or go to I Tunes - you can hear the Ask Doug questions from Day 1 in Powell Wyoming. &nbsp;&nbsp;Powell Wyoming is where Dr. Deming grew up. &nbsp; We&#39;ve had a wonderful dinner in celebration of Dr. Deming - and I&#39;ve had an opportunity to meet many wonderful people. The more you get to understand Dr. Deming - the more amazing he is. &nbsp;The best way to learn about him is to read hi...<a href="http://innovationengineeringlabs.com/blog/view.php?id=29">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Thu Feb 09, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=28">Time to Step it Up!</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Leaders,&nbsp;"It&#39;s Time to Step it Up!" was what NIST MEP Director Roger Kilmer challenged the MEP Center Directors and the Innovation Engineering community to do this past week at the MEP Quarterly Meeting in San Diego.&nbsp;To be more specific - it&#39;s time to "Step it Up!" with plans for growth. Your HOMEWORK this week is to take your growth pipeline and STEP IT UP!Step 1: &nbsp;DEFINE your Active Projects &nbsp;Make a list of every active project you and your t...<a href="http://innovationengineeringlabs.com/blog/view.php?id=28">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Jan 29, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=27">How to do Stimulus Mining at a Trade Show</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Leaders,&nbsp;This week we introduced the beta version of the Innovation Engineering iPad app at the MEP quarterly meeting in San Diego. &nbsp;The entire community will get the app later in the spring with the release of Innovation Engineering Labs 2.0. &nbsp; It includes over 50 different improvements to help you in your quest to Increase Innovation Speed and Decrease Risk.&nbsp;It will integrate seamlessly with your Stage Gate or Lean Product Development system. &nbsp;I...<a href="http://innovationengineeringlabs.com/blog/view.php?id=27">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sat Jan 28, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=26">Everything You Need to Know about How Innovation Engineering works in 2 minutes &amp; 31 Seconds</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Good Morning Innovation Leaders,PROBLEM: &nbsp;Many of you have told me that you were really excited at the Leadership Institute but have had problems getting others in your company - who didn&#39;t attend - to understand the Innovation Engineering Management System.&nbsp;SOLUTION: &nbsp;I was just sent this LINK to a very innovative video that teaches you everything you need to know about how innovation engineering works in 2 minutes and 31 seconds.&nbsp;It was created by one the smartest and m...<a href="http://innovationengineeringlabs.com/blog/view.php?id=26">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Fri Jan 20, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=25">Live from IELI Cincinnati - Ask Doug</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hi folksHere&#39;s the ask Doug session - raw and unedited from this morning&#39;s Innovation Engineering Leadership Institute session.We&#39;re in Cincinnati this week - Next Month Wyoming for a Dr. Deming Celebration - then Freeport Maine and Woodstock Vermont in March.&nbsp;EnjoyDoug</div></td><td style="padding:12px 2px; font-size:9pt;">Wed Jan 18, 2012</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=24">Honoring The Greatest Leader In USA Manufacturing History  </a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Dear Friends, It is with great sadness that I communicate that Bill Conway died on December 29th.
+
+Bill Conway was THE Fortune 500 CEO responsible for the adoption of continuous improvement in America.&nbsp; Bill was the first business leader to suppor the new &ldquo;field of study&rdquo; that is known today as Total Quality, LEAN and 6-Sigma.&nbsp;
+
+Bill was the first CEO to embrace the teachings of Dr. W. Edwards Deming. &nbsp; As Bill told me last year, &ldquo;I was all alone.&nbsp; I cal...<a href="http://innovationengineeringlabs.com/blog/view.php?id=24">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sat Dec 31, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=23">A REAL Opportunity of a Lifetime for Canadian Inventors</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hi folksThe Eureka! Ranch team - myself, Maggie and Maggie filmed a TV show pilot.We got lucky and have been picked up for 14 episodes to air starting in April.Basically - we go to people&#39;s homes - talk to them about their inventionThe good ones come to the Eureka! Ranch (in Toronto)The Ranch team take them an intensive Innovation Engineering experience. At the end of the show they pitch a REAL CEOIn the pilot - Both Inventors got cash offers!It&#39;s real people, real inventions, real coach...<a href="http://innovationengineeringlabs.com/blog/view.php?id=23">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Wed Dec 14, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=22">The First Innovation Engineering Podcast</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hello Innovation Pioneers,&nbsp;Attached to this post is the first Innovation Engineering Podcast.I believe that will need to click on link from e-mails to get to it.My understanding - is that you can listen to the podcast directly from the website - or you can download it to your computer - or you can sign up for it at iTunes and have it sent to you automatically. As this is all new - we will learn it together. Podcast #1 - is the "Ask Doug" questions from the start of Day 2 of the most recent ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=22">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Dec 11, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=21">Happy Thanksgiving</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Happy Thanksgiving to all Innovation Engineering Leadership Alumni,&nbsp;I read this article and just had to share it. &nbsp;CLICK HERE&nbsp;. &nbsp;It cites hard data on how when you are thankful you sleep better, feel better phyisically and emotionally - and you even enhance feelings of romance!So in the spirit of the day - here&#39;s my Innovation Engineering "thank you list"I&#39;m thankful for the Visionaries:&nbsp; Before there was an Innovation Engineering Leadership institute there were ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=21">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Wed Nov 23, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=20">Important CHANGES to Innovation Engineering</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hello Innovation Pioneers,
+
+OK so this posting is a little long.&nbsp; That&#39;s what happens when I write a blog post while flying from Cincinnati to Seattle to lead a Leadership Institute.&nbsp; This post covers today&#39;s "best practices" for Implementing Innovation Engineering within your organization.&nbsp; I think the issue is an important one &ndash; I hope it helps you. &nbsp;Sorry for any typos &ndash; I&rsquo;m not the best at editing on screen  .&nbsp;
+
+BACKGROUND: &nbsp;The cha...<a href="http://innovationengineeringlabs.com/blog/view.php?id=20">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Nov 13, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=19">As the Leader Your Job Is Leading To the Future not holding onto the Past</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Hello Innovation Change Agents,
+It&#8217;s been a glorious week.  A week focused on the here and now.  A week looking towards the future.
+This week I felt like I was inside the secret building at Apple where the next three years of innovations are laid out.   At Apple their Innovation Pipeline is not a 30 day, 90 day or one 1 year pipeline but rather a 3 year pipeline.  And everything has a looks like prototype built for it.  Jony Ives, Steve Jobs &#8220;soul mate&#8221; for design describ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=19">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sat Oct 29, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=18">Today is the day to take action on your future</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Last week the Innovation Engineering Leadership Institute was in Maine. It wasn&#39;t just in Maine &ndash; it was in THE ROOM. It was in the Casco Bay Room at the Harraseeket Inn in Freeport Maine.
+
+This is THE ROOM where Innovation Engineering took on a new urgency. The scene was a dinner where I was the keynote speaker. I was at a table with a number of company owners discussing innovation. Suddenly, one owner said, "Doug, I don&#39;t get it. I don&#39;t get innovation. I don&#39;t do it. I...<a href="http://innovationengineeringlabs.com/blog/view.php?id=18">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Oct 23, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=17">There is no reason not to follow your heart!</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Many years ago at Procter &amp; Gamble I convinced the senior management to allow me to have the first personal computer ever brought into the P&amp;G Headquarters on a Brand Group.  It was an Apple II running VisiCalc on my desk.
+A senior executive told me at the time "who knows we might have one of these on every floor one day."
+I replied, "Maybe on every desk."
+"Keep dreaming he said."
+Dreaming about a better future is the whole ideas behind Innovation Engineering.   But dreaming can be har...<a href="http://innovationengineeringlabs.com/blog/view.php?id=17">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Thu Oct 06, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=16">Two Ways to Light A Fire Under Your Butt!</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">This past week was a great one.   It's always a great one when I learn a lot.  And you always learn when you are out of your office and out in the real world &#8211; with real customers.   During my travels I had the opportunity to work with Innovation Engineering Black Belts in New York and Louisiana.
+In 24 hours of various meetings I was able to observe how the Innovation Engineering Management System is being implemented.   Here are just 2 of the 12 things I wrote down that I learned this...<a href="http://innovationengineeringlabs.com/blog/view.php?id=16">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Tue Sep 27, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=15">Secret to Success with Innovation Engineering - LET'S GET STARTED</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">A year ago our #1 death threat was sustainability of the Innovation Engineering system.
+
+
+
+A recent survey of Innovation Engineering Leadership Institute (IELI) participants &ndash; a year later &ndash; shows that when companies USE the tools &ndash; their overall confidence grows. &nbsp; This overall growth is combination of growth in CREATE and COMMUNICATE and a minor decline in COMMERCIALIZATION &ndash; though still way ahead of where they were before IELI. &nbsp; (I will address the decl...<a href="http://innovationengineeringlabs.com/blog/view.php?id=15">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Sep 19, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=14">Three Simple Secrets to Success</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">To be successful with Innovation Engineering there are three simple things you must embrace
+1. I Don&#8217;t Know (meaning you are open to learning more via stimulus mining)
+2. I Need Help (meaning you are open to asking for help, to diversify your thinking with those inside and outside your organization)
+3. I Love to learn from failing (meaning you live Fail FAST Fail CHEAP every day)
+OR as YODA would say to Luke Skywalker
+Great success will be when you embrace 3 simple things&#8230;
+1. I not k...<a href="http://innovationengineeringlabs.com/blog/view.php?id=14">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Tue Sep 13, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=13">Declaration of Independence from being a Commodity</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">This past week I met two companies.  Company #1 has grown sales 50% in the past year using the tools they learned at the Innovation Engineering Leadership institute last year.   Company #2 has laid off 50% of their employees.
+The team at Company #1 are the true decedents of the founding fathers.   They are taking action and responsibility for their future.
+When asked what they were going to do about their decline &#8211; the team at Company #2 responded &#8220;we're hoping to ride out the dow...<a href="http://innovationengineeringlabs.com/blog/view.php?id=13">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Tue Jul 05, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=12">Thinking and Acting on the Future</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">This week we had another Innovation Engineering Black Belt 200 class at the Eureka! Ranch.  This is the advanced class &#8211; it's conducted with those with the most experience applying the Innovation Engineering Management System.  The actual class design is a closely guarded secret.  What I can say is that it's extremely challenging.  That said, the students had an 88% success rate with their innovations &#8211; which is far above the large company benchmark of 5 to 15% or the small busin...<a href="http://innovationengineeringlabs.com/blog/view.php?id=12">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Jun 27, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=11">Simplify, Simplify, Simplify</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">The Daily Tech website reported, &#8220;When Steve Jobs returned to Apple, he cut the product line down from 350 to 10, and focused only on a few machines that were meticulously perfected. This strict focus has led to effective product designs and communications for Apple. For instance, when Apple released the next-generation MacBook laptops, the company announced that its aluminum unibody enclosure reduced 60 percent of the machine&#8217;s major structural parts, making it thinner, lighter and ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=11">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Jun 13, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=10">Innovation Doesn't &amp; Shouldn't Require RISK TAKING</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">
+There is a general misconception that entrepreneurs who create meaningfully unique products and services take lots of risk.  Successful entrepreneurs don&#8217;t have a crystal ball, a magical vision, or ability to see the future.   In truth &#8211; they dissolve risk through dozens, hundreds if not thousands of fail FAST, fail CHEAP experiments.
+Every time you execute a cycle of learning &#8211; you build your confidence.  This week&#8217;s homework is about executing three fail FAST fail CHEA...<a href="http://innovationengineeringlabs.com/blog/view.php?id=10">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon May 23, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=9">Focus, Focus, Focus</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">If your team is confused or has lost momentum &#8211; Focus, Focus, Focus. 
+NEWS FLASH:  You can now add your comments to these blog postings. If you are reading this blog post within your email, click on the link at the bottom of the post to go to InnovationNews.com &#8211; a new publishing portal that shares News, Wisdom and Wit on Innovation.   If you were receiving these blog posts before then you are auto enrolled to receive them through this new site. At InnovationNews.com there are als...<a href="http://innovationengineeringlabs.com/blog/view.php?id=9">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun May 08, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=8">Win More with Simultaneous Engineering</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">The old world way to lead innovation projects is a relay race &#8211; where projects move from one department to the next &#8212;- from R&amp;D to Product Development to Manufacturing To Marketing and Sales.
+The new Innovation Engineering way involves playing "whack a mole." It involves Simultaneously optimizing your Customer Concept (Problem, Promise, Proof) as well as your Math Game Plan.  We call the process Simultaneous Engineering.  It involves taking the wisdom from Fail Fast Fail Cheap ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=8">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Apr 11, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=7">We Must all Hang Together</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">This week the Innovation Engineering Labs Innovation Request system was born. That&#8217;s why you got all those &#8220;5 Minutes of time would really help&#8221; e-mails.  It&#8217;s a &#8220;many to many&#8221; suggestion box system that can help you find ideas, stimulus, contacts, resources and expertise.  This past week the Innovation Request system:
+Successfully connected a food manufacturer in Ohio with a patented technology for yogurt that is a 5 to 1 taste test winner.
+Successfully con...<a href="http://innovationengineeringlabs.com/blog/view.php?id=7">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Tue Apr 05, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=6">It's the Best of Times</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">It&#8217;s the Best of Times &#8211; Doug Hall&#8217;s Innovation Engineering Blog
+Recently a very smart client quoted Dickens&#8230;
+It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct...<a href="http://innovationengineeringlabs.com/blog/view.php?id=6">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Mar 28, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=5">Feeling the Pain</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Last night I watched Waiting for Superman the movie about the US School System.  The movie exaggerates it's depiction of Charter School effectiveness and teacher unions as the evil empire.  That said, it's still a fantastic movie because of how effectively it depicts the problems with our schools from the perspective of children.
+The line that made me stop and think hard was when the producer talked about how it was easy to look at the US Education challenges from afar.  It was easy to look a...<a href="http://innovationengineeringlabs.com/blog/view.php?id=5">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Mar 21, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=4">The SIMPLE way to become an expert at Innovation Engineering</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">The best Innovators and entrepreneurs soak up every bit of stimulus they can find. As they &#8220;fill their mental food processor&#8221; they make connections.  As they acquire more stimulus and experience new connections are made &#8211; and powerful ideas revealed. I was reminded of this recently when doing some stimulus mining for an upcoming Eureka! Inventing project. Our mission is to invent a framework for how to make a step change improvement in student interest in and learning of scienc...<a href="http://innovationengineeringlabs.com/blog/view.php?id=4">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Sun Mar 13, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=3">What have you learned?</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">For as long as I can remember I&#8217;ve stopped each January 1st and July 4th and asked myself &#8220;what have I learned?&#8221; in the past six months.   This was the ritual that kept me at Procter &amp; Gamble for ten years.  My learning curve as a Brand Manager and then leader of the P&amp;G Invention Team seemed endless.  Then, one January, I realized I wasn&#8217;t learning. That was my signal to retire from corporate life and start Eureka! Ranch.
+As I type this on New Years Day 2011 ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=3">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Wed Jan 19, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=2">Stop the BLAME Game - and start Leading SYSTEMIC Change</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">Last week I taught the last Innovation Engineering Leadership Institute of 2010. As I taught it Dr. Deming&#8217;s proclamation that &#8220;94% of failures are due to the system, 6% are due to the worker&#8221; rang more true in my mind than ever.
+Today&#8217;s Innovation Engineering is easier than ever to teach, learn and apply. And the reason is not: 1) smarter teachers or 2) smarter students or 3) smarter coaches in the evenings. The reason is that we have continuously improved the system of ...<a href="http://innovationengineeringlabs.com/blog/view.php?id=2">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Mon Jan 03, 2011</td></tr><tr style="border-bottom:1px solid #cccccc;"><td style="width:80%; padding:12px 2px;"><span style="font-size:11pt;"><a style="text-decoration:none;" href="http://innovationengineeringlabs.com/blog/view.php?id=1">Stop Being a &quot;Deer in the Headlights&quot;</a></span><div style="font-size:9pt;">Posted by: Doug Hall</div><div style="padding:4px; style="font-size:9pt;"">&#8220;A deer in the headlights&#8221; has a high odds of becoming &#8220;road kill.&#8221; If the deer takes action and moves &#8212; odds of survival increase dramatically. The same is true in business &#8211; if you take action on innovation your odds of survival increase dramatically.
+This week our focus is on taking action on the &#8220;ideal solution to your process change&#8221; or &#8220;the Ideal new product or service.&#8221; The &#8220;idea&#8221; is also called doing the right things...<a href="http://innovationengineeringlabs.com/blog/view.php?id=1">[read more]</a></div></td><td style="padding:12px 2px; font-size:9pt;">Wed Nov 10, 2010</td></tr></table></div><div class="sidebar"><div class="border margin padding"><img src="http://innovationengineeringlabs.com/images/DougPicture_09.jpeg" width="80" height="100" style="float:left;"/><div style="float:left; padding-left:10px; width:170px;"><b>By Doug Hall</b><br /><span style="font-size:9px;"><a style="color:#000;" href="http://www.doughall.com">www.doughall.com</a></span><br /><div style="font-size:11px; padding-top:5px;">Innovation Engineering founder<br />Eureka! Ranch founder/ceo</div></div><div style="float:right; width:110px;"><div style="font-weight:bold; color:#324B78; text-decoration:none; white-space:nowrap; cursor:pointer;" onclick="showDougLinks();"> About Doug <img src="http://innovationengineeringlabs.com/images/desc_blue_1.png" /> </div><div id="dougs_links" style="background:#ffffff; border:1px solid #cccccc; padding:5px; text-align:left; float:right; position:absolute; z-index: 2; margin-top:3px; margin-left:0px; width:180px; display:none;" onblur="this.style.display = 'none';"><div><a href="http://innovationengineeringlabs.com/blog/about.php#aboutblog" onclick="hideDougLinks();">About the Blog</a></div><div><a href="http://innovationengineeringlabs.com/blog/about.php#aboutdoug" onclick="hideDougLinks();">About Doug</a></div><div><a href="http://innovationengineeringlabs.com/blog/about.php#aboutwebsite" onclick="hideDougLinks();">Doug's Websites</a></div><div><a href="http://innovationengineeringlabs.com/blog/about.php#aboutbooks" onclick="hideDougLinks();">Doug's Books</a></div><div><a href="http://innovationengineeringlabs.com/blog/about.php#aboutvideo" onclick="hideDougLinks();">Doug's Videos</a></div><div style="text-align:right; margin-top:10px; margin-bottom:10px;"><a class="iframe cssformbutton bluebutton contact" style="font-size:11px;" href="http://innovationengineeringlabs.com/blog/contact.php" onclick="hideDougLinks();">Contact Doug</a></div></div></div><div style="clear:both;"></div></div><div class="margin border padding" style="float:left; width:45%; height:85px;"><div>Search blog posts</div><form action="http://innovationengineeringlabs.com/blog/index.php" method="get"><div><input type="text" id="searchkeyword" name="searchkeyword" size="20"></div><div><input type="submit" value="Search" onclick="searchFilterBlogs();"></div></form></div><div class="border padding margin" style="float:right; width:40%; height:85px;">Subscribe<br /><a class="iframe subscribe" href="http://innovationengineeringlabs.com/blog/email_sign_up.php">Email</a><br /><a href=http://innovationengineeringlabs.com/blog/rss.php>RSS Feed</a><br /><a href="http://itunes.apple.com/us/podcast/innovation-engineering/id389753978" target="blank">Podcast</a></div><div style="clear:both; height:5px;"></div><div class="margin border padding" style="clear:both;">	<!-- this A tag is where your Flowplayer will be placed. it can be anywhere -->
+	<a  
+		 href="IEMS_Overview_sm.mov"
+		 style="display:block;width:378px;height:284px"  
+		 id="player"> 
+	</a> 
+
+	<div id="clips">
+    <a href="IEMS_Overview_sm.mov" onclick="">Innovation Engineering Management System Overview</a>
+    <a href="IEMS_Proof_sm.mov">Innovation Engineering Management System Proof</a>
+    <a href="IEMS_in_Education_v1_sm.mov">Innovation Engineering Management System in Education</a>
+    <a href="InnovationEngineeringLabsdotcom_sm.mov">InnovationEngineeringLabs.com Overview</a>
+	</div>
+
+	<!-- this will install flowplayer inside previous A- tag. -->
+	<script>
+		flowplayer("player", "http://innovationengineeringlabs.com/js/flowplayer-3.2.8/flowplayer/flowplayer-3.2.8.swf", {
+			clip: {
+				// these two configuration variables does the trick
+				baseUrl: 'http://videos.eurekaranch.com/IEMS',
+				autoPlay: false,
+				autoBuffering: true // <- do not place a comma here
+			}
+		});
+
+		// get all links that are inside div#clips
+		var links = document.getElementById("clips").getElementsByTagName("a");
+		 
+		// loop those links and alter their click behaviour
+		for (var i = 0; i < links.length; i++) {
+			links[i].onclick = function() {
+		 
+				// play the clip specified in href- attribute with Flowplayer
+				$f().play(this.getAttribute("href", 2));
+		 
+				// by returning false normal link behaviour is skipped
+				return false;
+			}
+		}	
+	</script>
+
+	</div><p><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FInnovationEngineering&amp;width=400&amp;height=427&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=true&amp;appId=85717818754" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:427px;" allowTransparency="true"></iframe></div></div></div><div style="clear:both"></div><div class="do-not-print" style="text-align:center; padding-top:35px; padding-bottom:10px;"><div>&copy; 2012 Eureka! Institute Inc. All Rights Reserved.</div><div><span style="cursor:pointer; color:#324B78; font-weight:bold;" onclick="window.location='http://innovationengineeringlabs.com/contact.php'">[Give Website Feedback]</span> <a href="http://innovationengineeringlabs.com/termsandconditions.php" style="text-decoration:none;">[Terms &amp; Conditions]</a></div></div></div>			<script type="text/javascript">
+
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-2218462-13']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+
+			</script>
+			</body></html>

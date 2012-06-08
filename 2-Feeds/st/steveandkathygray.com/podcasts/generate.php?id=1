@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Steve And Kathy Gray</title>
+  <meta name="viewport" content="width=990" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/www.steveandkathygray.com/themes/frozone/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:100">
+  <script src="/sites/www.steveandkathygray.com/themes/frozone/js/jquery.1.7.1.min.js"></script>
+  <script src="/sites/www.steveandkathygray.com/themes/frozone/js/jquery.roundabout.js"></script>
+  <script src="/sites/www.steveandkathygray.com/themes/frozone/js/jquery.infieldlabels.js"></script>
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/kaltura/style/kaltura.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.steveandkathygray.com/files/menu_icons/menu_icons.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/maintenance.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.steveandkathygray.com/themes/frozone/css/style.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.steveandkathygray.com/themes/frozone/css/ryans-edits.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.steveandkathygray.com/themes/frozone/css/steves-edits.css?Z" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/www.steveandkathygray.com/themes/frozone/css/page-layout.css?Z" />
+  <!--[if IE 6]>
+    <style type="text/css" media="all">@import "/sites/www.steveandkathygray.com/themes/frozone/css/fix-ie-6.css";</style>
+  <![endif]-->
+  <!--[if IE 7]>
+    <style type="text/css" media="all">@import "/sites/www.steveandkathygray.com/themes/frozone/css/fix-ie-7.css";</style>
+  <![endif]-->
+  	
+  <script type="text/javascript">
+	
+		function waitonclick() { 
+   			var thisClass = $('.roundabout-in-focus').attr('class').split(' ')[0];
+			$('span.' + thisClass).fadeIn('fast').addClass('current-p');	
+   		}
+   	
+	
+		$(document).ready(function(){
+			
+			$("label.email, label.name").inFieldLabels();
+		
+			$('.tabs .right').click(function(){
+				$('#contact-slide').fadeIn('slow');
+				$('#press-slide').fadeOut('slow');
+			});
+			$('.tabs .left').click(function(){
+				$('#contact-slide').fadeOut('slow');
+				$('#press-slide').fadeIn('slow');
+			});
+					
+			//page dropdown	
+			$('.tabs .right, .tabs .left').click(function(){
+				$('#wrapper').animate({"top": "131px"}, 300).addClass('tabs-open');
+				$('.tabs .slide-up').fadeIn('slow');
+			});
+			
+			$('.tabs .slide-up').click(function(){
+				$('#wrapper').animate({"top": "0px"}, 300).removeClass('tabs-open');
+				$(this).fadeOut('slow');
+			})
+				
+				/*if($('#wrapper').hasClass('tabs-open')){
+					$('#wrapper').animate({"top": "0px"}, 300).removeClass('tabs-open');
+				}
+				else {
+					$('#wrapper').animate({"top": "131px"}, 300).addClass('tabs-open');
+				}*/
+			
+			
+			
+			//$('h3.question.open').click(function(){ return false; });
+		
+			$('h3.question').click(function(){
+				$('.drop-down-area.open').slideUp();
+				
+				if ($(this).hasClass('open')){
+					$('#site-container-lower').animate({"height" : "380px"}, 'slow', function(){
+						$('#site-container-lower *').removeClass('open');
+						return false;
+					});
+				}
+				else {
+					$('#site-container-lower *').removeClass('open');
+					$('#site-container-lower').animate({"height" : "700px"}, 'fast');
+					$(this).addClass('open').next('div.drop-down-area').slideDown().addClass('open');		
+				}
+			});
+			
+			
+			//roundabouts
+			$('ul.ministries').roundabout({
+				minOpacity: 0,
+				
+				clickToFocusCallback: function(){
+					$('span.current-p').removeClass('current-p').fadeOut('fast', function(){
+						waitonclick();
+					});
+				},
+			});
+   			
+   			
+   		});
+	
+	</script>
+
+</head>
+
+<body id='content-new-front-page'>
+	
+<div id="slide-container">
+	<div id="press-slide">
+		<div class="media">
+			For media related inquires, contact:<br />
+			Elizabeth McKinley Tuttle - Media relations director<br />
+			Email: <a href="mailto:mediarelations@stevegrayministries.com">mediarelations@stevegrayministries.com</a>
+		</div>
+		
+		<div class="phone">
+			Toll-Free: 1.866.590.7722<br />
+			Phone: 1.816.419.1247<br />
+			Fax: 1.816.525.3204
+		</div>
+		
+		<div class="mail">
+			Steve Gray Ministries<br />
+			P.O. Box 380108<br />
+			Kansas City, MO 64138
+		</div>
+	</div>
+
+	<div id="contact-slide">
+		<form action="/podcasts/generate.php?id=1"  accept-charset="UTF-8" method="post" id="webform-client-form-577" class="webform-client-form" enctype="multipart/form-data">
+<div><div class="webform-component webform-component-textfield" id="webform-component-name"><div class="form-item" id="edit-submitted-name-wrapper">
+ <label for="edit-submitted-name">Name: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[name]" id="edit-submitted-name" size="60" value="" class="form-text required" />
+</div>
+</div><div class="webform-component webform-component-email" id="webform-component-email"><div class="form-item" id="edit-submitted-email-wrapper">
+ <label for="edit-submitted-email">Email: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="128" name="submitted[email]" id="edit-submitted-email" size="60" value="" class="form-text required email" />
+</div>
+</div><div class="webform-component webform-component-textarea" id="webform-component-message"><div class="form-item" id="edit-submitted-message-wrapper">
+ <label for="edit-submitted-message">Message: <span class="form-required" title="This field is required.">*</span></label>
+ <textarea cols="60" rows="5" name="submitted[message]" id="edit-submitted-message"  class="form-textarea resizable required"></textarea>
+</div>
+</div><input type="hidden" name="details[sid]" id="edit-details-sid" value=""  />
+<input type="hidden" name="details[page_num]" id="edit-details-page-num" value="1"  />
+<input type="hidden" name="details[page_count]" id="edit-details-page-count" value="1"  />
+<input type="hidden" name="details[finished]" id="edit-details-finished" value="0"  />
+<input type="hidden" name="form_build_id" id="form-02d9477a58060a4f992bde499d204c12" value="form-02d9477a58060a4f992bde499d204c12"  />
+<input type="hidden" name="form_id" id="edit-webform-client-form-577" value="webform_client_form_577"  />
+<div id="edit-actions" class="form-actions form-wrapper"><input type="submit" name="op" id="edit-submit" value="Submit"  class="form-submit" />
+</div>
+</div></form>
+		
+		
+		<!--<form name="contact-form" action="/custom-url.php" method="post">
+			<div class="name-email">
+				name:<input name="full_name" type="text" class="fname fitem" />
+				email:<input name="email" type="text" class="femail fitem" />
+			</div>
+			
+			message:<textarea name="message" class="fmessage fitem"></textarea>
+			
+			<input type="image" src="http://steveandkathygray.com/sites/www.steveandkathygray.com/themes/frozone/images/form-submit.jpg" name="submit" class="submit-btn" />
+		</form>-->
+		
+		<div class="social">
+			<a href="http://www.facebook.com/pastorstevegray" class="icon facebook">Facebook</a>	
+			<a href="https://twitter.com/#!/pastorstevegray" class="icon twitter">Twitter</a>	
+			<a href="http://www.youtube.com/user/worldrevivalchurch" class="icon youtube">YouTube</a>	
+			<a href="http://stevegrayministries.com/export-updates" class="icon rss">RSS</a>	
+		</div>
+	</div>
+</div>
+
+<div id="wrapper">
+	<div id="main-container">
+	  <div id="site-container-upper">
+		<div class="tabs">
+			<a href="#" class="tab left">PRESS INFO</a>
+			
+			<style type="text/css">
+			.slide-up {
+				text-decoration: none;
+				color: #FFF;
+				font-family: "Helveitca Neue", Helvetica, "Arial Narrow", Arial, sans-serif;
+				font-size: 14px;
+				position: absolute;
+				padding-top: 5px;
+				left: 50%;
+				margin-left: -50px !important;
+				display: none;
+				line-height: 20px;			
+				animation: arrow 400ms linear 0s infinite alternate;
+					/* Firefox: */
+				-moz-animation: arrow 400ms linear 0s infinite alternate;
+					/* Safari and Chrome: */
+				-webkit-animation: arrow 400ms linear 0s infinite alternate;
+			}
+					@keyframes arrow
+						{
+							from   {top:0px;}
+							to   {top:3px;}
+						}
+						
+					@-moz-keyframes arrow /* Firefox */
+						{
+							from   {top:0px;}
+							to   {top:3px;}
+						}
+						
+					@-webkit-keyframes arrow /*Safari and Chrome */
+						{
+							from   {top:0px;}
+							to   {top:3px;}
+						}
+			
+			</style>
+			
+			<a href="#" class="slide-up">
+				<div class="arrow"></div>
+				<div class="text">slide up</div>
+				<div class="arrow"></div>
+			</a>
+			<a href="#" class="tab right">CONTACT</a>
+		</div>
+	  </div>
+	  
+	  <div id="site-container-strip">
+	  	<h1>Steve &amp; Kathy Gray</h1>
+	  </div>
+	  
+	  <div id="site-container-lower">
+	  	<h3 class="who-are-sk question"><span>W</span>ho are Steve and Kathy?</h3>
+	  	
+	  		<div class="question-container who-sk drop-down-area">
+	  			<p>&quot;Everyone deserves to experience God!&quot; That is the driving force behind the ministry and the message of Steve and Kathy Gray. Powerfully touched by God in 1996 and again in 2008, their ministry impacts thousands and possibly millions of people around the world.</p>
+ 
+				<p>Their reach extends from World Revival Church, to the powerful outreach of feature films, life-giving books, music and digital resources that connect people to God.</p>
+			</div>
+			
+	  	<h3 class="shorter lately question"><span>W</span>hat are they up to lately?</h3>
+	  	
+	  		<div class="lately-container drop-down-area">
+	  			<ul class="ministries">
+	  				<li class="wrc">
+	  					<img src="/sites/www.steveandkathygray.com/themes/frozone/images/roundabout-wrc.png" />
+	  					
+	  					<div class="description-container">
+	  						<h4>World Revival Church</h4>
+		  					<p>God is moving powerfully at World Revival Church and lives are 
+		  					getting better as people experience healing, restored marriages and relationships, freedom from addictions and dramatic life-change.</p>
+	 				
+							<p>Visit or stream our services live at <a href="http://www.worldrevivalchurch.com">worldrevivalchurch.com</a>. It will change your life forever!</p>
+	  					</div>
+	  				</li>
+	  				
+	  				<li class="sgm">
+	  					<img src="/sites/www.steveandkathygray.com/themes/frozone/images/roundabout-sgm.png" />
+	  					
+	  					<div class="description-container">
+	  						<h4>Steve Gray Ministries</h4>
+	  						<p>Steve Gray Ministries is reaching the world with life-giving books, music and digital resources!</p>
+ 				
+							<p>SGM has built a reputation of excellence that’s reaching hearts for Christ and making lives better. We’re impacting thousands of people 
+							in powerful and effective ways through the innovative outreach of quality family-friendly, faith-based media.</p>
+						</div>
+	  				</li>
+	  				
+	  				<li class="wrn">
+	  					<img src="/sites/www.steveandkathygray.com/themes/frozone/images/roundabout-wrn.png" />
+	  					
+	  					<div class="description-container">
+	  						<h4>World Revival Network of Ministries</h4>
+	  						<p>Empowering life and ministry! World Revival Network gathers and equips leaders for effective spirit-led ministry. 
+	  						Founded by Pastor Steve Gray and directed by J.D. King, WRN offers powerful resources for pastors and leaders.</p>
+	  					</div>
+	  				</li>
+	  				
+	  				<li class="attaboy">
+	  					<img src="/sites/www.steveandkathygray.com/themes/frozone/images/roundabout-attaboy.png" />
+	  					
+	  					<div class="description-container">
+	  						<h4>Attaboy Media Productions</h4>
+	  						<p>Attaboy Media Productions is an award-winning, full-service video production studio that creates family-friendly entertainment for 
+	  						everyone to enjoy. Producer of Steve Gray’s first feature film, Three Blind Saints, AMP is currently gearing up for the next film by Steve Gray, 
+	  						titled Something to Believe.</p>
+	  					</div>
+	  				</li>
+	  				
+	  				<li class="hhh">
+	  					<img src="/sites/www.steveandkathygray.com/themes/frozone/images/roundabout-hhh.png" />
+	  					
+	  					<div class="description-container">
+	  						<h4>The House of Hope and Healing</h4>
+	  						<p>Where miracles happen every day! The House of Hope and Healing is a compassionate prayer ministry outreach developed by Steve and Kathy Gray. 
+	  						In time of crisis or need, prayer volunteers are ready to pray with faith and expectation. Call or visit today!</p>
+							
+							<p><a href="http://houseofhopeandhealing.com">Houseofhopeandhealing.com</a><br />
+							1.877.804.5433 Ext. 707</p>
+	  					</div>
+	  				</li>
+	  				
+	  				<li class="wrca">
+	  					<img src="/sites/www.steveandkathygray.com/themes/frozone/images/roundabout-wrca.png" />
+	  					
+	  					<div class="description-container">
+	  						<h4>World Revival Church Academy</h4>
+	  						<p>Children thrive in the atmosphere of World Revival Church Academy! Certified teachers, small student-teacher ratios, affordable tuition and a strong, 
+	  						faith based curriculum prepares your child for true spiritual and academic success. Visit our website for more information on this K-12 academy.</p>
+	  					</div>
+	  				</li>
+	  			</ul>
+	  		</div><!-- /.question-container -->
+	  		
+	  	<h3 class="stay-up-date question"><span>H</span>ow can I stay up to date?</h3>
+	  		
+	  		<div class="question-container up-to-date drop-down-area">
+	  		
+	  			<h4>There are lots of ways to stay up to date!</h4>
+				<div class="social no-bg kathy">
+					<a href="http://www.facebook.com/pastorkathygray" class="icon facebook">Facebook</a>	
+					<a href="https://twitter.com/#!/PastorKathyGray" class="icon twitter">Twitter</a>	
+					<a href="http://www.youtube.com/user/worldrevivalchurch" class="icon youtube">YouTube</a>		
+				</div>
+				<div class="social no-bg steve">
+					<a href="http://www.facebook.com/pastorstevegray" class="icon facebook">Facebook</a>	
+					<a href="https://twitter.com/#!/pastorstevegray" class="icon twitter">Twitter</a>	
+					<a href="http://www.youtube.com/user/pastorstevegray" class="icon youtube">YouTube</a>		
+				</div>
+				<div class="email-signup">
+					<h4>Weekly Emails</h4>
+						<!-- Begin MailChimp Signup Form -->
+							<!--<link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">-->
+							<!--<style type="text/css">
+								#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+								/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	  					 		We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+							</style>-->
+							<div id="mc_embed_signup">
+								<form action="http://worldrevivalchurch.us4.list-manage.com/subscribe/post?u=a855d8f07533f08c38931d613&amp;id=69a5c3d05c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+										<div class="mc-field-group name">
+											<label class="name" for="mce-FNAME">Name
+											</label>
+											<input type="text" value="" name="FNAME" class="required" id="mce-FNAME" autocomplete="off" />
+										</div>
+										<div class="mc-field-group email">
+											<label class="email" for="mce-EMAIL">Email Address
+											</label>
+											<input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="off" />
+
+										</div>
+										<div id="mce-responses" class="clear">
+											<div class="response" id="mce-error-response" style="display:none"></div>
+											<div class="response" id="mce-success-response" style="display:none"></div>
+										</div>	
+										<div class="clear">
+											<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button email-list-submit">
+										</div>
+								</form>
+							</div>
+							<script type="text/javascript" src="/sites/www.steveandkathygray.com/themes/frozone/js/mailchimp.js"></script>
+
+<!--End mc_embed_signup-->
+							
+							
+							<!--<form action="http://worldrevivalchurch.us4.list-manage.com/subscribe/post?u=a855d8f07533f08c38931d613&amp;id=69a5c3d05c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+									<div class="mc-field-group">
+										<label class="name" for="mce-FNAME"></label>
+										<input type="text" value="name" name="FNAME" id="mce-FNAME" autocomplete="off" />
+									</div>									
+									<div class="mc-field-group">
+										<label class="email" for="mce-EMAIL">Email Address</label>
+										<input type="text" value="" name="EMAIL" id="mce-EMAIL" autocomplete="off" />
+									</div>
+									<div id="mce-responses" class="clear">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>	
+									<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button email-list-submit"></div>
+							</form>-->
+						</div><!-- /#mc_embed_signup -->
+
+<!--End mc_embed_signup-->			
+				</div>
+				
+			</div><!-- /.question-container -->
+	  	
+	  </div><!-- /#site-container-lower -->
+	  
+	  <div id="footer">
+	  	<div id="footer-container">
+	  		&copy; copyright 2012.  Steve Gray Ministries.  All Rights Reserved.
+		</div>
+	  </div>
+	</div><!-- /#main-container -->
+</div>	
+		 
+	</div>
+</body>
+</html>
