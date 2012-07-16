@@ -2,7 +2,214 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel><title>C3D2 Podcast</title><link>http://www.c3d2.de/</link><description>C3D2 Podcast</description><language>de</language><copyright>http://creativecommons.org/licenses/by-sa/2.0/de/</copyright><image><title>C3D2</title><url>http://www.c3d2.de/images/ck.png</url><link>http://www.c3d2.de/</link></image><itunes:subtitle>Radio &amp; Podcasts vom CCC Dresden</itunes:subtitle><itunes:summary>
               Pentaradio, Pentacast &amp; Pentamusic vom Chaos Computer Club Dresden.
-            </itunes:summary><itunes:image href="http://www.c3d2.de/images/ck.png"/><itunes:category text="Society &amp; Culture"/><itunes:category text="Technology"/><atom:link rel="payment" href="https://flattr.com/thing/51034/Pentaradio-24" type="text/html"/><itunes:author>Chaos Computer Club Dresden</itunes:author><itunes:owner><itunes:name>C3D2</itunes:name><itunes:email>mail@c3d2.de</itunes:email></itunes:owner>
+            </itunes:summary><itunes:image href="http://www.c3d2.de/images/ck.png"/><itunes:category text="Society &amp; Culture"/><itunes:category text="Technology"/><atom:link rel="payment" href="https://flattr.com/thing/51034/Pentaradio-24" type="text/html"/><itunes:author>Chaos Computer Club Dresden</itunes:author><itunes:owner><itunes:name>C3D2</itunes:name><itunes:email>mail@c3d2.de</itunes:email></itunes:owner><item><title>TA: Hack Your ARM</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><dl>
+		<dt>Datum</dt><dd><abbr class="dtstart" title="20120711T184223">Mittwoch, 11. Juli 2012 um 18:42 Uhr</abbr></dd>
+		<dt>Ort</dt><dd class="location">Informatik-Neubau, Raum E001, Nöthnitzer Straße 46, Dresden</dd>
+	</dl><p class="">
+		Die Revolution hat begonnen. Wir beginnen damit, den Anfang vom Ende der AVR/Atmel/Arduino-Ära einzuleiten. Gegenwärtig setzen viele Hacker- und DIY-Projekte auf AVR-Mikrocontroller, wenn es um kleinere Steuerungs- und Regelungsaufgaben geht. Die Gründe dafür sind vielfältig und durchaus stichhaltig:</p><ul>
+		<li>
+			Einfachheit beim Schaltungsaufbau
+		</li>
+		<li>
+			niedriger Preis und gute Verfügbarkeit
+		</li>
+
+		<li>
+			kostenlose und einfach zu benutzende Toolchains
+		</li>
+
+		<li>
+			Unmengen an Codebeispielen, Schaltungen und Tutorials im Netz
+		</li>
+	</ul><p class="">
+		Aber nichts Gutes und nichts wirklich Schlechtes währt ewig und mit ARM-basierten Mikrocontrollern steht schon seit einer ganzen Weile die nächste Generation von Mikrocontrollern für Embedded-Systeme zur Verfügung. Die Kosten für diese Controller sind inzwischen nicht mehr wesentlich höher als für AVRs - und das bei einer um Größenordnungen überlegenen Leistungsfähigkeit und Vielseitigkeit.</p><p class="">
+		Um die Berührungsängste mit der neuen Technik abzubauen hat sich Seb freundlicherweise bereiterklärt, einen Themenabend unter dem Motto "Hack Your Arm" mit Inhalten zu füllen. Im Speziellen wird es ein Hands-on-Tutorial zur Programmierung  des STM32F4 geben, da euer örtlicher Hackerspace fünf <a href="http://www.c3d2.de/wiki/STM32F4    ">STM-Discovery-Experimentierboards</a>  angeschafft hat, bzw. diese gegenwärtig sehr preisgünstig zu bekommen sind.</p></div>]]></description><link>http://www.c3d2.de/news/ta-hackcortexm.html</link><enclosure url="http://www.c3d2.de/media/ta-arm-john.pdf" length="99560" type="application/pdf"/><guid isPermaLink="false">http://www.c3d2.de/news/ta-hackcortexm.html+++http://www.c3d2.de/media/ta-arm-john.pdf</guid><pubDate>Mon, 02 Jul 2012 11:42:23 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><dl>
+		<dt>Datum</dt><dd><abbr class="dtstart" title="20120711T184223">Mittwoch, 11. Juli 2012 um 18:42 Uhr</abbr></dd>
+		<dt>Ort</dt><dd class="location">Informatik-Neubau, Raum E001, Nöthnitzer Straße 46, Dresden</dd>
+	</dl><p class="">
+		Die Revolution hat begonnen. Wir beginnen damit, den Anfang vom Ende der AVR/Atmel/Arduino-Ära einzuleiten. Gegenwärtig setzen viele Hacker- und DIY-Projekte auf AVR-Mikrocontroller, wenn es um kleinere Steuerungs- und Regelungsaufgaben geht. Die Gründe dafür sind vielfältig und durchaus stichhaltig:</p><ul>
+		<li>
+			Einfachheit beim Schaltungsaufbau
+		</li>
+		<li>
+			niedriger Preis und gute Verfügbarkeit
+		</li>
+
+		<li>
+			kostenlose und einfach zu benutzende Toolchains
+		</li>
+
+		<li>
+			Unmengen an Codebeispielen, Schaltungen und Tutorials im Netz
+		</li>
+	</ul><p class="">
+		Aber nichts Gutes und nichts wirklich Schlechtes währt ewig und mit ARM-basierten Mikrocontrollern steht schon seit einer ganzen Weile die nächste Generation von Mikrocontrollern für Embedded-Systeme zur Verfügung. Die Kosten für diese Controller sind inzwischen nicht mehr wesentlich höher als für AVRs - und das bei einer um Größenordnungen überlegenen Leistungsfähigkeit und Vielseitigkeit.</p><p class="">
+		Um die Berührungsängste mit der neuen Technik abzubauen hat sich Seb freundlicherweise bereiterklärt, einen Themenabend unter dem Motto "Hack Your Arm" mit Inhalten zu füllen. Im Speziellen wird es ein Hands-on-Tutorial zur Programmierung  des STM32F4 geben, da euer örtlicher Hackerspace fünf <a href="http://www.c3d2.de/wiki/STM32F4    ">STM-Discovery-Experimentierboards</a>  angeschafft hat, bzw. diese gegenwärtig sehr preisgünstig zu bekommen sind.</p></div>]]></content:encoded><itunes:subtitle>Folien</itunes:subtitle><itunes:author>CCC Dresden</itunes:author></item>
+    <item><title>pentaradio24: Skype und andere Internettelefonie</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      "Komm, lass mal skypen!" - Wenn heute über Internettelefonie geredet wird, denken die meisten Leute direkt an Skype. Der populäre Client bietet eine einfach zu bedienende Möglichkeit, das Internet für Videotelefonie zu nutzen. Doch was ist Internettelefonie eigentlich? Kann man das auch ohne Skype erledigen? Was macht(e) Skype so interessant? Warum sollte man sogar auf Skype verzichten?</p><p class="">Als Stargast freuen wir uns auf <a href="http://www.wulff-woesten.de/">eisenrah</a>, der auf dem letzten <a href="http://wdcmdresden.de/">WDCM in Dresden</a> einen Vortrag über <a href="https://ssl-id.de/download.wulff-woesten.de/skype-security.pdf">Skype Sicherheit</a> gehalten hat, begrüßen zu dürfen.</p><p class="">
+        Ihr wollte mitreden oder habt Fragen?
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">mail@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+    </dl><p class="">
+      Live hören könnt ihr uns am Dienstag, dem 26. Juni wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p></div>]]></description><link>http://www.c3d2.de/news/pentaradio24-20120626.html</link><enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2012-06-26.mp3" length="84187720" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20120626.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2012-06-26.mp3</guid><pubDate>Tue, 26 Jun 2012 16:52:00 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      "Komm, lass mal skypen!" - Wenn heute über Internettelefonie geredet wird, denken die meisten Leute direkt an Skype. Der populäre Client bietet eine einfach zu bedienende Möglichkeit, das Internet für Videotelefonie zu nutzen. Doch was ist Internettelefonie eigentlich? Kann man das auch ohne Skype erledigen? Was macht(e) Skype so interessant? Warum sollte man sogar auf Skype verzichten?</p><p class="">Als Stargast freuen wir uns auf <a href="http://www.wulff-woesten.de/">eisenrah</a>, der auf dem letzten <a href="http://wdcmdresden.de/">WDCM in Dresden</a> einen Vortrag über <a href="https://ssl-id.de/download.wulff-woesten.de/skype-security.pdf">Skype Sicherheit</a> gehalten hat, begrüßen zu dürfen.</p><p class="">
+        Ihr wollte mitreden oder habt Fragen?
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">mail@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+    </dl><p class="">
+      Live hören könnt ihr uns am Dienstag, dem 26. Juni wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p></div>]]></content:encoded><itunes:subtitle>pentaradio24 vom 26. Juni 2012</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20120626.html&amp;title=pentaradio24%3A%20Skype%20und%20andere%20Internettelefonie&amp;description=%0A%20%20%20%20%20%20%22Komm%2C%20lass%20mal%20skypen!%22%20-%20Wenn%20heute%20%C3%BCber%20Internettelefonie%20geredet%20wird%2C%20denken%20die%20meisten%20Leute%20direkt%20an%20Skype.%20Der%20popul%C3%A4re%20Client%20bietet%20eine%20einfach%20zu%20bedienende%20M%C3%B6glichkeit%2C%20das%20Internet%20f%C3%BCr%20Videotelefonie%20zu%20nutzen.%20Doch%20was%20ist%20Internettelefonie%20eigentlich%3F%20Kann%20man%20das%20auch%20ohne%20Skype%20erledigen%3F%20Was%20macht(e)%20Skype%20so%20interessant%3F%20Warum%20sollte%20man%20sogar%20auf%20Skype%20verzichten%3F&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
+    
+      
+      
+      
+      
+      
+      
+      
+    
+  <item><title>pentaradio24: Skype und andere Internettelefonie: Nur News</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      "Komm, lass mal skypen!" - Wenn heute über Internettelefonie geredet wird, denken die meisten Leute direkt an Skype. Der populäre Client bietet eine einfach zu bedienende Möglichkeit, das Internet für Videotelefonie zu nutzen. Doch was ist Internettelefonie eigentlich? Kann man das auch ohne Skype erledigen? Was macht(e) Skype so interessant? Warum sollte man sogar auf Skype verzichten?</p><p class="">Als Stargast freuen wir uns auf <a href="http://www.wulff-woesten.de/">eisenrah</a>, der auf dem letzten <a href="http://wdcmdresden.de/">WDCM in Dresden</a> einen Vortrag über <a href="https://ssl-id.de/download.wulff-woesten.de/skype-security.pdf">Skype Sicherheit</a> gehalten hat, begrüßen zu dürfen.</p><p class="">
+        Ihr wollte mitreden oder habt Fragen?
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">mail@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+    </dl><p class="">
+      Live hören könnt ihr uns am Dienstag, dem 26. Juni wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p></div>]]></description><link>http://www.c3d2.de/news/pentaradio24-20120626.html</link><enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2012-06-26-news.mp3" length="52933666" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20120626.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2012-06-26-news.mp3</guid><pubDate>Tue, 26 Jun 2012 16:52:00 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      "Komm, lass mal skypen!" - Wenn heute über Internettelefonie geredet wird, denken die meisten Leute direkt an Skype. Der populäre Client bietet eine einfach zu bedienende Möglichkeit, das Internet für Videotelefonie zu nutzen. Doch was ist Internettelefonie eigentlich? Kann man das auch ohne Skype erledigen? Was macht(e) Skype so interessant? Warum sollte man sogar auf Skype verzichten?</p><p class="">Als Stargast freuen wir uns auf <a href="http://www.wulff-woesten.de/">eisenrah</a>, der auf dem letzten <a href="http://wdcmdresden.de/">WDCM in Dresden</a> einen Vortrag über <a href="https://ssl-id.de/download.wulff-woesten.de/skype-security.pdf">Skype Sicherheit</a> gehalten hat, begrüßen zu dürfen.</p><p class="">
+        Ihr wollte mitreden oder habt Fragen?
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">mail@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+    </dl><p class="">
+      Live hören könnt ihr uns am Dienstag, dem 26. Juni wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p></div>]]></content:encoded><itunes:subtitle>Nur News</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20120626.html&amp;title=pentaradio24%3A%20Skype%20und%20andere%20Internettelefonie&amp;description=%0A%20%20%20%20%20%20%22Komm%2C%20lass%20mal%20skypen!%22%20-%20Wenn%20heute%20%C3%BCber%20Internettelefonie%20geredet%20wird%2C%20denken%20die%20meisten%20Leute%20direkt%20an%20Skype.%20Der%20popul%C3%A4re%20Client%20bietet%20eine%20einfach%20zu%20bedienende%20M%C3%B6glichkeit%2C%20das%20Internet%20f%C3%BCr%20Videotelefonie%20zu%20nutzen.%20Doch%20was%20ist%20Internettelefonie%20eigentlich%3F%20Kann%20man%20das%20auch%20ohne%20Skype%20erledigen%3F%20Was%20macht(e)%20Skype%20so%20interessant%3F%20Warum%20sollte%20man%20sogar%20auf%20Skype%20verzichten%3F&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item><item><title>pentaradio24: Skype und andere Internettelefonie: Nur Thema: Skype und andere Internettelefonie</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      "Komm, lass mal skypen!" - Wenn heute über Internettelefonie geredet wird, denken die meisten Leute direkt an Skype. Der populäre Client bietet eine einfach zu bedienende Möglichkeit, das Internet für Videotelefonie zu nutzen. Doch was ist Internettelefonie eigentlich? Kann man das auch ohne Skype erledigen? Was macht(e) Skype so interessant? Warum sollte man sogar auf Skype verzichten?</p><p class="">Als Stargast freuen wir uns auf <a href="http://www.wulff-woesten.de/">eisenrah</a>, der auf dem letzten <a href="http://wdcmdresden.de/">WDCM in Dresden</a> einen Vortrag über <a href="https://ssl-id.de/download.wulff-woesten.de/skype-security.pdf">Skype Sicherheit</a> gehalten hat, begrüßen zu dürfen.</p><p class="">
+        Ihr wollte mitreden oder habt Fragen?
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">mail@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+    </dl><p class="">
+      Live hören könnt ihr uns am Dienstag, dem 26. Juni wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p></div>]]></description><link>http://www.c3d2.de/news/pentaradio24-20120626.html</link><enclosure url="http://ftp.c3d2.de/pentaradio/pentaradio-2012-06-26-skype.mp3" length="31255795" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentaradio24-20120626.html+++http://ftp.c3d2.de/pentaradio/pentaradio-2012-06-26-skype.mp3</guid><pubDate>Tue, 26 Jun 2012 16:52:00 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
+      "Komm, lass mal skypen!" - Wenn heute über Internettelefonie geredet wird, denken die meisten Leute direkt an Skype. Der populäre Client bietet eine einfach zu bedienende Möglichkeit, das Internet für Videotelefonie zu nutzen. Doch was ist Internettelefonie eigentlich? Kann man das auch ohne Skype erledigen? Was macht(e) Skype so interessant? Warum sollte man sogar auf Skype verzichten?</p><p class="">Als Stargast freuen wir uns auf <a href="http://www.wulff-woesten.de/">eisenrah</a>, der auf dem letzten <a href="http://wdcmdresden.de/">WDCM in Dresden</a> einen Vortrag über <a href="https://ssl-id.de/download.wulff-woesten.de/skype-security.pdf">Skype Sicherheit</a> gehalten hat, begrüßen zu dürfen.</p><p class="">
+        Ihr wollte mitreden oder habt Fragen?
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">mail@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+    </dl><p class="">
+      Live hören könnt ihr uns am Dienstag, dem 26. Juni wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p></div>]]></content:encoded><itunes:subtitle>Nur Thema: Skype und andere Internettelefonie</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20120626.html&amp;title=pentaradio24%3A%20Skype%20und%20andere%20Internettelefonie&amp;description=%0A%20%20%20%20%20%20%22Komm%2C%20lass%20mal%20skypen!%22%20-%20Wenn%20heute%20%C3%BCber%20Internettelefonie%20geredet%20wird%2C%20denken%20die%20meisten%20Leute%20direkt%20an%20Skype.%20Der%20popul%C3%A4re%20Client%20bietet%20eine%20einfach%20zu%20bedienende%20M%C3%B6glichkeit%2C%20das%20Internet%20f%C3%BCr%20Videotelefonie%20zu%20nutzen.%20Doch%20was%20ist%20Internettelefonie%20eigentlich%3F%20Kann%20man%20das%20auch%20ohne%20Skype%20erledigen%3F%20Was%20macht(e)%20Skype%20so%20interessant%3F%20Warum%20sollte%20man%20sogar%20auf%20Skype%20verzichten%3F&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
+  <item><title>pentaMusic Radio Show: 12. Juni 2012</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentamusic.png" title="(((pentamusic))" alt="(((pentamusic))" class=""/><p class="">
+          pentaMusic Radio Show - Augen zu, Ohren auf. Und zugehört. Bei der pentaMusic Radio Show. Heute gibt es neben Musik wieder eine Palette an News und Interviews. aaahh-records haben ein <a href="http://www.aaahh-records.net/chuck-morgan-ep/">neues Release</a> herausgebracht über das uns Henning mehr erzählen wird. Außerdem gibt es das große Finale des Gewinnspiels vom letzten Monat und überhaupt noch schicke Musik. Seid gespannt!
+      </p><p class="">
+          Und getreu dem Motto von Creative Commons könnt ihr neben dem reinen Konsum natürlich auch (live) mitmachen:
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">pentamusic@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+  </dl><p class="">
+      Live hören könnt ihr pentamusic am Dienstag, den 12. Juni ab 21:30 Uhr wie immer auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p><ul>
+       <li>SONG: <a href="http://www.soundclick.com/bands/songInfo.cfm?bandid=111310&amp;songid=6265019">David Rovis - The Commons (cc-by-nc-sa)</a></li>
+       
+    </ul></div>]]></description><link>http://www.c3d2.de/news/pentamusic-20120612.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentamusic-20120612.mp3" length="102672785" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentamusic-20120612.html+++http://ftp.c3d2.de/pentacast/pentamusic-20120612.mp3</guid><pubDate>Fri, 08 Jun 2012 19:10:23 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentamusic.png" title="(((pentamusic))" alt="(((pentamusic))" class=""/><p class="">
+          pentaMusic Radio Show - Augen zu, Ohren auf. Und zugehört. Bei der pentaMusic Radio Show. Heute gibt es neben Musik wieder eine Palette an News und Interviews. aaahh-records haben ein <a href="http://www.aaahh-records.net/chuck-morgan-ep/">neues Release</a> herausgebracht über das uns Henning mehr erzählen wird. Außerdem gibt es das große Finale des Gewinnspiels vom letzten Monat und überhaupt noch schicke Musik. Seid gespannt!
+      </p><p class="">
+          Und getreu dem Motto von Creative Commons könnt ihr neben dem reinen Konsum natürlich auch (live) mitmachen:
+    </p><dl class="">
+      <dt>Phone</dt>
+      <dd><a href="tel:+49-351-32054711">0351/32-05-47-11</a></dd>
+      <dt>Skype</dt>
+      <dd><a href="skype:pentaradio24?call">pentaradio24</a></dd>
+      <dt>E-Mail</dt>
+      <dd><a href="http://www.c3d2.de/kontakt.html">pentamusic@c3d2.de</a></dd>
+      <dt>OStatus</dt>
+      <dd><a href="http://identi.ca/pentaradio">@pentaradio@identi.ca</a></dd>
+      <dt>Twitter</dt>
+      <dd><a href="http://twitter.com/pentaradio">@pentaradio</a></dd>
+      <dt>Live-Chat</dt>
+      <dd><a href="http://www.c3d2.de/muc.html">Jabber MUC</a></dd>
+  </dl><p class="">
+      Live hören könnt ihr pentamusic am Dienstag, den 12. Juni ab 21:30 Uhr wie immer auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
+    </p><ul>
+       <li>SONG: <a href="http://www.soundclick.com/bands/songInfo.cfm?bandid=111310&amp;songid=6265019">David Rovis - The Commons (cc-by-nc-sa)</a></li>
+       
+    </ul></div>]]></content:encoded><itunes:subtitle>pentaMusic-20120612</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentamusic-20120612.html&amp;title=pentaMusic%20Radio%20Show%3A%2012.%20Juni%202012&amp;description=%0A%20%20%20%20%20%20%20%20%20%20pentaMusic%20Radio%20Show%20-%20Augen%20zu%2C%20Ohren%20auf.%20Und%20zugeh%C3%B6rt.%20Bei%20der%20pentaMusic%20Radio%20Show.%20Heute%20gibt%20es%20neben%20Musik%20wieder%20eine%20Palette%20an%20News%20und%20Interviews.%20aaahh-records%20haben%20ein%20neues%20Release%20herausgebracht%20%C3%BCber%20das%20uns%20Henning%20mehr%20erz%C3%A4hlen%20wird.%20Au%C3%9Ferdem%20gibt%20es%20das%20gro%C3%9Fe%20Finale%20des%20Gewinnspiels%20vom%20letzten%20Monat%20und%20%C3%BCberhaupt%20noch%20schicke%20Musik.%20Seid%20gespannt!%0A%20%20%20%20%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
+       
     <item><title>pentaradio24: Solide geflashte Daten</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
 Vor ca. zehn Jahren hat die Entwicklung der Flash-EEPROM die Compact Disc in der Frage der Kapazität überholt. Aber Flash Speicher waren dagegen teuer und deshalb lange nur die zweite Wahl. Das hat sich heute geändert! Die Festkörperspeicher sind heute den rotierenden "Drives" in fast Allem Überlegen. Sie sind wesentlich schneller, brauchen weniger Strom, sind leiser und weniger empfindlich. Deshalb findet man sie heute in modernen Ultrabooks. Doch wie zuverlässig sind unsere Daten darauf gespeichert? Kann man diese als Drop-In Replacement zur guten alten Festplatte nutzen? Seid gespannt auf eine Analyse der Innovation die eigentlich schon so alt ist wie die Festplatte selbst.
   </p><p class="">
@@ -42,6 +249,13 @@ Vor ca. zehn Jahren hat die Entwicklung der Flash-EEPROM die Compact Disc in der
     </dl><p class="">
       Live hören könnt ihr uns am Dienstag, dem 22. Mai wieder ab 21:30 Uhr auf <a href="http://coloradio.org/">coloRadio</a> (<a href="http://hub.fueralle.org/coloradio160mp3.m3u">Stream</a>).
     </p></div>]]></content:encoded><itunes:subtitle>pentaradio24 vom 22. Mai 2012</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentaradio24-20120522.html&amp;title=pentaradio24%3A%20Solide%20geflashte%20Daten&amp;description=%0AVor%20ca.%20zehn%20Jahren%20hat%20die%20Entwicklung%20der%20Flash-EEPROM%20die%20Compact%20Disc%20in%20der%20Frage%20der%20Kapazit%C3%A4t%20%C3%BCberholt.%20Aber%20Flash%20Speicher%20waren%20dagegen%20teuer%20und%20deshalb%20lange%20nur%20die%20zweite%20Wahl.%20Das%20hat%20sich%20heute%20ge%C3%A4ndert!%20Die%20Festk%C3%B6rperspeicher%20sind%20heute%20den%20rotierenden%20%22Drives%22%20in%20fast%20Allem%20%C3%9Cberlegen.%20Sie%20sind%20wesentlich%20schneller%2C%20brauchen%20weniger%20Strom%2C%20sind%20leiser%20und%20weniger%20empfindlich.%20Deshalb%20findet%20man%20sie%20heute%20in%20modernen%20Ultrabooks.%20Doch%20wie%20zuverl%C3%A4ssig%20sind%20unsere%20Daten%20darauf%20gespeichert%3F%20Kann%20man%20diese%20als%20Drop-In%20Replacement%20zur%20guten%20alten%20Festplatte%20nutzen%3F%20Seid%20gespannt%20auf%20eine%20Analyse%20der%20Innovation%20die%20eigentlich%20schon%20so%20alt%20ist%20wie%20die%20Festplatte%20selbst.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
+    
+      
+      
+      
+      
+      
+    
   
   <item><title>pentaMusic Radio Show: 8. Mai 2012</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentamusic.png" title="(((pentamusic))" alt="(((pentamusic))" class=""/><p class="">[update] leider habe ich es noch nicht geschafft die shownotes fertig zu machen, diese folgen am Wochenende [update ende]
           pentaMusic Radio Show - abmischen, aufmischen, durchmischen. Die heutige Sendung greift das Thema Remixes auf. Grund ist der <a href="http://beastieboys.com">Tod des Beastie-Boys Gründers und Frontmans Adam Yauch</a>. Die Beastie Boys haben durch Sampling den Hiphop der 80er Jahre vorangetrieben und waren auch immer für Remixes ihrer Stücke zu haben. Außerdem werden die Macher von <a href="http://timeshift.blackdays.de/">Timeshift</a> etwas über ihren neusten Streich erzählen und zwischen den Themen gibt es wie immer eine große Auswahl an Musik.</p><p class="">
@@ -853,31 +1067,7 @@ Vor ca. zehn Jahren hat die Entwicklung der Flash-EEPROM die Compact Disc in der
       So sind einige interessante Interviews zu Stande gekommen - zum größten Teil auf Deutsch, teilweise auf Englisch. Obwohl ich 4 Tage dort war, habe ich bestimmt nicht alle Engelteams interviewen können: Zum einen aus Zeitmangel, zum anderen aber auch, da die Leute einfach werkeln wollten, ohne dass ihr tun festgehalten wird.
   </p><p class="">
           Ich bedanke mich bei allen Engeln die mir Rede und Antwort standen oder Gespräche zu Stande gebracht haben. Da die Interviews teilweise länglich sind, habe ich eine <a href="http://ftp.c3d2.de/pentacast/pentacast-43-28c3.cue">CUE-Datei fertig gemacht</a>, mit der ihr das MP3 in mundgerechte Happen zerteilen könnt. In den Shownotes findet ihr eine Übersicht, wer ungefähr wann redet und in welcher Sprache.
-      </p><p class="">Shownotes:</p><ul>
-        <li><a href="http://www.c3d2.de/#">0:00 Intro, koeart, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">8:03 Engelsystem, msquare, DE</a></li>
-        <li><a href="https://www.engelsystem.de/">Engelsystem</a></li>
-        <li><a href="http://www.c3d2.de/#">12:17 FEM, ??, DE</a></li>
-        <li><a href="http://www.fem.tu-ilmenau.de/">FEM TU Ilmenau</a></li>
-        <li><a href="https://secure.wikimedia.org/wikipedia/en/wiki/HTTP_Live_Streaming">WP: HTTP Live Streaming</a></li>
-        <li><a href="http://www.c3d2.de/#">36:24 Masken tiefziehen, Aram Bartholl, DE</a></li>
-        <li><a href="http://datenform.de/indexeng.html">Aram Bartholl</a></li>
-        <li><a href="http://cre.fm/cre181">CRE181: Aram Bartholl</a></li>
-        <li><a href="http://www.c3d2.de/#">43:07 Strom, friedrich, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">48:34 CERT, vt, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">54:56 Herold Angel, Nick Farr, EN</a></li>
-        <li><a href="http://events.ccc.de/congress/2011/wiki/No_nerd_left_behind">28c3: No Nerd Left Behind</a></li>
-        <li><a href="http://www.c3d2.de/#">64:12 ERFA's, Maha, DE</a></li>
-        <li><a href="http://ccc.de/de/regional">CCC Regional</a></li>
-        <li><a href="http://www.c3d2.de/#">79:19 Pressearbeit, Constanze Kurz, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">97:31 Eventphone, sascha, DE</a></li>
-        <li><a href="http://eventphone.de/">Eventphone</a></li>
-        <li><a href="http://www.c3d2.de/#">108:33 Foodangel, simon, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">111:00 Chefangel, Frantisek Apfelbeck, EN</a></li>
-        <li><a href="http://www.frantisekapfelbeck.org/wiki/index.php?title=Food_Hacking_Base">Frantisek Apfelbeck, Foodhacking</a></li>
-        <li><a href="http://www.c3d2.de/#">123:10 Nick Farr Lullaby (Machine Lullaby by Fear of Ghosts Remix)</a></li>
-        <li><a href="http://events.ccc.de/congress/2011/wiki/Documentation">28c3 Recordings</a></li>
-    </ul></div>]]></description><link>http://www.c3d2.de/news/pentacast-43-28c3.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentacast-43-28c3.mp3" length="178215243" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentacast-43-28c3.html+++http://ftp.c3d2.de/pentacast/pentacast-43-28c3.mp3</guid><pubDate>Thu, 01 Mar 2012 18:49:23 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
+      </p></div>]]></description><link>http://www.c3d2.de/news/pentacast-43-28c3.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentacast-43-28c3.mp3" length="178215243" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentacast-43-28c3.html+++http://ftp.c3d2.de/pentacast/pentacast-43-28c3.mp3</guid><pubDate>Thu, 01 Mar 2012 18:49:23 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
       Jedes Jahr wieder findet er statt: Der Chaos Communication Congress. Langsam gewachsen (in den letzten Jahren explodiert), funktioniert der Congress vor allem durch die vielen Helfenden Hände hinter den Kulissen, Engel genannt.
   </p><p class="">
       Ich war auf dem <a href="http://events.ccc.de/category/28c3/">28c3</a> mit einem Aufnahmegerät unterwegs und habe mir zum Ziel gesetzt, mal ein wenig hinter die Kulissen des Chaos Communication Congresses zu blicken: Welche Engelteams gibt es, was machen die und vor allem: Was motiviert die Leute so viele Stunden Arbeit in den Congress zu stecken?
@@ -885,31 +1075,30 @@ Vor ca. zehn Jahren hat die Entwicklung der Flash-EEPROM die Compact Disc in der
       So sind einige interessante Interviews zu Stande gekommen - zum größten Teil auf Deutsch, teilweise auf Englisch. Obwohl ich 4 Tage dort war, habe ich bestimmt nicht alle Engelteams interviewen können: Zum einen aus Zeitmangel, zum anderen aber auch, da die Leute einfach werkeln wollten, ohne dass ihr tun festgehalten wird.
   </p><p class="">
           Ich bedanke mich bei allen Engeln die mir Rede und Antwort standen oder Gespräche zu Stande gebracht haben. Da die Interviews teilweise länglich sind, habe ich eine <a href="http://ftp.c3d2.de/pentacast/pentacast-43-28c3.cue">CUE-Datei fertig gemacht</a>, mit der ihr das MP3 in mundgerechte Happen zerteilen könnt. In den Shownotes findet ihr eine Übersicht, wer ungefähr wann redet und in welcher Sprache.
-      </p><p class="">Shownotes:</p><ul>
-        <li><a href="http://www.c3d2.de/#">0:00 Intro, koeart, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">8:03 Engelsystem, msquare, DE</a></li>
-        <li><a href="https://www.engelsystem.de/">Engelsystem</a></li>
-        <li><a href="http://www.c3d2.de/#">12:17 FEM, ??, DE</a></li>
-        <li><a href="http://www.fem.tu-ilmenau.de/">FEM TU Ilmenau</a></li>
-        <li><a href="https://secure.wikimedia.org/wikipedia/en/wiki/HTTP_Live_Streaming">WP: HTTP Live Streaming</a></li>
-        <li><a href="http://www.c3d2.de/#">36:24 Masken tiefziehen, Aram Bartholl, DE</a></li>
-        <li><a href="http://datenform.de/indexeng.html">Aram Bartholl</a></li>
-        <li><a href="http://cre.fm/cre181">CRE181: Aram Bartholl</a></li>
-        <li><a href="http://www.c3d2.de/#">43:07 Strom, friedrich, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">48:34 CERT, vt, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">54:56 Herold Angel, Nick Farr, EN</a></li>
-        <li><a href="http://events.ccc.de/congress/2011/wiki/No_nerd_left_behind">28c3: No Nerd Left Behind</a></li>
-        <li><a href="http://www.c3d2.de/#">64:12 ERFA's, Maha, DE</a></li>
-        <li><a href="http://ccc.de/de/regional">CCC Regional</a></li>
-        <li><a href="http://www.c3d2.de/#">79:19 Pressearbeit, Constanze Kurz, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">97:31 Eventphone, sascha, DE</a></li>
-        <li><a href="http://eventphone.de/">Eventphone</a></li>
-        <li><a href="http://www.c3d2.de/#">108:33 Foodangel, simon, DE</a></li>
-        <li><a href="http://www.c3d2.de/#">111:00 Chefangel, Frantisek Apfelbeck, EN</a></li>
-        <li><a href="http://www.frantisekapfelbeck.org/wiki/index.php?title=Food_Hacking_Base">Frantisek Apfelbeck, Foodhacking</a></li>
-        <li><a href="http://www.c3d2.de/#">123:10 Nick Farr Lullaby (Machine Lullaby by Fear of Ghosts Remix)</a></li>
-        <li><a href="http://events.ccc.de/congress/2011/wiki/Documentation">28c3 Recordings</a></li>
-    </ul></div>]]></content:encoded><itunes:subtitle>pentacast 43: 28c3</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentacast-43-28c3.html&amp;title=pentacast%2043%3A%2028c3%20-%20Hinter%20den%20Kulissen&amp;description=%0A%20%20%20%20%20%20Jedes%20Jahr%20wieder%20findet%20er%20statt%3A%20Der%20Chaos%20Communication%20Congress.%20Langsam%20gewachsen%20(in%20den%20letzten%20Jahren%20explodiert)%2C%20funktioniert%20der%20Congress%20vor%20allem%20durch%20die%20vielen%20Helfenden%20H%C3%A4nde%20hinter%20den%20Kulissen%2C%20Engel%20genannt.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
+      </p></div>]]></content:encoded><itunes:subtitle>pentacast 43: 28c3</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentacast-43-28c3.html&amp;title=pentacast%2043%3A%2028c3%20-%20Hinter%20den%20Kulissen&amp;description=%0A%20%20%20%20%20%20Jedes%20Jahr%20wieder%20findet%20er%20statt%3A%20Der%20Chaos%20Communication%20Congress.%20Langsam%20gewachsen%20(in%20den%20letzten%20Jahren%20explodiert)%2C%20funktioniert%20der%20Congress%20vor%20allem%20durch%20die%20vielen%20Helfenden%20H%C3%A4nde%20hinter%20den%20Kulissen%2C%20Engel%20genannt.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
   
     <item><title>pentaradio24: Das Buch der Zukunft</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentaradio.png" title="(((pentaradio))" alt="(((pentaradio))" class=""/><p class="">
       Vor ein paar Jahren war es noch magisch, wenn Bilder der Zeitung des Zauberlehrlings Potter, Harry zappelten. <em>2012 - Gähnnn!</em>
@@ -1507,486 +1696,6 @@ Vor ca. zehn Jahren hat die Entwicklung der Flash-EEPROM die Compact Disc in der
       <li>Question 5: What animal did the US army use in West Berlin for intruder alarm?</li><li><a href="http://www.schneier.com/blog/archives/2011/08/alarm_geese.html">Link 0</a> </li>
       <li>Question 6: Why the godfather of the content mafia Warner Brothers was recently sued wrt. the movie Hangover II.</li><li><a href="http://recordingindustryvspeople.blogspot.com/2011/12/warner-brothers-sued-for-trademark.html">Link 0</a> </li>
   </ul></div>]]></content:encoded><itunes:subtitle>Pentanews Game Show</itunes:subtitle><itunes:author>CCC Dresden</itunes:author></item>
-  
-    <item><title>pentacast 42: Android</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
-	  iOS ist out; Android ist in! Zumindest kann man auf diesen Gedanken
-	  kommen, wenn man sich die aktuellen Verkaufszahlen von
-	  Smartphone-Plattformen anschaut.
-  </p><p class="">
-	  Es ist Zeit für das Pentacast Team einmal einen Blick auf diese
-	  Linux-Plattform für mobile Computer zu werfen.
-  </p><p class="">
-	  Mit Lukas Braune und Blitz geht es auf einem Streifzug von
-	  Kernel-Extensions bis hin zu Market-Place-Alternativen einmal Rund im
-	  Android-Zoo. Wir wünschen viel Spaß beim hören.
-  </p><p class="">Shownotes:</p><ul>
-		<li><a href="http://www.braune-enterprises.de/">Seite von Lukas</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Andreas_Pfitzmann">WP: Andreas Pfitzmann</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Java_Anon_Proxy">WP: JAP - Java Anon Proxy</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Mix_(Netzwerk)">WP: Mix-Netzwerk</a></li>
-		<li><a href="http://pentamedia.org/pentacast/tor-torservers-zwiebelfreunde">PC: Zwiebelfreunde</a></li>
-		<li><a href="http://pentamedia.org/pentacast/programmiersprachen">PC: Programmiersprachen</a></li>
-		<li><a href="http://pentamedia.org/pentacast/microkernel">PC: Microkernel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Android_(Betriebssystem)">WP: Android</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Open_Handset_Alliance">WP: Open Handset Alliance</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Debian">WP: Debian</a></li>
-		<li><a href="http://pentamedia.org/pentacast/linux-kernel-ueberblick">PC: Linux Kern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Dalvik_Virtual_Machine">WP: Dalvik Virtual Machine</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Java_(Programmiersprache)">WP: Java</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Stapelspeicher">WP: Stack-Maschine</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Register_(Computer)">WP: Register-Maschine</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/ARM-Architektur">WP: ARM Architektur</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/X86-Prozessor">WP: X86-Prozessor</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Android_Market">WP: Android Market</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Google_Maps">WP: Google Maps</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Windows_Phone_7">WP: Windows Phone 7</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Andy_Rubin">WP: Andy Rubin (Begründer von Android)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/CyanogenMod">WP: CyanogenMod</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/JDK">WP: JDK</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Software_Development_Kit">WP: SDK</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung">WP: IDE</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Debugger">WP: Debugger</a></li>
-		<li><a href="http://developer.android.com/guide/developing/tools/adb.html">Android Debug Bridge</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/FreeBSD">WP: FreeBSD</a></li>
-		<li><a href="http://developer.android.com/guide/index.html">Android Developer's Guide</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/OpenGL_ES">WP: OpenGL ES</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem">WP: Asymmetrische Kryptographie</a></li>
-		<li><a href="http://www.heise.de/open/artikel/Die-Woche-Apple-vs-Open-Source-1169290.html">Heise: Keine GPL Apps für Apple App Store </a></li>
-		<li><a href="http://de.wikipedia.org/wiki/GPS">WP: GPS</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/Information_flow_(information_theory)">WP: Information Flow</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Benutzerkennung">WP: UID</a></li>
-		<li><a href="http://developer.android.com/guide/topics/fundamentals/bound-services.html">Bound Services</a></li>
-		<li><a href="http://developer.android.com/reference/android/app/Activity.html">Activity</a></li>
-		<li><a href="http://developer.android.com/reference/android/content/BroadcastReceiver.html">Broadcast Receiver</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Remote_Procedure_Call">WP: Remote Procedure Call</a></li>
-		<li><a href="http://developer.android.com/reference/android/content/Intent.html">WP: Intent</a></li>
-		<li><a href="http://developer.android.com/reference/android/os/Binder.html">Binder</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Erlang_C">WP: Erlang C</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Erlang_B">WP: Erlang B</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Open-Xchange">WP: Open Xchange</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Apache_Harmony">WP: Apache Harmony</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Nokia_Lumia_800">WP: Nokia Lumia 800</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/BlackBerry">WP: BlackBerry 800</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Trusted_Platform_Module">WP: Trusted Platform Module</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Extensible_Firmware_Interface">WP: EFI</a></li>
-		<li><a href="https://plus.google.com/103529712146023544869">Blitz bei Google+</a></li>
-    </ul></div>]]></description><link>http://www.c3d2.de/news/pentacast-42-android.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentacast-42-android.mp3" length="89392708 " type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentacast-42-android.html+++http://ftp.c3d2.de/pentacast/pentacast-42-android.mp3</guid><pubDate>Sat, 24 Dec 2011 22:49:23 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
-	  iOS ist out; Android ist in! Zumindest kann man auf diesen Gedanken
-	  kommen, wenn man sich die aktuellen Verkaufszahlen von
-	  Smartphone-Plattformen anschaut.
-  </p><p class="">
-	  Es ist Zeit für das Pentacast Team einmal einen Blick auf diese
-	  Linux-Plattform für mobile Computer zu werfen.
-  </p><p class="">
-	  Mit Lukas Braune und Blitz geht es auf einem Streifzug von
-	  Kernel-Extensions bis hin zu Market-Place-Alternativen einmal Rund im
-	  Android-Zoo. Wir wünschen viel Spaß beim hören.
-  </p><p class="">Shownotes:</p><ul>
-		<li><a href="http://www.braune-enterprises.de/">Seite von Lukas</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Andreas_Pfitzmann">WP: Andreas Pfitzmann</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Java_Anon_Proxy">WP: JAP - Java Anon Proxy</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Mix_(Netzwerk)">WP: Mix-Netzwerk</a></li>
-		<li><a href="http://pentamedia.org/pentacast/tor-torservers-zwiebelfreunde">PC: Zwiebelfreunde</a></li>
-		<li><a href="http://pentamedia.org/pentacast/programmiersprachen">PC: Programmiersprachen</a></li>
-		<li><a href="http://pentamedia.org/pentacast/microkernel">PC: Microkernel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Android_(Betriebssystem)">WP: Android</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Open_Handset_Alliance">WP: Open Handset Alliance</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Debian">WP: Debian</a></li>
-		<li><a href="http://pentamedia.org/pentacast/linux-kernel-ueberblick">PC: Linux Kern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Dalvik_Virtual_Machine">WP: Dalvik Virtual Machine</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Java_(Programmiersprache)">WP: Java</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Stapelspeicher">WP: Stack-Maschine</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Register_(Computer)">WP: Register-Maschine</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/ARM-Architektur">WP: ARM Architektur</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/X86-Prozessor">WP: X86-Prozessor</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Android_Market">WP: Android Market</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Google_Maps">WP: Google Maps</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Windows_Phone_7">WP: Windows Phone 7</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Andy_Rubin">WP: Andy Rubin (Begründer von Android)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/CyanogenMod">WP: CyanogenMod</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/JDK">WP: JDK</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Software_Development_Kit">WP: SDK</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung">WP: IDE</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Debugger">WP: Debugger</a></li>
-		<li><a href="http://developer.android.com/guide/developing/tools/adb.html">Android Debug Bridge</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/FreeBSD">WP: FreeBSD</a></li>
-		<li><a href="http://developer.android.com/guide/index.html">Android Developer's Guide</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/OpenGL_ES">WP: OpenGL ES</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem">WP: Asymmetrische Kryptographie</a></li>
-		<li><a href="http://www.heise.de/open/artikel/Die-Woche-Apple-vs-Open-Source-1169290.html">Heise: Keine GPL Apps für Apple App Store </a></li>
-		<li><a href="http://de.wikipedia.org/wiki/GPS">WP: GPS</a></li>
-		<li><a href="http://en.wikipedia.org/wiki/Information_flow_(information_theory)">WP: Information Flow</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Benutzerkennung">WP: UID</a></li>
-		<li><a href="http://developer.android.com/guide/topics/fundamentals/bound-services.html">Bound Services</a></li>
-		<li><a href="http://developer.android.com/reference/android/app/Activity.html">Activity</a></li>
-		<li><a href="http://developer.android.com/reference/android/content/BroadcastReceiver.html">Broadcast Receiver</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Remote_Procedure_Call">WP: Remote Procedure Call</a></li>
-		<li><a href="http://developer.android.com/reference/android/content/Intent.html">WP: Intent</a></li>
-		<li><a href="http://developer.android.com/reference/android/os/Binder.html">Binder</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Erlang_C">WP: Erlang C</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Erlang_B">WP: Erlang B</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Open-Xchange">WP: Open Xchange</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Apache_Harmony">WP: Apache Harmony</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Nokia_Lumia_800">WP: Nokia Lumia 800</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/BlackBerry">WP: BlackBerry 800</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Trusted_Platform_Module">WP: Trusted Platform Module</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Extensible_Firmware_Interface">WP: EFI</a></li>
-		<li><a href="https://plus.google.com/103529712146023544869">Blitz bei Google+</a></li>
-    </ul></div>]]></content:encoded><itunes:subtitle>pentacast 42: Android</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentacast-42-android.html&amp;title=pentacast%2042%3A%20Android&amp;description=%0A%09%20%20iOS%20ist%20out%3B%20Android%20ist%20in!%20Zumindest%20kann%20man%20auf%20diesen%20Gedanken%0A%09%20%20kommen%2C%20wenn%20man%20sich%20die%20aktuellen%20Verkaufszahlen%20von%0A%09%20%20Smartphone-Plattformen%20anschaut.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
-  
-    <item><title>pentacast 41: SASL</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
-      In dieser Folge unterhalten sich astro und koeart über einen wichtigen RFC, welcher die Authentifizierung und Autorisierung im Web beschreibt: Den <a href="http://de.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer">Simple Authentification Security Layer</a>, beschrieben in <a href="http://tools.ietf.org/html/rfc4422">RFC 4422</a>.
-  </p><p class="">
-      Wir erläutern, wie SASL Grundlegend funktioniert, geben ein praktisches Beispiel und erläutern die Anforderungen, welcher der Standard an die Protokolle und Mechanismen stellt. Außerdem vergleichen wir die Mechanismen, und stellen die Vertreter der Verschiedenen Katgeorien vor: <a href="http://de.wikipedia.org/wiki/Digest">Digest</a>, <a href="http://de.wikipedia.org/wiki/Plain">Plain Text</a>, <a href="http://de.wikipedia.org/wiki/X.509">X.509</a> und - ganz frisch - <a href="http://de.wikipedia.org/wiki/SCRAM">SCRAM</a>.
-  </p><p class="">Shownotes:</p><ul>
-        <li><a href="http://tools.ietf.org/html/rfc4422">RFC 4422: SASL</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/HTTP-Authentifizierung">WP: HTTP Authentication</a></li>
-        <li><a href="http://www.iana.org/assignments/sasl-mechanisms/sasl-mechanisms.xml">IANA - Registrierungsseite für Mechanismen</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc4616">RFC 4616: Plain Text Authentifizierung</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Message-Digest_Algorithm_5">WP: DIGEST/MD5</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc5802">RFC 5802: SCRAM</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc5056">RFC 5056: Channel Binding</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/TCP/IP-Referenzmodell">WP: TCP/IP Referenz-Schichten Modell</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Transport_Layer_Security">WP: TLS</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/XMPP">WP: XMPP</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/GSSAPI">WP: GSSAPI</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Kerberos_(Informatik)">WP: Kerberos</a></li>
-        <li><a href="http://josefsson.org/gsasl">GNU SASL Implementation</a></li>
-        <li><a href="http://wiki.dovecot.org/Sasl">DoveCot SASL Implementation</a></li>
-        <li><a href="https://github.com/astro/node-xmpp/blob/master/lib/xmpp/sasl.js">node-xmpp SASL Implementation</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Kerberos_(Informatik)">WP: Kerberos (Zertifikat-basierter Authentifizierungsmechanismus)</a></li>
-        <li><a href="http://pentamedia.org/pentaradio/20100622">Pentaradio24: SSL - Screwed Socket Layer</a></li>
-        <li><a href="http://chaosradio.ccc.de/cr172.html">CRE172: SSL</a></li>
-        <li><a href="https://www.eff.org/observatory">EFF und SSL</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/OTR">WP: OTR</a></li>
-        <li><a href="http://www.wired.com/threatlevel/2011/12/manning-assange-laptop/">Bradley Manning</a></li>
-        <li><a href="http://kopfueber.wordpress.com/2010/02/04/das-zih-die-umfrage-semesterticket-f-sachsen/">TU Dresden: Semesterticket Umfrage</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc4949">RFC: 4949</a></li>
-    </ul></div>]]></description><link>http://www.c3d2.de/news/pentacast-41-sasl.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentacast-41-sasl.mp3" length="49070479" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentacast-41-sasl.html+++http://ftp.c3d2.de/pentacast/pentacast-41-sasl.mp3</guid><pubDate>Thu, 22 Dec 2011 17:19:13 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
-      In dieser Folge unterhalten sich astro und koeart über einen wichtigen RFC, welcher die Authentifizierung und Autorisierung im Web beschreibt: Den <a href="http://de.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer">Simple Authentification Security Layer</a>, beschrieben in <a href="http://tools.ietf.org/html/rfc4422">RFC 4422</a>.
-  </p><p class="">
-      Wir erläutern, wie SASL Grundlegend funktioniert, geben ein praktisches Beispiel und erläutern die Anforderungen, welcher der Standard an die Protokolle und Mechanismen stellt. Außerdem vergleichen wir die Mechanismen, und stellen die Vertreter der Verschiedenen Katgeorien vor: <a href="http://de.wikipedia.org/wiki/Digest">Digest</a>, <a href="http://de.wikipedia.org/wiki/Plain">Plain Text</a>, <a href="http://de.wikipedia.org/wiki/X.509">X.509</a> und - ganz frisch - <a href="http://de.wikipedia.org/wiki/SCRAM">SCRAM</a>.
-  </p><p class="">Shownotes:</p><ul>
-        <li><a href="http://tools.ietf.org/html/rfc4422">RFC 4422: SASL</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/HTTP-Authentifizierung">WP: HTTP Authentication</a></li>
-        <li><a href="http://www.iana.org/assignments/sasl-mechanisms/sasl-mechanisms.xml">IANA - Registrierungsseite für Mechanismen</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc4616">RFC 4616: Plain Text Authentifizierung</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Message-Digest_Algorithm_5">WP: DIGEST/MD5</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc5802">RFC 5802: SCRAM</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc5056">RFC 5056: Channel Binding</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/TCP/IP-Referenzmodell">WP: TCP/IP Referenz-Schichten Modell</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Transport_Layer_Security">WP: TLS</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/XMPP">WP: XMPP</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/GSSAPI">WP: GSSAPI</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Kerberos_(Informatik)">WP: Kerberos</a></li>
-        <li><a href="http://josefsson.org/gsasl">GNU SASL Implementation</a></li>
-        <li><a href="http://wiki.dovecot.org/Sasl">DoveCot SASL Implementation</a></li>
-        <li><a href="https://github.com/astro/node-xmpp/blob/master/lib/xmpp/sasl.js">node-xmpp SASL Implementation</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/Kerberos_(Informatik)">WP: Kerberos (Zertifikat-basierter Authentifizierungsmechanismus)</a></li>
-        <li><a href="http://pentamedia.org/pentaradio/20100622">Pentaradio24: SSL - Screwed Socket Layer</a></li>
-        <li><a href="http://chaosradio.ccc.de/cr172.html">CRE172: SSL</a></li>
-        <li><a href="https://www.eff.org/observatory">EFF und SSL</a></li>
-        <li><a href="http://de.wikipedia.org/wiki/OTR">WP: OTR</a></li>
-        <li><a href="http://www.wired.com/threatlevel/2011/12/manning-assange-laptop/">Bradley Manning</a></li>
-        <li><a href="http://kopfueber.wordpress.com/2010/02/04/das-zih-die-umfrage-semesterticket-f-sachsen/">TU Dresden: Semesterticket Umfrage</a></li>
-        <li><a href="http://tools.ietf.org/html/rfc4949">RFC: 4949</a></li>
-    </ul></div>]]></content:encoded><itunes:subtitle>pentacast 41: SASL</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentacast-41-sasl.html&amp;title=pentacast%2041%3A%20SASL&amp;description=%0A%20%20%20%20%20%20In%20dieser%20Folge%20unterhalten%20sich%20astro%20und%20koeart%20%C3%BCber%20einen%20wichtigen%20RFC%2C%20welcher%20die%20Authentifizierung%20und%20Autorisierung%20im%20Web%20beschreibt%3A%20Den%20Simple%20Authentification%20Security%20Layer%2C%20beschrieben%20in%20RFC%204422.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
-  
-  <item><title>pentaMusic Radio Show: 13. Dezember 2011</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentamusic.png" title="(((pentamusic))" alt="(((pentamusic))" class=""/><p class="">pentaMusic Radio Show - Glühwein, Plätzchen, Musik. So kann man die Weihnachtszeit genießen. In der letzten Sendung in diesem Jahr werde ich nochmal schöne Musik raussuchen, die auch Weihnachtsgefühle wecken kann. Aber keine Angst, um Jingle Bells oder ähnliche Lieder werde ich einen großen Bogen machen.
-      </p><p class=""> Mitmachen könnt ihr wie immer indem ihr in unseren <a href="http://www.c3d2.de/muc.html">Chat</a> kommt oder per Anruf (0351 32054711) oder per Skype (pentaradio24).
-  </p><p class="">
-Für Song-der-Sendung Vorschläge meldet euch bei: pentamusic at c3d2 punkt de. Feedback an die gleiche Emailadresse oder an @pentamusic (identi.ca) oder @pentaradio (Twitter). Oder einfach einen Kommentar hinterlassen.
-</p><ul>
-        <li>SONG: <a href="http://www.soundclick.com/bands/songInfo.cfm?bandid=111310&amp;songid=6265019">David Rovis - The Commons (cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/57383">Donderova - Christmas Christmas (Xmas EP) (cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/2368">In Faded Glory - Widow Maker (Polyplastic Heaven)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/11959">Lohm´e - I Love Disco Disco (I Love Disco Disco)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/58769">Nox- Chocolate Paper (Christmas Pack)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/4363">Jiboul - Achel (Caraminopt´ere)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/56643">Ewa Firsowicz - Stundenlang das Meer (Das Meer)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/Wrist/Blind_AlleyOrphan_Drug_single_1135/02_Orphan_Drug_1355">Wrist - Orphan Drug (Blind Alley Orphan Drug)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/75993">Pop Eye - The Deepest Sea (Pop Eye Debut)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/El_Pilar_Azul/Diciembre">El Pilar Azul - Diciembre (Diciembre)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://uniformmotion.net">Uniform Motion - The Victory of Buckets and Doors (One Frame per Second)(cc-by-nc-nd)</a>
-        </li>
-        <li><a href="http://uniformmotion.net">Uniform Motion</a></li>
-        <li>VIDEO: <a href="http://youtu.be/wL868fDfavg">YT: Uniform Motion - The Black Box (Live from CDM Studios)</a></li>
-        <li><a href="http://oncecitypersecond.com">One City per Second</a></li>
-        <li>SONG: <a href="http://uniformmotion.net">Uniform Motion - Fools, don't Listen to a Word I say (One Frame per Second)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/43854">Sonic Ahmed - Geht sich kaputt (Balkanbräz) (cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/Learning_Music/This_May_Also_Be_It">Learning Music - Electric Letter (This May Also Be It)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/Benji_Cossa/Favorites_02_Eric_Copeland/">Benji Cossa - Milk and Honey (R.P.U.P. III)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/56082">James Edwards - A Merry Christmas (Christmas Bells)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.audio88.com/download/einervonuns_lieder.zip">einer von uns - Safe the MP3 (Lieder für nichts und wieder nichts)</a></li>
-    </ul></div>]]></description><link>http://www.c3d2.de/news/pentamusic-20111213.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentamusic-20111213.mp3" length="105185123" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentamusic-20111213.html+++http://ftp.c3d2.de/pentacast/pentamusic-20111213.mp3</guid><pubDate>Tue, 13 Dec 2011 12:35:23 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentamusic.png" title="(((pentamusic))" alt="(((pentamusic))" class=""/><p class="">pentaMusic Radio Show - Glühwein, Plätzchen, Musik. So kann man die Weihnachtszeit genießen. In der letzten Sendung in diesem Jahr werde ich nochmal schöne Musik raussuchen, die auch Weihnachtsgefühle wecken kann. Aber keine Angst, um Jingle Bells oder ähnliche Lieder werde ich einen großen Bogen machen.
-      </p><p class=""> Mitmachen könnt ihr wie immer indem ihr in unseren <a href="http://www.c3d2.de/muc.html">Chat</a> kommt oder per Anruf (0351 32054711) oder per Skype (pentaradio24).
-  </p><p class="">
-Für Song-der-Sendung Vorschläge meldet euch bei: pentamusic at c3d2 punkt de. Feedback an die gleiche Emailadresse oder an @pentamusic (identi.ca) oder @pentaradio (Twitter). Oder einfach einen Kommentar hinterlassen.
-</p><ul>
-        <li>SONG: <a href="http://www.soundclick.com/bands/songInfo.cfm?bandid=111310&amp;songid=6265019">David Rovis - The Commons (cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/57383">Donderova - Christmas Christmas (Xmas EP) (cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/2368">In Faded Glory - Widow Maker (Polyplastic Heaven)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/11959">Lohm´e - I Love Disco Disco (I Love Disco Disco)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/58769">Nox- Chocolate Paper (Christmas Pack)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/4363">Jiboul - Achel (Caraminopt´ere)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/56643">Ewa Firsowicz - Stundenlang das Meer (Das Meer)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/Wrist/Blind_AlleyOrphan_Drug_single_1135/02_Orphan_Drug_1355">Wrist - Orphan Drug (Blind Alley Orphan Drug)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/75993">Pop Eye - The Deepest Sea (Pop Eye Debut)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/El_Pilar_Azul/Diciembre">El Pilar Azul - Diciembre (Diciembre)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://uniformmotion.net">Uniform Motion - The Victory of Buckets and Doors (One Frame per Second)(cc-by-nc-nd)</a>
-        </li>
-        <li><a href="http://uniformmotion.net">Uniform Motion</a></li>
-        <li>VIDEO: <a href="http://youtu.be/wL868fDfavg">YT: Uniform Motion - The Black Box (Live from CDM Studios)</a></li>
-        <li><a href="http://oncecitypersecond.com">One City per Second</a></li>
-        <li>SONG: <a href="http://uniformmotion.net">Uniform Motion - Fools, don't Listen to a Word I say (One Frame per Second)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/43854">Sonic Ahmed - Geht sich kaputt (Balkanbräz) (cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/Learning_Music/This_May_Also_Be_It">Learning Music - Electric Letter (This May Also Be It)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://freemusicarchive.org/music/Benji_Cossa/Favorites_02_Eric_Copeland/">Benji Cossa - Milk and Honey (R.P.U.P. III)(cc-by-nc-nd)</a></li>
-        <li>SONG: <a href="http://www.jamendo.com/de/album/56082">James Edwards - A Merry Christmas (Christmas Bells)(cc-by-nc-sa)</a></li>
-        <li>SONG: <a href="http://www.audio88.com/download/einervonuns_lieder.zip">einer von uns - Safe the MP3 (Lieder für nichts und wieder nichts)</a></li>
-    </ul></div>]]></content:encoded><itunes:subtitle>pentaMusic-20111213</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentamusic-20111213.html&amp;title=pentaMusic%20Radio%20Show%3A%2013.%20Dezember%202011&amp;description=pentaMusic%20Radio%20Show%20-%20Gl%C3%BChwein%2C%20Pl%C3%A4tzchen%2C%20Musik.%20So%20kann%20man%20die%20Weihnachtszeit%20genie%C3%9Fen.%20In%20der%20letzten%20Sendung%20in%20diesem%20Jahr%20werde%20ich%20nochmal%20sch%C3%B6ne%20Musik%20raussuchen%2C%20die%20auch%20Weihnachtsgef%C3%BChle%20wecken%20kann.%20Aber%20keine%20Angst%2C%20um%20Jingle%20Bells%20oder%20%C3%A4hnliche%20Lieder%20werde%20ich%20einen%20gro%C3%9Fen%20Bogen%20machen.%0A%20%20%20%20%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
-       
-    <item><title>pentacast 40: Hobbyastronomie</title><description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
-	  In dieser Folge von Pentacast berichtet unser Studiogast Robin Geyer
-	  ausführlich über den Bereich der Astronomie.  In mal wieder knapp drei
-	  epischen Stunden erfahren wir von den verschiedenen Himmelskörpern,
-	  bekommen einen Einblick in die verschiedenen Dimensionen und lernen über
-	  die verschiedenen Teleskoptechniken.
-  </p><p class="">
-	  Robin arbeitet als studentische Hilfskraft mit am Lohrmann-Observatorium.
-	  Dadurch hat er Einblicke in die professionelle Astronomie und kann auch
-	  ein paar Schwenks daraus berichten. Vertieft haben wir uns allerdings mit
-	  der Hobbyastronomie beschäftigt.
-  </p><p class="">
-	  Vielleicht können wir Euch mit dieser Episode dieses Atemberaubende Hobby
-	  etwas näher bringen.
-  </p><p class="">Shownotes:</p><ul>
-		<li><a href="http://www.pinguinstall.org/">Pinguinstall, seite von Robin Geyer</a></li>
-		<li><a href="http://pentamedia.org/pentacast/high-performance-computing">PC06: High performance computing</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Astronomie">WP: Astronomie</a></li>
-		<li><a href="http://tu-dresden.de/die_tu_dresden/zentrale_einrichtungen/zih/">ZIH an der TU-Dresden</a></li>
-		<li><a href="http://astro.geo.tu-dresden.de/">Institut für planetare Geodäsie an der TU-Dresden</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Geodäsie">WP: Geodäsie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sternenhimmel">WP: Sternenhimmel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Planet">WP: Planet</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Hans_Lipperhey">WP: Hans Lipperhey</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Galileo_Galilei">WP: Galileo Galilei</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sextant">WP: Sextant</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Fixstern">WP: Fixstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Erde">WP: Erde</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Polarstern">WP: Polarstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Zirkumpolar_(Astronomie)">WP: Zirkumpolarstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Äquator">WP: Äquator</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Zenit_(Richtungsangabe)">WP: Zenit</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Stern">WP: Stern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sonne">WP: Sonne</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Astro">WP: Astro (Stern)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Breitengrad">WP: Breitengrad</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Längengrad">WP: Längengrad</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lichtverschmutzung">WP: Lichtverschmutzung</a></li>
-		<li><a href="http://sofias.soup.io/post/159640535/Lichtverschmutzung-in-Europa-Zahl-der-sichtbaren-Sterne">Karte der Lichtverschmutzung in Europa</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Astrologie">WP: Astrologie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sternbild">WP: Sternbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Exoplanet">WP: Exoplanet</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Geozentrisches_Weltbild">WP: Geozentrisches Weltbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Isaac_Newton">WP: Isaac Newton</a></li>
-		<li><a href="http://sofias.soup.io/post/195701382/NdT-about-Sir-Isaac-Newton-Thats-my">Isaac Newton: That's my man</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Hubble-Weltraumteleskop">WP: Hubble</a></li>
-		<li><a href="http://www.raumzeit-podcast.de/2011/12/02/rz029-herschel-weltraumteleskop/">RZ26: Weltraumteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Himmelskörper">WP: Himmelskörper</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Mond">WP: Mond</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Satellit_(Astronomie)">WP: Mond (Satellit)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Komet">WP: Komet</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sternhaufen">WP: Sternhaufen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Planetarischer_Nebel">WP: Planetarischer Nebel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Reflexionsnebel">WP: Reflexionsnebel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Emissionsnebel">WP: Emissionsnebel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Galaxie">WP: Galaxie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Andromedagalaxie">WP: Andromedagalaxie</a></li>
-		<li><a href="http://www.youtube.com/watch?v=0fKBhvDjuy0">To the power of 10</a></li>
-		<li><a href="http://www.youtube.com/watch?v=2LUQVzerseI">The Biggest Stars in the Universe</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Alpha_Centauri">WP: Alpha Centauri</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Spiralgalaxie">WP: Spiralgalaxie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Charles_Messier">WP: Charles Messier</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Messier-Katalog">WP: Messier Katalog</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/New_General_Catalogue">WP: NGC, New General Catalogue</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Deep_Sky">WP: Deep Sky</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Hale-Bopp">WP: Hale-Bopp</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Teleskop">WP: Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lichtsammelvermögen">WP: Lichtsammelvermögen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Teleskop">WP: Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Linsenteleskop">WP: Linsenteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Spiegelteleskop">WP: Spiegelteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Abbildungsfehler#Koma">WP: Koma (bei Spiegelteleskopen)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Okular">WP: Okular</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Beugungsbild#Beugung_an_Blenden">WP: Beugungsbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Kosmologie">WP: Kosmologie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Öffnungsverhältnis">WP: Öffnungsverhältnis</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Brennweite">WP: Brennweite</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lichtausbeute">WP: Lichtausbeute</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Schmidt-Newton-Teleskop">WP: Schmidt-Newton-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Schmidt-Teleskop">WP: Schmidt-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Maksutov-Teleskop">WP: Maksutov-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Very_Large_Telescope#Very_Large_Telescope">WP: Very Large Telescope</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Nasmyth-Teleskop">WP: Nasmyth-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Ritchey-Chrétien-Cassegrain-Teleskop">WP: Ritchey Chrétien-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Belichtungszeit">WP: Belichtungszeit</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Höhenwinkel">WP: Altitude</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Azimut">WP: Azimut</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Altazimut">WP: Altaz(imut)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Deutsche_Montierung">WP: Deutsche Montierung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Goto-Montierung">WP: Goto-Montierung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Nachführung_(Astronomie)">WP: Nachführung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Polsucher">WP: Polsucher</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Deklination_(Astronomie)">WP: Deklinationsachse</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Rektaszension">WP: Rektaszensionsachse</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Scheiner-Methode">WP: Scheiner-Verfahren</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Luminanz">WP: Luminanz</a></li>
-		<li><a href="http://www.astrotreff.de/">Astrotreff</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Zapfen_(Auge)">WP: Zapfen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Stäbchen_(Auge)">WP: Stäbchen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Doppelstern">WP: Doppelstern</a></li>
-		<li><a href="http://iraf.noao.edu/">IRAF</a></li>
-		<li><a href="http://www.giotto-software.de/">Giotto</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sonnenbeobachtung">WP: Sonnenbeobachtung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/H-alpha">WP: H-Alpha</a></li>
-		<li><a href="http://www.teleskop-service.de/Lunt_Solar/LUNT.htm">Lunt Sonnenteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Goto_(Teleskop)">WP: Autoguider</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Leitstern">WP: Leitstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Peltier-Element">WP: Peltier-Element</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Taupunkt">WP: Taupunkt</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Volkssternwarte">WP: Volkssternwarte</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Dunkelbild">WP: Dark frame / Dunkelbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Flatfield">WP: Flatfields / Weissbild</a></li>
-		<li><a href="http://www.cyanogen.com/">WP: Maxim DL</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Triebenberg">WP: Triebenberg</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lohrmann-Observatorium">WP: Lohrmann-Observatorium</a></li>
-		<li><a href="http://minorplanetcenter.net/iau/mpc.html">Minor Planet Center</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/(99942)_Apophis">WP: Apophis</a></li>
-		<li><a href="http://www.minorplanetcenter.net/iau/lists/Unusual.html">Unusual List</a></li>
-		<li><a href="http://www.astrooptik.com/">Keller Astrooptik</a></li>
-		<li><a href="http://ascom-standards.org/">Ascom Schnitstelle</a></li>
-            </ul></div>]]></description><link>http://www.c3d2.de/news/pentacast-40-hobbyastronomie.html</link><enclosure url="http://ftp.c3d2.de/pentacast/pentacast-40-hobbyastronomie.mp3" length="191425227" type="audio/mpeg"/><guid isPermaLink="false">http://www.c3d2.de/news/pentacast-40-hobbyastronomie.html+++http://ftp.c3d2.de/pentacast/pentacast-40-hobbyastronomie.mp3</guid><pubDate>Sun, 11 Dec 2011 00:19:13 GMT</pubDate><content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/pentacast.png" title="Pentacast" alt="Pentacast" class=""/><p class="">
-	  In dieser Folge von Pentacast berichtet unser Studiogast Robin Geyer
-	  ausführlich über den Bereich der Astronomie.  In mal wieder knapp drei
-	  epischen Stunden erfahren wir von den verschiedenen Himmelskörpern,
-	  bekommen einen Einblick in die verschiedenen Dimensionen und lernen über
-	  die verschiedenen Teleskoptechniken.
-  </p><p class="">
-	  Robin arbeitet als studentische Hilfskraft mit am Lohrmann-Observatorium.
-	  Dadurch hat er Einblicke in die professionelle Astronomie und kann auch
-	  ein paar Schwenks daraus berichten. Vertieft haben wir uns allerdings mit
-	  der Hobbyastronomie beschäftigt.
-  </p><p class="">
-	  Vielleicht können wir Euch mit dieser Episode dieses Atemberaubende Hobby
-	  etwas näher bringen.
-  </p><p class="">Shownotes:</p><ul>
-		<li><a href="http://www.pinguinstall.org/">Pinguinstall, seite von Robin Geyer</a></li>
-		<li><a href="http://pentamedia.org/pentacast/high-performance-computing">PC06: High performance computing</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Astronomie">WP: Astronomie</a></li>
-		<li><a href="http://tu-dresden.de/die_tu_dresden/zentrale_einrichtungen/zih/">ZIH an der TU-Dresden</a></li>
-		<li><a href="http://astro.geo.tu-dresden.de/">Institut für planetare Geodäsie an der TU-Dresden</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Geodäsie">WP: Geodäsie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sternenhimmel">WP: Sternenhimmel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Planet">WP: Planet</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Hans_Lipperhey">WP: Hans Lipperhey</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Galileo_Galilei">WP: Galileo Galilei</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sextant">WP: Sextant</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Fixstern">WP: Fixstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Erde">WP: Erde</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Polarstern">WP: Polarstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Zirkumpolar_(Astronomie)">WP: Zirkumpolarstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Äquator">WP: Äquator</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Zenit_(Richtungsangabe)">WP: Zenit</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Stern">WP: Stern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sonne">WP: Sonne</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Astro">WP: Astro (Stern)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Breitengrad">WP: Breitengrad</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Längengrad">WP: Längengrad</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lichtverschmutzung">WP: Lichtverschmutzung</a></li>
-		<li><a href="http://sofias.soup.io/post/159640535/Lichtverschmutzung-in-Europa-Zahl-der-sichtbaren-Sterne">Karte der Lichtverschmutzung in Europa</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Astrologie">WP: Astrologie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sternbild">WP: Sternbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Exoplanet">WP: Exoplanet</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Geozentrisches_Weltbild">WP: Geozentrisches Weltbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Isaac_Newton">WP: Isaac Newton</a></li>
-		<li><a href="http://sofias.soup.io/post/195701382/NdT-about-Sir-Isaac-Newton-Thats-my">Isaac Newton: That's my man</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Hubble-Weltraumteleskop">WP: Hubble</a></li>
-		<li><a href="http://www.raumzeit-podcast.de/2011/12/02/rz029-herschel-weltraumteleskop/">RZ26: Weltraumteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Himmelskörper">WP: Himmelskörper</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Mond">WP: Mond</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Satellit_(Astronomie)">WP: Mond (Satellit)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Komet">WP: Komet</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sternhaufen">WP: Sternhaufen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Planetarischer_Nebel">WP: Planetarischer Nebel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Reflexionsnebel">WP: Reflexionsnebel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Emissionsnebel">WP: Emissionsnebel</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Galaxie">WP: Galaxie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Andromedagalaxie">WP: Andromedagalaxie</a></li>
-		<li><a href="http://www.youtube.com/watch?v=0fKBhvDjuy0">To the power of 10</a></li>
-		<li><a href="http://www.youtube.com/watch?v=2LUQVzerseI">The Biggest Stars in the Universe</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Alpha_Centauri">WP: Alpha Centauri</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Spiralgalaxie">WP: Spiralgalaxie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Charles_Messier">WP: Charles Messier</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Messier-Katalog">WP: Messier Katalog</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/New_General_Catalogue">WP: NGC, New General Catalogue</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Deep_Sky">WP: Deep Sky</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Hale-Bopp">WP: Hale-Bopp</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Teleskop">WP: Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lichtsammelvermögen">WP: Lichtsammelvermögen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Teleskop">WP: Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Linsenteleskop">WP: Linsenteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Spiegelteleskop">WP: Spiegelteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Abbildungsfehler#Koma">WP: Koma (bei Spiegelteleskopen)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Okular">WP: Okular</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Beugungsbild#Beugung_an_Blenden">WP: Beugungsbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Kosmologie">WP: Kosmologie</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Öffnungsverhältnis">WP: Öffnungsverhältnis</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Brennweite">WP: Brennweite</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lichtausbeute">WP: Lichtausbeute</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Schmidt-Newton-Teleskop">WP: Schmidt-Newton-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Schmidt-Teleskop">WP: Schmidt-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Maksutov-Teleskop">WP: Maksutov-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Very_Large_Telescope#Very_Large_Telescope">WP: Very Large Telescope</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Nasmyth-Teleskop">WP: Nasmyth-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Ritchey-Chrétien-Cassegrain-Teleskop">WP: Ritchey Chrétien-Teleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Belichtungszeit">WP: Belichtungszeit</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Höhenwinkel">WP: Altitude</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Azimut">WP: Azimut</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Altazimut">WP: Altaz(imut)</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Deutsche_Montierung">WP: Deutsche Montierung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Goto-Montierung">WP: Goto-Montierung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Nachführung_(Astronomie)">WP: Nachführung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Polsucher">WP: Polsucher</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Deklination_(Astronomie)">WP: Deklinationsachse</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Rektaszension">WP: Rektaszensionsachse</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Scheiner-Methode">WP: Scheiner-Verfahren</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Luminanz">WP: Luminanz</a></li>
-		<li><a href="http://www.astrotreff.de/">Astrotreff</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Zapfen_(Auge)">WP: Zapfen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Stäbchen_(Auge)">WP: Stäbchen</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Doppelstern">WP: Doppelstern</a></li>
-		<li><a href="http://iraf.noao.edu/">IRAF</a></li>
-		<li><a href="http://www.giotto-software.de/">Giotto</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Sonnenbeobachtung">WP: Sonnenbeobachtung</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/H-alpha">WP: H-Alpha</a></li>
-		<li><a href="http://www.teleskop-service.de/Lunt_Solar/LUNT.htm">Lunt Sonnenteleskop</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Goto_(Teleskop)">WP: Autoguider</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Leitstern">WP: Leitstern</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Peltier-Element">WP: Peltier-Element</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Taupunkt">WP: Taupunkt</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Volkssternwarte">WP: Volkssternwarte</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Dunkelbild">WP: Dark frame / Dunkelbild</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Flatfield">WP: Flatfields / Weissbild</a></li>
-		<li><a href="http://www.cyanogen.com/">WP: Maxim DL</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Triebenberg">WP: Triebenberg</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/Lohrmann-Observatorium">WP: Lohrmann-Observatorium</a></li>
-		<li><a href="http://minorplanetcenter.net/iau/mpc.html">Minor Planet Center</a></li>
-		<li><a href="http://de.wikipedia.org/wiki/(99942)_Apophis">WP: Apophis</a></li>
-		<li><a href="http://www.minorplanetcenter.net/iau/lists/Unusual.html">Unusual List</a></li>
-		<li><a href="http://www.astrooptik.com/">Keller Astrooptik</a></li>
-		<li><a href="http://ascom-standards.org/">Ascom Schnitstelle</a></li>
-            </ul></div>]]></content:encoded><itunes:subtitle>pentacast 40: Hobbyastronomie</itunes:subtitle><itunes:author>CCC Dresden</itunes:author><atom:link rel="payment" href="https://flattr.com/submit/auto?user_id=coloradio&amp;url=http%3A%2F%2Fwww.c3d2.de%2Fnews%2Fpentacast-40-hobbyastronomie.html&amp;title=pentacast%2040%3A%20Hobbyastronomie&amp;description=%0A%09%20%20In%20dieser%20Folge%20von%20Pentacast%20berichtet%20unser%20Studiogast%20Robin%20Geyer%0A%09%20%20ausf%C3%BChrlich%20%C3%BCber%20den%20Bereich%20der%20Astronomie.%20%20In%20mal%20wieder%20knapp%20drei%0A%09%20%20epischen%20Stunden%20erfahren%20wir%20von%20den%20verschiedenen%20Himmelsk%C3%B6rpern%2C%0A%09%20%20bekommen%20einen%20Einblick%20in%20die%20verschiedenen%20Dimensionen%20und%20lernen%20%C3%BCber%0A%09%20%20die%20verschiedenen%20Teleskoptechniken.%0A%20%20&amp;language=de&amp;tags=audio,c3d2,podcast&amp;category=audio" type="text/html"/></item>
   </channel>
 </rss>
 

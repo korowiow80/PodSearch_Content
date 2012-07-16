@@ -28,7 +28,7 @@
         var SGL_JS_WEBROOT="https://www.podcaster.de";
         var SGL_JS_WINHEIGHT=500;
         var SGL_JS_WINWIDTH=600;
-        var SGL_JS_SESSID="PODCASTERDE=3339dfa427b765da812b60748485d205";
+        var SGL_JS_SESSID="PODCASTERDE=553215cf90e8ae118a87bba00b7bb98e";
         var SGL_JS_CURRURL="/start/";
         var SGL_JS_THEME="podcaster";
         var SGL_JS_ADMINGUI="0";
@@ -55,6 +55,9 @@
 					<div id="logo"><a href="https://www.podcaster.de" title="Start"></a><h1>podcaster.de</h1><h2>Der deutsche Podcast-Hoster für Audio- und Videopodcasts</h2></div>
 					<ul id="infomenu">
 												<li>
+                            <a href="https://www.podcaster.de/pakete/">Registrieren</a>
+						</li>
+						<li>
 							<a href="https://www.podcaster.de/anmeldung/" class="bold action_show_login_form" title="Anmelden">Anmelden</a>
 							<div id="login_box" style="display: none;">
 								<form action="https://www.podcaster.de/anmelden/" method="post" id="login_form">
@@ -69,7 +72,7 @@
 											<input type="password" class="text" name="frmPassword" id="login_password" maxlength="24" />
 										</fieldset>
 										<fieldset class="submit">
-											<input type="submit" name="submitted" class="login_button" value="Anmelden" />
+											<input type="submit" name="submitted" class="go-button narrow" value="Anmelden" />
 																					</fieldset>
 									</fieldset>
 								</form>
@@ -114,16 +117,15 @@
     			<span style="font-size: 26px;font-weight: bold;color:#3388CC;text-transform: uppercase;">Werde Podcaster!</span>
     		</p>
     		<p style="text-align:justify;">
-                Du hast der Welt etwas zu sagen? Wir sorgen dafür, dass man dich hört. Lade deine Audio-Dateien und Videos einfach hoch - den Rest erledigen wir.
-                <br /><br />
-                <a href="https://www.podcaster.de/pakete/" class="start-button" title="Unsere Hosting-Pakete">Wähle hier dein Paket aus</a>
+                Du hast der Welt etwas zu sagen? Wir sorgen dafür, dass man dich hört. Lade deine Audio-Dateien und Videos einfach hoch - den Rest erledigen wir.                <br /><br />
+                <a href="https://www.podcaster.de/pakete/"><button class="go-button">Wähle hier dein Paket aus</button></a>
             </p>
     	</div>
     </div>
 
     <div class="module_half right" style="padding-top:70px;">
         <p class="center">
-            <iframe scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:275px" allowtransparency="true" src="http://www.facebook.com/plugins/fan.php?id=141016532582424&amp;width=300&amp;connections=10&amp;stream=false&amp;header=false&amp;locale=de_DE"></iframe>
+            <iframe scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:275px" allowtransparency="true" src="https://www.facebook.com/plugins/fan.php?id=141016532582424&amp;width=300&amp;connections=10&amp;stream=false&amp;header=false&amp;locale=de_DE"></iframe>
         </p>
     </div>
 
@@ -150,7 +152,6 @@
                         <h6>Hilfe</h6>
                         <ul>
 							<li><a href="https://www.podcaster.de/faq/" title="In unserer FAQ findest du Antworten">FAQ</a></li>
-							<li><a href="https://www.podcaster.de/forum/" title="In unserem Forum kannst mit uns und anderen Podcastern diskutieren">Forum</a></li>
 	                        							<li><a href="https://www.podcaster.de/kontakt/" title="Kontaktiere uns, wenn du Fragen zum Dienst hast">Kontakt</a></li>
                             <li><a href="https://www.podcaster.de/audio-podcast-hosting/" title="Mehr über Audio Podcast Hosting">Audio Podcast Hosting</a></li>
                         </ul>
@@ -175,7 +176,6 @@
 					<li class="last">
 						<h6>Weitere Dienste</h6>
 						<ul>
-							<li><a class="externicon" href="http://blog.podcaster.de" title="Im Podcaster-Blog findest du Aktuelles rund um den Dienst">Podcaster-Blog</a></li>
 	                        <li><a class="externicon" href="http://twitter.com/podcasterDE" title="Folge uns bei Twitter für Neuigkeiten">Twitter</a></li>
 	                        <li><a class="externicon" href="https://www.facebook.com/podcast.hosting" title="Werde unser Fan auf Facebook!">Facebook</a></li>
 	                        							<li><a class="externicon" href="http://www.podcast.de" rel="nofollow" title="Deutschlands großes Podcast-Verzeichnis">podcast.de</a></li>

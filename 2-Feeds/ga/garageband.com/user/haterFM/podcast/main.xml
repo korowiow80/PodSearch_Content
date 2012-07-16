@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+
+	<title>Apple - GarageBand - Learn about Flex Time and other new features.</title>
+	<meta name="omni_page" content="iLife - GarageBand - What's New In GarageBand" />
+	<meta name="Description" content="In GarageBand ’11, you can perfect your rhythm with Flex Time and Groove Matching, learn guitar and piano and test your skills with &#34;How did I play?&#34;." />
+	<meta name="Keywords" content="music,mac,pc,software,application,songs,keyboard,guitar,lessons,piano,loops,record,mix,compose,instrument,amps,pedals,stompboxes,recording,musical" />
+	<script src="http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/ac_retina/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+<script src="http://images.apple.com/global/scripts/lib/event_mixins.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/swap_view.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/view_master_tracker.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	if (typeof(tracker) == 'undefined') {
+		tracker = false;
+	}
+
+	Event.onDOMReady(function() {
+		if (!tracker) {
+			tracker = new AC.ViewMaster.Tracker('click');
+			tracker.setDelegate({
+				sectionDidChange: function(tracker, view, incoming, id, properties) {
+					properties.prop24='gallery interaction';
+					return properties;
+				},
+				
+				QTdidBegin: function(tracker, properties){
+					properties.prop25='video playback';
+					return properties;
+				}
+			});
+
+		}
+	});
+</script>
+
+
+
+	
+
+<script src="http://images.apple.com/global/ac_media_player/scripts/ac_media.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="http://images.apple.com/global/ac_media_player/styles/ac_media.css" type="text/css" />
+
+
+
+
+	<script src="http://images.apple.com/global/scripts/audio_gallery.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://images.apple.com/global/ac_media_player/scripts/ac_media.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/circular_controller.js" type="text/javascript" charset="utf-8"></script>
+<!--[if IE]>
+	<script src="http://images.apple.com/global/scripts/lib/excanvas/excanvas.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/ac_html+time.js" type="text/javascript" charset="utf-8"></script>
+<![endif]-->
+<script type="text/javascript">
+	if (AC.Detector.isIE()) {
+		document.write('<style type="text/css">.audioLink { display: none !important; }<\/style>');
+	}
+	if (AC.Detector.isValidQTAvailable('7') || AC.Detector.isiPad() || AC.Detector.isMobile()) {
+		Event.onDOMReady(function() {
+			// set up the audio gallery player
+			var audioGallery = new AC.ViewMaster.AudioGallery(null, null, 'audioLink');
+		});
+	} else {
+		document.write('<style type="text/css">.audioLink { display: none !important; }<\/style>');
+	}
+</script>
+
+	<script src="http://images.apple.com/global/scripts/page_scroller.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/ilife/scripts/footerTracker.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/ilife/scripts/carousel_viewer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/ilife/scripts/carousel.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		Event.onDOMReady(function() {
+			
+			var heroSection = $$('#swap-hero .inlinevideo-section');
+			var hero = new AC.ViewMaster.Viewer(heroSection, 'swap-hero', 'trigger-hero', { silentTriggers:true, shouldAnimateOpacityAndHeight:true });
+			hero.didAppendContent(hero, heroSection);
+			hero.options.ensureInView = true;
+			
+			var flextimeSection = $$('#swap-flex-time .inlinevideo-section');
+			var flextime = new AC.ViewMaster.Viewer(flextimeSection, 'swap-flex-time', 'trigger-flex-time', { silentTriggers:true, shouldAnimateOpacityAndHeight:true });
+			flextime.didAppendContent(flextime, flextimeSection);
+			flextime.options.ensureInView = true;
+			
+			var ampsSection = $$('#swap-amps .inlinevideo-section');
+			var amps = new AC.ViewMaster.Viewer(ampsSection, 'swap-amps', 'trigger-amps', { silentTriggers:true, shouldAnimateOpacityAndHeight:true });
+			amps.didAppendContent(amps, ampsSection);
+			amps.options.ensureInView = true;
+			
+			var hdipSection = $$('#swap-how-did-i-play .inlinevideo-section');
+			var hdip = new AC.ViewMaster.Viewer(hdipSection, 'swap-how-did-i-play', 'trigger-how-did-i-play', { silentTriggers:true, shouldAnimateOpacityAndHeight:true });
+			hdip.didAppendContent(hdip, hdipSection);
+			hdip.options.ensureInView = true;
+		});
+	</script>
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/base.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/global/styles/overlay.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/ilife/garageband/a/styles/garageband.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/ilife/styles/overlay.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/ilife/styles/ilife.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/ilife/styles/garageband.css" type="text/css" />
+	<link rel="stylesheet" href="http://images.apple.com/ilife/styles/carousel.css" type="text/css" />
+</head>
+<body id="whatsnew" class="garageband whatsnew app">
+	<script type="text/javascript">
+	var searchSection = 'mac';
+	var searchCountry = 'us';
+</script>
+<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader" class="mac">
+	<!--googleoff: all-->
+	<ul id="globalnav" role="navigation">
+		<li id="gn-apple"><a href="/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://store.apple.com/"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/search/" method="post" class="search" id="g-search"><div class="sp-label">
+			<label for="sp-searchtext">Search</label>
+			<input type="text" name="q" id="sp-searchtext" accesskey="s" />
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</nav>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+
+
+
+
+	
+
+
+
+	
+
+
+<script type="text/javascript">
+/* RSID: */
+
+var s_account="appleglobal,appleusilife,appleusmac"
+
+</script>
+
+
+<script type="text/javascript" src="http://images.apple.com/metrics/scripts/s_code_h.js"></script>
+  
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (us)";
+s.channel="www.us.ilife"
+
+s.prop1="www.us.ilife.overview"
+
+
+
+s.prop25=s.c_r('s_ilife_nav');
+if(s.prop25) s.c_w('s_ilife_nav','');
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+	<div id="productheader">
+	<h2><a href="/ilife/">iLife ’11</a></h2>
+	<ul>
+		<li id="pn-iphoto"><a href="/ilife/iphoto/">iPhoto</a></li>
+		<li id="pn-imovie"><a href="/ilife/imovie/">iMovie</a></li>
+		<li id="pn-garageband"><a href="/ilife/garageband/">GarageBand</a></li>
+		<li id="pn-showcase"><a href="/ilife/video-showcase/">Video Showcase</a></li>
+		<li id="pn-resources"><a href="/ilife/resources/">Resources</a></li>
+
+
+	
+		<li><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewRoom?fcId=412903230&mt=12&id=29520" class="upgradenows">Upgrade to iLife ’11 now.</a></li>
+	
+	
+
+	</ul>
+</div>
+
+	<div id="main" class="content">
+		<div id="swap-hero">
+			<div class="inlinevideo-section">
+						<div id="hero">
+			<h1><img src="http://images.apple.com/ilife/garageband/images/title_20100727.png" width="330" height="93" alt="GarageBand ’11" /></h1>
+			<p class="intro">Welcome to the school of rock. A Mac-size practice space. Your own recording studio. If you want to learn to play an instrument, write music, or record a song, GarageBand has everything you need.</p>
+			<a href="/ilife/garageband/includes/whats-new-garageband.html#whats-new-garageband" class="trigger-hero">
+				<img src="http://images.apple.com/ilife/garageband/images/hero_video_thumb20101020.jpg" width="149" height="89" alt="" class="thumb"/>
+				<em class="more"> Watch the<br />GarageBand video</em>
+			</a>
+		</div>
+
+			</div>
+		</div>
+		<div class="nav-container">
+			<ul id="app-nav">
+				<li class="active">What’s New in GarageBand</li>
+				<li><a href="/ilife/garageband/what-is.html">What is GarageBand?</a></li>
+			</ul>
+			<div class="section grid5col" id="scroll-nav">
+				<a href="#flex-time" class="scrollToAnchor column first">
+					<img src="http://images.apple.com/ilife/garageband/images/scrollnav_flextime_20100727.jpg" width="140" height="100" alt="" />
+					<strong>Flex Time</strong>
+					Keep your songs in rhythm with this quick timing fix. <span class="more down">Read more</span>
+				</a>
+				<a href="#flex-time" class="scrollToAnchor column">
+					<img src="http://images.apple.com/ilife/garageband/images/scrollnav_groovematching_20100727.jpg" width="129" height="100" alt="" />
+					<strong>Groove Matching</strong>
+					Instantly match the rhythm of your whole band to a single track. <span class="more down">Read more</span>
+				</a>
+				<a href="#amps" class="scrollToAnchor column">
+					<img src="http://images.apple.com/ilife/garageband/images/scrollnav_amps_20100727.jpg" width="129" height="100" alt="" />
+					<strong>Guitar Amps and Effects</strong>
+					Re-create the sound of legendary guitar rigs and pedals. <span class="more down">Read more</span>
+				</a>
+				<a href="#how-did-i-play" class="scrollToAnchor column">
+					<img src="http://images.apple.com/ilife/garageband/images/scrollnav_howdidiplay_20100727.jpg" width="110" height="100" alt="" />
+					<strong>“How Did I Play?”</strong>
+					Put your skills to the test while you’re jamming on a lesson. <span class="more down">Read more</span>
+				</a>
+				<a href="#basic-lessons" class="scrollToAnchor column last">
+					<img src="http://images.apple.com/ilife/garageband/images/scrollnav_basiclessons_20100727.jpg" width="140" height="100" alt="" />
+					<strong>New Basic Lessons</strong>
+					Learn to play piano and guitar even better on your Mac. <span class="more down">Read more</span>
+				</a>
+			</div>
+		</div>
+		<div class="section" id="flex-time">
+			<div id="swap-flex-time">
+				<div class="inlinevideo-section">
+					<h2>Flex Time and Groove Matching</h2>
+					<div class="callout right">
+						<a href="/ilife/garageband/includes/flex-groove.html#flex-groove" class="thumb trigger-flex-time">
+							<img src="http://images.apple.com/ilife/garageband/images/callout_flex_groove_thumg20101006.jpg" width="160" height="100" alt="" />
+						</a>
+						<h4 class="nowrap">Keep perfect rhythm.</h4>
+						<p>See how Flex Time fixes simple timing mistakes in your recordings. <a href="/ilife/garageband/includes/flex-groove.html#flex-groove" class="trigger-flex-time more">Watch the video</a></p>
+					</div>
+
+					<p>Flex Time and Groove Matching are powerful tools that help you improve the rhythm and feel of your recordings. You can fix the timing of a note. Tighten the groove of your tracks. And easily create a great-sounding song.</p>
+				</div>
+			</div>
+
+			<img src="http://images.apple.com/ilife/garageband/images/carousel-flexgroove-01.jpg" class="onehundredpercent" width="769" height="556" alt="" />
+			<p class="caption">Flex Time and Groove Matching fix simple timing mistakes and perfect the rhythm in your recordings.</p>
+
+			<div class="grid2col clear">
+				<div class="column first">
+					<h3>Flex Time</h3>
+					<p>Your performance is about to get even tighter. Flex Time is a new tool that lets you quickly change the timing of your recording, so your song has perfect rhythm. Something sounds a little off? Use Flex Time to fix timing mistakes on the fly. Just click and drag any part of a waveform to change the timing of a note or beat. You can move, stretch, or shorten individual notes without changing the good parts of your recording. And Flex Time is great for creative inspiration: Extend guitar riffs, alter vocals, try different rhythms, and get new ideas. Your Flex Time edits are highlighted so you can easily see your changes. Click the Flex Time button at any time to compare your edits with the original performance.</p>
+				</div>
+				<div class="column last">
+					<h3>Groove Matching</h3>
+					<p>If you’re working with a bunch of different tracks — like a guitar, bass, keyboards, percussion, and a drum loop underneath it all — chances are that one (or all) of them could be a little out of rhythm. Groove Matching brings all your tracks together beautifully. Just select any track in your song and make it the Groove Track, and all other tracks instantly match it. If not every track needs adjusting, you can choose only the tracks you want. Groove Matching helps Apple Loops fit the feel of your song even better, too.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="section" id="amps">
+			<div id="swap-amps">
+				<div class="inlinevideo-section">
+					<div class="callout right">
+						<h4>Tear it up.</h4>
+						<a href="/ilife/garageband/includes/amps-and-effects.html#amps-and-effects" class="thumb trigger-amps">
+							<img src="http://images.apple.com/ilife/garageband/images/callout_amps_thumb_20100727.jpg" width="160" height="100" alt="" />
+						</a>
+						<p>Add guitar amps and effects to reproduce the sound of music’s most famous gear. <a href="/ilife/garageband/includes/amps-and-effects.html#amps-and-effects" class="trigger-amps more">Watch the video</a></p>
+					</div>
+					<h2>New Guitar Amps and Stompbox Effects</h2>
+					<p>GarageBand brings you seven new guitar amps for a total of 12. They’re modeled after the most revered gear in the world — from clean sounds to heavy distortion and everything in between. You can also reproduce the sound of classic foot pedals with five new stompbox effects, making 15 to choose from. Mix amps with stompboxes and find thousands of ways to rock. And with the Apogee GiO (sold separately), you can control GarageBand hands-free, so you don’t ever have to stop playing. The GiO lets you control stompbox effects, recording, and transport controls with your feet. Plug an electric guitar into your Mac, crank it up, and let it rip.</p>
+				</div>
+			</div>
+			
+			<div class="carousel-container" id="immersive-amps-carousel">
+				<ul class="carousel-view">
+					<li class="carousel-item amp-image-1" id="amp-image-1">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-01.jpg" width="529" height="533" alt="" />
+					</div>
+						<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_stadium_stack-us-20100727.mov?expectingMovieJson=false#Stadium" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_stadium_stack-us-20100727.mov?expectingMovieJson=false#Stadium" class="audioLink">Listen to the Stadium Stack Amp</a>
+						</div>
+					</li>
+					<li class="carousel-item amp-image-2" id="amp-image-2">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-02.jpg" width="529" height="533" alt="" />
+					</div>
+						<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_brownface_combo-us-20100727.mov?expectingMovieJson=false#Brownface" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_brownface_combo-us-20100727.mov?expectingMovieJson=false#Brownface" class="audioLink">Listen to the Brownface Combo Amp</a>
+						</div>
+					</li>
+					<li class="carousel-item amp-image-3" id="amp-image-3">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-03.jpg" width="529" height="533" alt="" />
+					</div>
+						<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_british_blues_combo-us-20100727.mov?expectingMovieJson=false#BritishBlues" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_british_blues_combo-us-20100727.mov?expectingMovieJson=false#BritishBlues" class="audioLink">Listen to the British Blues Combo Amp</a>
+						</div>
+					</li>
+					<li class="carousel-item amp-image-4" id="amp-image-4">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-04.jpg" width="529" height="533" alt="" />
+					</div>					
+							<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_large_tweed_combo-us-20100727.mov?expectingMovieJson=false#Tweed" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_large_tweed_combo-us-20100727.mov?expectingMovieJson=false#Tweed" class="audioLink">Listen to the Large Tweed Amp</a>
+						</div>
+					</li>
+					<li class="carousel-item amp-image-5" id="amp-image-5">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-05.jpg" width="529" height="533" alt="" />
+					</div>	
+						<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_octane_stack-us-20100727.mov?expectingMovieJson=false#Octane" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_octane_stack-us-20100727.mov?expectingMovieJson=false#Octane" class="audioLink">Listen to the Octane Stack Amp</a>
+						</div>
+					</li>
+					<li class="carousel-item amp-image-6" id="amp-image-6">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-06.jpg" width="529" height="533" alt="" />
+					</div>	
+						<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_studio_combo-us-20100727.mov?expectingMovieJson=false#StudioCombo" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_studio_combo-us-20100727.mov?expectingMovieJson=false#StudioCombo" class="audioLink">Listen to the Studio Combo Amp</a>
+						</div>
+					</li>
+					<li class="carousel-item amp-image-7" id="amp-image-7">
+					<div class="stomp-container onehundredpercent">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-amps-07.jpg" width="529" height="533" alt="" />
+					</div>	
+					<div class="audio-sample">
+							<a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_sunshine_stack-us-20100727.mov?expectingMovieJson=false#Sunshine" class="controller audioLink" title="Listen to Artist and song name."><img src="http://images.apple.com/ilife/images/circular_controller_button_20100727.png" alt="" width="28" height="28" /></a> <a href="http://movies.apple.com/media/us/mac/ilife/garageband/2010/audio/apple-ilife-garageband-audio-amps_and_stompboxes_sunshine_stack-us-20100727.mov?expectingMovieJson=false#Sunshine" class="audioLink">Listen to the Sunshine Stack Amp</a>
+						</div>
+					</li>					
+				</ul>
+				<ul class="carousel-nav seven-element">
+					<li class="carousel-nav-item">
+						<a href="#amp-image-1" class="carousel-link thumb-1"><b>Stadium Stack</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#amp-image-2" class="carousel-link thumb-2"><b>Brownface Combo</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#amp-image-3" class="carousel-link thumb-3"><b>British Blues Combo</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#amp-image-4" class="carousel-link thumb-4"><b>Large Tweed Combo</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#amp-image-5" class="carousel-link thumb-5"><b>Octane Stack</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#amp-image-6" class="carousel-link thumb-6"><b>Studio Combo</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#amp-image-7" class="carousel-link thumb-7"><b>Sunshine Stack</b></a>
+					</li>					
+				</ul>
+			</div>
+			
+		</div>
+		
+		<div class="section" id="how-did-i-play">
+			<div id="swap-how-did-i-play">
+				<div class="inlinevideo-section">
+					<div class="callout right">
+						<h4>Test your skills.</h4>
+						<a href="/ilife/garageband/includes/how-did-i-play.html#hdip" class="thumb trigger-how-did-i-play">
+							<img src="http://images.apple.com/ilife/garageband/images/callout_howdidiplay_thumb_20100727.jpg" width="160" height="100" alt="" />
+						</a>
+						<p>GarageBand listens to you play in real time and tells you how you’re doing. <a href="/ilife/garageband/includes/how-did-i-play.html#hdip" class="trigger-how-did-i-play more">Watch the video</a></p>
+					</div>
+					<h2>“How Did I Play?”</h2>
+					<p>First GarageBand taught you how to play. Now it tests your chops. As you play along with any lesson, record yourself. GarageBand listens in real time and tells you how you’re doing. You’ll see how well you played with colored notes, a progress bar, and a performance meter. You can check your rhythm and note accuracy, keep track of your progress, and beat your best score — all while perfecting your skills.</p>
+				</div>
+			</div>
+
+			<div class="carousel-container" id="immersive-hdip-carousel">
+				<ul class="carousel-view">
+					<li class="carousel-item hdip-image-1" id="hdip-image-1">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-hdip-01.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Record yourself as you play along with a guitar or piano lesson.</p>
+					</li>
+					<li class="carousel-item hdip-image-2" id="hdip-image-2">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-hdip-02.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">As you play, you'll see how you're doing and which areas need improvement.</p>
+					</li>
+					<li class="carousel-item hdip-image-3" id="hdip-image-3">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-hdip-03.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Keep track of your progress over time and see how far you've come.</p>
+					</li>
+					<li class="carousel-item hdip-image-4" id="hdip-image-4">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-hdip-04.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">The new two-page view lets you see your results in "How Did I Play?"</p>
+					</li>
+					<li class="carousel-item hdip-image-5" id="hdip-image-5">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-hdip-05.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">The Chord Trainer shows you where to place your fingers and what strings to play on your guitar.</p>
+					</li>
+				</ul>
+				<ul class="carousel-nav five-element">
+					<li class="carousel-nav-item">
+						<a href="#hdip-image-1" class="carousel-link thumb-1"><b>Play and Record</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#hdip-image-2" class="carousel-link thumb-2"><b>Test Yourself</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#hdip-image-3" class="carousel-link thumb-3"><b>Track Progress</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#hdip-image-4" class="carousel-link thumb-4"><b>Two-Page View</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#hdip-image-5" class="carousel-link thumb-5"><b>Chord Trainer</b></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="section last-section" id="basic-lessons">
+			<h2>New Lessons for Piano and Guitar</h2>
+			<div id="learn-pros" class="content">
+				<h4>Learn from the pros.</h4>
+				<p class="last">Master your favorite songs on guitar or piano with help from the artists who made them famous.*</p>
+				<img class="roundedbottomright" src="http://images.apple.com/ilife/garageband/images/learn_pros_norah_20100727.png" width="116" height="142" alt="" />
+			</div>
+			<p>With 22 new genre-based lessons (40 in all), you can pick up the basics of piano, guitar, or even both. Video demonstrations, synchronized notation, and instrument animations make lessons fun and easy to follow. And you can learn at your own pace. You’ll jam with the Blues Guitar and Rock Guitar series. You’ll master classical piano pieces by Bach, Beethoven, Mozart, or Chopin. And you’ll play Top 40-style piano with the Pop Piano series. The new built-in glossary is a great reference for tuning your guitar, changing strings, reading music, finding basic chords and scales, and more. With the Chord Trainer, you’ll master the most important guitar chords by shape, which makes it easier to keep them straight.</p>
+			
+			<div class="carousel-container" id="immersive-lessons-carousel">
+				<ul class="carousel-view">
+					<li class="carousel-item bl-image-1" id="bl-image-1">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-lessons-01.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Learn to play guitar with the help of HD instruction that shows you basic chords.</p>
+					</li>
+					<li class="carousel-item bl-image-2" id="bl-image-2">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-lessons-02.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Learn to play piano with an animated keyboard that shows you where to place your fingers.</p>
+					</li>
+					<li class="carousel-item bl-image-3" id="bl-image-3">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-lessons-03.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Right from GarageBand, you can download basic guitar lessons, piano lessons, and Artist Lessons.</p>
+					</li>
+					<li class="carousel-item bl-image-4" id="bl-image-4">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-lessons-04.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Download basic guitar lessons that continue from the first lesson installed on your Mac.</p>
+					</li>					
+					<li class="carousel-item bl-image-5" id="bl-image-5">
+						<img src="http://images.apple.com/ilife/garageband/images/carousel-lessons-05.jpg" class="onehundredpercent" width="769" height="533" alt="" />
+						<p class="caption">Learn to play piano with lessons included in GarageBand, and download even more.</p>
+					</li>
+				</ul>
+				<ul class="carousel-nav six-element">
+					<li class="carousel-nav-item">
+						<a href="#bl-image-1" class="carousel-link thumb-1"><b>Animated Guitar</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#bl-image-2" class="carousel-link thumb-2"><b>Animated Keyboard</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#bl-image-3" class="carousel-link thumb-3"><b>Lesson Store</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#bl-image-4" class="carousel-link thumb-4"><b>Guitar Lessons</b></a>
+					</li>
+					<li class="carousel-nav-item">
+						<a href="#bl-image-5" class="carousel-link thumb-5"><b>Piano Lessons</b></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<section class="garageband-everywhere ios row clear">
+			<div class="grid2col">
+				<div class="column first">
+					<h3>GarageBand everywhere.</h3>
+					<p>All versions of GarageBand are built from the same technology developed for <a href="/logicstudio/">Logic Pro</a> — the application used in professional recording studios around the world. So you can create great-sounding songs anywhere you go. Easily move and share projects between all your iOS devices, or open them in GarageBand for Mac and take them even further.</p>
+					<div class="getgarageband">
+						<a href="http://itunes.apple.com/us/app/garageband/id408980954?mt=12" class="more">Upgrade to GarageBand ‘11. <br />Just $14.99 from the Mac App Store</a>
+					</div>
+				</div>
+				<div class="column last">
+					<figure class="first">				
+						<img src="http://images.apple.com/ilife/garageband/images/garageband_mac.png" alt="" width="287" height="176" />
+						<figcaption>
+							<h3>GarageBand for Mac</h3>
+							<p>GarageBand for Mac works with any Mac running OS X v10.6.6 or later.</p>
+						</figcaption>						
+					</figure>
+					<figure class="last">
+						<img src="http://images.apple.com/ilife/garageband/images/garageband_ios.png" alt="" width="206" height="144" />
+						<figcaption>
+							<h3>GarageBand for iOS</h3>
+							<p>GarageBand for iOS works with iPhone 3GS, iPhone 4, iPhone 4S, iPod touch (3rd and 4th generation),<br />iPad, and iPad 2.</p>
+							<span><a href="/apps/garageband/" class="more">Learn more about GarageBand for iOS</a></span>
+						</figcaption>						
+					</figure>					
+				</div>
+			</div>
+		</section>
+		
+		<ul id="bottom-nav">
+			<li id="left"><a class="lesslarge" href="/ilife/imovie/">iMovie</a></li>
+			<li id="app-switch"><a class="morelarge" href="/ilife/garageband/what-is.html">What is GarageBand?</a></li>
+		</ul>
+	</div><!--/main-->
+
+	<div id="promofooter">
+	<ul id="promos">
+		<li class="promo">
+	<h4><a href="/apps/garageband/"><img src="http://images.apple.com/promos/2011/ios_garageband/header_20111005.png" width="214" height="17" alt="GarageBand for iOS."></a></h4>
+	<p><a href="/apps/garageband/">Play and record Touch Instruments on your iPad, iPhone, and iPod touch.</a></p>
+	<a class="image" href="/apps/garageband/"><img src="http://images.apple.com/promos/2011/ios_garageband/image_20111005.png" width="244" height="180" alt="" /></a>
+</li>
+	
+		<li class="promo right">
+	<h4><a href="http://store.apple.com/us/product/H4990ZM/B?mco=MTY3ODQ5OTY"><img src="http://images.apple.com/promos/2011/ipad_apogee_jam/header_20110311.png" width="214" height="35" alt="Plug it in. Tear it up."></a></h4>
+	<p><a href="http://store.apple.com/us/product/H4990ZM/B?mco=MTY3ODQ5OTY">Connect a guitar to your iPad or iPhone with Apogee Jam.</a></p>
+	<a class="image" href="http://store.apple.com/us/product/H4990ZM/B?mco=MTY3ODQ5OTY"><img src="http://images.apple.com/promos/2011/ipad_apogee_jam/image_20111102.png" width="244" height="180" alt="" /></a>
+</li>
+
+		<li class="promo">
+	<h4><a href="/logicpro/garageband-to-logic/"><img src="http://images.apple.com/promos/2009/garagebandtologic/header20090721.png" alt="Kick it up a notch." width="214" height="17" /></a></h4>
+	<p><a href="/logicpro/garageband-to-logic/">Open your GarageBand projects in Logic and take them to a whole new level.</a></p>
+	<a class="image" href="/logicpro/garageband-to-logic/"><img src="http://images.apple.com/promos/2009/garagebandtologic/image20111130.png" alt="" width="244" height="180" /></a>
+</li>
+		<li class="promo">
+	<h4><a href="http://gc.guitarcenter.com/recording-made-easy/"><img src="http://images.apple.com/promos/2011/guitar_center/header_20110504.png" width="214" height="17" alt="GarageBand at Guitar Center" /></a></h4>
+	<p><a href="http://gc.guitarcenter.com/recording-made-easy/">Learn GarageBand recording basics at Guitar Center's free workshops.</a></p>
+	<a class="image" href="http://gc.guitarcenter.com/recording-made-easy/"><img src="http://images.apple.com/promos/2011/guitar_center/image_20110504.png" width="240" height="175" alt="" /></a>
+</li>
+
+	</ul>
+</div>
+
+	<ul class="sosumi">
+	<li>*Artist Lessons are sold separately through GarageBand in select countries.</li>
+</ul>
+
+
+	<div id="globalfooter">
+		<div id="breadory">
+			<ol id="breadcrumbs">
+				<li class="home"><a href="/">Home</a></li>
+				<li><a href="/mac/">Mac</a></li>
+				<li><a href="/ilife/">iLife ’11</a></li>
+				<li><a href="/ilife/garageband/">GarageBand</a></li>
+				<li>What’s New in GarageBand</li>
+			</ol>
+			<!--googleoff: all-->
+<div id="directorynav" class="mac">
+	<div id="dn-cola" class="column first">
+		<h3>Macs</h3>
+		<ul>
+			<li><a href="/macbookair/">MacBook Air</a></li>
+			<li><a href="/macbook-pro/">MacBook Pro</a></li>
+			<li><a href="/macmini/">Mac mini</a></li>
+			<li><a href="/macmini/server/">Mac mini server</a></li>
+			<li><a href="/imac/">iMac</a></li>
+			<li><a href="/macpro/">Mac Pro</a></li>
+		</ul>
+		<h3>Considering a Mac</h3>
+		<ul>
+			<li><a href="/why-mac/">Why you&rsquo;ll love a Mac</a></li>
+			<li><a href="/why-mac/compare/">Compare all Macs</a></li>
+			<li><a href="/why-mac/faq/">FAQs</a></li>
+			<li><a href="/why-mac/try-a-mac/">Try a Mac</a></li>
+		</ul>
+	</div>
+	<div id="dn-colb" class="column">
+		<h3>Accessories</h3>
+		<ul>
+			<li><a href="/magicmouse/">Magic Mouse</a></li>
+			<li><a href="/magictrackpad/">Magic Trackpad</a></li>
+			<li><a href="/keyboard/">Apple Wireless Keyboard</a></li>
+			<li><a href="/displays/">Thunderbolt Display</a></li>
+			<li><a href="/airportexpress/">AirPort Express</a></li>
+			<li><a href="/airportextreme/">AirPort Extreme</a></li>
+			<li><a href="/timecapsule/">Time Capsule</a></li>
+		</ul>
+		<h3>OS X</h3>
+		<ul>
+			<li><a href="/osx/">OS X Mountain Lion</a></li>
+			<li><a href="/osx/server/">OS X Server</a></li>
+		</ul>
+		
+	</div>
+	<div id="dn-colc" class="column">
+		<h3>Applications</h3>
+		<ul>
+			<li><a href="/ilife/">iLife</a></li>
+			<li><a href="/iwork/">iWork</a></li>
+			<li><a href="/ibooks-author/">iBooks Author</a></li>
+			<li><a href="/aperture/">Aperture</a></li>
+			<li><a href="/finalcutpro/">Final Cut Pro</a></li>
+			<li><a href="/finalcutpro/motion/">Motion</a></li>
+			<li><a href="/finalcutpro/compressor/">Compressor</a></li>
+			<li><a href="/logicpro/">Logic Pro</a></li>
+			<li><a href="/logicpro/mainstage/">MainStage</a></li>
+			<li><a href="/remotedesktop/">Remote Desktop</a></li>
+			<li><a href="/safari/">Safari</a></li>
+			<li><a href="/quicktime/">QuickTime</a></li>
+			<li><a href="/osx/apps/app-store.html">Mac App Store</a></li>
+		</ul>
+	</div>
+	<div id="dn-cold" class="column last">
+		<h3>Markets</h3>
+		<ul>
+			<li><a href="/business/mac/">Business</a></li>
+			<li><a href="/pro/">Creative Pro</a></li>
+			<li><a href="/education/">Education</a></li>
+			<li><a href="/students/">Students</a></li>
+			<li><a href="/science/">Science</a></li>
+		</ul>
+		<h3>Support</h3>
+		<ul>
+			<li><a href="/support/products/">AppleCare</a></li>
+			<li><a href="/support/">Online Support</a></li>
+			<li><a href="http://store.apple.com/us/help/contact">Telephone Sales</a></li>
+			<li><a href="/retail/geniusbar/">Genius Bar</a></li>
+			<li><a href="/retail/learn/">Workshops</a></li>
+			<li><a href="/retail/learn/one-to-one/">One to One</a></li>
+		</ul>
+	</div>
+	<div class="capbottom"></div>
+</div>
+<!--googleon: all-->
+
+		</div><!--/breadory-->
+		<p class="gf-buy">Shop the <a href="http://store.apple.com/us">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="/retail/">Apple Retail Store</a>, or find a <a href="/buy/">reseller</a>.</p>
+
+<ul class="gf-links piped">
+	<li><a href="/about/" class="first">Apple Info</a></li>
+	<li><a href="/sitemap/">Site Map</a></li>
+	<li><a href="/hotnews/">Hot News</a></li>
+	<li><a href="/rss/">RSS Feeds</a></li>
+	<li><a href="/contact/" class="contact_us">Contact Us</a></li>
+	<li><a href="/choose-your-country/" class="choose"><img src="http://images.apple.com/global/elements/flags/22x22/usa.png" alt="Choose your country or region" width="22" height="22" data-hires="true" /></a></li>
+</ul>
+
+<div class="gf-sosumi">
+	<p>Copyright © 2012 Apple Inc. All rights reserved.</p>
+	<ul class="piped">
+		<li><a href="/legal/terms/site.html" class="first">Terms of Use</a></li>
+		<li><a href="/privacy/">Privacy Policy</a></li>
+	</ul>
+</div>
+
+	</div><!--/globalfooter-->
+</body>
+</html>
