@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dcterms="http://purl.org/dc/terms/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dcterms="http://purl.org/dc/terms/">
   <channel>
     <title>PodHead</title>
     <link>http://thedoorwhores.podomatic.com</link>
@@ -17,7 +17,7 @@ AND DON'T FORGET TO BUY US STUFF!!  cLICK THE LINK!
 </description>
     <language>en-us</language>
     <generator>podOmatic RSS Generator</generator>
-    <pubDate>Fri, 23 Mar 2012 00:30:22 GMT</pubDate>
+    <pubDate>Fri, 29 Jun 2012 23:12:41 GMT</pubDate>
     <itunes:keywords>comedy,crazy,creative,dumb,entertaining,explicit,funny,girls,goofy,high,hot,intelligent,marijuana,off,sexy,smoke,wall,weed,whores</itunes:keywords>
     <itunes:subtitle>Don't Knock It 'Til You Try It!!!</itunes:subtitle>
     <itunes:owner>
@@ -41,13 +41,15 @@ AND DON'T FORGET TO BUY US STUFF!!  cLICK THE LINK!
   
 </itunes:summary>
     <itunes:category text="Comedy"/>
-    <atom:link type="application/rss+xml" rel="self" href="http://thedoorwhores.podomatic.com/rss2.xml"/>
+    <atom:link type="application/rss+xml" href="http://thedoorwhores.podomatic.com/rss2.xml" rel="self"/>
     <item>
       <title>Yuraimig's podcast</title>
-      <description>&lt;img src=&quot;http://assets.podomatic.net/mymedia/thumb/14195/600x600_609962.jpg&quot; alt=&quot;itunes pic&quot; /&gt;&lt;br /&gt;</description>
+      <description>
+        <![CDATA[<img src="http://assets.podomatic.net/mymedia/thumb/14195/600x600_609962.jpg" alt="itunes pic" /><br />]]>
+      </description>
       <guid isPermaLink="true">http://thedoorwhores.podomatic.com/entry/2007-12-12T10_20_11-08_00</guid>
       <comments>http://thedoorwhores.podomatic.com/entry/2007-12-12T10_20_11-08_00</comments>
-      <pubDate>Fri, 08 Jun 2007 22:47:48 GMT</pubDate>
+      <pubDate>Wed, 12 Dec 2007 18:20:11 GMT</pubDate>
       <dcterms:modified>2011-05-18</dcterms:modified>
       <dcterms:created>2007-06-08</dcterms:created>
       <link>http://thedoorwhores.podomatic.com</link>
@@ -58,10 +60,13 @@ AND DON'T FORGET TO BUY US STUFF!!  cLICK THE LINK!
       <itunes:duration>1707</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:summary></itunes:summary>
+      <itunes:subtitle></itunes:subtitle>
     </item>
     <item>
       <title>Off To Vegas</title>
-      <description>We're off to Vegas!!!  Finally!!  We've been talkin' about it forever... and we update some other shit....</description>
+      <description>
+        <![CDATA[We're off to Vegas!!!  Finally!!  We've been talkin' about it forever... and we update some other shit....]]>
+      </description>
       <guid isPermaLink="true">http://thedoorwhores.podomatic.com/entry/2007-12-12T10_20_11-08_00</guid>
       <comments>http://thedoorwhores.podomatic.com/entry/2007-12-12T10_20_11-08_00</comments>
       <pubDate>Wed, 12 Dec 2007 18:20:11 GMT</pubDate>
@@ -74,6 +79,7 @@ AND DON'T FORGET TO BUY US STUFF!!  cLICK THE LINK!
       <itunes:duration>1707</itunes:duration>
       <itunes:explicit>yes</itunes:explicit>
       <itunes:summary>We're off to Vegas!!!  Finally!!  We've been talkin' about it forever... and we update some other shit....</itunes:summary>
+      <itunes:subtitle>We're off to Vegas!!!  Finally!!  We've been talkin' about it forever... and we update some other...</itunes:subtitle>
     </item>
   </channel>
 </rss>
